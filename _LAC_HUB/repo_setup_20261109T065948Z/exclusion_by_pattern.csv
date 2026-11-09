@@ -1,0 +1,7 @@
+pattern,files,bytes,MB
+Executables/,445,674992569,675.0
+/_LAC_HUB/**/downloads/,537,319329500,319.3
+*.zip,4,6023764,6.0
+backups/,6,393968,0.4
+__pycache__/,11,162258,0.2
+backup/,4,3169,0.0
