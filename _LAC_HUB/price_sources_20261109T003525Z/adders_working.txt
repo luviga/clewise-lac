@@ -1,0 +1,66 @@
+Benchmarks 2024 USD/GJ: GSL=18.021, DSL=16.719, JET=17.278, KER=17.396, LPG=8.055, CRU=13.935, NGS=2.079, COA=4.211, COK=2.806, FOI=11.343, AVG=28.455
+Exchange rates: CR: 518.23 CRC/USD, mean of 366 daily BCCR reference selling rates 2024 (https://sdd.bccr.fi.cr/es/IndicadoresEconomicos/Inicio/Contenedor/6?Cuadro=1); DR: 59.5665 DOP/USD, BCRD 2024 annual average selling rate, sheet PromAnual (https://cdn.bancentral.gov.do/documents/estadisticas/mercado-cambiario/documents/TASA_DOLAR_REFERENCIA_MC.xlsx); GUA: 7.7596 GTQ/USD, mean of 366 daily Banguat reference rates 2024 (https://www.banguat.gob.gt/variables/ws/TipoCambio.asmx, TipoCambioRango); JAM: 157.22 JMD/USD, Bank of Jamaica 2024 annual weighted average selling rate (https://boj.org.jm/market/foreign-exchange/average-exchange-rates/)
+
+CostaRica DSL: COA 331.11 CRC/L (12 months) and RECOPE margin K 38.42 CRC/L at 518.23 CRC/USD | benchmark 16.719 | import cost 17.099 | import adder 0.38 | margin 1.984 | adder 2.364
+CostaRica GSL: COA 299.80 CRC/L (12 months) and RECOPE margin K 37.68 CRC/L at 518.23 CRC/USD | benchmark 18.021 | import cost 17.648 | import adder -0.373 | margin 2.218 | adder 1.845
+CostaRica JET: COA 343.16 CRC/L (12 months) and RECOPE margin K 68.20 CRC/L at 518.23 CRC/USD | benchmark 17.278 | import cost 18.53 | import adder 1.252 | margin 3.683 | adder 4.934
+CostaRica KER: COA 343.16 CRC/L (12 months) and RECOPE margin K 35.38 CRC/L at 518.23 CRC/USD | benchmark 17.396 | import cost 18.656 | import adder 1.26 | margin 1.923 | adder 3.184
+CostaRica LPG: COA 142.28 CRC/L (12 months) and RECOPE margin K 32.52 CRC/L at 518.23 CRC/USD; of which ARESEP 'Precio FOB estimado' 8.364 USD/GJ and freight+insurance+port 2.380 USD/GJ | benchmark 8.055 | import cost 10.744 | import adder 2.689 | margin 2.456 | adder 5.145
+CostaRica FOI: COA 254.30 CRC/L (12 months) and RECOPE margin K 63.58 CRC/L at 518.23 CRC/USD; of which ARESEP 'Precio FOB estimado' 11.387 USD/GJ and freight+insurance+port 1.395 USD/GJ | benchmark 11.343 | import cost 12.782 | import adder 1.439 | margin 3.196 | adder 4.635
+CostaRica AVG: COA 598.89 CRC/L (12 months) and RECOPE margin K 82.57 CRC/L at 518.23 CRC/USD | benchmark 28.455 | import cost 35.748 | import adder 7.293 | margin 4.929 | adder 12.221
+CostaRica NGS: no regulated price; RECOPE does not handle this fuel | benchmark 2.079 | import cost None | import adder None | margin None | adder None
+CostaRica COA: no regulated price; RECOPE does not handle this fuel | benchmark 4.211 | import cost None | import adder None | margin None | adder None
+CostaRica COK: no regulated price; RECOPE does not handle this fuel | benchmark 2.806 | import cost None | import adder None | margin None | adder None
+DominicanRepublic DSL: MICM paridad de importacion 151.38 DOP/gal and distributor margin 5.24 DOP/gal (50 weeks) at 59.5665 DOP/USD | benchmark 16.719 | import cost 17.967 | import adder 1.248 | margin 0.622 | adder 1.87
+DominicanRepublic GSL: MICM paridad de importacion 144.15 DOP/gal and distributor margin 15.95 DOP/gal (47 weeks) at 59.5665 DOP/USD | benchmark 18.021 | import cost 19.502 | import adder 1.481 | margin 2.158 | adder 3.639
+DominicanRepublic LPG: MICM paridad de importacion 85.18 DOP/gal and distributor margin 11.16 DOP/gal (46 weeks) at 59.5665 DOP/USD | benchmark 8.055 | import cost 14.783 | import adder 6.728 | margin 1.936 | adder 8.664
+DominicanRepublic KER: MICM paridad de importacion 159.84 DOP/gal and distributor margin 9.10 DOP/gal (48 weeks) at 59.5665 DOP/USD | benchmark 17.396 | import cost 19.972 | import adder 2.576 | margin 1.137 | adder 3.713
+DominicanRepublic JET: MICM paridad de importacion 161.51 DOP/gal and distributor margin 15.53 DOP/gal (50 weeks) at 59.5665 DOP/USD | benchmark 17.278 | import cost 20.044 | import adder 2.766 | margin 1.927 | adder 4.693
+DominicanRepublic FOI: MICM paridad de importacion 115.62 DOP/gal and distributor margin 1.54 DOP/gal (50 weeks) at 59.5665 DOP/USD | benchmark 11.343 | import cost 13.357 | import adder 2.014 | margin 0.178 | adder 2.192
+DominicanRepublic NGS: MICM importer selling price to wholesaler 716.72 DOP/MMBtu (49 weeks) at 59.5665 DOP/USD; margin included in the price | benchmark 2.079 | import cost 11.404 | import adder 9.325 | margin 0.0 | adder 9.325
+DominicanRepublic COA: no published delivered coal price opened (OC-SENI not opened) | benchmark 4.211 | import cost None | import adder None | margin None | adder None
+DominicanRepublic COK: no published price | benchmark 2.806 | import cost None | import adder None | margin None | adder None
+DominicanRepublic CRU: no published crude import cost opened | benchmark 13.935 | import cost None | import adder None | margin None | adder None
+Guatemala DSL: MEM Precio CIF 19.96 GTQ/gal (31 weeks) plus importer margin 1.90 and other costs 0.25 GTQ/gal at 7.7596 GTQ/USD; MEM FOB US Gulf 17.77 GTQ/gal (205 days) so CIF-FOB = 1.991 USD/GJ | benchmark 16.719 | import cost 18.184 | import adder 1.465 | margin 1.958 | adder 3.423
+Guatemala GSL: MEM Precio CIF 18.70 GTQ/gal (31 weeks) plus importer margin 2.18 and other costs 0.25 GTQ/gal at 7.7596 GTQ/USD; MEM FOB US Gulf 17.89 GTQ/gal (205 days) so CIF-FOB = 0.842 USD/GJ | benchmark 18.021 | import cost 19.418 | import adder 1.397 | margin 2.52 | adder 3.917
+Guatemala FOI: MEM ex-rack Puerto San Jose structure: Precio CIF 11.61 GTQ/gal (31 weeks), importer margin 4.76, terminal 0.24, port 0.1436 GTQ/gal at 7.7596 GTQ/USD; MEM monthly unit import value 78.14 USD/bbl (12 months) = 12.802 USD/GJ | benchmark 11.343 | import cost 10.3 | import adder -1.043 | margin 4.562 | adder 3.519
+Guatemala LPG: MEM 25 lb cylinder structure: Precio CIF 50.35 GTQ/cylinder (31 weeks) plus importer margin 3.23 GTQ/cylinder; 25 lb = 11.340 kg; NCV 47.3 GJ/t | benchmark 8.055 | import cost 12.098 | import adder 4.043 | margin 0.776 | adder 4.819
+Guatemala KER: kerosene imported in one month only (71 bbl) | benchmark 17.396 | import cost None | import adder None | margin None | adder None
+Guatemala NGS: no natural gas imports or published price | benchmark 2.079 | import cost None | import adder None | margin None | adder None
+Guatemala COA: no published coal price | benchmark 4.211 | import cost None | import adder None | margin None | adder None
+Guatemala COK: MEM petcoke unit value is reported per barrel; unit doubtful, not used | benchmark 2.806 | import cost None | import adder None | margin None | adder None
+Honduras DSL: SEN annual report 2024 CIF unit value 109.83 USD/bbl (CIF value / volume) | benchmark 16.719 | import cost 18.487 | import adder 1.768 | margin None | adder 1.768
+Honduras GSL: SEN annual report 2024 CIF unit value 94.48 USD/bbl (CIF value / volume) | benchmark 18.021 | import cost 18.129 | import adder 0.108 | margin None | adder 0.108
+Honduras KER: SEN annual report 2024 CIF unit value 106.16 USD/bbl (CIF value / volume) | benchmark 17.396 | import cost 18.813 | import adder 1.416 | margin None | adder 1.416
+Honduras FOI: CREE actual monthly bunker price for generation 73.56 USD/bbl (12 months); delivered price, margins included | benchmark 11.343 | import cost 12.052 | import adder 0.709 | margin 0.0 | adder 0.709
+Honduras LPG: SEN/CCHAC bulletin 25 lb cylinder: FOB 4.578, import parity 6.302, importer margin 0.310 USD/cylinder (25 weeks, Jan-Jul); 25 lb = 11.340 kg | benchmark 8.055 | import cost 11.75 | import adder 3.695 | margin 0.578 | adder 4.273
+Honduras NGS: no published 2024 price | benchmark 2.079 | import cost None | import adder None | margin None | adder None
+Honduras COA: no published 2024 price | benchmark 4.211 | import cost None | import adder None | margin None | adder None
+Honduras COK: no published 2024 price | benchmark 2.806 | import cost None | import adder None | margin None | adder None
+Jamaica LPG: UN Comtrade Jamaica imports 2024 HS 271112 propane CIF 427.47 USD/t; NCV 47.3 GJ/t | benchmark 8.055 | import cost 9.037 | import adder 0.982 | margin None | adder 0.982
+Jamaica NGS: OUR investigation report Dec 2024: natural gas price to JPS and IPP plants 10.39 USD/MMBtu (8 plant-months, June-July 2024) | benchmark 2.079 | import cost 9.847 | import adder 7.768 | margin 0.0 | adder 7.768
+Jamaica FOI: OUR investigation report Dec 2024: HFO price to JPS and IPP plants 13.48 USD/MMBtu (8 plant-months, June-July 2024) | benchmark 11.343 | import cost 12.773 | import adder 1.43 | margin 0.0 | adder 1.43
+Jamaica DSL: no published pre-tax price; Petrojam site not retrievable | benchmark 16.719 | import cost None | import adder None | margin None | adder None
+Jamaica GSL: no published pre-tax price; Petrojam site not retrievable; Comtrade HS 271012 CIF 759.29 USD/t = 17.140 USD/GJ is below the USGC benchmark, so not used | benchmark 18.021 | import cost None | import adder None | margin None | adder None
+Jamaica KER: no published pre-tax price; Petrojam site not retrievable | benchmark 17.396 | import cost None | import adder None | margin None | adder None
+Jamaica JET: no published pre-tax price; Petrojam site not retrievable | benchmark 17.278 | import cost None | import adder None | margin None | adder None
+Jamaica COA: no published price (Comtrade coal value has no weight) | benchmark 4.211 | import cost None | import adder None | margin None | adder None
+Jamaica COK: no published price (Comtrade coal value has no weight) | benchmark 2.806 | import cost None | import adder None | margin None | adder None
+Ecuador DSL: EP Petroecuador Informe Estadistico 2024 import unit value all diesel (value-weighted Diesel 2 and Premium) 105.26 USD/bbl (DPU basis: freight included, insurance excluded) | benchmark 16.719 | import cost 17.718 | import adder 0.999 | margin None | adder 0.999
+Ecuador GSL: EP Petroecuador Informe Estadistico 2024 import unit value all naphtha (value-weighted RON 95 and RON 80) 104.93 USD/bbl (DPU basis: freight included, insurance excluded) | benchmark 18.021 | import cost 20.133 | import adder 2.112 | margin None | adder 2.112
+Ecuador JET: EP Petroecuador Informe Estadistico 2024 import unit value Jet A-1 (7 months with imports) 131.72 USD/bbl (DPU basis: freight included, insurance excluded) | benchmark 17.278 | import cost 23.184 | import adder 5.906 | margin None | adder 5.906
+Ecuador LPG: EP Petroecuador 2024 LPG import unit value 556.59 USD/t (DPU basis) | benchmark 8.055 | import cost 11.767 | import adder 3.712 | margin None | adder 3.712
+Ecuador FOI: no fuel oil imports in 2024; Ecuador exports fuel oil No. 6 (export FOB 61.68 USD/bbl) | benchmark 11.343 | import cost None | import adder None | margin None | adder None
+Ecuador KER: no 2024 import cost published | benchmark 17.396 | import cost None | import adder None | margin None | adder None
+Ecuador CRU: no 2024 import cost published | benchmark 13.935 | import cost None | import adder None | margin None | adder None
+Ecuador NGS: no 2024 import cost published | benchmark 2.079 | import cost None | import adder None | margin None | adder None
+Ecuador COA: no 2024 import cost published | benchmark 4.211 | import cost None | import adder None | margin None | adder None
+Ecuador COK: no 2024 import cost published | benchmark 2.806 | import cost None | import adder None | margin None | adder None
+
+Observed-set statistics by fuel (regulator price structures only):
+DSL: n=3, adder_med=2.364, adder_min=1.87, adder_max=3.423, imp_med=1.248, mg_med=1.958, mg_min=0.622, mg_max=1.984, who=CostaRica, DominicanRepublic, Guatemala
+GSL: n=3, adder_med=3.639, adder_min=1.845, adder_max=3.917, imp_med=1.397, mg_med=2.218, mg_min=2.158, mg_max=2.52, who=CostaRica, DominicanRepublic, Guatemala
+KER: n=2, adder_med=3.448, adder_min=3.184, adder_max=3.713, imp_med=1.918, mg_med=1.53, mg_min=1.137, mg_max=1.923, who=CostaRica, DominicanRepublic
+JET: n=2, adder_med=4.813, adder_min=4.693, adder_max=4.934, imp_med=2.009, mg_med=2.805, mg_min=1.927, mg_max=3.683, who=CostaRica, DominicanRepublic
+LPG: n=4, adder_med=4.982, adder_min=4.273, adder_max=8.664, imp_med=3.869, mg_med=1.356, mg_min=0.578, mg_max=2.456, who=CostaRica, DominicanRepublic, Guatemala, Honduras
+FOI: n=3, adder_med=3.519, adder_min=2.192, adder_max=4.635, imp_med=1.439, mg_med=3.196, mg_min=0.178, mg_max=4.562, who=CostaRica, DominicanRepublic, Guatemala

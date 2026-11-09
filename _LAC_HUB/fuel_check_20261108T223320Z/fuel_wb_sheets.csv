@@ -1,0 +1,15 @@
+sheet,max_row,max_col,nonempty_cells,formula_cells,formula_cells_without_cached_value
+README,57,4,47,0,0
+Sources,39,5,182,0,0
+Anchors_International,51,7,292,0,0
+Anchors_Countries,51,11,509,0,0
+Anchors_Parameters,40,5,140,1,0
+Scenarios,40,13,445,378,0
+Current_Snapshot,10,10,72,42,0
+Country_HND,38,22,757,693,0
+Country_CRI,38,22,757,693,0
+Country_JAM,74,22,886,786,0
+Country_DOM,74,22,886,786,0
+Country_ECU,38,22,757,693,0
+Country_GTM,38,22,757,693,0
+OSeMOSYS_VarCost,142,38,5284,4662,0

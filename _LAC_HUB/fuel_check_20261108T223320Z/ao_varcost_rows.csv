@@ -1,0 +1,383 @@
+country,sheet,row,tech,tech_name,unit,projection_mode,fuel_supply_prefix,first_year,last_year,n_year_cols,n_numeric,formula_cells_in_row,first_numeric_year,first_numeric_value,v2025,v2030,v2050,all_zero,all_one,empty
+CostaRica,Primary Techs,4,IMPPURDSL, Import/Distribution - Pure Diesel,,User defined,YES,2021,2050,30,30,0,2021,11.9222,12.8544,14.1228,20.5778,,,
+CostaRica,Primary Techs,14,IMPPURGSL, Import/Distribution - Pure Gasoline,,User defined,YES,2021,2050,30,30,0,2021,13.1679,14.1975,15.5985,22.728,,,
+CostaRica,Primary Techs,24,IMPCOA, Import/Distribution - Coal,,User defined,YES,2021,2050,30,30,0,2021,5.3080568720379135,4.644549763033175,4.454976303317535,4.7393364928909945,,,
+CostaRica,Primary Techs,34,IMPLPG, Import/Distribution - LPG,,User defined,YES,2021,2050,30,30,0,2021,8.322,8.9727,9.8581,14.3641,,,
+CostaRica,Primary Techs,44,IMPFOI, Import/Distribution - Fuel_Oil,,User defined,YES,2021,2050,30,30,0,2021,9.1493,9.8646,10.838,15.7917,,,
+CostaRica,Primary Techs,54,PROFIR,Production - Firewood,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Primary Techs,64,IMPKJF, Import/Distribution - Kerosene and Jet Fuel,,User defined,YES,2021,2050,30,30,0,2021,15.985865210830656,19.390475366488044,20.18461799720871,24.376282354523667,,,
+CostaRica,Primary Techs,74,IMPCOK,Import - Petroleum Coke,,EMPTY,YES,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Primary Techs,84,PROINDWAS,Production - Industrial Waste,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Primary Techs,94,IMPELE, Import/Distribution - Electricity,,EMPTY,YES,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Primary Techs,104,IMPAVG, Import/Distribution - AV Gas,,User defined,YES,2021,2050,30,30,0,2021,33.31776699768818,34.22113886515555,29.101281367743585,26.021799228226953,,,
+CostaRica,Primary Techs,114,IMPNGS,Imports - Natural_Gas (LNG and Regasification),,EMPTY,YES,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Primary Techs,124,PROSUG,Production - Sugarcane,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Primary Techs,134,PROBMS,Production - Biomass,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Primary Techs,144,PWRGEO,Primary - Transformation - Geothermal,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Primary Techs,154,PWRHYDDAM,Primary - Transformation - Hydroelectric Dam,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Primary Techs,164,PWRHYDROR,Primary - Transformation - Hydroelectric  Run-of-the-river,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Primary Techs,174,PWRSPVTRN,Primary - Transformation - Photovoltaic in Transmisión,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Primary Techs,184,PWRSPVDTR,Primary - Transformation - Photovoltaic in Distribution,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Primary Techs,194,PWRWNONS,Primary - Transformation - On shore Wind ,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Primary Techs,204,PP_WNDOFS,Primary - Transformation - Offshore wind ,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Primary Techs,214,PP_SPV_DG,Primary - Transformation - Solar distributed,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Primary Techs,224,PP_SPV_US_H2,Primary - Transformation - Photovoltaic for H2,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Primary Techs,234,PP_WND_US_H2,Primary - Transformation - Wind for H2,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Primary Techs,244,PP_WND_OF_H2,Primary - Transformation - Offshore wind for H2,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Secondary Techs,4,ELE_TRN,Secondary - Power Transmission,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Secondary Techs,14,ELE_DTR,Secondary - Power Distribution,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Secondary Techs,24,NGS_DTR,Distribution of Natural_Gas,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Secondary Techs,34,PWRSUG,Power Plant Sugarcane,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Secondary Techs,44,PWRBMS,Power Plant Biomass - Steam Trubine,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Secondary Techs,54,PWRFOI,Power Plant Fuel_Oil ,,User defined,,2021,2050,30,30,0,2021,1.3056,1.3056,1.3056,1.3056,,,
+CostaRica,Secondary Techs,64,PWRDSL,Power Plant Diesel ,,User defined,,2021,2050,30,30,0,2021,1.3056,1.3056,1.3056,1.3056,,,
+CostaRica,Secondary Techs,74,PROBIODSL,Produce biodiesel,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Secondary Techs,84,BLEND_DSL,Blend diesel,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Secondary Techs,94,PROETA,Produce etanol,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Secondary Techs,104,BLEND_GSL,Blend gasoline,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Secondary Techs,114,HYDPROELEISO,Secondary - Green Hydrogen Production - Electrolysis-Isolated Systems,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Secondary Techs,124,HYDPROELEGRI,Secondary - Green Hydrogen Production - Electrolysis-Grid,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Secondary Techs,134,HYDPROBIO,Secondary - Green Hydrogen Production - Biomass,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Secondary Techs,144,HYDPRONGS,Secondary - Green Hydrogen Production - Natural_Gas Reforming,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+CostaRica,Secondary Techs,154,HYD_DISTR,Secondary  - Distribution of Hydrogen,,EMPTY,,2021,2050,30,0,0,,,,,,,,YES
+DominicanRepublic,Primary Techs,4,DIST_CRU,Primary - Import/Distribution - Crude,M US$ / PJ,User defined,YES,2018,2050,33,33,0,2018,15.06,14.82,14.22,13.89,,,
+DominicanRepublic,Primary Techs,14,DIST_NGS,Primary - Import/Distribution - Natural Gas,M US$ / PJ,User defined,YES,2018,2050,33,33,0,2018,5.3907161306582845,6.120754039580765,2.9863287371082987,3.1849723806296484,,,
+DominicanRepublic,Primary Techs,24,DIST_DSL,Primary - Import/Distribution - Diesel,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,2,0,2018,19.94818652849741,,,,,,
+DominicanRepublic,Primary Techs,34,DIST_GSL,Primary - Import/Distribution - Gasoline,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,2,0,2018,26.16959064327485,,,,,,
+DominicanRepublic,Primary Techs,44,DIST_LPG,Primary - Import/Distribution - LPG,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,2,0,2018,28.635960312978945,,,,,,
+DominicanRepublic,Primary Techs,54,DIST_FOI,Primary - Import/Distribution - Fuel Oil,M US$ / PJ,User defined,YES,2018,2050,33,33,0,2018,8.85,12.949156550657246,14.020954693497474,16.243788974173903,,,
+DominicanRepublic,Primary Techs,64,DIST_COK,Primary - Import/Distribution - Coke,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,1,0,2018,4.416666666666666,,,,,,
+DominicanRepublic,Primary Techs,74,DIST_KER,Primary - Import/Distribution - Kerosen,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Primary Techs,84,DIST_COA,Primary - Import/Distribution - Coal,M US$ / PJ,User defined,YES,2018,2050,33,33,0,2018,7.4,9.193249257685101,3.871150178628119,3.5576071490610133,,,
+DominicanRepublic,Primary Techs,94,PRO_COA,Primary Production - Coal,M US$ / PJ,Percent growth of incomplete years,,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Primary Techs,104,IMP_ELE,Primary - Import - Electricity,M US$ / PJ,Flat,YES,2018,2050,33,1,0,2018,19.05,,,,,,
+DominicanRepublic,Primary Techs,114,EXTT_CRU,Primary Extraction/Transformation - Crude,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Primary Techs,124,EXTT_NGS,Primary Extraction/Transformation - NGS,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Primary Techs,134,PPHDAM,Power Plant - Hydro Dam,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Primary Techs,144,PPHROR,Power Plant - Hydro ROR,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0.63,,,,,,
+DominicanRepublic,Primary Techs,154,PPGEO,Power Plant - Geothermal,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0.001,,,,,,
+DominicanRepublic,Primary Techs,164,PPWNDON,Power Plant - Wind,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Primary Techs,174,PPPVT,Power Plant - Transmission Solar,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Primary Techs,184,PPPVTHYD,Power Plant - Transmission Solar,M US$ / PJ,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Primary Techs,194,PPPVTS,Power Plant - Transmission Solar with battery storage,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Primary Techs,204,PPPVD,Power Plant - Distributed Solar,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Primary Techs,214,PPWNDOFF,Power Plant - Wind Offshore,M US$ / PJ,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Primary Techs,224,PPDHYD,Power Plant - Selfproducer Power Plant  Hydro,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Primary Techs,234,DIST_FIR,Primary - ETD - Firewood,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Primary Techs,244,DIST_BIM,Primary - ETD - Biomass,M US$ / PJ,Flat,YES,2018,2050,33,1,0,2018,10.833,,,,,,
+DominicanRepublic,Primary Techs,254,DIST_BGS,Primary - ETD - Biogas,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Secondary Techs,4,REF_DSL,Secondary Diesel Refinery,M US$ / GWh,Flat,YES,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Secondary Techs,14,REF_GSL,Secondary Gasoline Refinery,M US$ / GWh,Flat,YES,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Secondary Techs,24,REF_LPG,Secondary LPG Refinery,M US$ / GWh,Flat,YES,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Secondary Techs,34,REF_FOI,Secondary Fuel Oil Refinery,M US$ / GWh,Flat,YES,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Secondary Techs,44,PPBIM,Power Plant - Biomass,M US$ / PJ,Flat,,2018,2050,33,1,0,2018,1.5805555555555557,,,,,,
+DominicanRepublic,Secondary Techs,54,PPBGS,Power Plant - Biogas,M US$ / PJ,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+DominicanRepublic,Secondary Techs,64,PPCOA,Power Plant - Coal,M US$ / PJ,User defined,,2018,2050,33,33,0,2018,0.9794444444444443,0.7055555555555556,0.7055555555555556,0.7055555555555556,,,
+DominicanRepublic,Secondary Techs,74,PPCCTDSL,Power Plant - Combine Cycle and Gas Turbine - Diesel,M US$ / PJ,Flat,,2018,2050,33,1,0,2018,3.1767241379310343,,,,,,
+DominicanRepublic,Secondary Techs,84,PPCCFOIDSL,Primary -  Transformation - Combine Cycle - Fuel Oil and Diesel,M US$ / GWh,User defined,,2018,2050,33,33,0,2018,0.09579341551643898,0.11371505357583511,0.12908667398995824,0.1483754873447796,,,
+DominicanRepublic,Secondary Techs,94,PPCCTNGS,Power Plant- Combine Cycle and Gas Turbine - Natural Gas,M US$ / PJ,User defined,,2018,2050,33,33,0,2018,0.37533401180208015,0.3751009774742988,0.3751009774742988,0.3751009774742988,,,
+DominicanRepublic,Secondary Techs,104,PPCCTNGSDSL,Power Plant- Combine Cycle and Gas Turbine - Natural Gas and Diesel,M US$ / PJ,User defined,,2018,2050,33,33,0,2018,0.37533401180208015,0.3751009774742988,0.3751009774742988,0.3751009774742988,,,
+DominicanRepublic,Secondary Techs,114,PPICEFOI,Power Plant - Internal Combustion Engine - Fuel Oil,M US$ / PJ,Flat,,2018,2050,33,1,0,2018,1.0409961685823754,,,,,,
+DominicanRepublic,Secondary Techs,124,PPICEGASFOI,Power Plant - Internal Combustion Engine - Natural Gas and Fuel Oil,M US$ / PJ,User defined,,2018,2050,33,33,0,2018,0.37533401180208015,0.3751009774742988,0.3751009774742988,0.3751009774742988,,,
+DominicanRepublic,Secondary Techs,134,PPADSL,Aisolated Power Plant - Diesel,M US$ / PJ,User defined,,2018,2050,33,33,0,2018,0.37533401180208015,0.3751009774742988,0.3751009774742988,0.3751009774742988,,,
+DominicanRepublic,Secondary Techs,144,PPAFOI,Aisolated Power Plant - Fuel Oil,M US$ / PJ,User defined,,2018,2050,33,33,0,2018,0.37533401180208015,0.3751009774742988,0.3751009774742988,0.3751009774742988,,,
+DominicanRepublic,Secondary Techs,154,PPANGS,Aisolated Power Plant - Natural Gas,M US$ / PJ,User defined,,2018,2050,33,33,0,2018,0.37533401180208015,0.3751009774742988,0.3751009774742988,0.3751009774742988,,,
+DominicanRepublic,Secondary Techs,164,PPDBGS,Selfproducer Power Plant - Biogas,M US$ / PJ,User defined,,2018,2050,33,33,0,2018,0.37533401180208015,0.3751009774742988,0.3751009774742988,0.3751009774742988,,,
+DominicanRepublic,Secondary Techs,174,PPDDSL,Selfproducer Power Plant - Diesel,M US$ / PJ,User defined,,2018,2050,33,33,0,2018,0.37533401180208015,0.3751009774742988,0.3751009774742988,0.3751009774742988,,,
+DominicanRepublic,Secondary Techs,184,PPDFOI,Selfproducer Power Plant - Fuel Oil,M US$ / PJ,User defined,,2018,2050,33,33,0,2018,0.37533401180208015,0.3751009774742988,0.3751009774742988,0.3751009774742988,,,
+DominicanRepublic,Secondary Techs,194,PPDNGS,Selfproducer Power Plant - Natural Gas,M US$ / PJ,User defined,,2018,2050,33,33,0,2018,0.37533401180208015,0.3751009774742988,0.3751009774742988,0.3751009774742988,,,
+DominicanRepublic,Secondary Techs,204,PPDGSL,Selfproducer Power Plant - Gasoline,M US$ / PJ,User defined,,2018,2050,33,33,0,2018,0.37533401180208015,0.3751009774742988,0.3751009774742988,0.3751009774742988,,,
+DominicanRepublic,Secondary Techs,214,PPDGLP,Selfproducer Power Plant - LPG,M US$ / PJ,User defined,,2018,2050,33,33,0,2018,0.37533401180208015,0.3751009774742988,0.3751009774742988,0.3751009774742988,,,
+DominicanRepublic,Secondary Techs,224,PPDBIM,Selfproducer Power Plant - Biomass,M US$ / PJ,User defined,,2018,2050,33,33,0,2018,0.37533401180208015,0.3751009774742988,0.3751009774742988,0.3751009774742988,,,
+DominicanRepublic,Secondary Techs,234,ELE_TRANS,Secondary - Power Transmission,,EMPTY,,2018,2050,33,0,0,,,,,,,,YES
+DominicanRepublic,Secondary Techs,244,HYD_G_PROD,Secondary - Green Hydrogen Production,,Zero,,2018,2050,33,0,0,,,,,,,,YES
+DominicanRepublic,Secondary Techs,254,ELE_DIST,Secondary - Power Distribution,,EMPTY,,2018,2050,33,0,0,,,,,,,,YES
+DominicanRepublic,Secondary Techs,264,HYD_DIST,Secondary  - Distribution of Hydrogen,,Zero,,2018,2050,33,0,0,,,,,,,,YES
+Ecuador,Primary Techs,4,DIST_BGS,Primary - ETD - Biogas,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,14,DIST_BIM,Primary - ETD - Biomass,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,24,DIST_CHA,Primary - ETD - Charcoal,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,34,DIST_FIR,Primary - ETD - Firewood,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,44,DIST_COA,Primary - Import/Distribution - Coal,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,54,DIST_COK,Primary - Import/Distribution - Coke,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,64,DIST_DSL,Primary - Import/Distribution - Diesel,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,74,DIST_FOI,Primary - Import/Distribution - Fuel Oil,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,84,DIST_GSL,Primary - Import/Distribution - Gasoline,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,94,DIST_JET,Primary - Import/Distribution - Jet,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,104,DIST_KER,Primary - Import/Distribution - Kerosen,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,114,DIST_LPG,Primary - Import/Distribution - LPG,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,124,DIST_NGS,Primary - Import/Distribution - Natural Gas,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,134,DIST_CRU,Primary Import - Crude,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,144,DIST_OPE,Primary - Import/Distribution - OPE,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,154,DIST_RDF,Primary - Import/Distribution - Desechos municipales no biomasa,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,164,DIST_OID,Primary - Import/Distribution - Óleos de desecho,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,174,PPPVD,Primary - Transformation - Distributed Solar,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,184,PPPVDS,Primary - Transformation - Distributed Solar with battery storage,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,194,PPGEO,Primary - Transformation - Geothermal,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,204,PPHDAMAB,Primary - Transformation - Hydro Dam Amazon Big (+ 450 MW),M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,214,PPHDAMAM,Primary - Transformation - Hydro Dam Amazon Medium (< 450 MW),M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,224,PPHDAMAS,Primary - Transformation - Hydro Dam Amazon Small (<50 MW),M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,234,PPHDAMPM,Primary - Transformation - Hydro Dam Pacific Medium (< 450 MW),M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,244,PPHDAMPS,Primary - Transformation - Hydro Dam Pacific Small (<50 MW),M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,254,PPHRORAB,Primary - Transformation - Hydro ROR Amazon Big (+ 450 MW),M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,264,PPHRORAM,Primary - Transformation - Hydro ROR Amazon Medium (< 450 MW),M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,274,PPHRORAS,Primary - Transformation - Hydro ROR Amazon Small (<50 MW),M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,284,PPHRORPM,Primary - Transformation - Hydro ROR Pacific Medium (< 450 MW),M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,294,PPHRORPS,Primary - Transformation - Hydro ROR Pacific Small (<50 MW),M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,304,PPPVT,Primary - Transformation - Transmission Solar,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,314,PPPVTS,Primary - Transformation - Transmission Solar with battery storage,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,324,PPWNDON,Primary - Transformation - Wind,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,334,PPHD,Primary - Transformation - Hidroeléctrica distribuida,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,344,PPIHD,Primary - Transformation - Isolated Hidroeléctrica,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,354,PPWNDD,Primary - Transformation - Distributed Wind,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,364,EXTT_NGS,Reserves - Natural Gas,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,374,ADD_GRE,Primary - Import/Distribution - Gas Refineria,MUS$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,384,EXTT_CRU,Primary Extraction/Transformation - Crude,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Primary Techs,394,IMPELE, Import/Distribution - Electricity,MUS$ / PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,4,ELE_TRANS,Secondary - Power Transmission,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,14,ELE_DIST,Secondary - Power Distribution,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,24,HYD_G_PROD,Secondary - Green Hydrogen Production,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,34,HYD_DIST,Secondary  - Distribution of Hydrogen,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,44,STOELE,Secondary - Storage,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,54,PPBIM,Primary - Transformation - Biomass/Residue,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,2,,,,,,
+Ecuador,Secondary Techs,64,PPBGS,Primary - Transformation - Biogas,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,74,PPNGS,Primary - Transformation - Natural Gas,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,84,PPDSL,Primary - Transformation - Diesel,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,94,PPFOI,Primary - Transformation - Fuel Oil,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,104,PPCRU,Power Plant Crude,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,114,PPRNGS,Isolated Power Plant Refinery Natural Gas,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,124,PPRDSL,Isolated Power Plant Refinery Diesel,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,134,PPDFOI,Distributed Power Plant Fuel Oil,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,144,PPDDSL,Distributed Power Plant  Diesel,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,154,PPILPG,Isolated Power Plant LPG,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,164,PPIBIM,Isolated Power Plant Biomass/Residue,M US$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,174,PROCRU,Production - Crude,MUS$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,184,PRONGS,Production - Natural_Gas,MUS$ / PJ,Flat,,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,194,REF_DSL,Secondary Diesel Refinery,MUSD/PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,204,REF_GSL,Secondary Gasoline Refinery,MUSD/PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,214,REF_LPG,Secondary LPG Refinery,MUSD/PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,224,REF_FOI,Secondary Fuel Oil Refinery,MUSD/PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,234,REF_JET,Primary - Import/Distribution - Jet,MUSD/PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Ecuador,Secondary Techs,244,REF_OPE,Primary - Import/Distribution - OPE,MUSD/PJ,Flat,YES,2021,2050,30,1,0,2021,1,,,,,YES,
+Guatemala,Primary Techs,4,DIST_DSL,Primary - Import/Distribution - Diesel,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,2,0,2018,19.94818652849741,,,,,,
+Guatemala,Primary Techs,14,DIST_GSL,Primary - Import/Distribution - Gasoline,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,2,0,2018,26.16959064327485,,,,,,
+Guatemala,Primary Techs,24,DIST_LPG,Primary - Import/Distribution - LPG,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,2,0,2018,28.635960312978945,,,,,,
+Guatemala,Primary Techs,34,DIST_FOI,Primary - Import/Distribution - Fuel Oil,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,2,0,2018,13.602015113350125,,,,,,
+Guatemala,Primary Techs,44,DIST_COK,Primary - Import/Distribution - Coke,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,1,0,2018,0,,,,YES,,
+Guatemala,Primary Techs,54,DIST_KER,Primary - Import/Distribution - Kerosen,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,1,0,2018,0,,,,YES,,
+Guatemala,Primary Techs,64,DIST_COA,Primary - Import/Distribution - Coal,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,4,0,2018,2.493827160493827,,,,,,
+Guatemala,Primary Techs,74,IMP_ELE,Primary - Import - Electricity,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,1,0,2018,0,,,,YES,,
+Guatemala,Primary Techs,84,EXTT_CRU,Primary Extraction/Transformation - Crude,,EMPTY,YES,2018,2050,33,0,0,,,,,,,,YES
+Guatemala,Primary Techs,94,EXTT_LPG,Primary Extraction/Transformation - LPG,,EMPTY,YES,2018,2050,33,0,0,,,,,,,,YES
+Guatemala,Primary Techs,104,PPHDAM,Primary - Transformation - Hydro Dam,M US$ / GWh,Zero,,2018,2050,33,1,0,2018,0,,,,YES,,
+Guatemala,Primary Techs,114,PPHROR,Primary - Transformation - Hydro ROR,M US$ / GWh,Zero,,2018,2050,33,1,0,2018,0,,,,YES,,
+Guatemala,Primary Techs,124,PPGEO,Primary - Transformation - Geothermal,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+Guatemala,Primary Techs,134,PPWNDON,Primary - Transformation - Wind,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+Guatemala,Primary Techs,144,PPPVT,Primary - Transformation - Transmission Solar,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+Guatemala,Primary Techs,154,PPPVT2,Primary - Transformation - Transmission Solar,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+Guatemala,Primary Techs,164,PPPVTS,Primary - Transformation - Transmission Solar with battery storage,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+Guatemala,Primary Techs,174,PPPVD,Primary - Transformation - Distributed Solar,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+Guatemala,Primary Techs,184,PPPVDS,Primary - Transformation - Distributed Solar with battery storage,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+Guatemala,Primary Techs,194,PPBIM,Primary - Transformation - Biomass,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0.00965,,,,,,
+Guatemala,Primary Techs,204,PPBGS,Primary - Transformation - Biogas,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0.005,,,,,,
+Guatemala,Primary Techs,214,PPCOA,Primary - Transformation - Coal,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0.0064,,,,,,
+Guatemala,Primary Techs,224,PPDSL,Primary - Transformation - Diesel,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0.006,,,,,,
+Guatemala,Primary Techs,234,PPFOI,Primary - Transformation - Fuel Oil,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0.00569,,,,,,
+Guatemala,Primary Techs,244,DIST_FIR,Primary - ETD - Firewood,,EMPTY,YES,2018,2050,33,0,0,,,,,,,,YES
+Guatemala,Primary Techs,254,DIST_BIM,Primary - ETD - Biomass,,EMPTY,YES,2018,2050,33,0,0,,,,,,,,YES
+Guatemala,Primary Techs,264,DIST_BGS,Primary - ETD - Biogas,,EMPTY,YES,2018,2050,33,0,0,,,,,,,,YES
+Guatemala,Primary Techs,274,DIST_NGS,Primary - Import/Distribution - Natural Gas,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,1,0,2018,9.14627,,,,,,
+Guatemala,Primary Techs,284,DIST_FLEXFUEL,Primary - Import/Distribution - Flex Fuel,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,2,2,2018,47.10526315789473,,,,,,
+Guatemala,Primary Techs,294,PPNGS,Primary - Transformation - Natural Gas,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0.00453,,,,,,
+Guatemala,Primary Techs,304,BACKSTOP,Generación respaldo,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,9999999,,,,,,
+Honduras,Primary Techs,4,DIST_DSL,Primary - Import/Distribution - Diesel,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,5,0,2018,15.283556296024928,,,,,,
+Honduras,Primary Techs,14,DIST_GSL,Primary - Import/Distribution - Gasoline,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,5,0,2018,16.941011335303003,,,,,,
+Honduras,Primary Techs,24,DIST_LPG,Primary - Import/Distribution - LPG,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,5,0,2018,14.098648415051468,,,,,,
+Honduras,Primary Techs,34,DIST_FOI,Primary - Import/Distribution - Fuel Oil,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,5,0,2018,11.020952477468656,,,,,,
+Honduras,Primary Techs,44,DIST_COK,Primary - Import/Distribution - Coke,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,5,0,2018,5.592417061611376,,,,,,
+Honduras,Primary Techs,54,DIST_KER,Primary - Import/Distribution - Kerosen,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,5,0,2018,16.261584852551035,,,,,,
+Honduras,Primary Techs,64,DIST_COA,Primary - Import/Distribution - Coal,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,4,0,2018,2.493827160493827,,,,,,
+Honduras,Primary Techs,74,DIST_URA,Primary - Import/Distribution - Uranio,M US$ / PJ,Flat,YES,2018,2050,33,1,0,2018,0.5687,,,,,,
+Honduras,Primary Techs,84,IMP_ELE,Primary - Import - Electricity,M US$ / PJ,User defined,YES,2018,2050,33,33,0,2018,500,99999,99999,99999,,,
+Honduras,Primary Techs,94,EXTT_CRU,Primary Extraction/Transformation - Crude,,EMPTY,YES,2018,2050,33,0,0,,,,,,,,YES
+Honduras,Primary Techs,104,EXTT_LPG,Primary Extraction/Transformation - LPG,,EMPTY,YES,2018,2050,33,0,0,,,,,,,,YES
+Honduras,Primary Techs,114,PPHDAM,Primary - Transformation - Hydro Dam,M US$ / PJ,Zero,,2018,2050,33,1,1,2018,0.4361111111111111,,,,,,
+Honduras,Primary Techs,124,PPHROR,Primary - Transformation - Hydro ROR,M US$ / PJ,Zero,,2018,2050,33,1,1,2018,0.4361111111111111,,,,,,
+Honduras,Primary Techs,134,PPGEO,Primary - Transformation - Geothermal,M US$ / PJ,Flat,,2018,2050,33,1,1,2018,0.3638888888888889,,,,,,
+Honduras,Primary Techs,144,PPWNDON,Primary - Transformation - Wind,M US$ / PJ,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+Honduras,Primary Techs,154,PPWNDS,Primary - Transformation - Wind with Storage,,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+Honduras,Primary Techs,164,PPPVT,Primary - Transformation - Transmission Solar,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+Honduras,Primary Techs,174,PPPVT2,Primary - Transformation - Transmission Solar,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+Honduras,Primary Techs,184,PPPVTS,Primary - Transformation - Transmission Solar with battery storage,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+Honduras,Primary Techs,194,PPPVD,Primary - Transformation - Distributed Solar,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+Honduras,Primary Techs,204,PPPVDS,Primary - Transformation - Distributed Solar with battery storage,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+Honduras,Primary Techs,214,DIST_FIR,Primary - ETD - Firewood,,EMPTY,YES,2018,2050,33,0,0,,,,,,,,YES
+Honduras,Primary Techs,224,DIST_BIM,Primary - ETD - Biomass,,EMPTY,YES,2018,2050,33,0,0,,,,,,,,YES
+Honduras,Primary Techs,234,DIST_BGS,Primary - ETD - Biogas,,EMPTY,YES,2018,2050,33,0,0,,,,,,,,YES
+Honduras,Primary Techs,244,DIST_NGS,Primary - Import/Distribution - Natural Gas,M US$ / PJ,Percent growth of incomplete years,YES,2018,2050,33,1,0,2018,9.14627,,,,,,
+Honduras,Secondary Techs,19,PPBIM,Primary - Transformation - Biomass,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0.08,,,,,,
+Honduras,Secondary Techs,29,PPBGS,Primary - Transformation - Biogas,M US$ / GWh,Flat,,2018,2050,33,1,0,2018,0.08,,,,,,
+Honduras,Secondary Techs,39,PPCOA,Primary - Transformation - Coal,M US$ / GWh,Flat,,2018,2050,33,1,1,2018,1.4055555555555554,,,,,,
+Honduras,Secondary Techs,49,PPGTDSL,Primary - Transformation - Diesel,M US$ / PJ,Flat,,2018,2050,33,1,0,2018,0.5833333333333334,,,,,,
+Honduras,Secondary Techs,59,PPICEDSL,Primary - Transformation - Diesel,M US$ / PJ,Flat,,2018,2050,33,1,1,2018,1.777777777777778,,,,,,
+Honduras,Secondary Techs,69,PPFOI,Primary - Transformation - Fuel Oil,M US$ / PJ,Flat,,2018,2050,33,1,1,2018,1.777777777777778,,,,,,
+Honduras,Secondary Techs,79,PPCOK,Primary - Transformation - Coke,M US$ / PJ,Flat,,2018,2050,33,1,1,2018,1.4055555555555554,,,,,,
+Honduras,Secondary Techs,89,PPNUC,Primary - Transformation - Nuclear,M US$ / PJ,Flat,,2018,2050,33,1,1,2018,0.6861111111111112,,,,,,
+Honduras,Secondary Techs,99,PPNGS,Primary - Transformation - Natural Gas,M US$ / PJ,Flat,,2018,2050,33,1,1,2018,0.5833333333333334,,,,,,
+Honduras,Secondary Techs,109,PPGTGLP,Primary - Transformation - LPG,M US$ / PJ,Flat,,2018,2050,33,1,1,2018,1.4694444444444443,,,,,,
+Honduras,Secondary Techs,119,STOELE,Secondary - Battery Storage,M US$ / PJ,Flat,,2018,2050,33,1,0,2018,0,,,,YES,,
+Jamaica,Primary Techs,4,DIST_DSL,Primary - Import/Distribution - Diesel,MUS$/PJ,User defined,YES,2021,2055,35,30,5,2021,18.91758909955172,19.90441117244731,20.6602748878567,22.41345878332016,,,
+Jamaica,Primary Techs,14,DIST_GSL,Primary - Import/Distribution - Gasoline,MUS$/PJ,User defined,YES,2021,2055,35,30,5,2021,24.28377458586241,18.02702925939397,17.80618007724002,19.3403934808623,,,
+Jamaica,Primary Techs,24,DIST_NGS,Primary - Import/Distribution - Natural Gas,MUS$/PJ,User defined,YES,2021,2055,35,35,0,2021,7.056371,6.9971335,7.4710335,8.5136135,,,
+Jamaica,Primary Techs,34,DIST_LPG,Primary - Import/Distribution - LPG,MUS$/PJ,User defined,YES,2021,2055,35,30,5,2021,21.64565672930564,20.06709579112455,18.40572686754939,21.55983110763599,,,
+Jamaica,Primary Techs,44,DIST_COK,Primary - Import/Distribution - Coke,MUS$/PJ,User defined,YES,2021,2055,35,35,0,2021,4.623879617417315,4.981478552517614,5.432636505566563,7.91579115874256,,,
+Jamaica,Primary Techs,54,DIST_KER,Primary - Import/Distribution - Kerosen,MUS$/PJ,User defined,YES,2021,2055,35,30,5,2021,16.65791571583383,12.56870340933794,12.30656518625005,13.81749507357415,,,
+Jamaica,Primary Techs,64,DIST_JET,Primary - Import/Distribution - Jet,MUS$/PJ,User defined,YES,2021,2055,35,35,0,2021,16.65791571583383,12.56870340933794,12.30656518625005,13.81749507357415,,,
+Jamaica,Primary Techs,74,DIST_FIR,Primary - ETD - Firewood,MUS$/PJ,Flat,YES,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Primary Techs,84,DIST_CHA,Primary - ETD - Charcoal,MUS$/PJ,Flat,YES,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Primary Techs,94,DIST_BIM,Primary - ETD - Biomass,MUS$/PJ,Flat,YES,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Primary Techs,104,DIST_BGS,Primary - ETD - Biogas,MUS$/PJ,Flat,YES,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Primary Techs,114,DIST_OPE,Primary - Import/Distribution - OPE,MUS$/PJ,Flat,YES,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Primary Techs,124,DIST_PV,Primary - Solar Energy,MUS$/PJ,Flat,YES,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Primary Techs,134,TM_HOU,Primary - Tradictinal Matrial Housing and Dwelling,,Flat,,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Primary Techs,144,LCM_HOUSE,Primary - Low Carbon Material Housing and Dwelling,,Flat,,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Primary Techs,154,EXTT_CRU,Primary Extraction/Transformation - Crude,MUS$/PJ,Flat,YES,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Primary Techs,164,DIST_COA,Primary - Import/Distribution - Coal,MUS$/PJ,Flat,YES,2021,2055,35,0,1,,,,,,,,YES
+Jamaica,Primary Techs,174,DIST_FOI,Primary - Import/Distribution - Fuel Oil,MUS$/PJ,User defined,YES,2021,2055,35,30,5,2021,12.46314543656848,12.89489877261787,13.38959461083017,14.60043874978511,,,
+Jamaica,Primary Techs,184,PPHDAM,Primary - Transformation - Hydro Dam,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,194,PPHROR,Primary - Transformation - Hydro ROR,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,204,PPGEO,Primary - Transformation - Geothermal,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,214,PPWNDON,Primary - Transformation - Wind,MUSD/PJ,Flat,,2021,2055,35,1,0,2021,0.69444,,,,,,
+Jamaica,Primary Techs,224,PPWNDONS,Primary - Transformation - Wind with Battery Storage,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,234,PPWNDOFF,Primary - Transformation - Wind Offshore,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,244,PPPVT,Primary - Transformation - Transmission Solar,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,254,PPPVTS,Primary - Transformation - Transmission Solar with battery storage,,Flat,,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Primary Techs,264,PPPVD,Primary - Transformation - Distributed Solar,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,274,PPPVDS,Primary - Transformation - Distributed Solar with battery storage,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,284,CCS_FLO,Floating Carbon Capture and Storage,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,294,RAW_MAT_CLK,Supply of raw material for clinker,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,304,RAW_MAT_CEM,Supply of raw material for cement,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,314,IMP_STOR,Clinker imports and storage,,EMPTY,YES,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,324,IMP_R32,R32,,EMPTY,YES,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,334,IMP_R125,R125,,EMPTY,YES,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,344,IMP_R134A,R134A,,EMPTY,YES,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,354,IMP_R143A,R143A,,EMPTY,YES,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,364,IMP_R227EA,R227EA,,EMPTY,YES,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,374,IMP_R236FA,R236FA,,EMPTY,YES,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,384,IMP_SUB32,SUB32,MUSD/MtCO2e,User defined,YES,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Primary Techs,394,IMP_SUB125,SUB125,MUSD/MtCO2e,User defined,YES,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Primary Techs,404,IMP_SUB134A,SUB134A,MUSD/MtCO2e,User defined,YES,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Primary Techs,414,IMP_SUB143A,SUB143A,MUSD/MtCO2e,User defined,YES,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Primary Techs,424,IMP_SUB227EA,SUB227EA,MUSD/MtCO2e,User defined,YES,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Primary Techs,434,IMP_SUB236FA,SUB236FA,MUSD/MtCO2e,User defined,YES,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Primary Techs,444,LIME,LIME,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Primary Techs,454,LUBRI,LUBRI,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Secondary Techs,4,ELE_TRANS,Secondary - Power Transmission,,Flat,,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Secondary Techs,14,ELE_DIST,Secondary - Power Distribution,,Flat,,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Secondary Techs,24,HYD_G_PROD,Secondary - Green Hydrogen Production,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Secondary Techs,34,HYD_DIST,Secondary  - Distribution of Hydrogen,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Secondary Techs,44,STOELE,Secondary - Storage,M US$ / PJ,Flat,,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Secondary Techs,54,PPBIM,Primary - Transformation - Biomass,M US$ / PJ,Flat,,2021,2055,35,1,0,2021,1.4,,,,,,
+Jamaica,Secondary Techs,64,PPBGS,Primary - Transformation - Biogas,M US$ / PJ,Flat,,2021,2055,35,1,0,2021,1.4,,,,,,
+Jamaica,Secondary Techs,74,PPNGS,Primary - Transformation - Natural Gas,M US$ / PJ,Flat,,2021,2055,35,1,0,2021,1.1527704,,,,,,
+Jamaica,Secondary Techs,84,PPDSL,Primary - Transformation - Diesel,M US$ / PJ,Flat,,2021,2055,35,1,0,2021,0.902772,,,,,,
+Jamaica,Secondary Techs,94,PPFOI,Primary - Transformation - Fuel Oil,M US$ / PJ,Flat,,2021,2055,35,1,0,2021,6.33884832,,,,,,
+Jamaica,Secondary Techs,104,PROD_CLK_TRAD,Traditional clinker production,MUSD/Mt clinker,User defined,,2021,2055,35,35,0,2021,26.4069,24.81212006928078,23.5638792,23.5638792,,,
+Jamaica,Secondary Techs,114,PROD_CEM,Cement production,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Secondary Techs,124,REF_DSL,Secondary Diesel Refinery,MUSD/PJ,Flat,YES,2021,2055,35,1,0,2021,10.76514343257399,,,,,,
+Jamaica,Secondary Techs,134,REF_GSL,Secondary Gasoline Refinery,MUSD/PJ,Flat,YES,2021,2055,35,1,0,2021,12.02969746714631,,,,,,
+Jamaica,Secondary Techs,144,REF_LPG,Secondary LPG Refinery,MUSD/PJ,Flat,YES,2021,2055,35,1,0,2021,11.15221061629607,,,,,,
+Jamaica,Secondary Techs,154,REF_FOI,Secondary Fuel Oil Refinery,MUSD/PJ,Flat,YES,2021,2055,35,1,0,2021,10.88472126587167,,,,,,
+Jamaica,Secondary Techs,164,REF_JET,Primary - Import/Distribution - Jet,MUSD/PJ,Flat,YES,2021,2055,35,1,0,2021,10.39128939497883,,,,,,
+Jamaica,Secondary Techs,174,REF_OPE,Primary - Import/Distribution - OPE,,EMPTY,YES,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,5,T5DSLCOM,Demand Diesel for Commercial,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,9,T5GSLCOM,Demand Gasoline for Commercial,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,13,T5LPGCOM,Demand LPG for Commercial,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,17,T5ELECOM,Demand Electric for Commercial,,Flat,,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Demand Techs,21,T5FIRCOM,Demand Firewood for Commercial,,Flat,,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Demand Techs,25,T5CHACOM,Demand Charcoal for Commercial,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,29,T5OPECOM,Demand Other non-energy petroleum products for Commercial,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,33,T5NGSCOM,Demand Natural Gas for Commercial,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,37,T5DSLRES,Demand Diesel for Residential,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,41,T5GSLRES,Demand Gasoline for Residential,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,45,T5LPGRES,Demand LPG for Residential,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,49,T5ELERES,Demand Electric for Residential,,Flat,,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Demand Techs,53,T5KERRES,Demand Kerosen for Residential,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,57,T5FIRRES,Demand Firewood for Residential,,Flat,,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Demand Techs,61,T5CHARES,Demand Charcoal for Residential,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,65,T5PVRES,Demand Solar for Residential,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,69,T5HOU,Demand Housing and Dwelling,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,73,T5OPERES,Demand Other non-energy petroleum products for Residential,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,77,T5DSLINDCEM,Demand Diesel for Industrial - Cement,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,81,T5GSLINDCEM,Demand Gasoline for Industrial - Cement,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,85,T5NGSINDCEM,Demand Natural Gas for Industrial - Cement,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,89,T5ELEINDCEM,Demand Electric for Industrial - Cement,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,93,T5HYDINDCEM,Demand Hydrogen for Industrial - Cement,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,97,T5COKINDCEM,Demand Coke for Industrial - Cement,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,101,T5BIMINDCEM,Demand Biomass for Industrial - Cement,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,105,T5COAINDCEM,Demand Coal for Industrial - Cement,,Flat,,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Demand Techs,109,T5FOIINDCEM,Demand Fuel Oil for Industrial - Cement,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,113,T5CEM_PRODINDCEM,Demand Cement production for Industrial - Cement,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,117,T5DSLINDBAX,Demand Diesel for Industrial - Bauxite,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,121,T5GSLINDBAX,Demand Gasoline for Industrial - Bauxite,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,125,T5NGSINDBAX,Demand Natural Gas for Industrial - Bauxite,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,129,T5ELEINDBAX,Demand Electric for Industrial - Bauxite,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,133,T5HYDINDBAX,Demand Hydrogen for Industrial - Bauxite,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,137,T5COKINDBAX,Demand Coke for Industrial - Bauxite,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,141,T5BIMINDBAX,Demand Biomass for Industrial - Bauxite,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,145,T5COAINDBAX,Demand Coal for Industrial - Bauxite,,Flat,,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Demand Techs,149,T5FOIINDBAX,Demand Fuel Oil for Industrial - Bauxite,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,153,T5DSLINDSUM,Demand Diesel for Industrial - Sugar,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,157,T5GSLINDSUM,Demand Gasoline for Industrial - Sugar,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,161,T5NGSINDSUM,Demand Natural Gas for Industrial - Sugar,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,165,T5ELEINDSUM,Demand Electric for Industrial - Sugar,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,169,T5HYDINDSUM,Demand Hydrogen for Industrial - Sugar,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,173,T5COKINDSUM,Demand Coke for Industrial - Sugar,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,177,T5BIMINDSUM,Demand Biomass for Industrial - Sugar,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,181,T5COAINDSUM,Demand Coal for Industrial - Sugar,,Flat,,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Demand Techs,185,T5FOIINDSUM,Demand Fuel Oil for Industrial - Sugar,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,189,T5DSLINDOTM,Demand Diesel for Industrial - Other,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,193,T5GSLINDOTM,Demand Gasoline for Industrial - Other,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,197,T5NGSINDOTM,Demand Natural Gas for Industrial - Other,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,201,T5ELEINDOTM,Demand Electric for Industrial - Other,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,205,T5HYDINDOTM,Demand Hydrogen for Industrial - Other,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,209,T5COKINDOTM,Demand Coke for Industrial - Other,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,213,T5BIMINDOTM,Demand Biomass for Industrial - Other,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,217,T5COAINDOTM,Demand Coal for Industrial - Other,,Flat,,2021,2055,35,1,0,2021,0,,,,YES,,
+Jamaica,Demand Techs,221,T5FOIINDOTM,Demand Fuel Oil for Industrial - Other,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,225,T5DSLCON,Demand Diesel for Construction,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,229,T5ELECON,Demand Electric for Construction,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,233,T5GSLCON,Demand Gasoline for Construction,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,237,T5FOICON,Demand Fuel Oil for Construction,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,241,T5DSLEXP,Demand Diesel for Exports,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,245,T5JETEXP,Demand Jet Fuel and others for Exports,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,249,T5FOIEXP,Demand Fuel Oil for Exports,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,253,T5JETTAE,Demand Jet Fuel and others for Transport - Aero,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,257,T5DSLTMA,Demand Diesel for Transport - Maritime,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,261,T5NGSTMA,Demand Natural Gas for Transport - Maritime,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,265,T5LPGTMA,Demand LPG for Transport - Maritime,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,269,T5ELETMA,Demand Electric for Transport - Maritime,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,273,T5HYDTMA,Demand Hydrogen for Transport - Maritime,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,277,T5FOITMA,Demand Fuel Oil for Transport - Maritime,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,281,T5DSLTRO,Demand Diesel for Transport - Road,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,285,T5GSLTRO,Demand Gasoline for Transport - Road,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,289,T5NGSTRO,Demand Natural Gas for Transport - Road,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,293,T5LPGTRO,Demand LPG for Transport - Road,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,297,T5ELETRO,Demand Electric for Transport - Road,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,301,T5HYDTRO,Demand Hydrogen for Transport - Road,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,305,T5BGSTRO,Demand Biofuel/Biogas for Transport - Road,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,309,T5OPETRO,Demand Other non-energy petroleum products for Transport - Road,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,313,T5FOITRO,Demand Fuel Oil for Transport - Road,,User defined,,2021,2055,35,35,0,2021,0,0,0,0,YES,,
+Jamaica,Demand Techs,317,T5R32IPPU,Demand R32 for Industrial Processes,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,321,T5R125IPPU,Demand R125 for Industrial Processes,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,325,T5R134AIPPU,Demand R134A for Industrial Processes,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,329,T5R143AIPPU,Demand R143A for Industrial Processes,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,333,T5R227EAIPPU,Demand R227EA for Industrial Processes,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,337,T5R236FAIPPU,Demand R236FA for Industrial Processes,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,341,T5SUB32IPPU,Demand SUB32 for Industrial Processes,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,345,T5SUB125IPPU,Demand SUB125 for Industrial Processes,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,349,T5SUB134AIPPU,Demand SUB134A for Industrial Processes,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,353,T5SUB143AIPPU,Demand SUB143A for Industrial Processes,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,357,T5SUB227EAIPPU,Demand SUB227EA for Industrial Processes,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,361,T5SUB236FAIPPU,Demand SUB236FA for Industrial Processes,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,365,T5LIMEIPPU,Demand Lime for Industrial Processes,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES
+Jamaica,Demand Techs,369,T5LUBRIIPPU,Demand Lubricants for Industrial Processes,,EMPTY,,2021,2055,35,0,0,,,,,,,,YES

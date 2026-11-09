@@ -1,0 +1,601 @@
+﻿country,model_label,fuel,fuel_name_candidates,name_source_sheets
+CostaRica,CR_ENERGY\t1_confection,DEMTRNFREHEA,Transport Demand - Heavy Freight,A-O_Demand | Demand_Projection | Transport Groups
+CostaRica,CR_ENERGY\t1_confection,DEMTRNFRELIG,Transport Demand - Light Freight,A-O_Demand | Demand_Projection | Transport Groups
+CostaRica,CR_ENERGY\t1_confection,DEMTRNNOMOT,Transport Demand - Non Motorized,A-O_Demand | Demand_Projection | Other_Techs
+CostaRica,CR_ENERGY\t1_confection,DEMTRNPASPRI,Transport Demand - Passsenger Private,A-O_Demand | Demand_Projection | Transport Groups
+CostaRica,CR_ENERGY\t1_confection,DEMTRNPASPUB,Transport Demand - Passenger Public,A-O_Demand | Demand_Projection | Transport Groups
+CostaRica,CR_ENERGY\t1_confection,E0_AVG,Imported AV Gas,Demand Techs | Primary
+CostaRica,CR_ENERGY\t1_confection,E0_BMS,Biomass | Produced Biomass,Demand Techs | Primary | Secondary
+CostaRica,CR_ENERGY\t1_confection,E0_COA,Coal,Demand Techs | Primary
+CostaRica,CR_ENERGY\t1_confection,E0_FIR,Produced Firewood,Demand Techs | Primary
+CostaRica,CR_ENERGY\t1_confection,E0_NGS,Imported Natural_Gas | Natural_Gas,Primary | Secondary
+CostaRica,CR_ENERGY\t1_confection,E0_SUG,Produced Sugarcane | Sugarcane,Demand Techs | Primary | Secondary
+CostaRica,CR_ENERGY\t1_confection,E0_WAS,Waste,Demand Techs | Primary
+CostaRica,CR_ENERGY\t1_confection,E1_BIODSL,Biodiesel,Secondary
+CostaRica,CR_ENERGY\t1_confection,E1_COK,Petroleum Coke,Demand Techs | Primary
+CostaRica,CR_ENERGY\t1_confection,E1_DSL,Diesel_Blend,Demand Techs | Distribution Transport | Secondary
+CostaRica,CR_ENERGY\t1_confection,E1_ELE,Electricity | Secondary - Electricity from Generation,Primary | Secondary
+CostaRica,CR_ENERGY\t1_confection,E1_ETA,Etanol,Secondary
+CostaRica,CR_ENERGY\t1_confection,E1_FOI,FOI | Fuel_Oil,Demand Techs | Primary | Secondary
+CostaRica,CR_ENERGY\t1_confection,E1_GSL,Gasoline_Blend,Demand Techs | Distribution Transport | Secondary
+CostaRica,CR_ENERGY\t1_confection,E1_KJF,Kerosene and Jet Fuel,Demand Techs | Primary
+CostaRica,CR_ENERGY\t1_confection,E1_LPG,LPG,Demand Techs | Distribution Transport | Primary
+CostaRica,CR_ENERGY\t1_confection,E1_NGS,Natural_Gas | Secondary - Electricity from Grid for H2,Distribution Transport | Secondary
+CostaRica,CR_ENERGY\t1_confection,E1_PURDSL,Pure_Diesel,Demand Techs | Primary | Secondary
+CostaRica,CR_ENERGY\t1_confection,E1_PURGSL,Pure Gasoline | Pure_Gasoline,Demand Techs | Primary | Secondary
+CostaRica,CR_ENERGY\t1_confection,E2_ELE,Electricity | Secondary - Electricity from Transmission,Demand Techs | Primary | Secondary
+CostaRica,CR_ENERGY\t1_confection,E2_HYD,Secondary - Produced Green Hydrogen,Secondary
+CostaRica,CR_ENERGY\t1_confection,E3_ELE,Electricity | Secondary - Electricity from Distribution,Demand Techs | Distribution Transport | Primary | Secondary
+CostaRica,CR_ENERGY\t1_confection,E3_HYD,Secondary - Transported Hydrogen,Demand Techs | Distribution Transport | Secondary
+CostaRica,CR_ENERGY\t1_confection,E4DSL_HEA,Distributed Diesel_Blend for Heavy Freight,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4DSL_LIG,Distributed Diesel_Blend for Light Freight,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4DSL_PRI,Distributed Diesel_Blend for Private,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4DSL_PUB,Distributed Diesel_Blend for Public,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4ELE_HEA,Distributed Electricity for Heavy Freight,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4ELE_LIG,Distributed Electricity for Light Freight,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4ELE_PRI,Distributed Electricity for Private,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4ELE_PUB,Distributed Electricity for Public,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4GSL_LIG,Distributed Gasoline_Blend for Light Freight,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4GSL_PRI,Distributed Gasoline_Blend for Private,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4GSL_PUB,Distributed Gasoline_Blend for Public,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4HYD_HEA,Distributed Hydrogen for Heavy Freight,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4HYD_PUB,Distributed Hydrogen for Public,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4LPG_HEA,Distributed LPG for Heavy Freight,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4LPG_LIG,Distributed LPG for Light Freight,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4LPG_PRI,Distributed LPG for Private,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4LPG_PUB,Distributed LPG for Public,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4NGS_HEA,Distributed Methane for Heavy Freight,Distribution Transport | Transport
+CostaRica,CR_ENERGY\t1_confection,E4_ELE,Electricity | Secondary - Electricity for H2,Primary | Secondary
+CostaRica,CR_ENERGY\t1_confection,E5AGRDSL,"Demand Agriculture, Fisheries and Mines Diesel_Blend",A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5AGRELE,"Demand Agriculture, Fisheries and Mines Electricity",A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5AGRKJF,"Demand Agriculture, Fisheries and Mines Kerosene and Jet Fuel",A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5AGRLPG,"Demand Agriculture, Fisheries and Mines LPG",A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5AGRPURDSL,"Demand Agriculture, Fisheries and Mines Pure_Diesel",A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5AGRPURGSL,"Demand Agriculture, Fisheries and Mines Pure_Gasoline",A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5COMELE,Demand Commercial and Services Electricity,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5COMFIR,Demand Commercial and Services Firewood,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5COMFOI,Demand Commercial and Services Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5COMLPG,Demand Commercial and Services LPG,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5COMPURDSL,Demand Commercial and Services Pure_Diesel,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5COMPURGSL,Demand Commercial and Services Pure_Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5EXPELE,Demand Exports Electricity,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5EXPFIR,Demand Exports Firewood,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5INDBMS,Demand Industrial Biomass for power,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5INDCOA,Demand Industrial Coal,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5INDCOK,Demand Industrial Petroleum Coke,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5INDDSL,Demand Industrial Diesel_Blend,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5INDELE,Demand Industrial Electricity,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5INDFOI,Demand Industrial Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5INDGSL,Demand Industrial Gasoline_Blend,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5INDHYD,Demand Industrial Hydrogen,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5INDIWA,Demand Industrial Industrial Waste,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5INDLPG,Demand Industrial LPG,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5INDPURDSL,Demand Industrial Pure_Diesel,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5INDPURGSL,Demand Industrial Pure_Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5INDSUG,Demand Industrial Sugarcane and subproducts,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5PUBELE,Demand Public Services Electricity,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5RESELE,Demand Residential Electricity,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5RESLPG,Demand Residential LPG,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5TAEAVG,Demand Transport - Aero AV Gas,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5TAEJTF,Demand Transport - Aero Jet Fuel,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5TMADSL,Demand Transport - Maritimo Diesel,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5TOTGSL,Demand Transport - Otros Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+CostaRica,CR_ENERGY\t1_confection,E5TRNBUS,,Transport | Transport Groups
+CostaRica,CR_ENERGY\t1_confection,E5TRNFREHEA,,Transport | Transport Groups
+CostaRica,CR_ENERGY\t1_confection,E5TRNFRELIG,,Transport | Transport Groups
+CostaRica,CR_ENERGY\t1_confection,E5TRNFRERAI,,Transport | Transport Groups
+CostaRica,CR_ENERGY\t1_confection,E5TRNMIC,,Transport | Transport Groups
+CostaRica,CR_ENERGY\t1_confection,E5TRNMOT,,Transport | Transport Groups
+CostaRica,CR_ENERGY\t1_confection,E5TRNPASRAI,,Transport | Transport Groups
+CostaRica,CR_ENERGY\t1_confection,E5TRNSED,,Transport | Transport Groups
+CostaRica,CR_ENERGY\t1_confection,E5TRNSUV,,Transport | Transport Groups
+CostaRica,CR_ENERGY\t1_confection,E5TRNTAX,,Transport | Transport Groups
+DominicanRepublic,RD_ENERGY,E1BGS,Primary - Biogas,Primary | Secondary
+DominicanRepublic,RD_ENERGY,E1BIM,Primary - Biomass,Demand Techs | Primary | Secondary
+DominicanRepublic,RD_ENERGY,E1COA,Primary - Coal,Demand Techs | Primary | Secondary
+DominicanRepublic,RD_ENERGY,E1COK,Primary - Coke,Demand Techs | Primary
+DominicanRepublic,RD_ENERGY,E1CRU,Primary - Crude,Primary | Secondary
+DominicanRepublic,RD_ENERGY,E1DSL,Primary - Diesel,Demand Techs | Distribution Transport | Primary | Secondary
+DominicanRepublic,RD_ENERGY,E1ELE,Primary - Imported Electricity | Secondary - Electricity from Generation,Primary | Secondary
+DominicanRepublic,RD_ENERGY,E1FIR,Primary - Firewood,Demand Techs | Primary
+DominicanRepublic,RD_ENERGY,E1FOI,Primary - FOI,Demand Techs | Primary | Secondary
+DominicanRepublic,RD_ENERGY,E1GSL,Primary - Gasoline,Demand Techs | Distribution Transport | Primary | Secondary
+DominicanRepublic,RD_ENERGY,E1KER,Primary - Kerosen,Demand Techs | Primary
+DominicanRepublic,RD_ENERGY,E1LPG,Primary - LPG,Demand Techs | Distribution Transport | Primary | Secondary
+DominicanRepublic,RD_ENERGY,E1NGS,Primary - Natural Gas,Demand Techs | Distribution Transport | Primary | Secondary
+DominicanRepublic,RD_ENERGY,E2ELE,Secondary - Electricity from Transmission,Secondary
+DominicanRepublic,RD_ENERGY,E2HYDG,Secondary - Produced Green Hydrogen,Secondary
+DominicanRepublic,RD_ENERGY,E3ELE,Secondary - Electricity from Distribution,Demand Techs | Distribution Transport | Primary | Secondary
+DominicanRepublic,RD_ENERGY,E3HYD,Secondary - Transported Hydrogen,Demand Techs | Distribution Transport | Secondary
+DominicanRepublic,RD_ENERGY,E4DSL_HEA,Distributed Diesel for Heavy Freight,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4DSL_LIG,Distributed Diesel for Light Freight,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4DSL_PRI,Distributed Diesel for Private,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4DSL_PUB,Distributed Diesel for Public,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4DSL_TUR,Distributed Diesel for Tourism,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4ELE_HEA,Distributed Electric for Heavy Freight,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4ELE_LIG,Distributed Electric for Light Freight,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4ELE_PRI,Distributed Electric for Private,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4ELE_PUB,Distributed Electric for Public,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4ELE_TUR,Distributed Electric for Tourism,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4GSL_HEA,Distributed Gasoline for Heavy Freight,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4GSL_LIG,Distributed Gasoline for Light Freight,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4GSL_PRI,Distributed Gasoline for Private,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4GSL_PUB,Distributed Gasoline for Public,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4GSL_TUR,Distributed Gasoline for Tourism,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4HYD_HEA,Distributed Hydrogen for Heavy Freight,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4HYD_PUB,Distributed Hydrogen for Public,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4HYD_TUR,Distributed Hydrogen for Tourism,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4LPG_HEA,Distributed LPG for Heavy Freight,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4LPG_LIG,Distributed LPG for Light Freight,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4LPG_PRI,Distributed LPG for Private,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4LPG_PUB,Distributed LPG for Public,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4LPG_TUR,Distributed LPG for Tourism,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4NGS_LIG,Distributed Natural gas for Light Freight,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E4NGS_PRI,Distributed Natural gas for Private,Distribution Transport | Transport
+DominicanRepublic,RD_ENERGY,E5AGRDSL,Demand Agriculture Diesel,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5AGRELE,Demand Agriculture Electric,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5AGRLPG,Demand Agriculture LPG,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5COMBIM,Demand Commercial Biomass,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5COMDSL,Demand Commercial Diesel,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5COMELE,Demand Commercial Electric,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5COMFIR,Demand Commercial Firewood,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5COMGSL,Demand Commercial Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5COMLPG,Demand Commercial LPG,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5COMNGS,Demand Commercial Natural gas,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5CONGSL,Demand Construction Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5CONLPG,Demand Construction LPG,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5EXPBIM,Demand Exports Biomass,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5EXPKER,Demand Exports Kerosen,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5EXPNGS,Demand Exports Natural gas,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5INDBIM,Demand Industrial Biomass,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5INDCOA,Demand Industrial Coal,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5INDCOK,Demand Industrial Coke,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5INDDSL,Demand Industrial Diesel,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5INDELE,Demand Industrial Electric,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5INDFOI,Demand Industrial Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5INDGSL,Demand Industrial Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5INDHYD,Demand Industrial Hydrogen,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5INDLPG,Demand Industrial LPG,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5INDNGS,Demand Industrial Natural gas,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5RESBIM,Demand Residential Biomass,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5RESELE,Demand Residential Electric,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5RESFIR,Demand Residential Firewood,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5RESKER,Demand Residential Kerosen,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5RESLPG,Demand Residential LPG,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5TACGSL,Demand Transport - Aero Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5TACKER,Demand Transport - Aero Kerosen,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5TOTDSL,Demand Transport - Other Diesel,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5TOTELE,Demand Transport - Other Electric,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5TOTGSL,Demand Transport - Other Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+DominicanRepublic,RD_ENERGY,E5TRAUT,,Transport | Transport Groups
+DominicanRepublic,RD_ENERGY,E5TRBPU,,Transport | Transport Groups
+DominicanRepublic,RD_ENERGY,E5TRBTUR,,Transport | Transport Groups
+DominicanRepublic,RD_ENERGY,E5TRMBS,,Transport | Transport Groups
+DominicanRepublic,RD_ENERGY,E5TRMOT,,Transport | Transport Groups
+DominicanRepublic,RD_ENERGY,E5TRSUV,,Transport | Transport Groups
+DominicanRepublic,RD_ENERGY,E5TRTAX,,Transport | Transport Groups
+DominicanRepublic,RD_ENERGY,E5TRXBUSEFI,,Transport | Transport Groups
+DominicanRepublic,RD_ENERGY,E5TRXTRAI,,Transport | Transport Groups
+DominicanRepublic,RD_ENERGY,E5TRXTRAIFRE,,Transport | Transport Groups
+DominicanRepublic,RD_ENERGY,E5TRXTTEL,,Transport | Transport Groups
+DominicanRepublic,RD_ENERGY,E5TRYLF,,Transport | Transport Groups
+DominicanRepublic,RD_ENERGY,E5TRYTK,,Transport | Transport Groups
+DominicanRepublic,RD_ENERGY,E6TDFREHEA,Transport Demand - Heavy Freight,A-O_Demand | Demand_Projection | Transport Groups
+DominicanRepublic,RD_ENERGY,E6TDFRELIG,Transport Demand - Light Freight,A-O_Demand | Demand_Projection | Transport Groups
+DominicanRepublic,RD_ENERGY,E6TDPASPRI,Transport Demand - Passenger Private | Transport Demand - Passsenger Private,A-O_Demand | Demand_Projection | Transport Groups
+DominicanRepublic,RD_ENERGY,E6TDPASPUB,Transport Demand - Passenger Public,A-O_Demand | Demand_Projection | Transport Groups
+DominicanRepublic,RD_ENERGY,E6TDPASTUR,Transport Demand - Passsenger Tourism,A-O_Demand | Demand_Projection | Transport Groups
+DominicanRepublic,RD_ENERGY,E6TRNOMOT,Transport Demand non motorized reductions,A-O_Demand | Demand_Projection | Other_Techs
+DominicanRepublic,RD_ENERGY,E7ELE,Secondary - Electricity for H2,Primary | Secondary
+Ecuador,ECU_Energy,E0CRU,Crude | Primary - Crude,Demand Techs | Primary | Secondary
+Ecuador,ECU_Energy,E0DSL,Primary - Diesel,Primary | Secondary
+Ecuador,ECU_Energy,E0FOI,Primary - FOI,Primary | Secondary
+Ecuador,ECU_Energy,E0GRE,Primary - Gas Refineria,Primary | Secondary
+Ecuador,ECU_Energy,E0GSL,Primary - Gasoline,Primary | Secondary
+Ecuador,ECU_Energy,E0JET,Primary - Jet,Primary | Secondary
+Ecuador,ECU_Energy,E0LPG,Primary - LPG,Primary | Secondary
+Ecuador,ECU_Energy,E0NGS,Natural_Gas,Primary | Secondary
+Ecuador,ECU_Energy,E1BGS,Primary - Biogas,Demand Techs | Primary | Secondary
+Ecuador,ECU_Energy,E1BIM,Primary - Biomass,Demand Techs | Primary | Secondary
+Ecuador,ECU_Energy,E1CHA,Primary - Charcoal,Demand Techs | Primary
+Ecuador,ECU_Energy,E1COA,Primary - Coal,Demand Techs | Primary
+Ecuador,ECU_Energy,E1COK,Primary - Coke | Primary - OPE,Demand Techs | Primary | Secondary
+Ecuador,ECU_Energy,E1CRU,Crude_Oil | Primary - Crude,Secondary
+Ecuador,ECU_Energy,E1DSL,Primary - Diesel,Demand Techs | Primary | Secondary
+Ecuador,ECU_Energy,E1ELE,Secondary - Electricity from Generation,Primary | Secondary
+Ecuador,ECU_Energy,E1FIR,Primary - Firewood,Demand Techs | Primary
+Ecuador,ECU_Energy,E1FO1,Primary - FOI,Demand Techs | Primary | Secondary
+Ecuador,ECU_Energy,E1FOI,Primary - FOI,Secondary
+Ecuador,ECU_Energy,E1GSL,Primary - Gasoline,Demand Techs | Primary | Secondary
+Ecuador,ECU_Energy,E1JET,Primary - Jet,Demand Techs | Primary | Secondary
+Ecuador,ECU_Energy,E1KER,Primary - Kerosen,Demand Techs | Primary
+Ecuador,ECU_Energy,E1LPG,Primary - LPG,Demand Techs | Primary | Secondary
+Ecuador,ECU_Energy,E1NGS,Natural_Gas_extracted | Primary - Natural Gas,Demand Techs | Primary | Secondary
+Ecuador,ECU_Energy,E1OID,Primary - Óleos de desecho,Demand Techs | Primary
+Ecuador,ECU_Energy,E1OPE,Primary - OPE,Demand Techs | Primary
+Ecuador,ECU_Energy,E1RDF,Primary - RDF,Demand Techs | Primary
+Ecuador,ECU_Energy,E2ELE,Secondary - Electricity from Transmission,Secondary
+Ecuador,ECU_Energy,E2HYDG,Secondary - Produced Green Hydrogen,Secondary
+Ecuador,ECU_Energy,E3ELE,Secondary - Electricity from Distribution,Demand Techs | Distribution Transport | Primary | Secondary
+Ecuador,ECU_Energy,E3HYD,Secondary - Transported Hydrogen,Demand Techs | Secondary
+Ecuador,ECU_Energy,E4ELE_HEA,Distributed Electric for Heavy Freight,Distribution Transport | Transport
+Ecuador,ECU_Energy,E5AGRDSL,Demand Construction Kerosene,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5AGRGSL,Demand Construction Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5AGRLPG,Demand Construction LPG,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5AGROTP,Demand Construction Other Petroleum Products - No energético,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5ALLTRNDSL,Demand Transport - All Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5ALLTRNELE,Demand Transport - All Electricity,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5ALLTRNFOI,Demand Transport - All Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5ALLTRNGSL,Demand Transport - All Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5ALLTRNJET,Demand Bunker - All Jet Fuel,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5ALLTRNLPG,Demand Transport - All LPG,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5COMDSL,Demand Commercial Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5COMELE,Demand Commercial Electric,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5COMFOI,Demand Commercial Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5COMGSL,Demand Commercial  Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5COMLPG,Demand Commercial LPG,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5CONDSL,Demand Construction Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5CONELE,Demand Construction Electric,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5CONFOI,Demand Construction Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5CONGSL,Demand Construcción Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5CONKER,Demand Construction Kerosene,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5CONLPG,Demand Construcción LPG,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5CONOPE,Demand Construcción Other non-energy petroleum products,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5EXPCRU,Demand Exports Crude,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5EXPDSL,Demand Exports Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5EXPFOI,Demand Exports Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5EXPJET,Demand Exports Jet Fuel and others,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5INDBIM,Demand Industrial Biomass,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5INDCOA,Demand Carbón de coque  for Industrial,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5INDCOK,Demand Industrial Petroleum Coke,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5INDDSL,Demand Industrial Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5INDELE,Demand Industrial Electric,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5INDFIR,Demand Industrial Firewood,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5INDFOI,Demand Industrial Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5INDGSL,Demand Industrial Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5INDHYD,Demand Industrial Hydrogen,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5INDLPG,Demand Industrial LPG,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5INDNGS,Demand Industrial Natural Gas,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5INDOID,Demand Óleos de desecho for Industrial,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5INDRDF,Demand Desechos municipales no biomasa for Industrial,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5PUBELE,Demand Public Electric,Demand Techs
+Ecuador,ECU_Energy,E5RESCHA,Demand Residential Charcoal,Demand Techs
+Ecuador,ECU_Energy,E5RESELE,Demand Residential Electric,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5RESFIR,Demand Residential Firewood,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5RESGSL,Demand Residential Gasoline,Demand Techs
+Ecuador,ECU_Energy,E5RESKER,Demand Residential Kerosen,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5RESLPG,Demand Residential LPG,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5RESNGS,Demand Residential Gas Natural,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5RESOPE,Demand Residential Other non-energy petroleum products,Demand Techs
+Ecuador,ECU_Energy,E5TAEGSL,Demand Transport - Aero Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5TAEJET,Demand Transport - Aero Jet Fuel and others,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5TCADSL,Demand Tramsport - Heavy Duty Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5TCAGSL,Demand Tramsport - Heavy Duty Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5TMADSL,Demand Transport - Maritime Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5TMAELE,Demand Transport - Maritime Electric,Demand Techs
+Ecuador,ECU_Energy,E5TMAFOI,Demand Transport - Maritime Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5TMAGSL,Demand Transport - Maritime Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5TMALPG,Demand Transport - Maritime LPG,Demand Techs
+Ecuador,ECU_Energy,E5TMANGS,Demand Transport - Maritime Natural Gas,Demand Techs
+Ecuador,ECU_Energy,E5TRNFOI,Demand Transport - Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5TROBGS,Demand Transport - Road Biofuel/Biogas,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5TRODSL,Demand Transport - Road Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5TROELE,Demand Transport - Road Electric,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5TROFOI,Demand Transport - Road Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5TROGSL,Demand Transport - Road Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5TROLPG,Demand Transport - Road LPG,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5TRONGS,Demand Transport - Road Natural Gas,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E5TRXTRAI,,Transport | Transport Groups
+Ecuador,ECU_Energy,E5VEGWAS,Demand Industrial Vegetal Wastes,A-O_Demand | Demand Techs | Demand_Projection
+Ecuador,ECU_Energy,E6TDFREHEA,Transport Demand - Floating,A-O_Demand | Demand_Projection | Transport Groups
+Ecuador,ECU_Energy,E6TRNOMOT,Transport additional demand - Floating,A-O_Demand | Demand_Projection | Other_Techs
+Guatemala,GUA_ENERGY,E0_CRU,Primary - Crude,Demand Techs | Primary
+Guatemala,GUA_ENERGY,E0_LPG,Primary - LPG,Primary
+Guatemala,GUA_ENERGY,E1BGS,Primary - Biogas,Demand Techs | Primary | Secondary
+Guatemala,GUA_ENERGY,E1BIM,Primary - Biomass,Demand Techs | Primary | Secondary
+Guatemala,GUA_ENERGY,E1COA,Primary - Coal,Primary | Secondary
+Guatemala,GUA_ENERGY,E1COK,Primary - Coke,Demand Techs | Primary
+Guatemala,GUA_ENERGY,E1DSL,Primary - Diesel,Demand Techs | Distribution Transport | Primary | Secondary
+Guatemala,GUA_ENERGY,E1ELE,Primary - Imported Electricity | Secondary - Electricity from Generation,Primary | Secondary
+Guatemala,GUA_ENERGY,E1FIR,Primary - Firewood,Demand Techs | Primary
+Guatemala,GUA_ENERGY,E1FLEXFUEL,Primary - Flex Fuel,Distribution Transport | Primary
+Guatemala,GUA_ENERGY,E1FO1,Primary - FOI,Demand Techs | Primary | Secondary
+Guatemala,GUA_ENERGY,E1GSL,Primary - Gasoline,Demand Techs | Distribution Transport | Primary
+Guatemala,GUA_ENERGY,E1KER,Primary - Kerosen,Demand Techs | Primary
+Guatemala,GUA_ENERGY,E1LPG,Primary - LPG,Demand Techs | Distribution Transport | Primary
+Guatemala,GUA_ENERGY,E1NGS,Primary - Natural Gas,Primary | Secondary
+Guatemala,GUA_ENERGY,E2ELE,Secondary - Electricity from Transmission,Demand Techs | Secondary
+Guatemala,GUA_ENERGY,E2HYDG,Secondary - Produced Green Hydrogen,Secondary
+Guatemala,GUA_ENERGY,E3ELE,Secondary - Electricity from Distribution,Demand Techs | Distribution Transport | Primary | Secondary
+Guatemala,GUA_ENERGY,E3HYD,Secondary - Transported Hydrogen,Demand Techs | Distribution Transport | Secondary
+Guatemala,GUA_ENERGY,E4DSL_HEA,Distributed Diesel for Heavy Freight,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E4DSL_LIG,Distributed Diesel for Light Freight,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E4DSL_PRI,Distributed Diesel for Private,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E4DSL_PUB,Distributed Diesel for Public,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E4ELE_HEA,Distributed Electric for Heavy Freight,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E4ELE_LIG,Distributed Electric for Light Freight,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E4ELE_PRI,Distributed Electric for Private,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E4ELE_PUB,Distributed Electric for Public,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E4Flex_Fuel_PRI,Distributed Flex_Fuel for Private,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E4GSL_LIG,Distributed Gasoline for Light Freight,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E4GSL_PRI,Distributed Gasoline for Private,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E4HYD_HEA,Distributed Hydrogen for Heavy Freight,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E4HYD_PRI,Distributed Hydrogen for Private,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E4HYD_PUB,Distributed Hydrogen for Public,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E4LPG_HEA,Distributed LPG for Heavy Freight,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E4LPG_LIG,Distributed LPG for Light Freight,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E4LPG_PRI,Distributed LPG for Private,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E4LPG_PUB,Distributed LPG for Public,Distribution Transport | Transport
+Guatemala,GUA_ENERGY,E5COMBIM,Demand Commercial Biomass,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5COMELE,Demand Commercial Electric,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5COMFIR,Demand Commercial Firewood,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5COMGSL,Demand Commercial Gasoline,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5COMKER,Demand Commercial Kerosen,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5COMLPG,Demand Commercial LPG,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5EXPCRU,Demand Exports Crude,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5EXPELE,Demand Exports Electric,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5EXPLPG,Demand Exports LPG,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5INDBGS,Demand Industrial Biofuel/Biogas,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5INDBIM,Demand Industrial Biomass,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5INDCEMCOK,Demand Cement Industry  Coke,A-O_Demand | Demand Techs | Demand_Projection
+Guatemala,GUA_ENERGY,E5INDCEMELE,Demand Cement Industry Electric,A-O_Demand | Demand Techs | Demand_Projection
+Guatemala,GUA_ENERGY,E5INDCOK,Demand Industrial Coke,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5INDDSL,Demand Industrial Diesel,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5INDELE,Demand Industrial Electric,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5INDFOI,Demand Industrial Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5INDGSL,Demand Industrial Gasoline,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5INDHYD,Demand Industrial Hydrogen,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5INDKER,Demand Industrial Kerosen,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5INDLPG,Demand Industrial LPG,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5RESBIM,Demand Residential Biomass,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5RESELE,Demand Residential Electric,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5RESFIR,Demand Residential Firewood,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5RESKER,Demand Residential Kerosen,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5RESLPG,Demand Residential LPG,A-O_Demand | Demand Techs | Demand_Projection | Demand_Projection_ref_20211022
+Guatemala,GUA_ENERGY,E5TRAUT,Demand Automovile,Transport | Transport Groups
+Guatemala,GUA_ENERGY,E5TRBPR,Demand Bus Private,Transport | Transport Groups
+Guatemala,GUA_ENERGY,E5TRBPU,Demand Bus Public,Transport | Transport Groups
+Guatemala,GUA_ENERGY,E5TRMBS,Demand Microbus,Transport | Transport Groups
+Guatemala,GUA_ENERGY,E5TRMOT,Demand Motorcycle,Transport | Transport Groups
+Guatemala,GUA_ENERGY,E5TRXTRAI,Demand Rail,Transport | Transport Groups
+Guatemala,GUA_ENERGY,E5TRXTRAIFRE,Demand Rail Freight,Transport | Transport Groups
+Guatemala,GUA_ENERGY,E5TRXTTEL,Demand Aerial Tramway,Transport | Transport Groups
+Guatemala,GUA_ENERGY,E5TRYLF,Demand Light Truck,Transport | Transport Groups
+Guatemala,GUA_ENERGY,E5TRYTK,Demand Heavy Truck,Transport | Transport Groups
+Guatemala,GUA_ENERGY,E6AERO,Demand Transport - Cable Car Electric,A-O_Demand | Demand Techs | Demand_Projection
+Guatemala,GUA_ENERGY,E6BRT,Demand Transport - Train Electric,A-O_Demand | Demand Techs | Demand_Projection
+Guatemala,GUA_ENERGY,E6TDFREHEA,Transport Demand - Heavy Freight,A-O_Demand | Demand_Projection | Demand_Projection_ref_20211022 | Transport Groups
+Guatemala,GUA_ENERGY,E6TDFRELIG,Transport Demand - Light Freight,A-O_Demand | Demand_Projection | Demand_Projection_ref_20211022 | Transport Groups
+Guatemala,GUA_ENERGY,E6TDPASPRI,Transport Demand - Passenger Private | Transport Demand - Passsenger Private,A-O_Demand | Demand_Projection | Demand_Projection_ref_20211022 | Transport Groups
+Guatemala,GUA_ENERGY,E6TDPASPUB,Transport Demand - Passenger Public,A-O_Demand | Demand_Projection | Demand_Projection_ref_20211022 | Transport Groups
+Guatemala,GUA_ENERGY,E6TRNOMOT,Transport Demand - Non motorized reductions,A-O_Demand | Demand_Projection | Other_Techs
+Guatemala,GUA_ENERGY,E7ELE,Secondary - Electricity for H2 | Secondary - Electricity from Generation,Primary | Secondary
+Honduras,HON_ENERGY,E0_CRU,Primary - Crude,Primary
+Honduras,HON_ENERGY,E0_LPG,Primary - LPG,Primary
+Honduras,HON_ENERGY,E1BGS,Primary - Biogas,Demand Techs | Primary | Secondary
+Honduras,HON_ENERGY,E1BIM,Primary - Biomass,Demand Techs | Primary | Secondary
+Honduras,HON_ENERGY,E1COA,Primary - Coal,Primary | Secondary
+Honduras,HON_ENERGY,E1COK,Primary - Coke,Demand Techs | Primary | Secondary
+Honduras,HON_ENERGY,E1DSL,Primary - Diesel,Demand Techs | Distribution Transport | Primary | Secondary
+Honduras,HON_ENERGY,E1ELE,Primary - Imported Electricity | Secondary - Electricity from Generation,Primary | Secondary
+Honduras,HON_ENERGY,E1FIR,Primary - Firewood,Demand Techs | Primary
+Honduras,HON_ENERGY,E1FO1,Primary - FOI,Demand Techs | Primary | Secondary
+Honduras,HON_ENERGY,E1GSL,Primary - Gasoline,Demand Techs | Distribution Transport | Primary
+Honduras,HON_ENERGY,E1KER,Primary - Kerosen,Demand Techs | Primary
+Honduras,HON_ENERGY,E1LPG,Primary - LPG,Demand Techs | Distribution Transport | Primary | Secondary
+Honduras,HON_ENERGY,E1NGS,Primary - Natural Gas,Primary | Secondary
+Honduras,HON_ENERGY,E1URA,Primary - Uranio,Primary | Secondary
+Honduras,HON_ENERGY,E2ELE,Secondary - Electricity from Transmission,Demand Techs | Secondary
+Honduras,HON_ENERGY,E2HYDG,Secondary - Produced Green Hydrogen,Secondary
+Honduras,HON_ENERGY,E3ELE,Secondary - Electricity from Distribution,Demand Techs | Distribution Transport | Primary | Secondary
+Honduras,HON_ENERGY,E3HYD,Secondary - Transported Hydrogen,Demand Techs | Distribution Transport | Secondary
+Honduras,HON_ENERGY,E4DSL_HEA,Distributed Diesel for Heavy Freight,Distribution Transport | Transport
+Honduras,HON_ENERGY,E4DSL_LIG,Distributed Diesel for Light Freight,Distribution Transport | Transport
+Honduras,HON_ENERGY,E4DSL_PRI,Distributed Diesel for Private,Distribution Transport | Transport
+Honduras,HON_ENERGY,E4DSL_PUB,Distributed Diesel for Public,Distribution Transport | Transport
+Honduras,HON_ENERGY,E4DSL_TUR,Distributed Diesel for Tourism,Distribution Transport | Transport
+Honduras,HON_ENERGY,E4ELE_HEA,Distributed Electric for Heavy Freight,Distribution Transport | Transport
+Honduras,HON_ENERGY,E4ELE_LIG,Distributed Electric for Light Freight,Distribution Transport | Transport
+Honduras,HON_ENERGY,E4ELE_PRI,Distributed Electric for Private,Distribution Transport | Transport
+Honduras,HON_ENERGY,E4ELE_PUB,Distributed Electric for Public,Distribution Transport | Transport
+Honduras,HON_ENERGY,E4ELE_TUR,Distributed Electric for Tourism,Distribution Transport | Transport
+Honduras,HON_ENERGY,E4GSL_LIG,Distributed Gasoline for Light Freight,Distribution Transport | Transport
+Honduras,HON_ENERGY,E4GSL_PRI,Distributed Gasoline for Private,Distribution Transport | Transport
+Honduras,HON_ENERGY,E4GSL_PUB,Distributed Gasoline for Public,Distribution Transport | Transport
+Honduras,HON_ENERGY,E4GSL_TUR,Distributed Gasoline for Tourism,Distribution Transport | Transport
+Honduras,HON_ENERGY,E4HYD_HEA,Distributed Hydrogen for Heavy Freight,Distribution Transport | Transport
+Honduras,HON_ENERGY,E4HYD_PUB,Distributed Hydrogen for Public,Distribution Transport | Transport
+Honduras,HON_ENERGY,E4LPG_PUB,Distributed LPG for Public,Distribution Transport | Transport
+Honduras,HON_ENERGY,E5AGRBGS,Demand Agriculture Biofuel/Biogas,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5AGRDSL,Demand Agriculture Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5AGRELE,Demand Agriculture Electric,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5AGRFIR,Demand Agriculture Firewood,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5AGRFOI,Demand Agriculture Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5AGRGSL,Demand Agriculture Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5AGRKER,Demand Agriculture Kerosen,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5AGRLPG,Demand Agriculture LPG,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5COMDSL,Demand Commercial Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5COMELE,Demand Commercial Electric,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5COMFIR,Demand Commercial Firewood,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5COMFOI,Demand Commercial Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5COMGSL,Demand Commercial Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5COMKER,Demand Commercial Kerosen,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5COMLPG,Demand Commercial LPG,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5EXPDSL,Demand Exports Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5EXPELE,Demand Exports Electric,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5EXPFOI,Demand Exports Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5EXPGSL,Demand Exports Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5EXPKER,Demand Exports Kerosen,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5EXPLPG,Demand Exports LPG,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5INDBGS,Demand Industrial Biofuel/Biogas,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5INDBIM,Demand Industrial Biomass,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5INDCOK,Demand Industrial Coke,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5INDDSL,Demand Industrial Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5INDELE,Demand Industrial Electric,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5INDFIR,Demand Industrial Firewood,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5INDFOI,Demand Industrial Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5INDGSL,Demand Industrial Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5INDHYD,Demand Industrial Hydrogen,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5INDKER,Demand Industrial Kerosen,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5INDLPG,Demand Industrial LPG,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5RESBIM,Demand Residential Biomass,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5RESELE,Demand Residential Electric,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5RESFIR,Demand Residential Firewood,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5RESGSL,Demand Residential Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5RESKER,Demand Residential Kerosen,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5RESLPG,Demand Residential LPG,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5TACGSL,Demand Transport - Aero Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5TACKER,Demand Transport - Aero Kerosen,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5TOTDSL,Demand Transport - Other Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5TOTELE,Demand Transport - Other Electric,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5TOTGSL,Demand Transport - Other Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Honduras,HON_ENERGY,E5TRAUT,,Transport | Transport Groups
+Honduras,HON_ENERGY,E5TRBPU,,Transport | Transport Groups
+Honduras,HON_ENERGY,E5TRBTUR,,Transport | Transport Groups
+Honduras,HON_ENERGY,E5TRMBS,,Transport | Transport Groups
+Honduras,HON_ENERGY,E5TRMOT,,Transport | Transport Groups
+Honduras,HON_ENERGY,E5TRSUV,,Transport | Transport Groups
+Honduras,HON_ENERGY,E5TRTAX,,Transport | Transport Groups
+Honduras,HON_ENERGY,E5TRYLF,,Transport | Transport Groups
+Honduras,HON_ENERGY,E5TRYTK,,Transport | Transport Groups
+Honduras,HON_ENERGY,E6TDFREHEA,Transport Demand - Heavy Freight,A-O_Demand | Demand_Projection | Transport Groups
+Honduras,HON_ENERGY,E6TDFRELIG,Transport Demand - Light Freight,A-O_Demand | Demand_Projection | Transport Groups
+Honduras,HON_ENERGY,E6TDPASPRI,Transport Demand - Passsenger Private | Transport Demand - Passsenger Tourism,A-O_Demand | Demand_Projection | Transport Groups
+Honduras,HON_ENERGY,E6TDPASPUB,Transport Demand - Passenger Public,A-O_Demand | Demand_Projection | Transport Groups
+Honduras,HON_ENERGY,E6TRNOMOT,Transport Demand non motorized reductions,A-O_Demand | Demand_Projection | Other_Techs
+Honduras,HON_ENERGY,E7ELE,Secondary - Electricity for H2 | Secondary - Electricity from Generation,Primary | Secondary
+Jamaica,JAM_ENERGY,CEM_PROD,Cement production,Demand Techs | Secondary
+Jamaica,JAM_ENERGY,CLK_PROD,Clinker production,Primary | Secondary
+Jamaica,JAM_ENERGY,E0_CRU,Primary - Crude,Primary | Secondary
+Jamaica,JAM_ENERGY,E1BGS,Primary - Biogas,Demand Techs | Primary | Secondary
+Jamaica,JAM_ENERGY,E1BIM,Primary - Biomass,Demand Techs | Primary | Secondary
+Jamaica,JAM_ENERGY,E1CHA,Primary - Charcoal,Demand Techs | Primary
+Jamaica,JAM_ENERGY,E1CO2,Captured CO2,Primary
+Jamaica,JAM_ENERGY,E1COA,Primary - Coal,Demand Techs | Primary
+Jamaica,JAM_ENERGY,E1COK,Primary - Coke | Primary - OPE,Demand Techs | Primary | Secondary
+Jamaica,JAM_ENERGY,E1DSL,Primary - Diesel,Demand Techs | Primary | Secondary
+Jamaica,JAM_ENERGY,E1ELE,Secondary - Electricity from Generation,Primary | Secondary
+Jamaica,JAM_ENERGY,E1FIR,Primary - Firewood,Demand Techs | Primary
+Jamaica,JAM_ENERGY,E1FO1,Primary - FOI,Demand Techs | Primary | Secondary
+Jamaica,JAM_ENERGY,E1GSL,Primary - Gasoline,Demand Techs | Primary | Secondary
+Jamaica,JAM_ENERGY,E1HOU,Primary - Housing and Dwelling,Demand Techs | Primary
+Jamaica,JAM_ENERGY,E1JET,Primary - Jet,Demand Techs | Primary | Secondary
+Jamaica,JAM_ENERGY,E1KER,Primary - Kerosen,Demand Techs | Primary
+Jamaica,JAM_ENERGY,E1LPG,Primary - LPG,Demand Techs | Primary | Secondary
+Jamaica,JAM_ENERGY,E1NGS,Primary - Natural Gas,Demand Techs | Primary | Secondary
+Jamaica,JAM_ENERGY,E1PV,Primary - Solar Energy,Demand Techs | Primary
+Jamaica,JAM_ENERGY,E2ELE,Secondary - Electricity from Transmission,Secondary
+Jamaica,JAM_ENERGY,E2HYDG,Secondary - Produced Green Hydrogen,Secondary
+Jamaica,JAM_ENERGY,E3ELE,Secondary - Electricity from Distribution,Demand Techs | Distribution Transport | Primary | Secondary
+Jamaica,JAM_ENERGY,E3HYD,Secondary - Transported Hydrogen,Demand Techs | Secondary
+Jamaica,JAM_ENERGY,E4ELE_HEA,Distributed Electric for Heavy Freight,Distribution Transport | Transport
+Jamaica,JAM_ENERGY,E5COMCHA,Demand Commercial Charcoal,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5COMDSL,Demand Commercial Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5COMELE,Demand Commercial Electric,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5COMFIR,Demand Commercial Firewood,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5COMGSL,Demand Commercial Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5COMLPG,Demand Commercial LPG,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5COMNGS,Demand Commercial Natural Gas,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5COMOPE,Demand Commercial Other non-energy petroleum products,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5CONDSL,Demand Construction Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5CONELE,Demand Construction Electric,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5CONFOI,Demand Construction Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5CONGSL,Demand Construction Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5EXPDSL,Demand Exports Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5EXPFOI,Demand Exports Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5EXPJET,Demand Exports Jet Fuel and others,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5HOU,Demand Housing and Dwelling,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDBAXBIM,Demand Industrial - Bauxite Biomass,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDBAXCOA,Demand Industrial - Bauxite Coal,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDBAXCOK,Demand Industrial - Bauxite Coke,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDBAXDSL,Demand Industrial - Bauxite Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDBAXELE,Demand Industrial - Bauxite Electric,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDBAXFOI,Demand Industrial - Bauxite Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDBAXGSL,Demand Industrial - Bauxite Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDBAXHYD,Demand Industrial - Bauxite Hydrogen,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDBAXNGS,Demand Industrial - Bauxite Natural Gas,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDCEMBIM,Demand Industrial - Cement Biomass,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDCEMCEM_PROD,Demand Industrial - Cement Cement production,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDCEMCOA,Demand Industrial - Cement Coal,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDCEMCOK,Demand Industrial - Cement Coke,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDCEMDSL,Demand Industrial - Cement Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDCEMELE,Demand Industrial - Cement Electric,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDCEMFOI,Demand Industrial - Cement Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDCEMGSL,Demand Industrial - Cement Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDCEMHYD,Demand Industrial - Cement Hydrogen,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDCEMNGS,Demand Industrial - Cement Natural Gas,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDOTMBIM,Demand Industrial - Other Biomass,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDOTMCOA,Demand Industrial - Other Coal,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDOTMCOK,Demand Industrial - Other Coke,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDOTMDSL,Demand Industrial - Other Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDOTMELE,Demand Industrial - Other Electric,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDOTMFOI,Demand Industrial - Other Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDOTMGSL,Demand Industrial - Other Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDOTMHYD,Demand Industrial - Other Hydrogen,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDOTMNGS,Demand Industrial - Other Natural Gas,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDSUMBIM,Demand Industrial - Sugar Biomass,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDSUMCOA,Demand Industrial - Sugar Coal,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDSUMCOK,Demand Industrial - Sugar Coke,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDSUMDSL,Demand Industrial - Sugar Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDSUMELE,Demand Industrial - Sugar Electric,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDSUMFOI,Demand Industrial - Sugar Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDSUMGSL,Demand Industrial - Sugar Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDSUMHYD,Demand Industrial - Sugar Hydrogen,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5INDSUMNGS,Demand Industrial - Sugar Natural Gas,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5IPPULIME,Demand Industrial Processes Lime,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5IPPULUBRI,Demand Industrial Processes Lubricants,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5IPPUR125,Demand Industrial Processes R125,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5IPPUR134A,Demand Industrial Processes R134A,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5IPPUR143A,Demand Industrial Processes R143A,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5IPPUR227EA,Demand Industrial Processes R227EA,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5IPPUR236FA,Demand Industrial Processes R236FA,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5IPPUR32,Demand Industrial Processes R32,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5IPPUSUB125,Demand Industrial Processes SUB125,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5IPPUSUB134A,Demand Industrial Processes SUB134A,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5IPPUSUB143A,Demand Industrial Processes SUB143A,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5IPPUSUB227EA,Demand Industrial Processes SUB227EA,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5IPPUSUB236FA,Demand Industrial Processes SUB236FA,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5IPPUSUB32,Demand Industrial Processes SUB32,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5RESCHA,Demand Residential Charcoal,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5RESDSL,Demand Residential Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5RESELE,Demand Residential Electric,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5RESFIR,Demand Residential Firewood,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5RESGSL,Demand Residential Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5RESKER,Demand Residential Kerosen,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5RESLPG,Demand Residential LPG,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5RESOPE,Demand Residential Other non-energy petroleum products,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5RESPV,Demand Residential Solar,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5TAEJET,Demand Transport - Aero Jet Fuel and others,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5TMADSL,Demand Transport - Maritime Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5TMAELE,Demand Transport - Maritime Electric,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5TMAFOI,Demand Transport - Maritime Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5TMAHYD,Demand Transport - Maritime Hydrogen,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5TMALPG,Demand Transport - Maritime LPG,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5TMANGS,Demand Transport - Maritime Natural Gas,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5TROBGS,Demand Transport - Road Biofuel/Biogas,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5TRODSL,Demand Transport - Road Diesel,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5TROELE,Demand Transport - Road Electric,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5TROFOI,Demand Transport - Road Fuel Oil,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5TROGSL,Demand Transport - Road Gasoline,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5TROHYD,Demand Transport - Road Hydrogen,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5TROLPG,Demand Transport - Road LPG,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5TRONGS,Demand Transport - Road Natural Gas,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5TROOPE,Demand Transport - Road Other non-energy petroleum products,A-O_Demand | Demand Techs | Demand_Projection
+Jamaica,JAM_ENERGY,E5TRXTRAI,,Transport | Transport Groups
+Jamaica,JAM_ENERGY,E6TDFREHEA,Transport Demand - Floating,Transport Groups
+Jamaica,JAM_ENERGY,LIME,LIME,Demand Techs | Primary
+Jamaica,JAM_ENERGY,LUBRI,LUBRI,Demand Techs | Primary
+Jamaica,JAM_ENERGY,R125,R125,Demand Techs | Primary
+Jamaica,JAM_ENERGY,R134A,R134A,Demand Techs | Primary
+Jamaica,JAM_ENERGY,R143A,R143A,Demand Techs | Primary
+Jamaica,JAM_ENERGY,R227EA,R227EA,Demand Techs | Primary
+Jamaica,JAM_ENERGY,R236FA,R236FA,Demand Techs | Primary
+Jamaica,JAM_ENERGY,R32,R32,Demand Techs | Primary
+Jamaica,JAM_ENERGY,RAW_MAT_CEM,Raw materials for cement,Primary | Secondary
+Jamaica,JAM_ENERGY,RAW_MAT_CLK,Raw materials for clinker,Primary | Secondary
+Jamaica,JAM_ENERGY,SUB125,SUB125,Demand Techs | Primary
+Jamaica,JAM_ENERGY,SUB134A,SUB134A,Demand Techs | Primary
+Jamaica,JAM_ENERGY,SUB143A,SUB143A,Demand Techs | Primary
+Jamaica,JAM_ENERGY,SUB227EA,SUB227EA,Demand Techs | Primary
+Jamaica,JAM_ENERGY,SUB236FA,SUB236FA,Demand Techs | Primary
+Jamaica,JAM_ENERGY,SUB32,SUB32,Demand Techs | Primary

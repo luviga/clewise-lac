@@ -1,0 +1,33 @@
+country,scenario,class,cells
+CostaRica,(none),not checked,863
+CostaRica,BAU,not checked,115
+CostaRica,BAU,ok,530
+CostaRica,Default,not checked,645
+CostaRica,LTSNEW,not checked,115
+CostaRica,LTSNEW,ok,530
+CostaRica,NDCNEW,not checked,115
+CostaRica,NDCNEW,ok,530
+DominicanRepublic,(none),not checked,625
+DominicanRepublic,BAU,ok,1484
+DominicanRepublic,Default,not checked,1484
+DominicanRepublic,LTSNEW,ok,1484
+DominicanRepublic,NDCNEW,ok,1484
+Ecuador,(none),not checked,990
+Guatemala,(none),not checked,14
+Guatemala,BAU,not checked,283
+Guatemala,BAU,ok,586
+Guatemala,Default,not checked,869
+Guatemala,LTSNEW,not checked,283
+Guatemala,LTSNEW,ok,586
+Guatemala,NDCNEW,not checked,283
+Guatemala,NDCNEW,ok,586
+Honduras,(none),not checked,301
+Honduras,BAU,ok,179
+Honduras,Default,not checked,179
+Honduras,LTSNEW,ok,179
+Honduras,NDCNEW,ok,179
+Jamaica,(none),not checked,667
+Jamaica,BAU,blank-filled,594
+Jamaica,Default,not checked,594
+Jamaica,LTSNEW,blank-filled,594
+Jamaica,NDCNEW,blank-filled,594

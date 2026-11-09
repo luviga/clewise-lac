@@ -1,0 +1,39 @@
+Country,Scenario,Tech,Year,New_Share_Pct,Note
+Ecuador,NDCNEW,PPPVT,2030,2.0,El Aromo Phase 1 + grid solar
+Ecuador,NDCNEW,PPPVT,2035,4.0,El Aromo full + distributed
+Ecuador,NDCNEW,PPPVT,2040,6.0,PME ERNC solar target
+Ecuador,NDCNEW,PPPVT,2045,7.5,PME ERNC continued
+Ecuador,NDCNEW,PPPVT,2050,9.0,NDC solar long-run
+Ecuador,NDCNEW,PPWNDON,2030,1.5,Villonaco II + III
+Ecuador,NDCNEW,PPWNDON,2035,2.5,Wind expansion
+Ecuador,NDCNEW,PPWNDON,2040,3.5,Wind expansion continued
+Ecuador,NDCNEW,PPWNDON,2045,4.0,Wind expansion
+Ecuador,NDCNEW,PPWNDON,2050,4.5,NDC wind long-run
+Ecuador,LTSNEW,PPPVT,2030,3.0,Accelerated El Aromo
+Ecuador,LTSNEW,PPPVT,2035,7.0,LTS ERNC solar expansion
+Ecuador,LTSNEW,PPPVT,2040,12.0,LTS solar ramp
+Ecuador,LTSNEW,PPPVT,2045,16.0,LTS solar continued
+Ecuador,LTSNEW,PPPVT,2050,18.0,LTS solar target
+Ecuador,LTSNEW,PPWNDON,2030,2.0,Villonaco expansion accelerated
+Ecuador,LTSNEW,PPWNDON,2035,4.0,Wind expansion LTS
+Ecuador,LTSNEW,PPWNDON,2040,7.0,Wind ramp LTS
+Ecuador,LTSNEW,PPWNDON,2045,9.0,Wind continued LTS
+Ecuador,LTSNEW,PPWNDON,2050,10.0,LTS wind target
+Ecuador,BAU,PPWNDD,2025,0.0,No distributed wind in Ecuador
+Ecuador,BAU,PPWNDD,2030,0.0,No distributed wind in Ecuador
+Ecuador,BAU,PPWNDD,2035,0.0,No distributed wind in Ecuador
+Ecuador,BAU,PPWNDD,2040,0.0,No distributed wind in Ecuador
+Ecuador,BAU,PPWNDD,2045,0.0,No distributed wind in Ecuador
+Ecuador,BAU,PPWNDD,2050,0.0,No distributed wind in Ecuador
+Ecuador,NDCNEW,PPWNDD,2025,0.0,No distributed wind in Ecuador
+Ecuador,NDCNEW,PPWNDD,2030,0.0,No distributed wind in Ecuador
+Ecuador,NDCNEW,PPWNDD,2035,0.0,No distributed wind in Ecuador
+Ecuador,NDCNEW,PPWNDD,2040,0.0,No distributed wind in Ecuador
+Ecuador,NDCNEW,PPWNDD,2045,0.0,No distributed wind in Ecuador
+Ecuador,NDCNEW,PPWNDD,2050,0.0,No distributed wind in Ecuador
+Ecuador,LTSNEW,PPWNDD,2025,0.0,No distributed wind in Ecuador
+Ecuador,LTSNEW,PPWNDD,2030,0.0,No distributed wind in Ecuador
+Ecuador,LTSNEW,PPWNDD,2035,0.0,No distributed wind in Ecuador
+Ecuador,LTSNEW,PPWNDD,2040,0.0,No distributed wind in Ecuador
+Ecuador,LTSNEW,PPWNDD,2045,0.0,No distributed wind in Ecuador
+Ecuador,LTSNEW,PPWNDD,2050,0.0,No distributed wind in Ecuador

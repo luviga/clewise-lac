@@ -1,0 +1,42 @@
+===== CostaRica
+py -I ao_cost_repair_manager.py --root . plan --country CostaRica --fuel-workbook LAC_Fuel_Price_Projections_2026_v2_audit.xlsx --fuel-scenario REF --replace-existing-fuel-costs --output-dir _LAC_HUB/fuel_check_20261108T223320Z/plan_CostaRica
+Plan output: C:\Users\luisfernando\Desktop\OSeMOSYS\MODELS_LAC_5\_LAC_HUB\fuel_check_20261108T223320Z\plan_CostaRica
+Manifest cells: 180
+Mapping candidates: 0
+No-safe-match rows: 195
+exit=0
+===== DominicanRepublic
+py -I ao_cost_repair_manager.py --root . plan --country DominicanRepublic --fuel-workbook LAC_Fuel_Price_Projections_2026_v2_audit.xlsx --fuel-scenario REF --replace-existing-fuel-costs --output-dir _LAC_HUB/fuel_check_20261108T223320Z/plan_DominicanRepublic
+Plan output: C:\Users\luisfernando\Desktop\OSeMOSYS\MODELS_LAC_5\_LAC_HUB\fuel_check_20261108T223320Z\plan_DominicanRepublic
+Manifest cells: 264
+Mapping candidates: 0
+No-safe-match rows: 269
+exit=0
+===== Ecuador
+py -I ao_cost_repair_manager.py --root . plan --country Ecuador --fuel-workbook LAC_Fuel_Price_Projections_2026_v2_audit.xlsx --fuel-scenario REF --replace-existing-fuel-costs --output-dir _LAC_HUB/fuel_check_20261108T223320Z/plan_Ecuador
+Plan output: C:\Users\luisfernando\Desktop\OSeMOSYS\MODELS_LAC_5\_LAC_HUB\fuel_check_20261108T223320Z\plan_Ecuador
+Manifest cells: 3180
+Mapping candidates: 1435
+No-safe-match rows: 212
+exit=0
+===== Guatemala
+py -I ao_cost_repair_manager.py --root . plan --country Guatemala --fuel-workbook LAC_Fuel_Price_Projections_2026_v2_audit.xlsx --fuel-scenario REF --replace-existing-fuel-costs --output-dir _LAC_HUB/fuel_check_20261108T223320Z/plan_Guatemala
+Plan output: C:\Users\luisfernando\Desktop\OSeMOSYS\MODELS_LAC_5\_LAC_HUB\fuel_check_20261108T223320Z\plan_Guatemala
+Manifest cells: 198
+Mapping candidates: 0
+No-safe-match rows: 206
+exit=0
+===== Honduras
+py -I ao_cost_repair_manager.py --root . plan --country Honduras --fuel-workbook LAC_Fuel_Price_Projections_2026_v2_audit.xlsx --fuel-scenario REF --replace-existing-fuel-costs --output-dir _LAC_HUB/fuel_check_20261108T223320Z/plan_Honduras
+Plan output: C:\Users\luisfernando\Desktop\OSeMOSYS\MODELS_LAC_5\_LAC_HUB\fuel_check_20261108T223320Z\plan_Honduras
+Manifest cells: 198
+Mapping candidates: 0
+No-safe-match rows: 237
+exit=0
+===== Jamaica
+py -I ao_cost_repair_manager.py --root . plan --country Jamaica --fuel-workbook LAC_Fuel_Price_Projections_2026_v2_audit.xlsx --fuel-scenario REF --replace-existing-fuel-costs --output-dir _LAC_HUB/fuel_check_20261108T223320Z/plan_Jamaica
+Plan output: C:\Users\luisfernando\Desktop\OSeMOSYS\MODELS_LAC_5\_LAC_HUB\fuel_check_20261108T223320Z\plan_Jamaica
+Manifest cells: 315
+Mapping candidates: 0
+No-safe-match rows: 437
+exit=0

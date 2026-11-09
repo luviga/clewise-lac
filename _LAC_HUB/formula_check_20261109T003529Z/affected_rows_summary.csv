@@ -1,0 +1,174 @@
+country,sheet,tech,parameter,projection_mode,formula_cells_in_row,years_compiled_wrong_in_A2_BAU,of_which_empty
+CostaRica,Other_Techs,TRANDEMNOMOT,FixedCost,Flat,1,0,0
+CostaRica,Primary Techs,IMPELE,TotalTechnologyAnnualActivityUpperLimit,User defined,26,0,0
+CostaRica,Primary Techs,PWRGEO,TotalAnnualMaxCapacity,User defined,3,0,0
+CostaRica,Primary Techs,PWRGEO,TotalTechnologyAnnualActivityLowerLimit,User defined,4,0,0
+CostaRica,Primary Techs,PWRGEO,CapacityFactor,User defined,26,0,0
+CostaRica,Primary Techs,PWRSPVTRN,TotalTechnologyAnnualActivityLowerLimit,User defined,29,0,0
+CostaRica,Primary Techs,PWRSPVTRN,CapacityFactor,User defined,27,0,0
+CostaRica,Primary Techs,PWRWNONS,ResidualCapacity,User defined,29,0,0
+CostaRica,Primary Techs,PWRWNONS,TotalAnnualMaxCapacity,User defined,21,0,0
+CostaRica,Primary Techs,PWRWNONS,TotalTechnologyAnnualActivityLowerLimit,User defined,2,0,0
+CostaRica,Primary Techs,PWRWNONS,CapacityFactor,User defined,27,0,0
+CostaRica,Secondary Techs,ELE_TRN,CapitalCost,User defined,27,0,0
+CostaRica,Secondary Techs,ELE_TRN,FixedCost,User defined,27,0,0
+CostaRica,Secondary Techs,ELE_DTR,CapitalCost,User defined,27,0,0
+CostaRica,Secondary Techs,ELE_DTR,FixedCost,User defined,27,0,0
+CostaRica,Secondary Techs,PWRBMS,ResidualCapacity,User defined,29,0,0
+CostaRica,Secondary Techs,PWRBMS,TotalAnnualMaxCapacity,User defined,23,0,0
+CostaRica,Secondary Techs,PWRBMS,TotalTechnologyAnnualActivityLowerLimit,User defined,26,0,0
+CostaRica,Secondary Techs,PWRBMS,CapacityFactor,User defined,27,0,0
+CostaRica,Secondary Techs,PWRFOI,TotalTechnologyAnnualActivityLowerLimit,User defined,15,0,0
+CostaRica,Secondary Techs,PWRFOI,CapacityFactor,User defined,27,0,0
+CostaRica,Secondary Techs,PWRDSL,ResidualCapacity,User defined,27,0,0
+CostaRica,Secondary Techs,PWRDSL,TotalAnnualMaxCapacity,User defined,1,0,0
+CostaRica,Secondary Techs,PWRDSL,TotalTechnologyAnnualActivityLowerLimit,User defined,26,0,0
+CostaRica,Secondary Techs,PWRDSL,CapacityFactor,User defined,25,0,0
+DominicanRepublic,Primary Techs,PRO_COA,TotalTechnologyAnnualActivityUpperLimit,User defined,28,0,0
+DominicanRepublic,Primary Techs,EXTT_CRU,TotalTechnologyAnnualActivityUpperLimit,User defined,28,0,0
+DominicanRepublic,Primary Techs,PPHDAM,TotalAnnualMaxCapacity,User defined,25,0,0
+DominicanRepublic,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,User defined,33,0,0
+DominicanRepublic,Primary Techs,PPHDAM,CapacityFactor,User defined,27,0,0
+DominicanRepublic,Primary Techs,PPWNDON,TotalAnnualMaxCapacity,User defined,27,0,0
+DominicanRepublic,Primary Techs,PPWNDON,TotalTechnologyAnnualActivityLowerLimit,User defined,27,0,0
+DominicanRepublic,Primary Techs,PPWNDON,CapacityFactor,User defined,27,0,0
+DominicanRepublic,Primary Techs,PPPVT,TotalAnnualMaxCapacity,User defined,27,0,0
+DominicanRepublic,Primary Techs,PPPVT,TotalTechnologyAnnualActivityLowerLimit,User defined,27,0,0
+DominicanRepublic,Primary Techs,PPPVT,CapacityFactor,User defined,27,0,0
+DominicanRepublic,Primary Techs,PPPVD,TotalAnnualMaxCapacity,User defined,27,0,0
+DominicanRepublic,Primary Techs,PPPVD,TotalTechnologyAnnualActivityLowerLimit,User defined,27,0,0
+DominicanRepublic,Primary Techs,PPDHYD,TotalTechnologyAnnualActivityLowerLimit,Flat,1,0,0
+DominicanRepublic,Primary Techs,PPDHYD,CapacityFactor,Flat,1,0,0
+DominicanRepublic,Secondary Techs,PPBIM,TotalAnnualMaxCapacity,User defined,24,0,0
+DominicanRepublic,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,24,0,0
+DominicanRepublic,Secondary Techs,PPCCTDSL,TotalAnnualMaxCapacity,User defined,27,0,0
+DominicanRepublic,Secondary Techs,PPCCTDSL,TotalTechnologyAnnualActivityLowerLimit,User defined,27,0,0
+DominicanRepublic,Secondary Techs,PPCCTNGS,ResidualCapacity,User defined,28,0,0
+DominicanRepublic,Secondary Techs,PPCCTNGS,TotalAnnualMaxCapacity,User defined,28,0,0
+DominicanRepublic,Secondary Techs,PPCCTNGS,TotalTechnologyAnnualActivityLowerLimit,User defined,27,0,0
+DominicanRepublic,Secondary Techs,PPCCTNGS,CapacityFactor,User defined,6,0,0
+DominicanRepublic,Secondary Techs,PPICEFOI,TotalAnnualMaxCapacity,User defined,1,0,0
+DominicanRepublic,Secondary Techs,PPICEFOI,CapacityFactor,User defined,26,0,0
+DominicanRepublic,Secondary Techs,PPICEGASFOI,TotalAnnualMaxCapacity,User defined,27,0,0
+DominicanRepublic,Secondary Techs,PPICEGASFOI,TotalTechnologyAnnualActivityLowerLimit,User defined,27,0,0
+DominicanRepublic,Secondary Techs,PPICEGASFOI,CapacityFactor,User defined,23,0,0
+DominicanRepublic,Secondary Techs,PPADSL,TotalTechnologyAnnualActivityUpperLimit,User defined,28,0,0
+DominicanRepublic,Secondary Techs,PPADSL,TotalTechnologyAnnualActivityLowerLimit,User defined,33,0,0
+DominicanRepublic,Secondary Techs,PPADSL,CapacityFactor,User defined,28,0,0
+DominicanRepublic,Secondary Techs,PPAFOI,TotalTechnologyAnnualActivityUpperLimit,User defined,28,0,0
+DominicanRepublic,Secondary Techs,PPAFOI,TotalTechnologyAnnualActivityLowerLimit,User defined,33,0,0
+DominicanRepublic,Secondary Techs,PPANGS,TotalTechnologyAnnualActivityUpperLimit,User defined,28,0,0
+DominicanRepublic,Secondary Techs,PPANGS,TotalTechnologyAnnualActivityLowerLimit,User defined,33,0,0
+DominicanRepublic,Secondary Techs,PPDBGS,TotalTechnologyAnnualActivityUpperLimit,User defined,27,0,0
+DominicanRepublic,Secondary Techs,PPDBGS,TotalTechnologyAnnualActivityLowerLimit,User defined,33,0,0
+DominicanRepublic,Secondary Techs,PPDBGS,CapacityFactor,User defined,27,0,0
+DominicanRepublic,Secondary Techs,PPDDSL,TotalTechnologyAnnualActivityUpperLimit,User defined,28,0,0
+DominicanRepublic,Secondary Techs,PPDDSL,TotalTechnologyAnnualActivityLowerLimit,User defined,33,0,0
+DominicanRepublic,Secondary Techs,PPDDSL,CapacityFactor,User defined,27,0,0
+DominicanRepublic,Secondary Techs,PPDFOI,TotalTechnologyAnnualActivityUpperLimit,User defined,28,0,0
+DominicanRepublic,Secondary Techs,PPDFOI,TotalTechnologyAnnualActivityLowerLimit,User defined,33,0,0
+DominicanRepublic,Secondary Techs,PPDFOI,CapacityFactor,User defined,27,0,0
+DominicanRepublic,Secondary Techs,PPDNGS,TotalTechnologyAnnualActivityUpperLimit,User defined,27,0,0
+DominicanRepublic,Secondary Techs,PPDNGS,TotalTechnologyAnnualActivityLowerLimit,User defined,33,0,0
+DominicanRepublic,Secondary Techs,PPDNGS,CapacityFactor,User defined,27,0,0
+DominicanRepublic,Secondary Techs,PPDGSL,TotalTechnologyAnnualActivityUpperLimit,User defined,27,0,0
+DominicanRepublic,Secondary Techs,PPDGSL,TotalTechnologyAnnualActivityLowerLimit,User defined,33,0,0
+DominicanRepublic,Secondary Techs,PPDGSL,CapacityFactor,User defined,27,0,0
+DominicanRepublic,Secondary Techs,PPDGLP,TotalTechnologyAnnualActivityUpperLimit,User defined,27,0,0
+DominicanRepublic,Secondary Techs,PPDGLP,TotalTechnologyAnnualActivityLowerLimit,User defined,33,0,0
+DominicanRepublic,Secondary Techs,PPDGLP,CapacityFactor,User defined,27,0,0
+DominicanRepublic,Secondary Techs,PPDBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,27,0,0
+DominicanRepublic,Secondary Techs,PPDBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,33,0,0
+DominicanRepublic,Secondary Techs,PPDBIM,CapacityFactor,User defined,27,0,0
+DominicanRepublic,Secondary Techs,ELE_TRANS,CapitalCost,Flat,1,0,0
+DominicanRepublic,Secondary Techs,ELE_TRANS,FixedCost,Flat,1,0,0
+DominicanRepublic,Secondary Techs,HYD_G_PROD,CapitalCost,Flat,1,0,0
+DominicanRepublic,Secondary Techs,HYD_G_PROD,FixedCost,Flat,1,0,0
+DominicanRepublic,Secondary Techs,ELE_DIST,CapitalCost,Flat,1,0,0
+DominicanRepublic,Secondary Techs,ELE_DIST,FixedCost,Flat,1,0,0
+DominicanRepublic,Secondary Techs,HYD_DIST,FixedCost,Flat,1,0,0
+Guatemala,Primary Techs,PPHDAM,ResidualCapacity,User defined,27,0,0
+Guatemala,Primary Techs,PPHDAM,CapacityFactor,User defined,27,0,0
+Guatemala,Primary Techs,PPHROR,ResidualCapacity,User defined,27,0,0
+Guatemala,Primary Techs,PPHROR,TotalAnnualMaxCapacity,User defined,1,0,0
+Guatemala,Primary Techs,PPHROR,CapacityFactor,User defined,27,0,0
+Guatemala,Primary Techs,PPGEO,TotalAnnualMaxCapacity,User defined,1,0,0
+Guatemala,Primary Techs,PPGEO,CapacityFactor,User defined,27,0,0
+Guatemala,Primary Techs,PPWNDON,TotalAnnualMaxCapacity,User defined,5,0,0
+Guatemala,Primary Techs,PPPVT,ResidualCapacity,User defined,27,0,0
+Guatemala,Primary Techs,PPPVT,CapacityFactor,User defined,12,0,0
+Guatemala,Primary Techs,PPPVTS,CapacityFactor,User defined,4,0,0
+Guatemala,Primary Techs,PPPVD,ResidualCapacity,User defined,27,0,0
+Guatemala,Primary Techs,PPPVD,CapacityFactor,User defined,27,0,0
+Guatemala,Primary Techs,PPPVDS,CapacityFactor,User defined,27,0,0
+Guatemala,Primary Techs,PPBIM,ResidualCapacity,User defined,26,0,0
+Guatemala,Primary Techs,PPBIM,CapacityFactor,User defined,26,0,0
+Guatemala,Primary Techs,PPBGS,ResidualCapacity,User defined,27,0,0
+Guatemala,Primary Techs,PPBGS,CapacityFactor,User defined,27,0,0
+Guatemala,Primary Techs,PPCOA,ResidualCapacity,User defined,27,0,0
+Guatemala,Primary Techs,PPCOA,CapacityFactor,User defined,28,0,0
+Guatemala,Primary Techs,PPDSL,ResidualCapacity,User defined,27,0,0
+Guatemala,Primary Techs,PPDSL,CapacityFactor,User defined,27,0,0
+Guatemala,Primary Techs,PPFOI,ResidualCapacity,User defined,27,0,0
+Guatemala,Primary Techs,PPFOI,CapacityFactor,User defined,27,0,0
+Guatemala,Primary Techs,DIST_FLEXFUEL,VariableCost,Percent growth of incomplete years,2,0,0
+Guatemala,Primary Techs,PPNGS,TotalAnnualMaxCapacity,User defined,19,0,0
+Guatemala,Primary Techs,PPNGS,CapacityFactor,User defined,28,0,0
+Honduras,Primary Techs,PPHDAM,ResidualCapacity,User defined,15,0,0
+Honduras,Primary Techs,PPHROR,ResidualCapacity,User defined,15,0,0
+Honduras,Primary Techs,PPGEO,VariableCost,Flat,1,0,0
+Honduras,Primary Techs,PPGEO,ResidualCapacity,User defined,15,0,0
+Honduras,Primary Techs,PPWNDON,ResidualCapacity,User defined,15,0,0
+Honduras,Primary Techs,PPPVT,ResidualCapacity,User defined,15,0,0
+Honduras,Primary Techs,PPPVD,ResidualCapacity,User defined,15,0,0
+Honduras,Secondary Techs,PPBIM,CapacityFactor,User defined,25,0,0
+Honduras,Secondary Techs,PPBGS,CapitalCost,User defined,3,0,0
+Honduras,Secondary Techs,PPBGS,ResidualCapacity,Flat,1,0,0
+Honduras,Secondary Techs,PPCOA,VariableCost,Flat,1,0,0
+Honduras,Secondary Techs,PPCOA,CapacityFactor,User defined,28,0,0
+Honduras,Secondary Techs,PPICEDSL,VariableCost,Flat,1,0,0
+Honduras,Secondary Techs,PPFOI,VariableCost,Flat,1,0,0
+Honduras,Secondary Techs,PPCOK,VariableCost,Flat,1,0,0
+Honduras,Secondary Techs,PPNUC,VariableCost,Flat,1,0,0
+Honduras,Secondary Techs,PPNGS,VariableCost,Flat,1,0,0
+Honduras,Secondary Techs,PPGTGLP,VariableCost,Flat,1,0,0
+Honduras,Secondary Techs,STOELE,TotalAnnualMaxCapacity,User defined,24,0,0
+Jamaica,Primary Techs,DIST_DSL,VariableCost,User defined,5,5,5
+Jamaica,Primary Techs,DIST_GSL,VariableCost,User defined,5,5,5
+Jamaica,Primary Techs,DIST_LPG,VariableCost,User defined,5,5,5
+Jamaica,Primary Techs,DIST_KER,VariableCost,User defined,5,5,5
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,33,33,33
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,33,33,33
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,1,35,35
+Jamaica,Primary Techs,DIST_FOI,VariableCost,User defined,5,5,5
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,1,35,35
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,35,35,35
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,33,33,33
+Jamaica,Primary Techs,PPWNDONS,CapitalCost,User defined,5,5,5
+Jamaica,Primary Techs,PPWNDONS,FixedCost,User defined,5,5,5
+Jamaica,Primary Techs,PPPVT,TotalTechnologyAnnualActivityUpperLimit,User defined,1,1,1
+Jamaica,Primary Techs,PPPVT,TotalTechnologyAnnualActivityLowerLimit,User defined,1,1,1
+Jamaica,Primary Techs,PPPVDS,CapitalCost,User defined,5,5,5
+Jamaica,Primary Techs,PPPVDS,FixedCost,User defined,5,5,5
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,1,35,35
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,1,35,35
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,1,35,35
+Jamaica,Secondary Techs,STOELE,TotalAnnualMinCapacityInvestment,User defined,8,8,8
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,20,20,20
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,32,32,32
+Jamaica,Secondary Techs,PPNGS,TotalTechnologyAnnualActivityUpperLimit,User defined,1,1,1
+Jamaica,Secondary Techs,PPDSL,ResidualCapacity,User defined,1,1,1
+Jamaica,Secondary Techs,PPDSL,TotalTechnologyAnnualActivityLowerLimit,User defined,4,4,4
+Jamaica,Secondary Techs,PPFOI,ResidualCapacity,User defined,5,5,5
+Jamaica,Secondary Techs,PPFOI,TotalTechnologyAnnualActivityUpperLimit,User defined,1,1,1
+Jamaica,Secondary Techs,PPFOI,TotalTechnologyAnnualActivityLowerLimit,User defined,1,1,1
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,32,32,32
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,35,35,35
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,32,32,32
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,35,35,35
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,32,32,32
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,35,35,35
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,32,32,32
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,35,35,35
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,32,32,32
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,35,35,35

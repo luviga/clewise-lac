@@ -1,0 +1,96 @@
+country,sheet,row,tech,tech_name,tool_fuel_code,tool_targets_row
+CostaRica,Primary Techs,4,IMPPURDSL, Import/Distribution - Pure Diesel,DSL,YES
+CostaRica,Primary Techs,14,IMPPURGSL, Import/Distribution - Pure Gasoline,GSL,YES
+CostaRica,Primary Techs,24,IMPCOA, Import/Distribution - Coal,COA,YES
+CostaRica,Primary Techs,34,IMPLPG, Import/Distribution - LPG,LPG,YES
+CostaRica,Primary Techs,44,IMPFOI, Import/Distribution - Fuel_Oil,HFO,YES
+CostaRica,Primary Techs,64,IMPKJF, Import/Distribution - Kerosene and Jet Fuel,KRS,YES
+CostaRica,Primary Techs,74,IMPCOK,Import - Petroleum Coke,,NO
+CostaRica,Primary Techs,94,IMPELE, Import/Distribution - Electricity,,NO
+CostaRica,Primary Techs,104,IMPAVG, Import/Distribution - AV Gas,,NO
+CostaRica,Primary Techs,114,IMPNGS,Imports - Natural_Gas (LNG and Regasification),NGS,YES
+DominicanRepublic,Primary Techs,4,DIST_CRU,Primary - Import/Distribution - Crude,CRD,YES
+DominicanRepublic,Primary Techs,14,DIST_NGS,Primary - Import/Distribution - Natural Gas,NGS,YES
+DominicanRepublic,Primary Techs,24,DIST_DSL,Primary - Import/Distribution - Diesel,DSL,YES
+DominicanRepublic,Primary Techs,34,DIST_GSL,Primary - Import/Distribution - Gasoline,GSL,YES
+DominicanRepublic,Primary Techs,44,DIST_LPG,Primary - Import/Distribution - LPG,LPG,YES
+DominicanRepublic,Primary Techs,54,DIST_FOI,Primary - Import/Distribution - Fuel Oil,HFO,YES
+DominicanRepublic,Primary Techs,64,DIST_COK,Primary - Import/Distribution - Coke,,NO
+DominicanRepublic,Primary Techs,74,DIST_KER,Primary - Import/Distribution - Kerosen,KRS,YES
+DominicanRepublic,Primary Techs,84,DIST_COA,Primary - Import/Distribution - Coal,COA,YES
+DominicanRepublic,Primary Techs,104,IMP_ELE,Primary - Import - Electricity,,NO
+DominicanRepublic,Primary Techs,234,DIST_FIR,Primary - ETD - Firewood,,NO
+DominicanRepublic,Primary Techs,244,DIST_BIM,Primary - ETD - Biomass,,NO
+DominicanRepublic,Primary Techs,254,DIST_BGS,Primary - ETD - Biogas,,NO
+Ecuador,Primary Techs,4,DIST_BGS,Primary - ETD - Biogas,,NO
+Ecuador,Primary Techs,14,DIST_BIM,Primary - ETD - Biomass,,NO
+Ecuador,Primary Techs,24,DIST_CHA,Primary - ETD - Charcoal,,NO
+Ecuador,Primary Techs,34,DIST_FIR,Primary - ETD - Firewood,,NO
+Ecuador,Primary Techs,44,DIST_COA,Primary - Import/Distribution - Coal,COA,YES
+Ecuador,Primary Techs,54,DIST_COK,Primary - Import/Distribution - Coke,,NO
+Ecuador,Primary Techs,64,DIST_DSL,Primary - Import/Distribution - Diesel,DSL,YES
+Ecuador,Primary Techs,74,DIST_FOI,Primary - Import/Distribution - Fuel Oil,HFO,YES
+Ecuador,Primary Techs,84,DIST_GSL,Primary - Import/Distribution - Gasoline,GSL,YES
+Ecuador,Primary Techs,94,DIST_JET,Primary - Import/Distribution - Jet,JTA,YES
+Ecuador,Primary Techs,104,DIST_KER,Primary - Import/Distribution - Kerosen,KRS,YES
+Ecuador,Primary Techs,114,DIST_LPG,Primary - Import/Distribution - LPG,LPG,YES
+Ecuador,Primary Techs,124,DIST_NGS,Primary - Import/Distribution - Natural Gas,NGS,YES
+Ecuador,Primary Techs,134,DIST_CRU,Primary Import - Crude,CRD,YES
+Ecuador,Primary Techs,144,DIST_OPE,Primary - Import/Distribution - OPE,,NO
+Ecuador,Primary Techs,154,DIST_RDF,Primary - Import/Distribution - Desechos municipales no biomasa,,NO
+Ecuador,Primary Techs,164,DIST_OID,Primary - Import/Distribution - Óleos de desecho,,NO
+Ecuador,Primary Techs,394,IMPELE, Import/Distribution - Electricity,,NO
+Guatemala,Primary Techs,4,DIST_DSL,Primary - Import/Distribution - Diesel,DSL,YES
+Guatemala,Primary Techs,14,DIST_GSL,Primary - Import/Distribution - Gasoline,GSL,YES
+Guatemala,Primary Techs,24,DIST_LPG,Primary - Import/Distribution - LPG,LPG,YES
+Guatemala,Primary Techs,34,DIST_FOI,Primary - Import/Distribution - Fuel Oil,HFO,YES
+Guatemala,Primary Techs,44,DIST_COK,Primary - Import/Distribution - Coke,,NO
+Guatemala,Primary Techs,54,DIST_KER,Primary - Import/Distribution - Kerosen,KRS,YES
+Guatemala,Primary Techs,64,DIST_COA,Primary - Import/Distribution - Coal,COA,YES
+Guatemala,Primary Techs,74,IMP_ELE,Primary - Import - Electricity,,NO
+Guatemala,Primary Techs,244,DIST_FIR,Primary - ETD - Firewood,,NO
+Guatemala,Primary Techs,254,DIST_BIM,Primary - ETD - Biomass,,NO
+Guatemala,Primary Techs,264,DIST_BGS,Primary - ETD - Biogas,,NO
+Guatemala,Primary Techs,274,DIST_NGS,Primary - Import/Distribution - Natural Gas,NGS,YES
+Guatemala,Primary Techs,284,DIST_FLEXFUEL,Primary - Import/Distribution - Flex Fuel,,NO
+Honduras,Primary Techs,4,DIST_DSL,Primary - Import/Distribution - Diesel,DSL,YES
+Honduras,Primary Techs,14,DIST_GSL,Primary - Import/Distribution - Gasoline,GSL,YES
+Honduras,Primary Techs,24,DIST_LPG,Primary - Import/Distribution - LPG,LPG,YES
+Honduras,Primary Techs,34,DIST_FOI,Primary - Import/Distribution - Fuel Oil,HFO,YES
+Honduras,Primary Techs,44,DIST_COK,Primary - Import/Distribution - Coke,,NO
+Honduras,Primary Techs,54,DIST_KER,Primary - Import/Distribution - Kerosen,KRS,YES
+Honduras,Primary Techs,64,DIST_COA,Primary - Import/Distribution - Coal,COA,YES
+Honduras,Primary Techs,74,DIST_URA,Primary - Import/Distribution - Uranio,,NO
+Honduras,Primary Techs,84,IMP_ELE,Primary - Import - Electricity,,NO
+Honduras,Primary Techs,214,DIST_FIR,Primary - ETD - Firewood,,NO
+Honduras,Primary Techs,224,DIST_BIM,Primary - ETD - Biomass,,NO
+Honduras,Primary Techs,234,DIST_BGS,Primary - ETD - Biogas,,NO
+Honduras,Primary Techs,244,DIST_NGS,Primary - Import/Distribution - Natural Gas,NGS,YES
+Jamaica,Primary Techs,4,DIST_DSL,Primary - Import/Distribution - Diesel,DSL,YES
+Jamaica,Primary Techs,14,DIST_GSL,Primary - Import/Distribution - Gasoline,GSL,YES
+Jamaica,Primary Techs,24,DIST_NGS,Primary - Import/Distribution - Natural Gas,NGS,YES
+Jamaica,Primary Techs,34,DIST_LPG,Primary - Import/Distribution - LPG,LPG,YES
+Jamaica,Primary Techs,44,DIST_COK,Primary - Import/Distribution - Coke,,NO
+Jamaica,Primary Techs,54,DIST_KER,Primary - Import/Distribution - Kerosen,KRS,YES
+Jamaica,Primary Techs,64,DIST_JET,Primary - Import/Distribution - Jet,JTA,YES
+Jamaica,Primary Techs,74,DIST_FIR,Primary - ETD - Firewood,,NO
+Jamaica,Primary Techs,84,DIST_CHA,Primary - ETD - Charcoal,,NO
+Jamaica,Primary Techs,94,DIST_BIM,Primary - ETD - Biomass,,NO
+Jamaica,Primary Techs,104,DIST_BGS,Primary - ETD - Biogas,,NO
+Jamaica,Primary Techs,114,DIST_OPE,Primary - Import/Distribution - OPE,,NO
+Jamaica,Primary Techs,124,DIST_PV,Primary - Solar Energy,,NO
+Jamaica,Primary Techs,164,DIST_COA,Primary - Import/Distribution - Coal,COA,YES
+Jamaica,Primary Techs,174,DIST_FOI,Primary - Import/Distribution - Fuel Oil,HFO,YES
+Jamaica,Primary Techs,314,IMP_STOR,Clinker imports and storage,,NO
+Jamaica,Primary Techs,324,IMP_R32,R32,,NO
+Jamaica,Primary Techs,334,IMP_R125,R125,,NO
+Jamaica,Primary Techs,344,IMP_R134A,R134A,,NO
+Jamaica,Primary Techs,354,IMP_R143A,R143A,,NO
+Jamaica,Primary Techs,364,IMP_R227EA,R227EA,,NO
+Jamaica,Primary Techs,374,IMP_R236FA,R236FA,,NO
+Jamaica,Primary Techs,384,IMP_SUB32,SUB32,,NO
+Jamaica,Primary Techs,394,IMP_SUB125,SUB125,,NO
+Jamaica,Primary Techs,404,IMP_SUB134A,SUB134A,,NO
+Jamaica,Primary Techs,414,IMP_SUB143A,SUB143A,,NO
+Jamaica,Primary Techs,424,IMP_SUB227EA,SUB227EA,,NO
+Jamaica,Primary Techs,434,IMP_SUB236FA,SUB236FA,,NO

@@ -1,0 +1,65 @@
+country,iso,fuel_code,REF_years,REF_n_values,REF_xl_row,HIGH_years,HIGH_n_values,HIGH_xl_row,LOW_years,LOW_n_values,LOW_xl_row,ao_fuel_supply_rows_needing_it,status
+CostaRica,CRI,COA,,0,,,0,,,0,,IMPCOA,"needed; covered only by the WORLD benchmark (tool fallback, ao_cost_repair_manager.py:953-956)"
+CostaRica,CRI,DSL,2018-2050,33,32,2018-2050,33,33,2018-2050,33,34,IMPPURDSL,needed and covered
+CostaRica,CRI,GSL,2018-2050,33,26,2018-2050,33,27,2018-2050,33,28,IMPPURGSL,needed and covered
+CostaRica,CRI,GSP,2018-2050,33,29,2018-2050,33,30,2018-2050,33,31,,"in workbook, not used by any A-O fuel supply row"
+CostaRica,CRI,HFO,2018-2050,33,44,2018-2050,33,45,2018-2050,33,46,IMPFOI,needed and covered
+CostaRica,CRI,JTA,2018-2050,33,41,2018-2050,33,42,2018-2050,33,43,,"in workbook, not used by any A-O fuel supply row"
+CostaRica,CRI,KRS,2018-2050,33,38,2018-2050,33,39,2018-2050,33,40,IMPKJF,needed and covered
+CostaRica,CRI,LPG,2018-2050,33,35,2018-2050,33,36,2018-2050,33,37,IMPLPG,needed and covered
+CostaRica,CRI,NGS,,0,,,0,,,0,,IMPNGS,NEEDED BUT MISSING in workbook
+CostaRica,CRI,(no code),,0,,,0,,,0,,IMPCOK IMPELE IMPAVG,A-O rows the tool cannot map to any workbook fuel (left unpriced)
+DominicanRepublic,DOM,COA,,0,,,0,,,0,,DIST_COA,"needed; covered only by the WORLD benchmark (tool fallback, ao_cost_repair_manager.py:953-956)"
+DominicanRepublic,DOM,CRD,,0,,,0,,,0,,DIST_CRU,"needed; covered only by the WORLD benchmark (tool fallback, ao_cost_repair_manager.py:953-956)"
+DominicanRepublic,DOM,DSL,2018-2050,33,74,2018-2050,33,75,2018-2050,33,76,DIST_DSL,needed and covered
+DominicanRepublic,DOM,GSL,2018-2050,33,68,2018-2050,33,69,2018-2050,33,70,DIST_GSL,needed and covered
+DominicanRepublic,DOM,GSP,2018-2050,33,71,2018-2050,33,72,2018-2050,33,73,,"in workbook, not used by any A-O fuel supply row"
+DominicanRepublic,DOM,HFO,2018-2050,33,86,2018-2050,33,87,2018-2050,33,88,DIST_FOI,needed and covered
+DominicanRepublic,DOM,JTA,2018-2050,33,83,2018-2050,33,84,2018-2050,33,85,,"in workbook, not used by any A-O fuel supply row"
+DominicanRepublic,DOM,KRS,2018-2050,33,80,2018-2050,33,81,2018-2050,33,82,DIST_KER,needed and covered
+DominicanRepublic,DOM,LPG,2018-2050,33,77,2018-2050,33,78,2018-2050,33,79,DIST_LPG,needed and covered
+DominicanRepublic,DOM,NGS,2020-2050,31,131,2020-2050,31,132,2020-2050,31,133,DIST_NGS,needed and covered
+DominicanRepublic,DOM,(no code),,0,,,0,,,0,,DIST_COK IMP_ELE DIST_FIR DIST_BIM DIST_BGS,A-O rows the tool cannot map to any workbook fuel (left unpriced)
+Ecuador,ECU,COA,,0,,,0,,,0,,DIST_COA,"needed; covered only by the WORLD benchmark (tool fallback, ao_cost_repair_manager.py:953-956)"
+Ecuador,ECU,CRD,,0,,,0,,,0,,DIST_CRU,"needed; covered only by the WORLD benchmark (tool fallback, ao_cost_repair_manager.py:953-956)"
+Ecuador,ECU,DSL,2018-2050,33,95,2018-2050,33,96,2018-2050,33,97,DIST_DSL,needed and covered
+Ecuador,ECU,GSL,2018-2050,33,89,2018-2050,33,90,2018-2050,33,91,DIST_GSL,needed and covered
+Ecuador,ECU,GSP,2018-2050,33,92,2018-2050,33,93,2018-2050,33,94,,"in workbook, not used by any A-O fuel supply row"
+Ecuador,ECU,HFO,2018-2050,33,107,2018-2050,33,108,2018-2050,33,109,DIST_FOI,needed and covered
+Ecuador,ECU,JTA,2018-2050,33,104,2018-2050,33,105,2018-2050,33,106,DIST_JET,needed and covered
+Ecuador,ECU,KRS,2018-2050,33,101,2018-2050,33,102,2018-2050,33,103,DIST_KER,needed and covered
+Ecuador,ECU,LPG,2018-2050,33,98,2018-2050,33,99,2018-2050,33,100,DIST_LPG,needed and covered
+Ecuador,ECU,NGS,,0,,,0,,,0,,DIST_NGS,NEEDED BUT MISSING in workbook
+Ecuador,ECU,(no code),,0,,,0,,,0,,DIST_BGS DIST_BIM DIST_CHA DIST_FIR DIST_COK DIST_OPE DIST_RDF DIST_OID IMPELE,A-O rows the tool cannot map to any workbook fuel (left unpriced)
+Guatemala,GTM,COA,,0,,,0,,,0,,DIST_COA,"needed; covered only by the WORLD benchmark (tool fallback, ao_cost_repair_manager.py:953-956)"
+Guatemala,GTM,DSL,2018-2050,33,116,2018-2050,33,117,2018-2050,33,118,DIST_DSL,needed and covered
+Guatemala,GTM,GSL,2018-2050,33,110,2018-2050,33,111,2018-2050,33,112,DIST_GSL,needed and covered
+Guatemala,GTM,GSP,2018-2050,33,113,2018-2050,33,114,2018-2050,33,115,,"in workbook, not used by any A-O fuel supply row"
+Guatemala,GTM,HFO,2018-2050,33,128,2018-2050,33,129,2018-2050,33,130,DIST_FOI,needed and covered
+Guatemala,GTM,JTA,2018-2050,33,125,2018-2050,33,126,2018-2050,33,127,,"in workbook, not used by any A-O fuel supply row"
+Guatemala,GTM,KRS,2018-2050,33,122,2018-2050,33,123,2018-2050,33,124,DIST_KER,needed and covered
+Guatemala,GTM,LPG,2018-2050,33,119,2018-2050,33,120,2018-2050,33,121,DIST_LPG,needed and covered
+Guatemala,GTM,NGS,,0,,,0,,,0,,DIST_NGS,NEEDED BUT MISSING in workbook
+Guatemala,GTM,(no code),,0,,,0,,,0,,DIST_COK IMP_ELE DIST_FIR DIST_BIM DIST_BGS DIST_FLEXFUEL,A-O rows the tool cannot map to any workbook fuel (left unpriced)
+Honduras,HND,COA,,0,,,0,,,0,,DIST_COA,"needed; covered only by the WORLD benchmark (tool fallback, ao_cost_repair_manager.py:953-956)"
+Honduras,HND,DSL,2018-2050,33,11,2018-2050,33,12,2018-2050,33,13,DIST_DSL,needed and covered
+Honduras,HND,GSL,2018-2050,33,5,2018-2050,33,6,2018-2050,33,7,DIST_GSL,needed and covered
+Honduras,HND,GSP,2018-2050,33,8,2018-2050,33,9,2018-2050,33,10,,"in workbook, not used by any A-O fuel supply row"
+Honduras,HND,HFO,2018-2050,33,23,2018-2050,33,24,2018-2050,33,25,DIST_FOI,needed and covered
+Honduras,HND,JTA,2018-2050,33,20,2018-2050,33,21,2018-2050,33,22,,"in workbook, not used by any A-O fuel supply row"
+Honduras,HND,KRS,2018-2050,33,17,2018-2050,33,18,2018-2050,33,19,DIST_KER,needed and covered
+Honduras,HND,LPG,2018-2050,33,14,2018-2050,33,15,2018-2050,33,16,DIST_LPG,needed and covered
+Honduras,HND,NGS,,0,,,0,,,0,,DIST_NGS,NEEDED BUT MISSING in workbook
+Honduras,HND,(no code),,0,,,0,,,0,,DIST_COK DIST_URA IMP_ELE DIST_FIR DIST_BIM DIST_BGS,A-O rows the tool cannot map to any workbook fuel (left unpriced)
+Jamaica,JAM,COA,,0,,,0,,,0,,DIST_COA,"needed; covered only by the WORLD benchmark (tool fallback, ao_cost_repair_manager.py:953-956)"
+Jamaica,JAM,DSL,2018-2050,33,53,2018-2050,33,54,2018-2050,33,55,DIST_DSL,needed and covered
+Jamaica,JAM,GSL,2018-2050,33,47,2018-2050,33,48,2018-2050,33,49,DIST_GSL,needed and covered
+Jamaica,JAM,GSP,2018-2050,33,50,2018-2050,33,51,2018-2050,33,52,,"in workbook, not used by any A-O fuel supply row"
+Jamaica,JAM,HFO,2018-2050,33,65,2018-2050,33,66,2018-2050,33,67,DIST_FOI,needed and covered
+Jamaica,JAM,JTA,2018-2050,33,62,2018-2050,33,63,2018-2050,33,64,DIST_JET,needed and covered
+Jamaica,JAM,KRS,2018-2050,33,59,2018-2050,33,60,2018-2050,33,61,DIST_KER,needed and covered
+Jamaica,JAM,LPG,2018-2050,33,56,2018-2050,33,57,2018-2050,33,58,DIST_LPG,needed and covered
+Jamaica,JAM,NGS,2020-2050,31,134,2020-2050,31,135,2020-2050,31,136,DIST_NGS,needed and covered
+Jamaica,JAM,(no code),,0,,,0,,,0,,DIST_COK DIST_FIR DIST_CHA DIST_BIM DIST_BGS DIST_OPE DIST_PV IMP_STOR IMP_R32 IMP_R125 IMP_R134A IMP_R143A IMP_R227EA IMP_R236FA IMP_SUB32 IMP_SUB125 IMP_SUB134A IMP_SUB143A IMP_SUB227EA IMP_SUB236FA,A-O rows the tool cannot map to any workbook fuel (left unpriced)
+WORLD,WORLD,COA,2024-2050,27,140,2024-2050,27,141,2024-2050,27,142,CostaRica:IMPCOA DominicanRepublic:DIST_COA Ecuador:DIST_COA Guatemala:DIST_COA Honduras:DIST_COA Jamaica:DIST_COA,needed and covered
+WORLD,WORLD,CRD,2018-2050,33,137,2018-2050,33,138,2018-2050,33,139,DominicanRepublic:DIST_CRU Ecuador:DIST_CRU,needed and covered

@@ -1,0 +1,7 @@
+﻿country,model_label,model_root,a2_structure_list,a1_outputs,bau_path,CapitalCost.csv,FixedCost.csv,VariableCost.csv
+CostaRica,CR_ENERGY\t1_confection,CostaRica\CR_ENERGY\t1_confection,CostaRica\CR_ENERGY\t1_confection\A2_Structure_Lists.xlsx,CostaRica\CR_ENERGY\t1_confection\A1_Outputs,CostaRica\CR_ENERGY\t1_confection\B1_Output_Params\BAU,YES,YES,YES
+DominicanRepublic,RD_ENERGY,DominicanRepublic\RD_ENERGY,DominicanRepublic\RD_ENERGY\A2_Structure_Lists.xlsx,DominicanRepublic\RD_ENERGY\A1_Outputs,DominicanRepublic\RD_ENERGY\B1_Output_Params\BAU,YES,YES,YES
+Ecuador,ECU_Energy,Ecuador\ECU_Energy,Ecuador\ECU_Energy\A2_Structure_Lists.xlsx,Ecuador\ECU_Energy\A1_Outputs,Ecuador\ECU_Energy\B1_Output_Params\BAU,YES,YES,YES
+Guatemala,GUA_ENERGY,Guatemala\GUA_ENERGY,Guatemala\GUA_ENERGY\A2_Structure_Lists.xlsx,Guatemala\GUA_ENERGY\A1_Outputs,Guatemala\GUA_ENERGY\B1_Output_Params\BAU,YES,YES,YES
+Honduras,HON_ENERGY,Honduras\HON_ENERGY,Honduras\HON_ENERGY\A2_Structure_Lists.xlsx,Honduras\HON_ENERGY\A1_Outputs,Honduras\HON_ENERGY\B1_Output_Params\BAU,YES,YES,YES
+Jamaica,JAM_ENERGY,Jamaica\JAM_ENERGY,Jamaica\JAM_ENERGY\A2_Structure_Lists.xlsx,Jamaica\JAM_ENERGY\A1_Outputs,Jamaica\JAM_ENERGY\B1_Output_Params\BAU,YES,YES,YES

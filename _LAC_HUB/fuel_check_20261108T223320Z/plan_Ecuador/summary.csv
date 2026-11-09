@@ -1,0 +1,3 @@
+﻿country,model_label,ao_path,source_kind,decision,rows,cells
+Ecuador,ECU_Energy,C:\Users\luisfernando\Desktop\OSeMOSYS\MODELS_LAC_5\Ecuador\ECU_Energy\A1_Outputs\A-O_Parametrization.xlsx,ecuador_local_reference,AUTO_HIGH_CONFIDENCE,95,2850
+Ecuador,ECU_Energy,C:\Users\luisfernando\Desktop\OSeMOSYS\MODELS_LAC_5\Ecuador\ECU_Energy\A1_Outputs\A-O_Parametrization.xlsx,fuel_workbook,AUTO_HIGH_CONFIDENCE,11,330

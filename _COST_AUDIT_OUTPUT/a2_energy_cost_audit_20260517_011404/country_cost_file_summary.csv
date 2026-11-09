@@ -1,0 +1,19 @@
+﻿country,model_label,parameter,rows,numeric_values,blank_or_null,non_numeric,zero_count,zero_share,one_count,one_share,unique_values,dominant_value,dominant_count,dominant_share,year_min,year_max,year_count,fuel_values_in_cost_file,mode_values,flags
+CostaRica,CR_ENERGY\t1_confection,CapitalCost,1770,1770,0,0,0,0.0%,0,0.0%,667,58.7591,78,4.4%,2021,2050,30,,,
+CostaRica,CR_ENERGY\t1_confection,FixedCost,1860,1860,0,0,0,0.0%,0,0.0%,314,49.32,150,8.1%,2021,2050,30,,,
+CostaRica,CR_ENERGY\t1_confection,VariableCost,270,270,0,0,0,0.0%,0,0.0%,189,1.3056,60,22.2%,2021,2050,30,,1,
+DominicanRepublic,RD_ENERGY,CapitalCost,2607,2607,0,0,165,6.3%,0,0.0%,617,0,165,6.3%,2018,2050,33,,,HAS_ZERO_VALUES
+DominicanRepublic,RD_ENERGY,FixedCost,2607,2607,0,0,165,6.3%,0,0.0%,131,14.1,429,16.5%,2018,2050,33,,,HAS_ZERO_VALUES
+DominicanRepublic,RD_ENERGY,VariableCost,1617,1617,0,0,627,38.8%,0,0.0%,306,0,627,38.8%,2018,2050,33,,1,HAS_ZERO_VALUES
+Ecuador,ECU_Energy,CapitalCost,1770,1770,0,0,0,0.0%,1350,76.3%,7,1,1350,76.3%,2021,2050,30,,,MANY_ONE_VALUES
+Ecuador,ECU_Energy,FixedCost,1770,1770,0,0,0,0.0%,1740,98.3%,2,1,1740,98.3%,2021,2050,30,,,MANY_ONE_VALUES | DOMINANT_REPEATED_VALUE | LOW_VARIETY
+Ecuador,ECU_Energy,VariableCost,1950,1950,0,0,0,0.0%,1920,98.5%,2,1,1920,98.5%,2021,2050,30,,1,MANY_ONE_VALUES | DOMINANT_REPEATED_VALUE | LOW_VARIETY
+Guatemala,GUA_ENERGY,CapitalCost,3003,3003,0,0,990,33.0%,0,0.0%,574,0,990,33.0%,2018,2050,33,,,HAS_ZERO_VALUES
+Guatemala,GUA_ENERGY,FixedCost,2508,2508,0,0,495,19.7%,0,0.0%,250,0,495,19.7%,2018,2050,33,,,HAS_ZERO_VALUES
+Guatemala,GUA_ENERGY,VariableCost,792,792,0,0,330,41.7%,0,0.0%,239,0,330,41.7%,2018,2050,33,,1,HAS_ZERO_VALUES
+Honduras,HON_ENERGY,CapitalCost,1848,1848,0,0,0,0.0%,0,0.0%,604,29.24,99,5.4%,2018,2050,33,,,
+Honduras,HON_ENERGY,FixedCost,2178,2178,0,0,330,15.2%,0,0.0%,208,0,330,15.2%,2018,2050,33,,,HAS_ZERO_VALUES
+Honduras,HON_ENERGY,VariableCost,957,957,0,0,264,27.6%,0,0.0%,278,0,264,27.6%,2018,2050,33,,1,HAS_ZERO_VALUES
+Jamaica,JAM_ENERGY,CapitalCost,1925,1847,78,0,986,53.4%,0,0.0%,321,0,986,53.4%,2021,2055,35,,,HAS_BLANK_OR_NULL | HAS_ZERO_VALUES
+Jamaica,JAM_ENERGY,FixedCost,875,795,80,0,70,8.8%,0,0.0%,184,157,70,8.8%,2021,2055,35,,,HAS_BLANK_OR_NULL | HAS_ZERO_VALUES
+Jamaica,JAM_ENERGY,VariableCost,2975,2915,60,0,2240,76.8%,0,0.0%,202,0,2240,76.8%,2021,2055,35,,1,HAS_BLANK_OR_NULL | HAS_ZERO_VALUES

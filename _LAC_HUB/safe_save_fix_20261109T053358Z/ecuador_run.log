@@ -1,0 +1,30 @@
+A-O_Parametrization.xlsx 1d38bdefeb065c3369138240c7f6680e4042861b21306a5506abf82bc605315c 1d38bdefeb065c3369138240c7f6680e4042861b21306a5506abf82bc605315c True
+ 
+{
+  "country": "Ecuador",
+  "path": "C:\\Users\\luisfernando\\Desktop\\OSeMOSYS\\MODELS_LAC_5\\Ecuador\\ECU_Energy\\A1_Outputs\\A-O_Parametrization.xlsx",
+  "check_only": false,
+  "sha256_before": "1d38bdefeb065c3369138240c7f6680e4042861b21306a5506abf82bc605315c",
+  "formula_cells_before": 990,
+  "blank_formula_cells_before": 990,
+  "backup": "C:\\Users\\luisfernando\\Desktop\\OSeMOSYS\\MODELS_LAC_5\\_LAC_HUB\\safe_save_fix_20261109T053358Z\\backups\\Ecuador_A-O_Parametrization.xlsx.pre_20261109T053358Z",
+  "sha256_backup": "1d38bdefeb065c3369138240c7f6680e4042861b21306a5506abf82bc605315c",
+  "backup_equals_before": true,
+  "recalc_utc": "2026-11-09T05:40:05Z",
+  "excel_com_used": true,
+  "sha256_after": "f1fb407a78848aaf7a9cffd6d771f2f3b507f0bc105366195e89089f03f6ff68",
+  "blank_formula_cells_after": 0,
+  "guard": "PASS",
+  "sheets_unchanged": true,
+  "formula_cells_after": 990,
+  "formula_cell_set_unchanged": true,
+  "formula_text_changed": 0,
+  "plain_cells_before": 14884,
+  "plain_cells_after": 14884,
+  "plain_cells_changed_exact": 0,
+  "formula_cells_with_excel_error": 0,
+  "intended_rows": 990,
+  "intended_agree": 990,
+  "intended_mismatch": 0,
+  "formula_cells_not_in_csv": 0
+}

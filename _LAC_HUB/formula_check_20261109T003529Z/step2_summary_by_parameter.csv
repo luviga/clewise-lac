@@ -1,0 +1,96 @@
+country,column_kind,parameter,formula_cells
+CostaRica,Tech.ID,AvailabilityFactor,24
+CostaRica,Tech.ID,CapacityFactor,24
+CostaRica,Tech.ID,CapacityToActivityUnit,148
+CostaRica,Tech.ID,CapitalCost,103
+CostaRica,Tech.ID,FixedCost,103
+CostaRica,Tech.ID,OperationalLife,148
+CostaRica,Tech.ID,ResidualCapacity,103
+CostaRica,Tech.ID,TotalAnnualMaxCapacity,69
+CostaRica,Tech.ID,TotalAnnualMinCapacityInvestment,24
+CostaRica,Tech.ID,TotalTechnologyAnnualActivityLowerLimit,69
+CostaRica,Tech.ID,TotalTechnologyAnnualActivityUpperLimit,24
+CostaRica,Tech.ID,VariableCost,24
+CostaRica,year column,CapacityFactor,159
+CostaRica,year column,CapitalCost,109
+CostaRica,year column,FixedCost,56
+CostaRica,year column,ResidualCapacity,145
+CostaRica,year column,TotalAnnualMaxCapacity,48
+CostaRica,year column,TotalTechnologyAnnualActivityLowerLimit,102
+CostaRica,year column,TotalTechnologyAnnualActivityUpperLimit,26
+DominicanRepublic,Tech.ID,AvailabilityFactor,31
+DominicanRepublic,Tech.ID,CapacityFactor,31
+DominicanRepublic,Tech.ID,CapacityToActivityUnit,154
+DominicanRepublic,Tech.ID,CapitalCost,31
+DominicanRepublic,Tech.ID,FixedCost,31
+DominicanRepublic,Tech.ID,OperationalLife,160
+DominicanRepublic,Tech.ID,ResidualCapacity,31
+DominicanRepublic,Tech.ID,TotalAnnualMaxCapacity,31
+DominicanRepublic,Tech.ID,TotalAnnualMinCapacityInvestment,31
+DominicanRepublic,Tech.ID,TotalTechnologyAnnualActivityLowerLimit,31
+DominicanRepublic,Tech.ID,TotalTechnologyAnnualActivityUpperLimit,31
+DominicanRepublic,Tech.ID,VariableCost,31
+DominicanRepublic,year column,CapacityFactor,354
+DominicanRepublic,year column,CapitalCost,4
+DominicanRepublic,year column,FixedCost,5
+DominicanRepublic,year column,ResidualCapacity,28
+DominicanRepublic,year column,TotalAnnualMaxCapacity,213
+DominicanRepublic,year column,TotalTechnologyAnnualActivityLowerLimit,550
+DominicanRepublic,year column,TotalTechnologyAnnualActivityUpperLimit,331
+Ecuador,Tech,FixedCost,16
+Ecuador,Tech,ResidualCapacity,16
+Ecuador,Tech.ID,AvailabilityFactor,54
+Ecuador,Tech.ID,CapacityFactor,54
+Ecuador,Tech.ID,CapacityToActivityUnit,110
+Ecuador,Tech.ID,CapitalCost,120
+Ecuador,Tech.ID,FixedCost,120
+Ecuador,Tech.ID,OperationalLife,110
+Ecuador,Tech.ID,ResidualCapacity,120
+Ecuador,Tech.ID,TotalAnnualMaxCapacity,54
+Ecuador,Tech.ID,TotalAnnualMinCapacityInvestment,54
+Ecuador,Tech.ID,TotalTechnologyAnnualActivityLowerLimit,54
+Ecuador,Tech.ID,TotalTechnologyAnnualActivityUpperLimit,54
+Ecuador,Tech.ID,VariableCost,54
+Guatemala,Source / Assumption,TotalAnnualMinCapacityInvestment,14
+Guatemala,year column,CapacityFactor,314
+Guatemala,year column,CapitalCost,3
+Guatemala,year column,FixedCost,2
+Guatemala,year column,ResidualCapacity,522
+Guatemala,year column,TotalAnnualMaxCapacity,26
+Guatemala,year column,VariableCost,2
+Honduras,Tech.ID,AvailabilityFactor,5
+Honduras,Tech.ID,CapacityFactor,5
+Honduras,Tech.ID,CapitalCost,4
+Honduras,Tech.ID,FixedCost,5
+Honduras,Tech.ID,ResidualCapacity,5
+Honduras,Tech.ID,TotalAnnualMaxCapacity,5
+Honduras,Tech.ID,TotalAnnualMinCapacityInvestment,5
+Honduras,Tech.ID,TotalTechnologyAnnualActivityLowerLimit,5
+Honduras,Tech.ID,TotalTechnologyAnnualActivityUpperLimit,5
+Honduras,Tech.ID,VariableCost,5
+Honduras,year column,CapacityFactor,53
+Honduras,year column,CapitalCost,3
+Honduras,year column,ResidualCapacity,91
+Honduras,year column,TotalAnnualMaxCapacity,24
+Honduras,year column,VariableCost,10
+Honduras,year column,,250
+Jamaica,Tech.ID,AvailabilityFactor,3
+Jamaica,Tech.ID,CapacityFactor,3
+Jamaica,Tech.ID,CapacityToActivityUnit,157
+Jamaica,Tech.ID,CapitalCost,84
+Jamaica,Tech.ID,FixedCost,84
+Jamaica,Tech.ID,OperationalLife,157
+Jamaica,Tech.ID,ResidualCapacity,83
+Jamaica,Tech.ID,TotalAnnualMaxCapacity,3
+Jamaica,Tech.ID,TotalAnnualMinCapacityInvestment,3
+Jamaica,Tech.ID,TotalTechnologyAnnualActivityLowerLimit,3
+Jamaica,Tech.ID,TotalTechnologyAnnualActivityUpperLimit,3
+Jamaica,Tech.ID,VariableCost,84
+Jamaica,year column,CapacityFactor,33
+Jamaica,year column,CapitalCost,44
+Jamaica,year column,FixedCost,12
+Jamaica,year column,ResidualCapacity,39
+Jamaica,year column,TotalAnnualMinCapacityInvestment,8
+Jamaica,year column,TotalTechnologyAnnualActivityLowerLimit,249
+Jamaica,year column,TotalTechnologyAnnualActivityUpperLimit,183
+Jamaica,year column,VariableCost,26

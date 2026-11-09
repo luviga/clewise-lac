@@ -1,0 +1,25 @@
+country,sheet,formula_cells
+CostaRica,Demand Techs,99
+CostaRica,Fixed Horizon Parameters,296
+CostaRica,Other_Techs,1
+CostaRica,Primary Techs,434
+CostaRica,Secondary Techs,334
+CostaRica,Transport Fuel Distribution,3
+CostaRica,Vehicle Techs,341
+DominicanRepublic,Fixed Horizon Parameters,314
+DominicanRepublic,Primary Techs,529
+DominicanRepublic,Secondary Techs,1264
+DominicanRepublic,Vehicle Techs,2
+Ecuador,Demand Techs,230
+Ecuador,Fixed Horizon Parameters,220
+Ecuador,Primary Techs,390
+Ecuador,Secondary Techs,150
+Guatemala,Primary Techs,598
+Guatemala,Vehicle Techs,285
+Honduras,Primary Techs,113
+Honduras,Secondary Techs,117
+Honduras,growth_formula,250
+Jamaica,Demand Techs,323
+Jamaica,Fixed Horizon Parameters,314
+Jamaica,Primary Techs,213
+Jamaica,Secondary Techs,411

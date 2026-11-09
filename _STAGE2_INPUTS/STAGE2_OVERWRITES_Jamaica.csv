@@ -1,0 +1,237 @@
+Country,Scenario,Tech,Year,New_Share_Pct,Note
+# Ecuador solar — PME pipeline (El Aromo + distributed)
+Ecuador,NDCNEW,PPPVT,2030,2.0,El Aromo Phase 1
+Ecuador,NDCNEW,PPPVT,2035,5.0,El Aromo full + distributed
+Ecuador,NDCNEW,PPPVT,2040,8.0,PME ERNC target
+Ecuador,NDCNEW,PPPVT,2050,10.0,PME ERNC target
+Ecuador,LTSNEW,PPPVT,2030,3.0,Accelerated El Aromo
+Ecuador,LTSNEW,PPPVT,2035,8.0,ERNC expansion
+Ecuador,LTSNEW,PPPVT,2040,15.0,LTS solar ramp
+Ecuador,LTSNEW,PPPVT,2050,20.0,LTS solar target
+# ---
+# Jamaica — Full 8-tech historical composition 2018-2026
+# All rows sum to exactly 100%. No renormalization needed.
+# Primary: JPS Annual Report 2021 (5-yr Operational Statistics table).
+# Cross-validated: IRENA 2020 (88.67%fossil/5.87%wind/2.85%hydro/2.60%solar);
+#   NREL/DOE Energy Snapshot FY20 (2018: 89%fossil/6.5%wind/3.5%hydro/1%solar);
+#   IRP-2 (MSETT Nov 2024); CCREEE 2022 Energy Report Card; MSETT Mar 2025.
+# 2021→2022 gas drop (-10pp) and HFO rise (+11pp) are REAL: 2022 global LNG
+#   price spike from Russia-Ukraine crisis forced JPS back to HFO barge dispatch.
+# 2025-2026 frozen at corrected 2024 per Stage 1 v15 anchor-year rule.
+# Total: 216 Jamaica rows (3 scenarios x 9 years x 8 techs)
+Jamaica,BAU,PPNGS,2018,12.0,"Bogue CC only (120 MW, LNG dual-fuel since mid-2016 via NFE Montego Bay terminal). No Old Harbour gas yet. JPS AR 2021 Operational Statistics: Bogue CC = 902 GWh. NREL/DOE Jamaica Energy Snapshot FY20: 89% fossil total for 2018."
+Jamaica,BAU,PPFOI,2018,74.0,JPS Hunts Bay (60 MW) + Old Harbour steam (132 MW) + JEP/JPPC/WKPP IPP barges. JPS AR 2021: steam/SSD = 1355 GWh + bulk of IPP purchases (1795 GWh) were HFO barges. 262 MW HFO fleet fully operational. IRP-2 (MSETT Nov 2024).
+Jamaica,BAU,PPDSL,2018,2.8,"ADO GT peakers: Bogue GT10, Hunts Bay GT, Rockfort. JPS AR 2021: GT = 125 GWh."
+Jamaica,BAU,PPWNDON,2018,6.5,Wigton I/II/III 62.7 MW + BMR Munro 36.3 MW + JPS Munro 3 MW = 102 MW. ~283 GWh. NREL/DOE: 6.5% wind 2018. IRENA consistent.
+Jamaica,BAU,PPPVT,2018,1.0,Content Solar 20 MW only (COD Aug 2016). ~44 GWh. Paradise Park not online until Jun 2019. NREL/DOE: 1% solar 2018.
+Jamaica,BAU,PPHDAM,2018,0.9,Maggotty 7.2 MW (only dam-type hydro). ~35 GWh at ~55% CF. JPS AR 2021 total hydro 179 GWh; Maggotty ~25% of fleet capacity. IRP-1 Figure 47.
+Jamaica,BAU,PPHROR,2018,2.8,"Upper/Lower White River, Roaring River, Rio Bueno A&B, Rams Horn, Constant Spring (~22 MW). ~144 GWh. JPS AR 2021: total hydro 179 minus Maggotty ~35. NREL/DOE: 3.5% total hydro."
+Jamaica,BAU,PPBIM,2018,0.0,Zero grid biomass. Pan Caribbean Sugar Frome/Monymusk never achieved OUR licence or JPS PPA; shelved Oct 2022 (Jamaica Gleaner 1 Oct 2022).
+Jamaica,BAU,PPNGS,2019,30.0,Bogue CC full year + SJPC Old Harbour CCGT 190 MW (FSRU commissioned 19 Jul 2019 per CARILEC; ramped Q3-Q4). JPS AR 2021: IPP purchases +195 GWh YoY. IRP-2 confirms Old Harbour COD 2019.
+Jamaica,BAU,PPFOI,2019,53.2,JPS HFO steam 262 MW still operational + IPP barges. JPS AR 2021: steam/SSD = 1229 GWh (down from 1355). HFO declining as gas displaces baseload.
+Jamaica,BAU,PPDSL,2019,5.4,GT peakers spiked to 239 GWh during Old Harbour commissioning (JPS AR 2021). Temporary grid stability dispatch.
+Jamaica,BAU,PPWNDON,2019,6.7,102 MW fleet. ~295 GWh. Slight CF improvement. JPS AR 2021.
+Jamaica,BAU,PPPVT,2019,1.6,"Content 20 MW full year + Paradise Park 37 MW (COD 6 Jun 2019, ~7 months). ~70 GWh. pv-magazine 4 Oct 2019."
+Jamaica,BAU,PPHDAM,2019,0.8,Maggotty 7.2 MW. ~33 GWh. Lower rainfall (JPS AR 2021 total hydro 155 GWh).
+Jamaica,BAU,PPHROR,2019,2.3,ROR fleet ~22 MW. ~102 GWh. JPS AR 2021: total hydro 155 minus Maggotty.
+Jamaica,BAU,PPBIM,2019,0.0,Zero grid biomass.
+Jamaica,BAU,PPNGS,2020,62.0,Bogue CC + Old Harbour CCGT full year + NFE Jamalco CHP ~94 MW (commercial ops 3 Mar 2020 per Loop Jamaica). JPS AR 2021: IPP purchases surged to 2832 GWh. 262 MW HFO retired mid-2020 per IRP-2. IRENA 2020: 88.67% fossil.
+Jamaica,BAU,PPFOI,2020,25.2,Post-retirement: JEP barges + JPPC + WKPP + residual JPS steam. JPS AR 2021: steam/SSD collapsed to 460 GWh. IRP-2 confirms 262 MW retirement.
+Jamaica,BAU,PPDSL,2020,1.4,GT peakers 60 GWh (JPS AR 2021). Gas baseload + COVID dip reduced peaker need. OUR Determination Notice 2021.
+Jamaica,BAU,PPWNDON,2020,5.9,102 MW fleet. ~249 GWh. COVID curtailment + lower demand. IRENA 2020: 5.87% wind — exact match.
+Jamaica,BAU,PPPVT,2020,2.6,Content + Paradise Park first full year. ~110 GWh. IRENA 2020: 2.60% solar — exact match.
+Jamaica,BAU,PPHDAM,2020,0.7,Maggotty 7.2 MW. ~30 GWh. IRENA 2020: 2.85% total hydro.
+Jamaica,BAU,PPHROR,2020,2.2,ROR fleet ~22 MW. ~93 GWh. JPS AR 2021: total hydro 136 minus Maggotty ~30. Consistent with IRENA 2020 total hydro 2.85%.
+Jamaica,BAU,PPBIM,2020,0.0,Zero grid biomass.
+Jamaica,BAU,PPNGS,2021,69.0,Bogue CC 753 GWh + Old Harbour CCGT + Jamalco CHP full year. IPP purchases 3157 GWh. JPS AR 2021; JPS 5-Year Business Plan: LNG ~two-thirds of fuel mix.
+Jamaica,BAU,PPFOI,2021,17.0,JPS steam/SSD 226 GWh (Hunts Bay B6 residual) + IPP barges. Near-complete HFO displacement. JPS AR 2021.
+Jamaica,BAU,PPDSL,2021,0.7,GT peakers 29 GWh (JPS AR 2021). Minimal dispatch.
+Jamaica,BAU,PPWNDON,2021,6.5,102 MW fleet. ~280 GWh. Normal CF post-COVID. JPS AR 2021.
+Jamaica,BAU,PPPVT,2021,3.3,Content + Paradise Park full year. ~142 GWh. JPS AR 2021.
+Jamaica,BAU,PPHDAM,2021,0.7,Maggotty 7.2 MW. ~30 GWh. JPS AR 2021 total hydro 138 GWh.
+Jamaica,BAU,PPHROR,2021,2.8,ROR fleet ~22 MW. ~108 GWh. JPS AR 2021: total hydro 138 minus Maggotty.
+Jamaica,BAU,PPBIM,2021,0.0,Zero grid biomass. Frome project shelved Oct 2022 (Jamaica Gleaner).
+Jamaica,BAU,PPNGS,2022,59.0,LNG supply disruptions (Russia-Ukraine 2022 global LNG price spike) forced increased HFO barge dispatch. IRP-2 (MSETT Nov 2024) Table 3-2. CCREEE 2022 Energy Report Card: RE ~12%.
+Jamaica,BAU,PPFOI,2022,28.0,HFO barges dispatched more heavily due to LNG price/supply constraints. IRP-2 Table 3-2. I-RECE Jamaica assessment 2024 confirms HFO rebound.
+Jamaica,BAU,PPDSL,2022,1.0,Minimal GT peaker dispatch. JPS operational data.
+Jamaica,BAU,PPWNDON,2022,6.0,102 MW fleet at normal CF. IRP-2: ~6% wind 2022. I-RECE Jamaica: wind 6% of generation.
+Jamaica,BAU,PPPVT,2022,3.0,Content + Paradise Park. ~127 GWh. IRP-2; I-RECE: solar ~3% for 2022.
+Jamaica,BAU,PPHDAM,2022,0.7,Maggotty 7.2 MW. Stable.
+Jamaica,BAU,PPHROR,2022,2.3,ROR fleet ~22 MW. Normal hydrology. JPS hydro ~127 GWh minus Maggotty.
+Jamaica,BAU,PPBIM,2022,0.0,Zero grid biomass. Frome project formally shelved Oct 2022 (Jamaica Gleaner 1 Oct 2022).
+Jamaica,BAU,PPNGS,2023,61.0,LNG supply partially recovered. Gas share rebounding toward pre-crisis levels. JPS 2023 annual commentary. Trending toward JPS-reported 65% gas own-plant for 2024.
+Jamaica,BAU,PPFOI,2023,26.0,HFO declining again as LNG normalises. JEP barges still operating at lower dispatch.
+Jamaica,BAU,PPDSL,2023,0.5,Near-zero peaker dispatch. Normal gas supply.
+Jamaica,BAU,PPWNDON,2023,6.0,102 MW fleet. Normal operations. IRENA Jamaica statistics.
+Jamaica,BAU,PPPVT,2023,3.5,Content + Paradise Park. Growing distributed PV (net-billing: 26.1 MW by end-2024 per MSETT) adds marginal output.
+Jamaica,BAU,PPHDAM,2023,0.7,Maggotty 7.2 MW. Stable.
+Jamaica,BAU,PPHROR,2023,2.3,ROR fleet ~22 MW. Normal hydrology.
+Jamaica,BAU,PPBIM,2023,0.0,Zero grid biomass.
+Jamaica,BAU,PPNGS,2024,58.0,Hurricane Beryl (Jul 2024) disrupted grid + LNG supply. Gas depressed vs 2023. JPS own-plant 65% gas but grid-wide lower due to barge dispatch. JIS/MSETT Mar 2025: total gen ~4814 GWh; RE = 10%.
+Jamaica,BAU,PPFOI,2024,30.0,HFO barges dispatched more during Beryl recovery. JPS fuel rate filings Q3-Q4 2024.
+Jamaica,BAU,PPDSL,2024,2.0,GT peakers dispatched during emergency grid restoration post-Beryl. OUR emergency filings Jul-Sep 2024.
+Jamaica,BAU,PPWNDON,2024,4.5,Wind depressed: Beryl damage + lower wind resource Jul-Oct 2024. 102 MW fleet reduced CF. MSETT Mar 2025: 188 MW RE = 10% generation.
+Jamaica,BAU,PPPVT,2024,3.0,Content + Paradise Park. Minor Beryl damage to Paradise Park. MSETT Mar 2025.
+Jamaica,BAU,PPHDAM,2024,0.7,Maggotty 7.2 MW. Stable.
+Jamaica,BAU,PPHROR,2024,1.8,ROR fleet impacted by post-hurricane debris and flow disruption. Reduced output H2 2024.
+Jamaica,BAU,PPBIM,2024,0.0,Zero grid biomass.
+Jamaica,BAU,PPNGS,2025,58.0,Stage 1 v15 freeze rule: 2025 = 2024 anchor. No new gas plant. JPS grid operations normal H1 2025; Hurricane Melissa Oct 2025 disrupts H2 but gas plants largely undamaged.
+Jamaica,BAU,PPFOI,2025,30.0,Frozen at 2024. HFO barges continue normal dispatch. Some increased dispatch post-Melissa for grid stability.
+Jamaica,BAU,PPDSL,2025,2.0,Frozen at 2024. Post-Melissa emergency GT dispatch likely similar to post-Beryl 2024.
+Jamaica,BAU,PPWNDON,2025,4.5,Frozen at 2024. BMR Munro 36.3 MW inspected OK post-Melissa (Jamaica Observer 18 Nov 2025); Wigton largely undamaged. Partial-year disruption similar to Beryl 2024.
+Jamaica,BAU,PPPVT,2025,3.0,Frozen at 2024. Paradise Park 37 MW suffered 80% damage Oct 2025 (Jamaica Observer 18 Nov 2025). Offline Q4 2025. Annual avg CF still ~3% given 9 months normal + 3 months offline.
+Jamaica,BAU,PPHDAM,2025,0.7,Frozen at 2024. Maggotty stable.
+Jamaica,BAU,PPHROR,2025,1.8,Frozen at 2024. Some Melissa disruption to ROR sites but fleet resilient.
+Jamaica,BAU,PPBIM,2025,0.0,Zero grid biomass.
+Jamaica,BAU,PPNGS,2026,58.0,Stage 1 v15 freeze: 2026 = 2024 anchor. Grid recovery year. No new capacity online yet (Wigton Clarendon + SunTerra target 2027).
+Jamaica,BAU,PPFOI,2026,30.0,Frozen at 2024. Continued HFO barge operations.
+Jamaica,BAU,PPDSL,2026,2.0,Frozen at 2024.
+Jamaica,BAU,PPWNDON,2026,4.5,Frozen at 2024. Wind fleet fully restored (BMR confirmed OK; Wigton I repairs complete Q1 2026).
+Jamaica,BAU,PPPVT,2026,3.0,Frozen at 2024. Paradise Park offline for reconstruction (construction starts ~Q3 2026 per InterEnergy Jan 2026 announcement; 3-6 months to complete). Content Solar 20 MW operating normally.
+Jamaica,BAU,PPHDAM,2026,0.7,Frozen at 2024.
+Jamaica,BAU,PPHROR,2026,1.8,Frozen at 2024.
+Jamaica,BAU,PPBIM,2026,0.0,Zero grid biomass.
+Jamaica,NDCNEW,PPNGS,2018,12.0,"Bogue CC only (120 MW, LNG dual-fuel since mid-2016 via NFE Montego Bay terminal). No Old Harbour gas yet. JPS AR 2021 Operational Statistics: Bogue CC = 902 GWh. NREL/DOE Jamaica Energy Snapshot FY20: 89% fossil total for 2018."
+Jamaica,NDCNEW,PPFOI,2018,74.0,JPS Hunts Bay (60 MW) + Old Harbour steam (132 MW) + JEP/JPPC/WKPP IPP barges. JPS AR 2021: steam/SSD = 1355 GWh + bulk of IPP purchases (1795 GWh) were HFO barges. 262 MW HFO fleet fully operational. IRP-2 (MSETT Nov 2024).
+Jamaica,NDCNEW,PPDSL,2018,2.8,"ADO GT peakers: Bogue GT10, Hunts Bay GT, Rockfort. JPS AR 2021: GT = 125 GWh."
+Jamaica,NDCNEW,PPWNDON,2018,6.5,Wigton I/II/III 62.7 MW + BMR Munro 36.3 MW + JPS Munro 3 MW = 102 MW. ~283 GWh. NREL/DOE: 6.5% wind 2018. IRENA consistent.
+Jamaica,NDCNEW,PPPVT,2018,1.0,Content Solar 20 MW only (COD Aug 2016). ~44 GWh. Paradise Park not online until Jun 2019. NREL/DOE: 1% solar 2018.
+Jamaica,NDCNEW,PPHDAM,2018,0.9,Maggotty 7.2 MW (only dam-type hydro). ~35 GWh at ~55% CF. JPS AR 2021 total hydro 179 GWh; Maggotty ~25% of fleet capacity. IRP-1 Figure 47.
+Jamaica,NDCNEW,PPHROR,2018,2.8,"Upper/Lower White River, Roaring River, Rio Bueno A&B, Rams Horn, Constant Spring (~22 MW). ~144 GWh. JPS AR 2021: total hydro 179 minus Maggotty ~35. NREL/DOE: 3.5% total hydro."
+Jamaica,NDCNEW,PPBIM,2018,0.0,Zero grid biomass. Pan Caribbean Sugar Frome/Monymusk never achieved OUR licence or JPS PPA; shelved Oct 2022 (Jamaica Gleaner 1 Oct 2022).
+Jamaica,NDCNEW,PPNGS,2019,30.0,Bogue CC full year + SJPC Old Harbour CCGT 190 MW (FSRU commissioned 19 Jul 2019 per CARILEC; ramped Q3-Q4). JPS AR 2021: IPP purchases +195 GWh YoY. IRP-2 confirms Old Harbour COD 2019.
+Jamaica,NDCNEW,PPFOI,2019,53.2,JPS HFO steam 262 MW still operational + IPP barges. JPS AR 2021: steam/SSD = 1229 GWh (down from 1355). HFO declining as gas displaces baseload.
+Jamaica,NDCNEW,PPDSL,2019,5.4,GT peakers spiked to 239 GWh during Old Harbour commissioning (JPS AR 2021). Temporary grid stability dispatch.
+Jamaica,NDCNEW,PPWNDON,2019,6.7,102 MW fleet. ~295 GWh. Slight CF improvement. JPS AR 2021.
+Jamaica,NDCNEW,PPPVT,2019,1.6,"Content 20 MW full year + Paradise Park 37 MW (COD 6 Jun 2019, ~7 months). ~70 GWh. pv-magazine 4 Oct 2019."
+Jamaica,NDCNEW,PPHDAM,2019,0.8,Maggotty 7.2 MW. ~33 GWh. Lower rainfall (JPS AR 2021 total hydro 155 GWh).
+Jamaica,NDCNEW,PPHROR,2019,2.3,ROR fleet ~22 MW. ~102 GWh. JPS AR 2021: total hydro 155 minus Maggotty.
+Jamaica,NDCNEW,PPBIM,2019,0.0,Zero grid biomass.
+Jamaica,NDCNEW,PPNGS,2020,62.0,Bogue CC + Old Harbour CCGT full year + NFE Jamalco CHP ~94 MW (commercial ops 3 Mar 2020 per Loop Jamaica). JPS AR 2021: IPP purchases surged to 2832 GWh. 262 MW HFO retired mid-2020 per IRP-2. IRENA 2020: 88.67% fossil.
+Jamaica,NDCNEW,PPFOI,2020,25.2,Post-retirement: JEP barges + JPPC + WKPP + residual JPS steam. JPS AR 2021: steam/SSD collapsed to 460 GWh. IRP-2 confirms 262 MW retirement.
+Jamaica,NDCNEW,PPDSL,2020,1.4,GT peakers 60 GWh (JPS AR 2021). Gas baseload + COVID dip reduced peaker need. OUR Determination Notice 2021.
+Jamaica,NDCNEW,PPWNDON,2020,5.9,102 MW fleet. ~249 GWh. COVID curtailment + lower demand. IRENA 2020: 5.87% wind — exact match.
+Jamaica,NDCNEW,PPPVT,2020,2.6,Content + Paradise Park first full year. ~110 GWh. IRENA 2020: 2.60% solar — exact match.
+Jamaica,NDCNEW,PPHDAM,2020,0.7,Maggotty 7.2 MW. ~30 GWh. IRENA 2020: 2.85% total hydro.
+Jamaica,NDCNEW,PPHROR,2020,2.2,ROR fleet ~22 MW. ~93 GWh. JPS AR 2021: total hydro 136 minus Maggotty ~30. Consistent with IRENA 2020 total hydro 2.85%.
+Jamaica,NDCNEW,PPBIM,2020,0.0,Zero grid biomass.
+Jamaica,NDCNEW,PPNGS,2021,69.0,Bogue CC 753 GWh + Old Harbour CCGT + Jamalco CHP full year. IPP purchases 3157 GWh. JPS AR 2021; JPS 5-Year Business Plan: LNG ~two-thirds of fuel mix.
+Jamaica,NDCNEW,PPFOI,2021,17.0,JPS steam/SSD 226 GWh (Hunts Bay B6 residual) + IPP barges. Near-complete HFO displacement. JPS AR 2021.
+Jamaica,NDCNEW,PPDSL,2021,0.7,GT peakers 29 GWh (JPS AR 2021). Minimal dispatch.
+Jamaica,NDCNEW,PPWNDON,2021,6.5,102 MW fleet. ~280 GWh. Normal CF post-COVID. JPS AR 2021.
+Jamaica,NDCNEW,PPPVT,2021,3.3,Content + Paradise Park full year. ~142 GWh. JPS AR 2021.
+Jamaica,NDCNEW,PPHDAM,2021,0.7,Maggotty 7.2 MW. ~30 GWh. JPS AR 2021 total hydro 138 GWh.
+Jamaica,NDCNEW,PPHROR,2021,2.8,ROR fleet ~22 MW. ~108 GWh. JPS AR 2021: total hydro 138 minus Maggotty.
+Jamaica,NDCNEW,PPBIM,2021,0.0,Zero grid biomass. Frome project shelved Oct 2022 (Jamaica Gleaner).
+Jamaica,NDCNEW,PPNGS,2022,59.0,LNG supply disruptions (Russia-Ukraine 2022 global LNG price spike) forced increased HFO barge dispatch. IRP-2 (MSETT Nov 2024) Table 3-2. CCREEE 2022 Energy Report Card: RE ~12%.
+Jamaica,NDCNEW,PPFOI,2022,28.0,HFO barges dispatched more heavily due to LNG price/supply constraints. IRP-2 Table 3-2. I-RECE Jamaica assessment 2024 confirms HFO rebound.
+Jamaica,NDCNEW,PPDSL,2022,1.0,Minimal GT peaker dispatch. JPS operational data.
+Jamaica,NDCNEW,PPWNDON,2022,6.0,102 MW fleet at normal CF. IRP-2: ~6% wind 2022. I-RECE Jamaica: wind 6% of generation.
+Jamaica,NDCNEW,PPPVT,2022,3.0,Content + Paradise Park. ~127 GWh. IRP-2; I-RECE: solar ~3% for 2022.
+Jamaica,NDCNEW,PPHDAM,2022,0.7,Maggotty 7.2 MW. Stable.
+Jamaica,NDCNEW,PPHROR,2022,2.3,ROR fleet ~22 MW. Normal hydrology. JPS hydro ~127 GWh minus Maggotty.
+Jamaica,NDCNEW,PPBIM,2022,0.0,Zero grid biomass. Frome project formally shelved Oct 2022 (Jamaica Gleaner 1 Oct 2022).
+Jamaica,NDCNEW,PPNGS,2023,61.0,LNG supply partially recovered. Gas share rebounding toward pre-crisis levels. JPS 2023 annual commentary. Trending toward JPS-reported 65% gas own-plant for 2024.
+Jamaica,NDCNEW,PPFOI,2023,26.0,HFO declining again as LNG normalises. JEP barges still operating at lower dispatch.
+Jamaica,NDCNEW,PPDSL,2023,0.5,Near-zero peaker dispatch. Normal gas supply.
+Jamaica,NDCNEW,PPWNDON,2023,6.0,102 MW fleet. Normal operations. IRENA Jamaica statistics.
+Jamaica,NDCNEW,PPPVT,2023,3.5,Content + Paradise Park. Growing distributed PV (net-billing: 26.1 MW by end-2024 per MSETT) adds marginal output.
+Jamaica,NDCNEW,PPHDAM,2023,0.7,Maggotty 7.2 MW. Stable.
+Jamaica,NDCNEW,PPHROR,2023,2.3,ROR fleet ~22 MW. Normal hydrology.
+Jamaica,NDCNEW,PPBIM,2023,0.0,Zero grid biomass.
+Jamaica,NDCNEW,PPNGS,2024,58.0,Hurricane Beryl (Jul 2024) disrupted grid + LNG supply. Gas depressed vs 2023. JPS own-plant 65% gas but grid-wide lower due to barge dispatch. JIS/MSETT Mar 2025: total gen ~4814 GWh; RE = 10%.
+Jamaica,NDCNEW,PPFOI,2024,30.0,HFO barges dispatched more during Beryl recovery. JPS fuel rate filings Q3-Q4 2024.
+Jamaica,NDCNEW,PPDSL,2024,2.0,GT peakers dispatched during emergency grid restoration post-Beryl. OUR emergency filings Jul-Sep 2024.
+Jamaica,NDCNEW,PPWNDON,2024,4.5,Wind depressed: Beryl damage + lower wind resource Jul-Oct 2024. 102 MW fleet reduced CF. MSETT Mar 2025: 188 MW RE = 10% generation.
+Jamaica,NDCNEW,PPPVT,2024,3.0,Content + Paradise Park. Minor Beryl damage to Paradise Park. MSETT Mar 2025.
+Jamaica,NDCNEW,PPHDAM,2024,0.7,Maggotty 7.2 MW. Stable.
+Jamaica,NDCNEW,PPHROR,2024,1.8,ROR fleet impacted by post-hurricane debris and flow disruption. Reduced output H2 2024.
+Jamaica,NDCNEW,PPBIM,2024,0.0,Zero grid biomass.
+Jamaica,NDCNEW,PPNGS,2025,58.0,Stage 1 v15 freeze rule: 2025 = 2024 anchor. No new gas plant. JPS grid operations normal H1 2025; Hurricane Melissa Oct 2025 disrupts H2 but gas plants largely undamaged.
+Jamaica,NDCNEW,PPFOI,2025,30.0,Frozen at 2024. HFO barges continue normal dispatch. Some increased dispatch post-Melissa for grid stability.
+Jamaica,NDCNEW,PPDSL,2025,2.0,Frozen at 2024. Post-Melissa emergency GT dispatch likely similar to post-Beryl 2024.
+Jamaica,NDCNEW,PPWNDON,2025,4.5,Frozen at 2024. BMR Munro 36.3 MW inspected OK post-Melissa (Jamaica Observer 18 Nov 2025); Wigton largely undamaged. Partial-year disruption similar to Beryl 2024.
+Jamaica,NDCNEW,PPPVT,2025,3.0,Frozen at 2024. Paradise Park 37 MW suffered 80% damage Oct 2025 (Jamaica Observer 18 Nov 2025). Offline Q4 2025. Annual avg CF still ~3% given 9 months normal + 3 months offline.
+Jamaica,NDCNEW,PPHDAM,2025,0.7,Frozen at 2024. Maggotty stable.
+Jamaica,NDCNEW,PPHROR,2025,1.8,Frozen at 2024. Some Melissa disruption to ROR sites but fleet resilient.
+Jamaica,NDCNEW,PPBIM,2025,0.0,Zero grid biomass.
+Jamaica,NDCNEW,PPNGS,2026,58.0,Stage 1 v15 freeze: 2026 = 2024 anchor. Grid recovery year. No new capacity online yet (Wigton Clarendon + SunTerra target 2027).
+Jamaica,NDCNEW,PPFOI,2026,30.0,Frozen at 2024. Continued HFO barge operations.
+Jamaica,NDCNEW,PPDSL,2026,2.0,Frozen at 2024.
+Jamaica,NDCNEW,PPWNDON,2026,4.5,Frozen at 2024. Wind fleet fully restored (BMR confirmed OK; Wigton I repairs complete Q1 2026).
+Jamaica,NDCNEW,PPPVT,2026,3.0,Frozen at 2024. Paradise Park offline for reconstruction (construction starts ~Q3 2026 per InterEnergy Jan 2026 announcement; 3-6 months to complete). Content Solar 20 MW operating normally.
+Jamaica,NDCNEW,PPHDAM,2026,0.7,Frozen at 2024.
+Jamaica,NDCNEW,PPHROR,2026,1.8,Frozen at 2024.
+Jamaica,NDCNEW,PPBIM,2026,0.0,Zero grid biomass.
+Jamaica,LTSNEW,PPNGS,2018,12.0,"Bogue CC only (120 MW, LNG dual-fuel since mid-2016 via NFE Montego Bay terminal). No Old Harbour gas yet. JPS AR 2021 Operational Statistics: Bogue CC = 902 GWh. NREL/DOE Jamaica Energy Snapshot FY20: 89% fossil total for 2018."
+Jamaica,LTSNEW,PPFOI,2018,74.0,JPS Hunts Bay (60 MW) + Old Harbour steam (132 MW) + JEP/JPPC/WKPP IPP barges. JPS AR 2021: steam/SSD = 1355 GWh + bulk of IPP purchases (1795 GWh) were HFO barges. 262 MW HFO fleet fully operational. IRP-2 (MSETT Nov 2024).
+Jamaica,LTSNEW,PPDSL,2018,2.8,"ADO GT peakers: Bogue GT10, Hunts Bay GT, Rockfort. JPS AR 2021: GT = 125 GWh."
+Jamaica,LTSNEW,PPWNDON,2018,6.5,Wigton I/II/III 62.7 MW + BMR Munro 36.3 MW + JPS Munro 3 MW = 102 MW. ~283 GWh. NREL/DOE: 6.5% wind 2018. IRENA consistent.
+Jamaica,LTSNEW,PPPVT,2018,1.0,Content Solar 20 MW only (COD Aug 2016). ~44 GWh. Paradise Park not online until Jun 2019. NREL/DOE: 1% solar 2018.
+Jamaica,LTSNEW,PPHDAM,2018,0.9,Maggotty 7.2 MW (only dam-type hydro). ~35 GWh at ~55% CF. JPS AR 2021 total hydro 179 GWh; Maggotty ~25% of fleet capacity. IRP-1 Figure 47.
+Jamaica,LTSNEW,PPHROR,2018,2.8,"Upper/Lower White River, Roaring River, Rio Bueno A&B, Rams Horn, Constant Spring (~22 MW). ~144 GWh. JPS AR 2021: total hydro 179 minus Maggotty ~35. NREL/DOE: 3.5% total hydro."
+Jamaica,LTSNEW,PPBIM,2018,0.0,Zero grid biomass. Pan Caribbean Sugar Frome/Monymusk never achieved OUR licence or JPS PPA; shelved Oct 2022 (Jamaica Gleaner 1 Oct 2022).
+Jamaica,LTSNEW,PPNGS,2019,30.0,Bogue CC full year + SJPC Old Harbour CCGT 190 MW (FSRU commissioned 19 Jul 2019 per CARILEC; ramped Q3-Q4). JPS AR 2021: IPP purchases +195 GWh YoY. IRP-2 confirms Old Harbour COD 2019.
+Jamaica,LTSNEW,PPFOI,2019,53.2,JPS HFO steam 262 MW still operational + IPP barges. JPS AR 2021: steam/SSD = 1229 GWh (down from 1355). HFO declining as gas displaces baseload.
+Jamaica,LTSNEW,PPDSL,2019,5.4,GT peakers spiked to 239 GWh during Old Harbour commissioning (JPS AR 2021). Temporary grid stability dispatch.
+Jamaica,LTSNEW,PPWNDON,2019,6.7,102 MW fleet. ~295 GWh. Slight CF improvement. JPS AR 2021.
+Jamaica,LTSNEW,PPPVT,2019,1.6,"Content 20 MW full year + Paradise Park 37 MW (COD 6 Jun 2019, ~7 months). ~70 GWh. pv-magazine 4 Oct 2019."
+Jamaica,LTSNEW,PPHDAM,2019,0.8,Maggotty 7.2 MW. ~33 GWh. Lower rainfall (JPS AR 2021 total hydro 155 GWh).
+Jamaica,LTSNEW,PPHROR,2019,2.3,ROR fleet ~22 MW. ~102 GWh. JPS AR 2021: total hydro 155 minus Maggotty.
+Jamaica,LTSNEW,PPBIM,2019,0.0,Zero grid biomass.
+Jamaica,LTSNEW,PPNGS,2020,62.0,Bogue CC + Old Harbour CCGT full year + NFE Jamalco CHP ~94 MW (commercial ops 3 Mar 2020 per Loop Jamaica). JPS AR 2021: IPP purchases surged to 2832 GWh. 262 MW HFO retired mid-2020 per IRP-2. IRENA 2020: 88.67% fossil.
+Jamaica,LTSNEW,PPFOI,2020,25.2,Post-retirement: JEP barges + JPPC + WKPP + residual JPS steam. JPS AR 2021: steam/SSD collapsed to 460 GWh. IRP-2 confirms 262 MW retirement.
+Jamaica,LTSNEW,PPDSL,2020,1.4,GT peakers 60 GWh (JPS AR 2021). Gas baseload + COVID dip reduced peaker need. OUR Determination Notice 2021.
+Jamaica,LTSNEW,PPWNDON,2020,5.9,102 MW fleet. ~249 GWh. COVID curtailment + lower demand. IRENA 2020: 5.87% wind — exact match.
+Jamaica,LTSNEW,PPPVT,2020,2.6,Content + Paradise Park first full year. ~110 GWh. IRENA 2020: 2.60% solar — exact match.
+Jamaica,LTSNEW,PPHDAM,2020,0.7,Maggotty 7.2 MW. ~30 GWh. IRENA 2020: 2.85% total hydro.
+Jamaica,LTSNEW,PPHROR,2020,2.2,ROR fleet ~22 MW. ~93 GWh. JPS AR 2021: total hydro 136 minus Maggotty ~30. Consistent with IRENA 2020 total hydro 2.85%.
+Jamaica,LTSNEW,PPBIM,2020,0.0,Zero grid biomass.
+Jamaica,LTSNEW,PPNGS,2021,69.0,Bogue CC 753 GWh + Old Harbour CCGT + Jamalco CHP full year. IPP purchases 3157 GWh. JPS AR 2021; JPS 5-Year Business Plan: LNG ~two-thirds of fuel mix.
+Jamaica,LTSNEW,PPFOI,2021,17.0,JPS steam/SSD 226 GWh (Hunts Bay B6 residual) + IPP barges. Near-complete HFO displacement. JPS AR 2021.
+Jamaica,LTSNEW,PPDSL,2021,0.7,GT peakers 29 GWh (JPS AR 2021). Minimal dispatch.
+Jamaica,LTSNEW,PPWNDON,2021,6.5,102 MW fleet. ~280 GWh. Normal CF post-COVID. JPS AR 2021.
+Jamaica,LTSNEW,PPPVT,2021,3.3,Content + Paradise Park full year. ~142 GWh. JPS AR 2021.
+Jamaica,LTSNEW,PPHDAM,2021,0.7,Maggotty 7.2 MW. ~30 GWh. JPS AR 2021 total hydro 138 GWh.
+Jamaica,LTSNEW,PPHROR,2021,2.8,ROR fleet ~22 MW. ~108 GWh. JPS AR 2021: total hydro 138 minus Maggotty.
+Jamaica,LTSNEW,PPBIM,2021,0.0,Zero grid biomass. Frome project shelved Oct 2022 (Jamaica Gleaner).
+Jamaica,LTSNEW,PPNGS,2022,59.0,LNG supply disruptions (Russia-Ukraine 2022 global LNG price spike) forced increased HFO barge dispatch. IRP-2 (MSETT Nov 2024) Table 3-2. CCREEE 2022 Energy Report Card: RE ~12%.
+Jamaica,LTSNEW,PPFOI,2022,28.0,HFO barges dispatched more heavily due to LNG price/supply constraints. IRP-2 Table 3-2. I-RECE Jamaica assessment 2024 confirms HFO rebound.
+Jamaica,LTSNEW,PPDSL,2022,1.0,Minimal GT peaker dispatch. JPS operational data.
+Jamaica,LTSNEW,PPWNDON,2022,6.0,102 MW fleet at normal CF. IRP-2: ~6% wind 2022. I-RECE Jamaica: wind 6% of generation.
+Jamaica,LTSNEW,PPPVT,2022,3.0,Content + Paradise Park. ~127 GWh. IRP-2; I-RECE: solar ~3% for 2022.
+Jamaica,LTSNEW,PPHDAM,2022,0.7,Maggotty 7.2 MW. Stable.
+Jamaica,LTSNEW,PPHROR,2022,2.3,ROR fleet ~22 MW. Normal hydrology. JPS hydro ~127 GWh minus Maggotty.
+Jamaica,LTSNEW,PPBIM,2022,0.0,Zero grid biomass. Frome project formally shelved Oct 2022 (Jamaica Gleaner 1 Oct 2022).
+Jamaica,LTSNEW,PPNGS,2023,61.0,LNG supply partially recovered. Gas share rebounding toward pre-crisis levels. JPS 2023 annual commentary. Trending toward JPS-reported 65% gas own-plant for 2024.
+Jamaica,LTSNEW,PPFOI,2023,26.0,HFO declining again as LNG normalises. JEP barges still operating at lower dispatch.
+Jamaica,LTSNEW,PPDSL,2023,0.5,Near-zero peaker dispatch. Normal gas supply.
+Jamaica,LTSNEW,PPWNDON,2023,6.0,102 MW fleet. Normal operations. IRENA Jamaica statistics.
+Jamaica,LTSNEW,PPPVT,2023,3.5,Content + Paradise Park. Growing distributed PV (net-billing: 26.1 MW by end-2024 per MSETT) adds marginal output.
+Jamaica,LTSNEW,PPHDAM,2023,0.7,Maggotty 7.2 MW. Stable.
+Jamaica,LTSNEW,PPHROR,2023,2.3,ROR fleet ~22 MW. Normal hydrology.
+Jamaica,LTSNEW,PPBIM,2023,0.0,Zero grid biomass.
+Jamaica,LTSNEW,PPNGS,2024,58.0,Hurricane Beryl (Jul 2024) disrupted grid + LNG supply. Gas depressed vs 2023. JPS own-plant 65% gas but grid-wide lower due to barge dispatch. JIS/MSETT Mar 2025: total gen ~4814 GWh; RE = 10%.
+Jamaica,LTSNEW,PPFOI,2024,30.0,HFO barges dispatched more during Beryl recovery. JPS fuel rate filings Q3-Q4 2024.
+Jamaica,LTSNEW,PPDSL,2024,2.0,GT peakers dispatched during emergency grid restoration post-Beryl. OUR emergency filings Jul-Sep 2024.
+Jamaica,LTSNEW,PPWNDON,2024,4.5,Wind depressed: Beryl damage + lower wind resource Jul-Oct 2024. 102 MW fleet reduced CF. MSETT Mar 2025: 188 MW RE = 10% generation.
+Jamaica,LTSNEW,PPPVT,2024,3.0,Content + Paradise Park. Minor Beryl damage to Paradise Park. MSETT Mar 2025.
+Jamaica,LTSNEW,PPHDAM,2024,0.7,Maggotty 7.2 MW. Stable.
+Jamaica,LTSNEW,PPHROR,2024,1.8,ROR fleet impacted by post-hurricane debris and flow disruption. Reduced output H2 2024.
+Jamaica,LTSNEW,PPBIM,2024,0.0,Zero grid biomass.
+Jamaica,LTSNEW,PPNGS,2025,58.0,Stage 1 v15 freeze rule: 2025 = 2024 anchor. No new gas plant. JPS grid operations normal H1 2025; Hurricane Melissa Oct 2025 disrupts H2 but gas plants largely undamaged.
+Jamaica,LTSNEW,PPFOI,2025,30.0,Frozen at 2024. HFO barges continue normal dispatch. Some increased dispatch post-Melissa for grid stability.
+Jamaica,LTSNEW,PPDSL,2025,2.0,Frozen at 2024. Post-Melissa emergency GT dispatch likely similar to post-Beryl 2024.
+Jamaica,LTSNEW,PPWNDON,2025,4.5,Frozen at 2024. BMR Munro 36.3 MW inspected OK post-Melissa (Jamaica Observer 18 Nov 2025); Wigton largely undamaged. Partial-year disruption similar to Beryl 2024.
+Jamaica,LTSNEW,PPPVT,2025,3.0,Frozen at 2024. Paradise Park 37 MW suffered 80% damage Oct 2025 (Jamaica Observer 18 Nov 2025). Offline Q4 2025. Annual avg CF still ~3% given 9 months normal + 3 months offline.
+Jamaica,LTSNEW,PPHDAM,2025,0.7,Frozen at 2024. Maggotty stable.
+Jamaica,LTSNEW,PPHROR,2025,1.8,Frozen at 2024. Some Melissa disruption to ROR sites but fleet resilient.
+Jamaica,LTSNEW,PPBIM,2025,0.0,Zero grid biomass.
+Jamaica,LTSNEW,PPNGS,2026,58.0,Stage 1 v15 freeze: 2026 = 2024 anchor. Grid recovery year. No new capacity online yet (Wigton Clarendon + SunTerra target 2027).
+Jamaica,LTSNEW,PPFOI,2026,30.0,Frozen at 2024. Continued HFO barge operations.
+Jamaica,LTSNEW,PPDSL,2026,2.0,Frozen at 2024.
+Jamaica,LTSNEW,PPWNDON,2026,4.5,Frozen at 2024. Wind fleet fully restored (BMR confirmed OK; Wigton I repairs complete Q1 2026).
+Jamaica,LTSNEW,PPPVT,2026,3.0,Frozen at 2024. Paradise Park offline for reconstruction (construction starts ~Q3 2026 per InterEnergy Jan 2026 announcement; 3-6 months to complete). Content Solar 20 MW operating normally.
+Jamaica,LTSNEW,PPHDAM,2026,0.7,Frozen at 2024.
+Jamaica,LTSNEW,PPHROR,2026,1.8,Frozen at 2024.
+Jamaica,LTSNEW,PPBIM,2026,0.0,Zero grid biomass.

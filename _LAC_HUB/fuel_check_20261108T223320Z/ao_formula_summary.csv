@@ -1,0 +1,7 @@
+country,ao_path,formula_cells_total,formula_cells_without_cached_value,planned_cells,planned_cells_that_are_formulas
+CostaRica,CostaRica\CR_ENERGY\t1_confection\A1_Outputs\A-O_Parametrization.xlsx,1508,0,180,0
+DominicanRepublic,DominicanRepublic\RD_ENERGY\A1_Outputs\A-O_Parametrization.xlsx,2109,0,264,0
+Ecuador,Ecuador\ECU_Energy\A1_Outputs\A-O_Parametrization.xlsx,990,990,3180,0
+Guatemala,Guatemala\GUA_ENERGY\A1_Outputs\A-O_Parametrization.xlsx,883,0,198,0
+Honduras,Honduras\HON_ENERGY\A1_Outputs\A-O_Parametrization.xlsx,480,0,198,0
+Jamaica,Jamaica\JAM_ENERGY\A1_Outputs\A-O_Parametrization.xlsx,1261,1261,315,26

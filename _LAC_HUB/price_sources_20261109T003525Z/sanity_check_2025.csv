@@ -1,0 +1,13 @@
+country,tech,fuel,model_2025_usd_per_gj,model_value_basis,benchmark_2024,adder,import_parity_2024,adder_method,ratio_model_to_parity,note
+CostaRica,IMPPURDSL,DSL,12.8544,stored value,16.719,2.364,19.083,observed (regulator price structure),0.674,
+CostaRica,IMPFOI,FOI,9.8646,stored value,11.343,4.635,15.978,observed (regulator price structure),0.617,
+DominicanRepublic,DIST_DSL,DSL,18.6528,Percent growth of incomplete years: only earlier value 2019; held (tool may extrapolate differently),16.719,1.87,18.589,observed (regulator price structure),1.003,
+DominicanRepublic,DIST_FOI,FOI,12.9492,stored value,11.343,2.192,13.535,observed (regulator price structure),0.957,
+Ecuador,DIST_DSL,DSL,1.0,Flat mode: value of 2021 held,16.719,2.957,19.676,observed import cost; margin ASSUMPTION candidate,,placeholder value of 1 in the model; skipped
+Ecuador,DIST_FOI,FOI,1.0,Flat mode: value of 2021 held,11.343,4.635,15.978,built (regional published data),,placeholder value of 1 in the model; skipped
+Guatemala,DIST_DSL,DSL,18.6528,Percent growth of incomplete years: only earlier value 2019; held (tool may extrapolate differently),16.719,3.423,20.142,observed (regulator price structure),0.926,
+Guatemala,DIST_FOI,FOI,12.5945,Percent growth of incomplete years: only earlier value 2019; held (tool may extrapolate differently),11.343,3.519,14.862,observed (regulator price structure),0.847,
+Honduras,DIST_DSL,DSL,25.4991,Percent growth of incomplete years: only earlier value 2022; held (tool may extrapolate differently),16.719,3.726,20.445,observed import cost; margin ASSUMPTION candidate,1.247,
+Honduras,DIST_FOI,FOI,14.5076,Percent growth of incomplete years: only earlier value 2022; held (tool may extrapolate differently),11.343,0.709,12.052,observed (regulator published delivered price),1.204,
+Jamaica,DIST_DSL,DSL,19.9044,stored value,16.719,3.206,19.925,built (regional published data),0.999,
+Jamaica,DIST_FOI,FOI,12.8949,stored value,11.343,1.43,12.773,observed (regulator published delivered price),1.01,

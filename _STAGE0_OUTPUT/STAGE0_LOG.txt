@@ -1,0 +1,6 @@
+Generated: 2026-05-14T11:39:44.044794
+Mode: zero
+
+Ecuador/BAU: 1456 patched
+Ecuador/NDCNEW: 1819 patched
+Ecuador/LTSNEW: 1819 patched

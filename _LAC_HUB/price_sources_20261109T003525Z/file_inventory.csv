@@ -1,0 +1,567 @@
+path,bytes,origin_or_purpose
+CHANGES_LAC_PRICE_SOURCES_20261109T003525Z.md,9097,output
+GAPS_LAC_PRICE_SOURCES_20261109T003525Z.md,9910,output
+REPORT_LAC_PRICE_SOURCES_20261109T003525Z.md,20827,output
+adders.py,20351,helper script
+adders_2024.csv,41980,output
+adders_assumptions.py,6101,helper script
+adders_working.txt,12338,output
+ao_dsl_foi_2025.csv,3004,output
+baseline.py,1134,helper script
+baseline_after.csv,1272,output
+baseline_before.csv,1272,output
+benchmarks.csv,5727,output
+build_sources.py,1611,helper script
+downloads/CMO-Historical-Data-Annual.xlsx,3176359,downloaded from https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Annual.xlsx
+downloads/CMO-Historical-Data-Monthly.xlsx,587760,downloaded from https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx
+downloads/CMO-October-2026-Forecasts.pdf,88063,downloaded from https://thedocs.worldbank.org/en/doc/2ac43f46629cf90c2ea5b8929a343593-0050012026/related/CMO-October-2026-Forecasts.pdf
+downloads/CMO-Pink-Sheet-November-2026.pdf,268359,downloaded from https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf
+downloads/CR/ALCA108_10_06_2024.pdf,4259264,downloaded from https://www.imprentanacional.go.cr/pub/2024/06/10/ALCA108_10_06_2024.pdf
+downloads/CR/ALCA108_10_06_2024.txt,434150,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/Alcance-N-125-La-Gaceta-N128-12-07-2024-RE-0050-IE-junio-2024.pdf,2315366,downloaded from https://www.recope.go.cr/wp-content/uploads/2024/07/Alcance-N-125-La-Gaceta-N128-12-07-2024-RE-0050-IE-junio-2024.pdf
+downloads/CR/Alcance-N-125-La-Gaceta-N128-12-07-2024-RE-0050-IE-junio-2024.txt,124377,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/Alcance-N-46-La-Gaceta-N42-05-03-2024.pdf,2152848,downloaded from https://www.recope.go.cr/wp-content/uploads/2024/03/Alcance-N-46-La-Gaceta-N42-05-03-2024.pdf
+downloads/CR/Alcance-N-46-La-Gaceta-N42-05-03-2024.txt,120582,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/Alcance-N137-La-Gaceta-N144.pdf,1941038,downloaded from https://recope.go.cr/wp-content/uploads/2024/08/Alcance-N137-La-Gaceta-N144.pdf
+downloads/CR/Alcance-N137-La-Gaceta-N144.txt,121217,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/Alcance-N149-La-Gaceta-N160-RE-0062-IE-2024.pdf,1431658,downloaded from https://recope.go.cr/wp-content/uploads/2024/09/Alcance-N149-La-Gaceta-N160-RE-0062-IE-2024.pdf
+downloads/CR/Alcance-N149-La-Gaceta-N160-RE-0062-IE-2024.txt,122935,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/Alcance-N170-La-Gaceta-N188-09-10-2024-RE-0068-IE-2024.pdf,3333360,downloaded from https://recope.go.cr/wp-content/uploads/2024/10/Alcance-N170-La-Gaceta-N188-09-10-2024-RE-0068-IE-2024.pdf
+downloads/CR/Alcance-N170-La-Gaceta-N188-09-10-2024-RE-0068-IE-2024.txt,195648,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/Alcance-N180-La-Gaceta-N209-07-11-2024.pdf,2117389,downloaded from https://www.recope.go.cr/wp-content/uploads/2024/11/Alcance-N180-La-Gaceta-N209-07-11-2024.pdf
+downloads/CR/Alcance-N180-La-Gaceta-N209-07-11-2024.txt,123303,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/Alcance-N20-a-La-Gaceta-N22-ARESEP-RE-0013-IE-2024-Estudio-ajuste-extraordinario-mes-enero-2024.pdf,2296349,downloaded from https://www.recope.go.cr/wp-content/uploads/2024/02/Alcance-N20-a-La-Gaceta-N22-ARESEP-RE-0013-IE-2024-Estudio-ajuste-extraordinario-mes-enero-2024.pdf
+downloads/CR/Alcance-N20-a-La-Gaceta-N22-ARESEP-RE-0013-IE-2024-Estudio-ajuste-extraordinario-mes-enero-2024.txt,131290,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/Alcance-N71-La-Gaceta-N64-11-04-2024-RE-0034-IE-2024.pdf,3406679,downloaded from https://www.recope.go.cr/wp-content/uploads/2024/04/Alcance-N71-La-Gaceta-N64-11-04-2024-RE-0034-IE-2024.pdf
+downloads/CR/Alcance-N71-La-Gaceta-N64-11-04-2024-RE-0034-IE-2024.txt,197073,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/Alcance-N88-a-La-Gaceta-N80-RE-0040-IE-2024.pdf,2097005,downloaded from https://recope.go.cr/wp-content/uploads/2024/05/Alcance-N88-a-La-Gaceta-N80-RE-0040-IE-2024.pdf
+downloads/CR/Alcance-N88-a-La-Gaceta-N80-RE-0040-IE-2024.txt,140467,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/Alcance-N9-a-La-Gaceta-N13-RE-004-IE-2025.pdf,2251827,downloaded from https://www.recope.go.cr/wp-content/uploads/2025/01/Alcance-N9-a-La-Gaceta-N13-RE-004-IE-2025.pdf
+downloads/CR/Alcance-N9-a-La-Gaceta-N13-RE-004-IE-2025.txt,141956,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/Alcance-No1-Gaceta-No1-08-01-24-Estudio-extraordinario.pdf,2116986,downloaded from https://www.recope.go.cr/wp-content/uploads/2024/01/Alcance-No1-Gaceta-No1-08-01-24-Estudio-extraordinario.pdf
+downloads/CR/Alcance-No1-Gaceta-No1-08-01-24-Estudio-extraordinario.txt,120144,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/Alcance-No108-La-Gaceta-No104-10-06-24-RE-0044-IE-2024.pdf,691651,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/CR/Alcance-No108-La-Gaceta-No104-10-06-24-RE-0044-IE-2024.txt,7589,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/Alcance-a-La-Gaceta-N199-a-La-Gaceta-N231-ARESEP-RE-0083-IE-2024.pdf,1387122,downloaded from https://www.recope.go.cr/wp-content/uploads/2024/12/Alcance-a-La-Gaceta-N199-a-La-Gaceta-N231-ARESEP-RE-0083-IE-2024.pdf
+downloads/CR/Alcance-a-La-Gaceta-N199-a-La-Gaceta-N231-ARESEP-RE-0083-IE-2024.txt,126312,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/BCCR_tipo_cambio_referencia_diario_2024.csv,9445,downloaded from https://sdd.bccr.fi.cr/es/IndicadoresEconomicos/Inicio/Contenedor/6?Cuadro=1
+downloads/CR/CR_notes.md,5324,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/CR_regulator_2024.csv,663489,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/PRECIOS-DE-VENTA-EN-TERMINALES.xls,427520,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/CR/build_csv.py,8964,helper script
+downloads/CR/extract_text.py,275,helper script
+downloads/CR/img/m01_c13.png,263502,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/img/m07_c10.png,82896,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/parse_aresep.py,5918,helper script
+downloads/CR/parsed_resolutions.json,64480,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/CR/render_page.py,447,helper script
+downloads/CR/run_all.py,3936,helper script
+downloads/DR/DR_notes.md,5973,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/DR/DR_regulator_2024.csv,2038180,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/DR/MEM_02.-Boletin-Informativo-Generacion-y-Gestion-Energia-Febrero-2024-v2.pdf,1298247,downloaded from https://mem.gob.do/wp-content/uploads/2024/03/02.-Boletin-Informativo-Generacion-y-Gestion-Energia-Febrero-2024-v2.pdf
+downloads/DR/MEM_04.-Boletin-Informativo-Generacion-y-Gestion-Energia-Abril-2024.pdf,762144,downloaded from https://www.mem.gob.do/wp-content/uploads/2024/05/04.-Boletin-Informativo-Generacion-y-Gestion-Energia-Abril-2024.pdf
+downloads/DR/MEM_09.-Boletin-Informativo-Generacion-y-Gestion-Energia-Septiembre-2024-2.pdf,757633,downloaded from https://mem.gob.do/wp-content/uploads/2024/10/09.-Boletin-Informativo-Generacion-y-Gestion-Energia-Septiembre-2024-2.pdf
+downloads/DR/MEM_11.-Boletin-Informativo-Generacion-y-Gestion-Energia-Noviembre-2024.pdf,763215,downloaded from https://mem.gob.do/wp-content/uploads/2024/12/11.-Boletin-Informativo-Generacion-y-Gestion-Energia-Noviembre-2024.pdf
+downloads/DR/MEM_Boletin_Generacion_Dic2024.pdf,758050,downloaded from https://mem.gob.do/wp-content/uploads/2025/01/12.-Boletin-Informativo-Generacion-y-Gestion-Energia-Diciembre-2024-V.2.pdf
+downloads/DR/__pycache__/ocr_anchor.cpython-312.pyc,8477,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/__pycache__/parse_liq.cpython-312.pyc,11738,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/aviso_parsed.json,60761,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/DR/aviso_weeks.json,2273,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/DR/bcrd_TASA_DOLAR_REFERENCIA_MC.xlsx,358466,downloaded from https://cdn.bancentral.gov.do/documents/estadisticas/mercado-cambiario/documents/TASA_DOLAR_REFERENCIA_MC.xlsx
+downloads/DR/build_csv.py,10642,helper script
+downloads/DR/dumpx.py,364,helper script
+downloads/DR/est_estadisticas-2024.html,332739,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/est_estadisticas-2026-copy.html,340099,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/est_estadisticas-2026.html,333994,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/est_estadisticas-2029.html,336558,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/est_estadisticas-2032.html,343708,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/est_estadisticas-2033.html,339459,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/est_estadisticas-2034-copy.html,335123,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/est_estadisticas-2034.html,339444,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/found_avisos.txt,2963,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/DR/gn.py,875,helper script
+downloads/DR/gn_parsed.json,13894,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/DR/guess_avisos.py,1058,helper script
+downloads/DR/guesses.txt,63368,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/DR/links2024.txt,17268,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/DR/mem_chart_dec2024.png,49344,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/DR/mem_chart_feb2024.png,33363,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/DR/mem_chart_sep2024.png,34723,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/DR/micm2024/RES.NO.035-2024_PRECIO_GAS_NATURAL_DEL_17-23_DE_FEBRERO_2024.pdf,588394,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.035-2024_PRECIO_GAS_NATURAL_DEL_17-23_DE_FEBRERO_2024.pdf
+downloads/DR/micm2024/RES.NO.053-2024_PRECIOS_DE_LOS_COMBUSTIBLES_LIQUIDOS_Y_GLP_DEL30_DE_MARZO_AL_05_DE_ABRIL_2024.pdf,213309,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.053-2024_PRECIOS_DE_LOS_COMBUSTIBLES_LIQUIDOS_Y_GLP_DEL30_DE_MARZO_AL_05_DE_ABRIL_2024.pdf
+downloads/DR/micm2024/RES.NO.054-2024_PRECIOS_DEL_GAS_NATURAL_DEL_30_DE_MARZO_AL_05_DE_ABRIL_2024.pdf,324385,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.054-2024_PRECIOS_DEL_GAS_NATURAL_DEL_30_DE_MARZO_AL_05_DE_ABRIL_2024.pdf
+downloads/DR/micm2024/RES.NO.059-2024_PRECIOS_DEL_GAS_NATURAL_DEL_06_AL_12_DE_ABRIL_2024.pdf,319564,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.059-2024_PRECIOS_DEL_GAS_NATURAL_DEL_06_AL_12_DE_ABRIL_2024.pdf
+downloads/DR/micm2024/RES.NO.060-2024_PRECIOS_DE_LOS_COMBUSTIBLES_LIQUIDOS_Y_GLP_DEL_06_AL_12_DE_ABRIL_2024.pdf,204120,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES.NO.068-2024_PRECIOS_DE_LOS_COMBUSTIBLES_LIQUIDOS_Y_GLP_DEL_13_AL_19_ABRIL_2024.pdf,212652,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.068-2024_PRECIOS_DE_LOS_COMBUSTIBLES_LIQUIDOS_Y_GLP_DEL_13_AL_19_ABRIL_2024.pdf
+downloads/DR/micm2024/RES.NO.069-2024_PRECIOS_DEL_GAS_NATURAL_DEL_13_AL_19_ABRIL_2024.pdf,327172,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.069-2024_PRECIOS_DEL_GAS_NATURAL_DEL_13_AL_19_ABRIL_2024.pdf
+downloads/DR/micm2024/RES.NO.073-2024_PRECIOS_DE_LOS_COMBUSTIBLES_LIQUIDOS_Y_GLP__DEL_20_AL_26_DE_ABRIL_2024.pdf,203660,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.073-2024_PRECIOS_DE_LOS_COMBUSTIBLES_LIQUIDOS_Y_GLP__DEL_20_AL_26_DE_ABRIL_2024.pdf
+downloads/DR/micm2024/RES.NO.074-2024_PRECIOS_DEL_GAS_NATURAL_DEL_20_AL_26_DE_ABRIL_2024.pdf,319656,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.074-2024_PRECIOS_DEL_GAS_NATURAL_DEL_20_AL_26_DE_ABRIL_2024.pdf
+downloads/DR/micm2024/RES.NO.245-2024_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP__DEL_12_AL_18_CTUBRE_2024.pdf,205230,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.245-2024_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP__DEL_12_AL_18_CTUBRE_2024.pdf
+downloads/DR/micm2024/RES.NO.246-2024_PRECIOS_DEL_GAS_NATURAL__DEL_12_AL_18_CTUBRE_2024.pdf,335530,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/RES.NO.246-2024_PRECIOS_DEL_GAS_NATURAL__DEL_12_AL_18_CTUBRE_2024.pdf
+downloads/DR/micm2024/RES.NO.252-2024_PRECIOS_DEL_GAS_NATURAL_DEL_19_AL_25_OCTUBRE_2024.pdf,315207,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.252-2024_PRECIOS_DEL_GAS_NATURAL_DEL_19_AL_25_OCTUBRE_2024.pdf
+downloads/DR/micm2024/RES.NO.253-2024_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP_DEL_19_AL_25_OCTUBRE_2024.pdf,201397,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/RES.NO.253-2024_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP_DEL_19_AL_25_OCTUBRE_2024.pdf
+downloads/DR/micm2024/RES.NO.256-20224_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP_DEL_26_OCT_AL_01_NOV._2024.pdf,208679,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.256-20224_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP_DEL_26_OCT_AL_01_NOV._2024.pdf
+downloads/DR/micm2024/RES.NO.257-20224_PRECIOS_DEL_GAS_NATURAL_DEL_26_OCT_AL_01_NOV._2024.pdf,322036,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/RES.NO.257-20224_PRECIOS_DEL_GAS_NATURAL_DEL_26_OCT_AL_01_NOV._2024.pdf
+downloads/DR/micm2024/RES.NO.272-2024_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP_DEL_9_AL_15_DE_NOV._2024.pdf,206556,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.272-2024_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP_DEL_9_AL_15_DE_NOV._2024.pdf
+downloads/DR/micm2024/RES.NO.273-2024_PRECIOS_DEL_GAS_NATURAL_DEL_9_AL_15_DE_NOV._2024.pdf,319791,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.273-2024_PRECIOS_DEL_GAS_NATURAL_DEL_9_AL_15_DE_NOV._2024.pdf
+downloads/DR/micm2024/RES.NO.319-2024_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP_DEL_21_AL_27_DIC._2024.pdf,200284,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.319-2024_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP_DEL_21_AL_27_DIC._2024.pdf
+downloads/DR/micm2024/RES.NO.320-2024_PRECIOS_DEL_GAS_NATURAL_DEL_21_AL_27_DIC._2024.pdf,319544,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.320-2024_PRECIOS_DEL_GAS_NATURAL_DEL_21_AL_27_DIC._2024.pdf
+downloads/DR/micm2024/RES._NO.008-2024_PRECIO_COMB._LIQUIDOS_Y_GLP__6-12_ENERO_2024.pdf,358195,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.009-2024_PRECIO_GAS_NATURAL__DEL_6-12_ENERO_2024.pdf,593623,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.009-2024_PRECIO_GAS_NATURAL__DEL_6-12_ENERO_2024.pdf
+downloads/DR/micm2024/RES._NO.013-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_13-19_ENE_2024.pdf,359236,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.014-2024_PRECIO_GAS_NATURAL_DEL_13-19_ENERO_2024.pdf,592884,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.014-2024_PRECIO_GAS_NATURAL_DEL_13-19_ENERO_2024.pdf
+downloads/DR/micm2024/RES._NO.019-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_20-26_ENE_2024.pdf,359444,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.020-2024_PRECIO_GAS_NATURAL_DEL_20-26_ENERO_2024.pdf,598644,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.020-2024_PRECIO_GAS_NATURAL_DEL_20-26_ENERO_2024.pdf
+downloads/DR/micm2024/RES._NO.022-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_27_ENE-02_FEB_2024.pdf,359708,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.023-2024_PRECIOS_GAS_NATURAL_DEL_27_ENE-02_FEBRERO_2024.pdf,598750,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.023-2024_PRECIOS_GAS_NATURAL_DEL_27_ENE-02_FEBRERO_2024.pdf
+downloads/DR/micm2024/RES._NO.025-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_03-09_FEB_2024_.pdf,358600,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.025-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_03-09_FEB_2024_.pdf
+downloads/DR/micm2024/RES._NO.026-2024_PRECIO_GAS_NATURAL_DEL_03-09_FEBRERO_2024.pdf,597371,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.026-2024_PRECIO_GAS_NATURAL_DEL_03-09_FEBRERO_2024.pdf
+downloads/DR/micm2024/RES._NO.030-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_10-16_FEB_2024.pdf,360673,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.031-2024_PRECIO_GAS_NATURAL_DEL_10-16_DE_FEBRERO_2024.pdf,601211,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.031-2024_PRECIO_GAS_NATURAL_DEL_10-16_DE_FEBRERO_2024.pdf
+downloads/DR/micm2024/RES._NO.034-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_17-23_FEB_2024.pdf,357940,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.036-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_24_FEB-01_MAR_2024.pdf,361548,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.037-2024_PRECIO_GAS_NATURAL_24_FEB-01_MARZO_2024.pdf,597063,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.037-2024_PRECIO_GAS_NATURAL_24_FEB-01_MARZO_2024.pdf
+downloads/DR/micm2024/RES._NO.038-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_02-08_MARZO_2024.pdf,358846,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.039-2024_PRECIO_GAS_NATURAL_DEL_2_AL_8_DE_MARZO_DE_2024.pdf,591974,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.039-2024_PRECIO_GAS_NATURAL_DEL_2_AL_8_DE_MARZO_DE_2024.pdf
+downloads/DR/micm2024/RES._NO.043-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_9-15_MARZO_2024.pdf,359822,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.044-2024_PRECIO_DE_GAS_NATURAL_DEL_9-15_MARZO_DE_2024.pdf,592879,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.044-2024_PRECIO_DE_GAS_NATURAL_DEL_9-15_MARZO_DE_2024.pdf
+downloads/DR/micm2024/RES._NO.049-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_16-22_MARZO_2024.pdf,360008,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.050-2024_PRECIO_GAS_NATURAL_DEL_16-22_DE_MARZO_2024.pdf,594674,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.050-2024_PRECIO_GAS_NATURAL_DEL_16-22_DE_MARZO_2024.pdf
+downloads/DR/micm2024/RES._NO.083-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_27_ABR-3_MAY_2024.pdf,359392,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.084-2024_PRECIO_GAS__NATURAL_DEL_27_ABRIL-3_MAYO_2024.pdf,590224,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.084-2024_PRECIO_GAS__NATURAL_DEL_27_ABRIL-3_MAYO_2024.pdf
+downloads/DR/micm2024/RES._NO.089-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_04-10_MAYO_2024.pdf,360169,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.090-2024_PRECIO_GAS_NATURAL_DEL__4-10_MAYO_2024.pdf,588899,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.090-2024_PRECIO_GAS_NATURAL_DEL__4-10_MAYO_2024.pdf
+downloads/DR/micm2024/RES._NO.095-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_11-17_MAYO_2024.pdf,357763,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.096-2024_PRECIO_GAS_NATURAL_DEL_11_AL_17__MAYO_2024.pdf,588435,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.096-2024_PRECIO_GAS_NATURAL_DEL_11_AL_17__MAYO_2024.pdf
+downloads/DR/micm2024/RES._NO.101-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_18-24_MAY_2024.pdf,359373,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.102-2024_PRECIO_GAS_NATURAL_DEL18-24_MAYO_2024.pdf,587588,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.102-2024_PRECIO_GAS_NATURAL_DEL18-24_MAYO_2024.pdf
+downloads/DR/micm2024/RES._NO.106-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_25-31_MAYO_2024.pdf,349673,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.107-2024_PRECIO_GAS_NATURAL_DEL_25-31_MAYO_2024.pdf,579664,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.107-2024_PRECIO_GAS_NATURAL_DEL_25-31_MAYO_2024.pdf
+downloads/DR/micm2024/RES._NO.117-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_01-07_JUN_2024.pdf,348543,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.118-2024_PRECIO_GAS_NATURAL_DEL_01-07_JUNIO_2024.pdf,577443,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.118-2024_PRECIO_GAS_NATURAL_DEL_01-07_JUNIO_2024.pdf
+downloads/DR/micm2024/RES._NO.123-2024__PRECIO_COMB._LIQUIDOS_Y_GLP_08-14_JUN._2024.pdf,348460,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.124-2024_PRECIO_GAS_NATURAL_DEL_08_AL_14_JUNIO_DEL_2024.pdf,576006,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/RES._NO.124-2024_PRECIO_GAS_NATURAL_DEL_08_AL_14_JUNIO_DEL_2024.pdf
+downloads/DR/micm2024/RES._NO.133-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_15-21_JUN_2024.pdf,348147,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.134-2024_PRECIO_GAS_NATURAL_DEL_15_AL_21_JUNIO_DE_2024.pdf,577761,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.134-2024_PRECIO_GAS_NATURAL_DEL_15_AL_21_JUNIO_DE_2024.pdf
+downloads/DR/micm2024/RES._NO.138-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_22-28_JUN_2024.pdf,356288,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.139-2024_PRECIO_GAS_NATURAL_DEL_22_AL_28_JUNIO_2024.pdf,600181,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.139-2024_PRECIO_GAS_NATURAL_DEL_22_AL_28_JUNIO_2024.pdf
+downloads/DR/micm2024/RES._NO.142-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_29_JUN-05_JUL_2024.pdf,357812,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.142-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_29_JUN-05_JUL_2024.pdf
+downloads/DR/micm2024/RES._NO.143-2024_PRECIO_GAS_NATURAL_DEL_29_JUN_AL_05_JUL_2024.pdf,592044,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.143-2024_PRECIO_GAS_NATURAL_DEL_29_JUN_AL_05_JUL_2024.pdf
+downloads/DR/micm2024/RES._NO.150-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_6-_12_JUL_2024.pdf,356500,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.151-2024_PRECIO_GAS_NATURAL_6-12_JULIO_2024.pdf,587483,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.151-2024_PRECIO_GAS_NATURAL_6-12_JULIO_2024.pdf
+downloads/DR/micm2024/RES._NO.152-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_13-19_JUL_2024.pdf,358567,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.153-2024_PRECIO_GAS_NATURAL_DEL_13-19_JUL_2024.pdf,589215,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.153-2024_PRECIO_GAS_NATURAL_DEL_13-19_JUL_2024.pdf
+downloads/DR/micm2024/RES._NO.162-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_20-26_JUL_2024.pdf,358236,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.163-2024_PRECIO_GAS_NATURAL_DEL_20-26_JULIO_2024.pdf,591665,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.163-2024_PRECIO_GAS_NATURAL_DEL_20-26_JULIO_2024.pdf
+downloads/DR/micm2024/RES._NO.168-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_27_JUL-2_AGO_2024.pdf,359402,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.168-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_27_JUL-2_AGO_2024.pdf
+downloads/DR/micm2024/RES._NO.169-2024_PRECIO_GAS_NATURAL_DEL_27_JULIO-2_AGOSTO_2024.pdf,593959,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.169-2024_PRECIO_GAS_NATURAL_DEL_27_JULIO-2_AGOSTO_2024.pdf
+downloads/DR/micm2024/RES._NO.174-2024_PRECIO_GAS_NATURAL_DEL_3_AL_9_AGOSTO_2024.pdf,586974,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.174-2024_PRECIO_GAS_NATURAL_DEL_3_AL_9_AGOSTO_2024.pdf
+downloads/DR/micm2024/RES._NO.175-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_3-9_AGOSTO_2024.pdf,355218,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.179-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_10-16_AGOSTO_2024.pdf,358019,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.180-2024_PRECIO_GAS_NATURAL_DEL_10-16_AGOSTO_2024.pdf,592575,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.180-2024_PRECIO_GAS_NATURAL_DEL_10-16_AGOSTO_2024.pdf
+downloads/DR/micm2024/RES._NO.192-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_17-23_AGO_2024.pdf,358773,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.193-20224_PRECIO_GAS_NATURAL_DEL_17_AL_23_AGOSTO_2024.pdf,593320,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.193-20224_PRECIO_GAS_NATURAL_DEL_17_AL_23_AGOSTO_2024.pdf
+downloads/DR/micm2024/RES._NO.197-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_24-30_AGOSTO_2024.pdf,356358,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.198-2024_PRECIO_GAS_NATURAL_DEL_24_AL_30_AGOSTO_2024.pdf,589527,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.198-2024_PRECIO_GAS_NATURAL_DEL_24_AL_30_AGOSTO_2024.pdf
+downloads/DR/micm2024/RES._NO.202-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_31_AGO-6_SEP_2024.pdf,360312,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.202-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_31_AGO-6_SEP_2024.pdf
+downloads/DR/micm2024/RES._NO.203-2024_PRECIO_GAS_NATURAL_DEL_31_AGO_AL_6_SEPT._2024.pdf,592465,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.203-2024_PRECIO_GAS_NATURAL_DEL_31_AGO_AL_6_SEPT._2024.pdf
+downloads/DR/micm2024/RES._NO.209-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_7-13_SEPT_2024.pdf,360053,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.209-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_7-13_SEPT_2024.pdf
+downloads/DR/micm2024/RES._NO.210-2024_PRECIO_GAS_NATURAL_DEL_7-13_SEPTIEMBRE_2024.pdf,589202,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.210-2024_PRECIO_GAS_NATURAL_DEL_7-13_SEPTIEMBRE_2024.pdf
+downloads/DR/micm2024/RES._NO.218-2024_PRECIO_COMB._LIQUIDOS_Y_GLP__14-20_SEPT_2024.pdf,359614,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.218-2024_PRECIO_COMB._LIQUIDOS_Y_GLP__14-20_SEPT_2024.pdf
+downloads/DR/micm2024/RES._NO.219-2024_PRECIO_GAS_NATURAL_DEL_14-20_SEPTIEMBRE_2024.pdf,591144,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.219-2024_PRECIO_GAS_NATURAL_DEL_14-20_SEPTIEMBRE_2024.pdf
+downloads/DR/micm2024/RES._NO.221-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_21-27_SEPT_2024.pdf,359773,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.221-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_21-27_SEPT_2024.pdf
+downloads/DR/micm2024/RES._NO.222-2024_PRECIO_GAS_NATURAL_DEL_21-27_SEPTIEMBRE_2024.pdf,595131,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.222-2024_PRECIO_GAS_NATURAL_DEL_21-27_SEPTIEMBRE_2024.pdf
+downloads/DR/micm2024/RES._NO.226-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_28_SEPT-04_OCT_2024.pdf,359255,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.226-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_28_SEPT-04_OCT_2024.pdf
+downloads/DR/micm2024/RES._NO.227-2024_PRECIO_GAS_NATURAL_28_SEPT-4_OCT_2024.pdf,595064,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.227-2024_PRECIO_GAS_NATURAL_28_SEPT-4_OCT_2024.pdf
+downloads/DR/micm2024/RES._NO.239-2024_PRECIOS_COMB._LIQUIDOS_5-11_OCT._2024.pdf,359263,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.239-2024_PRECIOS_COMB._LIQUIDOS_5-11_OCT._2024.pdf
+downloads/DR/micm2024/RES._NO.240-2024_PRECIO_GAS_NATURAL_DEL_5-11_OCTUBRE_2024.pdf,594284,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.240-2024_PRECIO_GAS_NATURAL_DEL_5-11_OCTUBRE_2024.pdf
+downloads/DR/micm2024/RES._NO.267-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_2-8_NOV_2024.pdf,357352,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.267-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_2-8_NOV_2024.pdf
+downloads/DR/micm2024/RES._NO.268-2024_PRECIO_GAS_NATURAL_DEL_2-8_LNOVIEMBRE_2024.pdf,578477,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.268-2024_PRECIO_GAS_NATURAL_DEL_2-8_LNOVIEMBRE_2024.pdf
+downloads/DR/micm2024/RES._NO.278-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_16-22_NOV_2024.pdf,357688,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.278-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_16-22_NOV_2024.pdf
+downloads/DR/micm2024/RES._NO.279-2024_PRECIO__GAS_NATURAL_DEL_16-22_NOVIEMBRE_DE_2024.pdf,581845,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.279-2024_PRECIO__GAS_NATURAL_DEL_16-22_NOVIEMBRE_DE_2024.pdf
+downloads/DR/micm2024/RES._NO.285-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_-_23-29_NOV_2024.pdf,357300,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.285-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_-_23-29_NOV_2024.pdf
+downloads/DR/micm2024/RES._NO.286-2024_PRECIO_GAS_NATURAL_DEL_23-29_NOVIEMBRE_2024.pdf,581490,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.286-2024_PRECIO_GAS_NATURAL_DEL_23-29_NOVIEMBRE_2024.pdf
+downloads/DR/micm2024/RES._NO.292-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_30_NOV-6_DIC_2024.pdf,360593,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.292-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_30_NOV-6_DIC_2024.pdf
+downloads/DR/micm2024/RES._NO.293-2024_PRECIO_GAS_NATURAL_30_NOV-6_DIC_2024.pdf,585217,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.293-2024_PRECIO_GAS_NATURAL_30_NOV-6_DIC_2024.pdf
+downloads/DR/micm2024/RES._NO.299-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_7-13_DIC_2024.pdf,358823,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/RES._NO.299-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_7-13_DIC_2024.pdf
+downloads/DR/micm2024/RES._NO.300-2024_PRECIO_GAS_NATURAL_DEL_7-13_DICIEMBRE_2024.pdf,581809,downloaded from https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.300-2024_PRECIO_GAS_NATURAL_DEL_7-13_DICIEMBRE_2024.pdf
+downloads/DR/micm2024/RES._NO.326-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_28_DIC-24--3_ENE_25.pdf,370489,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm2024/RES._NO.327-2024_PRECIO_GAS_NATURAL_DEL_28_DIC_2024-3_ENE_2025.pdf,598036,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-01-07-DE-JUNIO-DE-2024-.pdf,190033,downloaded from https://micm.gob.do/wp-content/uploads/2024/06/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-01-07-DE-JUNIO-DE-2024-.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-02-08-MAR.-DE-2024.pdf,191353,downloaded from https://micm.gob.do/wp-content/uploads/2024/03/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-02-08-MAR.-DE-2024.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-03-09-DE-AGO.-DE-2024-.pdf,231538,downloaded from https://micm.gob.do/wp-content/uploads/2024/08/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-03-09-DE-AGO.-DE-2024-.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-04-10-DE-MAYO-DE-2024-.pdf,196159,downloaded from https://micm.gob.do/wp-content/uploads/2024/05/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-04-10-DE-MAYO-DE-2024-.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-06-12-DE-ABRIL-DE-2024-.pdf,190689,downloaded from https://micm.gob.do/wp-content/uploads/2024/04/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-06-12-DE-ABRIL-DE-2024-.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-06-12-DE-JUL.-DE-2024-.pdf,192215,downloaded from https://micm.gob.do/wp-content/uploads/2024/07/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-06-12-DE-JUL.-DE-2024-.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-06-12-ENE.-DE-2024.pdf,267607,downloaded from https://micm.gob.do/wp-content/uploads/2024/01/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-06-12-ENE.-DE-2024.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-08-14-DE-JUNIO-DE-2024-.pdf,201499,downloaded from https://micm.gob.do/wp-content/uploads/2024/06/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-08-14-DE-JUNIO-DE-2024-.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-09-15-MAR.-DE-2024.pdf,192286,downloaded from https://micm.gob.do/wp-content/uploads/2024/03/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-09-15-MAR.-DE-2024.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-10-16-DE-AGO.-DE-2024-.pdf,192039,downloaded from https://micm.gob.do/wp-content/uploads/2024/08/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-10-16-DE-AGO.-DE-2024-.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-10-16-FEB.-DE-2024.pdf,192306,downloaded from https://micm.gob.do/wp-content/uploads/2024/02/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-10-16-FEB.-DE-2024.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-11-17-DE-MAYO-DE-2024-.pdf,191396,downloaded from https://micm.gob.do/wp-content/uploads/2024/05/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-11-17-DE-MAYO-DE-2024-.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-13-19-DE-JUL.-DE-2024-.pdf,192389,downloaded from https://micm.gob.do/wp-content/uploads/2024/07/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-13-19-DE-JUL.-DE-2024-.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-13-19-ENE.-DE-2024-ESCENARIO-2.pdf,271880,downloaded from https://micm.gob.do/wp-content/uploads/2024/01/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-13-19-ENE.-DE-2024-ESCENARIO-2.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-15-21-DE-JUNIO-DE-2024-.pdf,196925,downloaded from https://micm.gob.do/wp-content/uploads/2024/06/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-15-21-DE-JUNIO-DE-2024-.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-16-22-MAR.-DE-2024.pdf,196995,downloaded from https://micm.gob.do/wp-content/uploads/2024/03/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-16-22-MAR.-DE-2024.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-17-23-DE-AGO.-DE-2024-.pdf,187851,downloaded from https://micm.gob.do/wp-content/uploads/2024/08/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-17-23-DE-AGO.-DE-2024-.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-17-23-FEB.-DE-2024.pdf,266967,downloaded from https://micm.gob.do/wp-content/uploads/2024/02/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-17-23-FEB.-DE-2024.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-18-24-DE-MAYO-DE-2024-.pdf,194155,downloaded from https://micm.gob.do/wp-content/uploads/2024/05/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-18-24-DE-MAYO-DE-2024-.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-20-26-DE-JUL.-DE-2024-.pdf,197583,downloaded from https://micm.gob.do/wp-content/uploads/2024/07/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-20-26-DE-JUL.-DE-2024-.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-20-26-ENE.-DE-2024.pdf,192019,downloaded from https://micm.gob.do/wp-content/uploads/2024/01/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-20-26-ENE.-DE-2024.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-22-28-DE-JUNIO-DE-2024-.pdf,191762,downloaded from https://micm.gob.do/wp-content/uploads/2024/06/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-22-28-DE-JUNIO-DE-2024-.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-23-29-MAR.-DE-2024-.pdf,191893,downloaded from https://micm.gob.do/wp-content/uploads/2024/03/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-23-29-MAR.-DE-2024-.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-24-01-MAR.-DE-2024.pdf,188187,downloaded from https://micm.gob.do/wp-content/uploads/2024/02/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-24-01-MAR.-DE-2024.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-24-30-DE-AGO.-DE-2024-.pdf,193876,downloaded from https://micm.gob.do/wp-content/uploads/2024/08/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-24-30-DE-AGO.-DE-2024-.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-25-31-DE-MAYO-DE-2024-.pdf,191670,downloaded from https://micm.gob.do/wp-content/uploads/2024/05/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-25-31-DE-MAYO-DE-2024-.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-27-02-FEB.-DE-2024.pdf,193121,downloaded from https://micm.gob.do/wp-content/uploads/2024/01/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-27-02-FEB.-DE-2024.pdf
+downloads/DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-27-03-DE-MAYO-DE-2024-.pdf,192022,downloaded from https://micm.gob.do/wp-content/uploads/2024/04/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-27-03-DE-MAYO-DE-2024-.pdf
+downloads/DR/micm_estcomb.html,324630,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_hist2024/HISTORICO_PRECIOS_COMBUSTIBLES_CUARTO_TRIM._2024.xlsx,23602,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_hist2024/HISTORICO_PRECIOS_COMBUSTIBLES_CUARTO_TRIMESTRE_2024_Data_Cruda_1.xlsx,14468,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_hist2024/HISTORICO_PRECIOS_COMBUSTIBLES_PRIMER_TRIM._2024.xlsx,44599,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_hist2024/HISTORICO_PRECIOS_COMBUSTIBLES_PRIMER_TRIM._2024_data_cruda.xlsx,28050,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_hist2024/HISTORICO_PRECIOS_COMBUSTIBLES_SEGUNDO_TRIM._2024_Data_Cruda.xlsx,29122,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_hist2024/HISTORICO_PRECIOS_COMBUSTIBLES_SEGUNDO_TRIM._2024_xlsx.xlsx,36478,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_hist2024/HISTORICO_PRECIOS_COMBUSTIBLES_TERCER_TRIM._2024.xlsx,33696,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_hist2024/HISTORICO_PRECIOS_COMBUSTIBLES_TERCER_TRIM._2024_data_cruda.xlsx,13884,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_precios_page.html,788100,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_res.html,328665,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_res2024.html,344793,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_res2024_p10.html,321720,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_res2024_p11.html,321720,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_res2024_p12.html,321720,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_res2024_p2.html,345139,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_res2024_p3.html,345153,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_res2024_p4.html,345127,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_res2024_p5.html,345248,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_res2024_p6.html,345269,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_res2024_p7.html,337466,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_res2024_p8.html,321719,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/micm_res2024_p9.html,321719,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/DR/ocr_anchor.py,3859,helper script
+downloads/DR/ocr_tables.json,123511,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/DR/parse_aviso.py,1931,helper script
+downloads/DR/parse_liq.py,5631,helper script
+downloads/DR/pdftext.py,247,helper script
+downloads/DR/resolve.py,3943,helper script
+downloads/DR/resolved.json,175380,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/DR/rows.py,504,helper script
+downloads/DR/run_anchor.py,1378,helper script
+downloads/ECU/BCE_SerieCifrasPetroleras.xlsx,545322,downloaded from https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx
+downloads/ECU/ECU_notes.md,5018,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/ECU/ECU_regulator_2024.csv,288961,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/ECU/EPP_2024_text.txt,430917,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/ECU/EPP_Informe_Estadistico_Anual_2024.pdf,8960426,downloaded from https://www.eppetroecuador.ec/wp-content/plugins/download-monitor/download.php?id=3724
+downloads/ECU/EPP_Valor_Subsidio_Combustibles.pdf,64933,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/ECU/build_csv.py,9286,helper script
+downloads/ECU/extract_bce.py,958,helper script
+downloads/ECU/inspect_xlsx.py,378,helper script
+downloads/ECU/labels.py,267,helper script
+downloads/ECU/lines.py,287,helper script
+downloads/ECU/parse_epp.py,1250,helper script
+downloads/ECU/pdftext.py,185,helper script
+downloads/ECU/render.py,178,helper script
+downloads/ECU/render_p59.png,147867,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/ECU/render_p60.png,207302,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/ECU/render_p61.png,207366,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/ECU/render_p62.png,139315,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/ECU/render_p63.png,127095,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/ECU/render_p64.png,59664,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/GUA/COSTO-IMPORTACION-HIDROCARBUROS-2024-12.pdf,395913,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/GUA/COSTO-IMPORTACION-HIDROCARBUROS-2024-12.xlsx,86546,downloaded from https://mem.gob.gt/wp-content/uploads/2025/01/COSTO-IMPORTACION-HIDROCARBUROS-2024-12.xlsx ; https://mem.gob.gt/wp-content/uploads/2025/01/IMPORTACION-HIDROCARBUROS-VOLUMEN-2024-12.xlsx
+downloads/GUA/GUA_notes.md,5513,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/GUA/GUA_regulator_2024.csv,1493228,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/GUA/IMPORTACION-HIDROCARBUROS-VOLUMEN-2024-12.xlsx,138500,downloaded from https://mem.gob.gt/wp-content/uploads/2025/01/COSTO-IMPORTACION-HIDROCARBUROS-2024-12.xlsx ; https://mem.gob.gt/wp-content/uploads/2025/01/IMPORTACION-HIDROCARBUROS-VOLUMEN-2024-12.xlsx
+downloads/GUA/banguat_TipoCambioRango_2024.xml,36921,downloaded from https://www.banguat.gob.gt/variables/ws/TipoCambio.asmx (SOAP TipoCambioRango 01/01/2024-31/12/2024)
+downloads/GUA/build_csv.py,11380,helper script
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-01-abril-2024.pdf,359362,downloaded from https://mem.gob.gt/wp-content/uploads/2024/04/Estructuras-de-Precios-referenciales-al-01-abril-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-03-enero-2024.pdf,342198,downloaded from https://mem.gob.gt/wp-content/uploads/2024/01/Estructuras-de-Precios-referenciales-al-03-enero-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-03-julio-2024.pdf,358695,downloaded from https://mem.gob.gt/wp-content/uploads/2024/08/Estructuras-de-Precios-referenciales-al-03-julio-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-03-junio-2024.pdf,358627,downloaded from https://mem.gob.gt/wp-content/uploads/2024/06/Estructuras-de-Precios-referenciales-al-03-junio-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-05-febrero-2024.pdf,359044,downloaded from https://mem.gob.gt/wp-content/uploads/2024/02/Estructuras-de-Precios-referenciales-al-05-febrero-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-06-mayo-2024.pdf,358623,downloaded from https://mem.gob.gt/wp-content/uploads/2024/05/Estructuras-de-Precios-referenciales-al-06-mayo-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-08-abril-2024.pdf,359035,downloaded from https://mem.gob.gt/wp-content/uploads/2024/04/Estructuras-de-Precios-referenciales-al-08-abril-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-08-enero-2024.pdf,358469,downloaded from https://mem.gob.gt/wp-content/uploads/2024/01/Estructuras-de-Precios-referenciales-al-08-enero-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-08-julio-2024.pdf,358632,downloaded from https://mem.gob.gt/wp-content/uploads/2024/08/Estructuras-de-Precios-referenciales-al-08-julio-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-10-junio-2024.pdf,358651,downloaded from https://mem.gob.gt/wp-content/uploads/2024/06/Estructuras-de-Precios-referenciales-al-10-junio-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-11-noviembre-2024.pdf,358482,downloaded from https://mem.gob.gt/wp-content/uploads/2024/11/Estructuras-de-Precios-referenciales-al-11-noviembre-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-12-febrero-2024.pdf,358658,downloaded from https://mem.gob.gt/wp-content/uploads/2024/02/Estructuras-de-Precios-referenciales-al-12-febrero-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-13-mayo-2024.pdf,358973,downloaded from https://mem.gob.gt/wp-content/uploads/2024/05/Estructuras-de-Precios-referenciales-al-13-mayo-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-15-abril-2024.pdf,358628,downloaded from https://mem.gob.gt/wp-content/uploads/2024/05/Estructuras-de-Precios-referenciales-al-15-abril-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-15-enero-2024.pdf,358633,downloaded from https://mem.gob.gt/wp-content/uploads/2024/01/Estructuras-de-Precios-referenciales-al-15-enero-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-15-julio-2024.pdf,358648,downloaded from https://mem.gob.gt/wp-content/uploads/2024/08/Estructuras-de-Precios-referenciales-al-15-julio-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-16-diciembre-2024.pdf,354022,downloaded from https://mem.gob.gt/wp-content/uploads/2024/12/Estructuras-de-Precios-referenciales-al-16-diciembre-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-17-junio-2024.pdf,351232,downloaded from https://mem.gob.gt/wp-content/uploads/2024/07/Estructuras-de-Precios-referenciales-al-17-junio-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-17-septiembre-2024.pdf,347952,downloaded from https://mem.gob.gt/wp-content/uploads/2024/09/Estructuras-de-Precios-referenciales-al-17-septiembre-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-19-febrero-2024.pdf,358657,downloaded from https://mem.gob.gt/wp-content/uploads/2024/03/Estructuras-de-Precios-referenciales-al-19-febrero-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-20-mayo-2024.pdf,358586,downloaded from https://mem.gob.gt/wp-content/uploads/2024/05/Estructuras-de-Precios-referenciales-al-20-mayo-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-22-abril-2024.pdf,358627,downloaded from https://mem.gob.gt/wp-content/uploads/2024/05/Estructuras-de-Precios-referenciales-al-22-abril-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-22-enero-2024.pdf,358600,downloaded from https://mem.gob.gt/wp-content/uploads/2024/02/Estructuras-de-Precios-referenciales-al-22-enero-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-22-julio-2024.pdf,347936,downloaded from https://mem.gob.gt/wp-content/uploads/2024/09/Estructuras-de-Precios-referenciales-al-22-julio-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-23-diciembre-2024.pdf,354012,downloaded from https://mem.gob.gt/wp-content/uploads/2025/01/Estructuras-de-Precios-referenciales-al-23-diciembre-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-23-septiembre-2024.pdf,347960,downloaded from https://mem.gob.gt/wp-content/uploads/2024/10/Estructuras-de-Precios-referenciales-al-23-septiembre-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-24-junio-2024.pdf,358649,downloaded from https://mem.gob.gt/wp-content/uploads/2024/07/Estructuras-de-Precios-referenciales-al-24-junio-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-25-marzo-2024.pdf,358641,downloaded from https://mem.gob.gt/wp-content/uploads/2024/04/Estructuras-de-Precios-referenciales-al-25-marzo-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-27-mayo-2024.pdf,358995,downloaded from https://mem.gob.gt/wp-content/uploads/2024/06/Estructuras-de-Precios-referenciales-al-27-mayo-2024.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-28-octubre-2024-1.pdf,347824,downloaded from https://mem.gob.gt/wp-content/uploads/2024/11/Estructuras-de-Precios-referenciales-al-28-octubre-2024-1.pdf
+downloads/GUA/estructuras/Estructuras-de-Precios-referenciales-al-29-enero-2024.pdf,358597,downloaded from https://mem.gob.gt/wp-content/uploads/2024/02/Estructuras-de-Precios-referenciales-al-29-enero-2024.pdf
+downloads/GUA/estructuras_parsed.json,65680,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/GUA/exrack/Precios-ex-rack-gasolinas-diesel-y-bunker-01-al-07-abril-2024.pdf,10259,downloaded from https://mem.gob.gt/wp-content/uploads/2024/04/Precios-ex-rack-gasolinas-diesel-y-bunker-01-al-07-abril-2024.pdf
+downloads/GUA/exrack/Precios-ex-rack-gasolinas-diesel-y-bunker-02-al-08-diciembre-2024.pdf,10262,downloaded from https://mem.gob.gt/wp-content/uploads/2024/12/Precios-ex-rack-gasolinas-diesel-y-bunker-02-al-08-diciembre-2024.pdf
+downloads/GUA/exrack/Precios-ex-rack-gasolinas-diesel-y-bunker-03-al-09-junio-2024.pdf,10235,downloaded from https://mem.gob.gt/wp-content/uploads/2024/06/Precios-ex-rack-gasolinas-diesel-y-bunker-03-al-09-junio-2024.pdf
+downloads/GUA/exrack/Precios-ex-rack-gasolinas-diesel-y-bunker-08-al-14-julio-2024.pdf,10264,downloaded from https://mem.gob.gt/wp-content/uploads/2024/07/Precios-ex-rack-gasolinas-diesel-y-bunker-08-al-14-julio-2024.pdf
+downloads/GUA/exrack/Precios-ex-rack-gasolinas-diesel-y-bunker-09-al-15-septiembre-2024.pdf,10241,downloaded from https://mem.gob.gt/wp-content/uploads/2024/09/Precios-ex-rack-gasolinas-diesel-y-bunker-09-al-15-septiembre-2024.pdf
+downloads/GUA/exrack/Precios-ex-rack-gasolinas-diesel-y-bunker-10-al-16-junio-2024.pdf,10261,downloaded from https://mem.gob.gt/wp-content/uploads/2024/06/Precios-ex-rack-gasolinas-diesel-y-bunker-10-al-16-junio-2024.pdf
+downloads/GUA/exrack/Precios-ex-rack-gasolinas-diesel-y-bunker-13-al-19-mayo-2024.pdf,10247,downloaded from https://mem.gob.gt/wp-content/uploads/2024/05/Precios-ex-rack-gasolinas-diesel-y-bunker-13-al-19-mayo-2024.pdf
+downloads/GUA/exrack/Precios-ex-rack-gasolinas-diesel-y-bunker-18-al-24-octubre-2024.pdf,7874,downloaded from https://mem.gob.gt/wp-content/uploads/2024/11/Precios-ex-rack-gasolinas-diesel-y-bunker-18-al-24-octubre-2024.pdf
+downloads/GUA/exrack/Precios-ex-rack-gasolinas-diesel-y-bunker-20-al-25-mayo-2024.pdf,10314,downloaded from https://mem.gob.gt/wp-content/uploads/2024/05/Precios-ex-rack-gasolinas-diesel-y-bunker-20-al-25-mayo-2024.pdf
+downloads/GUA/exrack/Precios-ex-rack-gasolinas-diesel-y-bunker-22-al-28-enero-2024.pdf,10251,downloaded from https://mem.gob.gt/wp-content/uploads/2024/01/Precios-ex-rack-gasolinas-diesel-y-bunker-22-al-28-enero-2024.pdf
+downloads/GUA/exrack/Precios-ex-rack-gasolinas-diesel-y-bunker-26-febrero-al-03-marzo-2024.pdf,10261,downloaded from https://mem.gob.gt/wp-content/uploads/2024/02/Precios-ex-rack-gasolinas-diesel-y-bunker-26-febrero-al-03-marzo-2024.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-01-01-Informe-Estadistico-Semanal.pdf,2830527,downloaded from https://mem.gob.gt/wp-content/uploads/2024/01/DGH-DAE-SE-IES-2024-01-01-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-01-02-Informe-Estadistico-Semanal.pdf,2826155,downloaded from https://mem.gob.gt/wp-content/uploads/2024/01/DGH-DAE-SE-IES-2024-01-02-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-01-03-Informe-Estadistico-Semanal.pdf,3156793,downloaded from https://mem.gob.gt/wp-content/uploads/2024/01/DGH-DAE-SE-IES-2024-01-03-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-01-04-Informe-Estadistico-Semanal.pdf,3074169,downloaded from https://mem.gob.gt/wp-content/uploads/2024/01/DGH-DAE-SE-IES-2024-01-04-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-02-01-Informe-Estadistico-Semanal.pdf,3074909,downloaded from https://mem.gob.gt/wp-content/uploads/2024/02/DGH-DAE-SE-IES-2024-02-01-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-02-02-Informe-Estadistico-Semanal.pdf,3028376,downloaded from https://mem.gob.gt/wp-content/uploads/2024/02/DGH-DAE-SE-IES-2024-02-02-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-02-03-Informe-Estadistico-Semanal.pdf,3029565,downloaded from https://mem.gob.gt/wp-content/uploads/2024/02/DGH-DAE-SE-IES-2024-02-03-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-02-04-Informe-Estadistico-Semanal.pdf,3030972,downloaded from https://mem.gob.gt/wp-content/uploads/2024/02/DGH-DAE-SE-IES-2024-02-04-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-03-01-Informe-Estadistico-Semanal.pdf,2973111,downloaded from https://mem.gob.gt/wp-content/uploads/2024/03/DGH-DAE-SE-IES-2024-03-01-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-03-02-Informe-Estadistico-Semanal.pdf,2978266,downloaded from https://mem.gob.gt/wp-content/uploads/2024/03/DGH-DAE-SE-IES-2024-03-02-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-03-03-Informe-Estadistico-Semanal.pdf,2839357,downloaded from https://mem.gob.gt/wp-content/uploads/2024/03/DGH-DAE-SE-IES-2024-03-03-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-03-04-Informe-Estadistico-Semanal.pdf,2842046,downloaded from https://mem.gob.gt/wp-content/uploads/2024/03/DGH-DAE-SE-IES-2024-03-04-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-04-01-Informe-Estadistico-Semanal.pdf,2878878,downloaded from https://mem.gob.gt/wp-content/uploads/2024/04/DGH-DAE-SE-IES-2024-04-01-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-04-02-Informe-Estadistico-Semanal.pdf,853067,downloaded from https://mem.gob.gt/wp-content/uploads/2024/04/DGH-DAE-SE-IES-2024-04-02-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-04-03-Informe-Estadistico-Semanal.pdf,852926,downloaded from https://mem.gob.gt/wp-content/uploads/2024/04/DGH-DAE-SE-IES-2024-04-03-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-04-04-Informe-Estadistico-Semanal.pdf,852979,downloaded from https://mem.gob.gt/wp-content/uploads/2024/04/DGH-DAE-SE-IES-2024-04-04-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-05-01-Informe-Estadistico-Semanal.pdf,856998,downloaded from https://mem.gob.gt/wp-content/uploads/2024/05/DGH-DAE-SE-IES-2024-05-01-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-05-03-Informe-Estadistico-Semanal.pdf,2787606,downloaded from https://mem.gob.gt/wp-content/uploads/2024/05/DGH-DAE-SE-IES-2024-05-03-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-05-04-Informe-Estadistico-Semanal.pdf,2750618,downloaded from https://mem.gob.gt/wp-content/uploads/2024/05/DGH-DAE-SE-IES-2024-05-04-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-05-05-Informe-Estadistico-Semanal.pdf,2750938,downloaded from https://mem.gob.gt/wp-content/uploads/2024/05/DGH-DAE-SE-IES-2024-05-05-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-06-02-Informe-Estadistico-Semanal.pdf,2910643,downloaded from https://mem.gob.gt/wp-content/uploads/2024/06/DGH-DAE-SE-IES-2024-06-02-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-06-03-Informe-Estadistico-Semanal.pdf,2911547,downloaded from https://mem.gob.gt/wp-content/uploads/2024/06/DGH-DAE-SE-IES-2024-06-03-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-06-04-Informe-Estadistico-Semanal.pdf,981825,downloaded from https://mem.gob.gt/wp-content/uploads/2024/06/DGH-DAE-SE-IES-2024-06-04-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-07-01-Informe-Estadistico-Semanal.pdf,993746,downloaded from https://mem.gob.gt/wp-content/uploads/2024/07/DGH-DAE-SE-IES-2024-07-01-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-07-02-Informe-Estadistico-Semanal.pdf,987682,downloaded from https://mem.gob.gt/wp-content/uploads/2024/07/DGH-DAE-SE-IES-2024-07-02-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-07-03-Informe-Estadistico-Semanal.pdf,994000,downloaded from https://mem.gob.gt/wp-content/uploads/2024/07/DGH-DAE-SE-IES-2024-07-03-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-07-04-Informe-Estadistico-Semanal.pdf,874349,downloaded from https://mem.gob.gt/wp-content/uploads/2024/07/DGH-DAE-SE-IES-2024-07-04-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-08-01-Informe-Estadistico-Semanal.pdf,902709,downloaded from https://mem.gob.gt/wp-content/uploads/2024/08/DGH-DAE-SE-IES-2024-08-01-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-08-02-Informe-Estadistico-Semanal.pdf,905589,downloaded from https://mem.gob.gt/wp-content/uploads/2024/08/DGH-DAE-SE-IES-2024-08-02-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-08-03-Informe-Estadistico-Semanal.pdf,903772,downloaded from https://mem.gob.gt/wp-content/uploads/2024/08/DGH-DAE-SE-IES-2024-08-03-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-08-04-Informe-Estadistico-Semanal.pdf,996679,downloaded from https://mem.gob.gt/wp-content/uploads/2024/08/DGH-DAE-SE-IES-2024-08-04-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-08-05-Informe-Estadistico-Semanal.pdf,986218,downloaded from https://mem.gob.gt/wp-content/uploads/2024/09/DGH-DAE-SE-IES-2024-08-05-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-09-01-Informe-Estadistico-Semanal.pdf,996472,downloaded from https://mem.gob.gt/wp-content/uploads/2024/09/DGH-DAE-SE-IES-2024-09-01-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-09-02-Informe-Estadistico-Semanal.pdf,995931,downloaded from https://mem.gob.gt/wp-content/uploads/2024/09/DGH-DAE-SE-IES-2024-09-02-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-09-03-Informe-Estadistico-Semanal.pdf,995674,downloaded from https://mem.gob.gt/wp-content/uploads/2024/09/DGH-DAE-SE-IES-2024-09-03-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-10-01-Informe-Estadistico-Semanal.pdf,4914369,downloaded from https://mem.gob.gt/wp-content/uploads/2024/10/DGH-DAE-SE-IES-2024-10-01-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-11-03-Informe-Estadistico-Semanal.pdf,4933739,downloaded from https://mem.gob.gt/wp-content/uploads/2024/11/DGH-DAE-SE-IES-2024-11-03-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-12-02-Informe-Estadistico-Semanal.pdf,4965926,downloaded from https://mem.gob.gt/wp-content/uploads/2024/12/DGH-DAE-SE-IES-2024-12-02-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-12-03-Informe-Estadistico-Semanal.pdf,4965829,downloaded from https://mem.gob.gt/wp-content/uploads/2024/12/DGH-DAE-SE-IES-2024-12-03-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies/DGH-DAE-SE-IES-2024-12-04-Informe-Estadistico-Semanal.pdf,4955792,downloaded from https://mem.gob.gt/wp-content/uploads/2025/01/DGH-DAE-SE-IES-2024-12-04-Informe-Estadistico-Semanal.pdf
+downloads/GUA/ies_fob_parsed.json,54494,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/GUA/media2024_all.txt,390859,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/GUA/parse_estructuras.py,4269,helper script
+downloads/GUA/parse_ies_fob.py,2055,helper script
+downloads/HON/BCH_Precio_Promedio_Diario_del_Dolar.xlsx,339876,downloaded from https://www.bch.hn/estadisticos/GIE/_layouts/15/download.aspx?SourceUrl=/estadisticos/GIE/LIBTipo%20de%20cambio/Precio%20Promedio%20Diario%20del%20D%C3%B3lar.xlsx
+downloads/HON/HON_notes.md,5831,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/HON/HON_regulator_2024.csv,366560,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/HON/IEMCH-2024-08.pdf,1093531,downloaded from https://sen.hn/wp-content/uploads/2024/10/IEMCH-2024-08.pdf
+downloads/HON/IEMCHB-10-2024.pdf,1002548,downloaded from https://sen.hn/wp-content/uploads/2024/12/IEMCHB-10-2024.pdf
+downloads/HON/IEMCHB-11-2024.pdf,1099679,downloaded from https://sen.hn/wp-content/uploads/2025/01/IEMCHB-11-2024.pdf
+downloads/HON/IEMCHB-12-2024.pdf,1024148,downloaded from https://sen.hn/wp-content/uploads/2025/02/IEMCHB-12-2024.pdf
+downloads/HON/IN15221.pdf,1075383,downloaded from https://sen.hn/wp-content/uploads/2024/07/IN15221.pdf
+downloads/HON/INA14F1.pdf,1087112,downloaded from https://sen.hn/wp-content/uploads/2024/07/INA14F1.pdf
+downloads/HON/INE7E21.pdf,1094496,downloaded from https://sen.hn/wp-content/uploads/2024/07/INE7E21.pdf
+downloads/HON/Informe-Estadistico-Anual-de-Comercializacion-de-Hidrocarburos-en-Honduras-2024.pdf,817308,downloaded from https://sen.hn/wp-content/uploads/2025/04/Informe-Estadistico-Anual-de-Comercializacion-de-Hidrocarburos-en-Honduras-2024.pdf
+downloads/HON/Informe-Estadistico-Mensual-de-Comercializacion-de-Hidrocarburos-e.pdf,948450,downloaded from https://sen.hn/wp-content/uploads/2024/05/Informe-Estadistico-Mensual-de-Comercializacion-de-Hidrocarburos-e.pdf
+downloads/HON/Informe-Estadistico-Mensual-de-Comercializacion-de-Hidrocarburos-en-Honduras-Julio-2024-1.pdf,1130668,downloaded from https://sen.hn/wp-content/uploads/2024/09/Informe-Estadistico-Mensual-de-Comercializacion-de-Hidrocarburos-en-Honduras-Julio-2024-1.pdf
+downloads/HON/Informe-Estadistico-Mensual-de-Comercializacion-de-Hidrocarburos-en-Honduras-Junio-2024.pdf,1098818,downloaded from https://sen.hn/wp-content/uploads/2024/08/Informe-Estadistico-Mensual-de-Comercializacion-de-Hidrocarburos-en-Honduras-Junio-2024.pdf
+downloads/HON/Informe-Estadistico-Mensual-de-Comercializacion-de-Hidrocarburos-en-Honduras-Septiembre-2024.pdf,1064528,downloaded from https://sen.hn/wp-content/uploads/2024/11/Informe-Estadistico-Mensual-de-Comercializacion-de-Hidrocarburos-en-Honduras-Septiembre-2024.pdf
+downloads/HON/Informe-Estadistico-Mensual-de-Comercializacion-mes-de-MAYO-2024.pdf,1126056,downloaded from https://sen.hn/wp-content/uploads/2024/07/Informe-Estadistico-Mensual-de-Comercializacion-mes-de-MAYO-2024.pdf
+downloads/HON/b17.txt,28279,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/HON/build_csv.py,16191,helper script
+downloads/HON/cchac/NO18BO1.pdf,862492,downloaded from https://sen.hn/wp-content/uploads/2024/06/NO18BO1.pdf
+downloads/HON/cchac/NO19BO1.pdf,862704,downloaded from https://sen.hn/wp-content/uploads/2024/06/NO19BO1.pdf
+downloads/HON/cchac/NO20BO1.pdf,862622,downloaded from https://sen.hn/wp-content/uploads/2024/06/NO20BO1.pdf
+downloads/HON/cchac/NO21BO1.pdf,862770,downloaded from https://sen.hn/wp-content/uploads/2024/06/NO21BO1.pdf
+downloads/HON/cchac/No.1-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-31-de-Diciembre-2023-al-06-de-enero-2024.pdf,949394,downloaded from https://sen.hn/wp-content/uploads/2024/02/No.1-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-31-de-Diciembre-2023-al-06-de-enero-2024.pdf
+downloads/HON/cchac/No.10-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-03-al-09-de-marzo-2024.pdf,932662,downloaded from https://sen.hn/wp-content/uploads/2024/04/No.10-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-03-al-09-de-marzo-2024.pdf
+downloads/HON/cchac/No.11-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-10-al-16-de-marzo-2024.pdf,903041,downloaded from https://sen.hn/wp-content/uploads/2024/04/No.11-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-10-al-16-de-marzo-2024.pdf
+downloads/HON/cchac/No.12-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-17-al-23-de-marzo-2024.pdf,883971,downloaded from https://sen.hn/wp-content/uploads/2024/04/No.12-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-17-al-23-de-marzo-2024.pdf
+downloads/HON/cchac/No.13-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-24-al-30-de-marzo-de-2024.pdf,883588,downloaded from https://sen.hn/wp-content/uploads/2024/04/No.13-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-24-al-30-de-marzo-de-2024.pdf
+downloads/HON/cchac/No.15-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-07-al-13-de-abril-de-2024.pdf,862784,downloaded from https://sen.hn/wp-content/uploads/2024/05/No.15-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-07-al-13-de-abril-de-2024.pdf
+downloads/HON/cchac/No.16-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-14-al-20-de-abril-de-2024.pdf,862523,downloaded from https://sen.hn/wp-content/uploads/2024/05/No.16-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-14-al-20-de-abril-de-2024.pdf
+downloads/HON/cchac/No.17-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-21-al-27-de-abril-de-2024.pdf,857309,downloaded from https://sen.hn/wp-content/uploads/2024/05/No.17-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-21-al-27-de-abril-de-2024.pdf
+downloads/HON/cchac/No.2-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-07-al-13-de-enero-2024.pdf,931196,downloaded from https://sen.hn/wp-content/uploads/2024/02/No.2-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-07-al-13-de-enero-2024.pdf
+downloads/HON/cchac/No.23-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-02-al-08-d-e-junio-de-2024.pdf,862832,downloaded from https://sen.hn/wp-content/uploads/2024/07/No.23-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-02-al-08-d-e-junio-de-2024.pdf
+downloads/HON/cchac/No.24-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-09-al-15-de-junio-de-2024.pdf,864274,downloaded from https://sen.hn/wp-content/uploads/2024/07/No.24-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-09-al-15-de-junio-de-2024.pdf
+downloads/HON/cchac/No.25-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-16-al-22-de-junio-de-2024.pdf,867426,downloaded from https://sen.hn/wp-content/uploads/2024/07/No.25-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-16-al-22-de-junio-de-2024.pdf
+downloads/HON/cchac/No.26-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-23-al-29.pdf,868407,downloaded from https://sen.hn/wp-content/uploads/2024/07/No.26-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-23-al-29.pdf
+downloads/HON/cchac/No.27-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-30-JUN-AL-6-JUL-2024.pdf,889599,downloaded from https://sen.hn/wp-content/uploads/2024/08/No.27-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-30-JUN-AL-6-JUL-2024.pdf
+downloads/HON/cchac/No.28-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-7-AL-13-JUL-2024.pdf,850613,downloaded from https://sen.hn/wp-content/uploads/2024/08/No.28-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-7-AL-13-JUL-2024.pdf
+downloads/HON/cchac/No.29-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-14-AL-20-JUL-2024.pdf,1063475,downloaded from https://sen.hn/wp-content/uploads/2024/08/No.29-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-14-AL-20-JUL-2024.pdf
+downloads/HON/cchac/No.3-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-14-al-20-de-enero-2024.pdf,935822,downloaded from https://sen.hn/wp-content/uploads/2024/02/No.3-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-14-al-20-de-enero-2024.pdf
+downloads/HON/cchac/No.30-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-21-AL-27-JUL-2024.pdf,2009618,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/HON/cchac/No.31-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-28-JUL-AL-03-AGO-2024-PPT-NICARAGUA.pdf,1217217,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/HON/cchac/No.4-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-21-al-27-de-enero-2024.pdf,927972,downloaded from https://sen.hn/wp-content/uploads/2024/02/No.4-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-21-al-27-de-enero-2024.pdf
+downloads/HON/cchac/No.5-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-28-de-enero-al-03-de-febrero-2024.pdf,921021,downloaded from https://sen.hn/wp-content/uploads/2024/02/No.5-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-28-de-enero-al-03-de-febrero-2024.pdf
+downloads/HON/cchac/No.6-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-04-al-10-de-febrero-2024.pdf,939646,downloaded from https://sen.hn/wp-content/uploads/2024/03/No.6-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-04-al-10-de-febrero-2024.pdf
+downloads/HON/cchac/No.7-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-11-al-17-de-febrero-2024.pdf,978150,downloaded from https://sen.hn/wp-content/uploads/2024/03/No.7-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-11-al-17-de-febrero-2024.pdf
+downloads/HON/cchac/No.8-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-18-al-24-de-febrero-2024.pdf,974307,downloaded from https://sen.hn/wp-content/uploads/2024/03/No.8-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-18-al-24-de-febrero-2024.pdf
+downloads/HON/cchac_parsed.jsonl,19327,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/HON/cree/Informe-de-1er-Ajuste-Tarifario-2024_Final.pdf,1506698,downloaded from https://www.cree.gob.hn/wp-content/uploads/2019/02/Informe-de-1er-Ajuste-Tarifario-2024_Final.pdf
+downloads/HON/cree/Informe-de-1er-Ajuste-Tarifario-2024_Final.txt,51436,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/HON/cree/Informe-de-1er-Ajuste-Tarifario-2025.pdf,2303974,downloaded from https://www.cree.gob.hn/wp-content/uploads/2019/02/Informe-de-1er-Ajuste-Tarifario-2025.pdf
+downloads/HON/cree/Informe-de-1er-Ajuste-Tarifario-2025.txt,68578,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/HON/cree/Informe-de-2do-Ajuste-Tarifario-2024.pdf,2367090,downloaded from https://www.cree.gob.hn/wp-content/uploads/2019/02/Informe-de-2do-Ajuste-Tarifario-2024.pdf
+downloads/HON/cree/Informe-de-2do-Ajuste-Tarifario-2024.txt,65042,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/HON/cree/Informe-de-2do-Ajuste-Tarifario-2025.pdf,2234244,downloaded from https://www.cree.gob.hn/wp-content/uploads/2019/02/Informe-de-2do-Ajuste-Tarifario-2025.pdf
+downloads/HON/cree/Informe-de-2do-Ajuste-Tarifario-2025.txt,70317,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/HON/cree/Informe-de-3er-Ajuste-Tarifario-2024.pdf,3069822,downloaded from https://www.cree.gob.hn/wp-content/uploads/2019/02/Informe-de-3er-Ajuste-Tarifario-2024.pdf
+downloads/HON/cree/Informe-de-3er-Ajuste-Tarifario-2024.txt,71136,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/HON/cree/Informe-de-4to-Ajuste-Tarifario-2024_VF.pdf,2752515,downloaded from https://www.cree.gob.hn/wp-content/uploads/2019/02/Informe-de-4to-Ajuste-Tarifario-2024_VF.pdf
+downloads/HON/cree/Informe-de-4to-Ajuste-Tarifario-2024_VF.txt,71683,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/HON/dump.py,251,helper script
+downloads/HON/iemch2024.txt,13125,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/HON/iemchb12.txt,13445,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/HON/jun.txt,14307,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/HON/media_pdfs_2024.txt,25827,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/HON/parse_cchac.py,3092,helper script
+downloads/HON/parse_imports.py,1424,helper script
+downloads/HON/pg.py,216,helper script
+downloads/HON/sen_direccion-de-comercializacion-de-hidrocarburos.html,141977,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/HON/sen_historico-de-precios-de-los-combustibles.html,275276,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/HON/sen_home.html,291250,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/HON/sen_iemch-informes.html,166241,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/HON/sen_informe-estadistico-semanal-cchac-2.html,137727,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/HON/sen_resumen-precio.html,161726,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/HON/titles.py,248,helper script
+downloads/HON/words.py,243,helper script
+downloads/JAM/JAM_notes.md,4594,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/JAM/JAM_regulator_2024.csv,278707,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/JAM/OUR_Investigation_Report_JPS_July2024_FuelRate_2024-12-19.pdf,823029,downloaded from https://our.org.jm/wp-content/uploads/2024/12/Office-of-Utilities-Regulation-Investigation-Report_2024-12-19-Final.pdf
+downloads/JAM/boj_annual_avg_fx_2024.json,95,downloaded from https://boj.org.jm/market/foreign-exchange/average-exchange-rates/
+downloads/JAM/boj_monthly_avg_fx_2024.json,700,downloaded from https://boj.org.jm/market/foreign-exchange/average-exchange-rates/
+downloads/JAM/build_csv.py,12427,helper script
+downloads/JAM/comtrade_JAM_2024_imports.json,8244,"downloaded from https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=388&period=2024&partnerCode=0&flowCode=M&cmdCode=271012,271019,271111,271112,271113,271121,270112,270119,2709,271020"
+downloads/JAM/h2t.py,550,helper script
+downloads/JAM/html/boj_avg_fx.html,418881,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/JAM/html/boj_home.html,369335,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/JAM/html/boj_stats_fx.html,334377,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/JAM/html/mset_home.html,289925,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/JAM/html/mset_petroleum.html,133261,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/JAM/html/mset_statistics-data.html,233766,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/JAM/html/obs/obs_20231227.html,717806,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/JAM/html/obs/obs_20240103.html,702761,downloaded from https://www.jamaicaobserver.com/2024/01/03/gas-prices-diesel-down-3-06/
+downloads/JAM/html/obs/obs_20240117.html,712275,downloaded from https://www.jamaicaobserver.com/2024/01/17/gas-prices-up-0-25-diesel-up-3-05/
+downloads/JAM/html/obs/obs_20240124.html,709644,downloaded from https://www.jamaicaobserver.com/2024/01/24/gas-prices-0-25-diesel-0-78/
+downloads/JAM/html/obs/obs_20240207.html,708807,downloaded from https://www.jamaicaobserver.com/2024/02/07/gas-prices-3-06-diesel-0-02/
+downloads/JAM/html/obs/obs_20240221.html,712614,downloaded from https://www.jamaicaobserver.com/2024/02/21/gas-prices-0-33-diesel-0-60/
+downloads/JAM/html/obs/obs_20240228.html,721458,downloaded from https://www.jamaicaobserver.com/2024/02/28/gas-prices-1-20-diesel-3-50/
+downloads/JAM/html/obs/obs_20240306.html,698945,downloaded from https://www.jamaicaobserver.com/2024/03/06/gas-prices-4-50-diesel-0-75/
+downloads/JAM/html/obs/obs_20240410.html,708137,downloaded from https://www.jamaicaobserver.com/2024/04/10/gas-prices-2-57-2-40-diesel-2-63/
+downloads/JAM/html/obs/obs_20240417.html,703094,downloaded from https://www.jamaicaobserver.com/2024/04/17/gas-prices-2-59-diesel-2-14/
+downloads/JAM/html/obs/obs_20240424.html,706602,downloaded from https://www.jamaicaobserver.com/2024/04/24/gas-prices-1-06-diesel-1-81/
+downloads/JAM/html/obs/obs_20240501.html,702931,downloaded from https://www.jamaicaobserver.com/2024/05/01/gas-prices-2-76-2-74-diesel-0-15/
+downloads/JAM/html/obs/obs_20240508.html,713231,downloaded from https://www.jamaicaobserver.com/2024/05/08/gas-prices-down-3-06-4-50-diesel-down-4-47/
+downloads/JAM/html/obs/obs_20240529.html,724972,downloaded from https://www.jamaicaobserver.com/2024/05/29/gas-prices-0-51-0-52-diesel-0-43/
+downloads/JAM/html/obs/obs_20240605.html,716883,downloaded from https://www.jamaicaobserver.com/2024/06/05/gas-prices-3-06-diesel-3-06/
+downloads/JAM/html/obs/obs_20240612.html,718338,downloaded from https://www.jamaicaobserver.com/2024/06/12/gas-prices-0-35-diesel-0-52/
+downloads/JAM/html/obs/obs_20240619.html,698547,downloaded from https://www.jamaicaobserver.com/2024/06/19/gas-prices-0-25-0-50-diesel-3-06/
+downloads/JAM/html/obs/obs_20240626.html,720011,downloaded from https://www.jamaicaobserver.com/2024/06/26/gas-prices-2-66-diesel-1-65/
+downloads/JAM/html/obs/obs_20240710.html,719840,downloaded from https://www.jamaicaobserver.com/2024/07/10/gas-prices-1-97-1-95-diesel-1-35/
+downloads/JAM/html/obs/obs_20240717.html,714035,downloaded from https://www.jamaicaobserver.com/2024/07/17/gas-prices-1-17-diesel-1-08/
+downloads/JAM/html/obs/obs_20240724.html,714035,downloaded from https://www.jamaicaobserver.com/2024/07/24/gas-prices-0-95-diesel-3-06/
+downloads/JAM/html/obs/obs_20240807.html,725082,downloaded from https://www.jamaicaobserver.com/2024/08/07/gas-prices-0-06-0-07-diesel-3-06/
+downloads/JAM/html/obs/obs_20240814.html,727216,downloaded from https://www.jamaicaobserver.com/2024/08/14/gas-prices-1-79-1-81-diesel-0-66/
+downloads/JAM/html/obs/obs_20240821.html,705393,downloaded from https://www.jamaicaobserver.com/2024/08/21/gas-prices-3-06-diesel-0-84/
+downloads/JAM/html/obs/obs_20240828.html,705462,downloaded from https://www.jamaicaobserver.com/2024/08/28/gas-prices-2-26-diesel-0-31/
+downloads/JAM/html/obs/obs_20240904.html,701673,downloaded from https://www.jamaicaobserver.com/2024/09/04/gas-prices-2-62-diesel-2-06/
+downloads/JAM/html/obs/obs_20240911.html,706135,downloaded from https://www.jamaicaobserver.com/2024/09/11/gas-prices-diesel-3-06/
+downloads/JAM/html/obs/obs_20240918.html,670594,downloaded from https://www.jamaicaobserver.com/2024/09/18/gas-prices-0-25-diesel-0-91/
+downloads/JAM/html/obs/obs_20240925.html,699350,downloaded from https://www.jamaicaobserver.com/2024/09/25/gas-prices-0-25-diesel-1-07/
+downloads/JAM/html/obs/obs_20241009.html,698653,downloaded from https://www.jamaicaobserver.com/2024/10/09/gas-prices-2-94-diesel-3-06/
+downloads/JAM/html/obs/obs_20241016.html,705464,downloaded from https://www.jamaicaobserver.com/2024/10/16/gas-prices-0-25-diesel-0-25/
+downloads/JAM/html/obs/obs_20241023.html,711473,downloaded from https://www.jamaicaobserver.com/2024/10/23/gas-prices-diesel-3-06-20241023-2224-401637/
+downloads/JAM/html/obs/obs_20241030.html,718419,downloaded from https://www.jamaicaobserver.com/2024/10/30/gas-prices-3-06-diesel-0-25/
+downloads/JAM/html/obs/obs_20241106.html,719200,downloaded from https://www.jamaicaobserver.com/2024/11/06/gas-prices-0-25-diesel-2-90/
+downloads/JAM/html/obs/obs_20241113.html,698234,downloaded from https://www.jamaicaobserver.com/2024/11/13/gas-prices-0-25-diesel-0-83/
+downloads/JAM/html/obs/obs_20241120.html,696469,downloaded from https://www.jamaicaobserver.com/2024/11/20/gas-prices-3-06-diesel-1-98/
+downloads/JAM/html/obs/obs_20241127.html,703181,downloaded from https://www.jamaicaobserver.com/2024/11/27/gas-prices-0-28-0-33-diesel-2-07/
+downloads/JAM/html/obs/obs_20241204.html,703506,downloaded from https://www.jamaicaobserver.com/2024/12/04/gas-prices-3-06-diesel-3-06-20241204-2141-394023/
+downloads/JAM/html/obs/obs_20241211.html,698695,downloaded from https://www.jamaicaobserver.com/2024/12/11/gas-prices-2-94-diesel-3-06-20241211-2342-324003/
+downloads/JAM/html/obs/obs_20241218.html,699580,downloaded from https://www.jamaicaobserver.com/2024/12/18/gas-prices-0-25-diesel-0-82/
+downloads/JAM/html/obs/obs_20241231.html,695713,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/JAM/html/obs/obs_20250108.html,698815,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/JAM/html/obs_20240724.html,714035,downloaded from https://www.jamaicaobserver.com/2024/07/24/gas-prices-0-95-diesel-3-06/
+downloads/JAM/html/observer_anatomy_2022.html,724500,downloaded from https://our.today/another-underwhelming-petrojam-pricing-update-for-second-week/ ; https://www.jamaicaobserver.com/2022/03/05/anatomy-of-pump-prices/
+downloads/JAM/html/observer_nosmoke.html,706031,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/JAM/html/ot/another-underwhelming-petrojam-pricing-update-for-second-week.html,63325,downloaded from https://our.today/another-underwhelming-petrojam-pricing-update-for-second-week/
+downloads/JAM/html/ot/gas-prices-trend-higher-for-third-week-running.html,63131,downloaded from https://our.today/gas-prices-trend-higher-for-third-week-running/
+downloads/JAM/html/ot/jamaicans-to-pay-more-as-fuel-prices-trend-higher.html,62135,downloaded from https://our.today/jamaicans-to-pay-more-as-fuel-prices-trend-higher/
+downloads/JAM/html/ot/little-change-to-pump-prices-after-latest-petrojam-revamp.html,63028,downloaded from https://our.today/little-change-to-pump-prices-after-latest-petrojam-revamp/
+downloads/JAM/html/ot/motorists-fare-better-amid-mixed-petrojam-pricing-regimen.html,62079,downloaded from https://our.today/motorists-fare-better-amid-mixed-petrojam-pricing-regimen/
+downloads/JAM/html/ot/negligible-reduction-as-pump-prices-tumble-for-a-fourth-week.html,62003,downloaded from https://our.today/negligible-reduction-as-pump-prices-tumble-for-a-fourth-week/
+downloads/JAM/html/ot/new-month-same-price-creep-in-latest-petrojam-fuels-index-update.html,63423,downloaded from https://our.today/new-month-same-price-creep-in-latest-petrojam-fuels-index-update/
+downloads/JAM/html/ot/petrojam-breaks-4-week-price-creep-amid-mixed-fortunes-at-the-pumps.html,63213,downloaded from https://our.today/petrojam-breaks-4-week-price-creep-amid-mixed-fortunes-at-the-pumps/
+downloads/JAM/html/ot/petrojam-effects-first-price-roll-back-in-a-month.html,63212,downloaded from https://our.today/petrojam-effects-first-price-roll-back-in-a-month/
+downloads/JAM/html/ot/petrojam-effects-next-to-nothing-revamp-to-pump-prices-this-week.html,62874,downloaded from https://our.today/petrojam-effects-next-to-nothing-revamp-to-pump-prices-this-week/
+downloads/JAM/html/ot/petrojam-further-loosens-strain-as-pump-prices-tumble-for-a-third-week.html,62461,downloaded from https://our.today/petrojam-further-loosens-strain-as-pump-prices-tumble-for-a-third-week/
+downloads/JAM/html/ot/petrojam-pricing-regimen-inches-higher-for-second-straight-week.html,63365,downloaded from https://our.today/petrojam-pricing-regimen-inches-higher-for-second-straight-week/
+downloads/JAM/html/ot/petrojam-unveils-anaemic-price-cuts-this-week.html,62764,downloaded from https://our.today/petrojam-unveils-anaemic-price-cuts-this-week/
+downloads/JAM/html/ot/price-creep-enters-third-week-after-latest-petrojam-regimen-update.html,63003,downloaded from https://our.today/price-creep-enters-third-week-after-latest-petrojam-regimen-update/
+downloads/JAM/html/ot/pump-prices-trend-higher-after-latest-petrojam-index-revamp.html,62236,downloaded from https://our.today/pump-prices-trend-higher-after-latest-petrojam-index-revamp/
+downloads/JAM/html/ot/pump-prices-tumble-amid-new-petrojam-commodity-index-update.html,63670,downloaded from https://our.today/pump-prices-tumble-amid-new-petrojam-commodity-index-update/
+downloads/JAM/html/ourtoday_20240118.html,63365,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/JAM/obs_extract.py,746,helper script
+downloads/JAM/obs_extract.txt,25860,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/JAM/obs_gas_urls.txt,3154,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/JAM/ot_extract.py,826,helper script
+downloads/JAM/ot_extract.txt,10477,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/JAM/ot_urls.txt,17297,"derived (text extract, page render, notes or extraction table made in this session from a downloaded file in the same folder)"
+downloads/PET_PRI_REFOTH_A_EPPR_PWG_DPGAL_M.xls,52224,downloaded from https://www.eia.gov/dnav/pet/xls/PET_PRI_REFOTH_A_EPPR_PWG_DPGAL_M.xls
+downloads/PET_PRI_REFOTH_A_EPPV_PWG_DPGAL_M.xls,238592,downloaded from https://www.eia.gov/dnav/pet/xls/PET_PRI_REFOTH_A_EPPV_PWG_DPGAL_M.xls
+downloads/PET_PRI_SPT_S1_A.xls,54784,downloaded from https://www.eia.gov/dnav/pet/xls/PET_PRI_SPT_S1_A.xls
+downloads/PET_PRI_SPT_S1_M.xls,208896,downloaded from https://www.eia.gov/dnav/pet/xls/PET_PRI_SPT_S1_M.xls
+downloads/aeo2025/highprice_aeotab12.xlsx,28836,downloaded from https://www.eia.gov/outlooks/archive/aeo25/excel/sidecases/highprice/aeotab12.xlsx
+downloads/aeo2025/highprice_aeotab13.xlsx,21588,downloaded from https://www.eia.gov/outlooks/archive/aeo25/excel/sidecases/highprice/aeotab13.xlsx
+downloads/aeo2025/highprice_aeotab15.xlsx,21720,downloaded from https://www.eia.gov/outlooks/archive/aeo25/excel/sidecases/highprice/aeotab15.xlsx
+downloads/aeo2025/lowprice_aeotab12.xlsx,28789,downloaded from https://www.eia.gov/outlooks/archive/aeo25/excel/sidecases/lowprice/aeotab12.xlsx
+downloads/aeo2025/lowprice_aeotab13.xlsx,21554,downloaded from https://www.eia.gov/outlooks/archive/aeo25/excel/sidecases/lowprice/aeotab13.xlsx
+downloads/aeo2025/lowprice_aeotab15.xlsx,21648,downloaded from https://www.eia.gov/outlooks/archive/aeo25/excel/sidecases/lowprice/aeotab15.xlsx
+downloads/aeo2025/ref_aeotab12.xlsx,28691,downloaded from https://www.eia.gov/outlooks/archive/aeo25/excel/aeotab12.xlsx
+downloads/aeo2025/ref_aeotab13.xlsx,21311,downloaded from https://www.eia.gov/outlooks/archive/aeo25/excel/aeotab13.xlsx
+downloads/aeo2025/ref_aeotab15.xlsx,21768,downloaded from https://www.eia.gov/outlooks/archive/aeo25/excel/aeotab15.xlsx
+downloads/aeo2026/ref_aeotab12.xlsx,28230,downloaded from https://www.eia.gov/outlooks/archive/aeo25/excel/aeotab12.xlsx
+downloads/aeo2026/ref_aeotab13.xlsx,20959,downloaded from https://www.eia.gov/outlooks/archive/aeo25/excel/aeotab13.xlsx
+downloads/conversion/IPCC2006_V2_1_Ch1_Introduction.pdf,875553,downloaded from https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/2_Volume2/V2_1_Ch1_Introduction.pdf
+downloads/conversion/UNSD_EnergyYearbook2023_09ii.pdf,118014,downloaded from https://unstats.un.org/unsd/energystats/pubs/yearbook/2023/09ii.pdf
+downloads/conversion/eia_faq_heat_content_ng.html,52046,downloaded from https://www.eia.gov/tools/faqs/faq.php?id=45&t=8
+downloads/eia_aeo25_ref.html,120601,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/eia_aeo25_side.html,214561,downloaded from https://www.eia.gov/outlooks/archive/aeo25/tables_side_xls.php
+downloads/eia_aeo_index.html,62428,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/eia_aeo_side.html,214582,downloaded from https://www.eia.gov/outlooks/aeo/tables_side_xls.php
+downloads/eia_epm/epm_index.html,132154,downloaded public file (origin listed in the folder's notes file or sources.csv)
+downloads/eia_epm/table_4_01.xlsx,19459,downloaded from https://www.eia.gov/electricity/monthly/xls/table_4_01.xlsx
+downloads/eia_epm/table_4_01continued.xlsx,19379,downloaded from https://www.eia.gov/electricity/monthly/xls/table_4_01continued.xlsx
+downloads/eia_ng/NG_MOVE_EXPC_S1_M.xls,267776,downloaded from https://www.eia.gov/dnav/ng/xls/NG_MOVE_EXPC_S1_M.xls
+downloads/eia_ng/NG_PRI_FUT_S1_M.xls,83456,downloaded from https://www.eia.gov/dnav/ng/xls/NG_PRI_FUT_S1_M.xls
+downloads/eia_ng/NG_PRI_SUM_DCU_NUS_M.xls,108032,downloaded from https://www.eia.gov/dnav/ng/xls/NG_PRI_SUM_DCU_NUS_M.xls
+downloads/lng/CRS_R45006_2017.html,71292,downloaded from https://www.everycrsreport.com/files/20171101_R45006_df0760946ebf24c3b677c09eacc757679458e113.html
+downloads/lng/lngindustry_caribbean_part2.html,180694,downloaded from https://www.lngindustry.com/liquefaction/29112017/will-a-gas-market-develop-in-the-caribbean-part-two
+downloads/wb_commodity_markets.html,56230,downloaded from https://www.worldbank.org/en/research/commodity-markets
+file_inventory.csv,101392,output
+history.py,12250,helper script
+history_ratios.csv,746,output
+history_usd_per_gj.csv,47758,output
+list_files.py,2008,helper script
+monthly_benchmarks.csv,11283,output
+projection_method.md,5477,output
+projections.csv,182849,output
+projections.py,3627,helper script
+projections_usd_per_gj.csv,16813,output
+projections_wb_cmo.py,1568,helper script
+read_ao_2025.py,4056,helper script
+sanity.py,1098,helper script
+sanity_check_2025.csv,2028,output
+sources.csv,193159,output
+sources_core.csv,9260,output

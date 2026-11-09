@@ -1,0 +1,140 @@
+# Climate Lead Group
+# MOMF Grafication Module
+
+# @author: andreysava
+
+
+# This file is to manage configuration parameters
+# of the script plot_csvs.py
+
+# Note 1: Make configuration from top to bottom
+# Note 2: Read each one comment of the file
+
+# First: Model
+model: 'MOMF' # Don't change
+tier: '1' # Don't change
+
+# Second: Select folders
+tier1_dir: './Executables' # Don't change
+vis_dir: 'Visualizations' # Only change if you want to change the folder name where save png plots files
+out_dir: '/Outputs' # Don't change
+info_filename: 'Informacion_preliminar_graficacion.txt' # Only change if you want to change the file name where write preliminar info available
+
+# Third: Fill with scenarios
+scens: ['BAU', 'NDP']
+
+# Fourth: Select if you want see information
+# Recomendation: Ever put as true in the first run. Run plot_csvs.py now
+info: False
+
+# Fifth: Set years for plots
+start_year: 2020 # This is the first year for the ticks in the plot
+separation_years: 5 # This is the gap  between each tick in the plot
+
+# Sixth: Fill list of each parameter with technologies you want to plot
+# Year to apply discount rate
+year_apply_discount_rate: 2021
+
+#Check the second word of names of the list are the same than the scenario
+# BAU
+techs_BAU_AccumulatedNewCapacity: [[], []]
+techs_BAU_AnnualEmissions: [[], []]
+techs_BAU_AnnualFixedOperatingCost: [[], []]
+techs_BAU_AnnualTechnologyEmission: [[], []]
+techs_BAU_AnnualTechnologyEmissionPenaltyByEmission: [[], []]
+techs_BAU_AnnualTechnologyEmissionsPenalty: [[], []]
+techs_BAU_AnnualVariableOperatingCost: [[], []]
+techs_BAU_CapitalInvestment: [[], []]
+techs_BAU_Demand: [[], []]
+techs_BAU_DiscountedSalvageValue: [[], []]
+techs_BAU_DiscountedTechnologyEmissionsPenalty: [[], []]
+techs_BAU_NewCapacity: [['DIST_DSL', 'DIST_GSL'], []]
+techs_BAU_ProductionByTechnology: [[], []]
+techs_BAU_RateOfProductionByTechnology: [[], []]
+techs_BAU_RateOfProductionByTechnologyByMode: [[], []]
+techs_BAU_SalvageValue: [[], []]
+techs_BAU_TotalCapacityAnnual: [[], []]
+techs_BAU_TotalDiscountedCost: [[], []]
+techs_BAU_TotalDiscountedCostByTechnology: [[], []]
+techs_BAU_TotalTechnologyAnnualActivity: [[], []]
+techs_BAU_UseByTechnology: [[], []]
+techs_BAU_Capex${year_apply_discount_rate}: [[], []] # Do not change ${year_apply_discount_rate}, the script update automatically with year defined before
+techs_BAU_Externalities${year_apply_discount_rate}: [[], []]
+techs_BAU_FixedOpex${year_apply_discount_rate}: [[], []]
+techs_BAU_Opex${year_apply_discount_rate}: [[], []]
+techs_BAU_VarOpex${year_apply_discount_rate}: [[], []]
+
+# NDP
+techs_NDP_AccumulatedNewCapacity: [[], []]
+techs_NDP_AnnualEmissions: [[], []]
+techs_NDP_AnnualFixedOperatingCost: [[], []]
+techs_NDP_AnnualTechnologyEmission: [[], []]
+techs_NDP_AnnualTechnologyEmissionPenaltyByEmission: [[], []]
+techs_NDP_AnnualTechnologyEmissionsPenalty: [[], []]
+techs_NDP_AnnualVariableOperatingCost: [[], []]
+techs_NDP_CapitalInvestment: [[], []]
+techs_NDP_Demand: [[], []]
+techs_NDP_DiscountedSalvageValue: [[], []]
+techs_NDP_DiscountedTechnologyEmissionsPenalty: [[], []]
+techs_NDP_NewCapacity: [[], []]
+techs_NDP_ProductionByTechnology: [[], []]
+techs_NDP_RateOfProductionByTechnology: [[], []]
+techs_NDP_RateOfProductionByTechnologyByMode: [[], []]
+techs_NDP_SalvageValue: [[], []]
+techs_NDP_TotalCapacityAnnual: [[], []]
+techs_NDP_TotalDiscountedCost: [[], []]
+techs_NDP_TotalDiscountedCostByTechnology: [[], []]
+techs_NDP_TotalTechnologyAnnualActivity: [['DIST_DSL', 'DIST_GSL', 'DIST_LPG'], ['PJ']]
+techs_NDP_UseByTechnology: [[], []]
+techs_NDP_Capex${year_apply_discount_rate}: [[], []]
+techs_NDP_Externalities${year_apply_discount_rate}: [[], []]
+techs_NDP_FixedOpex${year_apply_discount_rate}: [[], []]
+techs_NDP_Opex${year_apply_discount_rate}: [[], []]
+techs_NDP_VarOpex${year_apply_discount_rate}: [[], []]
+
+
+
+
+# Seventh: Select configuration of plots
+show_fig: False # If you want to show figure window
+plot_type: 'stacked_bar' # If you want stacked bar chart, options available: 'bar', 'stacked_bar'
+visible_legend: True # If you want to see legend box
+save_fig: True  # If you want save figure
+
+# Eighth: General variables
+# Do not change
+df_all: [
+  'Parameter',
+  'REGION',
+  'MODE_OF_OPERATION',
+  'TECHNOLOGY',
+  'FUEL',
+  'EMISSION',
+  'YEAR',
+  'TIMESLICE',
+  'VALUE'
+  ]
+
+oner: [
+  'REGION',
+  'MODE_OF_OPERATION',
+  'TECHNOLOGY',
+  'FUEL',
+  'EMISSION',
+  'YEAR',
+  'TIMESLICE'
+  ]
+
+sets_otoole: [
+  'YEAR',
+  'TECHNOLOGY',
+  'TIMESLICE',
+  'FUEL',
+  'EMISSION',
+  'MODE_OF_OPERATION',
+  'REGION',
+  'SEASON',
+  'DAYTYPE',
+  'DAILYTIMEBRACKET',
+  'STORAGE'
+  ]

@@ -1,0 +1,166 @@
+{'CR':
+{'PV':{'PWRSPVTRN'}, 'WND':{'PWRWNONS'}},
+
+'ECU':
+{'PV':{'PPPVT','PPPVTS'}, 'WND':{'PPWNDON'}},
+
+'HON':
+{'PV':{'PPPVT','PPPVTS'}, 'WND':{'PPWNDON','PPWNDS'}},
+
+'JAM':
+{'PV':{'PPPVT','PPPVTS'}, 'WND':{'PPWNDON','PPWNDONS','PPWNDOFF'}},
+
+'GUA':
+{'PV':{'PPPVTS','PPPVT2','PPPVT'}, 'WND':{'PPWNDON'}},
+
+'RD':
+{'PV':{'PPPVT'}, 'WND':{'PPWNDON'}}
+}
+
+
+
+Costa Rica: CR
+
+Se usan solo las tecnologías:
+
+PWRSPVTRN	Primary - Transformation - Photovoltaic in Transmisión
+PWRWNONS	Primary - Transformation - On shore Wind
+
+¿Hay que cambiar los costos? SÍ
+
+Nombres de escenarios: BAU, LTSNEW, LTSOPT, NDCNEW
+
+
+
+
+Ecuador: ECU
+
+Se usan solo las tecnologías:
+
+PPPVT	Primary - Transformation - Transmission Solar
+PPPVTS	Primary - Transformation - Transmission Solar with battery storage
+PPWNDON	Primary - Transformation - Wind
+
+¿Hay que cambiar los costos? SÍ
+
+Nombres de escenarios: BAU, BAU1NDC, LTSNEW, NDCCON, NDCINC, NDCNEW
+
+
+
+
+Honduras
+
+Se usan solo las tecnologías:
+
+PPWNDON	Primary - Transformation - Wind
+PPWNDS	Primary - Transformation - Wind with Storage
+PPPVT	Primary - Transformation - Transmission Solar
+PPPVTS	Primary - Transformation - Transmission Solar with battery storage
+
+¿Hay que cambiar los costos? SÍ
+
+Nombres de escenarios: BAU, LTSNEW, NDCcond, NDCNEW
+
+
+
+
+Jamaica
+
+Se usan solo las tecnologías:
+
+PPWNDON		Primary - Transformation - Wind
+PPWNDONS	Primary - Transformation - Wind with Battery Storage
+PPWNDOFF	Primary - Transformation - Wind Offshore
+PPPVT		Primary - Transformation - Transmission Solar
+PPPVTS		Primary - Transformation - Transmission Solar with battery storage
+
+¿Hay que cambiar los costos? SÍ
+
+Nombres de escenarios: BAU, LTSNEW, NDCNEW
+
+
+
+
+Guatemala
+
+Se usan solo las tecnologías:
+
+PPWNDON		Primary - Transformation - Wind
+PPPVTS		PPPVTS	Primary - Transformation - Transmission Solar with battery storage
+PPPVT2		Primary - Transformation - Transmission Solar
+PPPVT		Primary - Transformation - Transmission Solar
+
+¿Hay que cambiar los costos? SÍ
+
+Nombres de escenarios: BAU, LTSNEW, NDCNEW
+
+
+
+
+
+República Dominicana
+
+Se usan solo las tecnologías:
+
+PPWNDON		Primary - Transformation - Wind
+PPPVT	Primary - Transformation - Transmission Solar
+
+¿Hay que cambiar los costos? SÍ
+
+Nombres de escenarios: BAU, LTSNEW, NDCNEW, NDCincond, NDCcond
+
+
+
+CODIGO PYTHON
+
+    base_configuration_re_cost_corr = pd.read_excel('B1_Scenario_Config.xlsx', sheet_name='RE_Cost_Corr')
+
+        # RE_Cost_Corr
+        if scenario_list[s] in list(set(base_configuration_re_cost_corr['Scenario'].tolist())):            
+            ''' MODIFYING *base_configuration_re_cost_corr* '''
+            this_scenario_df = deepcopy(base_configuration_re_cost_corr.loc[base_configuration_re_cost_corr['Scenario'].isin([scenario_list[s]])])
+
+            # Reset index for the filtered DataFrame and drop the old index
+            this_scenario_df.reset_index(drop=True, inplace=True)
+            
+            this_scenario_df_indices_list = this_scenario_df.index.tolist()         
+            #
+            for i in range(len(this_scenario_df_indices_list)):
+                #
+                set_item = this_scenario_df['Set'].tolist()[i]
+                #
+                re_cost_corr_Params_built_in = this_scenario_df['Built-in Parameter-Set'].tolist()[i]
+                re_cost_corr_Params_reference = this_scenario_df['Reference'].tolist()[i]
+                re_cost_corr_Params_method = this_scenario_df['Method'].tolist()[i]
+                re_cost_corr_Params_setIndex = this_scenario_df['Set_Index'].tolist()[i]
+                #
+                param_list = this_scenario_df['Parameter'].tolist()[i].split(' ; ')
+                param_str = this_scenario_df['Parameter'].tolist()[i]
+
+                for p in range(len(param_list)):
+                    this_scenario_set_param_df = this_scenario_df.loc[(this_scenario_df['Parameter'] == param_str) & (this_scenario_df['Set'] == set_item)]
+                    #                    
+                    if re_cost_corr_Params_method == 'Exact': # only modify demands and capacities if this is turned on
+                        value_list_new_vals = []
+                        this_index = this_scenario_set_param_df.index.tolist()[0]
+                        for y in range(len(time_range_vector)):
+                            value_list_new_vals.append(this_scenario_set_param_df.loc[this_index, time_range_vector[y]])
+                        #
+                        # OBTAINED VALUES, NOW PRINTING
+                        if re_cost_corr_Params_built_in == 'YES':
+                            if re_cost_corr_Params_setIndex not in ['e']:
+                                this_param_indices = [i for i, x in enumerate(stable_scenarios[scenario_list[s]][param_list[p]][re_cost_corr_Params_setIndex]) if x == set_item]
+                                value_list = deepcopy(stable_scenarios[scenario_list[s]][param_list[p]]['value'][this_param_indices[0]:this_param_indices[-1]+1])
+                                value_list = [float(e) for e in value_list]
+                                #
+                                new_value_list = [round(value_list_new_vals[e], 4) for e in range(len(value_list))]
+                                stable_scenarios[scenario_list[s]][param_list[p]]['value'][this_param_indices[0]:this_param_indices[-1]+1] = deepcopy(new_value_list)
+
+                            else:
+                                
+                                for ite in range(len(value_list_new_vals)):
+                                    stable_scenarios[scenario_list[s]][param_list[p]]['r'].append(REGION_STR)
+                                    stable_scenarios[scenario_list[s]][param_list[p]]['e'].append(set_item)
+                                    stable_scenarios[scenario_list[s]][param_list[p]]['y'].append(str(time_range_vector[ite]))
+                                    stable_scenarios[scenario_list[s]][param_list[p]]['value'].append(value_list_new_vals[ite])
+

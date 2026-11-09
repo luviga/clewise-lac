@@ -1,0 +1,11 @@
+{
+  "generated_at": "20260511_205736",
+  "root": "C:\\Users\\luisfernando\\Dropbox\\2_WORK\\MODELS_LAC_4",
+  "country": "Ecuador",
+  "fuel_workbook": "C:\\Users\\luisfernando\\Downloads\\LAC_Fuel_Price_Projections_2026_v2_audit.xlsx",
+  "fuel_scenario": "REF",
+  "include_review_manifest": true,
+  "replace_existing_fuel_costs": false,
+  "top_candidates": 5,
+  "warnings": []
+}

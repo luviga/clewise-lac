@@ -1,0 +1,11 @@
+{
+  "generated_at": "20261108_154313",
+  "root": "C:\\Users\\luisfernando\\Desktop\\OSeMOSYS\\MODELS_LAC_5",
+  "country": "Guatemala",
+  "fuel_workbook": "C:\\Users\\luisfernando\\Desktop\\OSeMOSYS\\MODELS_LAC_5\\LAC_Fuel_Price_Projections_2026_v2_audit.xlsx",
+  "fuel_scenario": "REF",
+  "include_review_manifest": false,
+  "replace_existing_fuel_costs": true,
+  "top_candidates": 5,
+  "warnings": []
+}

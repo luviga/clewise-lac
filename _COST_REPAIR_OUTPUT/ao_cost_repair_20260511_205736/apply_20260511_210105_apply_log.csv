@@ -1,0 +1,2 @@
+﻿apply_id,timestamp,manifest_path,country,ao_path,backup_path,dry_run,approved_cells_seen,cells_changed,projection_modes_changed
+apply_20260511_210105,20260511_210106,C:\Users\luisfernando\Dropbox\2_WORK\MODELS_LAC_4\_COST_REPAIR_OUTPUT\ao_cost_repair_20260511_205736\manifest.csv,Ecuador,C:\Users\luisfernando\Dropbox\2_WORK\MODELS_LAC_4\Ecuador\ECU_Energy\A1_Outputs\A-O_Parametrization.xlsx,,YES,3210,3210,107

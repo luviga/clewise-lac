@@ -1,0 +1,7 @@
+./ao_cost_repair_manager.py
+./ao_safe_save.py
+./Ecuador/ECU_Energy/A1_Outputs/A-O_Parametrization.xlsx
+./Ecuador/ECU_Energy/A1_Outputs/patch_ao_ecuador_hydro.py
+./Jamaica/JAM_ENERGY/A1_Outputs/A-O_Parametrization.xlsx
+./Jamaica/JAM_ENERGY/apply_ao_edits.py
+./test_ao_safe_save.py

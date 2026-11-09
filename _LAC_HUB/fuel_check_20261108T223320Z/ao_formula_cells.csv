@@ -1,0 +1,51 @@
+country,sheet,max_row,max_col,header_row,formula_cells_sheet,formula_cells_in_VariableCost_rows
+CostaRica,Fixed Horizon Parameters,299,16383,1,296,0
+CostaRica,Primary Techs,251,39,1,434,0
+CostaRica,Secondary Techs,161,39,1,334,0
+CostaRica,Other_Techs,4,37,1,1,0
+CostaRica,Vehicle Techs,233,40,1,341,0
+CostaRica,Demand Techs,103,38,1,99,0
+CostaRica,Vehicle Groups,21,41,1,0,0
+CostaRica,Transport Fuel Distribution,55,38,1,3,0
+DominicanRepublic,Fixed Horizon Parameters,341,9,1,314,0
+DominicanRepublic,Primary Techs,261,42,1,529,0
+DominicanRepublic,Secondary Techs,271,42,1,1264,0
+DominicanRepublic,Demand Techs,106,41,1,0,0
+DominicanRepublic,Other_Techs,3,40,1,0,0
+DominicanRepublic,Vehicle Techs,226,45,1,2,0
+DominicanRepublic,Vehicle Groups,27,41,1,0,0
+DominicanRepublic,Transport Fuel Distribution,76,41,1,0,0
+Ecuador,Fixed Horizon Parameters,223,8,1,220,0
+Ecuador,Primary Techs,401,38,1,390,0
+Ecuador,Secondary Techs,251,38,1,150,0
+Ecuador,Demand Techs,202,38,1,230,0
+Ecuador,Transport Fuel Distribution,4,38,1,0,0
+Ecuador,Vehicle Techs,6,39,1,0,0
+Ecuador,Vehicle Groups,3,38,1,0,0
+Ecuador,Other_Techs,2,37,1,0,0
+Guatemala,Fixed Horizon Parameters,265,9,1,0,0
+Guatemala,Primary Techs,315,42,1,598,2
+Guatemala,Secondary Techs,13,42,1,0,0
+Guatemala,Vehicle Techs,220,44,1,285,0
+Guatemala,Demand Techs,85,42,1,0,0
+Guatemala,Transport Fuel Distribution,55,42,1,0,0
+Guatemala,Vehicle Groups,21,42,1,0,0
+Guatemala,Other_Techs,3,43,1,0,0
+Honduras,Fixed Horizon Parameters,247,9,1,0,0
+Honduras,Primary Techs,251,42,1,113,3
+Honduras,Secondary Techs,126,42,1,117,7
+Honduras,Demand Techs,130,42,1,0,0
+Honduras,Transport Fuel Distribution,52,41,1,0,0
+Honduras,Vehicle Techs,151,42,1,0,0
+Honduras,Vehicle Groups,19,42,1,0,0
+Honduras,Other_Techs,3,40,1,0,0
+Honduras,growth_formula,11,37,,250,0
+Jamaica,Fixed Horizon Parameters,317,13,1,314,0
+Jamaica,Primary Techs,461,46,1,213,26
+Jamaica,Secondary Techs,181,44,1,411,0
+Jamaica,Demand Techs,369,43,1,323,0
+Jamaica,Transport Fuel Distribution,4,43,1,0,0
+Jamaica,Vehicle Techs,6,44,1,0,0
+Jamaica,Vehicle Groups,3,43,1,0,0
+Jamaica,growth_formula,8,34,,0,0
+Jamaica,Other_Techs,1,37,1,0,0

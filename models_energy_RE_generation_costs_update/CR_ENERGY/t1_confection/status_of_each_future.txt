@@ -1,0 +1,23 @@
+Status of solution of each future.
+Write in order of solution.
+
+
+################################# BAU #################################
+
+
+
+BAU_0: Optimal solution.
+
+
+################################# NDC #################################
+
+
+
+NDCcond_0: Optimal solution.
+
+
+################################# NDC #################################
+
+
+
+NDCincond_0: Optimal solution.

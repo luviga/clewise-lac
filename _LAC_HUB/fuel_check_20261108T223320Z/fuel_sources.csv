@@ -1,0 +1,173 @@
+item,iso,fuel_code,source_id,class,reason
+Anchors_Countries!D5,HND,GSL,S013,NR,derived from the super price with an assumed HNL 2.10/L spread; S013 gives super only
+Anchors_Countries!D6,HND,GSP,S013,NR,GlobalPetrolPrices country page shows the current price; the 20 Apr 2026 value is not fixed at that URL
+Anchors_Countries!D7,HND,DSL,S014,NR,April estimate (+22% on a March quote); value not stated by any source
+Anchors_Countries!D8,HND,LPG,S013,NR,estimate from regional refinery economics; S013 is a gasoline page
+Anchors_Countries!D9,HND,KRS,S013,NR,estimate from a diesel-kerosene spread
+Anchors_Countries!D10,HND,JTA,S013,NR,estimate from a jet netback
+Anchors_Countries!D11,HND,HFO,S013,NR,estimate from Brent minus an assumed HFO discount
+Anchors_Countries!D12,CRI,GSL,S016,R,Tico Times article dated 1 May 2026 states CRC 748/L
+Anchors_Countries!D13,CRI,GSP,S016,R,Tico Times article dated 1 May 2026 states CRC 733/L
+Anchors_Countries!D14,CRI,DSL,S015/S016,NR,midpoint of a range built from two sources; CRC 626/L is stated by neither
+Anchors_Countries!D15,CRI,LPG,S016,NR,estimate from a cylinder price and an assumed density; not in the S016 description
+Anchors_Countries!D16,CRI,KRS,S015,NR,estimate: diesel minus CRC 100/L
+Anchors_Countries!D17,CRI,JTA,S015,NR,estimate: about 10% below retail diesel
+Anchors_Countries!D18,CRI,HFO,S015,NR,estimate from an international HFO netback
+Anchors_Countries!D19,JAM,GSL,S017,R,Petrojam dated price page states JMD 190.13/L
+Anchors_Countries!D20,JAM,GSP,S017,R,Petrojam dated price page states JMD 197.58/L
+Anchors_Countries!D21,JAM,DSL,S017,R,Petrojam dated price page states JMD 197.75/L
+Anchors_Countries!D22,JAM,LPG,S017,NR,anchor 0.59 USD/L does not equal the published propane JMD 82.28/L / 157 = 0.52; weighting not shown
+Anchors_Countries!D23,JAM,KRS,S017,R,Petrojam dated price page states JMD 182.40/L
+Anchors_Countries!D24,JAM,JTA,S017,NR,'JMD ~141/L est'; an estimate
+Anchors_Countries!D25,JAM,HFO,S017,R,Petrojam dated price page states JMD 137.01/L
+Anchors_Countries!D26,DOM,GSL,S019,R,MICM dated resolution article states RD$301.50/gal
+Anchors_Countries!D27,DOM,GSP,S019,R,MICM dated resolution article states RD$323.10/gal
+Anchors_Countries!D28,DOM,DSL,S019,R,MICM dated resolution article states RD$253.80/gal
+Anchors_Countries!D29,DOM,LPG,S019,R,MICM dated resolution article states RD$137.20/gal
+Anchors_Countries!D30,DOM,KRS,S020,R,Diario Libre dated article states RD$364.00/gal
+Anchors_Countries!D31,DOM,JTA,S020,R,Diario Libre dated article states RD$321.86/gal
+Anchors_Countries!D32,DOM,HFO,S020,R,Diario Libre dated article states Fuel Oil #6 RD$198.42/gal
+Anchors_Countries!D33,ECU,GSL,S022,R,Primicias dated article states USD 3.024/gal
+Anchors_Countries!D34,ECU,GSP,S022,R,Primicias dated article states USD 4.57/gal
+Anchors_Countries!D35,ECU,DSL,S022,R,Primicias dated article states USD 2.962/gal
+Anchors_Countries!D36,ECU,LPG,S023,NR,"cylinder-based estimate; the S023 description covers the diesel-2 subsidy, not LPG"
+Anchors_Countries!D37,ECU,KRS,S022,NR,estimate: 'similar to Extra gasoline'
+Anchors_Countries!D38,ECU,JTA,S022,NR,estimate: about 3-4% over diesel
+Anchors_Countries!D39,ECU,HFO,S023,NR,value is an implied diesel-2 power-generation parity labelled as fuel oil; derivation not shown
+Anchors_Countries!D40,GTM,GSL,S024,NR,MEM weekly price landing page; the 5-11 May 2026 week is not fixed at that URL
+Anchors_Countries!D41,GTM,GSP,S024,NR,MEM weekly price landing page; week not fixed at that URL
+Anchors_Countries!D42,GTM,DSL,S024,NR,MEM weekly price landing page; week not fixed at that URL
+Anchors_Countries!D43,GTM,LPG,S024,NR,estimate from regional cylinder pricing
+Anchors_Countries!D44,GTM,KRS,S024,NR,estimate from a diesel-kerosene spread
+Anchors_Countries!D45,GTM,JTA,S024,NR,"bulk airport price, estimated"
+Anchors_Countries!D46,GTM,HFO,S024,NR,Brent-discounted estimate
+Anchors_Countries!D50,DOM,NGS,S019,NR,published RD$43.97/m3 replaced by an unsourced 'typical industrial price' of 12.20 USD/MMBtu
+Anchors_Countries!D51,JAM,NGS,S017,NR,estimate HH + freight + margin; S017 (Petrojam) has no LNG price
+Anchors_International Brent 2018 REF,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2018 HIGH,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2018 LOW,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2019 REF,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2019 HIGH,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2019 LOW,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2020 REF,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2020 HIGH,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2020 LOW,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2021 REF,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2021 HIGH,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2021 LOW,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2022 REF,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2022 HIGH,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2022 LOW,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2023 REF,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2023 HIGH,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2023 LOW,WORLD,CRD (and every country fuel via the Brent ratio),S029,R,Energy Institute Statistical Review annual average (historical series)
+Anchors_International Brent 2024 REF,WORLD,CRD (and every country fuel via the Brent ratio),S006,NR,"EIA STEO landing page shows the latest edition, not April 2026"
+Anchors_International Brent 2024 HIGH,WORLD,CRD (and every country fuel via the Brent ratio),S006,NR,"EIA STEO landing page shows the latest edition, not April 2026"
+Anchors_International Brent 2024 LOW,WORLD,CRD (and every country fuel via the Brent ratio),S006,NR,"EIA STEO landing page shows the latest edition, not April 2026"
+Anchors_International Brent 2025 REF,WORLD,CRD (and every country fuel via the Brent ratio),S008,R,World Bank press release dated 28 Apr 2026
+Anchors_International Brent 2025 HIGH,WORLD,CRD (and every country fuel via the Brent ratio),S008,R,World Bank press release dated 28 Apr 2026
+Anchors_International Brent 2025 LOW,WORLD,CRD (and every country fuel via the Brent ratio),S008,R,World Bank press release dated 28 Apr 2026
+Anchors_International Brent 2026 REF,WORLD,CRD (and every country fuel via the Brent ratio),S006/S008,NR,"REF from the EIA STEO landing page; HIGH from the WB release; LOW = 96 chosen as 'transition year', not labelled ASSUMPTION"
+Anchors_International Brent 2026 HIGH,WORLD,CRD (and every country fuel via the Brent ratio),S006/S008,R,"REF from the EIA STEO landing page; HIGH from the WB release; LOW = 96 chosen as 'transition year', not labelled ASSUMPTION"
+Anchors_International Brent 2026 LOW,WORLD,CRD (and every country fuel via the Brent ratio),S006/S008,NONE,"REF from the EIA STEO landing page; HIGH from the WB release; LOW = 96 chosen as 'transition year', not labelled ASSUMPTION"
+Anchors_International Brent 2027 REF,WORLD,CRD (and every country fuel via the Brent ratio),S006,NR,REF/LOW from the EIA STEO landing page; HIGH = 100 'slow recovery' has no source
+Anchors_International Brent 2027 HIGH,WORLD,CRD (and every country fuel via the Brent ratio),S006,NONE,REF/LOW from the EIA STEO landing page; HIGH = 100 'slow recovery' has no source
+Anchors_International Brent 2027 LOW,WORLD,CRD (and every country fuel via the Brent ratio),S006,NR,REF/LOW from the EIA STEO landing page; HIGH = 100 'slow recovery' has no source
+Anchors_International Brent 2030 REF,WORLD,CRD (and every country fuel via the Brent ratio),S002/S003,NONE,author's transition values; no source states them; not labelled ASSUMPTION
+Anchors_International Brent 2030 HIGH,WORLD,CRD (and every country fuel via the Brent ratio),S002/S003,NONE,author's transition values; no source states them; not labelled ASSUMPTION
+Anchors_International Brent 2030 LOW,WORLD,CRD (and every country fuel via the Brent ratio),S002/S003,NONE,author's transition values; no source states them; not labelled ASSUMPTION
+Anchors_International Brent 2035 REF,WORLD,CRD (and every country fuel via the Brent ratio),S002/S003/S005,R,IEA WEO 2025 STEPS/CPS/NZE values per the IISD table
+Anchors_International Brent 2035 HIGH,WORLD,CRD (and every country fuel via the Brent ratio),S002/S003/S005,R,IEA WEO 2025 STEPS/CPS/NZE values per the IISD table
+Anchors_International Brent 2035 LOW,WORLD,CRD (and every country fuel via the Brent ratio),S002/S003/S005,R,IEA WEO 2025 STEPS/CPS/NZE values per the IISD table
+Anchors_International Brent 2040 REF,WORLD,CRD (and every country fuel via the Brent ratio),S002/S003,NR,described as 'path'/'interpolation'; values not stated by the source
+Anchors_International Brent 2040 HIGH,WORLD,CRD (and every country fuel via the Brent ratio),S002/S003,NR,described as 'path'/'interpolation'; values not stated by the source
+Anchors_International Brent 2040 LOW,WORLD,CRD (and every country fuel via the Brent ratio),S002/S003,NR,described as 'path'/'interpolation'; values not stated by the source
+Anchors_International Brent 2045 REF,WORLD,CRD (and every country fuel via the Brent ratio),S002/S003,NR,described as 'path'/'interpolation'; values not stated by the source
+Anchors_International Brent 2045 HIGH,WORLD,CRD (and every country fuel via the Brent ratio),S002/S003,NR,described as 'path'/'interpolation'; values not stated by the source
+Anchors_International Brent 2045 LOW,WORLD,CRD (and every country fuel via the Brent ratio),S002/S003,NR,described as 'path'/'interpolation'; values not stated by the source
+Anchors_International Brent 2050 REF,WORLD,CRD (and every country fuel via the Brent ratio),S002/S003/S005,R,IEA WEO 2025 values per the IISD table
+Anchors_International Brent 2050 HIGH,WORLD,CRD (and every country fuel via the Brent ratio),S002/S003/S005,R,IEA WEO 2025 values per the IISD table
+Anchors_International Brent 2050 LOW,WORLD,CRD (and every country fuel via the Brent ratio),S002/S003/S005,R,IEA WEO 2025 values per the IISD table
+Anchors_International Coal 2024 REF,WORLD,COA,S008,NR,WB press release description gives Brent only; coal values not in it
+Anchors_International Coal 2024 HIGH,WORLD,COA,S008,NR,WB press release description gives Brent only; coal values not in it
+Anchors_International Coal 2024 LOW,WORLD,COA,S008,NR,WB press release description gives Brent only; coal values not in it
+Anchors_International Coal 2025 REF,WORLD,COA,S008,NR,WB press release description gives Brent only; coal values not in it
+Anchors_International Coal 2025 HIGH,WORLD,COA,S008,NR,WB press release description gives Brent only; coal values not in it
+Anchors_International Coal 2025 LOW,WORLD,COA,S008,NR,WB press release description gives Brent only; coal values not in it
+Anchors_International Coal 2026 REF,WORLD,COA,S008,NR,WB press release description gives Brent only; coal values not in it
+Anchors_International Coal 2026 HIGH,WORLD,COA,S008,NR,WB press release description gives Brent only; coal values not in it
+Anchors_International Coal 2026 LOW,WORLD,COA,S008,NR,WB press release description gives Brent only; coal values not in it
+Anchors_International Coal 2030 REF,WORLD,COA,S002/S003,NR,'IEA paths'; values not stated
+Anchors_International Coal 2030 HIGH,WORLD,COA,S002/S003,NR,'IEA paths'; values not stated
+Anchors_International Coal 2030 LOW,WORLD,COA,S002/S003,NR,'IEA paths'; values not stated
+Anchors_International Coal 2035 REF,WORLD,COA,S002/S003,NR,'IEA paths'; values not stated
+Anchors_International Coal 2035 HIGH,WORLD,COA,S002/S003,NR,'IEA paths'; values not stated
+Anchors_International Coal 2035 LOW,WORLD,COA,S002/S003,NR,'IEA paths'; values not stated
+Anchors_International Coal 2040 REF,WORLD,COA,S002/S003,NR,'IEA paths'; values not stated
+Anchors_International Coal 2040 HIGH,WORLD,COA,S002/S003,NR,'IEA paths'; values not stated
+Anchors_International Coal 2040 LOW,WORLD,COA,S002/S003,NR,'IEA paths'; values not stated
+Anchors_International Coal 2045 REF,WORLD,COA,S002/S003,NR,'IEA paths'; values not stated
+Anchors_International Coal 2045 HIGH,WORLD,COA,S002/S003,NR,'IEA paths'; values not stated
+Anchors_International Coal 2045 LOW,WORLD,COA,S002/S003,NR,'IEA paths'; values not stated
+Anchors_International Coal 2050 REF,WORLD,COA,S002/S003,NR,'IEA paths'; values not stated
+Anchors_International Coal 2050 HIGH,WORLD,COA,S002/S003,NR,'IEA paths'; values not stated
+Anchors_International Coal 2050 LOW,WORLD,COA,S002/S003,NR,'IEA paths'; values not stated
+Anchors_International HH 2018 REF,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2018 HIGH,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2018 LOW,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2019 REF,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2019 HIGH,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2019 LOW,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2020 REF,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2020 HIGH,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2020 LOW,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2021 REF,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2021 HIGH,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2021 LOW,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2022 REF,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2022 HIGH,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2022 LOW,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2023 REF,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2023 HIGH,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2023 LOW,WORLD,HH (feeds DOM/JAM NGS),S011,NR,the S011 article covers 2024-2025; earlier years are not in its description
+Anchors_International HH 2024 REF,WORLD,HH (feeds DOM/JAM NGS),S011,R,EIA Today in Energy article states the 2024 and 2025 averages
+Anchors_International HH 2024 HIGH,WORLD,HH (feeds DOM/JAM NGS),S011,R,EIA Today in Energy article states the 2024 and 2025 averages
+Anchors_International HH 2024 LOW,WORLD,HH (feeds DOM/JAM NGS),S011,R,EIA Today in Energy article states the 2024 and 2025 averages
+Anchors_International HH 2025 REF,WORLD,HH (feeds DOM/JAM NGS),S011,R,EIA Today in Energy article states the 2024 and 2025 averages
+Anchors_International HH 2025 HIGH,WORLD,HH (feeds DOM/JAM NGS),S011,R,EIA Today in Energy article states the 2024 and 2025 averages
+Anchors_International HH 2025 LOW,WORLD,HH (feeds DOM/JAM NGS),S011,R,EIA Today in Energy article states the 2024 and 2025 averages
+Anchors_International HH 2026 REF,WORLD,HH (feeds DOM/JAM NGS),S012,NONE,EIA value 3.50 adjusted by +1.00 (REF) and other amounts (HIGH/LOW) without a source
+Anchors_International HH 2026 HIGH,WORLD,HH (feeds DOM/JAM NGS),S012,NONE,EIA value 3.50 adjusted by +1.00 (REF) and other amounts (HIGH/LOW) without a source
+Anchors_International HH 2026 LOW,WORLD,HH (feeds DOM/JAM NGS),S012,NONE,EIA value 3.50 adjusted by +1.00 (REF) and other amounts (HIGH/LOW) without a source
+Anchors_International HH 2027 REF,WORLD,HH (feeds DOM/JAM NGS),S012,R,REF 4.60 stated by S012; HIGH/LOW deviations unsourced
+Anchors_International HH 2027 HIGH,WORLD,HH (feeds DOM/JAM NGS),S012,NONE,REF 4.60 stated by S012; HIGH/LOW deviations unsourced
+Anchors_International HH 2027 LOW,WORLD,HH (feeds DOM/JAM NGS),S012,NONE,REF 4.60 stated by S012; HIGH/LOW deviations unsourced
+Anchors_International HH 2030 REF,WORLD,HH (feeds DOM/JAM NGS),S002/S003/S004,NR,IEA text is qualitative for Henry Hub; values not stated
+Anchors_International HH 2030 HIGH,WORLD,HH (feeds DOM/JAM NGS),S002/S003/S004,NR,IEA text is qualitative for Henry Hub; values not stated
+Anchors_International HH 2030 LOW,WORLD,HH (feeds DOM/JAM NGS),S002/S003/S004,NR,IEA text is qualitative for Henry Hub; values not stated
+Anchors_International HH 2035 REF,WORLD,HH (feeds DOM/JAM NGS),S002/S003/S004,NR,IEA text is qualitative for Henry Hub; values not stated
+Anchors_International HH 2035 HIGH,WORLD,HH (feeds DOM/JAM NGS),S002/S003/S004,NR,IEA text is qualitative for Henry Hub; values not stated
+Anchors_International HH 2035 LOW,WORLD,HH (feeds DOM/JAM NGS),S002/S003/S004,NR,IEA text is qualitative for Henry Hub; values not stated
+Anchors_International HH 2040 REF,WORLD,HH (feeds DOM/JAM NGS),S002/S003/S004,NR,IEA text is qualitative for Henry Hub; values not stated
+Anchors_International HH 2040 HIGH,WORLD,HH (feeds DOM/JAM NGS),S002/S003/S004,NR,IEA text is qualitative for Henry Hub; values not stated
+Anchors_International HH 2040 LOW,WORLD,HH (feeds DOM/JAM NGS),S002/S003/S004,NR,IEA text is qualitative for Henry Hub; values not stated
+Anchors_International HH 2045 REF,WORLD,HH (feeds DOM/JAM NGS),S002/S003/S004,NR,IEA text is qualitative for Henry Hub; values not stated
+Anchors_International HH 2045 HIGH,WORLD,HH (feeds DOM/JAM NGS),S002/S003/S004,NR,IEA text is qualitative for Henry Hub; values not stated
+Anchors_International HH 2045 LOW,WORLD,HH (feeds DOM/JAM NGS),S002/S003/S004,NR,IEA text is qualitative for Henry Hub; values not stated
+Anchors_International HH 2050 REF,WORLD,HH (feeds DOM/JAM NGS),S002/S003/S004,NR,IEA text is qualitative for Henry Hub; values not stated
+Anchors_International HH 2050 HIGH,WORLD,HH (feeds DOM/JAM NGS),S002/S003/S004,NR,IEA text is qualitative for Henry Hub; values not stated
+Anchors_International HH 2050 LOW,WORLD,HH (feeds DOM/JAM NGS),S002/S003/S004,NR,IEA text is qualitative for Henry Hub; values not stated
+Anchors_Parameters!C6:C11 pass-through alpha (6 values),all,all,S034,NR,S034 is described as 'Goldman Sachs / industry consensus' but its URL is a World Bank subsidy-reform page; no alpha values stated
+Anchors_Parameters!C16:C22 fuel pass-through factors (7 values),all,all,S034,NR,same as alpha
+Anchors_Parameters!C27:C36 energy contents (10 values),all,all,S026,R,IPCC 2006 Vol 2 gives calorific values per mass; the per-litre figures also rest on densities the workbook states without a source
+Country_DOM / Country_JAM natural gas formula 0.4 + 0.6 x HH ratio,"DOM,JAM",NGS,,NONE,coefficients 0.4 and 0.6 have no source and no ASSUMPTION label
+"Country_XXX floor MAX(..., 0.30 x anchor)",all,all,,NONE,method choice stated in README!B26; no ASSUMPTION label
+Sources!A32 S028 World Bank pump prices 2018-2024,all,all,S028,n/a,listed for pre-2025 history but no cell outside Sources cites it; 2018-2025 country values are back-cast from the May 2026 anchor via the Brent ratio
+COUNT: OSeMOSYS_VarCost numeric values by class of their own anchor,,,,NONE,23 of 4524
+COUNT: OSeMOSYS_VarCost numeric values by class of their own anchor,,,,NR,2790 of 4524
+COUNT: OSeMOSYS_VarCost numeric values by class of their own anchor,,,,R,1711 of 4524
+COUNT: OSeMOSYS_VarCost numeric values by weakest link of the whole formula chain,,,,NONE,1175 of 4524
+COUNT: OSeMOSYS_VarCost numeric values by weakest link of the whole formula chain,,,,NR,3321 of 4524
+COUNT: OSeMOSYS_VarCost numeric values by weakest link of the whole formula chain,,,,R,28 of 4524
+COUNT: Anchors_Countries anchors by class,,,,NR,27
+COUNT: Anchors_Countries anchors by class,,,,R,17

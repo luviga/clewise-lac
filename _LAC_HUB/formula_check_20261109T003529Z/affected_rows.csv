@@ -1,0 +1,765 @@
+country,sheet,tech,parameter,projection_mode,year,is_formula_cell,intended_compiled,a2_bau,b1_bau,bau_0_txt,bau_final_0_txt
+Jamaica,Primary Techs,DIST_DSL,VariableCost,User defined,2051,True,22.4135,,,22.4135,22.4135
+Jamaica,Primary Techs,DIST_DSL,VariableCost,User defined,2052,True,22.4135,,,22.4135,22.4135
+Jamaica,Primary Techs,DIST_DSL,VariableCost,User defined,2053,True,22.4135,,,22.4135,22.4135
+Jamaica,Primary Techs,DIST_DSL,VariableCost,User defined,2054,True,22.4135,,,22.4135,22.4135
+Jamaica,Primary Techs,DIST_DSL,VariableCost,User defined,2055,True,22.4135,,,22.4135,22.4135
+Jamaica,Primary Techs,DIST_GSL,VariableCost,User defined,2051,True,19.3404,,,19.3404,19.3404
+Jamaica,Primary Techs,DIST_GSL,VariableCost,User defined,2052,True,19.3404,,,19.3404,19.3404
+Jamaica,Primary Techs,DIST_GSL,VariableCost,User defined,2053,True,19.3404,,,19.3404,19.3404
+Jamaica,Primary Techs,DIST_GSL,VariableCost,User defined,2054,True,19.3404,,,19.3404,19.3404
+Jamaica,Primary Techs,DIST_GSL,VariableCost,User defined,2055,True,19.3404,,,19.3404,19.3404
+Jamaica,Primary Techs,DIST_LPG,VariableCost,User defined,2051,True,21.5598,,,21.5598,21.5598
+Jamaica,Primary Techs,DIST_LPG,VariableCost,User defined,2052,True,21.5598,,,21.5598,21.5598
+Jamaica,Primary Techs,DIST_LPG,VariableCost,User defined,2053,True,21.5598,,,21.5598,21.5598
+Jamaica,Primary Techs,DIST_LPG,VariableCost,User defined,2054,True,21.5598,,,21.5598,21.5598
+Jamaica,Primary Techs,DIST_LPG,VariableCost,User defined,2055,True,21.5598,,,21.5598,21.5598
+Jamaica,Primary Techs,DIST_KER,VariableCost,User defined,2051,True,13.8175,,,13.8175,13.8175
+Jamaica,Primary Techs,DIST_KER,VariableCost,User defined,2052,True,13.8175,,,13.8175,13.8175
+Jamaica,Primary Techs,DIST_KER,VariableCost,User defined,2053,True,13.8175,,,13.8175,13.8175
+Jamaica,Primary Techs,DIST_KER,VariableCost,User defined,2054,True,13.8175,,,13.8175,13.8175
+Jamaica,Primary Techs,DIST_KER,VariableCost,User defined,2055,True,13.8175,,,13.8175,13.8175
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2022,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2023,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2024,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2025,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2026,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2027,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2028,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2029,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2030,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2031,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2032,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2033,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2034,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2035,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2036,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2037,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2038,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2039,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2040,True,1.7714,,,1.7714,1.7714
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2041,True,1.6823,,,1.6823,1.6823
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2042,True,1.5931,,,1.5931,1.5931
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2043,True,1.504,,,1.504,1.504
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2044,True,1.4148,,,1.4148,1.4148
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2045,True,1.3257,,,1.3257,1.3257
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2046,True,1.2366,,,1.2366,1.2366
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2047,True,1.1474,,,1.1474,1.1474
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2048,True,1.0583,,,1.0583,1.0583
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2049,True,0.9691,,,0.9691,0.9691
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2051,True,0.88,,,0.88,0.88
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2052,True,0.88,,,0.88,0.88
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2053,True,0.88,,,0.88,0.88
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2054,True,0.88,,,0.88,0.88
+Jamaica,Primary Techs,TM_HOU,ResidualCapacity,User defined,2055,True,0.88,,,0.88,0.88
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2023,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2024,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2025,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2026,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2027,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2028,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2029,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2030,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2031,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2032,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2033,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2034,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2035,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2036,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2037,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2038,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2039,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2040,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2041,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2042,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2043,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2044,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2045,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2046,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2047,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2048,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2049,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2050,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2051,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2052,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2053,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2054,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,LCM_HOUSE,CapitalCost,User defined,2055,True,70986.6393,,,70986.6393,70986.6393
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2021,True,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2022,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2023,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2024,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2025,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2026,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2027,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2028,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2029,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2030,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2031,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2032,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2033,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2034,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2035,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2036,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2037,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2038,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2039,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2040,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2041,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2042,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2043,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2044,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2045,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2046,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2047,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2048,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2049,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2050,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2051,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2052,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2053,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2054,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_COA,VariableCost,Flat,2055,False,1.5143,,,1.5143,1.5143
+Jamaica,Primary Techs,DIST_FOI,VariableCost,User defined,2051,True,14.6004,,,14.6004,14.6004
+Jamaica,Primary Techs,DIST_FOI,VariableCost,User defined,2052,True,14.6004,,,14.6004,14.6004
+Jamaica,Primary Techs,DIST_FOI,VariableCost,User defined,2053,True,14.6004,,,14.6004,14.6004
+Jamaica,Primary Techs,DIST_FOI,VariableCost,User defined,2054,True,14.6004,,,14.6004,14.6004
+Jamaica,Primary Techs,DIST_FOI,VariableCost,User defined,2055,True,14.6004,,,14.6004,14.6004
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2021,True,0.4884,,,0.4884,0.4884
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2022,False,0.4884,,,0.4884,0.4884
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2023,False,0.4884,,,0.4884,0.4884
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2024,False,0.4884,,,0.4884,0.4884
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2025,False,0.4884,,,0.4884,0.1091
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2026,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2027,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2028,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2029,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2030,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2031,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2032,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2033,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2034,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2035,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2036,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2037,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2038,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2039,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2040,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2041,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2042,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2043,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2044,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2045,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2046,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2047,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2048,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2049,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2050,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2051,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2052,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2053,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2054,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHDAM,TotalTechnologyAnnualActivityLowerLimit,Flat,2055,False,0.4884,,,0.4884,0.1103
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2021,True,0.0,,,0.0,0.0
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2022,True,0.0,,,0.0,0.0
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2023,True,0.0,,,0.0,0.0
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2024,True,0.0,,,0.0,0.0
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2025,True,0.0,,,0.0,0.2805
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2026,True,0.0,,,0.0,0.2835
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2027,True,0.2131,,,0.2131,0.501
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2028,True,0.3306,,,0.3306,0.6209
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2029,True,0.5152,,,0.5152,0.8092
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2030,True,0.5152,,,0.5152,0.8092
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2031,True,0.5488,,,0.5488,0.8435
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2032,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2033,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2034,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2035,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2036,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2037,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2038,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2039,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2040,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2041,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2042,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2043,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2044,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2045,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2046,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2047,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2048,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2049,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2050,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2051,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2052,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2053,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2054,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPHROR,TotalTechnologyAnnualActivityLowerLimit,User defined,2055,True,0.5656,,,0.5656,0.8606
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2023,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2024,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2025,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2026,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2027,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2028,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2029,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2030,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2031,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2032,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2033,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2034,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2035,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2036,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2037,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2038,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2039,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2040,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2041,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2042,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2043,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2044,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2045,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2046,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2047,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2048,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2049,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2050,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2051,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2052,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2053,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2054,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDON,CapacityFactor,User defined,2055,True,0.3042,,,0.3042,0.3042
+Jamaica,Primary Techs,PPWNDONS,CapitalCost,User defined,2051,True,3158.4785,,,3158.4785,3158.4785
+Jamaica,Primary Techs,PPWNDONS,CapitalCost,User defined,2052,True,3158.4785,,,3158.4785,3158.4785
+Jamaica,Primary Techs,PPWNDONS,CapitalCost,User defined,2053,True,3158.4785,,,3158.4785,3158.4785
+Jamaica,Primary Techs,PPWNDONS,CapitalCost,User defined,2054,True,3158.4785,,,3158.4785,3158.4785
+Jamaica,Primary Techs,PPWNDONS,CapitalCost,User defined,2055,True,3158.4785,,,3158.4785,3158.4785
+Jamaica,Primary Techs,PPWNDONS,FixedCost,User defined,2051,True,68.212,,,68.212,68.212
+Jamaica,Primary Techs,PPWNDONS,FixedCost,User defined,2052,True,68.212,,,68.212,68.212
+Jamaica,Primary Techs,PPWNDONS,FixedCost,User defined,2053,True,68.212,,,68.212,68.212
+Jamaica,Primary Techs,PPWNDONS,FixedCost,User defined,2054,True,68.212,,,68.212,68.212
+Jamaica,Primary Techs,PPWNDONS,FixedCost,User defined,2055,True,68.212,,,68.212,68.212
+Jamaica,Primary Techs,PPPVT,TotalTechnologyAnnualActivityUpperLimit,User defined,2027,True,3.297,,,3.297,0.7862
+Jamaica,Primary Techs,PPPVT,TotalTechnologyAnnualActivityLowerLimit,User defined,2025,True,0.5468,,,1.4103,0.4675
+Jamaica,Primary Techs,PPPVDS,CapitalCost,User defined,2051,True,2068.0329,,,2068.0329,2068.0329
+Jamaica,Primary Techs,PPPVDS,CapitalCost,User defined,2052,True,2068.0329,,,2068.0329,2068.0329
+Jamaica,Primary Techs,PPPVDS,CapitalCost,User defined,2053,True,2068.0329,,,2068.0329,2068.0329
+Jamaica,Primary Techs,PPPVDS,CapitalCost,User defined,2054,True,2068.0329,,,2068.0329,2068.0329
+Jamaica,Primary Techs,PPPVDS,CapitalCost,User defined,2055,True,2068.0329,,,2068.0329,2068.0329
+Jamaica,Primary Techs,PPPVDS,FixedCost,User defined,2051,True,40.4796,,,40.4796,40.4796
+Jamaica,Primary Techs,PPPVDS,FixedCost,User defined,2052,True,40.4796,,,40.4796,40.4796
+Jamaica,Primary Techs,PPPVDS,FixedCost,User defined,2053,True,40.4796,,,40.4796,40.4796
+Jamaica,Primary Techs,PPPVDS,FixedCost,User defined,2054,True,40.4796,,,40.4796,40.4796
+Jamaica,Primary Techs,PPPVDS,FixedCost,User defined,2055,True,40.4796,,,40.4796,40.4796
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2021,True,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2022,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2023,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2024,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2025,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2026,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2027,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2028,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2029,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2030,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2031,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2032,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2033,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2034,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2035,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2036,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2037,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2038,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2039,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2040,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2041,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2042,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2043,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2044,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2045,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2046,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2047,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2048,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2049,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2050,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2051,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2052,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2053,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2054,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_TRANS,FixedCost,Flat,2055,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2021,True,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2022,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2023,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2024,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2025,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2026,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2027,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2028,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2029,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2030,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2031,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2032,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2033,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2034,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2035,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2036,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2037,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2038,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2039,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2040,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2041,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2042,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2043,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2044,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2045,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2046,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2047,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2048,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2049,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2050,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2051,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2052,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2053,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2054,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,ELE_DIST,FixedCost,Flat,2055,False,4.5085,,,4.5085,4.5085
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2021,True,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2022,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2023,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2024,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2025,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2026,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2027,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2028,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2029,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2030,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2031,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2032,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2033,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2034,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2035,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2036,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2037,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2038,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2039,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2040,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2041,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2042,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2043,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2044,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2045,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2046,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2047,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2048,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2049,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2050,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2051,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2052,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2053,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2054,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,CapitalCost,Flat,2055,False,816.0,,,816.0,816.0
+Jamaica,Secondary Techs,STOELE,TotalAnnualMinCapacityInvestment,User defined,2030,True,0.0625,,,0.0625,0.0625
+Jamaica,Secondary Techs,STOELE,TotalAnnualMinCapacityInvestment,User defined,2031,True,0.0625,,,0.0625,0.0625
+Jamaica,Secondary Techs,STOELE,TotalAnnualMinCapacityInvestment,User defined,2032,True,0.0625,,,0.0625,0.0625
+Jamaica,Secondary Techs,STOELE,TotalAnnualMinCapacityInvestment,User defined,2033,True,0.0625,,,0.0625,0.0625
+Jamaica,Secondary Techs,STOELE,TotalAnnualMinCapacityInvestment,User defined,2034,True,0.0625,,,0.0625,0.0625
+Jamaica,Secondary Techs,STOELE,TotalAnnualMinCapacityInvestment,User defined,2035,True,0.0625,,,0.0625,0.0625
+Jamaica,Secondary Techs,STOELE,TotalAnnualMinCapacityInvestment,User defined,2036,True,0.0625,,,0.0625,0.0625
+Jamaica,Secondary Techs,STOELE,TotalAnnualMinCapacityInvestment,User defined,2037,True,0.0625,,,0.0625,0.0625
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2021,True,0.1498,,,0.1498,0.1498
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2022,True,0.1498,,,0.1498,0.1498
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2023,True,0.1498,,,0.1498,0.1498
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2024,True,0.1498,,,0.1498,0.1498
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2025,True,0.1498,,,0.1498,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2026,True,0.1498,,,0.1498,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2027,True,0.1498,,,0.1498,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2028,True,0.1498,,,0.1498,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2029,True,0.1498,,,0.1498,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2030,True,0.1498,,,0.1498,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2031,True,0.1498,,,0.1498,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2032,True,0.1498,,,0.1498,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2033,True,0.1498,,,0.1498,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2034,True,0.1498,,,0.1498,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2035,True,0.1498,,,0.1498,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2036,True,0.1498,,,0.1498,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2037,True,0.1498,,,0.1498,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2038,True,0.1498,,,0.1498,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2039,True,0.1498,,,0.1498,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityUpperLimit,User defined,2040,True,0.1498,,,0.1498,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2024,True,0.1483,,,0.1483,0.1483
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2025,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2026,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2027,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2028,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2029,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2030,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2031,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2032,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2033,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2034,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2035,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2036,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2037,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2038,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2039,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2040,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2041,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2042,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2043,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2044,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2045,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2046,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2047,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2048,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2049,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2050,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2051,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2052,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2053,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2054,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPBIM,TotalTechnologyAnnualActivityLowerLimit,User defined,2055,True,0.1483,,,0.1483,0.0
+Jamaica,Secondary Techs,PPNGS,TotalTechnologyAnnualActivityUpperLimit,User defined,2027,True,9.4334,,,9.4334,9.5979
+Jamaica,Secondary Techs,PPDSL,ResidualCapacity,User defined,2023,True,0.055,,,0.055,0.055
+Jamaica,Secondary Techs,PPDSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2021,True,0.576,,,0.576,0.576
+Jamaica,Secondary Techs,PPDSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2022,True,0.5645,,,0.5645,0.5645
+Jamaica,Secondary Techs,PPDSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2023,True,0.2255,,,0.2255,0.2255
+Jamaica,Secondary Techs,PPDSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2024,True,0.0342,,,0.0342,0.0342
+Jamaica,Secondary Techs,PPFOI,ResidualCapacity,User defined,2022,True,0.1395,,,0.1395,0.1395
+Jamaica,Secondary Techs,PPFOI,ResidualCapacity,User defined,2023,True,0.1395,,,0.1395,0.1395
+Jamaica,Secondary Techs,PPFOI,ResidualCapacity,User defined,2024,True,0.1395,,,0.1395,0.1395
+Jamaica,Secondary Techs,PPFOI,ResidualCapacity,User defined,2025,True,0.0765,,,0.0765,0.0765
+Jamaica,Secondary Techs,PPFOI,ResidualCapacity,User defined,2026,True,0.0795,,,0.0795,0.0795
+Jamaica,Secondary Techs,PPFOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2025,True,2.203,,,2.203,4.9091
+Jamaica,Secondary Techs,PPFOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2025,True,2.1812,,,2.1812,4.6753
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2024,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2025,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2026,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2027,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2028,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2029,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2030,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2031,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2032,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2033,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2034,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2035,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2036,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2037,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2038,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2039,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2040,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2041,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2042,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2043,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2044,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2045,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2046,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2047,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2048,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2049,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2050,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2051,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2052,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2053,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2054,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2055,True,6.0994,,,6.0994,6.0994
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2021,True,6.0267,,,6.0267,6.0267
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2022,True,5.5449,,,5.5449,5.5449
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2023,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2024,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2025,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2026,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2027,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2028,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2029,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2030,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2031,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2032,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2033,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2034,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2035,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2036,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2037,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2038,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2039,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2040,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2041,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2042,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2043,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2044,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2045,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2046,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2047,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2048,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2049,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2050,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2051,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2052,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2053,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2054,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_DSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2055,True,5.4895,,,5.4895,5.4895
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2024,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2025,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2026,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2027,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2028,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2029,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2030,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2031,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2032,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2033,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2034,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2035,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2036,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2037,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2038,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2039,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2040,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2041,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2042,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2043,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2044,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2045,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2046,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2047,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2048,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2049,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2050,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2051,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2052,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2053,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2054,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityUpperLimit,User defined,2055,True,4.4419,,,4.4419,4.4419
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2021,True,4.9787,,,4.9787,4.9787
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2022,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2023,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2024,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2025,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2026,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2027,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2028,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2029,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2030,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2031,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2032,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2033,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2034,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2035,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2036,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2037,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2038,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2039,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2040,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2041,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2042,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2043,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2044,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2045,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2046,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2047,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2048,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2049,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2050,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2051,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2052,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2053,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2054,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_GSL,TotalTechnologyAnnualActivityLowerLimit,User defined,2055,True,4.2462,,,4.2462,4.2462
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2024,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2025,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2026,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2027,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2028,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2029,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2030,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2031,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2032,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2033,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2034,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2035,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2036,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2037,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2038,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2039,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2040,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2041,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2042,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2043,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2044,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2045,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2046,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2047,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2048,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2049,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2050,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2051,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2052,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2053,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2054,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityUpperLimit,User defined,2055,True,0.2346,,,0.2346,0.2346
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2021,True,0.1881,,,0.1881,0.1881
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2022,True,0.099,,,0.099,0.099
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2023,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2024,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2025,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2026,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2027,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2028,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2029,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2030,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2031,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2032,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2033,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2034,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2035,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2036,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2037,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2038,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2039,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2040,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2041,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2042,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2043,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2044,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2045,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2046,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2047,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2048,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2049,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2050,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2051,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2052,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2053,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2054,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_LPG,TotalTechnologyAnnualActivityLowerLimit,User defined,2055,True,0.2299,,,0.2299,0.2299
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2024,True,22.7374,,,22.7374,22.7374
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2025,True,22.7374,,,22.7374,22.7374
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2026,True,21.7274,,,21.7274,21.7274
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2027,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2028,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2029,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2030,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2031,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2032,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2033,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2034,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2035,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2036,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2037,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2038,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2039,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2040,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2041,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2042,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2043,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2044,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2045,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2046,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2047,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2048,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2049,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2050,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2051,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2052,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2053,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2054,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityUpperLimit,User defined,2055,True,20.7174,,,20.7174,20.7174
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2021,True,25.814,,,25.814,25.814
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2022,True,25.7744,,,25.7744,25.7744
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2023,True,22.5123,,,22.5123,22.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2024,True,22.5123,,,22.5123,22.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2025,True,22.5123,,,22.5123,22.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2026,True,21.5123,,,21.5123,21.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2027,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2028,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2029,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2030,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2031,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2032,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2033,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2034,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2035,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2036,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2037,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2038,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2039,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2040,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2041,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2042,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2043,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2044,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2045,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2046,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2047,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2048,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2049,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2050,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2051,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2052,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2053,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2054,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_FOI,TotalTechnologyAnnualActivityLowerLimit,User defined,2055,True,20.5123,,,20.5123,20.5123
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2024,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2025,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2026,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2027,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2028,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2029,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2030,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2031,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2032,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2033,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2034,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2035,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2036,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2037,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2038,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2039,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2040,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2041,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2042,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2043,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2044,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2045,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2046,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2047,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2048,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2049,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2050,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2051,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2052,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2053,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2054,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityUpperLimit,User defined,2055,True,1.4779,,,1.4779,1.4779
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2021,True,1.3857,,,1.3857,1.3857
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2022,True,1.356,,,1.356,1.356
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2023,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2024,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2025,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2026,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2027,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2028,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2029,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2030,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2031,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2032,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2033,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2034,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2035,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2036,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2037,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2038,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2039,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2040,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2041,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2042,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2043,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2044,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2045,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2046,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2047,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2048,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2049,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2050,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2051,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2052,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2053,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2054,True,1.4483,,,1.4483,1.4483
+Jamaica,Secondary Techs,REF_JET,TotalTechnologyAnnualActivityLowerLimit,User defined,2055,True,1.4483,,,1.4483,1.4483

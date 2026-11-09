@@ -1,0 +1,37 @@
+country,fuel,tech,year,current_ao_value,current_model_value_A2_BAU,planned_value,planned_source,workbook_cell
+CostaRica,DSL,IMPPURDSL,2025,12.8544,12.8544,29.713,fuel_workbook,OSeMOSYS_VarCost!M32
+CostaRica,DSL,IMPPURDSL,2030,14.1228,14.1228,31.6336,fuel_workbook,OSeMOSYS_VarCost!R32
+CostaRica,HFO,IMPFOI,2025,9.8646,9.8646,13.4011,fuel_workbook,OSeMOSYS_VarCost!M44
+CostaRica,HFO,IMPFOI,2030,10.838,10.838,14.4193,fuel_workbook,OSeMOSYS_VarCost!R44
+CostaRica,NGS,IMPNGS,2025,,,(no change planned),,
+CostaRica,NGS,IMPNGS,2030,,,(no change planned),,
+DominicanRepublic,DSL,DIST_DSL,2025,,20.8829,25.7416,fuel_workbook,OSeMOSYS_VarCost!M74
+DominicanRepublic,DSL,DIST_DSL,2030,,22.9436,27.5894,fuel_workbook,OSeMOSYS_VarCost!R74
+DominicanRepublic,HFO,DIST_FOI,2025,12.949156550657246,12.9492,17.5652,fuel_workbook,OSeMOSYS_VarCost!M86
+DominicanRepublic,HFO,DIST_FOI,2030,14.020954693497474,14.021,19.0519,fuel_workbook,OSeMOSYS_VarCost!R86
+DominicanRepublic,NGS,DIST_NGS,2025,6.120754039580765,6.1208,10.053,fuel_workbook,OSeMOSYS_VarCost!M131
+DominicanRepublic,NGS,DIST_NGS,2030,2.9863287371082987,2.9863,11.564,fuel_workbook,OSeMOSYS_VarCost!R131
+Ecuador,DSL,DIST_DSL,2025,,1.0,18.8923,fuel_workbook,OSeMOSYS_VarCost!M95
+Ecuador,DSL,DIST_DSL,2030,,1.0,19.8575,fuel_workbook,OSeMOSYS_VarCost!R95
+Ecuador,HFO,DIST_FOI,2025,,1.0,13.9565,fuel_workbook,OSeMOSYS_VarCost!M107
+Ecuador,HFO,DIST_FOI,2030,,1.0,14.7896,fuel_workbook,OSeMOSYS_VarCost!R107
+Ecuador,NGS,DIST_NGS,2025,,1.0,6.9971,ecuador_local_reference,
+Ecuador,NGS,DIST_NGS,2030,,1.0,7.471,ecuador_local_reference,
+Guatemala,DSL,DIST_DSL,2025,,20.8829,27.7625,fuel_workbook,OSeMOSYS_VarCost!M116
+Guatemala,DSL,DIST_DSL,2030,,22.9436,29.9609,fuel_workbook,OSeMOSYS_VarCost!R116
+Guatemala,HFO,DIST_FOI,2025,,14.1002,12.2528,fuel_workbook,OSeMOSYS_VarCost!M128
+Guatemala,HFO,DIST_FOI,2030,,15.4917,13.4006,fuel_workbook,OSeMOSYS_VarCost!R128
+Guatemala,NGS,DIST_NGS,2025,,10.4343,(no change planned),,
+Guatemala,NGS,DIST_NGS,2030,,11.4641,(no change planned),,
+Honduras,DSL,DIST_DSL,2025,,26.9804,24.3768,fuel_workbook,OSeMOSYS_VarCost!M11
+Honduras,DSL,DIST_DSL,2030,,29.6428,26.3071,fuel_workbook,OSeMOSYS_VarCost!R11
+Honduras,HFO,DIST_FOI,2025,,15.3504,12.2528,fuel_workbook,OSeMOSYS_VarCost!M23
+Honduras,HFO,DIST_FOI,2030,,16.8652,13.4006,fuel_workbook,OSeMOSYS_VarCost!R23
+Honduras,NGS,DIST_NGS,2025,,10.4343,(no change planned),,
+Honduras,NGS,DIST_NGS,2030,,11.4641,(no change planned),,
+Jamaica,DSL,DIST_DSL,2025,19.90441117244731,19.9044,27.92,fuel_workbook,OSeMOSYS_VarCost!M53
+Jamaica,DSL,DIST_DSL,2030,20.6602748878567,20.6603,30.3451,fuel_workbook,OSeMOSYS_VarCost!R53
+Jamaica,HFO,DIST_FOI,2025,12.89489877261787,12.8949,16.8218,fuel_workbook,OSeMOSYS_VarCost!M65
+Jamaica,HFO,DIST_FOI,2030,13.38959461083017,13.3896,18.5563,fuel_workbook,OSeMOSYS_VarCost!R65
+Jamaica,NGS,DIST_NGS,2025,6.9971335,6.9971,10.3002,fuel_workbook,OSeMOSYS_VarCost!M134
+Jamaica,NGS,DIST_NGS,2030,7.4710335,7.471,11.8483,fuel_workbook,OSeMOSYS_VarCost!R134

@@ -1,0 +1,40 @@
+parameter,tech,projection_mode,years,n_years,formula_cells,intended_min,intended_max,a2_bau_state,b1_bau_state,bau_0_txt_eq,bau_final_eq,bau_final_values
+CapacityFactor,PPWNDON,User defined,2023-2055,33,33,0.3042,0.3042,empty,empty,33,33,0.3042
+CapitalCost,LCM_HOUSE,User defined,2023-2055,33,33,70986.6393,70986.6393,empty,empty,33,33,70986.6393
+CapitalCost,PPPVDS,User defined,2051-2055,5,5,2068.0329,2068.0329,empty,empty,5,5,2068.0329
+CapitalCost,PPWNDONS,User defined,2051-2055,5,5,3158.4785,3158.4785,empty,empty,5,5,3158.4785
+CapitalCost,STOELE,Flat,2021-2055,35,1,816.0,816.0,empty,empty,35,35,816.0
+FixedCost,ELE_DIST,Flat,2021-2055,35,1,4.5085,4.5085,empty,empty,35,35,4.5085
+FixedCost,ELE_TRANS,Flat,2021-2055,35,1,4.5085,4.5085,empty,empty,35,35,4.5085
+FixedCost,PPPVDS,User defined,2051-2055,5,5,40.4796,40.4796,empty,empty,5,5,40.4796
+FixedCost,PPWNDONS,User defined,2051-2055,5,5,68.212,68.212,empty,empty,5,5,68.212
+ResidualCapacity,PPDSL,User defined,2023-2023,1,1,0.055,0.055,empty,empty,1,1,0.055
+ResidualCapacity,PPFOI,User defined,2022-2026,5,5,0.0765,0.1395,empty,empty,5,5,0.0765;0.0795;0.1395
+ResidualCapacity,TM_HOU,User defined,2022-2055,33,33,0.88,1.7714,empty,empty,33,33,0.88;0.9691;1.0583;1.1474
+TotalAnnualMinCapacityInvestment,STOELE,User defined,2030-2037,8,8,0.0625,0.0625,empty,empty,8,8,0.0625
+TotalTechnologyAnnualActivityLowerLimit,PPBIM,User defined,2024-2055,32,32,0.1483,0.1483,empty,empty,32,1,0.0;0.1483
+TotalTechnologyAnnualActivityLowerLimit,PPDSL,User defined,2021-2024,4,4,0.0342,0.576,empty,empty,4,4,0.0342;0.2255;0.5645;0.576
+TotalTechnologyAnnualActivityLowerLimit,PPFOI,User defined,2025-2025,1,1,2.1812,2.1812,empty,empty,1,0,4.6753
+TotalTechnologyAnnualActivityLowerLimit,PPHDAM,Flat,2021-2055,35,1,0.4884,0.4884,empty,empty,35,4,0.1091;0.1103;0.4884
+TotalTechnologyAnnualActivityLowerLimit,PPHROR,User defined,2021-2055,35,35,0.0,0.5656,empty,empty,35,4,0.0;0.2805;0.2835;0.501
+TotalTechnologyAnnualActivityLowerLimit,PPPVT,User defined,2025-2025,1,1,0.5468,0.5468,empty,empty,0,0,0.4675
+TotalTechnologyAnnualActivityLowerLimit,REF_DSL,User defined,2021-2055,35,35,5.4895,6.0267,empty,empty,35,35,5.4895;5.5449;6.0267
+TotalTechnologyAnnualActivityLowerLimit,REF_FOI,User defined,2021-2055,35,35,20.5123,25.814,empty,empty,35,35,20.5123;21.5123;22.5123;25.7744
+TotalTechnologyAnnualActivityLowerLimit,REF_GSL,User defined,2021-2055,35,35,4.2462,4.9787,empty,empty,35,35,4.2462;4.9787
+TotalTechnologyAnnualActivityLowerLimit,REF_JET,User defined,2021-2055,35,35,1.356,1.4483,empty,empty,35,35,1.356;1.3857;1.4483
+TotalTechnologyAnnualActivityLowerLimit,REF_LPG,User defined,2021-2055,35,35,0.099,0.2299,empty,empty,35,35,0.099;0.1881;0.2299
+TotalTechnologyAnnualActivityUpperLimit,PPBIM,User defined,2021-2040,20,20,0.1498,0.1498,empty,empty,20,4,0.0;0.1498
+TotalTechnologyAnnualActivityUpperLimit,PPFOI,User defined,2025-2025,1,1,2.203,2.203,empty,empty,1,0,4.9091
+TotalTechnologyAnnualActivityUpperLimit,PPNGS,User defined,2027-2027,1,1,9.4334,9.4334,empty,empty,1,0,9.5979
+TotalTechnologyAnnualActivityUpperLimit,PPPVT,User defined,2027-2027,1,1,3.297,3.297,empty,empty,1,0,0.7862
+TotalTechnologyAnnualActivityUpperLimit,REF_DSL,User defined,2024-2055,32,32,6.0994,6.0994,empty,empty,32,32,6.0994
+TotalTechnologyAnnualActivityUpperLimit,REF_FOI,User defined,2024-2055,32,32,20.7174,22.7374,empty,empty,32,32,20.7174;21.7274;22.7374
+TotalTechnologyAnnualActivityUpperLimit,REF_GSL,User defined,2024-2055,32,32,4.4419,4.4419,empty,empty,32,32,4.4419
+TotalTechnologyAnnualActivityUpperLimit,REF_JET,User defined,2024-2055,32,32,1.4779,1.4779,empty,empty,32,32,1.4779
+TotalTechnologyAnnualActivityUpperLimit,REF_LPG,User defined,2024-2055,32,32,0.2346,0.2346,empty,empty,32,32,0.2346
+VariableCost,DIST_COA,Flat,2021-2055,35,1,1.5143,1.5143,empty,empty,35,35,1.5143
+VariableCost,DIST_DSL,User defined,2051-2055,5,5,22.4135,22.4135,empty,empty,5,5,22.4135
+VariableCost,DIST_FOI,User defined,2051-2055,5,5,14.6004,14.6004,empty,empty,5,5,14.6004
+VariableCost,DIST_GSL,User defined,2051-2055,5,5,19.3404,19.3404,empty,empty,5,5,19.3404
+VariableCost,DIST_KER,User defined,2051-2055,5,5,13.8175,13.8175,empty,empty,5,5,13.8175
+VariableCost,DIST_LPG,User defined,2051-2055,5,5,21.5598,21.5598,empty,empty,5,5,21.5598

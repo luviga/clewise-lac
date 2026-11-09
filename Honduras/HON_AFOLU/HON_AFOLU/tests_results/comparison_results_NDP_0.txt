@@ -1,0 +1,434 @@
+Check if children technologies are greater than mother technologies
+
+
+
+Results for TotalTechnologyAnnualActivityUpperLimit:
+
+
+
+Results for TotalTechnologyAnnualActivityLowerLimit:
+   Results for Techs_Auto:
+     Children are _______ than mother tech
+     Children without values: ['TRAUTDSL']
+-------------------------------------------------
+   Results for Techs_Taxi:
+     Children are _______ than mother tech
+-------------------------------------------------
+   Results for Techs_Motos:
+     Children are _______ than mother tech
+-------------------------------------------------
+   Results for Techs_SUV:
+     Children are _______ than mother tech
+-------------------------------------------------
+   Results for Techs_Buses_Pub:
+     Children are _______ than mother tech
+     Children without values: ['TRBPUGSL', 'TRBPUHYD']
+-------------------------------------------------
+   Results for Techs_Buses_Tur:
+     Children are _______ than mother tech
+     Children without values: ['TRBTURDSL']
+-------------------------------------------------
+   Results for Techs_Buses_Micro:
+     Children are _______ than mother tech
+-------------------------------------------------
+   Results for Techs_He_Freight:
+     Children are _______ than mother tech
+     Children without values: ['TRYTKHYD']
+-------------------------------------------------
+   Results for Techs_Li_Freight:
+     Children are _______ than mother tech
+     2018: greater      mother value: 0.6462,   children value: 0.6651
+-------------------------------------------------
+
+
+
+
+
+
+############################################################################################################################
+Check for any decreasing values across technologies for TotalAnnualMaxCapacity:
+PPGTDSL has decreases at the following points:
+  From Year 2018: 0.0515 to Year 2019: 0.0435
+  From Year 2019: 0.0435 to Year 2020: 0.0335
+
+-------------------------------------------------
+PPPVT has decreases at the following points:
+  From Year 2033: 9999999.0 to Year 2034: 999999.0
+
+-------------------------------------------------
+Techs_Auto has decreases at the following points:
+  From Year 2023: 2.5532 to Year 2024: 2.535
+  From Year 2032: 2.8002 to Year 2033: 2.7963
+  From Year 2043: 2.8002 to Year 2044: 2.7934
+
+-------------------------------------------------
+Techs_Buses_Micro has decreases at the following points:
+  From Year 2023: 0.3917 to Year 2024: 0.3889
+
+-------------------------------------------------
+Techs_Buses_Pub has decreases at the following points:
+  From Year 2023: 0.886 to Year 2024: 0.8796
+
+-------------------------------------------------
+Techs_Buses_Tur has decreases at the following points:
+  From Year 2023: 0.0243 to Year 2024: 0.0241
+  From Year 2032: 0.0268 to Year 2033: 0.0267
+  From Year 2043: 0.0268 to Year 2044: 0.0267
+
+-------------------------------------------------
+Techs_He_Freight has decreases at the following points:
+  From Year 2023: 0.6734 to Year 2024: 0.6686
+
+-------------------------------------------------
+Techs_Li_Freight has decreases at the following points:
+  From Year 2023: 0.6734 to Year 2024: 0.6685
+
+-------------------------------------------------
+Techs_Motos has decreases at the following points:
+  From Year 2023: 6.4806 to Year 2024: 6.4343
+  From Year 2032: 7.1076 to Year 2033: 7.0978
+  From Year 2043: 7.1076 to Year 2044: 7.0903
+
+-------------------------------------------------
+Techs_SUV has decreases at the following points:
+  From Year 2023: 4.5753 to Year 2024: 4.5427
+  From Year 2032: 5.018 to Year 2033: 5.011
+  From Year 2043: 5.018 to Year 2044: 5.0058
+
+-------------------------------------------------
+Techs_Taxi has decreases at the following points:
+  From Year 2023: 1.3035 to Year 2024: 1.2942
+
+-------------------------------------------------
+TRAUTDSL has decreases at the following points:
+  From Year 2023: 2.5532 to Year 2024: 2.535
+
+-------------------------------------------------
+TRAUTGSL has decreases at the following points:
+  From Year 2023: 2.5532 to Year 2024: 2.535
+
+-------------------------------------------------
+TRTAXGSL has decreases at the following points:
+  From Year 2023: 1.3035 to Year 2024: 1.2942
+
+-------------------------------------------------
+TRTAXLPG has decreases at the following points:
+  From Year 2023: 1.3035 to Year 2024: 1.2942
+
+-------------------------------------------------
+TRMOTGSL has decreases at the following points:
+  From Year 2023: 6.4806 to Year 2024: 6.4343
+
+-------------------------------------------------
+TRSUVDSL has decreases at the following points:
+  From Year 2023: 4.5753 to Year 2024: 4.5427
+
+-------------------------------------------------
+TRSUVGSL has decreases at the following points:
+  From Year 2023: 4.5753 to Year 2024: 4.5427
+
+-------------------------------------------------
+TRBPUDSL has decreases at the following points:
+  From Year 2023: 0.886 to Year 2024: 0.8796
+
+-------------------------------------------------
+TRBTURGSL has decreases at the following points:
+  From Year 2023: 0.0243 to Year 2024: 0.0241
+
+-------------------------------------------------
+TRMBSDSL has decreases at the following points:
+  From Year 2023: 0.3917 to Year 2024: 0.3889
+
+-------------------------------------------------
+TRMBSGSL has decreases at the following points:
+  From Year 2023: 0.3917 to Year 2024: 0.3889
+
+-------------------------------------------------
+TRYTKDSL has decreases at the following points:
+  From Year 2023: 0.6734 to Year 2024: 0.6686
+
+-------------------------------------------------
+TRYLFDSL has decreases at the following points:
+  From Year 2023: 0.6734 to Year 2024: 0.6685
+
+-------------------------------------------------
+TRYLFGSL has decreases at the following points:
+  From Year 2023: 0.6734 to Year 2024: 0.6685
+
+-------------------------------------------------
+
+
+
+
+
+
+
+###########################################################################################################################
+Check if values of TotalTechnologyAnnualActivityLowerLimit is greater than TotalTechnologyAnnualActivityUpperLimit
+
+Check technology: IMP_ELE
+  All in order
+-------------------------------------------------
+
+Check technology: LU_ABO
+  All in order
+-------------------------------------------------
+
+Check technology: LU_FORCON
+  All in order
+-------------------------------------------------
+
+Check technology: LU_FORLAT
+  All in order
+-------------------------------------------------
+
+Check technology: LU_FORDEC
+  All in order
+-------------------------------------------------
+
+Check technology: LU_FORMAN
+  All in order
+-------------------------------------------------
+
+Check technology: LU_FORMIX
+  All in order
+-------------------------------------------------
+
+Check technology: LU_CUL
+  All in order
+-------------------------------------------------
+
+Check technology: LU_AGCAF
+  All in order
+-------------------------------------------------
+
+Check technology: LU_AGCOC
+  All in order
+-------------------------------------------------
+
+Check technology: LU_PAS
+  All in order
+-------------------------------------------------
+
+Check technology: LU_VEG
+  All in order
+-------------------------------------------------
+
+Check technology: LU_HUM
+  All in order
+-------------------------------------------------
+
+Check technology: LU_WET
+  All in order
+-------------------------------------------------
+
+Check technology: LU_ASE
+  All in order
+-------------------------------------------------
+
+Check technology: LU_OT
+  All in order
+-------------------------------------------------
+
+Check technology: NS_LU_FOR_PER
+  All in order
+-------------------------------------------------
+
+Check technology: NS_LU_FOR_CON
+  All in order
+-------------------------------------------------
+
+Check technology: NS_LU_FOR_OT
+  All in order
+-------------------------------------------------
+
+Check technology: PPCOA
+  All in order
+-------------------------------------------------
+
+Check technology: PPCOK
+  All in order
+-------------------------------------------------
+
+Check technology: PPGTGLP
+  All in order
+-------------------------------------------------
+
+Check technology: PPICEDSL
+  All in order
+-------------------------------------------------
+
+Check technology: PPGTDSL
+  All in order
+-------------------------------------------------
+
+Check technology: PPFOI
+  All in order
+-------------------------------------------------
+
+Check technology: PPBGS
+  All in order
+-------------------------------------------------
+
+Check technology: PPBIM
+  All in order
+-------------------------------------------------
+
+
+
+
+
+
+
+###########################################################################################################################
+Check if values of ResidualCapacity is greater than TotalAnnualMaxCapacity
+
+Check technology: PPBIM
+  All in order
+-------------------------------------------------
+
+Check technology: PPCOA
+  All in order
+-------------------------------------------------
+
+Check technology: PPCOK
+  All in order
+-------------------------------------------------
+
+Check technology: PPFOI
+  All in order
+-------------------------------------------------
+
+Check technology: PPGEO
+  All in order
+-------------------------------------------------
+
+Check technology: PPGTDSL
+  All in order
+-------------------------------------------------
+
+Check technology: PPGTGLP
+  All in order
+-------------------------------------------------
+
+Check technology: PPHDAM
+  All in order
+-------------------------------------------------
+
+Check technology: PPHROR
+  All in order
+-------------------------------------------------
+
+Check technology: PPICEDSL
+  All in order
+-------------------------------------------------
+
+Check technology: PPPVD
+  All in order
+-------------------------------------------------
+
+Check technology: PPPVT
+  All in order
+-------------------------------------------------
+
+Check technology: PPPVTS
+  All in order
+-------------------------------------------------
+
+Check technology: PPWNDON
+  All in order
+-------------------------------------------------
+
+Check technology: TRAUTDSL
+  All in order
+-------------------------------------------------
+
+Check technology: TRAUTGSL
+  All in order
+-------------------------------------------------
+
+Check technology: TRTAXGSL
+  All in order
+-------------------------------------------------
+
+Check technology: TRTAXLPG
+  All in order
+-------------------------------------------------
+
+Check technology: TRMOTGSL
+  All in order
+-------------------------------------------------
+
+Check technology: TRSUVDSL
+  All in order
+-------------------------------------------------
+
+Check technology: TRSUVGSL
+  All in order
+-------------------------------------------------
+
+Check technology: TRBPUDSL
+  All in order
+-------------------------------------------------
+
+Check technology: TRBTURGSL
+  All in order
+-------------------------------------------------
+
+Check technology: TRMBSDSL
+  All in order
+-------------------------------------------------
+
+Check technology: TRMBSGSL
+  All in order
+-------------------------------------------------
+
+Check technology: TRYTKDSL
+  All in order
+-------------------------------------------------
+
+Check technology: TRYLFDSL
+  All in order
+-------------------------------------------------
+
+Check technology: TRYLFGSL
+  All in order
+-------------------------------------------------
+
+
+
+
+
+
+
+###########################################################################################################################
+Check if values of SpecifiedAnnualDemand are less than TotalAnnualMaxCapacity x OutputActivityRatio
+
+
+
+
+
+
+
+###########################################################################################################################
+Check if values of SpecifiedAnnualDemand are less than TotalTechnologyAnnualActivityLowerLimit x OutputActivityRatio
+For E6TDPASPUB in year 2018, the condition is NOT satisfied.
+For E6TDFREHEA in year 2018, the condition is NOT satisfied.
+
+
+
+
+
+
+
+###########################################################################################################################
+Check if values of TotalTechnologyAnnualActivityLowerLimit are less than TotalAnnualMaxCapacity x CapacityFactor x 31.356
+
+
+
+
+
+
+
+###########################################################################################################################
+Check if values of TotalTechnologyAnnualActivityLowerLimit are less than TotalAnnualMaxCapacity x CapacityFactor x AvailabilityFactor x 31.356

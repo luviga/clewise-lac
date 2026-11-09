@@ -1,0 +1,87 @@
+country,item,path,mtime_utc
+CostaRica,A-O workbook,CostaRica\CR_ENERGY\t1_confection\A1_Outputs\A-O_Parametrization.xlsx,2025-09-23T22:54:20Z
+CostaRica,A2_Output_Params/BAU newest file,CostaRica\CR_ENERGY\t1_confection\A2_Output_Params\BAU,2025-09-25T07:38:02Z
+CostaRica,A2_Output_Params/Default newest file,CostaRica\CR_ENERGY\t1_confection\A2_Output_Params\Default,2025-03-26T00:42:09Z
+CostaRica,A2_Output_Params/LTSNEW newest file,CostaRica\CR_ENERGY\t1_confection\A2_Output_Params\LTSNEW,2025-09-25T07:38:02Z
+CostaRica,A2_Output_Params/NDCNEW newest file,CostaRica\CR_ENERGY\t1_confection\A2_Output_Params\NDCNEW,2025-09-25T07:38:02Z
+CostaRica,B1_Output_Params/BAU newest file,CostaRica\CR_ENERGY\t1_confection\B1_Output_Params\BAU,2026-01-25T06:19:31Z
+CostaRica,B1_Output_Params/LTSNEW newest file,CostaRica\CR_ENERGY\t1_confection\B1_Output_Params\LTSNEW,2026-01-25T06:19:33Z
+CostaRica,B1_Output_Params/NDCNEW newest file,CostaRica\CR_ENERGY\t1_confection\B1_Output_Params\NDCNEW,2026-01-25T06:19:33Z
+CostaRica,Executables BAU_FINAL_0.txt,CostaRica\CR_ENERGY\t1_confection\Executables\BAU_FINAL_0\BAU_FINAL_0.txt,2026-05-16T22:27:36Z
+CostaRica,Executables BAU_0.txt,CostaRica\CR_ENERGY\t1_confection\Executables\BAU_0\BAU_0.txt,2026-01-25T06:19:39Z
+CostaRica,Executables NDCNEW_FINAL_0.txt,CostaRica\CR_ENERGY\t1_confection\Executables\NDCNEW_FINAL_0\NDCNEW_FINAL_0.txt,2026-05-16T22:27:36Z
+CostaRica,Executables NDCNEW_0.txt,CostaRica\CR_ENERGY\t1_confection\Executables\NDCNEW_0\NDCNEW_0.txt,2026-01-25T06:19:40Z
+CostaRica,Executables LTSNEW_FINAL_0.txt,CostaRica\CR_ENERGY\t1_confection\Executables\LTSNEW_FINAL_0\LTSNEW_FINAL_0.txt,2026-05-16T22:27:36Z
+CostaRica,Executables LTSNEW_0.txt,CostaRica\CR_ENERGY\t1_confection\Executables\LTSNEW_0\LTSNEW_0.txt,2026-01-25T06:19:42Z
+DominicanRepublic,A-O workbook,DominicanRepublic\RD_ENERGY\A1_Outputs\A-O_Parametrization.xlsx,2025-12-10T17:23:53Z
+DominicanRepublic,A2_Output_Params/BAU newest file,DominicanRepublic\RD_ENERGY\A2_Output_Params\BAU,2025-12-10T17:24:10Z
+DominicanRepublic,A2_Output_Params/Default newest file,DominicanRepublic\RD_ENERGY\A2_Output_Params\Default,2025-12-10T17:24:25Z
+DominicanRepublic,A2_Output_Params/LTSNEW newest file,DominicanRepublic\RD_ENERGY\A2_Output_Params\LTSNEW,2025-12-10T17:24:03Z
+DominicanRepublic,A2_Output_Params/NDCNEW newest file,DominicanRepublic\RD_ENERGY\A2_Output_Params\NDCNEW,2025-12-10T17:24:03Z
+DominicanRepublic,B1_Output_Params/BAU newest file,DominicanRepublic\RD_ENERGY\B1_Output_Params\BAU,2026-01-26T08:09:10Z
+DominicanRepublic,B1_Output_Params/LTSNEW newest file,DominicanRepublic\RD_ENERGY\B1_Output_Params\LTSNEW,2026-01-26T08:09:12Z
+DominicanRepublic,B1_Output_Params/NDCNEW newest file,DominicanRepublic\RD_ENERGY\B1_Output_Params\NDCNEW,2026-01-26T08:09:11Z
+DominicanRepublic,Executables BAU_FINAL_0.txt,DominicanRepublic\RD_ENERGY\Executables\BAU_FINAL_0\BAU_FINAL_0.txt,2026-05-16T22:27:36Z
+DominicanRepublic,Executables BAU_0.txt,DominicanRepublic\RD_ENERGY\Executables\BAU_0\BAU_0.txt,2026-01-26T08:09:17Z
+DominicanRepublic,Executables NDCNEW_FINAL_0.txt,DominicanRepublic\RD_ENERGY\Executables\NDCNEW_FINAL_0\NDCNEW_FINAL_0.txt,2026-05-16T22:27:36Z
+DominicanRepublic,Executables NDCNEW_0.txt,DominicanRepublic\RD_ENERGY\Executables\NDCNEW_0\NDCNEW_0.txt,2026-01-26T08:09:18Z
+DominicanRepublic,Executables LTSNEW_FINAL_0.txt,DominicanRepublic\RD_ENERGY\Executables\LTSNEW_FINAL_0\LTSNEW_FINAL_0.txt,2026-05-16T22:27:36Z
+DominicanRepublic,Executables LTSNEW_0.txt,DominicanRepublic\RD_ENERGY\Executables\LTSNEW_0\LTSNEW_0.txt,2026-01-26T08:09:20Z
+Ecuador,A-O workbook,Ecuador\ECU_Energy\A1_Outputs\A-O_Parametrization.xlsx,2026-05-14T18:19:22Z
+Ecuador,A2_Output_Params/BAU newest file,Ecuador\ECU_Energy\A2_Output_Params\BAU,2026-05-14T18:19:57Z
+Ecuador,A2_Output_Params/Default newest file,Ecuador\ECU_Energy\A2_Output_Params\Default,2025-12-10T17:25:34Z
+Ecuador,A2_Output_Params/LTSNEW newest file,Ecuador\ECU_Energy\A2_Output_Params\LTSNEW,2026-01-05T01:24:43Z
+Ecuador,A2_Output_Params/NDCINC newest file,Ecuador\ECU_Energy\A2_Output_Params\NDCINC,2026-05-14T18:19:57Z
+Ecuador,A2_Output_Params/NDCNEW newest file,Ecuador\ECU_Energy\A2_Output_Params\NDCNEW,2026-01-05T01:24:43Z
+Ecuador,B1_Output_Params/BAU newest file,Ecuador\ECU_Energy\B1_Output_Params\BAU,2026-05-14T18:20:17Z
+Ecuador,B1_Output_Params/LTSNEW newest file,Ecuador\ECU_Energy\B1_Output_Params\LTSNEW,2026-05-14T18:20:21Z
+Ecuador,B1_Output_Params/NDCNEW newest file,Ecuador\ECU_Energy\B1_Output_Params\NDCNEW,2026-05-14T18:20:19Z
+Ecuador,Executables BAU_FINAL_0.txt,Ecuador\ECU_Energy\Executables\BAU_FINAL_0\BAU_FINAL_0.txt,2026-05-16T22:27:36Z
+Ecuador,Executables BAU_0.txt,Ecuador\ECU_Energy\Executables\BAU_0\BAU_0.txt,2026-05-14T18:20:32Z
+Ecuador,Executables NDCNEW_FINAL_0.txt,Ecuador\ECU_Energy\Executables\NDCNEW_FINAL_0\NDCNEW_FINAL_0.txt,2026-05-16T22:27:36Z
+Ecuador,Executables NDCNEW_0.txt,Ecuador\ECU_Energy\Executables\NDCNEW_0\NDCNEW_0.txt,2026-05-14T18:20:34Z
+Ecuador,Executables LTSNEW_FINAL_0.txt,Ecuador\ECU_Energy\Executables\LTSNEW_FINAL_0\LTSNEW_FINAL_0.txt,2026-05-16T22:27:36Z
+Ecuador,Executables LTSNEW_0.txt,Ecuador\ECU_Energy\Executables\LTSNEW_0\LTSNEW_0.txt,2026-05-14T18:20:35Z
+Guatemala,A-O workbook,Guatemala\GUA_ENERGY\A1_Outputs\A-O_Parametrization.xlsx,2025-12-26T23:22:53Z
+Guatemala,A2_Output_Params/BAU newest file,Guatemala\GUA_ENERGY\A2_Output_Params\BAU,2025-12-26T23:27:54Z
+Guatemala,A2_Output_Params/Default newest file,Guatemala\GUA_ENERGY\A2_Output_Params\Default,2025-12-26T23:27:01Z
+Guatemala,A2_Output_Params/LTSNEW newest file,Guatemala\GUA_ENERGY\A2_Output_Params\LTSNEW,2025-12-26T23:26:51Z
+Guatemala,A2_Output_Params/NDCNEW newest file,Guatemala\GUA_ENERGY\A2_Output_Params\NDCNEW,2025-12-26T23:26:51Z
+Guatemala,B1_Output_Params/BAU newest file,Guatemala\GUA_ENERGY\B1_Output_Params\BAU,2026-01-27T04:11:05Z
+Guatemala,B1_Output_Params/Default newest file,Guatemala\GUA_ENERGY\B1_Output_Params\Default,2025-12-26T23:27:09Z
+Guatemala,B1_Output_Params/LTSNEW newest file,Guatemala\GUA_ENERGY\B1_Output_Params\LTSNEW,2026-01-27T04:11:13Z
+Guatemala,B1_Output_Params/NDCNEW newest file,Guatemala\GUA_ENERGY\B1_Output_Params\NDCNEW,2026-01-27T04:11:08Z
+Guatemala,Executables BAU_FINAL_0.txt,Guatemala\GUA_ENERGY\Executables\BAU_FINAL_0\BAU_FINAL_0.txt,2026-05-16T22:27:36Z
+Guatemala,Executables BAU_0.txt,Guatemala\GUA_ENERGY\Executables\BAU_0\BAU_0.txt,2026-01-27T04:12:27Z
+Guatemala,Executables NDCNEW_FINAL_0.txt,Guatemala\GUA_ENERGY\Executables\NDCNEW_FINAL_0\NDCNEW_FINAL_0.txt,2026-05-16T22:27:36Z
+Guatemala,Executables NDCNEW_0.txt,Guatemala\GUA_ENERGY\Executables\NDCNEW_0\NDCNEW_0.txt,2026-01-27T04:12:29Z
+Guatemala,Executables LTSNEW_FINAL_0.txt,Guatemala\GUA_ENERGY\Executables\LTSNEW_FINAL_0\LTSNEW_FINAL_0.txt,2026-05-16T22:27:36Z
+Guatemala,Executables LTSNEW_0.txt,Guatemala\GUA_ENERGY\Executables\LTSNEW_0\LTSNEW_0.txt,2026-01-27T04:13:18Z
+Honduras,A-O workbook,Honduras\HON_ENERGY\A1_Outputs\A-O_Parametrization.xlsx,2025-12-10T17:22:20Z
+Honduras,A2_Output_Params/BAU newest file,Honduras\HON_ENERGY\A2_Output_Params\BAU,2025-12-10T17:22:40Z
+Honduras,A2_Output_Params/Default newest file,Honduras\HON_ENERGY\A2_Output_Params\Default,2025-12-10T17:22:46Z
+Honduras,A2_Output_Params/LTSNEW newest file,Honduras\HON_ENERGY\A2_Output_Params\LTSNEW,2025-12-10T17:22:33Z
+Honduras,A2_Output_Params/NDCNEW newest file,Honduras\HON_ENERGY\A2_Output_Params\NDCNEW,2025-12-10T17:22:33Z
+Honduras,B1_Output_Params/BAU newest file,Honduras\HON_ENERGY\B1_Output_Params\BAU,2026-01-27T06:44:07Z
+Honduras,B1_Output_Params/LTSNEW newest file,Honduras\HON_ENERGY\B1_Output_Params\LTSNEW,2026-01-27T06:44:09Z
+Honduras,B1_Output_Params/NDCNEW newest file,Honduras\HON_ENERGY\B1_Output_Params\NDCNEW,2026-01-27T06:44:08Z
+Honduras,Executables BAU_FINAL_0.txt,Honduras\HON_ENERGY\Executables\BAU_FINAL_0\BAU_FINAL_0.txt,2026-05-16T22:27:36Z
+Honduras,Executables BAU_0.txt,Honduras\HON_ENERGY\Executables\BAU_0\BAU_0.txt,2026-01-27T06:44:13Z
+Honduras,Executables NDCNEW_FINAL_0.txt,Honduras\HON_ENERGY\Executables\NDCNEW_FINAL_0\NDCNEW_FINAL_0.txt,2026-05-16T22:27:36Z
+Honduras,Executables NDCNEW_0.txt,Honduras\HON_ENERGY\Executables\NDCNEW_0\NDCNEW_0.txt,2026-01-27T06:44:14Z
+Honduras,Executables LTSNEW_FINAL_0.txt,Honduras\HON_ENERGY\Executables\LTSNEW_FINAL_0\LTSNEW_FINAL_0.txt,2026-05-16T22:27:36Z
+Honduras,Executables LTSNEW_0.txt,Honduras\HON_ENERGY\Executables\LTSNEW_0\LTSNEW_0.txt,2026-01-27T06:44:15Z
+Jamaica,A-O workbook,Jamaica\JAM_ENERGY\A1_Outputs\A-O_Parametrization.xlsx,2026-05-12T00:18:32Z
+Jamaica,A2_Output_Params/BAU newest file,Jamaica\JAM_ENERGY\A2_Output_Params\BAU,2026-05-12T00:20:28Z
+Jamaica,A2_Output_Params/Default newest file,Jamaica\JAM_ENERGY\A2_Output_Params\Default,2025-12-02T21:58:49Z
+Jamaica,A2_Output_Params/LTSNEW newest file,Jamaica\JAM_ENERGY\A2_Output_Params\LTSNEW,2026-05-12T00:20:28Z
+Jamaica,A2_Output_Params/NDCNEW newest file,Jamaica\JAM_ENERGY\A2_Output_Params\NDCNEW,2026-05-12T00:20:28Z
+Jamaica,B1_Output_Params/BAU newest file,Jamaica\JAM_ENERGY\B1_Output_Params\BAU,2026-05-12T00:20:28Z
+Jamaica,B1_Output_Params/LTSNEW newest file,Jamaica\JAM_ENERGY\B1_Output_Params\LTSNEW,2026-01-27T08:23:33Z
+Jamaica,B1_Output_Params/NDCNEW newest file,Jamaica\JAM_ENERGY\B1_Output_Params\NDCNEW,2026-05-12T00:20:28Z
+Jamaica,Executables BAU_FINAL_0.txt,Jamaica\JAM_ENERGY\Executables\BAU_FINAL_0\BAU_FINAL_0.txt,2026-05-16T22:27:36Z
+Jamaica,Executables BAU_0.txt,Jamaica\JAM_ENERGY\Executables\BAU_0\BAU_0.txt,2026-01-27T08:23:35Z
+Jamaica,Executables NDCNEW_FINAL_0.txt,Jamaica\JAM_ENERGY\Executables\NDCNEW_FINAL_0\NDCNEW_FINAL_0.txt,2026-05-16T22:27:36Z
+Jamaica,Executables NDCNEW_0.txt,Jamaica\JAM_ENERGY\Executables\NDCNEW_0\NDCNEW_0.txt,2026-01-27T08:23:36Z
+Jamaica,Executables LTSNEW_FINAL_0.txt,Jamaica\JAM_ENERGY\Executables\LTSNEW_FINAL_0\LTSNEW_FINAL_0.txt,2026-05-16T22:27:36Z
+Jamaica,Executables LTSNEW_0.txt,Jamaica\JAM_ENERGY\Executables\LTSNEW_0\LTSNEW_0.txt,2026-01-27T08:23:37Z

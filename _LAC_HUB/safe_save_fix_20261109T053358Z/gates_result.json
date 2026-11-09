@@ -1,0 +1,75 @@
+{
+  "ecuador_451_rows": 451,
+  "ecuador_451_still_plain_and_equal": 451,
+  "ecuador_451_bad": [],
+  "backups": [
+    {
+      "backup": "ao_cost_repair_manager.py.pre_20261109T053358Z",
+      "sha_before": "55e6dfe2314f50bce118be8ea7242ff96f8ec2f8df701de35439013aeeecc371",
+      "sha_backup_now": "55e6dfe2314f50bce118be8ea7242ff96f8ec2f8df701de35439013aeeecc371",
+      "equal": true
+    },
+    {
+      "backup": "apply_ao_edits.py.pre_20261109T053358Z",
+      "sha_before": "94b0dd6bb21038cdea0693ece91aa0bcdbc997ed3e64f64577e9bc72d1bb96f0",
+      "sha_backup_now": "94b0dd6bb21038cdea0693ece91aa0bcdbc997ed3e64f64577e9bc72d1bb96f0",
+      "equal": true
+    },
+    {
+      "backup": "patch_ao_ecuador_hydro.py.pre_20261109T053358Z",
+      "sha_before": "d1d676dd3315f201ebd09d2301a770d4d3c686c38d8a64177a4714499a65eee0",
+      "sha_backup_now": "d1d676dd3315f201ebd09d2301a770d4d3c686c38d8a64177a4714499a65eee0",
+      "equal": true
+    },
+    {
+      "backup": "Jamaica_A-O_Parametrization.xlsx.pre_20261109T053358Z",
+      "sha_before": "18f92a48b2bd41522a3dc5e7f3ad49e71194b008e0ac7bdd44871a0c2603e17f",
+      "sha_backup_now": "18f92a48b2bd41522a3dc5e7f3ad49e71194b008e0ac7bdd44871a0c2603e17f",
+      "equal": true
+    },
+    {
+      "backup": "Ecuador_A-O_Parametrization.xlsx.pre_20261109T053358Z",
+      "sha_before": "1d38bdefeb065c3369138240c7f6680e4042861b21306a5506abf82bc605315c",
+      "sha_backup_now": "1d38bdefeb065c3369138240c7f6680e4042861b21306a5506abf82bc605315c",
+      "equal": true
+    }
+  ],
+  "ao_hashes": [
+    {
+      "workbook": "CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_Parametrization.xlsx",
+      "before": "522d438ea7c27d4ceb3614267adff0503d059ecfe1a22d5d926bf7432dc9c8b7",
+      "after": "522d438ea7c27d4ceb3614267adff0503d059ecfe1a22d5d926bf7432dc9c8b7",
+      "changed": false
+    },
+    {
+      "workbook": "DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx",
+      "before": "f396abf1b587d337040735f945d0b7b2c7b4a47bf2c11e121753d8b5b7e4af7c",
+      "after": "f396abf1b587d337040735f945d0b7b2c7b4a47bf2c11e121753d8b5b7e4af7c",
+      "changed": false
+    },
+    {
+      "workbook": "Guatemala/GUA_ENERGY/A1_Outputs/A-O_Parametrization.xlsx",
+      "before": "e2f9aad05f2b96c35392fb523e9bf056a9c71e067e564951b7770ac2e661e7f1",
+      "after": "e2f9aad05f2b96c35392fb523e9bf056a9c71e067e564951b7770ac2e661e7f1",
+      "changed": false
+    },
+    {
+      "workbook": "Honduras/HON_ENERGY/A1_Outputs/A-O_Parametrization.xlsx",
+      "before": "d20f4aa8d4c55aa384a8bd0f7a6c93fd5e635427eba8e9e705651b8638b40458",
+      "after": "d20f4aa8d4c55aa384a8bd0f7a6c93fd5e635427eba8e9e705651b8638b40458",
+      "changed": false
+    },
+    {
+      "workbook": "Jamaica/JAM_ENERGY/A1_Outputs/A-O_Parametrization.xlsx",
+      "before": "18f92a48b2bd41522a3dc5e7f3ad49e71194b008e0ac7bdd44871a0c2603e17f",
+      "after": "592ceda73c6df758684a8a2fea20ac152db70f44ce6a4d65888274bfada16695",
+      "changed": true
+    },
+    {
+      "workbook": "Ecuador/ECU_Energy/A1_Outputs/A-O_Parametrization.xlsx",
+      "before": "1d38bdefeb065c3369138240c7f6680e4042861b21306a5506abf82bc605315c",
+      "after": "f1fb407a78848aaf7a9cffd6d771f2f3b507f0bc105366195e89089f03f6ff68",
+      "changed": true
+    }
+  ]
+}

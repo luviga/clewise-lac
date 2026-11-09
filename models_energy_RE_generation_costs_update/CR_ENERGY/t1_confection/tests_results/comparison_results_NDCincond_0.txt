@@ -1,0 +1,434 @@
+######################################################## TEST 1 ########################################################
+Problem if sum of daughters technologies are greater than mother technologies for the same parameter,
+only for transport sector.
+-----------------------------------------------------------------------------------------------
+
+
+
+Results for TotalTechnologyAnnualActivityLowerLimit:
+   Results for TRNBUS:
+     Children without values: ['TRNBUSHYBDSL', 'TRNBUSHYD', 'TRNBUSLPG']
+     Check   2021: greater      mother value: 0.2596,   children value: 0.28009999999999996
+     Check   2022: greater      mother value: 0.2683,   children value: 0.2808
+     Check   2023: greater      mother value: 0.2784,   children value: 0.28159999999999996
+-------------------------------------------------
+
+
+
+Results for TotalTechnologyAnnualActivityLowerLimit:
+   Results for TRNTAX:
+     Children without values: ['TRNTAXHYBDSL']
+     Check   2021: greater      mother value: 0.5459,   children value: 0.5548
+     Check   2022: greater      mother value: 0.5642,   children value: 0.5727
+     Check   2023: greater      mother value: 0.5854,   children value: 0.5938000000000001
+     Check   2024: greater      mother value: 0.6041,   children value: 0.6118
+     Check   2025: greater      mother value: 0.6194,   children value: 0.6268
+-------------------------------------------------
+
+
+
+Results for TotalTechnologyAnnualActivityLowerLimit:
+   Results for TRNMOT:
+     Check   2021: greater      mother value: 3.2142,   children value: 3.2183
+     Check   2022: greater      mother value: 3.322,   children value: 3.3249
+     Check   2023: greater      mother value: 3.447,   children value: 3.4498
+     Check   2024: greater      mother value: 3.5567,   children value: 3.5594
+     Check   2025: greater      mother value: 3.6469,   children value: 3.6495
+-------------------------------------------------
+
+
+
+Results for TotalTechnologyAnnualActivityLowerLimit:
+   Results for TRNSUV:
+     Children without values: ['TRNSUVHYBDSL', 'TRNSUVHYBGSL']
+     Check   2021: greater      mother value: 5.8487,   children value: 5.8549
+     Check   2022: greater      mother value: 6.0447,   children value: 6.050299999999999
+     Check   2023: greater      mother value: 6.2723,   children value: 6.2772
+     Check   2024: greater      mother value: 6.4719,   children value: 6.4765
+     Check   2025: greater      mother value: 6.636,   children value: 6.6402
+-------------------------------------------------
+
+
+
+Results for TotalTechnologyAnnualActivityLowerLimit:
+   Results for TRNFRELIG:
+     Children without values: ['TRNFRELIGHYBDSL', 'TRNFRELIGHYBGSL']
+     Check   2021: greater      mother value: 3.5433,   children value: 3.5433999999999997
+-------------------------------------------------
+-----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+######################################################## TEST 2 ########################################################
+Problem with decreasing values of TotalAnnualMaxCapacity by available technologies, by available technologies.
+PWRWNONS has decreases at the following points:
+  Check   from Year 2049: 2.5348 to Year 2050: 2.4
+
+-------------------------------------------------
+TRNMOT has decreases at the following points:
+  Check   from Year 2026: 3.6834 to Year 2027: 3.5937
+
+-------------------------------------------------
+TRNSED has decreases at the following points:
+  Check   from Year 2026: 7.6472 to Year 2027: 7.4611
+
+-------------------------------------------------
+TRNSUV has decreases at the following points:
+  Check   from Year 2026: 6.7024 to Year 2027: 6.5392
+
+-------------------------------------------------
+TRNSUVELE has decreases at the following points:
+  Check   from Year 2025: 0.0242 to Year 2026: 0.0241
+
+-------------------------------------------------
+TRNTAXELE has decreases at the following points:
+  Check   from Year 2023: 0.0187 to Year 2024: 0.0186
+  Check   from Year 2024: 0.0186 to Year 2025: 0.0185
+  Check   from Year 2025: 0.0185 to Year 2026: 0.0179
+
+-------------------------------------------------
+
+
+
+
+
+
+
+######################################################## TEST 3 ########################################################
+
+Problem if values of TotalTechnologyAnnualActivityLowerLimit are greater than TotalTechnologyAnnualActivityUpperLimit,
+by available technologies.
+
+
+
+
+
+
+
+######################################################## TEST 4 ########################################################
+
+Problem if values of ResidualCapacity are greater than TotalAnnualMaxCapacity,
+by available technologies.
+
+Results for technology: PWRDSL
+  Check   negative difference in the year 2021: -0.0002999999999999947
+-------------------------------------------------
+
+
+
+
+
+
+
+######################################################## TEST 5 ########################################################
+
+Problem if values of SpecifiedAnnualDemand(fuels/grandma) are greater than
+TotalAnnualMaxCapacity(mothers) x OutputActivityRatio(mothers), only for transport sector.
+
+
+
+
+
+
+
+######################################################## TEST 6 ########################################################
+
+Problem if values of SpecifiedAnnualDemand(fuels/grandma) are greater than
+TotalTechnologyAnnualActivityLowerLimit(mothers) x OutputActivityRatio(mothers), only for transport sector.
+ Check   for DEMTRNPASPUB in year 2021, the condition is NOT satisfied.
+ Check   for DEMTRNPASPUB in year 2024, the condition is NOT satisfied.
+ Check   for DEMTRNPASPUB in year 2025, the condition is NOT satisfied.
+ Check   for DEMTRNPASPUB in year 2026, the condition is NOT satisfied.
+ Check   for DEMTRNPASPRI in year 2021, the condition is NOT satisfied.
+ Check   for DEMTRNPASPRI in year 2023, the condition is NOT satisfied.
+ Check   for DEMTRNPASPRI in year 2026, the condition is NOT satisfied.
+ Check   for DEMTRNPASPRI in year 2027, the condition is NOT satisfied.
+ Check   for DEMTRNPASPRI in year 2030, the condition is NOT satisfied.
+ Check   for DEMTRNPASPRI in year 2032, the condition is NOT satisfied.
+ Check   for DEMTRNPASPRI in year 2033, the condition is NOT satisfied.
+ Check   for DEMTRNPASPRI in year 2035, the condition is NOT satisfied.
+ Check   for DEMTRNPASPRI in year 2036, the condition is NOT satisfied.
+ Check   for DEMTRNPASPRI in year 2039, the condition is NOT satisfied.
+ Check   for DEMTRNPASPRI in year 2043, the condition is NOT satisfied.
+ Check   for DEMTRNPASPRI in year 2046, the condition is NOT satisfied.
+ Check   for DEMTRNPASPRI in year 2050, the condition is NOT satisfied.
+ Check   for DEMTRNFREHEA in year 2021, the condition is NOT satisfied.
+ Check   for DEMTRNFREHEA in year 2023, the condition is NOT satisfied.
+ Check   for DEMTRNFRELIG in year 2021, the condition is NOT satisfied.
+ Check   for DEMTRNFRELIG in year 2023, the condition is NOT satisfied.
+
+
+
+
+
+
+
+######################################################## TEST 7 ########################################################
+
+Problem if values of TotalTechnologyAnnualActivityLowerLimit are less than
+TotalAnnualMaxCapacity x CapacityFactor x 31.356, by available technologies.
+
+
+
+
+
+
+
+######################################################## TEST 8 ########################################################
+
+Problem if values of TotalTechnologyAnnualActivityLowerLimit are less than
+TotalAnnualMaxCapacity x CapacityFactor x AvailabilityFactor x 31.356, by available technologies.
+Check   for PWRDSL in year 2021, the condition is NOT satisfied.
+
+
+
+
+
+
+
+######################################################## TEST 9 ########################################################
+
+Problem if TotalAnnualMaxCapacity is less than TotalTechnologyAnnualActivityLowerLimit, only for transport sector.
+
+   Results for PWRBMS:
+Check   2021: greater   MaxCapacity value: 0.071,   LowerLimit value: 0.2423
+Check   2022: greater   MaxCapacity value: 0.071,   LowerLimit value: 0.1998
+Check   2023: greater   MaxCapacity value: 0.071,   LowerLimit value: 0.1987
+Check   2024: greater   MaxCapacity value: 0.071,   LowerLimit value: 0.2157
+Check   2025: greater   MaxCapacity value: 0.071,   LowerLimit value: 0.2157
+Check   2026: greater   MaxCapacity value: 0.071,   LowerLimit value: 0.2157
+Check   2027: greater   MaxCapacity value: 0.071,   LowerLimit value: 0.2157
+Check   2028: greater   MaxCapacity value: 0.071,   LowerLimit value: 0.2157
+Check   2029: greater   MaxCapacity value: 0.071,   LowerLimit value: 0.2157
+Check   2030: greater   MaxCapacity value: 0.166,   LowerLimit value: 0.2157
+Check   2031: greater   MaxCapacity value: 0.186,   LowerLimit value: 0.2157
+-------------------------------------------------
+
+   Results for PWRDSL:
+Check   2023: greater   MaxCapacity value: 0.254,   LowerLimit value: 0.3499
+Check   2024: greater   MaxCapacity value: 0.2583,   LowerLimit value: 1.57
+-------------------------------------------------
+
+   Results for PWRFOI:
+Check   2022: greater   MaxCapacity value: 0.2272,   LowerLimit value: 0.3251
+Check   2023: greater   MaxCapacity value: 0.2272,   LowerLimit value: 1.8212
+Check   2024: greater   MaxCapacity value: 0.32,   LowerLimit value: 3.195
+-------------------------------------------------
+
+   Results for PWRGEO:
+Check   2021: greater   MaxCapacity value: 0.261,   LowerLimit value: 5.702
+Check   2022: greater   MaxCapacity value: 0.261,   LowerLimit value: 5.725
+Check   2023: greater   MaxCapacity value: 0.261,   LowerLimit value: 5.239
+Check   2024: greater   MaxCapacity value: 0.261,   LowerLimit value: 4.909
+Check   2025: greater   MaxCapacity value: 0.261,   LowerLimit value: 5.051
+Check   2026: greater   MaxCapacity value: 0.261,   LowerLimit value: 5.051
+Check   2027: greater   MaxCapacity value: 0.261,   LowerLimit value: 5.051
+Check   2028: greater   MaxCapacity value: 0.261,   LowerLimit value: 5.051
+Check   2029: greater   MaxCapacity value: 0.316,   LowerLimit value: 6.237
+Check   2030: greater   MaxCapacity value: 0.316,   LowerLimit value: 6.129
+Check   2031: greater   MaxCapacity value: 0.316,   LowerLimit value: 5.158
+Check   2032: greater   MaxCapacity value: 0.316,   LowerLimit value: 5.719
+Check   2033: greater   MaxCapacity value: 0.347,   LowerLimit value: 6.907
+Check   2034: greater   MaxCapacity value: 0.347,   LowerLimit value: 6.907
+Check   2035: greater   MaxCapacity value: 0.347,   LowerLimit value: 6.907
+Check   2036: greater   MaxCapacity value: 0.347,   LowerLimit value: 6.907
+Check   2037: greater   MaxCapacity value: 0.347,   LowerLimit value: 6.907
+Check   2038: greater   MaxCapacity value: 0.402,   LowerLimit value: 8.095
+Check   2039: greater   MaxCapacity value: 0.402,   LowerLimit value: 8.095
+Check   2040: greater   MaxCapacity value: 0.402,   LowerLimit value: 8.095
+Check   2041: greater   MaxCapacity value: 0.402,   LowerLimit value: 8.095
+Check   2042: greater   MaxCapacity value: 0.402,   LowerLimit value: 8.095
+Check   2043: greater   MaxCapacity value: 0.402,   LowerLimit value: 8.095
+Check   2044: greater   MaxCapacity value: 0.402,   LowerLimit value: 8.095
+Check   2045: greater   MaxCapacity value: 0.402,   LowerLimit value: 8.095
+Check   2046: greater   MaxCapacity value: 0.402,   LowerLimit value: 8.095
+Check   2047: greater   MaxCapacity value: 0.402,   LowerLimit value: 8.095
+Check   2048: greater   MaxCapacity value: 0.402,   LowerLimit value: 8.095
+Check   2049: greater   MaxCapacity value: 0.402,   LowerLimit value: 8.095
+Check   2050: greater   MaxCapacity value: 0.402,   LowerLimit value: 8.095
+-------------------------------------------------
+
+   Results for PWRHYDDAM:
+Check   2021: greater   MaxCapacity value: 1.13,   LowerLimit value: 13.2363
+Check   2022: greater   MaxCapacity value: 1.13,   LowerLimit value: 13.5716
+Check   2023: greater   MaxCapacity value: 1.13,   LowerLimit value: 13.7088
+Check   2024: greater   MaxCapacity value: 1.13,   LowerLimit value: 13.7088
+Check   2025: greater   MaxCapacity value: 1.1541,   LowerLimit value: 14.3691
+Check   2026: greater   MaxCapacity value: 1.1942,   LowerLimit value: 14.3895
+Check   2027: greater   MaxCapacity value: 1.233,   LowerLimit value: 14.4099
+Check   2028: greater   MaxCapacity value: 1.2701,   LowerLimit value: 14.4303
+Check   2029: greater   MaxCapacity value: 1.3062,   LowerLimit value: 14.4507
+Check   2030: greater   MaxCapacity value: 1.3649,   LowerLimit value: 14.4711
+Check   2031: greater   MaxCapacity value: 1.4237,   LowerLimit value: 14.4915
+Check   2032: greater   MaxCapacity value: 1.4824,   LowerLimit value: 14.5118
+Check   2033: greater   MaxCapacity value: 1.5411,   LowerLimit value: 14.5322
+Check   2034: greater   MaxCapacity value: 1.5998,   LowerLimit value: 14.5526
+Check   2035: greater   MaxCapacity value: 1.5998,   LowerLimit value: 14.573
+Check   2036: greater   MaxCapacity value: 1.6374,   LowerLimit value: 14.5934
+Check   2037: greater   MaxCapacity value: 1.675,   LowerLimit value: 14.6138
+Check   2038: greater   MaxCapacity value: 1.7125,   LowerLimit value: 14.6342
+Check   2039: greater   MaxCapacity value: 1.7501,   LowerLimit value: 14.6546
+Check   2040: greater   MaxCapacity value: 1.7877,   LowerLimit value: 14.675
+Check   2041: greater   MaxCapacity value: 1.8253,   LowerLimit value: 14.6954
+Check   2042: greater   MaxCapacity value: 1.8629,   LowerLimit value: 14.7158
+Check   2043: greater   MaxCapacity value: 1.9004,   LowerLimit value: 14.7362
+Check   2044: greater   MaxCapacity value: 1.938,   LowerLimit value: 14.7565
+Check   2045: greater   MaxCapacity value: 1.9756,   LowerLimit value: 14.7769
+Check   2046: greater   MaxCapacity value: 2.0132,   LowerLimit value: 14.7973
+Check   2047: greater   MaxCapacity value: 2.0504,   LowerLimit value: 14.8177
+Check   2048: greater   MaxCapacity value: 2.0879,   LowerLimit value: 14.8381
+Check   2049: greater   MaxCapacity value: 2.1255,   LowerLimit value: 14.8585
+Check   2050: greater   MaxCapacity value: 2.1631,   LowerLimit value: 14.8789
+-------------------------------------------------
+
+   Results for PWRSPVTRN:
+Check   2021: greater   MaxCapacity value: 0.0054,   LowerLimit value: 0.03
+Check   2022: greater   MaxCapacity value: 0.0054,   LowerLimit value: 0.031
+Check   2023: greater   MaxCapacity value: 0.0054,   LowerLimit value: 0.032
+Check   2027: greater   MaxCapacity value: 0.9231,   LowerLimit value: 1.283
+Check   2028: greater   MaxCapacity value: 1.1308,   LowerLimit value: 1.777
+Check   2029: greater   MaxCapacity value: 1.3385,   LowerLimit value: 2.765
+Check   2030: greater   MaxCapacity value: 1.5462,   LowerLimit value: 2.765
+Check   2031: greater   MaxCapacity value: 1.7538,   LowerLimit value: 3.11
+Check   2032: greater   MaxCapacity value: 1.9615,   LowerLimit value: 4.592
+Check   2033: greater   MaxCapacity value: 2.1692,   LowerLimit value: 4.592
+Check   2034: greater   MaxCapacity value: 2.3769,   LowerLimit value: 5.382
+Check   2035: greater   MaxCapacity value: 2.5846,   LowerLimit value: 5.728
+Check   2036: greater   MaxCapacity value: 2.7923,   LowerLimit value: 5.728
+Check   2037: greater   MaxCapacity value: 3.0,   LowerLimit value: 5.975
+Check   2038: greater   MaxCapacity value: 3.2077,   LowerLimit value: 5.975
+Check   2039: greater   MaxCapacity value: 3.4154,   LowerLimit value: 5.975
+Check   2040: greater   MaxCapacity value: 3.6231,   LowerLimit value: 6.123
+Check   2041: greater   MaxCapacity value: 3.8308,   LowerLimit value: 6.1169
+Check   2042: greater   MaxCapacity value: 4.0385,   LowerLimit value: 6.1108
+Check   2043: greater   MaxCapacity value: 4.2462,   LowerLimit value: 6.1047
+Check   2044: greater   MaxCapacity value: 4.4538,   LowerLimit value: 6.0986
+Check   2045: greater   MaxCapacity value: 4.6615,   LowerLimit value: 6.0925
+Check   2046: greater   MaxCapacity value: 4.8692,   LowerLimit value: 6.0864
+Check   2047: greater   MaxCapacity value: 5.0769,   LowerLimit value: 6.0803
+Check   2048: greater   MaxCapacity value: 5.2846,   LowerLimit value: 6.0742
+Check   2049: greater   MaxCapacity value: 5.4923,   LowerLimit value: 6.0681
+Check   2050: greater   MaxCapacity value: 5.7,   LowerLimit value: 6.062
+-------------------------------------------------
+
+   Results for PWRWNONS:
+Check   2021: greater   MaxCapacity value: 0.3761,   LowerLimit value: 5.1487
+Check   2022: greater   MaxCapacity value: 0.39,   LowerLimit value: 4.929
+Check   2023: greater   MaxCapacity value: 0.4076,   LowerLimit value: 5.2
+Check   2024: greater   MaxCapacity value: 0.6787,   LowerLimit value: 4.462
+Check   2025: greater   MaxCapacity value: 0.7323,   LowerLimit value: 4.462
+Check   2026: greater   MaxCapacity value: 0.7858,   LowerLimit value: 4.462
+Check   2027: greater   MaxCapacity value: 0.8394,   LowerLimit value: 5.021
+Check   2028: greater   MaxCapacity value: 0.8929,   LowerLimit value: 6.086
+Check   2029: greater   MaxCapacity value: 0.9465,   LowerLimit value: 7.417
+Check   2030: greater   MaxCapacity value: 1.0259,   LowerLimit value: 7.417
+Check   2031: greater   MaxCapacity value: 1.1053,   LowerLimit value: 9.414
+Check   2032: greater   MaxCapacity value: 1.1847,   LowerLimit value: 9.414
+Check   2033: greater   MaxCapacity value: 1.2642,   LowerLimit value: 9.414
+Check   2034: greater   MaxCapacity value: 1.3436,   LowerLimit value: 9.414
+Check   2035: greater   MaxCapacity value: 1.423,   LowerLimit value: 9.414
+Check   2036: greater   MaxCapacity value: 1.5024,   LowerLimit value: 9.414
+Check   2037: greater   MaxCapacity value: 1.5818,   LowerLimit value: 11.011
+Check   2038: greater   MaxCapacity value: 1.6612,   LowerLimit value: 11.011
+Check   2039: greater   MaxCapacity value: 1.7406,   LowerLimit value: 11.011
+Check   2040: greater   MaxCapacity value: 1.8201,   LowerLimit value: 12.875
+Check   2041: greater   MaxCapacity value: 1.8995,   LowerLimit value: 12.9538
+Check   2042: greater   MaxCapacity value: 1.9789,   LowerLimit value: 13.0326
+Check   2043: greater   MaxCapacity value: 2.0583,   LowerLimit value: 13.1114
+Check   2044: greater   MaxCapacity value: 2.1377,   LowerLimit value: 13.1902
+Check   2045: greater   MaxCapacity value: 2.2171,   LowerLimit value: 13.269
+Check   2046: greater   MaxCapacity value: 2.2965,   LowerLimit value: 13.3478
+Check   2047: greater   MaxCapacity value: 2.376,   LowerLimit value: 13.4266
+Check   2048: greater   MaxCapacity value: 2.4554,   LowerLimit value: 13.5054
+Check   2049: greater   MaxCapacity value: 2.5348,   LowerLimit value: 13.5842
+Check   2050: greater   MaxCapacity value: 2.4,   LowerLimit value: 13.663
+-------------------------------------------------
+
+
+
+
+
+
+
+######################################################## TEST 10 ########################################################
+
+Problem if sum of TotalAnnualMaxCapacity(daughters) are less than TotalTechnologyAnnualActivityLowerLimit(mother),
+only for transport sector.
+   Results for TRNPASRAI:
+     Check   2021: -0.0042      TotalTechnologyAnnualActivityLowerLimit value: 0.0042,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2022: -0.0044      TotalTechnologyAnnualActivityLowerLimit value: 0.0044,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2023: -0.0046      TotalTechnologyAnnualActivityLowerLimit value: 0.0046,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2024: -0.0047      TotalTechnologyAnnualActivityLowerLimit value: 0.0047,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2025: -0.0048      TotalTechnologyAnnualActivityLowerLimit value: 0.0048,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2026: -0.0049      TotalTechnologyAnnualActivityLowerLimit value: 0.0049,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2027: -0.0051      TotalTechnologyAnnualActivityLowerLimit value: 0.0051,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2028: -0.0205      TotalTechnologyAnnualActivityLowerLimit value: 0.0205,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2029: -0.0367      TotalTechnologyAnnualActivityLowerLimit value: 0.0367,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2030: -0.0538      TotalTechnologyAnnualActivityLowerLimit value: 0.0538,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2031: -0.0559      TotalTechnologyAnnualActivityLowerLimit value: 0.0559,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2032: -0.0582      TotalTechnologyAnnualActivityLowerLimit value: 0.0582,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2033: -0.0605      TotalTechnologyAnnualActivityLowerLimit value: 0.0605,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2034: -0.063      TotalTechnologyAnnualActivityLowerLimit value: 0.063,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2035: -0.0654      TotalTechnologyAnnualActivityLowerLimit value: 0.0654,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2036: -0.068      TotalTechnologyAnnualActivityLowerLimit value: 0.068,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2037: -0.0707      TotalTechnologyAnnualActivityLowerLimit value: 0.0707,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2038: -0.0735      TotalTechnologyAnnualActivityLowerLimit value: 0.0735,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2039: -0.0763      TotalTechnologyAnnualActivityLowerLimit value: 0.0763,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2040: -0.0793      TotalTechnologyAnnualActivityLowerLimit value: 0.0793,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2041: -0.0814      TotalTechnologyAnnualActivityLowerLimit value: 0.0814,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2042: -0.0834      TotalTechnologyAnnualActivityLowerLimit value: 0.0834,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2043: -0.0856      TotalTechnologyAnnualActivityLowerLimit value: 0.0856,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2044: -0.0878      TotalTechnologyAnnualActivityLowerLimit value: 0.0878,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2045: -0.09      TotalTechnologyAnnualActivityLowerLimit value: 0.09,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2046: -0.0923      TotalTechnologyAnnualActivityLowerLimit value: 0.0923,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2047: -0.0947      TotalTechnologyAnnualActivityLowerLimit value: 0.0947,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2048: -0.0972      TotalTechnologyAnnualActivityLowerLimit value: 0.0972,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2049: -0.0997      TotalTechnologyAnnualActivityLowerLimit value: 0.0997,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2050: -0.1022      TotalTechnologyAnnualActivityLowerLimit value: 0.1022,   Sum TotalAnnualMaxCapacity value: 0.0
+-------------------------------------------------
+   Results for TRNFRERAI:
+     Check   2021: -0.0042      TotalTechnologyAnnualActivityLowerLimit value: 0.0042,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2022: -0.0044      TotalTechnologyAnnualActivityLowerLimit value: 0.0044,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2023: -0.0045      TotalTechnologyAnnualActivityLowerLimit value: 0.0045,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2024: -0.0047      TotalTechnologyAnnualActivityLowerLimit value: 0.0047,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2025: -0.0048      TotalTechnologyAnnualActivityLowerLimit value: 0.0048,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2026: -0.0049      TotalTechnologyAnnualActivityLowerLimit value: 0.0049,   Sum TotalAnnualMaxCapacity value: 0.0
+     Check   2027: -0.0039000000000000007      TotalTechnologyAnnualActivityLowerLimit value: 0.0051,   Sum TotalAnnualMaxCapacity value: 0.0012
+     Check   2028: -0.0028      TotalTechnologyAnnualActivityLowerLimit value: 0.0052,   Sum TotalAnnualMaxCapacity value: 0.0024
+     Check   2029: -0.0015999999999999999      TotalTechnologyAnnualActivityLowerLimit value: 0.0053,   Sum TotalAnnualMaxCapacity value: 0.0037
+     Check   2030: -0.0008999999999999998      TotalTechnologyAnnualActivityLowerLimit value: 0.0124,   Sum TotalAnnualMaxCapacity value: 0.0115
+     Check   2031: -0.001299999999999999      TotalTechnologyAnnualActivityLowerLimit value: 0.0197,   Sum TotalAnnualMaxCapacity value: 0.0184
+     Check   2032: -0.0017000000000000001      TotalTechnologyAnnualActivityLowerLimit value: 0.0274,   Sum TotalAnnualMaxCapacity value: 0.0257
+     Check   2033: -0.0020000000000000018      TotalTechnologyAnnualActivityLowerLimit value: 0.0356,   Sum TotalAnnualMaxCapacity value: 0.0336
+     Check   2034: -0.0022999999999999965      TotalTechnologyAnnualActivityLowerLimit value: 0.044,   Sum TotalAnnualMaxCapacity value: 0.0417
+     Check   2035: -0.002599999999999998      TotalTechnologyAnnualActivityLowerLimit value: 0.053,   Sum TotalAnnualMaxCapacity value: 0.0504
+     Check   2036: -0.002799999999999997      TotalTechnologyAnnualActivityLowerLimit value: 0.0624,   Sum TotalAnnualMaxCapacity value: 0.0596
+     Check   2037: -0.0030000000000000027      TotalTechnologyAnnualActivityLowerLimit value: 0.0722,   Sum TotalAnnualMaxCapacity value: 0.0692
+     Check   2038: -0.0031000000000000055      TotalTechnologyAnnualActivityLowerLimit value: 0.0825,   Sum TotalAnnualMaxCapacity value: 0.0794
+     Check   2039: -0.0030999999999999917      TotalTechnologyAnnualActivityLowerLimit value: 0.0933,   Sum TotalAnnualMaxCapacity value: 0.0902
+     Check   2040: -0.002999999999999989      TotalTechnologyAnnualActivityLowerLimit value: 0.1045,   Sum TotalAnnualMaxCapacity value: 0.1015
+     Check   2041: -0.0032000000000000084      TotalTechnologyAnnualActivityLowerLimit value: 0.1102,   Sum TotalAnnualMaxCapacity value: 0.107
+     Check   2042: -0.0034000000000000002      TotalTechnologyAnnualActivityLowerLimit value: 0.1161,   Sum TotalAnnualMaxCapacity value: 0.1127
+     Check   2043: -0.003600000000000006      TotalTechnologyAnnualActivityLowerLimit value: 0.1223,   Sum TotalAnnualMaxCapacity value: 0.1187
+     Check   2044: -0.003700000000000009      TotalTechnologyAnnualActivityLowerLimit value: 0.1287,   Sum TotalAnnualMaxCapacity value: 0.125
+     Check   2045: -0.0039000000000000146      TotalTechnologyAnnualActivityLowerLimit value: 0.1353,   Sum TotalAnnualMaxCapacity value: 0.1314
+     Check   2046: -0.0040999999999999925      TotalTechnologyAnnualActivityLowerLimit value: 0.1422,   Sum TotalAnnualMaxCapacity value: 0.1381
+     Check   2047: -0.004299999999999998      TotalTechnologyAnnualActivityLowerLimit value: 0.1493,   Sum TotalAnnualMaxCapacity value: 0.145
+     Check   2048: -0.004500000000000004      TotalTechnologyAnnualActivityLowerLimit value: 0.1567,   Sum TotalAnnualMaxCapacity value: 0.1522
+     Check   2049: -0.004799999999999999      TotalTechnologyAnnualActivityLowerLimit value: 0.1644,   Sum TotalAnnualMaxCapacity value: 0.1596
+     Check   2050: -0.004999999999999977      TotalTechnologyAnnualActivityLowerLimit value: 0.1725,   Sum TotalAnnualMaxCapacity value: 0.1675
+-------------------------------------------------
+
+
+
+
+
+
+
+######################################################## TEST 11 ########################################################
+
+Problem if sum of TotalTechnologyAnnualActivityLowerLimit(daughters) are greater than TotalTechnologyAnnualActivityUpperLimit(mother),
+only for afolu sector.
