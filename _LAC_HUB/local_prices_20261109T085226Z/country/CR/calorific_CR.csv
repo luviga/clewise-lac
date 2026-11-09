@@ -1,0 +1,3 @@
+country,balance,publisher,url,net_or_gross,factor_NGS,factor_COA,factor_COK,factor_FOI,factor_units,page_or_table,source_id
+CostaRica,Balance Energetico Nacional (MINAE/SEPSE),MINAE Direccion de Energia / SEPSE,https://www.minae.go.cr/energia/ben/Informe%20Balance%20de%20Energia%202022.pdf,not stated,,,,,,not retrieved: HTTP 403 Cloudflare challenge (on manual list),
+CostaRica,OLADE SIELAC energy balance (second source),OLADE,https://biblioteca.olade.org/opac-tmpl/Documentos/old0381.pdf,not stated,,,,,,not retrieved: HTTP 403 (on manual list),

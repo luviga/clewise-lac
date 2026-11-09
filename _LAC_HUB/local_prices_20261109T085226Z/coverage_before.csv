@@ -1,0 +1,56 @@
+country,fuel,model_code,method,status_before,benchmark,benchmark_2024_usd_per_gj,observed_import_cost_usd_per_gj,import_adder_usd_per_gj,margin_usd_per_gj,adder_usd_per_gj,pre_tax_price_2024_usd_per_gj,notes_before
+CostaRica,DSL,IMPPURDSL,observed (regulator price structure),observed,EIA USGC ULSD,16.719,17.099,0.38,1.984,2.364,19.083,
+CostaRica,GSL,IMPPURGSL,observed (regulator price structure),observed,EIA USGC conventional regular gasoline,18.021,17.648,-0.373,2.218,1.845,19.866,
+CostaRica,JET,IMPKJF,observed (regulator price structure),observed,EIA USGC jet,17.278,18.53,1.252,3.683,4.934,22.212,
+CostaRica,KER,IMPKJF,observed (regulator price structure),observed,EIA USGC jet on kerosene NCV,17.396,18.656,1.26,1.923,3.184,20.58,
+CostaRica,LPG,IMPLPG,observed (regulator price structure),observed,EIA Mont Belvieu propane,8.055,10.744,2.689,2.456,5.145,13.2,
+CostaRica,FOI,IMPFOI,observed (regulator price structure),observed,Brent x 0.814 (proxy; ratio from ARESEP 2024 FOB bunker),11.343,12.782,1.439,3.196,4.635,15.978,
+CostaRica,AVG,IMPAVG,observed (regulator price structure),observed,USGC gasoline x 1.579 (proxy; EIA PADD 3 avgas ratio 2018-2021),28.455,35.748,7.293,4.929,12.221,40.676,
+CostaRica,NGS,IMPNGS,built (published rates),open: built from published rates,EIA Henry Hub (gross basis),2.079,,5.684,0.0,5.684,7.763,
+CostaRica,COA,IMPCOA,ASSUMPTION candidate,open: ASSUMPTION candidate,World Bank South African coal (NAR),4.211,,,,1.0,5.211,
+CostaRica,COK,IMPCOK,ASSUMPTION candidate,open: ASSUMPTION candidate,EIA US petcoke delivered to power plants (proxy),2.806,,,,0.8,3.606,
+DominicanRepublic,DSL,DIST_DSL,observed (regulator price structure),observed,EIA USGC ULSD,16.719,17.967,1.248,0.622,1.87,18.589,
+DominicanRepublic,GSL,DIST_GSL,observed (regulator price structure),observed,EIA USGC conventional regular gasoline,18.021,19.502,1.481,2.158,3.639,21.66,open question: 2024 MICM import parity administrative under retail price freeze; find market-tracking 2024 import cost
+DominicanRepublic,LPG,DIST_LPG,observed (regulator price structure),observed,EIA Mont Belvieu propane,8.055,14.783,6.728,1.936,8.664,16.719,open question: 2024 MICM import parity administrative under retail price freeze; find market-tracking 2024 import cost
+DominicanRepublic,KER,DIST_KER,observed (regulator price structure),observed,EIA USGC jet on kerosene NCV,17.396,19.972,2.576,1.137,3.713,21.109,
+DominicanRepublic,JET,DIST_KER,observed (regulator price structure),observed,EIA USGC jet,17.278,20.044,2.766,1.927,4.693,21.971,
+DominicanRepublic,FOI,DIST_FOI,observed (regulator price structure),observed,Brent x 0.814 (proxy; ratio from ARESEP 2024 FOB bunker),11.343,13.357,2.014,0.178,2.192,13.535,
+DominicanRepublic,NGS,DIST_NGS,observed (regulator published importer price),observed,EIA Henry Hub (gross basis),2.079,11.404,9.325,0.0,9.325,11.404,
+DominicanRepublic,COA,DIST_COA,ASSUMPTION candidate,open: ASSUMPTION candidate,World Bank South African coal (NAR),4.211,,,,1.0,5.211,
+DominicanRepublic,COK,DIST_COK,ASSUMPTION candidate,open: ASSUMPTION candidate,EIA US petcoke delivered to power plants (proxy),2.806,,,,0.8,3.606,
+DominicanRepublic,CRU,DIST_CRU,ASSUMPTION candidate,open: ASSUMPTION candidate,EIA Brent,13.935,,,,0.35,14.285,
+Guatemala,DSL,DIST_DSL,observed (regulator price structure),observed,EIA USGC ULSD,16.719,18.184,1.465,1.958,3.423,20.142,partial: 31 of 52 MEM weekly structures
+Guatemala,GSL,DIST_GSL,observed (regulator price structure),observed,EIA USGC conventional regular gasoline,18.021,19.418,1.397,2.52,3.917,21.938,partial: 31 of 52 MEM weekly structures
+Guatemala,FOI,DIST_FOI,observed (regulator price structure),observed,Brent x 0.814 (proxy; ratio from ARESEP 2024 FOB bunker),11.343,10.3,-1.043,4.562,3.519,14.862,partial: 31 of 52 MEM weekly structures
+Guatemala,LPG,DIST_LPG,observed (regulator price structure),observed,EIA Mont Belvieu propane,8.055,12.098,4.043,0.776,4.819,12.874,partial: 31 of 52 MEM weekly structures
+Guatemala,KER,DIST_KER,built (regional published data),open: built from other countries,EIA USGC jet on kerosene NCV,17.396,,1.918,1.53,3.448,20.844,partial: 31 of 52 MEM weekly structures
+Guatemala,NGS,DIST_NGS,built (published rates),open: built from published rates,EIA Henry Hub (gross basis),2.079,,5.684,0.0,5.684,7.763,
+Guatemala,COA,DIST_COA,ASSUMPTION candidate,open: ASSUMPTION candidate,World Bank South African coal (NAR),4.211,,,,1.0,5.211,
+Guatemala,COK,DIST_COK,ASSUMPTION candidate,open: ASSUMPTION candidate,EIA US petcoke delivered to power plants (proxy),2.806,,,,0.8,3.606,
+Honduras,DSL,DIST_DSL,observed import cost; margin ASSUMPTION candidate,"open: observed import cost, assumed margin",EIA USGC ULSD,16.719,18.487,1.768,1.958,3.726,20.445,partial: SEN weekly bulletins January to July 2024 only
+Honduras,GSL,DIST_GSL,observed import cost; margin ASSUMPTION candidate,"open: observed import cost, assumed margin",EIA USGC conventional regular gasoline,18.021,18.129,0.108,2.218,2.326,20.347,partial: SEN weekly bulletins January to July 2024 only
+Honduras,KER,DIST_KER,observed import cost; margin ASSUMPTION candidate,"open: observed import cost, assumed margin",EIA USGC jet on kerosene NCV,17.396,18.813,1.416,1.53,2.946,20.342,partial: SEN weekly bulletins January to July 2024 only
+Honduras,FOI,DIST_FOI,observed (regulator published delivered price),observed,Brent x 0.814 (proxy; ratio from ARESEP 2024 FOB bunker),11.343,12.052,0.709,0.0,0.709,12.052,
+Honduras,LPG,DIST_LPG,observed (regulator price structure),observed,EIA Mont Belvieu propane,8.055,11.75,3.695,0.578,4.273,12.328,partial: SEN weekly bulletins January to July 2024 only
+Honduras,NGS,DIST_NGS,built (published rates),open: built from published rates,EIA Henry Hub (gross basis),2.079,,5.684,0.0,5.684,7.763,
+Honduras,COA,DIST_COA,ASSUMPTION candidate,open: ASSUMPTION candidate,World Bank South African coal (NAR),4.211,,,,1.0,5.211,
+Honduras,COK,DIST_COK,ASSUMPTION candidate,open: ASSUMPTION candidate,EIA US petcoke delivered to power plants (proxy),2.806,,,,0.8,3.606,
+Jamaica,LPG,DIST_LPG,observed import cost (customs CIF); margin ASSUMPTION candidate,"open: observed import cost, assumed margin",EIA Mont Belvieu propane,8.055,9.037,0.982,1.356,2.338,10.393,
+Jamaica,NGS,DIST_NGS,observed (regulator published delivered price),observed,EIA Henry Hub (gross basis),2.079,9.847,7.768,0.0,7.768,9.847,partial: OUR plant prices June and July 2024 only; extend to 12 months
+Jamaica,FOI,DIST_FOI,observed (regulator published delivered price),observed,Brent x 0.814 (proxy; ratio from ARESEP 2024 FOB bunker),11.343,12.773,1.43,0.0,1.43,12.773,partial: OUR plant prices June and July 2024 only; extend to 12 months
+Jamaica,DSL,DIST_DSL,built (regional published data),open: built from other countries,EIA USGC ULSD,16.719,,1.248,1.958,3.206,19.925,
+Jamaica,GSL,DIST_GSL,built (regional published data),open: built from other countries,EIA USGC conventional regular gasoline,18.021,,1.397,2.218,3.615,21.636,
+Jamaica,KER,DIST_KER,built (regional published data),open: built from other countries,EIA USGC jet on kerosene NCV,17.396,,1.918,1.53,3.448,20.844,
+Jamaica,JET,DIST_JET,built (regional published data),open: built from other countries,EIA USGC jet,17.278,,2.009,2.805,4.814,22.092,
+Jamaica,COA,DIST_COA,ASSUMPTION candidate,open: ASSUMPTION candidate,World Bank South African coal (NAR),4.211,,,,1.0,5.211,
+Jamaica,COK,DIST_COK,ASSUMPTION candidate,open: ASSUMPTION candidate,EIA US petcoke delivered to power plants (proxy),2.806,,,,0.8,3.606,
+Ecuador,DSL,DIST_DSL,observed import cost; margin ASSUMPTION candidate,"open: observed import cost, assumed margin",EIA USGC ULSD,16.719,17.718,0.999,1.958,2.957,19.676,
+Ecuador,GSL,DIST_GSL,observed import cost; margin ASSUMPTION candidate,"open: observed import cost, assumed margin",EIA USGC conventional regular gasoline,18.021,20.133,2.112,2.218,4.33,22.351,
+Ecuador,JET,DIST_JET,observed import cost; margin ASSUMPTION candidate,"open: observed import cost, assumed margin",EIA USGC jet,17.278,23.184,5.906,2.805,8.711,25.989,
+Ecuador,LPG,DIST_LPG,observed import cost; margin ASSUMPTION candidate,"open: observed import cost, assumed margin",EIA Mont Belvieu propane,8.055,11.767,3.712,1.356,5.068,13.123,
+Ecuador,FOI,DIST_FOI,built (regional published data),open: built from other countries,Brent x 0.814 (proxy; ratio from ARESEP 2024 FOB bunker),11.343,,1.439,3.196,4.635,15.978,"open question: exported in 2024 (EP Petroecuador export FOB 61.68 USD/bbl), no imports; record export and any import or delivered-to-generator value"
+Ecuador,KER,DIST_KER,built (regional published data),open: built from other countries,EIA USGC jet on kerosene NCV,17.396,,1.918,1.53,3.448,20.844,
+Ecuador,CRU,DIST_CRU,ASSUMPTION candidate,open: ASSUMPTION candidate,EIA Brent,13.935,,,,0.35,14.285,
+Ecuador,NGS,DIST_NGS,built (published rates),open: built from published rates,EIA Henry Hub (gross basis),2.079,,5.684,0.0,5.684,7.763,
+Ecuador,COA,DIST_COA,ASSUMPTION candidate,open: ASSUMPTION candidate,World Bank South African coal (NAR),4.211,,,,1.0,5.211,
+Ecuador,COK,DIST_COK,ASSUMPTION candidate,open: ASSUMPTION candidate,EIA US petcoke delivered to power plants (proxy),2.806,,,,0.8,3.606,

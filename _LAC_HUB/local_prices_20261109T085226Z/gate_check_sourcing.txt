@@ -1,0 +1,10 @@
+G4a local_prices_2024.csv: 176 rows, 172 needing a source, 172 pass, 0 fail
+G4a local_history.csv: 330 rows, 330 needing a source, 330 pass, 0 fail
+G4a calorific_basis.csv: 9 rows, 9 needing a source, 9 pass, 0 fail
+G4a constants.csv: 90 rows, 90 needing a source, 90 pass, 0 fail
+G4b sources.csv: 352 sources, 352 pass, 0 fail
+G4c duplicate source ids: 0 []
+G4d local_prices_2024.csv: 172 rows needing a file, 172 pass, 0 fail
+G4d local_history.csv: 330 rows needing a file, 330 pass, 0 fail
+G5 ASSUMPTION candidate rows (country, fuel): 4, 4 pass, 0 fail
+TOTAL FAILURES: 0

@@ -1,0 +1,9 @@
+Steer from the hub. Apply these additions to BRIEF_LAC_LOCAL_PRICES from now on, and redo any affected step you have already done. Do not ask anything; keep working.
+
+1. Constants. Every number a price passes through (exchange rates, densities, calorific values, gallons per tonne, GJ per MMBtu, any unit factor) follows the same rule as prices. Do not reuse a value from the earlier price-sources job on its say-so: reopen its source in this session, confirm the figure, and copy the file into this job's downloads/. Where a figure is a mean you compute from daily rates (CRC, GTQ), keep the daily-rate file and the script. List every constant in a new file constants.csv: name, value, unit, source id, page or table.
+
+2. What counts as retrievable. Each citation must let a stranger land on the same number: the http(s) URL that returns the file itself (for a query or API, the full query URL; never a search-results page or a URL that only works inside a browser session), title, publisher, date, page, table or row, and retrieval date. Add a "page or table" column to sources.csv and a "rows and constants it supports" column. Report every value you could not source externally.
+
+3. Gate 4 replaced. Write the sourcing check as a script and report its counts: every row of local_prices_2024.csv, local_history.csv, calorific_basis.csv and constants.csv whose evidence class is not "ASSUMPTION candidate" names a source id; every source id in sources.csv has an http(s) URL, a page or table, a retrieval date and a file that exists in downloads/; no source field holds a local path, a file in this repository or an internal document. Any failure goes at the top of REPORT.
+
+4. Add constants.csv to the supporting files and to CHANGES. Copy this steer message into the job folder as STEER_1.md and commit it with the outputs.

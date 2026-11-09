@@ -1,0 +1,9 @@
+PATH _LAC_HUB/local_prices_20261109T085226Z/BRIEF_LAC_LOCAL_PRICES.md:4: Main copy on this machine: `C:\Users\luisfernando\Desktop\OSeMOSYS\MODELS_LAC_5` (Git Bash `/c/Users/luisfernando/Desktop/OSeMOSYS/MODELS_LAC_5`). Claude Code o
+PATH _LAC_HUB/local_prices_20261109T085226Z/BRIEF_LAC_LOCAL_PRICES.md:67: git clone /c/Users/luisfernando/Desktop/OSeMOSYS/MODELS_LAC_5 /c/clw_local_prices
+PATH _LAC_HUB/local_prices_20261109T085226Z/BRIEF_LAC_LOCAL_PRICES.md:68: cd /c/clw_local_prices
+PATH _LAC_HUB/local_prices_20261109T085226Z/BRIEF_LAC_LOCAL_PRICES.md:75: - Job folder: `C:\clw_local_prices\_LAC_HUB\local_prices_<stamp>\`, with `downloads\` inside it for every source file. `.gitignore` already keeps `/_LAC_HUB/**/
+PATH _LAC_HUB/local_prices_20261109T085226Z/BRIEF_LAC_LOCAL_PRICES.md:77: - Read-only: every other file in `C:\clw_local_prices`, the main copy `MODELS_LAC_5` (including its `_LAC_HUB`), and every other `C:\clw_*` folder. Do not open
+PATH _LAC_HUB/local_prices_20261109T085226Z/BRIEF_LAC_LOCAL_PRICES.md:146: 4. `manual_downloads.csv`: URL, page title or document name, publisher, what it should hold, rows it closes, why it is needed, how it failed (HTTP status, timeo
+PATH _LAC_HUB/local_prices_20261109T085226Z/country/DR/dr_check_sources.py:34: bad = re.compile(r'((?<![A-Za-z])[A-Za-z]:[\\/]|/c/Users|\\Users\\|clw_local_prices|MODELS_LAC)')
+PATH _LAC_HUB/local_prices_20261109T085226Z/country/JAM/check_jam.py:31: if fn.endswith(('.csv', '.md')) and re.search(r'(?<![A-Za-z])[A-Za-z]:\\|/c/Users|clw_local_prices|AppData', t): print('machine path in', fn); bad += 1
+em dash lines: 0; machine path lines: 8

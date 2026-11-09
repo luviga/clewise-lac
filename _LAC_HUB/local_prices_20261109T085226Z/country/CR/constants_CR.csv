@@ -1,0 +1,18 @@
+name,value,unit,source_id,page_or_table,derivation
+CR_FX_2024,515.1098,CRC/USD,CR-023,"World Bank WDI indicator PA.NUS.FCRF (Official exchange rate, LCU per US$, period average), Costa Rica, 2024",published annual average 515.109771921403; it equals the mean of the BCCR daily reference buying and selling rates over 2024 to within 0.01 CRC; the BCCR daily file itself could not be downloaded (see manual list)
+CR_FX_2018,576.9725,CRC/USD,CR-023,"World Bank WDI indicator PA.NUS.FCRF, Costa Rica, 2018",published annual average
+CR_FX_2019,587.2946,CRC/USD,CR-023,"World Bank WDI indicator PA.NUS.FCRF, Costa Rica, 2019",published annual average
+CR_FX_2020,584.9009,CRC/USD,CR-023,"World Bank WDI indicator PA.NUS.FCRF, Costa Rica, 2020",published annual average
+CR_FX_2021,620.7847,CRC/USD,CR-023,"World Bank WDI indicator PA.NUS.FCRF, Costa Rica, 2021",published annual average
+CR_FX_2022,647.1358,CRC/USD,CR-023,"World Bank WDI indicator PA.NUS.FCRF, Costa Rica, 2022",published annual average
+CR_FX_2023,544.0508,CRC/USD,CR-023,"World Bank WDI indicator PA.NUS.FCRF, Costa Rica, 2023",published annual average
+CR_FX_2025,503.4968,CRC/USD,CR-023,"World Bank WDI indicator PA.NUS.FCRF, Costa Rica, 2025",published annual average
+CR_DENS_DSL_2024,0.8356,kg/L,CR-013,"ARESEP open data ObtenerComprasCombustibleRecope, anho=2024, producto=diesel 50 ppm (Diesel para uso automotriz de 50 ppm de azufre)",sum masa 1237576659 kg / sum litros 1481074856 L over 40 2024 cargoes
+CR_DENS_GSL91_2024,0.7297,kg/L,CR-013,"ARESEP open data ObtenerComprasCombustibleRecope, anho=2024, producto=gasoline RON 91 (regular)",sum masa 460937420 kg / sum litros 631639352 L over 13 2024 cargoes
+CR_DENS_GSL95_2024,0.7365,kg/L,CR-013,"ARESEP open data ObtenerComprasCombustibleRecope, anho=2024, producto=gasoline RON 95 (super)",sum masa 586167773 kg / sum litros 795857373 L over 16 2024 cargoes
+CR_DENS_JET_2024,0.7981,kg/L,CR-013,"ARESEP open data ObtenerComprasCombustibleRecope, anho=2024, producto=jet fuel (Jet fuel A-1, and Jet Fuel A which replaced it from late 2024)",sum masa 283919850 kg / sum litros 355759126 L over 35 2024 cargoes
+CR_DENS_AVG_2024,0.6929,kg/L,CR-013,"ARESEP open data ObtenerComprasCombustibleRecope, anho=2024, producto=Av-Gas",sum masa 831211 kg / sum litros 1199687 L over 21 2024 cargoes
+CR_DENS_FOI_2024,0.9882,kg/L,CR-013,"ARESEP open data ObtenerComprasCombustibleRecope, anho=2024, producto=Bunker (fuel oil)",sum masa 100798475 kg / sum litros 102005269 L over 13 2024 cargoes
+CR_DENS_FOI_ICE2_2024,0.9676,kg/L,CR-013,"ARESEP open data ObtenerComprasCombustibleRecope, anho=2024, producto=Bunker Termico ICE 2 (low-sulphur fuel oil for ICE power plants)",sum masa 186930279 kg / sum litros 193180725 L over 11 2024 cargoes
+CR_DENS_LPG_2024,0.5239,kg/L,CR-013,"ARESEP open data ObtenerComprasCombustibleRecope, anho=2024, producto=LPG mix 70-30 propane-butane",sum masa 249661131 kg / sum litros 476551432 L over 53 2024 cargoes
+CR_IPCC_NCV_COA_ANTHRACITE,26.7,GJ/t,CR-024,"2006 IPCC Guidelines Vol. 2 Ch. 1 Table 1.2 (PDF p.18), Anthracite, net calorific value default","published default (lower 21.6, upper 32.2)"

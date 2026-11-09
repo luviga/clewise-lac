@@ -1,0 +1,15 @@
+name,value,unit,source_id,page_or_table,derivation
+HON_FX_2024,24.7950,HNL/USD,HON-004,"sheet Tipo de Cambio Diario, column Compra, 247 daily rows of 2024",mean of 247 daily Compra rates in 2024 computed by fx_bch.py (Venta mean 24.9190; file kept in downloads HON/bch/fx_annual_means.csv)
+HON_KG_PER_LB,0.4535924,kg/lb,HON-029,row pound (avoirdupois) (lb),as printed (4.535 924 E-01)
+HON_KG_PER_CYL25,11.33981,kg per 25 lb cylinder,HON-029,row pound (avoirdupois) (lb),25 lb x HON_KG_PER_LB
+HON_EIA_HH_2024,2.19,USD/MMBtu (gross),HON-027,"sheet Data 1, 2024",as published
+HON_ODS_NGS_BUYER_UPLIFT,1.15,factor on Henry Hub,HON-016,section 5.3.5 p.56,as published (15% buyer costs)
+HON_ODS_LNG_LIQUEFACTION,2.0,USD/MMBtu,HON-017,Tabla D-5 p.41,as published
+HON_ODS_LNG_SHIPPING_INTERNACION,0.3,USD/MMBtu,HON-017,Tabla D-5 p.41,as published
+HON_ODS_LNG_REGASIFICATION,1.0,USD/MMBtu,HON-017,Tabla D-5 p.41,as published
+HON_ODS_NGS_INLAND,0.1320,USD/MMBtu,HON-017,Tabla D-2 p.40,as published; not applied
+HON_ODS_COAL_LOCAL_COST_SHARE,0.05,share of CIF,HON-016,section 5.3.4 p.56,as published (5% local cost over CIF)
+HON_ODS_COAL_FREIGHT,0.549,USD/MMBtu,HON-016,section 5.3.4 p.56,"as published; already inside observed CIF, not applied"
+HON_ODS_FOI_INTERNACION_2024,1.368,USD/MMBtu (LHV),HON-016,section 5.3.2 p.56,"as published, 2024 average; informational"
+HON_ODS_DSL_INTERNACION_2024,2.29,USD/MMBtu (LHV),HON-016,section 5.3.3 p.56,"as published, 2024 average; informational"
+HON_GSL_SUPERIOR_SHARE_2024,0.5417,share of gasoline import volume,HON-002,"Anexo 3, 2024 barrels","4,906.9 / (4,906.9 + 4,151.9) thousand bbl"

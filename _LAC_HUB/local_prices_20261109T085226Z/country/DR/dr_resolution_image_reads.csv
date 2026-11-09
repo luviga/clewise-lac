@@ -1,0 +1,24 @@
+week_start,resolution_number,page,GSL_PREMIUM,GSL_REGULAR,DSL_REGULAR,DSL_EGPC,AVTUR,KER,FO6,FO6_EGPC,FO6_1S,FO6_1S_EGPC,LPG,note
+2024-03-30,053-2024,5,154.23,146.06,136.41,164.34,173.00,170.71,118.87,116.84,134.38,132.34,87.08,PPI column (Precio Paridad Importacion) read from rendered scanned page image
+2024-04-13,068-2024,3,154.06,145.97,136.41,170.32,182.34,180.02,121.09,119.05,138.53,136.50,87.08,PPI column read from rendered scanned page image
+2024-04-20,073-2024,5,154.15,146.23,136.58,165.87,178.36,176.14,121.20,119.17,138.18,136.14,87.08,PPI column read from rendered scanned page image
+2024-07-27,168-2024,3,151.65,143.13,133.30,150.56,162.28,160.02,117.12,115.09,134.12,132.08,84.06,PPI column read from rendered scanned page image; premium first read as 151.85 then corrected to 151.65 because ad valorem 24.26 and official price 295.10 in the same table imply 151.65
+2024-08-31,202-2024,5,151.65,143.39,133.39,143.67,150.64,148.29,113.45,111.42,126.35,124.32,84.06,PPI column read from rendered scanned page image
+2024-09-14,218-2024,3,151.22,142.87,133.13,133.00,141.25,138.98,103.67,101.63,118.69,116.65,84.06,PPI column read from rendered scanned page image
+2024-09-28,226-2024,5,151.47,143.22,133.39,135.40,147.00,144.68,112.75,110.71,124.80,122.76,84.06,PPI column read from rendered scanned page image
+2024-10-05,239-2024,5,151.22,143.22,133.39,134.81,146.38,144.07,113.96,111.93,125.97,123.94,84.06,PPI column read from rendered scanned page image
+2024-10-19,253-2024,3,151.47,143.13,133.39,140.32,152.60,150.28,121.38,119.35,132.19,130.16,84.06,PPI column read from rendered scanned page image
+2024-10-26,256-2024,5,151.39,143.13,133.39,136.09,147.98,145.71,119.19,117.16,128.13,126.10,84.06,PPI column read from rendered scanned page image
+2024-11-09,272-2024,5,151.22,142.87,133.22,139.35,153.98,151.66,113.06,111.03,126.33,124.30,84.06,PPI column read from rendered scanned page image
+2024-12-07,299-2024,5,150.61,142.27,132.96,137.69,152.36,150.02,112.96,110.92,124.01,121.98,84.06,PPI column read from rendered scanned page image
+2024-12-21,319-2024,5,150.70,142.44,132.87,141.47,158.20,155.88,116.13,114.09,127.70,125.67,84.07,PPI column read from rendered scanned page image
+2024-02-03,025-2024,5,153.80,145.89,136.32,168.62,179.87,177.60,109.99,107.96,128.57,126.54,87.08,PPI column read from rendered scanned page image
+2024-06-29,142-2024,3,151.04,143.13,133.56,156.86,167.20,164.93,121.04,119.01,136.71,134.67,84.06,PPI column read from rendered scanned page image
+2024-09-07,209-2024,3,151.82,143.22,133.30,140.08,148.72,146.40,109.73,107.70,124.09,122.06,84.06,PPI column read from rendered scanned page image
+2024-09-21,221-2024,3,151.47,142.96,133.30,133.16,140.30,138.04,108.48,106.44,122.01,119.98,84.06,PPI column read from rendered scanned page image
+2024-10-12,245-2024,5,151.22,143.13,133.30,143.47,154.81,152.52,123.92,121.89,135.51,133.47,84.06,PPI column read from rendered scanned page image
+2024-11-02,267-2024,3,151.30,142.96,133.30,134.82,148.51,146.22,115.05,113.02,123.13,121.09,84.06,PPI column read from rendered scanned page image
+2024-11-16,278-2024,3,150.79,142.44,133.04,137.17,151.27,148.98,112.41,110.38,124.34,122.31,84.06,PPI column read from rendered scanned page image
+2024-11-23,285-2024,3,150.79,142.27,132.87,137.42,151.25,148.98,110.38,108.35,122.82,120.79,84.06,PPI column read from rendered scanned page image
+2024-11-30,292-2024,3,150.79,142.44,132.96,140.62,154.11,151.74,112.96,110.93,123.32,121.28,84.06,PPI column read from rendered scanned page image; fuel oil first read as 112.98 then corrected to 112.96 because the printed ad valorem 18.07 and the official price 156.24 imply 112.96
+2024-12-28,326-2024,5,150.53,142.27,132.87,141.19,158.12,155.79,115.76,113.72,126.62,124.59,84.06,PPI column read from rendered scanned page image

@@ -1,0 +1,12 @@
+name,value,unit,source_id,page_or_table,derivation
+JAM_FX_2018,129.72,JMD per USD,JAM-001,"Annual Weighted Average FX Rates, USD, 2018, sell rate",annual weighted average selling rate as published by Bank of Jamaica
+JAM_FX_2019,134.22,JMD per USD,JAM-001,"Annual Weighted Average FX Rates, USD, 2019, sell rate",annual weighted average selling rate as published by Bank of Jamaica
+JAM_FX_2020,143.27,JMD per USD,JAM-001,"Annual Weighted Average FX Rates, USD, 2020, sell rate",annual weighted average selling rate as published by Bank of Jamaica
+JAM_FX_2021,151.62,JMD per USD,JAM-001,"Annual Weighted Average FX Rates, USD, 2021, sell rate",annual weighted average selling rate as published by Bank of Jamaica
+JAM_FX_2022,154.21,JMD per USD,JAM-001,"Annual Weighted Average FX Rates, USD, 2022, sell rate",annual weighted average selling rate as published by Bank of Jamaica
+JAM_FX_2023,154.99,JMD per USD,JAM-001,"Annual Weighted Average FX Rates, USD, 2023, sell rate",annual weighted average selling rate as published by Bank of Jamaica
+JAM_FX_2024,157.22,JMD per USD,JAM-001,"Annual Weighted Average FX Rates, USD, 2024, sell rate",annual weighted average selling rate as published by Bank of Jamaica; confirms the earlier value 157.22
+JAM_FX_2025,159.83,JMD per USD,JAM-001,"Annual Weighted Average FX Rates, USD, 2025, sell rate",annual weighted average selling rate as published by Bank of Jamaica
+JAM_SCT_ADO_2024,37.4845,JMD per litre,JAM-012,"page 21, SCT Concession",standard Special Consumption Tax rate for ADO as stated by OUR (2024)
+JAM_SCT_ADO_CONCESSION_JUL2024,4.5611,JMD per litre,JAM-012,"page 21, SCT Concession",concessionary SCT rate for ADO purchases in July 2024
+JAM_OUR_ADO_MMBTU_PER_BBL,5.8147,MMBtu per bbl,JAM-014,"page 52, Table 23, 2023 row ADO",175.37 US$/BBL / 30.16 US$/MMBTU = 5.8147; heat content implied by OUR for diesel (2019 to 2022 rows give 5.82 to 5.83)

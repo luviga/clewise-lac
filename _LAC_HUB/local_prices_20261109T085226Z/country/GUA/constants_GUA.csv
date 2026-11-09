@@ -1,0 +1,16 @@
+name,value,unit,source_id,page_or_table,derivation
+GUA_FX_2024,7.75960,GTQ per USD,GUA-001,"SOAP 1.1 POST to https://www.banguat.gob.gt/variables/ws/TipoCambio.asmx, method TipoCambioRango, fechainit 01/01/2024, fechafin 31/12/2024; all <Var> elements (moneda 2, US dollar), field venta","mean of 366 daily reference rates 01/01/2024 to 31/12/2024 (venta = compra every day), computed by country/GUA/gua_fx.py"
+GUA_FX_2018,7.51908,GTQ per USD,GUA-021,"TipoCambioRango 2018, field venta","mean of 365 daily reference rates of 2018, computed by country/GUA/gua_fx.py"
+GUA_FX_2019,7.69835,GTQ per USD,GUA-022,"TipoCambioRango 2019, field venta","mean of 365 daily reference rates of 2019, computed by country/GUA/gua_fx.py"
+GUA_FX_2020,7.72222,GTQ per USD,GUA-023,"TipoCambioRango 2020, field venta","mean of 366 daily reference rates of 2020, computed by country/GUA/gua_fx.py"
+GUA_FX_2021,7.73577,GTQ per USD,GUA-024,"TipoCambioRango 2021, field venta","mean of 365 daily reference rates of 2021, computed by country/GUA/gua_fx.py"
+GUA_FX_2022,7.74884,GTQ per USD,GUA-025,"TipoCambioRango 2022, field venta","mean of 365 daily reference rates of 2022, computed by country/GUA/gua_fx.py"
+GUA_FX_2023,7.83367,GTQ per USD,GUA-026,"TipoCambioRango 2023, field venta","mean of 365 daily reference rates of 2023, computed by country/GUA/gua_fx.py"
+GUA_FX_2025,7.67973,GTQ per USD,GUA-027,"TipoCambioRango 2025, field venta","mean of 365 daily reference rates of 2025, computed by country/GUA/gua_fx.py"
+GUA_COA_NAR_MMBTU_PER_T,23.81,"MMBtu per tonne, net as received (Colombia 6000 kcal/kg NAR)",GUA-006,numeral 5.3.3 page 29 and Fo table page 30,published; equals 25.1209 GJ/t with GJ_PER_MMBTU 1.055056
+GUA_COK_NAR_MMBTU_PER_T,29.76,"MMBtu per tonne, net as received (USGC petcoke 7500 kcal/kg NAR)",GUA-006,numeral 5.3.3 page 29 and Fo table page 30,published; equals 31.3985 GJ/t with GJ_PER_MMBTU 1.055056
+GUA_KG_PER_LB,0.454,kg per libra,GUA-010,Articulo 2 (reforma articulo 48 Decreto 109-97),published (cuatrocientos cincuenta y cuatro milesimas de kilogramo); read from scanned image
+GUA_LB_PER_LPG_CYLINDER,25,libras per residential LPG cylinder,GUA-028,"slide 4 title ESTRUCTURA DEL PRECIO DEL GAS LICUADO DE PETROLEO, CILINDRO DE 25 LIBRAS",published
+GUA_IVA_RATE,0.12,fraction of price net of IDP,GUA-028,"every slide, label IMPUESTO AL VALOR AGREGADO 12%",published; checked: superior 3 Jan 2024 IVA 2.76 = 0.12 x (30.47 - 4.70 - 2.76)
+GUA_IDP_KER,0.50,GTQ per US gallon,GUA-010,Articulo 1 (Articulo 13 Tasas de Impuesto: Kerosina Q 0.50),published 1998 rate; later reforms changed the gasoline and fuel oil rates; no later kerosene rate found
+GUA_IDP_FOI_2024,0.000,GTQ per US gallon,GUA-028,"slide 5 bunker, IMPUESTO A LA DISTRIBUCION Q0.000",published in every 2024 bunker structure

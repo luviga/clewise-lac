@@ -1,0 +1,27 @@
+name,value,unit,source_id,page_or_table,derivation
+L_PER_USGAL,3.785411784,litre per US gallon,GEN-004,"Appendix C, page C-18",exact definition (231 cubic inches)
+USGAL_PER_BBL,42,US gallons per barrel,GEN-003,"Appendix B.8, page 45",barrel for petroleum = 42 US gallons
+GJ_PER_MMBTU,1.055056,GJ per MMBtu,GEN-003,"Appendix B.8, page 45",Btu_IT = 1.055 056 E+03 J; x 1e6 / 1e9
+KCAL_TO_KJ,4.1868,kJ per kcal,GEN-003,"Appendix B.8, page 46",calorie_IT = 4.1868 J
+MMBTU_PER_MCF_EIA,1.037,MMBtu per thousand cubic feet (gross),GEN-005,answer text,2025 U.S. average 1037 Btu per cubic foot
+UN_NGS_NET_PER_GROSS,0.9,ratio net to gross calorific value for natural gas,GEN-006,"page xxv",UN Statistics Division convention for converting natural gas from gross to net basis
+UN_GAL_PER_T_GSL,357,US gallons per metric ton (motor gasoline),GEN-001,"Table II, page xxvii",
+UN_GAL_PER_T_DSL,304,US gallons per metric ton (gas oil/diesel oil),GEN-001,"Table II, page xxvii",
+UN_GAL_PER_T_JET,326,US gallons per metric ton (kerosene-type jet fuel),GEN-001,"Table II, page xxvii",
+UN_GAL_PER_T_KER,326,US gallons per metric ton (other kerosene),GEN-001,"Table II, page xxvii",
+UN_GAL_PER_T_FOI,278,US gallons per metric ton (fuel oil),GEN-001,"Table II, page xxvii",
+UN_GAL_PER_T_LPG,489,US gallons per metric ton (LPG),GEN-001,"Table II, page xxvii",
+UN_GAL_PER_T_AVG,362,US gallons per metric ton (aviation gasoline),GEN-001,"Table II, page xxvii",
+UN_BBL_PER_T_CRU,7.32,barrels per metric ton (conventional crude oil),GEN-001,"Table II, page xxvii",
+IPCC_NCV_GSL,44.3,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Motor Gasoline
+IPCC_NCV_AVG,44.3,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Aviation Gasoline
+IPCC_NCV_JET,44.1,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Jet Kerosene
+IPCC_NCV_KER,43.8,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Other Kerosene
+IPCC_NCV_DSL,43.0,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Gas/Diesel Oil
+IPCC_NCV_FOI,40.4,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Residual Fuel Oil
+IPCC_NCV_LPG,47.3,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Liquefied Petroleum Gases
+IPCC_NCV_CRU,42.3,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Crude Oil
+IPCC_NCV_COK,32.5,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Petroleum Coke
+IPCC_NCV_COA_OTHER_BITUMINOUS,25.8,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Other Bituminous Coal
+IPCC_NCV_COA_SUBBITUMINOUS,18.9,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Sub-Bituminous Coal
+IPCC_NCV_NGS,48.0,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Natural Gas

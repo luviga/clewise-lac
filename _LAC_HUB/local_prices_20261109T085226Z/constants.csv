@@ -1,0 +1,91 @@
+name,value,unit,source_id,page_or_table,derivation
+L_PER_USGAL,3.785411784,litre per US gallon,GEN-004,"Appendix C, page C-18",exact definition (231 cubic inches)
+USGAL_PER_BBL,42,US gallons per barrel,GEN-003,"Appendix B.8, page 45",barrel for petroleum = 42 US gallons
+GJ_PER_MMBTU,1.055056,GJ per MMBtu,GEN-003,"Appendix B.8, page 45",Btu_IT = 1.055 056 E+03 J; x 1e6 / 1e9
+KCAL_TO_KJ,4.1868,kJ per kcal,GEN-003,"Appendix B.8, page 46",calorie_IT = 4.1868 J
+MMBTU_PER_MCF_EIA,1.037,MMBtu per thousand cubic feet (gross),GEN-005,answer text,2025 U.S. average 1037 Btu per cubic foot
+UN_NGS_NET_PER_GROSS,0.9,ratio net to gross calorific value for natural gas,GEN-006,page xxv,UN Statistics Division convention for converting natural gas from gross to net basis
+UN_GAL_PER_T_GSL,357,US gallons per metric ton (motor gasoline),GEN-001,"Table II, page xxvii",
+UN_GAL_PER_T_DSL,304,US gallons per metric ton (gas oil/diesel oil),GEN-001,"Table II, page xxvii",
+UN_GAL_PER_T_JET,326,US gallons per metric ton (kerosene-type jet fuel),GEN-001,"Table II, page xxvii",
+UN_GAL_PER_T_KER,326,US gallons per metric ton (other kerosene),GEN-001,"Table II, page xxvii",
+UN_GAL_PER_T_FOI,278,US gallons per metric ton (fuel oil),GEN-001,"Table II, page xxvii",
+UN_GAL_PER_T_LPG,489,US gallons per metric ton (LPG),GEN-001,"Table II, page xxvii",
+UN_GAL_PER_T_AVG,362,US gallons per metric ton (aviation gasoline),GEN-001,"Table II, page xxvii",
+UN_BBL_PER_T_CRU,7.32,barrels per metric ton (conventional crude oil),GEN-001,"Table II, page xxvii",
+IPCC_NCV_GSL,44.3,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Motor Gasoline
+IPCC_NCV_AVG,44.3,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Aviation Gasoline
+IPCC_NCV_JET,44.1,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Jet Kerosene
+IPCC_NCV_KER,43.8,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Other Kerosene
+IPCC_NCV_DSL,43.0,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Gas/Diesel Oil
+IPCC_NCV_FOI,40.4,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Residual Fuel Oil
+IPCC_NCV_LPG,47.3,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Liquefied Petroleum Gases
+IPCC_NCV_CRU,42.3,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Crude Oil
+IPCC_NCV_COK,32.5,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Petroleum Coke
+IPCC_NCV_COA_OTHER_BITUMINOUS,25.8,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Other Bituminous Coal
+IPCC_NCV_COA_SUBBITUMINOUS,18.9,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Sub-Bituminous Coal
+IPCC_NCV_NGS,48.0,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Natural Gas
+CR_FX_2024,515.1098,CRC/USD,CR-023,"World Bank WDI indicator PA.NUS.FCRF (Official exchange rate, LCU per US$, period average), Costa Rica, 2024",published annual average 515.109771921403; it equals the mean of the BCCR daily reference buying and selling rates over 2024 to within 0.01 CRC; the BCCR daily file itself could not be downloaded (see manual list)
+CR_FX_2018,576.9725,CRC/USD,CR-023,"World Bank WDI indicator PA.NUS.FCRF, Costa Rica, 2018",published annual average
+CR_FX_2019,587.2946,CRC/USD,CR-023,"World Bank WDI indicator PA.NUS.FCRF, Costa Rica, 2019",published annual average
+CR_FX_2020,584.9009,CRC/USD,CR-023,"World Bank WDI indicator PA.NUS.FCRF, Costa Rica, 2020",published annual average
+CR_FX_2021,620.7847,CRC/USD,CR-023,"World Bank WDI indicator PA.NUS.FCRF, Costa Rica, 2021",published annual average
+CR_FX_2022,647.1358,CRC/USD,CR-023,"World Bank WDI indicator PA.NUS.FCRF, Costa Rica, 2022",published annual average
+CR_FX_2023,544.0508,CRC/USD,CR-023,"World Bank WDI indicator PA.NUS.FCRF, Costa Rica, 2023",published annual average
+CR_FX_2025,503.4968,CRC/USD,CR-023,"World Bank WDI indicator PA.NUS.FCRF, Costa Rica, 2025",published annual average
+CR_DENS_DSL_2024,0.8356,kg/L,CR-013,"ARESEP open data ObtenerComprasCombustibleRecope, anho=2024, producto=diesel 50 ppm (Diesel para uso automotriz de 50 ppm de azufre)",sum masa 1237576659 kg / sum litros 1481074856 L over 40 2024 cargoes
+CR_DENS_GSL91_2024,0.7297,kg/L,CR-013,"ARESEP open data ObtenerComprasCombustibleRecope, anho=2024, producto=gasoline RON 91 (regular)",sum masa 460937420 kg / sum litros 631639352 L over 13 2024 cargoes
+CR_DENS_GSL95_2024,0.7365,kg/L,CR-013,"ARESEP open data ObtenerComprasCombustibleRecope, anho=2024, producto=gasoline RON 95 (super)",sum masa 586167773 kg / sum litros 795857373 L over 16 2024 cargoes
+CR_DENS_JET_2024,0.7981,kg/L,CR-013,"ARESEP open data ObtenerComprasCombustibleRecope, anho=2024, producto=jet fuel (Jet fuel A-1, and Jet Fuel A which replaced it from late 2024)",sum masa 283919850 kg / sum litros 355759126 L over 35 2024 cargoes
+CR_DENS_AVG_2024,0.6929,kg/L,CR-013,"ARESEP open data ObtenerComprasCombustibleRecope, anho=2024, producto=Av-Gas",sum masa 831211 kg / sum litros 1199687 L over 21 2024 cargoes
+CR_DENS_FOI_2024,0.9882,kg/L,CR-013,"ARESEP open data ObtenerComprasCombustibleRecope, anho=2024, producto=Bunker (fuel oil)",sum masa 100798475 kg / sum litros 102005269 L over 13 2024 cargoes
+CR_DENS_FOI_ICE2_2024,0.9676,kg/L,CR-013,"ARESEP open data ObtenerComprasCombustibleRecope, anho=2024, producto=Bunker Termico ICE 2 (low-sulphur fuel oil for ICE power plants)",sum masa 186930279 kg / sum litros 193180725 L over 11 2024 cargoes
+CR_DENS_LPG_2024,0.5239,kg/L,CR-013,"ARESEP open data ObtenerComprasCombustibleRecope, anho=2024, producto=LPG mix 70-30 propane-butane",sum masa 249661131 kg / sum litros 476551432 L over 53 2024 cargoes
+CR_IPCC_NCV_COA_ANTHRACITE,26.7,GJ/t,CR-024,"2006 IPCC Guidelines Vol. 2 Ch. 1 Table 1.2 (PDF p.18), Anthracite, net calorific value default","published default (lower 21.6, upper 32.2)"
+DR_FX_2024,59.5665,DOP per USD,DR-001,"sheet PromAnual, 2024, Venta",BCRD 2024 annual average of the daily reference selling rate (simple daily average as stated in the sheet note); buying rate 59.2507
+DR_LPG_GAL_PER_T_MICM,504.1454,US gallons per tonne,DR-034;DR-024;DR-041;DR-030;DR-028;DR-038;DR-017;DR-035;DR-025;DR-042;DR-021;DR-031;DR-039;DR-018;DR-036;DR-026;DR-043;DR-022;DR-032;DR-040;DR-019;DR-037;DR-027;DR-023;DR-044;DR-033;DR-020;DR-029,"each aviso, line Factor de Conversion correspondiente (Gls / Ton. Metric.)","mean of the 28 weekly factors published in the digital avisos Jan to Aug 2024 (min 502.94, max 505.83); the scanned resolutions read for Sep to Dec show 502.94 to 504.86, inside the same range"
+DR_NG_TEP_PER_THOUSAND_NM3,0.83,toe per thousand normal m3,DR-009,"Metodologia, Gas Natural","as published; equals 0.83 x 41.868 = 34.75 MJ per normal m3 (KCAL_TO_KJ basis of the toe), used only in calorific_DR.csv"
+ECU_VAT_2024_JAN_MAR,12,percent,ECU-004,"p.1 column header PRECIO EN TERMINAL (Incluye el 12% del I.V.A.); same header in ECU-003, ECU-005, ECU-006",VAT rate printed in the EP Petroecuador terminal price structures in force 1 January to 31 March 2024; prices excluding VAT = price including VAT / 1.12
+ECU_VAT_2024_APR_DEC,15,percent,ECU-016,"PDF p.35, Decreto Ejecutivo 198 Art. 2 quoted in the recitals of Decreto 215 (tarifa general del 15% del IVA desde el 01 de abril de 2024); header (Incluye el 15% del I.V.A.) in ECU-007 to ECU-015",prices excluding VAT = price including VAT / 1.15 from 1 April 2024; residuo cementero carries 5 percent VAT from June 2024 as printed in ECU-009 to ECU-015 p.2
+ECU_IPCC_NCV_ANTHRACITE,26.7,GJ/t,ECU-022,"PDF p.18 Table 1.2, Anthracite, net calorific value 26.7 TJ/Gg",Ecuador's 2024 coal imports are 99.6 percent HS 270111 anthracite by net weight (ECU-018); TJ/Gg equals GJ/t
+ECU_DAYS_2024,366,days,ECU-003,PERIODO DE VIGENCIA line of each structure file ECU-003 to ECU-015 (12th of month to 11th of next month),calendar 2024 is a leap year; each day assigned to the structure in force; used as the weight in the day-weighted means (structures_2024.py)
+GUA_FX_2024,7.75960,GTQ per USD,GUA-001,"SOAP 1.1 POST to https://www.banguat.gob.gt/variables/ws/TipoCambio.asmx, method TipoCambioRango, fechainit 01/01/2024, fechafin 31/12/2024; all <Var> elements (moneda 2, US dollar), field venta","mean of 366 daily reference rates 01/01/2024 to 31/12/2024 (venta = compra every day), computed by country/GUA/gua_fx.py"
+GUA_FX_2018,7.51908,GTQ per USD,GUA-021,"TipoCambioRango 2018, field venta","mean of 365 daily reference rates of 2018, computed by country/GUA/gua_fx.py"
+GUA_FX_2019,7.69835,GTQ per USD,GUA-022,"TipoCambioRango 2019, field venta","mean of 365 daily reference rates of 2019, computed by country/GUA/gua_fx.py"
+GUA_FX_2020,7.72222,GTQ per USD,GUA-023,"TipoCambioRango 2020, field venta","mean of 366 daily reference rates of 2020, computed by country/GUA/gua_fx.py"
+GUA_FX_2021,7.73577,GTQ per USD,GUA-024,"TipoCambioRango 2021, field venta","mean of 365 daily reference rates of 2021, computed by country/GUA/gua_fx.py"
+GUA_FX_2022,7.74884,GTQ per USD,GUA-025,"TipoCambioRango 2022, field venta","mean of 365 daily reference rates of 2022, computed by country/GUA/gua_fx.py"
+GUA_FX_2023,7.83367,GTQ per USD,GUA-026,"TipoCambioRango 2023, field venta","mean of 365 daily reference rates of 2023, computed by country/GUA/gua_fx.py"
+GUA_FX_2025,7.67973,GTQ per USD,GUA-027,"TipoCambioRango 2025, field venta","mean of 365 daily reference rates of 2025, computed by country/GUA/gua_fx.py"
+GUA_COA_NAR_MMBTU_PER_T,23.81,"MMBtu per tonne, net as received (Colombia 6000 kcal/kg NAR)",GUA-006,numeral 5.3.3 page 29 and Fo table page 30,published; equals 25.1209 GJ/t with GJ_PER_MMBTU 1.055056
+GUA_COK_NAR_MMBTU_PER_T,29.76,"MMBtu per tonne, net as received (USGC petcoke 7500 kcal/kg NAR)",GUA-006,numeral 5.3.3 page 29 and Fo table page 30,published; equals 31.3985 GJ/t with GJ_PER_MMBTU 1.055056
+GUA_KG_PER_LB,0.454,kg per libra,GUA-010,Articulo 2 (reforma articulo 48 Decreto 109-97),published (cuatrocientos cincuenta y cuatro milesimas de kilogramo); read from scanned image
+GUA_LB_PER_LPG_CYLINDER,25,libras per residential LPG cylinder,GUA-028,"slide 4 title ESTRUCTURA DEL PRECIO DEL GAS LICUADO DE PETROLEO, CILINDRO DE 25 LIBRAS",published
+GUA_IVA_RATE,0.12,fraction of price net of IDP,GUA-028,"every slide, label IMPUESTO AL VALOR AGREGADO 12%",published; checked: superior 3 Jan 2024 IVA 2.76 = 0.12 x (30.47 - 4.70 - 2.76)
+GUA_IDP_KER,0.50,GTQ per US gallon,GUA-010,Articulo 1 (Articulo 13 Tasas de Impuesto: Kerosina Q 0.50),published 1998 rate; later reforms changed the gasoline and fuel oil rates; no later kerosene rate found
+GUA_IDP_FOI_2024,0.000,GTQ per US gallon,GUA-028,"slide 5 bunker, IMPUESTO A LA DISTRIBUCION Q0.000",published in every 2024 bunker structure
+HON_FX_2024,24.7950,HNL/USD,HON-004,"sheet Tipo de Cambio Diario, column Compra, 247 daily rows of 2024",mean of 247 daily Compra rates in 2024 computed by fx_bch.py (Venta mean 24.9190; file kept in downloads HON/bch/fx_annual_means.csv)
+HON_KG_PER_LB,0.4535924,kg/lb,HON-029,row pound (avoirdupois) (lb),as printed (4.535 924 E-01)
+HON_KG_PER_CYL25,11.33981,kg per 25 lb cylinder,HON-029,row pound (avoirdupois) (lb),25 lb x HON_KG_PER_LB
+HON_EIA_HH_2024,2.19,USD/MMBtu (gross),HON-027,"sheet Data 1, 2024",as published
+HON_ODS_NGS_BUYER_UPLIFT,1.15,factor on Henry Hub,HON-016,section 5.3.5 p.56,as published (15% buyer costs)
+HON_ODS_LNG_LIQUEFACTION,2.0,USD/MMBtu,HON-017,Tabla D-5 p.41,as published
+HON_ODS_LNG_SHIPPING_INTERNACION,0.3,USD/MMBtu,HON-017,Tabla D-5 p.41,as published
+HON_ODS_LNG_REGASIFICATION,1.0,USD/MMBtu,HON-017,Tabla D-5 p.41,as published
+HON_ODS_NGS_INLAND,0.1320,USD/MMBtu,HON-017,Tabla D-2 p.40,as published; not applied
+HON_ODS_COAL_LOCAL_COST_SHARE,0.05,share of CIF,HON-016,section 5.3.4 p.56,as published (5% local cost over CIF)
+HON_ODS_COAL_FREIGHT,0.549,USD/MMBtu,HON-016,section 5.3.4 p.56,"as published; already inside observed CIF, not applied"
+HON_ODS_FOI_INTERNACION_2024,1.368,USD/MMBtu (LHV),HON-016,section 5.3.2 p.56,"as published, 2024 average; informational"
+HON_ODS_DSL_INTERNACION_2024,2.29,USD/MMBtu (LHV),HON-016,section 5.3.3 p.56,"as published, 2024 average; informational"
+HON_GSL_SUPERIOR_SHARE_2024,0.5417,share of gasoline import volume,HON-002,"Anexo 3, 2024 barrels","4,906.9 / (4,906.9 + 4,151.9) thousand bbl"
+JAM_FX_2018,129.72,JMD per USD,JAM-001,"Annual Weighted Average FX Rates, USD, 2018, sell rate",annual weighted average selling rate as published by Bank of Jamaica
+JAM_FX_2019,134.22,JMD per USD,JAM-001,"Annual Weighted Average FX Rates, USD, 2019, sell rate",annual weighted average selling rate as published by Bank of Jamaica
+JAM_FX_2020,143.27,JMD per USD,JAM-001,"Annual Weighted Average FX Rates, USD, 2020, sell rate",annual weighted average selling rate as published by Bank of Jamaica
+JAM_FX_2021,151.62,JMD per USD,JAM-001,"Annual Weighted Average FX Rates, USD, 2021, sell rate",annual weighted average selling rate as published by Bank of Jamaica
+JAM_FX_2022,154.21,JMD per USD,JAM-001,"Annual Weighted Average FX Rates, USD, 2022, sell rate",annual weighted average selling rate as published by Bank of Jamaica
+JAM_FX_2023,154.99,JMD per USD,JAM-001,"Annual Weighted Average FX Rates, USD, 2023, sell rate",annual weighted average selling rate as published by Bank of Jamaica
+JAM_FX_2024,157.22,JMD per USD,JAM-001,"Annual Weighted Average FX Rates, USD, 2024, sell rate",annual weighted average selling rate as published by Bank of Jamaica; confirms the earlier value 157.22
+JAM_FX_2025,159.83,JMD per USD,JAM-001,"Annual Weighted Average FX Rates, USD, 2025, sell rate",annual weighted average selling rate as published by Bank of Jamaica
+JAM_SCT_ADO_2024,37.4845,JMD per litre,JAM-012,"page 21, SCT Concession",standard Special Consumption Tax rate for ADO as stated by OUR (2024)
+JAM_SCT_ADO_CONCESSION_JUL2024,4.5611,JMD per litre,JAM-012,"page 21, SCT Concession",concessionary SCT rate for ADO purchases in July 2024
+JAM_OUR_ADO_MMBTU_PER_BBL,5.8147,MMBtu per bbl,JAM-014,"page 52, Table 23, 2023 row ADO",175.37 US$/BBL / 30.16 US$/MMBTU = 5.8147; heat content implied by OUR for diesel (2019 to 2022 rows give 5.82 to 5.83)
