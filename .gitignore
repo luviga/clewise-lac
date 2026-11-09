@@ -1,0 +1,48 @@
+# MODELS_LAC_5 ignore rules (LAC_REPO_SETUP 20261109T065948Z)
+
+# Size: no tracked file may exceed 50 MB
+/models_energy_RE_generation_costs_update/HON_ENERGY/Executables/NDCcond_0/NDCcond_0_output.txt
+
+# Size: regenerated B1/solver run folders, to keep the repository under 2 GB
+Executables/
+
+# Licensed or third-party documents
+*[bB][nN][aA][mM][eE][rR][iI][cC][aA][sS]*
+/_LAC_HUB/**/*.pdf
+/_LAC_HUB/**/*.htm
+/_LAC_HUB/**/*.html
+/_LAC_HUB/**/*.docx
+/_LAC_HUB/**/*.doc
+/_LAC_HUB/**/*.pptx
+/_LAC_HUB/**/sources/
+/_LAC_HUB/**/downloads/
+/_LAC_HUB/**/downloaded/
+
+# Third-party documents outside _LAC_HUB (licence status unknown)
+/Ecuador/ECU_AGR/Anexo 4. Monitoreo de emisiones, RC y productividad-1.pdf
+/Guatemala/GUA_AFOLU/RES.pdf
+/Jamaica/JAM_ENERGY/RSS_Buildings.pptx
+/Jamaica/JAM_ENERGY/RSS_Electricity.pptx
+/Jamaica/JAM_ENERGY/RSS_Industry.pptx
+/models_energy_RE_generation_costs_update/JAM_ENERGY/RSS_Buildings.pptx
+/models_energy_RE_generation_costs_update/JAM_ENERGY/RSS_Electricity.pptx
+/models_energy_RE_generation_costs_update/JAM_ENERGY/RSS_Industry.pptx
+
+# Email files (third-party correspondence)
+*.msg
+*.eml
+*.pst
+*.ost
+
+# Backups and caches
+__pycache__/
+*.pyc
+*.pre_*
+backups/
+backup/
+~$*
+*.tmp
+Thumbs.db
+desktop.ini
+*.zip
+*.7z
