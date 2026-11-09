@@ -2,9 +2,9 @@
 
 Per-country published fuel prices for the six LAC energy models, 2024 first, history 2018 to 2025 where one publisher gives a consistent series. No model file changed and no final price series was built.
 
-- Pull request: PR_PENDING (draft)
+- Pull request: https://github.com/luviga/clewise-lac/pull/1 (draft, number 1)
 - Branch: `job/local-prices`, from `c5ca4ee`
-- Commit: COMMIT_PENDING (one commit; the hash is also in the pull request description)
+- Commits: `0a6a9b92d76493cec6eb73cd6f5420380d49bbb1` adds this folder; a second commit fills in this header only (the pull request number and the first hash could not be written inside the first commit, and amending it was not permitted in this run)
 - Brief: `BRIEF_LAC_LOCAL_PRICES.md`; steer: `STEER_1.md` (applied from the moment it arrived; see GAPS for what was redone)
 
 ## Gate results
