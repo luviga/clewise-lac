@@ -1,0 +1,827 @@
+file,bytes,source_ids,origin_url,status
+CR/ALCA108_10_06_2024.pdf,4259264,CR-006,https://www.imprentanacional.go.cr/pub/2024/06/10/ALCA108_10_06_2024.pdf,cited in sources.csv
+CR/IPCC_2006_V2_1_Ch1_Introduction.pdf,875553,CR-024,https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/2_Volume2/V2_1_Ch1_Introduction.pdf,cited in sources.csv
+CR/RE-0002-IE-2024.pdf,2116986,CR-001,https://www.recope.go.cr/wp-content/uploads/2024/01/Alcance-No1-Gaceta-No1-08-01-24-Estudio-extraordinario.pdf,cited in sources.csv
+CR/RE-0013-IE-2024.pdf,2296349,CR-002,https://www.recope.go.cr/wp-content/uploads/2024/02/Alcance-N20-a-La-Gaceta-N22-ARESEP-RE-0013-IE-2024-Estudio-ajuste-extraordinario-mes-enero-2024.pdf,cited in sources.csv
+CR/RE-0021-IE-2024.pdf,2152848,CR-003,https://www.recope.go.cr/wp-content/uploads/2024/03/Alcance-N-46-La-Gaceta-N42-05-03-2024.pdf,cited in sources.csv
+CR/RE-0034-IE-2024.pdf,3406679,CR-004,https://www.recope.go.cr/wp-content/uploads/2024/04/Alcance-N71-La-Gaceta-N64-11-04-2024-RE-0034-IE-2024.pdf,cited in sources.csv
+CR/RE-004-IE-2025.pdf,2251827,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/RE-0040-IE-2024.pdf,2097005,CR-005,https://recope.go.cr/wp-content/uploads/2024/05/Alcance-N88-a-La-Gaceta-N80-RE-0040-IE-2024.pdf,cited in sources.csv
+CR/RE-0050-IE-2024.pdf,2315366,CR-007,https://www.recope.go.cr/wp-content/uploads/2024/07/Alcance-N-125-La-Gaceta-N128-12-07-2024-RE-0050-IE-junio-2024.pdf,cited in sources.csv
+CR/RE-0059-IE-2024.pdf,1941038,CR-008,https://recope.go.cr/wp-content/uploads/2024/08/Alcance-N137-La-Gaceta-N144.pdf,cited in sources.csv
+CR/RE-0062-IE-2024.pdf,1431658,CR-009,https://recope.go.cr/wp-content/uploads/2024/09/Alcance-N149-La-Gaceta-N160-RE-0062-IE-2024.pdf,cited in sources.csv
+CR/RE-0068-IE-2024.pdf,3333360,CR-010,https://recope.go.cr/wp-content/uploads/2024/10/Alcance-N170-La-Gaceta-N188-09-10-2024-RE-0068-IE-2024.pdf,cited in sources.csv
+CR/RE-0076-IE-2024.pdf,2117389,CR-011,https://www.recope.go.cr/wp-content/uploads/2024/11/Alcance-N180-La-Gaceta-N209-07-11-2024.pdf,cited in sources.csv
+CR/RE-0083-IE-2024.pdf,1387122,CR-012,https://www.recope.go.cr/wp-content/uploads/2024/12/Alcance-a-La-Gaceta-N199-a-La-Gaceta-N231-ARESEP-RE-0083-IE-2024.pdf,cited in sources.csv
+CR/ad_centrales-electricas.html,108486,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/ad_compras-combustible-recope.html,101724,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/ad_densidades-de-referencia-de-combustibles-para-calculo-tarifario.html,106745,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/ad_generacion-fuente-planta-capacidad-instalada.html,105721,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/ad_historico-resoluciones-tarifas-combustibles.html,104868,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/ad_margenes-de-comercializacion-de-combustibles-en-estaciones-de-servicio.html,105456,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_RE-0090-IE-2024_ICE_generacion.pdf,3379535,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_RE-0097-IE-2024_CVG2025.pdf,1218550,CR-015,https://aresep-my.sharepoint.com/:b:/g/personal/multimedia_aresep_go_cr/ETCmrAeIUblKiAGnFG-nwLkBxpxTD2n_5NmVatQW-qe_6w?e=jniOEO&download=1,cited in sources.csv
+CR/aresep_RE-0164-IE-2023_CVG2024.pdf,1083151,CR-014,https://aresep-my.sharepoint.com/:b:/g/personal/multimedia_aresep_go_cr/EUPUKhxzK4pGnhkF1XL0AnQBgrgE0M7oPssJA8wEfeGInA?e=8QSDkD&download=1,cited in sources.csv
+CR/aresep_cat/ie_2023_p1.html,88999,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2023_p10.html,90357,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2023_p11.html,90638,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2023_p12.html,90819,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2023_p2.html,90661,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2023_p3.html,90947,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2023_p4.html,90951,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2023_p5.html,90583,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2023_p6.html,90906,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2023_p7.html,90904,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2023_p8.html,90815,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2023_p9.html,90819,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2024_p1.html,89087,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2024_p10.html,89134,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2024_p11.html,66065,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2024_p12.html,66065,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2024_p2.html,90756,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2024_p3.html,90822,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2024_p4.html,90629,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2024_p5.html,90634,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2024_p6.html,90180,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2024_p7.html,90119,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2024_p8.html,90707,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/ie_2024_p9.html,90631,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/re-0090-ie-202.html,95891,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/re-0097-ie-202.html,95988,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat/re-0164-ie-202.html,95968,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_cat_ie_2024.html,89060,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_combustible.html,133445,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_datos-abiertos.html,343615,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_electricidad.html,132153,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_home.html,170302,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_monthly_2024_parsed.csv,119522,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_od_ObtenerComprasCombustibleRecope.json,696251,CR-013,https://datos.aresep.go.cr/ws.datosabiertos/Services/IE/TarifaCombustible.svc/ObtenerComprasCombustibleRecope,cited in sources.csv
+CR/aresep_od_ObtenerDensidadReferenciaCombustibles.json,11363,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_od_ObtenerMargenComercializacionEstaciones.json,4660610,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_od_ObtenerResolucionTarifaCombustible.json,14532,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_resoluciones-intendencia-energia.html,89945,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/aresep_resoluciones.html,89250,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/bccr_cuadro1.html,2330,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/bccr_cuerpo_vendor.js,21115,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/bccr_gee_400.html,1131,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/bccr_main.js,12248,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/bccr_tipo_cambio_2024_cuadro1.json,111,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/comtrade_CR_2018_2025_M_coal_petcoke.json,69,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/comtrade_CR_2018_M_coal_petcoke.json,2770,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/comtrade_CR_2019_M_coal_petcoke.json,1869,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/comtrade_CR_2020_M_coal_petcoke.json,1862,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/comtrade_CR_2021_M_coal_petcoke.json,1875,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/comtrade_CR_2022_M_coal_petcoke.json,1877,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/comtrade_CR_2023_M_coal_petcoke.json,2757,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/comtrade_CR_2024_M_6digit.json,10025,CR-022,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=188&period=2024&partnerCode=0&flowCode=M&cmdCode=270111,270112,270119,270120,271311,271312,271320,271390,270900,271012,271019,271111,271112,271113,271119,271121,271129",cited in sources.csv
+CR/comtrade_CR_2024_M_chapter.json,4595,CR-021,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=188&period=2024&partnerCode=0&flowCode=M&cmdCode=2701,2713,2709,2710,2711",cited in sources.csv
+CR/comtrade_CR_2025_M_coal_petcoke.json,1882,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/dl_log.txt,1768,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/minae_s3_list.xml,263,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/olade_manual_estadisticas_energeticas_2017_old0381.pdf,162,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/procomer_portal.html,149159,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/recope_publicaciones_variacion_precios.html,247446,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/ALCA108_10_06_2024.txt,434150,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/IPCC_2006_V2_1_Ch1_Introduction.txt,88345,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/RE-0002-IE-2024.txt,120144,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/RE-0013-IE-2024.txt,131290,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/RE-0021-IE-2024.txt,120582,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/RE-0034-IE-2024.txt,197073,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/RE-004-IE-2025.txt,141956,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/RE-0040-IE-2024.txt,140467,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/RE-0050-IE-2024.txt,124377,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/RE-0059-IE-2024.txt,121217,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/RE-0062-IE-2024.txt,122935,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/RE-0068-IE-2024.txt,195648,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/RE-0076-IE-2024.txt,123303,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/RE-0083-IE-2024.txt,126312,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/aresep_RE-0090-IE-2024_ICE_generacion.txt,709353,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/aresep_RE-0097-IE-2024_CVG2025.txt,299833,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/aresep_RE-0164-IE-2023_CVG2024.txt,245272,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/txt/olade_manual_estadisticas_energeticas_2017_old0381.txt,58,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/vuce_od_import_2701.json,53933,CR-017,"https://datos.vuce.cr/OpenData/EstadisticasOData.svc/od_import?$filter=startswith(partida,'2701') eq true",cited in sources.csv
+CR/vuce_od_import_271111.json,92377,CR-019,"https://datos.vuce.cr/OpenData/EstadisticasOData.svc/od_import?$filter=startswith(partida,'271111') eq true",cited in sources.csv
+CR/vuce_od_import_271121.json,13898,CR-020,"https://datos.vuce.cr/OpenData/EstadisticasOData.svc/od_import?$filter=startswith(partida,'271121') eq true",cited in sources.csv
+CR/vuce_od_import_2713.json,78883,CR-016,"https://datos.vuce.cr/OpenData/EstadisticasOData.svc/od_import?$filter=startswith(partida,'2713') eq true",cited in sources.csv
+CR/vuce_odata_metadata.xml,10782,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/vuce_odata_root.xml,1361,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+CR/vuce_pt_tiempo.json,92325,CR-018,https://datos.vuce.cr/OpenData/EstadisticasOData.svc/pt_tiempo,cited in sources.csv
+CR/wb_wdi_PA.NUS.FCRF_CRI_2018_2025.json,2025,CR-023,https://api.worldbank.org/v2/country/CRI/indicator/PA.NUS.FCRF?date=2018:2025&format=json,cited in sources.csv
+DR/avisos_parsed.csv,67400,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/bcrd/infeco_definitivo2024-12.pdf,1882564,DR-008,https://cdn.bancentral.gov.do/documents/publicaciones-economicas/informe-de-la-economia-dominicana/documents/infeco_definitivo2024-12.pdf,cited in sources.csv
+DR/bcrd/infeco_definitivo2025-12.pdf,2440987,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/bcrd/infeco_preliminar2024-12.pdf,974560,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/bcrd/sector_externo.html,95180,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/bcrd_TASA_DOLAR_REFERENCIA_MC.xlsx,358466,DR-001,https://cdn.bancentral.gov.do/documents/estadisticas/mercado-cambiario/documents/TASA_DOLAR_REFERENCIA_MC.xlsx,cited in sources.csv
+DR/cne/cne_noticia_balance2018.html,185139,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/cne/sien_2187c8.html,1266,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/cne/sien_docs.html,42267,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/cne/sien_e7269c.html,114139,DR-009,https://sien.cne.gob.do/WebForms/Utilidades/contenido.aspx?archivo=contenido3.1.html,cited in sources.csv
+DR/cne/sien_home.html,129347,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/cne/sien_metodologia.txt,28648,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/comtrade_214_2018_M_hist.json,5527,DR-010,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=214&period=2018&partnerCode=0&flowCode=M&cmdCode=270112,271311,271111,271112,271113,2709",cited in sources.csv
+DR/comtrade_214_2019_M_hist.json,5631,DR-011,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=214&period=2019&partnerCode=0&flowCode=M&cmdCode=270112,271311,271111,271112,271113,2709",cited in sources.csv
+DR/comtrade_214_2020_M_hist.json,5549,DR-012,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=214&period=2020&partnerCode=0&flowCode=M&cmdCode=270112,271311,271111,271112,271113,2709",cited in sources.csv
+DR/comtrade_214_2021_M_hist.json,5586,DR-013,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=214&period=2021&partnerCode=0&flowCode=M&cmdCode=270112,271311,271111,271112,271113,2709",cited in sources.csv
+DR/comtrade_214_2022_M_hist.json,5625,DR-014,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=214&period=2022&partnerCode=0&flowCode=M&cmdCode=270112,271311,271111,271112,271113,2709",cited in sources.csv
+DR/comtrade_214_2023_M_hist.json,5579,DR-015,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=214&period=2023&partnerCode=0&flowCode=M&cmdCode=270112,271311,271111,271112,271113,2709",cited in sources.csv
+DR/comtrade_214_2024_M_4digit.json,4627,DR-002,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=214&period=2024&partnerCode=0&flowCode=M&cmdCode=2701,2713,2709,2710,2711",cited in sources.csv
+DR/comtrade_214_2024_M_6digit.json,7419,DR-003,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=214&period=2024&partnerCode=0&flowCode=M&cmdCode=270112,271012,271019,271111,271112,271113,271119,271121,271311,271312",cited in sources.csv
+DR/comtrade_214_2025_M_hist.json,5645,DR-016,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=214&period=2025&partnerCode=0&flowCode=M&cmdCode=270112,271311,271111,271112,271113,2709",cited in sources.csv
+DR/comtrade_842_X_to214_2024.json,7364,DR-004,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=842&period=2024&partnerCode=214&flowCode=X&cmdCode=271012,271019,271112,271113,271111,270112,271311,2709",cited in sources.csv
+DR/comtrade_ref_QuantityUnits.json,4579,DR-005,https://comtradeapi.un.org/files/v1/app/reference/QuantityUnits.json,cited in sources.csv
+DR/dga/dga_informes-boletines.html,93829,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/dga/dga_series-de-tiempo.html,94564,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/dga/probe_283c6a.html,5212,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/dga/probe_3256ca.html,73246,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/dga/probe_f3b462.html,138985,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/mem/02.-Boletin-Informativo-Generacion-y-Gestion-Energia-Febrero-2024-v2.pdf,1298247,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/mem/04.-Boletin-Informativo-Generacion-y-Gestion-Energia-Abril-2024.pdf,762144,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/mem/09.-Boletin-Informativo-Generacion-y-Gestion-Energia-Septiembre-2024-2.pdf,757633,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/mem/11.-Boletin-Informativo-Generacion-y-Gestion-Energia-Noviembre-2024.pdf,763215,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/mem/12.-Boletin-Informativo-Generacion-y-Gestion-Energia-Diciembre-2024-V.2.pdf,758050,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/mem/Boletin-Informativo-Generacion-y-Gestion-Energia-2024-V.2.pdf,763026,DR-006,https://mem.gob.do/wp-content/uploads/2025/01/Boletin-Informativo-Generacion-y-Gestion-Energia-2024-V.2.pdf,cited in sources.csv
+DR/mem/TOMO-I.-BNEU-2018.pdf,893853,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/mem/bneu.txt,71280,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/mem/wp_media_BNE.json,12163,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/mem/wp_media_Balance-Energetico.json,2,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/mem/wp_media_Balance-Nacional.json,2,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/mem/wp_media_boletin.json,1396537,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-01-07-DE-JUNIO-DE-2024-.pdf,190033,DR-034,https://micm.gob.do/wp-content/uploads/2024/06/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-01-07-DE-JUNIO-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-02-08-MAR.-DE-2024.pdf,191353,DR-024,https://micm.gob.do/wp-content/uploads/2024/03/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-02-08-MAR.-DE-2024.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-03-09-DE-AGO.-DE-2024-.pdf,231538,DR-041,https://micm.gob.do/wp-content/uploads/2024/08/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-03-09-DE-AGO.-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-04-10-DE-MAYO-DE-2024-.pdf,196159,DR-030,https://micm.gob.do/wp-content/uploads/2024/05/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-04-10-DE-MAYO-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-06-12-DE-ABRIL-DE-2024-.pdf,190689,DR-028,https://micm.gob.do/wp-content/uploads/2024/04/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-06-12-DE-ABRIL-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-06-12-DE-JUL.-DE-2024-.pdf,192215,DR-038,https://micm.gob.do/wp-content/uploads/2024/07/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-06-12-DE-JUL.-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-06-12-ENE.-DE-2024.pdf,267607,DR-017,https://micm.gob.do/wp-content/uploads/2024/01/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-06-12-ENE.-DE-2024.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-08-14-DE-JUNIO-DE-2024-.pdf,201499,DR-035,https://micm.gob.do/wp-content/uploads/2024/06/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-08-14-DE-JUNIO-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-09-15-MAR.-DE-2024.pdf,192286,DR-025,https://micm.gob.do/wp-content/uploads/2024/03/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-09-15-MAR.-DE-2024.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-10-16-DE-AGO.-DE-2024-.pdf,192039,DR-042,https://micm.gob.do/wp-content/uploads/2024/08/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-10-16-DE-AGO.-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-10-16-FEB.-DE-2024.pdf,192306,DR-021,https://micm.gob.do/wp-content/uploads/2024/02/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-10-16-FEB.-DE-2024.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-11-17-DE-MAYO-DE-2024-.pdf,191396,DR-031,https://micm.gob.do/wp-content/uploads/2024/05/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-11-17-DE-MAYO-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-13-19-DE-JUL.-DE-2024-.pdf,192389,DR-039,https://micm.gob.do/wp-content/uploads/2024/07/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-13-19-DE-JUL.-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-13-19-ENE.-DE-2024-ESCENARIO-2.pdf,271880,DR-018,https://micm.gob.do/wp-content/uploads/2024/01/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-13-19-ENE.-DE-2024-ESCENARIO-2.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-15-21-DE-JUNIO-DE-2024-.pdf,196925,DR-036,https://micm.gob.do/wp-content/uploads/2024/06/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-15-21-DE-JUNIO-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-16-22-MAR.-DE-2024.pdf,196995,DR-026,https://micm.gob.do/wp-content/uploads/2024/03/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-16-22-MAR.-DE-2024.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-17-23-DE-AGO.-DE-2024-.pdf,187851,DR-043,https://micm.gob.do/wp-content/uploads/2024/08/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-17-23-DE-AGO.-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-17-23-FEB.-DE-2024.pdf,266967,DR-022,https://micm.gob.do/wp-content/uploads/2024/02/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-17-23-FEB.-DE-2024.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-18-24-DE-MAYO-DE-2024-.pdf,194155,DR-032,https://micm.gob.do/wp-content/uploads/2024/05/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-18-24-DE-MAYO-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-20-26-DE-JUL.-DE-2024-.pdf,197583,DR-040,https://micm.gob.do/wp-content/uploads/2024/07/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-20-26-DE-JUL.-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-20-26-ENE.-DE-2024.pdf,192019,DR-019,https://micm.gob.do/wp-content/uploads/2024/01/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-20-26-ENE.-DE-2024.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-22-28-DE-JUNIO-DE-2024-.pdf,191762,DR-037,https://micm.gob.do/wp-content/uploads/2024/06/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-22-28-DE-JUNIO-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-23-29-MAR.-DE-2024-.pdf,191893,DR-027,https://micm.gob.do/wp-content/uploads/2024/03/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-23-29-MAR.-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-24-01-MAR.-DE-2024.pdf,188187,DR-023,https://micm.gob.do/wp-content/uploads/2024/02/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-24-01-MAR.-DE-2024.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-24-30-DE-AGO.-DE-2024-.pdf,193876,DR-044,https://micm.gob.do/wp-content/uploads/2024/08/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-24-30-DE-AGO.-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-25-31-DE-MAYO-DE-2024-.pdf,191670,DR-033,https://micm.gob.do/wp-content/uploads/2024/05/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-25-31-DE-MAYO-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-27-02-FEB.-DE-2024.pdf,193121,DR-020,https://micm.gob.do/wp-content/uploads/2024/01/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-27-02-FEB.-DE-2024.pdf,cited in sources.csv
+DR/micm_avisos2024/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-27-03-DE-MAYO-DE-2024-.pdf,192022,DR-029,https://micm.gob.do/wp-content/uploads/2024/04/AVISO-PRECIOS-COMBUSTIBLES-SEM.CORTE-27-03-DE-MAYO-DE-2024-.pdf,cited in sources.csv
+DR/micm_avisos2024/aviso_urls.txt,3082,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_hist2024/HISTORICO_PRECIOS_COMBUSTIBLES_CUARTO_TRIM._2024.xlsx,23602,DR-145,https://www.micm.gob.do/transparencia/images/pdf/transparencia/Estadisticas_Institucionales/2024/combusstibles/HISTORICO_PRECIOS_COMBUSTIBLES_CUARTO_TRIM._2024.xlsx,cited in sources.csv
+DR/micm_hist2024/HISTORICO_PRECIOS_COMBUSTIBLES_CUARTO_TRIMESTRE_2024_Data_Cruda_1.xlsx,14468,DR-146,https://www.micm.gob.do/transparencia/images/pdf/transparencia/Estadisticas_Institucionales/2024/combusstibles/HISTORICO_PRECIOS_COMBUSTIBLES_CUARTO_TRIMESTRE_2024_Data_Cruda_1.xlsx,cited in sources.csv
+DR/micm_hist2024/HISTORICO_PRECIOS_COMBUSTIBLES_PRIMER_TRIM._2024.xlsx,44599,DR-147,https://www.micm.gob.do/transparencia/images/pdf/transparencia/Estadisticas_Institucionales/2024/combusstibles/HISTORICO_PRECIOS_COMBUSTIBLES_PRIMER_TRIM._2024.xlsx,cited in sources.csv
+DR/micm_hist2024/HISTORICO_PRECIOS_COMBUSTIBLES_PRIMER_TRIM._2024_data_cruda.xlsx,28050,DR-148,https://www.micm.gob.do/transparencia/images/pdf/transparencia/Estadisticas_Institucionales/2024/combusstibles/HISTORICO_PRECIOS_COMBUSTIBLES_PRIMER_TRIM._2024_data_cruda.xlsx,cited in sources.csv
+DR/micm_hist2024/HISTORICO_PRECIOS_COMBUSTIBLES_SEGUNDO_TRIM._2024_Data_Cruda.xlsx,29122,DR-149,https://www.micm.gob.do/transparencia/images/pdf/transparencia/Estadisticas_Institucionales/2024/combusstibles/HISTORICO_PRECIOS_COMBUSTIBLES_SEGUNDO_TRIM._2024_Data_Cruda.xlsx,cited in sources.csv
+DR/micm_hist2024/HISTORICO_PRECIOS_COMBUSTIBLES_SEGUNDO_TRIM._2024_xlsx.xlsx,36478,DR-150,https://www.micm.gob.do/transparencia/images/pdf/transparencia/Estadisticas_Institucionales/2024/combusstibles/HISTORICO_PRECIOS_COMBUSTIBLES_SEGUNDO_TRIM._2024_xlsx.xlsx,cited in sources.csv
+DR/micm_hist2024/HISTORICO_PRECIOS_COMBUSTIBLES_TERCER_TRIM._2024.xlsx,33696,DR-151,https://www.micm.gob.do/transparencia/images/pdf/transparencia/Estadisticas_Institucionales/2024/combusstibles/HISTORICO_PRECIOS_COMBUSTIBLES_TERCER_TRIM._2024.xlsx,cited in sources.csv
+DR/micm_hist2024/HISTORICO_PRECIOS_COMBUSTIBLES_TERCER_TRIM._2024_data_cruda.xlsx,13884,DR-152,https://www.micm.gob.do/transparencia/images/pdf/transparencia/Estadisticas_Institucionales/2024/combusstibles/HISTORICO_PRECIOS_COMBUSTIBLES_TERCER_TRIM._2024_data_cruda.xlsx,cited in sources.csv
+DR/micm_listing/avisos_2024_page.html,2619,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_listing/datos_abiertos.html,324734,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_listing/datosgob_precios.html,26685,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_listing/est_2024.html,338366,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_listing/res2024_p1.html,343430,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_listing/res2024_p2.html,343776,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_listing/res2024_p3.html,343790,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_listing/res2024_p4.html,343764,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_listing/res2024_p5.html,343885,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_listing/res2024_p6.html,343906,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_listing/res2024_p7.html,336103,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_listing/res2024_p8.html,320356,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_listing/res2024_p9.html,320356,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_listing/res_links.txt,16568,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_opendata/precios-de-combustibles-2010-2025_HTTP403.html,2619,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_opendata/precios-de-combustibles-2010-2026.csv,84401,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_opendata/precios-de-combustibles-2010-2026.xlsx,138697,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/micm_res2024/RES.NO.035-2024_PRECIO_GAS_NATURAL_DEL_17-23_DE_FEBRERO_2024.pdf,588394,DR-058,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.035-2024_PRECIO_GAS_NATURAL_DEL_17-23_DE_FEBRERO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.053-2024_PRECIOS_DE_LOS_COMBUSTIBLES_LIQUIDOS_Y_GLP_DEL30_DE_MARZO_AL_05_DE_ABRIL_2024.pdf,213309,DR-067,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.053-2024_PRECIOS_DE_LOS_COMBUSTIBLES_LIQUIDOS_Y_GLP_DEL30_DE_MARZO_AL_05_DE_ABRIL_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.054-2024_PRECIOS_DEL_GAS_NATURAL_DEL_30_DE_MARZO_AL_05_DE_ABRIL_2024.pdf,324385,DR-068,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.054-2024_PRECIOS_DEL_GAS_NATURAL_DEL_30_DE_MARZO_AL_05_DE_ABRIL_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.059-2024_PRECIOS_DEL_GAS_NATURAL_DEL_06_AL_12_DE_ABRIL_2024.pdf,319564,DR-069,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.059-2024_PRECIOS_DEL_GAS_NATURAL_DEL_06_AL_12_DE_ABRIL_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.060-2024_PRECIOS_DE_LOS_COMBUSTIBLES_LIQUIDOS_Y_GLP_DEL_06_AL_12_DE_ABRIL_2024.pdf,204120,DR-070,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.060-2024_PRECIOS_DE_LOS_COMBUSTIBLES_LIQUIDOS_Y_GLP_DEL_06_AL_12_DE_ABRIL_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.068-2024_PRECIOS_DE_LOS_COMBUSTIBLES_LIQUIDOS_Y_GLP_DEL_13_AL_19_ABRIL_2024.pdf,212652,DR-071,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.068-2024_PRECIOS_DE_LOS_COMBUSTIBLES_LIQUIDOS_Y_GLP_DEL_13_AL_19_ABRIL_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.069-2024_PRECIOS_DEL_GAS_NATURAL_DEL_13_AL_19_ABRIL_2024.pdf,327172,DR-072,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.069-2024_PRECIOS_DEL_GAS_NATURAL_DEL_13_AL_19_ABRIL_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.073-2024_PRECIOS_DE_LOS_COMBUSTIBLES_LIQUIDOS_Y_GLP__DEL_20_AL_26_DE_ABRIL_2024.pdf,203660,DR-073,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.073-2024_PRECIOS_DE_LOS_COMBUSTIBLES_LIQUIDOS_Y_GLP__DEL_20_AL_26_DE_ABRIL_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.074-2024_PRECIOS_DEL_GAS_NATURAL_DEL_20_AL_26_DE_ABRIL_2024.pdf,319656,DR-074,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.074-2024_PRECIOS_DEL_GAS_NATURAL_DEL_20_AL_26_DE_ABRIL_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.245-2024_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP__DEL_12_AL_18_CTUBRE_2024.pdf,205230,DR-123,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.245-2024_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP__DEL_12_AL_18_CTUBRE_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.246-2024_PRECIOS_DEL_GAS_NATURAL__DEL_12_AL_18_CTUBRE_2024.pdf,335530,DR-124,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/RES.NO.246-2024_PRECIOS_DEL_GAS_NATURAL__DEL_12_AL_18_CTUBRE_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.252-2024_PRECIOS_DEL_GAS_NATURAL_DEL_19_AL_25_OCTUBRE_2024.pdf,315207,DR-125,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.252-2024_PRECIOS_DEL_GAS_NATURAL_DEL_19_AL_25_OCTUBRE_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.253-2024_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP_DEL_19_AL_25_OCTUBRE_2024.pdf,201397,DR-126,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/RES.NO.253-2024_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP_DEL_19_AL_25_OCTUBRE_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.256-20224_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP_DEL_26_OCT_AL_01_NOV._2024.pdf,208679,DR-127,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.256-20224_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP_DEL_26_OCT_AL_01_NOV._2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.257-20224_PRECIOS_DEL_GAS_NATURAL_DEL_26_OCT_AL_01_NOV._2024.pdf,322036,DR-128,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/RES.NO.257-20224_PRECIOS_DEL_GAS_NATURAL_DEL_26_OCT_AL_01_NOV._2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.272-2024_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP_DEL_9_AL_15_DE_NOV._2024.pdf,206556,DR-131,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.272-2024_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP_DEL_9_AL_15_DE_NOV._2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.273-2024_PRECIOS_DEL_GAS_NATURAL_DEL_9_AL_15_DE_NOV._2024.pdf,319791,DR-132,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.273-2024_PRECIOS_DEL_GAS_NATURAL_DEL_9_AL_15_DE_NOV._2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.319-2024_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP_DEL_21_AL_27_DIC._2024.pdf,200284,DR-141,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.319-2024_PRECIOS_DE_LOS_COMB._LIQUIDOS_Y_GLP_DEL_21_AL_27_DIC._2024.pdf,cited in sources.csv
+DR/micm_res2024/RES.NO.320-2024_PRECIOS_DEL_GAS_NATURAL_DEL_21_AL_27_DIC._2024.pdf,319544,DR-142,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES.NO.320-2024_PRECIOS_DEL_GAS_NATURAL_DEL_21_AL_27_DIC._2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.008-2024_PRECIO_COMB._LIQUIDOS_Y_GLP__6-12_ENERO_2024.pdf,358195,DR-045,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.008-2024_PRECIO_COMB._LIQUIDOS_Y_GLP__6-12_ENERO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.009-2024_PRECIO_GAS_NATURAL__DEL_6-12_ENERO_2024.pdf,593623,DR-046,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.009-2024_PRECIO_GAS_NATURAL__DEL_6-12_ENERO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.013-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_13-19_ENE_2024.pdf,359236,DR-047,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.013-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_13-19_ENE_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.014-2024_PRECIO_GAS_NATURAL_DEL_13-19_ENERO_2024.pdf,592884,DR-048,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.014-2024_PRECIO_GAS_NATURAL_DEL_13-19_ENERO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.019-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_20-26_ENE_2024.pdf,359444,DR-049,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.019-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_20-26_ENE_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.020-2024_PRECIO_GAS_NATURAL_DEL_20-26_ENERO_2024.pdf,598644,DR-050,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.020-2024_PRECIO_GAS_NATURAL_DEL_20-26_ENERO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.022-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_27_ENE-02_FEB_2024.pdf,359708,DR-051,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.022-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_27_ENE-02_FEB_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.023-2024_PRECIOS_GAS_NATURAL_DEL_27_ENE-02_FEBRERO_2024.pdf,598750,DR-052,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.023-2024_PRECIOS_GAS_NATURAL_DEL_27_ENE-02_FEBRERO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.025-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_03-09_FEB_2024_.pdf,358600,DR-053,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.025-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_03-09_FEB_2024_.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.026-2024_PRECIO_GAS_NATURAL_DEL_03-09_FEBRERO_2024.pdf,597371,DR-054,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.026-2024_PRECIO_GAS_NATURAL_DEL_03-09_FEBRERO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.030-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_10-16_FEB_2024.pdf,360673,DR-055,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.030-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_10-16_FEB_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.031-2024_PRECIO_GAS_NATURAL_DEL_10-16_DE_FEBRERO_2024.pdf,601211,DR-056,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.031-2024_PRECIO_GAS_NATURAL_DEL_10-16_DE_FEBRERO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.034-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_17-23_FEB_2024.pdf,357940,DR-057,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.034-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_17-23_FEB_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.036-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_24_FEB-01_MAR_2024.pdf,361548,DR-059,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.036-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_24_FEB-01_MAR_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.037-2024_PRECIO_GAS_NATURAL_24_FEB-01_MARZO_2024.pdf,597063,DR-060,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.037-2024_PRECIO_GAS_NATURAL_24_FEB-01_MARZO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.038-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_02-08_MARZO_2024.pdf,358846,DR-061,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.038-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_02-08_MARZO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.039-2024_PRECIO_GAS_NATURAL_DEL_2_AL_8_DE_MARZO_DE_2024.pdf,591974,DR-062,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.039-2024_PRECIO_GAS_NATURAL_DEL_2_AL_8_DE_MARZO_DE_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.043-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_9-15_MARZO_2024.pdf,359822,DR-063,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.043-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_9-15_MARZO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.044-2024_PRECIO_DE_GAS_NATURAL_DEL_9-15_MARZO_DE_2024.pdf,592879,DR-064,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.044-2024_PRECIO_DE_GAS_NATURAL_DEL_9-15_MARZO_DE_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.049-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_16-22_MARZO_2024.pdf,360008,DR-065,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.049-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_16-22_MARZO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.050-2024_PRECIO_GAS_NATURAL_DEL_16-22_DE_MARZO_2024.pdf,594674,DR-066,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.050-2024_PRECIO_GAS_NATURAL_DEL_16-22_DE_MARZO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.083-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_27_ABR-3_MAY_2024.pdf,359392,DR-075,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.083-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_27_ABR-3_MAY_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.084-2024_PRECIO_GAS__NATURAL_DEL_27_ABRIL-3_MAYO_2024.pdf,590224,DR-076,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.084-2024_PRECIO_GAS__NATURAL_DEL_27_ABRIL-3_MAYO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.089-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_04-10_MAYO_2024.pdf,360169,DR-077,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.089-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_04-10_MAYO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.090-2024_PRECIO_GAS_NATURAL_DEL__4-10_MAYO_2024.pdf,588899,DR-078,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.090-2024_PRECIO_GAS_NATURAL_DEL__4-10_MAYO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.095-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_11-17_MAYO_2024.pdf,357763,DR-079,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.095-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_11-17_MAYO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.096-2024_PRECIO_GAS_NATURAL_DEL_11_AL_17__MAYO_2024.pdf,588435,DR-080,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.096-2024_PRECIO_GAS_NATURAL_DEL_11_AL_17__MAYO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.101-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_18-24_MAY_2024.pdf,359373,DR-081,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.101-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_18-24_MAY_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.102-2024_PRECIO_GAS_NATURAL_DEL18-24_MAYO_2024.pdf,587588,DR-082,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.102-2024_PRECIO_GAS_NATURAL_DEL18-24_MAYO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.106-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_25-31_MAYO_2024.pdf,349673,DR-083,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.106-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_25-31_MAYO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.107-2024_PRECIO_GAS_NATURAL_DEL_25-31_MAYO_2024.pdf,579664,DR-084,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.107-2024_PRECIO_GAS_NATURAL_DEL_25-31_MAYO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.117-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_01-07_JUN_2024.pdf,348543,DR-085,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.117-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_01-07_JUN_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.118-2024_PRECIO_GAS_NATURAL_DEL_01-07_JUNIO_2024.pdf,577443,DR-086,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.118-2024_PRECIO_GAS_NATURAL_DEL_01-07_JUNIO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.123-2024__PRECIO_COMB._LIQUIDOS_Y_GLP_08-14_JUN._2024.pdf,348460,DR-087,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.123-2024__PRECIO_COMB._LIQUIDOS_Y_GLP_08-14_JUN._2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.124-2024_PRECIO_GAS_NATURAL_DEL_08_AL_14_JUNIO_DEL_2024.pdf,576006,DR-088,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/RES._NO.124-2024_PRECIO_GAS_NATURAL_DEL_08_AL_14_JUNIO_DEL_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.133-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_15-21_JUN_2024.pdf,348147,DR-089,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.133-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_15-21_JUN_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.134-2024_PRECIO_GAS_NATURAL_DEL_15_AL_21_JUNIO_DE_2024.pdf,577761,DR-090,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.134-2024_PRECIO_GAS_NATURAL_DEL_15_AL_21_JUNIO_DE_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.138-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_22-28_JUN_2024.pdf,356288,DR-091,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.138-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_22-28_JUN_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.139-2024_PRECIO_GAS_NATURAL_DEL_22_AL_28_JUNIO_2024.pdf,600181,DR-092,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.139-2024_PRECIO_GAS_NATURAL_DEL_22_AL_28_JUNIO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.142-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_29_JUN-05_JUL_2024.pdf,357812,DR-093,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.142-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_29_JUN-05_JUL_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.143-2024_PRECIO_GAS_NATURAL_DEL_29_JUN_AL_05_JUL_2024.pdf,592044,DR-094,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.143-2024_PRECIO_GAS_NATURAL_DEL_29_JUN_AL_05_JUL_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.150-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_6-_12_JUL_2024.pdf,356500,DR-095,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.150-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_6-_12_JUL_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.151-2024_PRECIO_GAS_NATURAL_6-12_JULIO_2024.pdf,587483,DR-096,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.151-2024_PRECIO_GAS_NATURAL_6-12_JULIO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.152-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_13-19_JUL_2024.pdf,358567,DR-097,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.152-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_13-19_JUL_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.153-2024_PRECIO_GAS_NATURAL_DEL_13-19_JUL_2024.pdf,589215,DR-098,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.153-2024_PRECIO_GAS_NATURAL_DEL_13-19_JUL_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.162-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_20-26_JUL_2024.pdf,358236,DR-099,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.162-2024_PRECIOS_COMB._LIQUIDOS_Y_GLP_20-26_JUL_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.163-2024_PRECIO_GAS_NATURAL_DEL_20-26_JULIO_2024.pdf,591665,DR-100,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.163-2024_PRECIO_GAS_NATURAL_DEL_20-26_JULIO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.168-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_27_JUL-2_AGO_2024.pdf,359402,DR-101,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.168-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_27_JUL-2_AGO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.169-2024_PRECIO_GAS_NATURAL_DEL_27_JULIO-2_AGOSTO_2024.pdf,593959,DR-102,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.169-2024_PRECIO_GAS_NATURAL_DEL_27_JULIO-2_AGOSTO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.174-2024_PRECIO_GAS_NATURAL_DEL_3_AL_9_AGOSTO_2024.pdf,586974,DR-103,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.174-2024_PRECIO_GAS_NATURAL_DEL_3_AL_9_AGOSTO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.175-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_3-9_AGOSTO_2024.pdf,355218,DR-104,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.175-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_3-9_AGOSTO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.179-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_10-16_AGOSTO_2024.pdf,358019,DR-105,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.179-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_10-16_AGOSTO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.180-2024_PRECIO_GAS_NATURAL_DEL_10-16_AGOSTO_2024.pdf,592575,DR-106,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.180-2024_PRECIO_GAS_NATURAL_DEL_10-16_AGOSTO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.192-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_17-23_AGO_2024.pdf,358773,DR-107,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.192-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_17-23_AGO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.193-20224_PRECIO_GAS_NATURAL_DEL_17_AL_23_AGOSTO_2024.pdf,593320,DR-108,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.193-20224_PRECIO_GAS_NATURAL_DEL_17_AL_23_AGOSTO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.197-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_24-30_AGOSTO_2024.pdf,356358,DR-109,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.197-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_24-30_AGOSTO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.198-2024_PRECIO_GAS_NATURAL_DEL_24_AL_30_AGOSTO_2024.pdf,589527,DR-110,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.198-2024_PRECIO_GAS_NATURAL_DEL_24_AL_30_AGOSTO_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.202-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_31_AGO-6_SEP_2024.pdf,360312,DR-111,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.202-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_31_AGO-6_SEP_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.203-2024_PRECIO_GAS_NATURAL_DEL_31_AGO_AL_6_SEPT._2024.pdf,592465,DR-112,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.203-2024_PRECIO_GAS_NATURAL_DEL_31_AGO_AL_6_SEPT._2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.209-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_7-13_SEPT_2024.pdf,360053,DR-113,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.209-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_7-13_SEPT_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.210-2024_PRECIO_GAS_NATURAL_DEL_7-13_SEPTIEMBRE_2024.pdf,589202,DR-114,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.210-2024_PRECIO_GAS_NATURAL_DEL_7-13_SEPTIEMBRE_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.218-2024_PRECIO_COMB._LIQUIDOS_Y_GLP__14-20_SEPT_2024.pdf,359614,DR-115,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.218-2024_PRECIO_COMB._LIQUIDOS_Y_GLP__14-20_SEPT_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.219-2024_PRECIO_GAS_NATURAL_DEL_14-20_SEPTIEMBRE_2024.pdf,591144,DR-116,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.219-2024_PRECIO_GAS_NATURAL_DEL_14-20_SEPTIEMBRE_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.221-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_21-27_SEPT_2024.pdf,359773,DR-117,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.221-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_21-27_SEPT_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.222-2024_PRECIO_GAS_NATURAL_DEL_21-27_SEPTIEMBRE_2024.pdf,595131,DR-118,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.222-2024_PRECIO_GAS_NATURAL_DEL_21-27_SEPTIEMBRE_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.226-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_28_SEPT-04_OCT_2024.pdf,359255,DR-119,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.226-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_28_SEPT-04_OCT_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.227-2024_PRECIO_GAS_NATURAL_28_SEPT-4_OCT_2024.pdf,595064,DR-120,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.227-2024_PRECIO_GAS_NATURAL_28_SEPT-4_OCT_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.239-2024_PRECIOS_COMB._LIQUIDOS_5-11_OCT._2024.pdf,359263,DR-121,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.239-2024_PRECIOS_COMB._LIQUIDOS_5-11_OCT._2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.240-2024_PRECIO_GAS_NATURAL_DEL_5-11_OCTUBRE_2024.pdf,594284,DR-122,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.240-2024_PRECIO_GAS_NATURAL_DEL_5-11_OCTUBRE_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.267-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_2-8_NOV_2024.pdf,357352,DR-129,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.267-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_2-8_NOV_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.268-2024_PRECIO_GAS_NATURAL_DEL_2-8_LNOVIEMBRE_2024.pdf,578477,DR-130,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.268-2024_PRECIO_GAS_NATURAL_DEL_2-8_LNOVIEMBRE_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.278-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_16-22_NOV_2024.pdf,357688,DR-133,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.278-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_16-22_NOV_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.279-2024_PRECIO__GAS_NATURAL_DEL_16-22_NOVIEMBRE_DE_2024.pdf,581845,DR-134,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.279-2024_PRECIO__GAS_NATURAL_DEL_16-22_NOVIEMBRE_DE_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.285-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_-_23-29_NOV_2024.pdf,357300,DR-135,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.285-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_-_23-29_NOV_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.286-2024_PRECIO_GAS_NATURAL_DEL_23-29_NOVIEMBRE_2024.pdf,581490,DR-136,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.286-2024_PRECIO_GAS_NATURAL_DEL_23-29_NOVIEMBRE_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.292-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_30_NOV-6_DIC_2024.pdf,360593,DR-137,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.292-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_30_NOV-6_DIC_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.293-2024_PRECIO_GAS_NATURAL_30_NOV-6_DIC_2024.pdf,585217,DR-138,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.293-2024_PRECIO_GAS_NATURAL_30_NOV-6_DIC_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.299-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_7-13_DIC_2024.pdf,358823,DR-139,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/RES._NO.299-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_7-13_DIC_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.300-2024_PRECIO_GAS_NATURAL_DEL_7-13_DICIEMBRE_2024.pdf,581809,DR-140,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/Precio_2024/RES._NO.300-2024_PRECIO_GAS_NATURAL_DEL_7-13_DICIEMBRE_2024.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.326-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_28_DIC-24--3_ENE_25.pdf,370489,DR-143,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/resoluciones_297_y_327/RES._NO.326-2024_PRECIO_COMB._LIQUIDOS_Y_GLP_28_DIC-24--3_ENE_25.pdf,cited in sources.csv
+DR/micm_res2024/RES._NO.327-2024_PRECIO_GAS_NATURAL_DEL_28_DIC_2024-3_ENE_2025.pdf,598036,DR-144,https://www.micm.gob.do/transparencia/images/pdf/transparencia/base-legal-de-la-institucion/resoluciones/2024/resoluciones_297_y_327/RES._NO.327-2024_PRECIO_GAS_NATURAL_DEL_28_DIC_2024-3_ENE_2025.pdf,cited in sources.csv
+DR/ocseni/home_httpswwwocdo.html,251601,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/ocseni/informe_anual.html,137870,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/ocseni/memoria2024/Memoria Anual 2024.pdf,12645663,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/ocseni/memoria2024/memoria2024.txt,687889,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/ocseni/memoria_anual.html,136315,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/ocseni/memoria_anual_oc_2024.zip,11496253,DR-007,https://www.oc.do/DesktopModules/Bring2mind/DMX/API/Entries/Download?Command=Core_Download&EntryId=200289&PortalId=0&TabId=234,cited in sources.csv
+DR/ocseni/oc_mem2024_chart_p128.csv,82194,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/ocseni/oc_mem2024_chart_p129.csv,10652,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/ocseni/oc_mem2024_chart_p130.csv,18716,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/ocseni/oc_mem2024_fig44_fo.csv,25270,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/ocseni/programacion.html,86475,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/ocseni/transacciones.html,85544,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/mem_annual2024_p3.png,34057,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/oc_mem2024_fig45.png,5671,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res025_table.png,20723,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res053_p5.png,14855,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res053_table.png,24218,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res068_p3.png,13125,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res068_table.png,24415,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res073_p5.png,14508,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res073_table.png,22686,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res142_table.png,21393,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res168_p3.png,12605,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res168_table.png,21743,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res168_top.png,5823,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res202_p5.png,14206,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res202_table.png,21160,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res209_table.png,20852,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res218_p3.png,27072,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res218_p3_table.png,33627,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res221_table.png,20333,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res226_p5.png,14262,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res226_table.png,21653,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res239_p5.png,14311,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res239_table.png,21539,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res245_table.png,21484,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res253_p3.png,12174,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res253_table.png,21956,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res256_p5.png,14255,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res256_table.png,21939,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res267_table.png,20452,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res272_p5.png,13901,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res272_table.png,22364,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res278_table.png,21723,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res285_table.png,20325,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res292_table.png,21432,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res299_p5.png,13935,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res299_table.png,20475,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res319_p5.png,14008,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res319_table.png,22055,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/renders/res326_table.png,21555,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/sie/home.html,5684,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/weekly_liquids_2024.csv,159127,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+DR/weekly_liquids_2024_final.csv,168819,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ARCONEL_Estadistica_2024.pdf,47517318,ECU-020,https://arconel.gob.ec/wp-content/uploads/downloads/2025/04/Estadistica2024_abr.pdf,cited in sources.csv
+ECU/ARCONEL_INF-DTRET-2024-043.pdf,2335530,ECU-025,http://arconel.gob.ec/wp-content/uploads/downloads/2024/12/2.-Informe-Nro.-INF-DTRET-2024-043_Certificada.pdf,cited in sources.csv
+ECU/BCE_ResultCE_042024.pdf,1531891,ECU-023,https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/ComercioExterior/informes/ResultCE_042024.pdf,cited in sources.csv
+ECU/BCE_SerieCifrasPetroleras.xlsx,545322,ECU-002,https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx,cited in sources.csv
+ECU/BCE_ebc202412.pdf,2533058,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/BCE_ebc202501.pdf,2535378,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/BCE_ebc202502.pdf,2506454,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/BEN_2024.pdf,5577044,ECU-021,https://www.ambienteyenergia.gob.ec/wp-content/uploads/2025/09/BEN_24_compressed-comprimido-1.pdf,cited in sources.csv
+ECU/CENACE_Informe_Anual_2024.pdf,1210602,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/CENACE_Informe_Anual_2024_parte_4755.pdf,1865195,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/CENACE_Informe_Anual_2024_parte_4756.pdf,1932048,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/EPP_2024.txt,592648,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/EPP_EEFF_2024.pdf,3420351,ECU-024,https://www.eppetroecuador.ec/wp-content/uploads/2026/08/EEFF-2024-signed-signed-signed-signed-signed-signed-signed.pdf,cited in sources.csv
+ECU/EPP_Informe_Estadistico_2023.pdf,3353100,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/EPP_Informe_Estadistico_2024.pdf,8960426,ECU-001,https://www.eppetroecuador.ec/wp-content/uploads/downloads/2025/01/INFORME-ESTADISTICO-MENSUAL-DICIEMBRE-2024-Act..pdf,cited in sources.csv
+ECU/EPP_Informe_Estadistico_2025.pdf,3449648,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/IPCC_2006_V2_Ch1.pdf,875553,ECU-022,https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/2_Volume2/V2_1_Ch1_Introduction.pdf,cited in sources.csv
+ECU/RO_529_2024_Decreto215.pdf,3958700,ECU-016,https://www.congope.gob.ec/wp-content/uploads/2024/12/Reforma-regulacion-precios-hidrocarburos.pdf,cited in sources.csv
+ECU/arc_home.html,5069,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/arconel_pub_estad.html,112986,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/bce_annual_2018_2025.csv,9072,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ben24_p158.png,8161,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/cenace_biblioteca.html,2212922,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/cenace_home.html,91490,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/cenace_infocom.html,46749,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/cenace_infoop.html,266735,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/cenace_simem.html,48696,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/comtrade_ECU_2024_M_4digit.json,4601,ECU-017,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=218&period=2024&partnerCode=0&flowCode=M&cmdCode=2701,2713,2709,2710,2711",cited in sources.csv
+ECU/comtrade_ECU_2024_M_6digit.json,10938,ECU-018,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=218&period=2024&partnerCode=0&flowCode=M&cmdCode=270111,270112,270119,270120,271311,271312,271320,271390,271012,271019,271111,271112,271113,271119,271121",cited in sources.csv
+ECU/comtrade_ECU_2024_X.json,5481,ECU-019,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=218&period=2024&partnerCode=0&flowCode=X&cmdCode=2709,2710,271019,271012,2711,2713",cited in sources.csv
+ECU/epp24_p47.png,35173,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/epp24_p48.png,29579,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/epp24_p51.png,37301,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/epp24_p53.png,40186,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/epp24_p55.png,30706,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/epp24_p57.png,29407,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/epp24_p59.png,32737,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/epp24_p61.png,43695,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/epp24_p62.png,28926,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/epp24_p63.png,27168,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/epp24_p64.png,13099,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/epp_home.html,81012,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/epp_p3721.html,80688,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/epp_p3763.html,73733,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/epp_p8062.html,76128,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-ABRIL-2024.pdf,38754,ECU-007,https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/04/ESTRUCTURA-DE-PRECIOS-ABRIL-2024.pdf,cited in sources.csv
+ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-AGOSTO-2024.pdf,42177,ECU-011,https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/08/ESTRUCTURA-DE-PRECIOS-AGOSTO-2024.pdf,cited in sources.csv
+ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-DICIEMBRE-2023.pdf,39929,ECU-003,https://www.eppetroecuador.ec/wp-content/uploads/downloads/2023/12/ESTRUCTURA-DE-PRECIOS-DICIEMBRE-2023.pdf,cited in sources.csv
+ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-DICIEMBRE-2024.pdf,41478,ECU-015,https://www.eppetroecuador.ec/wp-content/uploads/2024/12/ESTRUCTURA-DE-PRECIOS-DICIEMBRE-2024.pdf,cited in sources.csv
+ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-ENERO-2024.pdf,39910,ECU-004,https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/01/ESTRUCTURA-DE-PRECIOS-ENERO-2024.pdf,cited in sources.csv
+ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-FEBRERO-2024.pdf,39893,ECU-005,https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/02/ESTRUCTURA-DE-PRECIOS-FEBRERO-2024.pdf,cited in sources.csv
+ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-JULIO-2024.pdf,41823,ECU-010,https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/07/ESTRUCTURA-DE-PRECIOS-JULIO-2024.pdf,cited in sources.csv
+ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-JUNIO-2024.pdf,41297,ECU-009,https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/06/ESTRUCTURA-DE-PRECIOS-JUNIO-2024.pdf,cited in sources.csv
+ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-MARZO-2024.pdf,39914,ECU-006,https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/03/ESTRUCTURA-DE-PRECIOS-MARZO-2024.pdf,cited in sources.csv
+ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-MAYO-2024.pdf,38769,ECU-008,https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/05/ESTRUCTURA-DE-PRECIOS-MAYO-2024.pdf,cited in sources.csv
+ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-NOVIEMBRE-2024.pdf,42171,ECU-014,https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/11/ESTRUCTURA-DE-PRECIOS-NOVIEMBRE-2024.pdf,cited in sources.csv
+ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-OCTUBRE-2024.pdf,42184,ECU-013,https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/10/ESTRUCTURA-DE-PRECIOS-OCTUBRE-2024.pdf,cited in sources.csv
+ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-SEPTIEMBRE-2024.pdf,43005,ECU-012,https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/09/ESTRUCTURA-DE-PRECIOS-SEPTIEMBRE-2024.pdf,cited in sources.csv
+ECU/estructuras_parsed.csv,135050,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_2s589.html,180564,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_home.html,186643,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_page-sitemap.xml,171581,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_post-sitemap.xml,171581,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_segundo-suplemento-no-589-2.html,171581,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_segundo-suplemento-no-589.html,171581,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_sitemap_index.xml,171581,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_sitemaps/p1.xml,263877,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_sitemaps/p10.xml,260540,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_sitemaps/p11.xml,258743,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_sitemaps/p12.xml,254184,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_sitemaps/p13.xml,251093,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_sitemaps/p2.xml,264380,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_sitemaps/p3.xml,263383,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_sitemaps/p4.xml,271722,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_sitemaps/p5.xml,257426,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_sitemaps/p6.xml,258874,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_sitemaps/p7.xml,259151,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_sitemaps/p8.xml,265183,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_sitemaps/p9.xml,263292,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_suplemento-no-589.html,171581,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/ro_wp-sitemap.xml,1898,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/senae_estadisticas.html,51288,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+ECU/structures_2024_means.csv,16096,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GEN/IEA_Energy_Statistics_Manual_2005.pdf,215,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GEN/IPCC2006_V2_Ch1.pdf,875553,GEN-002,https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/2_Volume2/V2_1_Ch1_Introduction.pdf,cited in sources.csv
+GEN/NIST_HB44_2024.pdf,77578129,GEN-004,https://nvlpubs.nist.gov/nistpubs/hb/2024/NIST.HB.44-2024.pdf,cited in sources.csv
+GEN/NIST_SP811_2008.pdf,2027518,GEN-003,https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication811e2008.pdf,cited in sources.csv
+GEN/UNSD_EnergyYearbook2023_TableI.pdf,115164,GEN-007,https://unstats.un.org/unsd/energystats/pubs/yearbook/2023/08i.pdf,cited in sources.csv
+GEN/UNSD_EnergyYearbook2023_TableII.pdf,118014,GEN-001,https://unstats.un.org/unsd/energystats/pubs/yearbook/2023/09ii.pdf,cited in sources.csv
+GEN/UNSD_EnergyYearbook2023_units.pdf,106649,GEN-006,https://unstats.un.org/unsd/energystats/pubs/yearbook/2023/07umc.pdf,cited in sources.csv
+GEN/UN_IRES_2018.pdf,1798638,GEN-008,https://unstats.un.org/unsd/energystats/methodology/documents/IRES-web.pdf,cited in sources.csv
+GEN/eia_faq_45.html,52046,GEN-005,https://www.eia.gov/tools/faqs/faq.php?id=45&t=8,cited in sources.csv
+GUA/amm/01_PLP20240101_VP.pdf,13701314,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/amm/05EDT2024.pdf,1112730,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/amm/46_PDS20261108.xlsx,890167,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/amm/EDT.txt,168960,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/amm/PLP.txt,1080976,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/amm/cnee.gob.gt_planes-de-expansion_.html,217613,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/amm/infest.txt,41253,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/amm/rd.amm.org.gt_2024_10_18_analisis-mm-septiembre-2024_.html,84773,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/amm/reportesbi.amm.org.gt_.html,4577,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/amm/ultimas_pub_plani.html,8827,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/amm/wl12.amm.org.gt_sitioprivadocasillero_main.jsp.html,22028,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/amm/www.cnee.gob.gt_.html,234168,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/balance/BALANCE-ENERGETICO-2017.pdf,1892356,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/balance/BALANCE-ENERGETICO-2017.txt,35335,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/balance/BALANCE-ENERGETICO-2018.pdf,977444,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/balance/BALANCE-ENERGETICO-2018.txt,22290,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/balance/BALANCE-ENERGETICO-2023.pdf,1042403,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/balance/BALANCE-ENERGETICO-2024.pdf,1038517,GUA-013,https://mem.gob.gt/wp-content/uploads/2025/07/BALANCE-ENERGETICO-2024.pdf,cited in sources.csv
+GUA/balance/INFORME_BALANCE_ENERGETICO_2010.pdf,597547,GUA-012,https://www.mem.gob.gt/wp-content/uploads/2012/06/INFORME_BALANCE_ENERGETICO.pdf,cited in sources.csv
+GUA/balance/be2010.txt,38222,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/balance/be2023.txt,47056,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/balance/be2024.txt,68947,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/balance/olade_pub.html,162,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/banguat/CG_2024_ceie04.htm,42100,GUA-003,https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/CG/2024/ceie04.htm,cited in sources.csv
+GUA/banguat/CG_KF-103_2018.xlsx,1776998,GUA-014,https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/hist/pdfs/2018/CG/KF-103_2018.xlsx,cited in sources.csv
+GUA/banguat/CG_KF-103_2019.xlsx,1763455,GUA-015,https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/hist/pdfs/2019/CG/KF-103_2019.xlsx,cited in sources.csv
+GUA/banguat/CG_KF-103_2020.xlsx,1713565,GUA-016,https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/hist/pdfs/2020/CG/KF-103_2020.xlsx,cited in sources.csv
+GUA/banguat/CG_KF-103_2021.xlsx,1257083,GUA-017,https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/hist/pdfs/2021/CG/KF-103_2021.xlsx,cited in sources.csv
+GUA/banguat/CG_KF-103_2022.xlsx,1246019,GUA-018,https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/hist/pdfs/2022/CG/KF-103_2022.xlsx,cited in sources.csv
+GUA/banguat/CG_KF-103_2023.xlsx,1230197,GUA-019,https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/hist/pdfs/2023/CG/KF-103_2023.xlsx,cited in sources.csv
+GUA/banguat/CG_KF-103_2024.xlsx,1288144,GUA-002,https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/hist/pdfs/2024/CG/KF-103_2024.xlsx,cited in sources.csv
+GUA/banguat/CG_KF-103_2025.xlsx,1283182,GUA-020,https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/hist/pdfs/2025/CG/KF-103_2025.xlsx,cited in sources.csv
+GUA/banguat/CG_KG-103_2024.xlsx,818094,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/banguat/CG_Origen_KF-116_2024.xlsx,10340947,GUA-004,https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/hist/pdfs/2024/CG/Origen/KF-116_2024.xlsx,cited in sources.csv
+GUA/banguat/TA_KF-103_2024.xlsx,1267090,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/banguat/gua_banguat_trade_output.txt,32582,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/banguat/nota_comercio_mensual_noviembre_2024.htm,48291,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/banguat/page_anios-2002-2017-comercio-de-territorio-aduanero.html,145223,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/banguat/page_comercio-general-version-xlsx.html,87376,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/banguat/page_exportaciones-e-importaciones-mensuales-por-producto.html,85721,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/banguat_TipoCambioRango_2018.xml,36859,GUA-021,https://www.banguat.gob.gt/variables/ws/TipoCambio.asmx?op=TipoCambioRango,cited in sources.csv
+GUA/banguat_TipoCambioRango_2019.xml,36857,GUA-022,https://www.banguat.gob.gt/variables/ws/TipoCambio.asmx?op=TipoCambioRango,cited in sources.csv
+GUA/banguat_TipoCambioRango_2020.xml,36967,GUA-023,https://www.banguat.gob.gt/variables/ws/TipoCambio.asmx?op=TipoCambioRango,cited in sources.csv
+GUA/banguat_TipoCambioRango_2021.xml,36863,GUA-024,https://www.banguat.gob.gt/variables/ws/TipoCambio.asmx?op=TipoCambioRango,cited in sources.csv
+GUA/banguat_TipoCambioRango_2022.xml,36833,GUA-025,https://www.banguat.gob.gt/variables/ws/TipoCambio.asmx?op=TipoCambioRango,cited in sources.csv
+GUA/banguat_TipoCambioRango_2023.xml,36879,GUA-026,https://www.banguat.gob.gt/variables/ws/TipoCambio.asmx?op=TipoCambioRango,cited in sources.csv
+GUA/banguat_TipoCambioRango_2024.xml,36921,GUA-001,https://www.banguat.gob.gt/variables/ws/TipoCambio.asmx?op=TipoCambioRango,cited in sources.csv
+GUA/banguat_TipoCambioRango_2025.xml,36873,GUA-027,https://www.banguat.gob.gt/variables/ws/TipoCambio.asmx?op=TipoCambioRango,cited in sources.csv
+GUA/banguat_imm_imm02.htm,54851,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/banguat_imm_imm03.htm,52440,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/banguat_pim_pim02.htm,35490,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/cnee/PEG5_Bases_CNEE-108-2025.pdf,1436506,GUA-006,https://peg-5-2025.com.gt/static/pdf/3.%20Bases%20de%20Licitaci%C3%B3n%20PEG-5%20CNEE-108-2025.pdf,cited in sources.csv
+GUA/cnee/PEG5_Bases_CNEE-108-2025.txt,404224,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/cnee/PEG5_Manual_Eval_Ofertas.pdf,568651,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/cnee/PEG5_Manual_Eval_Ofertas.txt,40361,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/cnee/PEIG_2026_2050_MEM.pdf,4371031,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/cnee/peg2024.txt,367082,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/cnee/peg5_home.html,15660,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/cnee/peig2026.txt,407234,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/comtrade_GUA_2024_M.json,12841,GUA-005,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=320&period=2024&partnerCode=0&flowCode=M&cmdCode=2701,2713,2709,2710,2711,270112,270119,271311,271312,271012,271019,271111,271112,271113,271119,271121,271020",cited in sources.csv
+GUA/eor/Informe_Planeamiento_Operativo_2024-2025-Actualizacion_ene-2024.pdf,4735023,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/eor/eor.txt,265006,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-01-abril-2024.pdf,359362,GUA-028,https://mem.gob.gt/wp-content/uploads/2024/04/Estructuras-de-Precios-referenciales-al-01-abril-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-03-enero-2024.pdf,342198,GUA-029,https://mem.gob.gt/wp-content/uploads/2024/01/Estructuras-de-Precios-referenciales-al-03-enero-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-03-julio-2024.pdf,358695,GUA-030,https://mem.gob.gt/wp-content/uploads/2024/08/Estructuras-de-Precios-referenciales-al-03-julio-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-03-junio-2024.pdf,358627,GUA-031,https://mem.gob.gt/wp-content/uploads/2024/06/Estructuras-de-Precios-referenciales-al-03-junio-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-05-febrero-2024.pdf,359044,GUA-032,https://mem.gob.gt/wp-content/uploads/2024/02/Estructuras-de-Precios-referenciales-al-05-febrero-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-06-mayo-2024.pdf,358623,GUA-033,https://mem.gob.gt/wp-content/uploads/2024/05/Estructuras-de-Precios-referenciales-al-06-mayo-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-07-octubre-2024.pdf,348274,GUA-034,https://mem.gob.gt/wp-content/uploads/2024/10/Estructuras-de-Precios-referenciales-al-07-octubre-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-08-abril-2024.pdf,359035,GUA-035,https://mem.gob.gt/wp-content/uploads/2024/04/Estructuras-de-Precios-referenciales-al-08-abril-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-08-enero-2024.pdf,358469,GUA-036,https://mem.gob.gt/wp-content/uploads/2024/01/Estructuras-de-Precios-referenciales-al-08-enero-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-08-julio-2024.pdf,358632,GUA-037,https://mem.gob.gt/wp-content/uploads/2024/08/Estructuras-de-Precios-referenciales-al-08-julio-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-10-junio-2024.pdf,358651,GUA-038,https://mem.gob.gt/wp-content/uploads/2024/06/Estructuras-de-Precios-referenciales-al-10-junio-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-11-noviembre-2024.pdf,358482,GUA-039,https://mem.gob.gt/wp-content/uploads/2024/11/Estructuras-de-Precios-referenciales-al-11-noviembre-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-12-febrero-2024.pdf,358658,GUA-040,https://mem.gob.gt/wp-content/uploads/2024/02/Estructuras-de-Precios-referenciales-al-12-febrero-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-13-mayo-2024.pdf,358973,GUA-041,https://mem.gob.gt/wp-content/uploads/2024/05/Estructuras-de-Precios-referenciales-al-13-mayo-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-14-octubre-2024.pdf,347934,GUA-042,https://mem.gob.gt/wp-content/uploads/2024/10/Estructuras-de-Precios-referenciales-al-14-octubre-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-15-abril-2024.pdf,358628,GUA-043,https://mem.gob.gt/wp-content/uploads/2024/05/Estructuras-de-Precios-referenciales-al-15-abril-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-15-enero-2024.pdf,358633,GUA-044,https://mem.gob.gt/wp-content/uploads/2024/01/Estructuras-de-Precios-referenciales-al-15-enero-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-15-julio-2024.pdf,358648,GUA-045,https://mem.gob.gt/wp-content/uploads/2024/08/Estructuras-de-Precios-referenciales-al-15-julio-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-16-diciembre-2024.pdf,354022,GUA-046,https://mem.gob.gt/wp-content/uploads/2024/12/Estructuras-de-Precios-referenciales-al-16-diciembre-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-17-junio-2024.pdf,351232,GUA-047,https://mem.gob.gt/wp-content/uploads/2024/07/Estructuras-de-Precios-referenciales-al-17-junio-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-17-septiembre-2024.pdf,347952,GUA-048,https://mem.gob.gt/wp-content/uploads/2024/09/Estructuras-de-Precios-referenciales-al-17-septiembre-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-19-febrero-2024.pdf,358657,GUA-049,https://mem.gob.gt/wp-content/uploads/2024/03/Estructuras-de-Precios-referenciales-al-19-febrero-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-20-mayo-2024.pdf,358586,GUA-050,https://mem.gob.gt/wp-content/uploads/2024/05/Estructuras-de-Precios-referenciales-al-20-mayo-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-21-octubre-2024.pdf,353886,GUA-051,https://mem.gob.gt/wp-content/uploads/2024/10/Estructuras-de-Precios-referenciales-al-21-octubre-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-22-abril-2024.pdf,358627,GUA-052,https://mem.gob.gt/wp-content/uploads/2024/05/Estructuras-de-Precios-referenciales-al-22-abril-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-22-enero-2024.pdf,358600,GUA-053,https://mem.gob.gt/wp-content/uploads/2024/02/Estructuras-de-Precios-referenciales-al-22-enero-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-22-julio-2024.pdf,347936,GUA-054,https://mem.gob.gt/wp-content/uploads/2024/09/Estructuras-de-Precios-referenciales-al-22-julio-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-23-diciembre-2024.pdf,354012,GUA-055,https://mem.gob.gt/wp-content/uploads/2025/01/Estructuras-de-Precios-referenciales-al-23-diciembre-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-23-septiembre-2024.pdf,347960,GUA-056,https://mem.gob.gt/wp-content/uploads/2024/10/Estructuras-de-Precios-referenciales-al-23-septiembre-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-24-junio-2024.pdf,358649,GUA-057,https://mem.gob.gt/wp-content/uploads/2024/07/Estructuras-de-Precios-referenciales-al-24-junio-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-25-marzo-2024.pdf,358641,GUA-058,https://mem.gob.gt/wp-content/uploads/2024/04/Estructuras-de-Precios-referenciales-al-25-marzo-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-27-mayo-2024.pdf,358995,GUA-059,https://mem.gob.gt/wp-content/uploads/2024/06/Estructuras-de-Precios-referenciales-al-27-mayo-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-28-octubre-2024-1.pdf,347824,GUA-060,https://mem.gob.gt/wp-content/uploads/2024/11/Estructuras-de-Precios-referenciales-al-28-octubre-2024-1.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-29-enero-2024.pdf,358597,GUA-061,https://mem.gob.gt/wp-content/uploads/2024/02/Estructuras-de-Precios-referenciales-al-29-enero-2024.pdf,cited in sources.csv
+GUA/estructuras/Estructuras-de-Precios-referenciales-al-30-septiembre-2024.pdf,353325,GUA-062,https://mem.gob.gt/wp-content/uploads/2024/10/Estructuras-de-Precios-referenciales-al-30-septiembre-2024.pdf,cited in sources.csv
+GUA/estructuras_aggregate_output.txt,11055,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/estructuras_dl_log.txt,3821,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/estructuras_dup/Estructuras-de-Precios-referenciales-al-22-julio-2024-1.pdf,347936,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/estructuras_parsed.csv,193042,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/estructuras_urls.txt,3785,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/gua_fx_2024_output.txt,478,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/gua_fx_history_output.txt,798,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/law/decreto-no-74-1998.pdf,239086,GUA-010,https://docs.costa-rica.justia.com/nacionales/modificaciones/decreto-no-74-1998-nov-17-1998.pdf,cited in sources.csv
+GUA/law/decreto74_p1.png,73370,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/mem_imports/CONSUMO-HIDROCARBUROS-2024-12.xlsx,102227,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/mem_imports/COSTO-IMPORTACION-HIDROCARBUROS-2024-12.pdf,395913,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/mem_imports/COSTO-IMPORTACION-HIDROCARBUROS-2024-12.xlsx,86546,GUA-007,https://mem.gob.gt/wp-content/uploads/2025/01/COSTO-IMPORTACION-HIDROCARBUROS-2024-12.xlsx,cited in sources.csv
+GUA/mem_imports/IMPORTACION-HIDROCARBUROS-VOLUMEN-2024-12.pdf,649067,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/mem_imports/IMPORTACION-HIDROCARBUROS-VOLUMEN-2024-12.xlsx,138500,GUA-008,https://mem.gob.gt/wp-content/uploads/2025/01/IMPORTACION-HIDROCARBUROS-VOLUMEN-2024-12.xlsx,cited in sources.csv
+GUA/mem_imports/gua_mem_imports_output.txt,24450,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/mem_other/Otros-Combustibles-marzo-2024.pdf,315111,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/mem_other/PRECIOS-OTROS-COMBUSTIBLES-MENSUALES-OCTUBRE-2024.xlsx,2100489,GUA-009,https://mem.gob.gt/wp-content/uploads/2024/11/PRECIOS-OTROS-COMBUSTIBLES-MENSUALES-OCTUBRE-2024.xlsx,cited in sources.csv
+GUA/mem_other/Revista-Hidrocarburos-2024-03T.pdf,6450550,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/mem_other/rev.txt,55253,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/nomenclature/eaduana_arancel_page70.html,219273,GUA-011,https://www.eaduana.com/aranceles/arancel-centroamericano-de-importacion?page=70,cited in sources.csv
+GUA/probe/cands.txt,354886,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/probe/cands2.txt,42828,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/probe/cands2u.txt,42432,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/probe/cands3.txt,19048,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/probe/cands4.txt,7717,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/probe/results.txt,364767,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/probe/results2.txt,44016,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/probe/results3.txt,19768,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+GUA/probe/results4.txt,8041,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/balance/BEN2024.pdf,29077065,HON-028,https://sen.hn/wp-content/uploads/2025/10/BEN2024.pdf,cited in sources.csv
+HON/balance/ben2024.txt,539213,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/bch/BCH_Precio_Promedio_Diario_del_Dolar.xlsx,339876,HON-004,https://www.bch.hn/estadisticos/GIE/_layouts/15/download.aspx?SourceUrl=/estadisticos/GIE/LIBTipo%20de%20cambio/Precio%20Promedio%20Diario%20del%20D%C3%B3lar.xlsx,cited in sources.csv
+HON/bch/Informe_de_Combustibles_a_diciembre_2023.pdf,1184554,HON-003,https://www.bch.hn/estadisticos/EME/Informe%20Combustibles/Informe%20de%20Combustibles%20a%20diciembre%202023.pdf,cited in sources.csv
+HON/bch/Informe_de_Combustibles_a_diciembre_2024.pdf,606350,HON-001,https://www.bch.hn/estadisticos/EME/Informe%20Combustibles/Informe%20de%20Combustibles%20a%20diciembre%202024.pdf,cited in sources.csv
+HON/bch/Informe_de_Combustibles_a_diciembre_2025.pdf,982458,HON-002,https://www.bch.hn/estadisticos/EME/Informe%20Combustibles/Informe%20de%20Combustibles%20a%20diciembre%202025.pdf,cited in sources.csv
+HON/bch/comb_dic2023.txt,49055,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/bch/comb_dic2024.txt,55236,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/bch/comb_dic2025.txt,67008,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/bch/fx_annual_means.csv,314,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cchac/NO18BO1.pdf,862492,HON-055,https://sen.hn/wp-content/uploads/2024/06/NO18BO1.pdf,cited in sources.csv
+HON/cchac/NO19BO1.pdf,862704,HON-056,https://sen.hn/wp-content/uploads/2024/06/NO19BO1.pdf,cited in sources.csv
+HON/cchac/NO20BO1.pdf,862622,HON-057,https://sen.hn/wp-content/uploads/2024/06/NO20BO1.pdf,cited in sources.csv
+HON/cchac/NO21BO1.pdf,862770,HON-058,https://sen.hn/wp-content/uploads/2024/06/NO21BO1.pdf,cited in sources.csv
+HON/cchac/No.1-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-31-de-Diciembre-2023-al-06-de-enero-2024.pdf,949394,HON-040,https://sen.hn/wp-content/uploads/2024/02/No.1-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-31-de-Diciembre-2023-al-06-de-enero-2024.pdf,cited in sources.csv
+HON/cchac/No.10-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-03-al-09-de-marzo-2024.pdf,932662,HON-048,https://sen.hn/wp-content/uploads/2024/04/No.10-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-03-al-09-de-marzo-2024.pdf,cited in sources.csv
+HON/cchac/No.11-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-10-al-16-de-marzo-2024.pdf,903041,HON-049,https://sen.hn/wp-content/uploads/2024/04/No.11-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-10-al-16-de-marzo-2024.pdf,cited in sources.csv
+HON/cchac/No.12-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-17-al-23-de-marzo-2024.pdf,883971,HON-050,https://sen.hn/wp-content/uploads/2024/04/No.12-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-17-al-23-de-marzo-2024.pdf,cited in sources.csv
+HON/cchac/No.13-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-24-al-30-de-marzo-de-2024.pdf,883588,HON-051,https://sen.hn/wp-content/uploads/2024/04/No.13-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-24-al-30-de-marzo-de-2024.pdf,cited in sources.csv
+HON/cchac/No.15-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-07-al-13-de-abril-de-2024.pdf,862784,HON-052,https://sen.hn/wp-content/uploads/2024/05/No.15-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-07-al-13-de-abril-de-2024.pdf,cited in sources.csv
+HON/cchac/No.16-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-14-al-20-de-abril-de-2024.pdf,862523,HON-053,https://sen.hn/wp-content/uploads/2024/05/No.16-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-14-al-20-de-abril-de-2024.pdf,cited in sources.csv
+HON/cchac/No.17-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-21-al-27-de-abril-de-2024.pdf,857309,HON-054,https://sen.hn/wp-content/uploads/2024/05/No.17-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-21-al-27-de-abril-de-2024.pdf,cited in sources.csv
+HON/cchac/No.2-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-07-al-13-de-enero-2024.pdf,931196,HON-041,https://sen.hn/wp-content/uploads/2024/02/No.2-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-07-al-13-de-enero-2024.pdf,cited in sources.csv
+HON/cchac/No.23-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-02-al-08-d-e-junio-de-2024.pdf,862832,HON-059,https://sen.hn/wp-content/uploads/2024/07/No.23-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-02-al-08-d-e-junio-de-2024.pdf,cited in sources.csv
+HON/cchac/No.24-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-09-al-15-de-junio-de-2024.pdf,864274,HON-060,https://sen.hn/wp-content/uploads/2024/07/No.24-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-09-al-15-de-junio-de-2024.pdf,cited in sources.csv
+HON/cchac/No.25-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-16-al-22-de-junio-de-2024.pdf,867426,HON-061,https://sen.hn/wp-content/uploads/2024/07/No.25-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-16-al-22-de-junio-de-2024.pdf,cited in sources.csv
+HON/cchac/No.26-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-23-al-29.pdf,868407,HON-062,https://sen.hn/wp-content/uploads/2024/07/No.26-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-23-al-29.pdf,cited in sources.csv
+HON/cchac/No.27-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-30-JUN-AL-6-JUL-2024.pdf,889599,HON-063,https://sen.hn/wp-content/uploads/2024/08/No.27-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-30-JUN-AL-6-JUL-2024.pdf,cited in sources.csv
+HON/cchac/No.28-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-7-AL-13-JUL-2024.pdf,850613,HON-064,https://sen.hn/wp-content/uploads/2024/08/No.28-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-7-AL-13-JUL-2024.pdf,cited in sources.csv
+HON/cchac/No.29-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-14-AL-20-JUL-2024.pdf,1063475,HON-065,https://sen.hn/wp-content/uploads/2024/08/No.29-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-14-AL-20-JUL-2024.pdf,cited in sources.csv
+HON/cchac/No.3-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-14-al-20-de-enero-2024.pdf,935822,HON-042,https://sen.hn/wp-content/uploads/2024/02/No.3-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-14-al-20-de-enero-2024.pdf,cited in sources.csv
+HON/cchac/No.30-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-21-AL-27-JUL-2024.pdf,2009618,HON-066,https://sen.hn/wp-content/uploads/2024/08/No.30-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-21-AL-27-JUL-2024.pdf,cited in sources.csv
+HON/cchac/No.31-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-28-JUL-AL-03-AGO-2024-PPT-NICARAGUA.pdf,1217217,HON-067,https://sen.hn/wp-content/uploads/2024/09/No.31-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLE-CCHAC-SICA-28-JUL-AL-03-AGO-2024-PPT-NICARAGUA.pdf,cited in sources.csv
+HON/cchac/No.4-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-21-al-27-de-enero-2024.pdf,927972,HON-043,https://sen.hn/wp-content/uploads/2024/02/No.4-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-21-al-27-de-enero-2024.pdf,cited in sources.csv
+HON/cchac/No.5-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-28-de-enero-al-03-de-febrero-2024.pdf,921021,HON-044,https://sen.hn/wp-content/uploads/2024/02/No.5-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-28-de-enero-al-03-de-febrero-2024.pdf,cited in sources.csv
+HON/cchac/No.6-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-04-al-10-de-febrero-2024.pdf,939646,HON-045,https://sen.hn/wp-content/uploads/2024/03/No.6-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-04-al-10-de-febrero-2024.pdf,cited in sources.csv
+HON/cchac/No.7-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-11-al-17-de-febrero-2024.pdf,978150,HON-046,https://sen.hn/wp-content/uploads/2024/03/No.7-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-11-al-17-de-febrero-2024.pdf,cited in sources.csv
+HON/cchac/No.8-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-18-al-24-de-febrero-2024.pdf,974307,HON-047,https://sen.hn/wp-content/uploads/2024/03/No.8-BOLETIN-SEMANAL-PRECIOS-COMBUSTIBLES-CCHAC-SICA-del-18-al-24-de-febrero-2024.pdf,cited in sources.csv
+HON/cchac/cchac_hon_2024.csv,28813,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cchac/cchac_hon_glp_2024.csv,55350,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cchac/cchac_hon_glp_weekly.csv,4035,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cchac/cchac_hon_liquids_weekly.csv,3956,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cchac/png/No.1_p6.png,17666,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cchac/png/No.1_p7.png,14092,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cchac/png/No.30_p6.png,36446,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cchac/png/No.30_p7.png,47359,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cchac/png/No.31_p6.png,30152,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cchac/png/No.31_p7.png,24717,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cchac/urls.txt,3269,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/comtrade/HON_2018_M_coal_coke.json,971,HON-021,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=340&period=2018&partnerCode=0&flowCode=M&cmdCode=270112,271311",cited in sources.csv
+HON/comtrade/HON_2019_M_coal_coke.json,1882,HON-022,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=340&period=2019&partnerCode=0&flowCode=M&cmdCode=270112,271311",cited in sources.csv
+HON/comtrade/HON_2020_M_coal_coke.json,1878,HON-023,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=340&period=2020&partnerCode=0&flowCode=M&cmdCode=270112,271311",cited in sources.csv
+HON/comtrade/HON_2021_M_coal_coke.json,1882,HON-024,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=340&period=2021&partnerCode=0&flowCode=M&cmdCode=270112,271311",cited in sources.csv
+HON/comtrade/HON_2022_M_coal_coke.json,973,HON-025,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=340&period=2022&partnerCode=0&flowCode=M&cmdCode=270112,271311",cited in sources.csv
+HON/comtrade/HON_2023_M_coal_coke.json,1882,HON-026,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=340&period=2023&partnerCode=0&flowCode=M&cmdCode=270112,271311",cited in sources.csv
+HON/comtrade/HON_2024_M_4digit.json,3724,HON-020,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=340&period=2024&partnerCode=0&flowCode=M&cmdCode=2701,2713,2709,2710,2711",cited in sources.csv
+HON/comtrade/HON_2024_M_6digit.json,10062,HON-019,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=340&period=2024&partnerCode=0&flowCode=M&cmdCode=270111,270112,270119,271311,271312,271320,271390,271012,271019,271020,271111,271112,271113,271119,271121",cited in sources.csv
+HON/comtrade/HON_2025_M_coal_coke.json,58,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cree/Informe-de-1er-Ajuste-Tarifario-2024_Final.pdf,1506698,HON-009,https://www.cree.gob.hn/wp-content/uploads/2019/02/Informe-de-1er-Ajuste-Tarifario-2024_Final.pdf,cited in sources.csv
+HON/cree/Informe-de-1er-Ajuste-Tarifario-2024_Final.txt,65193,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cree/Informe-de-1er-Ajuste-Tarifario-2025.pdf,2303974,HON-013,https://www.cree.gob.hn/wp-content/uploads/2019/02/Informe-de-1er-Ajuste-Tarifario-2025.pdf,cited in sources.csv
+HON/cree/Informe-de-1er-Ajuste-Tarifario-2025.txt,82711,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cree/Informe-de-2do-Ajuste-Tarifario-2024.pdf,2367090,HON-010,https://www.cree.gob.hn/wp-content/uploads/2019/02/Informe-de-2do-Ajuste-Tarifario-2024.pdf,cited in sources.csv
+HON/cree/Informe-de-2do-Ajuste-Tarifario-2024.txt,77660,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cree/Informe-de-2do-Ajuste-Tarifario-2025.pdf,2234244,HON-014,https://www.cree.gob.hn/wp-content/uploads/2019/02/Informe-de-2do-Ajuste-Tarifario-2025.pdf,cited in sources.csv
+HON/cree/Informe-de-2do-Ajuste-Tarifario-2025.txt,89726,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cree/Informe-de-3er-Ajuste-Tarifario-2024.pdf,3069822,HON-011,https://www.cree.gob.hn/wp-content/uploads/2019/02/Informe-de-3er-Ajuste-Tarifario-2024.pdf,cited in sources.csv
+HON/cree/Informe-de-3er-Ajuste-Tarifario-2024.txt,84974,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cree/Informe-de-4to-Ajuste-Tarifario-2024_VF.pdf,2752515,HON-012,https://www.cree.gob.hn/wp-content/uploads/2019/02/Informe-de-4to-Ajuste-Tarifario-2024_VF.pdf,cited in sources.csv
+HON/cree/Informe-de-4to-Ajuste-Tarifario-2024_VF.txt,95706,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cree/Informe-revision-CBG-2024.pdf,2526679,HON-015,https://www.cree.gob.hn/wp-content/uploads/2019/02/Informe-revisi%C3%B3n-de-los-CBG-2024-versi%C3%B3n-p%C3%A1gina-web_DC-1.pdf,cited in sources.csv
+HON/cree/cbg2024.txt,135114,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/cree/p15_1er2025.png,29887,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/eia/RNGWHHDa.xls,34816,HON-027,https://www.eia.gov/dnav/ng/hist_xls/RNGWHHDa.xls,cited in sources.csv
+HON/gaceta/Lic33ENEE_LP-100-080-2023_Pliego.pdf,1679238,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/gaceta/pliego.txt,279714,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/nist/nist_sp811_appB9.html,170519,HON-029,https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9,cited in sources.csv
+HON/ods/2022_11_18_termica.html,91706,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/ods/Anexos-PIEG-2026-2035.pdf,1542582,HON-017,https://cnd.enee.hn/wp-content/uploads/2026/09/Anexos-PIEG-2026-2035.pdf,cited in sources.csv
+HON/ods/Anexos-PIEG-2026-2035.txt,270057,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/ods/G01-PIEG-2024-2033-Aprobado.pdf,3677867,HON-018,https://cnd.enee.hn/wp-content/uploads/2024/07/G01-PIEG-2024-2033-Aprobado.pdf,cited in sources.csv
+HON/ods/G01-PIEG-2024-2033-Aprobado.txt,365010,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/ods/G02-Anexos-PIEG-2024-2033-Aprobado.pdf,660861,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/ods/G02-Anexos-PIEG-2024-2033-Aprobado.txt,97077,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/ods/Informe-PIEG-2026-2035.pdf,3982223,HON-016,https://cnd.enee.hn/wp-content/uploads/2026/09/Informe-PIEG-2026-2035.pdf,cited in sources.csv
+HON/ods/Informe-PIEG-2026-2035.txt,424876,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/ods/bases-sddp.html,86376,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/ods/enee_home.html,2128054,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/ods/informe-anual-operacion-del-mercado.html,86571,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/ods/informe-de-operacion-mensual.html,86494,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/ods/informes-operacion-del-mercado.html,86252,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/ods/ods_home.html,112637,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/ods/ods_version-final.html,86046,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/ods/pieg-y-pert-2026-2035.html,95881,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/ods/pieg-y-pet-2024-2033.html,101457,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/ods/planificacion-operativa-de-largo-plazo-2024.html,86573,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/ods/planificacion-operativa-de-largo-plazo-2025.html,86573,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/ods/transacciones-nacionales.html,86512,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/press/combustibles-al-alza-presionan-la-economia-y-agravan-la-inseguridad-alimentaria-en-honduras.html,50076,HON-008,https://blogs.unah.edu.hn/presencia-universitaria/combustibles-al-alza-presionan-la-economia-y-agravan-la-inseguridad-alimentaria-en-honduras/,cited in sources.csv
+HON/press/como-define-precio-consumidor-combustibles-honduras-GK19575298.html,152325,HON-007,https://www.elheraldo.hn/economia/como-define-precio-consumidor-combustibles-honduras-GK19575298,cited in sources.csv
+HON/press/como-define-precio-consumidor-combustibles-honduras-NK19576193.html,173369,HON-006,https://www.laprensa.hn/economia/como-define-precio-consumidor-combustibles-honduras-NK19576193,cited in sources.csv
+HON/sen_legal/Decreto-Legislativo-No.-100-2020-ACPV.pdf,2914896,HON-030,https://sen.hn/wp-content/uploads/2024/07/Decreto-Legislativo-No.-100-2020-ACPV.pdf,cited in sources.csv
+HON/sen_legal/acpv.txt,280248,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/sen_monthly/IEMCH-2024-08.pdf,1093531,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/sen_monthly/IEMCHB-10-2024.pdf,1002548,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/sen_monthly/IEMCHB-11-2024.pdf,1099679,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/sen_monthly/IEMCHB-12-2024.pdf,1024148,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/sen_monthly/IN15221.pdf,1075383,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/sen_monthly/INA14F1.pdf,1087112,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/sen_monthly/INE7E21.pdf,1094496,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/sen_monthly/Informe-Estadistico-Anual-de-Comercializacion-de-Hidrocarburos-en-Honduras-2024.pdf,817308,HON-005,https://sen.hn/wp-content/uploads/2025/04/Informe-Estadistico-Anual-de-Comercializacion-de-Hidrocarburos-en-Honduras-2024.pdf,cited in sources.csv
+HON/sen_monthly/Informe-Estadistico-Mensual-de-Comercializacion-de-Hidrocarburos-e.pdf,948450,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/sen_monthly/Informe-Estadistico-Mensual-de-Comercializacion-de-Hidrocarburos-en-Honduras-Julio-2024-1.pdf,1130668,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/sen_monthly/Informe-Estadistico-Mensual-de-Comercializacion-de-Hidrocarburos-en-Honduras-Junio-2024.pdf,1098818,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/sen_monthly/Informe-Estadistico-Mensual-de-Comercializacion-de-Hidrocarburos-en-Honduras-Septiembre-2024.pdf,1064528,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/sen_monthly/Informe-Estadistico-Mensual-de-Comercializacion-mes-de-MAYO-2024.pdf,1126056,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/sen_monthly/anual2024.txt,28510,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/sen_monthly/p3_2024-05.png,14879,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/sen_monthly/sen_weekly_prices_2024.csv,20678,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+HON/sen_weekly/S1-AGOSTO-2024.pdf,435648,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/OUR_Investigation_JPS_July2024_FuelRate_2024-12-19.pdf,823029,JAM-012,https://our.org.jm/wp-content/uploads/2024/12/Office-of-Utilities-Regulation-Investigation-Report_2024-12-19-Final.pdf,cited in sources.csv
+JAM/OUR_inv.txt,59773,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/boj_avg_fx_page.html,418889,JAM-001,https://boj.org.jm/market/foreign-exchange/average-exchange-rates/,cited in sources.csv
+JAM/boj_wdtable_144.json,4423,JAM-001,https://boj.org.jm/market/foreign-exchange/average-exchange-rates/,cited in sources.csv
+JAM/boj_wdtable_145.json,86926,JAM-001,https://boj.org.jm/market/foreign-exchange/average-exchange-rates/,cited in sources.csv
+JAM/comtrade_JAM_2024_M_4digit.json,4622,JAM-002,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=388&period=2024&partnerCode=0&flowCode=M&cmdCode=2701,2713,2709,2710,2711",cited in sources.csv
+JAM/comtrade_JAM_2024_M_6digit.json,14536,JAM-003,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=388&period=2024&partnerCode=0&flowCode=M&cmdCode=270111,270112,270119,270120,270210,270400,271311,271312,271320,271390,270900,271012,271019,271020,271111,271112,271113,271114,271119,271121,271129",cited in sources.csv
+JAM/comtrade_JAM_2024_monthly_M.json,69,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/comtrade_hist/comtrade_JAM_2018_M.json,8227,JAM-005,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=388&period=2018&partnerCode=0&flowCode=M&cmdCode=2701,270112,270119,2713,271311,271312,271111,271112,271113,271012,271019",cited in sources.csv
+JAM/comtrade_hist/comtrade_JAM_2019_M.json,8268,JAM-006,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=388&period=2019&partnerCode=0&flowCode=M&cmdCode=2701,270112,270119,2713,271311,271312,271111,271112,271113,271012,271019",cited in sources.csv
+JAM/comtrade_hist/comtrade_JAM_2020_M.json,9124,JAM-007,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=388&period=2020&partnerCode=0&flowCode=M&cmdCode=2701,270112,270119,2713,271311,271312,271111,271112,271113,271012,271019",cited in sources.csv
+JAM/comtrade_hist/comtrade_JAM_2021_M.json,8231,JAM-008,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=388&period=2021&partnerCode=0&flowCode=M&cmdCode=2701,270112,270119,2713,271311,271312,271111,271112,271113,271012,271019",cited in sources.csv
+JAM/comtrade_hist/comtrade_JAM_2022_M.json,9158,JAM-009,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=388&period=2022&partnerCode=0&flowCode=M&cmdCode=2701,270112,270119,2713,271311,271312,271111,271112,271113,271012,271019",cited in sources.csv
+JAM/comtrade_hist/comtrade_JAM_2023_M.json,8255,JAM-010,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=388&period=2023&partnerCode=0&flowCode=M&cmdCode=2701,270112,270119,2713,271311,271312,271111,271112,271113,271012,271019",cited in sources.csv
+JAM/comtrade_hist/comtrade_JAM_2025_M.json,9209,JAM-011,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=388&period=2025&partnerCode=0&flowCode=M&cmdCode=2701,270112,270119,2713,271311,271312,271111,271112,271113,271012,271019",cited in sources.csv
+JAM/comtrade_mirror_exports_to_JAM_2024.json,7286,JAM-004,"https://comtradeapi.un.org/public/v1/preview/C/A/HS?period=2024&partnerCode=388&flowCode=X&cmdCode=270112,270119,2701,271311,271312,2713",cited in sources.csv
+JAM/datagov/ckan_petroleum.json,14836,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/datagov/node_616.html,14790,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/datagov/node_621.html,14790,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/datagov/node_626.html,14790,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/datagov/search_petroleum.html,734,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/JAMAICA-ENERGY-STATISTICS-2020.pdf,765307,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/JAMAICA-ENERGY-STATISTICS-2020.txt,25528,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/JAMAICA-ENERGY-STATISTICS-2022.pdf,714555,JAM-018,https://www.mset.gov.jm/wp-content/uploads/2021/07/JAMAICA-ENERGY-STATISTICS-2022.pdf,cited in sources.csv
+JAM/mset/JAMAICA-ENERGY-STATISTICS-2022.txt,22749,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/JAMAICA-ENERGY-STATISTICS-2023-Revised-August-2024.pdf,754465,JAM-017,https://www.mset.gov.jm/wp-content/uploads/2021/07/JAMAICA-ENERGY-STATISTICS-2023-Revised-August-2024.pdf,cited in sources.csv
+JAM/mset/JAMAICA-ENERGY-STATISTICS-2023-Revised-August-2024.txt,27160,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/JAMAICA-ENERGY-STATISTICS-2024.pdf,754171,JAM-016,https://www.mset.gov.jm/wp-content/uploads/2021/07/JAMAICA-ENERGY-STATISTICS-2024.pdf,cited in sources.csv
+JAM/mset/JAMAICA-ENERGY-STATISTICS-2024.txt,31374,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/JAMAICA-ENERGY-STATISTICS-2025.pdf,738711,JAM-015,https://www.mset.gov.jm/wp-content/uploads/2021/07/JAMAICA-ENERGY-STATISTICS-2025.pdf,cited in sources.csv
+JAM/mset/JAMAICA-ENERGY-STATISTICS-2025.txt,27232,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/Jamaica-Energy-Statistics-2019.pdf,827832,JAM-020,https://www.mset.gov.jm/wp-content/uploads/2020/06/Jamaica-Energy-Statistics-2019.pdf,cited in sources.csv
+JAM/mset/Jamaica-Energy-Statistics-2019.txt,24016,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/Jamaica-Energy-Statistics-2021.pdf,697253,JAM-019,https://www.mset.gov.jm/wp-content/uploads/2021/07/Jamaica-Energy-Statistics-2021.pdf,cited in sources.csv
+JAM/mset/Jamaica-Energy-Statistics-2021.txt,25263,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/MSETT-National-Energy-Balance-2023-Updated-Sept-19-2025_FINAL.pdf,399005,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/MSETT-National-Energy-Balance-2024_Update.pdf,428161,JAM-021,https://www.mset.gov.jm/wp-content/uploads/2021/07/MSETT-National-Energy-Balance-2024_Update.pdf,cited in sources.csv
+JAM/mset/MSETT-National-Energy-Balance-2024_Update.txt,18192,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/PETROLEUM-IMPORT-2018.pdf,232381,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/PETROLEUM-PRICES-2018.pdf,188162,JAM-022,https://www.mset.gov.jm/wp-content/uploads/2019/06/PETROLEUM-PRICES-2018.pdf,cited in sources.csv
+JAM/mset/PETROLEUM-PRICES-2018.txt,3651,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/Petrojam-Average-Price-Matrix-2019-updated.pdf,534173,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/Petrojam-Average-Price-Matrix-2019-updated.txt,11556,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/Petrojam-weekly-prices-2019.xlsx,20262,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/Petrojam-weekly-prices-Matrix-2020.pdf,544863,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/Petrojam-weekly-prices-Matrix-2020.txt,19371,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/Petroleum-Average-Price-Matrix-2019_0.pdf,307018,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/Refinery-Billing-Price-Report-2016.pdf,719164,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/Refinery-Billing-Price-Report-2016.txt,9112,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/cat_energy-balances.html,140014,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/cat_petroleum.html,133261,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/cat_reports.html,130521,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/cat_statistics-data.html,233766,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/eb2023.txt,16474,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/png/JAMAICA-ENERGY-STATISTICS-2024_p002.png,225390,JAM-016,https://www.mset.gov.jm/wp-content/uploads/2021/07/JAMAICA-ENERGY-STATISTICS-2024.pdf,cited in sources.csv
+JAM/mset/png/JAMAICA-ENERGY-STATISTICS-2025_p002.png,226221,JAM-015,https://www.mset.gov.jm/wp-content/uploads/2021/07/JAMAICA-ENERGY-STATISTICS-2025.pdf,cited in sources.csv
+JAM/mset/png/JAMAICA-ENERGY-STATISTICS-2025_p005.png,133735,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/png/JAMAICA-ENERGY-STATISTICS-2025_p007.png,140209,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/png/JAMAICA-ENERGY-STATISTICS-2025_p013.png,204084,JAM-015,https://www.mset.gov.jm/wp-content/uploads/2021/07/JAMAICA-ENERGY-STATISTICS-2025.pdf,cited in sources.csv
+JAM/mset/www.mset.gov.jm_,289925,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/mset/www.mset.gov.jm_energy-statistics_,128582,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+"JAM/mset/www.mset.gov.jm_wp-json_wp_v2_media_search_energy_per_page_100__fields_date,sour",112,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+"JAM/mset/www.mset.gov.jm_wp-json_wp_v2_media_search_petroleum_per_page_100__fields_date,s",112,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/olade/olade_old0382.pdf,162,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/other/WTO_TPR_S457_Jamaica_2024.pdf,2146425,JAM-023,https://www.wto.org/english/tratop_e/tpr_e/s457_e.pdf,cited in sources.csv
+JAM/other/boj_external_sector.html,342645,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/other/cac_home.html,77676,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/other/cac_survey_results.html,34265,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/other/jca_home.html,222114,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/other/jps_media_annualreport_response.html,212,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/other/jps_media_fuel_response.html,212,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/other/statin_home.html,7155307,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/other/statin_newtrade.html,125692,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/other/wto.txt,562231,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/Annual-Report-2024-2025-low-res-compressed.pdf,12871623,JAM-013,https://our.org.jm/wp-content/uploads/2025/12/Annual-Report-2024-2025-low-res-compressed.pdf,cited in sources.csv
+JAM/our/Annual-Report-2024-2025-low-res-compressed.txt,142,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/OUR-Annual-Report-2023-24.pdf,10382263,JAM-014,https://our.org.jm/wp-content/uploads/2024/11/OUR-Annual-Report-2023-24.pdf,cited in sources.csv
+JAM/our/OUR-Annual-Report-2023-24.txt,611906,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/Office-of-Utilities-Regulation-_Fuel-Rate-Investigation_Executive-Summary_2024.pdf,282639,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/Office-of-Utilities-Regulation-_Fuel-Rate-Investigation_Executive-Summary_2024.txt,11113,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/Public-Notice-Net-Billing-SOC-Rate-2024-Aug.pdf,186575,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/Public-Notice-Net-Billing-SOC-Rate-2024-Aug.txt,4062,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/Quarterly-Performance-Report-2023-October-December-Final_.pdf,882133,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/Quarterly-Performance-Report-2023-October-December-Final_.txt,78762,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/Quarterly-Performance-Report-2024-Apr-Jun-FINAL.pdf,953805,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/Quarterly-Performance-Report-2024-Apr-Jun-FINAL.txt,67273,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/Quarterly-Performance-Report-2024-Jan-Mar-Final-2024-20-06.pdf,858529,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/Quarterly-Performance-Report-2024-Jan-Mar-Final-2024-20-06.txt,65308,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/Quarterly-Performance-Report-2024-July-September.pdf,914446,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/Quarterly-Performance-Report-2024-July-September.txt,70976,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/Quarterly-Performance-Report-2024-Oct-Dec-FINAL.pdf,909842,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/Quarterly-Performance-Report-2024-Oct-Dec-FINAL.txt,79264,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/AR2425_p058_table24.png,132871,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/AR2425_p058_table24_left.png,92397,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/AR2425_p059_2024a.png,56713,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/AR2425_p059_2024b.png,58142,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/AR2425_p059_2024c.png,125892,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/AR2425_p059_left.png,225514,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/AR2425_p059_rates.png,84422,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/AR2425_p059_right.png,271135,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/AR2425_p059_right_bot.png,80079,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/AR2425_p059_right_top.png,136079,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/Annual-Report-2024-2025-low-res-compressed_p051.png,171137,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/Annual-Report-2024-2025-low-res-compressed_p052.png,168436,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/Annual-Report-2024-2025-low-res-compressed_p053.png,149518,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/Annual-Report-2024-2025-low-res-compressed_p054.png,138606,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/Annual-Report-2024-2025-low-res-compressed_p055.png,116789,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/Annual-Report-2024-2025-low-res-compressed_p056.png,189900,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/Annual-Report-2024-2025-low-res-compressed_p057.png,149320,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/Annual-Report-2024-2025-low-res-compressed_p058.png,811060,JAM-013,https://our.org.jm/wp-content/uploads/2025/12/Annual-Report-2024-2025-low-res-compressed.pdf,cited in sources.csv
+JAM/our/png/Annual-Report-2024-2025-low-res-compressed_p059.png,804227,JAM-013,https://our.org.jm/wp-content/uploads/2025/12/Annual-Report-2024-2025-low-res-compressed.pdf,cited in sources.csv
+JAM/our/png/Annual-Report-2024-2025-low-res-compressed_p060.png,133519,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/Annual-Report-2024-2025-low-res-compressed_p061.png,152574,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/Annual-Report-2024-2025-low-res-compressed_p062.png,125366,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/Annual-Report-2024-2025-low-res-compressed_p063.png,147036,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/OUR_Investigation_JPS_July2024_FuelRate_2024-12-19_p024.png,259197,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our/png/OUR_inv_p024_fuelprices.png,154803,JAM-012,https://our.org.jm/wp-content/uploads/2024/12/Office-of-Utilities-Regulation-Investigation-Report_2024-12-19-Final.pdf,cited in sources.csv
+JAM/our/png/sheet_51_63.png,2020836,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our_api/media_IPP.json,789,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our_api/media_annual_report.json,5537,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our_api/media_determination.json,27444,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our_api/media_fuel.json,13195,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our_api/media_fuel_price.json,2,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our_api/media_heat_rate.json,2,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our_api/media_pdf_after2024_p1.json,15621,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our_api/media_pdf_after2024_p2.json,14166,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our_api/media_pdf_after2024_p3.json,16604,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our_api/media_pdf_after2024_p4.json,9659,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our_api/media_pdf_after2024_p5.json,146,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/our_api/media_rate_review.json,13928,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/petrojam_home.html,118,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"
+JAM/petrojam_price_index.html,118,,,"not cited (probe, rendered page image, parsed output, scratch, duplicate or superseded file)"

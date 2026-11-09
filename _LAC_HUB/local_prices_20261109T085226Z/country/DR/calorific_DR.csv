@@ -1,0 +1,2 @@
+country,balance,publisher,url,net_or_gross,factor_NGS,factor_COA,factor_COK,factor_FOI,factor_units,page_or_table,source_id
+DominicanRepublic,"Balance Energetico Nacional (SIEN, kTep, OLADE methodology)",Comision Nacional de Energia,https://sien.cne.gob.do/WebForms/Utilidades/contenido.aspx?archivo=contenido3.1.html,not stated,0.83,,,,"NGS: toe per thousand normal m3 (equals 34.75 MJ per normal m3, a level typical of net calorific value); COA, COK, FOI factors not published on the page","Metodologia, sections Gas Natural, Carbon Mineral, Coque, Fuel Oil",DR-009

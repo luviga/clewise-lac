@@ -1,0 +1,25 @@
+NOTE DominicanRepublic DSL generator delivered: folder reference replaced by 55 files
+NOTE DominicanRepublic DSL wholesale import parity: folder reference replaced by 55 files
+NOTE DominicanRepublic DSL final consumer pre-tax: folder reference replaced by 51 files
+NOTE DominicanRepublic FOI generator delivered: folder reference replaced by 55 files
+NOTE DominicanRepublic FOI wholesale import parity: folder reference replaced by 55 files
+NOTE DominicanRepublic FOI final consumer pre-tax: folder reference replaced by 55 files
+NOTE DominicanRepublic FOI generator delivered: folder reference replaced by 55 files
+NOTE DominicanRepublic FOI wholesale import parity: folder reference replaced by 55 files
+NOTE DominicanRepublic GSL wholesale import parity: folder reference replaced by 51 files
+NOTE DominicanRepublic GSL final consumer pre-tax: folder reference replaced by 51 files
+NOTE DominicanRepublic LPG wholesale import parity: folder reference replaced by 51 files
+NOTE DominicanRepublic LPG final consumer pre-tax: folder reference replaced by 51 files
+NOTE DominicanRepublic KER wholesale import parity: folder reference replaced by 51 files
+NOTE DominicanRepublic KER final consumer pre-tax: folder reference replaced by 51 files
+NOTE DominicanRepublic JET wholesale import parity: folder reference replaced by 55 files
+NOTE DominicanRepublic JET final consumer pre-tax: folder reference replaced by 55 files
+NOTE DominicanRepublic NGS wholesale import parity: folder reference replaced by 50 files
+NOTE DominicanRepublic NGS final consumer pre-tax: folder reference replaced by 50 files
+prices 176 history 330 sources 352 constants 90 log 1070 manual 43 calorific 9 calorific_not_retrieved 2 coverage 55
+new_evidence_class
+ASSUMPTION candidate                 4
+built from published components      2
+international customs (Comtrade)     7
+local customs or statistics          5
+local regulator or operator         37

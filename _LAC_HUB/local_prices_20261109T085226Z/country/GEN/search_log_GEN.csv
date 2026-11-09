@@ -1,0 +1,6 @@
+country,fuel,lead_id,lead,url_or_query,date,result,detail
+ALL,ALL,energy_balance,OLADE Energy Statistics Manual 2017,https://biblioteca.olade.org/opac-tmpl/Documentos/old0381.pdf,2026-11-09,blocked HTTP 403,on manual list
+ALL,ALL,energy_balance,OLADE Manual de Estadisticas Energeticas 2011,https://biblioteca.olade.org/opac-tmpl/Documentos/old0179.pdf,2026-11-09,blocked HTTP 403,on manual list
+ALL,ALL,other_unsd,UN Energy Statistics Yearbook 2023 units note,https://unstats.un.org/unsd/energystats/pubs/yearbook/2023/07umc.pdf,2026-11-09,value found,natural gas net = gross x 0.9 (GEN-006)
+ALL,ALL,other_iea,IEA Energy Statistics Manual 2005,https://iea.blob.core.windows.net/assets/51ec4ca8-6c8f-4e2a-8db5-16e4c0e7a4b0/EnergyStatisticsManual.pdf,2026-11-09,not found,HTTP 404 at guessed URL; UN yearbook used instead
+ALL,ALL,other_eia,EIA Monthly Energy Review Table A4 (natural gas heat content),https://www.eia.gov/totalenergy/data/browser/csv.php?tbl=TA4,2026-11-09,no value,xlsx and csv exports returned empty tables; EIA FAQ used instead (GEN-005)

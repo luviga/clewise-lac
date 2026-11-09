@@ -1,0 +1,38 @@
+CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_AR_Model_Base_Year.xlsx[Transport]: Estudio Técnico MINAE Costa Rica, pág. 25, tabla 6 (PDF) (1.2 kWh/km; 1.2*3.6 = 4.32 MJ/km)
+CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_AR_Model_Base_Year_CostaRica.xlsx[Transport]: Estudio Técnico MINAE Costa Rica, pág. 25, tabla 6 (PDF) (1.2 kWh/km; 1.2*3.6 = 4.32 MJ/km)
+CostaRica/CR_ENERGY/t1_confection/A2_Compiler_CostaRica.py:284: print('2 (end) - The model has ben connected.')
+CostaRica/CR_ENERGY/t1_confection/A2_Compiler_FPT.py:284: print('2 (end) - The model has ben connected.')
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx[Fixed Horizon Parameters]: Plan Energ;etico Nacional 2022 [https://www.cne.gob.do/wp-content/uploads/2022/08/Plan-Energetico-Nacional-WEB-2022.pdf]
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx[Primary Techs]: Estimado del Balance Energético de OLADE
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx[Primary Techs]: https://www.cne.gob.do/wp-content/uploads/2018/09/2820182920Estudio20de20la20Produccic3b3n20Actual20y20potencial20de20Biomasa.pdf
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx[Secondary Techs]: Se define con el Balance de Energía de OLADE
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx[Secondary Techs]: https://www.cne.gob.do/wp-content/uploads/2018/09/2820182920Estudio20de20la20Produccic3b3n20Actual20y20potencial20de20Biomasa.pdf
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx[Secondary Techs]: Anexo BNEN 2018, compartido por Flady Cordeno CNE
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_ParametrizationBackUp.xlsx[Fixed Horizon Parameters]: Plan Energ;etico Nacional 2022 [https://www.cne.gob.do/wp-content/uploads/2022/08/Plan-Energetico-Nacional-WEB-2022.pdf]
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_ParametrizationBackUp.xlsx[Primary Techs]: Estimado del Balance Energético de OLADE
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_ParametrizationBackUp.xlsx[Primary Techs]: https://www.cne.gob.do/wp-content/uploads/2018/09/2820182920Estudio20de20la20Produccic3b3n20Actual20y20potencial20de20Biomasa.pdf
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_ParametrizationBackUp.xlsx[Secondary Techs]: Se define con el Balance de Energía de OLADE
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_ParametrizationBackUp.xlsx[Secondary Techs]: https://www.cne.gob.do/wp-content/uploads/2018/09/2820182920Estudio20de20la20Produccic3b3n20Actual20y20potencial20de20Biomasa.pdf
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_ParametrizationBackUp.xlsx[Secondary Techs]: Anexo BNEN 2018, compartido por Flady Cordeno CNE
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization_COMPLETED.xlsx[Fixed Horizon Parameters]: Plan Energ;etico Nacional 2022 [https://www.cne.gob.do/wp-content/uploads/2022/08/Plan-Energetico-Nacional-WEB-2022.pdf]
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization_COMPLETED.xlsx[Primary Techs]: Estimado del Balance Energético de OLADE
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization_COMPLETED.xlsx[Primary Techs]: https://www.cne.gob.do/wp-content/uploads/2018/09/2820182920Estudio20de20la20Produccic3b3n20Actual20y20potencial20de20Biomasa.pdf
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization_COMPLETED.xlsx[Secondary Techs]: Se define con el Balance de Energía de OLADE
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization_COMPLETED.xlsx[Secondary Techs]: https://www.cne.gob.do/wp-content/uploads/2018/09/2820182920Estudio20de20la20Produccic3b3n20Actual20y20potencial20de20Biomasa.pdf
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization_COMPLETED.xlsx[Secondary Techs]: Anexo BNEN 2018, compartido por Flady Cordeno CNE
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization_Natural_COMPLETED.xlsx[Fixed Horizon Parameters]: Plan Energ;etico Nacional 2022 [https://www.cne.gob.do/wp-content/uploads/2022/08/Plan-Energetico-Nacional-WEB-2022.pdf]
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization_Natural_COMPLETED.xlsx[Primary Techs]: Estimado del Balance Energético de OLADE
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization_Natural_COMPLETED.xlsx[Primary Techs]: https://www.cne.gob.do/wp-content/uploads/2018/09/2820182920Estudio20de20la20Produccic3b3n20Actual20y20potencial20de20Biomasa.pdf
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization_Natural_COMPLETED.xlsx[Secondary Techs]: Se define con el Balance de Energía de OLADE
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization_Natural_COMPLETED.xlsx[Secondary Techs]: https://www.cne.gob.do/wp-content/uploads/2018/09/2820182920Estudio20de20la20Produccic3b3n20Actual20y20potencial20de20Biomasa.pdf
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization_Natural_COMPLETED.xlsx[Secondary Techs]: Anexo BNEN 2018, compartido por Flady Cordeno CNE
+Ecuador/ECU_Energy/A1_Outputs/reference_PLANMICC/Requerimiento_Datos_Energia_Ecuador_v7.xlsx[Combustibles]: Fuente: BEN y ARCRRNNR
+Ecuador/ECU_Energy/A1_Outputs/reference_PLANMICC/Requerimiento_Datos_Energia_Ecuador_v7.xlsx[Emisiones Energía V2]: Petróleo utilizado para consumo en sistema de bombeo de oleoductos SOTE y OCP según BEN [PJ]
+Ecuador/ECU_Energy/A1_Outputs/reference_PLANMICC/Requerimiento_Datos_Energia_Ecuador_v7.xlsx[Emisiones Energía]: Petróleo utilizado para consumo en sistema de bombeo de oleoductos SOTE y OCP según BEN [PJ]
+Ecuador/ECU_Energy/A1_Outputs/reference_PLANMICC/Requerimiento_Datos_Energia_Ecuador_v7.xlsx[Copia de Combustibles]: Balance Energético Nacional 2021
+Ecuador/ECU_Energy/A1_Outputs/reference_PLANMICC/Requerimiento_Datos_Energia_Ecuador_v7.xlsx[Copia de Electricidad]: Balance Energético Nacional 2021
+Ecuador/ECU_Energy/A1_Outputs/reference_PLANMICC/Requerimiento_Datos_Energia_Ecuador_v7.xlsx[Copia de Demandas de energía ]: Balance Energético Nacional 2021
+Ecuador/ECU_Energy/A1_Outputs/reference_PLANMICC/Requerimiento_Datos_Energia_Ecuador_v7.xlsx[Copia de Emisiones Energía]: Balance Energético Nacional 2021
+Guatemala/GUA_ENERGY/OSeMOSYS_Model.txt:273: #########	        Energy Balance A    	 	#############
+Guatemala/GUA_ENERGY/OSeMOSYS_Model.txt:287: #########        	Energy Balance B		 	#############
+Honduras/HON_ENERGY/etanol_FE.xlsx[Sheet1]: Poder calorífico
