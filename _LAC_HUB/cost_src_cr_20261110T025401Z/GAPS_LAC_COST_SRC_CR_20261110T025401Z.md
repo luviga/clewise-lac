@@ -101,4 +101,6 @@ Country task
 
 - The session was interrupted during the first OneDrive file search. The search was rerun with a timeout and all five paper files copied.
 - During plant research, Git Bash curl crashed on an ICE redirect. A cookie-based retry against the ICE site was refused by the session's permission settings and not pursued.
+- The repository's `.gitattributes` sets `* -text`, so CSV and Markdown files written on Windows were first committed with CRLF line endings and `git diff --check` failed. All tracked job files were converted to LF and the commit amended before the push.
+- The brief asks for one commit. The pull request number is only known after the pull request is opened. Amending the pushed commit would need a force push, which the session's permission settings refused. The report update (pull request number, final gate results, LF fixes in two scripts) is therefore a second commit on the branch, `LAC_COST_SRC_CR: report pull request number`.
 - `elec_cost_perf.pdf` at the EIA AEO assumptions address is the AEO2023 edition (March 2023), so the local file is named for that edition.

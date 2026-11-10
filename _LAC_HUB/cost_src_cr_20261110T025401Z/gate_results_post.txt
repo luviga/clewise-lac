@@ -1,7 +1,7 @@
 Gate 1 read-only: PASS. 6 files hashed, 6 equal
-Gate 2 diff scope: PASS. 37 files changed, 0 outside the job folder []
-Gate 3 tracked types: PASS. 37 tracked files; 0 with other extensions; 0 under downloads/
+Gate 2 diff scope: PASS. 38 files changed, 0 outside the job folder []
+Gate 3 tracked types: PASS. 38 tracked files; 0 with other extensions; 0 under downloads/
 Gate 4 sourcing: PASS. 1560 proposal rows not ASSUMPTION, 0 with a missing source id; 40 sources, 0 with problems []
 Gate 5 ASSUMPTION rows: PASS. 150 ASSUMPTION rows for ['IMPNGS', 'PWRDSL', 'PWRFOI']; without leads []; sentence problems []
 Gate 6 coverage: PASS. 10 plants x 3 parameters x 30 years and 9 supply rows x 3 scenarios x 30 years checked; gaps []
-Gate 7 hygiene: FAIL. em dash files []; machine paths []; git diff --check output 2351671 chars; trailer lines False
+Gate 7 hygiene: PASS. em dash files []; machine paths []; git diff --check output 0 chars; trailer lines False

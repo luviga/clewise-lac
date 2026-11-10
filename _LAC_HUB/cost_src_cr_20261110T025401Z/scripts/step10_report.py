@@ -95,6 +95,5 @@ L.append('- Data in Brief Table 49 (and `Suplementary.xlsx` `Costos_CR`) prints 
 L.append('- Data in Brief section 4.8 needs the editions and tables per technology and the fuel price method (pre-tax import parity, real 2024 USD, WEO 2025 scaling with CPS and NZE as high and low cases).')
 L.append('- MethodsX needs one sentence on the fuel price method.')
 L.append('- The JCLP draft cost indicators (Delta CAPEX, Delta OPEX, accumulated investment) and `Data_v2.xlsx` `5.CR_Costos` need a rerun after the proposals are written.')
-open(os.path.join(JOB, 'REPORT_LAC_COST_SRC_CR_%s.md' % ST), 'w', encoding='utf-8', newline='
-').write('\n'.join(L) + '\n')
+open(os.path.join(JOB, 'REPORT_LAC_COST_SRC_CR_%s.md' % ST), 'w', encoding='utf-8', newline=chr(10)).write('\n'.join(L) + '\n')
 print('\n'.join(L))

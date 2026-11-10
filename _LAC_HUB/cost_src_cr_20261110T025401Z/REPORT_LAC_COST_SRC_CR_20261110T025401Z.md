@@ -2,13 +2,15 @@
 
 Costa Rica energy model: sourced cost proposals for power plants and fuel supply rows. No model file changed.
 
-- Pull request: draft, to be opened
+- Pull request: luviga/clewise-lac#7 (draft), https://github.com/luviga/clewise-lac/pull/7
 - Branch: `job/cost-src-cr`, from `2ddd560`
-- Commit: single commit on top of 2ddd560
+- Commit: ca0c5eb "LAC_COST_SRC_CR: sourced cost proposals for Costa Rica" on top of 2ddd560, followed by one report-only commit "LAC_COST_SRC_CR: report pull request number" (see GAPS, incidents)
 
 ## Gates
 
 - Gate 1 read-only: PASS. 6 files hashed, 6 equal
+- Gate 2 diff scope: PASS. 38 files changed, 0 outside the job folder []
+- Gate 3 tracked types: PASS. 38 tracked files; 0 with other extensions; 0 under downloads/
 - Gate 4 sourcing: PASS. 1560 proposal rows not ASSUMPTION, 0 with a missing source id; 40 sources, 0 with problems []
 - Gate 5 ASSUMPTION rows: PASS. 150 ASSUMPTION rows for ['IMPNGS', 'PWRDSL', 'PWRFOI']; without leads []; sentence problems []
 - Gate 6 coverage: PASS. 10 plants x 3 parameters x 30 years and 9 supply rows x 3 scenarios x 30 years checked; gaps []

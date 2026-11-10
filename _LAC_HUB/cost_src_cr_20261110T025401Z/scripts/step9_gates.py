@@ -18,7 +18,7 @@ rows = []
 for f in b.file:
     rows.append(dict(file=f, sha256=hashlib.sha256(open(os.path.join(ROOT, f), 'rb').read()).hexdigest()))
 a = pd.DataFrame(rows)
-a.to_csv(os.path.join(JOB, 'baseline_after.csv'), index=False)
+a.to_csv(os.path.join(JOB, 'baseline_after.csv'), index=False, lineterminator=chr(10))
 g('Gate 1 read-only', list(a.sha256) == list(b.sha256), '%d files hashed, %d equal' % (len(a), int((a.sha256.values == b.sha256.values).sum())))
 
 # 2, 3 git (post-commit)
@@ -115,5 +115,5 @@ trailer = ('Co-Authored-By' in logb) or ('Generated with' in logb)
 g('Gate 7 hygiene', not emd and not paths and not dc.strip() and not trailer,
   'em dash files %s; machine paths %s; git diff --check output %d chars; trailer lines %s' % (emd, paths[:5], len(dc), trailer))
 txt = '\n'.join(out)
-open(os.path.join(JOB, 'gate_results%s.txt' % ('_post' if POST else '_pre')), 'w', encoding='utf-8').write(txt + '\n')
+open(os.path.join(JOB, 'gate_results%s.txt' % ('_post' if POST else '_pre')), 'w', encoding='utf-8', newline=chr(10)).write(txt + '\n')
 print(txt)
