@@ -1,0 +1,331 @@
+# CHANGES LAC_COST_SRC_ECU 20261110T025435Z
+
+No model file changed: the hashes of the Ecuador A-O workbook and of the BAU CapitalCost, FixedCost, VariableCost, InputActivityRatio and OutputActivityRatio CSVs are identical before and after (baseline_before.csv, baseline_after.csv, gate 1). The pull request adds files inside this job folder only.
+
+## Tracked files (committed)
+
+- `BRIEF_LAC_COST_SRC_ECU.md`: copy of the brief
+- `GAPS_LAC_COST_SRC_ECU_20261110T025435Z.md`: judgement calls, ASSUMPTION rows, large changes, blocked sources, known-limitation candidates
+- `REPORT_LAC_COST_SRC_ECU_20261110T025435Z.md`: report
+- `baseline_after.csv`: the same hashes after the work (gate 1)
+- `baseline_before.csv`: SHA-256 of the Ecuador A-O workbook and five BAU parameter CSVs before the work (Step 1)
+- `constants.csv`: constants used in derivations: CPI, benchmarks, WEO 2025 values, conversion factors
+- `cost_rows_current.csv`: every CapitalCost, FixedCost and VariableCost row of Primary Techs and Secondary Techs with its scope (Step 3)
+- `fuel_prices.csv`: fuel supply price series by row, year and fuel scenario, with case, r, benchmark and WEO series (Step 4)
+- `gate_results.txt`: gate results with counts (Step 9)
+- `mapping_ECU.csv`: mapping of the model plants (hydro by kind, basin and size) to CCG and PLANMICC technologies (country task)
+- `paper_trace.csv`: statements on costs and fuel prices in the CLEWISE papers and what each would need to say (Step 2)
+- `plant_costs.csv`: plant, other-row and import cost proposals with PLANMICC values beside and the 25 percent flag (Steps 5 to 7)
+- `price_points_2024.csv`: every published 2024 price point per supply row beside the chosen one, with the difference in percent (rule F2)
+- `proposals.csv`: the cell-by-cell proposals that LAC_COST_WRITE reads (Step 8)
+- `proposals_summary.csv`: one row per technology and parameter: 2024, 2030 and 2050 current and proposed values and change (Step 8)
+- `scripts/step10_changes.py`: this inventory script
+- `scripts/step3_cost_rows.py`: Step 3 script: current cost rows and section 5 recheck
+- `scripts/step4_fuel_prices.py`: Step 4 script: fuel price series (F1 to F6)
+- `scripts/step5_plant_costs.py`: Steps 5 to 7 script: plant, other-row and import proposals, mapping
+- `scripts/step8_assemble.py`: Step 8 script: proposals, summary, sources, constants, search log
+- `scripts/step9_gates.py`: Step 9 script: gates
+- `search_log.csv`: every lead tried, by row
+- `sources.csv`: every source record: URL, locator, retrieval date, downloaded file
+
+## Downloaded and working files (local only, under downloads/, not committed)
+
+Origin is the source id and URL where the file is a cited source; otherwise the line gives its purpose.
+
+- `downloads/ATB/ATBe_2024_v3.0.0.parquet`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ATB/ATBe_2024_v4.0.0.parquet`: ATB-001: https://oedi-data-lake.s3.amazonaws.com/ATB/electricity/parquet/2024/v4.0.0/ATBe.parquet
+- `downloads/ATB/atb2024_page_approach_and_methodology.html`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ATB/atb2024_page_data.html`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ATB/atb2024_page_definitions.html`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ATB/atb2024_page_index.html`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ATB/oedi_s3_listing_ATB_electricity.xml`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ATB/oedi_submission_5865_is_ATB2023.html`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/BEN/CMO-Historical-Data-Annual.xlsx`: BEN-003: https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Annual.xlsx
+- `downloads/BEN/RBRTEA.htm`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/BEN/RBRTE_A_LeafHandler.htm`: BEN-001: https://www.eia.gov/dnav/pet/hist_xls/RBRTEa.xls
+- `downloads/BEN/RBRTEa.xls`: BEN-001: https://www.eia.gov/dnav/pet/hist_xls/RBRTEa.xls
+- `downloads/BEN/RBRTEm.xls`: BEN-001: https://www.eia.gov/dnav/pet/hist_xls/RBRTEa.xls
+- `downloads/BEN/RNGWHHD_A_LeafHandler.htm`: BEN-002: https://www.eia.gov/dnav/ng/hist_xls/RNGWHHDa.xls
+- `downloads/BEN/RNGWHHDa.xls`: BEN-002: https://www.eia.gov/dnav/ng/hist_xls/RNGWHHDa.xls
+- `downloads/BEN/RNGWHHDm.xls`: BEN-002: https://www.eia.gov/dnav/ng/hist_xls/RNGWHHDa.xls
+- `downloads/BEN/bls_v1_CUUR0000SA0_2016_2025.json`: BEN-004: https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0?startyear=2016&endyear=2025&annualaverage=true
+- `downloads/BEN/bls_v2_CUUR0000SA0_2015_2025.json`: BEN-004: https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0?startyear=2016&endyear=2025&annualaverage=true
+- `downloads/BEN/bls_v2_CUUR0000SA0_2016_2025.json`: BEN-004: https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0?startyear=2016&endyear=2025&annualaverage=true
+- `downloads/BEN/rngwhhdA.htm`: BEN-002: https://www.eia.gov/dnav/ng/hist_xls/RNGWHHDa.xls
+- `downloads/CCG/Allington2022_DiB_108021_PMC8943422.pdf`: CCG-014: https://pmc-oa-opendata.s3.amazonaws.com/PMC8943422.1/PMC8943422.1.pdf
+- `downloads/CCG/Ecuador Base SAND.xlsm`: CCG-002: https://zenodo.org/api/records/5498094/files/Ecuador%20Base%20SAND.xlsm/content
+- `downloads/CCG/PMC8943422.1_s3_metadata.json`: CCG-016: https://pmc-oa-opendata.s3.amazonaws.com/PMC8943422.1/PMC8943422.1.json
+- `downloads/CCG/PMC8943422_fullTextXML.xml`: CCG-015: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8943422/fullTextXML
+- `downloads/CCG/Table1_ECU.csv`: CCG-009: https://zenodo.org/api/records/5498094/files/Table1_ECU.csv/content
+- `downloads/CCG/Table2_ECU.csv`: CCG-003: https://zenodo.org/api/records/5498094/files/Table2_ECU.csv/content
+- `downloads/CCG/Table3_ECU.csv`: CCG-004: https://zenodo.org/api/records/5498094/files/Table3_ECU.csv/content
+- `downloads/CCG/Table4_ECU.csv`: CCG-005: https://zenodo.org/api/records/5498094/files/Table4_ECU.csv/content
+- `downloads/CCG/Table5_ECU.csv`: CCG-006: https://zenodo.org/api/records/5498094/files/Table5_ECU.csv/content
+- `downloads/CCG/Table5_ECU.xlsx`: CCG-007: https://zenodo.org/api/records/5498094/files/Table5_ECU.xlsx/content
+- `downloads/CCG/Table6_ECU.csv`: CCG-008: https://zenodo.org/api/records/5498094/files/Table6_ECU.csv/content
+- `downloads/CCG/Table7_ECU.csv`: CCG-010: https://zenodo.org/api/records/5498094/files/Table7_ECU.csv/content
+- `downloads/CCG/Table8_ECU.csv`: CCG-011: https://zenodo.org/api/records/5498094/files/Table8_ECU.csv/content
+- `downloads/CCG/Table9_ECU.csv`: CCG-012: https://zenodo.org/api/records/5498094/files/Table9_ECU.csv/content
+- `downloads/CCG/europepmc_search_doi.json`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/CCG/resid_cap_ECU.csv`: CCG-013: https://zenodo.org/api/records/5498094/files/resid_cap_ECU.csv/content
+- `downloads/CCG/zenodo_api_record_5498094.json`: CCG-001: https://zenodo.org/api/records/5498094
+- `downloads/CCG/zenodo_api_record_5498094_versions_latest.json`: CCG-017: https://zenodo.org/api/records/5498094/versions/latest
+- `downloads/ECX/ARCONEL_Estadistica_2024.pdf`: ECU-020: https://arconel.gob.ec/wp-content/uploads/downloads/2025/04/Estadistica2024_abr.pdf
+- `downloads/ECX/BEN_2024.pdf`: ECU-021: https://www.ambienteyenergia.gob.ec/wp-content/uploads/2025/09/BEN_24_compressed-comprimido-1.pdf
+- `downloads/ECX/CENACE_Informe_Anual_2024_parte_4755.pdf`: ECX-001: https://www.cenace.gob.ec/wp-content/plugins/download-monitor/download.php?id=4755&force=1 (redirects to https://www.cenace.gob.ec/wp-content/uploads/downloads/2025/04/Informe-Anual-CENACE-2024-vf-89-121.pdf)
+- `downloads/ECX/EPP_EEFF_2024.pdf`: ECU-024: https://www.eppetroecuador.ec/wp-content/uploads/2026/08/EEFF-2024-signed-signed-signed-signed-signed-signed-signed.pdf
+- `downloads/ECX/EPP_Informe_Estadistico_2024.pdf`: ECU-001: https://www.eppetroecuador.ec/wp-content/uploads/downloads/2025/01/INFORME-ESTADISTICO-MENSUAL-DICIEMBRE-2024-Act..pdf
+- `downloads/ECX/EPP_Informe_Estadistico_2025.pdf`: ECX-013: https://www.eppetroecuador.ec/wp-content/plugins/download-monitor/download.php?id=3860 (redirects to https://www.eppetroecuador.ec/wp-content/uploads/downloads/2026/05/INFORME-ESTADISTICO-MENSUAL-DICIEMBRE-2025-1.pdf)
+- `downloads/ECX/EPP_Informe_Estadistico_Anual_2018.pdf`: ECX-007: https://www.eppetroecuador.ec/wp-content/uploads/2024/06/INFORME-ESTADISTICO-2018.pdf
+- `downloads/ECX/EPP_Informe_Estadistico_Anual_2019.pdf`: ECX-008: https://www.eppetroecuador.ec/wp-content/uploads/2024/06/INFORME-ESTADISTICO-ANUAL-2019.pdf
+- `downloads/ECX/EPP_Informe_Estadistico_Anual_2020.pdf`: ECX-009: https://www.eppetroecuador.ec/wp-content/uploads/2024/06/INFORME-ESTADISTICO-ANUAL-2020.pdf
+- `downloads/ECX/EPP_Informe_Estadistico_Anual_2021.pdf`: ECX-010: https://www.eppetroecuador.ec/wp-content/uploads/2024/06/INFORME-ESTADISTICO-ANUAL-2021.pdf
+- `downloads/ECX/EPP_Informe_Estadistico_Anual_2022.pdf`: ECX-011: https://www.eppetroecuador.ec/wp-content/uploads/2024/06/INFORME-ESTADISTICO-ANUAL-2022.pdf
+- `downloads/ECX/EPP_Informe_Estadistico_Anual_2023.pdf`: ECX-012: https://www.eppetroecuador.ec/wp-content/plugins/download-monitor/download.php?id=3682 (redirects to https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/10/INFORME-ESTADISTICO-ANUAL-2023-1.pdf)
+- `downloads/ECX/EPP_RendicionCuentas_2023.pdf`: ECX-004: https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/03/1-Informe-Rendicion-de-Cuentas-2023.pdf
+- `downloads/ECX/MEM_RendicionCuentas_2024_final.pdf`: ECX-002: https://www.ambienteyenergia.gob.ec/wp-content/uploads/2025/07/F02-InformeFinalRendicio%CC%81nCuentas-2024-signed.pdf
+- `downloads/ECX/MEM_RendicionCuentas_2024_preliminar.pdf`: ECX-003: https://www.ambienteyenergia.gob.ec/wp-content/uploads/2025/06/Informe-Preliminar-de-Rendicio%CC%81n-de-Cuentas-2024-5-06-2025.pdf
+- `downloads/ECX/comtrade_ECU_2024_M_other.json`: ECX-014: https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=218&period=2024&partnerCode=0&flowCode=M&cmdCode=2712,271210,271220,271290,2715,3403,271320,2714
+- `downloads/ECX/epp_p3721.html`: ECX-005: https://www.eppetroecuador.ec/?p=3721 (live page) and Wayback captures http://web.archive.org/web/20240714235337id_/https://www.eppetroecuador.ec/?p=3721 ; same pattern for 20241210094929, 20250326174352, 20251205221351
+- `downloads/ECX/lupa_costo_barril.html`: ECX-006: https://lupa.com.ec/verificaciones/costo-produccion-barril-petroleo-yasuni-no-mas-caro-mundo/
+- `downloads/ECX/primicias_cenace_import_price_projection.html`: ECX-015: https://www.primicias.ec/economia/energia-electrica-colombia-colombia-precios-ecuador-estiaje-cenace-129840/
+- `downloads/ECX/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-ABRIL-2024.pdf`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-AGOSTO-2024.pdf`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-DICIEMBRE-2023.pdf`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-DICIEMBRE-2024.pdf`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-ENERO-2024.pdf`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-FEBRERO-2024.pdf`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-JULIO-2024.pdf`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-JUNIO-2024.pdf`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-MARZO-2024.pdf`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-MAYO-2024.pdf`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-NOVIEMBRE-2024.pdf`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-OCTUBRE-2024.pdf`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-SEPTIEMBRE-2024.pdf`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/estructuras/estructuras_parsed_ECU.csv`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/wayback/epp_home_20250105005334.html`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/wayback/epp_home_20250119090201.html`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/wayback/epp_home_20250205090807.html`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/wayback/epp_home_20250210205202.html`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/wayback/epp_home_20250214062040.html`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/wayback/epp_p3721_20240204134022.html`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/wayback/epp_p3721_20240714235337.html`: ECX-005: https://www.eppetroecuador.ec/?p=3721 (live page) and Wayback captures http://web.archive.org/web/20240714235337id_/https://www.eppetroecuador.ec/?p=3721 ; same pattern for 20241210094929, 20250326174352, 20251205221351
+- `downloads/ECX/wayback/epp_p3721_20241210094929.html`: ECX-005: https://www.eppetroecuador.ec/?p=3721 (live page) and Wayback captures http://web.archive.org/web/20240714235337id_/https://www.eppetroecuador.ec/?p=3721 ; same pattern for 20241210094929, 20250326174352, 20251205221351
+- `downloads/ECX/wayback/epp_p3721_20250326174352.html`: ECX-005: https://www.eppetroecuador.ec/?p=3721 (live page) and Wayback captures http://web.archive.org/web/20240714235337id_/https://www.eppetroecuador.ec/?p=3721 ; same pattern for 20241210094929, 20250326174352, 20251205221351
+- `downloads/ECX/wayback/epp_p3721_20250429022349.html`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/wayback/epp_p3721_20250710071046.html`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/wayback/epp_p3721_20250821210510.html`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/ECX/wayback/epp_p3721_20251205221351.html`: ECX-005: https://www.eppetroecuador.ec/?p=3721 (live page) and Wayback captures http://web.archive.org/web/20240714235337id_/https://www.eppetroecuador.ec/?p=3721 ; same pattern for 20241210094929, 20250326174352, 20251205221351
+- `downloads/FUEL/comtrade_ECU_2024_M_270111_271311_by_partner.json`: FUEL-001: https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=218&period=2024&flowCode=M&cmdCode=270111,271311
+- `downloads/IRENA/rpgc2022.pdf`: ATB-003: https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2023/Aug/IRENA_Renewable_power_generation_costs_in_2022.pdf
+- `downloads/IRENA/rpgc2024.pdf`: ATB-002: https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_TEC_RPGC_in_2024_2025.pdf
+- `downloads/LP/ECU/ARCONEL_Estadistica_2024.pdf`: ECU-020: https://arconel.gob.ec/wp-content/uploads/downloads/2025/04/Estadistica2024_abr.pdf
+- `downloads/LP/ECU/ARCONEL_INF-DTRET-2024-043.pdf`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/BCE_ResultCE_042024.pdf`: ECU-023: https://contenido.bce.fin.ec/documentos/Estadisticas/SectorExterno/ComercioExterior/informes/ResultCE_042024.pdf
+- `downloads/LP/ECU/BCE_SerieCifrasPetroleras.xlsx`: ECU-002: https://contenido.bce.fin.ec/documentos/Estadisticas/Hidrocarburos/SerieCifrasPetroleras.xlsx
+- `downloads/LP/ECU/BCE_ebc202412.pdf`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/BCE_ebc202501.pdf`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/BCE_ebc202502.pdf`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/BEN_2024.pdf`: ECU-021: https://www.ambienteyenergia.gob.ec/wp-content/uploads/2025/09/BEN_24_compressed-comprimido-1.pdf
+- `downloads/LP/ECU/CENACE_Informe_Anual_2024.pdf`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/CENACE_Informe_Anual_2024_parte_4755.pdf`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/CENACE_Informe_Anual_2024_parte_4756.pdf`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/EPP_2024.txt`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/EPP_EEFF_2024.pdf`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/EPP_Informe_Estadistico_2023.pdf`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/EPP_Informe_Estadistico_2024.pdf`: ECU-001: https://www.eppetroecuador.ec/wp-content/uploads/downloads/2025/01/INFORME-ESTADISTICO-MENSUAL-DICIEMBRE-2024-Act..pdf
+- `downloads/LP/ECU/EPP_Informe_Estadistico_2025.pdf`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/IPCC_2006_V2_Ch1.pdf`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/RO_529_2024_Decreto215.pdf`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/arc_home.html`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/arconel_pub_estad.html`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/bce_annual_2018_2025.csv`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/ben24_p158.png`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/cenace_biblioteca.html`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/cenace_home.html`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/cenace_infocom.html`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/cenace_infoop.html`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/cenace_simem.html`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/comtrade_ECU_2024_M_4digit.json`: ECU-017: https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=218&period=2024&partnerCode=0&flowCode=M&cmdCode=2701,2713,2709,2710,2711
+- `downloads/LP/ECU/comtrade_ECU_2024_M_6digit.json`: ECU-018: https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=218&period=2024&partnerCode=0&flowCode=M&cmdCode=270111,270112,270119,270120,271311,271312,271320,271390,271012,271019,271111,271112,271113,271119,271121
+- `downloads/LP/ECU/comtrade_ECU_2024_X.json`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/epp24_p47.png`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/epp24_p48.png`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/epp24_p51.png`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/epp24_p53.png`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/epp24_p55.png`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/epp24_p57.png`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/epp24_p59.png`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/epp24_p61.png`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/epp24_p62.png`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/epp24_p63.png`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/epp24_p64.png`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/epp_home.html`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/epp_p3721.html`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/epp_p3763.html`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/epp_p8062.html`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/estructuras_parsed.csv`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/ro_2s589.html`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/ro_home.html`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/ro_page-sitemap.xml`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/ro_post-sitemap.xml`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/ro_segundo-suplemento-no-589-2.html`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/ro_segundo-suplemento-no-589.html`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/ro_sitemap_index.xml`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/ro_suplemento-no-589.html`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/ro_wp-sitemap.xml`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/senae_estadisticas.html`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/structures_2024_means.csv`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-ABRIL-2024.pdf`: ECU-007: https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/04/ESTRUCTURA-DE-PRECIOS-ABRIL-2024.pdf
+- `downloads/LP/ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-AGOSTO-2024.pdf`: ECU-011: https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/08/ESTRUCTURA-DE-PRECIOS-AGOSTO-2024.pdf
+- `downloads/LP/ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-DICIEMBRE-2023.pdf`: ECU-003: https://www.eppetroecuador.ec/wp-content/uploads/downloads/2023/12/ESTRUCTURA-DE-PRECIOS-DICIEMBRE-2023.pdf
+- `downloads/LP/ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-DICIEMBRE-2024.pdf`: ECU-015: https://www.eppetroecuador.ec/wp-content/uploads/2024/12/ESTRUCTURA-DE-PRECIOS-DICIEMBRE-2024.pdf
+- `downloads/LP/ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-ENERO-2024.pdf`: ECU-004: https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/01/ESTRUCTURA-DE-PRECIOS-ENERO-2024.pdf
+- `downloads/LP/ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-FEBRERO-2024.pdf`: ECU-005: https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/02/ESTRUCTURA-DE-PRECIOS-FEBRERO-2024.pdf
+- `downloads/LP/ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-JULIO-2024.pdf`: ECU-010: https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/07/ESTRUCTURA-DE-PRECIOS-JULIO-2024.pdf
+- `downloads/LP/ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-JUNIO-2024.pdf`: ECU-009: https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/06/ESTRUCTURA-DE-PRECIOS-JUNIO-2024.pdf
+- `downloads/LP/ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-MARZO-2024.pdf`: ECU-006: https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/03/ESTRUCTURA-DE-PRECIOS-MARZO-2024.pdf
+- `downloads/LP/ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-MAYO-2024.pdf`: ECU-008: https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/05/ESTRUCTURA-DE-PRECIOS-MAYO-2024.pdf
+- `downloads/LP/ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-NOVIEMBRE-2024.pdf`: ECU-014: https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/11/ESTRUCTURA-DE-PRECIOS-NOVIEMBRE-2024.pdf
+- `downloads/LP/ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-OCTUBRE-2024.pdf`: ECU-013: https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/10/ESTRUCTURA-DE-PRECIOS-OCTUBRE-2024.pdf
+- `downloads/LP/ECU/estructuras/EPP_ESTRUCTURA-DE-PRECIOS-SEPTIEMBRE-2024.pdf`: ECU-012: https://www.eppetroecuador.ec/wp-content/uploads/downloads/2024/09/ESTRUCTURA-DE-PRECIOS-SEPTIEMBRE-2024.pdf
+- `downloads/LP/GEN/IPCC2006_V2_Ch1.pdf`: GEN-002: https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/2_Volume2/V2_1_Ch1_Introduction.pdf
+- `downloads/LP/GEN/NIST_SP811_2008.pdf`: GEN-003: https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication811e2008.pdf
+- `downloads/LP/GEN/UNSD_EnergyYearbook2023_TableI.pdf`: file copied from the LAC_LOCAL_PRICES downloads (reused source or its saved page)
+- `downloads/LP/GEN/UNSD_EnergyYearbook2023_TableII.pdf`: GEN-001: https://unstats.un.org/unsd/energystats/pubs/yearbook/2023/09ii.pdf
+- `downloads/LP/GEN/UNSD_EnergyYearbook2023_units.pdf`: GEN-006: https://unstats.un.org/unsd/energystats/pubs/yearbook/2023/07umc.pdf
+- `downloads/LP/GEN/UN_IRES_2018.pdf`: GEN-008: https://unstats.un.org/unsd/energystats/methodology/documents/IRES-web.pdf
+- `downloads/LP/GEN/eia_faq_45.html`: GEN-005: https://www.eia.gov/tools/faqs/faq.php?id=45&t=8
+- `downloads/PLANMICC/files/A-O_Parametrization_COMPLETED.xlsx`: PMC-009: https://github.com/PLANMICC/OSeMOSYS_Ecuador/blob/7483e67a5a7a733b4a2697a950eda23a27929df7/Energia/t1_confection_CON_TCE/A1_Outputs/A-O_Parametrization_COMPLETED.xlsx
+- `downloads/PLANMICC/files/CapacityToActivityUnit.csv`: PMC-007: https://github.com/PLANMICC/OSeMOSYS_Ecuador/blob/7483e67a5a7a733b4a2697a950eda23a27929df7/Energia/t1_confection_CON_TCE/A2_Output_Params/BAU/CapacityToActivityUnit.csv
+- `downloads/PLANMICC/files/CapitalCost.csv`: PMC-001: https://github.com/PLANMICC/OSeMOSYS_Ecuador/blob/7483e67a5a7a733b4a2697a950eda23a27929df7/Energia/t1_confection_CON_TCE/A2_Output_Params/BAU/CapitalCost.csv
+- `downloads/PLANMICC/files/FixedCost.csv`: PMC-002: https://github.com/PLANMICC/OSeMOSYS_Ecuador/blob/7483e67a5a7a733b4a2697a950eda23a27929df7/Energia/t1_confection_CON_TCE/A2_Output_Params/BAU/FixedCost.csv
+- `downloads/PLANMICC/files/Requerimiento_Datos_Energia_Costos_Ecuador_v6.xlsx`: PMC-008: https://github.com/PLANMICC/OSeMOSYS_Ecuador/blob/7483e67a5a7a733b4a2697a950eda23a27929df7/Energia/Data_inputs/Calibracion%20y%20BAU/Requerimiento_Datos_Energia_Costos_Ecuador_v6.xlsx
+- `downloads/PLANMICC/files/ResidualCapacity.csv`: PMC-004: https://github.com/PLANMICC/OSeMOSYS_Ecuador/blob/7483e67a5a7a733b4a2697a950eda23a27929df7/Energia/t1_confection_CON_TCE/A2_Output_Params/BAU/ResidualCapacity.csv
+- `downloads/PLANMICC/files/TotalTechnologyAnnualActivityLowerLimit.csv`: PMC-006: https://github.com/PLANMICC/OSeMOSYS_Ecuador/blob/7483e67a5a7a733b4a2697a950eda23a27929df7/Energia/t1_confection_CON_TCE/A2_Output_Params/BAU/TotalTechnologyAnnualActivityLowerLimit.csv
+- `downloads/PLANMICC/files/TotalTechnologyAnnualActivityUpperLimit.csv`: PMC-005: https://github.com/PLANMICC/OSeMOSYS_Ecuador/blob/7483e67a5a7a733b4a2697a950eda23a27929df7/Energia/t1_confection_CON_TCE/A2_Output_Params/BAU/TotalTechnologyAnnualActivityUpperLimit.csv
+- `downloads/PLANMICC/files/VariableCost.csv`: PMC-003: https://github.com/PLANMICC/OSeMOSYS_Ecuador/blob/7483e67a5a7a733b4a2697a950eda23a27929df7/Energia/t1_confection_CON_TCE/A2_Output_Params/BAU/VariableCost.csv
+- `downloads/PLANMICC/refs/IDEE_Galapagos_2020.pdf`: PMC-011: https://leap.sei.org/documents/IDEE_Galapagos_2020.pdf
+- `downloads/PLANMICC/refs/WorldEnergyOutlook2022.pdf`: PMC-010: https://iea.blob.core.windows.net/assets/830fe099-5530-48f2-a7c1-11f35d510983/WorldEnergyOutlook2022.pdf
+- `downloads/WEO/WorldEnergyOutlook2025.pdf`: BEN-005: https://www.iea.org/reports/world-energy-outlook-2025
+- `downloads/WEO/weo2023_try/iea.li_weo-data.html`: BEN-006: https://www.iea.org/data-and-statistics/data-product/world-energy-outlook-2025-free-dataset (reached via https://iea.li/weo-data)
+- `downloads/WEO/weo2023_try/www.iea.org_data-and-statistics_data-product_world-energy-outlook-2023-free-dataset-2.html`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/WEO/weo2023_try/www.iea.org_data-and-statistics_data-product_world-energy-outlook-2023-free-dataset.html`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/WEO/weo2023_try/www.iea.org_reports_world-energy-outlook-2023.html`: saved page, lead or cross-check file (see search_log.csv)
+- `downloads/_extract/AGENT_RULES.txt`: working extract or notes of a sub-task
+- `downloads/_extract/atb_values.csv`: working extract or notes of a sub-task
+- `downloads/_extract/ben_benchmarks_annual.csv`: working extract or notes of a sub-task
+- `downloads/_extract/ben_cpi_annual.csv`: working extract or notes of a sub-task
+- `downloads/_extract/ccg_article_tables.csv`: working extract or notes of a sub-task
+- `downloads/_extract/ccg_costs_ECU.csv`: working extract or notes of a sub-task
+- `downloads/_extract/ccg_kit_vs_article_check.csv`: working extract or notes of a sub-task
+- `downloads/_extract/constants_fuel.csv`: working extract or notes of a sub-task
+- `downloads/_extract/constants_plant.csv`: working extract or notes of a sub-task
+- `downloads/_extract/decisions_main.md`: working extract or notes of a sub-task
+- `downloads/_extract/ecx_structures_2024_means.csv`: working extract or notes of a sub-task
+- `downloads/_extract/fuel_summary.csv`: working extract or notes of a sub-task
+- `downloads/_extract/ngs_history_ECU.csv`: working extract or notes of a sub-task
+- `downloads/_extract/notes_atb.md`: working extract or notes of a sub-task
+- `downloads/_extract/notes_ben.md`: working extract or notes of a sub-task
+- `downloads/_extract/notes_ccg.md`: working extract or notes of a sub-task
+- `downloads/_extract/notes_ecx.md`: working extract or notes of a sub-task
+- `downloads/_extract/notes_pap.md`: working extract or notes of a sub-task
+- `downloads/_extract/notes_pmc.md`: working extract or notes of a sub-task
+- `downloads/_extract/paper_trace.csv`: working extract or notes of a sub-task
+- `downloads/_extract/pmc_compiled_costs.csv`: working extract or notes of a sub-task
+- `downloads/_extract/pmc_compiled_vs_workbook_v2.csv`: working extract or notes of a sub-task
+- `downloads/_extract/pmc_workbook_costs.csv`: working extract or notes of a sub-task
+- `downloads/_extract/report_plant_table.md`: working extract or notes of a sub-task
+- `downloads/_extract/search_log_atb.csv`: working extract or notes of a sub-task
+- `downloads/_extract/search_log_ben.csv`: working extract or notes of a sub-task
+- `downloads/_extract/search_log_ccg.csv`: working extract or notes of a sub-task
+- `downloads/_extract/search_log_ecx.csv`: working extract or notes of a sub-task
+- `downloads/_extract/search_log_main_input.csv`: working extract or notes of a sub-task
+- `downloads/_extract/search_log_pmc.csv`: working extract or notes of a sub-task
+- `downloads/_extract/sources_atb.csv`: working extract or notes of a sub-task
+- `downloads/_extract/sources_ben.csv`: working extract or notes of a sub-task
+- `downloads/_extract/sources_ccg.csv`: working extract or notes of a sub-task
+- `downloads/_extract/sources_ecx.csv`: working extract or notes of a sub-task
+- `downloads/_extract/sources_pmc.csv`: working extract or notes of a sub-task
+- `downloads/_extract/step3_check.txt`: working extract or notes of a sub-task
+- `downloads/_extract/weo2025_fuel_prices.csv`: working extract or notes of a sub-task
+- `downloads/_extract/weo2025_p109.png`: working extract or notes of a sub-task
+- `downloads/_extract/ccg_work/article_text.txt`: working extract or notes of a sub-task
+- `downloads/_extract/ccg_work/sheet_Naming.csv`: working extract or notes of a sub-task
+- `downloads/_extract/ccg_work/sheet_Parameters.csv`: working extract or notes of a sub-task
+- `downloads/_extract/ccg_work/sheet_SETS.csv`: working extract or notes of a sub-task
+- `downloads/_extract/ccg_work/sheet_Your_RES.csv`: working extract or notes of a sub-task
+- `downloads/_extract/ccg_work/failed_attempts/epmc_articles_pdf_520.txt`: working extract or notes of a sub-task
+- `downloads/_extract/ccg_work/failed_attempts/epmc_fulltextRepo_403.json`: working extract or notes of a sub-task
+- `downloads/_extract/ccg_work/failed_attempts/pmc_pdf_challenge.html`: working extract or notes of a sub-task
+- `downloads/_extract/ccg_work/failed_attempts/sciencedirect_pdfft_403.html`: working extract or notes of a sub-task
+- `downloads/_extract/pap_dump/CLEWISE_DataInBrief.txt`: working extract or notes of a sub-task
+- `downloads/_extract/pap_dump/CLEWISE_JCLP_draft_v2.txt`: working extract or notes of a sub-task
+- `downloads/_extract/pap_dump/CLEWISE_MethodsX_v02.txt`: working extract or notes of a sub-task
+- `downloads/_extract/pap_dump/Data_v2.txt`: working extract or notes of a sub-task
+- `downloads/_extract/pap_dump/Suplementary.txt`: working extract or notes of a sub-task
+- `downloads/_extract/png_ecx/cenace4755_p16.png`: working extract or notes of a sub-task
+- `downloads/_extract/png_ecx/cenace4755_p17.png`: working extract or notes of a sub-task
+- `downloads/_extract/png_ecx/cenace4755_p19.png`: working extract or notes of a sub-task
+- `downloads/_extract/png_ecx/epp24_p47.png`: working extract or notes of a sub-task
+- `downloads/_extract/png_ecx/epp24_p51.png`: working extract or notes of a sub-task
+- `downloads/_extract/png_ecx/epp25_p55.png`: working extract or notes of a sub-task
+- `downloads/_extract/scripts_atb/chk.py`: helper script of a sub-task
+- `downloads/_extract/scripts_atb/explore.py`: helper script of a sub-task
+- `downloads/_extract/scripts_atb/explore2.py`: helper script of a sub-task
+- `downloads/_extract/scripts_atb/explore3.py`: helper script of a sub-task
+- `downloads/_extract/scripts_atb/explore4.py`: helper script of a sub-task
+- `downloads/_extract/scripts_atb/extract_atb.py`: helper script of a sub-task
+- `downloads/_extract/scripts_atb/pdfgrep.py`: helper script of a sub-task
+- `downloads/_extract/scripts_atb/pdfpages.py`: helper script of a sub-task
+- `downloads/_extract/scripts_atb/pdftoc.py`: helper script of a sub-task
+- `downloads/_extract/scripts_ben/extract_ben.py`: helper script of a sub-task
+- `downloads/_extract/scripts_ccg/compare.py`: helper script of a sub-task
+- `downloads/_extract/scripts_ccg/dump.py`: helper script of a sub-task
+- `downloads/_extract/scripts_ccg/extract_article.py`: helper script of a sub-task
+- `downloads/_extract/scripts_ccg/extract_kit.py`: helper script of a sub-task
+- `downloads/_extract/scripts_ccg/pdftext.py`: helper script of a sub-task
+- `downloads/_extract/scripts_ccg/sheets.py`: helper script of a sub-task
+- `downloads/_extract/scripts_ccg/write_logs.py`: helper script of a sub-task
+- `downloads/_extract/scripts_ccg/xmlcheck.py`: helper script of a sub-task
+- `downloads/_extract/scripts_ecx/derive_ecx.py`: helper script of a sub-task
+- `downloads/_extract/scripts_ecx/gasrows.py`: helper script of a sub-task
+- `downloads/_extract/scripts_ecx/pdfgrep.py`: helper script of a sub-task
+- `downloads/_extract/scripts_ecx/pdfpage.py`: helper script of a sub-task
+- `downloads/_extract/scripts_ecx/pdfrender.py`: helper script of a sub-task
+- `downloads/_extract/scripts_ecx/rowgrab.py`: helper script of a sub-task
+- `downloads/_extract/scripts_ecx/structures_2024.py`: helper script of a sub-task
+- `downloads/_extract/scripts_ecx/write_sources_ecx.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pap/build_trace.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pap/cmp_rows.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pap/costs_check.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pap/dump_docx.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pap/dump_sheet.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pap/dump_xlsx.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pap/rows.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pap/sheet_summary.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/build.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/build_out.txt`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/compare.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/dump_Costos Biomasa.txt`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/dump_Costos Energía.txt`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/dump_Costos Sector Eléctrico.txt`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/dump_Costos Sector Petrolero.txt`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/dump_Costos de transporte crudo.txt`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/dump_v2.txt`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/pagewords.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/par.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/pdfgrep.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/scan.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/scan_v6.txt`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/summ.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/tree.txt`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/wb.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/wb2.py`: helper script of a sub-task
+- `downloads/_extract/scripts_pmc/write_meta.py`: helper script of a sub-task
+- `downloads/paper/CLEWISE_DataInBrief.docx`: read-only copy of a CLEWISE paper file (lead only, never cited)
+- `downloads/paper/CLEWISE_JCLP_draft_v2.docx`: read-only copy of a CLEWISE paper file (lead only, never cited)
+- `downloads/paper/CLEWISE_MethodsX_v02.docx`: read-only copy of a CLEWISE paper file (lead only, never cited)
+- `downloads/paper/Data_v2.xlsx`: read-only copy of a CLEWISE paper file (lead only, never cited)
+- `downloads/paper/Suplementary.xlsx`: read-only copy of a CLEWISE paper file (lead only, never cited)
+- `downloads/PLANMICC/repo/`: shallow partial clone of https://github.com/PLANMICC/OSeMOSYS_Ecuador at 7483e67a5a7a733b4a2697a950eda23a27929df7 (no checkout; single files read with git show)
