@@ -2,7 +2,7 @@
 
 Sourced cost proposals for the Guatemala energy model: fuel supply prices (8 import or wholesale rows plus the crude export row), plant capital, fixed and variable costs for the 15 plants in scope, and the electricity import price. This job changes no model file. `proposals.csv` is the file LAC_COST_WRITE reads.
 
-No model file changed. `baseline_after.csv` equals `baseline_before.csv`: SHA-256 of the Guatemala A-O workbook and of the BAU CapitalCost, FixedCost, VariableCost, InputActivityRatio and OutputActivityRatio CSVs. The commit adds files only inside `_LAC_HUB/cost_src_gua_20261110T025448Z/`.
+No model file changed. `baseline_after.csv` equals `baseline_before.csv`: SHA-256 of the Guatemala A-O workbook and of the BAU CapitalCost, FixedCost, VariableCost, InputActivityRatio and OutputActivityRatio CSVs. The commits add files only inside `_LAC_HUB/cost_src_gua_20261110T025448Z/`.
 
 ## Files created (tracked)
 

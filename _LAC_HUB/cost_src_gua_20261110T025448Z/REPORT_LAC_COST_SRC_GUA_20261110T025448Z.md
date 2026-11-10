@@ -2,9 +2,9 @@
 
 Sourced cost proposals for the Guatemala energy model (`Guatemala/GUA_ENERGY`). This job changes no model file; LAC_COST_WRITE reads `proposals.csv`.
 
-- Pull request: not yet opened (draft)
+- Pull request: https://github.com/luviga/clewise-lac/pull/6 (luviga/clewise-lac#6) (draft)
 - Branch: `job/cost-src-gua`, from `2ddd560`
-- Commit: the single commit on the branch, message "LAC_COST_SRC_GUA: sourced cost proposals for Guatemala". Its hash is stated in the pull request description, since a file cannot hold the hash of its own commit.
+- Commits: `98bc1f68f8e473eb953f312f53bf02b4196dad3c` "LAC_COST_SRC_GUA: sourced cost proposals for Guatemala" (all outputs), and one follow-up commit that removes two trailing-space lines found by `git diff --check` and fills in this report's gate results and pull request number. The follow-up commit's hash is given in the pull request description, since a file cannot hold the hash of its own commit. The brief asks for one commit; see GAPS, Incidents.
 - Stamp: 20261110T025448Z
 
 ## Gates
@@ -12,12 +12,12 @@ Sourced cost proposals for the Guatemala energy model (`Guatemala/GUA_ENERGY`). 
 | Gate | Result |
 |---|---|
 | 1. Read-only | pass: `baseline_after.csv` equals `baseline_before.csv` (6 files, SHA-256) |
-| 2. Diff scope | pending |
-| 3. Tracked file types | pending |
+| 2. Diff scope | pass: `git diff --name-only 2ddd560 HEAD` lists 47 files, all inside `_LAC_HUB/cost_src_gua_20261110T025448Z/` (0 outside) |
+| 3. Tracked file types | pass: 47 tracked files in the job folder, all `.md`, `.csv`, `.py` or `.txt`; 0 under `downloads/` |
 | 4. Sourcing | pass: 2,212 non-ASSUMPTION proposal rows, 0 with a missing or unknown source id; 197 ASSUMPTION rows, 0 citing an unknown id; 112 sources, each with an http(s) URL, a locator, a retrieval date and a file present in `downloads/`, 0 problems; no local path or internal file in any source field |
 | 5. ASSUMPTION rows | pass: 197 rows over 3 technologies (`DIST_NGS`, `IMP_ELE`, `PPPVDS`), each with leads in `search_log.csv`; 3 distinct sentences, 0 failing the word check |
 | 6. Coverage | pass: 15 plants x 3 parameters x 33 years, 9 supply rows x 3 scenarios x 33 years, and `IMP_ELE` x 33 years; 2,409 cells, 0 gaps, 0 duplicate cells |
-| 7. Text and log | pending |
+| 7. Text and log | pass: `git diff --check 2ddd560 HEAD` clean; 0 output files with an em dash; 0 with a machine path outside quoted URLs and the copied brief; `git log -3 --format=%B` has 0 Co-Authored-By and 0 Generated with lines |
 
 Gate script: `scripts/s9_gates.py`; output in `work/gates_output.txt`.
 

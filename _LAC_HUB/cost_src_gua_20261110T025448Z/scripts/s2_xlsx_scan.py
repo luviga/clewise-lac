@@ -7,7 +7,7 @@ for ws in wb.worksheets:
     for r in ws.iter_rows():
         vals=[(c.coordinate,c.value) for c in r if c.value is not None]
         if not vals: continue
-        if n<4: print('  ',vals[:12]); 
+        if n<4: print('  ',vals[:12]);
         n+=1
         s=' '.join(str(v) for _,v in vals)
         if re.search(r'(?i)cost|price|IRENA|IEA|NREL|OLADE|ATB|USD|outlook|Guatemala|GTM|GUA',s) and n>=4:

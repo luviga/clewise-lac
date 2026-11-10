@@ -123,4 +123,9 @@ The three ASSUMPTION sentences sit in `proposals.csv` and pass the gate 5 word c
 - The national-plan sub-task wrote its search log with row numbers instead of model codes. They were mapped to model codes before assembly.
 - The paper text extracts were first written under `work/`. They were moved to `downloads/paper/` (not tracked) so that no draft paper text is committed.
 - Sub-tasks deleted downloads they opened but did not cite: ATB 2020 and 2022, AEO2018, AEO2022, the current EMM assumptions, and the CNEE Compendio 2025 (64 MB). Each is logged in `search_log.csv`.
+- Two commits instead of one.
+  - After the first commit, `git diff --check` flagged trailing whitespace. Python on Windows had written CRLF line endings; they were converted to LF and the commit was amended before the push.
+  - After the push, the check still flagged two lines with real trailing spaces (one script line and one pandas printout).
+  - Amending the pushed commit would have needed a force push, and that history rewrite was refused by the session's permission guard. The fix therefore went into a second commit on the same branch, together with the final gate results and the pull request number in REPORT.
+  - Neither commit carries a Co-Authored-By or "Generated with" line.
 - The first pass of the paper trail was written before the plant results. Its `needed_change` column was regenerated from the final proposals (`scripts/s2b_update_paper_trace.py`).

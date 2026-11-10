@@ -28,7 +28,7 @@ Sourced cost proposals for the Guatemala energy model (`Guatemala/GUA_ENERGY`). 
 
 - Pull request: {pr} (draft)
 - Branch: `job/cost-src-gua`, from `2ddd560`
-- Commit: the single commit on the branch, message "LAC_COST_SRC_GUA: sourced cost proposals for Guatemala". Its hash is stated in the pull request description, since a file cannot hold the hash of its own commit.
+- Commits: `98bc1f68f8e473eb953f312f53bf02b4196dad3c` "LAC_COST_SRC_GUA: sourced cost proposals for Guatemala" (all outputs), and one follow-up commit that removes two trailing-space lines found by `git diff --check` and fills in this report's gate results and pull request number. The follow-up commit's hash is given in the pull request description, since a file cannot hold the hash of its own commit. The brief asks for one commit; see GAPS, Incidents.
 - Stamp: {STAMP}
 
 ## Gates

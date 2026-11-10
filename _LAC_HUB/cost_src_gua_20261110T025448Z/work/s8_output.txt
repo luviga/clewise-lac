@@ -1,5 +1,5 @@
 proposals rows 2409
-change_class      basis_class           
+change_class      basis_class
 fill_empty        observed                   24
                   projected                  75
 fill_placeholder  ASSUMPTION                 32
