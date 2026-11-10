@@ -46,7 +46,7 @@ Brief facts rechecked (Step 3)
 27. Twelve REF_* CapitalCost and FixedCost rows have projection mode EMPTY and no values.
 
 Reporting
-28. REPORT gives the branch and pull request. The commit hash appears in the pull request and on the branch head; a file in a commit cannot carry that commit's own hash.
+28. REPORT gives the branch, the pull request and the first commit hash. A file in a commit cannot carry that commit's own hash, so the second commit's hash is the branch head.
 
 ## 2. ASSUMPTION rows and the leads tried
 
@@ -135,3 +135,4 @@ Checks against Ecuador data:
   - one FRED request hung and was dropped, because BLS data was used instead;
   - one search log had an unquoted URL with commas, which was repaired before merging;
   - some sub-task source records carried local paths or notes in file fields, which were cleaned during assembly.
+- The brief asks for one commit. The first commit (e4c62fa) was pushed and the draft pull request opened. Gate 7 then failed: several files were written with Windows line endings, which git reports as trailing whitespace (the repository stores text as-is). Amending the commit and force-pushing was not permitted in this session, so a second commit fixes the line endings and fills in the pull request number and gate results in REPORT. The branch therefore holds two commits. Squash on merge if one commit is required.

@@ -1,13 +1,22 @@
 # REPORT LAC_COST_SRC_ECU 20261110T025435Z
 
-- Pull request: PR_NUMBER_PLACEHOLDER (draft)
-- Branch: `job/cost-src-ecu`, one commit on top of `2ddd560`. The commit hash is the head of the branch, given in the pull request.
+- Pull request: https://github.com/luviga/clewise-lac/pull/4 (draft, number 4)
+- Branch: `job/cost-src-ecu` on top of `2ddd560`. First commit `e4c62fa` (all outputs). A second commit normalizes line endings and adds the pull request number and gate results here; its hash is the head of the branch (see GAPS, incidents).
 - Job folder: `_LAC_HUB/cost_src_ecu_20261110T025435Z/`
 - No model file changed. All values are in real 2024 USD, and fuel prices are in USD/GJ net (= MUSD/PJ).
 
 ## Gate results
 
-GATES_PLACEHOLDER
+- Gate 1 read-only: 6 files hashed; equal to baseline_before: PASS
+- Gate 2 diff scope: 24 files changed since 2ddd560; outside job folder: 0: PASS
+- Gate 3 tracked types: 24 tracked files; other extensions 0; under downloads/ 0: PASS
+- Gate 4a proposals rows: 6090 (4609 non-ASSUMPTION); source ids not in sources.csv: []; rows without source ids: 0: PASS
+- Gate 4b sources: 80 records; problems: 0 []: PASS
+- Gate 5 ASSUMPTION: 1481 rows, 19 technologies (ADD_GRE, DIST_BGS, DIST_BIM, DIST_CHA, DIST_COA, DIST_COK, DIST_CRU, DIST_DSL, DIST_FIR, DIST_FOI, DIST_GSL, DIST_JET, DIST_KER, DIST_LPG, DIST_NGS, DIST_OID, DIST_OPE, DIST_RDF, IMPELE); without logged leads: []; sentences 26, with forbidden words 0 [], missing Reason/Range 0: PASS
+- Gate 6 coverage: 29 plants x 3 parameters, 13 supply rows x 3 scenarios, IMPELE; 30 year columns 2021-2050; gaps []; duplicate cells 0: PASS
+- Gate 7 hygiene: git diff --check output 0 chars; em dash or machine path hits 0 []; trailer lines in last 3 commits: False: PASS
+
+Gate 7 failed on the first commit (Windows line endings read as trailing whitespace) and passes after the second commit. All gates were run again on the final tree.
 
 ## Fuel supply rows
 

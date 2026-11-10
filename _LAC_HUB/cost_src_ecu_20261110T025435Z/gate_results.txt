@@ -1,8 +1,8 @@
 Gate 1 read-only: 6 files hashed; equal to baseline_before: PASS
-Gate 2 diff scope: run after commit
-Gate 3 tracked types: 0 tracked files; other extensions 0; under downloads/ 0: PASS
+Gate 2 diff scope: 24 files changed since 2ddd560; outside job folder: 0: PASS
+Gate 3 tracked types: 24 tracked files; other extensions 0; under downloads/ 0: PASS
 Gate 4a proposals rows: 6090 (4609 non-ASSUMPTION); source ids not in sources.csv: []; rows without source ids: 0: PASS
 Gate 4b sources: 80 records; problems: 0 []: PASS
 Gate 5 ASSUMPTION: 1481 rows, 19 technologies (ADD_GRE, DIST_BGS, DIST_BIM, DIST_CHA, DIST_COA, DIST_COK, DIST_CRU, DIST_DSL, DIST_FIR, DIST_FOI, DIST_GSL, DIST_JET, DIST_KER, DIST_LPG, DIST_NGS, DIST_OID, DIST_OPE, DIST_RDF, IMPELE); without logged leads: []; sentences 26, with forbidden words 0 [], missing Reason/Range 0: PASS
 Gate 6 coverage: 29 plants x 3 parameters, 13 supply rows x 3 scenarios, IMPELE; 30 year columns 2021-2050; gaps []; duplicate cells 0: PASS
-Gate 7 hygiene: git diff --check output 0 chars; em dash or machine path hits 0 []; trailer lines in last 3 commits: run after commit: PASS
+Gate 7 hygiene: git diff --check output 0 chars; em dash or machine path hits 0 []; trailer lines in last 3 commits: False: PASS

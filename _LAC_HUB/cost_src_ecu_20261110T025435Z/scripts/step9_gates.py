@@ -25,7 +25,7 @@ for f in b.file:
     h = hashlib.sha256(open(os.path.join(repo, f), 'rb').read()).hexdigest()
     rows.append((f, h))
 a = pd.DataFrame(rows, columns=['file', 'sha256'])
-a.to_csv(os.path.join(job, 'baseline_after.csv'), index=False)
+a.to_csv(os.path.join(job, 'baseline_after.csv'), index=False, lineterminator=chr(10))
 eq = (a.sha256.values == b.sha256.values).all()
 say(f'Gate 1 read-only: {len(a)} files hashed; equal to baseline_before: {"PASS" if eq else "FAIL"}')
 
@@ -141,4 +141,4 @@ logtxt = git('log', '-3', '--format=%B') if post else ''
 trail = ('Co-Authored-By' in logtxt) or ('Generated with' in logtxt)
 say(f'Gate 7 hygiene: git diff --check output {len(chk.stdout.strip())} chars; em dash or machine path hits {len(hits)} {hits[:5]}; trailer lines in last 3 commits: {trail if post else "run after commit"}: {"PASS" if not chk.stdout.strip() and not hits and not trail else "FAIL"}')
 
-open(os.path.join(job, 'gate_results.txt'), 'w', encoding='utf-8').write('\n'.join(out) + '\n')
+open(os.path.join(job, 'gate_results.txt'), 'w', encoding='utf-8', newline=chr(10)).write('\n'.join(out) + '\n')
