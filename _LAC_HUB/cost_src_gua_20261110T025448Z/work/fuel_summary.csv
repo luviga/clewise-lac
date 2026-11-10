@@ -1,0 +1,10 @@
+row,chosen_point,value_2024,r,r_case,STEPS_2030,STEPS_2050,CPS_2050,NZE_2050,value_2025,case_2025,STEPS_2026,step_2025_2026_pct_STEPS,step_pct_CPS,step_pct_NZE,benchmark
+DIST_COA,import CIF,5.6536,0.050379,case 1,4.4475,3.1409,3.9024,1.856,4.586,observed,5.0359,9.81,12.45,3.96,coal
+DIST_COK,import CIF,3.1954,0.04819,case 1,3.9071,3.7329,5.2065,1.2279,3.1717,observed,3.8892,22.62,25.15,9.39,brent
+DIST_DSL,wholesale import parity,20.2962,0.258852,case 2,20.9867,20.0513,27.9662,6.5958,17.4382,history from ratio,20.8907,19.8,22.27,6.87,brent
+DIST_FOI,wholesale import parity,14.8098,0.17924,case 2,14.5321,13.8844,19.365,4.5672,12.075,history from ratio,14.4657,19.8,22.27,6.87,brent
+DIST_GSL,wholesale import parity,22.1109,0.282458,case 2,22.9005,21.8798,30.5166,7.1973,19.0284,history from ratio,22.7958,19.8,22.27,6.87,brent
+DIST_KER,final consumer pre-tax,31.2593,0.402498,case 1,32.6329,31.1784,43.4857,10.2561,27.1152,history from ratio,32.4837,19.8,22.27,6.87,brent
+DIST_LPG,wholesale import parity,13.7735,0.189189,case 2,15.3387,14.655,20.4399,4.8207,12.7452,history from ratio,15.2686,19.8,22.27,6.87,brent
+DIST_NGS,generator delivered,8.6256,3.93861,case 3,12.2611,18.0353,19.6035,8.6256,13.5085,history from ratio,9.8374,-27.18,-24.01,-36.67,hh
+EXTT_CRU,export FOB,9.2162,0.130483,case 1,10.5791,10.1075,14.0973,3.3248,8.4709,observed,10.5307,24.32,26.88,10.9,brent

@@ -1,0 +1,84 @@
+# CHANGES LAC_COST_SRC_GUA 20261110T025448Z
+
+Sourced cost proposals for the Guatemala energy model: fuel supply prices (8 import or wholesale rows plus the crude export row), plant capital, fixed and variable costs for the 15 plants in scope, and the electricity import price. This job changes no model file. `proposals.csv` is the file LAC_COST_WRITE reads.
+
+No model file changed. `baseline_after.csv` equals `baseline_before.csv`: SHA-256 of the Guatemala A-O workbook and of the BAU CapitalCost, FixedCost, VariableCost, InputActivityRatio and OutputActivityRatio CSVs. The commit adds files only inside `_LAC_HUB/cost_src_gua_20261110T025448Z/`.
+
+## Files created (tracked)
+
+- `BRIEF_LAC_COST_SRC_GUA.md`: copy of the brief.
+- `REPORT_LAC_COST_SRC_GUA_20261110T025448Z.md`: results, gate counts, fuel and plant tables.
+- `GAPS_LAC_COST_SRC_GUA_20261110T025448Z.md`: judgement calls, ASSUMPTION leads, large changes, blocked sources, known-limitation candidates.
+- `CHANGES_LAC_COST_SRC_GUA_20261110T025448Z.md`: this file.
+- `baseline_before.csv`, `baseline_after.csv`: SHA-256 of the six model files before and after the job.
+- `paper_trace.csv`: 84 statements on costs and fuel prices in the CLEWISE Data in Brief, MethodsX, JCLP draft, Suplementary.xlsx and Data_v2.xlsx, with what each must say if the proposals are applied.
+- `cost_rows_current.csv`: every CapitalCost, FixedCost and VariableCost row of the A-O workbook sheets "Primary Techs" and "Secondary Techs" (101 rows), with scope labels.
+- `fuel_prices.csv`: 891 rows (9 supply rows x 33 years x 3 scenarios), USD/GJ net, real 2024 USD, with case, r, benchmark, WEO series, sources and derivation.
+- `price_points_2024.csv`: every published 2024 price point per supply row, beside the chosen one, with the difference in percent (rule F2).
+- `plant_costs.csv`: 1,518 rows (15 plants x 3 parameters x 33 years, plus 33 `IMP_ELE` rows), with P2 class, sources, derivation and source dollar year.
+- `proposals.csv`: 2,409 cells to write, one per technology, parameter, scenario and year.
+- `proposals_summary.csv`: 73 rows, with 2024, 2030 and 2050 current and proposed values and the change in percent.
+- `sources.csv`: 112 source records (107 cited in proposals). Reused LAC_LOCAL_PRICES ids keep their id and file, copied into `downloads/lp_GUA` and `downloads/lp_GEN`.
+- `constants.csv`: CPI-U 2017 to 2025, benchmark annual values 2018 to 2025, WEO 2025 Table 2.3 values, and conversion constants.
+- `search_log.csv`: 184 leads (fuel, international plant cost and national plan or import searches).
+- `scripts/`: s2 paper trail extraction and update, s3 current cost rows, s4 fuel prices, s5 ATB extraction and plant costs, s8 assembly, s9 gates. Also `s3_bau_2024_check.csv`, the recomputed section 5 values.
+- `work/`: intermediate tables (fuel, international and national sources, values and search logs; ATB paths; fuel summary; gate output; report tables; download list).
+
+## Files downloaded (local only, not tracked; `downloads/`)
+
+Copied from the LAC_LOCAL_PRICES download folder on this machine, reused under the same source ids:
+
+- `downloads/lp_GUA/` (Guatemala: Banguat customs and exchange rates, MEM price structures and other fuel prices, CNEE and MEM plans, AMM and EOR files) and `downloads/lp_GEN/` (UNSD, IPCC, NIST, IRES, EIA FAQ). Origin URLs are in `sources.csv` under the GUA-0xx and GEN-00x ids.
+- `downloads/weo/WorldEnergyOutlook2025.pdf`: IEA World Energy Outlook 2025 (CC BY 4.0), from https://www.iea.org/reports/world-energy-outlook-2025.
+- `downloads/paper/`: read-only copies of the five CLEWISE paper files and their text extracts (paper trail only, never cited).
+
+Downloaded in this job:
+
+- `downloads/bench/CMO-Historical-Data-Annual.xlsx` (FUE-004): https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Annual.xlsx
+- `downloads/bench/NG_MOVE_EXPC_S1_A.xls` (FUE-006): https://www.eia.gov/dnav/ng/xls/NG_MOVE_EXPC_S1_A.xls
+- `downloads/bench/RBRTEa.xls` (FUE-002): https://www.eia.gov/dnav/pet/hist_xls/RBRTEa.xls
+- `downloads/bench/RNGWHHDa.xls` (FUE-003): https://www.eia.gov/dnav/ng/hist_xls/RNGWHHDa.xls
+- `downloads/bench/bls_CUUR0000SA0_2017_2025.json` (FUE-001): https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0000SA0?startyear=2017&endyear=2025&annualaverage=true
+- `downloads/cru/KG-103_2018.xlsx` (FUE-011): https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/hist/pdfs/2018/CG/KG-103_2018.xlsx
+- `downloads/cru/KG-103_2019.xlsx` (FUE-012): https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/hist/pdfs/2019/CG/KG-103_2019.xlsx
+- `downloads/cru/KG-103_2020.xlsx` (FUE-013): https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/hist/pdfs/2020/CG/KG-103_2020.xlsx
+- `downloads/cru/KG-103_2021.xlsx` (FUE-014): https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/hist/pdfs/2021/CG/KG-103_2021.xlsx
+- `downloads/cru/KG-103_2022.xlsx` (FUE-015): https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/hist/pdfs/2022/CG/KG-103_2022.xlsx
+- `downloads/cru/KG-103_2023.xlsx` (FUE-016): https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/hist/pdfs/2023/CG/KG-103_2023.xlsx
+- `downloads/cru/KG-103_2024.xlsx` (FUE-007): https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/hist/pdfs/2024/CG/KG-103_2024.xlsx
+- `downloads/cru/KG-103_2025.xlsx` (FUE-017): https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/hist/pdfs/2025/CG/KG-103_2025.xlsx
+- `downloads/cru/ceie01.htm` (FUE-008): https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/CG/2024/ceie01.htm
+- `downloads/intl/EIA_AEO2019_electricity_assumptions.pdf` (INT-010): https://www.eia.gov/outlooks/archive/aeo19/assumptions/pdf/electricity.pdf
+- `downloads/intl/EIA_AEO2020_electricity_assumptions.pdf` (INT-011): https://www.eia.gov/outlooks/archive/aeo20/assumptions/pdf/electricity.pdf
+- `downloads/intl/EIA_AEO2021_electricity_assumptions.pdf` (INT-012): https://www.eia.gov/outlooks/archive/aeo21/assumptions/pdf/electricity.pdf
+- `downloads/intl/EIA_capital_cost_AEO2020.pdf` (INT-009): https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2020.pdf
+- `downloads/intl/IRENA_RPGC_2022.pdf` (INT-001): https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2023/Aug/IRENA_Renewable_power_generation_costs_in_2022.pdf
+- `downloads/intl/IRENA_RPGC_2024.pdf` (INT-002): https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_TEC_RPGC_in_2024_2025.pdf
+- `downloads/intl/NLR_ATB_2021_index.html` (INT-008): https://atb.nlr.gov/electricity/2021/index
+- `downloads/intl/NLR_ATB_2023_index.html` (INT-006): https://atb.nlr.gov/electricity/2023/index
+- `downloads/intl/NLR_ATB_2024_index.html` (INT-004): https://atb.nlr.gov/electricity/2024/index
+- `downloads/intl/NREL_ATB2021_ATBe.csv` (INT-007): https://oedi-data-lake.s3.amazonaws.com/ATB/electricity/csv/2021/ATBe.csv
+- `downloads/intl/NREL_ATB2023_ATBe.csv` (INT-005): https://oedi-data-lake.s3.amazonaws.com/ATB/electricity/csv/2023/ATBe.csv
+- `downloads/intl/NREL_ATB2024_v4_ATBe.csv` (INT-003): https://oedi-data-lake.s3.amazonaws.com/ATB/electricity/csv/2024/v4.0.0/ATBe.csv
+- `downloads/nat/AMM_INFEST_2024.pdf` (NAT-006): https://www.amm.org.gt/pdfs2/informes/2024/INFEST20240101_01(FINAL_PDF).pdf
+- `downloads/nat/PEGT_2018_2032.pdf` (NAT-005): https://www.cnee.gob.gt/PlanesExpansion/Docs/PlanDeExpansionGeneracionyTransporte2018-2032.pdf
+- `downloads/nat/PEGT_2020_2034.pdf` (NAT-003): https://www.cnee.gob.gt/PlanesExpansion/Docs/PlanExpansionSistemaGeneracionTransporte2020-2034.pdf
+- `downloads/nat/PEG_2020_2050_CNEE.pdf` (NAT-002): https://www.cnee.gob.gt/PlanesExpansion/2020-2050/PlanExpansionGeneracion2020-2050.pdf
+- `downloads/nat/PEG_2022_2052_CNEE.pdf` (NAT-004): https://www.cnee.gob.gt/PlanesExpansion/2022-2052/Plan_de_Expansion_Indicativo_del_Sistema_de_Generacion_%202022%20%E2%80%93%202052.pdf
+- `downloads/nat/amm_rd/analisis-del-mercado-mayorista-agosto-2024.html` (NAT-017): https://rd.amm.org.gt/2024/09/20/analisis-del-mercado-mayorista-agosto-2024/
+- `downloads/nat/amm_rd/analisis-del-mercado-mayorista-julio-2024.html` (NAT-016): https://rd.amm.org.gt/2024/08/23/analisis-del-mercado-mayorista-julio-2024/
+- `downloads/nat/amm_rd/analisis-del-mercado-mayorista-mayo-2024.html` (NAT-014): https://rd.amm.org.gt/2024/06/19/analisis-del-mercado-mayorista-mayo-2024/
+- `downloads/nat/amm_rd/analisis-mm-abril-2024.html` (NAT-013): https://rd.amm.org.gt/2024/05/21/analisis-mm-abril-2024/
+- `downloads/nat/amm_rd/analisis-mm-diciembre-2024.html` (NAT-021): https://rd.amm.org.gt/2025/01/24/analisis-mm-diciembre-2024/
+- `downloads/nat/amm_rd/analisis-mm-enero-2024.html` (NAT-010): https://rd.amm.org.gt/2024/02/22/analisis-mm-enero-2024/
+- `downloads/nat/amm_rd/analisis-mm-febrero-2024.html` (NAT-011): https://rd.amm.org.gt/2024/03/20/analisis-mm-febrero-2024/
+- `downloads/nat/amm_rd/analisis-mm-junio-2024.html` (NAT-015): https://rd.amm.org.gt/2024/07/19/analisis-mm-junio-2024/
+- `downloads/nat/amm_rd/analisis-mm-marzo-2024.html` (NAT-012): https://rd.amm.org.gt/2024/04/18/analisis-mm-marzo-2024/
+- `downloads/nat/amm_rd/analisis-mm-noviembre-2024.html` (NAT-020): https://rd.amm.org.gt/2024/12/19/analisis-mm-noviembre-2024/
+- `downloads/nat/amm_rd/analisis-mm-octubre-2024.html` (NAT-019): https://rd.amm.org.gt/2024/11/22/analisis-mm-octubre-2024/
+- `downloads/nat/amm_rd/analisis-mm-septiembre-2024.html` (NAT-018): https://rd.amm.org.gt/2024/10/18/analisis-mm-septiembre-2024/
+- `downloads/nat/comtrade_GUA_2024_M_2716.json` (NAT-030): https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=320&period=2024&flowCode=M&cmdCode=2716
+- `downloads/nat/comtrade_MEX_2024_X_2716_to320.json` (NAT-031): https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=484&period=2024&partnerCode=320&flowCode=X&cmdCode=2716
+- `downloads/nat/comtrade_ref_QuantityUnits.json` (NAT-032): https://comtradeapi.un.org/files/v1/app/reference/QuantityUnits.json
+- `downloads/weo/WorldEnergyOutlook2025.pdf` (FUE-005): https://www.iea.org/reports/world-energy-outlook-2025
+- `downloads/cru/ceie03.htm`: https://banguat.gob.gt/sites/default/files/banguat/estaeco/ceie/CG/2024/ceie03.htm (consulted for the FOB basis, logged in search_log.csv, not cited)

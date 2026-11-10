@@ -1,0 +1,91 @@
+proposals rows 2409
+change_class      basis_class           
+fill_empty        observed                   24
+                  projected                  75
+fill_placeholder  ASSUMPTION                 32
+                  history from ratio          3
+                  observed                   46
+                  projected                 150
+keep              matched                   543
+replace           ASSUMPTION                165
+                  history from ratio         84
+                  observed                   36
+                  projected                 375
+                  replace                   504
+unit_fix          matched                    66
+upgrade           matched, newer edition    306
+        Tech     Parameter fuel_scenario  current_2024  proposed_2024 change_pct_2024  proposed_2050          change_class
+0   DIST_COA  VariableCost         STEPS        3.4478         5.6536            64.0         3.1409               replace
+1   DIST_COA  VariableCost           CPS        3.4478         5.6536            64.0         3.9024               replace
+2   DIST_COA  VariableCost           NZE        3.4478         5.6536            64.0         1.8560               replace
+3   DIST_COK  VariableCost         STEPS        0.0000         3.1954       new value         3.7329      fill_placeholder
+4   DIST_COK  VariableCost           CPS        0.0000         3.1954       new value         5.2065      fill_placeholder
+5   DIST_COK  VariableCost           NZE        0.0000         3.1954       new value         1.2279      fill_placeholder
+6   DIST_DSL  VariableCost         STEPS       20.4935        20.2962            -1.0        20.0513               replace
+7   DIST_DSL  VariableCost           CPS       20.4935        20.2962            -1.0        27.9662               replace
+8   DIST_DSL  VariableCost           NZE       20.4935        20.2962            -1.0         6.5958               replace
+9   DIST_FOI  VariableCost         STEPS       13.8373        14.8098             7.0        13.8844               replace
+10  DIST_FOI  VariableCost           CPS       13.8373        14.8098             7.0        19.3650               replace
+11  DIST_FOI  VariableCost           NZE       13.8373        14.8098             7.0         4.5672               replace
+12  DIST_GSL  VariableCost         STEPS       25.0577        22.1109           -11.8        21.8798               replace
+13  DIST_GSL  VariableCost           CPS       25.0577        22.1109           -11.8        30.5166               replace
+14  DIST_GSL  VariableCost           NZE       25.0577        22.1109           -11.8         7.1973               replace
+15  DIST_KER  VariableCost         STEPS        0.0000        31.2593       new value        31.1784      fill_placeholder
+16  DIST_KER  VariableCost           CPS        0.0000        31.2593       new value        43.4857      fill_placeholder
+17  DIST_KER  VariableCost           NZE        0.0000        31.2593       new value        10.2561      fill_placeholder
+18  DIST_LPG  VariableCost         STEPS       29.4676        13.7735           -53.3        14.6550               replace
+19  DIST_LPG  VariableCost           CPS       29.4676        13.7735           -53.3        20.4399               replace
+20  DIST_LPG  VariableCost           NZE       29.4676        13.7735           -53.3         4.8207               replace
+21  DIST_NGS  VariableCost         STEPS       10.2397         8.6256           -15.8        18.0353               replace
+22  DIST_NGS  VariableCost           CPS       10.2397         8.6256           -15.8        19.6035               replace
+23  DIST_NGS  VariableCost           NZE       10.2397         8.6256           -15.8         8.6256               replace
+24  EXTT_CRU  VariableCost         STEPS           NaN         9.2162       new value        10.1075            fill_empty
+25  EXTT_CRU  VariableCost           CPS           NaN         9.2162       new value        14.0973            fill_empty
+26  EXTT_CRU  VariableCost           NZE           NaN         9.2162       new value         3.3248            fill_empty
+27     PPBGS   CapitalCost           ALL     5000.0000      2600.0000           -48.0      2600.0000               upgrade
+28     PPBGS     FixedCost           ALL        7.1100         7.1100             0.0         7.1100                  keep
+29     PPBGS  VariableCost           ALL        0.0050         1.3889         27677.8         1.3889              unit_fix
+30     PPBIM   CapitalCost           ALL     1929.0000      1929.0000             0.0      1929.0000                  keep
+31     PPBIM     FixedCost           ALL       77.1600        77.1600             0.0        77.1600                  keep
+32     PPBIM  VariableCost           ALL        0.0096         1.1111         11474.1         1.1111               replace
+33     PPCOA   CapitalCost           ALL     2562.0000      2100.0000           -18.0      2100.0000               replace
+34     PPCOA     FixedCost           ALL       61.4000        31.6000           -48.5        31.6000               replace
+35     PPCOA  VariableCost           ALL        0.0064         1.6667         25941.7         1.6667               replace
+36     PPDSL   CapitalCost           ALL      448.0000      1400.0000           212.5      1400.0000               replace
+37     PPDSL     FixedCost           ALL       31.6000        20.0000           -36.7        20.0000               replace
+38     PPDSL  VariableCost           ALL        0.0060         1.3889         23048.2         1.3889               replace
+39     PPFOI   CapitalCost           ALL     1908.0000      1400.0000           -26.6      1400.0000               replace
+40     PPFOI     FixedCost           ALL       35.1600        35.1600             0.0        35.1600                  keep
+41     PPFOI  VariableCost           ALL        0.0057         1.5806         27629.1         1.5806              unit_fix
+42     PPGEO   CapitalCost           ALL     3900.0000      4015.0000             2.9      4015.0000               replace
+43     PPGEO     FixedCost           ALL      150.6000       150.6000             0.0       150.6000                  keep
+44     PPGEO  VariableCost           ALL        0.0000         1.3889       new value         1.3889               replace
+45    PPHDAM   CapitalCost           ALL     2619.0000      3500.0000            33.6      3500.0000               upgrade
+46    PPHDAM     FixedCost           ALL       33.5400        50.0000            49.1        50.0000               replace
+47    PPHDAM  VariableCost           ALL           NaN         0.0000             0.0         0.0000                  keep
+48    PPHROR   CapitalCost           ALL     1870.0000      3444.0000            84.2      3444.0000               replace
+49    PPHROR     FixedCost           ALL       54.0000        34.0000           -37.0        34.0000               upgrade
+50    PPHROR  VariableCost           ALL           NaN         0.0000             0.0         0.0000                  keep
+51     PPNGS   CapitalCost           ALL     1156.0000      1000.0000           -13.5      1100.0000               replace
+52     PPNGS     FixedCost           ALL       12.1200        12.1200             0.0        12.1200                  keep
+53     PPNGS  VariableCost           ALL        0.0045         1.3889         30764.2         1.3889               replace
+54     PPPVT   CapitalCost           ALL      949.0000      1375.0000            44.9      1375.0000               replace
+55     PPPVT     FixedCost           ALL       20.2300        20.2300             0.0        20.2300                  keep
+56     PPPVT  VariableCost           ALL        0.0000         0.0000             0.0         0.0000                  keep
+57   PPWNDON   CapitalCost           ALL     1518.0000      1600.0000             5.4      1600.0000               upgrade
+58   PPWNDON     FixedCost           ALL       28.0800        28.0800             0.0        28.0800                  keep
+59   PPWNDON  VariableCost           ALL        0.0000         0.0000             0.0         0.0000                  keep
+60    PPPVT2   CapitalCost           ALL     1289.5074      1551.2727            20.3       682.8964  keep;replace;upgrade
+61    PPPVT2     FixedCost           ALL       20.9883        21.6089             3.0        12.7638  keep;replace;upgrade
+62    PPPVTS   CapitalCost           ALL     2130.0824      2456.0613            15.3      1153.9136          keep;upgrade
+63    PPPVTS     FixedCost           ALL       58.6354        61.4677             4.8        46.7440          keep;upgrade
+64     PPPVD   CapitalCost           ALL     1789.6163      1794.7388             0.3       929.2122  keep;replace;upgrade
+65     PPPVD     FixedCost           ALL       18.0806        18.3870             1.7        11.1240  keep;replace;upgrade
+66    PPPVDS   CapitalCost           ALL     2959.4462      2841.5304            -4.0      1570.1221               replace
+67    PPPVDS     FixedCost           ALL       33.9440        52.3029            54.1        40.7388               replace
+68    PPPVT2  VariableCost           ALL        0.0000         0.0000             0.0         0.0000                  keep
+69    PPPVTS  VariableCost           ALL        0.0000         0.0000             0.0         0.0000                  keep
+70     PPPVD  VariableCost           ALL        0.0000         0.0000             0.0         0.0000                  keep
+71    PPPVDS  VariableCost           ALL        0.0000         0.0000             0.0         0.0000                  keep
+72   IMP_ELE  VariableCost           ALL        0.0000        17.2278       new value        17.2278      fill_placeholder
+sources 112 cited 107 missing ids []
