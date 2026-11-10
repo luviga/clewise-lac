@@ -1,0 +1,3 @@
+{
+ "GAS": "ASSUMPTION: natural gas prices published per MMBtu are on a gross calorific basis and are converted to the models' net basis by dividing by 0.9 (net = 0.9 x gross for natural gas, UN Statistics Division), for all six countries and all years. Reason: natural gas in the Americas, Henry Hub included, is priced on a gross basis, and the energy balances behind the models follow the UN recommendation to use net values (IRES, UN 2018). Check: EIA reports US natural gas at 1,037 Btu per cubic foot, a gross value. Range: a source already on a net basis would be overstated by about 11 percent."
+}

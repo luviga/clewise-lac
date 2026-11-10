@@ -1,0 +1,10 @@
+GATE 1 read-only: PASS (6 files, hashes equal)
+GATE 4a proposal rows with basis other than ASSUMPTION citing only ids in sources.csv: 1990 of 1990 (PASS)
+GATE 4b sources: 81 sources; 81 pass every check (http(s) URL, locator, retrieval date, file in downloads/, no local path or internal file); problems: none (PASS)
+GATE 5 ASSUMPTION rows: 4 rows over 1 technologies (IMP_ELE); without logged leads: none; sentences failing the rule: none (PASS)
+GATE 5b rows carrying an assumption sentence: 103 (ASSUMPTION rows plus the natural gas sentence on every DIST_NGS row); failing the wording rule: none
+GATE 6 coverage: 12 plants x 3 parameters x 33 years (2018 to 2050); 8 supply rows x 3 scenarios x 33 years; IMP_ELE VariableCost and FixedCost for the 7 years with a positive activity lower limit (2018 to 2024); gaps: none; duplicate keys: 0 (PASS)
+GATE 7a files: em dash or machine path in output files (the copied brief excepted): none (PASS)
+GATE 2 diff scope: git diff --name-only 2ddd560 HEAD lists 39 files; outside the job folder: 0 (PASS)
+GATE 3 tracked file types: 39 tracked; other than md, csv, py, txt: 0; under downloads/: 0 (PASS)
+GATE 7b git log -3 --format=%B lines with Co-Authored-By or Generated with: 0 (PASS); git diff --check: clean after line ending normalisation (PASS)

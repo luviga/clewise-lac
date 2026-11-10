@@ -1,0 +1,47 @@
+Tech,Parameter,unit,scenario_shown,current_2024,proposed_2024,change_pct_2024,current_2030,proposed_2030,change_pct_2030,current_2050,proposed_2050,change_pct_2050,proposed_2050_CPS,proposed_2050_NZE,change_classes,basis_classes
+DIST_COA,VariableCost,MUSD/PJ (USD/GJ),STEPS,3.4478,5.194,50.6,3.86,4.1951,8.7,5.6245,2.9627,-47.3,3.6809,1.7507,replace,history from ratio;observed;projected
+DIST_COK,VariableCost,MUSD/PJ (USD/GJ),STEPS,4.9212,2.509,-49.0,5.5095,2.4151,-56.2,8.028,1.7056,-78.8,2.1191,1.0079,replace,observed;projected
+DIST_DSL,VariableCost,MUSD/PJ (USD/GJ),STEPS,26.4773,18.825,-28.9,29.6428,19.6981,-33.5,43.1917,18.8201,-56.4,26.2491,6.1908,replace,history from ratio;observed;projected
+DIST_FOI,VariableCost,MUSD/PJ (USD/GJ),STEPS,15.0642,12.51,-17.0,16.8652,12.1847,-27.8,24.5739,11.6416,-52.6,16.2369,3.8295,replace,history from ratio;observed;projected
+DIST_GSL,VariableCost,MUSD/PJ (USD/GJ),STEPS,26.8777,21.562,-19.8,30.0911,22.6639,-24.7,43.8448,21.6537,-50.6,30.2013,7.1229,replace,history from ratio;observed;projected
+DIST_KER,VariableCost,MUSD/PJ (USD/GJ),STEPS,26.4925,20.206,-23.7,29.6598,20.698,-30.2,43.2167,19.7755,-54.2,27.5816,6.5051,replace,history from ratio;observed;projected
+DIST_LPG,VariableCost,MUSD/PJ (USD/GJ),STEPS,17.8958,11.748,-34.4,20.0354,12.7903,-36.2,29.1929,12.2202,-58.1,17.044,4.0198,replace,history from ratio;observed;projected
+DIST_NGS,VariableCost,MUSD/PJ (USD/GJ),STEPS,10.2397,6.1278,-40.2,11.4641,8.7106,-24.0,16.7044,12.8126,-23.3,13.9268,6.1278,replace,history from ratio;observed;projected
+PPBIM,CapitalCost,MUSD/GW (USD/kW),ALL,4851.0,2012.8163,-58.5,4489.0,1862.5742,-58.5,3871.0,1606.0448,-58.5,,,replace,replace
+PPBIM,FixedCost,MUSD/GW per year (USD/kW-yr),ALL,157.0,163.666,4.2,157.0,163.666,4.2,157.0,163.666,4.2,,,replace,replace
+PPBIM,VariableCost,MUSD/PJ (USD/GJ),ALL,0.08,1.3889,1636.1,0.08,1.3889,1636.1,0.08,1.3889,1636.1,,,replace,replace
+PPCOK,CapitalCost,MUSD/GW (USD/kW),ALL,4769.52,4769.52,0.0,4769.52,4769.52,0.0,4769.52,4769.52,0.0,,,keep,matched
+PPCOK,FixedCost,MUSD/GW per year (USD/kW-yr),ALL,45.68,45.68,0.0,45.68,45.68,0.0,45.68,45.68,0.0,,,keep,matched
+PPCOK,VariableCost,MUSD/PJ (USD/GJ),ALL,1.4056,1.4056,0.0,1.4056,1.4056,0.0,1.4056,1.4056,0.0,,,keep,matched
+PPFOI,CapitalCost,MUSD/GW (USD/kW),ALL,984.08,1269.2,29.0,984.08,1269.2,29.0,984.08,1269.2,29.0,,,keep;upgrade,"matched;matched, newer edition"
+PPFOI,FixedCost,MUSD/GW per year (USD/kW-yr),ALL,39.57,14.0,-64.6,39.57,14.0,-64.6,39.57,14.0,-64.6,,,keep;upgrade,"matched;matched, newer edition"
+PPFOI,VariableCost,MUSD/PJ (USD/GJ),ALL,1.7778,1.9444,9.4,1.7778,1.9444,9.4,1.7778,1.9444,9.4,,,keep;upgrade,"matched;matched, newer edition"
+PPGEO,CapitalCost,MUSD/GW (USD/kW),ALL,5900.0,6179.24,4.7,5900.0,6179.24,4.7,5900.0,6179.24,4.7,,,keep;upgrade,"matched;matched, newer edition"
+PPGEO,FixedCost,MUSD/GW per year (USD/kW-yr),ALL,153.98,160.66,4.3,153.98,160.66,4.3,153.98,160.66,4.3,,,keep;upgrade,"matched;matched, newer edition"
+PPGEO,VariableCost,MUSD/PJ (USD/GJ),ALL,0.3639,0.4167,14.5,0.3639,0.4167,14.5,0.3639,0.4167,14.5,,,keep;upgrade,"matched;matched, newer edition"
+PPGTDSL,CapitalCost,MUSD/GW (USD/kW),ALL,1204.83,1437.59,19.3,1204.83,1437.59,19.3,1204.83,1437.59,19.3,,,keep;upgrade,"matched;matched, newer edition"
+PPGTDSL,FixedCost,MUSD/GW per year (USD/kW-yr),ALL,13.73,16.0,16.5,13.73,16.0,16.5,13.73,16.0,16.5,,,keep;upgrade,"matched;matched, newer edition"
+PPGTDSL,VariableCost,MUSD/PJ (USD/GJ),ALL,0.5833,0.9722,66.7,0.5833,0.9722,66.7,0.5833,0.9722,66.7,,,keep;upgrade,"matched;matched, newer edition"
+PPGTGLP,CapitalCost,MUSD/GW (USD/kW),ALL,1204.83,1437.59,19.3,1204.83,1437.59,19.3,1204.83,1437.59,19.3,,,keep;upgrade,"matched;matched, newer edition"
+PPGTGLP,FixedCost,MUSD/GW per year (USD/kW-yr),ALL,18.35,20.0,9.0,18.35,20.0,9.0,18.35,20.0,9.0,,,keep;upgrade,"matched;matched, newer edition"
+PPGTGLP,VariableCost,MUSD/PJ (USD/GJ),ALL,1.4694,1.6667,13.4,1.4694,1.6667,13.4,1.4694,1.6667,13.4,,,keep;upgrade,"matched;matched, newer edition"
+PPHDAM,CapitalCost,MUSD/GW (USD/kW),ALL,3576.0,5100.0,42.6,3576.0,5100.0,42.6,3576.0,5100.0,42.6,,,keep;upgrade,"matched;matched, newer edition"
+PPHDAM,FixedCost,MUSD/GW per year (USD/kW-yr),ALL,47.06,37.93,-19.4,47.06,37.93,-19.4,47.06,37.93,-19.4,,,keep;upgrade,"matched;matched, newer edition"
+PPHDAM,VariableCost,MUSD/PJ (USD/GJ),ALL,,0.0,,,0.0,,,0.0,,,,fill_empty,matched
+PPHROR,CapitalCost,MUSD/GW (USD/kW),ALL,2000.0,3786.5,89.3,2000.0,3786.5,89.3,2000.0,3786.5,89.3,,,keep;upgrade,"matched;matched, newer edition"
+PPHROR,FixedCost,MUSD/GW per year (USD/kW-yr),ALL,47.06,40.0,-15.0,47.06,40.0,-15.0,47.06,40.0,-15.0,,,keep;upgrade,"matched;matched, newer edition"
+PPHROR,VariableCost,MUSD/PJ (USD/GJ),ALL,,0.0,,,0.0,,,0.0,,,,fill_empty,matched
+PPICEDSL,CapitalCost,MUSD/GW (USD/kW),ALL,966.72,1269.2,31.3,966.72,1269.2,31.3,966.72,1269.2,31.3,,,keep;upgrade,"matched;matched, newer edition"
+PPICEDSL,FixedCost,MUSD/GW per year (USD/kW-yr),ALL,39.57,14.0,-64.6,39.57,14.0,-64.6,39.57,14.0,-64.6,,,keep;upgrade,"matched;matched, newer edition"
+PPICEDSL,VariableCost,MUSD/PJ (USD/GJ),ALL,1.7778,1.3889,-21.9,1.7778,1.3889,-21.9,1.7778,1.3889,-21.9,,,keep;upgrade,"matched;matched, newer edition"
+PPPVD,CapitalCost,MUSD/GW (USD/kW),ALL,871.8,1138.48,30.6,871.8,861.7124,-1.2,871.8,461.7548,-47.0,,,keep;upgrade,"matched;matched, newer edition"
+PPPVD,FixedCost,MUSD/GW per year (USD/kW-yr),ALL,22.7355,29.5317,29.9,13.4289,24.55,82.8,11.4049,15.3642,34.7,,,replace,replace
+PPPVD,VariableCost,MUSD/PJ (USD/GJ),ALL,0.0,0.0,,0.0,0.0,,0.0,0.0,,,,keep,matched
+PPPVT,CapitalCost,MUSD/GW (USD/kW),ALL,1139.23,1434.72,25.9,892.37,1072.0183,20.1,760.78,645.8876,-15.1,,,keep;upgrade,"matched;matched, newer edition"
+PPPVT,FixedCost,MUSD/GW per year (USD/kW-yr),ALL,25.36,40.31,59.0,24.88,35.8341,44.0,24.0,30.6543,27.7,,,keep;upgrade,"matched;matched, newer edition"
+PPPVT,VariableCost,MUSD/PJ (USD/GJ),ALL,0.0,0.0,,0.0,0.0,,0.0,0.0,,,,keep,matched
+PPWNDON,CapitalCost,MUSD/GW (USD/kW),ALL,1597.7,1868.76,17.0,1441.99,1549.613,7.5,1320.81,1200.8255,-9.1,,,keep;upgrade,"matched;matched, newer edition"
+PPWNDON,FixedCost,MUSD/GW per year (USD/kW-yr),ALL,36.27,41.14,13.4,35.76,38.0404,6.4,34.88,32.8275,-5.9,,,keep;upgrade,"matched;matched, newer edition"
+PPWNDON,VariableCost,MUSD/PJ (USD/GJ),ALL,0.0,0.0,,0.0,0.0,,0.0,0.0,,,,keep,matched
+IMP_ELE,VariableCost,MUSD/PJ (USD/GJ),ALL,559.8,31.8216,-94.3,,,,,,,,,replace,ASSUMPTION;observed
+IMP_ELE,FixedCost,MUSD/GW per year (USD/kW-yr),ALL,559.8,0.0,-100.0,,,,,,,,,replace,replace

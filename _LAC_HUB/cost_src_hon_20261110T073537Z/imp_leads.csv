@@ -1,0 +1,10 @@
+lead,url_or_query,result
+EOR home page and annual market information,https://www.enteoperador.org/,"Found; no annual Honduras import price"
+EOR transaction reports (daily monthly annual),https://www.enteoperador.org/mer/gestion-comercial/informes-de-transaccion-diario-mensual-y-anual/,"File manager lists daily statistical zips 2013 to 2021 only; no annual price for Honduras"
+EOR Estadisticas comerciales del MER 1T2025,https://www.enteoperador.org/ (post 2025-05-06),"Video only; no data"
+EOR Memoria de Labores 2025,https://www.enteoperador.org/ (memoria page),"Downloaded; no Honduras import price; 2022-2023 memoria only as a flipbook"
+CRIE market monitoring reports 2018 to 2024,https://crie.org.gt/mer/vigilancia-de-mercado/,"Annual reports downloaded; the 2024 statistical report gives MER withdrawals by Honduras (Tabla 6 page 17: 158.80 GWh in 2024, 381.34 in 2018) and nodal prices (Figura 20 page 33, about 166 to 168 USD/MWh at Honduras nodes), not the price Honduras paid"
+ODS annual market operation report page,https://cnd.enee.hn/ (informe anual operacion del mercado),"Page shell, no documents linked"
+CREE quarterly tariff adjustment reports (Informe de Ajuste Tarifario),https://www.cree.gob.hn/wp-json/wp/v2/media?search=Ajuste-Tarifario,"Found: Tabla 'Costos reales de generacion' gives monthly MER rows (GWh, capacity USD, energy USD, total USD) under Contratos and Oportunidad; complete for 2022, 2023 and 2024 and for December 2021"
+CREE reports for 2018 to 2021,https://www.cree.gob.hn/wp-json/wp/v2/media?search=Informe-de-Ajuste,"2021 quarterly reports exist (not parsed); none found for 2018 to 2020; page 2 of the media search returned HTTP 400"
+Web search for a published annual Honduras import price,"queries: EOR informe anual 2024 Honduras importaciones precio; CRIE informe anual monto USD Honduras; ENEE boletin estadistico 2024 compra de energia importacion","Press items only; not used"
