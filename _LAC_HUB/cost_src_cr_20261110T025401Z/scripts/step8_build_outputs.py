@@ -51,7 +51,7 @@ for _, f in fuel.iterrows():
                      derivation='%s; r case %s; %s' % (f.derivation, f.r_case, f.r_method),
                      assumption_sentence=(NGS + ' ' + F5) if f.row == 'IMPNGS' else ''))
 # plant rows
-CC = {'matched': 'keep', 'matched, newer edition': 'upgrade', 'replace': 'replace', 'ASSUMPTION': 'replace'}
+CC = {'matched': 'keep', 'matched, newer edition': 'upgrade', 'replace': 'replace', 'ASSUMPTION': 'replace', 'observed': 'replace'}
 for _, p in plant.iterrows():
     y = str(p.year)
     cv, sheet, tid = curval(p.technology, p.parameter, y)

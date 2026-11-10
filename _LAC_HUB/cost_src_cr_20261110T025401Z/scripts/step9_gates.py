@@ -87,7 +87,10 @@ for t in supply:
         ys = set(prop[(prop.Tech == t) & (prop.Parameter == 'VariableCost') & (prop.fuel_scenario == s)].year)
         if ys != set(range(2021, 2051)):
             gaps.append('%s %s %d years' % (t, s, len(ys)))
-g('Gate 6 coverage', not gaps, '%d plants x 3 parameters x 30 years and %d supply rows x 3 scenarios x 30 years checked; gaps %s' % (len(plants), len(supply), gaps[:6]))
+ys = set(prop[(prop.Tech == 'IMPELE') & (prop.Parameter == 'VariableCost')].year)
+if ys != set(range(2021, 2051)):
+    gaps.append('IMPELE %d years' % len(ys))
+g('Gate 6 coverage', not gaps, '%d plants x 3 parameters x 30 years and %d supply rows x 3 scenarios x 30 years and IMPELE x 30 years checked; gaps %s' % (len(plants), len(supply), gaps[:6]))
 
 # 7 hygiene
 emd, paths = [], []

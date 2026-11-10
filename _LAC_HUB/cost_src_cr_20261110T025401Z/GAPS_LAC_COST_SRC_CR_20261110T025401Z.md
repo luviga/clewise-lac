@@ -33,12 +33,18 @@ Plant rows
 16. `PWRDSL` FixedCost keeps the workbook's path shape (ATB NG 2-on-1 Combined Cycle F-Frame 95% CCS), the least change, although that shape does not describe engines.
 17. `PWRFOI` and `PWRDSL` both use the ICE medium-speed engine candidate (MMV), the only engine cost in the plan. The ICE plan lists the MMV fuel as bunker.
 
+Electricity imports (added after the first push, on Luis's instruction of 10 November 2026)
+
+20. The brief said Costa Rica has no electricity import technology and that Step 6 should be skipped. `IMPELE` exists with a positive activity upper limit (2.245 to 3.846 PJ) and no cost, so it was priced under rule E1.
+21. Price point: ICE DOCSE Informe Anual 2024, page 17, total cost of 2024 regional market imports divided by energy: 206.06 USD/MWh (57.239 USD/GJ). It includes the CMORC transmission charge paid on contract imports (20.63 MUSD), because that is part of the delivered cost. Without CMORC the price is 149.35 USD/MWh.
+22. Years other than 2024 hold the 2024 value flat, as an ASSUMPTION. ARESEP's 2025 tariff resolution quotes an ICE projection of 152.66 USD/MWh for 2025 only. It is a one-year tariff estimate, not a multi-year projection, so it is used as the check and not applied. Earlier ICE annual reports (2021 to 2023) were not retrieved for observed history years.
+
 Country task
 
 18. The brief's premise of "0.675 PJ a year" holds for 2021 only. From 2022, `E5INDCOA` is 0.00667 PJ and `E5INDCOK` is 3.713 PJ, both equal to the 2022 balance. Moving the 2021 0.675 PJ into petroleum coke would put 2021 coke 18 percent above customs, so I propose setting 2021 coal to 0.00667 PJ and keeping coke unchanged. The literal move is recorded as an alternative row in `structure_proposals.csv`.
 19. The balance's own implied coke factor (3,713.16 TJ / 138.6 kt = 26.79 GJ/t) is lower than IPCC's 32.5 GJ/t. With it, 2021 coke imports give 3.331 PJ against the workbook's 4.091 PJ. Under either factor, the 0.675 PJ of coal is not supported.
 
-## 2. ASSUMPTION rows (150)
+## 2. ASSUMPTION rows (179)
 
 - `IMPNGS` VariableCost, 90 rows (3 scenarios x 30 years). Sentences: the 2024 price ASSUMPTION plus the F5 gross-to-net ASSUMPTION. Leads tried:
   - PROCOMER HS 271111 and 271121 (no LNG in 2024; 3 kg of gaseous natural gas);
@@ -47,6 +53,13 @@ Country task
   - the Honduras system operator plan (Henry Hub based delivered LNG, used as the check).
 - `PWRDSL` VariableCost, 30 rows, value unchanged at 1.3056 USD/GJ (4.70 USD/MWh). Leads tried: ICE PEG 2020-2035 (fixed O&M only), IRENA 2022 and 2024 (no engines), WEO 2023 and 2025 (no engines), NREL ATB 2024 (no engines). Check: EIA AEO2023 Table 1, internal combustion engine variable O&M 6.40 USD/MWh (2022 USD).
 - `PWRFOI` VariableCost, 30 rows, same as `PWRDSL`.
+- `IMPELE` VariableCost, 29 rows (every year except the observed 2024), held at 206.06 USD/MWh. Leads tried:
+  - a web search for the 2024 regional market import price;
+  - CEPAL SICA electricity statistics 2024 (spot prices for other countries only; exchanges in MWh);
+  - the EOR transaction reports page (links load by script);
+  - ARESEP CVG 2025 resolution (2025 projection 152.66 USD/MWh; 2024 net import cost in colones without volumes);
+  - a web search for ARESEP 2024 CVG adjustments;
+  - ICE DOCSE Informe Anual 2024 (the 2024 observed price).
 
 ## 3. Proposed changes above 25 percent and likely cause
 
@@ -77,11 +90,7 @@ Country task
 
 ## 5. Known-limitation candidates (not fixed)
 
-- `CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_Parametrization.xlsx`, Primary Techs, `IMPELE`, and BAU `TotalTechnologyAnnualActivityUpperLimit.csv`:
-  - The brief's country notes say there is no electricity import technology, but `IMPELE` (output `E1_ELE`) has an annual activity upper limit of 2.245 PJ (2021), 3.846 PJ (2024) and 2.827 PJ a year from 2025 to 2050.
-  - It has no lower limit and no cost, so imports up to the limit are free in a least-cost run.
-  - Rule E1 would price it at the 2024 regional market (MER) price. It is not priced here because the brief says to skip Step 6.
-
+- `A-O_Parametrization.xlsx`, Primary Techs: `IMPELE` and `PROINDWAS` share Tech.ID 9, so LAC_COST_WRITE should match rows on Tech, not Tech.ID.
 - `CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_Parametrization.xlsx`, Primary and Secondary Techs: plant costs carry an 8 percent step from 2021 to 2022 (2021 USD to 2022 USD), while fuel prices will be in real 2024 USD.
 - Same workbook, `PWRDSL` CapitalCost and FixedCost: the path follows ATB's gas combined cycle with 95% CCS, a poor proxy for diesel engines.
 - Same workbook, supply rows: FixedCost on `IMPPURDSL`, `IMPPURGSL`, `IMPFOI`, `IMPLPG` and CapitalCost 234.55 on `IMPLPG`. With a wholesale import parity price that already includes landed costs, these may double count.
@@ -100,7 +109,7 @@ Country task
 ## 7. Incidents
 
 - The session was interrupted during the first OneDrive file search. The search was rerun with a timeout and all five paper files copied.
-- During plant research, Git Bash curl crashed on an ICE redirect. A cookie-based retry against the ICE site was refused by the session's permission settings and not pursued.
+- During plant research, Git Bash curl crashed on an ICE redirect; the ICE DOCSE report was later downloaded with the Windows curl. A cookie-based retry against the ICE site was refused by the session's permission settings and not pursued.
 - The repository's `.gitattributes` sets `* -text`, so CSV and Markdown files written on Windows were first committed with CRLF line endings and `git diff --check` failed. All tracked job files were converted to LF and the commit amended before the push.
 - The brief asks for one commit. The pull request number is only known after the pull request is opened. Amending the pushed commit would need a force push, which the session's permission settings refused. The report update (pull request number, final gate results, LF fixes in two scripts) is therefore a second commit on the branch, `LAC_COST_SRC_CR: report pull request number`.
 - `elec_cost_perf.pdf` at the EIA AEO assumptions address is the AEO2023 edition (March 2023), so the local file is named for that edition.

@@ -8,17 +8,18 @@ This job adds sourced cost proposals for the Costa Rica energy model in `_LAC_HU
 - `REPORT_LAC_COST_SRC_CR_20261110T025401Z.md`: results, gates, tables.
 - `GAPS_LAC_COST_SRC_CR_20261110T025401Z.md`: judgement calls, ASSUMPTION rows, large changes, blocked sources, known-limitation candidates.
 - `CHANGES_LAC_COST_SRC_CR_20261110T025401Z.md`: this file.
-- `proposals.csv`: the file LAC_COST_WRITE reads. 1,710 rows:
+- `proposals.csv`: the file LAC_COST_WRITE reads. 1,740 rows:
   - 9 supply rows x 3 fuel scenarios x 30 years;
-  - 10 plants x 3 parameters x 30 years.
+  - 10 plants x 3 parameters x 30 years;
+  - the electricity import technology `IMPELE` x 30 years (added after the first push on Luis's instruction).
 - `proposals_summary.csv`: one row per technology and parameter, 2024, 2030 and 2050 current and proposed values with the change in percent.
 - `structure_proposals.csv`: Step 7, industry coal against petroleum coke (2021 `E5INDCOA` cell in `A-O_Demand.xlsx`).
 - `fuel_prices.csv`: fuel series by row, year and scenario, with case, r, benchmark, WEO series and derivation.
 - `price_points_2024.csv`: every published 2024 price point per supply row, with the chosen point and the difference in percent.
-- `plant_costs.csv`: plant cost classification (P2), proposed values by year and derivations.
+- `plant_costs.csv`: plant cost classification (P2), proposed values by year and derivations, plus the `IMPELE` import price rows (E1).
 - `cost_rows_current.csv`: every CapitalCost, FixedCost and VariableCost row of Primary Techs and Secondary Techs, with scope.
 - `paper_trace.csv`: 39 statements in the CLEWISE papers about costs and fuel prices, and what each will need to say.
-- `sources.csv`: 40 sources (11 new, 29 reused from LAC_LOCAL_PRICES).
+- `sources.csv`: 41 sources (12 new, 29 reused from LAC_LOCAL_PRICES).
 - `constants.csv`: CPI-U, Brent, Henry Hub, coal, WEO 2025 values, plant source values and conversion constants.
 - `search_log.csv`: leads tried for fuel, plant and Step 7 rows.
 - `baseline_before.csv`, `baseline_after.csv`: model file hashes.
@@ -51,5 +52,7 @@ This job adds sourced cost proposals for the Costa Rica energy model in `_LAC_HU
 - `plants/NREL_ATB2024_v4.0.0_ATBe.csv`: https://oedi-data-lake.s3.amazonaws.com/ATB/electricity/csv/2024/v4.0.0/ATBe.csv
 - `plants/EIA_AEO2023_elec_cost_perf.pdf`: https://www.eia.gov/outlooks/aeo/assumptions/pdf/elec_cost_perf.pdf
 - `plants/ElFinanciero_ICE_redirige_solar_eolica.html`: https://www.elfinancierocr.com/economia-y-politica/ice-redirige-su-mira-hacia-la-energia-solar-y/X65VM5IS2RDANG4SVXMZWYLI6E/story/ (lead only, not cited).
+- `imports/ICE_CENCE_Informe_Anual_2024.pdf`: https://apps.grupoice.com/CenceWeb/documentos/3/3008/24/Informe%20Anual%202024.pdf
+- `imports/CEPAL_Estadisticas_subsector_electrico_SICA_2024.pdf`: https://repositorio.cepal.org/server/api/core/bitstreams/0bbc262b-0653-4db6-b643-0f64a8eea6e8/content (lead only, not cited).
 - `reused/`: 30 files copied from the LAC_LOCAL_PRICES downloads for the reused source ids (CR-001 to CR-020, CR-022, CR-023, GEN-001 to GEN-003, GEN-005, GEN-006, GEN-008, HON-016; the CR-024 copy of the IPCC chapter duplicates GEN-002). Origins are in `sources.csv`.
 - `paper/`: read-only copies of `CLEWISE_MethodsX_v02.docx`, `CLEWISE_DataInBrief.docx`, `CLEWISE_JCLP_draft_v2.docx`, `Suplementary.xlsx` and `Data_v2.xlsx` from the OneDrive paper folder, plus their text extracts. Nothing in OneDrive was written, renamed or moved.

@@ -95,3 +95,8 @@ ATB24_RESPV_CAPEX_2024,2600.58,USD/kW (2022 USD),CRC-013,"ResPV Class5, CAPEX, M
 ATB24_RESPV_FOM_2024,29.53,USD/kW-yr (2022 USD),CRC-013,"ResPV Class5, Fixed O&M, Market, Moderate, 2024",as published
 EIA_AEO2023_ICE_VOM,6.4,USD/MWh (2022 USD),CRC-014,"Table 1 p.2, Internal combustion engine",as published
 MWH_PER_GJ,0.27778,MWh per GJ,GEN-003,"Appendix B.8, entry kilowatt hour = 3.6 E+06 J",1 / 3.6
+ICE_MER_IMPORT_2024_MWH,363748.07,MWh,CRC-015,"page 17, Total row",as published
+ICE_MER_IMPORT_2024_USD,74953098.26,USD (2024),CRC-015,"page 17, Total row",as published (includes CMORC)
+ICE_MER_IMPORT_2024_CMORC_USD,20629009.48,USD (2024),CRC-015,"page 17, Total row, column CMORC",as published
+ICE_MER_IMPORT_PRICE_2024,206.06,USD/MWh (2024 USD),CRC-015,"page 17, Total row",74953098.26 / 363748.07
+ARESEP_ICE_IMPORT_PRICE_2025_PROJECTED,152.66,USD/MWh (2025),CR-015,page 11,as published (ICE projection used by the regulator)

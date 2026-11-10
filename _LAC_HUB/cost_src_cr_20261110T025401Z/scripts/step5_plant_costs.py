@@ -137,6 +137,22 @@ for t in PLANTS:
             rows.append(dict(technology=t, parameter=p, year=y, current_value=c[y], proposed_value=None if prop[y] is None else round(prop[y], 4),
                              **{'class': sp['cls']}, source_ids=sp['src'], derivation=sp['der'] + ('' if y != 2021 or sp['cls'] in ('matched', 'ASSUMPTION') else '; 2021 column = 2022 value x 270.970 / 292.655 (2021 USD, model convention)'),
                              assumption_sentence=sp.get('asm', '')))
+# Electricity imports (rule E1): IMPELE VariableCost, real 2024 USD, held flat
+IMP_MWH, IMP_USD = 363748.07, 74953098.26          # ICE DOCSE Informe Anual 2024 p.17, Total row
+IMP_PRICE = IMP_USD / IMP_MWH                       # 206.06 USD/MWh
+IMP_GJ = IMP_PRICE * 0.27778                        # USD/GJ (1 USD/MWh = 0.27778 USD/GJ)
+A_IMP = ('ASSUMPTION: electricity imported by Costa Rica from the Central American regional electricity market costs %.2f USD/MWh (%.2f USD/GJ), '
+         'real 2024 USD, in every model year from 2021 to 2050 other than 2024, equal to the 2024 average. Reason: regional market prices follow '
+         'the hydrology and fuel costs of the Central American systems and have no long-term projection; the 2024 average covers contract and spot '
+         'purchases and the regional transmission charge on contract imports, so it is the full cost of delivered imports. Check: for 2025 the Costa '
+         'Rican regulator used an import price of 152.66 USD/MWh projected by ICE (ARESEP RE-0097-IE-2024, page 11), and the 2024 cost without the '
+         'regional transmission charge was %.2f USD/MWh. Range: 150 to 210 USD/MWh (41.7 to 58.3 USD/GJ).') % (IMP_PRICE, IMP_GJ, (IMP_USD - 20629009.48) / IMP_MWH)
+der_imp = ('ICE DOCSE Informe Anual 2024 p.17, Importacion del ICE al Mercado Regional 2024, Total row: 74,953,098.26 USD / 363,748.07 MWh = %.2f USD/MWh '
+           '(contract south, contract north and regional spot market, including the CMORC transmission charge of 20,629,009.48 USD) x 0.27778 = %.4f USD/GJ (MWH_PER_GJ, GEN-003)') % (IMP_PRICE, IMP_GJ)
+for y in YEARS:
+    rows.append(dict(technology='IMPELE', parameter='VariableCost', year=y, current_value=None, proposed_value=round(IMP_GJ, 4),
+                     **{'class': 'observed' if y == 2024 else 'ASSUMPTION'}, source_ids='CRC-015;GEN-003' + ('' if y == 2024 else ';CR-015'),
+                     derivation=der_imp + ('' if y == 2024 else '; held at the 2024 value'), assumption_sentence='' if y == 2024 else A_IMP))
 pc = pd.DataFrame(rows)
 pc.to_csv(os.path.join(JOB, 'plant_costs.csv'), index=False)
 s = pc[pc.year.isin([2021, 2024, 2030, 2050])].pivot_table(index=['technology', 'parameter', 'class'], columns='year', values=['current_value', 'proposed_value'], aggfunc='first')

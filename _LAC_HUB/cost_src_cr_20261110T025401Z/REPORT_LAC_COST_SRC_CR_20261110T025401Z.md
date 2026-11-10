@@ -4,25 +4,26 @@ Costa Rica energy model: sourced cost proposals for power plants and fuel supply
 
 - Pull request: luviga/clewise-lac#7 (draft), https://github.com/luviga/clewise-lac/pull/7
 - Branch: `job/cost-src-cr`, from `2ddd560`
-- Commit: ca0c5eb "LAC_COST_SRC_CR: sourced cost proposals for Costa Rica" on top of 2ddd560, followed by one report-only commit "LAC_COST_SRC_CR: report pull request number" (see GAPS, incidents)
+- Commit: ca0c5eb "LAC_COST_SRC_CR: sourced cost proposals for Costa Rica" on top of 2ddd560, then aaad126 "LAC_COST_SRC_CR: report pull request number" (see GAPS, incidents), then "LAC_COST_SRC_CR: price electricity imports (IMPELE)"
 
 ## Gates
 
 - Gate 1 read-only: PASS. 6 files hashed, 6 equal
 - Gate 2 diff scope: PASS. 38 files changed, 0 outside the job folder []
 - Gate 3 tracked types: PASS. 38 tracked files; 0 with other extensions; 0 under downloads/
-- Gate 4 sourcing: PASS. 1560 proposal rows not ASSUMPTION, 0 with a missing source id; 40 sources, 0 with problems []
-- Gate 5 ASSUMPTION rows: PASS. 150 ASSUMPTION rows for ['IMPNGS', 'PWRDSL', 'PWRFOI']; without leads []; sentence problems []
-- Gate 6 coverage: PASS. 10 plants x 3 parameters x 30 years and 9 supply rows x 3 scenarios x 30 years checked; gaps []
+- Gate 4 sourcing: PASS. 1561 proposal rows not ASSUMPTION, 0 with a missing source id; 41 sources, 0 with problems []
+- Gate 5 ASSUMPTION rows: PASS. 179 ASSUMPTION rows for ['IMPELE', 'IMPNGS', 'PWRDSL', 'PWRFOI']; without leads []; sentence problems []
+- Gate 6 coverage: PASS. 10 plants x 3 parameters x 30 years and 9 supply rows x 3 scenarios x 30 years and IMPELE x 30 years checked; gaps []
 - Gate 7 hygiene: PASS. em dash files []; machine paths []; git diff --check output 0 chars; trailer lines False
 
-Counts: `proposals.csv` has 1710 rows:
+Counts: `proposals.csv` has 1740 rows:
 - 810 fuel rows: 9 supply rows x 3 scenarios x 30 years;
-- 900 plant rows: 10 plants x 3 parameters x 30 years.
+- 900 plant rows: 10 plants x 3 parameters x 30 years;
+- 30 rows for the import technology `IMPELE`.
 
-By change class: replace 1020, keep 450, fill_empty 210, upgrade 30.
+By change class: replace 1020, keep 450, fill_empty 240, upgrade 30.
 
-By basis class: projected 600, replace 420, matched 390, ASSUMPTION 150, history from ratio 72, observed 48, matched, newer edition 30.
+By basis class: projected 600, replace 420, matched 390, ASSUMPTION 179, history from ratio 72, observed 49, matched, newer edition 30.
 
 ## Fuel supply rows
 
@@ -73,11 +74,12 @@ How the workbook builds its plant cost paths: the 2021 value x 1.0800 (CPI-U 202
 
 ## Electricity imports
 
-Step 6 was skipped as the brief instructs. The brief says Costa Rica has no electricity import technology, but the BAU data has one:
-- `IMPELE` (output `E1_ELE`) has a TotalTechnologyAnnualActivityUpperLimit of 2.245 PJ in 2021, 3.846 PJ in 2024 and 2.827 PJ a year from 2025 to 2050.
-- It has no lower limit and no CapitalCost, FixedCost or VariableCost.
-- In a least-cost run, imports up to that limit are therefore free.
-- Under rule E1 it should be priced at the 2024 regional market (MER) price. It is listed under Known-limitation candidates in GAPS for Luis to decide; no proposal rows were written for it.
+The brief said Costa Rica has no electricity import technology, but the BAU data has `IMPELE` (output `E1_ELE`). Its annual activity upper limit is 2.245 PJ in 2021, 3.846 PJ in 2024 and 2.827 PJ a year from 2025. It had no cost, so imports up to the limit were free.
+On Luis's instruction of 10 November 2026 (after the first push), rule E1 was applied:
+- 2024: observed. ICE DOCSE Informe Anual 2024, page 17: ICE imported 363,748.07 MWh from the regional market for 74,953,098.26 USD (contracts and spot, including the CMORC transmission charge). That is 206.06 USD/MWh = **57.239 USD/GJ**.
+- 2021 to 2023 and 2025 to 2050: the same value held flat, as an ASSUMPTION. Check: ICE projected 152.66 USD/MWh for 2025, as used by ARESEP; the 2024 price without CMORC is 149.35 USD/MWh.
+- 30 rows, change class `fill_empty`.
+- The report total import interchange of 1,068 GWh matches the model 2024 upper limit of 3.846 PJ.
 
 ## Country task: coal or petroleum coke
 
@@ -91,9 +93,10 @@ Step 6 was skipped as the brief instructs. The brief says Costa Rica has no elec
 
 ## ASSUMPTION rows
 
-150 rows: IMPNGS VariableCost 90; PWRDSL VariableCost 30; PWRFOI VariableCost 30.
+179 rows: IMPELE VariableCost 29; IMPNGS VariableCost 90; PWRDSL VariableCost 30; PWRFOI VariableCost 30.
 - `IMPNGS`: Costa Rica imports no natural gas. The 2024 delivered small-scale LNG cost of 7.763 USD/GJ gross is the ASSUMPTION, together with the F5 gross-to-net sentence.
 - Engines: non-fuel variable O&M is unchanged at 4.70 USD/MWh, checked against EIA AEO2023 (6.40 USD/MWh).
+- `IMPELE`: the 2024 import price is held flat in the other 29 years.
 
 ## Paper trail
 
