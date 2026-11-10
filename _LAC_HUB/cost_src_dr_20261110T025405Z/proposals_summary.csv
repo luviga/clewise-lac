@@ -1,0 +1,97 @@
+Tech,Parameter,fuel_scenario,current_2024,proposed_2024,change_pct_2024,current_2030,proposed_2030,change_pct_2030,current_2050,proposed_2050,change_pct_2050,basis_classes,change_classes
+DIST_COA,VariableCost,STEPS,9.6054,3.9747,-58.62,3.8712,3.8804,0.24,3.5576,2.7404,-22.97,history from ratio;observed;projected,keep;replace
+DIST_COA,VariableCost,CPS,9.6054,3.9747,-58.62,3.8712,4.1975,8.43,3.5576,3.4048,-4.3,history from ratio;observed;projected,keep;replace
+DIST_COA,VariableCost,NZE,9.6054,3.9747,-58.62,3.8712,3.1783,-17.9,3.5576,1.6193,-54.48,history from ratio;observed;projected,replace
+DIST_COK,VariableCost,STEPS,4.9447,2.6222,-46.97,5.5358,3.7072,-33.03,8.0662,3.542,-56.09,history from ratio;observed;projected,fill_empty;replace
+DIST_COK,VariableCost,CPS,4.9447,2.6222,-46.97,5.5358,3.936,-28.9,8.0662,4.9401,-38.76,history from ratio;observed;projected,fill_empty;replace
+DIST_COK,VariableCost,NZE,4.9447,2.6222,-46.97,5.5358,2.5124,-54.62,8.0662,1.1651,-85.56,history from ratio;observed;projected,fill_empty;replace
+DIST_CRU,VariableCost,STEPS,14.94,15.2993,2.4,14.22,15.4083,8.36,13.89,14.7216,5.99,history from ratio;observed;projected,keep;replace
+DIST_CRU,VariableCost,CPS,14.94,15.2993,2.4,14.22,16.3593,15.04,13.89,20.5327,47.82,history from ratio;observed;projected,keep;replace
+DIST_CRU,VariableCost,NZE,14.94,15.2993,2.4,14.22,10.4424,-26.57,13.89,4.8426,-65.14,history from ratio;observed;projected,keep;replace
+DIST_DSL,VariableCost,STEPS,20.4935,17.9075,-12.62,22.9436,18.0311,-21.41,33.4306,17.2275,-48.47,history from ratio;observed;projected,fill_empty;keep;replace
+DIST_DSL,VariableCost,CPS,20.4935,17.9075,-12.62,22.9436,19.1439,-16.56,33.4306,24.0278,-28.13,history from ratio;observed;projected,fill_empty;keep;replace
+DIST_DSL,VariableCost,NZE,20.4935,17.9075,-12.62,22.9436,12.22,-46.74,33.4306,5.6669,-83.05,history from ratio;observed;projected,fill_empty;keep;replace
+DIST_FOI,VariableCost,STEPS,13.626,13.3521,-2.01,14.021,13.4443,-4.11,16.2438,12.8451,-20.92,history from ratio;observed;projected,keep;replace
+DIST_FOI,VariableCost,CPS,13.626,13.3521,-2.01,14.021,14.274,1.8,16.2438,17.9155,10.29,history from ratio;observed;projected,keep;replace
+DIST_FOI,VariableCost,NZE,13.626,13.3521,-2.01,14.021,9.1114,-35.02,16.2438,4.2253,-73.99,history from ratio;observed;projected,replace
+DIST_GSL,VariableCost,STEPS,25.0577,19.6137,-21.73,28.0535,19.7491,-29.6,40.8762,18.8689,-53.84,history from ratio;observed;projected,fill_empty;replace
+DIST_GSL,VariableCost,CPS,25.0577,19.6137,-21.73,28.0535,20.9679,-25.26,40.8762,26.3171,-35.62,history from ratio;observed;projected,fill_empty;replace
+DIST_GSL,VariableCost,NZE,25.0577,19.6137,-21.73,28.0535,13.3843,-52.29,40.8762,6.2069,-84.82,history from ratio;observed;projected,fill_empty;replace
+DIST_KER,VariableCost,STEPS,0.0,19.889,,0.0,20.0263,,0.0,19.1337,,history from ratio;observed;projected,fill_empty;fill_placeholder
+DIST_KER,VariableCost,CPS,0.0,19.889,,0.0,21.2622,,0.0,26.6865,,history from ratio;observed;projected,fill_empty;fill_placeholder
+DIST_KER,VariableCost,NZE,0.0,19.889,,0.0,13.5721,,0.0,6.294,,history from ratio;observed;projected,fill_empty;fill_placeholder
+DIST_LPG,VariableCost,STEPS,29.4676,11.0415,-62.53,32.9906,11.1484,-66.21,48.07,10.6515,-77.84,history from ratio;observed;projected,fill_empty;replace
+DIST_LPG,VariableCost,CPS,29.4676,11.0415,-62.53,32.9906,11.8364,-64.12,48.07,14.856,-69.1,history from ratio;observed;projected,fill_empty;replace
+DIST_LPG,VariableCost,NZE,29.4676,11.0415,-62.53,32.9906,7.5554,-77.1,48.07,3.5038,-92.71,history from ratio;observed;projected,fill_empty;replace
+DIST_NGS,VariableCost,STEPS,7.646,8.9358,16.87,2.9863,8.7926,194.43,3.185,12.9334,306.07,history from ratio;observed;projected,replace
+DIST_NGS,VariableCost,CPS,7.646,8.9358,16.87,2.9863,9.7128,225.25,3.185,14.058,341.38,history from ratio;observed;projected,replace
+DIST_NGS,VariableCost,NZE,7.646,8.9358,16.87,2.9863,6.0322,102.0,3.185,6.1855,94.21,history from ratio;observed;projected,replace
+PPADSL,CapitalCost,ALL,982.1246,1066.677271,8.61,946.6399,1014.628512,7.18,874.5259,861.221644,-1.52,matched;replace,keep;replace
+PPADSL,FixedCost,ALL,14.1,14.1,0.0,14.1,14.1,0.0,14.1,14.1,0.0,matched,fill_empty;keep
+PPADSL,VariableCost,ALL,0.3751,0.708333,88.84,0.3751,0.708333,88.84,0.3751,0.708333,88.84,replace,replace
+PPAFOI,CapitalCost,ALL,982.1246,1066.677271,8.61,946.6399,1014.628512,7.18,874.5259,861.221644,-1.52,matched;replace,keep;replace
+PPAFOI,FixedCost,ALL,14.1,14.1,0.0,14.1,14.1,0.0,14.1,14.1,0.0,matched,fill_empty;keep
+PPAFOI,VariableCost,ALL,0.3751,0.708333,88.84,0.3751,0.708333,88.84,0.3751,0.708333,88.84,replace,replace
+PPANGS,CapitalCost,ALL,982.1246,1066.677271,8.61,946.6399,1014.628512,7.18,874.5259,861.221644,-1.52,matched;replace,keep;replace
+PPANGS,FixedCost,ALL,14.1,14.1,0.0,14.1,14.1,0.0,14.1,14.1,0.0,matched,fill_empty;keep
+PPANGS,VariableCost,ALL,0.3751,0.708333,88.84,0.3751,0.708333,88.84,0.3751,0.708333,88.84,replace,replace
+PPBGS,CapitalCost,ALL,0.0,2162.0,,0.0,2162.0,,0.0,2162.0,,replace,fill_empty;fill_placeholder
+PPBGS,FixedCost,ALL,0.0,163.66602,,0.0,163.66602,,0.0,163.66602,,replace,fill_empty;fill_placeholder
+PPBGS,VariableCost,ALL,0.0,1.388889,,0.0,1.388889,,0.0,1.388889,,replace,fill_empty;fill_placeholder
+PPBIM,CapitalCost,ALL,38.46,2162.0,5521.42,38.46,2162.0,5521.42,38.46,2162.0,5521.42,replace,fill_empty;replace
+PPBIM,FixedCost,ALL,35.16,35.16,0.0,35.16,35.16,0.0,35.16,35.16,0.0,matched,fill_empty;keep
+PPBIM,VariableCost,ALL,1.5806,1.5806,0.0,1.5806,1.5806,0.0,1.5806,1.5806,0.0,matched,fill_empty;keep
+PPCCTDSL,CapitalCost,ALL,1100.0,1100.0,0.0,1100.0,1100.0,0.0,1100.0,1100.0,0.0,matched,fill_empty;keep
+PPCCTDSL,FixedCost,ALL,35.16,35.16,0.0,35.16,35.16,0.0,35.16,35.16,0.0,matched,fill_empty;keep
+PPCCTDSL,VariableCost,ALL,3.1767,0.708333,-77.7,3.1767,0.708333,-77.7,3.1767,0.708333,-77.7,replace,fill_empty;replace
+PPCCTNGS,CapitalCost,ALL,982.1246,1066.677271,8.61,946.6399,1014.628512,7.18,874.5259,861.221644,-1.52,matched;replace,keep;replace
+PPCCTNGS,FixedCost,ALL,14.1,14.1,0.0,14.1,14.1,0.0,14.1,14.1,0.0,matched,fill_empty;keep
+PPCCTNGS,VariableCost,ALL,0.3751,0.708333,88.84,0.3751,0.708333,88.84,0.3751,0.708333,88.84,replace,replace
+PPCOA,CapitalCost,ALL,3676.0,3676.0,0.0,3676.0,3676.0,0.0,3676.0,3676.0,0.0,matched,fill_empty;keep
+PPCOA,FixedCost,ALL,82.0,40.58,-50.51,82.0,40.58,-50.51,82.0,40.58,-50.51,replace,fill_empty;replace
+PPCOA,VariableCost,ALL,0.7056,1.25,77.15,0.7056,1.25,77.15,0.7056,1.25,77.15,replace,replace
+PPDBGS,CapitalCost,ALL,982.1246,1066.677271,8.61,946.6399,1014.628512,7.18,874.5259,861.221644,-1.52,matched;replace,keep;replace
+PPDBGS,FixedCost,ALL,14.1,14.1,0.0,14.1,14.1,0.0,14.1,14.1,0.0,matched,fill_empty;keep
+PPDBGS,VariableCost,ALL,0.3751,0.708333,88.84,0.3751,0.708333,88.84,0.3751,0.708333,88.84,replace,replace
+PPDBIM,CapitalCost,ALL,982.1246,1066.677271,8.61,946.6399,1014.628512,7.18,874.5259,861.221644,-1.52,matched;replace,keep;replace
+PPDBIM,FixedCost,ALL,14.1,14.1,0.0,14.1,14.1,0.0,14.1,14.1,0.0,matched,fill_empty;keep
+PPDBIM,VariableCost,ALL,0.3751,0.708333,88.84,0.3751,0.708333,88.84,0.3751,0.708333,88.84,replace,replace
+PPDDSL,CapitalCost,ALL,982.1246,1066.677271,8.61,946.6399,1014.628512,7.18,874.5259,861.221644,-1.52,matched;replace,keep;replace
+PPDDSL,FixedCost,ALL,14.1,14.1,0.0,14.1,14.1,0.0,14.1,14.1,0.0,matched,fill_empty;keep
+PPDDSL,VariableCost,ALL,0.3751,0.708333,88.84,0.3751,0.708333,88.84,0.3751,0.708333,88.84,replace,replace
+PPDFOI,CapitalCost,ALL,982.1246,1066.677271,8.61,946.6399,1014.628512,7.18,874.5259,861.221644,-1.52,matched;replace,keep;replace
+PPDFOI,FixedCost,ALL,14.1,14.1,0.0,14.1,14.1,0.0,14.1,14.1,0.0,matched,fill_empty;keep
+PPDFOI,VariableCost,ALL,0.3751,0.708333,88.84,0.3751,0.708333,88.84,0.3751,0.708333,88.84,replace,replace
+PPDGLP,CapitalCost,ALL,982.1246,1066.677271,8.61,946.6399,1014.628512,7.18,874.5259,861.221644,-1.52,matched;replace,keep;replace
+PPDGLP,FixedCost,ALL,14.1,14.1,0.0,14.1,14.1,0.0,14.1,14.1,0.0,matched,fill_empty;keep
+PPDGLP,VariableCost,ALL,0.3751,0.708333,88.84,0.3751,0.708333,88.84,0.3751,0.708333,88.84,replace,replace
+PPDGSL,CapitalCost,ALL,982.1246,1066.677271,8.61,946.6399,1014.628512,7.18,874.5259,861.221644,-1.52,matched;replace,keep;replace
+PPDGSL,FixedCost,ALL,14.1,14.1,0.0,14.1,14.1,0.0,14.1,14.1,0.0,matched,fill_empty;keep
+PPDGSL,VariableCost,ALL,0.3751,0.708333,88.84,0.3751,0.708333,88.84,0.3751,0.708333,88.84,replace,replace
+PPDHYD,CapitalCost,ALL,1980.0,2881.0,45.51,1980.0,2881.0,45.51,1980.0,2881.0,45.51,replace,fill_empty;replace
+PPDHYD,FixedCost,ALL,20.0,72.025,260.12,20.0,72.025,260.12,20.0,72.025,260.12,replace,fill_empty;replace
+PPDHYD,VariableCost,ALL,0.0,0.0,,0.0,0.0,,0.0,0.0,,matched,fill_empty;keep
+PPDNGS,CapitalCost,ALL,982.1246,1066.677271,8.61,946.6399,1014.628512,7.18,874.5259,861.221644,-1.52,matched;replace,keep;replace
+PPDNGS,FixedCost,ALL,14.1,14.1,0.0,14.1,14.1,0.0,14.1,14.1,0.0,matched,fill_empty;keep
+PPDNGS,VariableCost,ALL,0.3751,0.708333,88.84,0.3751,0.708333,88.84,0.3751,0.708333,88.84,replace,replace
+PPHDAM,CapitalCost,ALL,3007.7097,3241.336444,7.77,3007.7097,3241.336444,7.77,2887.188,3111.470091,7.77,"matched, newer edition",upgrade
+PPHDAM,FixedCost,ALL,85.0,92.0,8.24,85.0,92.0,8.24,85.0,88.0,3.53,"matched, newer edition;replace",fill_empty;upgrade
+PPHDAM,VariableCost,ALL,0.0,0.0,,0.0,0.0,,0.0,0.0,,matched,fill_empty;keep
+PPICEFOI,CapitalCost,ALL,1100.0,1100.0,0.0,1100.0,1100.0,0.0,1100.0,1100.0,0.0,matched,fill_empty;keep
+PPICEFOI,FixedCost,ALL,35.16,35.16,0.0,35.16,35.16,0.0,35.16,35.16,0.0,matched,fill_empty;keep
+PPICEFOI,VariableCost,ALL,1.041,1.580556,51.83,1.041,1.580556,51.83,1.041,1.580556,51.83,replace,fill_empty;replace
+PPICEGASFOI,CapitalCost,ALL,982.1246,1066.677271,8.61,946.6399,1014.628512,7.18,874.5259,861.221644,-1.52,matched;replace,keep;replace
+PPICEGASFOI,FixedCost,ALL,14.1,14.1,0.0,14.1,14.1,0.0,14.1,14.1,0.0,matched,fill_empty;keep
+PPICEGASFOI,VariableCost,ALL,0.3751,0.708333,88.84,0.3751,0.708333,88.84,0.3751,0.708333,88.84,replace,replace
+PPPVD,CapitalCost,ALL,1789.6163,1789.6163,0.0,1439.5566,1491.804632,3.63,860.5955,929.212234,7.97,"matched;matched, newer edition",keep;upgrade
+PPPVD,FixedCost,ALL,18.0,18.0,0.0,18.0,15.844972,-11.97,18.0,11.124044,-38.2,"matched;matched, newer edition;replace",fill_empty;upgrade
+PPPVD,VariableCost,ALL,0.0,0.0,,0.0,0.0,,0.0,0.0,,matched,fill_empty;keep
+PPPVT,CapitalCost,ALL,861.8335,916.524053,6.35,2152.7504,2156.448889,0.17,1830.1716,1439.241052,-21.36,replace,keep;replace
+PPPVT,FixedCost,ALL,13.5466,21.608889,59.52,41.3513,50.4945,22.11,30.8828,35.245267,14.13,replace,replace
+PPPVT,VariableCost,ALL,0.0,0.0,,0.0,0.0,,0.0,0.0,,matched,fill_empty;keep
+PPPVTHYD,CapitalCost,ALL,861.8335,916.524053,6.35,2152.7504,2156.448889,0.17,1830.1716,1439.241052,-21.36,replace,keep;replace
+PPPVTHYD,FixedCost,ALL,13.5466,21.608889,59.52,41.3513,50.4945,22.11,30.8828,35.245267,14.13,replace,replace
+PPPVTHYD,VariableCost,ALL,0.0,0.0,,0.0,0.0,,0.0,0.0,,matched,fill_empty;keep
+PPWNDON,CapitalCost,ALL,1442.96,1281.883806,-11.16,2629.6601,2528.123674,-3.86,2197.328,1888.457826,-14.06,replace,replace
+PPWNDON,FixedCost,ALL,25.4633,31.648229,24.29,54.2049,61.767592,13.95,41.5741,47.735,14.82,replace,replace
+PPWNDON,VariableCost,ALL,0.0,0.0,,0.0,0.0,,0.0,0.0,,matched,fill_empty;keep
