@@ -41,3 +41,69 @@ wrote 176 cells in Guatemala/GUA_ENERGY/B1_Scenario_Config.xlsx (dry run)
 wrote 208 cells in Honduras/HON_ENERGY/B1_Scenario_Config.xlsx (dry run)
 wrote 134 cells in Jamaica/JAM_ENERGY/B1_Scenario_Config.xlsx (dry run)
 wrote 12 lines in _STAGE2_INPUTS/STAGE2_OVERWRITES_Jamaica.csv (dry run)
+backups 13
+$ C:\clw_fix\ao_cost_repair_manager.py --root C:\clw_fix apply --manifest C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\manifest_DominicanRepublic_plain.csv --output-dir C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests --apply
+Apply log: C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\apply_20261111_135321_apply_log.csv
+Approved manifest cells seen: 1980
+Cells changed: 1980
+Projection modes changed: 0
+verify manifest_DominicanRepublic_plain.csv 0 Checked cells: 1980
+Verification passed for expected state: applied
+$ C:\clw_fix\ao_cost_repair_manager.py --root C:\clw_fix apply --manifest C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\manifest_DominicanRepublic_formula.csv --output-dir C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests --apply --ignore-old-value-mismatch
+Apply log: C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\apply_20261111_135520_apply_log.csv
+Approved manifest cells seen: 1
+Cells changed: 1
+Projection modes changed: 0
+verify manifest_DominicanRepublic_formula.csv 0 Checked cells: 1
+Verification passed for expected state: applied
+$ C:\clw_fix\ao_cost_repair_manager.py --root C:\clw_fix apply --manifest C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\manifest_Ecuador_plain.csv --output-dir C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests --apply
+Apply log: C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\apply_20261111_135526_apply_log.csv
+Approved manifest cells seen: 383
+Cells changed: 383
+Projection modes changed: 0
+verify manifest_Ecuador_plain.csv 0 Checked cells: 383
+Verification passed for expected state: applied
+$ C:\clw_fix\ao_cost_repair_manager.py --root C:\clw_fix apply --manifest C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\manifest_Guatemala_plain.csv --output-dir C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests --apply
+Apply log: C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\apply_20261111_135549_apply_log.csv
+Approved manifest cells seen: 335
+Cells changed: 335
+Projection modes changed: 0
+verify manifest_Guatemala_plain.csv 0 Checked cells: 335
+Verification passed for expected state: applied
+$ C:\clw_fix\ao_cost_repair_manager.py --root C:\clw_fix apply --manifest C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\manifest_Guatemala_formula.csv --output-dir C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests --apply --ignore-old-value-mismatch
+Apply log: C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\apply_20261111_135619_apply_log.csv
+Approved manifest cells seen: 2
+Cells changed: 2
+Projection modes changed: 1
+verify manifest_Guatemala_formula.csv 0 Checked cells: 2
+Verification passed for expected state: applied
+$ C:\clw_fix\ao_cost_repair_manager.py --root C:\clw_fix apply --manifest C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\manifest_Honduras_plain.csv --output-dir C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests --apply
+Apply log: C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\apply_20261111_135627_apply_log.csv
+Approved manifest cells seen: 81
+Cells changed: 81
+Projection modes changed: 0
+verify manifest_Honduras_plain.csv 0 Checked cells: 81
+Verification passed for expected state: applied
+$ C:\clw_fix\ao_cost_repair_manager.py --root C:\clw_fix apply --manifest C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\manifest_Honduras_formula.csv --output-dir C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests --apply --ignore-old-value-mismatch
+Apply log: C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\apply_20261111_135637_apply_log.csv
+Approved manifest cells seen: 8
+Cells changed: 8
+Projection modes changed: 0
+verify manifest_Honduras_formula.csv 0 Checked cells: 8
+Verification passed for expected state: applied
+$ C:\clw_fix\ao_cost_repair_manager.py --root C:\clw_fix apply --manifest C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\manifest_Jamaica_plain.csv --output-dir C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests --apply
+Apply log: C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\apply_20261111_135645_apply_log.csv
+Approved manifest cells seen: 383
+Cells changed: 383
+Projection modes changed: 1
+verify manifest_Jamaica_plain.csv 0 Checked cells: 383
+Verification passed for expected state: applied
+wrote 62 cells in CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx
+wrote 292 cells in DominicanRepublic/RD_ENERGY/B1_Scenario_Config.xlsx
+wrote 10 cells in Ecuador/ECU_Energy/A1_Outputs/A-O_Demand.xlsx
+wrote 38 cells in Ecuador/ECU_Energy/A1_Outputs/A-O_Parametrization.xlsx
+wrote 364 cells in Ecuador/ECU_Energy/B1_Scenario_Config.xlsx
+wrote 176 cells in Guatemala/GUA_ENERGY/B1_Scenario_Config.xlsx
+wrote 208 cells in Honduras/HON_ENERGY/B1_Scenario_Config.xlsx
+wrote 134 cells in Jamaica/JAM_ENERGY/B1_Scenario_Config.xlsx
+wrote 12 lines in _STAGE2_INPUTS/STAGE2_OVERWRITES_Jamaica.csv

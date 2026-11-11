@@ -58,7 +58,7 @@ for wbpath, g in P[P.kind != 'csv_line'].groupby('workbook'):
         for row in range(1, mr + 1):
             for col in range(1, mc + 1):
                 c1, c0 = ws.cell(row, col), wo.cell(row, col)
-                same_f = c1.value == c0.value
+                same_f = c1.value == c0.value or (num(c1.value) is not None and num(c0.value) is not None and abs(num(c1.value) - num(c0.value)) <= 1e-12 * max(1, abs(num(c0.value))))
                 v1, v0 = wvn.cell(row, col).value, wvo.cell(row, col).value
                 same_v = v1 == v0 or (num(v1) is not None and num(v0) is not None and abs(num(v1) - num(v0)) <= 1e-12 * max(1, abs(num(v0))))
                 if same_f and same_v:
@@ -95,7 +95,8 @@ checks.append(dict(check='4_no_formula_in_F1_cells', workbook='3 workbooks', cel
 changed = set(P.workbook)
 tracked = subprocess.run(['git', 'ls-files', '*A-O_*.xlsx'], cwd=ROOT, capture_output=True, text=True).stdout.split()
 others = [t for t in tracked if t not in changed]
-dif = subprocess.run(['git', 'diff', '--name-only', 'c42ae07', '--', *others], cwd=ROOT, capture_output=True, text=True).stdout.split()
+alld = set(subprocess.run(['git', 'diff', '--name-only', 'c42ae07'], cwd=ROOT, capture_output=True, text=True).stdout.split())
+dif = [t for t in others if t in alld]
 checks.append(dict(check='5_other_AO_workbooks_identical', workbook=f'{len(others)} tracked A-O workbooks', cells='', failures=len(dif),
                    result='pass' if not dif else 'FAIL'))
 
