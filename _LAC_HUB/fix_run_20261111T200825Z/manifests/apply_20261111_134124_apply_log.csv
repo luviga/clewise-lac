@@ -1,0 +1,2 @@
+﻿apply_id,timestamp,manifest_path,country,ao_path,backup_path,dry_run,approved_cells_seen,cells_changed,projection_modes_changed
+apply_20261111_134124,20261111_134125,C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\manifest_DominicanRepublic_plain.csv,DominicanRepublic,C:\clw_fix\DominicanRepublic\RD_ENERGY\A1_Outputs\A-O_Parametrization.xlsx,,YES,1980,1980,0
