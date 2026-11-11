@@ -31,8 +31,6 @@ Judgement calls and their reasons, known-limitation candidates, what was left un
 
 ## 2. Known-limitation candidates
 
-(Phase B, C and D items; Phase E items follow.)
-
 - `DominicanRepublic/RD_ENERGY/A1_Outputs` (A-O_AR_Model_Base_Year.xlsx and related): the efficient bus TRXBUSEFIELE takes electricity (E4ELE_PUB 0.3) in the current workbooks, while the tracked A2 and B1 outputs and the main copy's 26 January data files carry diesel (E4DSL_PUB 0.243); the recompile brings the workbook version into the base runs (393 A2 values per scenario, public passenger demand and transport group limits).
 - `Ecuador/ECU_Energy/A2_Output_Params/{NDCNEW,LTSNEW}` and `B1_Output_Params/{NDCNEW,LTSNEW}`: the tracked files predate the 13 and 14 May hydro patch (residual capacity, capacity factor, minimum capacity investment of the hydro and wind rows), so the 16 May NDCNEW and LTSNEW results used the pre-patch hydro values while BAU used the patched ones; the recompile brings the patch into NDCNEW and LTSNEW.
 - `Jamaica/JAM_ENERGY/B1_Output_Params/NDCNEW` (tracked): BAU values with Scenario label LTS, written on 12 May by an untraced script; the B1 runner writes a proper NDCNEW.
@@ -41,6 +39,13 @@ Judgement calls and their reasons, known-limitation candidates, what was left un
 - `Honduras/HON_ENERGY/A1_Outputs/A-O_Parametrization.xlsx` Secondary Techs I27:K27: PPBGS CapitalCost 2018 to 2020 are formulas `=I17*(5053/5391)` on PPBIM CapitalCost, so they moved with the regional PPBIM value (5053 to 1813.8 USD/kW); from 2021 PPBGS is a plain 5,390 USD/kW, which no proposal covers.
 - `DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx` Secondary Techs J232: Excel rewrote the formula text on save (the space after "=" removed); same value.
 - `Costa Rica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx`: LTSOPT is activated without an A2 folder, so the base B1 runner cannot run without a temporary LTSOPT input.
+- `CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx`, sheet Efficiency: SpecifiedAnnualDemand of E5INDCOA is set by "Exact" values for BAU, NDCNEW, LTSNEW and LTSOPT (2021 = 0.675, 2022 = 0.00667), so B1 overrides D9: the workbook and A2 carry 0.00667 for 2021, while B1_Output_Params, the data files and every solve still use 0.675. Editing the config is outside the brief.
+- Phase D gate D2: 324 values outside the allowed list, all from the two formula chains above, in A2, B1 and the data files of all three scenarios: Guatemala DIST_FLEXFUEL VariableCost 2018 to 2050 (a "Percent growth of incomplete years" row whose 2018 and 2019 cells are formulas on DIST_GSL, so the whole path moves about 2 percent: 47.11 to 45.31 in 2018, 73.58 to 71.89 in 2050) and Honduras PPBGS CapitalCost 2018 to 2020 (5,053 to 1,813.8). "Fixing the write" would mean writing unsourced constants over the workbook's formulas or not writing sourced cells, so they were recorded and left.
+- Ecuador objective: the Ecuador fuel, extraction and import VariableCost rows were placeholders of 1 USD/GJ (Flat) before the write. The proposals fill them with sourced prices (on average DIST_DSL 18.7, DIST_GSL 20.3, EXTT_CRU 17.3, DIST_CRU 11.9 and IMPELE 68.8 USD/GJ), so the Ecuador objective rises about eighteen-fold (Stage 3 BAU 107,054 to 1,933,690). Not tuned.
+- Guatemala PPPVT before 2025 (E3, rechecked by values): new capacity 0.386 GW in 2018 and 0.280 GW in 2022 in NDCNEW and LTSNEW, 0.667 GW in total as on 16 May, none in BAU, against a residual capacity of 0.08 GW. The cause is in the B1 inputs: the NDCNEW and LTSNEW TotalTechnologyAnnualActivityLowerLimit of PPPVT for 2018 to 2024 (3.81 PJ in 2018, 6.46 PJ in 2022) is five to ten times the BAU value (0.54 and 0.63 PJ), and 3.81 PJ at the 2018 capacity factor 0.2607 needs 0.466 GW. Stage 3 only patches 2025 onward.
+- Stage 2 soft tests fail (hard tests 7 of 7 pass): T8 continuity, 65 jumps above 5 pp (for example Costa Rica BAU 2023 to 2024, 8.0 pp); T9 hydro PJ freeze, 87 violations (for example Jamaica BAU 2027); T11a denominator alignment, 27 years with a scenario spread above 0.5 PJ (for example Costa Rica 2023, 3.6 PJ). Whether they also failed on 16 May is not recorded.
+- Stage 3 test T4 fails on 40 Guatemala cells (zero lower limit, upper 99,999): that is the documented effect of `--skip-orphan-cap Guatemala`, which the test does not exempt.
+- Line endings: the A2, B1 and Stage 0 CSV files are CRLF (as the tracked files they replace), so plain `git diff --check` reports a CR at the end of every changed line of those files; `git -c core.whitespace=cr-at-eol diff --check` is clean.
 - The A2 compilers write scenario folders named NDCincond, NDCcond, NDP and LTS; NDCNEW and LTSNEW are made by copying (Phase B step), which no script in the repository does.
 
 ## 3. Groups left in their source currency year
@@ -62,6 +67,8 @@ See `currency_conversion.csv` (column `left`). Groups whose currency year could 
 
 ## 4. Incidents
 
+- Stage 3 test T4 and the Stage 2 soft tests failed (section 2); the pipeline continued as the brief requires.
+
 - The first Costa Rica B1 attempt stopped at once on the missing LTSOPT folder (logged in `baseline/CostaRica/B1/cand0_anaconda_no_LTSOPT_input`).
 - The second Costa Rica B1 attempt solved all four scenarios OPTIMAL but the solve wrapper could not open its log (a relative path), returned exit 1 after each solve and B1 stopped before parsing; the 783 MB solver outputs of that failed run were deleted and the run repeated with an absolute log path.
 - Stage 0, attempt 1: `cmd /c stage0_run_all.bat` was refused (`not recognized`) because this session sets `NoDefaultCurrentDirectoryInExePath=1`, so `cmd` does not look in the current folder; the later Stage 0 steps then ran on no outputs. The batch files were called by full path from attempt 2 on (logs in `stage_logs/attempt1_stage0_bat_not_found`).
@@ -70,4 +77,9 @@ See `currency_conversion.csv` (column `left`). Groups whose currency year could 
 
 ## 5. Left unchecked
 
-(filled at the end of the job)
+- Whether the Stage 2 soft tests and Stage 3 test T4 also failed on 16 May: the 16 May test logs are not in the repository.
+- The 16 May objective values were recovered by solving the main copy's 16 May `*_FINAL_0` data files again with the same model file and glpsol (18 of 18 OPTIMAL); the 16 May solver logs themselves were not available.
+- Stage 4 and the paper files were not run or touched (brief).
+- The fleet pickles that A2 rewrites (restored after every run with the other side files) were not compared byte for byte with the regenerated ones in Phase D; Phase B showed them byte-identical, and B1 reads only them from A1_Outputs.
+- The dependents of the 48 overwritten formula cells were not traced one by one; a dependent whose value changed would have shown in the C4(2) cell-by-cell comparison, which found only the five cells listed (they depend on written plain cells).
+- The solver output files of Stages 0 and 3 (about 27 GB, gitignored) were kept in the clone; free disk never went below 80 GB (lowest 94 GB).

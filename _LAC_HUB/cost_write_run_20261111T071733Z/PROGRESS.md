@@ -21,3 +21,6 @@ UTC time | step | status | key count
 2026-11-11T10:07:47Z | E1 | done | Stage 0: 18 of 18 OK (all OPTIMAL), stage0_test 10 of 10 (third attempt; attempts 1 and 2 failed, see GAPS); Stage 1: 13 of 13; Stage 2: 7 of 7 hard, soft T8, T9, T11a fail; Stage 3: stage3_test 10 of 11 (T4 40 Guatemala cells from --skip-orphan-cap), 18 of 18 OPTIMAL, RE targets 24 of 24, share validation 7882 pass, 108 warn, 8 fail
 2026-11-11T10:07:47Z | E2 | done | results_compare.csv 463 rows, results_compare_top_newcap.csv; 16 May objectives from resolve_16may.jsonl
 2026-11-11T10:07:47Z | E3 | done | Guatemala PPPVT new capacity before 2025 unchanged: 0.667 GW in NDCNEW and LTSNEW (0.386 GW 2018, 0.280 GW 2022), 0 in BAU; driven by B1 NDCNEW/LTSNEW activity lower limits 2018-2024 (3.81 PJ in 2018, 6.46 PJ in 2022 against 0.54 and 0.63 PJ in BAU)
+2026-11-11T10:11:58Z | F1 | done | changed paths only in the allowed set (Phase A files, 7 workbooks, A2/B1 outputs of 6 models, 4 stage folders, job folder)
+2026-11-11T10:11:58Z | F2 | done | no file above 50 MB, 0 safesave_tmp files, EXCEL.EXE 0 = start, no em dash, no trailers; git diff --check flags only CR line endings of the CRLF pipeline CSVs (clean with cr-at-eol)
+2026-11-11T10:11:58Z | F3 | done | REPORT, GAPS, CHANGES written; pushed; draft PR body updated from CHANGES
