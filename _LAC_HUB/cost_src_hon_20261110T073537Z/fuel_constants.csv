@@ -1,0 +1,62 @@
+name,value,unit,source_id,page_or_table,derivation
+GJ_PER_MMBTU,1.055056,GJ per MMBtu,GEN-003,"Appendix B.8, page 45",Btu_IT = 1.055 056 E+03 J; x 1e6 / 1e9
+UN_NGS_NET_PER_GROSS,0.9,ratio net to gross calorific value for natural gas,GEN-006,page xxv,UN Statistics Division convention for converting natural gas from gross to net basis
+MMBTU_PER_MCF_EIA,1.037,MMBtu per thousand cubic feet (gross),GEN-005,answer text,2025 U.S. average 1037 Btu per cubic foot
+UN_BBL_PER_T_CRU,7.32,barrels per metric ton (conventional crude oil),GEN-001,"Table II, page xxvii",
+IPCC_NCV_CRU,42.3,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Crude Oil
+KCAL_TO_KJ,4.1868,kJ per kcal,GEN-003,"Appendix B.8, page 46",calorie_IT = 4.1868 J
+GJ_PER_BBL_CRU,5.778689,GJ per barrel of crude oil (net),GEN-002;GEN-001,IPCC 2006 V2 Ch1 Table 1.2; UNSD Yearbook Table II,IPCC_NCV_CRU 42.3 GJ/t / UN_BBL_PER_T_CRU 7.32 bbl/t
+GJ_PER_T_COAL_6000NAR,25.1208,"GJ per tonne at 6,000 kcal/kg net as received",CSH-004;GEN-003,"Pink Sheet sheet Description (Coal, South African: NAR 6000 kcal/kg); NIST SP811",6000 kcal/kg x 4.1868 kJ/kcal / 1000
+CPIU_2018,251.107,"index 1982-84=100, annual average",CSH-005,"series CUUR0000SA0, monthly values M01 to M12",mean of 12 monthly values
+CPIU_2019,255.657,"index 1982-84=100, annual average",CSH-005,"series CUUR0000SA0, monthly values M01 to M12",mean of 12 monthly values
+CPIU_2020,258.811,"index 1982-84=100, annual average",CSH-005,"series CUUR0000SA0, monthly values M01 to M12",mean of 12 monthly values
+CPIU_2021,270.97,"index 1982-84=100, annual average",CSH-005,"series CUUR0000SA0, monthly values M01 to M12",mean of 12 monthly values
+CPIU_2022,292.655,"index 1982-84=100, annual average",CSH-005,"series CUUR0000SA0, monthly values M01 to M12",mean of 12 monthly values
+CPIU_2023,304.702,"index 1982-84=100, annual average",CSH-005,"series CUUR0000SA0, monthly values M01 to M12",mean of 12 monthly values
+CPIU_2024,313.689,"index 1982-84=100, annual average",CSH-005,"series CUUR0000SA0, monthly values M01 to M12",mean of 12 monthly values
+CPIU_2025,321.943,"index 1982-84=100, annual average",CSH-005,"series CUUR0000SA0, monthly values M01 to M12 (1 month not published)",mean of 11 monthly values
+BRENT_2018,71.34,"USD/bbl nominal, annual average",CSH-001,"sheet Data 1, row dated 2018-06-30",
+HENRYHUB_2018,3.15,"USD/MMBtu nominal (gross), annual average",CSH-002,"sheet Data 1, row dated 2018-06-30",
+COAL_SAFRICA_2018,97.6,"USD/t nominal, fob Richards Bay NAR 6000 kcal/kg",CSH-004,"sheet Annual Prices (Nominal), column G (Coal, South African), row 2018 (sheet row 67)",
+BRENT_2019,64.3,"USD/bbl nominal, annual average",CSH-001,"sheet Data 1, row dated 2019-06-30",
+HENRYHUB_2019,2.56,"USD/MMBtu nominal (gross), annual average",CSH-002,"sheet Data 1, row dated 2019-06-30",
+COAL_SAFRICA_2019,71.9,"USD/t nominal, fob Richards Bay NAR 6000 kcal/kg",CSH-004,"sheet Annual Prices (Nominal), column G (Coal, South African), row 2019 (sheet row 68)",
+BRENT_2020,41.96,"USD/bbl nominal, annual average",CSH-001,"sheet Data 1, row dated 2020-06-30",
+HENRYHUB_2020,2.03,"USD/MMBtu nominal (gross), annual average",CSH-002,"sheet Data 1, row dated 2020-06-30",
+COAL_SAFRICA_2020,65.7,"USD/t nominal, fob Richards Bay NAR 6000 kcal/kg",CSH-004,"sheet Annual Prices (Nominal), column G (Coal, South African), row 2020 (sheet row 69)",
+BRENT_2021,70.86,"USD/bbl nominal, annual average",CSH-001,"sheet Data 1, row dated 2021-06-30",
+HENRYHUB_2021,3.89,"USD/MMBtu nominal (gross), annual average",CSH-002,"sheet Data 1, row dated 2021-06-30",
+COAL_SAFRICA_2021,119.8,"USD/t nominal, fob Richards Bay NAR 6000 kcal/kg",CSH-004,"sheet Annual Prices (Nominal), column G (Coal, South African), row 2021 (sheet row 70)",
+BRENT_2022,100.93,"USD/bbl nominal, annual average",CSH-001,"sheet Data 1, row dated 2022-06-30",
+HENRYHUB_2022,6.45,"USD/MMBtu nominal (gross), annual average",CSH-002,"sheet Data 1, row dated 2022-06-30",
+COAL_SAFRICA_2022,240.6,"USD/t nominal, fob Richards Bay NAR 6000 kcal/kg",CSH-004,"sheet Annual Prices (Nominal), column G (Coal, South African), row 2022 (sheet row 71)",
+BRENT_2023,82.49,"USD/bbl nominal, annual average",CSH-001,"sheet Data 1, row dated 2023-06-30",
+HENRYHUB_2023,2.53,"USD/MMBtu nominal (gross), annual average",CSH-002,"sheet Data 1, row dated 2023-06-30",
+COAL_SAFRICA_2023,119.1,"USD/t nominal, fob Richards Bay NAR 6000 kcal/kg",CSH-004,"sheet Annual Prices (Nominal), column G (Coal, South African), row 2023 (sheet row 72)",
+BRENT_2024,80.52,"USD/bbl nominal, annual average",CSH-001,"sheet Data 1, row dated 2024-06-30",
+HENRYHUB_2024,2.19,"USD/MMBtu nominal (gross), annual average",CSH-002,"sheet Data 1, row dated 2024-06-30",
+COAL_SAFRICA_2024,105.8,"USD/t nominal, fob Richards Bay NAR 6000 kcal/kg",CSH-004,"sheet Annual Prices (Nominal), column G (Coal, South African), row 2024 (sheet row 73)",
+BRENT_2025,69.14,"USD/bbl nominal, annual average",CSH-001,"sheet Data 1, row dated 2025-06-30",
+HENRYHUB_2025,3.52,"USD/MMBtu nominal (gross), annual average",CSH-002,"sheet Data 1, row dated 2025-06-30",
+COAL_SAFRICA_2025,94.9,"USD/t nominal, fob Richards Bay NAR 6000 kcal/kg",CSH-004,"sheet Annual Prices (Nominal), column G (Coal, South African), row 2025 (sheet row 74)",
+WEO_CRUDE_OIL_CPS_2035,89,"USD/barrel, real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_CRUDE_OIL_CPS_2050,106,"USD/barrel, real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_CRUDE_OIL_ALL_2024,79,"USD/barrel, real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_CRUDE_OIL_STEPS_2035,80,"USD/barrel, real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_CRUDE_OIL_STEPS_2050,76,"USD/barrel, real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_CRUDE_OIL_NZE_2035,33,"USD/barrel, real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_CRUDE_OIL_NZE_2050,25,"USD/barrel, real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_NATURAL_GAS_UNITED_STATES_CPS_2035,4.5,"USD/MBtu (gross), real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_NATURAL_GAS_UNITED_STATES_CPS_2050,5.0,"USD/MBtu (gross), real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_NATURAL_GAS_UNITED_STATES_ALL_2024,2.2,"USD/MBtu (gross), real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_NATURAL_GAS_UNITED_STATES_STEPS_2035,3.9,"USD/MBtu (gross), real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_NATURAL_GAS_UNITED_STATES_STEPS_2050,4.6,"USD/MBtu (gross), real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_NATURAL_GAS_UNITED_STATES_NZE_2035,2.1,"USD/MBtu (gross), real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_NATURAL_GAS_UNITED_STATES_NZE_2050,2.2,"USD/MBtu (gross), real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_STEAM_COAL_EUROPEAN_UNION_CPS_2035,92,"USD/tonne (6000 kcal/kg), real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_STEAM_COAL_EUROPEAN_UNION_CPS_2050,82,"USD/tonne (6000 kcal/kg), real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_STEAM_COAL_EUROPEAN_UNION_ALL_2024,112,"USD/tonne (6000 kcal/kg), real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_STEAM_COAL_EUROPEAN_UNION_STEPS_2035,78,"USD/tonne (6000 kcal/kg), real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_STEAM_COAL_EUROPEAN_UNION_STEPS_2050,66,"USD/tonne (6000 kcal/kg), real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_STEAM_COAL_EUROPEAN_UNION_NZE_2035,47,"USD/tonne (6000 kcal/kg), real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
+WEO_STEAM_COAL_EUROPEAN_UNION_NZE_2050,39,"USD/tonne (6000 kcal/kg), real 2024 USD (MER)",CSH-006,"Table 2.3 Wholesale fossil fuel prices by scenario, PDF page 109",
