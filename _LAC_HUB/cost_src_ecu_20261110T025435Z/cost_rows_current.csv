@@ -1,0 +1,196 @@
+sheet,Tech.ID,Tech,Tech.Name,Parameter,Unit,Projection.Mode,Projection.Parameter,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,2038,2039,2040,2041,2042,2043,2044,2045,2046,2047,2048,2049,2050,scope
+Primary Techs,1,DIST_BGS,Primary - ETD - Biogas,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,1,DIST_BGS,Primary - ETD - Biogas,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,1,DIST_BGS,Primary - ETD - Biogas,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,2,DIST_BIM,Primary - ETD - Biomass,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,2,DIST_BIM,Primary - ETD - Biomass,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,2,DIST_BIM,Primary - ETD - Biomass,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,3,DIST_CHA,Primary - ETD - Charcoal,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,3,DIST_CHA,Primary - ETD - Charcoal,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,3,DIST_CHA,Primary - ETD - Charcoal,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,4,DIST_FIR,Primary - ETD - Firewood,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,4,DIST_FIR,Primary - ETD - Firewood,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,4,DIST_FIR,Primary - ETD - Firewood,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,5,DIST_COA,Primary - Import/Distribution - Coal,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,5,DIST_COA,Primary - Import/Distribution - Coal,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,5,DIST_COA,Primary - Import/Distribution - Coal,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,6,DIST_COK,Primary - Import/Distribution - Coke,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,6,DIST_COK,Primary - Import/Distribution - Coke,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,6,DIST_COK,Primary - Import/Distribution - Coke,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,7,DIST_DSL,Primary - Import/Distribution - Diesel,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,7,DIST_DSL,Primary - Import/Distribution - Diesel,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,7,DIST_DSL,Primary - Import/Distribution - Diesel,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,8,DIST_FOI,Primary - Import/Distribution - Fuel Oil,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,8,DIST_FOI,Primary - Import/Distribution - Fuel Oil,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,8,DIST_FOI,Primary - Import/Distribution - Fuel Oil,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,9,DIST_GSL,Primary - Import/Distribution - Gasoline,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,9,DIST_GSL,Primary - Import/Distribution - Gasoline,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,9,DIST_GSL,Primary - Import/Distribution - Gasoline,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,10,DIST_JET,Primary - Import/Distribution - Jet,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,10,DIST_JET,Primary - Import/Distribution - Jet,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,10,DIST_JET,Primary - Import/Distribution - Jet,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,11,DIST_KER,Primary - Import/Distribution - Kerosen,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,11,DIST_KER,Primary - Import/Distribution - Kerosen,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,11,DIST_KER,Primary - Import/Distribution - Kerosen,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,12,DIST_LPG,Primary - Import/Distribution - LPG,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,12,DIST_LPG,Primary - Import/Distribution - LPG,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,12,DIST_LPG,Primary - Import/Distribution - LPG,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,13,DIST_NGS,Primary - Import/Distribution - Natural Gas,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,13,DIST_NGS,Primary - Import/Distribution - Natural Gas,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,13,DIST_NGS,Primary - Import/Distribution - Natural Gas,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,14,DIST_CRU,Primary Import - Crude,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,14,DIST_CRU,Primary Import - Crude,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,14,DIST_CRU,Primary Import - Crude,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,15,DIST_OPE,Primary - Import/Distribution - OPE,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,15,DIST_OPE,Primary - Import/Distribution - OPE,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,15,DIST_OPE,Primary - Import/Distribution - OPE,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,16,DIST_RDF,Primary - Import/Distribution - Desechos municipales no biomasa,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,16,DIST_RDF,Primary - Import/Distribution - Desechos municipales no biomasa,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,16,DIST_RDF,Primary - Import/Distribution - Desechos municipales no biomasa,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,17,DIST_OID,Primary - Import/Distribution - Óleos de desecho,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,17,DIST_OID,Primary - Import/Distribution - Óleos de desecho,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,17,DIST_OID,Primary - Import/Distribution - Óleos de desecho,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,16,PPPVD,Primary - Transformation - Distributed Solar,CapitalCost,M US$ / GW,Flat,0,100.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,16,PPPVD,Primary - Transformation - Distributed Solar,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,16,PPPVD,Primary - Transformation - Distributed Solar,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,17,PPPVDS,Primary - Transformation - Distributed Solar with battery storage,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other
+Primary Techs,17,PPPVDS,Primary - Transformation - Distributed Solar with battery storage,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other
+Primary Techs,17,PPPVDS,Primary - Transformation - Distributed Solar with battery storage,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other
+Primary Techs,18,PPGEO,Primary - Transformation - Geothermal,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other
+Primary Techs,18,PPGEO,Primary - Transformation - Geothermal,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other
+Primary Techs,18,PPGEO,Primary - Transformation - Geothermal,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other
+Primary Techs,19,PPHDAMAB,Primary - Transformation - Hydro Dam Amazon Big (+ 450 MW),CapitalCost,M US$ / GW,Flat,0,5000.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,19,PPHDAMAB,Primary - Transformation - Hydro Dam Amazon Big (+ 450 MW),FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,19,PPHDAMAB,Primary - Transformation - Hydro Dam Amazon Big (+ 450 MW),VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,20,PPHDAMAM,Primary - Transformation - Hydro Dam Amazon Medium (< 450 MW),CapitalCost,M US$ / GW,Flat,0,3500.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,20,PPHDAMAM,Primary - Transformation - Hydro Dam Amazon Medium (< 450 MW),FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,20,PPHDAMAM,Primary - Transformation - Hydro Dam Amazon Medium (< 450 MW),VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,21,PPHDAMAS,Primary - Transformation - Hydro Dam Amazon Small (<50 MW),CapitalCost,M US$ / GW,Flat,0,5000.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,21,PPHDAMAS,Primary - Transformation - Hydro Dam Amazon Small (<50 MW),FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,21,PPHDAMAS,Primary - Transformation - Hydro Dam Amazon Small (<50 MW),VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,22,PPHDAMPM,Primary - Transformation - Hydro Dam Pacific Medium (< 450 MW),CapitalCost,M US$ / GW,Flat,0,3500.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,22,PPHDAMPM,Primary - Transformation - Hydro Dam Pacific Medium (< 450 MW),FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,22,PPHDAMPM,Primary - Transformation - Hydro Dam Pacific Medium (< 450 MW),VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,23,PPHDAMPS,Primary - Transformation - Hydro Dam Pacific Small (<50 MW),CapitalCost,M US$ / GW,Flat,0,5000.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,23,PPHDAMPS,Primary - Transformation - Hydro Dam Pacific Small (<50 MW),FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,23,PPHDAMPS,Primary - Transformation - Hydro Dam Pacific Small (<50 MW),VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,24,PPHRORAB,Primary - Transformation - Hydro ROR Amazon Big (+ 450 MW),CapitalCost,M US$ / GW,Flat,0,3500.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,24,PPHRORAB,Primary - Transformation - Hydro ROR Amazon Big (+ 450 MW),FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,24,PPHRORAB,Primary - Transformation - Hydro ROR Amazon Big (+ 450 MW),VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,25,PPHRORAM,Primary - Transformation - Hydro ROR Amazon Medium (< 450 MW),CapitalCost,M US$ / GW,Flat,0,5000.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,25,PPHRORAM,Primary - Transformation - Hydro ROR Amazon Medium (< 450 MW),FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,25,PPHRORAM,Primary - Transformation - Hydro ROR Amazon Medium (< 450 MW),VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,26,PPHRORAS,Primary - Transformation - Hydro ROR Amazon Small (<50 MW),CapitalCost,M US$ / GW,Flat,0,3500.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,26,PPHRORAS,Primary - Transformation - Hydro ROR Amazon Small (<50 MW),FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,26,PPHRORAS,Primary - Transformation - Hydro ROR Amazon Small (<50 MW),VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,27,PPHRORPM,Primary - Transformation - Hydro ROR Pacific Medium (< 450 MW),CapitalCost,M US$ / GW,Flat,0,5000.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,27,PPHRORPM,Primary - Transformation - Hydro ROR Pacific Medium (< 450 MW),FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,27,PPHRORPM,Primary - Transformation - Hydro ROR Pacific Medium (< 450 MW),VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,28,PPHRORPS,Primary - Transformation - Hydro ROR Pacific Small (<50 MW),CapitalCost,M US$ / GW,Flat,0,3500.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,28,PPHRORPS,Primary - Transformation - Hydro ROR Pacific Small (<50 MW),FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,28,PPHRORPS,Primary - Transformation - Hydro ROR Pacific Small (<50 MW),VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,29,PPPVT,Primary - Transformation - Transmission Solar,CapitalCost,M US$ / GW,Flat,0,800.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,29,PPPVT,Primary - Transformation - Transmission Solar,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,29,PPPVT,Primary - Transformation - Transmission Solar,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,30,PPPVTS,Primary - Transformation - Transmission Solar with battery storage,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,30,PPPVTS,Primary - Transformation - Transmission Solar with battery storage,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,30,PPPVTS,Primary - Transformation - Transmission Solar with battery storage,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,31,PPWNDON,Primary - Transformation - Wind,CapitalCost,M US$ / GW,Flat,0,1300.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,31,PPWNDON,Primary - Transformation - Wind,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,31,PPWNDON,Primary - Transformation - Wind,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,32,PPHD,Primary - Transformation - Hidroeléctrica distribuida,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,32,PPHD,Primary - Transformation - Hidroeléctrica distribuida,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,32,PPHD,Primary - Transformation - Hidroeléctrica distribuida,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,33,PPIHD,Primary - Transformation - Isolated Hidroeléctrica,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,33,PPIHD,Primary - Transformation - Isolated Hidroeléctrica,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,33,PPIHD,Primary - Transformation - Isolated Hidroeléctrica,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,34,PPWNDD,Primary - Transformation - Distributed Wind,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,34,PPWNDD,Primary - Transformation - Distributed Wind,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,34,PPWNDD,Primary - Transformation - Distributed Wind,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Primary Techs,35,EXTT_NGS,Reserves - Natural Gas,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,35,EXTT_NGS,Reserves - Natural Gas,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,35,EXTT_NGS,Reserves - Natural Gas,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,36,ADD_GRE,Primary - Import/Distribution - Gas Refineria,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,36,ADD_GRE,Primary - Import/Distribution - Gas Refineria,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,36,ADD_GRE,Primary - Import/Distribution - Gas Refineria,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Primary Techs,37,EXTT_CRU,Primary Extraction/Transformation - Crude,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,37,EXTT_CRU,Primary Extraction/Transformation - Crude,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,37,EXTT_CRU,Primary Extraction/Transformation - Crude,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,supply row
+Primary Techs,38,IMPELE, Import/Distribution - Electricity,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,electricity import
+Primary Techs,38,IMPELE, Import/Distribution - Electricity,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,electricity import
+Primary Techs,38,IMPELE, Import/Distribution - Electricity,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,electricity import
+Secondary Techs,1,ELE_TRANS,Secondary - Power Transmission,CapitalCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,1,ELE_TRANS,Secondary - Power Transmission,FixedCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,1,ELE_TRANS,Secondary - Power Transmission,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,2,ELE_DIST,Secondary - Power Distribution,CapitalCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,2,ELE_DIST,Secondary - Power Distribution,FixedCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,2,ELE_DIST,Secondary - Power Distribution,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,3,HYD_G_PROD,Secondary - Green Hydrogen Production,CapitalCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,3,HYD_G_PROD,Secondary - Green Hydrogen Production,FixedCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,3,HYD_G_PROD,Secondary - Green Hydrogen Production,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,4,HYD_DIST,Secondary  - Distribution of Hydrogen,CapitalCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,4,HYD_DIST,Secondary  - Distribution of Hydrogen,FixedCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,4,HYD_DIST,Secondary  - Distribution of Hydrogen,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,5,STOELE,Secondary - Storage,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,5,STOELE,Secondary - Storage,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,5,STOELE,Secondary - Storage,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,6,PPBIM,Primary - Transformation - Biomass/Residue,CapitalCost,M US$ / GW,Flat,0,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,6,PPBIM,Primary - Transformation - Biomass/Residue,FixedCost,M US$ / GW,Flat,0,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,6,PPBIM,Primary - Transformation - Biomass/Residue,VariableCost,M US$ / PJ,Flat,0,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,7,PPBGS,Primary - Transformation - Biogas,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,7,PPBGS,Primary - Transformation - Biogas,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,7,PPBGS,Primary - Transformation - Biogas,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,8,PPNGS,Primary - Transformation - Natural Gas,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,8,PPNGS,Primary - Transformation - Natural Gas,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,8,PPNGS,Primary - Transformation - Natural Gas,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,9,PPDSL,Primary - Transformation - Diesel,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,9,PPDSL,Primary - Transformation - Diesel,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,9,PPDSL,Primary - Transformation - Diesel,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,10,PPFOI,Primary - Transformation - Fuel Oil,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,10,PPFOI,Primary - Transformation - Fuel Oil,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,10,PPFOI,Primary - Transformation - Fuel Oil,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,11,PPCRU,Power Plant Crude,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,11,PPCRU,Power Plant Crude,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,11,PPCRU,Power Plant Crude,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,12,PPRNGS,Isolated Power Plant Refinery Natural Gas,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,12,PPRNGS,Isolated Power Plant Refinery Natural Gas,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,12,PPRNGS,Isolated Power Plant Refinery Natural Gas,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,13,PPRDSL,Isolated Power Plant Refinery Diesel,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,13,PPRDSL,Isolated Power Plant Refinery Diesel,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,13,PPRDSL,Isolated Power Plant Refinery Diesel,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,14,PPDFOI,Distributed Power Plant Fuel Oil,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,14,PPDFOI,Distributed Power Plant Fuel Oil,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,14,PPDFOI,Distributed Power Plant Fuel Oil,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,15,PPDDSL,Distributed Power Plant  Diesel,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,15,PPDDSL,Distributed Power Plant  Diesel,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,15,PPDDSL,Distributed Power Plant  Diesel,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,16,PPILPG,Isolated Power Plant LPG,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,16,PPILPG,Isolated Power Plant LPG,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,16,PPILPG,Isolated Power Plant LPG,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,17,PPIBIM,Isolated Power Plant Biomass/Residue,CapitalCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,17,PPIBIM,Isolated Power Plant Biomass/Residue,FixedCost,M US$ / GW,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,17,PPIBIM,Isolated Power Plant Biomass/Residue,VariableCost,M US$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,plant in scope
+Secondary Techs,16,PROCRU,Production - Crude,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,16,PROCRU,Production - Crude,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,16,PROCRU,Production - Crude,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,17,PRONGS,Production - Natural_Gas,CapitalCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,17,PRONGS,Production - Natural_Gas,FixedCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,17,PRONGS,Production - Natural_Gas,VariableCost,MUS$ / PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,18,REF_DSL,Secondary Diesel Refinery,CapitalCost,,EMPTY,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,18,REF_DSL,Secondary Diesel Refinery,FixedCost,,EMPTY,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,18,REF_DSL,Secondary Diesel Refinery,VariableCost,MUSD/PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,19,REF_GSL,Secondary Gasoline Refinery,CapitalCost,,EMPTY,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,19,REF_GSL,Secondary Gasoline Refinery,FixedCost,,EMPTY,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,19,REF_GSL,Secondary Gasoline Refinery,VariableCost,MUSD/PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,20,REF_LPG,Secondary LPG Refinery,CapitalCost,,EMPTY,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,20,REF_LPG,Secondary LPG Refinery,FixedCost,,EMPTY,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,20,REF_LPG,Secondary LPG Refinery,VariableCost,MUSD/PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,21,REF_FOI,Secondary Fuel Oil Refinery,CapitalCost,,EMPTY,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,21,REF_FOI,Secondary Fuel Oil Refinery,FixedCost,,EMPTY,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,21,REF_FOI,Secondary Fuel Oil Refinery,VariableCost,MUSD/PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,22,REF_JET,Primary - Import/Distribution - Jet,CapitalCost,,EMPTY,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,22,REF_JET,Primary - Import/Distribution - Jet,FixedCost,,EMPTY,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,22,REF_JET,Primary - Import/Distribution - Jet,VariableCost,MUSD/PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,23,REF_OPE,Primary - Import/Distribution - OPE,CapitalCost,,EMPTY,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,23,REF_OPE,Primary - Import/Distribution - OPE,FixedCost,,EMPTY,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)
+Secondary Techs,23,REF_OPE,Primary - Import/Distribution - OPE,VariableCost,MUSD/PJ,Flat,0,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,other (country notes: proposal)

@@ -1,0 +1,178 @@
+Tech,Parameter,fuel_scenario,unit,current_2024,proposed_2024,change_pct_2024,current_2030,proposed_2030,change_pct_2030,current_2050,proposed_2050,change_pct_2050,basis_classes,change_classes
+ADD_GRE,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+ADD_GRE,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+ADD_GRE,VariableCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_BGS,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_BGS,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_BGS,VariableCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_BIM,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_BIM,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_BIM,VariableCost,ALL,MUS$ / PJ,1.0,6.7874,578.7,1.0,6.7874,578.7,1.0,6.7874,578.7,replace,fill_placeholder
+DIST_CHA,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_CHA,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_CHA,VariableCost,ALL,MUS$ / PJ,1.0,13.5748,1257.5,1.0,13.5748,1257.5,1.0,13.5748,1257.5,ASSUMPTION,fill_placeholder
+DIST_COA,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_COA,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_COA,VariableCost,STEPS,MUS$ / PJ,1.0,8.9126,791.3,1.0,7.2707,627.1,1.0,4.958,395.8,history from ratio;observed;projected,fill_placeholder
+DIST_COK,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_COK,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_COK,VariableCost,STEPS,MUS$ / PJ,1.0,3.7942,279.4,1.0,3.8204,282.0,1.0,3.6501,265.0,history from ratio;observed;projected,fill_placeholder
+DIST_CRU,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_CRU,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_CRU,VariableCost,STEPS,MUS$ / PJ,1.0,11.8641,1086.4,1.0,11.9382,1093.8,1.0,11.4061,1040.6,observed;projected,fill_placeholder
+DIST_DSL,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_DSL,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_DSL,VariableCost,STEPS,MUS$ / PJ,1.0,17.7184,1671.8,1.0,18.6541,1765.4,1.0,17.8227,1682.3,observed;projected,fill_placeholder
+DIST_FIR,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_FIR,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_FIR,VariableCost,ALL,MUS$ / PJ,1.0,6.7874,578.7,1.0,6.7874,578.7,1.0,6.7874,578.7,replace,fill_placeholder
+DIST_FOI,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_FOI,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_FOI,VariableCost,STEPS,MUS$ / PJ,1.0,10.1059,910.6,1.0,10.3608,936.1,1.0,9.899,889.9,observed;projected,fill_placeholder
+DIST_GSL,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_GSL,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_GSL,VariableCost,STEPS,MUS$ / PJ,1.0,20.1327,1913.3,1.0,20.3756,1937.6,1.0,19.4674,1846.7,observed;projected,fill_placeholder
+DIST_JET,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_JET,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_JET,VariableCost,STEPS,MUS$ / PJ,1.0,23.1835,2218.3,1.0,23.3436,2234.4,1.0,22.3031,2130.3,history from ratio;observed;projected,fill_placeholder
+DIST_KER,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_KER,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_KER,VariableCost,STEPS,MUS$ / PJ,1.0,18.3236,1732.4,1.0,18.4501,1745.0,1.0,17.6278,1662.8,history from ratio;observed;projected,fill_placeholder
+DIST_LPG,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_LPG,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_LPG,VariableCost,STEPS,MUS$ / PJ,1.0,11.7672,1076.7,1.0,12.4026,1140.3,1.0,11.8498,1085.0,observed;projected,fill_placeholder
+DIST_NGS,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_NGS,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_NGS,VariableCost,STEPS,MUS$ / PJ,1.0,3.2007,220.1,1.0,3.4414,244.1,1.0,3.4414,244.1,ASSUMPTION;observed,fill_placeholder
+DIST_OID,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_OID,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_OID,VariableCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_OPE,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_OPE,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_OPE,VariableCost,STEPS,MUS$ / PJ,1.0,10.1059,910.6,1.0,10.3608,936.1,1.0,9.899,889.9,ASSUMPTION,fill_placeholder
+DIST_RDF,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_RDF,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+DIST_RDF,VariableCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+ELE_DIST,CapitalCost,ALL,M US$ / PJ,1.0,57.3044,5630.4,1.0,57.3044,5630.4,1.0,57.3044,5630.4,replace,fill_placeholder
+ELE_DIST,FixedCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+ELE_DIST,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+ELE_TRANS,CapitalCost,ALL,M US$ / PJ,1.0,28.6714,2767.1,1.0,28.6714,2767.1,1.0,28.6714,2767.1,replace,fill_placeholder
+ELE_TRANS,FixedCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+ELE_TRANS,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+EXTT_CRU,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+EXTT_CRU,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+EXTT_CRU,VariableCost,STEPS,MUS$ / PJ,1.0,13.936,1293.6,1.0,15.7201,1472.0,1.0,21.5137,2051.4,replace,fill_placeholder
+EXTT_NGS,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+EXTT_NGS,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+EXTT_NGS,VariableCost,STEPS,MUS$ / PJ,1.0,5.9078,490.8,1.0,7.0887,608.9,1.0,11.0261,1002.6,replace,fill_placeholder
+HYD_DIST,CapitalCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+HYD_DIST,FixedCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+HYD_DIST,VariableCost,ALL,M US$ / PJ,1.0,29.71,2871.0,1.0,12.38,1138.0,1.0,6.6,560.0,replace,fill_placeholder
+HYD_G_PROD,CapitalCost,ALL,M US$ / PJ,1.0,34.34,3334.0,1.0,23.37,2237.0,1.0,23.37,2237.0,replace,fill_placeholder
+HYD_G_PROD,FixedCost,ALL,M US$ / PJ,1.0,1.27,27.0,1.0,1.27,27.0,1.0,1.27,27.0,replace,fill_placeholder
+HYD_G_PROD,VariableCost,ALL,M US$ / PJ,1.0,0.67,-33.0,1.0,0.67,-33.0,1.0,0.67,-33.0,replace,fill_placeholder
+IMPELE,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+IMPELE,FixedCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,ASSUMPTION,fill_placeholder
+IMPELE,VariableCost,ALL,MUS$ / PJ,1.0,73.1887,7218.9,1.0,73.1887,7218.9,1.0,73.1887,7218.9,ASSUMPTION;observed,fill_placeholder
+PPBGS,CapitalCost,ALL,M US$ / GW,1.0,2308.9341,230793.4,1.0,2308.9341,230793.4,1.0,2308.9341,230793.4,replace,fill_placeholder
+PPBGS,FixedCost,ALL,M US$ / GW,1.0,15.7565,1475.7,1.0,15.7565,1475.7,1.0,15.7565,1475.7,replace,fill_placeholder
+PPBGS,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPBIM,CapitalCost,ALL,M US$ / GW,2.0,2308.9341,115346.7,2.0,2308.9341,115346.7,2.0,2308.9341,115346.7,replace,fill_placeholder
+PPBIM,FixedCost,ALL,M US$ / GW,2.0,15.7565,687.8,2.0,15.7565,687.8,2.0,15.7565,687.8,replace,fill_placeholder
+PPBIM,VariableCost,ALL,M US$ / PJ,2.0,0.0,-100.0,2.0,0.0,-100.0,2.0,0.0,-100.0,replace,fill_placeholder
+PPCRU,CapitalCost,ALL,M US$ / GW,1.0,1454.4467,145344.7,1.0,1454.4467,145344.7,1.0,1454.4467,145344.7,replace,fill_placeholder
+PPCRU,FixedCost,ALL,M US$ / GW,1.0,18.1806,1718.1,1.0,18.1806,1718.1,1.0,18.1806,1718.1,replace,fill_placeholder
+PPCRU,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPDDSL,CapitalCost,ALL,M US$ / GW,1.0,1454.4467,145344.7,1.0,1454.4467,145344.7,1.0,1454.4467,145344.7,replace,fill_placeholder
+PPDDSL,FixedCost,ALL,M US$ / GW,1.0,18.1806,1718.1,1.0,18.1806,1718.1,1.0,18.1806,1718.1,replace,fill_placeholder
+PPDDSL,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPDFOI,CapitalCost,ALL,M US$ / GW,1.0,1454.4467,145344.7,1.0,1454.4467,145344.7,1.0,1454.4467,145344.7,replace,fill_placeholder
+PPDFOI,FixedCost,ALL,M US$ / GW,1.0,18.1806,1718.1,1.0,18.1806,1718.1,1.0,18.1806,1718.1,replace,fill_placeholder
+PPDFOI,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPDSL,CapitalCost,ALL,M US$ / GW,1.0,1454.4467,145344.7,1.0,1454.4467,145344.7,1.0,1454.4467,145344.7,replace,fill_placeholder
+PPDSL,FixedCost,ALL,M US$ / GW,1.0,18.1806,1718.1,1.0,18.1806,1718.1,1.0,18.1806,1718.1,replace,fill_placeholder
+PPDSL,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPFOI,CapitalCost,ALL,M US$ / GW,1.0,1454.4467,145344.7,1.0,1454.4467,145344.7,1.0,1454.4467,145344.7,replace,fill_placeholder
+PPFOI,FixedCost,ALL,M US$ / GW,1.0,18.1806,1718.1,1.0,18.1806,1718.1,1.0,18.1806,1718.1,replace,fill_placeholder
+PPFOI,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPHD,CapitalCost,ALL,M US$ / GW,1.0,4240.9241,423992.4,1.0,4240.9241,423992.4,1.0,4240.9241,423992.4,replace,fill_placeholder
+PPHD,FixedCost,ALL,M US$ / GW,1.0,127.2277,12622.8,1.0,127.2277,12622.8,1.0,127.2277,12622.8,replace,fill_placeholder
+PPHD,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPHDAMAB,CapitalCost,ALL,M US$ / GW,5000.0,3562.1823,-28.8,5000.0,3562.1823,-28.8,5000.0,3562.1823,-28.8,replace,replace
+PPHDAMAB,FixedCost,ALL,M US$ / GW,1.0,106.8655,10586.5,1.0,106.8655,10586.5,1.0,106.8655,10586.5,replace,fill_placeholder
+PPHDAMAB,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPHDAMAM,CapitalCost,ALL,M US$ / GW,3500.0,3500.0,0.0,3500.0,3500.0,0.0,3500.0,3500.0,0.0,matched,keep
+PPHDAMAM,FixedCost,ALL,M US$ / GW,1.0,106.8655,10586.5,1.0,106.8655,10586.5,1.0,106.8655,10586.5,replace,fill_placeholder
+PPHDAMAM,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPHDAMAS,CapitalCost,ALL,M US$ / GW,5000.0,3030.0973,-39.4,5000.0,3030.0973,-39.4,5000.0,3030.0973,-39.4,replace,replace
+PPHDAMAS,FixedCost,ALL,M US$ / GW,1.0,90.9029,8990.3,1.0,90.9029,8990.3,1.0,90.9029,8990.3,replace,fill_placeholder
+PPHDAMAS,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPHDAMPM,CapitalCost,ALL,M US$ / GW,3500.0,3500.0,0.0,3500.0,3500.0,0.0,3500.0,3500.0,0.0,matched,keep
+PPHDAMPM,FixedCost,ALL,M US$ / GW,1.0,106.8655,10586.5,1.0,106.8655,10586.5,1.0,106.8655,10586.5,replace,fill_placeholder
+PPHDAMPM,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPHDAMPS,CapitalCost,ALL,M US$ / GW,5000.0,3030.0973,-39.4,5000.0,3030.0973,-39.4,5000.0,3030.0973,-39.4,replace,replace
+PPHDAMPS,FixedCost,ALL,M US$ / GW,1.0,90.9029,8990.3,1.0,90.9029,8990.3,1.0,90.9029,8990.3,replace,fill_placeholder
+PPHDAMPS,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPHRORAB,CapitalCost,ALL,M US$ / GW,3500.0,3500.0,0.0,3500.0,3500.0,0.0,3500.0,3500.0,0.0,matched,keep
+PPHRORAB,FixedCost,ALL,M US$ / GW,1.0,106.8655,10586.5,1.0,106.8655,10586.5,1.0,106.8655,10586.5,replace,fill_placeholder
+PPHRORAB,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPHRORAM,CapitalCost,ALL,M US$ / GW,5000.0,3562.1823,-28.8,5000.0,3562.1823,-28.8,5000.0,3562.1823,-28.8,replace,replace
+PPHRORAM,FixedCost,ALL,M US$ / GW,1.0,106.8655,10586.5,1.0,106.8655,10586.5,1.0,106.8655,10586.5,replace,fill_placeholder
+PPHRORAM,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPHRORAS,CapitalCost,ALL,M US$ / GW,3500.0,3030.0973,-13.4,3500.0,3030.0973,-13.4,3500.0,3030.0973,-13.4,replace,replace
+PPHRORAS,FixedCost,ALL,M US$ / GW,1.0,90.9029,8990.3,1.0,90.9029,8990.3,1.0,90.9029,8990.3,replace,fill_placeholder
+PPHRORAS,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPHRORPM,CapitalCost,ALL,M US$ / GW,5000.0,3562.1823,-28.8,5000.0,3562.1823,-28.8,5000.0,3562.1823,-28.8,replace,replace
+PPHRORPM,FixedCost,ALL,M US$ / GW,1.0,106.8655,10586.5,1.0,106.8655,10586.5,1.0,106.8655,10586.5,replace,fill_placeholder
+PPHRORPM,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPHRORPS,CapitalCost,ALL,M US$ / GW,3500.0,3030.0973,-13.4,3500.0,3030.0973,-13.4,3500.0,3030.0973,-13.4,replace,replace
+PPHRORPS,FixedCost,ALL,M US$ / GW,1.0,90.9029,8990.3,1.0,90.9029,8990.3,1.0,90.9029,8990.3,replace,fill_placeholder
+PPHRORPS,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPIBIM,CapitalCost,ALL,M US$ / GW,1.0,2308.9341,230793.4,1.0,2308.9341,230793.4,1.0,2308.9341,230793.4,replace,fill_placeholder
+PPIBIM,FixedCost,ALL,M US$ / GW,1.0,15.7565,1475.7,1.0,15.7565,1475.7,1.0,15.7565,1475.7,replace,fill_placeholder
+PPIBIM,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPIHD,CapitalCost,ALL,M US$ / GW,1.0,4240.9241,423992.4,1.0,4240.9241,423992.4,1.0,4240.9241,423992.4,replace,fill_placeholder
+PPIHD,FixedCost,ALL,M US$ / GW,1.0,127.2277,12622.8,1.0,127.2277,12622.8,1.0,127.2277,12622.8,replace,fill_placeholder
+PPIHD,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPILPG,CapitalCost,ALL,M US$ / GW,1.0,1454.4467,145344.7,1.0,1454.4467,145344.7,1.0,1454.4467,145344.7,replace,fill_placeholder
+PPILPG,FixedCost,ALL,M US$ / GW,1.0,18.1806,1718.1,1.0,18.1806,1718.1,1.0,18.1806,1718.1,replace,fill_placeholder
+PPILPG,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPNGS,CapitalCost,ALL,M US$ / GW,1.0,706.6187,70561.9,1.0,706.6187,70561.9,1.0,706.6187,70561.9,replace,fill_placeholder
+PPNGS,FixedCost,ALL,M US$ / GW,1.0,12.1204,1112.0,1.0,12.1204,1112.0,1.0,12.1204,1112.0,replace,fill_placeholder
+PPNGS,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPPVD,CapitalCost,ALL,M US$ / GW,100.0,1855.4872,1755.5,100.0,1542.3074,1442.3,100.0,960.6662,860.7,replace,replace
+PPPVD,FixedCost,ALL,M US$ / GW,1.0,19.7117,1871.2,1.0,16.9785,1597.8,1.0,11.9192,1091.9,replace,fill_placeholder
+PPPVD,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPPVT,CapitalCost,ALL,M US$ / GW,800.0,1484.8886,85.6,800.0,940.5422,17.6,800.0,800.0,0.0,matched;replace,keep;replace
+PPPVT,FixedCost,ALL,M US$ / GW,1.0,19.3036,1830.4,1.0,12.227,1122.7,1.0,10.4466,944.7,replace,fill_placeholder
+PPPVT,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPPVTS,CapitalCost,ALL,M US$ / GW,1.0,2101.8164,210081.6,1.0,1345.3632,134436.3,1.0,1050.8377,104983.8,replace,fill_placeholder
+PPPVTS,FixedCost,ALL,M US$ / GW,1.0,19.5049,1850.5,1.0,13.3124,1231.2,1.0,10.5084,950.8,replace,fill_placeholder
+PPPVTS,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPRDSL,CapitalCost,ALL,M US$ / GW,1.0,1454.4467,145344.7,1.0,1454.4467,145344.7,1.0,1454.4467,145344.7,replace,fill_placeholder
+PPRDSL,FixedCost,ALL,M US$ / GW,1.0,18.1806,1718.1,1.0,18.1806,1718.1,1.0,18.1806,1718.1,replace,fill_placeholder
+PPRDSL,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPRNGS,CapitalCost,ALL,M US$ / GW,1.0,706.6187,70561.9,1.0,706.6187,70561.9,1.0,706.6187,70561.9,replace,fill_placeholder
+PPRNGS,FixedCost,ALL,M US$ / GW,1.0,12.1204,1112.0,1.0,12.1204,1112.0,1.0,12.1204,1112.0,replace,fill_placeholder
+PPRNGS,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPWNDD,CapitalCost,ALL,M US$ / GW,1.0,3676.4387,367543.9,1.0,2450.8055,244980.6,1.0,1736.4343,173543.4,replace,fill_placeholder
+PPWNDD,FixedCost,ALL,M US$ / GW,1.0,41.7387,4073.9,1.0,40.7205,3972.0,1.0,38.1801,3718.0,replace,fill_placeholder
+PPWNDD,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PPWNDON,CapitalCost,ALL,M US$ / GW,1300.0,1430.4483,10.0,1300.0,1075.0785,-17.3,1300.0,923.5736,-29.0,matched;replace,keep;replace
+PPWNDON,FixedCost,ALL,M US$ / GW,1.0,57.2179,5621.8,1.0,43.0031,4200.3,1.0,36.9429,3594.3,replace,fill_placeholder
+PPWNDON,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PROCRU,CapitalCost,ALL,MUS$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder
+PROCRU,FixedCost,ALL,MUS$ / PJ,1.0,114.4757,11347.6,1.0,114.4757,11347.6,1.0,114.4757,11347.6,replace,fill_placeholder
+PROCRU,VariableCost,ALL,MUS$ / PJ,1.0,2.4,140.0,1.0,2.4,140.0,1.0,2.4,140.0,replace,fill_placeholder
+PRONGS,CapitalCost,ALL,MUS$ / PJ,1.0,1.02,2.0,1.0,1.02,2.0,1.0,1.02,2.0,replace,fill_placeholder
+PRONGS,FixedCost,ALL,MUS$ / PJ,1.0,0.5,-50.0,1.0,0.5,-50.0,1.0,0.5,-50.0,replace,fill_placeholder
+PRONGS,VariableCost,ALL,MUS$ / PJ,1.0,2.04,104.0,1.0,2.04,104.0,1.0,2.04,104.0,replace,fill_placeholder
+REF_DSL,VariableCost,ALL,MUSD/PJ,1.0,0.8699,-13.0,1.0,0.8699,-13.0,1.0,0.8699,-13.0,replace,fill_placeholder
+REF_FOI,VariableCost,ALL,MUSD/PJ,1.0,0.8699,-13.0,1.0,0.8699,-13.0,1.0,0.8699,-13.0,replace,fill_placeholder
+REF_GSL,VariableCost,ALL,MUSD/PJ,1.0,0.8699,-13.0,1.0,0.8699,-13.0,1.0,0.8699,-13.0,replace,fill_placeholder
+REF_JET,VariableCost,ALL,MUSD/PJ,1.0,0.8699,-13.0,1.0,0.8699,-13.0,1.0,0.8699,-13.0,replace,fill_placeholder
+REF_LPG,VariableCost,ALL,MUSD/PJ,1.0,0.8699,-13.0,1.0,0.8699,-13.0,1.0,0.8699,-13.0,replace,fill_placeholder
+REF_OPE,VariableCost,ALL,MUSD/PJ,1.0,0.8699,-13.0,1.0,0.8699,-13.0,1.0,0.8699,-13.0,replace,fill_placeholder
+STOELE,CapitalCost,ALL,M US$ / GW,1.0,60.1562,5915.6,1.0,44.1906,4319.1,1.0,30.5648,2956.5,replace,fill_placeholder
+STOELE,FixedCost,ALL,M US$ / GW,1.0,1.504,50.4,1.0,1.1046,10.5,1.0,0.7641,-23.6,replace,fill_placeholder
+STOELE,VariableCost,ALL,M US$ / PJ,1.0,0.0,-100.0,1.0,0.0,-100.0,1.0,0.0,-100.0,replace,fill_placeholder

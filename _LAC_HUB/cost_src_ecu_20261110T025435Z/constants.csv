@@ -1,0 +1,52 @@
+name,value,unit,source_id,page_or_table,derivation
+US_CPIU_2018,251.107,"index 1982-84=100, annual average",BEN-004,BLS CUUR0000SA0 annual average (period M13),as published
+US_CPIU_2019,255.657,"index 1982-84=100, annual average",BEN-004,BLS CUUR0000SA0 annual average (period M13),as published
+US_CPIU_2020,258.811,"index 1982-84=100, annual average",BEN-004,BLS CUUR0000SA0 annual average (period M13),as published
+US_CPIU_2021,270.97,"index 1982-84=100, annual average",BEN-004,BLS CUUR0000SA0 annual average (period M13),as published
+US_CPIU_2022,292.655,"index 1982-84=100, annual average",BEN-004,BLS CUUR0000SA0 annual average (period M13),as published
+US_CPIU_2023,304.702,"index 1982-84=100, annual average",BEN-004,BLS CUUR0000SA0 annual average (period M13),as published
+US_CPIU_2024,313.689,"index 1982-84=100, annual average",BEN-004,BLS CUUR0000SA0 annual average (period M13),as published
+US_CPIU_2025,321.943,"index 1982-84=100, annual average",BEN-004,BLS CUUR0000SA0 annual average (period M13),as published
+BENCH_BRENT_2018,71.34,USD/bbl nominal,BEN-001,annual average,"as published, nominal"
+BENCH_BRENT_2019,64.3,USD/bbl nominal,BEN-001,annual average,"as published, nominal"
+BENCH_BRENT_2020,41.96,USD/bbl nominal,BEN-001,annual average,"as published, nominal"
+BENCH_BRENT_2021,70.86,USD/bbl nominal,BEN-001,annual average,"as published, nominal"
+BENCH_BRENT_2022,100.93,USD/bbl nominal,BEN-001,annual average,"as published, nominal"
+BENCH_BRENT_2023,82.49,USD/bbl nominal,BEN-001,annual average,"as published, nominal"
+BENCH_BRENT_2024,80.52,USD/bbl nominal,BEN-001,annual average,"as published, nominal"
+BENCH_BRENT_2025,69.14,USD/bbl nominal,BEN-001,annual average,"as published, nominal"
+BENCH_COAL_AU_2018,107.0,$/mt nominal,BEN-003,annual average,"as published, nominal"
+BENCH_COAL_AU_2019,77.9,$/mt nominal,BEN-003,annual average,"as published, nominal"
+BENCH_COAL_AU_2020,60.8,$/mt nominal,BEN-003,annual average,"as published, nominal"
+BENCH_COAL_AU_2021,138.1,$/mt nominal,BEN-003,annual average,"as published, nominal"
+BENCH_COAL_AU_2022,344.9,$/mt nominal,BEN-003,annual average,"as published, nominal"
+BENCH_COAL_AU_2023,172.8,$/mt nominal,BEN-003,annual average,"as published, nominal"
+BENCH_COAL_AU_2024,136.1,$/mt nominal,BEN-003,annual average,"as published, nominal"
+BENCH_COAL_AU_2025,108.4,$/mt nominal,BEN-003,annual average,"as published, nominal"
+WEO2025_IEA_CRUDE_OIL_HIST_2024,79.0,"USD/barrel, 2024 USD (MER)",BEN-005,"WEO 2025 Table 2.3, page 109",as published
+WEO2025_IEA_CRUDE_OIL_STEPS_2035,80.0,"USD/barrel, 2024 USD (MER)",BEN-005,"WEO 2025 Table 2.3, page 109",as published
+WEO2025_IEA_CRUDE_OIL_STEPS_2050,76.0,"USD/barrel, 2024 USD (MER)",BEN-005,"WEO 2025 Table 2.3, page 109",as published
+WEO2025_IEA_CRUDE_OIL_CPS_2035,89.0,"USD/barrel, 2024 USD (MER)",BEN-005,"WEO 2025 Table 2.3, page 109",as published
+WEO2025_IEA_CRUDE_OIL_CPS_2050,106.0,"USD/barrel, 2024 USD (MER)",BEN-005,"WEO 2025 Table 2.3, page 109",as published
+WEO2025_IEA_CRUDE_OIL_NZE_2035,33.0,"USD/barrel, 2024 USD (MER)",BEN-005,"WEO 2025 Table 2.3, page 109",as published
+WEO2025_IEA_CRUDE_OIL_NZE_2050,25.0,"USD/barrel, 2024 USD (MER)",BEN-005,"WEO 2025 Table 2.3, page 109",as published
+WEO2025_STEAM_COAL_JAPAN_HIST_2024,151.0,"USD/tonne (6000 kcal/kg), 2024 USD (MER)",BEN-005,"WEO 2025 Table 2.3, page 109",as published
+WEO2025_STEAM_COAL_JAPAN_STEPS_2035,100.0,"USD/tonne (6000 kcal/kg), 2024 USD (MER)",BEN-005,"WEO 2025 Table 2.3, page 109",as published
+WEO2025_STEAM_COAL_JAPAN_STEPS_2050,84.0,"USD/tonne (6000 kcal/kg), 2024 USD (MER)",BEN-005,"WEO 2025 Table 2.3, page 109",as published
+WEO2025_STEAM_COAL_JAPAN_CPS_2035,112.0,"USD/tonne (6000 kcal/kg), 2024 USD (MER)",BEN-005,"WEO 2025 Table 2.3, page 109",as published
+WEO2025_STEAM_COAL_JAPAN_CPS_2050,105.0,"USD/tonne (6000 kcal/kg), 2024 USD (MER)",BEN-005,"WEO 2025 Table 2.3, page 109",as published
+WEO2025_STEAM_COAL_JAPAN_NZE_2035,57.0,"USD/tonne (6000 kcal/kg), 2024 USD (MER)",BEN-005,"WEO 2025 Table 2.3, page 109",as published
+WEO2025_STEAM_COAL_JAPAN_NZE_2050,49.0,"USD/tonne (6000 kcal/kg), 2024 USD (MER)",BEN-005,"WEO 2025 Table 2.3, page 109",as published
+GJ_PER_MMBTU,1.055056,GJ per MMBtu,GEN-003,"Appendix B.8, page 45",Btu_IT = 1055.056 J
+UN_NGS_NET_PER_GROSS,0.9,ratio net to gross calorific value for natural gas,GEN-006,Units of measurement and conversion page,as published
+USD_PER_GJ_PER_USD_PER_MWH,0.27778,USD/GJ per USD/MWh,GEN-003,"Appendix B.8, page 45",1 MWh = 3.6 GJ
+CPI_FACTOR_2020_TO_2024,1.212039,ratio,BEN-004,CPI-U annual averages 2024 / 2020,313.689 / 258.811
+CPI_FACTOR_2022_TO_2024,1.071873,ratio,BEN-004,CPI-U annual averages 2024 / 2022,313.689 / 292.655
+PJ_PER_GW_YEAR,31.536,PJ per GW-year,GEN-003,"Appendix B.8, page 45",8760 h x 3600 s / 1e6 x 1 GW = 31.536 PJ
+ECU_RESIDUE_TERMINAL_2024,0.894,"USD/gal excl. VAT, day-weighted 2024",ECU-003;ECU-004;ECU-005;ECU-006;ECU-007;ECU-008;ECU-009;ECU-010;ECU-011;ECU-012;ECU-013;ECU-014;ECU-015,"Residuo industrial row, monthly terminal price lists",day-weighted mean of monthly prices excluding VAT
+UN_GAL_PER_T_FOI,278.0,US gallons per metric ton (fuel oil),GEN-001,"Table II, page xxvii",as published
+IPCC_NCV_FOI,40.4,GJ per t (net),GEN-002,"Table 1.2, page 1.18",Residual Fuel Oil
+ECU_IMPELE_2021,25.51,"USD/MWh nominal (total paid / energy imported, Colombia and Peru)",ECU-020;ECX-001,"ARCONEL Estadistica 2024 Tablas 145 to 148, PDF p.138-139; CENACE Informe Anual 2024 Tabla 2.4",9.2800 MUSD / 363.80 GWh
+ECU_IMPELE_2022,59.5,"USD/MWh nominal (total paid / energy imported, Colombia and Peru)",ECU-020;ECX-001,"ARCONEL Estadistica 2024 Tablas 145 to 148, PDF p.138-139; CENACE Informe Anual 2024 Tabla 2.4",27.7166 MUSD / 465.83 GWh
+ECU_IMPELE_2023,216.42,"USD/MWh nominal (total paid / energy imported, Colombia and Peru)",ECU-020;ECX-001,"ARCONEL Estadistica 2024 Tablas 145 to 148, PDF p.138-139; CENACE Informe Anual 2024 Tabla 2.4",285.8800 MUSD / 1320.95 GWh
+ECU_IMPELE_2024,263.48,"USD/MWh nominal (total paid / energy imported, Colombia and Peru)",ECU-020;ECX-001,"ARCONEL Estadistica 2024 Tablas 145 to 148, PDF p.138-139; CENACE Informe Anual 2024 Tabla 2.4",334.5013 MUSD / 1269.56 GWh

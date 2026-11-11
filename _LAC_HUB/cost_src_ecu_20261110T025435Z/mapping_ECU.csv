@@ -1,0 +1,30 @@
+technology,ccg_code,ccg_description,planmicc_code,planmicc_v2_source_codes_cap_fix_var,note
+PPBGS,PWRBIO001,Biomass Power Plant,PP_BGSICE,4/4/none,biogas engines: CCG has one biomass plant class
+PPBIM,PWRBIO001,Biomass Power Plant,PP_SUG,"1,4/4/none",bagasse and residue plants: CCG biomass plant
+PPIBIM,PWRBIO001,Biomass Power Plant,PP_SUG,"1,4/4/none",isolated biomass plants: CCG biomass plant
+PPCRU,PWROHC001,Light Fuel Oil Power Plant,PP_CRU,4/4/4 (as PP_FOITST),crude-fired engines and boilers: CCG light fuel oil plant is its only liquid-fuel plant above 1 kW
+PPDDSL,PWROHC001,Light Fuel Oil Power Plant,PP_DSLICE,1/4/2,distributed diesel plants (MW scale): CCG light fuel oil plant; its 1 kW standalone generator class is too small
+PPDFOI,PWROHC001,Light Fuel Oil Power Plant,PP_FOIICE,4/4/2,distributed fuel oil plants: CCG light fuel oil plant
+PPDSL,PWROHC001,Light Fuel Oil Power Plant,PP_DSLICE,1/4/2,diesel engines and turbines: CCG light fuel oil plant
+PPFOI,PWROHC001,Light Fuel Oil Power Plant,PP_FOIICE,4/4/2,fuel oil engines and steam plants: CCG light fuel oil plant
+PPRDSL,PWROHC001,Light Fuel Oil Power Plant,PPIDSLPETICE,1/4/2,isolated refinery and oilfield diesel plants: CCG light fuel oil plant
+PPILPG,PWROHC001,Light Fuel Oil Power Plant,none,none,isolated LPG engines: CCG light fuel oil plant
+PPNGS,PWRNGS002,Gas Power Plant (SCGT),PP_NGSTGS,4/4/4,Ecuador gas plants are open-cycle turbines (Termogas Machala): CCG gas SCGT
+PPRNGS,PWRNGS002,Gas Power Plant (SCGT),PPINGSPETTGS,4/4/4,isolated refinery and oilfield gas turbines: CCG gas SCGT
+PPHDAMAB,PWRHYD001,Large Hydropower Plant (Dam) (>100MW),PP_HYDAMADAMLAR,1/4/2,"hydro dam, Pacific, big (450 MW and above): CCG Large Hydropower Plant (Dam) (>100MW); PLANMICC same basin, kind and size class"
+PPHDAMAM,PWRHYD001,Large Hydropower Plant (Dam) (>100MW),PP_HYDAMADAMMED,1/4/2,"hydro dam, Pacific, medium (50 to 450 MW): CCG Large Hydropower Plant (Dam) (>100MW); PLANMICC same basin, kind and size class"
+PPHDAMAS,PWRHYD002,Medium Hydropower Plant (10-100MW),PP_HYDAMADAMSMA,1/4/2,"hydro dam, Pacific, small (below 50 MW): CCG Medium Hydropower Plant (10-100MW); PLANMICC same basin, kind and size class"
+PPHDAMPM,PWRHYD001,Large Hydropower Plant (Dam) (>100MW),PP_HYDPACDAMMED,1/4/2,"hydro dam, Pacific, medium (50 to 450 MW): CCG Large Hydropower Plant (Dam) (>100MW); PLANMICC same basin, kind and size class"
+PPHDAMPS,PWRHYD002,Medium Hydropower Plant (10-100MW),PP_HYDPACDAMSMA,1/4/2,"hydro dam, Pacific, small (below 50 MW): CCG Medium Hydropower Plant (10-100MW); PLANMICC same basin, kind and size class"
+PPHRORAB,PWRHYD001,Large Hydropower Plant (Dam) (>100MW),PP_HYDAMARORLAR,1/4/2,"hydro run-of-river, Pacific, big (450 MW and above): CCG Large Hydropower Plant (Dam) (>100MW); PLANMICC same basin, kind and size class"
+PPHRORAM,PWRHYD001,Large Hydropower Plant (Dam) (>100MW),PP_HYDAMARORMED,1/4/2,"hydro run-of-river, Pacific, medium (50 to 450 MW): CCG Large Hydropower Plant (Dam) (>100MW); PLANMICC same basin, kind and size class"
+PPHRORAS,PWRHYD002,Medium Hydropower Plant (10-100MW),PP_HYDAMARORSMA,1/4/2,"hydro run-of-river, Pacific, small (below 50 MW): CCG Medium Hydropower Plant (10-100MW); PLANMICC same basin, kind and size class"
+PPHRORPM,PWRHYD001,Large Hydropower Plant (Dam) (>100MW),PP_HYDPACRORMED,1/4/2,"hydro run-of-river, Pacific, medium (50 to 450 MW): CCG Large Hydropower Plant (Dam) (>100MW); PLANMICC same basin, kind and size class"
+PPHRORPS,PWRHYD002,Medium Hydropower Plant (10-100MW),PP_HYDPACRORSMA,1/4/2,"hydro run-of-river, Pacific, small (below 50 MW): CCG Medium Hydropower Plant (10-100MW); PLANMICC same basin, kind and size class"
+PPHD,PWRHYD003,Small Hydropower Plant (<10MW),PP_HYDAMARORSMA,1/4/2,distributed hydro: CCG small hydro (<10 MW)
+PPIHD,PWRHYD004,Off-grid Hydropower,PPIHYDAMAELR,1/4/2,isolated hydro: CCG off-grid hydro
+PPPVT,PWRSOL001,Solar PV (Utility),PP_SPV_US,3/4/none,utility PV: CCG utility PV
+PPPVTS,PWRSOL001S,Utility-scale PV with 2 hour storage,none,none,utility PV with storage: CCG utility PV with 2 hour storage
+PPWNDON,PWRWND001,Onshore Wind,PP_WND_US,1/4/none,onshore wind: CCG onshore wind
+PPPVD,none,none,PP_SPV_DG,no code,"distributed PV without storage: CCG has only distributed PV with storage (PWRSOL002), not equivalent"
+PPWNDD,none,none,none,none,distributed wind: no CCG or PLANMICC class
