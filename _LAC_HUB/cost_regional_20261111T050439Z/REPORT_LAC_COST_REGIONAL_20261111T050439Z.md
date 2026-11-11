@@ -4,10 +4,10 @@ Regional plant cost values for the plant rows that rest only on international so
 
 ## Run
 
-- Pull request: not yet opened (recorded in a second commit)
+- Pull request: #9 (https://github.com/luviga/clewise-lac/pull/9), draft
 - Branch: `job/cost-regional`
 - `origin/main` hash at branch time: `9dcafbf15f2c6ba5b306efa383fc33ef333baa22` (all seven job folders of the preamble table present)
-- Commit hash: the commit that adds this folder (recorded in a second commit)
+- Commit hash: `e59d5270bc163d883d9857c0b32d463e9341a8e0` (job files); a second commit only updates this REPORT with the pull request number, this hash and gate 6
 - Job folder: `_LAC_HUB/cost_regional_20261111T050439Z/`
 
 ## Scope (Step 1)
@@ -156,5 +156,5 @@ Leads: 28 rows in `leads.csv`; 46 entries in `search_log.csv`; 5 manual download
 | 3 Sources | pass | 8 source ids in proposals, all in `sources.csv` (24 sources); every source has an http(s) URL, a locator, a retrieval date and a file in `downloads/`; no local path or internal file named |
 | 4 Values as printed | pass | 43 of 43 accepted printed values found in the file text at the recorded page (`value_checks.csv`) |
 | 5 Coverage | pass | 28 accepted groups, 880 rows, no year missing or duplicated |
-| 6 Commit messages | not run | runs on the commit itself; result recorded in the second commit |
+| 6 Commit messages | pass | commit messages on origin/main..HEAD: 0 Co-Authored-By, 0 Generated with (checked on both commits) |
 | 7 Dashes and whitespace | pass | no em dash in the 29 tracked files; git diff --check clean (0 lines) |
