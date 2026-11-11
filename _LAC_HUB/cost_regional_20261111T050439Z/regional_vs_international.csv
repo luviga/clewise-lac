@@ -1,0 +1,29 @@
+country,technology,parameter,unit,international_2024,international_source_ids,regional_2024,regional_source_ids,regional_source,tier,change_pct_2024,max_abs_change_pct_all_years,rows,flags
+CostaRica,PWRBMS,CapitalCost,MUSD/GW,3024.612,CRC-010;CRC-011;CRC-001;CRC-013,1801.615185,REG-005;CRC-001,ICE PEG 2024-2040,N,-40.43,40.43,30,2024 change above 25 percent; change above 25 percent in 30 of 30 years (max 40.4)
+CostaRica,PWRDSL,VariableCost,MUSD/PJ,1.3056,CRC-014,1.388889,REG-006,ODS Honduras PIEG 2026-2035,R2,6.38,6.38,30,
+CostaRica,PWRFOI,VariableCost,MUSD/PJ,1.3056,CRC-014,1.944444,REG-006,ODS Honduras PIEG 2026-2035,R2,48.93,48.93,30,2024 change above 25 percent; change above 25 percent in 30 of 30 years (max 48.9)
+CostaRica,PWRGEO,FixedCost,MUSD/GW,116.6183,CRC-011;CRC-010;CRC-001;CRC-013,164.719103,REG-005;CRC-001,ICE PEG 2024-2040,N,41.25,41.25,30,2024 change above 25 percent; change above 25 percent in 30 of 30 years (max 41.2)
+CostaRica,PWRHYDDAM,CapitalCost,MUSD/GW,8079.1443,CRC-013,5100.0,REG-006,ODS Honduras PIEG 2026-2035,R2,-36.87,36.87,30,2024 change above 25 percent; change above 25 percent in 30 of 30 years (max 36.9)
+CostaRica,PWRSPVDTR,CapitalCost,MUSD/GW,1282.8012,CRC-011;CRC-001;CRC-013,1132.44383,REG-005;CRC-001,ICE PEG 2024-2040,N,-11.72,11.72,30,
+CostaRica,PWRSPVTRN,FixedCost,MUSD/GW,19.312,CRC-011;CRC-010;CRC-001;CRC-013,17.501405,REG-005;CRC-001,ICE PEG 2024-2040,N,-9.38,9.38,30,
+CostaRica,PWRWNONS,CapitalCost,MUSD/GW,1966.6509,CRC-011;CRC-010;CRC-001;CRC-013,1956.039343,REG-005;CRC-001,ICE PEG 2024-2040,N,-0.54,0.54,30,
+CostaRica,PWRWNONS,FixedCost,MUSD/GW,41.9826,CRC-011;CRC-010;CRC-001;CRC-013,51.47472,REG-005;CRC-001,ICE PEG 2024-2040,N,22.61,22.61,30,
+Ecuador,PPPVD,CapitalCost,M US$ / GW,1855.487237,ATB-001;BEN-004,1180.0,REG-014,Colombian Technology Catalogue 2025,R2,-36.4,47.48,30,2024 change above 25 percent; change above 25 percent in 30 of 30 years (max 47.5)
+Ecuador,PPPVD,FixedCost,M US$ / GW,19.711745,ATB-001;BEN-004,15.0,REG-014,Colombian Technology Catalogue 2025,R2,-23.9,24.02,30,
+Ecuador,PPWNDD,CapitalCost,M US$ / GW,3676.438724,ATB-001;BEN-004,3400.0,REG-014,Colombian Technology Catalogue 2025,R2,-7.52,78.53,30,change above 25 percent in 21 of 30 years (max 78.5)
+Ecuador,PPWNDD,FixedCost,M US$ / GW,41.738736,ATB-001;BEN-004,68.5,REG-014,Colombian Technology Catalogue 2025,R2,64.12,64.12,30,2024 change above 25 percent; change above 25 percent in 30 of 30 years (max 64.1)
+Ecuador,STOELE,CapitalCost,M US$ / GW,60.156222,ATB-001;BEN-004,59.931507,REG-014,Colombian Technology Catalogue 2025,R2,-0.37,18.2,30,
+Ecuador,STOELE,FixedCost,M US$ / GW,1.504008,ATB-001;BEN-004,0.475647,REG-014,Colombian Technology Catalogue 2025,R2,-68.37,68.91,30,2024 change above 25 percent; change above 25 percent in 30 of 30 years (max 68.9)
+Guatemala,PPFOI,FixedCost,M US$ / GW per year (= USD/kW-yr),35.16,INT-009,14.0,REG-006,ODS Honduras PIEG 2026-2035,R2,-60.18,60.18,33,2024 change above 25 percent; change above 25 percent in 33 of 33 years (max 60.2)
+Guatemala,PPFOI,VariableCost,M US$ / PJ (= USD/GJ),1.580556,INT-009,1.944444,REG-006,ODS Honduras PIEG 2026-2035,R2,23.02,23.02,33,
+Guatemala,PPGEO,CapitalCost,M US$ / GW (= USD/kW),4015.0,INT-002;INT-001,6179.24,REG-006,ODS Honduras PIEG 2026-2035,R2,53.9,53.9,33,2024 change above 25 percent; change above 25 percent in 33 of 33 years (max 53.9)
+Guatemala,PPHROR,CapitalCost,M US$ / GW (= USD/kW),3444.0,INT-002;INT-001,3786.5,REG-006,ODS Honduras PIEG 2026-2035,R2,9.94,9.94,33,
+Guatemala,PPNGS,CapitalCost,M US$ / GW (= USD/kW),1000.0,INT-013,1437.59,REG-006,ODS Honduras PIEG 2026-2035,R2,43.76,43.76,33,2024 change above 25 percent; change above 25 percent in 33 of 33 years (max 43.8)
+Guatemala,PPPVT,CapitalCost,M US$ / GW (= USD/kW),1375.0,INT-002;INT-001,1077.059668,REG-003;FUE-001,IRENA RPGC 2025,R1,-21.67,52.48,33,change above 25 percent in 29 of 33 years (max 52.5)
+Guatemala,PPPVT2,CapitalCost,M US$ / GW (= USD/kW),1551.272704,INT-003;INT-004;INT-005;INT-006,1077.059668,REG-003;FUE-001,IRENA RPGC 2025,R1,-30.57,52.38,33,2024 change above 25 percent; change above 25 percent in 30 of 33 years (max 52.4)
+Guatemala,PPPVT2,FixedCost,M US$ / GW per year (= USD/kW-yr),21.608889,INT-003;INT-004;INT-005;INT-006,21.25,REG-006,ODS Honduras PIEG 2026-2035,R2,-1.66,1.66,33,
+Guatemala,PPPVTS,CapitalCost,M US$ / GW (= USD/kW),2456.06128,INT-003;INT-004;INT-005;INT-006,1434.72,REG-006,ODS Honduras PIEG 2026-2035,R2,-41.58,41.58,33,2024 change above 25 percent; change above 25 percent in 33 of 33 years (max 41.6)
+Guatemala,PPPVTS,FixedCost,M US$ / GW per year (= USD/kW-yr),61.467698,INT-003;INT-004;INT-005;INT-006,40.31,REG-006,ODS Honduras PIEG 2026-2035,R2,-34.42,34.42,33,2024 change above 25 percent; change above 25 percent in 33 of 33 years (max 34.4)
+Honduras,PPBIM,CapitalCost,MUSD/GW (USD/kW),2012.8163,CSH-011;CSH-013,1801.615185,REG-005;CSH-005,ICE PEG 2024-2040,R2,-10.49,10.49,33,
+Honduras,PPBIM,FixedCost,MUSD/GW per year (USD/kW-yr),163.666,CSH-013;CSH-011,38.091292,REG-005;CSH-005,ICE PEG 2024-2040,R2,-76.73,76.73,33,2024 change above 25 percent; change above 25 percent in 33 of 33 years (max 76.7)
+Jamaica,PPWNDON,CapitalCost,MUSD/GW,1772.5899,PSJ-006,2108.0,REG-002,IRENA RPGC 2024,R1,18.92,31.52,34,change above 25 percent in 1 of 34 years (max 31.5)
