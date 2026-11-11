@@ -1,0 +1,10 @@
+row,chosen_point,value_2024,current_2024,r,r_case,STEPS_2030,STEPS_2050,CPS_2050,NZE_2050,value_2025,STEPS_2026,join_step_pct
+DIST_COA,import CIF,3.9747,9.6054,1.1042,"multi-year average of chosen point over benchmark, years 2019,2022,2023,2024,2025",3.8804,2.7404,3.4048,1.6193,3.8495,4.3937,14.14
+DIST_COK,import CIF,2.6222,4.9447,0.2642,"multi-year average of chosen point over benchmark, years 2019,2021,2022,2023,2024,2025",3.7072,3.542,4.9401,1.1651,2.73,3.6903,35.18
+DIST_CRU,import CIF,15.2993,14.94,1.0982,"multi-year average of chosen point over benchmark, years 2019,2022,2023,2024,2025",15.4083,14.7216,20.5327,4.8426,12.8201,15.3379,19.64
+DIST_DSL,wholesale import parity,17.9075,20.4935,1.2852,2024 ratio alone (no history for the chosen point or for import CIF),18.0311,17.2275,24.0278,5.6669,14.9824,17.9487,19.8
+DIST_FOI,wholesale import parity,13.3521,13.626,0.9582,2024 ratio alone (no history for the chosen point or for import CIF),13.4443,12.8451,17.9155,4.2253,11.1711,13.3828,19.8
+DIST_GSL,import CIF,19.6137,25.0577,1.4076,2024 ratio alone (no history for the chosen point or for import CIF),19.7491,18.8689,26.3171,6.2069,16.4099,19.6588,19.8
+DIST_KER,wholesale import parity,19.889,0.0,1.4274,2024 ratio alone (no history for the chosen point or for import CIF),20.0263,19.1337,26.6865,6.294,16.6402,19.9348,19.8
+DIST_LPG,import CIF,11.0415,29.4676,0.7946,"multi-year average of chosen point over benchmark, years 2019,2022,2023,2024,2025",11.1484,10.6515,14.856,3.5038,10.648,11.0974,4.22
+DIST_NGS,import CIF,8.9358,7.646,2.6819,"multi-year average of chosen point over benchmark, years 2019,2021,2022,2023,2024,2025",8.7926,12.9334,14.058,6.1855,10.0777,7.0546,-30.0

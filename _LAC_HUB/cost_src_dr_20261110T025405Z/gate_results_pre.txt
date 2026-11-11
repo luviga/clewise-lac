@@ -1,0 +1,6 @@
+Gate 1 read-only: PASS - 6 files, hashes equal: True
+Gate 4a proposals cite existing sources: PASS - 3168 rows, 0 rows with a missing or unknown source id; 82 distinct ids cited
+Gate 4b source records complete: PASS - 135 sources; 0 problems
+Gate 5 ASSUMPTION rows: PASS - 0 rows with basis ASSUMPTION; 81 rows carry an ASSUMPTION sentence (DIST_NGS), 1 distinct sentences; leads missing for []; sentences with banned words 0
+Gate 6 coverage: PASS - 23 plants x 3 parameters x 33 years; 9 supply rows x 3 scenarios x 33 years; EXTT_CRU, EXTT_NGS, PRO_COA and IMP_ELE exempt by the country notes; gaps: []
+Gate 7a no em dash, no machine path: PASS - files with em dash: []; files with a machine path: []
