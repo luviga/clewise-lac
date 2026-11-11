@@ -1,0 +1,10 @@
+GATE 1 read-only: PASS (6 files, hashes equal)
+GATE 4a proposals with basis other than ASSUMPTION citing only known source ids: 2234 of 2234 (PASS)
+GATE 4b sources: 37 sources; 37 pass every check; problems: none (PASS)
+GATE 5 ASSUMPTION rows: 286 rows over 6 technologies (DIST_JET, DIST_KER, PPGEO, PPHDAM, PPPVDS, PPWNDONS); without logged leads: none; sentences failing the rule: none (PASS)
+GATE 5b all rows carrying an assumption sentence: 595; failing the wording rule: none
+GATE 6 coverage: plants 13, supply rows 11, years 2021 to 2055; gaps: none
+GATE 7 files: em dash or machine path in output files: none
+GATE 2 diff scope: PASS (37 files, all in the job folder)
+GATE 3 tracked types: PASS (37 files: md, csv, py, txt; none under downloads/)
+GATE 7 git: PASS (diff --check clean; no trailer lines in git log -3)
