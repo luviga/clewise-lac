@@ -1,0 +1,165 @@
+$ python stage1_test_v16.py
+======================================================================
+STAGE 1: Share Analyzer (v15)
+  Empirical denominators + integrated policy rule
+  Deprecates v9 + Stage 1B + Stages 2/3
+======================================================================
+Timestamp:   2026-11-11T02:41:42.100049
+Stage 0 dir: _STAGE0_OUTPUT
+Output dir:  _STAGE1_OUTPUT
+Anchor:      2024 | Cutoff: 2026
+Fossil decline: 1.0%/yr
+
+Loading Stage 0 outputs...
+  [Loaded] STAGE0_RECOMMENDED_SHARES.csv (479 rows)
+  [Loaded] STAGE0_CAPACITY_CEILING.csv (8706 entries)
+
+Countries to process: ['CostaRica', 'DominicanRepublic', 'Ecuador', 'Guatemala', 'Honduras', 'Jamaica']
+Global year range: 2018-2055 (38 years)
+
+============================================================
+[Country] CostaRica
+  [Shares] 8 PP techs from Share_E_Proportional_Pct, history 2021-2024, anchor sum=1.0000
+  [Years] 2018-2055 (38 years)
+  [BAU      2024] shares=1.0000  renewable=0.8958
+  [BAU      2030] shares=1.0000  renewable=0.8999
+  [BAU      2040] shares=1.0000  renewable=0.9095
+  [BAU      2050] shares=1.0000  renewable=0.9181
+  [NDCNEW   2024] shares=1.0000  renewable=0.8958
+  [NDCNEW   2030] shares=1.0000  renewable=0.8999
+  [NDCNEW   2040] shares=1.0000  renewable=0.9095
+  [NDCNEW   2050] shares=1.0000  renewable=0.9181
+  [LTSNEW   2024] shares=1.0000  renewable=0.8958
+  [LTSNEW   2030] shares=1.0000  renewable=0.9377
+  [LTSNEW   2040] shares=1.0000  renewable=0.9900
+  [LTSNEW   2050] shares=1.0000  renewable=0.9900
+
+============================================================
+[Country] DominicanRepublic
+  [Shares] 21 PP techs from Share_E_Proportional_Pct, history 2018-2024, anchor sum=1.0000
+  [Years] 2018-2055 (38 years)
+  [BAU      2024] shares=1.0000  renewable=0.1586
+  [BAU      2030] shares=1.0000  renewable=0.1918
+  [BAU      2040] shares=1.0000  renewable=0.2690
+  [BAU      2050] shares=1.0000  renewable=0.3389
+  [NDCNEW   2024] shares=1.0000  renewable=0.1586
+  [NDCNEW   2030] shares=1.0000  renewable=0.4214
+  [NDCNEW   2040] shares=1.0000  renewable=0.7500
+  [NDCNEW   2050] shares=1.0000  renewable=0.7500
+  [LTSNEW   2024] shares=1.0000  renewable=0.1586
+  [LTSNEW   2030] shares=1.0000  renewable=0.4214
+  [LTSNEW   2040] shares=1.0000  renewable=0.8300
+  [LTSNEW   2050] shares=1.0000  renewable=0.9900
+
+============================================================
+[Country] Ecuador
+  [Shares] 28 PP techs from Share_E_Proportional_Pct, history 2021-2024, anchor sum=1.0000
+  [Years] 2018-2055 (38 years)
+  [BAU      2024] shares=1.0000  renewable=0.7565
+  [BAU      2030] shares=1.0006  renewable=0.7667
+  [BAU      2040] shares=1.0005  renewable=0.7889
+  [BAU      2050] shares=1.0004  renewable=0.8091
+  [NDCNEW   2024] shares=1.0000  renewable=0.7565
+  [NDCNEW   2030] shares=1.0000  renewable=0.7758
+  [NDCNEW   2040] shares=1.0000  renewable=0.8000
+  [NDCNEW   2050] shares=1.0000  renewable=0.8091
+  [LTSNEW   2024] shares=1.0000  renewable=0.7565
+  [LTSNEW   2030] shares=1.0000  renewable=0.7758
+  [LTSNEW   2040] shares=1.0000  renewable=0.8633
+  [LTSNEW   2050] shares=1.0000  renewable=0.9900
+
+============================================================
+[Country] Guatemala
+  [Shares] 12 PP techs from Share_E_Proportional_Pct, history 2018-2024, anchor sum=0.9998
+  [Years] 2018-2055 (38 years)
+  [BAU      2024] shares=0.9998  renewable=0.7320
+  [BAU      2030] shares=1.0000  renewable=0.6501
+  [BAU      2040] shares=1.0000  renewable=0.6946
+  [BAU      2050] shares=1.0000  renewable=0.7285
+  [NDCNEW   2024] shares=0.9998  renewable=0.7320
+  [NDCNEW   2030] shares=1.0000  renewable=0.7400
+  [NDCNEW   2040] shares=1.0000  renewable=0.7500
+  [NDCNEW   2050] shares=1.0000  renewable=0.7500
+  [LTSNEW   2024] shares=0.9998  renewable=0.7320
+  [LTSNEW   2030] shares=1.0000  renewable=0.7400
+  [LTSNEW   2040] shares=1.0000  renewable=0.8300
+  [LTSNEW   2050] shares=1.0000  renewable=0.9900
+
+============================================================
+[Country] Honduras
+  [Shares] 12 PP techs from Share_E_Proportional_Pct, history 2018-2024, anchor sum=1.0000
+  [Years] 2018-2055 (38 years)
+  [BAU      2024] shares=1.0000  renewable=0.5234
+  [BAU      2030] shares=1.0000  renewable=0.5422
+  [BAU      2040] shares=1.0000  renewable=0.5860
+  [BAU      2050] shares=1.0000  renewable=0.6255
+  [NDCNEW   2024] shares=1.0000  renewable=0.5234
+  [NDCNEW   2030] shares=1.0000  renewable=0.6241
+  [NDCNEW   2040] shares=1.0000  renewable=0.7500
+  [NDCNEW   2050] shares=1.0000  renewable=0.7500
+  [LTSNEW   2024] shares=1.0000  renewable=0.5234
+  [LTSNEW   2030] shares=1.0000  renewable=0.6241
+  [LTSNEW   2040] shares=1.0000  renewable=0.8300
+  [LTSNEW   2050] shares=1.0000  renewable=0.9900
+
+============================================================
+[Country] Jamaica
+  [Shares] 7 PP techs from Share_E_Proportional_Pct, history 2021-2024, anchor sum=0.9999
+  [Years] 2018-2055 (38 years)
+  [BAU      2024] shares=0.9999  renewable=0.1404
+  [BAU      2030] shares=1.0000  renewable=0.2710
+  [BAU      2040] shares=1.0000  renewable=0.3125
+  [BAU      2050] shares=1.0000  renewable=0.3519
+  [NDCNEW   2024] shares=0.9999  renewable=0.1404
+  [NDCNEW   2030] shares=1.0000  renewable=0.4113
+  [NDCNEW   2040] shares=1.0000  renewable=0.7500
+  [NDCNEW   2050] shares=1.0000  renewable=0.7500
+  [LTSNEW   2024] shares=0.9999  renewable=0.1404
+  [LTSNEW   2030] shares=1.0000  renewable=0.4113
+  [LTSNEW   2040] shares=1.0000  renewable=0.8300
+  [LTSNEW   2050] shares=1.0000  renewable=0.9900
+
+[Wrote] _STAGE1_OUTPUT\CONTROLLER_NEW_SCENARIOS.xlsx
+  Countries: 6
+  Scenarios: 3
+  Techs:     63
+  Years:     2018-2055
+
+======================================================================
+STAGE 1 v15 COMPLETE
+======================================================================
+Next: run stage1_test_v15.py to validate
+Then: stage1_patch_final.py to prepare real OSeMOSYS runs
+======================================================================
+Running stage1_share_analyzer_v16.py...
+======================================================================
+
+======================================================================
+VALIDATION
+======================================================================
+Loading CONTROLLER_NEW_SCENARIOS.xlsx...
+  Countries: ['CostaRica', 'DominicanRepublic', 'Ecuador', 'Guatemala', 'Honduras', 'Jamaica']
+  Scenarios: ['BAU', 'LTSNEW', 'NDCNEW']
+  Years: 2018-2055
+
+  [PASS] Test 1: Coverage: 6 countries × 3 scenarios
+  [PASS] Test 2: Share sums in [0.98, 1.02]: 0 violations out of 684 cells
+  [PASS] Test 3: Historical alignment (≤2026): 0 mismatches
+  [PASS] Test 4: BAU fossil decline (non-CR): 0 failures
+  [PASS] Test 5: Policy milestones: 0 failures
+  [PASS] Test 6: Ceiling enforcement: 0 violations
+  [PASS] Test 7: Feasibility (lower ≤ upper): 0 violations
+  [PASS] Test 8: Costa Rica BAU (plateau flat, fossil decline, RE growth): 0 failures
+  [PASS] Test 9: No negatives: 0 negative shares, 0 negative limits
+  [PASS] Test 10: Share sum stats: min=0.9997 max=1.0006 mean=1.0000
+  [PASS] Test 11: BAU floor (policy RE ≥ BAU RE): 0 violations
+  [PASS] Test 12: Biomass lock (policy bio ≤ BAU bio): 0 violations
+  [PASS] Test 13: Historical variation: 0 countries with flat pre-2024 shares
+
+======================================================================
+SUMMARY
+======================================================================
+  PASSED: 13/13
+
+All tests passed. Controller is ready for review.
+  _STAGE1_OUTPUT\CONTROLLER_NEW_SCENARIOS.xlsx

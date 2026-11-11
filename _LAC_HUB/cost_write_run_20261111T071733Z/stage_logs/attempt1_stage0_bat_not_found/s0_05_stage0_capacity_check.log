@@ -1,0 +1,79 @@
+$ python stage0_capacity_check.py
+======================================================================
+STAGE 0: Capacity Ceiling Check
+======================================================================
+[WARN] STAGE0_HEADROOM_DECOMPOSITION.csv not found - Share_C will be empty
+
+============================================================
+CostaRica
+
+  BAU:
+    [WARN] No empirical gen for BAU_S0
+
+  NDCNEW:
+    [WARN] No empirical gen for NDCNEW_S0
+
+  LTSNEW:
+    [WARN] No empirical gen for LTSNEW_S0
+
+============================================================
+DominicanRepublic
+
+  BAU:
+    [WARN] No empirical gen for BAU_S0
+
+  NDCNEW:
+    [WARN] No empirical gen for NDCNEW_S0
+
+  LTSNEW:
+    [WARN] No empirical gen for LTSNEW_S0
+
+============================================================
+Ecuador
+
+  BAU:
+    [WARN] No empirical gen for BAU_S0
+
+  NDCNEW:
+    [WARN] No empirical gen for NDCNEW_S0
+
+  LTSNEW:
+    [WARN] No empirical gen for LTSNEW_S0
+
+============================================================
+Guatemala
+
+  BAU:
+    [WARN] No empirical gen for BAU_S0
+
+  NDCNEW:
+    [WARN] No empirical gen for NDCNEW_S0
+
+  LTSNEW:
+    [WARN] No empirical gen for LTSNEW_S0
+
+============================================================
+Honduras
+
+  BAU:
+    [WARN] No empirical gen for BAU_S0
+
+  NDCNEW:
+    [WARN] No empirical gen for NDCNEW_S0
+
+  LTSNEW:
+    [WARN] No empirical gen for LTSNEW_S0
+
+============================================================
+Jamaica
+
+  BAU:
+    [WARN] No empirical gen for BAU_S0
+
+  NDCNEW:
+    [WARN] No empirical gen for NDCNEW_S0
+
+  LTSNEW:
+    [WARN] No empirical gen for LTSNEW_S0
+
+[WARN] No data collected.

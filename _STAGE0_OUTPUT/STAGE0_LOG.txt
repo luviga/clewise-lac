@@ -1,6 +1,21 @@
-Generated: 2026-05-14T11:39:44.044794
+Generated: 2026-11-11T02:20:17.783303
 Mode: zero
 
+CostaRica/BAU: 260 patched
+CostaRica/NDCNEW: 234 patched
+CostaRica/LTSNEW: 234 patched
+DominicanRepublic/BAU: 962 patched
+DominicanRepublic/NDCNEW: 1404 patched
+DominicanRepublic/LTSNEW: 1404 patched
 Ecuador/BAU: 1456 patched
 Ecuador/NDCNEW: 1819 patched
 Ecuador/LTSNEW: 1819 patched
+Guatemala/BAU: 566 patched
+Guatemala/NDCNEW: 775 patched
+Guatemala/LTSNEW: 775 patched
+Honduras/BAU: 468 patched
+Honduras/NDCNEW: 884 patched
+Honduras/LTSNEW: 884 patched
+Jamaica/BAU: 450 patched
+Jamaica/NDCNEW: 529 patched
+Jamaica/LTSNEW: 529 patched

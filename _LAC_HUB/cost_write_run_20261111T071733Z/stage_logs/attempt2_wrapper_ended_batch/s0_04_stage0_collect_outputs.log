@@ -1,0 +1,57 @@
+$ python stage0_collect_outputs.py
+======================================================================
+STAGE 0: Collect Outputs
+======================================================================
+
+============================================================
+CostaRica
+
+  BAU_S0: parsing BAU_S0_0_output.txt...
+    9 PP techs | 99 total techs | 45.5-85.6 PJ
+  [WARN] NDCNEW_S0: no output file
+  [WARN] LTSNEW_S0: no output file
+
+============================================================
+DominicanRepublic
+  [WARN] BAU_S0: no output file
+  [WARN] NDCNEW_S0: no output file
+  [WARN] LTSNEW_S0: no output file
+
+============================================================
+Ecuador
+  [WARN] BAU_S0: no output file
+  [WARN] NDCNEW_S0: no output file
+  [WARN] LTSNEW_S0: no output file
+
+============================================================
+Guatemala
+  [WARN] BAU_S0: no output file
+  [WARN] NDCNEW_S0: no output file
+  [WARN] LTSNEW_S0: no output file
+
+============================================================
+Honduras
+  [WARN] BAU_S0: no output file
+  [WARN] NDCNEW_S0: no output file
+  [WARN] LTSNEW_S0: no output file
+
+============================================================
+Jamaica
+  [WARN] BAU_S0: no output file
+  [WARN] NDCNEW_S0: no output file
+  [WARN] LTSNEW_S0: no output file
+
+======================================================================
+Writing outputs...
+  [Wrote] STAGE0_RUN_STATUS.csv
+  Results: 1 OK, 0 INFEASIBLE, 17 other
+  [Wrote] STAGE0_DENOMINATORS.xlsx
+  [Wrote] STAGE0_HEADROOM_DECOMPOSITION.csv (266 rows)
+  [Wrote] STAGE0_SHARES.csv (32 rows)
+  [OK] All share sums = 100.0% (+/- 0.1%)
+
+======================================================================
+DONE.
+Stage 1 reads:
+  shares = pd.read_csv('_STAGE0_OUTPUT/STAGE0_SHARES.csv')
+  denoms = pd.read_csv('_STAGE0_OUTPUT/{country}/EMPIRICAL_GEN__{country}__BAU_S0.csv')

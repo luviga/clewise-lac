@@ -1,0 +1,3 @@
+Logs of the Stage 0 to 3 commands (stage_status.jsonl: exit code and duration per step; solves_stage0.jsonl and solves_stage3.jsonl: status and objective read from the glpsol output headers). Text is as printed by the pipeline scripts, except that line endings were normalised to LF, trailing blanks removed and em dashes printed by the scripts replaced with hyphens (repository writing rules).
+attempt1_*/ and attempt2_*/ hold the logs of the two failed Stage 0 attempts (GAPS, Incidents).
+stage0_run_all.generated.bat/.sh are the batch files stage0_run.py generated for this run; the tracked copies were restored.

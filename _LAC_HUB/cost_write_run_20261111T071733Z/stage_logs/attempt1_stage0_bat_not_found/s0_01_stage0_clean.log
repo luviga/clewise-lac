@@ -1,0 +1,13 @@
+$ python stage0_clean.py --confirm
+DELETING - 3 items:
+
+  [DIR]  _STAGE0_OUTPUT  (2.2 MB)
+  [FILE] stage0_run_all.bat  (0.8 KB)
+  [FILE] stage0_run_all.sh  (0.8 KB)
+
+Total: 2.2 MB
+  Deleted: _STAGE0_OUTPUT
+  Deleted: stage0_run_all.bat
+  Deleted: stage0_run_all.sh
+
+Clean. Ready to re-run stage0_run.py.

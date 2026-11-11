@@ -2,8 +2,8 @@
 
 Each command runs from the clone root with Anaconda Python (the brief's `py`), output to
 stage_logs/<nn>_<name>.log; a failing test or an infeasible solve is recorded and the run
-continues. glpsol runs from the batch files go through scripts/glpsol_wrap (status and
-objective logged to stage_logs/solves_<stage>.jsonl, solver unchanged).
+continues. The batch files run glpsol 4.65 from PATH (status and
+objective are read afterwards from the headers of the -o output files by solve_headers.py).
 
   py -I phase_e.py <stage>     stage in {0, 1, 2, 3}
 """
@@ -26,7 +26,7 @@ PY = r"C:\Users\luisfernando\anaconda3\python.exe"
 STAGES = {
     "0": [("stage0_clean", [PY, "stage0_clean.py", "--confirm"]),
           ("stage0_run", [PY, "stage0_run.py"]),
-          ("stage0_run_all", ["cmd", "/c", "stage0_run_all.bat"]),
+          ("stage0_run_all", ["cmd", "/c", str(ROOT / "stage0_run_all.bat")]),
           ("stage0_collect_outputs", [PY, "stage0_collect_outputs.py"]),
           ("stage0_capacity_check", [PY, "stage0_capacity_check.py"]),
           ("stage0_recommend_shares", [PY, "stage0_recommend_shares.py"]),
@@ -39,7 +39,7 @@ STAGES = {
     "3": [("stage3_apply", [PY, "stage3_apply.py", "--root", ".", "--clean", "--uncap-pp-maxcap",
                             "--skip-orphan-cap", "Guatemala"]),
           ("stage3_test", [PY, "stage3_test.py", "--root", "."]),
-          ("stage3_run_all", ["cmd", "/c", "stage3_run_all.bat"]),
+          ("stage3_run_all", ["cmd", "/c", str(ROOT / "stage3_run_all.bat")]),
           ("stage3_results", [PY, "stage3_results.py", "--root", "."])],
 }
 
@@ -47,8 +47,8 @@ STAGES = {
 def main(stage):
     LOGS.mkdir(parents=True, exist_ok=True)
     env = os.environ.copy()
-    env["PATH"] = str(WRAP) + os.pathsep + env.get("PATH", "")
-    env["GLPSOL_WRAP_LOG"] = str(LOGS / f"solves_stage{stage}.jsonl")
+    # the batch files call glpsol directly; a .bat wrapper on PATH would end the calling batch after the
+    # first solve (batch-to-batch without CALL), so status and objective are read from the -o files instead
     env["PYTHONIOENCODING"] = "utf-8"
     status_file = LOGS / "stage_status.jsonl"
     for n, (name, cmd) in enumerate(STAGES[stage], 1):
