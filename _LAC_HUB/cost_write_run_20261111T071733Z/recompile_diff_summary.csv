@@ -1,0 +1,184 @@
+country,stage,scenario,parameter,values_changed,allowed
+CostaRica,A2,BAU,CapitalCost,300,yes
+CostaRica,A2,BAU,FixedCost,300,yes
+CostaRica,A2,BAU,SpecifiedAnnualDemand,1,yes
+CostaRica,A2,BAU,VariableCost,390,yes
+CostaRica,A2,LTSNEW,CapitalCost,300,yes
+CostaRica,A2,LTSNEW,FixedCost,300,yes
+CostaRica,A2,LTSNEW,SpecifiedAnnualDemand,1,yes
+CostaRica,A2,LTSNEW,VariableCost,390,yes
+CostaRica,A2,NDCNEW,CapitalCost,300,yes
+CostaRica,A2,NDCNEW,FixedCost,300,yes
+CostaRica,A2,NDCNEW,SpecifiedAnnualDemand,1,yes
+CostaRica,A2,NDCNEW,VariableCost,390,yes
+CostaRica,B1,BAU,CapitalCost,300,yes
+CostaRica,B1,BAU,FixedCost,300,yes
+CostaRica,B1,BAU,VariableCost,390,yes
+CostaRica,B1,LTSNEW,CapitalCost,300,yes
+CostaRica,B1,LTSNEW,FixedCost,300,yes
+CostaRica,B1,LTSNEW,VariableCost,390,yes
+CostaRica,B1,NDCNEW,CapitalCost,300,yes
+CostaRica,B1,NDCNEW,FixedCost,300,yes
+CostaRica,B1,NDCNEW,VariableCost,390,yes
+CostaRica,B1 data file,BAU,CapitalCost,300,yes
+CostaRica,B1 data file,BAU,FixedCost,300,yes
+CostaRica,B1 data file,BAU,VariableCost,390,yes
+CostaRica,B1 data file,LTSNEW,CapitalCost,300,yes
+CostaRica,B1 data file,LTSNEW,FixedCost,300,yes
+CostaRica,B1 data file,LTSNEW,VariableCost,390,yes
+CostaRica,B1 data file,NDCNEW,CapitalCost,300,yes
+CostaRica,B1 data file,NDCNEW,FixedCost,300,yes
+CostaRica,B1 data file,NDCNEW,VariableCost,390,yes
+DominicanRepublic,A2,BAU,CapitalCost,515,yes
+DominicanRepublic,A2,BAU,FixedCost,263,yes
+DominicanRepublic,A2,BAU,VariableCost,887,yes
+DominicanRepublic,A2,LTSNEW,CapitalCost,515,yes
+DominicanRepublic,A2,LTSNEW,FixedCost,263,yes
+DominicanRepublic,A2,LTSNEW,VariableCost,887,yes
+DominicanRepublic,A2,NDCNEW,CapitalCost,515,yes
+DominicanRepublic,A2,NDCNEW,FixedCost,263,yes
+DominicanRepublic,A2,NDCNEW,VariableCost,887,yes
+DominicanRepublic,B1,BAU,CapitalCost,515,yes
+DominicanRepublic,B1,BAU,FixedCost,263,yes
+DominicanRepublic,B1,BAU,VariableCost,887,yes
+DominicanRepublic,B1,LTSNEW,CapitalCost,515,yes
+DominicanRepublic,B1,LTSNEW,FixedCost,263,yes
+DominicanRepublic,B1,LTSNEW,VariableCost,887,yes
+DominicanRepublic,B1,NDCNEW,CapitalCost,515,yes
+DominicanRepublic,B1,NDCNEW,FixedCost,263,yes
+DominicanRepublic,B1,NDCNEW,VariableCost,887,yes
+DominicanRepublic,B1 data file,BAU,CapitalCost,515,yes
+DominicanRepublic,B1 data file,BAU,FixedCost,263,yes
+DominicanRepublic,B1 data file,BAU,VariableCost,887,yes
+DominicanRepublic,B1 data file,LTSNEW,CapitalCost,515,yes
+DominicanRepublic,B1 data file,LTSNEW,FixedCost,263,yes
+DominicanRepublic,B1 data file,LTSNEW,VariableCost,887,yes
+DominicanRepublic,B1 data file,NDCNEW,CapitalCost,515,yes
+DominicanRepublic,B1 data file,NDCNEW,FixedCost,263,yes
+DominicanRepublic,B1 data file,NDCNEW,VariableCost,887,yes
+Ecuador,A2,BAU,CapitalCost,1617,yes
+Ecuador,A2,BAU,FixedCost,1710,yes
+Ecuador,A2,BAU,VariableCost,1890,yes
+Ecuador,A2,LTSNEW,CapitalCost,1617,yes
+Ecuador,A2,LTSNEW,FixedCost,1710,yes
+Ecuador,A2,LTSNEW,VariableCost,1890,yes
+Ecuador,A2,NDCNEW,CapitalCost,1617,yes
+Ecuador,A2,NDCNEW,FixedCost,1710,yes
+Ecuador,A2,NDCNEW,VariableCost,1890,yes
+Ecuador,B1,BAU,CapitalCost,1617,yes
+Ecuador,B1,BAU,FixedCost,1710,yes
+Ecuador,B1,BAU,VariableCost,1890,yes
+Ecuador,B1,LTSNEW,CapitalCost,1617,yes
+Ecuador,B1,LTSNEW,FixedCost,1710,yes
+Ecuador,B1,LTSNEW,VariableCost,1890,yes
+Ecuador,B1,NDCNEW,CapitalCost,1617,yes
+Ecuador,B1,NDCNEW,FixedCost,1710,yes
+Ecuador,B1,NDCNEW,VariableCost,1890,yes
+Ecuador,B1 data file,BAU,CapitalCost,1617,yes
+Ecuador,B1 data file,BAU,FixedCost,1710,yes
+Ecuador,B1 data file,BAU,VariableCost,1890,yes
+Ecuador,B1 data file,LTSNEW,CapitalCost,1617,yes
+Ecuador,B1 data file,LTSNEW,FixedCost,1710,yes
+Ecuador,B1 data file,LTSNEW,VariableCost,1890,yes
+Ecuador,B1 data file,NDCNEW,CapitalCost,1617,yes
+Ecuador,B1 data file,NDCNEW,FixedCost,1710,yes
+Ecuador,B1 data file,NDCNEW,VariableCost,1890,yes
+Guatemala,A2,BAU,CapitalCost,462,yes
+Guatemala,A2,BAU,FixedCost,330,yes
+Guatemala,A2,BAU,VariableCost,33,no
+Guatemala,A2,BAU,VariableCost,561,yes
+Guatemala,A2,LTSNEW,CapitalCost,462,yes
+Guatemala,A2,LTSNEW,FixedCost,330,yes
+Guatemala,A2,LTSNEW,VariableCost,33,no
+Guatemala,A2,LTSNEW,VariableCost,561,yes
+Guatemala,A2,NDCNEW,CapitalCost,462,yes
+Guatemala,A2,NDCNEW,FixedCost,330,yes
+Guatemala,A2,NDCNEW,VariableCost,33,no
+Guatemala,A2,NDCNEW,VariableCost,561,yes
+Guatemala,B1,BAU,CapitalCost,462,yes
+Guatemala,B1,BAU,FixedCost,330,yes
+Guatemala,B1,BAU,VariableCost,33,no
+Guatemala,B1,BAU,VariableCost,561,yes
+Guatemala,B1,LTSNEW,CapitalCost,462,yes
+Guatemala,B1,LTSNEW,FixedCost,330,yes
+Guatemala,B1,LTSNEW,VariableCost,33,no
+Guatemala,B1,LTSNEW,VariableCost,561,yes
+Guatemala,B1,NDCNEW,CapitalCost,462,yes
+Guatemala,B1,NDCNEW,FixedCost,330,yes
+Guatemala,B1,NDCNEW,VariableCost,33,no
+Guatemala,B1,NDCNEW,VariableCost,561,yes
+Guatemala,B1 data file,BAU,CapitalCost,462,yes
+Guatemala,B1 data file,BAU,FixedCost,330,yes
+Guatemala,B1 data file,BAU,VariableCost,33,no
+Guatemala,B1 data file,BAU,VariableCost,561,yes
+Guatemala,B1 data file,LTSNEW,CapitalCost,462,yes
+Guatemala,B1 data file,LTSNEW,FixedCost,330,yes
+Guatemala,B1 data file,LTSNEW,VariableCost,33,no
+Guatemala,B1 data file,LTSNEW,VariableCost,561,yes
+Guatemala,B1 data file,NDCNEW,CapitalCost,462,yes
+Guatemala,B1 data file,NDCNEW,FixedCost,330,yes
+Guatemala,B1 data file,NDCNEW,VariableCost,33,no
+Guatemala,B1 data file,NDCNEW,VariableCost,561,yes
+Honduras,A2,BAU,CapitalCost,3,no
+Honduras,A2,BAU,CapitalCost,396,yes
+Honduras,A2,BAU,FixedCost,316,yes
+Honduras,A2,BAU,VariableCost,439,yes
+Honduras,A2,LTSNEW,CapitalCost,3,no
+Honduras,A2,LTSNEW,CapitalCost,396,yes
+Honduras,A2,LTSNEW,FixedCost,316,yes
+Honduras,A2,LTSNEW,VariableCost,439,yes
+Honduras,A2,NDCNEW,CapitalCost,3,no
+Honduras,A2,NDCNEW,CapitalCost,396,yes
+Honduras,A2,NDCNEW,FixedCost,316,yes
+Honduras,A2,NDCNEW,VariableCost,439,yes
+Honduras,B1,BAU,CapitalCost,3,no
+Honduras,B1,BAU,CapitalCost,396,yes
+Honduras,B1,BAU,FixedCost,316,yes
+Honduras,B1,BAU,VariableCost,439,yes
+Honduras,B1,LTSNEW,CapitalCost,3,no
+Honduras,B1,LTSNEW,CapitalCost,396,yes
+Honduras,B1,LTSNEW,FixedCost,316,yes
+Honduras,B1,LTSNEW,VariableCost,439,yes
+Honduras,B1,NDCNEW,CapitalCost,3,no
+Honduras,B1,NDCNEW,CapitalCost,396,yes
+Honduras,B1,NDCNEW,FixedCost,316,yes
+Honduras,B1,NDCNEW,VariableCost,439,yes
+Honduras,B1 data file,BAU,CapitalCost,3,no
+Honduras,B1 data file,BAU,CapitalCost,396,yes
+Honduras,B1 data file,BAU,FixedCost,316,yes
+Honduras,B1 data file,BAU,VariableCost,439,yes
+Honduras,B1 data file,LTSNEW,CapitalCost,3,no
+Honduras,B1 data file,LTSNEW,CapitalCost,396,yes
+Honduras,B1 data file,LTSNEW,FixedCost,316,yes
+Honduras,B1 data file,LTSNEW,VariableCost,439,yes
+Honduras,B1 data file,NDCNEW,CapitalCost,3,no
+Honduras,B1 data file,NDCNEW,CapitalCost,396,yes
+Honduras,B1 data file,NDCNEW,FixedCost,316,yes
+Honduras,B1 data file,NDCNEW,VariableCost,439,yes
+Jamaica,A2,BAU,CapitalCost,420,yes
+Jamaica,A2,BAU,FixedCost,455,yes
+Jamaica,A2,BAU,VariableCost,629,yes
+Jamaica,A2,LTSNEW,CapitalCost,420,yes
+Jamaica,A2,LTSNEW,FixedCost,455,yes
+Jamaica,A2,LTSNEW,VariableCost,629,yes
+Jamaica,A2,NDCNEW,CapitalCost,420,yes
+Jamaica,A2,NDCNEW,FixedCost,455,yes
+Jamaica,A2,NDCNEW,VariableCost,629,yes
+Jamaica,B1,BAU,CapitalCost,420,yes
+Jamaica,B1,BAU,FixedCost,455,yes
+Jamaica,B1,BAU,VariableCost,629,yes
+Jamaica,B1,LTSNEW,CapitalCost,420,yes
+Jamaica,B1,LTSNEW,FixedCost,455,yes
+Jamaica,B1,LTSNEW,VariableCost,629,yes
+Jamaica,B1,NDCNEW,CapitalCost,420,yes
+Jamaica,B1,NDCNEW,FixedCost,455,yes
+Jamaica,B1,NDCNEW,VariableCost,629,yes
+Jamaica,B1 data file,BAU,CapitalCost,420,yes
+Jamaica,B1 data file,BAU,FixedCost,455,yes
+Jamaica,B1 data file,BAU,VariableCost,629,yes
+Jamaica,B1 data file,LTSNEW,CapitalCost,420,yes
+Jamaica,B1 data file,LTSNEW,FixedCost,455,yes
+Jamaica,B1 data file,LTSNEW,VariableCost,629,yes
+Jamaica,B1 data file,NDCNEW,CapitalCost,420,yes
+Jamaica,B1 data file,NDCNEW,FixedCost,455,yes
+Jamaica,B1 data file,NDCNEW,VariableCost,629,yes
