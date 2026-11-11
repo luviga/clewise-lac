@@ -1,0 +1,2 @@
+apply_id,timestamp,manifest_path,country,ao_path,backup_path,dry_run,approved_cells_seen,cells_changed,projection_modes_changed
+apply_20261111_013551,20261111_013554,<clone>\_LAC_HUB\cost_write_run_20261111T071733Z\manifest_Jamaica.csv,Jamaica,<clone>\Jamaica\JAM_ENERGY\A1_Outputs\A-O_Parametrization.xlsx,<clone>\_LAC_HUB\cost_write_run_20261111T071733Z\backups\apply_20261111_013551\Jamaica__A-O_Parametrization.bak_20261111_013551.xlsx,NO,1714,1714,6

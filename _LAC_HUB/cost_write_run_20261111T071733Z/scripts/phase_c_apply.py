@@ -157,7 +157,8 @@ def cmd_check():
             for r in ws_[(ws_.country == c) & (ws_.sheet == sh) & (ws_.projection_mode_new != "")].row_index.unique():
                 mode_cells.add((c, sh, f"{mcol}{r}"))
         wf.close()
-    counts = {"manifest value": 0, "D8 mode": 0, "D9": 0, "formula recalculated (text unchanged)": 0, "other": 0}
+    counts = {"manifest value": 0, "D8 mode": 0, "D9": 0, "formula recalculated (text unchanged)": 0,
+              "formula text normalised by Excel (value unchanged)": 0, "other": 0}
     for c, rel in list(WBS.items()) + [("CostaRica-demand", DEMAND)]:
         before = _cells(BK / backup_name(rel))
         after = _cells(ROOT / rel)
@@ -178,6 +179,9 @@ def cmd_check():
                 cls = "D8 mode"
             elif raw_same and a[2]:
                 cls = "formula recalculated (text unchanged)"
+            elif (b[2] and a[2] and isinstance(b[0], str) and isinstance(a[0], str)
+                  and b[0].replace(" ", "") == a[0].replace(" ", "") and val_same):
+                cls = "formula text normalised by Excel (value unchanged)"
             else:
                 cls = "other"
             counts[cls] += 1
@@ -189,8 +193,8 @@ def cmd_check():
                                  result=cls if cls != "other" else "FAIL other change"))
     summary.append(("C4(2) changes only at manifest cells, D8 mode cells and D9 cell M25",
                     "; ".join(f"{k}: {v}" for k, v in counts.items()),
-                    "pass" if counts["other"] == 0 and counts["formula recalculated (text unchanged)"] == 0 else
-                    ("pass with recalculated formula values" if counts["other"] == 0 else "FAIL")))
+                    "pass" if sum(v for k, v in counts.items() if k not in ("manifest value", "D8 mode", "D9")) == 0
+                    else "FAIL (strict reading): formula cells outside the manifest changed, see write_check.csv"))
     # C4(3)
     blanks_total = 0
     for rel in list(WBS.values()) + [DEMAND]:
@@ -205,8 +209,9 @@ def cmd_check():
     files = subprocess.run(["git", "ls-files"], cwd=ROOT, capture_output=True, text=True).stdout.splitlines()
     ao = [f for f in files if Path(f).name.startswith("A-O_") and f.endswith(".xlsx")
           and f not in set(WBS.values()) | {DEMAND}]
-    changed = subprocess.run(["git", "diff", "--name-only", "HEAD", "--", *ao], cwd=ROOT, capture_output=True,
-                             text=True).stdout.split()
+    all_changed = set(subprocess.run(["git", "diff", "--name-only", "HEAD"], cwd=ROOT, capture_output=True,
+                                     text=True).stdout.splitlines())
+    changed = [f for f in ao if f in all_changed]
     aop = [f for f in ao if Path(f).name == "A-O_Parametrization.xlsx"]
     summary.append(("C4(4) other A-O workbooks byte-identical",
                     f"{len(ao) - len(changed)} of {len(ao)} other tracked A-O_*.xlsx files identical to HEAD "

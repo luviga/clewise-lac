@@ -1,0 +1,389 @@
+country,tech,parameter,stated_year,where_stated,factor,left,keep_rows
+CostaRica,IMPELE,VariableCost,2024,"2024 shown: 2024 annual import price (ICE DOCSE Informe Anual 2024), held at the 2024 value",,left: 2024 (30 years),0
+CostaRica,PP_SPV_DG,CapitalCost,"2021,2022","convention: LAC_COST_SRC_CR: 2021 column in 2021 USD, 2022 to 2050 in 2022 USD (REPORT line 58, GAPS item 11)",1.157652 (1 years); 1.071873 (29 years),,0
+CostaRica,PP_SPV_DG,FixedCost,"2021,2022","convention: LAC_COST_SRC_CR: 2021 column in 2021 USD, 2022 to 2050 in 2022 USD (REPORT line 58, GAPS item 11)",1.157652 (1 years); 1.071873 (29 years),,0
+CostaRica,PP_SPV_DG,VariableCost,"2021,2022",,,no value (30 years),30
+CostaRica,PWRBMS,FixedCost,"2021,2022","convention: LAC_COST_SRC_CR: 2021 column in 2021 USD, 2022 to 2050 in 2022 USD (REPORT line 58, GAPS item 11)",1.157652 (1 years); 1.071873 (29 years),,0
+CostaRica,PWRBMS,VariableCost,"2021,2022","convention: LAC_COST_SRC_CR: 2021 column in 2021 USD, 2022 to 2050 in 2022 USD (REPORT line 58, GAPS item 11)",1.157652 (1 years); 1.071873 (29 years),,0
+CostaRica,PWRDSL,CapitalCost,"2021,2022","convention: LAC_COST_SRC_CR: 2021 column in 2021 USD, 2022 to 2050 in 2022 USD (REPORT line 58, GAPS item 11)",1.157652 (1 years); 1.071873 (29 years),,30
+CostaRica,PWRDSL,FixedCost,"2021,2022","convention: LAC_COST_SRC_CR: 2021 column in 2021 USD, 2022 to 2050 in 2022 USD (REPORT line 58, GAPS item 11)",1.157652 (1 years); 1.071873 (29 years),,0
+CostaRica,PWRFOI,CapitalCost,"2021,2022","convention: LAC_COST_SRC_CR: 2021 column in 2021 USD, 2022 to 2050 in 2022 USD (REPORT line 58, GAPS item 11)",1.157652 (1 years); 1.071873 (29 years),,0
+CostaRica,PWRFOI,FixedCost,"2021,2022","convention: LAC_COST_SRC_CR: 2021 column in 2021 USD, 2022 to 2050 in 2022 USD (REPORT line 58, GAPS item 11)",1.157652 (1 years); 1.071873 (29 years),,0
+CostaRica,PWRGEO,CapitalCost,"2021,2022","convention: LAC_COST_SRC_CR: 2021 column in 2021 USD, 2022 to 2050 in 2022 USD (REPORT line 58, GAPS item 11)",1.157652 (1 years); 1.071873 (29 years),,30
+CostaRica,PWRGEO,VariableCost,"2021,2022",,,no value (30 years),30
+CostaRica,PWRHYDDAM,FixedCost,"2021,2022","convention: LAC_COST_SRC_CR: 2021 column in 2021 USD, 2022 to 2050 in 2022 USD (REPORT line 58, GAPS item 11)",1.157652 (1 years); 1.071873 (29 years),,0
+CostaRica,PWRHYDDAM,VariableCost,"2021,2022",,,no value (30 years),30
+CostaRica,PWRHYDROR,CapitalCost,"2021,2022","convention: LAC_COST_SRC_CR: 2021 column in 2021 USD, 2022 to 2050 in 2022 USD (REPORT line 58, GAPS item 11)",1.157652 (1 years); 1.071873 (29 years),,30
+CostaRica,PWRHYDROR,FixedCost,"2021,2022","convention: LAC_COST_SRC_CR: 2021 column in 2021 USD, 2022 to 2050 in 2022 USD (REPORT line 58, GAPS item 11)",1.157652 (1 years); 1.071873 (29 years),,0
+CostaRica,PWRHYDROR,VariableCost,"2021,2022",,,no value (30 years),30
+CostaRica,PWRSPVDTR,FixedCost,"2021,2022","convention: LAC_COST_SRC_CR: 2021 column in 2021 USD, 2022 to 2050 in 2022 USD (REPORT line 58, GAPS item 11)",1.157652 (1 years); 1.071873 (29 years),,30
+CostaRica,PWRSPVDTR,VariableCost,"2021,2022",,,no value (30 years),30
+CostaRica,PWRSPVTRN,CapitalCost,"2021,2022","convention: LAC_COST_SRC_CR: 2021 column in 2021 USD, 2022 to 2050 in 2022 USD (REPORT line 58, GAPS item 11)",1.157652 (1 years); 1.071873 (29 years),,30
+CostaRica,PWRSPVTRN,VariableCost,"2021,2022",,,no value (30 years),30
+CostaRica,PWRWNONS,VariableCost,"2021,2022",,,no value (30 years),30
+DominicanRepublic,PPADSL,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),11
+DominicanRepublic,PPADSL,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPADSL,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPAFOI,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),11
+DominicanRepublic,PPAFOI,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPAFOI,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPANGS,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),11
+DominicanRepublic,PPANGS,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPANGS,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPBGS,CapitalCost,2022,"at value: 2,162 USD/kW (2022 USD",1.071873 (33 years),,0
+DominicanRepublic,PPBGS,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPBGS,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPBIM,CapitalCost,2022,"at value: 2,162 USD/kW (2022 USD",1.071873 (33 years),,0
+DominicanRepublic,PPBIM,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPBIM,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPCCTDSL,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPCCTDSL,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPCCTDSL,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPCCTNGS,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),11
+DominicanRepublic,PPCCTNGS,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPCCTNGS,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPCOA,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPCOA,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPCOA,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPDBGS,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),11
+DominicanRepublic,PPDBGS,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPDBGS,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPDBIM,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),11
+DominicanRepublic,PPDBIM,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPDBIM,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPDDSL,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),11
+DominicanRepublic,PPDDSL,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPDDSL,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPDFOI,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),11
+DominicanRepublic,PPDFOI,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPDFOI,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPDGLP,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),11
+DominicanRepublic,PPDGLP,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPDGLP,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPDGSL,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),11
+DominicanRepublic,PPDGSL,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPDGSL,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPDHYD,CapitalCost,2022,"at value: 2,881 USD/kW (2022 USD",1.071873 (33 years),,0
+DominicanRepublic,PPDHYD,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPDHYD,VariableCost,,,,left: zero (33 years),1
+DominicanRepublic,PPDNGS,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),11
+DominicanRepublic,PPDNGS,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPDNGS,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPHDAM,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPHDAM,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPHDAM,VariableCost,,,,left: zero (33 years),1
+DominicanRepublic,PPICEFOI,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPICEFOI,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPICEFOI,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPICEGASFOI,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),11
+DominicanRepublic,PPICEGASFOI,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),1
+DominicanRepublic,PPICEGASFOI,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPPVD,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),5
+DominicanRepublic,PPPVD,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPPVD,VariableCost,,,,left: zero (33 years),1
+DominicanRepublic,PPPVT,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),4
+DominicanRepublic,PPPVT,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPPVT,VariableCost,,,,left: zero (33 years),1
+DominicanRepublic,PPPVTHYD,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),4
+DominicanRepublic,PPPVTHYD,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPPVTHYD,VariableCost,,,,left: zero (33 years),1
+DominicanRepublic,PPWNDON,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPWNDON,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+DominicanRepublic,PPWNDON,VariableCost,,,,left: zero (33 years),1
+Ecuador,ADD_GRE,CapitalCost,,,,left: zero (30 years),0
+Ecuador,ADD_GRE,FixedCost,,,,left: zero (30 years),0
+Ecuador,ADD_GRE,VariableCost,,,,left: zero (30 years),0
+Ecuador,DIST_BGS,CapitalCost,,,,left: zero (30 years),0
+Ecuador,DIST_BGS,FixedCost,,,,left: zero (30 years),0
+Ecuador,DIST_BGS,VariableCost,,,,left: zero (30 years),0
+Ecuador,DIST_BIM,CapitalCost,,,,left: zero (30 years),0
+Ecuador,DIST_BIM,FixedCost,,,,left: zero (30 years),0
+Ecuador,DIST_BIM,VariableCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,DIST_CHA,CapitalCost,,,,left: zero (30 years),0
+Ecuador,DIST_CHA,FixedCost,,,,left: zero (30 years),0
+Ecuador,DIST_CHA,VariableCost,2024,2024 shown: x 1.212039,,left: 2024 (30 years),0
+Ecuador,DIST_COA,CapitalCost,,,,left: zero (30 years),0
+Ecuador,DIST_COA,FixedCost,,,,left: zero (30 years),0
+Ecuador,DIST_COK,CapitalCost,,,,left: zero (30 years),0
+Ecuador,DIST_COK,FixedCost,,,,left: zero (30 years),0
+Ecuador,DIST_CRU,CapitalCost,,,,left: zero (30 years),0
+Ecuador,DIST_CRU,FixedCost,,,,left: zero (30 years),0
+Ecuador,DIST_DSL,CapitalCost,,,,left: zero (30 years),0
+Ecuador,DIST_DSL,FixedCost,,,,left: zero (30 years),0
+Ecuador,DIST_FIR,CapitalCost,,,,left: zero (30 years),0
+Ecuador,DIST_FIR,FixedCost,,,,left: zero (30 years),0
+Ecuador,DIST_FIR,VariableCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,DIST_FOI,CapitalCost,,,,left: zero (30 years),0
+Ecuador,DIST_FOI,FixedCost,,,,left: zero (30 years),0
+Ecuador,DIST_GSL,CapitalCost,,,,left: zero (30 years),0
+Ecuador,DIST_GSL,FixedCost,,,,left: zero (30 years),0
+Ecuador,DIST_JET,CapitalCost,,,,left: zero (30 years),0
+Ecuador,DIST_JET,FixedCost,,,,left: zero (30 years),0
+Ecuador,DIST_KER,CapitalCost,,,,left: zero (30 years),0
+Ecuador,DIST_KER,FixedCost,,,,left: zero (30 years),0
+Ecuador,DIST_LPG,CapitalCost,,,,left: zero (30 years),0
+Ecuador,DIST_LPG,FixedCost,,,,left: zero (30 years),0
+Ecuador,DIST_NGS,CapitalCost,,,,left: zero (30 years),0
+Ecuador,DIST_NGS,FixedCost,,,,left: zero (30 years),0
+Ecuador,DIST_OID,CapitalCost,,,,left: zero (30 years),0
+Ecuador,DIST_OID,FixedCost,,,,left: zero (30 years),0
+Ecuador,DIST_OID,VariableCost,,,,left: zero (30 years),0
+Ecuador,DIST_OPE,CapitalCost,,,,left: zero (30 years),0
+Ecuador,DIST_OPE,FixedCost,,,,left: zero (30 years),0
+Ecuador,DIST_RDF,CapitalCost,,,,left: zero (30 years),0
+Ecuador,DIST_RDF,FixedCost,,,,left: zero (30 years),0
+Ecuador,DIST_RDF,VariableCost,,,,left: zero (30 years),0
+Ecuador,ELE_DIST,CapitalCost,2024,2024 shown: CPI 1.212039,,left: 2024 (30 years),0
+Ecuador,ELE_DIST,FixedCost,,,,left: zero (30 years),0
+Ecuador,ELE_DIST,VariableCost,,,,left: zero (30 years),0
+Ecuador,ELE_TRANS,CapitalCost,2024,2024 shown: CPI 1.212039,,left: 2024 (30 years),0
+Ecuador,ELE_TRANS,FixedCost,,,,left: zero (30 years),0
+Ecuador,ELE_TRANS,VariableCost,,,,left: zero (30 years),0
+Ecuador,EXTT_CRU,CapitalCost,,,,left: zero (30 years),0
+Ecuador,EXTT_CRU,FixedCost,,,,left: zero (30 years),0
+Ecuador,EXTT_NGS,CapitalCost,,,,left: zero (30 years),0
+Ecuador,EXTT_NGS,FixedCost,,,,left: zero (30 years),0
+Ecuador,HYD_DIST,CapitalCost,,,,left: zero (30 years),0
+Ecuador,HYD_DIST,FixedCost,,,,left: zero (30 years),0
+Ecuador,HYD_DIST,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (30 years),0
+Ecuador,HYD_G_PROD,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (30 years),0
+Ecuador,HYD_G_PROD,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (30 years),0
+Ecuador,HYD_G_PROD,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (30 years),0
+Ecuador,IMPELE,CapitalCost,,,,left: zero (30 years),0
+Ecuador,IMPELE,FixedCost,,,,left: zero (30 years),0
+Ecuador,IMPELE,VariableCost,2024,2024 shown: CPI 2024/2021; 2024 shown: CPI 2024/2022; 2024 shown: CPI 2024/2023; 2024 shown: CPI 2024/2024; 2024 shown: held at the 2024 value,,left: 2024 (30 years),0
+Ecuador,PPBGS,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPBGS,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPBGS,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPBIM,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPBIM,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPBIM,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPCRU,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPCRU,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPCRU,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPDDSL,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPDDSL,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPDDSL,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPDFOI,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPDFOI,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPDFOI,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPDSL,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPDSL,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPDSL,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPFOI,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPFOI,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPFOI,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPHD,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHD,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHD,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPHDAMAB,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHDAMAB,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHDAMAB,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPHDAMAM,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),30
+Ecuador,PPHDAMAM,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHDAMAM,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPHDAMAS,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHDAMAS,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHDAMAS,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPHDAMPM,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),30
+Ecuador,PPHDAMPM,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHDAMPM,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPHDAMPS,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHDAMPS,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHDAMPS,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPHRORAB,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),30
+Ecuador,PPHRORAB,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHRORAB,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPHRORAM,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHRORAM,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHRORAM,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPHRORAS,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHRORAS,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHRORAS,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPHRORPM,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHRORPM,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHRORPM,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPHRORPS,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHRORPS,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPHRORPS,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPIBIM,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPIBIM,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPIBIM,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPIHD,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPIHD,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPIHD,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPILPG,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPILPG,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPILPG,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPNGS,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPNGS,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPNGS,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPPVD,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPPVT,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),2
+Ecuador,PPPVT,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPPVT,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPPVTS,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPPVTS,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPPVTS,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPRDSL,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPRDSL,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPRDSL,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPRNGS,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPRNGS,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPRNGS,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPWNDD,VariableCost,,,,left: zero (30 years),0
+Ecuador,PPWNDON,CapitalCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),1
+Ecuador,PPWNDON,FixedCost,2024,2024 shown: CPI 2024/2020,,left: 2024 (30 years),0
+Ecuador,PPWNDON,VariableCost,,,,left: zero (30 years),0
+Ecuador,PROCRU,CapitalCost,,,,left: zero (30 years),0
+Ecuador,PROCRU,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (30 years),0
+Ecuador,PROCRU,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (30 years),0
+Ecuador,PRONGS,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (30 years),0
+Ecuador,PRONGS,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (30 years),0
+Ecuador,PRONGS,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (30 years),0
+Ecuador,REF_DSL,VariableCost,2024,2024 shown: CPI 1.212039,,left: 2024 (30 years),0
+Ecuador,REF_FOI,VariableCost,2024,2024 shown: CPI 1.212039,,left: 2024 (30 years),0
+Ecuador,REF_GSL,VariableCost,2024,2024 shown: CPI 1.212039,,left: 2024 (30 years),0
+Ecuador,REF_JET,VariableCost,2024,2024 shown: CPI 1.212039,,left: 2024 (30 years),0
+Ecuador,REF_LPG,VariableCost,2024,2024 shown: CPI 1.212039,,left: 2024 (30 years),0
+Ecuador,REF_OPE,VariableCost,2024,2024 shown: CPI 1.212039,,left: 2024 (30 years),0
+Ecuador,STOELE,VariableCost,,,,left: zero (30 years),0
+Guatemala,IMP_ELE,VariableCost,2024,2024 shown: held at the 2024 volume-weighted; not stated: no currency year in the derivation or the source entries,,left: 2024 (32 years); left: not stated (1 years),0
+Guatemala,PPBGS,CapitalCost,2020,source: sources.csv NAT-002,1.212039 (33 years),,0
+Guatemala,PPBGS,FixedCost,2020,source: sources.csv NAT-002,1.212039 (33 years),,33
+Guatemala,PPBGS,VariableCost,,"ambiguous: source entries state 2020 (NAT-002), 2022 (INT-001)",,left: ambiguous (33 years),0
+Guatemala,PPBIM,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),33
+Guatemala,PPBIM,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),33
+Guatemala,PPBIM,VariableCost,2024,stated: 2024 USD,,left: 2024 (33 years),0
+Guatemala,PPCOA,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+Guatemala,PPCOA,FixedCost,2020,source: sources.csv NAT-002,1.212039 (33 years),,0
+Guatemala,PPCOA,VariableCost,2020,source: sources.csv NAT-002,1.212039 (33 years),,0
+Guatemala,PPDSL,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+Guatemala,PPDSL,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+Guatemala,PPDSL,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+Guatemala,PPFOI,CapitalCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+Guatemala,PPGEO,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),33
+Guatemala,PPGEO,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+Guatemala,PPHDAM,CapitalCost,2020,source: sources.csv NAT-002,1.212039 (33 years),,0
+Guatemala,PPHDAM,FixedCost,,"override: left: value 50 USD/kW-yr is from PEIG 2026-2050 Tabla 6 (NAT-001, currency year not stated); IRENA 2022 (INT-001) is onl",,"left: left: value 50 USD/kW-yr is from PEIG 2026-2050 Tabla 6 (NAT-001, currency year not stated); IRENA 2022 (INT-001) is only a range check (33 years)",0
+Guatemala,PPHDAM,VariableCost,,,,left: zero (33 years),33
+Guatemala,PPHROR,FixedCost,2020,source: sources.csv NAT-002,1.212039 (33 years),,0
+Guatemala,PPHROR,VariableCost,,,,left: zero (33 years),33
+Guatemala,PPNGS,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),33
+Guatemala,PPNGS,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),0
+Guatemala,PPPVD,CapitalCost,"2019,2021,2022",at value: 1011.92 (2022 USD; at value: 1032.59 (2022 USD; at value: 1053.27 (2022 USD; at value: 1073.95 (2022 USD; at value: 1094.62 (2022 USD; at value: 1115.30 (2022 USD; at value: 1135.98 (2022 USD; at value: 1156.65 (2022 USD; at value: 1177.33 (2022 USD; at value: 1198.01 (2022 USD; at value: 1218.68 (2022 USD; at value: 1239.36 (2022 USD; at value: 1289.85 (2022 USD; at value: 1340.34 (2022 USD; at value: 1390.83 (2022 USD; at value: 1441.32 (2022 USD; at value: 1491.80 (2022 USD; at value: 1542.29 (2022 USD; at value: 1592.78 (2022 USD; at value: 1643.27 (2022 USD; at value: 1693.76 (2,1.226992 (3 years); 1.157652 (1 years); 1.071873 (29 years),,1
+Guatemala,PPPVD,FixedCost,"2019,2022",at value: 11.12 (2022 USD; at value: 11.30 (2022 USD; at value: 11.47 (2022 USD; at value: 11.64 (2022 USD; at value: 11.82 (2022 USD; at value: 11.99 (2022 USD; at value: 12.17 (2022 USD; at value: 12.34 (2022 USD; at value: 12.51 (2022 USD; at value: 12.69 (2022 USD; at value: 12.86 (2022 USD; at value: 13.03 (2022 USD; at value: 13.21 (2022 USD; at value: 13.38 (2022 USD; at value: 13.55 (2022 USD; at value: 13.73 (2022 USD; at value: 14.15 (2022 USD; at value: 14.57 (2022 USD; at value: 15.00 (2022 USD; at value: 15.42 (2022 USD; at value: 15.84 (2022 USD; at value: 16.27 (2022 USD; at val,1.226992 (4 years); 1.071873 (29 years),,1
+Guatemala,PPPVD,VariableCost,,,,left: zero (33 years),33
+Guatemala,PPPVDS,CapitalCost,"2019,2021,2022","inherited: PPPVD CapitalCost 2018 row (at value: 1806.38, 2019 USD), times a unitless ATB ratio; inherited: PPPVD CapitalCost 2019 row (at value: 1806.38, 2019 USD), times a unitless ATB ratio; inherited: PPPVD CapitalCost 2020 row (at value: 1762.35, 2019 USD), times a unitless ATB ratio; inherited: PPPVD CapitalCost 2021 row (at value: 1753.80 (2021 USD), times a unitless ATB ratio; inherited: PPPVD CapitalCost 2022 row (at value: 2058.30 (2022 USD), times a unitless ATB ratio; inherited: PPPVD CapitalCost 2023 row (at value: 1845.23 (2022 USD), times a unitless ATB ratio; inherited: PPPVD C",1.226992 (3 years); 1.157652 (1 years); 1.071873 (29 years),,0
+Guatemala,PPPVDS,FixedCost,"2019,2022","inherited: PPPVD FixedCost 2018 row (at value: 19.27, 2019 USD), times a unitless ATB ratio; inherited: PPPVD FixedCost 2019 row (at value: 19.27, 2019 USD), times a unitless ATB ratio; inherited: PPPVD FixedCost 2020 row (at value: 18.55, 2019 USD), times a unitless ATB ratio; inherited: PPPVD FixedCost 2021 row (stated: (2019 USD), times a unitless ATB ratio; inherited: PPPVD FixedCost 2022 row (at value: 20.58 (2022 USD), times a unitless ATB ratio; inherited: PPPVD FixedCost 2023 row (at value: 18.81 (2022 USD), times a unitless ATB ratio; inherited: PPPVD FixedCost 2024 row (at value: 18.",1.226992 (4 years); 1.071873 (29 years),,0
+Guatemala,PPPVDS,VariableCost,,,,left: zero (33 years),33
+Guatemala,PPPVT,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),33
+Guatemala,PPPVT,VariableCost,,,,left: zero (33 years),33
+Guatemala,PPPVT2,VariableCost,,,,left: zero (33 years),33
+Guatemala,PPPVTS,VariableCost,,,,left: zero (33 years),33
+Guatemala,PPWNDON,CapitalCost,2018,stated: (2018 USD,1.249224 (33 years),,0
+Guatemala,PPWNDON,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),33
+Guatemala,PPWNDON,VariableCost,,,,left: zero (33 years),33
+Honduras,IMP_ELE,FixedCost,,,,left: zero (7 years),0
+Honduras,IMP_ELE,VariableCost,2024,2024 shown: 2024 price held; 2024 shown: 313.689 / CPIU_2022 292.655; 2024 shown: 313.689 / CPIU_2023 304.702; 2024 shown: 313.689 / CPIU_2024 313.689,,left: 2024 (7 years),0
+Honduras,PPBIM,VariableCost,2022,source: sources.csv CSH-011,1.071873 (33 years),,0
+Honduras,PPCOK,CapitalCost,2023,"at value: 4,769.52 USD/kW (2023 USD",1.029494 (33 years),,33
+Honduras,PPCOK,FixedCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),33
+Honduras,PPCOK,VariableCost,,not stated: no currency year in the derivation or the source entries,,left: not stated (33 years),33
+Honduras,PPFOI,CapitalCost,"2023,2024",at value: 984.08 USD/kW (2023 USD; stated: 2024 USD,1.029494 (6 years),left: 2024 (27 years),6
+Honduras,PPFOI,FixedCost,2024,not stated: no currency year in the derivation or the source entries; stated: 2024 USD,,left: not stated (6 years); left: 2024 (27 years),6
+Honduras,PPFOI,VariableCost,2024,not stated: no currency year in the derivation or the source entries; stated: 2024 USD,,left: not stated (6 years); left: 2024 (27 years),6
+Honduras,PPGEO,CapitalCost,"2023,2024","at value: 5,900.00 USD/kW (2023 USD; stated: 2024 USD",1.029494 (6 years),left: 2024 (27 years),6
+Honduras,PPGEO,FixedCost,2024,not stated: no currency year in the derivation or the source entries; stated: 2024 USD,,left: not stated (6 years); left: 2024 (27 years),6
+Honduras,PPGEO,VariableCost,2024,not stated: no currency year in the derivation or the source entries; stated: 2024 USD,,left: not stated (6 years); left: 2024 (27 years),6
+Honduras,PPGTDSL,CapitalCost,"2023,2024","at value: 1,204.83 USD/kW (2023 USD; stated: 2024 USD",1.029494 (6 years),left: 2024 (27 years),6
+Honduras,PPGTDSL,FixedCost,2024,not stated: no currency year in the derivation or the source entries; stated: 2024 USD,,left: not stated (6 years); left: 2024 (27 years),6
+Honduras,PPGTDSL,VariableCost,2024,not stated: no currency year in the derivation or the source entries; stated: 2024 USD,,left: not stated (6 years); left: 2024 (27 years),6
+Honduras,PPGTGLP,CapitalCost,"2023,2024","at value: 1,204.83 USD/kW (2023 USD; stated: 2024 USD",1.029494 (6 years),left: 2024 (27 years),6
+Honduras,PPGTGLP,FixedCost,2024,not stated: no currency year in the derivation or the source entries; stated: 2024 USD,,left: not stated (6 years); left: 2024 (27 years),6
+Honduras,PPGTGLP,VariableCost,2024,not stated: no currency year in the derivation or the source entries; stated: 2024 USD,,left: not stated (6 years); left: 2024 (27 years),6
+Honduras,PPHDAM,CapitalCost,"2023,2024","at value: 3,576.00 USD/kW (2023 USD; stated: 2024 USD",1.029494 (6 years),left: 2024 (27 years),6
+Honduras,PPHDAM,FixedCost,2024,not stated: no currency year in the derivation or the source entries; stated: 2024 USD,,left: not stated (6 years); left: 2024 (27 years),6
+Honduras,PPHDAM,VariableCost,,,,left: zero (33 years),0
+Honduras,PPHROR,CapitalCost,"2023,2024","at value: 2,000.00 USD/kW (2023 USD; stated: 2024 USD",1.029494 (6 years),left: 2024 (27 years),6
+Honduras,PPHROR,FixedCost,2024,not stated: no currency year in the derivation or the source entries; stated: 2024 USD,,left: not stated (6 years); left: 2024 (27 years),6
+Honduras,PPHROR,VariableCost,,,,left: zero (33 years),0
+Honduras,PPICEDSL,CapitalCost,"2023,2024",at value: 966.72 USD/kW (2023 USD; stated: 2024 USD,1.029494 (6 years),left: 2024 (27 years),6
+Honduras,PPICEDSL,FixedCost,2024,not stated: no currency year in the derivation or the source entries; stated: 2024 USD,,left: not stated (6 years); left: 2024 (27 years),6
+Honduras,PPICEDSL,VariableCost,2024,not stated: no currency year in the derivation or the source entries; stated: 2024 USD,,left: not stated (6 years); left: 2024 (27 years),6
+Honduras,PPPVD,CapitalCost,"2023,2024",at value: 871.80 USD/kW (2023 USD; stated: 2024 USD,1.029494 (6 years),left: 2024 (27 years),6
+Honduras,PPPVD,FixedCost,2022,stated: (2022 USD,1.071873 (33 years),,0
+Honduras,PPPVD,VariableCost,,,,left: zero (33 years),33
+Honduras,PPPVT,CapitalCost,"2023,2024","at value: 1,254.72 USD/kW (2023 USD; stated: 2024 USD",1.029494 (6 years),left: 2024 (27 years),6
+Honduras,PPPVT,FixedCost,2024,not stated: no currency year in the derivation or the source entries; stated: 2024 USD,,left: not stated (6 years); left: 2024 (27 years),6
+Honduras,PPPVT,VariableCost,,,,left: zero (33 years),33
+Honduras,PPWNDON,CapitalCost,"2023,2024","at value: 1,716.52 USD/kW (2023 USD; stated: 2024 USD",1.029494 (6 years),left: 2024 (27 years),6
+Honduras,PPWNDON,FixedCost,2024,not stated: no currency year in the derivation or the source entries; stated: 2024 USD,,left: not stated (6 years); left: 2024 (27 years),6
+Honduras,PPWNDON,VariableCost,,,,left: zero (33 years),33
+Jamaica,PPBGS,CapitalCost,2022,stated: (2022 USD,1.071873 (35 years),,0
+Jamaica,PPBGS,FixedCost,2022,stated: (2022 USD,1.071873 (35 years),,0
+Jamaica,PPBGS,VariableCost,2025,"stated: IRENA RPGC in 2025 (PSJ-002, values in 2025 USD)",,"left: 2025 USD stated, after 2024 (D3 covers years before 2024) (35 years)",0
+Jamaica,PPBIM,CapitalCost,2022,stated: (2022 USD,1.071873 (35 years),,0
+Jamaica,PPBIM,FixedCost,2022,stated: (2022 USD,1.071873 (35 years),,0
+Jamaica,PPBIM,VariableCost,2025,"stated: IRENA RPGC in 2025 (PSJ-002, values in 2025 USD)",,"left: 2025 USD stated, after 2024 (D3 covers years before 2024) (35 years)",0
+Jamaica,PPDSL,CapitalCost,2018,stated: (2018 USD,1.249224 (35 years),,0
+Jamaica,PPDSL,FixedCost,2018,at value: 12 USD/kW-yr (2018 USD,1.249224 (35 years),,0
+Jamaica,PPDSL,VariableCost,2018,at value: 0.2778 USD/GJ (2018 USD,1.249224 (35 years),,0
+Jamaica,PPFOI,CapitalCost,2018,stated: (2018 USD,1.249224 (35 years),,0
+Jamaica,PPFOI,FixedCost,2018,at value: 36 USD/kW-yr (2018 USD,1.249224 (35 years),,0
+Jamaica,PPFOI,VariableCost,2018,at value: 1.8056 USD/GJ (2018 USD,1.249224 (35 years),,0
+Jamaica,PPGEO,CapitalCost,2021,deflated: CPIU_2021/CPIU_2022,1.157652 (35 years),,21
+Jamaica,PPGEO,FixedCost,2025,at value: 128 USD/kW-yr (2025 USD; stated: (2025 USD,,"left: 2025 USD stated, after 2024 (D3 covers years before 2024) (35 years)",0
+Jamaica,PPGEO,VariableCost,,,,left: zero (35 years),0
+Jamaica,PPHDAM,CapitalCost,2021,deflated: CPIU_2021/CPIU_2022,1.157652 (35 years),,32
+Jamaica,PPHDAM,FixedCost,2021,deflated: CPIU_2021/CPIU_2022,1.157652 (35 years),,33
+Jamaica,PPHDAM,VariableCost,,,,left: zero (35 years),0
+Jamaica,PPHROR,CapitalCost,2022,stated: (2022 USD,1.071873 (35 years),,35
+Jamaica,PPHROR,FixedCost,2018,at value: 120 USD/kW-yr (2018 USD,1.249224 (35 years),,35
+Jamaica,PPHROR,VariableCost,,,,left: zero (35 years),0
+Jamaica,PPNGS,CapitalCost,2010,stated: (January 2010 prices),,"left: 2010 USD stated, no CPI-U 2010 in any constants.csv (35 years)",35
+Jamaica,PPNGS,FixedCost,2018,at value: 14.4 USD/kW-yr (2018 USD,1.249224 (35 years),,0
+Jamaica,PPNGS,VariableCost,2018,at value: 0.7222 USD/GJ (2018 USD,1.249224 (35 years),,0
+Jamaica,PPPVD,CapitalCost,2022,stated: (2022 USD,1.071873 (35 years),,4
+Jamaica,PPPVD,FixedCost,2022,stated: (2022 USD,1.071873 (35 years),,2
+Jamaica,PPPVD,VariableCost,,,,left: zero (35 years),0
+Jamaica,PPPVDS,CapitalCost,,"override: left: mixed currency years (PPPVD part 2022 USD, battery part 2018 IRP USD)",,"left: left: mixed currency years (PPPVD part 2022 USD, battery part 2018 IRP USD) (35 years)",0
+Jamaica,PPPVDS,FixedCost,,"override: left: mixed currency years (PPPVD part 2022 USD, battery part 2018 IRP USD)",,"left: left: mixed currency years (PPPVD part 2022 USD, battery part 2018 IRP USD) (35 years)",0
+Jamaica,PPPVDS,VariableCost,,,,left: zero (35 years),0
+Jamaica,PPPVT,CapitalCost,2018,at value: 1350 USD/kW (2018 USD; stated: (2018 USD,1.249224 (35 years),,6
+Jamaica,PPPVT,FixedCost,2018,at value: 31.2 USD/kW-yr (2018 USD,1.249224 (35 years),,35
+Jamaica,PPPVT,VariableCost,,,,left: zero (35 years),0
+Jamaica,PPWNDON,CapitalCost,2018,at value: 1870 USD/kW (2018 USD,1.249224 (1 years),,1
+Jamaica,PPWNDON,FixedCost,2018,at value: 36 USD/kW-yr (2018 USD,1.249224 (35 years),,35
+Jamaica,PPWNDON,VariableCost,2018,at value: 0.6944 USD/GJ (2018 USD,1.249224 (35 years),,35
+Jamaica,PPWNDONS,CapitalCost,,"override: left: mixed currency years (PPWNDON part regional 2024 USD, battery part 2018 IRP USD)",,"left: left: mixed currency years (PPWNDON part regional 2024 USD, battery part 2018 IRP USD) (35 years)",0
+Jamaica,PPWNDONS,FixedCost,,"override: left: mixed currency years (PPWNDON part 2018 USD, battery part 2018 IRP USD scaled by ATB)",,"left: left: mixed currency years (PPWNDON part 2018 USD, battery part 2018 IRP USD scaled by ATB) (35 years)",0
+Jamaica,PPWNDONS,VariableCost,2018,source: sources.csv PSJ-004,1.249224 (35 years),,0
+CostaRica,PWRBMS,CapitalCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+CostaRica,PWRDSL,VariableCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+CostaRica,PWRFOI,VariableCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+CostaRica,PWRGEO,FixedCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+CostaRica,PWRHYDDAM,CapitalCost,2024,regional_proposals.csv (values in real 2024 USD); D2 ICE PEG 2024-2040 Dec-2023 USD x CPI-U 2024/2023,,left: from regional_proposals.csv or D2 (not a D3 group),
+CostaRica,PWRSPVDTR,CapitalCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+CostaRica,PWRSPVTRN,FixedCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+CostaRica,PWRWNONS,CapitalCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+CostaRica,PWRWNONS,FixedCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Ecuador,PPPVD,CapitalCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Ecuador,PPPVD,FixedCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Ecuador,PPWNDD,CapitalCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Ecuador,PPWNDD,FixedCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Ecuador,STOELE,CapitalCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Ecuador,STOELE,FixedCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Guatemala,PPFOI,FixedCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Guatemala,PPFOI,VariableCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Guatemala,PPGEO,CapitalCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Guatemala,PPHROR,CapitalCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Guatemala,PPNGS,CapitalCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Guatemala,PPPVT,CapitalCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Guatemala,PPPVT2,CapitalCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Guatemala,PPPVT2,FixedCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Guatemala,PPPVTS,CapitalCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Guatemala,PPPVTS,FixedCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Honduras,PPBIM,CapitalCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Honduras,PPBIM,FixedCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
+Jamaica,PPWNDON,CapitalCost,2024,regional_proposals.csv (values in real 2024 USD),,left: from regional_proposals.csv or D2 (not a D3 group),
