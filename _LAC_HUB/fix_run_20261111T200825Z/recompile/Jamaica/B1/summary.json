@@ -1,0 +1,43 @@
+{
+  "country": "Jamaica",
+  "command": "python(anaconda) B1_Base_Scenarios_Adj_Parallel_Jamaica.py",
+  "exit": 0,
+  "seconds": 199.6,
+  "solves": [
+    {
+      "data": "C:\\\\clw_fix\\\\Jamaica\\\\JAM_ENERGY\\\\Executables\\\\BAU_0\\BAU_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 62737.34145 (MINimum)",
+      "seconds": 131.1,
+      "returncode": 0
+    },
+    {
+      "data": "C:\\\\clw_fix\\\\Jamaica\\\\JAM_ENERGY\\\\Executables\\\\LTSNEW_0\\LTSNEW_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 59127.09651 (MINimum)",
+      "seconds": 131.6,
+      "returncode": 0
+    },
+    {
+      "data": "C:\\\\clw_fix\\\\Jamaica\\\\JAM_ENERGY\\\\Executables\\\\NDCNEW_0\\NDCNEW_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 61411.68881 (MINimum)",
+      "seconds": 133.4,
+      "returncode": 0
+    }
+  ],
+  "b1_files_written": {
+    "BAU": 20,
+    "NDCNEW": 20,
+    "LTSNEW": 20
+  },
+  "b1_diffs": {
+    "BAU": 0,
+    "NDCNEW": 0,
+    "LTSNEW": 0
+  },
+  "other_changed_paths": [
+    "?? Jamaica/JAM_ENERGY/SelectedResults.csv"
+  ],
+  "removed_untracked": "SelectedResults.csv"
+}

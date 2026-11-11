@@ -93,6 +93,21 @@ for y in YEARS:
     if abs(float(lo[y])) > 0:
         add(sheet='Primary Techs', row=int(lo['row']), column=hdr['Primary Techs'][y], Tech='DIST_CRU', Parameter='TotalTechnologyAnnualActivityLowerLimit',
             year=y, current_value=float(lo[y]), new_value=0.0, source_ids='', derivation='crude imports lower limit 0 in every year: OSeMOSYS fills any shortfall (brief R3)')
+# DIST_CRU upper limit: 0 in 2021 to 2023 in the workbook (no crude imports observed). With the sourced production
+# and export volumes and the refinery's own crude input lower limit (PROCRU, 327.6 PJ in 2021 and 346.5 PJ in 2022),
+# 2021 and 2022 cannot balance without imports (found at the Phase C recompile: every Ecuador solve infeasible).
+# Least change: open imports in those two years only, at the 999,999 PJ the row has from 2024 (brief R3 "OSeMOSYS
+# fills any shortfall"; the brief's F3 describes this row's upper limit as 999,999); 2023 balances and stays 0.
+du = row('DIST_CRU', 'TotalTechnologyAnnualActivityUpperLimit')
+for y in (2021, 2022):
+    assert abs(float(du[y])) == 0.0, (y, du[y])
+    add(sheet='Primary Techs', row=int(du['row']), column=hdr['Primary Techs'][y], Tech='DIST_CRU', Parameter='TotalTechnologyAnnualActivityUpperLimit',
+        year=y, current_value=0.0, new_value=999999.0, source_ids='',
+        derivation=(f"crude imports upper limit {y}: 0 -> 999,999 PJ, the value the row has from 2024, so OSeMOSYS can fill the shortfall (brief R3); "
+                    f"with the sourced production upper limit and export demand, the refinery crude input lower limit (PROCRU) cannot be met in {y} "
+                    f"without imports (all Ecuador solves infeasible at the Phase C recompile)"),
+        assumption=(f"ASSUMPTION: crude imports may fill a shortfall in {y} because the refinery input lower limit of the model is about 9 PJ (2021) "
+                    f"and 8 PJ (2022) above sourced production minus sourced exports; the refinery limit itself is outside the scope of this job."))
 # volumes
 if not inp.get('pending'):
     prod = {int(k): v for k, v in inp['production_bbl'].items()}

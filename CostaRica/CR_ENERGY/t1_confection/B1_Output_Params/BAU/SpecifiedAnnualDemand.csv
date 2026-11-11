@@ -689,7 +689,7 @@ SpecifiedAnnualDemand,BAU,CR,,E5INDBMS,,,2047,,,,,,6.4833
 SpecifiedAnnualDemand,BAU,CR,,E5INDBMS,,,2048,,,,,,6.4958
 SpecifiedAnnualDemand,BAU,CR,,E5INDBMS,,,2049,,,,,,6.5083
 SpecifiedAnnualDemand,BAU,CR,,E5INDBMS,,,2050,,,,,,6.5209
-SpecifiedAnnualDemand,BAU,CR,,E5INDCOA,,,2021,,,,,,0.675
+SpecifiedAnnualDemand,BAU,CR,,E5INDCOA,,,2021,,,,,,0.0067
 SpecifiedAnnualDemand,BAU,CR,,E5INDCOA,,,2022,,,,,,0.0067
 SpecifiedAnnualDemand,BAU,CR,,E5INDCOA,,,2023,,,,,,0.0072
 SpecifiedAnnualDemand,BAU,CR,,E5INDCOA,,,2024,,,,,,0.0076

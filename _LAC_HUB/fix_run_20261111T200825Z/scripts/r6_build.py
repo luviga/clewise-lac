@@ -6,11 +6,14 @@ values change. The target for a history year is the value BAU ends up with in B1
 for the same parameter and set (or the B1 default when BAU has no entry).
 - Year-column sheets (Efficiency, SmartGrid, EmissionsActivityRatio), Method Exact: the history
   year cells take the BAU value.
-- Electrical sheet, exact-year lists: the history years get exact values equal to BAU / Security_Multiplier;
-  where the row interpolates across 2024 (first exact year in history, next known point after 2025),
-  2025 is added as an exact year with the value the row already gives it, so every year from 2025 on
-  is unchanged.
-Run: py -I scripts/r6_build.py <root> <bau_b1_root> <out_csv>
+- Electrical sheet, exact-year lists: the history years get exact values equal to BAU divided by the multiplier
+  B1 applies to that row; where the row interpolates across 2024 (first exact year in history, next known point
+  after 2025), the years from 2025 to that point are added as exact years with the values the row already gives
+  them, so every year from 2025 on is unchanged.
+  The multiplier B1 applies: Security_Multiplier on 'Write' rows (Built-in NO) in every model; on 'Overwrite'
+  rows (Built-in YES) only in the models whose B1 multiplies there (Dominican Republic, Ecuador, Guatemala,
+  Jamaica); the Costa Rica and Honduras B1 scripts only round 'Overwrite' rows, so the multiplier there is 1.
+Run: py -I scripts/r6_build.py <root> <bau_b1_root> <out_csv> [country ...]
 """
 import os, sys, glob
 import numpy as np
@@ -27,8 +30,13 @@ MODELS = {
     'Honduras': 'Honduras/HON_ENERGY',
     'Jamaica': 'Jamaica/JAM_ENERGY',
 }
+if len(sys.argv) > 4:
+    MODELS = {c: m for c, m in MODELS.items() if c in sys.argv[4:]}
 SC = ['NDCNEW', 'LTSNEW']
 HIST_END = 2024
+# B1 'Overwrite' branch: multiplies by Security_Multiplier (True) or only rounds (False)
+OVERWRITE_MULTIPLIES = {'CostaRica': False, 'DominicanRepublic': True, 'Ecuador': True, 'Guatemala': True,
+                        'Honduras': False, 'Jamaica': True}
 
 
 def load_bau(model):
@@ -126,6 +134,9 @@ for c, model in MODELS.items():
                 mv = [float(x) for x in str(ws.cell(r, ic['Milestone_Value']).value).replace(' ', '').split(';') if x not in ('', 'None', 'nan')]
                 sec = ws.cell(r, ic['Security_Multiplier']).value
                 sec = 1.0 if sec in (None, '') else float(sec)
+                built = str(ws.cell(r, ic['Built-in Parameter-Set']).value).replace(' ', '')
+                if built == 'YES' and not OVERWRITE_MULTIPLIES[c]:
+                    sec = 1.0  # this model's B1 only rounds Overwrite rows
                 if 'Fix_Indicated' in meth or 'Interpolate_Escalate' in meth:
                     notes.append(dict(country=c, sheet=ws.title, row=r, note=f'method {meth} not handled ({sc} {par} {tech}); not changed'))
                     continue

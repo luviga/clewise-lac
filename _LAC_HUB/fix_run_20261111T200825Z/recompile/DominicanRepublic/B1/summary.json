@@ -1,0 +1,43 @@
+{
+  "country": "DominicanRepublic",
+  "command": "python(anaconda) B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py",
+  "exit": 0,
+  "seconds": 209.1,
+  "solves": [
+    {
+      "data": "C:\\\\clw_fix\\\\DominicanRepublic\\\\RD_ENERGY\\\\Executables\\\\BAU_0\\BAU_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 409210.9935 (MINimum)",
+      "seconds": 127.1,
+      "returncode": 0
+    },
+    {
+      "data": "C:\\\\clw_fix\\\\DominicanRepublic\\\\RD_ENERGY\\\\Executables\\\\LTSNEW_0\\LTSNEW_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 456260.1869 (MINimum)",
+      "seconds": 128.9,
+      "returncode": 0
+    },
+    {
+      "data": "C:\\\\clw_fix\\\\DominicanRepublic\\\\RD_ENERGY\\\\Executables\\\\NDCNEW_0\\NDCNEW_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 431934.7262 (MINimum)",
+      "seconds": 130.2,
+      "returncode": 0
+    }
+  ],
+  "b1_files_written": {
+    "BAU": 19,
+    "NDCNEW": 19,
+    "LTSNEW": 19
+  },
+  "b1_diffs": {
+    "BAU": 0,
+    "NDCNEW": 0,
+    "LTSNEW": 0
+  },
+  "other_changed_paths": [
+    "?? DominicanRepublic/RD_ENERGY/SelectedResults.csv"
+  ],
+  "removed_untracked": "SelectedResults.csv"
+}
