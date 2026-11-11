@@ -8,9 +8,15 @@ see None for every formula cell. That is the 12 May 2026 Jamaica failure.
 This module gives every A-O writer one save path:
 
     save_ao_safely(wb, path)
-        1. wb.save(path)                      (the caller's normal openpyxl save)
-        2. recalc_in_excel(path)              (Excel recomputes and stores results)
-        3. assert_no_blank_formula_cells(path) (refuses a formula cell with no value)
+        1. wb.save(tmp)                       (openpyxl save to <stem>.safesave_tmp<suffix>
+                                               in the target's folder, never to path)
+        2. recalc_in_excel(tmp)               (Excel recomputes and stores results)
+        3. assert_no_blank_formula_cells(tmp) (refuses a formula cell with no value)
+        4. os.replace(tmp, path)              (the target is replaced only now)
+
+If any step raises (a BlankFormulaError, a COM error, a PermissionError
+because the target is open), the temporary copy is deleted, the target is
+left untouched and the error is re-raised.
 
 Formula text is never replaced by a number.
 Requires Microsoft Excel and pywin32 (win32com) on Windows.
@@ -18,6 +24,7 @@ Requires Microsoft Excel and pywin32 (win32com) on Windows.
 
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 from openpyxl import load_workbook
@@ -114,8 +121,26 @@ def assert_no_blank_formula_cells(path) -> tuple[int, list[str]]:
 
 
 def save_ao_safely(wb, path) -> None:
-    """Save an openpyxl workbook, have Excel restore every formula result,
-    then refuse to finish if any formula cell is still without a value."""
-    wb.save(path)
-    recalc_in_excel(path)
-    assert_no_blank_formula_cells(path)
+    """Save an openpyxl workbook to a temporary copy next to `path`, have
+    Excel restore every formula result in that copy, refuse it if any formula
+    cell is still without a value, and only then replace `path` with it.
+
+    On any error the temporary copy is deleted, `path` is left untouched and
+    the error is re-raised."""
+    target = Path(path).resolve()
+    tmp = target.with_name(f"{target.stem}.safesave_tmp{target.suffix}")
+    if tmp.exists():
+        print(f"[ao_safe_save] deleting leftover temporary copy {tmp}")
+        tmp.unlink()
+    try:
+        wb.save(tmp)
+        recalc_in_excel(tmp)
+        assert_no_blank_formula_cells(tmp)
+        os.replace(tmp, target)
+    except BaseException:
+        try:
+            if tmp.exists():
+                tmp.unlink()
+        except OSError:
+            pass
+        raise
