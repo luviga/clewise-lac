@@ -1,0 +1,47 @@
+{
+  "country": "Ecuador",
+  "command": "python(anaconda) B1_Base_Scenarios_Adj_Parallel.py",
+  "exit": 0,
+  "seconds": 145.3,
+  "solves": [
+    {
+      "data": "C:\\\\clw_overnight\\\\Ecuador\\\\ECU_Energy\\\\Executables\\\\BAU_0\\BAU_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 107499.4639 (MINimum)",
+      "seconds": 85.3,
+      "returncode": 0
+    },
+    {
+      "data": "C:\\\\clw_overnight\\\\Ecuador\\\\ECU_Energy\\\\Executables\\\\LTSNEW_0\\LTSNEW_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 130673.8908 (MINimum)",
+      "seconds": 85.7,
+      "returncode": 0
+    },
+    {
+      "data": "C:\\\\clw_overnight\\\\Ecuador\\\\ECU_Energy\\\\Executables\\\\NDCNEW_0\\NDCNEW_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 128531.3714 (MINimum)",
+      "seconds": 85.7,
+      "returncode": 0
+    }
+  ],
+  "b1_files_written": {
+    "BAU": 20,
+    "NDCNEW": 20,
+    "LTSNEW": 20
+  },
+  "datafile_diffs": {
+    "BAU": 0,
+    "NDCNEW": 435,
+    "LTSNEW": 435
+  },
+  "b1_diffs": {
+    "BAU": 0,
+    "NDCNEW": 464,
+    "LTSNEW": 464
+  },
+  "other_changed_paths": [
+    " M Ecuador/ECU_Energy/SelectedResults.csv"
+  ]
+}

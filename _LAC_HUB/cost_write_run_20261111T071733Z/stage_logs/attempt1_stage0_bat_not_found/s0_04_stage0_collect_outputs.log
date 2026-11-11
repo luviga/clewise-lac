@@ -1,0 +1,51 @@
+$ python stage0_collect_outputs.py
+======================================================================
+STAGE 0: Collect Outputs
+======================================================================
+
+============================================================
+CostaRica
+  [WARN] BAU_S0: no output file
+  [WARN] NDCNEW_S0: no output file
+  [WARN] LTSNEW_S0: no output file
+
+============================================================
+DominicanRepublic
+  [WARN] BAU_S0: no output file
+  [WARN] NDCNEW_S0: no output file
+  [WARN] LTSNEW_S0: no output file
+
+============================================================
+Ecuador
+  [WARN] BAU_S0: no output file
+  [WARN] NDCNEW_S0: no output file
+  [WARN] LTSNEW_S0: no output file
+
+============================================================
+Guatemala
+  [WARN] BAU_S0: no output file
+  [WARN] NDCNEW_S0: no output file
+  [WARN] LTSNEW_S0: no output file
+
+============================================================
+Honduras
+  [WARN] BAU_S0: no output file
+  [WARN] NDCNEW_S0: no output file
+  [WARN] LTSNEW_S0: no output file
+
+============================================================
+Jamaica
+  [WARN] BAU_S0: no output file
+  [WARN] NDCNEW_S0: no output file
+  [WARN] LTSNEW_S0: no output file
+
+======================================================================
+Writing outputs...
+  [Wrote] STAGE0_RUN_STATUS.csv
+  Results: 0 OK, 0 INFEASIBLE, 18 other
+
+======================================================================
+DONE.
+Stage 1 reads:
+  shares = pd.read_csv('_STAGE0_OUTPUT/STAGE0_SHARES.csv')
+  denoms = pd.read_csv('_STAGE0_OUTPUT/{country}/EMPIRICAL_GEN__{country}__BAU_S0.csv')

@@ -1,0 +1,102 @@
+$ python stage0_capacity_check.py
+======================================================================
+STAGE 0: Capacity Ceiling Check
+======================================================================
+Loaded HEADROOM_DECOMPOSITION: 266 rows
+
+============================================================
+CostaRica
+
+  BAU:
+    10 PP techs × 30 years | 162 violations (Share_A > Share_B)
+
+  NDCNEW:
+    [WARN] No empirical gen for NDCNEW_S0
+
+  LTSNEW:
+    [WARN] No empirical gen for LTSNEW_S0
+
+============================================================
+DominicanRepublic
+
+  BAU:
+    [WARN] No empirical gen for BAU_S0
+
+  NDCNEW:
+    [WARN] No empirical gen for NDCNEW_S0
+
+  LTSNEW:
+    [WARN] No empirical gen for LTSNEW_S0
+
+============================================================
+Ecuador
+
+  BAU:
+    [WARN] No empirical gen for BAU_S0
+
+  NDCNEW:
+    [WARN] No empirical gen for NDCNEW_S0
+
+  LTSNEW:
+    [WARN] No empirical gen for LTSNEW_S0
+
+============================================================
+Guatemala
+
+  BAU:
+    [WARN] No empirical gen for BAU_S0
+
+  NDCNEW:
+    [WARN] No empirical gen for NDCNEW_S0
+
+  LTSNEW:
+    [WARN] No empirical gen for LTSNEW_S0
+
+============================================================
+Honduras
+
+  BAU:
+    [WARN] No empirical gen for BAU_S0
+
+  NDCNEW:
+    [WARN] No empirical gen for NDCNEW_S0
+
+  LTSNEW:
+    [WARN] No empirical gen for LTSNEW_S0
+
+============================================================
+Jamaica
+
+  BAU:
+    [WARN] No empirical gen for BAU_S0
+
+  NDCNEW:
+    [WARN] No empirical gen for NDCNEW_S0
+
+  LTSNEW:
+    [WARN] No empirical gen for LTSNEW_S0
+
+[Wrote] STAGE0_CAPACITY_CEILING.csv (266 rows)
+[Wrote] STAGE0_CEILING_VIOLATIONS.csv (162 rows)
+
+======================================================================
+VIOLATIONS SUMMARY: 162 cases where LowerLimit > ProductionPotential
+======================================================================
+  Country Scenario   N
+CostaRica      BAU 162
+
+Worst violations (largest Share_A - Share_B):
+  CostaRica/BAU PWRWNONS 2050: LL=29.71 PJ > Ceiling=5.04 PJ (Share 34.7% > 5.9%)
+  CostaRica/BAU PWRWNONS 2049: LL=28.59 PJ > Ceiling=5.04 PJ (Share 34.1% > 6.0%)
+  CostaRica/BAU PWRWNONS 2048: LL=27.48 PJ > Ceiling=5.04 PJ (Share 33.5% > 6.2%)
+  CostaRica/BAU PWRWNONS 2047: LL=26.38 PJ > Ceiling=5.04 PJ (Share 32.9% > 6.3%)
+  CostaRica/BAU PWRWNONS 2046: LL=25.28 PJ > Ceiling=5.04 PJ (Share 32.2% > 6.4%)
+  CostaRica/BAU PWRWNONS 2045: LL=24.19 PJ > Ceiling=5.04 PJ (Share 31.5% > 6.6%)
+  CostaRica/BAU PWRWNONS 2044: LL=23.11 PJ > Ceiling=5.04 PJ (Share 30.8% > 6.7%)
+  CostaRica/BAU PWRWNONS 2043: LL=22.04 PJ > Ceiling=5.04 PJ (Share 30.0% > 6.8%)
+  CostaRica/BAU PWRWNONS 2042: LL=20.98 PJ > Ceiling=5.04 PJ (Share 29.1% > 7.0%)
+  CostaRica/BAU PWRWNONS 2041: LL=19.93 PJ > Ceiling=5.04 PJ (Share 28.3% > 7.2%)
+
+======================================================================
+DONE.
+Stage 1 reads STAGE0_CAPACITY_CEILING.csv as a cap per tech/year.

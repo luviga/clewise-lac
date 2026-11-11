@@ -1,0 +1,204 @@
+$ python stage0_run.py
+======================================================================
+STAGE 0: Patch .txt Data Files & Prepare Solver Runs
+======================================================================
+Root:        C:\clw_overnight
+Mode:        zero
+Anchor:      2024 | Plateau end: 2024
+Dry run:     False
+
+Processing 6 countries:
+  CostaRica: C:\clw_overnight\CostaRica\CR_ENERGY\t1_confection\Executables
+  DominicanRepublic: C:\clw_overnight\DominicanRepublic\RD_ENERGY\Executables
+  Ecuador: C:\clw_overnight\Ecuador\ECU_Energy\Executables
+  Guatemala: C:\clw_overnight\Guatemala\GUA_ENERGY\Executables
+  Honduras: C:\clw_overnight\Honduras\HON_ENERGY\Executables
+  Jamaica: C:\clw_overnight\Jamaica\JAM_ENERGY\Executables
+
+
+============================================================
+CostaRica
+
+  BAU_0 -> BAU_S0_0
+    Copied
+    Patched TotalTechnologyAnnualActivityLowerLimit: 234 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 26 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 0 values
+    260 values patched
+
+  NDCNEW_0 -> NDCNEW_S0_0
+    Copied
+    Patched TotalTechnologyAnnualActivityLowerLimit: 234 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 0 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 0 values
+    234 values patched
+
+  LTSNEW_0 -> LTSNEW_S0_0
+    Copied
+    Patched TotalTechnologyAnnualActivityLowerLimit: 234 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 0 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 0 values
+    234 values patched
+
+============================================================
+DominicanRepublic
+
+  BAU_0 -> BAU_S0_0
+    Copied
+    Patched TotalTechnologyAnnualActivityLowerLimit: 494 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 312 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 130 values
+    [INJECT] PPPVD UL capped at 2.1263 for 2025+
+    Injected 1 bypass-tech UL rows: 26 values
+    962 values patched
+
+  NDCNEW_0 -> NDCNEW_S0_0
+    Copied
+    [OVERRIDE] PPDGSL UL anchor 9999.0187 -> 0.0729
+    [OVERRIDE] PPPVD UL anchor 9999.0187 -> 3.5833
+    [OVERRIDE] PPDDSL UL anchor 9999.0187 -> 3.8820
+    [OVERRIDE] PPDFOI UL anchor 9999.0187 -> 0.1943
+    [OVERRIDE] PPDGLP UL anchor 9999.0187 -> 0.0035
+    [OVERRIDE] PPDNGS UL anchor 9999.0187 -> 0.0189
+    Patched TotalTechnologyAnnualActivityLowerLimit: 494 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 754 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 156 values
+    1404 values patched
+
+  LTSNEW_0 -> LTSNEW_S0_0
+    Copied
+    [OVERRIDE] PPDGSL UL anchor 9999.0187 -> 0.0729
+    [OVERRIDE] PPPVD UL anchor 9999.0187 -> 3.5832
+    [OVERRIDE] PPDDSL UL anchor 9999.0187 -> 3.8819
+    [OVERRIDE] PPDFOI UL anchor 9999.0187 -> 0.1943
+    [OVERRIDE] PPDGLP UL anchor 9999.0187 -> 0.0035
+    [OVERRIDE] PPDNGS UL anchor 9999.0187 -> 0.0189
+    Patched TotalTechnologyAnnualActivityLowerLimit: 494 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 754 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 156 values
+    1404 values patched
+
+============================================================
+Ecuador
+
+  BAU_0 -> BAU_S0_0
+    Copied
+    [OVERRIDE] PPPVD UL anchor 0.8199 -> 0.0123
+    Patched TotalTechnologyAnnualActivityLowerLimit: 624 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 520 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 312 values
+    1456 values patched
+
+  NDCNEW_0 -> NDCNEW_S0_0
+    Copied
+    [OVERRIDE] PPWNDD UL anchor 1.2124 -> 0.0100
+    [OVERRIDE] PPPVDS UL anchor 1.2124 -> 0.0100
+    Patched TotalTechnologyAnnualActivityLowerLimit: 649 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 858 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 312 values
+    1819 values patched
+
+  LTSNEW_0 -> LTSNEW_S0_0
+    Copied
+    [OVERRIDE] PPWNDD UL anchor 1.2124 -> 0.0100
+    [OVERRIDE] PPPVDS UL anchor 1.2124 -> 0.0100
+    Patched TotalTechnologyAnnualActivityLowerLimit: 649 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 858 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 312 values
+    1819 values patched
+
+============================================================
+Guatemala
+
+  BAU_0 -> BAU_S0_0
+    Copied
+    [OVERRIDE] PPPVD UL anchor 40.0000 -> 0.1480
+    Patched TotalTechnologyAnnualActivityLowerLimit: 332 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 182 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 26 values
+    [INJECT] PPPVDS UL capped at 0.0100 for 2025+
+    Injected 1 bypass-tech UL rows: 26 values
+    566 values patched
+
+  NDCNEW_0 -> NDCNEW_S0_0
+    Copied
+    [OVERRIDE] PPPVDS UL anchor 1.1206 -> 0.0100
+    Patched TotalTechnologyAnnualActivityLowerLimit: 333 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 390 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 52 values
+    775 values patched
+
+  LTSNEW_0 -> LTSNEW_S0_0
+    Copied
+    [OVERRIDE] PPPVDS UL anchor 1.1206 -> 0.0100
+    Patched TotalTechnologyAnnualActivityLowerLimit: 333 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 390 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 52 values
+    775 values patched
+
+============================================================
+Honduras
+
+  BAU_0 -> BAU_S0_0
+    Copied
+    Patched TotalTechnologyAnnualActivityLowerLimit: 182 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 234 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 26 values
+    [INJECT] PPPVDS UL capped at 0.0100 for 2025+
+    Injected 1 bypass-tech UL rows: 26 values
+    468 values patched
+
+  NDCNEW_0 -> NDCNEW_S0_0
+    Copied
+    [OVERRIDE] PPPVDS UL anchor 1.2225 -> 0.0100
+    Patched TotalTechnologyAnnualActivityLowerLimit: 312 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 520 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 52 values
+    884 values patched
+
+  LTSNEW_0 -> LTSNEW_S0_0
+    Copied
+    [OVERRIDE] PPPVDS UL anchor 1.2225 -> 0.0100
+    Patched TotalTechnologyAnnualActivityLowerLimit: 312 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 520 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 52 values
+    884 values patched
+
+============================================================
+Jamaica
+
+  BAU_0 -> BAU_S0_0
+    Copied
+    [OVERRIDE] PPPVD UL anchor 0.0500 -> 0.0100
+    [OVERRIDE] PPPVDS UL anchor 0.0500 -> 0.0100
+    Patched TotalTechnologyAnnualActivityLowerLimit: 186 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 202 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 62 values
+    450 values patched
+
+  NDCNEW_0 -> NDCNEW_S0_0
+    Copied
+    [OVERRIDE] PPPVD UL anchor 1.1550 -> 0.0100
+    [OVERRIDE] PPPVDS UL anchor 0.0500 -> 0.0100
+    Patched TotalTechnologyAnnualActivityLowerLimit: 157 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 310 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 62 values
+    529 values patched
+
+  LTSNEW_0 -> LTSNEW_S0_0
+    Copied
+    [OVERRIDE] PPPVD UL anchor 1.1550 -> 0.0100
+    [OVERRIDE] PPPVDS UL anchor 0.0500 -> 0.0100
+    Patched TotalTechnologyAnnualActivityLowerLimit: 157 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 310 values
+    Patched TotalTechnologyAnnualActivityUpperLimit: 62 values
+    529 values patched
+
+[Wrote] C:\clw_overnight\stage0_run_all.bat
+[Wrote] C:\clw_overnight\stage0_run_all.sh
+[Wrote] STAGE0_CHANGES_DETAIL.csv (15452 rows)
+
+======================================================================
+DONE. Next:
+  stage0_run_all.bat
+  python stage0_collect_outputs.py

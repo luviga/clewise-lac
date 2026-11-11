@@ -1,0 +1,17 @@
+test_ao_cost_repair_manager (unittest.loader._FailedTest.test_ao_cost_repair_manager) ... ERROR
+
+======================================================================
+ERROR: test_ao_cost_repair_manager (unittest.loader._FailedTest.test_ao_cost_repair_manager)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_ao_cost_repair_manager
+Traceback (most recent call last):
+  File "C:\Users\luisfernando\AppData\Local\Programs\Python\Python312\Lib\unittest\loader.py", line 129, in loadTestsFromName
+    module = __import__(module_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'test_ao_cost_repair_manager'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

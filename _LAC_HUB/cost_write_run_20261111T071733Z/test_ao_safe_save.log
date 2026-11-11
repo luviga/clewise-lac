@@ -1,0 +1,9 @@
+PASS test_openpyxl_only_save_is_refused_then_recalc_passes
+PASS test_save_ao_safely_end_to_end
+PASS test_excel_failure_leaves_target_unchanged
+PASS test_guard_failure_leaves_target_unchanged
+PASS test_replace_existing_target
+
+real	0m5.623s
+user	0m0.015s
+sys	0m0.015s

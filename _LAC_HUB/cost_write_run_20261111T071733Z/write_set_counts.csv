@@ -1,0 +1,24 @@
+country,rule,cells_in_write_set,cells_changing
+CostaRica,D2,30,30
+CostaRica,proposals_all,300,300
+CostaRica,proposals_all+D3,420,420
+CostaRica,regional,240,240
+DominicanRepublic,D4,66,66
+DominicanRepublic,proposals_all,2301,2301
+DominicanRepublic,proposals_all+D3,99,99
+Ecuador,proposals_all,5011,5011
+Ecuador,proposals_all keep+D8 fill,3,3
+Ecuador,proposals_all+D6,26,26
+Ecuador,regional,180,180
+Guatemala,proposals_all,660,660
+Guatemala,proposals_all+D3,363,363
+Guatemala,regional,330,330
+Honduras,proposals_all,992,992
+Honduras,proposals_all keep+D8 fill,60,60
+Honduras,proposals_all+D3,159,159
+Honduras,regional,66,66
+Jamaica,proposals_all,839,839
+Jamaica,proposals_all+D3,841,841
+Jamaica,regional,34,34
+(all),skipped: no proposed value (cell stays as is),210,0
+(all),"skipped: keep, unchanged by D3/D6",951,0

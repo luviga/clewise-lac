@@ -1,0 +1,10 @@
+$ py -I ao_cost_repair_manager.py apply --manifest manifest_CostaRica.csv --apply --output-dir cost_write_run_20261111T071733Z
+Apply log: <clone>\_LAC_HUB\cost_write_run_20261111T071733Z\apply_20261111_013000_apply_log.csv
+Approved manifest cells seen: 990
+Cells changed: 990
+Projection modes changed: 4
+[exit 0]
+$ py -I ao_cost_repair_manager.py verify --manifest manifest_CostaRica.csv --expect applied
+Checked cells: 990
+Verification passed for expected state: applied
+[exit 0]

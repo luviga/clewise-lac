@@ -1,0 +1,23 @@
+$ python stage3_test.py --root .
+============================================================
+STAGE 3 TEST RESULTS
+============================================================
+  T1 folders_created                PASS   (18/18)
+  T10 rm_tags_populated              PASS   (18/18)
+  T11 upper_lower_ratio              PASS   (6923/6923)
+  T2 originals_untouched            PASS   (18/18)
+  T3 lower_match_controller         PASS   (7816/7816)
+  T4 upper_match_paired_rule        FAIL   (7958/7998)
+      Guatemala/BAU/PPPVD/2030: zero lower, expected 0 upper, got 99999.0000
+      Guatemala/BAU/PPPVD/2031: zero lower, expected 0 upper, got 99999.0000
+      Guatemala/BAU/PPPVDS/2025: zero lower, expected 0 upper, got 99999.0000
+      Guatemala/BAU/PPPVDS/2026: zero lower, expected 0 upper, got 99999.0000
+      Guatemala/BAU/PPPVDS/2027: zero lower, expected 0 upper, got 99999.0000
+      ... and 35 more
+  T5 historical_intact              PASS   (1914/1914)
+  T6 lower_le_upper                 PASS   (9134/9134)
+  T7 non_pp_intact                  PASS   (24000/24000)
+  T8 reserve_margin                 PASS   (18/18)
+  T9 no_negative_lower              PASS   (9134/9134)
+
+SOME TESTS FAILED

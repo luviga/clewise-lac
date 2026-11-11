@@ -1,0 +1,37 @@
+{
+  "country": "DominicanRepublic",
+  "command": "python(anaconda) A2_Compiler_DominicanRepublic.py",
+  "exit": 0,
+  "seconds": 16.2,
+  "produced": {
+    "BAU": 20,
+    "NDCincond": 20,
+    "NDCcond": 20
+  },
+  "static_files_in_BAU": [
+    "AnnualEmissionLimit.csv",
+    "DepreciationMethod.csv",
+    "DiscountRate.csv",
+    "ModelPeriodEmissionLimit.csv",
+    "REMinProductionTarget.csv",
+    "RETagFuel.csv",
+    "RETagTechnology.csv",
+    "TotalAnnualMaxCapacityInvestment.csv",
+    "TotalTechnologyModelPeriodActivityLowerLimit.csv",
+    "TotalTechnologyModelPeriodActivityUpperLimit.csv"
+  ],
+  "choice": {
+    "NDCNEW": {
+      "source": "NDCcond",
+      "differing_rows": 393
+    },
+    "LTSNEW": {
+      "source": "NDCcond",
+      "differing_rows": 393
+    },
+    "BAU": {
+      "source": "BAU",
+      "differing_rows": 393
+    }
+  }
+}

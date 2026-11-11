@@ -1,0 +1,43 @@
+{
+  "country": "Guatemala",
+  "command": "python(anaconda) B1_Base_Scenarios_Adj_Parallel_Guatemala.py",
+  "exit": 0,
+  "seconds": 291.4,
+  "solves": [
+    {
+      "data": "C:\\\\clw_overnight\\\\Guatemala\\\\GUA_ENERGY\\\\Executables\\\\BAU_0\\BAU_0.txt",
+      "status": "OPTIMAL",
+      "objective": "cost = 358872.3974 (MINimum)",
+      "seconds": 90.3,
+      "returncode": 0
+    },
+    {
+      "data": "C:\\\\clw_overnight\\\\Guatemala\\\\GUA_ENERGY\\\\Executables\\\\LTSNEW_0\\LTSNEW_0.txt",
+      "status": "OPTIMAL",
+      "objective": "cost = 348141.3901 (MINimum)",
+      "seconds": 93.5,
+      "returncode": 0
+    },
+    {
+      "data": "C:\\\\clw_overnight\\\\Guatemala\\\\GUA_ENERGY\\\\Executables\\\\NDCNEW_0\\NDCNEW_0.txt",
+      "status": "OPTIMAL",
+      "objective": "cost = 350348.5793 (MINimum)",
+      "seconds": 92.8,
+      "returncode": 0
+    }
+  ],
+  "b1_files_written": {
+    "BAU": 30,
+    "NDCNEW": 30,
+    "LTSNEW": 30
+  },
+  "b1_diffs": {
+    "BAU": 0,
+    "NDCNEW": 0,
+    "LTSNEW": 0
+  },
+  "other_changed_paths": [
+    "?? Guatemala/GUA_ENERGY/SelectedResults.csv"
+  ],
+  "removed_untracked": "SelectedResults.csv"
+}

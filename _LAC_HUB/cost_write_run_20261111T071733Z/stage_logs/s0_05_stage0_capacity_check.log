@@ -1,0 +1,119 @@
+$ python stage0_capacity_check.py
+======================================================================
+STAGE 0: Capacity Ceiling Check
+======================================================================
+Loaded HEADROOM_DECOMPOSITION: 8313 rows
+
+============================================================
+CostaRica
+
+  BAU:
+    10 PP techs × 30 years | 162 violations (Share_A > Share_B)
+
+  NDCNEW:
+    10 PP techs × 30 years | 161 violations (Share_A > Share_B)
+
+  LTSNEW:
+    10 PP techs × 30 years | 164 violations (Share_A > Share_B)
+
+============================================================
+DominicanRepublic
+
+  BAU:
+    29 PP techs × 33 years | 355 violations (Share_A > Share_B)
+
+  NDCNEW:
+    29 PP techs × 33 years | 389 violations (Share_A > Share_B)
+
+  LTSNEW:
+    29 PP techs × 33 years | 339 violations (Share_A > Share_B)
+
+============================================================
+Ecuador
+
+  BAU:
+    31 PP techs × 30 years | 224 violations (Share_A > Share_B)
+
+  NDCNEW:
+    33 PP techs × 30 years | 678 violations (Share_A > Share_B)
+
+  LTSNEW:
+    33 PP techs × 30 years | 636 violations (Share_A > Share_B)
+
+============================================================
+Guatemala
+
+  BAU:
+    15 PP techs × 33 years | 111 violations (Share_A > Share_B)
+
+  NDCNEW:
+    15 PP techs × 33 years | 233 violations (Share_A > Share_B)
+
+  LTSNEW:
+    15 PP techs × 33 years | 225 violations (Share_A > Share_B)
+
+============================================================
+Honduras
+
+  BAU:
+    20 PP techs × 33 years | 91 violations (Share_A > Share_B)
+
+  NDCNEW:
+    20 PP techs × 33 years | 184 violations (Share_A > Share_B)
+
+  LTSNEW:
+    20 PP techs × 33 years | 170 violations (Share_A > Share_B)
+
+============================================================
+Jamaica
+
+  BAU:
+    15 PP techs × 35 years | 110 violations (Share_A > Share_B)
+
+  NDCNEW:
+    15 PP techs × 35 years | 103 violations (Share_A > Share_B)
+
+  LTSNEW:
+    15 PP techs × 35 years | 103 violations (Share_A > Share_B)
+
+[Wrote] STAGE0_CAPACITY_CEILING.csv (8706 rows)
+[Wrote] STAGE0_CEILING_VIOLATIONS.csv (4438 rows)
+
+======================================================================
+VIOLATIONS SUMMARY: 4438 cases where LowerLimit > ProductionPotential
+======================================================================
+          Country Scenario   N
+        CostaRica      BAU 162
+        CostaRica   LTSNEW 164
+        CostaRica   NDCNEW 161
+DominicanRepublic      BAU 355
+DominicanRepublic   LTSNEW 339
+DominicanRepublic   NDCNEW 389
+          Ecuador      BAU 224
+          Ecuador   LTSNEW 636
+          Ecuador   NDCNEW 678
+        Guatemala      BAU 111
+        Guatemala   LTSNEW 225
+        Guatemala   NDCNEW 233
+         Honduras      BAU  91
+         Honduras   LTSNEW 170
+         Honduras   NDCNEW 184
+          Jamaica      BAU 110
+          Jamaica   LTSNEW 103
+          Jamaica   NDCNEW 103
+
+Worst violations (largest Share_A - Share_B):
+  Ecuador/LTSNEW PPWNDON 2050: LL=182.07 PJ > Ceiling=0.07 PJ (Share 91.8% > 0.0%)
+  Ecuador/LTSNEW PPWNDON 2049: LL=172.16 PJ > Ceiling=0.07 PJ (Share 88.2% > 0.0%)
+  Ecuador/LTSNEW PPWNDON 2048: LL=162.98 PJ > Ceiling=0.07 PJ (Share 84.8% > 0.0%)
+  Ecuador/LTSNEW PPWNDON 2047: LL=153.64 PJ > Ceiling=0.07 PJ (Share 81.3% > 0.0%)
+  Ecuador/LTSNEW PPWNDON 2046: LL=144.71 PJ > Ceiling=0.07 PJ (Share 77.8% > 0.0%)
+  Ecuador/LTSNEW PPWNDON 2045: LL=135.15 PJ > Ceiling=0.07 PJ (Share 74.1% > 0.0%)
+  Ecuador/LTSNEW PPWNDON 2044: LL=126.64 PJ > Ceiling=0.07 PJ (Share 70.5% > 0.0%)
+  Ecuador/LTSNEW PPWNDON 2043: LL=117.64 PJ > Ceiling=0.07 PJ (Share 66.8% > 0.0%)
+  Ecuador/LTSNEW PPWNDON 2042: LL=109.83 PJ > Ceiling=0.07 PJ (Share 63.4% > 0.0%)
+  Jamaica/LTSNEW PPPVT 2050: LL=21.23 PJ > Ceiling=0.55 PJ (Share 64.8% > 1.7%)
+
+======================================================================
+DONE.
+Stage 1 reads STAGE0_CAPACITY_CEILING.csv as a cap per tech/year.

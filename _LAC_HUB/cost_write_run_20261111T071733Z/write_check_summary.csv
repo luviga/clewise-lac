@@ -1,0 +1,5 @@
+gate,count,result
+C4(1) every written cell equals write_set.csv to 1e-9 relative,13020 of 13020 pass,pass
+"C4(2) changes only at manifest cells, D8 mode cells and D9 cell M25",manifest value: 13020; D8 mode: 87; D9: 1; formula recalculated (text unchanged): 5; formula text normalised by Excel (value unchanged): 1; other: 0,"FAIL (strict reading): formula cells outside the manifest changed, see write_check.csv"
+C4(3) zero formula cells without a stored value in every changed workbook,0 blank in 7 workbooks,pass
+C4(4) other A-O workbooks byte-identical,469 of 469 other tracked A-O_*.xlsx files identical to HEAD (including 41 other A-O_Parametrization.xlsx: 41 identical),pass

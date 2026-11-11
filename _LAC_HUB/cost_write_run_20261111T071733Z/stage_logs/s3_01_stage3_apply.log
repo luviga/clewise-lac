@@ -1,0 +1,432 @@
+$ python stage3_apply.py --root . --clean --uncap-pp-maxcap --skip-orphan-cap Guatemala
+Cleaned 0 existing _FINAL_0 folders
+
+Stage 3 Apply
+  Root:       C:\clw_overnight
+  Controller: C:\clw_overnight\_STAGE2_OUTPUT\CONTROLLER_NEW_SCENARIOS.xlsx
+  Dry-run:    False
+
+
+============================================================
+SUMMARY
+============================================================
+--- CostaRica/BAU ---
+  Copy BAU_0/ → BAU_FINAL_0/
+  Rename BAU_0.txt → BAU_FINAL_0.txt
+  Region: CR, Years: 2021–2050
+  Controller techs: 9 lower, 9 upper
+  Patched LowerLimit: 208 values changed
+  Found 6 orphan PP techs: PP_SPV_DG, PP_SPV_US_H2, PP_WNDOFS, PP_WND_OF_H2, PP_WND_US_H2, PWRSPVDTR
+    Zeroed 26 orphan lower limits
+    Capped 6 orphan PP techs to 0: PP_SPV_DG, PP_SPV_US_H2, PP_WNDOFS, PP_WND_OF_H2, PP_WND_US_H2, PWRSPVDTR
+    + Added PP_SPV_DG to TotalTechnologyAnnualActivityUpperLimit
+    + Added PP_SPV_US_H2 to TotalTechnologyAnnualActivityUpperLimit
+    + Added PP_WNDOFS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PP_WND_OF_H2 to TotalTechnologyAnnualActivityUpperLimit
+    + Added PP_WND_US_H2 to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRBMS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRDSL to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRFOI to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRGEO to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRHYDROR to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRSPVDTR to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRSPVTRN to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRSUG to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRWNONS to TotalTechnologyAnnualActivityUpperLimit
+  Patched UpperLimit: 390 values changed (always lower x 1.05)
+  MaxCapacity: cleared 234 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1_ELE; 10 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 7 firm, 3 variable (excluded: PP_WNDOFS, PWRSPVTRN, PWRWNONS)
+  Populated ReserveMarginTagTechnology: 7 technology(s) tagged
+  Written: C:\clw_overnight\CostaRica\CR_ENERGY\t1_confection\Executables\BAU_FINAL_0\BAU_FINAL_0.txt
+
+--- CostaRica/NDCNEW ---
+  Copy NDCNEW_0/ → NDCNEW_FINAL_0/
+  Rename NDCNEW_0.txt → NDCNEW_FINAL_0.txt
+  Region: CR, Years: 2021–2050
+  Controller techs: 9 lower, 9 upper
+  Patched LowerLimit: 208 values changed
+  Found 6 orphan PP techs: PP_SPV_DG, PP_SPV_US_H2, PP_WNDOFS, PP_WND_OF_H2, PP_WND_US_H2, PWRSPVDTR
+    Zeroed 26 orphan lower limits
+    Capped 6 orphan PP techs to 0: PP_SPV_DG, PP_SPV_US_H2, PP_WNDOFS, PP_WND_OF_H2, PP_WND_US_H2, PWRSPVDTR
+    + Added PP_SPV_DG to TotalTechnologyAnnualActivityUpperLimit
+    + Added PP_SPV_US_H2 to TotalTechnologyAnnualActivityUpperLimit
+    + Added PP_WNDOFS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PP_WND_OF_H2 to TotalTechnologyAnnualActivityUpperLimit
+    + Added PP_WND_US_H2 to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRBMS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRDSL to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRFOI to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRGEO to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRHYDDAM to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRHYDROR to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRSPVDTR to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRSPVTRN to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRSUG to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRWNONS to TotalTechnologyAnnualActivityUpperLimit
+  Patched UpperLimit: 390 values changed (always lower x 1.05)
+  MaxCapacity: cleared 208 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1_ELE; 10 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 7 firm, 3 variable (excluded: PP_WNDOFS, PWRSPVTRN, PWRWNONS)
+  Populated ReserveMarginTagTechnology: 7 technology(s) tagged
+  Written: C:\clw_overnight\CostaRica\CR_ENERGY\t1_confection\Executables\NDCNEW_FINAL_0\NDCNEW_FINAL_0.txt
+
+--- CostaRica/LTSNEW ---
+  Copy LTSNEW_0/ → LTSNEW_FINAL_0/
+  Rename LTSNEW_0.txt → LTSNEW_FINAL_0.txt
+  Region: CR, Years: 2021–2050
+  Controller techs: 9 lower, 9 upper
+  Patched LowerLimit: 208 values changed
+  Found 6 orphan PP techs: PP_SPV_DG, PP_SPV_US_H2, PP_WNDOFS, PP_WND_OF_H2, PP_WND_US_H2, PWRSPVDTR
+    Zeroed 26 orphan lower limits
+    Capped 6 orphan PP techs to 0: PP_SPV_DG, PP_SPV_US_H2, PP_WNDOFS, PP_WND_OF_H2, PP_WND_US_H2, PWRSPVDTR
+    + Added PP_SPV_DG to TotalTechnologyAnnualActivityUpperLimit
+    + Added PP_SPV_US_H2 to TotalTechnologyAnnualActivityUpperLimit
+    + Added PP_WNDOFS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PP_WND_OF_H2 to TotalTechnologyAnnualActivityUpperLimit
+    + Added PP_WND_US_H2 to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRBMS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRDSL to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRFOI to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRGEO to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRHYDDAM to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRHYDROR to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRSPVDTR to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRSPVTRN to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRSUG to TotalTechnologyAnnualActivityUpperLimit
+    + Added PWRWNONS to TotalTechnologyAnnualActivityUpperLimit
+  Patched UpperLimit: 390 values changed (always lower x 1.05)
+  MaxCapacity: cleared 208 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1_ELE; 10 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 7 firm, 3 variable (excluded: PP_WNDOFS, PWRSPVTRN, PWRWNONS)
+  Populated ReserveMarginTagTechnology: 7 technology(s) tagged
+  Written: C:\clw_overnight\CostaRica\CR_ENERGY\t1_confection\Executables\LTSNEW_FINAL_0\LTSNEW_FINAL_0.txt
+
+--- DominicanRepublic/BAU ---
+  Copy BAU_0/ → BAU_FINAL_0/
+  Rename BAU_0.txt → BAU_FINAL_0.txt
+  Region: RD, Years: 2018–2050
+  Controller techs: 23 lower, 23 upper
+  Patched LowerLimit: 520 values changed
+  Found 6 orphan PP techs: PPBGS, PPGEO, PPHROR, PPPVTHYD, PPPVTS, PPWNDOFF
+    Capped 6 orphan PP techs to 0: PPBGS, PPGEO, PPHROR, PPPVTHYD, PPPVTS, PPWNDOFF
+    + Added PPBIM to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPCCFOIDSL to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPCCTDSL to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPCCTNGS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPCCTNGSDSL to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPCOA to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPGEO to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPHDAM to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPHROR to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPICEFOI to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPICEGASFOI to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPPVD to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPPVT to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPPVTHYD to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPPVTS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPWNDOFF to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPWNDON to TotalTechnologyAnnualActivityUpperLimit
+  Patched UpperLimit: 702 values changed (always lower x 1.05)
+  MaxCapacity: cleared 312 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1ELE; 26 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 22 firm, 4 variable (excluded: PPPVT, PPPVTS, PPWNDOFF, PPWNDON)
+  Populated ReserveMarginTagTechnology: 22 technology(s) tagged
+  Written: C:\clw_overnight\DominicanRepublic\RD_ENERGY\Executables\BAU_FINAL_0\BAU_FINAL_0.txt
+
+--- DominicanRepublic/NDCNEW ---
+  Copy NDCNEW_0/ → NDCNEW_FINAL_0/
+  Rename NDCNEW_0.txt → NDCNEW_FINAL_0.txt
+  Region: RD, Years: 2018–2050
+  Controller techs: 23 lower, 23 upper
+  Patched LowerLimit: 520 values changed
+  Found 6 orphan PP techs: PPBGS, PPGEO, PPHROR, PPPVTHYD, PPPVTS, PPWNDOFF
+    Capped 6 orphan PP techs to 0: PPBGS, PPGEO, PPHROR, PPPVTHYD, PPPVTS, PPWNDOFF
+  Patched UpperLimit: 754 values changed (always lower x 1.05)
+  MaxCapacity: cleared 598 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1ELE; 26 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 22 firm, 4 variable (excluded: PPPVT, PPPVTS, PPWNDOFF, PPWNDON)
+  Populated ReserveMarginTagTechnology: 22 technology(s) tagged
+  Written: C:\clw_overnight\DominicanRepublic\RD_ENERGY\Executables\NDCNEW_FINAL_0\NDCNEW_FINAL_0.txt
+
+--- DominicanRepublic/LTSNEW ---
+  Copy LTSNEW_0/ → LTSNEW_FINAL_0/
+  Rename LTSNEW_0.txt → LTSNEW_FINAL_0.txt
+  Region: RD, Years: 2018–2050
+  Controller techs: 23 lower, 23 upper
+  Patched LowerLimit: 520 values changed
+  Found 6 orphan PP techs: PPBGS, PPGEO, PPHROR, PPPVTHYD, PPPVTS, PPWNDOFF
+    Capped 6 orphan PP techs to 0: PPBGS, PPGEO, PPHROR, PPPVTHYD, PPPVTS, PPWNDOFF
+  Patched UpperLimit: 754 values changed (always lower x 1.05)
+  MaxCapacity: cleared 598 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1ELE; 26 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 22 firm, 4 variable (excluded: PPPVT, PPPVTS, PPWNDOFF, PPWNDON)
+  Populated ReserveMarginTagTechnology: 22 technology(s) tagged
+  Written: C:\clw_overnight\DominicanRepublic\RD_ENERGY\Executables\LTSNEW_FINAL_0\LTSNEW_FINAL_0.txt
+
+--- Ecuador/BAU ---
+  Copy BAU_0/ → BAU_FINAL_0/
+  Rename BAU_0.txt → BAU_FINAL_0.txt
+  Region: ECU, Years: 2021–2050
+  Controller techs: 31 lower, 31 upper
+    + Added PPBGS to TotalTechnologyAnnualActivityLowerLimit
+    + Added PPBIM to TotalTechnologyAnnualActivityLowerLimit
+  Patched LowerLimit: 726 values changed
+  Patched UpperLimit: 804 values changed (always lower x 1.05)
+  MaxCapacity: cleared 104 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1ELE; 19 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 16 firm, 3 variable (excluded: PPPVT, PPPVTS, PPWNDON)
+  Populated ReserveMarginTagTechnology: 16 technology(s) tagged
+  Written: C:\clw_overnight\Ecuador\ECU_Energy\Executables\BAU_FINAL_0\BAU_FINAL_0.txt
+
+--- Ecuador/NDCNEW ---
+  Copy NDCNEW_0/ → NDCNEW_FINAL_0/
+  Rename NDCNEW_0.txt → NDCNEW_FINAL_0.txt
+  Region: ECU, Years: 2021–2050
+  Controller techs: 31 lower, 31 upper
+  Patched LowerLimit: 726 values changed
+  Found 2 orphan PP techs: PPWNDOFF, PPWNDONS
+    Capped 2 orphan PP techs to 0: PPWNDOFF, PPWNDONS
+  Patched UpperLimit: 858 values changed (always lower x 1.05)
+  MaxCapacity: cleared 806 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1ELE; 19 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 16 firm, 3 variable (excluded: PPPVT, PPPVTS, PPWNDON)
+  Populated ReserveMarginTagTechnology: 16 technology(s) tagged
+  Written: C:\clw_overnight\Ecuador\ECU_Energy\Executables\NDCNEW_FINAL_0\NDCNEW_FINAL_0.txt
+
+--- Ecuador/LTSNEW ---
+  Copy LTSNEW_0/ → LTSNEW_FINAL_0/
+  Rename LTSNEW_0.txt → LTSNEW_FINAL_0.txt
+  Region: ECU, Years: 2021–2050
+  Controller techs: 31 lower, 31 upper
+  Patched LowerLimit: 726 values changed
+  Found 2 orphan PP techs: PPWNDOFF, PPWNDONS
+    Capped 2 orphan PP techs to 0: PPWNDOFF, PPWNDONS
+  Patched UpperLimit: 858 values changed (always lower x 1.05)
+  MaxCapacity: cleared 806 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1ELE; 19 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 16 firm, 3 variable (excluded: PPPVT, PPPVTS, PPWNDON)
+  Populated ReserveMarginTagTechnology: 16 technology(s) tagged
+  Written: C:\clw_overnight\Ecuador\ECU_Energy\Executables\LTSNEW_FINAL_0\LTSNEW_FINAL_0.txt
+
+--- Guatemala/BAU ---
+  Copy BAU_0/ → BAU_FINAL_0/
+  Rename BAU_0.txt → BAU_FINAL_0.txt
+  Region: GUA, Years: 2018–2050
+  Controller techs: 14 lower, 14 upper
+  Patched LowerLimit: 352 values changed
+  Orphan capping SKIPPED for Guatemala (--skip-orphan-cap)
+    + Added PPBIM to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPCOA to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPDSL to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPFOI to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPNGS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPPVDS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPPVTS to TotalTechnologyAnnualActivityUpperLimit
+  Patched UpperLimit: 364 values changed (always lower x 1.05)
+  MaxCapacity: cleared 364 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1ELE; 12 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 9 firm, 3 variable (excluded: PPPVT, PPPVTS, PPWNDON)
+  Populated ReserveMarginTagTechnology: 9 technology(s) tagged
+  Written: C:\clw_overnight\Guatemala\GUA_ENERGY\Executables\BAU_FINAL_0\BAU_FINAL_0.txt
+
+--- Guatemala/NDCNEW ---
+  Copy NDCNEW_0/ → NDCNEW_FINAL_0/
+  Rename NDCNEW_0.txt → NDCNEW_FINAL_0.txt
+  Region: GUA, Years: 2018–2050
+  Controller techs: 14 lower, 14 upper
+  Patched LowerLimit: 354 values changed
+  Orphan capping SKIPPED for Guatemala (--skip-orphan-cap)
+  Patched UpperLimit: 364 values changed (always lower x 1.05)
+  MaxCapacity: cleared 364 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1ELE; 12 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 9 firm, 3 variable (excluded: PPPVT, PPPVTS, PPWNDON)
+  Populated ReserveMarginTagTechnology: 9 technology(s) tagged
+  Written: C:\clw_overnight\Guatemala\GUA_ENERGY\Executables\NDCNEW_FINAL_0\NDCNEW_FINAL_0.txt
+
+--- Guatemala/LTSNEW ---
+  Copy LTSNEW_0/ → LTSNEW_FINAL_0/
+  Rename LTSNEW_0.txt → LTSNEW_FINAL_0.txt
+  Region: GUA, Years: 2018–2050
+  Controller techs: 14 lower, 14 upper
+  Patched LowerLimit: 354 values changed
+  Orphan capping SKIPPED for Guatemala (--skip-orphan-cap)
+  Patched UpperLimit: 364 values changed (always lower x 1.05)
+  MaxCapacity: cleared 364 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1ELE; 12 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 9 firm, 3 variable (excluded: PPPVT, PPPVTS, PPWNDON)
+  Populated ReserveMarginTagTechnology: 9 technology(s) tagged
+  Written: C:\clw_overnight\Guatemala\GUA_ENERGY\Executables\LTSNEW_FINAL_0\LTSNEW_FINAL_0.txt
+
+--- Honduras/BAU ---
+  Copy BAU_0/ → BAU_FINAL_0/
+  Rename BAU_0.txt → BAU_FINAL_0.txt
+  Region: HON, Years: 2018–2050
+  Controller techs: 16 lower, 16 upper
+  Patched LowerLimit: 312 values changed
+  Found 4 orphan PP techs: PPPVDS, PPPVT2, PPPVTS, PPWNDS
+    Capped 4 orphan PP techs to 0: PPPVDS, PPPVT2, PPPVTS, PPWNDS
+    + Added PPBGS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPCOA to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPNUC to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPPVDS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPPVT2 to TotalTechnologyAnnualActivityUpperLimit
+  Patched UpperLimit: 468 values changed (always lower x 1.05)
+  MaxCapacity: cleared 416 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1ELE; 17 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 13 firm, 4 variable (excluded: PPPVT, PPPVTS, PPWNDON, PPWNDS)
+  Populated ReserveMarginTagTechnology: 13 technology(s) tagged
+  Written: C:\clw_overnight\Honduras\HON_ENERGY\Executables\BAU_FINAL_0\BAU_FINAL_0.txt
+
+--- Honduras/NDCNEW ---
+  Copy NDCNEW_0/ → NDCNEW_FINAL_0/
+  Rename NDCNEW_0.txt → NDCNEW_FINAL_0.txt
+  Region: HON, Years: 2018–2050
+  Controller techs: 16 lower, 16 upper
+  Patched LowerLimit: 312 values changed
+  Found 4 orphan PP techs: PPPVDS, PPPVT2, PPPVTS, PPWNDS
+    Capped 4 orphan PP techs to 0: PPPVDS, PPPVT2, PPPVTS, PPWNDS
+  Patched UpperLimit: 520 values changed (always lower x 1.05)
+  MaxCapacity: cleared 416 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1ELE; 17 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 13 firm, 4 variable (excluded: PPPVT, PPPVTS, PPWNDON, PPWNDS)
+  Populated ReserveMarginTagTechnology: 13 technology(s) tagged
+  Written: C:\clw_overnight\Honduras\HON_ENERGY\Executables\NDCNEW_FINAL_0\NDCNEW_FINAL_0.txt
+
+--- Honduras/LTSNEW ---
+  Copy LTSNEW_0/ → LTSNEW_FINAL_0/
+  Rename LTSNEW_0.txt → LTSNEW_FINAL_0.txt
+  Region: HON, Years: 2018–2050
+  Controller techs: 16 lower, 16 upper
+  Patched LowerLimit: 312 values changed
+  Found 4 orphan PP techs: PPPVDS, PPPVT2, PPPVTS, PPWNDS
+    Capped 4 orphan PP techs to 0: PPPVDS, PPPVT2, PPPVTS, PPWNDS
+  Patched UpperLimit: 520 values changed (always lower x 1.05)
+  MaxCapacity: cleared 416 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1ELE; 17 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 13 firm, 4 variable (excluded: PPPVT, PPPVTS, PPWNDON, PPWNDS)
+  Populated ReserveMarginTagTechnology: 13 technology(s) tagged
+  Written: C:\clw_overnight\Honduras\HON_ENERGY\Executables\LTSNEW_FINAL_0\LTSNEW_FINAL_0.txt
+
+--- Jamaica/BAU ---
+  Copy BAU_0/ → BAU_FINAL_0/
+  Rename BAU_0.txt → BAU_FINAL_0.txt
+  Region: JAM, Years: 2021–2055
+  Controller techs: 8 lower, 8 upper
+  Patched LowerLimit: 248 values changed
+  Found 7 orphan PP techs: PPBGS, PPGEO, PPPVD, PPPVDS, PPPVTS, PPWNDOFF, PPWNDONS
+    Capped 7 orphan PP techs to 0: PPBGS, PPGEO, PPPVD, PPPVDS, PPPVTS, PPWNDOFF, PPWNDONS
+    + Added PPBGS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPDSL to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPGEO to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPHDAM to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPHROR to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPPVTS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPWNDOFF to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPWNDONS to TotalTechnologyAnnualActivityUpperLimit
+  Patched UpperLimit: 465 values changed (always lower x 1.05)
+  MaxCapacity: cleared 0 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1ELE; 13 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 8 firm, 5 variable (excluded: PPPVT, PPPVTS, PPWNDOFF, PPWNDON, PPWNDONS)
+  Populated ReserveMarginTagTechnology: 8 technology(s) tagged
+  Written: C:\clw_overnight\Jamaica\JAM_ENERGY\Executables\BAU_FINAL_0\BAU_FINAL_0.txt
+
+--- Jamaica/NDCNEW ---
+  Copy NDCNEW_0/ → NDCNEW_FINAL_0/
+  Rename NDCNEW_0.txt → NDCNEW_FINAL_0.txt
+  Region: JAM, Years: 2021–2055
+  Controller techs: 8 lower, 8 upper
+  Patched LowerLimit: 248 values changed
+  Found 7 orphan PP techs: PPBGS, PPGEO, PPPVD, PPPVDS, PPPVTS, PPWNDOFF, PPWNDONS
+    Capped 7 orphan PP techs to 0: PPBGS, PPGEO, PPPVD, PPPVDS, PPPVTS, PPWNDOFF, PPWNDONS
+    + Added PPBGS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPDSL to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPPVTS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPWNDOFF to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPWNDONS to TotalTechnologyAnnualActivityUpperLimit
+  Patched UpperLimit: 465 values changed (always lower x 1.05)
+  MaxCapacity: cleared 248 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1ELE; 13 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 8 firm, 5 variable (excluded: PPPVT, PPPVTS, PPWNDOFF, PPWNDON, PPWNDONS)
+  Populated ReserveMarginTagTechnology: 8 technology(s) tagged
+  Written: C:\clw_overnight\Jamaica\JAM_ENERGY\Executables\NDCNEW_FINAL_0\NDCNEW_FINAL_0.txt
+
+--- Jamaica/LTSNEW ---
+  Copy LTSNEW_0/ → LTSNEW_FINAL_0/
+  Rename LTSNEW_0.txt → LTSNEW_FINAL_0.txt
+  Region: JAM, Years: 2021–2055
+  Controller techs: 8 lower, 8 upper
+  Patched LowerLimit: 248 values changed
+  Found 7 orphan PP techs: PPBGS, PPGEO, PPPVD, PPPVDS, PPPVTS, PPWNDOFF, PPWNDONS
+    Capped 7 orphan PP techs to 0: PPBGS, PPGEO, PPPVD, PPPVDS, PPPVTS, PPWNDOFF, PPWNDONS
+    + Added PPBGS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPDSL to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPPVTS to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPWNDOFF to TotalTechnologyAnnualActivityUpperLimit
+    + Added PPWNDONS to TotalTechnologyAnnualActivityUpperLimit
+  Patched UpperLimit: 465 values changed (always lower x 1.05)
+  MaxCapacity: cleared 248 PP tech caps to 99999 (--uncap-pp-maxcap)
+  Populated ReserveMargin = 1.15 (replaced empty block)
+  Generation fuel: E1ELE; 13 generators
+  Populated ReserveMarginTagFuel: 1 fuel(s) tagged
+  RM tagging: 8 firm, 5 variable (excluded: PPPVT, PPPVTS, PPWNDOFF, PPWNDON, PPWNDONS)
+  Populated ReserveMarginTagTechnology: 8 technology(s) tagged
+  Written: C:\clw_overnight\Jamaica\JAM_ENERGY\Executables\LTSNEW_FINAL_0\LTSNEW_FINAL_0.txt
+
+------------------------------------------------------------
+Tag                                 Status     Lower      Upper
+------------------------------------------------------------
+CostaRica/BAU                       OK         208        390
+CostaRica/NDCNEW                    OK         208        390
+CostaRica/LTSNEW                    OK         208        390
+DominicanRepublic/BAU               OK         520        702
+DominicanRepublic/NDCNEW            OK         520        754
+DominicanRepublic/LTSNEW            OK         520        754
+Ecuador/BAU                         OK         726        804
+Ecuador/NDCNEW                      OK         726        858
+Ecuador/LTSNEW                      OK         726        858
+Guatemala/BAU                       OK         352        364
+Guatemala/NDCNEW                    OK         354        364
+Guatemala/LTSNEW                    OK         354        364
+Honduras/BAU                        OK         312        468
+Honduras/NDCNEW                     OK         312        520
+Honduras/LTSNEW                     OK         312        520
+Jamaica/BAU                         OK         248        465
+Jamaica/NDCNEW                      OK         248        465
+Jamaica/LTSNEW                      OK         248        465
+
+Total: 18 OK, 0 skipped, 0 errors
