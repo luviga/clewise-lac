@@ -1,0 +1,6 @@
+Gate 4a: proposals rows not ASSUMPTION = 2212; rows with missing or unknown source ids = 0
+Gate 4b: ASSUMPTION rows citing unknown source ids = 0
+Gate 4c: sources = 112; with problems = 0
+Gate 5: ASSUMPTION rows = 197 over 3 technologies ['DIST_NGS', 'IMP_ELE', 'PPPVDS']; technologies without search_log leads = []; distinct sentences = 3; failing sentences = 0
+Gate 6: proposals rows = 2409; plants 15 x 3 parameters, supply rows 9 x 3 scenarios, IMP_ELE; gaps = []; duplicate cells = 0
+Gate 7a: files with em dash = []; files with a machine path outside URLs = []

@@ -1,0 +1,4 @@
+PR=https://github.com/luviga/clewise-lac/pull/6 (luviga/clewise-lac#6)
+GATE2=pass: `git diff --name-only 2ddd560 HEAD` lists 47 files, all inside `_LAC_HUB/cost_src_gua_20261110T025448Z/` (0 outside)
+GATE3=pass: 47 tracked files in the job folder, all `.md`, `.csv`, `.py` or `.txt`; 0 under `downloads/`
+GATE7=pass: `git diff --check 2ddd560 HEAD` clean; 0 output files with an em dash; 0 with a machine path outside quoted URLs and the copied brief; `git log -3 --format=%B` has 0 Co-Authored-By and 0 Generated with lines
