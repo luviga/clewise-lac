@@ -1,0 +1,13 @@
+{
+  "country": "CostaRica",
+  "command": "python(anaconda) B1_Base_Scenarios_Adj_Parallel_CostaRica.py",
+  "exit": 1,
+  "seconds": 2.4,
+  "solves": [],
+  "b1_diffs": {
+    "BAU": 0,
+    "NDCNEW": 0,
+    "LTSNEW": 0
+  },
+  "other_changed_paths": []
+}

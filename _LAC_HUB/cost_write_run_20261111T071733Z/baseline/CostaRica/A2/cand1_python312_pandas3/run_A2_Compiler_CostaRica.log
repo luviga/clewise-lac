@@ -1,0 +1,26 @@
+C:\clw_overnight\CostaRica\CR_ENERGY\t1_confection\A2_Compiler_CostaRica.py:307: ChainedAssignmentError: A value is being set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+Such inplace method never works to update the original DataFrame or Series, because the intermediate object on which we are setting values always behaves as a copy (due to Copy-on-Write).
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' instead, to perform the operation inplace on the original object, or try to avoid an inplace operation using 'df[col] = df[col].method(value)'.
+
+See the documentation for a more detailed explanation: https://pandas.pydata.org/pandas-docs/stable/user_guide/copy_on_write.html
+  Projections_sheet[ this_col_header ].interpolate(method ='linear', limit_direction ='forward', inplace = True)
+C:\clw_overnight\CostaRica\CR_ENERGY\t1_confection\A2_Compiler_CostaRica.py:311: ChainedAssignmentError: A value is being set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+Such inplace method never works to update the original DataFrame or Series, because the intermediate object on which we are setting values always behaves as a copy (due to Copy-on-Write).
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' instead, to perform the operation inplace on the original object, or try to avoid an inplace operation using 'df[col] = df[col].method(value)'.
+
+See the documentation for a more detailed explanation: https://pandas.pydata.org/pandas-docs/stable/user_guide/copy_on_write.html
+  Projections_sheet[ this_col_header ].interpolate(method ='linear', limit_direction ='forward', inplace = True)
+1 - Define Yearsplit
+2 - Connect the model activity ratios.
+2 (end) - The model has ben connected.
+3 - Process the model demand.
+4 - Parameterize technologies.
+4.a. - Capacity limits.
+4.b. - Remaining parameters.
+5 - Include emissions.
+14.592062950134277 seconds / 0.24320104916890461 minutes
+*: For all effects, we have finished the processing tasks of this script. We must now print the results out.
+14.592062950134277 seconds / 0.26393476327260335 minutes
+*: We just finished the printing of the results.

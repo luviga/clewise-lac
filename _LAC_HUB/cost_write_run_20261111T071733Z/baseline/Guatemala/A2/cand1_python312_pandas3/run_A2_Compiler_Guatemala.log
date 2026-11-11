@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\clw_overnight\Guatemala\GUA_ENERGY\A2_Compiler_Guatemala.py", line 40, in <module>
+    df_Yearsplit = df_Yearsplit.append( this_dict_4_wide, ignore_index=True )
+                   ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luisfernando\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 6206, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'append'

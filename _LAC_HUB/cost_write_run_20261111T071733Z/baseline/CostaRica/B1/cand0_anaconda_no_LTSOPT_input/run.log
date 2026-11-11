@@ -1,0 +1,6 @@
+1: We have defined some data. Now we will read the parameters we have as reference (or previous parameters) into a dictionary.
+Traceback (most recent call last):
+  File "C:\clw_overnight\CostaRica\CR_ENERGY\t1_confection\B1_Base_Scenarios_Adj_Parallel_CostaRica.py", line 2254, in <module>
+    parameter_list = os.listdir( this_paramter_list_dir )
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'A2_Output_Params\\LTSOPT'

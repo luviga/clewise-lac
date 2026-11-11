@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "C:\clw_overnight\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py", line 208, in <module>
+    this_proj_df_new.loc[ mask , time_range_vector[y] ] = round(this_df_select_by_fo, 4)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luisfernando\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexing.py", line 938, in __setitem__
+    iloc._setitem_with_indexer(indexer, value, self.name)
+  File "C:\Users\luisfernando\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexing.py", line 1953, in _setitem_with_indexer
+    self._setitem_with_indexer_split_path(indexer, value, name)
+  File "C:\Users\luisfernando\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexing.py", line 2044, in _setitem_with_indexer_split_path
+    self._setitem_single_column(loc, value, pi)
+  File "C:\Users\luisfernando\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexing.py", line 2181, in _setitem_single_column
+    self.obj._mgr.column_setitem(loc, plane_indexer, value)
+  File "C:\Users\luisfernando\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\internals\managers.py", line 1520, in column_setitem
+    new_mgr = col_mgr.setitem((idx,), value)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luisfernando\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\internals\managers.py", line 604, in setitem
+    return self.apply("setitem", indexer=indexer, value=value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luisfernando\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\internals\managers.py", line 442, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luisfernando\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\internals\blocks.py", line 1667, in setitem
+    values[indexer] = value
+    ~~~~~~^^^^^^^^^
+  File "C:\Users\luisfernando\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\arrays\arrow\array.py", line 2225, in __setitem__
+    value = self._maybe_convert_setitem_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\luisfernando\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\arrays\string_arrow.py", line 285, in _maybe_convert_setitem_value
+    raise TypeError(
+TypeError: Invalid value '1' for dtype 'str'. Value should be a string or missing value, got 'int' instead.

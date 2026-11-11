@@ -1,0 +1,48 @@
+{
+  "country": "Honduras",
+  "command": "python(anaconda) B1_Base_Scenarios_Adj_Parallel_Honduras.py",
+  "exit": 0,
+  "seconds": 160.5,
+  "solves": [
+    {
+      "data": "C:\\\\clw_overnight\\\\Honduras\\\\HON_ENERGY\\\\Executables\\\\BAU_0\\BAU_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 132861.5683 (MINimum)",
+      "seconds": 90.2,
+      "returncode": 0
+    },
+    {
+      "data": "C:\\\\clw_overnight\\\\Honduras\\\\HON_ENERGY\\\\Executables\\\\LTSNEW_0\\LTSNEW_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 118738.6378 (MINimum)",
+      "seconds": 90.2,
+      "returncode": 0
+    },
+    {
+      "data": "C:\\\\clw_overnight\\\\Honduras\\\\HON_ENERGY\\\\Executables\\\\NDCNEW_0\\NDCNEW_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 124707.6973 (MINimum)",
+      "seconds": 90.2,
+      "returncode": 0
+    }
+  ],
+  "b1_files_written": {
+    "BAU": 20,
+    "NDCNEW": 20,
+    "LTSNEW": 20
+  },
+  "datafile_diffs": {
+    "BAU": 0,
+    "NDCNEW": 0,
+    "LTSNEW": 0
+  },
+  "b1_diffs": {
+    "BAU": 0,
+    "NDCNEW": 0,
+    "LTSNEW": 0
+  },
+  "other_changed_paths": [
+    "?? Honduras/HON_ENERGY/SelectedResults.csv"
+  ],
+  "removed_untracked": "SelectedResults.csv"
+}

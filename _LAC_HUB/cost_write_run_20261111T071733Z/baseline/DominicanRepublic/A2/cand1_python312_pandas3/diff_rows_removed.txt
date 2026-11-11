@@ -1,0 +1,1 @@
+Removed: this listing came from the first version of a2_driver.py, which keyed the comparison on the Scenario label and compared folders the failed compiler had not rewritten. See README.txt.
