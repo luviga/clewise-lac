@@ -1,0 +1,142 @@
+## Costa Rica
+A-O at 2ddd560, Primary and Secondary Techs, rows whose Tech matches IMP..ELE: 10
+   Primary Techs | 9 | IMPELE |  Import/Distribution - Electricity | CapitalCost | EMPTY | None | None | None | None
+   Primary Techs | 9 | IMPELE |  Import/Distribution - Electricity | FixedCost | EMPTY | None | None | None | None
+   Primary Techs | 9 | IMPELE |  Import/Distribution - Electricity | VariableCost | EMPTY | None | None | None | None
+   Primary Techs | 9 | IMPELE |  Import/Distribution - Electricity | ResidualCapacity | EMPTY | None | None | None | None
+   Primary Techs | 9 | IMPELE |  Import/Distribution - Electricity | TotalAnnualMaxCapacity | EMPTY | None | None | None | None
+   Primary Techs | 9 | IMPELE |  Import/Distribution - Electricity | TotalTechnologyAnnualActivityUpperLimit | User defined | 2.2449748680000003 | 3.846334032 | 2.826569997 | 2.826569997
+   Primary Techs | 9 | IMPELE |  Import/Distribution - Electricity | TotalTechnologyAnnualActivityLowerLimit | EMPTY | None | None | None | None
+   Primary Techs | 9 | IMPELE |  Import/Distribution - Electricity | TotalAnnualMinCapacityInvestment | EMPTY | None | None | None | None
+   Primary Techs | 9 | IMPELE |  Import/Distribution - Electricity | CapacityFactor | User defined | 1 | 1 | 1 | 1
+   Primary Techs | 9 | IMPELE |  Import/Distribution - Electricity | AvailabilityFactor | Flat | 1 | None | None | None
+  BAU OutputActivityRatio.csv: 30 IMPELE rows, FUEL ['E1_ELE']; values ['1.0']
+  BAU InputActivityRatio.csv: 0 IMPELE rows; values []
+  BAU TotalTechnologyAnnualActivityUpperLimit.csv: 30 IMPELE rows, FUEL ['']; values ['2.245', '2.3889', '2.8261', '2.8266', '3.8463']
+  BAU TotalTechnologyAnnualActivityLowerLimit.csv: 0 IMPELE rows; values []
+  BAU ResidualCapacity.csv: 0 IMPELE rows; values []
+  BAU TotalAnnualMaxCapacity.csv: 0 IMPELE rows; values []
+  BAU TotalAnnualMaxCapacityInvestment.csv: 0 IMPELE rows; values []
+  BAU CapitalCost.csv: 0 IMPELE rows; values []
+  BAU FixedCost.csv: 0 IMPELE rows; values []
+  BAU VariableCost.csv: 0 IMPELE rows; values []
+Commit 7e8dd76 'price electricity imports (IMPELE)': 18 files changed, 163 insertions(+), 41 deletions(-)
+  proposals.csv IMPELE rows: 30; parameters ['VariableCost']; years 2021-2050; basis {'ASSUMPTION': 29, 'observed': 1}; proposed values ['57.2387']; current values ['']
+  derivation: ICE DOCSE Informe Anual 2024 p.17, Importacion del ICE al Mercado Regional 2024, Total row: 74,953,098.26 USD / 363,748.07 MWh = 206.06 USD/MWh (contract south, contract north and regional spot market, including the CMORC transmission charge of 20,629,009.48 USD) x 0.27778 = 57.2387 USD/GJ (MWH_PER_GJ, GEN-003); held at the 2024 value
+structure_proposals.csv: 5 rows
+  [proposed] A-O_Demand.xlsx Demand_Projection row 25, Demand/Share=Demand, Fuel/Tech=E5INDCOA, Name=Demand Industrial Coal col 2021 (cell M25): 0.675 -> 0.00667; balance: Balance Energetico Nacional 2022, PDF p.40 Tabla 3 (Carbon Mineral 0.26 kt, 6.67 TJ; Coque de Petroleo 138.6 kt, 3,713.16 TJ); PDF p.36 (2021 petroleum coke imports 124,327 t)
+  [follows from regeneration (no direct edit)] SpecifiedAnnualDemand.csv and B1_Output_Params copies  TECHNOLOGY blank, FUEL=E5INDCOA, YEAR=2021 col Value: 0.675 -> 0.00667; balance: as above
+  [no change] A-O_Demand.xlsx Demand_Projection row 21, Fuel/Tech=E5INDCOK, Name=Demand Industrial Petroleum Coke col 2021 to 2050: 4.091 (2021), 3.713 (2022) -> unchanged; balance: PDF p.40 Tabla 3; PDF p.36
+  [no change] InputActivityRatio.csv and OutputActivityRatio.csv  T5COAIND (E0_COA to E5INDCOA), T5COKIND (E1_COK to E5INDCOK), IMPCOA (E0_COA), IMPCOK (E1_COK) col Value: 1.0 -> unchanged; balance: PDF p.26 (solid fuels imported by final consumers for industry, not used for power)
+  [alternative, not recommended] A-O_Demand.xlsx Demand_Projection rows 25 (E5INDCOA) and 21 (E5INDCOK) col 2021 (cells M25 and M21): 0.675 and 4.091 -> 0 and 4.766; balance: PDF p.36; PDF p.40
+
+## Ecuador
+cost_rows_current.csv cells equal to 1: 167 on 167 rows; with no proposal: 6; with a proposal still equal to 1: 0
+  rows with no proposal: PPGEO/CapitalCost; PPGEO/FixedCost; PPGEO/VariableCost; PPPVDS/CapitalCost; PPPVDS/FixedCost; PPPVDS/VariableCost
+plant_costs.csv rows flagged over 25 percent against PLANMICC: 1769 cells, 61 technology-parameter pairs
+  DIST_BIM VariableCost: proposed 2024 6.787418 vs PLANMICC 2.23 (PROSUG), diff 204.4 percent
+  DIST_FIR VariableCost: proposed 2024 6.787418 vs PLANMICC 0.66 (PROFIR), diff 928.4 percent
+  IMPELE VariableCost: proposed 2024 73.188722 vs PLANMICC 11.8252 (IMPELE), diff 518.9 percent
+  PPBGS FixedCost: proposed 2024 15.756506 vs PLANMICC 95.0 (PP_BGSICE), diff -83.4 percent
+  PPBIM FixedCost: proposed 2024 15.756506 vs PLANMICC 90.0 (PP_SUG), diff -82.5 percent
+  PPCRU FixedCost: proposed 2024 18.180584 vs PLANMICC 44.3 (PP_CRU), diff -59.0 percent
+  PPCRU VariableCost: proposed 2024 0.0 vs PLANMICC 12.61 (PP_CRU), diff -100.0 percent
+  PPDDSL VariableCost: proposed 2024 0.0 vs PLANMICC 10.156 (PP_DSLICE), diff -100.0 percent
+  PPDFOI CapitalCost: proposed 2024 1454.446681 vs PLANMICC 1070.0 (PP_FOIICE), diff 35.9 percent
+  PPDFOI VariableCost: proposed 2024 0.0 vs PLANMICC 5.5649 (PP_FOIICE), diff -100.0 percent
+  PPDSL VariableCost: proposed 2024 0.0 vs PLANMICC 10.156 (PP_DSLICE), diff -100.0 percent
+  PPFOI CapitalCost: proposed 2024 1454.446681 vs PLANMICC 1070.0 (PP_FOIICE), diff 35.9 percent
+  PPFOI VariableCost: proposed 2024 0.0 vs PLANMICC 5.5649 (PP_FOIICE), diff -100.0 percent
+  PPHD CapitalCost: proposed 2024 4240.924115 vs PLANMICC 3080.5956 (PP_HYDAMARORSMA), diff 37.7 percent
+  PPHD FixedCost: proposed 2024 127.227723 vs PLANMICC 65.94 (PP_HYDAMARORSMA), diff 92.9 percent
+  PPHD VariableCost: proposed 2024 0.0 vs PLANMICC 0.5559 (PP_HYDAMARORSMA), diff -100.0 percent
+  PPHDAMAB CapitalCost: proposed 2024 3562.18233 vs PLANMICC 1572.4505 (PP_HYDAMADAMLAR), diff 126.5 percent
+  PPHDAMAB FixedCost: proposed 2024 106.86547 vs PLANMICC 42.0 (PP_HYDAMADAMLAR), diff 154.4 percent
+  PPHDAMAB VariableCost: proposed 2024 0.0 vs PLANMICC 0.5559 (PP_HYDAMADAMLAR), diff -100.0 percent
+  PPHDAMAM FixedCost: proposed 2024 106.86547 vs PLANMICC 63.33 (PP_HYDAMADAMMED), diff 68.7 percent
+  PPHDAMAM VariableCost: proposed 2024 0.0 vs PLANMICC 0.5559 (PP_HYDAMADAMMED), diff -100.0 percent
+  PPHDAMAS FixedCost: proposed 2024 90.902918 vs PLANMICC 63.33 (PP_HYDAMADAMSMA), diff 43.5 percent
+  PPHDAMAS VariableCost: proposed 2024 0.0 vs PLANMICC 0.5559 (PP_HYDAMADAMSMA), diff -100.0 percent
+  PPHDAMPM FixedCost: proposed 2024 106.86547 vs PLANMICC 63.33 (PP_HYDPACDAMMED), diff 68.7 percent
+  PPHDAMPM VariableCost: proposed 2024 0.0 vs PLANMICC 0.5559 (PP_HYDPACDAMMED), diff -100.0 percent
+  PPHDAMPS FixedCost: proposed 2024 90.902918 vs PLANMICC 63.33 (PP_HYDPACDAMSMA), diff 43.5 percent
+  PPHDAMPS VariableCost: proposed 2024 0.0 vs PLANMICC 0.5559 (PP_HYDPACDAMSMA), diff -100.0 percent
+  PPHRORAB CapitalCost: proposed 2024 3500.0 vs PLANMICC 1318.4942 (PP_HYDAMARORLAR), diff 170.2 percent
+  PPHRORAB FixedCost: proposed 2024 106.86547 vs PLANMICC 42.0 (PP_HYDAMARORLAR), diff 154.4 percent
+  PPHRORAB VariableCost: proposed 2024 0.0 vs PLANMICC 0.5559 (PP_HYDAMARORLAR), diff -100.0 percent
+  PPHRORAM CapitalCost: proposed 2024 3562.18233 vs PLANMICC 2740.8264 (PP_HYDAMARORMED), diff 30.0 percent
+  PPHRORAM FixedCost: proposed 2024 106.86547 vs PLANMICC 50.0 (PP_HYDAMARORMED), diff 113.7 percent
+  PPHRORAM VariableCost: proposed 2024 0.0 vs PLANMICC 0.5559 (PP_HYDAMARORMED), diff -100.0 percent
+  PPHRORAS FixedCost: proposed 2024 90.902918 vs PLANMICC 65.94 (PP_HYDAMARORSMA), diff 37.9 percent
+  PPHRORAS VariableCost: proposed 2024 0.0 vs PLANMICC 0.5559 (PP_HYDAMARORSMA), diff -100.0 percent
+  PPHRORPM CapitalCost: proposed 2024 3562.18233 vs PLANMICC 2740.8264 (PP_HYDPACRORMED), diff 30.0 percent
+  PPHRORPM FixedCost: proposed 2024 106.86547 vs PLANMICC 50.0 (PP_HYDPACRORMED), diff 113.7 percent
+  PPHRORPM VariableCost: proposed 2024 0.0 vs PLANMICC 0.5559 (PP_HYDPACRORMED), diff -100.0 percent
+  PPHRORPS FixedCost: proposed 2024 90.902918 vs PLANMICC 65.94 (PP_HYDPACRORSMA), diff 37.9 percent
+  PPHRORPS VariableCost: proposed 2024 0.0 vs PLANMICC 0.5559 (PP_HYDPACRORSMA), diff -100.0 percent
+  PPIBIM FixedCost: proposed 2024 15.756506 vs PLANMICC 90.0 (PP_SUG), diff -82.5 percent
+  PPIHD CapitalCost: proposed 2024 4240.924115 vs PLANMICC 3080.6 (PPIHYDAMAELR), diff 37.7 percent
+  PPIHD FixedCost: proposed 2024 127.227723 vs PLANMICC 50.0 (PPIHYDAMAELR), diff 154.5 percent
+  PPIHD VariableCost: proposed 2024 0.0 vs PLANMICC 0.63 (PPIHYDAMAELR), diff -100.0 percent
+  PPNGS CapitalCost: proposed 2024 706.618679 vs PLANMICC 1000.0 (PP_NGSTGS), diff -29.3 percent
+  PPNGS FixedCost: proposed 2024 12.120389 vs PLANMICC 21.1 (PP_NGSTGS), diff -42.6 percent
+  PPNGS VariableCost: proposed 2024 0.0 vs PLANMICC 18.9 (PP_NGSTGS), diff -100.0 percent
+  PPPVD CapitalCost: proposed 2024 1855.487237 vs PLANMICC 963.33 (PP_SPV_DG), diff 92.6 percent
+  PPPVT CapitalCost: proposed 2024 1484.888588 vs PLANMICC 963.33 (PP_SPV_US), diff 54.1 percent
+  PPPVT FixedCost: proposed 2024 19.303552 vs PLANMICC 13.6 (PP_SPV_US), diff 41.9 percent
+  PPRDSL VariableCost: proposed 2024 0.0 vs PLANMICC 9.15 (PPIDSLPETICE), diff -100.0 percent
+  PPRNGS CapitalCost: proposed 2024 706.618679 vs PLANMICC 1000.0 (PPINGSPETTGS), diff -29.3 percent
+  PPRNGS FixedCost: proposed 2024 12.120389 vs PLANMICC 21.1 (PPINGSPETTGS), diff -42.6 percent
+  PPRNGS VariableCost: proposed 2024 0.0 vs PLANMICC 18.9 (PPINGSPETTGS), diff -100.0 percent
+  PPWNDON CapitalCost: proposed 2024 1430.448311 vs PLANMICC 1552.78 (PP_WND_US), diff -7.9 percent
+  PPWNDON FixedCost: proposed 2024 57.217932 vs PLANMICC 34.29 (PP_WND_US), diff 66.9 percent
+  REF_DSL VariableCost: proposed 2024 0.869941 vs PLANMICC 11.4941 (REFCRUDSL), diff -92.4 percent
+  REF_FOI VariableCost: proposed 2024 0.869941 vs PLANMICC 0.6854 (REFCRUFOI), diff 26.9 percent
+  REF_GSL VariableCost: proposed 2024 0.869941 vs PLANMICC 12.9483 (REFCRUGSL), diff -93.3 percent
+  REF_JET VariableCost: proposed 2024 0.869941 vs PLANMICC 14.5221 (REFCRUKJF), diff -94.0 percent
+  REF_LPG VariableCost: proposed 2024 0.869941 vs PLANMICC 3.2549 (REFCRULPG), diff -73.3 percent
+plants with CapitalCost or FixedCost from the CCG kit (CCG-002): 27: PPBGS, PPBIM, PPCRU, PPDDSL, PPDFOI, PPDSL, PPFOI, PPHD, PPHDAMAB, PPHDAMAM, PPHDAMAS, PPHDAMPM, PPHDAMPS, PPHRORAB, PPHRORAM, PPHRORAS, PPHRORPM, PPHRORPS, PPIBIM, PPIHD, PPILPG, PPNGS, PPPVT, PPPVTS, PPRDSL, PPRNGS, PPWNDON
+  their VariableCost cells: 810; not 0: 0
+
+## Guatemala
+unit_fix rows: 66 on ['PPBGS', 'PPFOI'], parameter ['VariableCost']
+  PPBGS: current 0.005 -> proposed 1.388889; sources NAT-002;NAT-004;INT-001; derivation: current 0.005 is USD/kWh (MUSD/GWh, the unit label of the cell); PEG 2020-2050 Tabla 4/5 (PDF pp.41-42), row biogas 5 USD/MWh (also IRENA 2022 p183, bioenergy 0.005 USD/kWh); 5 / 3.6 = 1.388889 USD/GJ (equal to 0.005 x 277.78)
+  PPFOI: current 0.00569 -> proposed 1.580556; sources INT-009; derivation: current 0.00569 is USD/kWh; EIA 2020 cost study Table 2 p.28, Case 4 Internal Combustion Engines, variable O&M 5.69 USD/MWh (2019 USD); 5.69 / 3.6 = 1.580556 USD/GJ
+  [GAPS] | Row | Current | Proposed | Change | Likely cause | |---|---|---|---|---| | `DIST_COA` | 3.448 | 5.654 | +64 % | the current value grew 1.9 percent a year from a 2018 value of 2.49; the observed 2024 Banguat CIF at the PEG-5 calorific value is higher | | `DIST_LPG` | 29.47 | 13.77 | -53 % | the current value equals a Dominican Republic proxy (28.64 in 2018), not a Guatemalan wholesale price | | `DIST_COK`, `DIST_KER`, `EXTT_CRU`, `IMP_ELE` | 0 or empty | 3.20, 31.26, 9.22, 17.23 | new | placeholders or empty cells filled | | plant VariableCost (PPBGS, PPBIM, PPCOA, PPDSL, PPFOI, PPNGS) | 0.0045 to 0.0097 | 1.11 to 1.67 | about x277.78 | unit slip, USD/kWh entered as USD/GJ; after the unit conversion the changes are 0 percent (PPBGS, PPFOI), -6 (PPCOA), -17 (PPDSL), +10 (PPNGS) and -59 (PPBIM, IRENA bioenergy 4 USD/MWh against the current 9.65) | | `PPGEO` VariableCost | 0 | 1.389 | new | PEIG geothermal variable O&M 5 USD/MWh | | `PPBGS` CapitalCost | 5000 | 2600 | -48 % | newer MEM plan edition (PEIG 2022-2052) halved the biogas candidate cost | | `PPCOA` FixedCost | 61.4 | 31.6 | -49 % | no source gives 61.4; MEM plan coal candidate 31.6 | | `PPDSL` CapitalCost | 448 | 1400 | +212 % | 448 matches no source and is low for a diesel plant (brief note); PEIG internal combustion engine 1400 | | `PPDSL` FixedCost | 31.6 | 20 | -37 % | the current value is the coal row of PEG 2020-2050 | | `PPFOI` CapitalCost | 1908 | 1400 | -27 % | no source gives 1908 (EIA engines 1810); PEIG e
+  [REPORT] CapitalCost is in USD/kW (MUSD/GW), FixedCost in USD/kW-yr, and VariableCost in USD/GJ (MUSD/PJ). - The current plant VariableCost values are in USD/kWh: the workbook unit label reads "M US$ / GWh". The proposals convert them (x277.78, or USD/MWh / 3.6). - Plant costs are proposed as published, in each source's dollar year. - Source ids (details in `sources.csv`): - NAT-001: MEM PEIG 2026-2050. - NAT-002: MEM PEG 2020-2050. - NAT-004: MEM PEIG 2022-2052. - INT-001 and INT-002: IRENA RPGC 2022 and 2024. - INT-003 to INT-008: NREL ATB 2024, 2023 and 2021. - INT-009: EIA 2020 capital cost study. - INT-010: EIA AEO2019. - INT-013: IEA WEO 2025 Annex B.
+  [REPORT] - Current values confirmed: every section 5 value of the brief was recomputed from the BAU compiled CSVs and matches (`scripts/s3_bau_2024_check.csv`). - Unit slip: fixed, with the evidence recorded. - The workbook's plant VariableCost unit label is "M US$ / GWh". - Data in Brief Table 57 prints "M USD/GWh". - Every source behind these values gives variable O&M in USD/MWh: PEG 2020-2050 biogas 5 and coal 6; EIA 2020 engines 5.69; IRENA bioenergy 0.005 USD/kWh. So the model values are USD/kWh, and the proposals divide USD/MWh by 3.6. - `PPBGS` and `PPFOI` match their sources exactly after the conversion. - `PPDSL` CapitalCost 448: no source gives this value. - Its fixed (31.6) and variable (6 USD/MWh) costs equal the coal candidate of the MEM PEG 2020-2050. - Proposed: the MEM PEIG 2026-2050 internal combustion engine values, 1400 USD/kW, 20 USD/kW-yr and 5 USD/MWh. - `DIST_COK` and `DIST_KER` are priced: 3.1954 and 31.2593 USD/GJ in 2024. - `DIST_KER` import CIF check: the 51.23 USD/GJ Banguat line is a 14.8 t sample, so the next F2 point was used. - `DIST_NGS`: ASSUMPTION at 7.763 USD/GJ gross, 8.626 USD/GJ net. - `IMP_ELE`: priced (see above). - `EXTT_CRU`: priced from Banguat crude export FOB.
+  [REPORT] | Document | Statements | Need a change | What changes | |---|---|---|---| | CLEWISE_DataInBrief.docx | 41 | 35 | Table 57: each value gets a source and dollar year, plant variable costs are relabelled to M USD/PJ after the x277.78 fix, and the new fuel prices go in, plus rows for electricity imports, kerosene, petroleum coke and crude. Section 4.8 and the specifications table: "current USD without deflation" becomes real 2024 USD for fuel prices and the source dollar year for plant costs, and the sources are named. The reference list adds WEO 2025 and IRENA 2024 and cites them by number. | | Suplementary.xlsx | 27 | 22 | Sheet `Costos_GUA` mirrors Table 57 and changes with it, row by row. | | CLEWISE_JCLP_draft_v2.docx | 7 | 6 | The cost basis sentence (and the missing discount rate); Guatemala result statements re-checked after a re-run; references added. | | CLEWISE_MethodsX_v02.docx | 6 | 5 | Step 1 inputs and processing add fuel prices and technology costs; WEO 2025 CPS and NZE become fuel price sensitivities. | | Data_v2.xlsx | 3 | 2 | Guatemala cost results and the fuel import expenditure rows are regenerated after a re-run. |
+
+## Honduras
+cost_rows_current IMP_ELE CapitalCost (Zero): 99999 in 0 years ; 2018 0, 2024 , 2029 , 2030
+  proposals.csv rows in those years: 0; of which proposed value differs from 99999: 0
+cost_rows_current IMP_ELE FixedCost (User defined): 99999 in 26 years 2025-2050; 2018 500, 2024 559.8, 2029 99999, 2030 99999
+  proposals.csv rows in those years: 0; of which proposed value differs from 99999: 0
+cost_rows_current IMP_ELE VariableCost (User defined): 99999 in 26 years 2025-2050; 2018 500, 2024 559.8, 2029 99999, 2030 99999
+  proposals.csv rows in those years: 0; of which proposed value differs from 99999: 0
+proposals.csv IMP_ELE rows: 14; by parameter and year: FixedCost 2018-2024 (7); VariableCost 2018-2024 (7)
+  A-O Primary Techs IMP_ELE CapitalCost mode Zero: 99999 in []..[] (0 years); 2018 0, 2024 None
+  A-O Primary Techs IMP_ELE FixedCost mode User defined: 99999 in [2025]..[2050] (26 years); 2018 500, 2024 559.8
+  A-O Primary Techs IMP_ELE VariableCost mode User defined: 99999 in [2025]..[2050] (26 years); 2018 500, 2024 559.8
+
+## Jamaica
+  price point DIST_GSL wholesale import parity chosen=no 32.739 USD/GJ; tax: includes SCT (specific and ad valorem) and fees; excludes marketing and retail margins (MSET definition, JAM-022 note 4); Table 4 Petroleum Prices for Selected Products, Refinery Billing Price, E10-87, 2024 (mean values; source Petrojam Limit
+  price point DIST_GSL wholesale import parity chosen=no 34.244 USD/GJ; tax: includes SCT (specific and ad valorem) and fees; excludes marketing and retail margins (MSET definition, JAM-022 note 4); Table 4 Petroleum Prices for Selected Products, Refinery Billing Price, E10-90, 2024 (mean values; source Petrojam Limit
+  price point DIST_DSL wholesale import parity chosen=no 29.116 USD/GJ; tax: includes SCT (specific and ad valorem) and fees; excludes marketing and retail margins (MSET definition, JAM-022 note 4); Table 4 Petroleum Prices for Selected Products, Refinery Billing Price, A.D.O, 2024 (mean values; source Petrojam Limite
+  price point DIST_DSL wholesale import parity chosen=no 30.347 USD/GJ; tax: includes SCT (specific and ad valorem) and fees; excludes marketing and retail margins (MSET definition, JAM-022 note 4); Table 4 Petroleum Prices for Selected Products, Refinery Billing Price, ULSD, 2024 (mean values; source Petrojam Limited
+  [GAPS] 1. Petrojam weekly prices are tax-inclusive. The 52 weekly 2024 prices (pages 4 to 9, no missing week) average exactly the MSET refinery billing prices: Gasolene 87 168.738 against 168.73 J$/L, Gasolene 90 176.494 against 176.49, Auto Diesel 171.059 against 171.05, ULSD 178.284 against 178.28. MSET defines the billing price as including the Special Consumption Tax (SCT) and fees. Per the brief, they are not used as the pre-tax point; they are recorded in `price_points_2024.csv` (30 to 123 percent above the chosen points) and diesel and gasoline fall back to import CIF. 2. Diesel (`DIST_DSL`): the brief's order would take Comtrade HS 271019 import CIF (16.581 USD/GJ). That code mixes diesel with jet, kerosene, heavy fuel oil and lubricants, and it holds the 2.6 million bbl of Bunker C imported by the alumina companies in 2024, so it is not a diesel price. I treated diesel import CIF as not published and took the closest pre-tax diesel point: ADO delivered to JPS net of the specific SCT, 19.948 USD/GJ (OUR, 12 months). This also changes least against the current 19.82. The ad valorem part of the SCT is not removed; the WTO TPR says diesel for public electricity is exempt, so the value is taken as pre-tax. The point has no history, so r is the 2024 ratio alone. 3. Kerosene and jet (`DIST_KER`, `DIST_JET`): no 2024 pre-tax value is published (Petrojam prices include SCT; MSET reports refined product imports only in aggregate; the US Census trade API needs a key). The 18.0 USD/GJ
+  [GAPS] | Rows | Value | Leads tried (see `search_log.csv`) | |---|---|---| | `DIST_KER`, `DIST_JET` VariableCost 2024 (and the sentence carried on their later rows) | 18.0 USD/GJ | Petrojam weekly prices (tax-inclusive); MSET Table 1 (aggregate refined products only); MSET ex-refinery kerosene (2018 and 2019 only); Comtrade HS 271019 (mixed); US Census API (key required); EIA Gulf Coast jet price (check value) | | `PPPVDS` CapitalCost, FixedCost, VariableCost, 2021 to 2055 | PV plant plus 1 kW battery per kW | IRENA 2022 and 2025 (no combined system, no battery in 2022); IEA WEO 2023 and 2025 (battery per kWh only); 2018 IRP and IRP-2 (stand-alone BESS only); NREL ATB 2024 (no residential PV-plus-battery) | | `PPWNDONS` CapitalCost, FixedCost, VariableCost, 2021 to 2055 | wind plant plus 1 kW battery per kW | same leads; ATB 2024 has no wind-plus-battery | | `PPHDAM`, `PPGEO` VariableCost | 0 | ATB 2024 has no variable O&M rows for hydropower or geothermal; IRP has neither technology; IRENA gives O&M as fixed cost |
+  [REPORT] Notes. Petrojam weekly prices were parsed (52 weeks of 2024, no gap) and turned out to be the tax-inclusive refinery billing prices, so diesel and gasoline fall back as the brief says. Diesel import CIF (HS 271019) mixes products, so the closest pre-tax diesel point was used (GAPS 1.2). The 2025 Comtrade coal and LNG records are excluded as outliers. The CPS series is above STEPS and NZE below it for every row. Every other published 2024 point is in `price_points_2024.csv`.
+  [REPORT] - Petrojam pages: all 10 parsed; 2024 is complete (52 weeks). The 2024 means equal MSET's refinery billing prices, which include SCT, so they were not used as the pre-tax point. They are recorded as price points, and they do not replace the kerosene and jet ASSUMPTION. - `EXTT_CRU` priced from the MSET crude import value: 80.94 USD/bbl in 2024, 14.006 USD/GJ. History 2018 to 2025 is from MSET Table 1. - `DIST_OPE` priced as petroleum coke, the same commodity as `DIST_COK`. - `DIST_COA` priced. The A-O workbook holds 1.514 in Flat mode, not an empty value. - Geothermal: one academic resource estimate exists (94.8 MWe, low-enthalpy); it is recorded as a known-limitation candidate. - Section 5 check against the A-O workbook. All plant and supply 2024 values agree with section 5, with three exceptions: - `DIST_COA` holds 1.514, not empty. - `PPFOI` residual capacity is 0.0765 GW in 2025, 0.0795 GW in 2026 and 0 from 2027, not 0 from 2030. - `PPPVDS` residual capacity has no unit.
+cost_rows_current.csv vs A-O at 2ddd560 (cached values): 192 rows, 6720 cells compared, 0 differ, 0 rows not in the A-O
+A-O cost rows not in cost_rows_current.csv: 0
+
+## Dominican Republic
+  DIST_GSL wholesale import parity chosen=no net 19.4897 USD/GJ; diff -0.63 percent; LAC_LOCAL_PRICES row 50; evidence local regulator or operator; tax pre-tax (excludes Ley 112-00 specific tax and Ley 495-06 ad
+  DIST_GSL final consumer pre-tax chosen=no net 25.6821 USD/GJ; diff 30.94 percent; LAC_LOCAL_PRICES row 51; evidence local regulator or operator; tax pre-tax (excludes Ley 112-00 specific tax and Ley 495-06 ad
+  DIST_GSL import CIF chosen=yes net 19.6137 USD/GJ; diff 0.0 percent; LAC_LOCAL_PRICES row 67; evidence built from published components; tax CIF customs value, excludes duties and taxes
+  DIST_LPG wholesale import parity chosen=no net 15.2531 USD/GJ; diff 38.14 percent; LAC_LOCAL_PRICES row 52; evidence local regulator or operator; tax pre-tax (excludes Ley 112-00 specific tax and Ley 495-06 ad
+  DIST_LPG final consumer pre-tax chosen=no net 21.1431 USD/GJ; diff 91.49 percent; LAC_LOCAL_PRICES row 53; evidence local regulator or operator; tax pre-tax (excludes Ley 112-00 specific tax and Ley 495-06 ad
+  DIST_LPG import CIF chosen=yes net 11.0415 USD/GJ; diff 0.0 percent; LAC_LOCAL_PRICES row 66; evidence international customs (Comtrade); tax CIF customs value, excludes duties and taxes
+  proposals DIST_GSL 2024: STEPS 19.6137 (observed); CPS 19.6137 (observed); NZE 19.6137 (observed)
+  proposals DIST_LPG 2024: STEPS 11.0415 (observed); CPS 11.0415 (observed); NZE 11.0415 (observed)
