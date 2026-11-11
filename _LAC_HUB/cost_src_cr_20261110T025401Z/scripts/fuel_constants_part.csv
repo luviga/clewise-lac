@@ -1,0 +1,62 @@
+name,value,unit,source_id,page_or_table,derivation
+US_CPIU_2017,245.12,"index 1982-84=100, annual average",CRC-001,"BLS API series CUUR0000SA0, period M13 (Annual), year 2017",as published
+US_CPIU_2018,251.107,"index 1982-84=100, annual average",CRC-001,"BLS API series CUUR0000SA0, period M13 (Annual), year 2018",as published
+US_CPIU_2019,255.657,"index 1982-84=100, annual average",CRC-001,"BLS API series CUUR0000SA0, period M13 (Annual), year 2019",as published
+US_CPIU_2020,258.811,"index 1982-84=100, annual average",CRC-001,"BLS API series CUUR0000SA0, period M13 (Annual), year 2020",as published
+US_CPIU_2021,270.97,"index 1982-84=100, annual average",CRC-001,"BLS API series CUUR0000SA0, period M13 (Annual), year 2021",as published
+US_CPIU_2022,292.655,"index 1982-84=100, annual average",CRC-001,"BLS API series CUUR0000SA0, period M13 (Annual), year 2022",as published
+US_CPIU_2023,304.702,"index 1982-84=100, annual average",CRC-001,"BLS API series CUUR0000SA0, period M13 (Annual), year 2023",as published
+US_CPIU_2024,313.689,"index 1982-84=100, annual average",CRC-001,"BLS API series CUUR0000SA0, period M13 (Annual), year 2024",as published
+US_CPIU_2025,321.943,"index 1982-84=100, annual average",CRC-001,"BLS API series CUUR0000SA0, period M13 (Annual), year 2025",as published
+BRENT_2018,71.34,USD/bbl nominal,CRC-002,"sheet Data 1, column Europe Brent Spot Price FOB (Dollars per Barrel), row 2018",as published
+HENRY_HUB_2018,3.15,USD/MMBtu nominal (gross),CRC-003,"sheet Data 1, column Henry Hub Natural Gas Spot Price (Dollars per Million Btu), row 2018",as published
+COAL_SOUTH_AFRICA_2018,97.6,"USD/t nominal, 6000 kcal/kg NAR",CRC-004,"sheet Annual Prices (Nominal), column Coal, South African, row 2018",as published
+BRENT_2019,64.3,USD/bbl nominal,CRC-002,"sheet Data 1, column Europe Brent Spot Price FOB (Dollars per Barrel), row 2019",as published
+HENRY_HUB_2019,2.56,USD/MMBtu nominal (gross),CRC-003,"sheet Data 1, column Henry Hub Natural Gas Spot Price (Dollars per Million Btu), row 2019",as published
+COAL_SOUTH_AFRICA_2019,71.9,"USD/t nominal, 6000 kcal/kg NAR",CRC-004,"sheet Annual Prices (Nominal), column Coal, South African, row 2019",as published
+BRENT_2020,41.96,USD/bbl nominal,CRC-002,"sheet Data 1, column Europe Brent Spot Price FOB (Dollars per Barrel), row 2020",as published
+HENRY_HUB_2020,2.03,USD/MMBtu nominal (gross),CRC-003,"sheet Data 1, column Henry Hub Natural Gas Spot Price (Dollars per Million Btu), row 2020",as published
+COAL_SOUTH_AFRICA_2020,65.7,"USD/t nominal, 6000 kcal/kg NAR",CRC-004,"sheet Annual Prices (Nominal), column Coal, South African, row 2020",as published
+BRENT_2021,70.86,USD/bbl nominal,CRC-002,"sheet Data 1, column Europe Brent Spot Price FOB (Dollars per Barrel), row 2021",as published
+HENRY_HUB_2021,3.89,USD/MMBtu nominal (gross),CRC-003,"sheet Data 1, column Henry Hub Natural Gas Spot Price (Dollars per Million Btu), row 2021",as published
+COAL_SOUTH_AFRICA_2021,119.8,"USD/t nominal, 6000 kcal/kg NAR",CRC-004,"sheet Annual Prices (Nominal), column Coal, South African, row 2021",as published
+BRENT_2022,100.93,USD/bbl nominal,CRC-002,"sheet Data 1, column Europe Brent Spot Price FOB (Dollars per Barrel), row 2022",as published
+HENRY_HUB_2022,6.45,USD/MMBtu nominal (gross),CRC-003,"sheet Data 1, column Henry Hub Natural Gas Spot Price (Dollars per Million Btu), row 2022",as published
+COAL_SOUTH_AFRICA_2022,240.6,"USD/t nominal, 6000 kcal/kg NAR",CRC-004,"sheet Annual Prices (Nominal), column Coal, South African, row 2022",as published
+BRENT_2023,82.49,USD/bbl nominal,CRC-002,"sheet Data 1, column Europe Brent Spot Price FOB (Dollars per Barrel), row 2023",as published
+HENRY_HUB_2023,2.53,USD/MMBtu nominal (gross),CRC-003,"sheet Data 1, column Henry Hub Natural Gas Spot Price (Dollars per Million Btu), row 2023",as published
+COAL_SOUTH_AFRICA_2023,119.1,"USD/t nominal, 6000 kcal/kg NAR",CRC-004,"sheet Annual Prices (Nominal), column Coal, South African, row 2023",as published
+BRENT_2024,80.52,USD/bbl nominal,CRC-002,"sheet Data 1, column Europe Brent Spot Price FOB (Dollars per Barrel), row 2024",as published
+HENRY_HUB_2024,2.19,USD/MMBtu nominal (gross),CRC-003,"sheet Data 1, column Henry Hub Natural Gas Spot Price (Dollars per Million Btu), row 2024",as published
+COAL_SOUTH_AFRICA_2024,105.8,"USD/t nominal, 6000 kcal/kg NAR",CRC-004,"sheet Annual Prices (Nominal), column Coal, South African, row 2024",as published
+BRENT_2025,69.14,USD/bbl nominal,CRC-002,"sheet Data 1, column Europe Brent Spot Price FOB (Dollars per Barrel), row 2025",as published
+HENRY_HUB_2025,3.52,USD/MMBtu nominal (gross),CRC-003,"sheet Data 1, column Henry Hub Natural Gas Spot Price (Dollars per Million Btu), row 2025",as published
+COAL_SOUTH_AFRICA_2025,94.9,"USD/t nominal, 6000 kcal/kg NAR",CRC-004,"sheet Annual Prices (Nominal), column Coal, South African, row 2025",as published
+GJ_PER_T_COAL_6000KCAL,25.1208,GJ per t,GEN-003,"Appendix B.8, page 46",6000 kcal/kg x 4.1868 kJ/kcal (KCAL_TO_KJ) / 1000
+WEO2025_CRUDE_CPS_2024,79.0,"USD/barrel, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_CRUDE_CPS_2035,89.0,"USD/barrel, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_CRUDE_CPS_2050,106.0,"USD/barrel, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_CRUDE_STEPS_2024,79.0,"USD/barrel, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_CRUDE_STEPS_2035,80.0,"USD/barrel, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_CRUDE_STEPS_2050,76.0,"USD/barrel, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_CRUDE_NZE_2024,79.0,"USD/barrel, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_CRUDE_NZE_2035,33.0,"USD/barrel, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_CRUDE_NZE_2050,25.0,"USD/barrel, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_GAS_US_CPS_2024,2.2,"USD/MBtu, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_GAS_US_CPS_2035,4.5,"USD/MBtu, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_GAS_US_CPS_2050,5.0,"USD/MBtu, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_GAS_US_STEPS_2024,2.2,"USD/MBtu, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_GAS_US_STEPS_2035,3.9,"USD/MBtu, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_GAS_US_STEPS_2050,4.6,"USD/MBtu, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_GAS_US_NZE_2024,2.2,"USD/MBtu, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_GAS_US_NZE_2035,2.1,"USD/MBtu, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_GAS_US_NZE_2050,2.2,"USD/MBtu, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_COAL_EU_CPS_2024,112.0,"USD/tonne, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_COAL_EU_CPS_2035,92.0,"USD/tonne, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_COAL_EU_CPS_2050,82.0,"USD/tonne, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_COAL_EU_STEPS_2024,112.0,"USD/tonne, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_COAL_EU_STEPS_2035,78.0,"USD/tonne, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_COAL_EU_STEPS_2050,66.0,"USD/tonne, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_COAL_EU_NZE_2024,112.0,"USD/tonne, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_COAL_EU_NZE_2035,47.0,"USD/tonne, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published
+WEO2025_COAL_EU_NZE_2050,39.0,"USD/tonne, USD (MER, 2024)",CRC-005,"Table 2.3 Wholesale fossil fuel prices by scenario, page 109",as published

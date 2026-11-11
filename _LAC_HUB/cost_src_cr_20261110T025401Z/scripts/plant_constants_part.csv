@@ -1,0 +1,33 @@
+name,value,unit,source_id,page_or_table,derivation
+IRENA22_BIOENERGY_TIC_2022,2162,USD/kW (2022 USD),CRC-010,Table H.1 p.15,as published (global weighted average)
+IRENA24_BIOENERGY_TIC_2024,3242,USD/kW (2024 USD),CRC-011,Table S1 p.15,as published (global weighted average)
+IRENA22_WIND_TIC_CAM_2022,1694,USD/kW (2022 USD),CRC-010,"Table 2.1 p.75, Central America and the Caribbean (2021 data)",as published
+IRENA24_WIND_TIC_CAM_2024,2108,USD/kW (2024 USD),CRC-011,"Table 2.1 p.71, Central America and the Caribbean",as published
+IRENA24_UPV_TIC_CAM_2024,1375,USD/kW (2024 USD),CRC-011,"Table 3.1 p.95, Central America and the Caribbean",as published
+IRENA22_GEO_OM,115,USD/kW-yr (2022 USD),CRC-010,p.173,as published (LCOE assumption)
+IRENA24_GEO_OM_2024,125,USD/kW-yr (2024 USD),CRC-011,p.162,as published (projects commissioned in 2024)
+IRENA22_WIND_OM_OTHER_OECD,36,USD/kW-yr (2022 USD),CRC-010,Table A1.2 p.200,as published
+IRENA24_WIND_OM_OTHER_OECD,45,USD/kW-yr (2024 USD),CRC-011,Table A3 p.209,as published
+IRENA22_PV_OM_OECD_2022,17.8,USD/kW-yr (2022 USD),CRC-010,Table A1.3 p.201,as published
+IRENA24_PV_OM_OECD_2024,20.7,USD/kW-yr (2024 USD),CRC-011,Table A4 p.210,as published
+IRENA24_BIO_VOM,0.004,USD/kWh (2024 USD),CRC-011,p.171,as published (around 0.004)
+PEG20_HIDRO_GENERICO_OVERNIGHT,4013,USD/kW (Dec-2019 USD),CRC-012,"Tabla 10.8, PDF p.111",as published
+PEG20_HIDRO_GENERICO_FOM,48,USD/kW-yr (Dec-2019 USD),CRC-012,"Tabla 10.7, PDF p.110",as published
+PEG20_HIDRO2_REG_FOM,16,USD/kW-yr (Dec-2019 USD),CRC-012,"Tabla 10.7, PDF p.110",as published
+PEG20_HIDRO3_REG_FOM,48,USD/kW-yr (Dec-2019 USD),CRC-012,"Tabla 10.7, PDF p.110",as published
+PEG20_GEO_OVERNIGHT_BORINQUEN2_GEN12,5496,USD/kW (Dec-2019 USD),CRC-012,"Tabla 10.8, PDF p.111",as published
+PEG20_SOLAR_GENERICO_OVERNIGHT,1105,USD/kW (Dec-2019 USD),CRC-012,"Tabla 10.8, PDF p.111",as published
+PEG20_VALLE_ESCONDIDO_FOM,19,USD/kW-yr (Dec-2019 USD),CRC-012,"Tabla 10.7, PDF p.110",as published
+PEG20_BIOMASA_GENERICO_FOM,37,USD/kW-yr (Dec-2019 USD),CRC-012,"Tabla 10.7, PDF p.110",as published
+PEG20_MMV_OVERNIGHT,1300,USD/kW (Dec-2019 USD),CRC-012,"Tabla 10.8, PDF p.111",as published (medium-speed engines)
+PEG20_MMV_FOM,21,USD/kW-yr (Dec-2019 USD),CRC-012,"Tabla 10.7, PDF p.110",as published
+ATB24_NSD2_CAPEX,8140.07,USD/kW (2022 USD),CRC-013,"Hydropower NSD2, CAPEX, Market, Moderate, 2022 to 2050",as published (flat)
+ATB24_RESPV_CAPEX_2024,2600.58,USD/kW (2022 USD),CRC-013,"ResPV Class5, CAPEX, Market, Moderate, 2024",as published
+ATB24_RESPV_FOM_2024,29.53,USD/kW-yr (2022 USD),CRC-013,"ResPV Class5, Fixed O&M, Market, Moderate, 2024",as published
+EIA_AEO2023_ICE_VOM,6.40,USD/MWh (2022 USD),CRC-014,"Table 1 p.2, Internal combustion engine",as published
+MWH_PER_GJ,0.27778,MWh per GJ,GEN-003,"Appendix B.8, entry kilowatt hour = 3.6 E+06 J",1 / 3.6
+ICE_MER_IMPORT_2024_MWH,363748.07,MWh,CRC-015,"page 17, Total row",as published
+ICE_MER_IMPORT_2024_USD,74953098.26,USD (2024),CRC-015,"page 17, Total row",as published (includes CMORC)
+ICE_MER_IMPORT_2024_CMORC_USD,20629009.48,USD (2024),CRC-015,"page 17, Total row, column CMORC",as published
+ICE_MER_IMPORT_PRICE_2024,206.06,USD/MWh (2024 USD),CRC-015,"page 17, Total row",74953098.26 / 363748.07
+ARESEP_ICE_IMPORT_PRICE_2025_PROJECTED,152.66,USD/MWh (2025),CR-015,page 11,as published (ICE projection used by the regulator)
