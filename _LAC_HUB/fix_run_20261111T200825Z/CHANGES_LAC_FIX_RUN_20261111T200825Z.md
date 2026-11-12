@@ -38,6 +38,13 @@ Job LAC_FIX_RUN, stamp 20261111T200825Z, base `main` at c42ae07 (PR #10). It app
 
 - Phase B write gates (`write_check.csv`): every written cell equals `proposals.csv`; no change outside the listed cells except 31 formula cells that follow written cells; no formula left in the R1 cells; the other 472 A-O workbooks unchanged; the Stage 2 file changed only on the listed lines.
 - Phase C keyed comparison against c42ae07 (`recompile_diff_summary.csv`): no difference outside the allowed list.
-- Phase D checks (`fix_checks.csv`) and the results comparison (`results_compare.csv`): see the REPORT.
+- Phase D checks (`fix_checks.csv`) and the results comparison (`results_compare.csv`): see the REPORT. Every Stage 0 and Stage 3 solve is OPTIMAL.
+
+## Open points (REPORT section 1)
+
+- Jamaica `PPHROR`: Stage 3 builds 0.15 MW more than the plan, because the Stage 2 controller's lower limit from 2032 is 0.44 percent above the plan's output and Stage 3 lifts the cap; not tuned (one run).
+- History check fails in Costa Rica (the policy scenarios' transport history makes them run `PWRSUG` in 2021 to 2024), the Dominican Republic (distributed-generation exceptions of R6) and Ecuador (a split between two equivalent run-of-river technologies, same total); Guatemala, Honduras and Jamaica pass.
+- Decision for review: the new R6 emission-factor rows in the Dominican Republic and Ecuador are rounded by B1 to four decimals, which changes those factors from 2025 by at most 0.00005.
+- Ecuador crude imports opened in 2021 and 2022, and no production or export outlook after 2030 was found.
 
 Draft pull request; not for merge before review.

@@ -1,5 +1,5 @@
                                                                                        n                                                                                        techs      years
-country           stage            scenario parameter                                                                                                                                           
+country           stage            scenario parameter
 CostaRica         B1_Output_Params LTSNEW   SpecifiedAnnualDemand                      4                                                                                               2021-2021
                                             TotalAnnualMaxCapacity                    41  PWRSUG,TRNFREHEALPG,TRNFRELIGLPG,TRNFRERAIHYBDSL,TRNMOT,TRNMOTELE,TRNMOTGSL,TRNPASRAIHYBDSL  2021-2024
                                             TotalTechnologyAnnualActivityLowerLimit   34                 PWRBMS,PWRHYDROR,TRNFRERAIDSL,TRNMOT,TRNMOTELE,TRNPASRAIDSL,TRNSED,TRNSEDDSL  2021-2024

@@ -18,7 +18,7 @@ res = pd.read_excel(ROOT / '_STAGE3_RESULTS' / 'stage3_results.xlsx', sheet_name
 act, newcap = res['TotalTechnologyAnnualActivity'], res['NewCapacity']
 wb = openpyxl.load_workbook(ROOT / '_STAGE2_OUTPUT' / 'CONTROLLER_NEW_SCENARIOS.xlsx', read_only=True)
 tm = list(wb['TECH_MAP'].iter_rows(values_only=True))
-hydro = {r[0] for r in tm[1:] if r[2] and str(r[2]).upper() == 'HYDRO'}
+hydro = {r[0] for r in tm[1:] if r and r[3] and str(r[3]).upper() == 'HYDRO'}  # Sub_Group
 checks, detail = [], []
 
 # 1. history: PP/PWR activity identical across scenarios through 2024

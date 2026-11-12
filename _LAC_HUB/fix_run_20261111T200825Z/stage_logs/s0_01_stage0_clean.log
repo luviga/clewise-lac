@@ -1,5 +1,5 @@
 $ python stage0_clean.py --confirm
-DELETING — 3 items:
+DELETING - 3 items:
 
   [DIR]  _STAGE0_OUTPUT  (3.2 MB)
   [FILE] stage0_run_all.bat  (0.8 KB)

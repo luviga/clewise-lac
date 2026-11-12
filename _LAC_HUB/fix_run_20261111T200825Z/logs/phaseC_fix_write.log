@@ -6,14 +6,14 @@ Apply log: C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\apply_20261111
 Approved manifest cells seen: 2
 Cells that would change: 2
 Projection modes that would change: 0
-Dry run only. No AO workbooks were edited. 
+Dry run only. No AO workbooks were edited.
 cells to write 60 {'Honduras R6 config_cell': 48, 'CostaRica R6 config_cell': 10, 'Ecuador R3 ao_cell': 2}
-wrote 10 cells in CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx 
-wrote 48 cells in Honduras/HON_ENERGY/B1_Scenario_Config.xlsx 
+wrote 10 cells in CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx
+wrote 48 cells in Honduras/HON_ENERGY/B1_Scenario_Config.xlsx
 $ C:\clw_fix\ao_cost_repair_manager.py --root C:\clw_fix apply --manifest C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\manifest_Ecuador_phaseC_fix.csv --output-dir C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests --apply
 Apply log: C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\apply_20261111_153757_apply_log.csv
 Approved manifest cells seen: 2
 Cells changed: 2
-Projection modes changed: 0 
+Projection modes changed: 0
 verify manifest_Ecuador_phaseC_fix.csv 0 Checked cells: 2
 Verification passed for expected state: applied

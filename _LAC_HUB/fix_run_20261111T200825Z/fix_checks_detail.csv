@@ -57,3 +57,21 @@ ecuador_crude_balance,Ecuador,LTSNEW,2030,-0.0,"extraction 929.41, imports 55.72
 ecuador_crude_balance,Ecuador,LTSNEW,2035,-0.0,"extraction 631.97, imports 111.33, refinery 329.25, exports 414.05 PJ (export demand 414.05)"
 ecuador_crude_balance,Ecuador,LTSNEW,2040,0.0,"extraction 619.33, imports 0.00, refinery 329.25, exports 290.08 PJ (export demand 0.00)"
 ecuador_crude_balance,Ecuador,LTSNEW,2050,0.0,"extraction 619.33, imports 0.00, refinery 329.25, exports 290.08 PJ (export demand 0.00)"
+hydro_output_PJ,CostaRica,BAU,2026/2030/2040/2050,,35.279 / 35.297 / 35.279 / 35.279
+hydro_output_PJ,CostaRica,LTSNEW,2026/2030/2040/2050,,35.442 / 35.443 / 35.442 / 35.442
+hydro_output_PJ,CostaRica,NDCNEW,2026/2030/2040/2050,,35.442 / 35.442 / 35.442 / 35.442
+hydro_output_PJ,DominicanRepublic,BAU,2026/2030/2040/2050,,4.531 / 4.531 / 4.531 / 4.531
+hydro_output_PJ,DominicanRepublic,LTSNEW,2026/2030/2040/2050,,4.524 / 4.524 / 4.524 / 4.524
+hydro_output_PJ,DominicanRepublic,NDCNEW,2026/2030/2040/2050,,4.524 / 4.524 / 4.524 / 4.524
+hydro_output_PJ,Ecuador,BAU,2026/2030/2040/2050,,91.394 / 91.756 / 91.579 / 91.579
+hydro_output_PJ,Ecuador,LTSNEW,2026/2030/2040/2050,,91.421 / 91.881 / 91.577 / 91.577
+hydro_output_PJ,Ecuador,NDCNEW,2026/2030/2040/2050,,91.423 / 91.896 / 91.577 / 91.577
+hydro_output_PJ,Guatemala,BAU,2026/2030/2040/2050,,21.134 / 24.294 / 24.294 / 24.294
+hydro_output_PJ,Guatemala,LTSNEW,2026/2030/2040/2050,,24.115 / 27.275 / 27.275 / 27.275
+hydro_output_PJ,Guatemala,NDCNEW,2026/2030/2040/2050,,24.120 / 27.280 / 27.280 / 27.280
+hydro_output_PJ,Honduras,BAU,2026/2030/2040/2050,,13.727 / 13.727 / 13.609 / 13.609
+hydro_output_PJ,Honduras,LTSNEW,2026/2030/2040/2050,,13.748 / 13.748 / 13.658 / 13.658
+hydro_output_PJ,Honduras,NDCNEW,2026/2030/2040/2050,,13.747 / 13.747 / 13.657 / 13.657
+hydro_output_PJ,Jamaica,BAU,2026/2030/2040/2050,,0.413 / 0.938 / 1.001 / 0.984
+hydro_output_PJ,Jamaica,LTSNEW,2026/2030/2040/2050,,0.397 / 0.929 / 1.003 / 0.989
+hydro_output_PJ,Jamaica,NDCNEW,2026/2030/2040/2050,,0.416 / 0.949 / 1.003 / 0.989
