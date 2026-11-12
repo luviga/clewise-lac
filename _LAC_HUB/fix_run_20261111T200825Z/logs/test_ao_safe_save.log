@@ -1,0 +1,13 @@
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+NO TESTS RAN
+exit 5
+unittest discover -p test_ao_safe_save.py found no unittest cases (plain test functions); the file's own runner follows
+PASS test_openpyxl_only_save_is_refused_then_recalc_passes
+PASS test_save_ao_safely_end_to_end
+PASS test_excel_failure_leaves_target_unchanged
+PASS test_guard_failure_leaves_target_unchanged
+PASS test_replace_existing_target
+exit 0

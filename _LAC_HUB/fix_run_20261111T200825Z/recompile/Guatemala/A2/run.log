@@ -1,0 +1,50 @@
+C:\clw_fix\_LAC_HUB\cost_write_run_20261111T071733Z\scripts\run_with_append_shim.py:41: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(to_concat, ignore_index=ignore_index, verify_integrity=verify_integrity, sort=sort)
+C:\clw_fix\_LAC_HUB\cost_write_run_20261111T071733Z\scripts\run_with_append_shim.py:41: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(to_concat, ignore_index=ignore_index, verify_integrity=verify_integrity, sort=sort)
+A2_Compiler_Guatemala.py:251: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  Projections_sheet[ this_col_header ].interpolate(method ='linear', limit_direction ='forward', inplace = True)
+A2_Compiler_Guatemala.py:255: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  Projections_sheet[ this_col_header ].interpolate(method ='linear', limit_direction ='forward', inplace = True)
+C:\clw_fix\_LAC_HUB\cost_write_run_20261111T071733Z\scripts\run_with_append_shim.py:41: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(to_concat, ignore_index=ignore_index, verify_integrity=verify_integrity, sort=sort)
+C:\clw_fix\_LAC_HUB\cost_write_run_20261111T071733Z\scripts\run_with_append_shim.py:41: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(to_concat, ignore_index=ignore_index, verify_integrity=verify_integrity, sort=sort)
+C:\clw_fix\_LAC_HUB\cost_write_run_20261111T071733Z\scripts\run_with_append_shim.py:41: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(to_concat, ignore_index=ignore_index, verify_integrity=verify_integrity, sort=sort)
+C:\clw_fix\_LAC_HUB\cost_write_run_20261111T071733Z\scripts\run_with_append_shim.py:41: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(to_concat, ignore_index=ignore_index, verify_integrity=verify_integrity, sort=sort)
+C:\clw_fix\_LAC_HUB\cost_write_run_20261111T071733Z\scripts\run_with_append_shim.py:41: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(to_concat, ignore_index=ignore_index, verify_integrity=verify_integrity, sort=sort)
+C:\clw_fix\_LAC_HUB\cost_write_run_20261111T071733Z\scripts\run_with_append_shim.py:41: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(to_concat, ignore_index=ignore_index, verify_integrity=verify_integrity, sort=sort)
+C:\clw_fix\_LAC_HUB\cost_write_run_20261111T071733Z\scripts\run_with_append_shim.py:41: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(to_concat, ignore_index=ignore_index, verify_integrity=verify_integrity, sort=sort)
+C:\clw_fix\_LAC_HUB\cost_write_run_20261111T071733Z\scripts\run_with_append_shim.py:41: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(to_concat, ignore_index=ignore_index, verify_integrity=verify_integrity, sort=sort)
+C:\clw_fix\_LAC_HUB\cost_write_run_20261111T071733Z\scripts\run_with_append_shim.py:41: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(to_concat, ignore_index=ignore_index, verify_integrity=verify_integrity, sort=sort)
+C:\clw_fix\_LAC_HUB\cost_write_run_20261111T071733Z\scripts\run_with_append_shim.py:41: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(to_concat, ignore_index=ignore_index, verify_integrity=verify_integrity, sort=sort)
+C:\clw_fix\_LAC_HUB\cost_write_run_20261111T071733Z\scripts\run_with_append_shim.py:41: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(to_concat, ignore_index=ignore_index, verify_integrity=verify_integrity, sort=sort)
+C:\clw_fix\_LAC_HUB\cost_write_run_20261111T071733Z\scripts\run_with_append_shim.py:41: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(to_concat, ignore_index=ignore_index, verify_integrity=verify_integrity, sort=sort)
+C:\clw_fix\_LAC_HUB\cost_write_run_20261111T071733Z\scripts\run_with_append_shim.py:41: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(to_concat, ignore_index=ignore_index, verify_integrity=verify_integrity, sort=sort)
+C:\clw_fix\_LAC_HUB\cost_write_run_20261111T071733Z\scripts\run_with_append_shim.py:41: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  return pd.concat(to_concat, ignore_index=ignore_index, verify_integrity=verify_integrity, sort=sort)
+232.13511538505554 seconds / 3.8689185897509257 minutes
+*: For all effects, we have finished the processing tasks of this script. We must now print the results out.
+232.13511538505554 seconds / 3.8868916312853496 minutes
+*: We just finished the printing of the results.

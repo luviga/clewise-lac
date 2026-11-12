@@ -1,0 +1,5 @@
+# full copies of recompiled outputs and data files: the tracked model folders hold the outputs; only logs, summaries and diff rows are kept
+recompile/*/A2/installed/
+recompile/*/A2/produced/
+recompile/*/B1/B1_Output_Params/
+recompile/*/B1/data_files/

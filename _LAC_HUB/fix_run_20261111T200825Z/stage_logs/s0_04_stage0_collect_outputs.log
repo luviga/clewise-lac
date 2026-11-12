@@ -1,0 +1,101 @@
+$ python stage0_collect_outputs.py
+======================================================================
+STAGE 0: Collect Outputs
+======================================================================
+
+============================================================
+CostaRica
+
+  BAU_S0: parsing BAU_S0_0_output.txt...
+    9 PP techs | 99 total techs | 45.5-85.6 PJ
+
+  NDCNEW_S0: parsing NDCNEW_S0_0_output.txt...
+    9 PP techs | 101 total techs | 45.7-90.4 PJ
+
+  LTSNEW_S0: parsing LTSNEW_S0_0_output.txt...
+    9 PP techs | 108 total techs | 45.7-105.4 PJ
+
+============================================================
+DominicanRepublic
+
+  BAU_S0: parsing BAU_S0_0_output.txt...
+    21 PP techs | 129 total techs | 72.3-226.8 PJ
+
+  NDCNEW_S0: parsing NDCNEW_S0_0_output.txt...
+    21 PP techs | 134 total techs | 72.4-231.7 PJ
+
+  LTSNEW_S0: parsing LTSNEW_S0_0_output.txt...
+    21 PP techs | 134 total techs | 72.2-260.4 PJ
+
+============================================================
+Ecuador
+
+  BAU_S0: parsing BAU_S0_0_output.txt...
+    29 PP techs | 106 total techs | 114.5-201.8 PJ
+
+  NDCNEW_S0: parsing NDCNEW_S0_0_output.txt...
+    30 PP techs | 107 total techs | 114.5-198.5 PJ
+
+  LTSNEW_S0: parsing LTSNEW_S0_0_output.txt...
+    30 PP techs | 107 total techs | 114.5-202.9 PJ
+
+============================================================
+Guatemala
+
+  BAU_S0: parsing BAU_S0_0_output.txt...
+    14 PP techs | 88 total techs | 37.2-135.9 PJ
+
+  NDCNEW_S0: parsing NDCNEW_S0_0_output.txt...
+    15 PP techs | 101 total techs | 37.2-171.9 PJ
+
+  LTSNEW_S0: parsing LTSNEW_S0_0_output.txt...
+    15 PP techs | 104 total techs | 37.2-281.3 PJ
+
+============================================================
+Honduras
+
+  BAU_S0: parsing BAU_S0_0_output.txt...
+    12 PP techs | 106 total techs | 33.5-102.7 PJ
+
+  NDCNEW_S0: parsing NDCNEW_S0_0_output.txt...
+    14 PP techs | 114 total techs | 33.5-110.6 PJ
+
+  LTSNEW_S0: parsing LTSNEW_S0_0_output.txt...
+    14 PP techs | 113 total techs | 33.5-131.3 PJ
+
+============================================================
+Jamaica
+
+  BAU_S0: parsing BAU_S0_0_output.txt...
+    9 PP techs | 87 total techs | 15.3-22.1 PJ
+
+  NDCNEW_S0: parsing NDCNEW_S0_0_output.txt...
+    10 PP techs | 88 total techs | 15.3-26.2 PJ
+
+  LTSNEW_S0: parsing LTSNEW_S0_0_output.txt...
+    10 PP techs | 88 total techs | 15.3-35.1 PJ
+
+======================================================================
+Writing outputs...
+  [Wrote] STAGE0_RUN_STATUS.csv
+  Results: 18 OK, 0 INFEASIBLE, 0 other
+  [Wrote] STAGE0_DENOMINATORS.xlsx
+
+  254 rows with >5% delta:
+    CostaRica/NDCNEW_S0/2023: 7.8%
+    CostaRica/NDCNEW_S0/2032: 6.3%
+    CostaRica/NDCNEW_S0/2033: 7.7%
+    CostaRica/NDCNEW_S0/2034: 9.1%
+    CostaRica/NDCNEW_S0/2035: 10.5%
+    CostaRica/NDCNEW_S0/2036: 10.6%
+    CostaRica/NDCNEW_S0/2037: 10.7%
+    CostaRica/NDCNEW_S0/2038: 10.8%
+  [Wrote] STAGE0_HEADROOM_DECOMPOSITION.csv (8393 rows)
+  [Wrote] STAGE0_SHARES.csv (1386 rows)
+  [OK] All share sums = 100.0% (+/- 0.1%)
+
+======================================================================
+DONE.
+Stage 1 reads:
+  shares = pd.read_csv('_STAGE0_OUTPUT/STAGE0_SHARES.csv')
+  denoms = pd.read_csv('_STAGE0_OUTPUT/{country}/EMPIRICAL_GEN__{country}__BAU_S0.csv')

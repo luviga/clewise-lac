@@ -1,0 +1,81 @@
+                                                                                       n                                                                                        techs      years
+country           stage            scenario parameter
+CostaRica         B1_Output_Params LTSNEW   SpecifiedAnnualDemand                      4                                                                                               2021-2021
+                                            TotalAnnualMaxCapacity                    41  PWRSUG,TRNFREHEALPG,TRNFRELIGLPG,TRNFRERAIHYBDSL,TRNMOT,TRNMOTELE,TRNMOTGSL,TRNPASRAIHYBDSL  2021-2024
+                                            TotalTechnologyAnnualActivityLowerLimit   34                 PWRBMS,PWRHYDROR,TRNFRERAIDSL,TRNMOT,TRNMOTELE,TRNPASRAIDSL,TRNSED,TRNSEDDSL  2021-2024
+                                   NDCNEW   SpecifiedAnnualDemand                      4                                                                                               2021-2021
+                                            TotalAnnualMaxCapacity                    29        PWRSUG,TRNFRERAIELE,TRNFRERAIHYBDSL,TRNMOT,TRNMOTELE,TRNMOTGSL,TRNPASRAIHYBDSL,TRNSED  2021-2024
+                                            TotalTechnologyAnnualActivityLowerLimit   34                 PWRBMS,PWRHYDROR,TRNFRERAIDSL,TRNMOT,TRNMOTELE,TRNPASRAIDSL,TRNSED,TRNSEDDSL  2021-2024
+DominicanRepublic A2_Output_Params LTSNEW   OutputActivityRatio                        7                                                                                  TRANE6NOMOT  2018-2024
+                                            TotalAnnualMinCapacity                     7                                                                                  TRANRAILINF  2018-2024
+                                   NDCNEW   OutputActivityRatio                        7                                                                                  TRANE6NOMOT  2018-2024
+                                            TotalAnnualMinCapacity                     7                                                                                  TRANRAILINF  2018-2024
+                  B1_Output_Params LTSNEW   OutputActivityRatio                        7                                                                                  TRANE6NOMOT  2018-2024
+                                            SpecifiedAnnualDemand                    157                                                                                               2018-2024
+                                            TotalAnnualMaxCapacity                    98                                       PPADSL,PPAFOI,PPANGS,PPBGS,PPDBGS,PPDBIM,PPDDSL,PPDFOI  2018-2024
+                                            TotalTechnologyAnnualActivityLowerLimit   49                                         PPBGS,PPCCFOIDSL,PPDBGS,PPDBIM,PPDHYD,PPGEO,PPPVTHYD  2018-2024
+                                            TotalTechnologyAnnualActivityUpperLimit  119                            PPBIM,PPCCFOIDSL,PPCCTDSL,PPCCTNGS,PPCCTNGSDSL,PPCOA,PPGEO,PPHDAM  2018-2024
+                                   NDCNEW   OutputActivityRatio                        7                                                                                  TRANE6NOMOT  2018-2024
+                                            SpecifiedAnnualDemand                    157                                                                                               2018-2024
+                                            TotalAnnualMaxCapacity                    98                                       PPADSL,PPAFOI,PPANGS,PPBGS,PPDBGS,PPDBIM,PPDDSL,PPDFOI  2018-2024
+                                            TotalAnnualMinCapacity                     7                                                                                  TRANRAILINF  2018-2024
+                                            TotalTechnologyAnnualActivityLowerLimit   49                                         PPBGS,PPCCFOIDSL,PPDBGS,PPDBIM,PPDHYD,PPGEO,PPPVTHYD  2018-2024
+                                            TotalTechnologyAnnualActivityUpperLimit  119                            PPBIM,PPCCFOIDSL,PPCCTDSL,PPCCTNGS,PPCCTNGSDSL,PPCOA,PPGEO,PPHDAM  2018-2024
+Ecuador           B1_Output_Params LTSNEW   SpecifiedAnnualDemand                     90                                                                                               2021-2024
+                                            TotalAnnualMaxCapacity                   116                                             PPBGS,PPBIM,PPCRU,PPDDSL,PPDFOI,PPDSL,PPFOI,PPHD  2021-2024
+                                            TotalTechnologyAnnualActivityLowerLimit   16                                                                PPBGS,PPBIM,PPWNDOFF,PPWNDONS  2021-2024
+                                            TotalTechnologyAnnualActivityUpperLimit    8                                                                            PPWNDOFF,PPWNDONS  2021-2024
+                                   NDCNEW   SpecifiedAnnualDemand                     90                                                                                               2021-2024
+                                            TotalAnnualMaxCapacity                   116                                             PPBGS,PPBIM,PPCRU,PPDDSL,PPDFOI,PPDSL,PPFOI,PPHD  2021-2024
+                                            TotalTechnologyAnnualActivityLowerLimit   16                                                                PPBGS,PPBIM,PPWNDOFF,PPWNDONS  2021-2024
+                                            TotalTechnologyAnnualActivityUpperLimit    8                                                                            PPWNDOFF,PPWNDONS  2021-2024
+Guatemala         A2_Output_Params LTSNEW   CapitalCost                                7                                                                                  TRANE6NOMOT  2018-2024
+                                            OutputActivityRatio                        7                                                                                  TRANE6NOMOT  2018-2024
+                                            TotalAnnualMinCapacity                     7                                                                                   TRXTRAIELE  2018-2024
+                                   NDCNEW   CapitalCost                                7                                                                                  TRANE6NOMOT  2018-2024
+                                            OutputActivityRatio                        7                                                                                  TRANE6NOMOT  2018-2024
+                                            TotalAnnualMinCapacity                     7                                                                                   TRXTRAIELE  2018-2024
+                  B1_Output_Params LTSNEW   CapitalCost                                7                                                                                  TRANE6NOMOT  2018-2024
+                                            EmissionActivityRatio                     21                                                                 DIST_GSL,T4GSL_LIG,T4GSL_PRI  2018-2024
+                                            OutputActivityRatio                        7                                                                                  TRANE6NOMOT  2018-2024
+                                            SpecifiedAnnualDemand                     23                                                                                               2018-2024
+                                            TotalAnnualMaxCapacity                    83                        PPPVT2,TRAUTDSL,TRAUTELE,TRAUTGSL,TRBPRDSL,TRMBSDSL,TRMBSGSL,TRMBSLPG  2018-2024
+                                            TotalAnnualMinCapacity                     7                                                                                   TRXTRAIELE  2018-2024
+                                            TotalTechnologyAnnualActivityLowerLimit  113                         PPPVT2,TRAUTDSL,TRAUTELE,TRAUTGSL,TRAUTHG,TRAUTLPG,TRAUTPHG,TRBPRDSL  2018-2024
+                                            TotalTechnologyAnnualActivityUpperLimit   70                                           PPBIM,PPCOA,PPDSL,PPFOI,PPNGS,PPPVDS,PPPVT2,PPPVTS  2018-2024
+                                   NDCNEW   CapitalCost                                7                                                                                  TRANE6NOMOT  2018-2024
+                                            EmissionActivityRatio                     21                                                                 DIST_GSL,T4GSL_LIG,T4GSL_PRI  2018-2024
+                                            OutputActivityRatio                        7                                                                                  TRANE6NOMOT  2018-2024
+                                            SpecifiedAnnualDemand                     23                                                                                               2018-2024
+                                            TotalAnnualMaxCapacity                    83                        PPPVT2,TRAUTDSL,TRAUTELE,TRAUTGSL,TRBPRDSL,TRMBSDSL,TRMBSGSL,TRMBSLPG  2018-2024
+                                            TotalAnnualMinCapacity                     7                                                                                   TRXTRAIELE  2018-2024
+                                            TotalTechnologyAnnualActivityLowerLimit  113                         PPPVT2,TRAUTDSL,TRAUTELE,TRAUTGSL,TRAUTHG,TRAUTLPG,TRAUTPHG,TRBPRDSL  2018-2024
+                                            TotalTechnologyAnnualActivityUpperLimit   56                                           PPBIM,PPCOA,PPDSL,PPFOI,PPNGS,PPPVDS,PPPVT2,PPPVTS  2018-2024
+Honduras          A2_Output_Params LTSNEW   OutputActivityRatio                        7                                                                                  TRANE6NOMOT  2018-2024
+                                            TotalAnnualMinCapacity                     7                                                                                  TRANRAILINF  2018-2024
+                                   NDCNEW   OutputActivityRatio                        7                                                                                  TRANE6NOMOT  2018-2024
+                                            TotalAnnualMinCapacity                     7                                                                                  TRANRAILINF  2018-2024
+                  B1_Output_Params LTSNEW   EmissionActivityRatio                     91                                             DIST_GSL,T4GSL_LIG,T4GSL_PRI,T4GSL_PUB,T4GSL_TUR  2018-2024
+                                            OutputActivityRatio                        7                                                                                  TRANE6NOMOT  2018-2024
+                                            SpecifiedAnnualDemand                    150                                                                                               2018-2024
+                                            TotalAnnualMaxCapacity                    28                   TRANRAILINF,TRAUTDSL,TRAUTGSL,TRBPUGSL,TRMBSDSL,TRMBSGSL,TRMOTGSL,TRSUVDSL  2018-2024
+                                            TotalAnnualMinCapacity                     7                                                                                  TRANRAILINF  2018-2024
+                                            TotalTechnologyAnnualActivityLowerLimit   80                                    PPBGS,PPCOA,PPNUC,PPPVDS,PPPVT2,TRAUTGSL,TRAUTHG,TRBPUGSL  2018-2024
+                                            TotalTechnologyAnnualActivityUpperLimit   35                                                              PPBGS,PPCOA,PPNUC,PPPVDS,PPPVT2  2018-2024
+                                   NDCNEW   EmissionActivityRatio                     91                                             DIST_GSL,T4GSL_LIG,T4GSL_PRI,T4GSL_PUB,T4GSL_TUR  2018-2024
+                                            OutputActivityRatio                        7                                                                                  TRANE6NOMOT  2018-2024
+                                            SpecifiedAnnualDemand                    150                                                                                               2018-2024
+                                            TotalAnnualMaxCapacity                    28                   TRANRAILINF,TRAUTDSL,TRAUTGSL,TRBPUGSL,TRMBSDSL,TRMBSGSL,TRMOTGSL,TRSUVDSL  2018-2024
+                                            TotalAnnualMinCapacity                     7                                                                                  TRANRAILINF  2018-2024
+                                            TotalTechnologyAnnualActivityLowerLimit   80                                    PPBGS,PPCOA,PPNUC,PPPVDS,PPPVT2,TRAUTGSL,TRAUTHG,TRBPUGSL  2018-2024
+                                            TotalTechnologyAnnualActivityUpperLimit   35                                                              PPBGS,PPCOA,PPNUC,PPPVDS,PPPVT2  2018-2024
+Jamaica           B1_Output_Params LTSNEW   EmissionActivityRatio                      8                                                                            T5DSLTRO,T5GSLTRO  2021-2024
+                                            SpecifiedAnnualDemand                    134                                                                                               2021-2024
+                                            TotalAnnualMaxCapacity                    48                                             PPBGS,PPBIM,PPDSL,PPFOI,PPGEO,PPHDAM,PPNGS,PPPVD  2021-2024
+                                            TotalTechnologyAnnualActivityLowerLimit   28                                            PPBGS,PPGEO,PPPVD,PPPVDS,PPPVTS,PPWNDOFF,PPWNDONS  2021-2024
+                                            TotalTechnologyAnnualActivityUpperLimit   12                                                                          PPGEO,PPHDAM,PPHROR  2021-2024
+                                   NDCNEW   EmissionActivityRatio                      8                                                                            T5DSLTRO,T5GSLTRO  2021-2024
+                                            SpecifiedAnnualDemand                    134                                                                                               2021-2024
+                                            TotalAnnualMaxCapacity                    48                                             PPBGS,PPBIM,PPDSL,PPFOI,PPGEO,PPHDAM,PPNGS,PPPVD  2021-2024
+                                            TotalTechnologyAnnualActivityLowerLimit   28                                            PPBGS,PPGEO,PPPVD,PPPVDS,PPPVTS,PPWNDOFF,PPWNDONS  2021-2024
+                                            TotalTechnologyAnnualActivityUpperLimit   12                                                                          PPGEO,PPHDAM,PPHROR  2021-2024

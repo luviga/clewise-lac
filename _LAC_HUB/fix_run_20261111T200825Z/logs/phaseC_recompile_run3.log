@@ -1,0 +1,10 @@
+CostaRica: exit 0 in 16.1s
+{"country": "CostaRica", "command": "python(anaconda) A2_Compiler_CostaRica.py", "exit": 0, "seconds": 16.1, "produced": {"BAU": 19, "NDCincond": 19, "NDCcond": 19}, "static_files_in_BAU": ["AnnualEmissionLimit.csv", "DepreciationMethod.csv", "DiscountRate.csv", "ModelPeriodEmissionLimit.csv", "REMinProductionTarget.csv", "RETagFuel.csv", "RETagTechnology.csv", "TotalAnnualMaxCapacityInvestment.csv", "TotalAnnualMinCapacity.csv", "TotalTechnologyModelPeriodActivityLowerLimit.csv", "TotalTechnologyModelPeriodActivityUpperLimit.csv"], "choice": {"NDCNEW": {"source": "BAU", "differing_rows": 0}, "LTSNEW": {"source": "BAU", "differing_rows": 0}}}
+CostaRica: B1_Base_Scenarios_Adj_Parallel_CostaRica.py exit 0 in 198.8s
+{"country": "CostaRica", "command": "python(anaconda) B1_Base_Scenarios_Adj_Parallel_CostaRica.py", "exit": 0, "seconds": 198.8, "b1_files_written": {"BAU": 20, "NDCNEW": 20, "LTSNEW": 20}, "temp_a2": "LTSOPT=LTSNEW (created for the run, removed after with its B1 outputs)", "b1_diffs": {"BAU": 0, "NDCNEW": 0, "LTSNEW": 0}, "other_changed_paths": ["?? CostaRica/CR_ENERGY/t1_confection/SelectedResults.csv"], "removed_untracked": "SelectedResults.csv"}
+  solve: {'data': 'C:\\clw_fix\\CostaRica\\CR_ENERGY\\t1_confection\\Executables\\BAU_0\\BAU_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 116141.7022 (MINimum)', 'seconds': 112.1, 'returncode': 0}
+  solve: {'data': 'C:\\clw_fix\\CostaRica\\CR_ENERGY\\t1_confection\\Executables\\LTSNEW_0\\LTSNEW_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 97685.0415 (MINimum)', 'seconds': 112.9, 'returncode': 0}
+  solve: {'data': 'C:\\clw_fix\\CostaRica\\CR_ENERGY\\t1_confection\\Executables\\LTSOPT_0\\LTSOPT_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 94229.72311 (MINimum)', 'seconds': 112.8, 'returncode': 0}
+  solve: {'data': 'C:\\clw_fix\\CostaRica\\CR_ENERGY\\t1_confection\\Executables\\NDCNEW_0\\NDCNEW_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 102659.454 (MINimum)', 'seconds': 112.7, 'returncode': 0}
+CostaRica (0, 0)
+exit 0

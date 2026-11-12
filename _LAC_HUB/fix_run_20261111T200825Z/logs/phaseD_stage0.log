@@ -1,0 +1,13 @@
+{"stage": "0", "step": 1, "name": "stage0_clean", "start_utc": "2026-11-11T23:55:07Z", "seconds": 0.1, "exit": 0, "log": "s0_01_stage0_clean.log"}
+{"stage": "0", "step": 2, "name": "stage0_run", "start_utc": "2026-11-11T23:55:07Z", "seconds": 0.8, "exit": 0, "log": "s0_02_stage0_run.log"}
+{"stage": "0", "step": 3, "name": "stage0_run_all", "start_utc": "2026-11-11T23:55:08Z", "seconds": 1183.4, "exit": 0, "log": "s0_03_stage0_run_all.log"}
+free disk 74.3 GB < 80
+{"stage": "0", "step": 4, "name": "stage0_collect_outputs", "start_utc": "2026-11-12T00:14:52Z", "seconds": 167.4, "exit": 0, "log": "s0_04_stage0_collect_outputs.log"}
+free disk 74.2 GB < 80
+{"stage": "0", "step": 5, "name": "stage0_capacity_check", "start_utc": "2026-11-12T00:17:39Z", "seconds": 2.1, "exit": 0, "log": "s0_05_stage0_capacity_check.log"}
+free disk 74.2 GB < 80
+{"stage": "0", "step": 6, "name": "stage0_recommend_shares", "start_utc": "2026-11-12T00:17:41Z", "seconds": 0.9, "exit": 0, "log": "s0_06_stage0_recommend_shares.log"}
+free disk 74.2 GB < 80
+{"stage": "0", "step": 7, "name": "stage0_test", "start_utc": "2026-11-12T00:17:42Z", "seconds": 0.6, "exit": 0, "log": "s0_07_stage0_test.log"}
+free disk 74.2 GB < 80
+exit 0

@@ -1,0 +1,2 @@
+﻿apply_id,timestamp,manifest_path,country,ao_path,backup_path,dry_run,approved_cells_seen,cells_changed,projection_modes_changed
+apply_20261111_135627,20261111_135630,C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\manifest_Honduras_plain.csv,Honduras,C:\clw_fix\Honduras\HON_ENERGY\A1_Outputs\A-O_Parametrization.xlsx,C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\backups\apply_20261111_135627\Honduras__A-O_Parametrization.bak_20261111_135627.xlsx,NO,81,81,0

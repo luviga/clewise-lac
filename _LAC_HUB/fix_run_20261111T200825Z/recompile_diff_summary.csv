@@ -1,0 +1,307 @@
+country,stage,scenario,parameter,allowed_reason,values_changed
+CostaRica,B1,BAU,SpecifiedAnnualDemand,R2 E5INDCOA 2021,1
+CostaRica,B1,LTSNEW,SpecifiedAnnualDemand,R2 E5INDCOA 2021,1
+CostaRica,B1,LTSNEW,TotalAnnualMaxCapacity,R6 history change,30
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,21
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,4
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history-only row: B1 default from 2025 (no effect),26
+CostaRica,B1,NDCNEW,SpecifiedAnnualDemand,R2 E5INDCOA 2021,1
+CostaRica,B1,NDCNEW,TotalAnnualMaxCapacity,R6 history change,30
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,21
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,4
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history-only row: B1 default from 2025 (no effect),26
+CostaRica,B1 data file,BAU,SpecifiedAnnualDemand,R2 E5INDCOA 2021,1
+CostaRica,B1 data file,LTSNEW,SpecifiedAnnualDemand,R2 E5INDCOA 2021,1
+CostaRica,B1 data file,LTSNEW,TotalAnnualMaxCapacity,R6 history change,30
+CostaRica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,21
+CostaRica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,4
+CostaRica,B1 data file,NDCNEW,SpecifiedAnnualDemand,R2 E5INDCOA 2021,1
+CostaRica,B1 data file,NDCNEW,TotalAnnualMaxCapacity,R6 history change,30
+CostaRica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,21
+CostaRica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,4
+DominicanRepublic,A2,BAU,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",693
+DominicanRepublic,A2,BAU,FixedCost,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent),66
+DominicanRepublic,A2,BAU,FixedCost,"proposal cost cell (R1, R3, R4, R5)",759
+DominicanRepublic,A2,BAU,VariableCost,"proposal cost cell (R1, R3, R4, R5)",561
+DominicanRepublic,A2,LTSNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",693
+DominicanRepublic,A2,LTSNEW,FixedCost,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent),66
+DominicanRepublic,A2,LTSNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",759
+DominicanRepublic,A2,LTSNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",561
+DominicanRepublic,A2,NDCNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",693
+DominicanRepublic,A2,NDCNEW,FixedCost,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent),66
+DominicanRepublic,A2,NDCNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",759
+DominicanRepublic,A2,NDCNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",561
+DominicanRepublic,B1,BAU,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",693
+DominicanRepublic,B1,BAU,FixedCost,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent),66
+DominicanRepublic,B1,BAU,FixedCost,"proposal cost cell (R1, R3, R4, R5)",759
+DominicanRepublic,B1,BAU,VariableCost,"proposal cost cell (R1, R3, R4, R5)",561
+DominicanRepublic,B1,LTSNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",693
+DominicanRepublic,B1,LTSNEW,EmissionActivityRatio,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005),156
+DominicanRepublic,B1,LTSNEW,EmissionActivityRatio,R6 history change,42
+DominicanRepublic,B1,LTSNEW,FixedCost,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent),66
+DominicanRepublic,B1,LTSNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",759
+DominicanRepublic,B1,LTSNEW,TotalAnnualMaxCapacity,R6 history change,168
+DominicanRepublic,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,115
+DominicanRepublic,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,203
+DominicanRepublic,B1,LTSNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",561
+DominicanRepublic,B1,NDCNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",693
+DominicanRepublic,B1,NDCNEW,EmissionActivityRatio,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005),156
+DominicanRepublic,B1,NDCNEW,EmissionActivityRatio,R6 history change,42
+DominicanRepublic,B1,NDCNEW,FixedCost,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent),66
+DominicanRepublic,B1,NDCNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",759
+DominicanRepublic,B1,NDCNEW,TotalAnnualMaxCapacity,R6 history change,168
+DominicanRepublic,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,115
+DominicanRepublic,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,203
+DominicanRepublic,B1,NDCNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",561
+DominicanRepublic,B1 data file,BAU,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",693
+DominicanRepublic,B1 data file,BAU,FixedCost,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent),66
+DominicanRepublic,B1 data file,BAU,FixedCost,"proposal cost cell (R1, R3, R4, R5)",759
+DominicanRepublic,B1 data file,BAU,VariableCost,"proposal cost cell (R1, R3, R4, R5)",561
+DominicanRepublic,B1 data file,LTSNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",693
+DominicanRepublic,B1 data file,LTSNEW,EmissionActivityRatio,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005),156
+DominicanRepublic,B1 data file,LTSNEW,EmissionActivityRatio,R6 history change,42
+DominicanRepublic,B1 data file,LTSNEW,FixedCost,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent),66
+DominicanRepublic,B1 data file,LTSNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",759
+DominicanRepublic,B1 data file,LTSNEW,TotalAnnualMaxCapacity,R6 history change,168
+DominicanRepublic,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,115
+DominicanRepublic,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,203
+DominicanRepublic,B1 data file,LTSNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",561
+DominicanRepublic,B1 data file,NDCNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",693
+DominicanRepublic,B1 data file,NDCNEW,EmissionActivityRatio,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005),156
+DominicanRepublic,B1 data file,NDCNEW,EmissionActivityRatio,R6 history change,42
+DominicanRepublic,B1 data file,NDCNEW,FixedCost,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent),66
+DominicanRepublic,B1 data file,NDCNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",759
+DominicanRepublic,B1 data file,NDCNEW,TotalAnnualMaxCapacity,R6 history change,168
+DominicanRepublic,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,115
+DominicanRepublic,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,203
+DominicanRepublic,B1 data file,NDCNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",561
+Ecuador,A2,BAU,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",153
+Ecuador,A2,BAU,FixedCost,"proposal cost cell (R1, R3, R4, R5)",90
+Ecuador,A2,BAU,SpecifiedAnnualDemand,R3 Ecuador crude,10
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,R3 Ecuador crude,37
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityUpperLimit,R3 Ecuador crude,12
+Ecuador,A2,BAU,VariableCost,"proposal cost cell (R1, R3, R4, R5)",210
+Ecuador,A2,LTSNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",153
+Ecuador,A2,LTSNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",90
+Ecuador,A2,LTSNEW,SpecifiedAnnualDemand,R3 Ecuador crude,10
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,R3 Ecuador crude,37
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R3 Ecuador crude,12
+Ecuador,A2,LTSNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",210
+Ecuador,A2,NDCNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",153
+Ecuador,A2,NDCNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",90
+Ecuador,A2,NDCNEW,SpecifiedAnnualDemand,R3 Ecuador crude,10
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,R3 Ecuador crude,37
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R3 Ecuador crude,12
+Ecuador,A2,NDCNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",210
+Ecuador,B1,BAU,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",153
+Ecuador,B1,BAU,FixedCost,"proposal cost cell (R1, R3, R4, R5)",90
+Ecuador,B1,BAU,SpecifiedAnnualDemand,R3 Ecuador crude,10
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,R3 Ecuador crude,37
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityUpperLimit,R3 Ecuador crude,12
+Ecuador,B1,BAU,VariableCost,"proposal cost cell (R1, R3, R4, R5)",210
+Ecuador,B1,LTSNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",153
+Ecuador,B1,LTSNEW,EmissionActivityRatio,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005),260
+Ecuador,B1,LTSNEW,EmissionActivityRatio,R6 history change,40
+Ecuador,B1,LTSNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",90
+Ecuador,B1,LTSNEW,SpecifiedAnnualDemand,R3 Ecuador crude,10
+Ecuador,B1,LTSNEW,TotalAnnualMaxCapacity,R6 history change,132
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,R3 Ecuador crude,37
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,98
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R3 Ecuador crude,12
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,132
+Ecuador,B1,LTSNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",210
+Ecuador,B1,NDCNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",153
+Ecuador,B1,NDCNEW,EmissionActivityRatio,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005),260
+Ecuador,B1,NDCNEW,EmissionActivityRatio,R6 history change,40
+Ecuador,B1,NDCNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",90
+Ecuador,B1,NDCNEW,SpecifiedAnnualDemand,R3 Ecuador crude,10
+Ecuador,B1,NDCNEW,TotalAnnualMaxCapacity,R6 history change,132
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,R3 Ecuador crude,37
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,98
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R3 Ecuador crude,12
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,132
+Ecuador,B1,NDCNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",210
+Ecuador,B1 data file,BAU,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",153
+Ecuador,B1 data file,BAU,FixedCost,"proposal cost cell (R1, R3, R4, R5)",90
+Ecuador,B1 data file,BAU,SpecifiedAnnualDemand,R3 Ecuador crude,10
+Ecuador,B1 data file,BAU,TotalTechnologyAnnualActivityLowerLimit,R3 Ecuador crude,37
+Ecuador,B1 data file,BAU,TotalTechnologyAnnualActivityUpperLimit,R3 Ecuador crude,12
+Ecuador,B1 data file,BAU,VariableCost,"proposal cost cell (R1, R3, R4, R5)",210
+Ecuador,B1 data file,LTSNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",153
+Ecuador,B1 data file,LTSNEW,EmissionActivityRatio,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005),260
+Ecuador,B1 data file,LTSNEW,EmissionActivityRatio,R6 history change,40
+Ecuador,B1 data file,LTSNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",90
+Ecuador,B1 data file,LTSNEW,SpecifiedAnnualDemand,R3 Ecuador crude,10
+Ecuador,B1 data file,LTSNEW,TotalAnnualMaxCapacity,R6 history change,132
+Ecuador,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,R3 Ecuador crude,37
+Ecuador,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,98
+Ecuador,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R3 Ecuador crude,12
+Ecuador,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,132
+Ecuador,B1 data file,LTSNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",210
+Ecuador,B1 data file,NDCNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",153
+Ecuador,B1 data file,NDCNEW,EmissionActivityRatio,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005),260
+Ecuador,B1 data file,NDCNEW,EmissionActivityRatio,R6 history change,40
+Ecuador,B1 data file,NDCNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",90
+Ecuador,B1 data file,NDCNEW,SpecifiedAnnualDemand,R3 Ecuador crude,10
+Ecuador,B1 data file,NDCNEW,TotalAnnualMaxCapacity,R6 history change,132
+Ecuador,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,R3 Ecuador crude,37
+Ecuador,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,98
+Ecuador,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R3 Ecuador crude,12
+Ecuador,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,132
+Ecuador,B1 data file,NDCNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",210
+Guatemala,A2,BAU,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",99
+Guatemala,A2,BAU,FixedCost,"proposal cost cell (R1, R3, R4, R5)",232
+Guatemala,A2,BAU,VariableCost,"proposal cost cell (R1, R3, R4, R5)",165
+Guatemala,A2,LTSNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",99
+Guatemala,A2,LTSNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",232
+Guatemala,A2,LTSNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",165
+Guatemala,A2,NDCNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",99
+Guatemala,A2,NDCNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",232
+Guatemala,A2,NDCNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",165
+Guatemala,B1,BAU,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",99
+Guatemala,B1,BAU,FixedCost,"proposal cost cell (R1, R3, R4, R5)",232
+Guatemala,B1,BAU,VariableCost,"proposal cost cell (R1, R3, R4, R5)",165
+Guatemala,B1,LTSNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",99
+Guatemala,B1,LTSNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",232
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacity,R6 history change,105
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacityInvestment,R6 history change,7
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,87
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history-only row: B1 default from 2025 (no effect),26
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,119
+Guatemala,B1,LTSNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",165
+Guatemala,B1,NDCNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",99
+Guatemala,B1,NDCNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",232
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacity,R6 history change,105
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacityInvestment,R6 history change,7
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,87
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history-only row: B1 default from 2025 (no effect),26
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,105
+Guatemala,B1,NDCNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",165
+Guatemala,B1 data file,BAU,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",99
+Guatemala,B1 data file,BAU,FixedCost,"proposal cost cell (R1, R3, R4, R5)",232
+Guatemala,B1 data file,BAU,VariableCost,"proposal cost cell (R1, R3, R4, R5)",165
+Guatemala,B1 data file,LTSNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",99
+Guatemala,B1 data file,LTSNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",232
+Guatemala,B1 data file,LTSNEW,TotalAnnualMaxCapacity,R6 history change,105
+Guatemala,B1 data file,LTSNEW,TotalAnnualMaxCapacityInvestment,R6 history change,7
+Guatemala,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,85
+Guatemala,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,119
+Guatemala,B1 data file,LTSNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",165
+Guatemala,B1 data file,NDCNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",99
+Guatemala,B1 data file,NDCNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",232
+Guatemala,B1 data file,NDCNEW,TotalAnnualMaxCapacity,R6 history change,105
+Guatemala,B1 data file,NDCNEW,TotalAnnualMaxCapacityInvestment,R6 history change,7
+Guatemala,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,85
+Guatemala,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,105
+Guatemala,B1 data file,NDCNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",165
+Honduras,A2,BAU,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",3
+Honduras,A2,BAU,FixedCost,"proposal cost cell (R1, R3, R4, R5)",87
+Honduras,A2,BAU,VariableCost,"proposal cost cell (R1, R3, R4, R5)",63
+Honduras,A2,LTSNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",3
+Honduras,A2,LTSNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",87
+Honduras,A2,LTSNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",63
+Honduras,A2,NDCNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",3
+Honduras,A2,NDCNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",87
+Honduras,A2,NDCNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",63
+Honduras,B1,BAU,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",3
+Honduras,B1,BAU,FixedCost,"proposal cost cell (R1, R3, R4, R5)",87
+Honduras,B1,BAU,VariableCost,"proposal cost cell (R1, R3, R4, R5)",63
+Honduras,B1,LTSNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",3
+Honduras,B1,LTSNEW,EmissionActivityRatio,R6 history change,138
+Honduras,B1,LTSNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",87
+Honduras,B1,LTSNEW,TotalAnnualMaxCapacity,R6 history change,140
+Honduras,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,81
+Honduras,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,137
+Honduras,B1,LTSNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",63
+Honduras,B1,NDCNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",3
+Honduras,B1,NDCNEW,EmissionActivityRatio,R6 history change,138
+Honduras,B1,NDCNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",87
+Honduras,B1,NDCNEW,TotalAnnualMaxCapacity,R6 history change,140
+Honduras,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,81
+Honduras,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,137
+Honduras,B1,NDCNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",63
+Honduras,B1 data file,BAU,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",3
+Honduras,B1 data file,BAU,FixedCost,"proposal cost cell (R1, R3, R4, R5)",87
+Honduras,B1 data file,BAU,VariableCost,"proposal cost cell (R1, R3, R4, R5)",63
+Honduras,B1 data file,LTSNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",3
+Honduras,B1 data file,LTSNEW,EmissionActivityRatio,R6 history change,138
+Honduras,B1 data file,LTSNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",87
+Honduras,B1 data file,LTSNEW,TotalAnnualMaxCapacity,R6 history change,140
+Honduras,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,81
+Honduras,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,137
+Honduras,B1 data file,LTSNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",63
+Honduras,B1 data file,NDCNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",3
+Honduras,B1 data file,NDCNEW,EmissionActivityRatio,R6 history change,138
+Honduras,B1 data file,NDCNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",87
+Honduras,B1 data file,NDCNEW,TotalAnnualMaxCapacity,R6 history change,140
+Honduras,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,81
+Honduras,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,137
+Honduras,B1 data file,NDCNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",63
+Jamaica,A2,BAU,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",167
+Jamaica,A2,BAU,FixedCost,"proposal cost cell (R1, R3, R4, R5)",140
+Jamaica,A2,BAU,TotalAnnualMaxCapacity,R7 Jamaica PPHROR,35
+Jamaica,A2,BAU,TotalAnnualMinCapacityInvestment,R7 Jamaica PPHROR,5
+Jamaica,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,R7 Jamaica PPHROR,29
+Jamaica,A2,BAU,VariableCost,"proposal cost cell (R1, R3, R4, R5)",70
+Jamaica,A2,LTSNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",167
+Jamaica,A2,LTSNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",140
+Jamaica,A2,LTSNEW,TotalAnnualMaxCapacity,R7 Jamaica PPHROR,35
+Jamaica,A2,LTSNEW,TotalAnnualMinCapacityInvestment,R7 Jamaica PPHROR,5
+Jamaica,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,R7 Jamaica PPHROR,29
+Jamaica,A2,LTSNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",70
+Jamaica,A2,NDCNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",167
+Jamaica,A2,NDCNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",140
+Jamaica,A2,NDCNEW,TotalAnnualMaxCapacity,R7 Jamaica PPHROR,35
+Jamaica,A2,NDCNEW,TotalAnnualMinCapacityInvestment,R7 Jamaica PPHROR,5
+Jamaica,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,R7 Jamaica PPHROR,29
+Jamaica,A2,NDCNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",70
+Jamaica,B1,BAU,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",167
+Jamaica,B1,BAU,FixedCost,"proposal cost cell (R1, R3, R4, R5)",140
+Jamaica,B1,BAU,TotalAnnualMaxCapacity,R7 Jamaica PPHROR,35
+Jamaica,B1,BAU,TotalAnnualMinCapacityInvestment,R7 Jamaica PPHROR,5
+Jamaica,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,R7 Jamaica PPHROR,29
+Jamaica,B1,BAU,VariableCost,"proposal cost cell (R1, R3, R4, R5)",70
+Jamaica,B1,LTSNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",167
+Jamaica,B1,LTSNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",140
+Jamaica,B1,LTSNEW,SpecifiedAnnualDemand,R6 history change,8
+Jamaica,B1,LTSNEW,TotalAnnualMaxCapacity,R6 history change,56
+Jamaica,B1,LTSNEW,TotalAnnualMaxCapacity,R7 Jamaica PPHROR,35
+Jamaica,B1,LTSNEW,TotalAnnualMinCapacityInvestment,R7 Jamaica PPHROR,5
+Jamaica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,27
+Jamaica,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,32
+Jamaica,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R7 Jamaica PPHROR,4
+Jamaica,B1,LTSNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",70
+Jamaica,B1,NDCNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",167
+Jamaica,B1,NDCNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",140
+Jamaica,B1,NDCNEW,TotalAnnualMaxCapacity,R6 history change,56
+Jamaica,B1,NDCNEW,TotalAnnualMaxCapacity,R7 Jamaica PPHROR,35
+Jamaica,B1,NDCNEW,TotalAnnualMinCapacityInvestment,R7 Jamaica PPHROR,5
+Jamaica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,27
+Jamaica,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,32
+Jamaica,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R7 Jamaica PPHROR,4
+Jamaica,B1,NDCNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",70
+Jamaica,B1 data file,BAU,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",167
+Jamaica,B1 data file,BAU,FixedCost,"proposal cost cell (R1, R3, R4, R5)",140
+Jamaica,B1 data file,BAU,TotalAnnualMaxCapacity,R7 Jamaica PPHROR,35
+Jamaica,B1 data file,BAU,TotalAnnualMinCapacityInvestment,R7 Jamaica PPHROR,5
+Jamaica,B1 data file,BAU,TotalTechnologyAnnualActivityLowerLimit,R7 Jamaica PPHROR,29
+Jamaica,B1 data file,BAU,VariableCost,"proposal cost cell (R1, R3, R4, R5)",70
+Jamaica,B1 data file,LTSNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",167
+Jamaica,B1 data file,LTSNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",140
+Jamaica,B1 data file,LTSNEW,SpecifiedAnnualDemand,R6 history change,8
+Jamaica,B1 data file,LTSNEW,TotalAnnualMaxCapacity,R6 history change,56
+Jamaica,B1 data file,LTSNEW,TotalAnnualMaxCapacity,R7 Jamaica PPHROR,35
+Jamaica,B1 data file,LTSNEW,TotalAnnualMinCapacityInvestment,R7 Jamaica PPHROR,5
+Jamaica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,27
+Jamaica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,32
+Jamaica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,R7 Jamaica PPHROR,4
+Jamaica,B1 data file,LTSNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",70
+Jamaica,B1 data file,NDCNEW,CapitalCost,"proposal cost cell (R1, R3, R4, R5)",167
+Jamaica,B1 data file,NDCNEW,FixedCost,"proposal cost cell (R1, R3, R4, R5)",140
+Jamaica,B1 data file,NDCNEW,TotalAnnualMaxCapacity,R6 history change,56
+Jamaica,B1 data file,NDCNEW,TotalAnnualMaxCapacity,R7 Jamaica PPHROR,35
+Jamaica,B1 data file,NDCNEW,TotalAnnualMinCapacityInvestment,R7 Jamaica PPHROR,5
+Jamaica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,R6 history change,27
+Jamaica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R6 history change,32
+Jamaica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,R7 Jamaica PPHROR,4
+Jamaica,B1 data file,NDCNEW,VariableCost,"proposal cost cell (R1, R3, R4, R5)",70
