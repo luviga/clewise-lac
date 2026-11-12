@@ -20,13 +20,14 @@ Job LAC_FIX_RUN: the seven review fixes of PR #10, recompile of A2 and B1, one r
 
 ## 2. Pull request and commits
 
-- Pull request: (written in the last commit, after the pull request is opened)
+- Pull request: https://github.com/luviga/clewise-lac/pull/11 (draft)
 - Base: `main` c42ae07ac81f0f3a28f6275e7ce356f9696c4f77
 - Phase A, sources and proposals: f997ff4
 - Phase B, review fixes written: cfaa90e
 - Phase C, A2 and B1 recompiled: bb89b9d
 - Phase D, Stages 0 to 3: c0cd76c
-- Phase E, report: the commit that adds this file
+- Phase E, report, gaps and changes: f9b816d
+- Last commit: writes this section (pull request number and hashes) only
 
 ## 3. Fixes, before and after
 
