@@ -1,7 +1,7 @@
 Country,Scenario,PP_Techs,Years,Values_Changed
 CostaRica,BAU,9,26,260
-CostaRica,LTSNEW,9,26,234
-CostaRica,NDCNEW,9,26,234
+CostaRica,LTSNEW,9,26,260
+CostaRica,NDCNEW,9,26,260
 DominicanRepublic,BAU,21,26,962
 DominicanRepublic,LTSNEW,29,26,1404
 DominicanRepublic,NDCNEW,29,26,1404

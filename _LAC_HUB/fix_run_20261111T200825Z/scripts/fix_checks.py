@@ -54,6 +54,11 @@ for sc in SC:
     for t in ['PROCRU', 'T5CRUEXP']:
         x = d[d.TECHNOLOGY == t]
         iar[(sc, t)] = dict(zip(x.YEAR, x.Value)) if len(x) else {}
+dem = {}
+for sc in SC:
+    d = pd.read_csv(ROOT / 'Ecuador/ECU_Energy/B1_Output_Params' / sc / 'SpecifiedAnnualDemand.csv')
+    d = d[d.FUEL == 'E5EXPCRU']
+    dem[sc] = dict(zip(d.YEAR.astype(int), d.Value))
 worst = 0
 for sc in SC:
     g = e[e.Scenario == sc].pivot_table(index='Year', columns='Technology', values='Value', aggfunc='sum').fillna(0.0)
@@ -63,9 +68,9 @@ for sc in SC:
         exp_ = g.loc[y].get('T5CRUEXP', 0.0) * iar[(sc, 'T5CRUEXP')].get(y, 1.0)
         bal = ext + imp - ref - exp_
         worst = max(worst, bal)
-        if bal > 0.5 or y in (2021, 2024, 2030, 2035, 2040, 2050):
+        if bal > 0.5 or y in (2021, 2022, 2024, 2030, 2035, 2040, 2050):
             detail.append(dict(check='ecuador_crude_balance', country='Ecuador', item=sc, year=int(y), value=round(bal, 3),
-                               note=f'extraction {ext:.2f}, imports {imp:.2f}, refinery {ref:.2f}, exports {exp_:.2f} PJ' + (' ABOVE 0.5' if bal > 0.5 else '')))
+                               note=f'extraction {ext:.2f}, imports {imp:.2f}, refinery {ref:.2f}, exports {exp_:.2f} PJ (export demand {dem[sc].get(int(y), 0.0):.2f})' + (' ABOVE 0.5' if bal > 0.5 else '')))
 nbad = sum(1 for d in detail if d['check'] == 'ecuador_crude_balance' and d['value'] > 0.5)
 checks.append(dict(check='Ecuador crude surplus (extraction + imports - refinery - exports) at most 0.5 PJ, every year and scenario', country='Ecuador',
                    result='pass' if nbad == 0 else 'FAIL', count=nbad, note=f'largest surplus {worst:.3f} PJ'))
@@ -83,21 +88,18 @@ spread = (jh.max(axis=1) - jh.min(axis=1)).max()
 checks.append(dict(check='Jamaica hydro output identical across scenarios (0.05 PJ)', country='Jamaica', result='pass' if spread <= 0.05 else 'FAIL',
                    count='', note=f'max spread {spread:.4f} PJ'))
 
-# 4. Costa Rica E5INDCOA 2021
+# 4. Costa Rica E5INDCOA 2021 (config 0.00667; B1 rounds Efficiency rows to 4 decimals, so the data file holds 0.0067)
+sys.path.insert(0, str(JOB / 'scripts'))
+from dat_compare import parse_dat  # noqa: E402
 for sc in SC:
     f = ROOT / 'CostaRica/CR_ENERGY/t1_confection/Executables' / f'{sc}_FINAL_0' / f'{sc}_FINAL_0.txt'
     val = None
     if f.exists():
-        inblock = False
-        for ln in open(f, encoding='utf-8', errors='replace'):
-            if ln.startswith('param SpecifiedAnnualDemand'):
-                inblock = True; continue
-            if inblock and ln.startswith(';'):
-                break
-            if inblock and 'E5INDCOA' in ln and ' 2021 ' in f' {ln} ':
-                val = ln.split()[-1]
-    checks.append(dict(check='Costa Rica E5INDCOA 2021 demand 0.00667 PJ', country=f'CostaRica {sc}',
-                       result='pass' if val is not None and abs(float(val) - 0.00667) < 1e-6 else 'FAIL', count='', note=f'data file value {val}'))
+        _, P_, _ = parse_dat(f)
+        val = next((v for k, v in P_.get('SpecifiedAnnualDemand', {}).items() if 'E5INDCOA' in k and k[-1] == '2021'), None)
+    ok = val is not None and abs(float(val) - 0.00667) <= 5e-5
+    checks.append(dict(check='Costa Rica E5INDCOA 2021 demand 0.00667 PJ (config; B1 rounds to 4 decimals)', country=f'CostaRica {sc}',
+                       result='pass' if ok else 'FAIL', count='', note=f'Stage 3 data file value {val}'))
 
 # 5. hydro output by country and scenario
 for c, g in act[act.Technology.isin(hydro)].groupby('Country'):

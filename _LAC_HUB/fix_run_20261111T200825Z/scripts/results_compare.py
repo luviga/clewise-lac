@@ -1,9 +1,8 @@
 """D3 (LAC_FIX_RUN): compare the base re-runs with the c42ae07 results (PR #10 re-runs).
 
-Inputs: the 16 May workbooks taken from the base commit (git show 4124868:...), the new
-_STAGE3_RESULTS/stage3_results.xlsx and _STAGE2_OUTPUT/CONTROLLER_NEW_SCENARIOS.xlsx, and the solve
-logs (new: stage_logs/solves_stage3.jsonl; 16 May: resolve_16may.jsonl, the main copy's 16 May
-*_FINAL_0 data files solved again with the same model and glpsol).
+Inputs: the c42ae07 workbooks taken from git (git show c42ae07:_STAGE3_RESULTS/stage3_results.xlsx and
+_STAGE2_OUTPUT/CONTROLLER_NEW_SCENARIOS.xlsx), the new workbooks of this run, and the solve headers (c42ae07:
+PR #10's cost_write_run stage_logs/solves_stage3.jsonl; new: stage_logs/solves_stage3.jsonl).
 
 Definitions follow stage3_results.py: RE share = activity of PP/PWR technologies flagged
 Is_Renewable in the controller TECH_MAP over all PP/PWR activity; RE targets NDCNEW 2035 and 2050

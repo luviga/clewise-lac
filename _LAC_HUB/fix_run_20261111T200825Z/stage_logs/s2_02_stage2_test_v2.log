@@ -1,0 +1,63 @@
+$ python stage2_test_v2.py --stage0-denom _STAGE0_OUTPUT\STAGE0_DENOMINATORS.xlsx
+======================================================================
+STAGE 2 TEST SUITE v2
+======================================================================
+  Controller: _STAGE2_OUTPUT\CONTROLLER_NEW_SCENARIOS.xlsx
+  Countries:  ['CostaRica', 'DominicanRepublic', 'Ecuador', 'Guatemala', 'Honduras', 'Jamaica']
+  Scenarios:  ['BAU', 'LTSNEW', 'NDCNEW']
+  Overrides:  2258 anchors
+
+── HARD TESTS ──
+  [PASS] T1_share_sums: 0 failures
+  [PASS] T2_anchors_exact: 0 failures
+  [PASS] T3_upper_ge_lower: 0 failures
+  [PASS] T4_no_negatives: 0 failures
+  [PASS] T5_bau_fossil_decline: 0 failures
+  [PASS] T6_policy_milestones: 0 failures
+  [PASS] T7_historical_alignment: 0 failures
+
+── SOFT TESTS (informational) ──
+  [FAIL] T8_continuity: 65 jumps >5pp e.g. CostaRica/BAU 2023->2024: Δ=0.0804
+       CostaRica/BAU 2023->2024: Δ=0.0804
+       CostaRica/LTSNEW 2023->2024: Δ=0.0804
+       CostaRica/NDCNEW 2023->2024: Δ=0.0804
+       DominicanRepublic/LTSNEW 2026->2027: Δ=0.0657
+       DominicanRepublic/LTSNEW 2027->2028: Δ=0.0657
+  [FAIL] T9_hydro_pj_freeze: 87 violations e.g. Jamaica/BAU 2027: 0.615 > boundary 0.394
+
+── COVERAGE SUMMARY ──
+  CostaRica           :   189 anchors, years 2018-2024, scenarios ['BAU', 'LTSNEW', 'NDCNEW'], [PARTIAL]
+  DominicanRepublic   :   114 anchors, years 2018-2019, scenarios ['BAU', 'LTSNEW', 'NDCNEW'], [PARTIAL]
+  Ecuador             :    38 anchors, years 2025-2050, scenarios ['BAU', 'LTSNEW', 'NDCNEW'], [FULL]
+  Guatemala           :  1386 anchors, years 2018-2050, scenarios ['BAU', 'LTSNEW', 'NDCNEW'], [FULL]
+  Honduras            :   315 anchors, years 2018-2026, scenarios ['BAU', 'LTSNEW', 'NDCNEW'], [PARTIAL]
+  Jamaica             :   216 anchors, years 2018-2026, scenarios ['BAU', 'LTSNEW', 'NDCNEW'], [PARTIAL]
+
+── RENEWABLE SHARE TRAJECTORY (Stage 2) ──
+             Country Scenario   2024   2026   2030   2035   2040   2050
+           CostaRica      BAU  89.4%  89.4%  89.4%  89.4%  89.4%  89.4%
+           CostaRica   NDCNEW  89.4%  89.4%  89.7%  90.0%  90.0%  90.0%
+           CostaRica   LTSNEW  89.4%  89.4%  93.7%  99.0%  99.0%  99.0%
+   DominicanRepublic      BAU  15.9%  15.9%  19.2%  23.1%  26.9%  33.9%
+   DominicanRepublic   NDCNEW  15.9%  15.9%  42.1%  75.0%  75.0%  75.0%
+   DominicanRepublic   LTSNEW  15.9%  15.9%  42.1%  75.0%  83.0%  99.0%
+             Ecuador      BAU  75.6%  75.7%  76.6%  77.8%  78.8%  80.9%
+             Ecuador   NDCNEW  75.6%  75.6%  77.6%  80.0%  80.0%  80.9%
+             Ecuador   LTSNEW  75.6%  75.6%  77.6%  80.0%  86.3%  99.0%
+           Guatemala      BAU  63.4%  63.4%  52.3%  57.1%  57.2%  64.1%
+           Guatemala   NDCNEW  63.4%  63.4%  68.6%  75.0%  75.0%  75.0%
+           Guatemala   LTSNEW  63.4%  63.4%  68.6%  75.0%  83.0%  99.0%
+            Honduras      BAU  59.6%  55.1%  56.9%  59.0%  61.0%  64.7%
+            Honduras   NDCNEW  59.6%  56.4%  64.7%  75.0%  75.0%  75.0%
+            Honduras   LTSNEW  59.6%  56.4%  64.7%  75.0%  83.0%  99.0%
+             Jamaica      BAU  10.0%  10.0%  13.5%  17.8%  21.8%  29.3%
+             Jamaica   NDCNEW  10.0%  10.0%  38.9%  75.0%  75.0%  75.0%
+             Jamaica   LTSNEW  10.0%  10.0%  38.9%  75.0%  83.0%  99.0%
+  [PASS] T10_growth_tech_check: 0 cases with zero solar+wind
+  [FAIL] T11a_denom_alignment: 1 years with scenario spread >0.5 PJ e.g. CostaRica 2023: BAU=45.5 NDC=49.1 LTS=49.1 (spread=3.6 PJ)
+       CostaRica 2023: BAU=45.5 NDC=49.1 LTS=49.1 (spread=3.6 PJ)
+  [PASS] T11b_share_alignment: 0 (c,t,y) with scenario divergence ≤2024
+
+======================================================================
+Hard tests: 7/7 PASS
+
