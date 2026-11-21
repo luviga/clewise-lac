@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(r"C:\clw_fix")
-JOB = ROOT / "_LAC_HUB" / "fix_run_20261111T200825Z"
+JOB = ROOT / "_LAC_HUB" / "fix_run2_20261120T225823Z"
 MODEL = {"CostaRica": "CostaRica/CR_ENERGY/t1_confection", "DominicanRepublic": "DominicanRepublic/RD_ENERGY",
          "Ecuador": "Ecuador/ECU_Energy", "Guatemala": "Guatemala/GUA_ENERGY", "Honduras": "Honduras/HON_ENERGY",
          "Jamaica": "Jamaica/JAM_ENERGY"}

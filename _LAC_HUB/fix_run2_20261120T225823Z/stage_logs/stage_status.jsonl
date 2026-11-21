@@ -1,0 +1,2 @@
+{"stage": "0", "step": 1, "name": "stage0_clean", "start_utc": "2026-11-21T07:00:42Z", "seconds": 0.3, "exit": 0, "log": "s0_01_stage0_clean.log"}
+{"stage": "0", "step": 2, "name": "stage0_run", "start_utc": "2026-11-21T07:00:42Z", "seconds": 0.9, "exit": 0, "log": "s0_02_stage0_run.log"}

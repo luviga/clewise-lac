@@ -23,7 +23,7 @@ import pandas as pd
 
 ROOT = Path(r"C:\clw_fix")
 JOB = ROOT / "_LAC_HUB" / "fix_run2_20261120T225823Z"
-BASE = "c42ae07"
+BASE = "4ba69d6"
 COUNTRIES = ["CostaRica", "DominicanRepublic", "Ecuador", "Guatemala", "Honduras", "Jamaica"]
 SCENS = ["BAU", "NDCNEW", "LTSNEW"]
 RE_TARGETS = {"NDCNEW": {2035: 0.75, 2050: 0.75}, "LTSNEW": {2035: 0.75, 2050: 0.99}}
@@ -73,7 +73,7 @@ def main():
     oldc = load(git_bytes("_STAGE2_OUTPUT/CONTROLLER_NEW_SCENARIOS.xlsx"))
     new = load(ROOT / "_STAGE3_RESULTS" / "stage3_results.xlsx")
     newc = load(ROOT / "_STAGE2_OUTPUT" / "CONTROLLER_NEW_SCENARIOS.xlsx")
-    so = solves(ROOT / "_LAC_HUB" / "cost_write_run_20261111T071733Z" / "stage_logs" / "solves_stage3.jsonl")
+    so = solves(ROOT / "_LAC_HUB" / "fix_run_20261111T200825Z" / "stage_logs" / "solves_stage3.jsonl")
     sn = solves(JOB / "stage_logs" / "solves_stage3.jsonl")
     rso, rsn = re_shares(old, oldc), re_shares(new, newc)
     rows = []
@@ -82,7 +82,7 @@ def main():
         ch = ""
         if isinstance(a, (int, float)) and isinstance(b, (int, float)) and a == a and b == b:
             ch = b - a
-        rows.append(dict(country=c, scenario=s, metric=metric, item=item, value_c42ae07=a, value_new=b, change=ch))
+        rows.append(dict(country=c, scenario=s, metric=metric, item=item, value_4ba69d6=a, value_new=b, change=ch))
 
     for c in COUNTRIES:
         for s in SCENS:
@@ -98,7 +98,7 @@ def main():
                 if t is not None:
                     add(c, s, "RE target met (2 pp tolerance)", f"{y} target {t:.2f}",
                         "yes" if a >= t - 0.02 else "no", "yes" if b >= t - 0.02 else "no")
-            for res, lab in ((old, "c42ae07"), (new, "new")):
+            for res, lab in ((old, "4ba69d6"), (new, "new")):
                 pass
             sv_o = old["ShareValidation"]; sv_n = new["ShareValidation"]
             for st in ("PASS", "WARN", "FAIL"):
@@ -117,7 +117,7 @@ def main():
             for t in sorted(set(go.index) | set(gn.index)):
                 add(c, s, "new capacity summed over the horizon (GW)", t, float(go.get(t, 0.0)), float(gn.get(t, 0.0)))
     with open(JOB / "results_compare.csv", "w", newline="", encoding="utf-8") as fh:
-        w = csv.DictWriter(fh, fieldnames=["country", "scenario", "metric", "item", "value_c42ae07", "value_new",
+        w = csv.DictWriter(fh, fieldnames=["country", "scenario", "metric", "item", "value_4ba69d6", "value_new",
                                            "change"], lineterminator="\n")
         w.writeheader()
         for r in rows:

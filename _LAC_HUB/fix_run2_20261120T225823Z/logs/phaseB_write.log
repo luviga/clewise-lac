@@ -3553,3 +3553,47 @@ backups in manifest: 14
   DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Secondary Techs|O170|PPDBGS|CapacityFactor|2023: 0.08115781060336204 -> 0.8561643835616438
 DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx: 6 writes, 270 already at target
   saved DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx
+=== phaseB_write 2026-11-21T06:53:32Z apply DominicanRepublic
+backups in manifest: 14
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|G227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit (Projection.Mode)|: 'Flat' -> User defined
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|J227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2018: 0.2328084861612393 -> 0.0252
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|K227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2019: None -> 0.0324
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|L227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2020: None -> 0.0324
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|M227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2021: None -> 0.0324
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|N227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2022: None -> 0.0324
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|O227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2023: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|P227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2024: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|Q227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2025: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|R227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2026: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|S227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2027: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|T227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2028: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|U227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2029: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|V227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2030: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|W227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2031: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|X227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2032: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|Y227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2033: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|Z227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2034: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|AA227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2035: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|AB227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2036: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|AC227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2037: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|AD227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2038: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|AE227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2039: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|AF227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2040: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|AG227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2041: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|AH227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2042: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|AI227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2043: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|AJ227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2044: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|AK227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2045: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|AL227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2046: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|AM227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2047: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|AN227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2048: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|AO227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2049: None -> 0.036
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Primary Techs|AP227|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2050: None -> 0.036
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx: 34 writes, 276 already at target
+  saved DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx
+  DominicanRepublic/RD_ENERGY/B1_Scenario_Config.xlsx|Electrical|H25|PPDHYD|TotalTechnologyAnnualActivityLowerLimit|2018-2024: '0.2326 ; 0.2326 ; 0.2326 ; 0.2326 ; 0.2326 ; 0.2326 ; 0.2326 ; 0.11955 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387' -> 0.0252 ; 0.0252 ; 0.0252 ; 0.0252 ; 0.0252 ; 0.0252 ; 0.0252 ; 0.11955 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387 ; 0.20387
+  DominicanRepublic/RD_ENERGY/B1_Scenario_Config.xlsx|Electrical|H83|PPDHYD|TotalTechnologyAnnualActivityLowerLimit|2018-2024: '0.2326 ; 0.2326 ; 0.2326 ; 0.2326 ; 0.2326 ; 0.2326 ; 0.2326 ; 0.119552 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568' -> 0.0252 ; 0.0252 ; 0.0252 ; 0.0252 ; 0.0252 ; 0.0252 ; 0.0252 ; 0.119552 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568 ; 0.230568
+  DominicanRepublic/RD_ENERGY/B1_Scenario_Config.xlsx|Electrical|H181|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2018-2024: '0.2328 ; 0.2328 ; 0.2328 ; 0.2328 ; 0.2328 ; 0.2328 ; 0.2328 ; 9999.021875 ; 9999.025 ; 9999.028125 ; 9999.03125 ; 9999.034375 ; 9999.0375 ; 9999.040625 ; 9999.04375 ; 9999.046875 ; 9999.05 ; 9999.053125 ; 9999.05625 ; 9999.059375 ; 9999.0625 ; 9999.065625000001 ; 9999.06875 ; 9999.071875 ; 9999.075 ; 9999.078125 ; 9999.081250000001 ; 9999.084375 ; 9999.0875 ; 9999.090625 ; 9999.09375 ; 9999.096875000001' -> 0.0252 ; 0.0324 ; 0.0324 ; 0.0324 ; 0.0324 ; 0.036 ; 0.036 ; 9999.021875 ; 9999.025 ; 9999.028125 ; 9999.03125 ; 9999.034375 ; 9999.0375 ; 9999.040625 ; 9999.04375 ; 9999.046875 ; 9999.05 ; 9999.053125 ; 9999.05625 ; 9999.059375 ; 9999.0625 ; 9999.065625000001 ; 9999.06875 ; 9999.071875 ; 9999.075 ; 9999.078125 ; 9999.081250000001 ; 9999.084375 ; 9999.0875 ; 9999.090625 ; 9999.09375 ; 9999.096875000001
+  DominicanRepublic/RD_ENERGY/B1_Scenario_Config.xlsx|Electrical|H193|PPDHYD|TotalTechnologyAnnualActivityUpperLimit|2018-2024: '0.2328 ; 0.2328 ; 0.2328 ; 0.2328 ; 0.2328 ; 0.2328 ; 0.2328 ; 9999.021875 ; 9999.025 ; 9999.028125 ; 9999.03125 ; 9999.034375 ; 9999.0375 ; 9999.040625 ; 9999.04375 ; 9999.046875 ; 9999.05 ; 9999.053125 ; 9999.05625 ; 9999.059375 ; 9999.0625 ; 9999.065625000001 ; 9999.06875 ; 9999.071875 ; 9999.075 ; 9999.078125 ; 9999.081250000001 ; 9999.084375 ; 9999.0875 ; 9999.090625 ; 9999.09375 ; 9999.096875000001' -> 0.0252 ; 0.0324 ; 0.0324 ; 0.0324 ; 0.0324 ; 0.036 ; 0.036 ; 9999.021875 ; 9999.025 ; 9999.028125 ; 9999.03125 ; 9999.034375 ; 9999.0375 ; 9999.040625 ; 9999.04375 ; 9999.046875 ; 9999.05 ; 9999.053125 ; 9999.05625 ; 9999.059375 ; 9999.0625 ; 9999.065625000001 ; 9999.06875 ; 9999.071875 ; 9999.075 ; 9999.078125 ; 9999.081250000001 ; 9999.084375 ; 9999.0875 ; 9999.090625 ; 9999.09375 ; 9999.096875000001
+DominicanRepublic/RD_ENERGY/B1_Scenario_Config.xlsx: 4 writes, 68 already at target
+  saved DominicanRepublic/RD_ENERGY/B1_Scenario_Config.xlsx

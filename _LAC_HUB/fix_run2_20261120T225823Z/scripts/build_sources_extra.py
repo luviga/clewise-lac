@@ -13,6 +13,7 @@ REG = {
     'FR2-D3-DRNID': ('d3_ef', 'DR_NID_2025.pdf', None),
     'FR2-D3-CNEGEN': ('d2_dr', 'CNE_DataCNE_GeneracionFuenteSENI.xlsx', None),
     'FR2-D2-IRENA25': ('d2_dr', 'IRENA_DAT_RE_Statistics_2025.pdf', None),
+    'FR2-D2-UNHYD': ('d2_dr', 'undata_EL_016HY_DR.html', None),
     'FR2-D3-ECUNID': ('d3_ef', 'ECU_NID_2024.pdf',
                       'https://cdn.climatepolicyradar.org/navigator/ECU/2024/ecuador-national-inventory-report-nir-2024_8c731b52bc1d6e93a107d2251cf6204a.pdf'
                       ' (Ecuador NID 2024, record https://climate-laws.org/document/ecuador-national-inventory-report-nir-2024_67ea; '

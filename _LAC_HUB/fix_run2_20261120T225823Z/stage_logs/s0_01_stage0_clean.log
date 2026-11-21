@@ -1,0 +1,49 @@
+$ python.exe stage0_clean.py --confirm
+DELETING — 21 items:
+
+  [DIR]  _STAGE0_OUTPUT  (3.1 MB)
+  [DIR]  CostaRica\CR_ENERGY\t1_confection\Executables\BAU_S0_0  (786.3 MB)
+  [DIR]  CostaRica\CR_ENERGY\t1_confection\Executables\LTSNEW_S0_0  (786.6 MB)
+  [DIR]  CostaRica\CR_ENERGY\t1_confection\Executables\NDCNEW_S0_0  (786.5 MB)
+  [DIR]  DominicanRepublic\RD_ENERGY\Executables\BAU_S0_0  (1002.6 MB)
+  [DIR]  DominicanRepublic\RD_ENERGY\Executables\LTSNEW_S0_0  (1003.0 MB)
+  [DIR]  DominicanRepublic\RD_ENERGY\Executables\NDCNEW_S0_0  (1002.9 MB)
+  [DIR]  Ecuador\ECU_Energy\Executables\BAU_S0_0  (857.3 MB)
+  [DIR]  Ecuador\ECU_Energy\Executables\LTSNEW_S0_0  (857.4 MB)
+  [DIR]  Ecuador\ECU_Energy\Executables\NDCNEW_S0_0  (857.4 MB)
+  [DIR]  Guatemala\GUA_ENERGY\Executables\BAU_S0_0  (647.8 MB)
+  [DIR]  Guatemala\GUA_ENERGY\Executables\LTSNEW_S0_0  (648.1 MB)
+  [DIR]  Guatemala\GUA_ENERGY\Executables\NDCNEW_S0_0  (648.1 MB)
+  [DIR]  Honduras\HON_ENERGY\Executables\BAU_S0_0  (827.8 MB)
+  [DIR]  Honduras\HON_ENERGY\Executables\LTSNEW_S0_0  (828.0 MB)
+  [DIR]  Honduras\HON_ENERGY\Executables\NDCNEW_S0_0  (828.0 MB)
+  [DIR]  Jamaica\JAM_ENERGY\Executables\BAU_S0_0  (1362.4 MB)
+  [DIR]  Jamaica\JAM_ENERGY\Executables\LTSNEW_S0_0  (1362.4 MB)
+  [DIR]  Jamaica\JAM_ENERGY\Executables\NDCNEW_S0_0  (1362.4 MB)
+  [FILE] stage0_run_all.bat  (4.5 KB)
+  [FILE] stage0_run_all.sh  (4.5 KB)
+
+Total: 16458.1 MB
+  Deleted: CostaRica\CR_ENERGY\t1_confection\Executables\BAU_S0_0
+  Deleted: CostaRica\CR_ENERGY\t1_confection\Executables\LTSNEW_S0_0
+  Deleted: CostaRica\CR_ENERGY\t1_confection\Executables\NDCNEW_S0_0
+  Deleted: DominicanRepublic\RD_ENERGY\Executables\BAU_S0_0
+  Deleted: DominicanRepublic\RD_ENERGY\Executables\LTSNEW_S0_0
+  Deleted: DominicanRepublic\RD_ENERGY\Executables\NDCNEW_S0_0
+  Deleted: Ecuador\ECU_Energy\Executables\BAU_S0_0
+  Deleted: Ecuador\ECU_Energy\Executables\LTSNEW_S0_0
+  Deleted: Ecuador\ECU_Energy\Executables\NDCNEW_S0_0
+  Deleted: Guatemala\GUA_ENERGY\Executables\BAU_S0_0
+  Deleted: Guatemala\GUA_ENERGY\Executables\LTSNEW_S0_0
+  Deleted: Guatemala\GUA_ENERGY\Executables\NDCNEW_S0_0
+  Deleted: Honduras\HON_ENERGY\Executables\BAU_S0_0
+  Deleted: Honduras\HON_ENERGY\Executables\LTSNEW_S0_0
+  Deleted: Honduras\HON_ENERGY\Executables\NDCNEW_S0_0
+  Deleted: Jamaica\JAM_ENERGY\Executables\BAU_S0_0
+  Deleted: Jamaica\JAM_ENERGY\Executables\LTSNEW_S0_0
+  Deleted: Jamaica\JAM_ENERGY\Executables\NDCNEW_S0_0
+  Deleted: _STAGE0_OUTPUT
+  Deleted: stage0_run_all.bat
+  Deleted: stage0_run_all.sh
+
+Clean. Ready to re-run stage0_run.py.

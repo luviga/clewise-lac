@@ -158,8 +158,8 @@ DRU = {'PPDHYD': ao_upper('Primary Techs', 227, 'PPDHYD'), 'PPDBGS': ao_upper('S
        'PPDBIM': ao_upper('Secondary Techs', 227, 'PPDBIM')}
 # PPDBIM (rows 24, 82) keeps its 4ba69d6 history: Phase C repair C1-1 (BAU history needs about 10.8 MW at the row's capacity
 # factors, above the scenarios' 10.1 MW cap from 2025; no sourced value removes the conflict; see GAPS)
-for r, t, s in [(23, 'PPDBGS', 'LTSNEW'), (25, 'PPDHYD', 'LTSNEW'),
-                (81, 'PPDBGS', 'NDCNEW'), (83, 'PPDHYD', 'NDCNEW')]:
+# PPDHYD rows 25 and 83 are written by prop_d2c.py (history after the PPDHYD activity limit is sourced, Phase D repair)
+for r, t, s in [(23, 'PPDBGS', 'LTSNEW'), (81, 'PPDBGS', 'NDCNEW')]:
     nh = {y: round(DRU[t][y] * 0.999, 4) for y in range(2018, 2025)}
     edit_history('DominicanRepublic', r, t, 'TotalTechnologyAnnualActivityLowerLimit', s, nh,
                  'history elements 2018-2024 take the BAU value after D7a: A-O activity upper limit x 0.999, rounded to 4 decimals '

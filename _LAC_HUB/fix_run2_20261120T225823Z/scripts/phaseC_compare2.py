@@ -60,6 +60,8 @@ def reason(c, stage, s, par, tech, y0, y1, maxabs):
         return 'D5'
     if c == 'Guatemala' and tech == 'DIST_FLEXFUEL' and par == 'VariableCost':
         return 'D6'
+    if c == 'DominicanRepublic' and tech == 'PPDHYD' and 'ActivityUpperLimit' in par:
+        return 'D2f / D2c PPDHYD activity limit (UN statistics)'
     if c == 'DominicanRepublic' and tech in ('PPDHYD', 'PPDBGS') and par == 'CapacityFactor':
         return 'D2f / D2c capacity factor'
     if par == 'EmissionActivityRatio' and (c, tech) in d3 and y1 <= 2024:

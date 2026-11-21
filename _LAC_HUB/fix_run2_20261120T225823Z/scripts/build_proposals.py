@@ -21,7 +21,7 @@ def basis(r):
         return 'unit_conversion'
     if r.decision.startswith('D-ECU2a') or r.decision.startswith('D-ECU2d'):
         return 'decision_value'
-    if r.part in ('d2_config',) and not r.source_ids:
+    if r.part in ('d2_config', 'd2c') and not r.source_ids and 'D2a' in r.decision:
         return 'alignment_rule'
     if r.Tech == 'PRONGS' and r.Parameter == 'CapacityToActivityUnit':
         return 'decision_value'

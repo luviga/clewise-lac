@@ -47,3 +47,7 @@ Restart (session 2, brief v2): 2026-11-21T04:13:53Z, clone at ac903a2 = origin/j
 2026-11-21T05:30:02Z | C1 DR first run | NDCNEW, LTSNEW UNDEFINED | cause by values: PPDBGS CF 0.08 (needs 22 MW vs 12 MW cap from 2025) and PPDBIM BAU history (10.8 MW vs 10.1 MW cap)
 2026-11-21T05:30:02Z | C1 repair DR | done | PPDBGS CF from IRENA 2025 (D2c), PPDBIM history rows 24 and 82 back to 4ba69d6; rerun OPTIMAL x3
 2026-11-21T05:30:02Z | C2 keyed comparison | done | 0 unexplained (recompile_diff_summary.csv); 19 of 19 B1 solves OPTIMAL; write_check PASS
+2026-11-21T06:40:00Z | DS1 + Stages 0-3 run 1 | done | Stage 0 18/18 OPTIMAL, tests 10/10; DS1 12 hydro lines + 60 non-hydro plateau lines scaled (T1); Stage 1 13/13; Stage 2 hard 7/7, T8 65, T9 87, T11a 0; Stage 3 tests 10/11 (T4 40 cells, as base); Stage 3 15/18 OPTIMAL, DR BAU/NDCNEW/LTSNEW UNDEFINED
+2026-11-21T07:00:51Z | Phase E (agent) | done | cross_sector_check.csv 296 rows, .md; 17 of 18 sector B1 models solve, RD_AFOLU infeasible
+2026-11-21T07:00:51Z | D repair DR | done | test solves (logs/dr_testsolve.jsonl): D7a bands at 0.98 still infeasible; upper pins from 2025 cause it; Stage 0 ran PPDHYD at 74-193 PJ (CF 4.22 after D2f); PPDHYD activity limit written from UN statistics (7-10 GWh), policy history rows aligned; DR A2+B1 rerun OPTIMAL x3; C2 0 unexplained
+2026-11-21T07:00:51Z | DS1-DS4 run 2 (one full rerun of Stages 0-3) | started | run 1 logs moved to stage_logs/run1

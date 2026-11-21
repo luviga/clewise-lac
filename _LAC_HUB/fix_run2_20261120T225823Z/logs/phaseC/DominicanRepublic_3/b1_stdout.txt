@@ -1,0 +1,6 @@
+DominicanRepublic: B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py exit 0 in 179.3s
+{"country": "DominicanRepublic", "command": "python(anaconda) B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py", "exit": 0, "seconds": 179.3, "b1_files_written": {"BAU": 19, "NDCNEW": 19, "LTSNEW": 19}, "b1_diffs": {"BAU": 0, "NDCNEW": 0, "LTSNEW": 0}, "other_changed_paths": ["?? DominicanRepublic/RD_ENERGY/SelectedResults.csv"], "removed_untracked": "SelectedResults.csv"}
+  solve: {'data': 'C:\\\\clw_fix\\\\DominicanRepublic\\\\RD_ENERGY\\\\Executables\\\\BAU_0\\BAU_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 407084.9227 (MINimum)', 'seconds': 107.3, 'returncode': 0}
+  solve: {'data': 'C:\\\\clw_fix\\\\DominicanRepublic\\\\RD_ENERGY\\\\Executables\\\\LTSNEW_0\\LTSNEW_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 454431.4018 (MINimum)', 'seconds': 111.4, 'returncode': 0}
+  solve: {'data': 'C:\\\\clw_fix\\\\DominicanRepublic\\\\RD_ENERGY\\\\Executables\\\\NDCNEW_0\\NDCNEW_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 429971.4105 (MINimum)', 'seconds': 112.0, 'returncode': 0}
+
