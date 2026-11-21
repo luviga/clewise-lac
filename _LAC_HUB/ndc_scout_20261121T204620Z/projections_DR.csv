@@ -1,0 +1,42 @@
+source_id,page,table_or_figure,scenario_as_named,sector,gas,unit,year,value,note
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,historic (inventory 2022),economy-wide,CO2,kt CO2,2022,28589,CO2 emissions
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,"BAU (escenario tendencial, proyeccion media)",economy-wide,CO2,kt CO2,2030,34025.67,CO2 emissions
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,"BAU (escenario tendencial, proyeccion media)",economy-wide,CO2,kt CO2,2035,37936.85,CO2 emissions
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,historic (inventory 2022),economy-wide,CH4,kt CH4,2022,415,kt of gas; GWP AR6 29.8 applied in the total
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,"BAU (escenario tendencial, proyeccion media)",economy-wide,CH4,kt CH4,2030,391.68,kt of gas; GWP AR6 29.8 applied in the total
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,"BAU (escenario tendencial, proyeccion media)",economy-wide,CH4,kt CH4,2035,377.70,kt of gas; GWP AR6 29.8 applied in the total
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,historic (inventory 2022),economy-wide,N2O,kt N2O,2022,7.367,kt of gas; GWP AR6 273 applied in the total
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,"BAU (escenario tendencial, proyeccion media)",economy-wide,N2O,kt N2O,2030,13.54,kt of gas; GWP AR6 273 applied in the total
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,"BAU (escenario tendencial, proyeccion media)",economy-wide,N2O,kt N2O,2035,19.83,kt of gas; GWP AR6 273 applied in the total
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,historic (inventory 2022),economy-wide,HFC,kt CO2eq,2022,2360,printed GWP 1950; the totals only add up if HFC is already in kt CO2eq
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,"BAU (escenario tendencial, proyeccion media)",economy-wide,HFC,kt CO2eq,2030,2555.65,printed GWP 1950; the totals only add up if HFC is already in kt CO2eq
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,"BAU (escenario tendencial, proyeccion media)",economy-wide,HFC,kt CO2eq,2035,2686.01,printed GWP 1950; the totals only add up if HFC is already in kt CO2eq
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,historic (inventory 2022),economy-wide,removals CO2,kt CO2,2022,10247.78,"removals, printed as positive"
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,"BAU (escenario tendencial, proyeccion media)",economy-wide,removals CO2,kt CO2,2030,9545.04,"removals, printed as positive"
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,"BAU (escenario tendencial, proyeccion media)",economy-wide,removals CO2,kt CO2,2035,9130.52,"removals, printed as positive"
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,historic (inventory 2022),economy-wide,all (gross emissions),kt CO2eq,2022,45327.19,gross emissions without removals
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,"BAU (escenario tendencial, proyeccion media)",economy-wide,all (gross emissions),kt CO2eq,2030,51949.62,gross emissions without removals
+DR-01,p.32;p.195,Tabla 4 printed p.32; Anexo 4 Tabla No.4 printed p.8 of 8,"BAU (escenario tendencial, proyeccion media)",economy-wide,all (gross emissions),kt CO2eq,2035,57292.65,gross emissions without removals
+DR-01,p.64,text describing Figura 9,nueva ambicion (NDC 3.0 pathway),economy-wide,all (gross emissions),kt CO2eq,2025,42842,
+DR-01,p.64,text describing Figura 9,nueva ambicion (NDC 3.0 pathway),economy-wide,all (gross emissions),kt CO2eq,2030,37217,
+DR-02,p.7,printed p.7,BAU (Plan DECCC 2011),economy-wide,all,Gg CO2eq,2030,51000,previous NDC baseline
+DR-04,p.173,"printed p.173, Figura 3.17",sin medidas (without measures),Energy,all,kt CO2eq,2035,38200,electricity generation and road transport categories
+DR-04,p.177,"printed p.177, Figura 3.19",sin medidas (without measures),IPPU,all,kt CO2eq,2035,5014,
+DR-04,p.182,"printed p.182, Figura 3.22",sin medidas (without measures),Agriculture,all,kt CO2eq,2035,5800,enteric fermentation and rice cultivation only
+DR-04,p.183,printed p.183,sin medidas (without measures),Agriculture,all,kt CO2eq,2035,7114,"agriculture and land uses total, incl. 1,314 kt from forest land and other land uses"
+DR-04,p.184,"printed p.184, Figura 3.23",sin medidas (without measures),Waste,all,kt CO2eq,2035,6914,"5,700 kt solid waste disposal plus 1,614 kt wastewater"
+DR-04,p.189,Tabla 3.14 printed p.189,historic (inventory 2022),economy-wide,HFC,kt CO2eq,2022,2360,RAC HFC; 2040 not estimated (NE)
+DR-04,p.189,Tabla 3.14 printed p.189,projection for key indicators (BAU of NDC),economy-wide,HFC,kt CO2eq,2030,2555.65,RAC HFC; 2040 not estimated (NE)
+DR-04,p.189,Tabla 3.14 printed p.189,projection for key indicators (BAU of NDC),economy-wide,HFC,kt CO2eq,2035,2686.01,RAC HFC; 2040 not estimated (NE)
+DR-04,p.189,Tabla 3.14 printed p.189,historic (inventory 2022),economy-wide,CH4,kt CO2eq,2022,12367,kt CO2eq; 2040 not estimated (NE)
+DR-04,p.189,Tabla 3.14 printed p.189,projection for key indicators (BAU of NDC),economy-wide,CH4,kt CO2eq,2030,11672.06,kt CO2eq; 2040 not estimated (NE)
+DR-04,p.189,Tabla 3.14 printed p.189,projection for key indicators (BAU of NDC),economy-wide,CH4,kt CO2eq,2035,11255.46,kt CO2eq; 2040 not estimated (NE)
+DR-04,p.189,Tabla 3.14 printed p.189,historic (inventory 2022),economy-wide,N2O,kt CO2eq,2022,2011.19,kt CO2eq; 2040 not estimated (NE)
+DR-04,p.189,Tabla 3.14 printed p.189,projection for key indicators (BAU of NDC),economy-wide,N2O,kt CO2eq,2030,3696.42,kt CO2eq; 2040 not estimated (NE)
+DR-04,p.189,Tabla 3.14 printed p.189,projection for key indicators (BAU of NDC),economy-wide,N2O,kt CO2eq,2035,5413.59,kt CO2eq; 2040 not estimated (NE)
+DR-04,p.189,Tabla 3.14 printed p.189,historic (inventory 2022),economy-wide,removals CO2,kt CO2eq,2022,-10247.78,"removals, printed as negative; 2040 not estimated (NE)"
+DR-04,p.189,Tabla 3.14 printed p.189,projection for key indicators (BAU of NDC),economy-wide,removals CO2,kt CO2eq,2030,-9545.04,"removals, printed as negative; 2040 not estimated (NE)"
+DR-04,p.189,Tabla 3.14 printed p.189,projection for key indicators (BAU of NDC),economy-wide,removals CO2,kt CO2eq,2035,-9130.52,"removals, printed as negative; 2040 not estimated (NE)"
+DR-04,p.189,Tabla 3.14 printed p.189,historic (inventory 2022),economy-wide,all (gross emissions),kt CO2eq,2022,45327.19,"2035 total differs from DR-01 (57,292.65) by 0.74 kt; 2040 not estimated (NE)"
+DR-04,p.189,Tabla 3.14 printed p.189,projection for key indicators (BAU of NDC),economy-wide,all (gross emissions),kt CO2eq,2030,51949.62,"2035 total differs from DR-01 (57,292.65) by 0.74 kt; 2040 not estimated (NE)"
+DR-04,p.189,Tabla 3.14 printed p.189,projection for key indicators (BAU of NDC),economy-wide,all (gross emissions),kt CO2eq,2035,57291.91,"2035 total differs from DR-01 (57,292.65) by 0.74 kt; 2040 not estimated (NE)"

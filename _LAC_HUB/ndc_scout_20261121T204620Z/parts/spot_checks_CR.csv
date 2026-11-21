@@ -1,0 +1,11 @@
+country,round,file,row_id,source_id,page,value,unit,year,confirmed,how_checked,correction
+Costa Rica,1,targets_CR.csv,CR-T001,CR-01,p.33,11380,Gg CO2e,2030,yes,"text cache p33.txt line 23 '11 380 Gg' under 'Maximo absoluto de emisiones netas al 2030'; also p.138",
+Costa Rica,1,targets_CR.csv,CR-T019,CR-01,p.40,20,percent of fleet,2035,yes,text cache p40.txt line 42 under the 2035 heading of contribution EN-4,
+Costa Rica,1,targets_CR.csv,CR-T033,CR-01,p.46,95,percent of generation,2035,yes,text cache p46.txt line 38 under the 2035 heading of contribution EN-10,
+Costa Rica,1,targets_CR.csv,CR-T045,CR-01,p.51,260,GWh per year,2030,yes,text cache p51.txt line 24 under the 2030 heading of contribution EN-15,
+Costa Rica,1,targets_CR.csv,CR-T027,CR-01,p.42,5,percent of fleet,2035,yes,text cache p42.txt line 33 under the 2035 heading of contribution EN-6,
+Costa Rica,1,targets_CR.csv,CR-T065,CR-04,p.9,9.11,Mt CO2e,2030,yes,text cache p9.txt line 2 (section II.i headline targets),
+Costa Rica,1,targets_CR.csv,CR-T069,CR-04,p.20,8,percent of fleet,2030,yes,text cache p20.txt line 19 (contribution 1.7; light vehicles private and institutional),
+Costa Rica,1,targets_CR.csv,CR-T085,CR-02,p.46,30,percent of fleet,2035,yes,text cache p46.txt line 11 (axis 2 transformation vision),
+Costa Rica,1,projections_CR.csv,Base case scenario Energy 2050,CR-02,p.34,9.48,Mt CO2e,2050,yes,"text cache p34.txt line 24 (Table 4 row Energy: 7,21 9,48 4,54 2,64) and page image downloads/CR/img/CR-02_p34.png (Figure 8 axis in MtCO2eq)",
+Costa Rica,1,targets_CR.csv,CR-T095,CR-08,p.3;p.4,9374000,t CO2e,2030,yes,text cache p3.txt line 7 and p4.txt line 18 (Type table),

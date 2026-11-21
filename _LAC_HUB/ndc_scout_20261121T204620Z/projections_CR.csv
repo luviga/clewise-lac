@@ -1,0 +1,37 @@
+source_id,page,table_or_figure,scenario_as_named,sector,gas,unit,year,value,note
+CR-01,p.32,"Figura 4, printed p.32",Emisiones estimadas al ano 2024,economy-wide (net),all inventory gases,Gg CO2e,2024,16154,"Read as image (chart labels). Estimate, not inventory."
+CR-01,p.32,"Figura 4, printed p.32",common starting point of the scenarios,economy-wide (net),all inventory gases,Gg CO2e,2025,15306.3,"Read as image. Year read from the x position where the three scenario curves split (2025)."
+CR-01,p.32,"Figura 4, printed p.32",Emisiones anuales del Escenario sin CND,economy-wide (net),all inventory gases,Gg CO2e,2035,18946,Read as image. Label at the last point of the no-NDC curve; year read from x position.
+CR-01,p.32,"Figura 4, printed p.32",Emisiones anuales del Escenario CND 2025 incondicional,economy-wide (net),all inventory gases,Gg CO2e,2035,13877.7,Read as image. Label at the last point of the unconditional curve.
+CR-01,p.32,"Figura 4, printed p.32",Emisiones anuales del Escenario CND 2025 condicional e incondicional,economy-wide (net),all inventory gases,Gg CO2e,2030,11308.1,Read as image. Label points to the 2030 point of the conditional plus unconditional curve (below the 11380 headline cap).
+CR-01,p.32,"Figura 4, printed p.32",Emisiones anuales del Escenario CND 2025 condicional e incondicional,economy-wide (net),all inventory gases,Gg CO2e,2035,10034,Read as image. Label at the last point of the conditional plus unconditional curve.
+CR-01,p.32,"Figura 4, printed p.32",Meta Titular 2030,economy-wide (net),all inventory gases,Gg CO2e,2030,11380,Read as image. Headline target line (same value as CR-T001).
+CR-02,p.19,printed p.10 text and footnote 7,no measures (emissions grow 2.4 percent per year),economy-wide,CO2e,Mt CO2e,2050,29.6,"Text: emissions would grow 60 percent 2015-2030 and 132 percent by 2050 reaching 29.6 million t CO2e; cites Rivera, Obando and Sancho (2015) for DCC."
+CR-02,p.34,"Table 4, printed p.25",Reference GHG 2012 Inventory (IMN),Energy,CO2e,Mt CO2e,2012,7.21,Historical reference column. Unit from Figure 8 axis (MtCO2eq) on the same page.
+CR-02,p.34,"Table 4, printed p.25",Reference GHG 2012 Inventory (IMN),IPPU,CO2e,Mt CO2e,2012,0.98,
+CR-02,p.34,"Table 4, printed p.25",Reference GHG 2012 Inventory (IMN),Agriculture,CO2e,Mt CO2e,2012,3.24,
+CR-02,p.34,"Table 4, printed p.25",Reference GHG 2012 Inventory (IMN),Waste,CO2e,Mt CO2e,2012,1.86,
+CR-02,p.34,"Table 4, printed p.25",Reference GHG 2012 Inventory (IMN),LULUCF (net forest area),CO2e,Mt CO2e,2012,-2.05,
+CR-02,p.34,"Table 4, printed p.25",Reference GHG 2012 Inventory (IMN),economy-wide (net total),CO2e,Mt CO2e,2012,11.24,
+CR-02,p.34,"Table 4, printed p.25",Base case scenario,Energy,CO2e,Mt CO2e,2050,9.48,
+CR-02,p.34,"Table 4, printed p.25",Base case scenario,IPPU,CO2e,Mt CO2e,2050,1.41,
+CR-02,p.34,"Table 4, printed p.25",Base case scenario,Agriculture,CO2e,Mt CO2e,2050,5.90,
+CR-02,p.34,"Table 4, printed p.25",Base case scenario,Waste,CO2e,Mt CO2e,2050,2.97,
+CR-02,p.34,"Table 4, printed p.25",Base case scenario,LULUCF (net forest area),CO2e,Mt CO2e,2050,-3.50,
+CR-02,p.34,"Table 4, printed p.25",Base case scenario,economy-wide (net total),CO2e,Mt CO2e,2050,16.26,
+CR-02,p.34,"Table 4, printed p.25",Scenario 2 C,Energy,CO2e,Mt CO2e,2050,4.54,
+CR-02,p.34,"Table 4, printed p.25",Scenario 2 C,IPPU,CO2e,Mt CO2e,2050,0.68,
+CR-02,p.34,"Table 4, printed p.25",Scenario 2 C,Agriculture,CO2e,Mt CO2e,2050,2.82,
+CR-02,p.34,"Table 4, printed p.25",Scenario 2 C,Waste,CO2e,Mt CO2e,2050,1.42,
+CR-02,p.34,"Table 4, printed p.25",Scenario 2 C,LULUCF (net forest area),CO2e,Mt CO2e,2050,-3.50,
+CR-02,p.34,"Table 4, printed p.25",Scenario 2 C,economy-wide (net total),CO2e,Mt CO2e,2050,5.96,
+CR-02,p.34,"Table 4, printed p.25",Scenario 1.5 C,Energy,CO2e,Mt CO2e,2050,2.64,Also the sectoral contribution target (CR-T077).
+CR-02,p.34,"Table 4, printed p.25",Scenario 1.5 C,IPPU,CO2e,Mt CO2e,2050,0.39,
+CR-02,p.34,"Table 4, printed p.25",Scenario 1.5 C,Agriculture,CO2e,Mt CO2e,2050,1.64,
+CR-02,p.34,"Table 4, printed p.25",Scenario 1.5 C,Waste,CO2e,Mt CO2e,2050,0.83,
+CR-02,p.34,"Table 4, printed p.25",Scenario 1.5 C,LULUCF (net forest area),CO2e,Mt CO2e,2050,-5.50,
+CR-02,p.34,"Table 4, printed p.25",Scenario 1.5 C,economy-wide (net total),CO2e,Mt CO2e,2050,0.00,
+CR-08,p.3,"Image 1, printed p.3",Total net emissions projected (target trajectory),economy-wide (net),"CO2, CH4, N2O, HFCs, PFCs, SF6",t CO2e,2012,12441260,Read as image (bar labels). The footnote calls it a linear extrapolation from the 2012 inventory towards the 2050 goal.
+CR-08,p.3,"Image 1, printed p.3",Total net emissions projected (target trajectory),economy-wide (net),"CO2, CH4, N2O, HFCs, PFCs, SF6",t CO2e,2021,10907406,Read as image.
+CR-08,p.3,"Image 1, printed p.3",Total net emissions projected (target trajectory),economy-wide (net),"CO2, CH4, N2O, HFCs, PFCs, SF6",t CO2e,2030,9373552,Read as image.
+CR-08,p.3,"Image 1, printed p.3",Total net emissions projected (target trajectory),economy-wide (net),"CO2, CH4, N2O, HFCs, PFCs, SF6",t CO2e,2050,5964988,Read as image.
