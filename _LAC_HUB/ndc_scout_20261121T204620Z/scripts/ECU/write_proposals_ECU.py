@@ -1,0 +1,101 @@
+"""Write parts/proposals_ECU.csv (D2 draft rows for Ecuador).
+
+Usage: python -I write_proposals_ECU.py <job_folder>
+Row numbers refer to Ecuador/ECU_Energy/B1_Scenario_Config.xlsx at 481a7c0 (header = row 1).
+Current values come from model_levers_ECU.csv and alignment_ECU.csv.
+"""
+import csv
+import os
+import sys
+
+JOB = sys.argv[1]
+WB = "Ecuador/ECU_Energy/B1_Scenario_Config.xlsx"
+C = "Ecuador"
+P = [
+    (C, "NDCNEW", "generation shares in 2035 (plant activity lower and upper limits)",
+     f"{WB}, sheet Electrical, rows 49 to 81 (TotalTechnologyAnnualActivityLowerLimit) and 181 to 213 (TotalTechnologyAnnualActivityUpperLimit); hydro rows 57 to 67 and 69, solar and wind rows 72, 74, 75, 78, 80",
+     "solved 2035: hydro 60.8 percent, solar, wind, biogas and biomass 19.6 percent, renewable 80.5 percent",
+     "hydro about 64 percent and non-conventional renewables about 24 percent of generation in 2035 (about 88 percent renewable)",
+     "ECU-03", "p.104", "A",
+     "The second NDC states no generation share; it builds its target on the PLANMICC model (ECU-01 p.10, p.33). Hub decides whether NDCNEW follows PLANMICC phase I. LTSNEW rows 115 to 147 and 214 to 246 follow the hub decision that LTS equals NDC through 2035."),
+    (C, "LTSNEW", "generation shares in 2050 (plant activity lower and upper limits)",
+     f"{WB}, sheet Electrical, rows 115 to 147 (lower limits) and 214 to 246 (upper limits)",
+     "solved 2050: hydro 45.8 percent, solar, wind, biogas and biomass 53.3 percent, renewable 99.0 percent",
+     "hydro about 54 percent and non-conventional renewables about 35 percent in 2050, keeping some thermal generation for security of supply",
+     "ECU-03", "p.104;p.100", "A",
+     "The PLANMICC keeps a share of thermal generation (p.100, p.101); LTSNEW nearly phases it out (1 percent non-renewable in 2050)."),
+    (C, "LTSNEW", "solar PV and wind capacity in 2050",
+     f"{WB}, sheet Electrical, rows 171 (PPPVD), 173 (PPPVT), 174 (PPPVTS), 177 (PPWNDD), 179 (PPWNDON) TotalAnnualMaxCapacity",
+     "maximum capacity 99 GW per type (not binding); solved 21,104 MW of solar and wind in 2050",
+     "about 3,800 MW of non-conventional renewable capacity in 2050",
+     "ECU-03", "p.104", "A",
+     "3,800 MW sits poorly with a 35 percent generation share; the hub should choose between the share and the capacity figure. Phase I prints about 240 MW for 24 percent, which looks like a typing error (see notes)."),
+    (C, "NDCNEW", "hydro capacity by 2035",
+     f"{WB}, sheet Electrical, rows 90 to 100 and 102 (TotalAnnualMaxCapacity of hydro types) and rows 57 to 67 and 69 (activity lower limits)",
+     "solved hydro capacity 6,341 MW in 2035; increase 2025 to 2035 is 144 MW",
+     "about 10,000 MW of hydro in 2035 (PLANMICC phase I); the PME 2023-2032 adds 4,034 MW of hydro by 2032 (including two 1,200 MW stages in 2031 and 2032)",
+     "ECU-03;ECU-07", "p.104;p.159", "A",
+     "Maximum capacity rows are 99 GW and do not bind; a minimum capacity or higher hydro activity floors are needed. The PME is cited by the NDC as a modelling source (ECU-01 p.67)."),
+    (C, "NDCNEW", "new non-conventional renewable capacity by 2032",
+     f"{WB}, sheet Electrical, rows 105 (PPPVD), 107 (PPPVT), 108 (PPPVTS), 111 (PPWNDD), 113 (PPWNDON) and activity rows 72, 74, 75, 78, 80",
+     "solved increase of solar and wind 2025 to 2035: 5,083 MW",
+     "1,683 MW of new non-conventional renewable capacity 2023 to 2032 (hydro excluded)",
+     "ECU-07", "p.159", "A",
+     "Plan figure, not a cap; the model already exceeds it. Hub decides whether NDCNEW should sit on the plan."),
+    (C, "NDCNEW", "final demand per fuel outside road transport (efficiency)",
+     f"{WB}, sheet Efficiency, rows 63 to 85 (NDCNEW SpecifiedAnnualDemand, all fuels except E5TRO*)",
+     "5.0 percent below model BAU in 2035",
+     "8.4 percent of national energy consumption (transport excluded) saved against the trend scenario in 2035 (about 6,500 kBEP)",
+     "ECU-03", "p.104", "A", "Model BAU is not the PLANMICC trend scenario; apply as a percent against BAU."),
+    (C, "NDCNEW", "road transport final demand per fuel (E5TRODSL, E5TROGSL, E5TROELE)",
+     f"{WB}, sheet Efficiency, rows 86 to 88 (NDCNEW SpecifiedAnnualDemand E5TRO*)",
+     "29.0 percent below model BAU in 2035 (gasoline 151.2 to 102.5 PJ)",
+     "2.8 percent of transport energy consumption saved against the trend scenario in 2035",
+     "ECU-03", "p.106", "A",
+     "Large disagreement. The PLANEE (ECU-08 p.65) aims at 339.6 Mbep cumulative transport savings by 2035, which is a different metric. Hub decides."),
+    (C, "LTSNEW", "residential electrification (LPG to electricity)",
+     f"{WB}, sheet Efficiency, rows 26 to 30 (LTSNEW residential SpecifiedAnnualDemand)",
+     "electricity share of residential demand 38.3 percent in 2050, equal to BAU",
+     "about 66 percent electricity in residential energy use in 2050 by substitution of LPG (about 80 percent in 2070)",
+     "ECU-03", "p.105", "B", "The Efficiency lever scales each fuel; a fuel-switch lever (or demand rows rebuilt per fuel) is needed."),
+    (C, "LTSNEW", "industrial electrification",
+     f"{WB}, sheet Efficiency, rows 13 to 25 (LTSNEW industrial SpecifiedAnnualDemand)",
+     "electricity share of industrial demand 44.6 percent in 2050, equal to BAU",
+     "about 64 percent electricity in industry in 2050 (about 13,800 kBEP); waste-derived energy about 6 percent",
+     "ECU-03", "p.105", "B", "Same structural limit as residential."),
+    (C, "LTSNEW", "vehicle-based transport targets (hybrids, electric light freight, public transport passenger-km)",
+     "none (ECU_Energy road transport is fuel-based, E5TRO*)", "no vehicle groups",
+     "hybrids 13.36 percent of passenger transport (about 340,000 vehicles), electric light freight 22 percent of freight vehicles (about 180,000), public diesel buses 40 percent of passenger-km, all in 2050",
+     "ECU-03", "p.106;p.107", "C", "Can only be approximated through the electric share of E5TRO* fuel demand."),
+    (C, "NDCNEW", "ethanol and biodiesel blending",
+     "none (no blending technology or ethanol fuel)", "no blending",
+     "10 percent ethanol in gasoline and 5 percent biodiesel by 2025 (PLANEE); ethanol blending is an unconditional first NDC initiative (885.46 kt CO2eq 2023 to 2025)",
+     "ECU-08;ECU-04", "p.65;p.221", "B", "Needs a blending technology and a biofuel supply."),
+    (C, "NDCNEW", "electricity distribution losses",
+     "none (no grid-loss row in the Electrical or SmartGrid sheets; InputActivityRatio ELE_DIST 1.1393 in every scenario)",
+     "distribution losses 12.2 percent of input in 2035 in every scenario",
+     "distribution losses 8.3 percent in 2035 (21.4 percent in 2007)", "ECU-08", "p.67", "B",
+     "Needs a loss lever (for example a SmartGrid row on ELE_DIST InputActivityRatio); Ecuador has none."),
+    (C, "LTSNEW", "green hydrogen production",
+     f"{WB}, sheet Efficiency, rows 21 and 76 (E5INDHYD demand 0)", "no hydrogen use",
+     "electrolysis capacity 1 GW (2030), 3 GW (2040), 6 GW (2050)", "ECU-09", "p.6", "B",
+     "The PLANMICC uses hydrogen only after 2050 (ECU-03 p.100); the hub may leave this out."),
+    (C, "NDCNEW", "economy-wide emission target",
+     "none (AnnualEmissionLimit and ModelPeriodEmissionLimit empty in every scenario)",
+     "energy emissions 9.4 percent below model BAU in 2035 (NDCNEW)",
+     "7 percent below the trend scenario in 2035, all sectors (about 8,800 kt CO2eq), and 8 percent more with support (about 10,600 kt)",
+     "ECU-01", "p.55;p.56", "C", "The energy model alone cannot carry an economy-wide target; the PLANMICC energy phase I level (39,200 Gg in 2035) could be used as a check."),
+    (C, "NDCNEW", "electric share of road transport energy (E5TROELE demand)",
+     f"{WB}, sheet Efficiency, row 87 (NDCNEW E5TROELE)", "3.9 percent of E5TRO* energy in 2035",
+     "documents silent", "ECU-01", "p.57", "", "The NDC lists sustainable mobility as a line of action with no number; PLANMICC transport targets start in 2050."),
+    (C, "NDCNEW", "geothermal plant availability (PPGEO maximum capacity)",
+     f"{WB}, sheet Electrical, row 89 (NDCNEW TotalAnnualMaxCapacity PPGEO)", "99 GW in NDCNEW against 0 in BAU; no solved geothermal generation",
+     "documents silent", "ECU-03", "p.100", "", "The PLANMICC names geothermal potential without a number."),
+]
+COLS = ["country", "scenario", "lever", "model_rows", "current_value", "proposed_value", "source_id", "page", "class", "note"]
+with open(os.path.join(JOB, "parts", "proposals_ECU.csv"), "w", encoding="utf-8", newline="\n") as f:
+    w = csv.writer(f, lineterminator="\n")
+    w.writerow(COLS)
+    w.writerows(P)
+from collections import Counter
+print(len(P), Counter(p[8] or "silent" for p in P))

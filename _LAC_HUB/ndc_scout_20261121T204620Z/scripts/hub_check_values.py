@@ -48,7 +48,7 @@ def variants(v):
     except (TypeError, ValueError):
         return []
     forms = set()
-    for dec in range(0, 5):
+    for dec in range(0, 8):
         r = round(x, dec)
         if abs(r - x) > 1e-9 * max(1.0, abs(x)):
             continue
