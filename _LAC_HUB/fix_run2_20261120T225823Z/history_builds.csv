@@ -1,0 +1,42 @@
+country,tech,build_years_before,built_gw_2021_2024_before_BAU,before_NDCNEW,before_LTSNEW,after_BAU,after_NDCNEW,after_LTSNEW,sourced_commissioning_gw,plants_and_dates,source_locator,cause,fix,status
+CostaRica,PWRDSL,2022;2024,0.1041,0.1041,0.1041,,,,,,,,,pending
+CostaRica,PWRFOI,2024,0.0762,0.0762,0.0762,,,,,,,,,pending
+CostaRica,PWRGEO,2022;2023;2024,0.0626,0.0306,0.0306,,,,,,,,,pending
+CostaRica,PWRHYDROR,2021;2023,0.1047,0.0,0.0,,,,,,,,,pending
+CostaRica,PWRSPVTRN,2022;2024,0.0128,0.0102,0.0102,,,,,,,,,pending
+CostaRica,PWRSUG,2021;2022;2023;2024,0.0,1.2411,1.7917,,,,,,,,,pending
+CostaRica,PWRWNONS,2021;2022;2023,0.0855,0.0293,0.0293,,,,,,,,,pending
+DominicanRepublic,PPAFOI,2022;2024,0.0288,0.0288,0.0288,,,,,,,,,pending
+DominicanRepublic,PPANGS,2022;2024,0.0332,0.036,0.0332,,,,,,,,,pending
+DominicanRepublic,PPDBGS,2024,0.0004,0.0174,0.0173,,,,,,,,,pending
+DominicanRepublic,PPDGSL,2021;2022;2023,0.003,0.003,0.003,,,,,,,,,pending
+DominicanRepublic,PPDHYD,2023;2024,0.0,0.0166,0.0151,,,,,,,,,pending
+DominicanRepublic,PPHDAM,2024,0.0076,0.0076,0.0076,,,,,,,,,pending
+DominicanRepublic,PPICEFOI,2024,0.0803,0.0671,0.0746,,,,,,,,,pending
+DominicanRepublic,PPICEGASFOI,2023;2024,0.0096,0.0096,0.0005,,,,,,,,,pending
+DominicanRepublic,PPPVD,2021;2022;2023;2024,0.1429,0.1429,0.1429,,,,,,,,,pending
+DominicanRepublic,PPPVT,2021;2022;2023;2024,0.4876,0.4876,0.4876,,,,,,,,,pending
+DominicanRepublic,PPWNDON,2022;2023;2024,0.0467,0.0467,0.0467,,,,,,,,,pending
+Ecuador,PPCRU,2021,0.011,0.011,0.011,,,,,,,,,pending
+Ecuador,PPFOI,2021,0.1029,0.095,0.095,,,,0.1,"Karpowership Emre Bey (Electroguayas), HFO, 100 MW effective, Sep 2024",ARCONEL Estadistica 2024 Tabla 27 p.44; CENACE 2024 parte3 p.9 Tabla 3.2,,,pending
+Ecuador,PPHD,2021;2022;2023;2024,79.1117,79.1117,79.1117,,,,0.0,no distributed hydro of 79 GW; decision D1 removes the cause (CapacityToActivityUnit),decision D1,,,pending
+Ecuador,PPHDAMAS,2021,0.0003,0.0003,0.0003,,,,,,,,,pending
+Ecuador,PPHDAMPM,2021,0.0001,0.0001,0.0001,,,,,,,,,pending
+Ecuador,PPHDAMPS,2022;2023;2024,0.0489,0.0489,0.0489,,,,0.0091,"Chalpi 8.10 MW (Apr 2021), Ulba 1.00 MW (Apr 2023); dam or run-of-river not printed",ARCONEL Estadistica 2021 Tabla 27 p.54; 2023 Tabla 27 p.44,,,pending
+Ecuador,PPHRORAM,2021,0.017,0.017,0.017,,,,,,,,,pending
+Ecuador,PPHRORAS,2021;2022,0.4422,0.4438,0.4438,,,,0.05888,"Sabanilla 36.00 MW (Oct 2022), Abanico +15.38 MW (May 2024), Huayquichuma 6.50 MW (Jan 2024), Mira 0.99 MW (Apr 2024); Amazon or Pacific basin not printed",ARCONEL Estadistica 2022 Tabla 27 p.45; 2024 Tabla 27 p.44,,,pending
+Ecuador,PPHRORPM,2022,0.27,0.27,0.27,,,,0.25245,"Sarapullo 48.45 MW (2022, commercial Mar 2023), Alluriquin 204.00 MW (Dec 2024, experimental)",ARCONEL Estadistica 2022 Tabla 27 p.45; 2024 Tabla 27 p.44; CENACE 2022 parte1 p.111,,,pending
+Ecuador,PPIHD,2021,0.012,0.012,0.012,,,,,,,,,pending
+Ecuador,PPNGS,2021,0.117,0.117,0.117,,,,0.0,no SNI gas plant entered operation 2021-2024 (Machala Gas unchanged),ARCONEL Estadistica 2020 Annex A.1 p.212; 2024 Tabla 36 p.50,,,pending
+Ecuador,PPPVD,2021,0.1148,0.1148,0.1148,,,,0.0,no distributed PV listed among plants entering operation 2021-2024,ARCONEL Estadistica 2021-2024 Tabla 27,,,pending
+Ecuador,PPPVT,2021,0.0052,0.0052,0.0052,,,,0.001,"San Cristobal Solar 1.00 MW (Jan 2022, Galapagos, isolated)",ARCONEL Estadistica 2022 Tabla 27 p.45,,,pending
+Ecuador,PPRDSL,2021,0.6177,0.6177,0.6177,,,,0.0484,"Cuyabeno Crudo Diesel 25.60 MW (2021) and Shushufindi CG Gas 22.80 MW (Aug 2021), isolated self-generation of Petroecuador",ARCONEL Estadistica 2021 Tabla 27 p.54,,,pending
+Ecuador,PPWNDD,2021;2022,0.0023,0.0023,0.0023,,,,,,,,,pending
+Ecuador,PPWNDON,2021,0.032,0.032,0.032,,,,0.04998,"Minas de Huascachaca 32.00 MW (Dec 2022) and +17.98 MW (Mar 2023), 49.98 MW",ARCONEL Estadistica 2022 Tabla 27 p.45; 2023 Tabla 27 p.44,,,pending
+Guatemala,PPNGS,2021,0.0007,0.0007,0.0007,,,,,,,,,pending
+Jamaica,PPDSL,2021;2024,0.0084,0.0084,0.0084,,,,0.0,no diesel plant commissioned 2021-2024,OUR Annual Report 2023-2024 PDF p.62; JPS MCR tables 2021-2023,,,pending
+Jamaica,PPFOI,2021;2024,0.0015,0.0015,0.0015,,,,0.0,no fuel-oil plant commissioned 2021-2024,OUR Annual Report 2023-2024 PDF p.62,,,pending
+Jamaica,PPHDAM,2022,0.0041,0.0041,0.0041,,,,0.0,no hydro plant commissioned; JPS hydro 28.66 MW nameplate every year,OUR Annual Report 2024-2025 PDF p.57 Table 23,,,pending
+Jamaica,PPNGS,2023;2024,0.0209,0.0209,0.0209,,,,0.01,"JPS/CB Hill Run CHP, natural gas, 10 MW, December 2021",OUR Annual Report 2023-2024 PDF p.62; JPS Annual Filing 2022 PDF p.14 (research/map_jam.md),,,pending
+Jamaica,PPPVT,2021,0.0003,0.0003,0.0003,,,,0.0,no utility PV commissioned 2021-2024,OUR Annual Report 2024-2025 PDF p.57 Table 23,,,pending
+Jamaica,PPWNDON,2021,0.0005,0.0005,0.0005,,,,0.0,no wind plant commissioned 2021-2024,OUR Annual Report 2024-2025 PDF p.57 Table 23,,,pending

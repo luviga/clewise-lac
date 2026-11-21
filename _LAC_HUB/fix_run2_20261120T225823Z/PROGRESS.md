@@ -28,3 +28,12 @@ Restart (session 2, brief v2): 2026-11-21T04:13:53Z, clone at ac903a2 = origin/j
 2026-11-21T04:13:53Z | A1 D5, D2f proposals | done | 30 cells PPBGS, 1 formula PPDHYD CF
 2026-11-21T04:13:53Z | A2 D2 config proposals | done | 128 (transport Overwrite rows CR 38, GUA 54, HON 20; PWRSUG and TRBPUGSL Write rows 4; CR 4 and DR 6 cell edits; JAM 4 SmartGrid rows)
 2026-11-21T04:13:53Z | searches d12_lives, d3_ef | running (background) | -
+2026-11-21T04:32:53Z | search d12_lives | finished | 36 lives; values checked in ARCONEL-004/24 p.40, ARCERNNR 2021 p.18, ATB 2024, kit J31144, PLANMICC L152
+2026-11-21T04:32:53Z | A1 D1/D12 proposals | done | 38 rows (34 OperationalLife cells, 4 new FHP rows for PPHD and PRONGS)
+2026-11-21T04:32:53Z | A4 starter_kit_deviations.csv | done | 36 earlier + 26 D12 rows
+2026-11-21T04:32:53Z | search d3_ef | finished | 243 row-years: 7 match, 48 differ, 188 no source; Ecuador NID URL resolved (CDN copy, byte-identical)
+2026-11-21T04:32:53Z | A1 D3 proposals | done | 63 cells (Honduras 2019, Ecuador PROCRU 2022) + 39 ASSUMPTION rows; Dominican values wait for a public URL of the CNE generation file
+2026-11-21T04:32:53Z | A3 D8 target | done | AMM 2025 hydro 5,473.52 GWh = 19.7047 PJ (2025, held 2026); URL checked, hash equal
+2026-11-21T04:32:53Z | A0 source_map.csv | partial | Jamaica 43 rows; DR and HON maps pending
+2026-11-21T04:32:53Z | A2 history_plan.csv, history_builds.csv | done (builds partial) | 180 plan lines, 41 techs; DR and CR commissioning searches running
+2026-11-21T04:32:53Z | A5 Gate A | done | PASS (sources 55, proposals 1224)

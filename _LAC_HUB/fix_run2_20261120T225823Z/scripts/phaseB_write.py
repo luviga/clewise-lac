@@ -78,20 +78,20 @@ def last_row(ws):
     return r
 
 
-for wbpath, g in P[P.kind != 'csv_line'].groupby('workbook'):
+for wbpath, g in P[~P.kind.isin(['csv_line', 'd8_target', 'doc'])].groupby('workbook'):
     wb = openpyxl.load_workbook(ROOT / wbpath, data_only=False)
     n = skip = 0
     # cells first (row numbers refer to the base layout), new rows after
-    for r in g[g.kind.isin(['ao_cell', 'demand_cell', 'ao_formula', 'config_cell'])].itertuples():
+    for r in g[g.kind.isin(['ao_cell', 'demand_cell', 'ao_formula', 'config_cell', 'cfg_num'])].itertuples():
         ws = wb[r.sheet]
         rr = int(r.row)
         cell = ws[f'{r.column}{rr}']
         h = hdr_of(ws)
-        tcol = h.get('Tech', h.get('Tech_Set', 2 if r.kind != 'config_cell' else 3))
+        tcol = 3 if r.kind == 'cfg_num' else h.get('Tech', h.get('Tech_Set', 2 if r.kind != 'config_cell' else 3))
         tech = ws.cell(rr, tcol).value
-        assert str(tech).strip() == r.Tech, (wbpath, r.sheet, rr, tech, r.Tech)
+        assert str(tech).split(';')[0].strip() == r.Tech, (wbpath, r.sheet, rr, tech, r.Tech)
         cur = cell.value
-        if r.kind in ('ao_cell', 'demand_cell'):
+        if r.kind in ('ao_cell', 'demand_cell', 'cfg_num'):
             if close(cur, r.new_value):
                 skip += 1
                 continue
