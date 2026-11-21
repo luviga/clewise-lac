@@ -1,0 +1,42 @@
+country,tech,build_years,built_gw_2021_2024_BAU,built_gw_NDCNEW,built_gw_LTSNEW,sourced_commissioning,source_locator,status
+CostaRica,PWRDSL,2022;2024,0.1041,0.1041,0.1041,,,"not yet matched (statistics downloaded, not yet read)"
+CostaRica,PWRFOI,2024,0.0762,0.0762,0.0762,,,"not yet matched (statistics downloaded, not yet read)"
+CostaRica,PWRGEO,2022;2023;2024,0.0626,0.0306,0.0306,,,"not yet matched (statistics downloaded, not yet read)"
+CostaRica,PWRHYDROR,2021;2023,0.1047,0.0,0.0,,,"not yet matched (statistics downloaded, not yet read)"
+CostaRica,PWRSPVTRN,2022;2024,0.0128,0.0102,0.0102,,,"not yet matched (statistics downloaded, not yet read)"
+CostaRica,PWRSUG,2021;2022;2023;2024,0.0,1.2411,1.7917,,,"not yet matched (statistics downloaded, not yet read)"
+CostaRica,PWRWNONS,2021;2022;2023,0.0855,0.0293,0.0293,,,"not yet matched (statistics downloaded, not yet read)"
+DominicanRepublic,PPAFOI,2022;2024,0.0288,0.0288,0.0288,,,"not yet matched (statistics downloaded, not yet read)"
+DominicanRepublic,PPANGS,2022;2024,0.0332,0.036,0.0332,,,"not yet matched (statistics downloaded, not yet read)"
+DominicanRepublic,PPDBGS,2024,0.0004,0.0174,0.0173,,,"not yet matched (statistics downloaded, not yet read)"
+DominicanRepublic,PPDGSL,2021;2022;2023,0.003,0.003,0.003,,,"not yet matched (statistics downloaded, not yet read)"
+DominicanRepublic,PPDHYD,2023;2024,0.0,0.0166,0.0151,,,"not yet matched (statistics downloaded, not yet read)"
+DominicanRepublic,PPHDAM,2024,0.0076,0.0076,0.0076,,,"not yet matched (statistics downloaded, not yet read)"
+DominicanRepublic,PPICEFOI,2024,0.0803,0.0671,0.0746,,,"not yet matched (statistics downloaded, not yet read)"
+DominicanRepublic,PPICEGASFOI,2023;2024,0.0096,0.0096,0.0005,,,"not yet matched (statistics downloaded, not yet read)"
+DominicanRepublic,PPPVD,2021;2022;2023;2024,0.1429,0.1429,0.1429,,,"not yet matched (statistics downloaded, not yet read)"
+DominicanRepublic,PPPVT,2021;2022;2023;2024,0.4876,0.4876,0.4876,,,"not yet matched (statistics downloaded, not yet read)"
+DominicanRepublic,PPWNDON,2022;2023;2024,0.0467,0.0467,0.0467,,,"not yet matched (statistics downloaded, not yet read)"
+Ecuador,PPCRU,2021,0.011,0.011,0.011,,,"not yet matched (statistics downloaded, not yet read)"
+Ecuador,PPFOI,2021,0.1029,0.095,0.095,"candidate: Karpowership Emre Bey 105.30/100 MW HFO, leased, Sep 2024 (SNI)",ARCONEL Estadistica 2024 p.44 and p.64; CENACE 2024 parte3 p.9 (downloads/d2_ecu),model 0.095-0.103 GW in 2021
+Ecuador,PPHD,2021;2022;2023;2024,79.1117,79.1117,79.1117,not a commissioning: CapacityToActivityUnit missing (F2),,removed by D1
+Ecuador,PPHDAMAS,2021,0.0003,0.0003,0.0003,,,"not yet matched (statistics downloaded, not yet read)"
+Ecuador,PPHDAMPM,2021,0.0001,0.0001,0.0001,,,"not yet matched (statistics downloaded, not yet read)"
+Ecuador,PPHDAMPS,2022;2023;2024,0.0489,0.0489,0.0489,,,"not yet matched (statistics downloaded, not yet read)"
+Ecuador,PPHRORAM,2021,0.017,0.017,0.017,,,"not yet matched (statistics downloaded, not yet read)"
+Ecuador,PPHRORAS,2021;2022,0.4422,0.4438,0.4438,"candidates: Chalpi 8.10 MW (Apr 2021), Vindobona 4.85 MW (Feb 2021), Sabanilla 36.00/30.60 MW (Oct 2022), Huayquichuma 6.50 MW (Jan 2024), Abanico increase 15.38 MW (May 2024); basin not printed","ARCONEL Estadistica 2021 Tabla 27 p.54, 2022 p.45, 2024 p.44; CENACE 2021 parte2 p.2 (downloads/d2_ecu)",model 0.442 GW in 2021-2022 against at most 0.07 GW of candidates
+Ecuador,PPHRORPM,2022,0.27,0.27,0.27,Sarapullo 48.45 MW (Feb 2022 in ARCONEL; commercial 1 Mar 2023 in CENACE); basin and run-of-river type not printed,"ARCONEL Estadistica 2022 p.45, 2023 p.44; CENACE 2022 parte1 p.111, 2023 parte2 p.1 (downloads/d2_ecu); lead P3 report Tabla 5",model 0.270 GW in 2022 (MinCapacityInvestment); Sarapullo is 0.049 GW
+Ecuador,PPIHD,2021,0.012,0.012,0.012,,,"not yet matched (statistics downloaded, not yet read)"
+Ecuador,PPNGS,2021,0.117,0.117,0.117,"candidate: Shushufindi CG Gas (Petroecuador, non-incorporated) 22.80/15.00 MW, Aug 2021","ARCONEL Estadistica 2021 Tabla 27 p.54, Tabla 60 p.75 (downloads/d2_ecu)",model 0.117 GW in 2021
+Ecuador,PPPVD,2021,0.1148,0.1148,0.1148,,,"not yet matched (statistics downloaded, not yet read)"
+Ecuador,PPPVT,2021,0.0052,0.0052,0.0052,,,"not yet matched (statistics downloaded, not yet read)"
+Ecuador,PPRDSL,2021,0.6177,0.6177,0.6177,"candidate: Cuyabeno Crudo Diesel CELEC (Petroecuador, non-incorporated) 25.60/20.74 MW, 2021",ARCONEL Estadistica 2021 Tabla 27 p.54 (downloads/d2_ecu),model 0.618 GW in 2021
+Ecuador,PPWNDD,2021;2022,0.0023,0.0023,0.0023,,,"not yet matched (statistics downloaded, not yet read)"
+Ecuador,PPWNDON,2021,0.032,0.032,0.032,"Huascachaca wind (Elecaustro): 32.00/28.57 MW Dec 2022 and 49.98 MW Mar 2023 in ARCONEL; CENACE 2 x 18 MW Dec 2022, 50 MW commercial 31 Mar 2023",ARCONEL Estadistica 2022 Tabla 27 p.45; 2023 Tabla 27 p.44; CENACE Informe Anual 2022 parte1 p.111; 2023 parte2 p.1 (downloads/d2_ecu),year differs (model 0.032 GW in 2021); size to check
+Guatemala,PPNGS,2021,0.0007,0.0007,0.0007,,,"not yet matched (statistics downloaded, not yet read)"
+Jamaica,PPDSL,2021;2024,0.0084,0.0084,0.0084,none 2021 to 2024,OUR Annual Report 2023-2024 PDF p.62; JPS filings 2021-2023 unit tables (downloads/map_jam),no match
+Jamaica,PPFOI,2021;2024,0.0015,0.0015,0.0015,none (262 MW HFO steam retired in 2020),2022 IRP PDF p.39-40 (JAMF-01),no match
+Jamaica,PPHDAM,2022,0.0041,0.0041,0.0041,none; JPS hydro 28.66 MW nameplate in every year,JPS filings 2021-2023 (downloads/map_jam),no match
+Jamaica,PPNGS,2023;2024,0.0209,0.0209,0.0209,"CB Hill Run CHP (JPS), natural gas, 10 MW, Dec 2021; no plant commissioned 2022 to 2024",OUR Annual Report 2023-2024 PDF p.62; OUR 2023 determination PDF p.78-79 and p.95 (downloads/map_jam),year and size differ (model 0.021 GW in 2023-2024)
+Jamaica,PPPVT,2021,0.0003,0.0003,0.0003,none 2021 to 2024,OUR Annual Report 2023-2024 PDF p.62 (downloads/map_jam),no match
+Jamaica,PPWNDON,2021,0.0005,0.0005,0.0005,none 2021 to 2024,OUR Annual Report 2023-2024 PDF p.62 (downloads/map_jam),no match
