@@ -1,0 +1,34 @@
+{
+  "country": "CostaRica",
+  "command": "python(anaconda) A2_Compiler_CostaRica.py",
+  "exit": 0,
+  "seconds": 15.6,
+  "produced": {
+    "BAU": 19,
+    "NDCincond": 19,
+    "NDCcond": 19
+  },
+  "static_files_in_BAU": [
+    "AnnualEmissionLimit.csv",
+    "DepreciationMethod.csv",
+    "DiscountRate.csv",
+    "ModelPeriodEmissionLimit.csv",
+    "REMinProductionTarget.csv",
+    "RETagFuel.csv",
+    "RETagTechnology.csv",
+    "TotalAnnualMaxCapacityInvestment.csv",
+    "TotalAnnualMinCapacity.csv",
+    "TotalTechnologyModelPeriodActivityLowerLimit.csv",
+    "TotalTechnologyModelPeriodActivityUpperLimit.csv"
+  ],
+  "choice": {
+    "NDCNEW": {
+      "source": "BAU",
+      "differing_rows": 0
+    },
+    "LTSNEW": {
+      "source": "BAU",
+      "differing_rows": 0
+    }
+  }
+}

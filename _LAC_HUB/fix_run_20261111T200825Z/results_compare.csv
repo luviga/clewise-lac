@@ -1,0 +1,467 @@
+country,scenario,metric,item,value_c42ae07,value_new,change
+CostaRica,BAU,solve status,,OPTIMAL,OPTIMAL,
+CostaRica,BAU,objective,OFL_Cost / cost,114696.9275,114660.2149,-36.71259999999893
+CostaRica,BAU,RE share,2030,0.894133,0.894133,0.0
+CostaRica,BAU,RE share,2035,0.894129,0.894129,0.0
+CostaRica,BAU,RE share,2050,0.894101,0.894101,0.0
+CostaRica,BAU,share validation,PASS,234,234,0
+CostaRica,BAU,share validation,WARN,0,0,0
+CostaRica,BAU,share validation,FAIL,0,0,0
+CostaRica,BAU,emissions (sum of AnnualEmissions),2030,23.718328272,23.718328272,0.0
+CostaRica,BAU,emissions (sum of AnnualEmissions),2050,34.0352597086,34.0352597086,0.0
+CostaRica,BAU,new capacity summed over the horizon (GW),PWRBMS,1.26483e-05,1.26483e-05,0.0
+CostaRica,BAU,new capacity summed over the horizon (GW),PWRDSL,1.9126770100000001,1.9126770100000001,0.0
+CostaRica,BAU,new capacity summed over the horizon (GW),PWRFOI,0.69165797,0.69165797,0.0
+CostaRica,BAU,new capacity summed over the horizon (GW),PWRGEO,0.0794551325,0.0794551325,0.0
+CostaRica,BAU,new capacity summed over the horizon (GW),PWRHYDDAM,0.1925751,0.1925751,0.0
+CostaRica,BAU,new capacity summed over the horizon (GW),PWRHYDROR,0.10473687899999999,0.10473687899999999,0.0
+CostaRica,BAU,new capacity summed over the horizon (GW),PWRSPVTRN,0.129289286296,0.129289286296,0.0
+CostaRica,BAU,new capacity summed over the horizon (GW),PWRWNONS,2.26048878,2.26048878,0.0
+CostaRica,NDCNEW,solve status,,OPTIMAL,OPTIMAL,
+CostaRica,NDCNEW,objective,OFL_Cost / cost,104293.467,104254.892,-38.57499999999709
+CostaRica,NDCNEW,RE share,2030,0.896723,0.896723,0.0
+CostaRica,NDCNEW,RE share,2035,0.900001,0.900001,0.0
+CostaRica,NDCNEW,RE target met (2 pp tolerance),2035 target 0.75,yes,yes,
+CostaRica,NDCNEW,RE share,2050,0.900001,0.900001,0.0
+CostaRica,NDCNEW,RE target met (2 pp tolerance),2050 target 0.75,yes,yes,
+CostaRica,NDCNEW,share validation,PASS,233,234,1
+CostaRica,NDCNEW,share validation,WARN,1,0,-1
+CostaRica,NDCNEW,share validation,FAIL,0,0,0
+CostaRica,NDCNEW,emissions (sum of AnnualEmissions),2030,22.1589061935,22.158916193499998,9.999999999621423e-06
+CostaRica,NDCNEW,emissions (sum of AnnualEmissions),2050,27.8749335631,27.8749335631,0.0
+CostaRica,NDCNEW,new capacity summed over the horizon (GW),PWRDSL,1.89661461,1.89661461,0.0
+CostaRica,NDCNEW,new capacity summed over the horizon (GW),PWRFOI,0.6835413499999999,0.6835413499999999,0.0
+CostaRica,NDCNEW,new capacity summed over the horizon (GW),PWRGEO,0.0808789253,0.0808789325,7.1999999989857955e-09
+CostaRica,NDCNEW,new capacity summed over the horizon (GW),PWRHYDDAM,0.19868750000000002,0.19868750000000002,0.0
+CostaRica,NDCNEW,new capacity summed over the horizon (GW),PWRHYDROR,0.114125,0.114125,0.0
+CostaRica,NDCNEW,new capacity summed over the horizon (GW),PWRSPVTRN,0.145810124,0.145810042296,-8.170400001006328e-08
+CostaRica,NDCNEW,new capacity summed over the horizon (GW),PWRSUG,1.293276,1.2411309,-0.052145100000000166
+CostaRica,NDCNEW,new capacity summed over the horizon (GW),PWRWNONS,2.5483446,2.5472444863,-0.0011001137000001826
+CostaRica,LTSNEW,solve status,,OPTIMAL,OPTIMAL,
+CostaRica,LTSNEW,objective,OFL_Cost / cost,95574.70006,95536.11485,-38.585210000004736
+CostaRica,LTSNEW,RE share,2030,0.936723,0.936723,0.0
+CostaRica,LTSNEW,RE share,2035,0.990001,0.990001,0.0
+CostaRica,LTSNEW,RE target met (2 pp tolerance),2035 target 0.75,yes,yes,
+CostaRica,LTSNEW,RE share,2050,0.990001,0.990001,0.0
+CostaRica,LTSNEW,RE target met (2 pp tolerance),2050 target 0.99,yes,yes,
+CostaRica,LTSNEW,share validation,PASS,234,234,0
+CostaRica,LTSNEW,share validation,WARN,0,0,0
+CostaRica,LTSNEW,share validation,FAIL,0,0,0
+CostaRica,LTSNEW,emissions (sum of AnnualEmissions),2030,19.496813812299997,19.496813812299997,0.0
+CostaRica,LTSNEW,emissions (sum of AnnualEmissions),2050,8.427081117630001,8.42707311763,-8.000000001118224e-06
+CostaRica,LTSNEW,new capacity summed over the horizon (GW),PWRDSL,0.663481484,0.663481484,0.0
+CostaRica,LTSNEW,new capacity summed over the horizon (GW),PWRFOI,0.21387399999999998,0.21387399999999998,0.0
+CostaRica,LTSNEW,new capacity summed over the horizon (GW),PWRGEO,0.0808789253,0.0808789325,7.1999999989857955e-09
+CostaRica,LTSNEW,new capacity summed over the horizon (GW),PWRHYDDAM,0.19868750000000002,0.19868750000000002,0.0
+CostaRica,LTSNEW,new capacity summed over the horizon (GW),PWRHYDROR,0.114125,0.114125,0.0
+CostaRica,LTSNEW,new capacity summed over the horizon (GW),PWRSPVTRN,0.22662701400000002,0.226643802296,1.6788295999992098e-05
+CostaRica,LTSNEW,new capacity summed over the horizon (GW),PWRSUG,2.3749393000000003,2.8732982,0.4983588999999995
+CostaRica,LTSNEW,new capacity summed over the horizon (GW),PWRWNONS,4.2394205,4.2383217863,-0.0010987136999993652
+DominicanRepublic,BAU,solve status,,OPTIMAL,OPTIMAL,
+DominicanRepublic,BAU,objective,OFL_Cost / cost,411650.8994,413922.4817,2271.582300000009
+DominicanRepublic,BAU,RE share,2030,0.191754,0.191754,0.0
+DominicanRepublic,BAU,RE share,2035,0.231367,0.231366,-1.000000000001e-06
+DominicanRepublic,BAU,RE share,2050,0.338931,0.33893,-9.999999999732445e-07
+DominicanRepublic,BAU,share validation,PASS,598,598,0
+DominicanRepublic,BAU,share validation,WARN,0,0,0
+DominicanRepublic,BAU,share validation,FAIL,0,0,0
+DominicanRepublic,BAU,emissions (sum of AnnualEmissions),2030,72.6017464,72.6017464,0.0
+DominicanRepublic,BAU,emissions (sum of AnnualEmissions),2050,112.8739306,112.8739306,0.0
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPADSL,0.10308662,0.10306261,-2.401000000000486e-05
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPAFOI,0.37695439000000003,0.3769544,9.999999994736442e-09
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPANGS,0.45630707,0.45630706,-9.999999994736442e-09
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPBIM,0.002157158,0.002149186,-7.972000000000187e-06
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPCCTDSL,0.11791681,0.11787342,-4.338999999999038e-05
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPCCTNGS,0.9921343,0.9919494,-0.00018490000000004336
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPCOA,0.9371826,0.9370096,-0.00017299999999997873
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPDBGS,0.042330836799999993,0.042330836799999993,0.0
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPDBIM,0.001604175,0.0016004662000000001,-3.7087999999998924e-06
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPDDSL,3.9637818,3.9637818,0.0
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPDFOI,1.9670679,1.9666749,-0.0003930000000000877
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPDGLP,7.82693e-05,7.82693e-05,0.0
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPDGSL,0.03070091,0.03070091,0.0
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPDHYD,0.9655338,0.9655338,0.0
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPHDAM,0.03185319,0.03174773,-0.00010546000000000166
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPICEFOI,0.65057833,0.65029472,-0.0002836099999999897
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPICEGASFOI,1.54600977,1.54600987,1.0000000005838672e-07
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPPVD,2.38240349,2.38243319,2.969999999979933e-05
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPPVT,5.22239228,5.22244338,5.10999999994155e-05
+DominicanRepublic,BAU,new capacity summed over the horizon (GW),PPWNDON,2.9722915789,2.9723249789,3.339999999996124e-05
+DominicanRepublic,NDCNEW,solve status,,OPTIMAL,OPTIMAL,
+DominicanRepublic,NDCNEW,objective,OFL_Cost / cost,430751.9236,433127.7952,2375.871600000013
+DominicanRepublic,NDCNEW,RE share,2030,0.421445,0.421445,0.0
+DominicanRepublic,NDCNEW,RE share,2035,0.75,0.75,0.0
+DominicanRepublic,NDCNEW,RE target met (2 pp tolerance),2035 target 0.75,yes,yes,
+DominicanRepublic,NDCNEW,RE share,2050,0.75,0.75,0.0
+DominicanRepublic,NDCNEW,RE target met (2 pp tolerance),2050 target 0.75,yes,yes,
+DominicanRepublic,NDCNEW,share validation,PASS,598,598,0
+DominicanRepublic,NDCNEW,share validation,WARN,0,0,0
+DominicanRepublic,NDCNEW,share validation,FAIL,0,0,0
+DominicanRepublic,NDCNEW,emissions (sum of AnnualEmissions),2030,59.059697299999996,59.102505300000004,0.04280800000000795
+DominicanRepublic,NDCNEW,emissions (sum of AnnualEmissions),2050,61.7126402,61.7341112,0.02147099999999824
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPADSL,0.0053546,0.00557073,0.00021613000000000014
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPAFOI,0.112021717,0.0649444,-0.04707731700000001
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPANGS,0.289988435,0.26108201000000003,-0.028906424999999958
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPBIM,0.002097367,0.002181082,8.371499999999983e-05
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPCCTDSL,0.022770989999999998,0.0078447,-0.014926289999999998
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPCCTNGS,0.19768087,0.055545399999999995,-0.14213547
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPCOA,0.1997601,0.0525087,-0.1472514
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPDBGS,0.042291559199999995,0.0423308032,3.924400000000772e-05
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPDBIM,0.000797757,0.0011167114,0.0003189544
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPDDSL,2.6592911,2.5205618999999997,-0.13872920000000022
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPDFOI,0.1060769,0.1101617,0.0040847999999999995
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPDGLP,0.0002746474,7.82693e-05,-0.00019637810000000002
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPDGSL,0.010931948,0.00641524,-0.004516708
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPDHYD,0.9600781199999999,0.9613377200000001,0.0012596000000001384
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPHDAM,0.029578300000000002,0.0306781,0.001099799999999998
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPICEFOI,0.0429829,0.2438167,0.2008338
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPICEGASFOI,0.91425967,0.7996201700000001,-0.1146394999999999
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPPVD,5.6502314,5.4425972684,-0.20763413159999988
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPPVT,12.149841,11.65080618,-0.4990348200000003
+DominicanRepublic,NDCNEW,new capacity summed over the horizon (GW),PPWNDON,7.2572959,6.948727378,-0.30856852199999985
+DominicanRepublic,LTSNEW,solve status,,OPTIMAL,OPTIMAL,
+DominicanRepublic,LTSNEW,objective,OFL_Cost / cost,454799.833,457351.7691,2551.9360999999917
+DominicanRepublic,LTSNEW,RE share,2030,0.421445,0.421445,0.0
+DominicanRepublic,LTSNEW,RE share,2035,0.75,0.75,0.0
+DominicanRepublic,LTSNEW,RE target met (2 pp tolerance),2035 target 0.75,yes,yes,
+DominicanRepublic,LTSNEW,RE share,2050,0.99,0.99,0.0
+DominicanRepublic,LTSNEW,RE target met (2 pp tolerance),2050 target 0.99,yes,yes,
+DominicanRepublic,LTSNEW,share validation,PASS,598,598,0
+DominicanRepublic,LTSNEW,share validation,WARN,0,0,0
+DominicanRepublic,LTSNEW,share validation,FAIL,0,0,0
+DominicanRepublic,LTSNEW,emissions (sum of AnnualEmissions),2030,59.0592943,59.102102300000006,0.04280800000000795
+DominicanRepublic,LTSNEW,emissions (sum of AnnualEmissions),2050,17.4418337,17.4424292,0.0005954999999993049
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPADSL,0.0053546,0.00558675,0.00023214999999999954
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPAFOI,0.112013681,0.06498442,-0.047029261
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPANGS,0.18656800499999998,0.16330933,-0.02325867499999998
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPBIM,0.0020933790000000002,0.002189054,9.567499999999993e-05
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPCCTDSL,0.02277098,0.0078447,-0.01492628
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPCCTNGS,0.19766814,0.055685700000000005,-0.14198244
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPCCTNGSDSL,0.0,0.3996803,0.3996803
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPCOA,0.19974271,0.0526446,-0.14709811
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPDBGS,0.542681126,0.04233071000000001,-0.500350416
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPDBIM,0.000797757,0.0010506017,0.00025284470000000003
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPDDSL,2.2584115000000002,2.11902,-0.13939150000000033
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPDFOI,0.1060769,0.11047580000000001,0.004398900000000011
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPDGLP,0.0002746474,7.82693e-05,-0.00019637810000000002
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPDGSL,0.010931940000000001,0.00641524,-0.004516700000000001
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPDHYD,0.96007814,0.96154794,0.0014697999999999656
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPHDAM,0.0295784,0.03075345,0.0011750500000000004
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPICEFOI,0.042983,0.24378601,0.20080301
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPICEGASFOI,0.6166844499999999,0.5203587000000001,-0.09632574999999988
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPPVD,8.2997452,8.093458772,-0.2062864280000003
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPPVT,17.71575,17.21941828,-0.4963317200000006
+DominicanRepublic,LTSNEW,new capacity summed over the horizon (GW),PPWNDON,10.7002091,10.393313984,-0.30689511599999975
+Ecuador,BAU,solve status,,OPTIMAL,OPTIMAL,
+Ecuador,BAU,objective,OFL_Cost / cost,1933690.484,1765127.717,-168562.767
+Ecuador,BAU,RE share,2030,0.76259,0.76259,0.0
+Ecuador,BAU,RE share,2035,0.77417,0.77417,0.0
+Ecuador,BAU,RE share,2050,0.806119,0.806119,0.0
+Ecuador,BAU,share validation,PASS,794,795,1
+Ecuador,BAU,share validation,WARN,12,11,-1
+Ecuador,BAU,share validation,FAIL,0,0,0
+Ecuador,BAU,emissions (sum of AnnualEmissions),2030,130.9463229458,131.86322765000003,0.9169047042000216
+Ecuador,BAU,emissions (sum of AnnualEmissions),2050,182.77378011139996,182.77378011149995,9.99875737761613e-11
+Ecuador,BAU,new capacity summed over the horizon (GW),PPCRU,0.0652587627,0.0652587627,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPDDSL,0.043846489,0.043846489,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPDFOI,0.020581183,0.020581183,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPDSL,0.09491782,0.09491782,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPFOI,0.27992955,0.27992955,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPHD,576.7361,576.7361,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPHDAMAM,0.0300054,0.0300054,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPHDAMAS,0.0074909239999999995,0.0074909239999999995,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPHDAMPM,0.20563989900000001,0.20563989900000001,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPHDAMPS,0.05235549999999999,0.05235549999999999,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPHRORAM,0.053309,0.053309,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPHRORAS,0.44221699999999997,0.44221699999999997,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPHRORPM,0.3235504,0.3235504,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPIBIM,2.29493e-05,2.29493e-05,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPIHD,0.012040877989999999,0.012040877989999999,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPILPG,0.016150426,0.016150426,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPNGS,0.116951,0.116951,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPPVD,4.0679692,4.0679692,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPPVT,0.77224299,0.77224299,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPPVTS,1.4904869,1.4904869,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPRDSL,0.75936149,0.75936149,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPRNGS,0.0652588,0.0652588,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPWNDD,0.002293017,0.002293017,0.0
+Ecuador,BAU,new capacity summed over the horizon (GW),PPWNDON,7.1961309,7.1961309,0.0
+Ecuador,NDCNEW,solve status,,OPTIMAL,OPTIMAL,
+Ecuador,NDCNEW,objective,OFL_Cost / cost,2086398.891,1754223.296,-332175.595
+Ecuador,NDCNEW,RE share,2030,0.777008,0.772608,-0.0044000000000000705
+Ecuador,NDCNEW,RE share,2035,0.801729,0.796815,-0.004913999999999974
+Ecuador,NDCNEW,RE target met (2 pp tolerance),2035 target 0.75,yes,yes,
+Ecuador,NDCNEW,RE share,2050,0.805856,0.806096,0.00024000000000001798
+Ecuador,NDCNEW,RE target met (2 pp tolerance),2050 target 0.75,yes,yes,
+Ecuador,NDCNEW,share validation,PASS,795,794,-1
+Ecuador,NDCNEW,share validation,WARN,11,12,1
+Ecuador,NDCNEW,share validation,FAIL,0,0,0
+Ecuador,NDCNEW,emissions (sum of AnnualEmissions),2030,125.78921508175999,127.04718158450001,1.2579665027400182
+Ecuador,NDCNEW,emissions (sum of AnnualEmissions),2050,165.35478176435,165.85738676900002,0.5026050046500075
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPCRU,0.29322869999999995,0.0603278927,-0.23290080729999996
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPDDSL,0.1772251,0.039888174,-0.137336926
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPDFOI,0.06148176,0.019159922,-0.042321838
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPDSL,0.3865694,0.08640317,-0.30016623
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPFOI,0.9682671,0.26285528,-0.70541182
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPHD,597.0758,576.7127,-20.363099999999918
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPHDAMAB,0.6190299499999999,0.0,-0.6190299499999999
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPHDAMAM,0.016936,0.0299996,0.013063600000000002
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPHDAMAS,0.007497152,0.0074909239999999995,-6.228000000000483e-06
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPHDAMPM,0.342445,0.20563989900000001,-0.13680510099999998
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPHDAMPS,0.06909989999999999,0.05235549999999999,-0.0167444
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPHRORAB,0.65225354,0.0,-0.65225354
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPHRORAM,0.178466,0.0533019,-0.1251641
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPHRORAS,0.2114995,0.443758,0.23225849999999998
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPHRORPM,0.41593800000000003,0.32353960000000004,-0.09239839999999999
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPHRORPS,0.0759199,0.0,-0.0759199
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPIBIM,0.10108443,2.29493e-05,-0.1010614807
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPIHD,0.184061,0.012040877989999999,-0.17202012201
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPILPG,0.06774705,0.014677552,-0.05306949800000001
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPNGS,0.218881,0.116951,-0.10192999999999999
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPPVD,3.8724743999999998,3.8990345,0.026560100000000197
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPPVDS,0.208278193,0.0,-0.208278193
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPPVT,0.8029999,0.74039549,-0.06260440999999994
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPPVTS,1.4767598,1.4522776,-0.02448220000000001
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPRDSL,1.32524,0.74342844,-0.58181156
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPRNGS,0.053295089999999996,0.060327919,0.007032829000000004
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPWNDD,0.256936,0.002293017,-0.254642983
+Ecuador,NDCNEW,new capacity summed over the horizon (GW),PPWNDON,7.524553999999999,6.8985049,-0.6260490999999995
+Ecuador,LTSNEW,solve status,,OPTIMAL,OPTIMAL,
+Ecuador,LTSNEW,objective,OFL_Cost / cost,2080589.565,1749295.474,-331294.091
+Ecuador,LTSNEW,RE share,2030,0.777141,0.772596,-0.004545000000000021
+Ecuador,LTSNEW,RE share,2035,0.801701,0.79682,-0.004881000000000024
+Ecuador,LTSNEW,RE target met (2 pp tolerance),2035 target 0.75,yes,yes,
+Ecuador,LTSNEW,RE share,2050,0.989844,0.989843,-9.999999999177334e-07
+Ecuador,LTSNEW,RE target met (2 pp tolerance),2050 target 0.99,yes,yes,
+Ecuador,LTSNEW,share validation,PASS,782,791,9
+Ecuador,LTSNEW,share validation,WARN,24,15,-9
+Ecuador,LTSNEW,share validation,FAIL,0,0,0
+Ecuador,LTSNEW,emissions (sum of AnnualEmissions),2030,125.41935166725999,126.69103814980004,1.2716864825400478
+Ecuador,LTSNEW,emissions (sum of AnnualEmissions),2050,117.67784008995001,117.70384638620003,0.026006296250017158
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPCRU,0.29322869999999995,0.0109570927,-0.28227160729999995
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPDDSL,0.1772251,0.0,-0.1772251
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPDFOI,0.06148176,0.00283128,-0.058650480000000005
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPDSL,0.3865694,0.0,-0.3865694
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPFOI,0.9682671,0.0950419,-0.8732252
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPHD,597.0758,576.7127,-20.363099999999918
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPHDAMAB,0.6190299499999999,0.0,-0.6190299499999999
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPHDAMAM,0.016936,0.0299996,0.013063600000000002
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPHDAMAS,0.007497152,0.0074909239999999995,-6.228000000000483e-06
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPHDAMPM,0.342445,0.20563989900000001,-0.13680510099999998
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPHDAMPS,0.06909989999999999,0.05235549999999999,-0.0167444
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPHRORAB,0.65225354,0.0,-0.65225354
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPHRORAM,0.178466,0.0533019,-0.1251641
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPHRORAS,0.2114995,0.443758,0.23225849999999998
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPHRORPM,0.41593800000000003,0.32353960000000004,-0.09239839999999999
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPHRORPS,0.0759199,0.0,-0.0759199
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPIBIM,0.10108443,2.29493e-05,-0.1010614807
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPIHD,0.184061,0.012040877989999999,-0.17202012201
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPILPG,0.06774705,0.0,-0.06774705
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPNGS,0.218881,0.116951,-0.10192999999999999
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPPVD,6.320922,6.4053059,0.08438389999999973
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPPVDS,0.208278193,0.0,-0.208278193
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPPVT,1.19722529,1.21314839,0.015923099999999968
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPPVTS,2.3506464,2.3277705,-0.022875899999999838
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPRDSL,1.32524,0.617659,-0.707581
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPRNGS,0.0,0.007339267,0.007339267
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPWNDD,0.256936,0.002293017,-0.254642983
+Ecuador,LTSNEW,new capacity summed over the horizon (GW),PPWNDON,11.1653246,11.3139619,0.14863730000000075
+Guatemala,BAU,solve status,,OPTIMAL,OPTIMAL,
+Guatemala,BAU,objective,OFL_Cost / cost,360741.0893,360672.1773,-68.91200000001118
+Guatemala,BAU,RE share,2030,0.530501,0.530501,0.0
+Guatemala,BAU,RE share,2035,0.571897,0.571897,0.0
+Guatemala,BAU,RE share,2050,0.640596,0.640596,0.0
+Guatemala,BAU,share validation,PASS,356,356,0
+Guatemala,BAU,share validation,WARN,6,6,0
+Guatemala,BAU,share validation,FAIL,2,2,0
+Guatemala,BAU,emissions (sum of AnnualEmissions),2030,75.2117,75.2117,0.0
+Guatemala,BAU,emissions (sum of AnnualEmissions),2050,156.45614,156.45614,0.0
+Guatemala,BAU,new capacity summed over the horizon (GW),PPBGS,0.010563402000000001,0.010563402000000001,0.0
+Guatemala,BAU,new capacity summed over the horizon (GW),PPCOA,0.85948169,0.85948169,0.0
+Guatemala,BAU,new capacity summed over the horizon (GW),PPDSL,0.17882731999999998,0.17882731999999998,0.0
+Guatemala,BAU,new capacity summed over the horizon (GW),PPFOI,0.72693803,0.72693803,0.0
+Guatemala,BAU,new capacity summed over the horizon (GW),PPGEO,0.455035518,0.455035518,0.0
+Guatemala,BAU,new capacity summed over the horizon (GW),PPHDAM,0.182,0.182,0.0
+Guatemala,BAU,new capacity summed over the horizon (GW),PPHROR,0.02,0.02,0.0
+Guatemala,BAU,new capacity summed over the horizon (GW),PPNGS,0.968628756,0.968628756,0.0
+Guatemala,BAU,new capacity summed over the horizon (GW),PPPVD,1.11663913,1.11663913,0.0
+Guatemala,BAU,new capacity summed over the horizon (GW),PPPVDS,0.07756144400000001,0.07756144400000001,0.0
+Guatemala,BAU,new capacity summed over the horizon (GW),PPPVT,1.5771638239999999,1.5771638239999999,0.0
+Guatemala,BAU,new capacity summed over the horizon (GW),PPPVTS,0.5041479600000001,0.5041479600000001,0.0
+Guatemala,BAU,new capacity summed over the horizon (GW),PPWNDON,0.86035068,0.86035068,0.0
+Guatemala,NDCNEW,solve status,,OPTIMAL,OPTIMAL,
+Guatemala,NDCNEW,objective,OFL_Cost / cost,350274.6402,347103.0361,-3171.604099999997
+Guatemala,NDCNEW,RE share,2030,0.685824,0.685823,-1.0000000000287557e-06
+Guatemala,NDCNEW,RE share,2035,0.75,0.75,0.0
+Guatemala,NDCNEW,RE target met (2 pp tolerance),2035 target 0.75,yes,yes,
+Guatemala,NDCNEW,RE share,2050,0.749684,0.749684,0.0
+Guatemala,NDCNEW,RE target met (2 pp tolerance),2050 target 0.75,yes,yes,
+Guatemala,NDCNEW,share validation,PASS,362,363,1
+Guatemala,NDCNEW,share validation,WARN,2,1,-1
+Guatemala,NDCNEW,share validation,FAIL,0,0,0
+Guatemala,NDCNEW,emissions (sum of AnnualEmissions),2030,65.07614799999999,65.08026100000001,0.004113000000018019
+Guatemala,NDCNEW,emissions (sum of AnnualEmissions),2050,125.13267200000001,125.13598200000001,0.003309999999999036
+Guatemala,NDCNEW,new capacity summed over the horizon (GW),PPBGS,0.013400417999999999,0.013409358,8.940000000000684e-06
+Guatemala,NDCNEW,new capacity summed over the horizon (GW),PPCOA,0.8244442,0.8246177,0.00017350000000004862
+Guatemala,NDCNEW,new capacity summed over the horizon (GW),PPDSL,0.17132322,0.17132321,-9.999999994736442e-09
+Guatemala,NDCNEW,new capacity summed over the horizon (GW),PPFOI,0.696358697,0.69650996,0.00015126300000001258
+Guatemala,NDCNEW,new capacity summed over the horizon (GW),PPGEO,0.11029799,0.11032207,2.407999999999577e-05
+Guatemala,NDCNEW,new capacity summed over the horizon (GW),PPHDAM,0.182,0.182,0.0
+Guatemala,NDCNEW,new capacity summed over the horizon (GW),PPHROR,0.03393124,0.03397145,4.020999999999886e-05
+Guatemala,NDCNEW,new capacity summed over the horizon (GW),PPNGS,0.705678343,0.705702456,2.411300000004779e-05
+Guatemala,NDCNEW,new capacity summed over the horizon (GW),PPPVD,2.0902861,2.07669372,-0.01359237999999996
+Guatemala,NDCNEW,new capacity summed over the horizon (GW),PPPVDS,0.14007441,0.14007441,0.0
+Guatemala,NDCNEW,new capacity summed over the horizon (GW),PPPVT,3.3803436,2.9941477,-0.3861958999999997
+Guatemala,NDCNEW,new capacity summed over the horizon (GW),PPPVT2,0.007745145,0.007745145,0.0
+Guatemala,NDCNEW,new capacity summed over the horizon (GW),PPPVTS,0.9105009,0.9104599,-4.099999999995774e-05
+Guatemala,NDCNEW,new capacity summed over the horizon (GW),PPWNDON,2.457864537,2.103628497,-0.35423604
+Guatemala,LTSNEW,solve status,,OPTIMAL,OPTIMAL,
+Guatemala,LTSNEW,objective,OFL_Cost / cost,348264.2712,345334.7613,-2929.5099000000046
+Guatemala,LTSNEW,RE share,2030,0.685823,0.685824,1.0000000000287557e-06
+Guatemala,LTSNEW,RE share,2035,0.75,0.75,0.0
+Guatemala,LTSNEW,RE target met (2 pp tolerance),2035 target 0.75,yes,yes,
+Guatemala,LTSNEW,RE share,2050,0.989746,0.989746,0.0
+Guatemala,LTSNEW,RE target met (2 pp tolerance),2050 target 0.99,yes,yes,
+Guatemala,LTSNEW,share validation,PASS,363,363,0
+Guatemala,LTSNEW,share validation,WARN,1,1,0
+Guatemala,LTSNEW,share validation,FAIL,0,0,0
+Guatemala,LTSNEW,emissions (sum of AnnualEmissions),2030,66.712306,66.71642,0.004114000000001283
+Guatemala,LTSNEW,emissions (sum of AnnualEmissions),2050,66.550709,66.55081,0.0001010000000007949
+Guatemala,LTSNEW,new capacity summed over the horizon (GW),PPBGS,0.013400417999999999,0.013409358,8.940000000000684e-06
+Guatemala,LTSNEW,new capacity summed over the horizon (GW),PPCOA,0.36674642,0.36688001000000003,0.00013359000000001675
+Guatemala,LTSNEW,new capacity summed over the horizon (GW),PPDSL,0.081744845,0.081744837,-7.999999995789153e-09
+Guatemala,LTSNEW,new capacity summed over the horizon (GW),PPFOI,3.7189518169999998,3.71947011,0.0005182930000002806
+Guatemala,LTSNEW,new capacity summed over the horizon (GW),PPGEO,0.11028836,0.11030762,1.925999999999317e-05
+Guatemala,LTSNEW,new capacity summed over the horizon (GW),PPHDAM,0.182,0.182,0.0
+Guatemala,LTSNEW,new capacity summed over the horizon (GW),PPHROR,0.033899139999999994,0.03394735,4.821000000000686e-05
+Guatemala,LTSNEW,new capacity summed over the horizon (GW),PPNGS,0.705678343,0.705702456,2.411300000004779e-05
+Guatemala,LTSNEW,new capacity summed over the horizon (GW),PPPVD,4.4010671,4.38759637,-0.013470729999999875
+Guatemala,LTSNEW,new capacity summed over the horizon (GW),PPPVDS,0.29437242,0.29436122,-1.1200000000044508e-05
+Guatemala,LTSNEW,new capacity summed over the horizon (GW),PPPVT,7.2639174,6.8779354,-0.38598200000000027
+Guatemala,LTSNEW,new capacity summed over the horizon (GW),PPPVT2,0.007745145,0.007745145,0.0
+Guatemala,LTSNEW,new capacity summed over the horizon (GW),PPPVTS,1.9134269,1.9133755,-5.140000000003475e-05
+Guatemala,LTSNEW,new capacity summed over the horizon (GW),PPWNDON,7.850039,7.496007865,-0.3540311349999996
+Honduras,BAU,solve status,,OPTIMAL,OPTIMAL,
+Honduras,BAU,objective,OFL_Cost / cost,104949.8882,104974.7838,24.89560000000347
+Honduras,BAU,RE share,2030,0.569411,0.569411,0.0
+Honduras,BAU,RE share,2035,0.589647,0.589647,0.0
+Honduras,BAU,RE share,2050,0.647073,0.647073,0.0
+Honduras,BAU,share validation,PASS,416,416,0
+Honduras,BAU,share validation,WARN,0,0,0
+Honduras,BAU,share validation,FAIL,0,0,0
+Honduras,BAU,emissions (sum of AnnualEmissions),2030,39.21777358799999,39.21777358899999,9.999965300266922e-10
+Honduras,BAU,emissions (sum of AnnualEmissions),2050,59.204728139000004,59.20472813899999,-1.4210854715202004e-14
+Honduras,BAU,new capacity summed over the horizon (GW),PPBIM,0.047085,0.047085,0.0
+Honduras,BAU,new capacity summed over the horizon (GW),PPCOK,0.12071422,0.12071422,0.0
+Honduras,BAU,new capacity summed over the horizon (GW),PPFOI,1.1402184,1.1402184,0.0
+Honduras,BAU,new capacity summed over the horizon (GW),PPGEO,0.01207748,0.01207748,0.0
+Honduras,BAU,new capacity summed over the horizon (GW),PPGTDSL,0.0012876329,0.0012876329,0.0
+Honduras,BAU,new capacity summed over the horizon (GW),PPGTGLP,0.003855945,0.003855945,0.0
+Honduras,BAU,new capacity summed over the horizon (GW),PPHROR,0.0393699,0.0393699,0.0
+Honduras,BAU,new capacity summed over the horizon (GW),PPNGS,0.7495009,0.7495009,0.0
+Honduras,BAU,new capacity summed over the horizon (GW),PPPVD,1.3061129,1.3061129,0.0
+Honduras,BAU,new capacity summed over the horizon (GW),PPPVT,2.67394706,2.67394706,0.0
+Honduras,BAU,new capacity summed over the horizon (GW),PPWNDON,1.4127314,1.4127314,0.0
+Honduras,NDCNEW,solve status,,OPTIMAL,OPTIMAL,
+Honduras,NDCNEW,objective,OFL_Cost / cost,103910.1962,103198.3079,-711.888300000006
+Honduras,NDCNEW,RE share,2030,0.647551,0.647388,-0.00016300000000002424
+Honduras,NDCNEW,RE share,2035,0.75,0.750001,1.0000000000287557e-06
+Honduras,NDCNEW,RE target met (2 pp tolerance),2035 target 0.75,yes,yes,
+Honduras,NDCNEW,RE share,2050,0.75,0.75,0.0
+Honduras,NDCNEW,RE target met (2 pp tolerance),2050 target 0.75,yes,yes,
+Honduras,NDCNEW,share validation,PASS,407,416,9
+Honduras,NDCNEW,share validation,WARN,9,0,-9
+Honduras,NDCNEW,share validation,FAIL,0,0,0
+Honduras,NDCNEW,emissions (sum of AnnualEmissions),2030,36.30958531200001,36.34386829500001,0.0342829829999971
+Honduras,NDCNEW,emissions (sum of AnnualEmissions),2050,52.660339277000006,52.682092090000005,0.021752812999999094
+Honduras,NDCNEW,new capacity summed over the horizon (GW),PPBIM,0.0494413,0.0513904,0.0019491000000000022
+Honduras,NDCNEW,new capacity summed over the horizon (GW),PPCOK,0.06803292699999999,0.0686349,0.0006019730000000056
+Honduras,NDCNEW,new capacity summed over the horizon (GW),PPFOI,0.86564118,0.863600775,-0.002040405000000023
+Honduras,NDCNEW,new capacity summed over the horizon (GW),PPGEO,0.012677790000000001,0.01286164,0.0001838499999999993
+Honduras,NDCNEW,new capacity summed over the horizon (GW),PPGTDSL,0.0010294639,0.0010125651,-1.6898800000000056e-05
+Honduras,NDCNEW,new capacity summed over the horizon (GW),PPGTGLP,0.00011634,0.0,-0.00011634
+Honduras,NDCNEW,new capacity summed over the horizon (GW),PPHROR,0.0787238,0.0410283,-0.0376955
+Honduras,NDCNEW,new capacity summed over the horizon (GW),PPICEDSL,0.000326086,0.0,-0.000326086
+Honduras,NDCNEW,new capacity summed over the horizon (GW),PPNGS,1.3121259,1.3132439,0.0011179999999999524
+Honduras,NDCNEW,new capacity summed over the horizon (GW),PPPVD,1.76960722,1.7718935999999998,0.0022863799999999213
+Honduras,NDCNEW,new capacity summed over the horizon (GW),PPPVT,4.3371163,3.8147954,-0.5223209
+Honduras,NDCNEW,new capacity summed over the horizon (GW),PPWNDON,2.12135588,1.96052451,-0.16083136999999992
+Honduras,LTSNEW,solve status,,OPTIMAL,OPTIMAL,
+Honduras,LTSNEW,objective,OFL_Cost / cost,101467.8421,100754.8109,-713.0311999999976
+Honduras,LTSNEW,RE share,2030,0.647547,0.647383,-0.00016399999999994197
+Honduras,LTSNEW,RE share,2035,0.750001,0.749999,-2.0000000000575113e-06
+Honduras,LTSNEW,RE target met (2 pp tolerance),2035 target 0.75,yes,yes,
+Honduras,LTSNEW,RE share,2050,0.99,0.99,0.0
+Honduras,LTSNEW,RE target met (2 pp tolerance),2050 target 0.99,yes,yes,
+Honduras,LTSNEW,share validation,PASS,407,416,9
+Honduras,LTSNEW,share validation,WARN,9,0,-9
+Honduras,LTSNEW,share validation,FAIL,0,0,0
+Honduras,LTSNEW,emissions (sum of AnnualEmissions),2030,36.243263899000006,36.277576906,0.0343130069999944
+Honduras,LTSNEW,emissions (sum of AnnualEmissions),2050,23.9026882816,23.9036908353,0.0010025537000011298
+Honduras,LTSNEW,new capacity summed over the horizon (GW),PPBIM,0.049467899999999995,0.0514258,0.0019579000000000055
+Honduras,LTSNEW,new capacity summed over the horizon (GW),PPCOK,0.019433894,0.019868419999999998,0.0004345259999999976
+Honduras,LTSNEW,new capacity summed over the horizon (GW),PPFOI,0.5594203,0.5607958129999999,0.0013755129999999394
+Honduras,LTSNEW,new capacity summed over the horizon (GW),PPGEO,0.012681540000000002,0.01286539,0.0001838499999999993
+Honduras,LTSNEW,new capacity summed over the horizon (GW),PPGTDSL,0.0007454714000000001,0.000745471,-4.0000000002798214e-10
+Honduras,LTSNEW,new capacity summed over the horizon (GW),PPGTGLP,0.00011634,0.0,-0.00011634
+Honduras,LTSNEW,new capacity summed over the horizon (GW),PPHROR,0.0788356,0.0410761,-0.03775950000000001
+Honduras,LTSNEW,new capacity summed over the horizon (GW),PPICEDSL,0.000326086,0.0,-0.000326086
+Honduras,LTSNEW,new capacity summed over the horizon (GW),PPNGS,2.2747975,2.2725225,-0.002275000000000027
+Honduras,LTSNEW,new capacity summed over the horizon (GW),PPPVD,2.88552952,2.8887164,0.003186879999999892
+Honduras,LTSNEW,new capacity summed over the horizon (GW),PPPVT,7.51957271,6.9997242,-0.5198485100000001
+Honduras,LTSNEW,new capacity summed over the horizon (GW),PPWNDON,3.67454708,3.51492571,-0.15962136999999998
+Jamaica,BAU,solve status,,OPTIMAL,OPTIMAL,
+Jamaica,BAU,objective,OFL_Cost / cost,65080.5432,64972.12984,-108.41335999999865
+Jamaica,BAU,RE share,2030,0.138444,0.13874,0.0002959999999999907
+Jamaica,BAU,RE share,2035,0.181964,0.182609,0.0006450000000000067
+Jamaica,BAU,RE share,2050,0.292985,0.292985,0.0
+Jamaica,BAU,share validation,PASS,231,228,-3
+Jamaica,BAU,share validation,WARN,17,20,3
+Jamaica,BAU,share validation,FAIL,0,0,0
+Jamaica,BAU,emissions (sum of AnnualEmissions),2030,12.645319099999998,12.6453791,6.000000000128125e-05
+Jamaica,BAU,emissions (sum of AnnualEmissions),2050,15.3479138,15.3479138,0.0
+Jamaica,BAU,new capacity summed over the horizon (GW),PPDSL,0.1591647874,0.1591647874,0.0
+Jamaica,BAU,new capacity summed over the horizon (GW),PPFOI,0.3567777833,0.356777941,1.5770000000303597e-07
+Jamaica,BAU,new capacity summed over the horizon (GW),PPHDAM,0.00413936,0.00413936,0.0
+Jamaica,BAU,new capacity summed over the horizon (GW),PPHROR,0.050474481,0.03445122,-0.016023261000000004
+Jamaica,BAU,new capacity summed over the horizon (GW),PPNGS,0.061021365,0.061021365,0.0
+Jamaica,BAU,new capacity summed over the horizon (GW),PPPVT,0.657533024,0.656745594,-0.0007874300000000334
+Jamaica,BAU,new capacity summed over the horizon (GW),PPWNDON,0.075510867,0.075228197,-0.00028266999999999876
+Jamaica,NDCNEW,solve status,,OPTIMAL,OPTIMAL,
+Jamaica,NDCNEW,objective,OFL_Cost / cost,61693.21265,61507.30156,-185.91109000000142
+Jamaica,NDCNEW,RE share,2030,0.391141,0.391141,0.0
+Jamaica,NDCNEW,RE share,2035,0.750072,0.750266,0.00019400000000002748
+Jamaica,NDCNEW,RE target met (2 pp tolerance),2035 target 0.75,yes,yes,
+Jamaica,NDCNEW,RE share,2050,0.750056,0.750056,0.0
+Jamaica,NDCNEW,RE target met (2 pp tolerance),2050 target 0.75,yes,yes,
+Jamaica,NDCNEW,share validation,PASS,228,228,0
+Jamaica,NDCNEW,share validation,WARN,14,14,0
+Jamaica,NDCNEW,share validation,FAIL,6,6,0
+Jamaica,NDCNEW,emissions (sum of AnnualEmissions),2030,11.0915391,11.0915391,0.0
+Jamaica,NDCNEW,emissions (sum of AnnualEmissions),2050,11.4809618,11.4809618,0.0
+Jamaica,NDCNEW,new capacity summed over the horizon (GW),PPDSL,0.185772993,0.197779158,0.012006165000000013
+Jamaica,NDCNEW,new capacity summed over the horizon (GW),PPFOI,0.24300835099999998,0.243008351,2.7755575615628914e-17
+Jamaica,NDCNEW,new capacity summed over the horizon (GW),PPHDAM,0.0,0.00413936,0.00413936
+Jamaica,NDCNEW,new capacity summed over the horizon (GW),PPHROR,0.050574097000000005,0.03445122,-0.016122877000000008
+Jamaica,NDCNEW,new capacity summed over the horizon (GW),PPNGS,0.0387179,0.0208751,-0.0178428
+Jamaica,NDCNEW,new capacity summed over the horizon (GW),PPPVT,2.33683892,2.335255474,-0.0015834459999997108
+Jamaica,NDCNEW,new capacity summed over the horizon (GW),PPWNDON,0.68160408,0.667273407,-0.014330672999999905
+Jamaica,LTSNEW,solve status,,OPTIMAL,OPTIMAL,
+Jamaica,LTSNEW,objective,OFL_Cost / cost,59668.06215,59477.7694,-190.29275000000052
+Jamaica,LTSNEW,RE share,2030,0.391138,0.391138,0.0
+Jamaica,LTSNEW,RE share,2035,0.750032,0.750251,0.00021899999999996922
+Jamaica,LTSNEW,RE target met (2 pp tolerance),2035 target 0.75,yes,yes,
+Jamaica,LTSNEW,RE share,2050,0.990001,0.990001,0.0
+Jamaica,LTSNEW,RE target met (2 pp tolerance),2050 target 0.99,yes,yes,
+Jamaica,LTSNEW,share validation,PASS,246,244,-2
+Jamaica,LTSNEW,share validation,WARN,2,4,2
+Jamaica,LTSNEW,share validation,FAIL,0,0,0
+Jamaica,LTSNEW,emissions (sum of AnnualEmissions),2030,11.018919100000002,11.018919100000002,0.0
+Jamaica,LTSNEW,emissions (sum of AnnualEmissions),2050,4.7968027,4.7968027,0.0
+Jamaica,LTSNEW,new capacity summed over the horizon (GW),PPDSL,0.57323076,0.585236768,0.012006008000000068
+Jamaica,LTSNEW,new capacity summed over the horizon (GW),PPFOI,0.1840048,0.18400483,3.00000000119649e-08
+Jamaica,LTSNEW,new capacity summed over the horizon (GW),PPHDAM,0.0,0.00413936,0.00413936
+Jamaica,LTSNEW,new capacity summed over the horizon (GW),PPHROR,0.050574097000000005,0.03445122,-0.016122877000000008
+Jamaica,LTSNEW,new capacity summed over the horizon (GW),PPNGS,0.0387179,0.0208751,-0.0178428
+Jamaica,LTSNEW,new capacity summed over the horizon (GW),PPPVT,3.597697719,3.596114904,-0.0015828150000003482
+Jamaica,LTSNEW,new capacity summed over the horizon (GW),PPWNDON,1.09320011,1.092624297,-0.0005758129999999806

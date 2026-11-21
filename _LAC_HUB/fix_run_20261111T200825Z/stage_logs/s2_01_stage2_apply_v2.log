@@ -1,0 +1,66 @@
+$ python stage2_apply_v2.py --root . --stage0-denom _STAGE0_OUTPUT\STAGE0_DENOMINATORS.xlsx
+======================================================================
+STAGE 2 APPLY v2
+  Stage 1: _STAGE1_OUTPUT\CONTROLLER_NEW_SCENARIOS.xlsx
+  Overrides: _STAGE2_INPUTS
+  Root: .
+  Output: _STAGE2_OUTPUT\CONTROLLER_NEW_SCENARIOS.xlsx
+======================================================================
+
+[1/6] Loading Stage 1 CONTROLLER...
+  303 rows, years 2018-2055
+
+[2/6] Loading overrides...
+[Overrides] 2258 anchor points from 6 files
+  CostaRica: 189 points, years 2018-2024
+  DominicanRepublic: 114 points, years 2018-2019
+  Ecuador: 38 points, years 2025-2050
+  Guatemala: 1386 points, years 2018-2050
+  Honduras: 315 points, years 2018-2026
+  Jamaica: 216 points, years 2018-2026
+
+[3/6] Loading total generation (Stage 0 empirical)...
+  Loaded 684 (c,s,y) entries from STAGE0_DENOMINATORS.xlsx
+  CostaRica BAU: 48.8 PJ (2024) → 85.6 PJ (2050) [+75%]
+  DominicanRepublic BAU: 94.6 PJ (2024) → 226.8 PJ (2050) [+140%]
+  Ecuador BAU: 127.3 PJ (2024) → 201.8 PJ (2050) [+58%]
+  Guatemala BAU: 43.5 PJ (2024) → 135.9 PJ (2050) [+212%]
+  Honduras BAU: 44.3 PJ (2024) → 102.7 PJ (2050) [+132%]
+  Jamaica BAU: 15.4 PJ (2024) → 21.1 PJ (2050) [+37%]
+
+[4/6] Loading B1 data (MinCapInvest, CF, AF)...
+  Ecuador: 9 techs with MinCapInvest across scenarios
+  Guatemala: 27 techs with MinCapInvest across scenarios
+  Jamaica: 11 techs with MinCapInvest across scenarios
+
+[5/6] Applying corrections + forward rebase...
+  [Skip] 1043 CSV forward-year overrides (rules handle 2027+)
+  [Policy] Enforced RE targets at 24 (c,s,y) tuples
+
+  Share sum check (sample):
+  CostaRica            BAU      2024: sum=1.0000 [OK] RE=0.8941
+  CostaRica            BAU      2050: sum=1.0000 [OK] RE=0.8941
+  CostaRica            NDCNEW   2024: sum=1.0000 [OK] RE=0.8941
+  CostaRica            NDCNEW   2050: sum=1.0000 [OK] RE=0.9000
+  CostaRica            LTSNEW   2024: sum=1.0000 [OK] RE=0.8941
+  CostaRica            LTSNEW   2050: sum=1.0000 [OK] RE=0.9900
+  DominicanRepublic    BAU      2024: sum=1.0000 [OK] RE=0.1586
+  DominicanRepublic    BAU      2050: sum=1.0000 [OK] RE=0.3389
+  DominicanRepublic    NDCNEW   2024: sum=1.0000 [OK] RE=0.1586
+  DominicanRepublic    NDCNEW   2050: sum=1.0000 [OK] RE=0.7500
+  DominicanRepublic    LTSNEW   2024: sum=1.0000 [OK] RE=0.1586
+  DominicanRepublic    LTSNEW   2050: sum=1.0000 [OK] RE=0.9900
+  Ecuador              BAU      2024: sum=1.0000 [OK] RE=0.7565
+  Ecuador              BAU      2050: sum=1.0000 [OK] RE=0.8087
+  Ecuador              NDCNEW   2024: sum=1.0000 [OK] RE=0.7565
+  Ecuador              NDCNEW   2050: sum=1.0000 [OK] RE=0.8087
+  Ecuador              LTSNEW   2024: sum=1.0000 [OK] RE=0.7565
+  Ecuador              LTSNEW   2050: sum=1.0000 [OK] RE=0.9900
+
+[6/6] Recalculating limits + writing...
+
+[Wrote] _STAGE2_OUTPUT\CONTROLLER_NEW_SCENARIOS.xlsx
+  Rows: 303
+  Years: 2018-2055
+
+[DONE] Stage 2 CONTROLLER at _STAGE2_OUTPUT\CONTROLLER_NEW_SCENARIOS.xlsx

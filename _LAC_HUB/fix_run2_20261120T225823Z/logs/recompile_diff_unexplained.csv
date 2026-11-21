@@ -1,0 +1,9 @@
+country,stage,scenario,parameter,technology,years,n,one_sided,max_abs,reason
+CostaRica,B1,NDCNEW,TotalAnnualMaxCapacity,PWRSUG,2021-2050,30,30,1000000000.0,D2 row (check from 2025)
+CostaRica,B1,LTSNEW,TotalAnnualMaxCapacity,PWRSUG,2021-2050,30,30,1000000000.0,D2 row (check from 2025)
+Honduras,B1,NDCNEW,TotalAnnualMaxCapacity,TRBPUGSL,2018-2050,33,33,1000000000.0,D2 row (check from 2025)
+Honduras,B1,LTSNEW,TotalAnnualMaxCapacity,TRBPUGSL,2018-2050,33,33,1000000000.0,D2 row (check from 2025)
+Jamaica,B1,NDCNEW,EmissionActivityRatio,T5DSLTRO,2021-2055,35,0,0.0011758,D2 row (check from 2025)
+Jamaica,B1,NDCNEW,EmissionActivityRatio,T5GSLTRO,2021-2055,35,0,0.0011429999999999,D2 row (check from 2025)
+Jamaica,B1,LTSNEW,EmissionActivityRatio,T5DSLTRO,2021-2055,35,0,0.0011758,D2 row (check from 2025)
+Jamaica,B1,LTSNEW,EmissionActivityRatio,T5GSLTRO,2021-2055,35,0,0.0011429999999999,D2 row (check from 2025)

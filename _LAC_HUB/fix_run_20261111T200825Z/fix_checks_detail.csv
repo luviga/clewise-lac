@@ -1,0 +1,77 @@
+check,country,item,year,value,note
+history_pp_activity,CostaRica,PWRBMS,2021,0.2097,BAU 0.450 / NDCNEW 0.241 / LTSNEW 0.241
+history_pp_activity,CostaRica,PWRBMS,2022,0.2516,BAU 0.450 / NDCNEW 0.199 / LTSNEW 0.199
+history_pp_activity,CostaRica,PWRBMS,2023,0.2518,BAU 0.450 / NDCNEW 0.199 / LTSNEW 0.199
+history_pp_activity,CostaRica,PWRBMS,2024,0.2352,BAU 0.450 / NDCNEW 0.215 / LTSNEW 0.215
+history_pp_activity,CostaRica,PWRGEO,2023,0.116,BAU 5.348 / NDCNEW 5.232 / LTSNEW 5.232
+history_pp_activity,CostaRica,PWRGEO,2024,0.6463,BAU 5.879 / NDCNEW 5.232 / LTSNEW 5.232
+history_pp_activity,CostaRica,PWRHYDDAM,2022,0.1343,BAU 13.706 / NDCNEW 13.572 / LTSNEW 13.572
+history_pp_activity,CostaRica,PWRHYDROR,2023,1.3839,BAU 17.636 / NDCNEW 16.252 / LTSNEW 16.252
+history_pp_activity,CostaRica,PWRHYDROR,2024,1.3839,BAU 17.636 / NDCNEW 16.252 / LTSNEW 16.252
+history_pp_activity,CostaRica,PWRSUG,2021,0.3482,BAU 0.000 / NDCNEW 0.348 / LTSNEW 0.348
+history_pp_activity,CostaRica,PWRSUG,2022,1.6502,BAU 0.000 / NDCNEW 1.650 / LTSNEW 1.650
+history_pp_activity,CostaRica,PWRSUG,2023,6.1082,BAU 0.000 / NDCNEW 2.617 / LTSNEW 6.108
+history_pp_activity,CostaRica,PWRSUG,2024,3.2547,BAU 0.000 / NDCNEW 3.255 / LTSNEW 3.255
+history_pp_activity,CostaRica,PWRWNONS,2021,0.1309,BAU 5.332 / NDCNEW 5.201 / LTSNEW 5.201
+history_pp_activity,CostaRica,PWRWNONS,2022,1.2261,BAU 6.127 / NDCNEW 4.901 / LTSNEW 4.901
+history_pp_activity,CostaRica,PWRWNONS,2023,0.7214,BAU 5.923 / NDCNEW 5.201 / LTSNEW 5.201
+history_pp_activity,CostaRica,PWRWNONS,2024,0.7483,BAU 6.144 / NDCNEW 5.396 / LTSNEW 5.396
+history_pp_activity,DominicanRepublic,PPCCTNGS,2023,0.173,BAU 18.537 / NDCNEW 18.710 / LTSNEW 18.710
+history_pp_activity,DominicanRepublic,PPCOA,2018,0.4338,BAU 10.020 / NDCNEW 10.454 / LTSNEW 10.278
+history_pp_activity,DominicanRepublic,PPDBIM,2018,0.1786,BAU 0.228 / NDCNEW 0.050 / LTSNEW 0.050
+history_pp_activity,DominicanRepublic,PPDBIM,2021,0.1789,BAU 0.229 / NDCNEW 0.050 / LTSNEW 0.050
+history_pp_activity,DominicanRepublic,PPDBIM,2022,0.1933,BAU 0.248 / NDCNEW 0.055 / LTSNEW 0.055
+history_pp_activity,DominicanRepublic,PPDHYD,2018,0.1792,BAU 0.228 / NDCNEW 0.049 / LTSNEW 0.049
+history_pp_activity,DominicanRepublic,PPDHYD,2019,0.1792,BAU 0.228 / NDCNEW 0.049 / LTSNEW 0.049
+history_pp_activity,DominicanRepublic,PPDHYD,2020,0.1774,BAU 0.228 / NDCNEW 0.051 / LTSNEW 0.051
+history_pp_activity,DominicanRepublic,PPDHYD,2021,0.1774,BAU 0.228 / NDCNEW 0.051 / LTSNEW 0.051
+history_pp_activity,DominicanRepublic,PPDHYD,2022,0.1774,BAU 0.228 / NDCNEW 0.051 / LTSNEW 0.051
+history_pp_activity,DominicanRepublic,PPDHYD,2023,0.1767,BAU 0.228 / NDCNEW 0.051 / LTSNEW 0.051
+history_pp_activity,DominicanRepublic,PPDHYD,2024,0.1695,BAU 0.228 / NDCNEW 0.059 / LTSNEW 0.059
+history_pp_activity,DominicanRepublic,PPICEFOI,2019,0.2671,BAU 24.200 / NDCNEW 24.467 / LTSNEW 24.467
+history_pp_activity,DominicanRepublic,PPICEFOI,2020,0.4081,BAU 13.301 / NDCNEW 13.709 / LTSNEW 13.578
+history_pp_activity,DominicanRepublic,PPICEFOI,2024,0.1919,BAU 13.587 / NDCNEW 13.779 / LTSNEW 13.778
+history_pp_activity,DominicanRepublic,PPICEGASFOI,2020,0.1075,BAU 7.812 / NDCNEW 7.812 / LTSNEW 7.920
+history_pp_activity,DominicanRepublic,PPICEGASFOI,2023,0.1797,BAU 12.375 / NDCNEW 12.554 / LTSNEW 12.554
+history_pp_activity,DominicanRepublic,PPWNDON,2021,0.0634,BAU 4.406 / NDCNEW 4.343 / LTSNEW 4.343
+history_pp_activity,Ecuador,PPHRORAS,2022,3.4558,BAU 12.280 / NDCNEW 12.317 / LTSNEW 8.861
+history_pp_activity,Ecuador,PPHRORPM,2022,3.4566,BAU 6.947 / NDCNEW 6.910 / LTSNEW 10.366
+ecuador_crude_balance,Ecuador,BAU,2021,0.0,"extraction 997.41, imports 8.89, refinery 327.61, exports 678.69 PJ (export demand 678.69)"
+ecuador_crude_balance,Ecuador,BAU,2022,-0.003,"extraction 1014.44, imports 7.57, refinery 346.49, exports 675.52 PJ (export demand 675.52)"
+ecuador_crude_balance,Ecuador,BAU,2024,-0.005,"extraction 1005.22, imports 53.95, refinery 329.25, exports 729.92 PJ (export demand 729.92)"
+ecuador_crude_balance,Ecuador,BAU,2030,-0.0,"extraction 929.41, imports 55.72, refinery 329.25, exports 655.88 PJ (export demand 655.88)"
+ecuador_crude_balance,Ecuador,BAU,2035,-0.0,"extraction 631.97, imports 111.33, refinery 329.25, exports 414.05 PJ (export demand 414.05)"
+ecuador_crude_balance,Ecuador,BAU,2040,0.0,"extraction 619.33, imports 0.00, refinery 329.25, exports 290.08 PJ (export demand 0.00)"
+ecuador_crude_balance,Ecuador,BAU,2050,0.0,"extraction 619.33, imports 0.00, refinery 329.25, exports 290.08 PJ (export demand 0.00)"
+ecuador_crude_balance,Ecuador,NDCNEW,2021,0.0,"extraction 997.41, imports 8.89, refinery 327.61, exports 678.69 PJ (export demand 678.69)"
+ecuador_crude_balance,Ecuador,NDCNEW,2022,-0.003,"extraction 1014.44, imports 7.57, refinery 346.49, exports 675.52 PJ (export demand 675.52)"
+ecuador_crude_balance,Ecuador,NDCNEW,2024,-0.005,"extraction 1005.22, imports 53.95, refinery 329.25, exports 729.92 PJ (export demand 729.92)"
+ecuador_crude_balance,Ecuador,NDCNEW,2030,-0.0,"extraction 929.41, imports 55.72, refinery 329.25, exports 655.88 PJ (export demand 655.88)"
+ecuador_crude_balance,Ecuador,NDCNEW,2035,-0.0,"extraction 631.97, imports 111.33, refinery 329.25, exports 414.05 PJ (export demand 414.05)"
+ecuador_crude_balance,Ecuador,NDCNEW,2040,0.0,"extraction 619.33, imports 0.00, refinery 329.25, exports 290.08 PJ (export demand 0.00)"
+ecuador_crude_balance,Ecuador,NDCNEW,2050,0.0,"extraction 619.33, imports 0.00, refinery 329.25, exports 290.08 PJ (export demand 0.00)"
+ecuador_crude_balance,Ecuador,LTSNEW,2021,0.0,"extraction 997.41, imports 8.89, refinery 327.61, exports 678.69 PJ (export demand 678.69)"
+ecuador_crude_balance,Ecuador,LTSNEW,2022,-0.003,"extraction 1014.44, imports 7.57, refinery 346.49, exports 675.52 PJ (export demand 675.52)"
+ecuador_crude_balance,Ecuador,LTSNEW,2024,-0.005,"extraction 1005.22, imports 53.95, refinery 329.25, exports 729.92 PJ (export demand 729.92)"
+ecuador_crude_balance,Ecuador,LTSNEW,2030,-0.0,"extraction 929.41, imports 55.72, refinery 329.25, exports 655.88 PJ (export demand 655.88)"
+ecuador_crude_balance,Ecuador,LTSNEW,2035,-0.0,"extraction 631.97, imports 111.33, refinery 329.25, exports 414.05 PJ (export demand 414.05)"
+ecuador_crude_balance,Ecuador,LTSNEW,2040,0.0,"extraction 619.33, imports 0.00, refinery 329.25, exports 290.08 PJ (export demand 0.00)"
+ecuador_crude_balance,Ecuador,LTSNEW,2050,0.0,"extraction 619.33, imports 0.00, refinery 329.25, exports 290.08 PJ (export demand 0.00)"
+hydro_output_PJ,CostaRica,BAU,2026/2030/2040/2050,,35.279 / 35.297 / 35.279 / 35.279
+hydro_output_PJ,CostaRica,LTSNEW,2026/2030/2040/2050,,35.442 / 35.443 / 35.442 / 35.442
+hydro_output_PJ,CostaRica,NDCNEW,2026/2030/2040/2050,,35.442 / 35.442 / 35.442 / 35.442
+hydro_output_PJ,DominicanRepublic,BAU,2026/2030/2040/2050,,4.531 / 4.531 / 4.531 / 4.531
+hydro_output_PJ,DominicanRepublic,LTSNEW,2026/2030/2040/2050,,4.524 / 4.524 / 4.524 / 4.524
+hydro_output_PJ,DominicanRepublic,NDCNEW,2026/2030/2040/2050,,4.524 / 4.524 / 4.524 / 4.524
+hydro_output_PJ,Ecuador,BAU,2026/2030/2040/2050,,91.394 / 91.756 / 91.579 / 91.579
+hydro_output_PJ,Ecuador,LTSNEW,2026/2030/2040/2050,,91.421 / 91.881 / 91.577 / 91.577
+hydro_output_PJ,Ecuador,NDCNEW,2026/2030/2040/2050,,91.423 / 91.896 / 91.577 / 91.577
+hydro_output_PJ,Guatemala,BAU,2026/2030/2040/2050,,21.134 / 24.294 / 24.294 / 24.294
+hydro_output_PJ,Guatemala,LTSNEW,2026/2030/2040/2050,,24.115 / 27.275 / 27.275 / 27.275
+hydro_output_PJ,Guatemala,NDCNEW,2026/2030/2040/2050,,24.120 / 27.280 / 27.280 / 27.280
+hydro_output_PJ,Honduras,BAU,2026/2030/2040/2050,,13.727 / 13.727 / 13.609 / 13.609
+hydro_output_PJ,Honduras,LTSNEW,2026/2030/2040/2050,,13.748 / 13.748 / 13.658 / 13.658
+hydro_output_PJ,Honduras,NDCNEW,2026/2030/2040/2050,,13.747 / 13.747 / 13.657 / 13.657
+hydro_output_PJ,Jamaica,BAU,2026/2030/2040/2050,,0.413 / 0.938 / 1.001 / 0.984
+hydro_output_PJ,Jamaica,LTSNEW,2026/2030/2040/2050,,0.397 / 0.929 / 1.003 / 0.989
+hydro_output_PJ,Jamaica,NDCNEW,2026/2030/2040/2050,,0.416 / 0.949 / 1.003 / 0.989

@@ -1,0 +1,17 @@
+$ python stage0_test.py
+============================================================
+Stage 0 Tests
+============================================================
+  [PASS] 1: Historical unchanged
+  [PASS] 2: Projection at anchor
+  [PASS] 3: Non-PP unchanged
+  [PASS] 4: Other params untouched
+  [PASS] 5: Zero mode
+  [PASS] 6: Change count=12
+  [PASS] 7: Upper limit sentinel
+  [PASS] 8: PP prefix detection
+  [PASS] 9: tech_filter restricts to subset
+  [PASS] 10: Bypass re-patch overrides sentinel
+
+============================================================
+10/10 passed

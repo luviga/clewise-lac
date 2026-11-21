@@ -1,0 +1,10 @@
+test_apply_verify_and_restore_on_tiny_workbook (test_ao_cost_repair_manager.AoCostRepairManagerTests.test_apply_verify_and_restore_on_tiny_workbook) ... ok
+test_charcoal_does_not_match_steam_coal_fuel_code (test_ao_cost_repair_manager.AoCostRepairManagerTests.test_charcoal_does_not_match_steam_coal_fuel_code) ... ok
+test_fuel_series_reads_and_converts_to_musd_per_pj (test_ao_cost_repair_manager.AoCostRepairManagerTests.test_fuel_series_reads_and_converts_to_musd_per_pj) ... ok
+test_smart_mapping_matches_same_name_different_tech_id (test_ao_cost_repair_manager.AoCostRepairManagerTests.test_smart_mapping_matches_same_name_different_tech_id) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.212s
+
+OK
+exit 0

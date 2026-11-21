@@ -1,0 +1,907 @@
+country,stage,scenario,parameter,key,kind,c42ae07,recompiled,allowed
+CostaRica,B1,BAU,SpecifiedAnnualDemand,SpecifiedAnnualDemand|BAU|CR||E5INDCOA|||2021|||||,value,0.675,0.0067,R2 E5INDCOA 2021
+CostaRica,B1,NDCNEW,SpecifiedAnnualDemand,SpecifiedAnnualDemand|NDCNEW|CR||E5INDCOA|||2021|||||,value,0.675,0.0067,R2 E5INDCOA 2021
+CostaRica,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|CR|PWRBMS||||2021|||||,value,0.071,0.1412,R6 history change
+CostaRica,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|CR|PWRBMS||||2022|||||,value,0.071,0.1412,R6 history change
+CostaRica,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|CR|PWRBMS||||2023|||||,value,0.071,0.1412,R6 history change
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|CR|PWRBMS||||2022|||||,value,0.1988,0.1987,R6 history change
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|CR|PWRBMS||||2023|||||,value,0.199,0.1985,R6 history change
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|CR|PWRBMS||||2024|||||,value,0.2161,0.2151,R6 history change
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|CR|PWRHYDDAM||||2021|||||,only_b,,13.5037,R6 history change
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|CR|PWRHYDDAM||||2022|||||,only_b,,13.8471,R6 history change
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|CR|PWRHYDDAM||||2023|||||,only_b,,13.9885,R6 history change
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|CR|PWRHYDDAM||||2025|||||,only_b,,99999.0,R6 history-only row: B1 default from 2025 (no effect)
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|CR|PWRHYDDAM||||2026|||||,only_b,,99999.0,R6 history-only row: B1 default from 2025 (no effect)
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|CR|PWRHYDDAM||||2027|||||,only_b,,99999.0,R6 history-only row: B1 default from 2025 (no effect)
+CostaRica,B1,LTSNEW,SpecifiedAnnualDemand,SpecifiedAnnualDemand|LTSNEW|CR||E5INDCOA|||2021|||||,value,0.675,0.0067,R2 E5INDCOA 2021
+CostaRica,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|CR|PWRBMS||||2021|||||,value,0.071,0.1412,R6 history change
+CostaRica,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|CR|PWRBMS||||2022|||||,value,0.071,0.1412,R6 history change
+CostaRica,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|CR|PWRBMS||||2023|||||,value,0.071,0.1412,R6 history change
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|CR|PWRBMS||||2022|||||,value,0.1988,0.1987,R6 history change
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|CR|PWRBMS||||2023|||||,value,0.199,0.1985,R6 history change
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|CR|PWRBMS||||2024|||||,value,0.2161,0.2151,R6 history change
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|CR|PWRHYDDAM||||2021|||||,only_b,,13.5037,R6 history change
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|CR|PWRHYDDAM||||2022|||||,only_b,,13.8471,R6 history change
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|CR|PWRHYDDAM||||2023|||||,only_b,,13.9885,R6 history change
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|CR|PWRHYDDAM||||2025|||||,only_b,,99999.0,R6 history-only row: B1 default from 2025 (no effect)
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|CR|PWRHYDDAM||||2026|||||,only_b,,99999.0,R6 history-only row: B1 default from 2025 (no effect)
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|CR|PWRHYDDAM||||2027|||||,only_b,,99999.0,R6 history-only row: B1 default from 2025 (no effect)
+CostaRica,B1 data file,BAU,SpecifiedAnnualDemand,CR|E5INDCOA|2021,value,0.675,0.0067,R2 E5INDCOA 2021
+CostaRica,B1 data file,NDCNEW,SpecifiedAnnualDemand,CR|E5INDCOA|2021,value,0.675,0.0067,R2 E5INDCOA 2021
+CostaRica,B1 data file,NDCNEW,TotalAnnualMaxCapacity,CR|PWRWNONS|2023,value,0.4082,0.8061,R6 history change
+CostaRica,B1 data file,NDCNEW,TotalAnnualMaxCapacity,CR|PWRBMS|2022,value,0.071,0.1412,R6 history change
+CostaRica,B1 data file,NDCNEW,TotalAnnualMaxCapacity,CR|PWRWNONS|2021,value,0.3761,0.748,R6 history change
+CostaRica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,CR|PWRWNONS|2023,value,5.2155,5.2014,R6 history change
+CostaRica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,CR|PWRBMS|2022,value,0.1988,0.1987,R6 history change
+CostaRica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,CR|PWRWNONS|2021,value,5.1126,5.2012,R6 history change
+CostaRica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,CR|PWRHYDDAM|2023,value,99999.0,13.9885,R6 history change
+CostaRica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,CR|PWRHYDDAM|2024,value,99999.0,13.9885,R6 history change
+CostaRica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,CR|PWRHYDDAM|2022,value,99999.0,13.8471,R6 history change
+CostaRica,B1 data file,LTSNEW,SpecifiedAnnualDemand,CR|E5INDCOA|2021,value,0.675,0.0067,R2 E5INDCOA 2021
+CostaRica,B1 data file,LTSNEW,TotalAnnualMaxCapacity,CR|PWRWNONS|2023,value,0.4082,0.8061,R6 history change
+CostaRica,B1 data file,LTSNEW,TotalAnnualMaxCapacity,CR|PWRBMS|2022,value,0.071,0.1412,R6 history change
+CostaRica,B1 data file,LTSNEW,TotalAnnualMaxCapacity,CR|PWRWNONS|2021,value,0.3761,0.748,R6 history change
+CostaRica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,CR|PWRWNONS|2023,value,5.2156,5.2014,R6 history change
+CostaRica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,CR|PWRBMS|2022,value,0.1988,0.1987,R6 history change
+CostaRica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,CR|PWRWNONS|2021,value,5.1126,5.2012,R6 history change
+CostaRica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,CR|PWRHYDDAM|2023,value,99999.0,13.9885,R6 history change
+CostaRica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,CR|PWRHYDDAM|2024,value,99999.0,13.9885,R6 history change
+CostaRica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,CR|PWRHYDDAM|2022,value,99999.0,13.8471,R6 history change
+DominicanRepublic,A2,BAU,CapitalCost,CapitalCost|BAU|RD|ELE_TRANS||||2018|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,BAU,CapitalCost,CapitalCost|BAU|RD|ELE_TRANS||||2019|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,BAU,CapitalCost,CapitalCost|BAU|RD|ELE_TRANS||||2020|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,BAU,FixedCost,FixedCost|BAU|RD|ELE_DIST||||2018|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,A2,BAU,FixedCost,FixedCost|BAU|RD|ELE_DIST||||2019|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,A2,BAU,FixedCost,FixedCost|BAU|RD|ELE_DIST||||2020|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,A2,BAU,FixedCost,FixedCost|BAU|RD|PPADSL||||2018|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,BAU,FixedCost,FixedCost|BAU|RD|PPADSL||||2019|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,BAU,FixedCost,FixedCost|BAU|RD|PPADSL||||2020|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,BAU,VariableCost,VariableCost|BAU|RD|PPADSL|||1|2018|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,BAU,VariableCost,VariableCost|BAU|RD|PPADSL|||1|2019|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,BAU,VariableCost,VariableCost|BAU|RD|PPADSL|||1|2020|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,NDCNEW,CapitalCost,CapitalCost|NDCcond|RD|ELE_TRANS||||2018|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,NDCNEW,CapitalCost,CapitalCost|NDCcond|RD|ELE_TRANS||||2019|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,NDCNEW,CapitalCost,CapitalCost|NDCcond|RD|ELE_TRANS||||2020|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,NDCNEW,FixedCost,FixedCost|NDCcond|RD|ELE_DIST||||2018|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,A2,NDCNEW,FixedCost,FixedCost|NDCcond|RD|ELE_DIST||||2019|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,A2,NDCNEW,FixedCost,FixedCost|NDCcond|RD|ELE_DIST||||2020|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,A2,NDCNEW,FixedCost,FixedCost|NDCcond|RD|PPADSL||||2018|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,NDCNEW,FixedCost,FixedCost|NDCcond|RD|PPADSL||||2019|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,NDCNEW,FixedCost,FixedCost|NDCcond|RD|PPADSL||||2020|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,NDCNEW,VariableCost,VariableCost|NDCcond|RD|PPADSL|||1|2018|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,NDCNEW,VariableCost,VariableCost|NDCcond|RD|PPADSL|||1|2019|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,NDCNEW,VariableCost,VariableCost|NDCcond|RD|PPADSL|||1|2020|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,LTSNEW,CapitalCost,CapitalCost|NDCcond|RD|ELE_TRANS||||2018|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,LTSNEW,CapitalCost,CapitalCost|NDCcond|RD|ELE_TRANS||||2019|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,LTSNEW,CapitalCost,CapitalCost|NDCcond|RD|ELE_TRANS||||2020|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,LTSNEW,FixedCost,FixedCost|NDCcond|RD|ELE_DIST||||2018|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,A2,LTSNEW,FixedCost,FixedCost|NDCcond|RD|ELE_DIST||||2019|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,A2,LTSNEW,FixedCost,FixedCost|NDCcond|RD|ELE_DIST||||2020|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,A2,LTSNEW,FixedCost,FixedCost|NDCcond|RD|PPADSL||||2018|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,LTSNEW,FixedCost,FixedCost|NDCcond|RD|PPADSL||||2019|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,LTSNEW,FixedCost,FixedCost|NDCcond|RD|PPADSL||||2020|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,LTSNEW,VariableCost,VariableCost|NDCcond|RD|PPADSL|||1|2018|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,LTSNEW,VariableCost,VariableCost|NDCcond|RD|PPADSL|||1|2019|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,A2,LTSNEW,VariableCost,VariableCost|NDCcond|RD|PPADSL|||1|2020|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,BAU,CapitalCost,CapitalCost|BAU|RD|ELE_TRANS||||2018|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,BAU,CapitalCost,CapitalCost|BAU|RD|ELE_TRANS||||2019|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,BAU,CapitalCost,CapitalCost|BAU|RD|ELE_TRANS||||2020|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,BAU,FixedCost,FixedCost|BAU|RD|ELE_DIST||||2018|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1,BAU,FixedCost,FixedCost|BAU|RD|ELE_DIST||||2019|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1,BAU,FixedCost,FixedCost|BAU|RD|ELE_DIST||||2020|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1,BAU,FixedCost,FixedCost|BAU|RD|PPADSL||||2018|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,BAU,FixedCost,FixedCost|BAU|RD|PPADSL||||2019|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,BAU,FixedCost,FixedCost|BAU|RD|PPADSL||||2020|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,BAU,VariableCost,VariableCost|BAU|RD|PPADSL|||1|2018|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,BAU,VariableCost,VariableCost|BAU|RD|PPADSL|||1|2019|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,BAU,VariableCost,VariableCost|BAU|RD|PPADSL|||1|2020|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,NDCNEW,CapitalCost,CapitalCost|NDCNEW|RD|ELE_TRANS||||2018|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,NDCNEW,CapitalCost,CapitalCost|NDCNEW|RD|ELE_TRANS||||2019|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,NDCNEW,CapitalCost,CapitalCost|NDCNEW|RD|ELE_TRANS||||2020|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,NDCNEW,EmissionActivityRatio,EmissionActivityRatio|NDCNEW|RD|PPCCTDSL||CO2e_PP|1|2018|||||,value,0.17666665200000004,0.1767,R6 history change
+DominicanRepublic,B1,NDCNEW,EmissionActivityRatio,EmissionActivityRatio|NDCNEW|RD|PPCCTDSL||CO2e_PP|1|2019|||||,value,0.17666665200000004,0.1961,R6 history change
+DominicanRepublic,B1,NDCNEW,EmissionActivityRatio,EmissionActivityRatio|NDCNEW|RD|PPCCTDSL||CO2e_PP|1|2020|||||,value,0.17666665200000004,0.2664,R6 history change
+DominicanRepublic,B1,NDCNEW,EmissionActivityRatio,EmissionActivityRatio|NDCNEW|RD|PPCCTDSL||CO2e_PP|1|2025|||||,value,0.17666665200000004,0.1767,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+DominicanRepublic,B1,NDCNEW,EmissionActivityRatio,EmissionActivityRatio|NDCNEW|RD|PPCCTDSL||CO2e_PP|1|2026|||||,value,0.17666665200000004,0.1767,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+DominicanRepublic,B1,NDCNEW,EmissionActivityRatio,EmissionActivityRatio|NDCNEW|RD|PPCCTDSL||CO2e_PP|1|2027|||||,value,0.17666665200000004,0.1767,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+DominicanRepublic,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|RD|ELE_DIST||||2018|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|RD|ELE_DIST||||2019|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|RD|ELE_DIST||||2020|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|RD|PPADSL||||2018|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|RD|PPADSL||||2019|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|RD|PPADSL||||2020|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|RD|PPADSL||||2018|||||,value,0.1272,99999999999.0,R6 history change
+DominicanRepublic,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|RD|PPADSL||||2019|||||,value,0.1272,99999999999.0,R6 history change
+DominicanRepublic,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|RD|PPADSL||||2020|||||,value,0.1272,99999999999.0,R6 history change
+DominicanRepublic,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|RD|PPADSL||||2018|||||,value,1.0823,1.0375,R6 history change
+DominicanRepublic,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|RD|PPADSL||||2019|||||,value,0.0162,0.0153,R6 history change
+DominicanRepublic,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|RD|PPADSL||||2020|||||,value,0.023,0.022,R6 history change
+DominicanRepublic,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|RD|PPADSL||||2018|||||,value,9999.0,1.0587,R6 history change
+DominicanRepublic,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|RD|PPADSL||||2019|||||,value,9999.0031,0.0156,R6 history change
+DominicanRepublic,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|RD|PPADSL||||2020|||||,value,9999.0063,0.0224,R6 history change
+DominicanRepublic,B1,NDCNEW,VariableCost,VariableCost|NDCNEW|RD|PPADSL|||1|2018|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,NDCNEW,VariableCost,VariableCost|NDCNEW|RD|PPADSL|||1|2019|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,NDCNEW,VariableCost,VariableCost|NDCNEW|RD|PPADSL|||1|2020|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,LTSNEW,CapitalCost,CapitalCost|LTSNEW|RD|ELE_TRANS||||2018|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,LTSNEW,CapitalCost,CapitalCost|LTSNEW|RD|ELE_TRANS||||2019|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,LTSNEW,CapitalCost,CapitalCost|LTSNEW|RD|ELE_TRANS||||2020|||||,value,2.7251,3.3093,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,LTSNEW,EmissionActivityRatio,EmissionActivityRatio|LTSNEW|RD|PPCCTDSL||CO2e_PP|1|2018|||||,value,0.17666665200000004,0.1767,R6 history change
+DominicanRepublic,B1,LTSNEW,EmissionActivityRatio,EmissionActivityRatio|LTSNEW|RD|PPCCTDSL||CO2e_PP|1|2019|||||,value,0.17666665200000004,0.1961,R6 history change
+DominicanRepublic,B1,LTSNEW,EmissionActivityRatio,EmissionActivityRatio|LTSNEW|RD|PPCCTDSL||CO2e_PP|1|2020|||||,value,0.17666665200000004,0.2664,R6 history change
+DominicanRepublic,B1,LTSNEW,EmissionActivityRatio,EmissionActivityRatio|LTSNEW|RD|PPCCTDSL||CO2e_PP|1|2025|||||,value,0.17666665200000004,0.1767,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+DominicanRepublic,B1,LTSNEW,EmissionActivityRatio,EmissionActivityRatio|LTSNEW|RD|PPCCTDSL||CO2e_PP|1|2026|||||,value,0.17666665200000004,0.1767,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+DominicanRepublic,B1,LTSNEW,EmissionActivityRatio,EmissionActivityRatio|LTSNEW|RD|PPCCTDSL||CO2e_PP|1|2027|||||,value,0.17666665200000004,0.1767,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+DominicanRepublic,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|RD|ELE_DIST||||2018|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|RD|ELE_DIST||||2019|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|RD|ELE_DIST||||2020|||||,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|RD|PPADSL||||2018|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|RD|PPADSL||||2019|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|RD|PPADSL||||2020|||||,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|RD|PPADSL||||2018|||||,value,0.1272,99999999999.0,R6 history change
+DominicanRepublic,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|RD|PPADSL||||2019|||||,value,0.1272,99999999999.0,R6 history change
+DominicanRepublic,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|RD|PPADSL||||2020|||||,value,0.1272,99999999999.0,R6 history change
+DominicanRepublic,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|RD|PPADSL||||2018|||||,value,1.0822,1.0375,R6 history change
+DominicanRepublic,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|RD|PPADSL||||2019|||||,value,0.0162,0.0153,R6 history change
+DominicanRepublic,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|RD|PPADSL||||2020|||||,value,0.0233,0.022,R6 history change
+DominicanRepublic,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|RD|PPADSL||||2018|||||,value,9999.0,1.0587,R6 history change
+DominicanRepublic,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|RD|PPADSL||||2019|||||,value,9999.0031,0.0156,R6 history change
+DominicanRepublic,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|RD|PPADSL||||2020|||||,value,9999.0063,0.0224,R6 history change
+DominicanRepublic,B1,LTSNEW,VariableCost,VariableCost|LTSNEW|RD|PPADSL|||1|2018|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,LTSNEW,VariableCost,VariableCost|LTSNEW|RD|PPADSL|||1|2019|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1,LTSNEW,VariableCost,VariableCost|LTSNEW|RD|PPADSL|||1|2020|||||,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,BAU,CapitalCost,RD|PPDFOI|2039,value,941.873,1090.3613,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,BAU,CapitalCost,RD|PPAFOI|2032,value,997.3058,1154.5332,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,BAU,CapitalCost,RD|PPPVT|2028,value,2370.5836,2498.4947,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,BAU,FixedCost,RD|PPBGS|2030,value,163.666,175.4292,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,BAU,FixedCost,RD|PPDFOI|2039,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,BAU,FixedCost,RD|PPBGS|2047,value,163.666,175.4292,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,BAU,FixedCost,RD|ELE_DIST|2022,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1 data file,BAU,FixedCost,RD|ELE_DIST|2045,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1 data file,BAU,FixedCost,RD|ELE_TRANS|2022,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1 data file,BAU,VariableCost,RD|PPCCTDSL|1|2038,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,BAU,VariableCost,RD|PPDBIM|1|2023,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,BAU,VariableCost,RD|PPICEGASFOI|1|2027,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,NDCNEW,CapitalCost,RD|PPDFOI|2039,value,941.873,1090.3613,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,NDCNEW,CapitalCost,RD|PPAFOI|2032,value,997.3058,1154.5332,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,NDCNEW,CapitalCost,RD|PPPVT|2028,value,2370.5836,2498.4947,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,NDCNEW,EmissionActivityRatio,RD|PPCCTNGSDSL|CO2e_PP|1|2029,value,0.137445,0.1374,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+DominicanRepublic,B1 data file,NDCNEW,EmissionActivityRatio,RD|PPCCTDSL|CO2e_PP|1|2039,value,0.17666665200000004,0.1767,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+DominicanRepublic,B1 data file,NDCNEW,EmissionActivityRatio,RD|PPICEGASFOI|CO2e_PP|1|2027,value,0.137445,0.1374,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+DominicanRepublic,B1 data file,NDCNEW,EmissionActivityRatio,RD|PPCOA|CO2e_PP|1|2024,value,0.355696,0.2952,R6 history change
+DominicanRepublic,B1 data file,NDCNEW,EmissionActivityRatio,RD|PPCCTNGSDSL|CO2e_PP|1|2021,value,0.137445,0.0987,R6 history change
+DominicanRepublic,B1 data file,NDCNEW,EmissionActivityRatio,RD|PPICEGASFOI|CO2e_PP|1|2022,value,0.137445,0.0931,R6 history change
+DominicanRepublic,B1 data file,NDCNEW,FixedCost,RD|PPBGS|2030,value,163.666,175.4292,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,NDCNEW,FixedCost,RD|PPDFOI|2039,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,NDCNEW,FixedCost,RD|PPBGS|2047,value,163.666,175.4292,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,NDCNEW,FixedCost,RD|ELE_DIST|2022,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1 data file,NDCNEW,FixedCost,RD|ELE_DIST|2045,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1 data file,NDCNEW,FixedCost,RD|ELE_TRANS|2022,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1 data file,NDCNEW,TotalAnnualMaxCapacity,RD|PPPVTHYD|2024,value,0.0,99999999999.0,R6 history change
+DominicanRepublic,B1 data file,NDCNEW,TotalAnnualMaxCapacity,RD|PPBGS|2019,value,0.0,99999999999.0,R6 history change
+DominicanRepublic,B1 data file,NDCNEW,TotalAnnualMaxCapacity,RD|PPDNGS|2021,value,0.0009,99999999999.0,R6 history change
+DominicanRepublic,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,RD|PPADSL|2024,value,0.0175,0.0148,R6 history change
+DominicanRepublic,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,RD|PPANGS|2024,value,2.573,2.1664,R6 history change
+DominicanRepublic,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,RD|PPPVD|2021,value,2.4279,1.4598,R6 history change
+DominicanRepublic,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,RD|PPPVTHYD|2024,value,9999.0187,99999999999.0,R6 history change
+DominicanRepublic,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,RD|PPBGS|2019,value,9999.0031,6.0,R6 history change
+DominicanRepublic,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,RD|PPDNGS|2021,value,9999.0094,0.0,R6 history change
+DominicanRepublic,B1 data file,NDCNEW,VariableCost,RD|PPCCTDSL|1|2038,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,NDCNEW,VariableCost,RD|PPDBIM|1|2023,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,NDCNEW,VariableCost,RD|PPICEGASFOI|1|2027,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,LTSNEW,CapitalCost,RD|PPDFOI|2039,value,941.873,1090.3613,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,LTSNEW,CapitalCost,RD|PPAFOI|2032,value,997.3058,1154.5332,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,LTSNEW,CapitalCost,RD|PPPVT|2028,value,2370.5836,2498.4947,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,LTSNEW,EmissionActivityRatio,RD|PPCCTNGSDSL|CO2e_PP|1|2029,value,0.137445,0.1374,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+DominicanRepublic,B1 data file,LTSNEW,EmissionActivityRatio,RD|PPCCTDSL|CO2e_PP|1|2039,value,0.17666665200000004,0.1767,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+DominicanRepublic,B1 data file,LTSNEW,EmissionActivityRatio,RD|PPICEGASFOI|CO2e_PP|1|2027,value,0.137445,0.1374,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+DominicanRepublic,B1 data file,LTSNEW,EmissionActivityRatio,RD|PPCOA|CO2e_PP|1|2024,value,0.355696,0.2952,R6 history change
+DominicanRepublic,B1 data file,LTSNEW,EmissionActivityRatio,RD|PPCCTNGSDSL|CO2e_PP|1|2021,value,0.137445,0.0987,R6 history change
+DominicanRepublic,B1 data file,LTSNEW,EmissionActivityRatio,RD|PPICEGASFOI|CO2e_PP|1|2022,value,0.137445,0.0931,R6 history change
+DominicanRepublic,B1 data file,LTSNEW,FixedCost,RD|PPBGS|2030,value,163.666,175.4292,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,LTSNEW,FixedCost,RD|PPDFOI|2039,value,14.1,16.3229,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,LTSNEW,FixedCost,RD|PPBGS|2047,value,163.666,175.4292,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,LTSNEW,FixedCost,RD|ELE_DIST|2022,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1 data file,LTSNEW,FixedCost,RD|ELE_DIST|2045,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1 data file,LTSNEW,FixedCost,RD|ELE_TRANS|2022,value,0.0136,0.0165,dependent formula of the R1 cell (Secondary Techs J233 and J253 = J232 x 0.5 percent)
+DominicanRepublic,B1 data file,LTSNEW,TotalAnnualMaxCapacity,RD|PPPVTHYD|2024,value,0.0,99999999999.0,R6 history change
+DominicanRepublic,B1 data file,LTSNEW,TotalAnnualMaxCapacity,RD|PPBGS|2019,value,0.0,99999999999.0,R6 history change
+DominicanRepublic,B1 data file,LTSNEW,TotalAnnualMaxCapacity,RD|PPDNGS|2021,value,0.0009,99999999999.0,R6 history change
+DominicanRepublic,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,RD|PPADSL|2024,value,0.0175,0.0148,R6 history change
+DominicanRepublic,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,RD|PPANGS|2024,value,2.573,2.1664,R6 history change
+DominicanRepublic,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,RD|PPPVD|2021,value,2.4316,1.4598,R6 history change
+DominicanRepublic,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,RD|PPPVTHYD|2024,value,9999.0187,99999999999.0,R6 history change
+DominicanRepublic,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,RD|PPBGS|2019,value,9999.0031,6.0,R6 history change
+DominicanRepublic,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,RD|PPDNGS|2021,value,9999.0094,0.0,R6 history change
+DominicanRepublic,B1 data file,LTSNEW,VariableCost,RD|PPCCTDSL|1|2038,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,LTSNEW,VariableCost,RD|PPDBIM|1|2023,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+DominicanRepublic,B1 data file,LTSNEW,VariableCost,RD|PPICEGASFOI|1|2027,value,0.7083,0.82,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,BAU,CapitalCost,CapitalCost|BAU|ECU|HYD_G_PROD||||2021|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,BAU,CapitalCost,CapitalCost|BAU|ECU|HYD_G_PROD||||2022|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,BAU,CapitalCost,CapitalCost|BAU|ECU|HYD_G_PROD||||2023|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,BAU,FixedCost,FixedCost|BAU|ECU|HYD_G_PROD||||2021|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,BAU,FixedCost,FixedCost|BAU|ECU|HYD_G_PROD||||2022|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,BAU,FixedCost,FixedCost|BAU|ECU|HYD_G_PROD||||2023|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,BAU,SpecifiedAnnualDemand,SpecifiedAnnualDemand|BAU|ECU||E5EXPCRU|||2021|||||,value,657.9144189556182,678.6871809836065,R3 Ecuador crude
+Ecuador,A2,BAU,SpecifiedAnnualDemand,SpecifiedAnnualDemand|BAU|ECU||E5EXPCRU|||2022|||||,value,655.9883429596181,675.5234819262294,R3 Ecuador crude
+Ecuador,A2,BAU,SpecifiedAnnualDemand,SpecifiedAnnualDemand|BAU|ECU||E5EXPCRU|||2023|||||,value,661.3401034420182,664.7471177459016,R3 Ecuador crude
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|ECU|DIST_CRU||||2024|||||,value,49.2411,0.0,R3 Ecuador crude
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|ECU|DIST_CRU||||2025|||||,value,93.3601,0.0,R3 Ecuador crude
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|ECU|DIST_CRU||||2026|||||,value,308.191,0.0,R3 Ecuador crude
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|BAU|ECU|DIST_CRU||||2021|||||,value,0.0,999999.0,R3 Ecuador crude
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|BAU|ECU|DIST_CRU||||2022|||||,value,0.0,999999.0,R3 Ecuador crude
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|BAU|ECU|EXTT_CRU||||2021|||||,value,1004.3339,997.411,R3 Ecuador crude
+Ecuador,A2,BAU,VariableCost,VariableCost|BAU|ECU|DIST_CRU|||1|2021|||||,value,12.4145,14.1955,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,BAU,VariableCost,VariableCost|BAU|ECU|DIST_CRU|||1|2022|||||,value,15.922,18.7212,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,BAU,VariableCost,VariableCost|BAU|ECU|DIST_CRU|||1|2023|||||,value,12.116,14.6959,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,NDCNEW,CapitalCost,CapitalCost|BAU|ECU|HYD_G_PROD||||2021|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,NDCNEW,CapitalCost,CapitalCost|BAU|ECU|HYD_G_PROD||||2022|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,NDCNEW,CapitalCost,CapitalCost|BAU|ECU|HYD_G_PROD||||2023|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,NDCNEW,FixedCost,FixedCost|BAU|ECU|HYD_G_PROD||||2021|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,NDCNEW,FixedCost,FixedCost|BAU|ECU|HYD_G_PROD||||2022|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,NDCNEW,FixedCost,FixedCost|BAU|ECU|HYD_G_PROD||||2023|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,NDCNEW,SpecifiedAnnualDemand,SpecifiedAnnualDemand|BAU|ECU||E5EXPCRU|||2021|||||,value,657.9144189556182,678.6871809836065,R3 Ecuador crude
+Ecuador,A2,NDCNEW,SpecifiedAnnualDemand,SpecifiedAnnualDemand|BAU|ECU||E5EXPCRU|||2022|||||,value,655.9883429596181,675.5234819262294,R3 Ecuador crude
+Ecuador,A2,NDCNEW,SpecifiedAnnualDemand,SpecifiedAnnualDemand|BAU|ECU||E5EXPCRU|||2023|||||,value,661.3401034420182,664.7471177459016,R3 Ecuador crude
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|ECU|DIST_CRU||||2024|||||,value,49.2411,0.0,R3 Ecuador crude
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|ECU|DIST_CRU||||2025|||||,value,93.3601,0.0,R3 Ecuador crude
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|ECU|DIST_CRU||||2026|||||,value,308.191,0.0,R3 Ecuador crude
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|BAU|ECU|DIST_CRU||||2021|||||,value,0.0,999999.0,R3 Ecuador crude
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|BAU|ECU|DIST_CRU||||2022|||||,value,0.0,999999.0,R3 Ecuador crude
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|BAU|ECU|EXTT_CRU||||2021|||||,value,1004.3339,997.411,R3 Ecuador crude
+Ecuador,A2,NDCNEW,VariableCost,VariableCost|BAU|ECU|DIST_CRU|||1|2021|||||,value,12.4145,14.1955,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,NDCNEW,VariableCost,VariableCost|BAU|ECU|DIST_CRU|||1|2022|||||,value,15.922,18.7212,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,NDCNEW,VariableCost,VariableCost|BAU|ECU|DIST_CRU|||1|2023|||||,value,12.116,14.6959,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,LTSNEW,CapitalCost,CapitalCost|BAU|ECU|HYD_G_PROD||||2021|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,LTSNEW,CapitalCost,CapitalCost|BAU|ECU|HYD_G_PROD||||2022|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,LTSNEW,CapitalCost,CapitalCost|BAU|ECU|HYD_G_PROD||||2023|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,LTSNEW,FixedCost,FixedCost|BAU|ECU|HYD_G_PROD||||2021|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,LTSNEW,FixedCost,FixedCost|BAU|ECU|HYD_G_PROD||||2022|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,LTSNEW,FixedCost,FixedCost|BAU|ECU|HYD_G_PROD||||2023|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,LTSNEW,SpecifiedAnnualDemand,SpecifiedAnnualDemand|BAU|ECU||E5EXPCRU|||2021|||||,value,657.9144189556182,678.6871809836065,R3 Ecuador crude
+Ecuador,A2,LTSNEW,SpecifiedAnnualDemand,SpecifiedAnnualDemand|BAU|ECU||E5EXPCRU|||2022|||||,value,655.9883429596181,675.5234819262294,R3 Ecuador crude
+Ecuador,A2,LTSNEW,SpecifiedAnnualDemand,SpecifiedAnnualDemand|BAU|ECU||E5EXPCRU|||2023|||||,value,661.3401034420182,664.7471177459016,R3 Ecuador crude
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|ECU|DIST_CRU||||2024|||||,value,49.2411,0.0,R3 Ecuador crude
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|ECU|DIST_CRU||||2025|||||,value,93.3601,0.0,R3 Ecuador crude
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|ECU|DIST_CRU||||2026|||||,value,308.191,0.0,R3 Ecuador crude
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|BAU|ECU|DIST_CRU||||2021|||||,value,0.0,999999.0,R3 Ecuador crude
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|BAU|ECU|DIST_CRU||||2022|||||,value,0.0,999999.0,R3 Ecuador crude
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|BAU|ECU|EXTT_CRU||||2021|||||,value,1004.3339,997.411,R3 Ecuador crude
+Ecuador,A2,LTSNEW,VariableCost,VariableCost|BAU|ECU|DIST_CRU|||1|2021|||||,value,12.4145,14.1955,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,LTSNEW,VariableCost,VariableCost|BAU|ECU|DIST_CRU|||1|2022|||||,value,15.922,18.7212,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,A2,LTSNEW,VariableCost,VariableCost|BAU|ECU|DIST_CRU|||1|2023|||||,value,12.116,14.6959,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,BAU,CapitalCost,CapitalCost|BAU|ECU|HYD_G_PROD||||2021|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,BAU,CapitalCost,CapitalCost|BAU|ECU|HYD_G_PROD||||2022|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,BAU,CapitalCost,CapitalCost|BAU|ECU|HYD_G_PROD||||2023|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,BAU,FixedCost,FixedCost|BAU|ECU|HYD_G_PROD||||2021|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,BAU,FixedCost,FixedCost|BAU|ECU|HYD_G_PROD||||2022|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,BAU,FixedCost,FixedCost|BAU|ECU|HYD_G_PROD||||2023|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,BAU,SpecifiedAnnualDemand,SpecifiedAnnualDemand|BAU|ECU||E5EXPCRU|||2021|||||,value,657.9144189556182,678.6871809836065,R3 Ecuador crude
+Ecuador,B1,BAU,SpecifiedAnnualDemand,SpecifiedAnnualDemand|BAU|ECU||E5EXPCRU|||2022|||||,value,655.9883429596181,675.5234819262294,R3 Ecuador crude
+Ecuador,B1,BAU,SpecifiedAnnualDemand,SpecifiedAnnualDemand|BAU|ECU||E5EXPCRU|||2023|||||,value,661.3401034420182,664.7471177459016,R3 Ecuador crude
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|ECU|DIST_CRU||||2024|||||,value,49.2411,0.0,R3 Ecuador crude
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|ECU|DIST_CRU||||2025|||||,value,93.3601,0.0,R3 Ecuador crude
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|ECU|DIST_CRU||||2026|||||,value,308.191,0.0,R3 Ecuador crude
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|BAU|ECU|DIST_CRU||||2021|||||,value,0.0,999999.0,R3 Ecuador crude
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|BAU|ECU|DIST_CRU||||2022|||||,value,0.0,999999.0,R3 Ecuador crude
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|BAU|ECU|EXTT_CRU||||2021|||||,value,1004.3339,997.411,R3 Ecuador crude
+Ecuador,B1,BAU,VariableCost,VariableCost|BAU|ECU|DIST_CRU|||1|2021|||||,value,12.4145,14.1955,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,BAU,VariableCost,VariableCost|BAU|ECU|DIST_CRU|||1|2022|||||,value,15.922,18.7212,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,BAU,VariableCost,VariableCost|BAU|ECU|DIST_CRU|||1|2023|||||,value,12.116,14.6959,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,NDCNEW,CapitalCost,CapitalCost|NDCNEW|ECU|HYD_G_PROD||||2021|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,NDCNEW,CapitalCost,CapitalCost|NDCNEW|ECU|HYD_G_PROD||||2022|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,NDCNEW,CapitalCost,CapitalCost|NDCNEW|ECU|HYD_G_PROD||||2023|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,NDCNEW,EmissionActivityRatio,EmissionActivityRatio|NDCNEW|ECU|PPCRU||CO2e_PP|1|2021|||||,value,0.2560107634073812,0.2894,R6 history change
+Ecuador,B1,NDCNEW,EmissionActivityRatio,EmissionActivityRatio|NDCNEW|ECU|PPCRU||CO2e_PP|1|2022|||||,value,0.2560107634073812,0.2894,R6 history change
+Ecuador,B1,NDCNEW,EmissionActivityRatio,EmissionActivityRatio|NDCNEW|ECU|PPCRU||CO2e_PP|1|2023|||||,value,0.2560107634073812,0.2894,R6 history change
+Ecuador,B1,NDCNEW,EmissionActivityRatio,EmissionActivityRatio|NDCNEW|ECU|PPCRU||CO2e_PP|1|2025|||||,value,0.2560107634073812,0.256,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+Ecuador,B1,NDCNEW,EmissionActivityRatio,EmissionActivityRatio|NDCNEW|ECU|PPCRU||CO2e_PP|1|2026|||||,value,0.2560107634073812,0.256,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+Ecuador,B1,NDCNEW,EmissionActivityRatio,EmissionActivityRatio|NDCNEW|ECU|PPCRU||CO2e_PP|1|2027|||||,value,0.2560107634073812,0.256,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+Ecuador,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|ECU|HYD_G_PROD||||2021|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|ECU|HYD_G_PROD||||2022|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|ECU|HYD_G_PROD||||2023|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,NDCNEW,SpecifiedAnnualDemand,SpecifiedAnnualDemand|NDCNEW|ECU||E5EXPCRU|||2021|||||,value,657.9144189556182,678.6871809836065,R3 Ecuador crude
+Ecuador,B1,NDCNEW,SpecifiedAnnualDemand,SpecifiedAnnualDemand|NDCNEW|ECU||E5EXPCRU|||2022|||||,value,655.9883429596181,675.5234819262294,R3 Ecuador crude
+Ecuador,B1,NDCNEW,SpecifiedAnnualDemand,SpecifiedAnnualDemand|NDCNEW|ECU||E5EXPCRU|||2023|||||,value,661.3401034420182,664.7471177459016,R3 Ecuador crude
+Ecuador,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|ECU|PPBGS||||2021|||||,value,99.99,99999.0,R6 history change
+Ecuador,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|ECU|PPBGS||||2022|||||,value,99.9935,99999.0,R6 history change
+Ecuador,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|ECU|PPBGS||||2023|||||,value,99.997,99999.0,R6 history change
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|ECU|DIST_CRU||||2024|||||,value,49.2411,0.0,R3 Ecuador crude
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|ECU|DIST_CRU||||2025|||||,value,93.3601,0.0,R3 Ecuador crude
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|ECU|DIST_CRU||||2026|||||,value,308.191,0.0,R3 Ecuador crude
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|ECU|PPCRU||||2021|||||,value,7.6746,4.0613,R6 history change
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|ECU|PPCRU||||2022|||||,value,7.4733,4.0872,R6 history change
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|ECU|PPCRU||||2023|||||,value,7.9208,4.0872,R6 history change
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|ECU|DIST_CRU||||2021|||||,value,0.0,999999.0,R3 Ecuador crude
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|ECU|DIST_CRU||||2022|||||,value,0.0,999999.0,R3 Ecuador crude
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|ECU|EXTT_CRU||||2021|||||,value,1004.3339,997.411,R3 Ecuador crude
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|ECU|PPBGS||||2021|||||,value,1.2,0.0,R6 history change
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|ECU|PPBGS||||2022|||||,value,1.2041,0.0,R6 history change
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|ECU|PPBGS||||2023|||||,value,1.2083,0.0,R6 history change
+Ecuador,B1,NDCNEW,VariableCost,VariableCost|NDCNEW|ECU|DIST_CRU|||1|2021|||||,value,12.4145,14.1955,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,NDCNEW,VariableCost,VariableCost|NDCNEW|ECU|DIST_CRU|||1|2022|||||,value,15.922,18.7212,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,NDCNEW,VariableCost,VariableCost|NDCNEW|ECU|DIST_CRU|||1|2023|||||,value,12.116,14.6959,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,LTSNEW,CapitalCost,CapitalCost|LTSNEW|ECU|HYD_G_PROD||||2021|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,LTSNEW,CapitalCost,CapitalCost|LTSNEW|ECU|HYD_G_PROD||||2022|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,LTSNEW,CapitalCost,CapitalCost|LTSNEW|ECU|HYD_G_PROD||||2023|||||,value,34.34,35.3528,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,LTSNEW,EmissionActivityRatio,EmissionActivityRatio|LTSNEW|ECU|PPCRU||CO2e_PP|1|2021|||||,value,0.2560107634073812,0.2894,R6 history change
+Ecuador,B1,LTSNEW,EmissionActivityRatio,EmissionActivityRatio|LTSNEW|ECU|PPCRU||CO2e_PP|1|2022|||||,value,0.2560107634073812,0.2894,R6 history change
+Ecuador,B1,LTSNEW,EmissionActivityRatio,EmissionActivityRatio|LTSNEW|ECU|PPCRU||CO2e_PP|1|2023|||||,value,0.2560107634073812,0.2894,R6 history change
+Ecuador,B1,LTSNEW,EmissionActivityRatio,EmissionActivityRatio|LTSNEW|ECU|PPCRU||CO2e_PP|1|2025|||||,value,0.2560107634073812,0.256,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+Ecuador,B1,LTSNEW,EmissionActivityRatio,EmissionActivityRatio|LTSNEW|ECU|PPCRU||CO2e_PP|1|2026|||||,value,0.2560107634073812,0.256,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+Ecuador,B1,LTSNEW,EmissionActivityRatio,EmissionActivityRatio|LTSNEW|ECU|PPCRU||CO2e_PP|1|2027|||||,value,0.2560107634073812,0.256,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+Ecuador,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|ECU|HYD_G_PROD||||2021|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|ECU|HYD_G_PROD||||2022|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|ECU|HYD_G_PROD||||2023|||||,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,LTSNEW,SpecifiedAnnualDemand,SpecifiedAnnualDemand|LTSNEW|ECU||E5EXPCRU|||2021|||||,value,657.9144189556182,678.6871809836065,R3 Ecuador crude
+Ecuador,B1,LTSNEW,SpecifiedAnnualDemand,SpecifiedAnnualDemand|LTSNEW|ECU||E5EXPCRU|||2022|||||,value,655.9883429596181,675.5234819262294,R3 Ecuador crude
+Ecuador,B1,LTSNEW,SpecifiedAnnualDemand,SpecifiedAnnualDemand|LTSNEW|ECU||E5EXPCRU|||2023|||||,value,661.3401034420182,664.7471177459016,R3 Ecuador crude
+Ecuador,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|ECU|PPBGS||||2021|||||,value,99.99,99999.0,R6 history change
+Ecuador,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|ECU|PPBGS||||2022|||||,value,99.9935,99999.0,R6 history change
+Ecuador,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|ECU|PPBGS||||2023|||||,value,99.997,99999.0,R6 history change
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|ECU|DIST_CRU||||2024|||||,value,49.2411,0.0,R3 Ecuador crude
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|ECU|DIST_CRU||||2025|||||,value,93.3601,0.0,R3 Ecuador crude
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|ECU|DIST_CRU||||2026|||||,value,308.191,0.0,R3 Ecuador crude
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|ECU|PPCRU||||2021|||||,value,7.6746,4.0613,R6 history change
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|ECU|PPCRU||||2022|||||,value,7.4733,4.0872,R6 history change
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|ECU|PPCRU||||2023|||||,value,7.9208,4.0872,R6 history change
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|ECU|DIST_CRU||||2021|||||,value,0.0,999999.0,R3 Ecuador crude
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|ECU|DIST_CRU||||2022|||||,value,0.0,999999.0,R3 Ecuador crude
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|ECU|EXTT_CRU||||2021|||||,value,1004.3339,997.411,R3 Ecuador crude
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|ECU|PPBGS||||2021|||||,value,1.2,0.0,R6 history change
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|ECU|PPBGS||||2022|||||,value,1.2041,0.0,R6 history change
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|ECU|PPBGS||||2023|||||,value,1.2083,0.0,R6 history change
+Ecuador,B1,LTSNEW,VariableCost,VariableCost|LTSNEW|ECU|DIST_CRU|||1|2021|||||,value,12.4145,14.1955,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,LTSNEW,VariableCost,VariableCost|LTSNEW|ECU|DIST_CRU|||1|2022|||||,value,15.922,18.7212,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1,LTSNEW,VariableCost,VariableCost|LTSNEW|ECU|DIST_CRU|||1|2023|||||,value,12.116,14.6959,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,BAU,CapitalCost,ECU|PRONGS|2039,value,1.02,1.0501,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,BAU,CapitalCost,ECU|PPPVT|2049,value,800.0,810.4298,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,BAU,CapitalCost,ECU|PPHDAMAM|2038,value,3500.0,3562.1823,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,BAU,FixedCost,ECU|PRONGS|2039,value,0.5,0.5147,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,BAU,FixedCost,ECU|PRONGS|2041,value,0.5,0.5147,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,BAU,FixedCost,ECU|HYD_G_PROD|2034,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,BAU,SpecifiedAnnualDemand,ECU|E5EXPCRU|2024,value,629.0786602383511,729.922356762295,R3 Ecuador crude
+Ecuador,B1 data file,BAU,SpecifiedAnnualDemand,ECU|E5EXPCRU|2026,value,459.4216365102295,698.0655737704917,R3 Ecuador crude
+Ecuador,B1 data file,BAU,SpecifiedAnnualDemand,ECU|E5EXPCRU|2023,value,661.3401034420182,664.7471177459016,R3 Ecuador crude
+Ecuador,B1 data file,BAU,TotalTechnologyAnnualActivityLowerLimit,ECU|DIST_CRU|2036,value,377.4465,0.0,R3 Ecuador crude
+Ecuador,B1 data file,BAU,TotalTechnologyAnnualActivityLowerLimit,ECU|DIST_CRU|2044,value,377.4465,0.0,R3 Ecuador crude
+Ecuador,B1 data file,BAU,TotalTechnologyAnnualActivityLowerLimit,ECU|EXTT_CRU|2027,value,692.8747,910.8235,R3 Ecuador crude
+Ecuador,B1 data file,BAU,TotalTechnologyAnnualActivityUpperLimit,ECU|EXTT_CRU|2027,value,707.015,929.4118,R3 Ecuador crude
+Ecuador,B1 data file,BAU,TotalTechnologyAnnualActivityUpperLimit,ECU|EXTT_CRU|2024,value,960.1715,1005.2248,R3 Ecuador crude
+Ecuador,B1 data file,BAU,TotalTechnologyAnnualActivityUpperLimit,ECU|DIST_CRU|2022,value,0.0,999999.0,R3 Ecuador crude
+Ecuador,B1 data file,BAU,VariableCost,ECU|DIST_CRU|1|2045,value,11.6062,13.64,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,BAU,VariableCost,ECU|HYD_DIST|1|2042,value,8.91,9.1728,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,BAU,VariableCost,ECU|HYD_G_PROD|1|2033,value,0.67,0.6898,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,NDCNEW,CapitalCost,ECU|PRONGS|2039,value,1.02,1.0501,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,NDCNEW,CapitalCost,ECU|PPPVT|2049,value,800.0,810.4298,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,NDCNEW,CapitalCost,ECU|PPHDAMAM|2038,value,3500.0,3562.1823,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,NDCNEW,EmissionActivityRatio,ECU|PPRDSL|CO2e_PP|1|2039,value,0.20677544177206184,0.2068,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+Ecuador,B1 data file,NDCNEW,EmissionActivityRatio,ECU|PPRNGS|CO2e_PP|1|2044,value,0.20085444893596174,0.2009,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+Ecuador,B1 data file,NDCNEW,EmissionActivityRatio,ECU|PROCRU|N2O_REF|1|2040,value,2.8562534794641696e-08,0.0,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+Ecuador,B1 data file,NDCNEW,EmissionActivityRatio,ECU|PPRNGS|CO2e_PP|1|2023,value,0.20085444893596174,0.2813,R6 history change
+Ecuador,B1 data file,NDCNEW,EmissionActivityRatio,ECU|PROCRU|CO2e_REF|1|2023,value,0.003924130889649367,0.0036,R6 history change
+Ecuador,B1 data file,NDCNEW,EmissionActivityRatio,ECU|PPDSL|CO2e_PP|1|2022,value,0.20677544177206184,0.1547,R6 history change
+Ecuador,B1 data file,NDCNEW,FixedCost,ECU|PRONGS|2039,value,0.5,0.5147,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,NDCNEW,FixedCost,ECU|PRONGS|2041,value,0.5,0.5147,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,NDCNEW,FixedCost,ECU|HYD_G_PROD|2034,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,NDCNEW,SpecifiedAnnualDemand,ECU|E5EXPCRU|2024,value,629.0786602383511,729.922356762295,R3 Ecuador crude
+Ecuador,B1 data file,NDCNEW,SpecifiedAnnualDemand,ECU|E5EXPCRU|2026,value,459.4216365102295,698.0655737704917,R3 Ecuador crude
+Ecuador,B1 data file,NDCNEW,SpecifiedAnnualDemand,ECU|E5EXPCRU|2023,value,661.3401034420182,664.7471177459016,R3 Ecuador crude
+Ecuador,B1 data file,NDCNEW,TotalAnnualMaxCapacity,ECU|PPIBIM|2024,value,100.0004,99999.0,R6 history change
+Ecuador,B1 data file,NDCNEW,TotalAnnualMaxCapacity,ECU|PPHRORPS|2024,value,100.0004,99999.0,R6 history change
+Ecuador,B1 data file,NDCNEW,TotalAnnualMaxCapacity,ECU|PPPVTS|2022,value,99.9935,9999.0,R6 history change
+Ecuador,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,ECU|PPIBIM|2024,value,2.6775,1.8146,R6 history change
+Ecuador,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,ECU|PPHRORPS|2024,value,4.7995,3.2449,R6 history change
+Ecuador,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,ECU|DIST_CRU|2036,value,377.4465,0.0,R3 Ecuador crude
+Ecuador,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,ECU|DIST_CRU|2044,value,377.4465,0.0,R3 Ecuador crude
+Ecuador,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,ECU|EXTT_CRU|2027,value,692.8747,910.8235,R3 Ecuador crude
+Ecuador,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,ECU|PPHDAMAM|2021,value,5.9352,3.9324,R6 history change
+Ecuador,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,ECU|PPIBIM|2024,value,3.213,1.9053,R6 history change
+Ecuador,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,ECU|PPHRORPS|2024,value,5.7595,9999.0,R6 history change
+Ecuador,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,ECU|PPPVTS|2022,value,1.2041,0.0,R6 history change
+Ecuador,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,ECU|EXTT_CRU|2027,value,707.015,929.4118,R3 Ecuador crude
+Ecuador,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,ECU|EXTT_CRU|2024,value,960.1715,1005.2248,R3 Ecuador crude
+Ecuador,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,ECU|DIST_CRU|2022,value,0.0,999999.0,R3 Ecuador crude
+Ecuador,B1 data file,NDCNEW,VariableCost,ECU|DIST_CRU|1|2045,value,11.6062,13.64,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,NDCNEW,VariableCost,ECU|HYD_DIST|1|2042,value,8.91,9.1728,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,NDCNEW,VariableCost,ECU|HYD_G_PROD|1|2033,value,0.67,0.6898,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,LTSNEW,CapitalCost,ECU|PRONGS|2039,value,1.02,1.0501,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,LTSNEW,CapitalCost,ECU|PPPVT|2049,value,800.0,810.4298,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,LTSNEW,CapitalCost,ECU|PPHDAMAM|2038,value,3500.0,3562.1823,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,LTSNEW,EmissionActivityRatio,ECU|PPRDSL|CO2e_PP|1|2039,value,0.20677544177206184,0.2068,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+Ecuador,B1 data file,LTSNEW,EmissionActivityRatio,ECU|PPRNGS|CO2e_PP|1|2044,value,0.20085444893596174,0.2009,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+Ecuador,B1 data file,LTSNEW,EmissionActivityRatio,ECU|PROCRU|N2O_REF|1|2040,value,2.8562534794641696e-08,0.0,R6 emission-factor row: B1 rounds the row to 4 decimals (change from 2025 at most 0.00005)
+Ecuador,B1 data file,LTSNEW,EmissionActivityRatio,ECU|PPRNGS|CO2e_PP|1|2023,value,0.20085444893596174,0.2813,R6 history change
+Ecuador,B1 data file,LTSNEW,EmissionActivityRatio,ECU|PROCRU|CO2e_REF|1|2023,value,0.003924130889649367,0.0036,R6 history change
+Ecuador,B1 data file,LTSNEW,EmissionActivityRatio,ECU|PPDSL|CO2e_PP|1|2022,value,0.20677544177206184,0.1547,R6 history change
+Ecuador,B1 data file,LTSNEW,FixedCost,ECU|PRONGS|2039,value,0.5,0.5147,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,LTSNEW,FixedCost,ECU|PRONGS|2041,value,0.5,0.5147,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,LTSNEW,FixedCost,ECU|HYD_G_PROD|2034,value,1.27,1.3075,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,LTSNEW,SpecifiedAnnualDemand,ECU|E5EXPCRU|2024,value,629.0786602383511,729.922356762295,R3 Ecuador crude
+Ecuador,B1 data file,LTSNEW,SpecifiedAnnualDemand,ECU|E5EXPCRU|2026,value,459.4216365102295,698.0655737704917,R3 Ecuador crude
+Ecuador,B1 data file,LTSNEW,SpecifiedAnnualDemand,ECU|E5EXPCRU|2023,value,661.3401034420182,664.7471177459016,R3 Ecuador crude
+Ecuador,B1 data file,LTSNEW,TotalAnnualMaxCapacity,ECU|PPIBIM|2024,value,100.0004,99999.0,R6 history change
+Ecuador,B1 data file,LTSNEW,TotalAnnualMaxCapacity,ECU|PPHRORPS|2024,value,100.0004,99999.0,R6 history change
+Ecuador,B1 data file,LTSNEW,TotalAnnualMaxCapacity,ECU|PPPVTS|2022,value,99.9935,9999.0,R6 history change
+Ecuador,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,ECU|PPIBIM|2024,value,2.6775,1.8146,R6 history change
+Ecuador,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,ECU|PPHRORPS|2024,value,4.7995,3.2449,R6 history change
+Ecuador,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,ECU|DIST_CRU|2036,value,377.4465,0.0,R3 Ecuador crude
+Ecuador,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,ECU|DIST_CRU|2044,value,377.4465,0.0,R3 Ecuador crude
+Ecuador,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,ECU|EXTT_CRU|2027,value,692.8747,910.8235,R3 Ecuador crude
+Ecuador,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,ECU|PPHDAMAM|2021,value,5.9352,3.9324,R6 history change
+Ecuador,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,ECU|PPIBIM|2024,value,3.213,1.9053,R6 history change
+Ecuador,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,ECU|PPHRORPS|2024,value,5.7595,9999.0,R6 history change
+Ecuador,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,ECU|PPPVTS|2022,value,1.2041,0.0,R6 history change
+Ecuador,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,ECU|EXTT_CRU|2027,value,707.015,929.4118,R3 Ecuador crude
+Ecuador,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,ECU|EXTT_CRU|2024,value,960.1715,1005.2248,R3 Ecuador crude
+Ecuador,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,ECU|DIST_CRU|2022,value,0.0,999999.0,R3 Ecuador crude
+Ecuador,B1 data file,LTSNEW,VariableCost,ECU|DIST_CRU|1|2045,value,11.6062,13.64,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,LTSNEW,VariableCost,ECU|HYD_DIST|1|2042,value,8.91,9.1728,"proposal cost cell (R1, R3, R4, R5)"
+Ecuador,B1 data file,LTSNEW,VariableCost,ECU|HYD_G_PROD|1|2033,value,0.67,0.6898,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,BAU,CapitalCost,CapitalCost|BAU|GUA|PPBIM||||2018|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,BAU,CapitalCost,CapitalCost|BAU|GUA|PPBIM||||2019|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,BAU,CapitalCost,CapitalCost|BAU|GUA|PPBIM||||2020|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,BAU,FixedCost,FixedCost|BAU|GUA|PPBIM||||2018|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,BAU,FixedCost,FixedCost|BAU|GUA|PPBIM||||2019|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,BAU,FixedCost,FixedCost|BAU|GUA|PPBIM||||2020|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,BAU,VariableCost,VariableCost|BAU|GUA|DIST_FLEXFUEL|||1|2018|||||,value,45.3105,26.9411,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,BAU,VariableCost,VariableCost|BAU|GUA|DIST_FLEXFUEL|||1|2019|||||,value,40.1123,25.5186,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,BAU,VariableCost,VariableCost|BAU|GUA|DIST_FLEXFUEL|||1|2020|||||,value,40.8744,20.2775,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,NDCNEW,CapitalCost,CapitalCost|NDP|GUA|PPBIM||||2018|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,NDCNEW,CapitalCost,CapitalCost|NDP|GUA|PPBIM||||2019|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,NDCNEW,CapitalCost,CapitalCost|NDP|GUA|PPBIM||||2020|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,NDCNEW,FixedCost,FixedCost|NDP|GUA|PPBIM||||2018|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,NDCNEW,FixedCost,FixedCost|NDP|GUA|PPBIM||||2019|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,NDCNEW,FixedCost,FixedCost|NDP|GUA|PPBIM||||2020|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,NDCNEW,VariableCost,VariableCost|NDP|GUA|DIST_FLEXFUEL|||1|2018|||||,value,45.3105,26.9411,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,NDCNEW,VariableCost,VariableCost|NDP|GUA|DIST_FLEXFUEL|||1|2019|||||,value,40.1123,25.5186,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,NDCNEW,VariableCost,VariableCost|NDP|GUA|DIST_FLEXFUEL|||1|2020|||||,value,40.8744,20.2775,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,LTSNEW,CapitalCost,CapitalCost|NDP|GUA|PPBIM||||2018|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,LTSNEW,CapitalCost,CapitalCost|NDP|GUA|PPBIM||||2019|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,LTSNEW,CapitalCost,CapitalCost|NDP|GUA|PPBIM||||2020|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,LTSNEW,FixedCost,FixedCost|NDP|GUA|PPBIM||||2018|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,LTSNEW,FixedCost,FixedCost|NDP|GUA|PPBIM||||2019|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,LTSNEW,FixedCost,FixedCost|NDP|GUA|PPBIM||||2020|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,LTSNEW,VariableCost,VariableCost|NDP|GUA|DIST_FLEXFUEL|||1|2018|||||,value,45.3105,26.9411,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,LTSNEW,VariableCost,VariableCost|NDP|GUA|DIST_FLEXFUEL|||1|2019|||||,value,40.1123,25.5186,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,A2,LTSNEW,VariableCost,VariableCost|NDP|GUA|DIST_FLEXFUEL|||1|2020|||||,value,40.8744,20.2775,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,BAU,CapitalCost,CapitalCost|BAU|GUA|PPBIM||||2018|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,BAU,CapitalCost,CapitalCost|BAU|GUA|PPBIM||||2019|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,BAU,CapitalCost,CapitalCost|BAU|GUA|PPBIM||||2020|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,BAU,FixedCost,FixedCost|BAU|GUA|PPBIM||||2018|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,BAU,FixedCost,FixedCost|BAU|GUA|PPBIM||||2019|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,BAU,FixedCost,FixedCost|BAU|GUA|PPBIM||||2020|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,BAU,VariableCost,VariableCost|BAU|GUA|DIST_FLEXFUEL|||1|2018|||||,value,45.3105,26.9411,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,BAU,VariableCost,VariableCost|BAU|GUA|DIST_FLEXFUEL|||1|2019|||||,value,40.1123,25.5186,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,BAU,VariableCost,VariableCost|BAU|GUA|DIST_FLEXFUEL|||1|2020|||||,value,40.8744,20.2775,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,NDCNEW,CapitalCost,CapitalCost|NDCNEW|GUA|PPBIM||||2018|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,NDCNEW,CapitalCost,CapitalCost|NDCNEW|GUA|PPBIM||||2019|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,NDCNEW,CapitalCost,CapitalCost|NDCNEW|GUA|PPBIM||||2020|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|GUA|PPBIM||||2018|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|GUA|PPBIM||||2019|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|GUA|PPBIM||||2020|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|GUA|PPBGS||||2018|||||,value,99.99,0.0061,R6 history change
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|GUA|PPBGS||||2019|||||,value,99.9932,0.0062,R6 history change
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|GUA|PPBGS||||2020|||||,value,99.9963,0.0169,R6 history change
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacityInvestment,TotalAnnualMaxCapacityInvestment|NDCNEW|GUA|PPGEO||||2018|||||,value,99.99,0.0,R6 history change
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacityInvestment,TotalAnnualMaxCapacityInvestment|NDCNEW|GUA|PPGEO||||2019|||||,value,99.9932,0.0,R6 history change
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacityInvestment,TotalAnnualMaxCapacityInvestment|NDCNEW|GUA|PPGEO||||2020|||||,value,99.9963,0.0,R6 history change
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|GUA|IMP_ELE||||2018|||||,only_b,,0.0,R6 history change
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|GUA|IMP_ELE||||2019|||||,only_b,,3.3411,R6 history change
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|GUA|IMP_ELE||||2020|||||,only_b,,3.363,R6 history change
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|GUA|IMP_ELE||||2025|||||,only_b,,0.0,R6 history-only row: B1 default from 2025 (no effect)
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|GUA|IMP_ELE||||2026|||||,only_b,,0.0,R6 history-only row: B1 default from 2025 (no effect)
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|GUA|IMP_ELE||||2027|||||,only_b,,0.0,R6 history-only row: B1 default from 2025 (no effect)
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|GUA|PPBGS||||2018|||||,value,0.0709,0.0752,R6 history change
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|GUA|PPBGS||||2019|||||,value,0.0702,11.2,R6 history change
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|GUA|PPBGS||||2020|||||,value,0.1105,11.2,R6 history change
+Guatemala,B1,NDCNEW,VariableCost,VariableCost|NDCNEW|GUA|DIST_FLEXFUEL|||1|2018|||||,value,45.3105,26.9411,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,NDCNEW,VariableCost,VariableCost|NDCNEW|GUA|DIST_FLEXFUEL|||1|2019|||||,value,40.1123,25.5186,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,NDCNEW,VariableCost,VariableCost|NDCNEW|GUA|DIST_FLEXFUEL|||1|2020|||||,value,40.8744,20.2775,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,LTSNEW,CapitalCost,CapitalCost|LTSNEW|GUA|PPBIM||||2018|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,LTSNEW,CapitalCost,CapitalCost|LTSNEW|GUA|PPBIM||||2019|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,LTSNEW,CapitalCost,CapitalCost|LTSNEW|GUA|PPBIM||||2020|||||,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|GUA|PPBIM||||2018|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|GUA|PPBIM||||2019|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|GUA|PPBIM||||2020|||||,value,77.16,75.0259,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|GUA|PPBGS||||2018|||||,value,99.99,0.0061,R6 history change
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|GUA|PPBGS||||2019|||||,value,99.9932,0.0062,R6 history change
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|GUA|PPBGS||||2020|||||,value,99.9963,0.0169,R6 history change
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacityInvestment,TotalAnnualMaxCapacityInvestment|LTSNEW|GUA|PPGEO||||2018|||||,value,99.99,0.0,R6 history change
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacityInvestment,TotalAnnualMaxCapacityInvestment|LTSNEW|GUA|PPGEO||||2019|||||,value,99.9932,0.0,R6 history change
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacityInvestment,TotalAnnualMaxCapacityInvestment|LTSNEW|GUA|PPGEO||||2020|||||,value,99.9963,0.0,R6 history change
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|GUA|IMP_ELE||||2018|||||,only_b,,0.0,R6 history change
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|GUA|IMP_ELE||||2019|||||,only_b,,3.3411,R6 history change
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|GUA|IMP_ELE||||2020|||||,only_b,,3.363,R6 history change
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|GUA|IMP_ELE||||2025|||||,only_b,,0.0,R6 history-only row: B1 default from 2025 (no effect)
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|GUA|IMP_ELE||||2026|||||,only_b,,0.0,R6 history-only row: B1 default from 2025 (no effect)
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|GUA|IMP_ELE||||2027|||||,only_b,,0.0,R6 history-only row: B1 default from 2025 (no effect)
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|GUA|PPBGS||||2018|||||,value,0.0709,0.0752,R6 history change
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|GUA|PPBGS||||2019|||||,value,0.0702,11.2,R6 history change
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|GUA|PPBGS||||2020|||||,value,0.1105,11.2,R6 history change
+Guatemala,B1,LTSNEW,VariableCost,VariableCost|LTSNEW|GUA|DIST_FLEXFUEL|||1|2018|||||,value,45.3105,26.9411,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,LTSNEW,VariableCost,VariableCost|LTSNEW|GUA|DIST_FLEXFUEL|||1|2019|||||,value,40.1123,25.5186,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1,LTSNEW,VariableCost,VariableCost|LTSNEW|GUA|DIST_FLEXFUEL|||1|2020|||||,value,40.8744,20.2775,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,BAU,CapitalCost,GUA|PPBIM|2024,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,BAU,CapitalCost,GUA|PPBIM|2039,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,BAU,CapitalCost,GUA|PPFOI|2034,value,1400.0,1364.1067,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,BAU,FixedCost,GUA|PPNGS|2028,value,12.12,11.6923,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,BAU,FixedCost,GUA|PPWNDON|2032,value,28.08,27.2821,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,BAU,FixedCost,GUA|PPGEO|2028,value,150.6,147.1287,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,BAU,VariableCost,GUA|PPGEO|1|2034,value,1.3889,1.3533,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,BAU,VariableCost,GUA|PPDSL|1|2022,value,1.3889,1.3533,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,BAU,VariableCost,GUA|PPNGS|1|2039,value,1.3889,1.3533,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,NDCNEW,CapitalCost,GUA|PPBIM|2024,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,NDCNEW,CapitalCost,GUA|PPBIM|2039,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,NDCNEW,CapitalCost,GUA|PPFOI|2034,value,1400.0,1364.1067,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,NDCNEW,FixedCost,GUA|PPNGS|2028,value,12.12,11.6923,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,NDCNEW,FixedCost,GUA|PPWNDON|2032,value,28.08,27.2821,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,NDCNEW,FixedCost,GUA|PPGEO|2028,value,150.6,147.1287,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,NDCNEW,TotalAnnualMaxCapacity,GUA|PPPVT|2019,value,99.9932,0.1,R6 history change
+Guatemala,B1 data file,NDCNEW,TotalAnnualMaxCapacity,GUA|PPBIM|2024,value,100.0089,1.2,R6 history change
+Guatemala,B1 data file,NDCNEW,TotalAnnualMaxCapacity,GUA|PPBGS|2024,value,100.0089,0.2,R6 history change
+Guatemala,B1 data file,NDCNEW,TotalAnnualMaxCapacityInvestment,GUA|PPGEO|2021,value,99.9995,0.0,R6 history change
+Guatemala,B1 data file,NDCNEW,TotalAnnualMaxCapacityInvestment,GUA|PPGEO|2018,value,99.99,0.0,R6 history change
+Guatemala,B1 data file,NDCNEW,TotalAnnualMaxCapacityInvestment,GUA|PPGEO|2020,value,99.9963,0.0,R6 history change
+Guatemala,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,GUA|PPPVT|2019,value,2.6317,0.6464,R6 history change
+Guatemala,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,GUA|PPBIM|2024,value,5.826,6.4,R6 history change
+Guatemala,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,GUA|PPBGS|2024,value,0.0728,0.08,R6 history change
+Guatemala,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,GUA|PPWNDON|2021,value,4.2855,1.1392,R6 history change
+Guatemala,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,GUA|PPGEO|2020,value,1.0074,0.916,R6 history change
+Guatemala,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,GUA|PPHROR|2024,value,1.2417,1.24,R6 history change
+Guatemala,B1 data file,NDCNEW,VariableCost,GUA|PPGEO|1|2034,value,1.3889,1.3533,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,NDCNEW,VariableCost,GUA|PPDSL|1|2022,value,1.3889,1.3533,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,NDCNEW,VariableCost,GUA|PPNGS|1|2039,value,1.3889,1.3533,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,LTSNEW,CapitalCost,GUA|PPBIM|2024,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,LTSNEW,CapitalCost,GUA|PPBIM|2039,value,1929.0,1879.5441,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,LTSNEW,CapitalCost,GUA|PPFOI|2034,value,1400.0,1364.1067,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,LTSNEW,FixedCost,GUA|PPNGS|2028,value,12.12,11.6923,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,LTSNEW,FixedCost,GUA|PPWNDON|2032,value,28.08,27.2821,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,LTSNEW,FixedCost,GUA|PPGEO|2028,value,150.6,147.1287,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,LTSNEW,TotalAnnualMaxCapacity,GUA|PPPVT|2019,value,99.9932,0.1,R6 history change
+Guatemala,B1 data file,LTSNEW,TotalAnnualMaxCapacity,GUA|PPBIM|2024,value,100.0089,1.2,R6 history change
+Guatemala,B1 data file,LTSNEW,TotalAnnualMaxCapacity,GUA|PPBGS|2024,value,100.0089,0.2,R6 history change
+Guatemala,B1 data file,LTSNEW,TotalAnnualMaxCapacityInvestment,GUA|PPGEO|2021,value,99.9995,0.0,R6 history change
+Guatemala,B1 data file,LTSNEW,TotalAnnualMaxCapacityInvestment,GUA|PPGEO|2018,value,99.99,0.0,R6 history change
+Guatemala,B1 data file,LTSNEW,TotalAnnualMaxCapacityInvestment,GUA|PPGEO|2020,value,99.9963,0.0,R6 history change
+Guatemala,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,GUA|PPPVT|2019,value,2.6317,0.6464,R6 history change
+Guatemala,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,GUA|PPBIM|2024,value,5.826,6.4,R6 history change
+Guatemala,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,GUA|PPBGS|2024,value,0.0728,0.08,R6 history change
+Guatemala,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,GUA|TRAUTPHG|2019,value,0.0,99999.0,R6 history change
+Guatemala,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,GUA|PPPVT|2019,value,2.8948,0.648,R6 history change
+Guatemala,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,GUA|PPFOI|2022,value,0.8427,99999.0,R6 history change
+Guatemala,B1 data file,LTSNEW,VariableCost,GUA|PPGEO|1|2034,value,1.3889,1.3533,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,LTSNEW,VariableCost,GUA|PPDSL|1|2022,value,1.3889,1.3533,"proposal cost cell (R1, R3, R4, R5)"
+Guatemala,B1 data file,LTSNEW,VariableCost,GUA|PPNGS|1|2039,value,1.3889,1.3533,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,BAU,CapitalCost,CapitalCost|BAU|HON|PPBGS||||2018|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,BAU,CapitalCost,CapitalCost|BAU|HON|PPBGS||||2019|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,BAU,CapitalCost,CapitalCost|BAU|HON|PPBGS||||2020|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,BAU,FixedCost,FixedCost|BAU|HON|PPCOK||||2018|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,BAU,FixedCost,FixedCost|BAU|HON|PPCOK||||2019|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,BAU,FixedCost,FixedCost|BAU|HON|PPCOK||||2020|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,BAU,VariableCost,VariableCost|BAU|HON|PPCOK|||1|2018|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,BAU,VariableCost,VariableCost|BAU|HON|PPCOK|||1|2019|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,BAU,VariableCost,VariableCost|BAU|HON|PPCOK|||1|2020|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,NDCNEW,CapitalCost,CapitalCost|NDP|HON|PPBGS||||2018|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,NDCNEW,CapitalCost,CapitalCost|NDP|HON|PPBGS||||2019|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,NDCNEW,CapitalCost,CapitalCost|NDP|HON|PPBGS||||2020|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,NDCNEW,FixedCost,FixedCost|NDP|HON|PPCOK||||2018|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,NDCNEW,FixedCost,FixedCost|NDP|HON|PPCOK||||2019|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,NDCNEW,FixedCost,FixedCost|NDP|HON|PPCOK||||2020|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,NDCNEW,VariableCost,VariableCost|NDP|HON|PPCOK|||1|2018|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,NDCNEW,VariableCost,VariableCost|NDP|HON|PPCOK|||1|2019|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,NDCNEW,VariableCost,VariableCost|NDP|HON|PPCOK|||1|2020|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,LTSNEW,CapitalCost,CapitalCost|NDP|HON|PPBGS||||2018|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,LTSNEW,CapitalCost,CapitalCost|NDP|HON|PPBGS||||2019|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,LTSNEW,CapitalCost,CapitalCost|NDP|HON|PPBGS||||2020|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,LTSNEW,FixedCost,FixedCost|NDP|HON|PPCOK||||2018|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,LTSNEW,FixedCost,FixedCost|NDP|HON|PPCOK||||2019|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,LTSNEW,FixedCost,FixedCost|NDP|HON|PPCOK||||2020|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,LTSNEW,VariableCost,VariableCost|NDP|HON|PPCOK|||1|2018|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,LTSNEW,VariableCost,VariableCost|NDP|HON|PPCOK|||1|2019|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,A2,LTSNEW,VariableCost,VariableCost|NDP|HON|PPCOK|||1|2020|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,BAU,CapitalCost,CapitalCost|BAU|HON|PPBGS||||2018|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,BAU,CapitalCost,CapitalCost|BAU|HON|PPBGS||||2019|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,BAU,CapitalCost,CapitalCost|BAU|HON|PPBGS||||2020|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,BAU,FixedCost,FixedCost|BAU|HON|PPCOK||||2018|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,BAU,FixedCost,FixedCost|BAU|HON|PPCOK||||2019|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,BAU,FixedCost,FixedCost|BAU|HON|PPCOK||||2020|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,BAU,VariableCost,VariableCost|BAU|HON|PPCOK|||1|2018|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,BAU,VariableCost,VariableCost|BAU|HON|PPCOK|||1|2019|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,BAU,VariableCost,VariableCost|BAU|HON|PPCOK|||1|2020|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,NDCNEW,CapitalCost,CapitalCost|NDCNEW|HON|PPBGS||||2018|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,NDCNEW,CapitalCost,CapitalCost|NDCNEW|HON|PPBGS||||2019|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,NDCNEW,CapitalCost,CapitalCost|NDCNEW|HON|PPBGS||||2020|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,NDCNEW,EmissionActivityRatio,EmissionActivityRatio|NDCNEW|HON|PPBIM||CH4_PP|1|2019|||||,value,0.0001949634302167979,0.0001818721205014365,R6 history change
+Honduras,B1,NDCNEW,EmissionActivityRatio,EmissionActivityRatio|NDCNEW|HON|PPBIM||CH4_PP|1|2020|||||,value,0.0001949634302167979,0.0001824617176134393,R6 history change
+Honduras,B1,NDCNEW,EmissionActivityRatio,EmissionActivityRatio|NDCNEW|HON|PPBIM||CH4_PP|1|2021|||||,value,0.0001949634302167979,0.0001665620965930131,R6 history change
+Honduras,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|HON|PPCOK||||2018|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|HON|PPCOK||||2019|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|HON|PPCOK||||2020|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|HON|PPBGS||||2018|||||,value,99.0,0.0,R6 history change
+Honduras,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|HON|PPBGS||||2019|||||,value,99.0031,0.0,R6 history change
+Honduras,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|HON|PPBGS||||2020|||||,value,99.0062,0.0,R6 history change
+Honduras,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|HON|PPBIM||||2018|||||,value,1.9807,2.3449,R6 history change
+Honduras,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|HON|PPBIM||||2019|||||,value,2.2411,3.1291,R6 history change
+Honduras,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|HON|PPBIM||||2020|||||,value,1.9038,2.5568,R6 history change
+Honduras,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|HON|PPBGS||||2018|||||,value,1.2,99999.0,R6 history change
+Honduras,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|HON|PPBGS||||2019|||||,value,1.2038,99999.0,R6 history change
+Honduras,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|HON|PPBGS||||2020|||||,value,1.2075,99999.0,R6 history change
+Honduras,B1,NDCNEW,VariableCost,VariableCost|NDCNEW|HON|PPCOK|||1|2018|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,NDCNEW,VariableCost,VariableCost|NDCNEW|HON|PPCOK|||1|2019|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,NDCNEW,VariableCost,VariableCost|NDCNEW|HON|PPCOK|||1|2020|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,LTSNEW,CapitalCost,CapitalCost|LTSNEW|HON|PPBGS||||2018|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,LTSNEW,CapitalCost,CapitalCost|LTSNEW|HON|PPBGS||||2019|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,LTSNEW,CapitalCost,CapitalCost|LTSNEW|HON|PPBGS||||2020|||||,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,LTSNEW,EmissionActivityRatio,EmissionActivityRatio|LTSNEW|HON|PPBIM||CH4_PP|1|2019|||||,value,0.0001949634302167979,0.0001818721205014365,R6 history change
+Honduras,B1,LTSNEW,EmissionActivityRatio,EmissionActivityRatio|LTSNEW|HON|PPBIM||CH4_PP|1|2020|||||,value,0.0001949634302167979,0.0001824617176134393,R6 history change
+Honduras,B1,LTSNEW,EmissionActivityRatio,EmissionActivityRatio|LTSNEW|HON|PPBIM||CH4_PP|1|2021|||||,value,0.0001949634302167979,0.0001665620965930131,R6 history change
+Honduras,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|HON|PPCOK||||2018|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|HON|PPCOK||||2019|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|HON|PPCOK||||2020|||||,value,45.68,47.0273,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|HON|PPBGS||||2018|||||,value,99.0,0.0,R6 history change
+Honduras,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|HON|PPBGS||||2019|||||,value,99.0031,0.0,R6 history change
+Honduras,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|HON|PPBGS||||2020|||||,value,99.0062,0.0,R6 history change
+Honduras,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|HON|PPBIM||||2018|||||,value,1.9807,2.3449,R6 history change
+Honduras,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|HON|PPBIM||||2019|||||,value,2.2411,3.1291,R6 history change
+Honduras,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|HON|PPBIM||||2020|||||,value,1.9038,2.5568,R6 history change
+Honduras,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|HON|PPBGS||||2018|||||,value,1.2,99999.0,R6 history change
+Honduras,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|HON|PPBGS||||2019|||||,value,1.2038,99999.0,R6 history change
+Honduras,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|HON|PPBGS||||2020|||||,value,1.2075,99999.0,R6 history change
+Honduras,B1,LTSNEW,VariableCost,VariableCost|LTSNEW|HON|PPCOK|||1|2018|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,LTSNEW,VariableCost,VariableCost|LTSNEW|HON|PPCOK|||1|2019|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1,LTSNEW,VariableCost,VariableCost|LTSNEW|HON|PPCOK|||1|2020|||||,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,BAU,CapitalCost,HON|PPBGS|2019,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,BAU,CapitalCost,HON|PPBGS|2018,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,BAU,CapitalCost,HON|PPBGS|2020,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,BAU,FixedCost,HON|PPICEDSL|2021,value,39.57,40.7371,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,BAU,FixedCost,HON|PPFOI|2022,value,39.57,40.7371,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,BAU,FixedCost,HON|PPPVT|2023,value,25.36,26.108,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,BAU,VariableCost,HON|PPGTDSL|1|2020,value,0.5833,0.6005,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,BAU,VariableCost,HON|PPCOK|1|2039,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,BAU,VariableCost,HON|PPCOK|1|2041,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,NDCNEW,CapitalCost,HON|PPBGS|2019,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,NDCNEW,CapitalCost,HON|PPBGS|2018,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,NDCNEW,CapitalCost,HON|PPBGS|2020,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,NDCNEW,EmissionActivityRatio,HON|PPGTDSL|CO2_PP|1|2019,value,0.2019235419049831,0.2039150613331264,R6 history change
+Honduras,B1 data file,NDCNEW,EmissionActivityRatio,HON|PPICEDSL|N2O_PP|1|2022,value,1.635008436477596e-06,2.859269238174402e-06,R6 history change
+Honduras,B1 data file,NDCNEW,EmissionActivityRatio,HON|PPCOK|N2O_PP|1|2024,value,5.474677162010677e-06,3.95594062562944e-06,R6 history change
+Honduras,B1 data file,NDCNEW,FixedCost,HON|PPICEDSL|2021,value,39.57,40.7371,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,NDCNEW,FixedCost,HON|PPFOI|2022,value,39.57,40.7371,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,NDCNEW,FixedCost,HON|PPPVT|2023,value,25.36,26.108,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,NDCNEW,TotalAnnualMaxCapacity,HON|PPICEDSL|2021,value,99.0094,0.0774,R6 history change
+Honduras,B1 data file,NDCNEW,TotalAnnualMaxCapacity,HON|PPWNDS|2019,value,99.0031,0.0,R6 history change
+Honduras,B1 data file,NDCNEW,TotalAnnualMaxCapacity,HON|PPFOI|2022,value,99.0125,0.8887,R6 history change
+Honduras,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,HON|PPICEDSL|2021,value,0.0834,0.0758,R6 history change
+Honduras,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,HON|PPFOI|2022,value,12.6903,11.5815,R6 history change
+Honduras,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,HON|PPPVT|2023,value,6.6606,3.2852,R6 history change
+Honduras,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,HON|PPICEDSL|2021,value,0.0834,0.0926,R6 history change
+Honduras,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,HON|PPWNDS|2019,value,1.0031,0.0,R6 history change
+Honduras,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,HON|PPPVT|2019,value,6.6322,4.4183,R6 history change
+Honduras,B1 data file,NDCNEW,VariableCost,HON|PPGTDSL|1|2020,value,0.5833,0.6005,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,NDCNEW,VariableCost,HON|PPCOK|1|2039,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,NDCNEW,VariableCost,HON|PPCOK|1|2041,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,LTSNEW,CapitalCost,HON|PPBGS|2019,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,LTSNEW,CapitalCost,HON|PPBGS|2018,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,LTSNEW,CapitalCost,HON|PPBGS|2020,value,1813.8173,7269.0984,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,LTSNEW,EmissionActivityRatio,HON|PPGTDSL|CO2_PP|1|2019,value,0.2019235419049831,0.2039150613331264,R6 history change
+Honduras,B1 data file,LTSNEW,EmissionActivityRatio,HON|PPICEDSL|N2O_PP|1|2022,value,1.635008436477596e-06,2.859269238174402e-06,R6 history change
+Honduras,B1 data file,LTSNEW,EmissionActivityRatio,HON|PPCOK|N2O_PP|1|2024,value,5.474677162010677e-06,3.95594062562944e-06,R6 history change
+Honduras,B1 data file,LTSNEW,FixedCost,HON|PPICEDSL|2021,value,39.57,40.7371,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,LTSNEW,FixedCost,HON|PPFOI|2022,value,39.57,40.7371,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,LTSNEW,FixedCost,HON|PPPVT|2023,value,25.36,26.108,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,LTSNEW,TotalAnnualMaxCapacity,HON|PPICEDSL|2021,value,99.0094,0.0774,R6 history change
+Honduras,B1 data file,LTSNEW,TotalAnnualMaxCapacity,HON|PPWNDS|2019,value,99.0031,0.0,R6 history change
+Honduras,B1 data file,LTSNEW,TotalAnnualMaxCapacity,HON|PPFOI|2022,value,99.0125,0.8887,R6 history change
+Honduras,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,HON|PPICEDSL|2021,value,0.0834,0.0758,R6 history change
+Honduras,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,HON|PPFOI|2022,value,12.6903,11.5815,R6 history change
+Honduras,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,HON|PPPVT|2023,value,6.6606,3.2852,R6 history change
+Honduras,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,HON|PPICEDSL|2021,value,0.0834,0.0926,R6 history change
+Honduras,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,HON|PPWNDS|2019,value,1.0031,0.0,R6 history change
+Honduras,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,HON|PPPVT|2019,value,6.6322,4.4183,R6 history change
+Honduras,B1 data file,LTSNEW,VariableCost,HON|PPGTDSL|1|2020,value,0.5833,0.6005,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,LTSNEW,VariableCost,HON|PPCOK|1|2039,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Honduras,B1 data file,LTSNEW,VariableCost,HON|PPCOK|1|2041,value,1.4056,1.4471,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,BAU,CapitalCost,CapitalCost|BAU|JAM|PPGEO||||2021|||||,value,7814.2362,7731.9239,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,BAU,CapitalCost,CapitalCost|BAU|JAM|PPGEO||||2022|||||,value,7814.2362,7731.9239,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,BAU,CapitalCost,CapitalCost|BAU|JAM|PPGEO||||2033|||||,value,6860.1354,6739.1446,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,BAU,FixedCost,FixedCost|BAU|JAM|PPGEO||||2021|||||,value,130.1791,126.8416,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,BAU,FixedCost,FixedCost|BAU|JAM|PPGEO||||2022|||||,value,130.1791,126.8416,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,BAU,FixedCost,FixedCost|BAU|JAM|PPGEO||||2023|||||,value,129.4528,126.1339,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,BAU,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|BAU|JAM|PPHROR||||2021|||||,only_b,,0.0,R7 Jamaica PPHROR
+Jamaica,A2,BAU,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|BAU|JAM|PPHROR||||2022|||||,only_b,,0.0,R7 Jamaica PPHROR
+Jamaica,A2,BAU,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|BAU|JAM|PPHROR||||2023|||||,only_b,,0.0,R7 Jamaica PPHROR
+Jamaica,A2,BAU,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|BAU|JAM|PPHROR||||2027|||||,value,0.0127,0.0129,R7 Jamaica PPHROR
+Jamaica,A2,BAU,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|BAU|JAM|PPHROR||||2028|||||,value,0.007,0.0071,R7 Jamaica PPHROR
+Jamaica,A2,BAU,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|BAU|JAM|PPHROR||||2029|||||,value,0.011,0.0111,R7 Jamaica PPHROR
+Jamaica,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|JAM|PPHROR||||2027|||||,value,0.2131,0.2165,R7 Jamaica PPHROR
+Jamaica,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|JAM|PPHROR||||2028|||||,value,0.3306,0.3357,R7 Jamaica PPHROR
+Jamaica,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|JAM|PPHROR||||2029|||||,value,0.5152,0.522,R7 Jamaica PPHROR
+Jamaica,A2,BAU,VariableCost,VariableCost|BAU|JAM|PPBGS|||1|2021|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,BAU,VariableCost,VariableCost|BAU|JAM|PPBGS|||1|2022|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,BAU,VariableCost,VariableCost|BAU|JAM|PPBGS|||1|2023|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,NDCNEW,CapitalCost,CapitalCost|LTS|JAM|PPGEO||||2021|||||,value,7814.2362,7731.9239,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,NDCNEW,CapitalCost,CapitalCost|LTS|JAM|PPGEO||||2022|||||,value,7814.2362,7731.9239,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,NDCNEW,CapitalCost,CapitalCost|LTS|JAM|PPGEO||||2033|||||,value,6860.1354,6739.1446,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,NDCNEW,FixedCost,FixedCost|LTS|JAM|PPGEO||||2021|||||,value,130.1791,126.8416,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,NDCNEW,FixedCost,FixedCost|LTS|JAM|PPGEO||||2022|||||,value,130.1791,126.8416,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,NDCNEW,FixedCost,FixedCost|LTS|JAM|PPGEO||||2023|||||,value,129.4528,126.1339,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTS|JAM|PPHROR||||2021|||||,only_b,,0.0,R7 Jamaica PPHROR
+Jamaica,A2,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTS|JAM|PPHROR||||2022|||||,only_b,,0.0,R7 Jamaica PPHROR
+Jamaica,A2,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTS|JAM|PPHROR||||2023|||||,only_b,,0.0,R7 Jamaica PPHROR
+Jamaica,A2,NDCNEW,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|LTS|JAM|PPHROR||||2027|||||,value,0.0127,0.0129,R7 Jamaica PPHROR
+Jamaica,A2,NDCNEW,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|LTS|JAM|PPHROR||||2028|||||,value,0.007,0.0071,R7 Jamaica PPHROR
+Jamaica,A2,NDCNEW,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|LTS|JAM|PPHROR||||2029|||||,value,0.011,0.0111,R7 Jamaica PPHROR
+Jamaica,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTS|JAM|PPHROR||||2027|||||,value,0.2131,0.2165,R7 Jamaica PPHROR
+Jamaica,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTS|JAM|PPHROR||||2028|||||,value,0.3306,0.3357,R7 Jamaica PPHROR
+Jamaica,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTS|JAM|PPHROR||||2029|||||,value,0.5152,0.522,R7 Jamaica PPHROR
+Jamaica,A2,NDCNEW,VariableCost,VariableCost|LTS|JAM|PPBGS|||1|2021|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,NDCNEW,VariableCost,VariableCost|LTS|JAM|PPBGS|||1|2022|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,NDCNEW,VariableCost,VariableCost|LTS|JAM|PPBGS|||1|2023|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,LTSNEW,CapitalCost,CapitalCost|LTS|JAM|PPGEO||||2021|||||,value,7814.2362,7731.9239,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,LTSNEW,CapitalCost,CapitalCost|LTS|JAM|PPGEO||||2022|||||,value,7814.2362,7731.9239,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,LTSNEW,CapitalCost,CapitalCost|LTS|JAM|PPGEO||||2033|||||,value,6860.1354,6739.1446,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,LTSNEW,FixedCost,FixedCost|LTS|JAM|PPGEO||||2021|||||,value,130.1791,126.8416,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,LTSNEW,FixedCost,FixedCost|LTS|JAM|PPGEO||||2022|||||,value,130.1791,126.8416,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,LTSNEW,FixedCost,FixedCost|LTS|JAM|PPGEO||||2023|||||,value,129.4528,126.1339,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTS|JAM|PPHROR||||2021|||||,only_b,,0.0,R7 Jamaica PPHROR
+Jamaica,A2,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTS|JAM|PPHROR||||2022|||||,only_b,,0.0,R7 Jamaica PPHROR
+Jamaica,A2,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTS|JAM|PPHROR||||2023|||||,only_b,,0.0,R7 Jamaica PPHROR
+Jamaica,A2,LTSNEW,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|LTS|JAM|PPHROR||||2027|||||,value,0.0127,0.0129,R7 Jamaica PPHROR
+Jamaica,A2,LTSNEW,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|LTS|JAM|PPHROR||||2028|||||,value,0.007,0.0071,R7 Jamaica PPHROR
+Jamaica,A2,LTSNEW,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|LTS|JAM|PPHROR||||2029|||||,value,0.011,0.0111,R7 Jamaica PPHROR
+Jamaica,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTS|JAM|PPHROR||||2027|||||,value,0.2131,0.2165,R7 Jamaica PPHROR
+Jamaica,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTS|JAM|PPHROR||||2028|||||,value,0.3306,0.3357,R7 Jamaica PPHROR
+Jamaica,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTS|JAM|PPHROR||||2029|||||,value,0.5152,0.522,R7 Jamaica PPHROR
+Jamaica,A2,LTSNEW,VariableCost,VariableCost|LTS|JAM|PPBGS|||1|2021|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,LTSNEW,VariableCost,VariableCost|LTS|JAM|PPBGS|||1|2022|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,A2,LTSNEW,VariableCost,VariableCost|LTS|JAM|PPBGS|||1|2023|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,BAU,CapitalCost,CapitalCost|BAU|JAM|PPGEO||||2021|||||,value,7814.2362,7731.9239,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,BAU,CapitalCost,CapitalCost|BAU|JAM|PPGEO||||2022|||||,value,7814.2362,7731.9239,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,BAU,CapitalCost,CapitalCost|BAU|JAM|PPGEO||||2033|||||,value,6860.1354,6739.1446,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,BAU,FixedCost,FixedCost|BAU|JAM|PPGEO||||2021|||||,value,130.1791,126.8416,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,BAU,FixedCost,FixedCost|BAU|JAM|PPGEO||||2022|||||,value,130.1791,126.8416,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,BAU,FixedCost,FixedCost|BAU|JAM|PPGEO||||2023|||||,value,129.4528,126.1339,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,BAU,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|BAU|JAM|PPHROR||||2021|||||,only_b,,0.0,R7 Jamaica PPHROR
+Jamaica,B1,BAU,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|BAU|JAM|PPHROR||||2022|||||,only_b,,0.0,R7 Jamaica PPHROR
+Jamaica,B1,BAU,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|BAU|JAM|PPHROR||||2023|||||,only_b,,0.0,R7 Jamaica PPHROR
+Jamaica,B1,BAU,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|BAU|JAM|PPHROR||||2027|||||,value,0.0127,0.0129,R7 Jamaica PPHROR
+Jamaica,B1,BAU,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|BAU|JAM|PPHROR||||2028|||||,value,0.007,0.0071,R7 Jamaica PPHROR
+Jamaica,B1,BAU,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|BAU|JAM|PPHROR||||2029|||||,value,0.011,0.0111,R7 Jamaica PPHROR
+Jamaica,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|JAM|PPHROR||||2027|||||,value,0.2131,0.2165,R7 Jamaica PPHROR
+Jamaica,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|JAM|PPHROR||||2028|||||,value,0.3306,0.3357,R7 Jamaica PPHROR
+Jamaica,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|BAU|JAM|PPHROR||||2029|||||,value,0.5152,0.522,R7 Jamaica PPHROR
+Jamaica,B1,BAU,VariableCost,VariableCost|BAU|JAM|PPBGS|||1|2021|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,BAU,VariableCost,VariableCost|BAU|JAM|PPBGS|||1|2022|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,BAU,VariableCost,VariableCost|BAU|JAM|PPBGS|||1|2023|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,NDCNEW,CapitalCost,CapitalCost|NDCNEW|JAM|PPGEO||||2021|||||,value,7814.2362,7731.9239,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,NDCNEW,CapitalCost,CapitalCost|NDCNEW|JAM|PPGEO||||2022|||||,value,7814.2362,7731.9239,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,NDCNEW,CapitalCost,CapitalCost|NDCNEW|JAM|PPGEO||||2033|||||,value,6860.1354,6739.1446,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|JAM|PPGEO||||2021|||||,value,130.1791,126.8416,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|JAM|PPGEO||||2022|||||,value,130.1791,126.8416,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,NDCNEW,FixedCost,FixedCost|NDCNEW|JAM|PPGEO||||2023|||||,value,129.4528,126.1339,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|JAM|PPBGS||||2021|||||,value,99.99,99999.0,R6 history change
+Jamaica,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|JAM|PPBGS||||2022|||||,value,99.993,99999.0,R6 history change
+Jamaica,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|JAM|PPBGS||||2023|||||,value,99.9959,99999.0,R6 history change
+Jamaica,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|JAM|PPHROR||||2021|||||,value,99.99,0.0,R7 Jamaica PPHROR
+Jamaica,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|JAM|PPHROR||||2022|||||,value,99.993,0.0,R7 Jamaica PPHROR
+Jamaica,B1,NDCNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|NDCNEW|JAM|PPHROR||||2023|||||,value,99.9959,0.0,R7 Jamaica PPHROR
+Jamaica,B1,NDCNEW,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|NDCNEW|JAM|PPHROR||||2027|||||,value,0.0127,0.0129,R7 Jamaica PPHROR
+Jamaica,B1,NDCNEW,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|NDCNEW|JAM|PPHROR||||2028|||||,value,0.007,0.0071,R7 Jamaica PPHROR
+Jamaica,B1,NDCNEW,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|NDCNEW|JAM|PPHROR||||2029|||||,value,0.011,0.0111,R7 Jamaica PPHROR
+Jamaica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|JAM|PPBIM||||2022|||||,value,0.0002,0.0,R6 history change
+Jamaica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|JAM|PPBIM||||2023|||||,value,0.0016,0.0,R6 history change
+Jamaica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|NDCNEW|JAM|PPBIM||||2024|||||,value,0.028,0.1483,R6 history change
+Jamaica,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|JAM|PPBIM||||2021|||||,value,0.0,0.1498,R6 history change
+Jamaica,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|JAM|PPBIM||||2022|||||,value,0.0002,0.1498,R6 history change
+Jamaica,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|JAM|PPBIM||||2023|||||,value,0.0016,0.1498,R6 history change
+Jamaica,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|JAM|PPHROR||||2021|||||,value,1.155,99999.0,R7 Jamaica PPHROR
+Jamaica,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|JAM|PPHROR||||2022|||||,value,1.155,99999.0,R7 Jamaica PPHROR
+Jamaica,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|NDCNEW|JAM|PPHROR||||2023|||||,value,1.155,99999.0,R7 Jamaica PPHROR
+Jamaica,B1,NDCNEW,VariableCost,VariableCost|NDCNEW|JAM|PPBGS|||1|2021|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,NDCNEW,VariableCost,VariableCost|NDCNEW|JAM|PPBGS|||1|2022|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,NDCNEW,VariableCost,VariableCost|NDCNEW|JAM|PPBGS|||1|2023|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,LTSNEW,CapitalCost,CapitalCost|LTSNEW|JAM|PPGEO||||2021|||||,value,7814.2362,7731.9239,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,LTSNEW,CapitalCost,CapitalCost|LTSNEW|JAM|PPGEO||||2022|||||,value,7814.2362,7731.9239,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,LTSNEW,CapitalCost,CapitalCost|LTSNEW|JAM|PPGEO||||2033|||||,value,6860.1354,6739.1446,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|JAM|PPGEO||||2021|||||,value,130.1791,126.8416,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|JAM|PPGEO||||2022|||||,value,130.1791,126.8416,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,LTSNEW,FixedCost,FixedCost|LTSNEW|JAM|PPGEO||||2023|||||,value,129.4528,126.1339,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,LTSNEW,SpecifiedAnnualDemand,SpecifiedAnnualDemand|LTSNEW|JAM||E5TRODSL|||2021|||||,value,9.3098,9.3253,R6 history change
+Jamaica,B1,LTSNEW,SpecifiedAnnualDemand,SpecifiedAnnualDemand|LTSNEW|JAM||E5TRODSL|||2022|||||,value,10.0719,10.0885,R6 history change
+Jamaica,B1,LTSNEW,SpecifiedAnnualDemand,SpecifiedAnnualDemand|LTSNEW|JAM||E5TRODSL|||2023|||||,value,10.5423,10.5588,R6 history change
+Jamaica,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|JAM|PPBGS||||2021|||||,value,99.99,99999.0,R6 history change
+Jamaica,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|JAM|PPBGS||||2022|||||,value,99.993,99999.0,R6 history change
+Jamaica,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|JAM|PPBGS||||2023|||||,value,99.9959,99999.0,R6 history change
+Jamaica,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|JAM|PPHROR||||2021|||||,value,99.99,0.0,R7 Jamaica PPHROR
+Jamaica,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|JAM|PPHROR||||2022|||||,value,99.993,0.0,R7 Jamaica PPHROR
+Jamaica,B1,LTSNEW,TotalAnnualMaxCapacity,TotalAnnualMaxCapacity|LTSNEW|JAM|PPHROR||||2023|||||,value,99.9959,0.0,R7 Jamaica PPHROR
+Jamaica,B1,LTSNEW,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|LTSNEW|JAM|PPHROR||||2027|||||,value,0.0127,0.0129,R7 Jamaica PPHROR
+Jamaica,B1,LTSNEW,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|LTSNEW|JAM|PPHROR||||2028|||||,value,0.007,0.0071,R7 Jamaica PPHROR
+Jamaica,B1,LTSNEW,TotalAnnualMinCapacityInvestment,TotalAnnualMinCapacityInvestment|LTSNEW|JAM|PPHROR||||2029|||||,value,0.011,0.0111,R7 Jamaica PPHROR
+Jamaica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|JAM|PPBIM||||2022|||||,value,0.0002,0.0,R6 history change
+Jamaica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|JAM|PPBIM||||2023|||||,value,0.0016,0.0,R6 history change
+Jamaica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TotalTechnologyAnnualActivityLowerLimit|LTSNEW|JAM|PPBIM||||2024|||||,value,0.028,0.1483,R6 history change
+Jamaica,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|JAM|PPBIM||||2021|||||,value,0.0,0.1498,R6 history change
+Jamaica,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|JAM|PPBIM||||2022|||||,value,0.0002,0.1498,R6 history change
+Jamaica,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|JAM|PPBIM||||2023|||||,value,0.0016,0.1498,R6 history change
+Jamaica,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|JAM|PPHROR||||2021|||||,value,1.155,99999.0,R7 Jamaica PPHROR
+Jamaica,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|JAM|PPHROR||||2022|||||,value,1.155,99999.0,R7 Jamaica PPHROR
+Jamaica,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,TotalTechnologyAnnualActivityUpperLimit|LTSNEW|JAM|PPHROR||||2023|||||,value,1.155,99999.0,R7 Jamaica PPHROR
+Jamaica,B1,LTSNEW,VariableCost,VariableCost|LTSNEW|JAM|PPBGS|||1|2021|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,LTSNEW,VariableCost,VariableCost|LTSNEW|JAM|PPBGS|||1|2022|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1,LTSNEW,VariableCost,VariableCost|LTSNEW|JAM|PPBGS|||1|2023|||||,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,BAU,CapitalCost,JAM|PPPVDS|2054,value,1610.3956,1797.4969,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,BAU,CapitalCost,JAM|PPNGS|2028,value,1300.0,1894.5978,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,BAU,CapitalCost,JAM|PPHDAM|2036,value,3481.8816,3474.2993,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,BAU,FixedCost,JAM|PPPVDS|2054,value,38.7007,45.6212,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,BAU,FixedCost,JAM|PPHDAM|2025,value,98.4004,98.6088,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,BAU,FixedCost,JAM|PPHDAM|2036,value,98.4004,98.6088,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,BAU,TotalAnnualMaxCapacity,JAM|PPHROR|2027,value,99999.0,0.0129,R7 Jamaica PPHROR
+Jamaica,B1 data file,BAU,TotalAnnualMaxCapacity,JAM|PPHROR|2053,value,99999.0,0.0343,R7 Jamaica PPHROR
+Jamaica,B1 data file,BAU,TotalAnnualMaxCapacity,JAM|PPHROR|2039,value,99999.0,0.0343,R7 Jamaica PPHROR
+Jamaica,B1 data file,BAU,TotalAnnualMinCapacityInvestment,JAM|PPHROR|2031,value,0.002,0.0021,R7 Jamaica PPHROR
+Jamaica,B1 data file,BAU,TotalAnnualMinCapacityInvestment,JAM|PPHROR|2027,value,0.0127,0.0129,R7 Jamaica PPHROR
+Jamaica,B1 data file,BAU,TotalAnnualMinCapacityInvestment,JAM|PPHROR|2029,value,0.011,0.0111,R7 Jamaica PPHROR
+Jamaica,B1 data file,BAU,TotalTechnologyAnnualActivityLowerLimit,JAM|PPHROR|2047,value,0.5656,0.5757,R7 Jamaica PPHROR
+Jamaica,B1 data file,BAU,TotalTechnologyAnnualActivityLowerLimit,JAM|PPHROR|2027,value,0.2131,0.2165,R7 Jamaica PPHROR
+Jamaica,B1 data file,BAU,TotalTechnologyAnnualActivityLowerLimit,JAM|PPHROR|2039,value,0.5656,0.5757,R7 Jamaica PPHROR
+Jamaica,B1 data file,BAU,VariableCost,JAM|PPBIM|1|2033,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,BAU,VariableCost,JAM|PPBGS|1|2038,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,BAU,VariableCost,JAM|PPBIM|1|2042,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,NDCNEW,CapitalCost,JAM|PPPVDS|2054,value,1610.3956,1797.4969,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,NDCNEW,CapitalCost,JAM|PPNGS|2028,value,1300.0,1894.5978,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,NDCNEW,CapitalCost,JAM|PPHDAM|2036,value,3481.8816,3474.2993,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,NDCNEW,FixedCost,JAM|PPPVDS|2054,value,38.7007,45.6212,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,NDCNEW,FixedCost,JAM|PPHDAM|2025,value,98.4004,98.6088,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,NDCNEW,FixedCost,JAM|PPHDAM|2036,value,98.4004,98.6088,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,NDCNEW,TotalAnnualMaxCapacity,JAM|PPHROR|2053,value,100.0851,0.0343,R7 Jamaica PPHROR
+Jamaica,B1 data file,NDCNEW,TotalAnnualMaxCapacity,JAM|PPBGS|2024,value,99.9989,99999.0,R6 history change
+Jamaica,B1 data file,NDCNEW,TotalAnnualMaxCapacity,JAM|PPPVTS|2023,value,99.9959,0.0,R6 history change
+Jamaica,B1 data file,NDCNEW,TotalAnnualMaxCapacity,JAM|PPFOI|2023,value,99.9959,99999.0,R6 history change
+Jamaica,B1 data file,NDCNEW,TotalAnnualMaxCapacity,JAM|PPHROR|2026,value,100.0049,0.0,R7 Jamaica PPHROR
+Jamaica,B1 data file,NDCNEW,TotalAnnualMaxCapacity,JAM|PPHROR|2049,value,100.0732,0.0343,R7 Jamaica PPHROR
+Jamaica,B1 data file,NDCNEW,TotalAnnualMinCapacityInvestment,JAM|PPHROR|2031,value,0.002,0.0021,R7 Jamaica PPHROR
+Jamaica,B1 data file,NDCNEW,TotalAnnualMinCapacityInvestment,JAM|PPHROR|2027,value,0.0127,0.0129,R7 Jamaica PPHROR
+Jamaica,B1 data file,NDCNEW,TotalAnnualMinCapacityInvestment,JAM|PPHROR|2029,value,0.011,0.0111,R7 Jamaica PPHROR
+Jamaica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,JAM|PPFOI|2023,value,3.8908,3.8274,R6 history change
+Jamaica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,JAM|PPHDAM|2024,value,0.0923,0.4884,R6 history change
+Jamaica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,JAM|PPWNDON|2024,value,1.3114,0.9497,R6 history change
+Jamaica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,JAM|PPFOI|2023,value,4.8224,4.0187,R6 history change
+Jamaica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,JAM|PPGEO|2023,value,1.155,99999.0,R6 history change
+Jamaica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,JAM|PPNGS|2022,value,12.0876,10.0722,R6 history change
+Jamaica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,JAM|PPHROR|2022,value,1.155,99999.0,R7 Jamaica PPHROR
+Jamaica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,JAM|PPHROR|2023,value,1.155,99999.0,R7 Jamaica PPHROR
+Jamaica,B1 data file,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,JAM|PPHROR|2021,value,1.155,99999.0,R7 Jamaica PPHROR
+Jamaica,B1 data file,NDCNEW,VariableCost,JAM|PPBIM|1|2033,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,NDCNEW,VariableCost,JAM|PPBGS|1|2038,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,NDCNEW,VariableCost,JAM|PPBIM|1|2042,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,LTSNEW,CapitalCost,JAM|PPPVDS|2054,value,1610.3956,1797.4969,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,LTSNEW,CapitalCost,JAM|PPNGS|2028,value,1300.0,1894.5978,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,LTSNEW,CapitalCost,JAM|PPHDAM|2036,value,3481.8816,3474.2993,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,LTSNEW,FixedCost,JAM|PPPVDS|2054,value,38.7007,45.6212,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,LTSNEW,FixedCost,JAM|PPHDAM|2025,value,98.4004,98.6088,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,LTSNEW,FixedCost,JAM|PPHDAM|2036,value,98.4004,98.6088,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,LTSNEW,SpecifiedAnnualDemand,JAM|E5TRODSL|2022,value,10.0719,10.0885,R6 history change
+Jamaica,B1 data file,LTSNEW,SpecifiedAnnualDemand,JAM|E5TRODSL|2021,value,9.3098,9.3253,R6 history change
+Jamaica,B1 data file,LTSNEW,SpecifiedAnnualDemand,JAM|E5TROGSL|2022,value,22.5932,22.5761,R6 history change
+Jamaica,B1 data file,LTSNEW,TotalAnnualMaxCapacity,JAM|PPHROR|2053,value,100.0851,0.0343,R7 Jamaica PPHROR
+Jamaica,B1 data file,LTSNEW,TotalAnnualMaxCapacity,JAM|PPBGS|2024,value,99.9989,99999.0,R6 history change
+Jamaica,B1 data file,LTSNEW,TotalAnnualMaxCapacity,JAM|PPPVTS|2023,value,99.9959,0.0,R6 history change
+Jamaica,B1 data file,LTSNEW,TotalAnnualMaxCapacity,JAM|PPFOI|2023,value,99.9959,99999.0,R6 history change
+Jamaica,B1 data file,LTSNEW,TotalAnnualMaxCapacity,JAM|PPHROR|2026,value,100.0049,0.0,R7 Jamaica PPHROR
+Jamaica,B1 data file,LTSNEW,TotalAnnualMaxCapacity,JAM|PPHROR|2049,value,100.0732,0.0343,R7 Jamaica PPHROR
+Jamaica,B1 data file,LTSNEW,TotalAnnualMinCapacityInvestment,JAM|PPHROR|2031,value,0.002,0.0021,R7 Jamaica PPHROR
+Jamaica,B1 data file,LTSNEW,TotalAnnualMinCapacityInvestment,JAM|PPHROR|2027,value,0.0127,0.0129,R7 Jamaica PPHROR
+Jamaica,B1 data file,LTSNEW,TotalAnnualMinCapacityInvestment,JAM|PPHROR|2029,value,0.011,0.0111,R7 Jamaica PPHROR
+Jamaica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,JAM|PPFOI|2023,value,3.8908,3.8274,R6 history change
+Jamaica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,JAM|PPHDAM|2024,value,0.0923,0.4884,R6 history change
+Jamaica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,JAM|PPWNDON|2024,value,1.3114,0.9497,R6 history change
+Jamaica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,JAM|PPFOI|2023,value,4.8224,4.0187,R6 history change
+Jamaica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,JAM|PPGEO|2023,value,1.26,99999.0,R6 history change
+Jamaica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,JAM|PPNGS|2022,value,12.0876,10.0722,R6 history change
+Jamaica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,JAM|PPHROR|2022,value,1.155,99999.0,R7 Jamaica PPHROR
+Jamaica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,JAM|PPHROR|2023,value,1.155,99999.0,R7 Jamaica PPHROR
+Jamaica,B1 data file,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,JAM|PPHROR|2021,value,1.155,99999.0,R7 Jamaica PPHROR
+Jamaica,B1 data file,LTSNEW,VariableCost,JAM|PPBIM|1|2033,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,LTSNEW,VariableCost,JAM|PPBGS|1|2038,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"
+Jamaica,B1 data file,LTSNEW,VariableCost,JAM|PPBIM|1|2042,value,1.1111,1.0826,"proposal cost cell (R1, R3, R4, R5)"

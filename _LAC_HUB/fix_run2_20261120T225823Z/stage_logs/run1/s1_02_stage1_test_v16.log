@@ -1,0 +1,30 @@
+$ python.exe stage1_test_v16.py --skip-run
+======================================================================
+VALIDATION
+======================================================================
+Loading CONTROLLER_NEW_SCENARIOS.xlsx...
+  Countries: ['CostaRica', 'DominicanRepublic', 'Ecuador', 'Guatemala', 'Honduras', 'Jamaica']
+  Scenarios: ['BAU', 'LTSNEW', 'NDCNEW']
+  Years: 2018-2055
+
+  [PASS] Test 1: Coverage: 6 countries × 3 scenarios
+  [PASS] Test 2: Share sums in [0.98, 1.02]: 0 violations out of 684 cells
+  [PASS] Test 3: Historical alignment (≤2026): 0 mismatches
+  [PASS] Test 4: BAU fossil decline (non-CR): 0 failures
+  [PASS] Test 5: Policy milestones: 0 failures
+  [PASS] Test 6: Ceiling enforcement: 0 violations
+  [PASS] Test 7: Feasibility (lower ≤ upper): 0 violations
+  [PASS] Test 8: Costa Rica BAU (plateau flat, fossil decline, RE growth): 0 failures
+  [PASS] Test 9: No negatives: 0 negative shares, 0 negative limits
+  [PASS] Test 10: Share sum stats: min=0.9998 max=1.0006 mean=1.0000
+  [PASS] Test 11: BAU floor (policy RE ≥ BAU RE): 0 violations
+  [PASS] Test 12: Biomass lock (policy bio ≤ BAU bio): 0 violations
+  [PASS] Test 13: Historical variation: 0 countries with flat pre-2024 shares
+
+======================================================================
+SUMMARY
+======================================================================
+  PASSED: 13/13
+
+All tests passed. Controller is ready for review.
+  _STAGE1_OUTPUT\CONTROLLER_NEW_SCENARIOS.xlsx

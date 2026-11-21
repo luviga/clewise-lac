@@ -1,0 +1,302 @@
+check,country,item,year,value,note
+history_pp_activity,CostaRica,PWRGEO,2023,0.0538,BAU 5.395 / NDCNEW 5.341 / LTSNEW 5.341
+history_pp_activity,CostaRica,PWRGEO,2024,0.0521,BAU 5.930 / NDCNEW 5.878 / LTSNEW 5.878
+history_pp_activity,CostaRica,PWRHYDDAM,2021,0.095,BAU 13.350 / NDCNEW 13.350 / LTSNEW 13.445
+history_pp_activity,CostaRica,PWRHYDROR,2021,0.0923,BAU 20.859 / NDCNEW 20.859 / LTSNEW 20.767
+history_pp_activity,CostaRica,PWRHYDROR,2023,0.1193,BAU 17.636 / NDCNEW 17.755 / LTSNEW 17.755
+history_pp_activity,CostaRica,PWRHYDROR,2024,0.1193,BAU 17.636 / NDCNEW 17.755 / LTSNEW 17.755
+history_pp_activity,CostaRica,PWRWNONS,2023,0.0655,BAU 5.794 / NDCNEW 5.729 / LTSNEW 5.729
+history_pp_activity,CostaRica,PWRWNONS,2024,0.0679,BAU 6.011 / NDCNEW 5.943 / LTSNEW 5.943
+history_pp_activity,DominicanRepublic,PPAFOI,2018,0.0699,BAU 3.678 / NDCNEW 3.608 / LTSNEW 3.608
+history_pp_activity,DominicanRepublic,PPAFOI,2019,0.0664,BAU 3.494 / NDCNEW 3.428 / LTSNEW 3.428
+history_pp_activity,DominicanRepublic,PPAFOI,2021,0.0589,BAU 3.095 / NDCNEW 3.036 / LTSNEW 3.036
+history_pp_activity,DominicanRepublic,PPAFOI,2022,0.078,BAU 4.100 / NDCNEW 4.022 / LTSNEW 4.022
+history_pp_activity,DominicanRepublic,PPAFOI,2023,0.078,BAU 4.100 / NDCNEW 4.022 / LTSNEW 4.022
+history_pp_activity,DominicanRepublic,PPCCTNGS,2023,0.3096,BAU 18.508 / NDCNEW 18.818 / LTSNEW 18.818
+history_pp_activity,DominicanRepublic,PPCOA,2018,0.4211,BAU 9.849 / NDCNEW 10.270 / LTSNEW 10.095
+history_pp_activity,DominicanRepublic,PPDBIM,2018,0.183,BAU 0.233 / NDCNEW 0.050 / LTSNEW 0.050
+history_pp_activity,DominicanRepublic,PPDBIM,2021,0.1833,BAU 0.234 / NDCNEW 0.050 / LTSNEW 0.050
+history_pp_activity,DominicanRepublic,PPDBIM,2022,0.1982,BAU 0.253 / NDCNEW 0.055 / LTSNEW 0.055
+history_pp_activity,DominicanRepublic,PPDDSL,2018,0.133,BAU 6.992 / NDCNEW 6.859 / LTSNEW 6.859
+history_pp_activity,DominicanRepublic,PPDDSL,2019,0.1361,BAU 7.158 / NDCNEW 7.022 / LTSNEW 7.022
+history_pp_activity,DominicanRepublic,PPDDSL,2020,0.0632,BAU 3.321 / NDCNEW 3.258 / LTSNEW 3.258
+history_pp_activity,DominicanRepublic,PPDDSL,2021,0.0687,BAU 3.612 / NDCNEW 3.543 / LTSNEW 3.543
+history_pp_activity,DominicanRepublic,PPDDSL,2022,0.0634,BAU 3.332 / NDCNEW 3.268 / LTSNEW 3.268
+history_pp_activity,DominicanRepublic,PPDDSL,2023,0.0634,BAU 3.332 / NDCNEW 3.268 / LTSNEW 3.268
+history_pp_activity,DominicanRepublic,PPDDSL,2024,0.0634,BAU 3.332 / NDCNEW 3.268 / LTSNEW 3.268
+history_pp_activity,DominicanRepublic,PPHDAM,2020,0.0516,BAU 4.622 / NDCNEW 4.571 / LTSNEW 4.571
+history_pp_activity,DominicanRepublic,PPHDAM,2021,0.1023,BAU 5.380 / NDCNEW 5.278 / LTSNEW 5.278
+history_pp_activity,DominicanRepublic,PPHDAM,2022,0.1005,BAU 5.241 / NDCNEW 5.140 / LTSNEW 5.140
+history_pp_activity,DominicanRepublic,PPICEFOI,2019,0.2763,BAU 23.944 / NDCNEW 24.219 / LTSNEW 24.220
+history_pp_activity,DominicanRepublic,PPICEFOI,2020,0.2893,BAU 13.122 / NDCNEW 13.411 / LTSNEW 13.340
+history_pp_activity,DominicanRepublic,PPICEFOI,2024,0.0654,BAU 13.338 / NDCNEW 13.402 / LTSNEW 13.403
+history_pp_activity,DominicanRepublic,PPICEGASFOI,2023,0.078,BAU 12.375 / NDCNEW 12.453 / LTSNEW 12.453
+history_pp_activity,DominicanRepublic,PPWNDON,2021,0.0887,BAU 4.343 / NDCNEW 4.343 / LTSNEW 4.432
+history_pp_activity,Ecuador,PPHDAMAB,2022,6.9529,BAU 21.904 / NDCNEW 14.951 / LTSNEW 14.951
+history_pp_activity,Ecuador,PPHDAMAB,2023,3.072,BAU 18.023 / NDCNEW 18.023 / LTSNEW 14.951
+history_pp_activity,Ecuador,PPHDAMAB,2024,1.926,BAU 18.023 / NDCNEW 18.023 / LTSNEW 16.097
+history_pp_activity,Ecuador,PPHDAMAM,2022,1.7632,BAU 5.696 / NDCNEW 3.932 / LTSNEW 5.696
+history_pp_activity,Ecuador,PPHDAMPS,2023,0.4291,BAU 0.960 / NDCNEW 0.960 / LTSNEW 0.530
+history_pp_activity,Ecuador,PPHDAMPS,2024,0.6382,BAU 1.169 / NDCNEW 1.169 / LTSNEW 0.530
+history_pp_activity,Ecuador,PPHRORAB,2022,0.2458,BAU 24.581 / NDCNEW 24.335 / LTSNEW 24.335
+history_pp_activity,Ecuador,PPHRORAM,2023,1.0164,BAU 7.101 / NDCNEW 7.101 / LTSNEW 8.117
+history_pp_activity,Ecuador,PPHRORAS,2021,0.8048,BAU 7.411 / NDCNEW 7.869 / LTSNEW 8.216
+history_pp_activity,Ecuador,PPHRORAS,2022,5.817,BAU 5.746 / NDCNEW 11.563 / LTSNEW 7.392
+history_pp_activity,Ecuador,PPHRORAS,2023,2.4976,BAU 8.125 / NDCNEW 8.094 / LTSNEW 10.592
+history_pp_activity,Ecuador,PPHRORAS,2024,2.5702,BAU 10.474 / NDCNEW 10.450 / LTSNEW 13.020
+history_pp_activity,Ecuador,PPHRORPM,2022,5.5417,BAU 6.036 / NDCNEW 9.171 / LTSNEW 11.578
+history_pp_activity,Ecuador,PPRDSL,2021,0.6705,BAU 8.234 / NDCNEW 7.854 / LTSNEW 7.564
+ecuador_crude,Ecuador,BAU,2021,0.0,"extraction 996.41, imports 0.00, PROCRU input 312.67, exports 683.75, REF crude use 300.84 vs T 308.99 PJ"
+ecuador_crude,Ecuador,BAU,2024,0.0,"extraction 1004.22, imports 0.00, PROCRU input 271.09, exports 733.13, REF crude use 260.27 vs T 262.75 PJ"
+ecuador_crude,Ecuador,BAU,2025,0.0,"extraction 928.48, imports 0.00, PROCRU input 237.55, exports 690.93, REF crude use 226.33 vs T 228.49 PJ"
+ecuador_crude,Ecuador,BAU,2026,-0.001,"extraction 972.55, imports 5.89, PROCRU input 280.38, exports 698.07, REF crude use 269.03 vs T 271.60 PJ"
+ecuador_crude,Ecuador,BAU,2030,0.002,"extraction 1008.53, imports 0.00, PROCRU input 345.29, exports 663.24, REF crude use 333.41 vs T 340.94 PJ"
+ecuador_crude,Ecuador,BAU,2031,0.003,"extraction 1008.53, imports 0.00, PROCRU input 345.42, exports 663.10, REF crude use 333.41 vs T 340.94 PJ"
+ecuador_crude,Ecuador,BAU,2035,0.003,"extraction 1008.53, imports 0.00, PROCRU input 345.96, exports 662.57, REF crude use 333.41 vs T 340.94 PJ"
+ecuador_crude,Ecuador,BAU,2040,0.002,"extraction 1008.53, imports 0.00, PROCRU input 346.58, exports 661.95, REF crude use 333.41 vs T 340.94 PJ"
+ecuador_crude,Ecuador,BAU,2050,0.003,"extraction 1008.53, imports 0.00, PROCRU input 347.32, exports 661.21, REF crude use 333.41 vs T 340.94 PJ"
+ecuador_crude,Ecuador,NDCNEW,2021,0.0,"extraction 996.41, imports 0.00, PROCRU input 312.67, exports 683.75, REF crude use 300.84 vs T 308.99 PJ"
+ecuador_crude,Ecuador,NDCNEW,2024,0.0,"extraction 1004.22, imports 0.00, PROCRU input 271.09, exports 733.13, REF crude use 260.27 vs T 262.75 PJ"
+ecuador_crude,Ecuador,NDCNEW,2025,0.0,"extraction 928.48, imports 0.00, PROCRU input 237.57, exports 690.91, REF crude use 226.33 vs T 228.49 PJ"
+ecuador_crude,Ecuador,NDCNEW,2026,-0.001,"extraction 972.55, imports 5.88, PROCRU input 280.37, exports 698.07, REF crude use 269.03 vs T 271.60 PJ"
+ecuador_crude,Ecuador,NDCNEW,2030,0.003,"extraction 1008.53, imports 0.00, PROCRU input 344.68, exports 663.85, REF crude use 333.41 vs T 340.94 PJ"
+ecuador_crude,Ecuador,NDCNEW,2031,0.003,"extraction 1008.53, imports 0.00, PROCRU input 344.68, exports 663.85, REF crude use 333.42 vs T 340.94 PJ"
+ecuador_crude,Ecuador,NDCNEW,2035,0.003,"extraction 1008.53, imports 0.00, PROCRU input 344.68, exports 663.85, REF crude use 333.54 vs T 340.94 PJ"
+ecuador_crude,Ecuador,NDCNEW,2040,0.003,"extraction 1008.53, imports 0.00, PROCRU input 345.69, exports 662.84, REF crude use 333.41 vs T 340.94 PJ"
+ecuador_crude,Ecuador,NDCNEW,2050,0.002,"extraction 1008.53, imports 0.00, PROCRU input 347.12, exports 661.41, REF crude use 333.41 vs T 340.94 PJ"
+ecuador_crude,Ecuador,LTSNEW,2021,0.0,"extraction 996.41, imports 0.00, PROCRU input 312.67, exports 683.75, REF crude use 300.84 vs T 308.99 PJ"
+ecuador_crude,Ecuador,LTSNEW,2024,0.0,"extraction 1004.22, imports 0.00, PROCRU input 271.09, exports 733.13, REF crude use 260.27 vs T 262.75 PJ"
+ecuador_crude,Ecuador,LTSNEW,2025,0.0,"extraction 928.48, imports 0.00, PROCRU input 237.57, exports 690.91, REF crude use 226.33 vs T 228.49 PJ"
+ecuador_crude,Ecuador,LTSNEW,2026,-0.001,"extraction 972.55, imports 5.88, PROCRU input 280.37, exports 698.07, REF crude use 269.03 vs T 271.60 PJ"
+ecuador_crude,Ecuador,LTSNEW,2030,0.003,"extraction 1008.53, imports 0.00, PROCRU input 343.38, exports 665.14, REF crude use 332.10 vs T 340.94 PJ"
+ecuador_crude,Ecuador,LTSNEW,2031,0.003,"extraction 1008.53, imports 0.00, PROCRU input 343.38, exports 665.14, REF crude use 332.11 vs T 340.94 PJ"
+ecuador_crude,Ecuador,LTSNEW,2035,0.003,"extraction 1008.53, imports 0.00, PROCRU input 343.38, exports 665.14, REF crude use 332.23 vs T 340.94 PJ"
+ecuador_crude,Ecuador,LTSNEW,2040,0.003,"extraction 1008.53, imports 0.00, PROCRU input 343.38, exports 665.14, REF crude use 334.92 vs T 340.94 PJ"
+ecuador_crude,Ecuador,LTSNEW,2050,0.002,"extraction 1008.53, imports 0.00, PROCRU input 338.46, exports 670.07, REF crude use 337.72 vs T 340.94 PJ"
+guatemala_hydro_spread,Guatemala,hydro,2029,0.4726,BAU 20.536 / NDCNEW 20.996 / LTSNEW 21.008
+guatemala_hydro_spread,Guatemala,hydro,2041,1.1433,BAU 22.864 / NDCNEW 24.008 / LTSNEW 22.864
+guatemala_hydro_spread,Guatemala,hydro,2043,1.1433,BAU 22.864 / NDCNEW 24.008 / LTSNEW 22.864
+ecuador_ele_trans_newcap,Ecuador,BAU,2021,84.9248,before 84.8299
+ecuador_ele_trans_newcap,Ecuador,BAU,2022,4.5979,before 88.0625
+ecuador_ele_trans_newcap,Ecuador,BAU,2023,6.5038,before 94.5664
+ecuador_ele_trans_newcap,Ecuador,BAU,2024,3.4374,before 98.1126
+ecuador_ele_trans_newcap,Ecuador,BAU,2025,0.0,before 98.3457
+ecuador_ele_trans_newcap,Ecuador,BAU,2026,0.0,before 98.9905
+ecuador_ele_trans_newcap,Ecuador,BAU,2027,1.9304,before 100.9350
+ecuador_ele_trans_newcap,Ecuador,BAU,2028,2.0179,before 102.8840
+ecuador_ele_trans_newcap,Ecuador,BAU,2029,1.3254,before 104.1760
+ecuador_ele_trans_newcap,Ecuador,BAU,2030,1.8553,before 105.9650
+ecuador_ele_trans_newcap,Ecuador,BAU,2031,1.6847,before 107.5890
+ecuador_ele_trans_newcap,Ecuador,BAU,2032,1.9759,before 109.4930
+ecuador_ele_trans_newcap,Ecuador,BAU,2033,1.6542,before 111.0870
+ecuador_ele_trans_newcap,Ecuador,BAU,2034,1.9136,before 112.9310
+ecuador_ele_trans_newcap,Ecuador,BAU,2035,1.4908,before 114.3670
+ecuador_ele_trans_newcap,Ecuador,BAU,2036,1.9731,before 116.2660
+ecuador_ele_trans_newcap,Ecuador,BAU,2037,1.4985,before 117.7090
+ecuador_ele_trans_newcap,Ecuador,BAU,2038,1.9082,before 119.5460
+ecuador_ele_trans_newcap,Ecuador,BAU,2039,1.6729,before 121.1570
+ecuador_ele_trans_newcap,Ecuador,BAU,2040,1.8915,before 122.9760
+ecuador_ele_trans_newcap,Ecuador,BAU,2041,1.6011,before 124.5170
+ecuador_ele_trans_newcap,Ecuador,BAU,2042,1.8295,before 126.2770
+ecuador_ele_trans_newcap,Ecuador,BAU,2043,1.3488,before 127.5760
+ecuador_ele_trans_newcap,Ecuador,BAU,2044,1.7905,before 129.2980
+ecuador_ele_trans_newcap,Ecuador,BAU,2045,1.4605,before 130.7040
+ecuador_ele_trans_newcap,Ecuador,BAU,2046,1.8717,before 132.5040
+ecuador_ele_trans_newcap,Ecuador,BAU,2047,1.4645,before 133.9130
+ecuador_ele_trans_newcap,Ecuador,BAU,2048,1.5882,before 135.4400
+ecuador_ele_trans_newcap,Ecuador,BAU,2049,1.4563,before 136.8410
+ecuador_ele_trans_newcap,Ecuador,BAU,2050,1.6193,before 138.3980
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2021,85.3462,before 84.8297
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2022,4.1658,before 88.0627
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2023,6.5035,before 94.5662
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2024,3.4376,before 98.1126
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2025,0.0,before 98.3463
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2026,0.0,before 98.8509
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2027,1.6492,before 100.6920
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2028,1.8965,before 102.5310
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2029,1.2221,before 103.7240
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2030,1.7191,before 105.3880
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2031,1.7422,before 107.0750
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2032,1.9909,before 109.0020
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2033,1.7086,before 110.6540
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2034,1.9144,before 112.5050
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2035,1.5424,before 113.9960
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2036,1.8692,before 115.8020
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2037,1.4015,before 117.1520
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2038,1.8016,before 118.8810
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2039,1.5711,before 120.3890
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2040,1.7822,before 122.0990
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2041,1.4979,before 123.5360
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2042,1.7191,before 125.1840
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2043,1.2473,before 126.3800
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2044,1.6785,before 127.9890
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2045,1.3555,before 129.2880
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2046,1.7565,before 130.9720
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2047,1.476,before 132.3920
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2048,1.5588,before 133.8910
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2049,1.4311,before 135.2680
+ecuador_ele_trans_newcap,Ecuador,NDCNEW,2050,1.5912,before 136.7990
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2021,85.6771,before 84.8297
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2022,3.8348,before 88.0627
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2023,6.5035,before 94.5662
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2024,3.4376,before 98.1126
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2025,0.0,before 98.3463
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2026,0.0,before 98.8714
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2027,1.693,before 100.7350
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2028,1.92,before 102.5980
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2029,1.2493,before 103.8160
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2030,1.7421,before 105.5040
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2031,1.7448,before 107.1920
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2032,1.9907,before 109.1190
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2033,1.7105,before 110.7730
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2034,1.9143,before 112.6240
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2035,1.5448,before 114.1160
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2036,2.449,before 116.4900
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2037,1.9954,before 118.4410
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2038,2.4143,before 120.7960
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2039,2.1985,before 122.9430
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2040,2.4291,before 125.3140
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2041,2.1519,before 127.4180
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2042,2.3938,before 129.7560
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2043,1.9237,before 131.6430
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2044,2.3851,before 133.9740
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2045,2.0657,before 135.9990
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2046,2.5013,before 138.4440
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2047,2.0993,before 140.5030
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2048,2.2391,before 142.6980
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2049,2.1195,before 144.7780
+ecuador_ele_trans_newcap,Ecuador,LTSNEW,2050,2.3064,before 147.0390
+ecuador_ele_dist_newcap,Ecuador,BAU,2021,74.5412,before 74.4579
+ecuador_ele_dist_newcap,Ecuador,BAU,2022,4.0357,before 77.2953
+ecuador_ele_dist_newcap,Ecuador,BAU,2023,5.7086,before 83.0039
+ecuador_ele_dist_newcap,Ecuador,BAU,2024,3.0171,before 86.1166
+ecuador_ele_dist_newcap,Ecuador,BAU,2025,0.0,before 86.3212
+ecuador_ele_dist_newcap,Ecuador,BAU,2026,0.0,before 86.8871
+ecuador_ele_dist_newcap,Ecuador,BAU,2027,1.6944,before 88.5940
+ecuador_ele_dist_newcap,Ecuador,BAU,2028,1.7712,before 90.3047
+ecuador_ele_dist_newcap,Ecuador,BAU,2029,1.1634,before 91.4383
+ecuador_ele_dist_newcap,Ecuador,BAU,2030,1.6284,before 93.0087
+ecuador_ele_dist_newcap,Ecuador,BAU,2031,1.4787,before 94.4346
+ecuador_ele_dist_newcap,Ecuador,BAU,2032,1.7343,before 96.1055
+ecuador_ele_dist_newcap,Ecuador,BAU,2033,1.4519,before 97.5048
+ecuador_ele_dist_newcap,Ecuador,BAU,2034,1.6796,before 99.1231
+ecuador_ele_dist_newcap,Ecuador,BAU,2035,1.3085,before 100.3840
+ecuador_ele_dist_newcap,Ecuador,BAU,2036,1.7319,before 102.0500
+ecuador_ele_dist_newcap,Ecuador,BAU,2037,1.3153,before 103.3170
+ecuador_ele_dist_newcap,Ecuador,BAU,2038,1.6749,before 104.9290
+ecuador_ele_dist_newcap,Ecuador,BAU,2039,1.4684,before 106.3430
+ecuador_ele_dist_newcap,Ecuador,BAU,2040,1.6602,before 107.9400
+ecuador_ele_dist_newcap,Ecuador,BAU,2041,1.4054,before 109.2930
+ecuador_ele_dist_newcap,Ecuador,BAU,2042,1.6058,before 110.8370
+ecuador_ele_dist_newcap,Ecuador,BAU,2043,1.1839,before 111.9770
+ecuador_ele_dist_newcap,Ecuador,BAU,2044,1.5716,before 113.4890
+ecuador_ele_dist_newcap,Ecuador,BAU,2045,1.2819,before 114.7230
+ecuador_ele_dist_newcap,Ecuador,BAU,2046,1.6428,before 116.3030
+ecuador_ele_dist_newcap,Ecuador,BAU,2047,1.2854,before 117.5400
+ecuador_ele_dist_newcap,Ecuador,BAU,2048,1.394,before 118.8800
+ecuador_ele_dist_newcap,Ecuador,BAU,2049,1.2782,before 120.1100
+ecuador_ele_dist_newcap,Ecuador,BAU,2050,1.4213,before 121.4770
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2021,74.911,before 74.4578
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2022,3.6564,before 77.2954
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2023,5.7083,before 83.0038
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2024,3.0173,before 86.1166
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2025,0.0,before 86.3217
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2026,0.0,before 86.7646
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2027,1.4476,before 88.3804
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2028,1.6646,before 89.9950
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2029,1.0726,before 91.0415
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2030,1.5089,before 92.5026
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2031,1.5292,before 93.9831
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2032,1.7475,before 95.6742
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2033,1.4997,before 97.1246
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2034,1.6803,before 98.7491
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2035,1.3538,before 100.0580
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2036,1.6407,before 101.6430
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2037,1.2301,before 102.8280
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2038,1.5813,before 104.3460
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2039,1.379,before 105.6690
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2040,1.5643,before 107.1700
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2041,1.3148,before 108.4320
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2042,1.5089,before 109.8780
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2043,1.0948,before 110.9280
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2044,1.4732,before 112.3400
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2045,1.1897,before 113.4800
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2046,1.5417,before 114.9580
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2047,1.2955,before 116.2040
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2048,1.3682,before 117.5210
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2049,1.2561,before 118.7290
+ecuador_ele_dist_newcap,Ecuador,NDCNEW,2050,1.3966,before 120.0720
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2021,75.2015,before 74.4578
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2022,3.366,before 77.2954
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2023,5.7083,before 83.0038
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2024,3.0173,before 86.1166
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2025,0.0,before 86.3217
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2026,0.0,before 86.7826
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2027,1.486,before 88.4181
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2028,1.6852,before 90.0532
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2029,1.0965,before 91.1228
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2030,1.5291,before 92.6038
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2031,1.5315,before 94.0860
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2032,1.7473,before 95.7770
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2033,1.5013,before 97.2287
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2034,1.6802,before 98.8533
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2035,1.3559,before 100.1630
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2036,2.1496,before 102.2470
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2037,1.7514,before 103.9600
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2038,2.1191,before 106.0260
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2039,1.9297,before 107.9110
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2040,2.1321,before 109.9920
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2041,1.8888,before 111.8390
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2042,2.1011,before 113.8910
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2043,1.6885,before 115.5470
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2044,2.0934,before 117.5930
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2045,1.8131,before 119.3700
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2046,2.1954,before 121.5170
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2047,1.8426,before 123.3240
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2048,1.9653,before 125.2500
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2049,1.8603,before 127.0760
+ecuador_ele_dist_newcap,Ecuador,LTSNEW,2050,2.0244,before 129.0600
+hydro_output_PJ,CostaRica,BAU,2026/2030/2040/2050,,35.297 / 35.279 / 35.279 / 35.279
+hydro_output_PJ,CostaRica,LTSNEW,2026/2030/2040/2050,,35.433 / 35.433 / 35.433 / 35.433
+hydro_output_PJ,CostaRica,NDCNEW,2026/2030/2040/2050,,35.433 / 35.433 / 35.433 / 35.433
+hydro_output_PJ,DominicanRepublic,BAU,2026/2030/2040/2050,,4.350 / 4.350 / 4.350 / 4.350
+hydro_output_PJ,DominicanRepublic,LTSNEW,2026/2030/2040/2050,,4.306 / 4.306 / 4.306 / 4.306
+hydro_output_PJ,DominicanRepublic,NDCNEW,2026/2030/2040/2050,,4.302 / 4.302 / 4.302 / 4.301
+hydro_output_PJ,Ecuador,BAU,2026/2030/2040/2050,,91.882 / 93.715 / 93.114 / 93.114
+hydro_output_PJ,Ecuador,LTSNEW,2026/2030/2040/2050,,92.063 / 93.270 / 94.137 / 93.247
+hydro_output_PJ,Ecuador,NDCNEW,2026/2030/2040/2050,,91.866 / 93.270 / 93.247 / 93.247
+hydro_output_PJ,Guatemala,BAU,2026/2030/2040/2050,,19.705 / 22.864 / 22.864 / 22.864
+hydro_output_PJ,Guatemala,LTSNEW,2026/2030/2040/2050,,19.705 / 22.864 / 22.864 / 22.864
+hydro_output_PJ,Guatemala,NDCNEW,2026/2030/2040/2050,,19.705 / 22.864 / 22.864 / 22.864
+hydro_output_PJ,Honduras,BAU,2026/2030/2040/2050,,13.771 / 13.771 / 13.609 / 13.609
+hydro_output_PJ,Honduras,LTSNEW,2026/2030/2040/2050,,13.793 / 13.793 / 13.658 / 13.658
+hydro_output_PJ,Honduras,NDCNEW,2026/2030/2040/2050,,13.792 / 13.792 / 13.657 / 13.657
+hydro_output_PJ,Jamaica,BAU,2026/2030/2040/2050,,0.395 / 0.946 / 1.001 / 1.001
+hydro_output_PJ,Jamaica,LTSNEW,2026/2030/2040/2050,,0.397 / 0.929 / 1.003 / 0.989
+hydro_output_PJ,Jamaica,NDCNEW,2026/2030/2040/2050,,0.416 / 0.929 / 1.003 / 0.989
+d7a_rows,DominicanRepublic,Primary Techs row 138 PPHDAM,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Primary Techs row 168 PPWNDON,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Primary Techs row 178 PPPVT,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Primary Techs row 208 PPPVD,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Primary Techs row 228 PPDHYD,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Secondary Techs row 48 PPBIM,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Secondary Techs row 78 PPCCTDSL,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Secondary Techs row 98 PPCCTNGS,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Secondary Techs row 128 PPICEGASFOI,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Secondary Techs row 138 PPADSL,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Secondary Techs row 148 PPAFOI,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Secondary Techs row 158 PPANGS,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Secondary Techs row 168 PPDBGS,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Secondary Techs row 178 PPDDSL,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Secondary Techs row 188 PPDFOI,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Secondary Techs row 198 PPDNGS,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Secondary Techs row 208 PPDGSL,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Secondary Techs row 218 PPDGLP,,0.999,kept at 0.999
+d7a_rows,DominicanRepublic,Secondary Techs row 228 PPDBIM,,0.999,kept at 0.999
+d7a_rows,Jamaica,Primary Techs row 188 PPHDAM,,0.999,kept at 0.999
+d7a_rows,Jamaica,Primary Techs row 198 PPHROR,,0.999,kept at 0.999
+d7a_rows,Jamaica,Secondary Techs row 88 PPDSL,,0.999,kept at 0.999
+d7a_rows,Jamaica,Secondary Techs row 138 REF_GSL,,0.999,kept at 0.999
+d7a_rows,Jamaica,Secondary Techs row 148 REF_LPG,,0.999,kept at 0.999
+d7a_rows,Jamaica,Secondary Techs row 158 REF_FOI,,0.999,kept at 0.999
+d7a_rows,Jamaica,Secondary Techs row 168 REF_JET,,0.999,kept at 0.999

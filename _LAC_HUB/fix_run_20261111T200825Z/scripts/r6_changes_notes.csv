@@ -1,0 +1,7 @@
+country,sheet,row,note
+CostaRica,Electrical,55,duplicate row for NDCNEW TotalTechnologyAnnualActivityLowerLimit PWRHYDROR: B1 uses only the first one; not changed
+CostaRica,Electrical,64,duplicate row for LTSNEW TotalTechnologyAnnualActivityLowerLimit PWRHYDROR: B1 uses only the first one; not changed
+CostaRica,Electrical,99,CapacityFactor row (NDCNEW PWRHYDROR) has a time-slice dimension; checked separately
+CostaRica,Electrical,100,CapacityFactor row (LTSNEW PWRHYDROR) has a time-slice dimension; checked separately
+CostaRica,Electrical,102,CapacityFactor row (NDCNEW PWRHYDDAM) has a time-slice dimension; checked separately
+CostaRica,Electrical,103,CapacityFactor row (LTSNEW PWRHYDDAM) has a time-slice dimension; checked separately

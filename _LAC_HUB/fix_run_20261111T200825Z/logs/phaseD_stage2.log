@@ -1,0 +1,2 @@
+{"stage": "2", "step": 1, "name": "stage2_apply_v2", "start_utc": "2026-11-12T00:18:48Z", "seconds": 3.8, "exit": 0, "log": "s2_01_stage2_apply_v2.log"}
+{"stage": "2", "step": 2, "name": "stage2_test_v2", "start_utc": "2026-11-12T00:18:51Z", "seconds": 1.2, "exit": 0, "log": "s2_02_stage2_test_v2.log"}

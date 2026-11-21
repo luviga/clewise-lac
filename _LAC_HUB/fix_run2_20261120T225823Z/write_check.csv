@@ -1,0 +1,123 @@
+check,workbook,ok,bad
+1 targets written,CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_Parametrization.xlsx,10,0
+2 changes only at listed and dependent cells,CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_Parametrization.xlsx,0,0
+3 no formula without stored value,CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_Parametrization.xlsx,0,0
+1 targets written,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx,42,0
+2 changes only at listed and dependent cells,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx,0,0
+3 no formula without stored value,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx,0,0
+1 targets written,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,310,0
+2 changes only at listed and dependent cells,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,312,0
+3 no formula without stored value,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,0,0
+1 targets written,DominicanRepublic/RD_ENERGY/B1_Scenario_Config.xlsx,72,0
+2 changes only at listed and dependent cells,DominicanRepublic/RD_ENERGY/B1_Scenario_Config.xlsx,0,0
+3 no formula without stored value,DominicanRepublic/RD_ENERGY/B1_Scenario_Config.xlsx,0,0
+1 targets written,Ecuador/ECU_Energy/A1_Outputs/A-O_Demand.xlsx,20,0
+2 changes only at listed and dependent cells,Ecuador/ECU_Energy/A1_Outputs/A-O_Demand.xlsx,0,0
+3 no formula without stored value,Ecuador/ECU_Energy/A1_Outputs/A-O_Demand.xlsx,0,0
+1 targets written,Ecuador/ECU_Energy/A1_Outputs/A-O_Parametrization.xlsx,466,0
+2 changes only at listed and dependent cells,Ecuador/ECU_Energy/A1_Outputs/A-O_Parametrization.xlsx,0,0
+3 no formula without stored value,Ecuador/ECU_Energy/A1_Outputs/A-O_Parametrization.xlsx,0,0
+1 targets written,Ecuador/ECU_Energy/B1_Scenario_Config.xlsx,6,0
+2 changes only at listed and dependent cells,Ecuador/ECU_Energy/B1_Scenario_Config.xlsx,0,0
+3 no formula without stored value,Ecuador/ECU_Energy/B1_Scenario_Config.xlsx,0,0
+1 targets written,Guatemala/GUA_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,48,0
+2 changes only at listed and dependent cells,Guatemala/GUA_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,0,0
+3 no formula without stored value,Guatemala/GUA_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,0,0
+1 targets written,Guatemala/GUA_ENERGY/B1_Scenario_Config.xlsx,54,0
+2 changes only at listed and dependent cells,Guatemala/GUA_ENERGY/B1_Scenario_Config.xlsx,0,0
+3 no formula without stored value,Guatemala/GUA_ENERGY/B1_Scenario_Config.xlsx,0,0
+1 targets written,Honduras/HON_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,50,0
+2 changes only at listed and dependent cells,Honduras/HON_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,0,0
+3 no formula without stored value,Honduras/HON_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,0,0
+1 targets written,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx,79,0
+2 changes only at listed and dependent cells,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx,0,0
+3 no formula without stored value,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx,0,0
+1 targets written,Jamaica/JAM_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,128,0
+2 changes only at listed and dependent cells,Jamaica/JAM_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,97,0
+3 no formula without stored value,Jamaica/JAM_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,0,0
+1 targets written,Jamaica/JAM_ENERGY/B1_Scenario_Config.xlsx,4,0
+2 changes only at listed and dependent cells,Jamaica/JAM_ENERGY/B1_Scenario_Config.xlsx,0,0
+3 no formula without stored value,Jamaica/JAM_ENERGY/B1_Scenario_Config.xlsx,0,0
+4 unchanged workbook byte-identical,CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_AR_Model_Base_Year.xlsx,1,0
+4 unchanged workbook byte-identical,CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_AR_Model_Base_Year_CostaRica.xlsx,1,0
+4 unchanged workbook byte-identical,CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_AR_Projections.xlsx,1,0
+4 unchanged workbook byte-identical,CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_AR_Projections_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_AR_Projections_CostaRica.xlsx,1,0
+4 unchanged workbook byte-identical,CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_Demand.xlsx,1,0
+4 unchanged workbook byte-identical,CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_Demand_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_Demand_CostaRica.xlsx,1,0
+4 unchanged workbook byte-identical,CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_Fleet.xlsx,1,0
+4 unchanged workbook byte-identical,CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_Parametrization_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,CostaRica/CR_ENERGY/t1_confection/A1_Outputs/A-O_Parametrization_Natural_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_AR_Model_Base_Year.xlsx,1,0
+4 unchanged workbook byte-identical,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_AR_Model_Base_Year_DominicanRepublic.xlsx,1,0
+4 unchanged workbook byte-identical,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_AR_Projections.xlsx,1,0
+4 unchanged workbook byte-identical,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_AR_Projections_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_AR_Projections_DominicanRepublic.xlsx,1,0
+4 unchanged workbook byte-identical,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Demand.xlsx,1,0
+4 unchanged workbook byte-identical,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Demand_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Demand_DominicanRepublic.xlsx,1,0
+4 unchanged workbook byte-identical,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Fleet.xlsx,1,0
+4 unchanged workbook byte-identical,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_ParametrizationBackUp.xlsx,1,0
+4 unchanged workbook byte-identical,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization_Natural_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_AR_Model_Base_Year.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_AR_Model_Base_Year_Ecuador.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_AR_Projections.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_AR_Projections_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_AR_Projections_Ecuador.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_Demand_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_Demand_Ecuador.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_Demand_Extend_Demand_extended_from_PLANMICC.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_Demand_Extend_Demand_fields.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_Demand_PLANMICC.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_Demand_draft.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_Demand_old.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_Fleet.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_Parametrization_BACKUP_20260513_215823.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_Parametrization_BACKUP_20260514_111921.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_Parametrization_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_Parametrization_Natural_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/A-O_Parametrization_PLANMICC.xlsx,1,0
+4 unchanged workbook byte-identical,Ecuador/ECU_Energy/A1_Outputs/PLANMICC_extension_mapping.xlsx,1,0
+4 unchanged workbook byte-identical,Guatemala/GUA_ENERGY/A1_Outputs/A-O_AR_Model_Base_Year.xlsx,1,0
+4 unchanged workbook byte-identical,Guatemala/GUA_ENERGY/A1_Outputs/A-O_AR_Model_Base_Year_Guatemala.xlsx,1,0
+4 unchanged workbook byte-identical,Guatemala/GUA_ENERGY/A1_Outputs/A-O_AR_Projections.xlsx,1,0
+4 unchanged workbook byte-identical,Guatemala/GUA_ENERGY/A1_Outputs/A-O_AR_Projections_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,Guatemala/GUA_ENERGY/A1_Outputs/A-O_AR_Projections_Guatemala.xlsx,1,0
+4 unchanged workbook byte-identical,Guatemala/GUA_ENERGY/A1_Outputs/A-O_Demand.xlsx,1,0
+4 unchanged workbook byte-identical,Guatemala/GUA_ENERGY/A1_Outputs/A-O_Demand_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,Guatemala/GUA_ENERGY/A1_Outputs/A-O_Demand_Guatemala.xlsx,1,0
+4 unchanged workbook byte-identical,Guatemala/GUA_ENERGY/A1_Outputs/A-O_Fleet.xlsx,1,0
+4 unchanged workbook byte-identical,Guatemala/GUA_ENERGY/A1_Outputs/A-O_Parametrization_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,Guatemala/GUA_ENERGY/A1_Outputs/A-O_Parametrization_Natural_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,Honduras/HON_ENERGY/A1_Outputs/A-O_AR_Model_Base_Year.xlsx,1,0
+4 unchanged workbook byte-identical,Honduras/HON_ENERGY/A1_Outputs/A-O_AR_Model_Base_Year_Honduras.xlsx,1,0
+4 unchanged workbook byte-identical,Honduras/HON_ENERGY/A1_Outputs/A-O_AR_Projections.xlsx,1,0
+4 unchanged workbook byte-identical,Honduras/HON_ENERGY/A1_Outputs/A-O_AR_Projections_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,Honduras/HON_ENERGY/A1_Outputs/A-O_AR_Projections_Honduras.xlsx,1,0
+4 unchanged workbook byte-identical,Honduras/HON_ENERGY/A1_Outputs/A-O_Demand.xlsx,1,0
+4 unchanged workbook byte-identical,Honduras/HON_ENERGY/A1_Outputs/A-O_Demand_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,Honduras/HON_ENERGY/A1_Outputs/A-O_Demand_Honduras.xlsx,1,0
+4 unchanged workbook byte-identical,Honduras/HON_ENERGY/A1_Outputs/A-O_Fleet.xlsx,1,0
+4 unchanged workbook byte-identical,Honduras/HON_ENERGY/A1_Outputs/A-O_ParametrizationV8.xlsx,1,0
+4 unchanged workbook byte-identical,Honduras/HON_ENERGY/A1_Outputs/A-O_Parametrization_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,Honduras/HON_ENERGY/A1_Outputs/A-O_Parametrization_Natural_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,Jamaica/JAM_ENERGY/A1_Outputs/A-O_AR_Model_Base_Year.xlsx,1,0
+4 unchanged workbook byte-identical,Jamaica/JAM_ENERGY/A1_Outputs/A-O_AR_Model_Base_Year_Jamaica.xlsx,1,0
+4 unchanged workbook byte-identical,Jamaica/JAM_ENERGY/A1_Outputs/A-O_AR_Projections.xlsx,1,0
+4 unchanged workbook byte-identical,Jamaica/JAM_ENERGY/A1_Outputs/A-O_AR_Projections_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,Jamaica/JAM_ENERGY/A1_Outputs/A-O_AR_Projections_Jamaica.xlsx,1,0
+4 unchanged workbook byte-identical,Jamaica/JAM_ENERGY/A1_Outputs/A-O_Demand.xlsx,1,0
+4 unchanged workbook byte-identical,Jamaica/JAM_ENERGY/A1_Outputs/A-O_Demand_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,Jamaica/JAM_ENERGY/A1_Outputs/A-O_Demand_JAMAICA.xlsx,1,0
+4 unchanged workbook byte-identical,Jamaica/JAM_ENERGY/A1_Outputs/A-O_Fleet.xlsx,1,0
+4 unchanged workbook byte-identical,Jamaica/JAM_ENERGY/A1_Outputs/A-O_Parametrization.bak_20260511_171831.xlsx,1,0
+4 unchanged workbook byte-identical,Jamaica/JAM_ENERGY/A1_Outputs/A-O_Parametrization_COMPLETED.xlsx,1,0
+4 unchanged workbook byte-identical,Jamaica/JAM_ENERGY/A1_Outputs/A-O_Parametrization_Natural_COMPLETED.xlsx,1,0
+5 stage 2 csv only listed lines,_STAGE2_INPUTS/STAGE2_OVERWRITES_CostaRica.csv,193,0
+5 stage 2 csv only listed lines,_STAGE2_INPUTS/STAGE2_OVERWRITES_DR.csv,124,0
+5 stage 2 csv only listed lines,_STAGE2_INPUTS/STAGE2_OVERWRITES_Ecuador.csv,39,0
+5 stage 2 csv only listed lines,_STAGE2_INPUTS/STAGE2_OVERWRITES_Guatemala.csv,1395,0
+5 stage 2 csv only listed lines,_STAGE2_INPUTS/STAGE2_OVERWRITES_HONDURAS.csv,325,0
+5 stage 2 csv only listed lines,_STAGE2_INPUTS/STAGE2_OVERWRITES_Jamaica.csv,237,0

@@ -1,0 +1,18 @@
+check,country,result,count,note
+"history: PP activity per technology, years <= 2024, spread across scenarios > 0.05 PJ",CostaRica,FAIL,17,max spread 6.1082 PJ; total PP activity spread max 3.6038 PJ
+"history: PP activity per technology, years <= 2024, spread across scenarios > 0.05 PJ",DominicanRepublic,FAIL,18,max spread 0.4338 PJ; total PP activity spread max 0.4629 PJ
+"history: PP activity per technology, years <= 2024, spread across scenarios > 0.05 PJ",Ecuador,FAIL,2,max spread 3.4566 PJ; total PP activity spread max 0.0002 PJ
+"history: PP activity per technology, years <= 2024, spread across scenarios > 0.05 PJ",Guatemala,pass,0,max spread 0.0080 PJ; total PP activity spread max 0.0104 PJ
+"history: PP activity per technology, years <= 2024, spread across scenarios > 0.05 PJ",Honduras,pass,0,max spread 0.0001 PJ; total PP activity spread max 0.0001 PJ
+"history: PP activity per technology, years <= 2024, spread across scenarios > 0.05 PJ",Jamaica,pass,0,max spread 0.0000 PJ; total PP activity spread max 0.0000 PJ
+Stage 2 test T9_hydro_pj_freeze,all,FAIL,,T9_hydro_pj_freeze: 87 violations e.g. Jamaica/BAU 2027: 0.615 > boundary 0.394
+Stage 2 test T11a_denom_alignment,all,FAIL,,T11a_denom_alignment: 1 years with scenario spread >0.5 PJ e.g. CostaRica 2023: BAU=45.5 NDC=49.1 LTS=49.1 (spread=3.6 PJ)
+Stage 2 T9 violations printed for Jamaica (first lines of the log only),Jamaica,info,1,
+"Ecuador crude surplus (extraction + imports - refinery - exports) at most 0.5 PJ, every year and scenario",Ecuador,pass,0,largest surplus 0.000 PJ
+"Jamaica PPHROR new capacity over the horizon at most 0.0343 GW, none in 2024 to 2026",Jamaica BAU,FAIL,,"total 34.45 MW; 2024-2026 0.00 MW; by year 2027 12.96, 2028 7.13, 2029 11.15, 2031 2.11, 2032 1.11"
+"Jamaica PPHROR new capacity over the horizon at most 0.0343 GW, none in 2024 to 2026",Jamaica NDCNEW,FAIL,,"total 34.45 MW; 2024-2026 0.00 MW; by year 2027 12.96, 2028 7.13, 2029 11.15, 2031 2.11, 2032 1.11"
+"Jamaica PPHROR new capacity over the horizon at most 0.0343 GW, none in 2024 to 2026",Jamaica LTSNEW,FAIL,,"total 34.45 MW; 2024-2026 0.00 MW; by year 2027 12.96, 2028 7.13, 2029 11.15, 2031 2.11, 2032 1.11"
+Jamaica hydro output identical across scenarios (0.05 PJ),Jamaica,pass,,max spread 0.0222 PJ
+Costa Rica E5INDCOA 2021 demand 0.00667 PJ (config; B1 rounds to 4 decimals),CostaRica BAU,pass,,Stage 3 data file value 0.0067
+Costa Rica E5INDCOA 2021 demand 0.00667 PJ (config; B1 rounds to 4 decimals),CostaRica NDCNEW,pass,,Stage 3 data file value 0.0067
+Costa Rica E5INDCOA 2021 demand 0.00667 PJ (config; B1 rounds to 4 decimals),CostaRica LTSNEW,pass,,Stage 3 data file value 0.0067

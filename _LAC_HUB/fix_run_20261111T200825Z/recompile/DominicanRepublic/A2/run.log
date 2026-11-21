@@ -1,0 +1,64 @@
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:286: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df_OAR = pd.concat([df_OAR, pd.DataFrame(accumulated_rows_OAR)], ignore_index=True) if accumulated_rows_OAR else df_OAR
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:287: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df_IAR = pd.concat([df_IAR, pd.DataFrame(accumulated_rows_IAR)], ignore_index=True) if accumulated_rows_IAR else df_IAR
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:307: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  Projections_sheet[ this_col_header ].interpolate(method ='linear', limit_direction ='forward', inplace = True)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:311: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  Projections_sheet[ this_col_header ].interpolate(method ='linear', limit_direction ='forward', inplace = True)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:394: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df_SpecAnnualDemand = pd.concat([df_SpecAnnualDemand, new_rows_SpecAnnualDemand_df], ignore_index=True)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:426: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  this_df = this_df.replace('\xa0', np.nan)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:426: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  this_df = this_df.replace('\xa0', np.nan)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:426: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  this_df = this_df.replace('\xa0', np.nan)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:505: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  overall_param_df_dict[param] = pd.concat([overall_param_df_dict[param], new_rows_df], ignore_index=True)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:505: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  overall_param_df_dict[param] = pd.concat([overall_param_df_dict[param], new_rows_df], ignore_index=True)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:514: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  this_df = this_df.replace('\xa0', np.nan)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:514: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  this_df = this_df.replace('\xa0', np.nan)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:514: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  this_df = this_df.replace('\xa0', np.nan)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:824: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  overall_param_df_dict[param] = pd.concat([overall_param_df_dict[param], new_rows_df], ignore_index=True)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:824: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  overall_param_df_dict[param] = pd.concat([overall_param_df_dict[param], new_rows_df], ignore_index=True)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:824: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  overall_param_df_dict[param] = pd.concat([overall_param_df_dict[param], new_rows_df], ignore_index=True)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:824: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  overall_param_df_dict[param] = pd.concat([overall_param_df_dict[param], new_rows_df], ignore_index=True)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:824: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  overall_param_df_dict[param] = pd.concat([overall_param_df_dict[param], new_rows_df], ignore_index=True)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:824: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  overall_param_df_dict[param] = pd.concat([overall_param_df_dict[param], new_rows_df], ignore_index=True)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:824: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  overall_param_df_dict[param] = pd.concat([overall_param_df_dict[param], new_rows_df], ignore_index=True)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:824: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  overall_param_df_dict[param] = pd.concat([overall_param_df_dict[param], new_rows_df], ignore_index=True)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:824: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  overall_param_df_dict[param] = pd.concat([overall_param_df_dict[param], new_rows_df], ignore_index=True)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:824: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  overall_param_df_dict[param] = pd.concat([overall_param_df_dict[param], new_rows_df], ignore_index=True)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:864: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  df_Emissions = pd.concat([df_Emissions, new_emissions_df], ignore_index=True)
+C:\clw_fix\DominicanRepublic\RD_ENERGY\A2_Compiler_DominicanRepublic.py:970: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  overall_param_df_dict_ndp[param] = pd.concat([overall_param_df_dict_ndp[param], new_rows_df], ignore_index=True)
+17.12532615661621 seconds / 0.2854221026102702 minutes
+*: For all effects, we have finished the processing tasks of this script. We must now print the results out.
+17.12532615661621 seconds / 0.31093220313390096 minutes
+*: We just finished the printing of the results.

@@ -1,0 +1,179 @@
+$ python stage3_results.py --root .
+Stage 3E Results Extractor
+  Root:       C:\clw_fix
+  Countries:  ['CostaRica', 'DominicanRepublic', 'Ecuador', 'Guatemala', 'Honduras', 'Jamaica']
+  Scenarios:  ['BAU', 'NDCNEW', 'LTSNEW']
+  Variables:  ['TotalTechnologyAnnualActivity', 'AnnualEmissions', 'AnnualTechnologyEmission', 'NewCapacity', 'TotalCapacityAnnual', 'ProductionByTechnologyAnnual']
+
+  CostaRica/BAU:
+    Scanning BAU_FINAL_0_output.txt ... 16059 values in 7.6s
+  CostaRica/NDCNEW:
+    Scanning NDCNEW_FINAL_0_output.txt ... 16254 values in 8.2s
+  CostaRica/LTSNEW:
+    Scanning LTSNEW_FINAL_0_output.txt ... 16888 values in 7.8s
+  DominicanRepublic/BAU:
+    Scanning BAU_FINAL_0_output.txt ... 19123 values in 10.5s
+  DominicanRepublic/NDCNEW:
+    Scanning NDCNEW_FINAL_0_output.txt ... 19461 values in 9.4s
+  DominicanRepublic/LTSNEW:
+    Scanning LTSNEW_FINAL_0_output.txt ... 19252 values in 10.3s
+  Ecuador/BAU:
+    Scanning BAU_FINAL_0_output.txt ... 18033 values in 8.4s
+  Ecuador/NDCNEW:
+    Scanning NDCNEW_FINAL_0_output.txt ... 17956 values in 8.6s
+  Ecuador/LTSNEW:
+    Scanning LTSNEW_FINAL_0_output.txt ... 17851 values in 8.9s
+  Guatemala/BAU:
+    Scanning BAU_FINAL_0_output.txt ... 11618 values in 7.9s
+  Guatemala/NDCNEW:
+    Scanning NDCNEW_FINAL_0_output.txt ... 12437 values in 5.3s
+  Guatemala/LTSNEW:
+    Scanning LTSNEW_FINAL_0_output.txt ... 12456 values in 6.0s
+  Honduras/BAU:
+    Scanning BAU_FINAL_0_output.txt ... 18623 values in 8.2s
+  Honduras/NDCNEW:
+    Scanning NDCNEW_FINAL_0_output.txt ... 19102 values in 8.7s
+  Honduras/LTSNEW:
+    Scanning LTSNEW_FINAL_0_output.txt ... 18857 values in 8.2s
+  Jamaica/BAU:
+    Scanning BAU_FINAL_0_output.txt ... 13327 values in 14.4s
+  Jamaica/NDCNEW:
+    Scanning NDCNEW_FINAL_0_output.txt ... 13319 values in 15.3s
+  Jamaica/LTSNEW:
+    Scanning LTSNEW_FINAL_0_output.txt ... 13316 values in 12.8s
+
+Writing results to C:\clw_fix\_STAGE3_RESULTS\stage3_results.xlsx
+  TotalTechnologyAnnualActivity: 57122 rows
+  AnnualEmissions: 6213 rows
+  AnnualTechnologyEmission: 66285 rows
+  NewCapacity: 49092 rows
+  TotalCapacityAnnual: 57828 rows
+  ProductionByTechnologyAnnual: 57392 rows
+  ShareValidation: 7998 rows
+
+============================================================
+EMISSIONS DIVERGENCE CHECK
+============================================================
+
+  CostaRica:
+    2025: BAU=21.75  LTSNEW=21.79  NDCNEW=21.79
+    2030: BAU=23.72  LTSNEW=19.50  NDCNEW=22.16
+    2035: BAU=25.65  LTSNEW=14.80  NDCNEW=21.22
+    2040: BAU=28.07  LTSNEW=12.94  NDCNEW=23.14
+    2050: BAU=34.04  LTSNEW=8.43  NDCNEW=27.87
+
+  DominicanRepublic:
+    2025: BAU=63.08  LTSNEW=65.52  NDCNEW=65.52
+    2030: BAU=72.60  LTSNEW=59.10  NDCNEW=59.10
+    2035: BAU=82.19  LTSNEW=42.86  NDCNEW=44.21
+    2040: BAU=92.11  LTSNEW=38.22  NDCNEW=49.01
+    2050: BAU=112.87  LTSNEW=17.44  NDCNEW=61.73
+
+  Ecuador:
+    2025: BAU=118.86  LTSNEW=118.61  NDCNEW=118.61
+    2030: BAU=131.86  LTSNEW=126.69  NDCNEW=127.05
+    2035: BAU=147.27  LTSNEW=131.16  NDCNEW=131.60
+    2040: BAU=159.72  LTSNEW=127.17  NDCNEW=143.79
+    2050: BAU=182.77  LTSNEW=117.70  NDCNEW=165.86
+
+  Guatemala:
+    2025: BAU=56.82  LTSNEW=57.49  NDCNEW=57.49
+    2030: BAU=75.21  LTSNEW=66.72  NDCNEW=65.08
+    2035: BAU=92.72  LTSNEW=74.82  NDCNEW=75.02
+    2040: BAU=110.68  LTSNEW=76.74  NDCNEW=88.39
+    2050: BAU=156.46  LTSNEW=66.55  NDCNEW=125.14
+
+  Honduras:
+    2025: BAU=34.12  LTSNEW=34.60  NDCNEW=34.60
+    2030: BAU=39.22  LTSNEW=36.28  NDCNEW=36.34
+    2035: BAU=43.93  LTSNEW=34.99  NDCNEW=36.42
+    2040: BAU=48.88  LTSNEW=33.30  NDCNEW=40.55
+    2050: BAU=59.20  LTSNEW=23.90  NDCNEW=52.68
+
+  Jamaica:
+    2025: BAU=11.94  LTSNEW=12.00  NDCNEW=12.00
+    2030: BAU=12.65  LTSNEW=11.02  NDCNEW=11.09
+    2035: BAU=13.09  LTSNEW=8.75  NDCNEW=9.25
+    2040: BAU=13.67  LTSNEW=7.82  NDCNEW=9.59
+    2050: BAU=15.35  LTSNEW=4.80  NDCNEW=11.48
+
+============================================================
+SHARE VALIDATION vs CONTROLLER
+============================================================
+
+  Share match: FAIL  (7906 pass, 84 warnings >0.3pp, 8 failures >1pp)
+
+  Max deviation per country/scenario:
+    CostaRica/BAU             0.0003pp  (PWRHYDROR/2027: ctrl=0.3526 solver=0.3530)
+    CostaRica/LTSNEW          0.0004pp  (PWRGEO/2036: ctrl=0.0903 solver=0.0907)
+    CostaRica/NDCNEW          0.0000pp  (PWRHYDROR/2046: ctrl=0.2309 solver=0.2309)
+    DominicanRepublic/BAU             0.0003pp  (PPPVT/2025: ctrl=0.0401 solver=0.0404)
+    DominicanRepublic/LTSNEW          0.0001pp  (PPPVT/2025: ctrl=0.0401 solver=0.0402)
+    DominicanRepublic/NDCNEW          0.0001pp  (PPPVT/2025: ctrl=0.0401 solver=0.0402)
+    Ecuador/BAU             0.0042pp  (PPPVD/2050: ctrl=0.1125 solver=0.1167)
+    Ecuador/LTSNEW          0.0069pp  (PPPVD/2050: ctrl=0.1757 solver=0.1825)
+    Ecuador/NDCNEW          0.0041pp  (PPPVD/2050: ctrl=0.1096 solver=0.1137)
+    Guatemala/BAU             0.0121pp  (PPPVD/2030: ctrl=0.0000 solver=0.0121)
+    Guatemala/LTSNEW          0.0042pp  (PPHDAM/2029: ctrl=0.3375 solver=0.3417)
+    Guatemala/NDCNEW          0.0041pp  (PPHDAM/2029: ctrl=0.3372 solver=0.3413)
+    Honduras/BAU             0.0029pp  (PPPVT/2025: ctrl=0.0866 solver=0.0895)
+    Honduras/LTSNEW          0.0015pp  (PPHDAM/2027: ctrl=0.1505 solver=0.1520)
+    Honduras/NDCNEW          0.0015pp  (PPHDAM/2027: ctrl=0.1505 solver=0.1520)
+    Jamaica/BAU             0.0056pp  (PPPVT/2042: ctrl=0.1384 solver=0.1439)
+    Jamaica/LTSNEW          0.0094pp  (PPPVT/2031: ctrl=0.2709 solver=0.2803)
+    Jamaica/NDCNEW          0.0117pp  (PPPVT/2041: ctrl=0.5216 solver=0.5333)
+
+  Top failures (>1pp):
+    FAIL Guatemala/BAU/PPPVD/2030: ctrl=0.0000 solver=0.0121 diff=0.0121
+    FAIL Jamaica/NDCNEW/PPPVT/2041: ctrl=0.5216 solver=0.5333 diff=0.0117
+    FAIL Jamaica/NDCNEW/PPPVT/2042: ctrl=0.5247 solver=0.5364 diff=0.0117
+    FAIL Jamaica/NDCNEW/PPPVT/2044: ctrl=0.5294 solver=0.5410 diff=0.0117
+    FAIL Jamaica/NDCNEW/PPPVT/2043: ctrl=0.5288 solver=0.5404 diff=0.0117
+    FAIL Jamaica/NDCNEW/PPPVT/2039: ctrl=0.5217 solver=0.5334 diff=0.0117
+    FAIL Jamaica/NDCNEW/PPPVT/2040: ctrl=0.5313 solver=0.5429 diff=0.0116
+    FAIL Guatemala/BAU/PPPVD/2031: ctrl=0.0000 solver=0.0116 diff=0.0116
+
+  Full details in ShareValidation sheet - filter by Status column
+
+============================================================
+RE TARGET VALIDATION (total renewable share vs policy)
+============================================================
+
+  RE targets: PASS  (24 pass, 0 fail, tolerance=2pp)
+
+  Country                Scenario    Year   Target   Actual     Diff Status
+  ---------------------- ---------- ----- -------- -------- -------- ------
+  CostaRica              NDCNEW      2035    75.0%    90.0%   +15.0pp PASS
+  CostaRica              NDCNEW      2050    75.0%    90.0%   +15.0pp PASS
+  CostaRica              LTSNEW      2035    75.0%    99.0%   +24.0pp PASS
+  CostaRica              LTSNEW      2050    99.0%    99.0%    +0.0pp PASS
+  DominicanRepublic      NDCNEW      2035    75.0%    75.0%    +0.0pp PASS
+  DominicanRepublic      NDCNEW      2050    75.0%    75.0%    +0.0pp PASS
+  DominicanRepublic      LTSNEW      2035    75.0%    75.0%    +0.0pp PASS
+  DominicanRepublic      LTSNEW      2050    99.0%    99.0%    +0.0pp PASS
+  Ecuador                NDCNEW      2035    75.0%    79.7%    +4.7pp PASS
+  Ecuador                NDCNEW      2050    75.0%    80.6%    +5.6pp PASS
+  Ecuador                LTSNEW      2035    75.0%    79.7%    +4.7pp PASS
+  Ecuador                LTSNEW      2050    99.0%    99.0%    -0.0pp PASS
+  Guatemala              NDCNEW      2035    75.0%    75.0%    +0.0pp PASS
+  Guatemala              NDCNEW      2050    75.0%    75.0%    -0.0pp PASS
+  Guatemala              LTSNEW      2035    75.0%    75.0%    -0.0pp PASS
+  Guatemala              LTSNEW      2050    99.0%    99.0%    -0.0pp PASS
+  Honduras               NDCNEW      2035    75.0%    75.0%    +0.0pp PASS
+  Honduras               NDCNEW      2050    75.0%    75.0%    -0.0pp PASS
+  Honduras               LTSNEW      2035    75.0%    75.0%    -0.0pp PASS
+  Honduras               LTSNEW      2050    99.0%    99.0%    +0.0pp PASS
+  Jamaica                NDCNEW      2035    75.0%    75.0%    +0.0pp PASS
+  Jamaica                NDCNEW      2050    75.0%    75.0%    +0.0pp PASS
+  Jamaica                LTSNEW      2035    75.0%    75.0%    +0.0pp PASS
+  Jamaica                LTSNEW      2050    99.0%    99.0%    +0.0pp PASS
+
+  BAU renewable share (no target - context only):
+    CostaRica              2025=89.4%, 2030=89.4%, 2035=89.4%, 2050=89.4%
+    DominicanRepublic      2025=15.9%, 2030=19.2%, 2035=23.1%, 2050=33.9%
+    Ecuador                2025=75.4%, 2030=76.3%, 2035=77.4%, 2050=80.6%
+    Guatemala              2025=63.4%, 2030=53.1%, 2035=57.2%, 2050=64.1%
+    Honduras               2025=57.5%, 2030=56.9%, 2035=59.0%, 2050=64.7%
+    Jamaica                2025=10.1%, 2030=13.9%, 2035=18.3%, 2050=29.3%
+
+Done. Results saved to C:\clw_fix\_STAGE3_RESULTS\stage3_results.xlsx

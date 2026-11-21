@@ -1,0 +1,9 @@
+country            reason
+DominicanRepublic  D13                                                174
+                   D2f / D2c PPDHYD activity limit (UN statistics)      6
+                   D2f / D2c capacity factor                           12
+                   D3 history factor                                   15
+                   D7a band                                            80
+Empty DataFrame
+Columns: [country, stage, scenario, parameter, technology, years, n, one_sided, max_abs, reason]
+Index: []

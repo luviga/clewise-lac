@@ -1,0 +1,5 @@
+Ecuador: B1_Base_Scenarios_Adj_Parallel.py exit 0 in 224.9s
+{"country": "Ecuador", "command": "python(anaconda) B1_Base_Scenarios_Adj_Parallel.py", "exit": 0, "seconds": 224.9, "b1_files_written": {"BAU": 20, "NDCNEW": 20, "LTSNEW": 20}, "b1_diffs": {"BAU": 0, "NDCNEW": 0, "LTSNEW": 0}, "other_changed_paths": [" M Ecuador/ECU_Energy/SelectedResults.csv"]}
+  solve: {'data': 'C:\\\\clw_fix\\\\Ecuador\\\\ECU_Energy\\\\Executables\\\\BAU_0\\BAU_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 264850.2346 (MINimum)', 'seconds': 123.5, 'returncode': 0}
+  solve: {'data': 'C:\\\\clw_fix\\\\Ecuador\\\\ECU_Energy\\\\Executables\\\\NDCNEW_0\\NDCNEW_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 301792.013 (MINimum)', 'seconds': 125.9, 'returncode': 0}
+  solve: {'data': 'C:\\\\clw_fix\\\\Ecuador\\\\ECU_Energy\\\\Executables\\\\LTSNEW_0\\LTSNEW_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 294402.5191 (MINimum)', 'seconds': 128.5, 'returncode': 0}

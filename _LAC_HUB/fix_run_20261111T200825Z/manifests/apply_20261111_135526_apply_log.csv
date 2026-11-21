@@ -1,0 +1,2 @@
+﻿apply_id,timestamp,manifest_path,country,ao_path,backup_path,dry_run,approved_cells_seen,cells_changed,projection_modes_changed
+apply_20261111_135526,20261111_135529,C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\manifest_Ecuador_plain.csv,Ecuador,C:\clw_fix\Ecuador\ECU_Energy\A1_Outputs\A-O_Parametrization.xlsx,C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\backups\apply_20261111_135526\Ecuador__A-O_Parametrization.bak_20261111_135526.xlsx,NO,383,383,0

@@ -1,0 +1,40 @@
+{
+  "country": "Ecuador",
+  "command": "python(anaconda) B1_Base_Scenarios_Adj_Parallel.py",
+  "exit": 0,
+  "seconds": 155.2,
+  "solves": [
+    {
+      "data": "C:\\\\clw_fix\\\\Ecuador\\\\ECU_Energy\\\\Executables\\\\BAU_0\\BAU_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 1810249.295 (MINimum)",
+      "seconds": 91.2,
+      "returncode": 0
+    },
+    {
+      "data": "C:\\\\clw_fix\\\\Ecuador\\\\ECU_Energy\\\\Executables\\\\LTSNEW_0\\LTSNEW_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 2339010.525 (MINimum)",
+      "seconds": 92.2,
+      "returncode": 0
+    },
+    {
+      "data": "C:\\\\clw_fix\\\\Ecuador\\\\ECU_Energy\\\\Executables\\\\NDCNEW_0\\NDCNEW_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 2337609.596 (MINimum)",
+      "seconds": 92.4,
+      "returncode": 0
+    }
+  ],
+  "b1_files_written": {
+    "BAU": 20,
+    "NDCNEW": 20,
+    "LTSNEW": 20
+  },
+  "b1_diffs": {
+    "BAU": 0,
+    "NDCNEW": 0,
+    "LTSNEW": 0
+  },
+  "other_changed_paths": []
+}

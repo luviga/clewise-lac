@@ -1,0 +1,79 @@
+2019 1.5 R1F-19 p.14 found
+2019 1.59 R1F-19 p.14 found
+2019 1.8 R1F-19 p.14 found
+2019 1.96 R1F-20 p.11 found
+2019 2.01 R1F-20 p.11 found
+2019 1.793 R1F-21 p.18 found
+2019 1.709 R1F-21 p.18 found
+2019 1.68 R1F-21 p.18 found
+2019 1.752 R1F-21 p.18 found
+2019 1.806 R1F-22 p.20 found
+2019 1.84 R1F-22 p.20 found
+2019 1.933 R1F-22 p.20 found
+2020 1.89 R1F-23 p.21 found
+2020 1.757 R1F-23 p.21 found
+2020 1.431 R1F-23 p.21 found
+2020 1.013 R1F-24 p.14 found
+2020 1.144 R1F-24 p.14 found
+2020 1.48 R1F-24 p.14 found
+2020 1.704 R1F-25 p.17 found
+2020 1.779 R1F-25 p.17 found
+2020 1.664 R1F-26 p.22 found
+2020 1.754 R1F-26 p.22 found
+2020 1.674 R1F-26 p.22 found
+2020 1.765 R1F-26 p.22 found
+2021 1.933 R1F-27 p.21 found
+2021 2.288 R1F-27 p.21 found
+2021 2.805 R1F-28 p.24 found
+2021 2.8 R1F-28 p.24 found
+2021 2.621 R1F-28 p.24 found
+2021 2.6 R1F-28 p.24 found
+2021 2.768 R1F-29 p.15 found
+2021 2.844 R1F-29 p.15 found
+2021 2.865 R1F-29 p.15 found
+2021 3.052 R1F-30 p.17 found
+2021 3.238 R1F-30 p.17 found
+2021 3.197 R1F-30 p.17 found
+2022 3.291 R1F-31 p.15 found
+2022 3.337 R1F-31 p.15 found
+2022 3.808 R1F-31 p.15 found
+2022 3.888 R1F-32 p.17 found
+2022 3.946 R1F-32 p.17 found
+2022 3.773 R1F-32 p.17 found
+2022 4.078 R1F-33 p.6 found
+2022 3.638 R1F-33 p.6 found
+2022 3.349 R1F-33 p.6 found
+2022 3.384 R1F-34 p.6 found
+2022 3.358 R1F-34 p.6 found
+2022 3.196 R1F-35 p.6 found
+2023 3.209 R1F-35 p.6 found
+2023 3.434 R1F-35 p.6 found
+2023 3.179 R1F-35 p.6 found
+2023 3.174 R1F-36 p.7 found
+2023 2.992 R1F-36 p.7 found
+2023 2.867 R1F-37 p.6 found
+2023 2.624 R1F-37 p.6 found
+2023 2.986 R1F-37 p.6 found
+2023 3.083 R1F-37 p.6 found
+2023 2.957 R1F-38 p.6 found
+2023 2.871 R1F-38 p.6 found
+2023 2.805 R1F-38 p.6 found
+2024 2.833 R1F-39 p.6 found
+2024 2.887 R1F-39 p.6 found
+2024 2.827 R1F-39 p.6 found
+2024 2.914 R1F-40 p.11 found
+2024 2.85 R1F-40 p.11 found
+2024 2.824 R1F-40 p.11 found
+2024 2.972 R1F-41 p.13 found
+2024 3.006 R1F-41 p.13 found
+2024 2.991 R1F-41 p.13 found
+Q4 2024 3.88 and 0.89 on R1F-42 p.15: text layer False; values are chart labels, checked on the rendered page image (Producao Gasolina A R$ 3,88 and PIS/COFINS R$ 0,89, 4o Trim 2024)
+R1F-18 p.1 lines: Etanol hidratado m3 0,80900 6.300 || Gasolina A m3 0,74200 10.400
+2019: ethanol 1.7498 R$/L (52 weeks), gasoline A 1.7811 R$/L (12 months), r = 1.4875
+2020: ethanol 1.8069 R$/L (53 weeks), gasoline A 1.5879 R$/L (12 months), r = 1.7229
+2021: ethanol 2.9655 R$/L (52 weeks), gasoline A 2.7509 R$/L (12 months), r = 1.6322
+2022: ethanol 2.9626 R$/L (52 weeks), gasoline A 3.5872 R$/L (12 months), r = 1.2505
+2023: ethanol 2.4040 R$/L (52 weeks), gasoline A 3.0151 R$/L (12 months), r = 1.2072
+2024: ethanol 2.3921 R$/L (52 weeks), gasoline A 2.9228 R$/L (12 months), r = 1.2392
+2018: no downloaded pre-tax gasoline A series; nearest year with both is 2019, r(2018) = r(2019) = 1.4875
+mean r 2018-2024 = 1.432409; range 1.2072 to 1.7229; misses 0

@@ -1,0 +1,4 @@
+scenario       BAU  LTSNEW  NDCNEW
+tech  year
+PPNGS 2020  0.0031  0.0031  0.0031
+      2021  0.0007  0.0007  0.0007

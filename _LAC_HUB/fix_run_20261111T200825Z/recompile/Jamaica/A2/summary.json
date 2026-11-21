@@ -1,0 +1,33 @@
+{
+  "country": "Jamaica",
+  "command": "python(anaconda) A2_Compiler_Jamaica.py",
+  "exit": 0,
+  "seconds": 16.1,
+  "produced": {
+    "BAU": 19,
+    "LTSNEW": 19
+  },
+  "static_files_in_BAU": [
+    "AnnualEmissionLimit.csv",
+    "DepreciationMethod.csv",
+    "DiscountRate.csv",
+    "ModelPeriodEmissionLimit.csv",
+    "REMinProductionTarget.csv",
+    "RETagFuel.csv",
+    "RETagTechnology.csv",
+    "TotalAnnualMaxCapacityInvestment.csv",
+    "TotalAnnualMinCapacity.csv",
+    "TotalTechnologyModelPeriodActivityLowerLimit.csv",
+    "TotalTechnologyModelPeriodActivityUpperLimit.csv"
+  ],
+  "choice": {
+    "NDCNEW": {
+      "source": "LTSNEW",
+      "differing_rows": 0
+    },
+    "LTSNEW": {
+      "source": "LTSNEW",
+      "differing_rows": 0
+    }
+  }
+}

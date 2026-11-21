@@ -1,0 +1,2 @@
+﻿apply_id,timestamp,manifest_path,country,ao_path,backup_path,dry_run,approved_cells_seen,cells_changed,projection_modes_changed
+apply_20261111_135549,20261111_135552,C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\manifest_Guatemala_plain.csv,Guatemala,C:\clw_fix\Guatemala\GUA_ENERGY\A1_Outputs\A-O_Parametrization.xlsx,C:\clw_fix\_LAC_HUB\fix_run_20261111T200825Z\manifests\backups\apply_20261111_135549\Guatemala__A-O_Parametrization.bak_20261111_135549.xlsx,NO,335,335,0

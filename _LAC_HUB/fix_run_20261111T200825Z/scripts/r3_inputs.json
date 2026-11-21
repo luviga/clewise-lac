@@ -1,0 +1,56 @@
+{
+ "production_bbl": {
+  "2021": 172601627,
+  "2022": 175549129,
+  "2023": 173475143,
+  "2024": 173953797,
+  "2025": 160834375,
+  "2026": 168300000.0,
+  "2027": 169000000.0,
+  "2028": 171300000.0,
+  "2029": 173900000.0,
+  "2030": 174700000.0
+ },
+ "exports_bbl": {
+  "2021": 117446576,
+  "2022": 116899099,
+  "2023": 115034253,
+  "2024": 126312805,
+  "2025": 119231103,
+  "2026": 120800000.0,
+  "2027": 114300000.0,
+  "2028": 111400000.0,
+  "2029": 113000000.0,
+  "2030": 113500000.0
+ },
+ "production_src": "BCE",
+ "exports_src": "BCE",
+ "production_note": {
+  "2021": "BCE Serie Cifras Petroleras, sheet Petroleo row 5 TOTAL NACIONAL production, sum of the 12 months of 2021 (ECUF-01 = ECU-002)",
+  "2022": "BCE Serie Cifras Petroleras, sheet Petroleo row 5 TOTAL NACIONAL production, sum of the 12 months of 2022 (ECUF-01 = ECU-002)",
+  "2023": "BCE Serie Cifras Petroleras, sheet Petroleo row 5 TOTAL NACIONAL production, sum of the 12 months of 2023 (ECUF-01 = ECU-002)",
+  "2024": "BCE Serie Cifras Petroleras, sheet Petroleo row 5 TOTAL NACIONAL production, sum of the 12 months of 2024 (ECUF-01 = ECU-002)",
+  "2025": "BCE Serie Cifras Petroleras, sheet Petroleo row 5 TOTAL NACIONAL production, sum of the 12 months of 2025 (ECUF-01 = ECU-002)",
+  "2026": "BCE Programacion Macroeconomica 2026-2030 (Sept 2026) Tabla 2 PDF p.32 Produccion de petroleo crudo en campo 168.3 million bbl, capped at the latest observed year 2025 (160,834,375 bbl) as the brief requires",
+  "2027": "BCE Programacion Macroeconomica 2026-2030 (Sept 2026) Tabla 2 PDF p.32 Produccion de petroleo crudo en campo 169.0 million bbl, capped at the latest observed year 2025 (160,834,375 bbl) as the brief requires",
+  "2028": "BCE Programacion Macroeconomica 2026-2030 (Sept 2026) Tabla 2 PDF p.32 Produccion de petroleo crudo en campo 171.3 million bbl, capped at the latest observed year 2025 (160,834,375 bbl) as the brief requires",
+  "2029": "BCE Programacion Macroeconomica 2026-2030 (Sept 2026) Tabla 2 PDF p.32 Produccion de petroleo crudo en campo 173.9 million bbl, capped at the latest observed year 2025 (160,834,375 bbl) as the brief requires",
+  "2030": "BCE Programacion Macroeconomica 2026-2030 (Sept 2026) Tabla 2 PDF p.32 Produccion de petroleo crudo en campo 174.7 million bbl, capped at the latest observed year 2025 (160,834,375 bbl) as the brief requires"
+ },
+ "exports_note": {
+  "2021": "BCE Serie Cifras Petroleras, sheet Petroleo row 37 TOTAL NACIONAL crude exports, sum of the 12 months of 2021 (ECUF-01 = ECU-002)",
+  "2022": "BCE Serie Cifras Petroleras, sheet Petroleo row 37 TOTAL NACIONAL crude exports, sum of the 12 months of 2022 (ECUF-01 = ECU-002)",
+  "2023": "BCE Serie Cifras Petroleras, sheet Petroleo row 37 TOTAL NACIONAL crude exports, sum of the 12 months of 2023 (ECUF-01 = ECU-002)",
+  "2024": "BCE Serie Cifras Petroleras, sheet Petroleo row 37 TOTAL NACIONAL crude exports, sum of the 12 months of 2024 (ECUF-01 = ECU-002)",
+  "2025": "BCE Serie Cifras Petroleras, sheet Petroleo row 37 TOTAL NACIONAL crude exports, sum of the 12 months of 2025 (ECUF-01 = ECU-002)",
+  "2026": "BCE Programacion Macroeconomica 2026-2030 (Sept 2026) Tabla 2 PDF p.32 Exportacion de petroleo crudo 120.8 million bbl (ECUF-03)",
+  "2027": "BCE Programacion Macroeconomica 2026-2030 (Sept 2026) Tabla 2 PDF p.32 Exportacion de petroleo crudo 114.3 million bbl (ECUF-03)",
+  "2028": "BCE Programacion Macroeconomica 2026-2030 (Sept 2026) Tabla 2 PDF p.32 Exportacion de petroleo crudo 111.4 million bbl (ECUF-03)",
+  "2029": "BCE Programacion Macroeconomica 2026-2030 (Sept 2026) Tabla 2 PDF p.32 Exportacion de petroleo crudo 113.0 million bbl (ECUF-03)",
+  "2030": "BCE Programacion Macroeconomica 2026-2030 (Sept 2026) Tabla 2 PDF p.32 Exportacion de petroleo crudo 113.5 million bbl (ECUF-03)"
+ },
+ "production_ids": "ECUF-01;ECU-002;ECUF-03",
+ "exports_ids": "ECUF-01;ECU-002;ECUF-03",
+ "latest_observed_year": 2025,
+ "pending": false
+}

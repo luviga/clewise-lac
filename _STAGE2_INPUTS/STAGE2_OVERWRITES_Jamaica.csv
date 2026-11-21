@@ -80,16 +80,16 @@ Jamaica,BAU,PPFOI,2025,30.0,Frozen at 2024. HFO barges continue normal dispatch.
 Jamaica,BAU,PPDSL,2025,2.0,Frozen at 2024. Post-Melissa emergency GT dispatch likely similar to post-Beryl 2024.
 Jamaica,BAU,PPWNDON,2025,4.5,Frozen at 2024. BMR Munro 36.3 MW inspected OK post-Melissa (Jamaica Observer 18 Nov 2025); Wigton largely undamaged. Partial-year disruption similar to Beryl 2024.
 Jamaica,BAU,PPPVT,2025,3.0,Frozen at 2024. Paradise Park 37 MW suffered 80% damage Oct 2025 (Jamaica Observer 18 Nov 2025). Offline Q4 2025. Annual avg CF still ~3% given 9 months normal + 3 months offline.
-Jamaica,BAU,PPHDAM,2025,0.7,Frozen at 2024. Maggotty stable.
-Jamaica,BAU,PPHROR,2025,1.8,Frozen at 2024. Some Melissa disruption to ROR sites but fleet resilient.
+Jamaica,BAU,PPHDAM,2025,2.5,Frozen at 2024. Existing hydro fleet (Maggotty and the run-of-river plants, 29.1 MW residual capacity in PPHDAM): 0.7 Maggotty plus 1.8 run-of-river moved from PPHROR (LAC_FIX_RUN R7).
+Jamaica,BAU,PPHROR,2025,0.0,Existing run-of-river plants are held in PPHDAM residual capacity (29.1 MW); PPHROR has no residual capacity and the IRP-2 small hydro starts in 2027 (LAC_FIX_RUN R7).
 Jamaica,BAU,PPBIM,2025,0.0,Zero grid biomass.
 Jamaica,BAU,PPNGS,2026,58.0,Stage 1 v15 freeze: 2026 = 2024 anchor. Grid recovery year. No new capacity online yet (Wigton Clarendon + SunTerra target 2027).
 Jamaica,BAU,PPFOI,2026,30.0,Frozen at 2024. Continued HFO barge operations.
 Jamaica,BAU,PPDSL,2026,2.0,Frozen at 2024.
 Jamaica,BAU,PPWNDON,2026,4.5,Frozen at 2024. Wind fleet fully restored (BMR confirmed OK; Wigton I repairs complete Q1 2026).
 Jamaica,BAU,PPPVT,2026,3.0,Frozen at 2024. Paradise Park offline for reconstruction (construction starts ~Q3 2026 per InterEnergy Jan 2026 announcement; 3-6 months to complete). Content Solar 20 MW operating normally.
-Jamaica,BAU,PPHDAM,2026,0.7,Frozen at 2024.
-Jamaica,BAU,PPHROR,2026,1.8,Frozen at 2024.
+Jamaica,BAU,PPHDAM,2026,2.5,Frozen at 2024. Existing hydro fleet (Maggotty and the run-of-river plants, 29.1 MW residual capacity in PPHDAM): 0.7 Maggotty plus 1.8 run-of-river moved from PPHROR (LAC_FIX_RUN R7).
+Jamaica,BAU,PPHROR,2026,0.0,Existing run-of-river plants are held in PPHDAM residual capacity (29.1 MW); PPHROR has no residual capacity and the IRP-2 small hydro starts in 2027 (LAC_FIX_RUN R7).
 Jamaica,BAU,PPBIM,2026,0.0,Zero grid biomass.
 Jamaica,NDCNEW,PPNGS,2018,12.0,"Bogue CC only (120 MW, LNG dual-fuel since mid-2016 via NFE Montego Bay terminal). No Old Harbour gas yet. JPS AR 2021 Operational Statistics: Bogue CC = 902 GWh. NREL/DOE Jamaica Energy Snapshot FY20: 89% fossil total for 2018."
 Jamaica,NDCNEW,PPFOI,2018,74.0,JPS Hunts Bay (60 MW) + Old Harbour steam (132 MW) + JEP/JPPC/WKPP IPP barges. JPS AR 2021: steam/SSD = 1355 GWh + bulk of IPP purchases (1795 GWh) were HFO barges. 262 MW HFO fleet fully operational. IRP-2 (MSETT Nov 2024).
@@ -152,16 +152,16 @@ Jamaica,NDCNEW,PPFOI,2025,30.0,Frozen at 2024. HFO barges continue normal dispat
 Jamaica,NDCNEW,PPDSL,2025,2.0,Frozen at 2024. Post-Melissa emergency GT dispatch likely similar to post-Beryl 2024.
 Jamaica,NDCNEW,PPWNDON,2025,4.5,Frozen at 2024. BMR Munro 36.3 MW inspected OK post-Melissa (Jamaica Observer 18 Nov 2025); Wigton largely undamaged. Partial-year disruption similar to Beryl 2024.
 Jamaica,NDCNEW,PPPVT,2025,3.0,Frozen at 2024. Paradise Park 37 MW suffered 80% damage Oct 2025 (Jamaica Observer 18 Nov 2025). Offline Q4 2025. Annual avg CF still ~3% given 9 months normal + 3 months offline.
-Jamaica,NDCNEW,PPHDAM,2025,0.7,Frozen at 2024. Maggotty stable.
-Jamaica,NDCNEW,PPHROR,2025,1.8,Frozen at 2024. Some Melissa disruption to ROR sites but fleet resilient.
+Jamaica,NDCNEW,PPHDAM,2025,2.5,Frozen at 2024. Existing hydro fleet (Maggotty and the run-of-river plants, 29.1 MW residual capacity in PPHDAM): 0.7 Maggotty plus 1.8 run-of-river moved from PPHROR (LAC_FIX_RUN R7).
+Jamaica,NDCNEW,PPHROR,2025,0.0,Existing run-of-river plants are held in PPHDAM residual capacity (29.1 MW); PPHROR has no residual capacity and the IRP-2 small hydro starts in 2027 (LAC_FIX_RUN R7).
 Jamaica,NDCNEW,PPBIM,2025,0.0,Zero grid biomass.
 Jamaica,NDCNEW,PPNGS,2026,58.0,Stage 1 v15 freeze: 2026 = 2024 anchor. Grid recovery year. No new capacity online yet (Wigton Clarendon + SunTerra target 2027).
 Jamaica,NDCNEW,PPFOI,2026,30.0,Frozen at 2024. Continued HFO barge operations.
 Jamaica,NDCNEW,PPDSL,2026,2.0,Frozen at 2024.
 Jamaica,NDCNEW,PPWNDON,2026,4.5,Frozen at 2024. Wind fleet fully restored (BMR confirmed OK; Wigton I repairs complete Q1 2026).
 Jamaica,NDCNEW,PPPVT,2026,3.0,Frozen at 2024. Paradise Park offline for reconstruction (construction starts ~Q3 2026 per InterEnergy Jan 2026 announcement; 3-6 months to complete). Content Solar 20 MW operating normally.
-Jamaica,NDCNEW,PPHDAM,2026,0.7,Frozen at 2024.
-Jamaica,NDCNEW,PPHROR,2026,1.8,Frozen at 2024.
+Jamaica,NDCNEW,PPHDAM,2026,2.5,Frozen at 2024. Existing hydro fleet (Maggotty and the run-of-river plants, 29.1 MW residual capacity in PPHDAM): 0.7 Maggotty plus 1.8 run-of-river moved from PPHROR (LAC_FIX_RUN R7).
+Jamaica,NDCNEW,PPHROR,2026,0.0,Existing run-of-river plants are held in PPHDAM residual capacity (29.1 MW); PPHROR has no residual capacity and the IRP-2 small hydro starts in 2027 (LAC_FIX_RUN R7).
 Jamaica,NDCNEW,PPBIM,2026,0.0,Zero grid biomass.
 Jamaica,LTSNEW,PPNGS,2018,12.0,"Bogue CC only (120 MW, LNG dual-fuel since mid-2016 via NFE Montego Bay terminal). No Old Harbour gas yet. JPS AR 2021 Operational Statistics: Bogue CC = 902 GWh. NREL/DOE Jamaica Energy Snapshot FY20: 89% fossil total for 2018."
 Jamaica,LTSNEW,PPFOI,2018,74.0,JPS Hunts Bay (60 MW) + Old Harbour steam (132 MW) + JEP/JPPC/WKPP IPP barges. JPS AR 2021: steam/SSD = 1355 GWh + bulk of IPP purchases (1795 GWh) were HFO barges. 262 MW HFO fleet fully operational. IRP-2 (MSETT Nov 2024).
@@ -224,14 +224,14 @@ Jamaica,LTSNEW,PPFOI,2025,30.0,Frozen at 2024. HFO barges continue normal dispat
 Jamaica,LTSNEW,PPDSL,2025,2.0,Frozen at 2024. Post-Melissa emergency GT dispatch likely similar to post-Beryl 2024.
 Jamaica,LTSNEW,PPWNDON,2025,4.5,Frozen at 2024. BMR Munro 36.3 MW inspected OK post-Melissa (Jamaica Observer 18 Nov 2025); Wigton largely undamaged. Partial-year disruption similar to Beryl 2024.
 Jamaica,LTSNEW,PPPVT,2025,3.0,Frozen at 2024. Paradise Park 37 MW suffered 80% damage Oct 2025 (Jamaica Observer 18 Nov 2025). Offline Q4 2025. Annual avg CF still ~3% given 9 months normal + 3 months offline.
-Jamaica,LTSNEW,PPHDAM,2025,0.7,Frozen at 2024. Maggotty stable.
-Jamaica,LTSNEW,PPHROR,2025,1.8,Frozen at 2024. Some Melissa disruption to ROR sites but fleet resilient.
+Jamaica,LTSNEW,PPHDAM,2025,2.5,Frozen at 2024. Existing hydro fleet (Maggotty and the run-of-river plants, 29.1 MW residual capacity in PPHDAM): 0.7 Maggotty plus 1.8 run-of-river moved from PPHROR (LAC_FIX_RUN R7).
+Jamaica,LTSNEW,PPHROR,2025,0.0,Existing run-of-river plants are held in PPHDAM residual capacity (29.1 MW); PPHROR has no residual capacity and the IRP-2 small hydro starts in 2027 (LAC_FIX_RUN R7).
 Jamaica,LTSNEW,PPBIM,2025,0.0,Zero grid biomass.
 Jamaica,LTSNEW,PPNGS,2026,58.0,Stage 1 v15 freeze: 2026 = 2024 anchor. Grid recovery year. No new capacity online yet (Wigton Clarendon + SunTerra target 2027).
 Jamaica,LTSNEW,PPFOI,2026,30.0,Frozen at 2024. Continued HFO barge operations.
 Jamaica,LTSNEW,PPDSL,2026,2.0,Frozen at 2024.
 Jamaica,LTSNEW,PPWNDON,2026,4.5,Frozen at 2024. Wind fleet fully restored (BMR confirmed OK; Wigton I repairs complete Q1 2026).
 Jamaica,LTSNEW,PPPVT,2026,3.0,Frozen at 2024. Paradise Park offline for reconstruction (construction starts ~Q3 2026 per InterEnergy Jan 2026 announcement; 3-6 months to complete). Content Solar 20 MW operating normally.
-Jamaica,LTSNEW,PPHDAM,2026,0.7,Frozen at 2024.
-Jamaica,LTSNEW,PPHROR,2026,1.8,Frozen at 2024.
+Jamaica,LTSNEW,PPHDAM,2026,2.5,Frozen at 2024. Existing hydro fleet (Maggotty and the run-of-river plants, 29.1 MW residual capacity in PPHDAM): 0.7 Maggotty plus 1.8 run-of-river moved from PPHROR (LAC_FIX_RUN R7).
+Jamaica,LTSNEW,PPHROR,2026,0.0,Existing run-of-river plants are held in PPHDAM residual capacity (29.1 MW); PPHROR has no residual capacity and the IRP-2 small hydro starts in 2027 (LAC_FIX_RUN R7).
 Jamaica,LTSNEW,PPBIM,2026,0.0,Zero grid biomass.

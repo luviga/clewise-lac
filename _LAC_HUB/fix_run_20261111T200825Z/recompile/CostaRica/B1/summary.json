@@ -1,0 +1,51 @@
+{
+  "country": "CostaRica",
+  "command": "python(anaconda) B1_Base_Scenarios_Adj_Parallel_CostaRica.py",
+  "exit": 0,
+  "seconds": 176.1,
+  "solves": [
+    {
+      "data": "C:\\clw_fix\\CostaRica\\CR_ENERGY\\t1_confection\\Executables\\BAU_0\\BAU_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 116141.7022 (MINimum)",
+      "seconds": 94.5,
+      "returncode": 0
+    },
+    {
+      "data": "C:\\clw_fix\\CostaRica\\CR_ENERGY\\t1_confection\\Executables\\LTSNEW_0\\LTSNEW_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 97685.0415 (MINimum)",
+      "seconds": 96.3,
+      "returncode": 0
+    },
+    {
+      "data": "C:\\clw_fix\\CostaRica\\CR_ENERGY\\t1_confection\\Executables\\LTSOPT_0\\LTSOPT_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 94229.72311 (MINimum)",
+      "seconds": 95.8,
+      "returncode": 0
+    },
+    {
+      "data": "C:\\clw_fix\\CostaRica\\CR_ENERGY\\t1_confection\\Executables\\NDCNEW_0\\NDCNEW_0.txt",
+      "status": "OPTIMAL",
+      "objective": "OFL_Cost = 102659.454 (MINimum)",
+      "seconds": 94.7,
+      "returncode": 0
+    }
+  ],
+  "b1_files_written": {
+    "BAU": 20,
+    "NDCNEW": 20,
+    "LTSNEW": 20
+  },
+  "temp_a2": "LTSOPT=LTSNEW (created for the run, removed after with its B1 outputs)",
+  "b1_diffs": {
+    "BAU": 0,
+    "NDCNEW": 0,
+    "LTSNEW": 0
+  },
+  "other_changed_paths": [
+    "?? CostaRica/CR_ENERGY/t1_confection/SelectedResults.csv"
+  ],
+  "removed_untracked": "SelectedResults.csv"
+}

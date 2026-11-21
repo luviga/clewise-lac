@@ -1,0 +1,1214 @@
+country,stage,scenario,parameter,technology,years,n,one_sided,max_abs,reason
+CostaRica,A2,BAU,CapacityToActivityUnit,PWRBMS,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,BAU,CapacityToActivityUnit,PWRDSL,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,BAU,CapacityToActivityUnit,PWRFOI,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,BAU,CapacityToActivityUnit,PWRGEO,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,BAU,CapacityToActivityUnit,PWRHYDDAM,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,BAU,CapacityToActivityUnit,PWRHYDROR,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,BAU,CapacityToActivityUnit,PWRSPVDTR,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,BAU,CapacityToActivityUnit,PWRSPVTRN,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,BAU,CapacityToActivityUnit,PWRSUG,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,BAU,CapacityToActivityUnit,PWRWNONS,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,NDCNEW,CapacityToActivityUnit,PWRBMS,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,NDCNEW,CapacityToActivityUnit,PWRDSL,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,NDCNEW,CapacityToActivityUnit,PWRFOI,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,NDCNEW,CapacityToActivityUnit,PWRGEO,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,NDCNEW,CapacityToActivityUnit,PWRHYDDAM,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,NDCNEW,CapacityToActivityUnit,PWRHYDROR,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,NDCNEW,CapacityToActivityUnit,PWRSPVDTR,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,NDCNEW,CapacityToActivityUnit,PWRSPVTRN,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,NDCNEW,CapacityToActivityUnit,PWRSUG,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,NDCNEW,CapacityToActivityUnit,PWRWNONS,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,LTSNEW,CapacityToActivityUnit,PWRBMS,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,LTSNEW,CapacityToActivityUnit,PWRDSL,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,LTSNEW,CapacityToActivityUnit,PWRFOI,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,LTSNEW,CapacityToActivityUnit,PWRGEO,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,LTSNEW,CapacityToActivityUnit,PWRHYDDAM,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,LTSNEW,CapacityToActivityUnit,PWRHYDROR,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,LTSNEW,CapacityToActivityUnit,PWRSPVDTR,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,LTSNEW,CapacityToActivityUnit,PWRSPVTRN,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,LTSNEW,CapacityToActivityUnit,PWRSUG,0-0,1,0,0.1799999999999997,D13
+CostaRica,A2,LTSNEW,CapacityToActivityUnit,PWRWNONS,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,BAU,CapacityToActivityUnit,PWRBMS,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,BAU,CapacityToActivityUnit,PWRDSL,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,BAU,CapacityToActivityUnit,PWRFOI,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,BAU,CapacityToActivityUnit,PWRGEO,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,BAU,CapacityToActivityUnit,PWRHYDDAM,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,BAU,CapacityToActivityUnit,PWRHYDROR,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,BAU,CapacityToActivityUnit,PWRSPVDTR,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,BAU,CapacityToActivityUnit,PWRSPVTRN,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,BAU,CapacityToActivityUnit,PWRSUG,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,BAU,CapacityToActivityUnit,PWRWNONS,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,NDCNEW,CapacityToActivityUnit,PWRBMS,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,NDCNEW,CapacityToActivityUnit,PWRDSL,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,NDCNEW,CapacityToActivityUnit,PWRFOI,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,NDCNEW,CapacityToActivityUnit,PWRGEO,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,NDCNEW,CapacityToActivityUnit,PWRHYDDAM,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,NDCNEW,CapacityToActivityUnit,PWRHYDROR,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,NDCNEW,CapacityToActivityUnit,PWRSPVDTR,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,NDCNEW,CapacityToActivityUnit,PWRSPVTRN,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,NDCNEW,CapacityToActivityUnit,PWRSUG,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,NDCNEW,CapacityToActivityUnit,PWRWNONS,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,NDCNEW,TotalAnnualMaxCapacity,PWRSUG,2021-2050,30,30,1000000000.0,D2 row (check from 2025)
+CostaRica,B1,NDCNEW,TotalAnnualMaxCapacity,TRNMOT,2021-2021,1,0,0.0010999999999996,D2 history 2018-2024
+CostaRica,B1,NDCNEW,TotalAnnualMaxCapacity,TRNMOTELE,2023-2024,2,0,0.0861,D2 history 2018-2024
+CostaRica,B1,NDCNEW,TotalAnnualMaxCapacity,TRNMOTGSL,2021-2021,1,0,0.0010999999999996,D2 history 2018-2024
+CostaRica,B1,NDCNEW,TotalAnnualMaxCapacity,TRNSEDELE,2023-2024,2,0,0.1767999999999999,D2 history 2018-2024
+CostaRica,B1,NDCNEW,TotalAnnualMaxCapacity,TRNSUVELE,2023-2024,2,0,0.1566,D2 history 2018-2024
+CostaRica,B1,NDCNEW,TotalAnnualMaxCapacity,TRNTAXELE,2022-2024,3,0,0.0009999999999999,D2 history 2018-2024
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PWRBMS,2021-2021,1,0,0.2096999999999999,D2 history 2018-2024
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PWRHYDROR,2021-2021,1,0,0.3508999999999993,D2 history 2018-2024
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRNFRERAIDSL,2021-2024,4,0,0.6544000000000001,D2 history 2018-2024
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRNMOT,2021-2021,1,0,0.0009999999999998,D2 history 2018-2024
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRNMOTELE,2023-2024,2,0,0.0859,D2 history 2018-2024
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRNPASRAIDSL,2021-2024,4,0,0.0001,D2 history 2018-2024
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRNSEDDSL,2021-2024,4,0,0.0002,D2 history 2018-2024
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRNSEDELE,2023-2024,2,0,0.1764,D2 history 2018-2024
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRNSEDLPG,2021-2024,4,0,0.0001,D2 history 2018-2024
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRNSUVDSL,2021-2024,4,0,0.0023999999999997,D2 history 2018-2024
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRNSUVELE,2023-2024,2,0,0.1562,D2 history 2018-2024
+CostaRica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRNTAXELE,2021-2024,4,0,0.0093,D2 history 2018-2024
+CostaRica,B1,LTSNEW,CapacityToActivityUnit,PWRBMS,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,LTSNEW,CapacityToActivityUnit,PWRDSL,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,LTSNEW,CapacityToActivityUnit,PWRFOI,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,LTSNEW,CapacityToActivityUnit,PWRGEO,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,LTSNEW,CapacityToActivityUnit,PWRHYDDAM,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,LTSNEW,CapacityToActivityUnit,PWRHYDROR,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,LTSNEW,CapacityToActivityUnit,PWRSPVDTR,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,LTSNEW,CapacityToActivityUnit,PWRSPVTRN,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,LTSNEW,CapacityToActivityUnit,PWRSUG,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,LTSNEW,CapacityToActivityUnit,PWRWNONS,0-0,1,0,0.1799999999999997,D13
+CostaRica,B1,LTSNEW,TotalAnnualMaxCapacity,PWRSUG,2021-2050,30,30,1000000000.0,D2 row (check from 2025)
+CostaRica,B1,LTSNEW,TotalAnnualMaxCapacity,TRNFREHEALPG,2021-2024,4,0,1.4566,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalAnnualMaxCapacity,TRNFRELIGLPG,2021-2024,4,0,3.9404,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalAnnualMaxCapacity,TRNMOT,2021-2021,1,0,0.0010999999999996,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalAnnualMaxCapacity,TRNMOTELE,2023-2024,2,0,0.0861,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalAnnualMaxCapacity,TRNMOTGSL,2021-2021,1,0,0.0010999999999996,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalAnnualMaxCapacity,TRNSEDELE,2023-2024,2,0,0.1767999999999999,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalAnnualMaxCapacity,TRNSUVDSL,2021-2024,4,0,4.0774,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalAnnualMaxCapacity,TRNSUVELE,2023-2024,2,0,0.1566,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalAnnualMaxCapacity,TRNTAXDSL,2021-2024,4,0,0.3233,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalAnnualMaxCapacity,TRNTAXELE,2022-2024,3,0,0.0009999999999999,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PWRBMS,2021-2021,1,0,0.2096999999999999,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PWRHYDROR,2021-2021,1,0,0.3508999999999993,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRNFRERAIDSL,2021-2024,4,0,0.6544000000000001,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRNMOT,2021-2021,1,0,0.0009999999999998,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRNMOTELE,2023-2024,2,0,0.0859,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRNPASRAIDSL,2021-2024,4,0,0.0001,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRNSEDDSL,2021-2024,4,0,0.0002,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRNSEDELE,2023-2024,2,0,0.1764,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRNSEDLPG,2021-2024,4,0,0.0001,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRNSUVDSL,2021-2024,4,0,0.0023999999999997,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRNSUVELE,2023-2024,2,0,0.1562,D2 history 2018-2024
+CostaRica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRNTAXELE,2021-2024,4,0,0.0093,D2 history 2018-2024
+Ecuador,A2,BAU,CapacityToActivityUnit,PPHD,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,A2,BAU,CapacityToActivityUnit,PPHDAMAB,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,BAU,CapacityToActivityUnit,PPHDAMAM,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,BAU,CapacityToActivityUnit,PPHDAMAS,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,BAU,CapacityToActivityUnit,PPHDAMPM,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,BAU,CapacityToActivityUnit,PPHDAMPS,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,BAU,CapacityToActivityUnit,PPHRORAB,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,BAU,CapacityToActivityUnit,PPHRORAM,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,BAU,CapacityToActivityUnit,PPHRORAS,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,BAU,CapacityToActivityUnit,PRONGS,0-0,1,1,1000000000.0,D12 layout row (value 1 = default)
+Ecuador,A2,BAU,OperationalLife,ELE_DIST,0-0,1,0,34.0,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,ELE_TRANS,0-0,1,0,44.0,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,HYD_G_PROD,0-0,1,0,29.0,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPBGS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPBIM,0-0,1,0,1.5360000000000014,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPCRU,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPDDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPDFOI,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPFOI,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPGEO,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPHD,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPHDAMAB,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPHDAMAM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPHDAMAS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPHDAMPM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPHDAMPS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPHRORAB,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPHRORAM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPHRORAS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPHRORPM,0-0,1,0,18.464,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPHRORPS,0-0,1,0,8.463999999999999,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPIBIM,0-0,1,0,1.5360000000000014,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPIHD,0-0,1,0,1.4639999999999986,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPILPG,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPNGS,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPPVD,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPPVDS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPPVT,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPPVTS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPRDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPRNGS,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPWNDD,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PPWNDON,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,PRONGS,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,A2,BAU,OperationalLife,STOELE,0-0,1,0,14.0,D-ECU / D1 / D12
+Ecuador,A2,BAU,SpecifiedAnnualDemand,,2031-2050,20,0,655.8811475409835,D-ECU1 (E5EXPCRU)
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,EXTT_CRU,2021-2050,30,0,389.2004999999999,D-ECU / D1 / D12
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PROCRU,2021-2050,30,0,346.4939,D-ECU / D1 / D12
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_DSL,2021-2050,30,0,14.643800000000006,D-ECU / D1 / D12
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_FOI,2021-2050,30,0,26.4221,D-ECU / D1 / D12
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_GSL,2021-2050,30,0,11.267899999999996,D-ECU / D1 / D12
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_JET,2021-2050,30,0,3.0973000000000006,D-ECU / D1 / D12
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_LPG,2021-2050,30,0,0.8971000000000005,D-ECU / D1 / D12
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityUpperLimit,DIST_CRU,2023-2023,1,0,999999.0,D-ECU / D1 / D12
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityUpperLimit,EXTT_CRU,2026-2050,25,0,377.5708,D-ECU / D1 / D12
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityUpperLimit,PROCRU,2021-2050,30,0,999668.0798,D-ECU / D1 / D12
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityUpperLimit,REF_DSL,2021-2050,30,0,15.375899999999994,D-ECU / D1 / D12
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityUpperLimit,REF_FOI,2021-2050,30,0,26.950599999999994,D-ECU / D1 / D12
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityUpperLimit,REF_GSL,2021-2050,30,0,11.493300000000003,D-ECU / D1 / D12
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityUpperLimit,REF_JET,2021-2050,30,0,3.128300000000001,D-ECU / D1 / D12
+Ecuador,A2,BAU,TotalTechnologyAnnualActivityUpperLimit,REF_LPG,2021-2050,30,0,0.9151000000000002,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,CapacityToActivityUnit,PPHD,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,CapacityToActivityUnit,PPHDAMAB,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,NDCNEW,CapacityToActivityUnit,PPHDAMAM,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,NDCNEW,CapacityToActivityUnit,PPHDAMAS,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,NDCNEW,CapacityToActivityUnit,PPHDAMPM,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,NDCNEW,CapacityToActivityUnit,PPHDAMPS,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,NDCNEW,CapacityToActivityUnit,PPHRORAB,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,NDCNEW,CapacityToActivityUnit,PPHRORAM,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,NDCNEW,CapacityToActivityUnit,PPHRORAS,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,NDCNEW,CapacityToActivityUnit,PRONGS,0-0,1,1,1000000000.0,D12 layout row (value 1 = default)
+Ecuador,A2,NDCNEW,OperationalLife,ELE_DIST,0-0,1,0,34.0,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,ELE_TRANS,0-0,1,0,44.0,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,HYD_G_PROD,0-0,1,0,29.0,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPBGS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPBIM,0-0,1,0,1.5360000000000014,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPCRU,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPDDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPDFOI,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPFOI,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPGEO,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPHD,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPHDAMAB,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPHDAMAM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPHDAMAS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPHDAMPM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPHDAMPS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPHRORAB,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPHRORAM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPHRORAS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPHRORPM,0-0,1,0,18.464,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPHRORPS,0-0,1,0,8.463999999999999,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPIBIM,0-0,1,0,1.5360000000000014,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPIHD,0-0,1,0,1.4639999999999986,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPILPG,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPNGS,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPPVD,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPPVDS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPPVT,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPPVTS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPRDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPRNGS,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPWNDD,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PPWNDON,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,PRONGS,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,OperationalLife,STOELE,0-0,1,0,14.0,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,SpecifiedAnnualDemand,,2031-2050,20,0,655.8811475409835,D-ECU1 (E5EXPCRU)
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,EXTT_CRU,2021-2050,30,0,389.2004999999999,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PROCRU,2021-2050,30,0,346.4939,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_DSL,2021-2050,30,0,14.643800000000006,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_FOI,2021-2050,30,0,26.4221,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_GSL,2021-2050,30,0,11.267899999999996,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_JET,2021-2050,30,0,3.0973000000000006,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_LPG,2021-2050,30,0,0.8971000000000005,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,DIST_CRU,2023-2023,1,0,999999.0,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,EXTT_CRU,2026-2050,25,0,377.5708,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,PROCRU,2021-2050,30,0,999668.0798,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,REF_DSL,2021-2050,30,0,15.375899999999994,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,REF_FOI,2021-2050,30,0,26.950599999999994,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,REF_GSL,2021-2050,30,0,11.493300000000003,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,REF_JET,2021-2050,30,0,3.128300000000001,D-ECU / D1 / D12
+Ecuador,A2,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,REF_LPG,2021-2050,30,0,0.9151000000000002,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,CapacityToActivityUnit,PPHD,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,CapacityToActivityUnit,PPHDAMAB,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,LTSNEW,CapacityToActivityUnit,PPHDAMAM,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,LTSNEW,CapacityToActivityUnit,PPHDAMAS,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,LTSNEW,CapacityToActivityUnit,PPHDAMPM,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,LTSNEW,CapacityToActivityUnit,PPHDAMPS,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,LTSNEW,CapacityToActivityUnit,PPHRORAB,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,LTSNEW,CapacityToActivityUnit,PPHRORAM,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,LTSNEW,CapacityToActivityUnit,PPHRORAS,0-0,1,0,0.0039999999999977,D13
+Ecuador,A2,LTSNEW,CapacityToActivityUnit,PRONGS,0-0,1,1,1000000000.0,D12 layout row (value 1 = default)
+Ecuador,A2,LTSNEW,OperationalLife,ELE_DIST,0-0,1,0,34.0,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,ELE_TRANS,0-0,1,0,44.0,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,HYD_G_PROD,0-0,1,0,29.0,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPBGS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPBIM,0-0,1,0,1.5360000000000014,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPCRU,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPDDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPDFOI,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPFOI,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPGEO,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPHD,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPHDAMAB,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPHDAMAM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPHDAMAS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPHDAMPM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPHDAMPS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPHRORAB,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPHRORAM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPHRORAS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPHRORPM,0-0,1,0,18.464,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPHRORPS,0-0,1,0,8.463999999999999,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPIBIM,0-0,1,0,1.5360000000000014,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPIHD,0-0,1,0,1.4639999999999986,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPILPG,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPNGS,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPPVD,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPPVDS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPPVT,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPPVTS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPRDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPRNGS,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPWNDD,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PPWNDON,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,PRONGS,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,OperationalLife,STOELE,0-0,1,0,14.0,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,SpecifiedAnnualDemand,,2031-2050,20,0,655.8811475409835,D-ECU1 (E5EXPCRU)
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,EXTT_CRU,2021-2050,30,0,389.2004999999999,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PROCRU,2021-2050,30,0,346.4939,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_DSL,2021-2050,30,0,14.643800000000006,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_FOI,2021-2050,30,0,26.4221,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_GSL,2021-2050,30,0,11.267899999999996,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_JET,2021-2050,30,0,3.0973000000000006,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_LPG,2021-2050,30,0,0.8971000000000005,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,DIST_CRU,2023-2023,1,0,999999.0,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,EXTT_CRU,2026-2050,25,0,377.5708,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,PROCRU,2021-2050,30,0,999668.0798,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,REF_DSL,2021-2050,30,0,15.375899999999994,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,REF_FOI,2021-2050,30,0,26.950599999999994,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,REF_GSL,2021-2050,30,0,11.493300000000003,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,REF_JET,2021-2050,30,0,3.128300000000001,D-ECU / D1 / D12
+Ecuador,A2,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,REF_LPG,2021-2050,30,0,0.9151000000000002,D-ECU / D1 / D12
+Ecuador,B1,BAU,CapacityToActivityUnit,PPHD,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,B1,BAU,CapacityToActivityUnit,PPHDAMAB,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,BAU,CapacityToActivityUnit,PPHDAMAM,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,BAU,CapacityToActivityUnit,PPHDAMAS,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,BAU,CapacityToActivityUnit,PPHDAMPM,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,BAU,CapacityToActivityUnit,PPHDAMPS,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,BAU,CapacityToActivityUnit,PPHRORAB,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,BAU,CapacityToActivityUnit,PPHRORAM,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,BAU,CapacityToActivityUnit,PPHRORAS,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,BAU,CapacityToActivityUnit,PRONGS,0-0,1,1,1000000000.0,D12 layout row (value 1 = default)
+Ecuador,B1,BAU,EmissionActivityRatio,PROCRU,2022-2022,1,0,0.0002,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,ELE_DIST,0-0,1,0,34.0,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,ELE_TRANS,0-0,1,0,44.0,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,HYD_G_PROD,0-0,1,0,29.0,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPBGS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPBIM,0-0,1,0,1.5360000000000014,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPCRU,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPDDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPDFOI,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPFOI,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPGEO,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPHD,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPHDAMAB,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPHDAMAM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPHDAMAS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPHDAMPM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPHDAMPS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPHRORAB,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPHRORAM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPHRORAS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPHRORPM,0-0,1,0,18.464,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPHRORPS,0-0,1,0,8.463999999999999,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPIBIM,0-0,1,0,1.5360000000000014,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPIHD,0-0,1,0,1.4639999999999986,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPILPG,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPNGS,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPPVD,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPPVDS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPPVT,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPPVTS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPRDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPRNGS,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPWNDD,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PPWNDON,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,PRONGS,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,B1,BAU,OperationalLife,STOELE,0-0,1,0,14.0,D-ECU / D1 / D12
+Ecuador,B1,BAU,SpecifiedAnnualDemand,,2031-2050,20,0,655.8811475409835,D-ECU1 (E5EXPCRU)
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,EXTT_CRU,2021-2050,30,0,389.2004999999999,D-ECU / D1 / D12
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PROCRU,2021-2050,30,0,346.4939,D-ECU / D1 / D12
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_DSL,2021-2050,30,0,14.643800000000006,D-ECU / D1 / D12
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_FOI,2021-2050,30,0,26.4221,D-ECU / D1 / D12
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_GSL,2021-2050,30,0,11.267899999999996,D-ECU / D1 / D12
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_JET,2021-2050,30,0,3.0973000000000006,D-ECU / D1 / D12
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_LPG,2021-2050,30,0,0.8971000000000005,D-ECU / D1 / D12
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityUpperLimit,DIST_CRU,2023-2023,1,0,999999.0,D-ECU / D1 / D12
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityUpperLimit,EXTT_CRU,2026-2050,25,0,377.5708,D-ECU / D1 / D12
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityUpperLimit,PROCRU,2021-2050,30,0,999668.0798,D-ECU / D1 / D12
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityUpperLimit,REF_DSL,2021-2050,30,0,15.375899999999994,D-ECU / D1 / D12
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityUpperLimit,REF_FOI,2021-2050,30,0,26.950599999999994,D-ECU / D1 / D12
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityUpperLimit,REF_GSL,2021-2050,30,0,11.493300000000003,D-ECU / D1 / D12
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityUpperLimit,REF_JET,2021-2050,30,0,3.128300000000001,D-ECU / D1 / D12
+Ecuador,B1,BAU,TotalTechnologyAnnualActivityUpperLimit,REF_LPG,2021-2050,30,0,0.9151000000000002,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,CapacityToActivityUnit,PPHD,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,CapacityToActivityUnit,PPHDAMAB,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,NDCNEW,CapacityToActivityUnit,PPHDAMAM,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,NDCNEW,CapacityToActivityUnit,PPHDAMAS,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,NDCNEW,CapacityToActivityUnit,PPHDAMPM,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,NDCNEW,CapacityToActivityUnit,PPHDAMPS,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,NDCNEW,CapacityToActivityUnit,PPHRORAB,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,NDCNEW,CapacityToActivityUnit,PPHRORAM,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,NDCNEW,CapacityToActivityUnit,PPHRORAS,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,NDCNEW,CapacityToActivityUnit,PRONGS,0-0,1,1,1000000000.0,D12 layout row (value 1 = default)
+Ecuador,B1,NDCNEW,EmissionActivityRatio,PROCRU,2022-2022,1,0,0.0002,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,ELE_DIST,0-0,1,0,34.0,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,ELE_TRANS,0-0,1,0,44.0,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,HYD_G_PROD,0-0,1,0,29.0,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPBGS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPBIM,0-0,1,0,1.5360000000000014,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPCRU,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPDDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPDFOI,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPFOI,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPGEO,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPHD,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPHDAMAB,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPHDAMAM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPHDAMAS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPHDAMPM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPHDAMPS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPHRORAB,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPHRORAM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPHRORAS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPHRORPM,0-0,1,0,18.464,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPHRORPS,0-0,1,0,8.463999999999999,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPIBIM,0-0,1,0,1.5360000000000014,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPIHD,0-0,1,0,1.4639999999999986,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPILPG,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPNGS,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPPVD,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPPVDS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPPVT,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPPVTS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPRDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPRNGS,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPWNDD,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PPWNDON,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,PRONGS,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,OperationalLife,STOELE,0-0,1,0,14.0,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,SpecifiedAnnualDemand,,2031-2050,20,0,655.8811475409835,D-ECU1 (E5EXPCRU)
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,EXTT_CRU,2021-2050,30,0,389.2004999999999,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PROCRU,2021-2050,30,0,346.4939,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_DSL,2021-2050,30,0,14.643800000000006,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_FOI,2021-2050,30,0,26.4221,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_GSL,2021-2050,30,0,11.267899999999996,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_JET,2021-2050,30,0,3.0973000000000006,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_LPG,2021-2050,30,0,0.8971000000000005,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,DIST_CRU,2023-2023,1,0,999999.0,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,EXTT_CRU,2026-2050,25,0,377.5708,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,PROCRU,2021-2050,30,0,999668.0798,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,REF_DSL,2021-2050,30,0,15.375899999999994,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,REF_FOI,2021-2050,30,0,26.950599999999994,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,REF_GSL,2021-2050,30,0,11.493300000000003,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,REF_JET,2021-2050,30,0,3.128300000000001,D-ECU / D1 / D12
+Ecuador,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,REF_LPG,2021-2050,30,0,0.9151000000000002,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,CapacityToActivityUnit,PPHD,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,CapacityToActivityUnit,PPHDAMAB,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,LTSNEW,CapacityToActivityUnit,PPHDAMAM,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,LTSNEW,CapacityToActivityUnit,PPHDAMAS,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,LTSNEW,CapacityToActivityUnit,PPHDAMPM,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,LTSNEW,CapacityToActivityUnit,PPHDAMPS,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,LTSNEW,CapacityToActivityUnit,PPHRORAB,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,LTSNEW,CapacityToActivityUnit,PPHRORAM,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,LTSNEW,CapacityToActivityUnit,PPHRORAS,0-0,1,0,0.0039999999999977,D13
+Ecuador,B1,LTSNEW,CapacityToActivityUnit,PRONGS,0-0,1,1,1000000000.0,D12 layout row (value 1 = default)
+Ecuador,B1,LTSNEW,EmissionActivityRatio,PROCRU,2022-2022,1,0,0.0002,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,ELE_DIST,0-0,1,0,34.0,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,ELE_TRANS,0-0,1,0,44.0,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,HYD_G_PROD,0-0,1,0,29.0,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPBGS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPBIM,0-0,1,0,1.5360000000000014,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPCRU,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPDDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPDFOI,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPFOI,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPGEO,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPHD,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPHDAMAB,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPHDAMAM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPHDAMAS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPHDAMPM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPHDAMPS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPHRORAB,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPHRORAM,0-0,1,0,18.46,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPHRORAS,0-0,1,0,8.46,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPHRORPM,0-0,1,0,18.464,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPHRORPS,0-0,1,0,8.463999999999999,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPIBIM,0-0,1,0,1.5360000000000014,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPIHD,0-0,1,0,1.4639999999999986,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPILPG,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPNGS,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPPVD,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPPVDS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPPVT,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPPVTS,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPRDSL,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPRNGS,0-0,1,0,11.536,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPWNDD,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PPWNDON,0-0,1,0,6.536000000000001,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,PRONGS,0-0,1,1,1000000000.0,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,OperationalLife,STOELE,0-0,1,0,14.0,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,SpecifiedAnnualDemand,,2031-2050,20,0,655.8811475409835,D-ECU1 (E5EXPCRU)
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,EXTT_CRU,2021-2050,30,0,389.2004999999999,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PROCRU,2021-2050,30,0,346.4939,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_DSL,2021-2050,30,0,14.643800000000006,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_FOI,2021-2050,30,0,26.4221,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_GSL,2021-2050,30,0,11.267899999999996,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_JET,2021-2050,30,0,3.0973000000000006,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_LPG,2021-2050,30,0,0.8971000000000005,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,DIST_CRU,2023-2023,1,0,999999.0,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,EXTT_CRU,2026-2050,25,0,377.5708,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,PROCRU,2021-2050,30,0,999668.0798,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,REF_DSL,2021-2050,30,0,15.375899999999994,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,REF_FOI,2021-2050,30,0,26.950599999999994,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,REF_GSL,2021-2050,30,0,11.493300000000003,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,REF_JET,2021-2050,30,0,3.128300000000001,D-ECU / D1 / D12
+Ecuador,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,REF_LPG,2021-2050,30,0,0.9151000000000002,D-ECU / D1 / D12
+Guatemala,A2,BAU,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,BAU,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,BAU,CapacityToActivityUnit,PPCOA,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,BAU,CapacityToActivityUnit,PPDSL,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,BAU,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,BAU,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,BAU,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,BAU,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,BAU,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,BAU,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,BAU,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,BAU,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,BAU,CapacityToActivityUnit,PPPVT2,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,BAU,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,BAU,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,BAU,VariableCost,DIST_FLEXFUEL,2018-2050,33,0,11.326800000000002,D6
+Guatemala,A2,NDCNEW,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,NDCNEW,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,NDCNEW,CapacityToActivityUnit,PPCOA,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,NDCNEW,CapacityToActivityUnit,PPDSL,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,NDCNEW,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,NDCNEW,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,NDCNEW,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,NDCNEW,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,NDCNEW,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,NDCNEW,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,NDCNEW,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,NDCNEW,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,NDCNEW,CapacityToActivityUnit,PPPVT2,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,NDCNEW,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,NDCNEW,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,NDCNEW,VariableCost,DIST_FLEXFUEL,2018-2050,33,0,11.326800000000002,D6
+Guatemala,A2,LTSNEW,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,LTSNEW,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,LTSNEW,CapacityToActivityUnit,PPCOA,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,LTSNEW,CapacityToActivityUnit,PPDSL,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,LTSNEW,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,LTSNEW,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,LTSNEW,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,LTSNEW,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,LTSNEW,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,LTSNEW,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,LTSNEW,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,LTSNEW,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,LTSNEW,CapacityToActivityUnit,PPPVT2,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,LTSNEW,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,LTSNEW,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1799999999999997,D13
+Guatemala,A2,LTSNEW,VariableCost,DIST_FLEXFUEL,2018-2050,33,0,11.326800000000002,D6
+Guatemala,B1,BAU,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,BAU,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,BAU,CapacityToActivityUnit,PPCOA,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,BAU,CapacityToActivityUnit,PPDSL,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,BAU,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,BAU,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,BAU,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,BAU,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,BAU,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,BAU,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,BAU,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,BAU,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,BAU,CapacityToActivityUnit,PPPVT2,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,BAU,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,BAU,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,BAU,VariableCost,DIST_FLEXFUEL,2018-2050,33,0,11.326800000000002,D6
+Guatemala,B1,NDCNEW,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,NDCNEW,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,NDCNEW,CapacityToActivityUnit,PPCOA,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,NDCNEW,CapacityToActivityUnit,PPDSL,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,NDCNEW,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,NDCNEW,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,NDCNEW,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,NDCNEW,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,NDCNEW,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,NDCNEW,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,NDCNEW,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,NDCNEW,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,NDCNEW,CapacityToActivityUnit,PPPVT2,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,NDCNEW,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,NDCNEW,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacity,TRAUTDSL,2018-2024,7,0,0.0033999999999991,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacity,TRAUTELE,2024-2024,1,0,0.0006,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacity,TRAUTGSL,2018-2024,7,0,0.0033999999999991,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacity,TRBPRDSL,2018-2024,6,0,0.0004,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacity,TRMBSDSL,2018-2024,5,0,0.0008999999999996,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacity,TRMBSGSL,2018-2024,5,0,0.0008999999999996,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacity,TRMBSLPG,2018-2024,5,0,0.0008999999999996,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacity,TRMOTELE,2024-2024,1,0,0.0005,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacity,TRMOTGSL,2018-2024,7,0,0.0045000000000001,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacity,Techs_Auto,2018-2024,7,0,0.0033999999999991,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacity,Techs_Buses_Micro,2018-2024,5,0,0.0008999999999996,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacity,Techs_Buses_Pri,2018-2024,6,0,0.0004,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalAnnualMaxCapacity,Techs_Motos,2018-2024,7,0,0.0045000000000001,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRAUTDSL,2018-2024,7,0,0.0014999999999998,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRAUTGSL,2018-2024,7,0,0.029600000000002,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRBPRDSL,2018-2024,7,0,0.0013,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRBPUDSL,2018-2024,7,0,0.0011000000000001,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRMBSDSL,2018-2024,7,0,0.0026000000000001,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRMBSGSL,2018-2024,7,0,0.0037000000000002,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRMOTGSL,2018-2024,7,0,0.0304999999999999,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRYLFDSL,2018-2024,7,0,0.0043999999999995,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRYLFGSL,2018-2024,7,0,0.0147999999999992,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRYTKDSL,2018-2024,7,0,0.0117999999999991,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,Techs_Auto,2018-2024,7,0,0.0034000000000027,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,Techs_Buses_Micro,2018-2024,5,0,0.0008999999999996,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,Techs_Buses_Pri,2018-2024,6,0,0.0003,D2 history 2018-2024
+Guatemala,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,Techs_Motos,2018-2024,7,0,0.0045000000000001,D2 history 2018-2024
+Guatemala,B1,NDCNEW,VariableCost,DIST_FLEXFUEL,2018-2050,33,0,11.326800000000002,D6
+Guatemala,B1,LTSNEW,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,LTSNEW,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,LTSNEW,CapacityToActivityUnit,PPCOA,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,LTSNEW,CapacityToActivityUnit,PPDSL,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,LTSNEW,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,LTSNEW,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,LTSNEW,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,LTSNEW,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,LTSNEW,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,LTSNEW,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,LTSNEW,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,LTSNEW,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,LTSNEW,CapacityToActivityUnit,PPPVT2,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,LTSNEW,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,LTSNEW,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1799999999999997,D13
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacity,TRAUTDSL,2018-2024,7,0,0.0033999999999991,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacity,TRAUTELE,2024-2024,1,0,0.0006,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacity,TRAUTGSL,2018-2024,7,0,0.0033999999999991,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacity,TRBPRDSL,2018-2024,6,0,0.0004,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacity,TRMBSDSL,2018-2024,5,0,0.0008999999999996,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacity,TRMBSGSL,2018-2024,5,0,0.0008999999999996,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacity,TRMBSLPG,2018-2024,5,0,0.0008999999999996,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacity,TRMOTELE,2024-2024,1,0,0.0005,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacity,TRMOTGSL,2018-2024,7,0,0.0045000000000001,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacity,Techs_Auto,2018-2024,7,0,0.0033999999999991,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacity,Techs_Buses_Micro,2018-2024,5,0,0.0008999999999996,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacity,Techs_Buses_Pri,2018-2024,6,0,0.0004,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalAnnualMaxCapacity,Techs_Motos,2018-2024,7,0,0.0045000000000001,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRAUTDSL,2018-2024,7,0,0.0014999999999998,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRAUTGSL,2018-2024,7,0,0.029600000000002,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRBPRDSL,2018-2024,7,0,0.0013,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRBPUDSL,2018-2024,7,0,0.0011000000000001,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRMBSDSL,2018-2024,7,0,0.0026000000000001,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRMBSGSL,2018-2024,7,0,0.0037000000000002,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRMOTGSL,2018-2024,7,0,0.0304999999999999,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRYLFDSL,2018-2024,7,0,0.0043999999999995,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRYLFGSL,2018-2024,7,0,0.0147999999999992,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRYTKDSL,2018-2024,7,0,0.0117999999999991,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,Techs_Auto,2018-2024,7,0,0.0034000000000027,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,Techs_Buses_Micro,2018-2024,5,0,0.0008999999999996,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,Techs_Buses_Pri,2018-2024,6,0,0.0003,D2 history 2018-2024
+Guatemala,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,Techs_Motos,2018-2024,7,0,0.0045000000000001,D2 history 2018-2024
+Guatemala,B1,LTSNEW,VariableCost,DIST_FLEXFUEL,2018-2050,33,0,11.326800000000002,D6
+Honduras,A2,BAU,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPCOA,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPCOK,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPGTDSL,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPGTGLP,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPICEDSL,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPNUC,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPPVT2,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapacityToActivityUnit,PPWNDS,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,BAU,CapitalCost,PPBGS,2021-2050,30,0,3398.249,D5
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPCOA,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPCOK,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPGTDSL,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPGTGLP,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPICEDSL,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPNUC,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPPVT2,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapacityToActivityUnit,PPWNDS,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,NDCNEW,CapitalCost,PPBGS,2021-2050,30,0,3398.249,D5
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPCOA,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPCOK,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPGTDSL,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPGTGLP,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPICEDSL,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPNUC,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPPVT2,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapacityToActivityUnit,PPWNDS,0-0,1,0,0.1799999999999997,D13
+Honduras,A2,LTSNEW,CapitalCost,PPBGS,2021-2050,30,0,3398.249,D5
+Honduras,B1,BAU,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPCOA,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPCOK,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPGTDSL,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPGTGLP,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPICEDSL,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPNUC,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPPVT2,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapacityToActivityUnit,PPWNDS,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,BAU,CapitalCost,PPBGS,2021-2050,30,0,3398.249,D5
+Honduras,B1,BAU,EmissionActivityRatio,PPBIM,2019-2019,3,0,0.0011481323682423,D3 history factor
+Honduras,B1,BAU,EmissionActivityRatio,PPCOK,2019-2019,4,0,0.0365585067137705,D3 history factor
+Honduras,B1,BAU,EmissionActivityRatio,PPFOI,2019-2019,4,0,0.0035669693518644,D3 history factor
+Honduras,B1,BAU,EmissionActivityRatio,PPGTDSL,2019-2019,4,0,0.0078252293564288,D3 history factor
+Honduras,B1,BAU,EmissionActivityRatio,PPICEDSL,2019-2019,4,0,0.0078252293564288,D3 history factor
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPCOA,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPCOK,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPGTDSL,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPGTGLP,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPICEDSL,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPNUC,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPPVT2,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapacityToActivityUnit,PPWNDS,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,NDCNEW,CapitalCost,PPBGS,2021-2050,30,0,3398.249,D5
+Honduras,B1,NDCNEW,EmissionActivityRatio,PPBIM,2019-2019,3,0,0.0011481323682423,D3 history factor
+Honduras,B1,NDCNEW,EmissionActivityRatio,PPCOK,2019-2019,4,0,0.0365585067137705,D3 history factor
+Honduras,B1,NDCNEW,EmissionActivityRatio,PPFOI,2019-2019,4,0,0.0035669693518644,D3 history factor
+Honduras,B1,NDCNEW,EmissionActivityRatio,PPGTDSL,2019-2019,4,0,0.0078252293564288,D3 history factor
+Honduras,B1,NDCNEW,EmissionActivityRatio,PPICEDSL,2019-2019,4,0,0.0078252293564288,D3 history factor
+Honduras,B1,NDCNEW,TotalAnnualMaxCapacity,TRBPUGSL,2018-2050,33,33,1000000000.0,D2 row (check from 2025)
+Honduras,B1,NDCNEW,TotalAnnualMaxCapacity,TRMBSDSL,2018-2018,1,0,0.0001,D2 history 2018-2024
+Honduras,B1,NDCNEW,TotalAnnualMaxCapacity,TRMBSGSL,2018-2018,1,0,0.0001,D2 history 2018-2024
+Honduras,B1,NDCNEW,TotalAnnualMaxCapacity,TRTAXGSL,2018-2018,1,0,0.0015999999999998,D2 history 2018-2024
+Honduras,B1,NDCNEW,TotalAnnualMaxCapacity,TRTAXLPG,2018-2018,1,0,0.0015999999999998,D2 history 2018-2024
+Honduras,B1,NDCNEW,TotalAnnualMaxCapacity,Techs_Buses_Micro,2018-2018,1,0,0.0001,D2 history 2018-2024
+Honduras,B1,NDCNEW,TotalAnnualMaxCapacity,Techs_Taxi,2018-2018,1,0,0.0015999999999998,D2 history 2018-2024
+Honduras,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRTAXGSL,2018-2018,1,0,0.0011999999999999,D2 history 2018-2024
+Honduras,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,TRTAXLPG,2018-2018,1,0,0.0002999999999999,D2 history 2018-2024
+Honduras,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,Techs_Buses_Micro,2018-2018,1,0,9.9999999999989e-05,D2 history 2018-2024
+Honduras,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,Techs_Taxi,2018-2018,1,0,0.0016,D2 history 2018-2024
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPCOA,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPCOK,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPGTDSL,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPGTGLP,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPICEDSL,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPNUC,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPPVT2,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapacityToActivityUnit,PPWNDS,0-0,1,0,0.1799999999999997,D13
+Honduras,B1,LTSNEW,CapitalCost,PPBGS,2021-2050,30,0,3398.249,D5
+Honduras,B1,LTSNEW,EmissionActivityRatio,PPBIM,2019-2019,3,0,0.0011481323682423,D3 history factor
+Honduras,B1,LTSNEW,EmissionActivityRatio,PPCOK,2019-2019,4,0,0.0365585067137705,D3 history factor
+Honduras,B1,LTSNEW,EmissionActivityRatio,PPFOI,2019-2019,4,0,0.0035669693518644,D3 history factor
+Honduras,B1,LTSNEW,EmissionActivityRatio,PPGTDSL,2019-2019,4,0,0.0078252293564288,D3 history factor
+Honduras,B1,LTSNEW,EmissionActivityRatio,PPICEDSL,2019-2019,4,0,0.0078252293564288,D3 history factor
+Honduras,B1,LTSNEW,TotalAnnualMaxCapacity,TRBPUGSL,2018-2050,33,33,1000000000.0,D2 row (check from 2025)
+Honduras,B1,LTSNEW,TotalAnnualMaxCapacity,TRMBSDSL,2018-2018,1,0,0.0001,D2 history 2018-2024
+Honduras,B1,LTSNEW,TotalAnnualMaxCapacity,TRMBSGSL,2018-2018,1,0,0.0001,D2 history 2018-2024
+Honduras,B1,LTSNEW,TotalAnnualMaxCapacity,TRTAXGSL,2018-2018,1,0,0.0015999999999998,D2 history 2018-2024
+Honduras,B1,LTSNEW,TotalAnnualMaxCapacity,TRTAXLPG,2018-2018,1,0,0.0015999999999998,D2 history 2018-2024
+Honduras,B1,LTSNEW,TotalAnnualMaxCapacity,Techs_Buses_Micro,2018-2018,1,0,0.0001,D2 history 2018-2024
+Honduras,B1,LTSNEW,TotalAnnualMaxCapacity,Techs_Taxi,2018-2018,1,0,0.0015999999999998,D2 history 2018-2024
+Honduras,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRTAXGSL,2018-2018,1,0,0.0011999999999999,D2 history 2018-2024
+Honduras,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,TRTAXLPG,2018-2018,1,0,0.0002999999999999,D2 history 2018-2024
+Honduras,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,Techs_Buses_Micro,2018-2018,1,0,9.9999999999989e-05,D2 history 2018-2024
+Honduras,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,Techs_Taxi,2018-2018,1,0,0.0016,D2 history 2018-2024
+Jamaica,A2,BAU,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,BAU,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,BAU,CapacityToActivityUnit,PPDSL,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,BAU,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,BAU,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,BAU,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,BAU,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1360000000000027,D13
+Jamaica,A2,BAU,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,BAU,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,BAU,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,BAU,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,BAU,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,BAU,CapacityToActivityUnit,PPWNDOFF,0-0,1,0,0.1360000000000027,D13
+Jamaica,A2,BAU,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1360000000000027,D13
+Jamaica,A2,BAU,CapacityToActivityUnit,PPWNDONS,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDSL,2022-2024,2,0,0.0109,D7a band
+Jamaica,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPHDAM,2021-2055,35,0,0.0095,D7a band
+Jamaica,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPHROR,2027-2055,29,0,0.0110999999999999,D7a band
+Jamaica,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_FOI,2021-2055,35,0,0.5004999999999988,D7a band
+Jamaica,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_GSL,2021-2055,35,0,0.0964999999999998,D7a band
+Jamaica,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_JET,2021-2055,35,0,0.0281,D7a band
+Jamaica,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_LPG,2021-2055,35,0,0.0045,D7a band
+Jamaica,A2,BAU,TotalTechnologyAnnualActivityUpperLimit,REF_FOI,2024-2055,32,0,0.4407999999999994,D7a dependent (upper = lower band x 1.01 from 2024)
+Jamaica,A2,NDCNEW,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,NDCNEW,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,NDCNEW,CapacityToActivityUnit,PPDSL,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,NDCNEW,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,NDCNEW,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,NDCNEW,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,NDCNEW,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1360000000000027,D13
+Jamaica,A2,NDCNEW,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,NDCNEW,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,NDCNEW,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,NDCNEW,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,NDCNEW,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,NDCNEW,CapacityToActivityUnit,PPWNDOFF,0-0,1,0,0.1360000000000027,D13
+Jamaica,A2,NDCNEW,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1360000000000027,D13
+Jamaica,A2,NDCNEW,CapacityToActivityUnit,PPWNDONS,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPDSL,2022-2024,2,0,0.0109,D7a band
+Jamaica,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPHDAM,2021-2055,35,0,0.0095,D7a band
+Jamaica,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPHROR,2027-2055,29,0,0.0110999999999999,D7a band
+Jamaica,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_FOI,2021-2055,35,0,0.5004999999999988,D7a band
+Jamaica,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_GSL,2021-2055,35,0,0.0964999999999998,D7a band
+Jamaica,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_JET,2021-2055,35,0,0.0281,D7a band
+Jamaica,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_LPG,2021-2055,35,0,0.0045,D7a band
+Jamaica,A2,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,REF_FOI,2024-2055,32,0,0.4407999999999994,D7a dependent (upper = lower band x 1.01 from 2024)
+Jamaica,A2,LTSNEW,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,LTSNEW,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,LTSNEW,CapacityToActivityUnit,PPDSL,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,LTSNEW,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,LTSNEW,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,LTSNEW,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,LTSNEW,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1360000000000027,D13
+Jamaica,A2,LTSNEW,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,LTSNEW,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,LTSNEW,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,LTSNEW,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,LTSNEW,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,LTSNEW,CapacityToActivityUnit,PPWNDOFF,0-0,1,0,0.1360000000000027,D13
+Jamaica,A2,LTSNEW,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1360000000000027,D13
+Jamaica,A2,LTSNEW,CapacityToActivityUnit,PPWNDONS,0-0,1,0,0.1799999999999997,D13
+Jamaica,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPDSL,2022-2024,2,0,0.0109,D7a band
+Jamaica,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPHDAM,2021-2055,35,0,0.0095,D7a band
+Jamaica,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPHROR,2027-2055,29,0,0.0110999999999999,D7a band
+Jamaica,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_FOI,2021-2055,35,0,0.5004999999999988,D7a band
+Jamaica,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_GSL,2021-2055,35,0,0.0964999999999998,D7a band
+Jamaica,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_JET,2021-2055,35,0,0.0281,D7a band
+Jamaica,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_LPG,2021-2055,35,0,0.0045,D7a band
+Jamaica,A2,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,REF_FOI,2024-2055,32,0,0.4407999999999994,D7a dependent (upper = lower band x 1.01 from 2024)
+Jamaica,B1,BAU,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,BAU,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,BAU,CapacityToActivityUnit,PPDSL,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,BAU,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,BAU,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,BAU,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,BAU,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1360000000000027,D13
+Jamaica,B1,BAU,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,BAU,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,BAU,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,BAU,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,BAU,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,BAU,CapacityToActivityUnit,PPWNDOFF,0-0,1,0,0.1360000000000027,D13
+Jamaica,B1,BAU,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1360000000000027,D13
+Jamaica,B1,BAU,CapacityToActivityUnit,PPWNDONS,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDSL,2022-2024,2,0,0.0109,D7a band
+Jamaica,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPHDAM,2021-2055,35,0,0.0095,D7a band
+Jamaica,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPHROR,2027-2055,29,0,0.0110999999999999,D7a band
+Jamaica,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_FOI,2021-2055,35,0,0.5004999999999988,D7a band
+Jamaica,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_GSL,2021-2055,35,0,0.0964999999999998,D7a band
+Jamaica,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_JET,2021-2055,35,0,0.0281,D7a band
+Jamaica,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,REF_LPG,2021-2055,35,0,0.0045,D7a band
+Jamaica,B1,BAU,TotalTechnologyAnnualActivityUpperLimit,REF_FOI,2024-2055,32,0,0.4407999999999994,D7a dependent (upper = lower band x 1.01 from 2024)
+Jamaica,B1,NDCNEW,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,NDCNEW,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,NDCNEW,CapacityToActivityUnit,PPDSL,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,NDCNEW,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,NDCNEW,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,NDCNEW,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,NDCNEW,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1360000000000027,D13
+Jamaica,B1,NDCNEW,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,NDCNEW,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,NDCNEW,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,NDCNEW,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,NDCNEW,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,NDCNEW,CapacityToActivityUnit,PPWNDOFF,0-0,1,0,0.1360000000000027,D13
+Jamaica,B1,NDCNEW,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1360000000000027,D13
+Jamaica,B1,NDCNEW,CapacityToActivityUnit,PPWNDONS,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,NDCNEW,EmissionActivityRatio,T5DSLTRO,2021-2055,35,0,0.0011758,D2 row (check from 2025)
+Jamaica,B1,NDCNEW,EmissionActivityRatio,T5GSLTRO,2021-2055,35,0,0.0011429999999999,D2 row (check from 2025)
+Jamaica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_FOI,2021-2055,35,0,0.5004999999999988,D7a band
+Jamaica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_GSL,2021-2055,35,0,0.0964999999999998,D7a band
+Jamaica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_JET,2021-2055,35,0,0.0281,D7a band
+Jamaica,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,REF_LPG,2021-2055,35,0,0.0045,D7a band
+Jamaica,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,REF_FOI,2024-2055,32,0,0.4407999999999994,D7a dependent (upper = lower band x 1.01 from 2024)
+Jamaica,B1,LTSNEW,CapacityToActivityUnit,PPBGS,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,LTSNEW,CapacityToActivityUnit,PPBIM,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,LTSNEW,CapacityToActivityUnit,PPDSL,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,LTSNEW,CapacityToActivityUnit,PPFOI,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,LTSNEW,CapacityToActivityUnit,PPGEO,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,LTSNEW,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,LTSNEW,CapacityToActivityUnit,PPHROR,0-0,1,0,0.1360000000000027,D13
+Jamaica,B1,LTSNEW,CapacityToActivityUnit,PPNGS,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,LTSNEW,CapacityToActivityUnit,PPPVD,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,LTSNEW,CapacityToActivityUnit,PPPVDS,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,LTSNEW,CapacityToActivityUnit,PPPVT,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,LTSNEW,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,LTSNEW,CapacityToActivityUnit,PPWNDOFF,0-0,1,0,0.1360000000000027,D13
+Jamaica,B1,LTSNEW,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.1360000000000027,D13
+Jamaica,B1,LTSNEW,CapacityToActivityUnit,PPWNDONS,0-0,1,0,0.1799999999999997,D13
+Jamaica,B1,LTSNEW,EmissionActivityRatio,T5DSLTRO,2021-2055,35,0,0.0011758,D2 row (check from 2025)
+Jamaica,B1,LTSNEW,EmissionActivityRatio,T5GSLTRO,2021-2055,35,0,0.0011429999999999,D2 row (check from 2025)
+Jamaica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_FOI,2021-2055,35,0,0.5004999999999988,D7a band
+Jamaica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_GSL,2021-2055,35,0,0.0964999999999998,D7a band
+Jamaica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_JET,2021-2055,35,0,0.0281,D7a band
+Jamaica,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,REF_LPG,2021-2055,35,0,0.0045,D7a band
+Jamaica,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,REF_FOI,2024-2055,32,0,0.4407999999999994,D7a dependent (upper = lower band x 1.01 from 2024)
+DominicanRepublic,A2,BAU,CapacityFactor,PPDBGS,2018-2050,33,0,0.8299,D2f / D2c capacity factor
+DominicanRepublic,A2,BAU,CapacityFactor,PPDHYD,2018-2050,33,0,0.44070000000000004,D2f / D2c capacity factor
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPADSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPAFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPANGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPBGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPBIM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPCCFOIDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPCCTDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPCCTNGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPCCTNGSDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPCOA,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPDBGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPDBIM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPDDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPDFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPDGLP,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPDGSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPDHYD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPDNGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPGEO,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPHROR,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPICEFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPICEGASFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPPVD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPPVT,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPPVTHYD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPWNDOFF,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPADSL,2018-2050,33,0,0.020100000000000007,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPAFOI,2018-2050,33,0,0.0779999999999994,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPANGS,2018-2050,33,0,0.04200000000000026,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPBIM,2027-2050,24,0,0.014399999999999968,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPCCTDSL,2024-2050,27,0,0.005899999999999961,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPCCTNGS,2024-2050,27,0,0.3470000000000013,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDBGS,2018-2050,33,0,0.0011000000000000038,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDBIM,2018-2050,33,0,0.0049000000000000155,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDDSL,2018-2050,33,0,0.1360999999999999,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDFOI,2018-2050,33,0,0.00720000000000004,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDGLP,2021-2022,2,0,0.00010000000000000026,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDGSL,2018-2050,33,0,0.0011999999999999997,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDHYD,2018-2050,33,0,0.20299999999999999,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDNGS,2018-2018,1,0,0.00010000000000000005,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPHDAM,2018-2050,33,0,0.12040000000000006,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPICEGASFOI,2024-2050,27,0,0.2019000000000002,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPPVD,2024-2050,27,0,0.0411999999999999,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPPVT,2024-2050,27,0,0.07580000000000009,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityLowerLimit,PPWNDON,2024-2050,27,0,0.07719999999999994,D7a band
+DominicanRepublic,A2,BAU,TotalTechnologyAnnualActivityUpperLimit,PPDHYD,2018-2050,33,0,0.2076,D2f / D2c PPDHYD activity limit (UN statistics)
+DominicanRepublic,A2,NDCNEW,CapacityFactor,PPDBGS,2018-2050,33,0,0.8299,D2f / D2c capacity factor
+DominicanRepublic,A2,NDCNEW,CapacityFactor,PPDHYD,2018-2050,33,0,0.44070000000000004,D2f / D2c capacity factor
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPADSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPAFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPANGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPBGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPBIM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPCCFOIDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPCCTDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPCCTNGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPCCTNGSDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPCOA,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPDBGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPDBIM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPDDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPDFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPDGLP,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPDGSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPDHYD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPDNGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPGEO,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPHROR,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPICEFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPICEGASFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPPVD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPPVT,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPPVTHYD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPWNDOFF,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPADSL,2018-2050,33,0,0.020100000000000007,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPAFOI,2018-2050,33,0,0.0779999999999994,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPANGS,2018-2050,33,0,0.04200000000000026,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPBIM,2027-2050,24,0,0.014399999999999968,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPCCTDSL,2024-2050,27,0,0.005899999999999961,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPCCTNGS,2024-2050,27,0,0.3470000000000013,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPDBGS,2018-2050,33,0,0.0011000000000000038,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPDBIM,2018-2050,33,0,0.0049000000000000155,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPDDSL,2018-2050,33,0,0.1360999999999999,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPDFOI,2018-2050,33,0,0.00720000000000004,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPDGLP,2021-2022,2,0,0.00010000000000000026,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPDGSL,2018-2050,33,0,0.0011999999999999997,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPDHYD,2018-2050,33,0,0.20299999999999999,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPDNGS,2018-2018,1,0,0.00010000000000000005,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPHDAM,2018-2050,33,0,0.12040000000000006,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPICEGASFOI,2024-2050,27,0,0.2019000000000002,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPPVD,2024-2050,27,0,0.0411999999999999,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPPVT,2024-2050,27,0,0.07580000000000009,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPWNDON,2024-2050,27,0,0.07719999999999994,D7a band
+DominicanRepublic,A2,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,PPDHYD,2018-2050,33,0,0.2076,D2f / D2c PPDHYD activity limit (UN statistics)
+DominicanRepublic,A2,LTSNEW,CapacityFactor,PPDBGS,2018-2050,33,0,0.8299,D2f / D2c capacity factor
+DominicanRepublic,A2,LTSNEW,CapacityFactor,PPDHYD,2018-2050,33,0,0.44070000000000004,D2f / D2c capacity factor
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPADSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPAFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPANGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPBGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPBIM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPCCFOIDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPCCTDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPCCTNGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPCCTNGSDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPCOA,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPDBGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPDBIM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPDDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPDFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPDGLP,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPDGSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPDHYD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPDNGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPGEO,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPHROR,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPICEFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPICEGASFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPPVD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPPVT,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPPVTHYD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPWNDOFF,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPADSL,2018-2050,33,0,0.020100000000000007,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPAFOI,2018-2050,33,0,0.0779999999999994,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPANGS,2018-2050,33,0,0.04200000000000026,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPBIM,2027-2050,24,0,0.014399999999999968,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPCCTDSL,2024-2050,27,0,0.005899999999999961,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPCCTNGS,2024-2050,27,0,0.3470000000000013,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPDBGS,2018-2050,33,0,0.0011000000000000038,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPDBIM,2018-2050,33,0,0.0049000000000000155,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPDDSL,2018-2050,33,0,0.1360999999999999,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPDFOI,2018-2050,33,0,0.00720000000000004,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPDGLP,2021-2022,2,0,0.00010000000000000026,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPDGSL,2018-2050,33,0,0.0011999999999999997,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPDHYD,2018-2050,33,0,0.20299999999999999,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPDNGS,2018-2018,1,0,0.00010000000000000005,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPHDAM,2018-2050,33,0,0.12040000000000006,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPICEGASFOI,2024-2050,27,0,0.2019000000000002,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPPVD,2024-2050,27,0,0.0411999999999999,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPPVT,2024-2050,27,0,0.07580000000000009,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPWNDON,2024-2050,27,0,0.07719999999999994,D7a band
+DominicanRepublic,A2,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,PPDHYD,2018-2050,33,0,0.2076,D2f / D2c PPDHYD activity limit (UN statistics)
+DominicanRepublic,B1,BAU,CapacityFactor,PPDBGS,2018-2050,33,0,0.8299,D2f / D2c capacity factor
+DominicanRepublic,B1,BAU,CapacityFactor,PPDHYD,2018-2050,33,0,0.44070000000000004,D2f / D2c capacity factor
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPADSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPAFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPANGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPBGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPBIM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPCCFOIDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPCCTDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPCCTNGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPCCTNGSDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPCOA,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPDBGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPDBIM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPDDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPDFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPDGLP,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPDGSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPDHYD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPDNGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPGEO,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPHROR,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPICEFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPICEGASFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPPVD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPPVT,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPPVTHYD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPWNDOFF,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,BAU,EmissionActivityRatio,PPCCTNGS,2018-2022,4,0,0.03109999999999999,D3 history factor
+DominicanRepublic,B1,BAU,EmissionActivityRatio,PPCCTNGSDSL,2018-2022,4,0,0.03109999999999999,D3 history factor
+DominicanRepublic,B1,BAU,EmissionActivityRatio,PPCOA,2018-2022,5,0,0.0242,D3 history factor
+DominicanRepublic,B1,BAU,EmissionActivityRatio,PPICEFOI,2018-2022,5,0,0.0766,D3 history factor
+DominicanRepublic,B1,BAU,EmissionActivityRatio,PPICEGASFOI,2018-2022,4,0,0.03109999999999999,D3 history factor
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPADSL,2018-2050,33,0,0.020100000000000007,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPAFOI,2018-2050,33,0,0.0779999999999994,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPANGS,2018-2050,33,0,0.04200000000000026,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPBIM,2027-2050,24,0,0.014399999999999968,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPCCTDSL,2024-2050,27,0,0.005899999999999961,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPCCTNGS,2024-2050,27,0,0.3470000000000013,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDBGS,2018-2050,33,0,0.0011000000000000038,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDBIM,2018-2050,33,0,0.0049000000000000155,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDDSL,2018-2050,33,0,0.1360999999999999,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDFOI,2018-2050,33,0,0.00720000000000004,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDGLP,2021-2022,2,0,0.00010000000000000026,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDGSL,2018-2050,33,0,0.0011999999999999997,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDHYD,2018-2050,33,0,0.20299999999999999,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPDNGS,2018-2018,1,0,0.00010000000000000005,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPHDAM,2018-2050,33,0,0.12040000000000006,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPICEGASFOI,2024-2050,27,0,0.2019000000000002,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPPVD,2024-2050,27,0,0.0411999999999999,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPPVT,2024-2050,27,0,0.07580000000000009,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityLowerLimit,PPWNDON,2024-2050,27,0,0.07719999999999994,D7a band
+DominicanRepublic,B1,BAU,TotalTechnologyAnnualActivityUpperLimit,PPDHYD,2018-2050,33,0,0.2076,D2f / D2c PPDHYD activity limit (UN statistics)
+DominicanRepublic,B1,NDCNEW,CapacityFactor,PPDBGS,2018-2050,33,0,0.8299,D2f / D2c capacity factor
+DominicanRepublic,B1,NDCNEW,CapacityFactor,PPDHYD,2018-2050,33,0,0.44070000000000004,D2f / D2c capacity factor
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPADSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPAFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPANGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPBGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPBIM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPCCFOIDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPCCTDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPCCTNGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPCCTNGSDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPCOA,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPDBGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPDBIM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPDDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPDFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPDGLP,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPDGSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPDHYD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPDNGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPGEO,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPHROR,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPICEFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPICEGASFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPPVD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPPVT,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPPVTHYD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPWNDOFF,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,NDCNEW,EmissionActivityRatio,PPCCTNGS,2018-2022,4,0,0.03109999999999999,D3 history factor
+DominicanRepublic,B1,NDCNEW,EmissionActivityRatio,PPCCTNGSDSL,2018-2022,4,0,0.03109999999999999,D3 history factor
+DominicanRepublic,B1,NDCNEW,EmissionActivityRatio,PPCOA,2018-2022,5,0,0.0242,D3 history factor
+DominicanRepublic,B1,NDCNEW,EmissionActivityRatio,PPICEFOI,2018-2022,5,0,0.0766,D3 history factor
+DominicanRepublic,B1,NDCNEW,EmissionActivityRatio,PPICEGASFOI,2018-2022,4,0,0.03109999999999999,D3 history factor
+DominicanRepublic,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPDBGS,2018-2024,7,0,0.0454,D7a band
+DominicanRepublic,B1,NDCNEW,TotalTechnologyAnnualActivityLowerLimit,PPDHYD,2018-2024,7,0,0.0335,D7a band
+DominicanRepublic,B1,NDCNEW,TotalTechnologyAnnualActivityUpperLimit,PPDHYD,2018-2024,7,0,0.2076,D2f / D2c PPDHYD activity limit (UN statistics)
+DominicanRepublic,B1,LTSNEW,CapacityFactor,PPDBGS,2018-2050,33,0,0.8299,D2f / D2c capacity factor
+DominicanRepublic,B1,LTSNEW,CapacityFactor,PPDHYD,2018-2050,33,0,0.44070000000000004,D2f / D2c capacity factor
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPADSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPAFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPANGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPBGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPBIM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPCCFOIDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPCCTDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPCCTNGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPCCTNGSDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPCOA,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPDBGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPDBIM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPDDSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPDFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPDGLP,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPDGSL,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPDHYD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPDNGS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPGEO,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPHDAM,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPHROR,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPICEFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPICEGASFOI,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPPVD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPPVT,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPPVTHYD,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPPVTS,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPWNDOFF,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,CapacityToActivityUnit,PPWNDON,0-0,1,0,0.17999999999999972,D13
+DominicanRepublic,B1,LTSNEW,EmissionActivityRatio,PPCCTNGS,2018-2022,4,0,0.03109999999999999,D3 history factor
+DominicanRepublic,B1,LTSNEW,EmissionActivityRatio,PPCCTNGSDSL,2018-2022,4,0,0.03109999999999999,D3 history factor
+DominicanRepublic,B1,LTSNEW,EmissionActivityRatio,PPCOA,2018-2022,5,0,0.0242,D3 history factor
+DominicanRepublic,B1,LTSNEW,EmissionActivityRatio,PPICEFOI,2018-2022,5,0,0.0766,D3 history factor
+DominicanRepublic,B1,LTSNEW,EmissionActivityRatio,PPICEGASFOI,2018-2022,4,0,0.03109999999999999,D3 history factor
+DominicanRepublic,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPDBGS,2018-2024,7,0,0.0454,D7a band
+DominicanRepublic,B1,LTSNEW,TotalTechnologyAnnualActivityLowerLimit,PPDHYD,2018-2024,7,0,0.0335,D7a band
+DominicanRepublic,B1,LTSNEW,TotalTechnologyAnnualActivityUpperLimit,PPDHYD,2018-2024,7,0,0.2076,D2f / D2c PPDHYD activity limit (UN statistics)
