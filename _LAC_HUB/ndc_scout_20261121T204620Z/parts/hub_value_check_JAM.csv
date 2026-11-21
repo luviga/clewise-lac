@@ -1,0 +1,208 @@
+country,file,row_id,source_id,page,value,unit,year,status,how
+JAM,targets_JAM.csv,JAM-T001,JAM-01,p.2;p.4,16.3,percent,2030,found,'16.3' on p.2
+JAM,targets_JAM.csv,JAM-T002,JAM-01,p.2;p.4,19.55,percent,2030,found,'19.55' on p.4
+JAM,targets_JAM.csv,JAM-T003,JAM-01,p.2;p.4,16.9,percent,2035,found,'16.9' on p.2
+JAM,targets_JAM.csv,JAM-T004,JAM-01,p.2;p.4,25.9,percent,2035,found,'25.9' on p.2
+JAM,targets_JAM.csv,JAM-T005,JAM-01,p.2;p.5,26.3,percent,2030,found,'26.3' on p.2
+JAM,targets_JAM.csv,JAM-T006,JAM-01,p.2;p.5,26.2,percent,2030,found,'26.2' on p.2
+JAM,targets_JAM.csv,JAM-T007,JAM-01,p.2;p.5,27.1,percent,2035,found,'27.1' on p.2
+JAM,targets_JAM.csv,JAM-T008,JAM-01,p.2;p.5,33.8,percent,2035,found,'33.8' on p.2
+JAM,targets_JAM.csv,JAM-T009,JAM-01,p.2;p.5,19.6,percent,2030,found,'19.6' on p.2
+JAM,targets_JAM.csv,JAM-T010,JAM-01,p.2;p.5,22.7,percent,2030,found,'22.7' on p.2
+JAM,targets_JAM.csv,JAM-T011,JAM-01,p.2;p.5,28.3,percent,2035,found,'28.3' on p.2
+JAM,targets_JAM.csv,JAM-T012,JAM-01,p.2;p.5,36.0,percent,2035,found,'36.0' on p.2
+JAM,targets_JAM.csv,JAM-T013,JAM-01,p.2;p.5,30.6,percent,2030,found,'30.6' on p.2
+JAM,targets_JAM.csv,JAM-T014,JAM-01,p.2;p.5,30.5,percent,2030,found,'30.5' on p.2
+JAM,targets_JAM.csv,JAM-T015,JAM-01,p.2;p.5,41.7,percent,2035,found,'41.7' on p.2
+JAM,targets_JAM.csv,JAM-T016,JAM-01,p.2;p.5,47.1,percent,2035,found,'47.1' on p.2
+JAM,targets_JAM.csv,JAM-T017,JAM-01,p.21,5.8,MtCO2e,2030,found,'5.8' on p.21
+JAM,targets_JAM.csv,JAM-T018,JAM-01,p.21,5.7,MtCO2e,2035,found,'5.7' on p.21
+JAM,targets_JAM.csv,JAM-T019,JAM-01,p.21,5.5,MtCO2e,2030,found,'5.5' on p.21
+JAM,targets_JAM.csv,JAM-T020,JAM-01,p.21,4.9,MtCO2e,2035,found,'4.9' on p.21
+JAM,targets_JAM.csv,JAM-T021,JAM-01,p.21,6.2,MtCO2e,2030,found,'6.2' on p.21
+JAM,targets_JAM.csv,JAM-T022,JAM-01,p.21,6.1,MtCO2e,2035,found,'6.1' on p.21
+JAM,targets_JAM.csv,JAM-T023,JAM-01,p.21,5.9,MtCO2e,2030,found,'5.9' on p.21
+JAM,targets_JAM.csv,JAM-T024,JAM-01,p.21,5.3,MtCO2e,2035,found,'5.3' on p.21
+JAM,targets_JAM.csv,JAM-T025,JAM-01,p.21,4.2,MtCO2e,2030,found,'4.2' on p.21
+JAM,targets_JAM.csv,JAM-T026,JAM-01,p.21,4,MtCO2e,2035,found,'4' on p.21
+JAM,targets_JAM.csv,JAM-T027,JAM-01,p.21,3.3,MtCO2e,2035,found,'3.3' on p.21
+JAM,targets_JAM.csv,JAM-T028,JAM-01,p.14,50,percent,2030,found,'50' on p.14
+JAM,targets_JAM.csv,JAM-T029,JAM-01,p.14,63,percent,2035,found,'63' on p.14
+JAM,targets_JAM.csv,JAM-T030,JAM-01,p.14,17.7,percent,2030,found,'17.7' on p.14
+JAM,targets_JAM.csv,JAM-T031,JAM-01,p.14,16.45,percent,2035,found,'16.45' on p.14
+JAM,targets_JAM.csv,JAM-T032,JAM-01,p.2,11,percent,2035,found,'11' on p.2
+JAM,targets_JAM.csv,JAM-T033,JAM-01,p.2,40,ktCO2,2035,found,'40' on p.2
+JAM,targets_JAM.csv,JAM-T034,JAM-01,p.7,67,percent,2033,found,'67' on p.7
+JAM,targets_JAM.csv,JAM-T035,JAM-01,p.7,7000,ha,2027,found,"'7,000' on p.7"
+JAM,targets_JAM.csv,JAM-T036,JAM-01,p.7,10,percent of land,2035,found,'10' on p.7
+JAM,targets_JAM.csv,JAM-T037,JAM-01,p.7,3000000,trees,2030,not_found,
+JAM,targets_JAM.csv,JAM-T038,JAM-01,p.7,30,percent,,found,'30' on p.7
+JAM,targets_JAM.csv,JAM-T039,JAM-01,p.17,2200,ha,2030,found,"'2,200' on p.17"
+JAM,targets_JAM.csv,JAM-T040,JAM-01,p.17,1000,ha,2035,found,"'1,000' on p.17"
+JAM,targets_JAM.csv,JAM-T041,JAM-01,p.17,100,percent,2035,found,'100' on p.17
+JAM,targets_JAM.csv,JAM-T042,JAM-01,p.16,30,percent,2033,found,'30' on p.16
+JAM,targets_JAM.csv,JAM-T043,JAM-01,p.16,47.9,percent of land,,found,'47.9' on p.16
+JAM,targets_JAM.csv,JAM-T044,JAM-01,p.15,30,percent,2036,found,'30' on p.15
+JAM,targets_JAM.csv,JAM-T045,JAM-02,p.13;p.46;p.50,73,percent,2050,found,'73' on p.13
+JAM,targets_JAM.csv,JAM-T046,JAM-02,p.13;p.46;p.50,0,MtCO2e,2060,found,'0' on p.50
+JAM,targets_JAM.csv,JAM-T047,JAM-02,p.14;p.55,27,percent,2025,found,'27' on p.14
+JAM,targets_JAM.csv,JAM-T048,JAM-02,p.14;p.55;p.54,50,percent,2030,found,'50' on p.14
+JAM,targets_JAM.csv,JAM-T049,JAM-02,p.15;p.55,65,percent,2035,found,'65' on p.15
+JAM,targets_JAM.csv,JAM-T050,JAM-02,p.15;p.55,90,percent,2040,found,'90' on p.15
+JAM,targets_JAM.csv,JAM-T051,JAM-02,p.15;p.55,95,percent,2045,found,'95' on p.15
+JAM,targets_JAM.csv,JAM-T052,JAM-02,p.15;p.55;p.54,100,percent,2050,found,'100' on p.15
+JAM,targets_JAM.csv,JAM-T053,JAM-02,p.14;p.55,25,percent,2025,found,'25' on p.14
+JAM,targets_JAM.csv,JAM-T054,JAM-02,p.14;p.55,21,percent,2030,found,'21' on p.14
+JAM,targets_JAM.csv,JAM-T055,JAM-02,p.15;p.55,17,percent,2035,found,'17' on p.15
+JAM,targets_JAM.csv,JAM-T056,JAM-02,p.15;p.55,14,percent,2040,found,'14' on p.15
+JAM,targets_JAM.csv,JAM-T057,JAM-02,p.15;p.55,11,percent,2045,found,'11' on p.15
+JAM,targets_JAM.csv,JAM-T058,JAM-02,p.55;p.54,8,percent,2050,found,'8' on p.55
+JAM,targets_JAM.csv,JAM-T059,JAM-02,p.15,11,percent,2050,found,'11' on p.15
+JAM,targets_JAM.csv,JAM-T060,JAM-02,p.15;p.55,0,MW,2035,not_found,
+JAM,targets_JAM.csv,JAM-T061,JAM-02,p.15;p.55,0,percent,2040,not_found,
+JAM,targets_JAM.csv,JAM-T062,JAM-02,p.55,2,GW,2050,found,'2' on p.55
+JAM,targets_JAM.csv,JAM-T063,JAM-02,p.51,98,percent,2050,found,'98' on p.51
+JAM,targets_JAM.csv,JAM-T064,JAM-02,p.14;p.62,8,percent of fleet,2025,found,'8' on p.14
+JAM,targets_JAM.csv,JAM-T065,JAM-02,p.14;p.62,10,percent of fleet,2025,found,'10' on p.14
+JAM,targets_JAM.csv,JAM-T066,JAM-02,p.14;p.62,12,percent of fleet,2030,found,'12' on p.14
+JAM,targets_JAM.csv,JAM-T067,JAM-02,p.14;p.62,16,percent of fleet,2030,found,'16' on p.14
+JAM,targets_JAM.csv,JAM-T068,JAM-02,p.14;p.61;p.62,15,percent,2030,found,'15' on p.14
+JAM,targets_JAM.csv,JAM-T069,JAM-02,p.15;p.58;p.62,2000,buses,2040,found,"'2,000' on p.15"
+JAM,targets_JAM.csv,JAM-T070,JAM-02,p.15;p.58;p.61;p.62,67,percent of fleet,2050,found,'67' on p.15
+JAM,targets_JAM.csv,JAM-T071,JAM-02,p.15;p.61;p.62,40,percent,2050,found,'40' on p.15
+JAM,targets_JAM.csv,JAM-T072,JAM-02,p.58,0.79,MtCO2e,2050,found,'0.79' on p.58
+JAM,targets_JAM.csv,JAM-T073,JAM-02,p.61,35,percent,2030,found,'35' on p.61
+JAM,targets_JAM.csv,JAM-T074,JAM-02,p.61,20,percent,2030,found,'20' on p.61
+JAM,targets_JAM.csv,JAM-T075,JAM-02,p.57,200,buses,2026,found,'200' on p.57
+JAM,targets_JAM.csv,JAM-T076,JAM-02,p.57,10,percent,2023,found,'10' on p.57
+JAM,targets_JAM.csv,JAM-T077,JAM-02,p.14;p.67;p.69,60,percent of households,2030,found,'60' on p.14
+JAM,targets_JAM.csv,JAM-T078,JAM-02,p.15;p.67;p.69,85,percent of households,2050,found,'85' on p.15
+JAM,targets_JAM.csv,JAM-T079,JAM-02,p.14;p.69,100,percent,2030,found,'100' on p.14
+JAM,targets_JAM.csv,JAM-T080,JAM-02,p.14;p.69,100,percent,2030,found,'100' on p.14
+JAM,targets_JAM.csv,JAM-T081,JAM-02,p.14;p.69,100,percent,2030,found,'100' on p.14
+JAM,targets_JAM.csv,JAM-T082,JAM-02,p.15;p.67;p.69,100,percent,2035,found,'100' on p.15
+JAM,targets_JAM.csv,JAM-T083,JAM-02,p.15;p.67;p.69,10,percent of 2020 level,2050,found,'10' on p.15
+JAM,targets_JAM.csv,JAM-T084,JAM-02,p.67,50,percent reduction,2035,found,'50' on p.67
+JAM,targets_JAM.csv,JAM-T085,JAM-02,p.15;p.68;p.69,50,percent,2050,found,'50' on p.15
+JAM,targets_JAM.csv,JAM-T086,JAM-02,p.68,25,percent,2050,found,'25' on p.68
+JAM,targets_JAM.csv,JAM-T087,JAM-02,p.14;p.74,82,percent,2025,found,'82' on p.14
+JAM,targets_JAM.csv,JAM-T088,JAM-02,p.14;p.74,70,percent,2030,found,'70' on p.14
+JAM,targets_JAM.csv,JAM-T089,JAM-02,p.14;p.74,25,percent,2030,found,'25' on p.14
+JAM,targets_JAM.csv,JAM-T090,JAM-02,p.15;p.74,83,percent,2040,found,'83' on p.15
+JAM,targets_JAM.csv,JAM-T091,JAM-02,p.15;p.74,15,percent,2050,found,'15' on p.15
+JAM,targets_JAM.csv,JAM-T092,JAM-02,p.70,60,percent,2050,found,'60' on p.70
+JAM,targets_JAM.csv,JAM-T093,JAM-02,p.14;p.80;p.81,5,percent,2030,found,'5' on p.14
+JAM,targets_JAM.csv,JAM-T094,JAM-02,p.14;p.80;p.81,30,percent,2030,found,'30' on p.14
+JAM,targets_JAM.csv,JAM-T095,JAM-02,p.15;p.80;p.81,3,percent of land,2050,found,'3' on p.15
+JAM,targets_JAM.csv,JAM-T096,JAM-02,p.15;p.80;p.81,4000,ha,2050,found,"'4,000' on p.15"
+JAM,targets_JAM.csv,JAM-T097,JAM-02,p.15;p.81,150,ha per year,2050,found,'150' on p.15
+JAM,targets_JAM.csv,JAM-T098,JAM-02,p.14;p.87,14,percent,2030,found,'14' on p.14
+JAM,targets_JAM.csv,JAM-T099,JAM-02,p.14;p.87,20,percent,2030,found,'20' on p.14
+JAM,targets_JAM.csv,JAM-T100,JAM-02,p.15;p.87,27,ktCO2e per year,2050,found,'27' on p.15
+JAM,targets_JAM.csv,JAM-T101,JAM-02,p.92,90,percent,,found,'90' on p.92
+JAM,targets_JAM.csv,JAM-T102,JAM-02,p.92,70,percent,,found,'70' on p.92
+JAM,targets_JAM.csv,JAM-T103,JAM-02,p.92,1,landfills,,not_found,
+JAM,targets_JAM.csv,JAM-T104,JAM-03,p.3;p.5;p.12,25.4,percent,2030,found,'25.4' on p.3
+JAM,targets_JAM.csv,JAM-T105,JAM-03,p.3;p.5;p.12,28.5,percent,2030,found,'28.5' on p.3
+JAM,targets_JAM.csv,JAM-T106,JAM-03,p.3;p.9;p.12,1.8,MtCO2e,2030,found,'1.8' on p.3
+JAM,targets_JAM.csv,JAM-T107,JAM-03,p.3;p.9;p.12,2.0,MtCO2e,2030,found,'2.0' on p.3
+JAM,targets_JAM.csv,JAM-T108,JAM-04,p.2;p.3;p.4,7.8,percent,2030,found,'7.8' on p.3
+JAM,targets_JAM.csv,JAM-T109,JAM-04,p.3;p.4,10,percent,2030,found,'10' on p.3
+JAM,targets_JAM.csv,JAM-T110,JAM-04,p.2,1.1,MtCO2 per year,2030,found,'1.1' on p.2
+JAM,targets_JAM.csv,JAM-T111,JAM-04,p.2,20,percent,2030,found,'20' on p.2
+JAM,targets_JAM.csv,JAM-T112,JAM-06,p.328,5,percent by volume,2017,found,'5' on p.328
+JAM,targets_JAM.csv,JAM-T113,JAM-06,p.328,10,percent by volume,2020,found,'10' on p.328
+JAM,targets_JAM.csv,JAM-T114,JAM-06,p.328,4.1,percent of net generation,2020,found,'4.1' on p.328
+JAM,targets_JAM.csv,JAM-T115,JAM-07,p.14;p.15;p.38;p.62,50,percent,2030,found,'50' on p.14
+JAM,targets_JAM.csv,JAM-T116,JAM-07,p.77,63.4,percent,2035,found,'63.4' on p.77
+JAM,targets_JAM.csv,JAM-T117,JAM-07,p.15;p.62;p.89,344,MW,2041,found,'344' on p.15
+JAM,targets_JAM.csv,JAM-T118,JAM-07,p.15;p.62;p.89,1143,MW,2041,found,'1143' on p.15
+JAM,targets_JAM.csv,JAM-T119,JAM-07,p.15;p.62,34.3,MW,2033,found,'34.3' on p.15
+JAM,targets_JAM.csv,JAM-T120,JAM-07,p.15;p.62,493,MW,2041,found,'493' on p.15
+JAM,targets_JAM.csv,JAM-T121,JAM-07,p.15;p.62;p.66,171.5,MW,2027,found,'171.5' on p.66
+JAM,targets_JAM.csv,JAM-T122,JAM-07,p.20;p.15,249.9,MW,2033,found,'249.9' on p.20
+JAM,targets_JAM.csv,JAM-T123,JAM-07,p.22;p.89,0,MW,2041,not_found,
+JAM,targets_JAM.csv,JAM-T124,JAM-07,p.15;p.62,1.29,Mt CO2e,2030,found,'1.29' on p.15
+JAM,targets_JAM.csv,JAM-T125,JAM-07,p.15;p.62,3.75,million BOE per year,2030,found,'3.75' on p.15
+JAM,targets_JAM.csv,JAM-T126,JAM-07,p.21,0.954,MtCO2,2030,not_found,
+JAM,targets_JAM.csv,JAM-T127,JAM-07,p.36;p.37,3,percent,2030,found,'3' on p.36
+JAM,targets_JAM.csv,JAM-T128,JAM-08,p.16,30,percent,2030,found,'30' on p.16
+JAM,targets_JAM.csv,JAM-T129,JAM-08,p.143,31,percent,2030,found,'31' on p.143
+JAM,projections_JAM.csv,line2,JAM-01,p.4,7.4,MtCO2e,2012,found,'7.4' on p.4
+JAM,projections_JAM.csv,line3,JAM-01,p.4,-1.6,MtCO2,2012,found,'-1.6' on p.4
+JAM,projections_JAM.csv,line4,JAM-01,p.4,8.2,MtCO2e,2030,found,'8.2' on p.4
+JAM,projections_JAM.csv,line5,JAM-01,p.21,5.8,MtCO2e,2030,found,'5.8' on p.21
+JAM,projections_JAM.csv,line6,JAM-01,p.21,5.7,MtCO2e,2035,found,'5.7' on p.21
+JAM,projections_JAM.csv,line7,JAM-01,p.21,5.5,MtCO2e,2030,found,'5.5' on p.21
+JAM,projections_JAM.csv,line8,JAM-01,p.21,4.9,MtCO2e,2035,found,'4.9' on p.21
+JAM,projections_JAM.csv,line9,JAM-01,p.21,6.2,MtCO2e,2030,found,'6.2' on p.21
+JAM,projections_JAM.csv,line10,JAM-01,p.21,6.1,MtCO2e,2035,found,'6.1' on p.21
+JAM,projections_JAM.csv,line11,JAM-01,p.21,5.9,MtCO2e,2030,found,'5.9' on p.21
+JAM,projections_JAM.csv,line12,JAM-01,p.21,5.3,MtCO2e,2035,found,'5.3' on p.21
+JAM,projections_JAM.csv,line13,JAM-01,p.21,4.2,MtCO2e,2030,found,'4.2' on p.21
+JAM,projections_JAM.csv,line14,JAM-01,p.21,4,MtCO2e,2035,found,'4' on p.21
+JAM,projections_JAM.csv,line15,JAM-01,p.21,3.3,MtCO2e,2035,found,'3.3' on p.21
+JAM,projections_JAM.csv,line16,JAM-03,p.4,8.2,MtCO2e,2030,found,'8.2' on p.4
+JAM,projections_JAM.csv,line17,JAM-03,p.4,-1.0,MtCO2e,2030,found,'-1.0' on p.4
+JAM,projections_JAM.csv,line18,JAM-03,p.4,7.2,MtCO2e,2030,found,'7.2' on p.4
+JAM,projections_JAM.csv,line19,JAM-03,p.5,14.5,MtCO2e,2030,found,'14.5' on p.5
+JAM,projections_JAM.csv,line20,JAM-04,p.4,10572,ktCO2e,2005,found,"'10,572' on p.4"
+JAM,projections_JAM.csv,line21,JAM-04,p.4,13443,ktCO2e,2025,found,"'13,443' on p.4"
+JAM,projections_JAM.csv,line22,JAM-04,p.4,14492,ktCO2e,2030,found,"'14,492' on p.4"
+JAM,projections_JAM.csv,line23,JAM-04,p.4,12370,ktCO2e,2025,found,"'12,370' on p.4"
+JAM,projections_JAM.csv,line24,JAM-04,p.4,13368,ktCO2e,2030,found,"'13,368' on p.4"
+JAM,projections_JAM.csv,line25,JAM-04,p.4,12099,ktCO2e,2025,found,"'12,099' on p.4"
+JAM,projections_JAM.csv,line26,JAM-04,p.4,13043,ktCO2e,2030,found,"'13,043' on p.4"
+JAM,projections_JAM.csv,line27,JAM-02,p.33,10.15,MtCO2e,2019,found,'10.15' on p.33
+JAM,projections_JAM.csv,line28,JAM-02,p.13,7.25,MtCO2e,2020,found,'7.25' on p.13
+JAM,projections_JAM.csv,line29,JAM-02,p.58,2.34,MtCO2e,2020,found,'2.34' on p.58
+JAM,projections_JAM.csv,line30,JAM-02,p.58,0.79,MtCO2e,2050,found,'0.79' on p.58
+JAM,projections_JAM.csv,line31,JAM-02,p.63,0.33,Mt,2050,found,'0.33' on p.63
+JAM,projections_JAM.csv,line32,JAM-02,p.89,1.3,MtCO2e,2050,found,'1.3' on p.89
+JAM,projections_JAM.csv,line33,JAM-07,p.15,2.15,million tonnes,2022,found,'2.15' on p.15
+JAM,projections_JAM.csv,line34,JAM-07,p.15,1.29,million tonnes,2030,found,'1.29' on p.15
+JAM,projections_JAM.csv,line35,JAM-06,p.346,6527,thousand tonnes CO2e,2015,found,"'6,527' on p.346"
+JAM,projections_JAM.csv,line36,JAM-06,p.346,7395,thousand tonnes CO2e,2020,found,"'7,395' on p.346"
+JAM,projections_JAM.csv,line37,JAM-06,p.346,7915,thousand tonnes CO2e,2025,found,"'7,915' on p.346"
+JAM,projections_JAM.csv,line38,JAM-06,p.346,8702,thousand tonnes CO2e,2030,found,"'8,702' on p.346"
+JAM,projections_JAM.csv,line39,JAM-06,p.346,9501,thousand tonnes CO2e,2035,found,"'9,501' on p.346"
+JAM,projections_JAM.csv,line40,JAM-06,p.346,10421,thousand tonnes CO2e,2040,found,"'10,421' on p.346"
+JAM,projections_JAM.csv,line41,JAM-06,p.346,11757,thousand tonnes CO2e,2045,found,"'11,757' on p.346"
+JAM,projections_JAM.csv,line42,JAM-06,p.346,12868,thousand tonnes CO2e,2050,found,"'12,868' on p.346"
+JAM,projections_JAM.csv,line43,JAM-06,p.346,14150,thousand tonnes CO2e,2055,found,"'14,150' on p.346"
+JAM,projections_JAM.csv,line44,JAM-06,p.346,1380,thousand tonnes CO2e,2015,found,"'1,380' on p.346"
+JAM,projections_JAM.csv,line45,JAM-06,p.346,1493,thousand tonnes CO2e,2020,found,"'1,493' on p.346"
+JAM,projections_JAM.csv,line46,JAM-06,p.346,1571,thousand tonnes CO2e,2025,found,"'1,571' on p.346"
+JAM,projections_JAM.csv,line47,JAM-06,p.346,1628,thousand tonnes CO2e,2030,found,"'1,628' on p.346"
+JAM,projections_JAM.csv,line48,JAM-06,p.346,1679,thousand tonnes CO2e,2035,found,"'1,679' on p.346"
+JAM,projections_JAM.csv,line49,JAM-06,p.346,1725,thousand tonnes CO2e,2040,found,"'1,725' on p.346"
+JAM,projections_JAM.csv,line50,JAM-06,p.346,1769,thousand tonnes CO2e,2045,found,"'1,769' on p.346"
+JAM,projections_JAM.csv,line51,JAM-06,p.346,1813,thousand tonnes CO2e,2050,found,"'1,813' on p.346"
+JAM,projections_JAM.csv,line52,JAM-06,p.346,1860,thousand tonnes CO2e,2055,found,"'1,860' on p.346"
+JAM,projections_JAM.csv,line53,JAM-06,p.346,3997,thousand tonnes CO2e,2015,found,"'3,997' on p.346"
+JAM,projections_JAM.csv,line54,JAM-06,p.346,3828,thousand tonnes CO2e,2020,found,"'3,828' on p.346"
+JAM,projections_JAM.csv,line55,JAM-06,p.346,3831,thousand tonnes CO2e,2025,found,"'3,831' on p.346"
+JAM,projections_JAM.csv,line56,JAM-06,p.346,3849,thousand tonnes CO2e,2030,found,"'3,849' on p.346"
+JAM,projections_JAM.csv,line57,JAM-06,p.346,3890,thousand tonnes CO2e,2035,found,"'3,890' on p.346"
+JAM,projections_JAM.csv,line58,JAM-06,p.346,3957,thousand tonnes CO2e,2040,found,"'3,957' on p.346"
+JAM,projections_JAM.csv,line59,JAM-06,p.346,4047,thousand tonnes CO2e,2045,found,"'4,047' on p.346"
+JAM,projections_JAM.csv,line60,JAM-06,p.346,4160,thousand tonnes CO2e,2050,found,"'4,160' on p.346"
+JAM,projections_JAM.csv,line61,JAM-06,p.346,4294,thousand tonnes CO2e,2055,found,"'4,294' on p.346"
+JAM,projections_JAM.csv,line62,JAM-06,p.346,94,thousand tonnes CO2e,2015,found,'94' on p.346
+JAM,projections_JAM.csv,line63,JAM-06,p.346,85,thousand tonnes CO2e,2020,found,'85' on p.346
+JAM,projections_JAM.csv,line64,JAM-06,p.346,78,thousand tonnes CO2e,2025,found,'78' on p.346
+JAM,projections_JAM.csv,line65,JAM-06,p.346,72,thousand tonnes CO2e,2030,found,'72' on p.346
+JAM,projections_JAM.csv,line66,JAM-06,p.346,67,thousand tonnes CO2e,2035,found,'67' on p.346
+JAM,projections_JAM.csv,line67,JAM-06,p.346,63,thousand tonnes CO2e,2040,found,'63' on p.346
+JAM,projections_JAM.csv,line68,JAM-06,p.346,59,thousand tonnes CO2e,2045,found,'59' on p.346
+JAM,projections_JAM.csv,line69,JAM-06,p.346,56,thousand tonnes CO2e,2050,found,'56' on p.346
+JAM,projections_JAM.csv,line70,JAM-06,p.346,53,thousand tonnes CO2e,2055,found,'53' on p.346
+JAM,projections_JAM.csv,line71,JAM-06,p.346,11997,thousand tonnes CO2e,2015,found,"'11,997' on p.346"
+JAM,projections_JAM.csv,line72,JAM-06,p.346,12801,thousand tonnes CO2e,2020,found,"'12,801' on p.346"
+JAM,projections_JAM.csv,line73,JAM-06,p.346,13395,thousand tonnes CO2e,2025,found,"'13,395' on p.346"
+JAM,projections_JAM.csv,line74,JAM-06,p.346,14251,thousand tonnes CO2e,2030,found,"'14,251' on p.346"
+JAM,projections_JAM.csv,line75,JAM-06,p.346,15137,thousand tonnes CO2e,2035,found,"'15,137' on p.346"
+JAM,projections_JAM.csv,line76,JAM-06,p.346,16166,thousand tonnes CO2e,2040,found,"'16,166' on p.346"
+JAM,projections_JAM.csv,line77,JAM-06,p.346,17633,thousand tonnes CO2e,2045,found,"'17,633' on p.346"
+JAM,projections_JAM.csv,line78,JAM-06,p.346,18897,thousand tonnes CO2e,2050,found,"'18,897' on p.346"
+JAM,projections_JAM.csv,line79,JAM-06,p.346,20358,thousand tonnes CO2e,2055,found,"'20,358' on p.346"

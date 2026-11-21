@@ -1,0 +1,79 @@
+source_id,page,table_or_figure,scenario_as_named,sector,gas,unit,year,value,note
+JAM-01,p.4,ICTU item 1(b) printed p.4,Base year 2012 (inventory),Energy and IPPU cement,CO2e,MtCO2e,2012,7.4,Base year of NDC 3.0.
+JAM-01,p.4,ICTU item 1(b) printed p.4,Base year 2012 (inventory),Forestry,CO2,MtCO2,2012,-1.6,
+JAM-01,p.4,ICTU item 1(b) printed p.4,NDC 2.0 business-as-usual,Energy,CO2e,MtCO2e,2030,8.2,Repeated from JAM-03 p.4.
+JAM-01,p.21,ICTU item 6(d) printed p.21,Unconditional target scenario,Energy,CO2e,MtCO2e,2030,5.8,
+JAM-01,p.21,ICTU item 6(d) printed p.21,Unconditional target scenario,Energy,CO2e,MtCO2e,2035,5.7,
+JAM-01,p.21,ICTU item 6(d) printed p.21,Conditional target scenario,Energy,CO2e,MtCO2e,2030,5.5,
+JAM-01,p.21,ICTU item 6(d) printed p.21,Conditional target scenario,Energy,CO2e,MtCO2e,2035,4.9,
+JAM-01,p.21,ICTU item 6(d) printed p.21,Unconditional target scenario,Energy and IPPU cement,CO2e,MtCO2e,2030,6.2,
+JAM-01,p.21,ICTU item 6(d) printed p.21,Unconditional target scenario,Energy and IPPU cement,CO2e,MtCO2e,2035,6.1,
+JAM-01,p.21,ICTU item 6(d) printed p.21,Conditional target scenario,Energy and IPPU cement,CO2e,MtCO2e,2030,5.9,
+JAM-01,p.21,ICTU item 6(d) printed p.21,Conditional target scenario,Energy and IPPU cement,CO2e,MtCO2e,2035,5.3,
+JAM-01,p.21,ICTU item 6(d) printed p.21,Unconditional target scenario,"Energy, cement and forestry (net)",CO2e,MtCO2e,2030,4.2,
+JAM-01,p.21,ICTU item 6(d) printed p.21,Unconditional target scenario,"Energy, cement and forestry (net)",CO2e,MtCO2e,2035,4,
+JAM-01,p.21,ICTU item 6(d) printed p.21,Conditional target scenario,"Energy, cement and forestry (net)",CO2e,MtCO2e,2035,3.3,
+JAM-03,p.4,ICTU item 1(b) printed p.3,Business-as-usual (policies of 2005),Energy,CO2e,MtCO2e,2030,8.2,
+JAM-03,p.4,ICTU item 1(b) printed p.3,Business-as-usual (policies of 2005),Land use change and forestry,CO2,MtCO2e,2030,-1.0,
+JAM-03,p.4,ICTU item 1(b) printed p.3,Business-as-usual (policies of 2005),Energy and LUCF (sectors in the NDC),CO2e,MtCO2e,2030,7.2,
+JAM-03,p.5,ICTU item 1(f) printed p.4,First NDC business-as-usual,Energy,CO2e,MtCO2e,2030,14.5,Revised down to 8.2 in the 2020 update.
+JAM-04,p.4,Table 3.1 printed p.4,Base year 2005,Energy,CO2e,ktCO2e,2005,10572,
+JAM-04,p.4,Table 3.1 printed p.4,Business-as-usual,Energy,CO2e,ktCO2e,2025,13443,
+JAM-04,p.4,Table 3.1 printed p.4,Business-as-usual,Energy,CO2e,ktCO2e,2030,14492,
+JAM-04,p.4,Table 3.1 printed p.4,Unconditional contribution,Energy,CO2e,ktCO2e,2025,12370,
+JAM-04,p.4,Table 3.1 printed p.4,Unconditional contribution,Energy,CO2e,ktCO2e,2030,13368,
+JAM-04,p.4,Table 3.1 printed p.4,Conditional contribution,Energy,CO2e,ktCO2e,2025,12099,
+JAM-04,p.4,Table 3.1 printed p.4,Conditional contribution,Energy,CO2e,ktCO2e,2030,13043,
+JAM-02,p.33,text printed p.15 (Figure 1),Historical (ClimateWatch),economy-wide,CO2e,MtCO2e,2019,10.15,
+JAM-02,p.13,Summary printed p.xiii,Reference level of the 73 percent target,economy-wide,CO2e,MtCO2e,2020,7.25,Read as the 2020 level; the sentence could also be read as the size of the cut.
+JAM-02,p.58,text printed p.40 (Figure 6),Deep decarbonisation,Transport,CO2e,MtCO2e,2020,2.34,
+JAM-02,p.58,text printed p.40 (Figure 6),Deep decarbonisation,Transport,CO2e,MtCO2e,2050,0.79,
+JAM-02,p.63,text printed p.45,Baseline,Buildings (direct),CO2e,Mt,2050,0.33,Direct buildings emissions roughly constant at 0.33 Mt to 2050.
+JAM-02,p.89,text printed p.71,Baseline,Waste,CO2e,MtCO2e,2050,1.3,21 percent above 2016.
+JAM-07,p.15,Table ES-4 printed p.15,IRP-2 preferred plan,Electricity generation,GHG,million tonnes,2022,2.15,Key findings p.90 give 2.06.
+JAM-07,p.15,Table ES-4 printed p.15,IRP-2 preferred plan,Electricity generation,GHG,million tonnes,2030,1.29,Key findings p.90 give 1.26.
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CO2,thousand tonnes CO2e,2015,6527,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CO2,thousand tonnes CO2e,2020,7395,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CO2,thousand tonnes CO2e,2025,7915,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CO2,thousand tonnes CO2e,2030,8702,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CO2,thousand tonnes CO2e,2035,9501,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CO2,thousand tonnes CO2e,2040,10421,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CO2,thousand tonnes CO2e,2045,11757,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CO2,thousand tonnes CO2e,2050,12868,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CO2,thousand tonnes CO2e,2055,14150,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CH4,thousand tonnes CO2e,2015,1380,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CH4,thousand tonnes CO2e,2020,1493,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CH4,thousand tonnes CO2e,2025,1571,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CH4,thousand tonnes CO2e,2030,1628,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CH4,thousand tonnes CO2e,2035,1679,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CH4,thousand tonnes CO2e,2040,1725,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CH4,thousand tonnes CO2e,2045,1769,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CH4,thousand tonnes CO2e,2050,1813,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),CH4,thousand tonnes CO2e,2055,1860,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),N2O,thousand tonnes CO2e,2015,3997,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),N2O,thousand tonnes CO2e,2020,3828,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),N2O,thousand tonnes CO2e,2025,3831,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),N2O,thousand tonnes CO2e,2030,3849,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),N2O,thousand tonnes CO2e,2035,3890,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),N2O,thousand tonnes CO2e,2040,3957,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),N2O,thousand tonnes CO2e,2045,4047,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),N2O,thousand tonnes CO2e,2050,4160,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),N2O,thousand tonnes CO2e,2055,4294,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),HFCs,thousand tonnes CO2e,2015,94,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),HFCs,thousand tonnes CO2e,2020,85,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),HFCs,thousand tonnes CO2e,2025,78,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),HFCs,thousand tonnes CO2e,2030,72,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),HFCs,thousand tonnes CO2e,2035,67,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),HFCs,thousand tonnes CO2e,2040,63,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),HFCs,thousand tonnes CO2e,2045,59,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),HFCs,thousand tonnes CO2e,2050,56,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),HFCs,thousand tonnes CO2e,2055,53,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),Total,thousand tonnes CO2e,2015,11997,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),Total,thousand tonnes CO2e,2020,12801,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),Total,thousand tonnes CO2e,2025,13395,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),Total,thousand tonnes CO2e,2030,14251,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),Total,thousand tonnes CO2e,2035,15137,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),Total,thousand tonnes CO2e,2040,16166,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),Total,thousand tonnes CO2e,2045,17633,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),Total,thousand tonnes CO2e,2050,18897,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
+JAM-06,p.346,Table 26 printed p.346,TNC LEAP baseline,economy-wide (all sectors),Total,thousand tonnes CO2e,2055,20358,AR5 GWPs; 5-15 percent below the inventory in history (footnote 112).
