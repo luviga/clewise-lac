@@ -57,3 +57,4 @@ Restart (session 2, brief v2): 2026-11-21T04:13:53Z, clone at ac903a2 = origin/j
 2026-11-21T08:17:07Z | E (agent) | done | see cross_sector_check.md
 2026-11-21T08:17:07Z | F outputs | done | REPORT, GAPS, CHANGES written; NOTES_WORKING.md folded and deleted; Guatemala overwrite notes reworded without model figures (shares unchanged); write_check PASS on final state
 2026-11-21T08:17:07Z | FS1, FS2 | done | changed paths: six models' A-O/config workbooks and A2/B1 outputs, Guatemala Stage 2 CSV, four stage output folders, job folder; no file over 50 MB; no safesave_tmp; EXCEL.EXE 0; diff --check (cr-at-eol) clean after text normalisation; no em dash in written files; no Co-Authored-By or Generated-with lines
+2026-11-21T08:17:53Z | FS3 | done | pushed to job/fix-run; PR #11 description section LAC_FIX_RUN2 added with gh pr edit; PR stays draft

@@ -10,7 +10,7 @@
 3. **Guatemala hydro gate (DS2).** Equal in every scenario in 2025 and 2026 (19.705 PJ, D8) and in most later years, but NDCNEW and LTSNEW run up to 0.47 PJ more in 2029 and NDCNEW 1.14 PJ more in 2041 and 2043: Stage 3 sets each plant's upper limit at 1.05 times its pinned lower limit, and the solver uses that band in the policy scenarios. Data cannot remove it without changing the stage scripts.
 4. **Not completed under D2c:** Ecuador `PPHRORPM` and `PPHRORAS` minimum investments (the 2022 ARCONEL statistics have no public download address), Ecuador `PPRDSL` residual, Dominican SENI capacity paths (`PPPVT`, `PPPVD`, `PPICEFOI`, `PPHDAM` timing), Jamaica `PPNGS`, `PPDSL`, `PPHDAM`, Guatemala `PPNGS` residual (AMM capacity files without address).
 5. **Phase E** used Dominican Stage 3 results from 4ba69d6 for its energy-side link values, because the first Stage 3 run of this job had no Dominican solution when the check ran.
-6. Branch `job/fix-run`, base `4ba69d6`. Commits of this job: `ceb7d4d` (Phase A work in progress), `edd2b51` (Phase A), `a399f18` (Phase B), `f0b5485` (Phase C), `fdd6092` (Phase D work in progress), `ad3dc30` (Phase D), then the Phase F commit(s) named in the pull request.
+6. Branch `job/fix-run`, base `4ba69d6`. Commits of this job: `ceb7d4d` (Phase A work in progress), `edd2b51` (Phase A), `a399f18` (Phase B), `f0b5485` (Phase C), `fdd6092` (Phase D work in progress), `ad3dc30` (Phase D), `a5ca980` (Phase F: REPORT, GAPS, CHANGES), and a last commit that writes these hashes. PR #11 description has a section "LAC_FIX_RUN2" (taken from CHANGES); the PR stays draft.
 
 ## Per decision
 
