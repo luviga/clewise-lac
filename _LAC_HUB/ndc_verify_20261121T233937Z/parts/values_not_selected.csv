@@ -1,0 +1,112 @@
+country,target_id,source_id,indicator,value,unit,numeric
+CR,CR-T031,CR-01,number of intermodal transfer zones,2,zones,True
+CR,CR-T049,CR-01,clinker to cement ratio,0.66,ratio,True
+CR,CR-T050,CR-01,clinker to cement ratio,0.62,ratio,True
+CR,CR-T051,CR-01,synthetic agro-input use in coffee,30,percent reduction,True
+CR,CR-T052,CR-01,synthetic agro-input use in coffee,58,kg per ha per year,True
+CR,CR-T053,CR-01,nitrogen fertilizer use in rice,99,kg per ha per year reduction,True
+CR,CR-T054,CR-01,share of banana area under NAMA,50,percent of area,True
+CR,CR-T055,CR-01,share of sugarcane area under NAMA,47,percent of area,True
+CR,CR-T056,CR-01,nitrogen fertilizer use,20,kg N per ha per year reduction,True
+CR,CR-T057,CR-01,share of cattle herd under NAMA,46,percent of herd,True
+CR,CR-T059,CR-01,additional restored forest cover,50000,ha,True
+CR,CR-T060,CR-01,wood use in construction,10,percent increase,True
+CR,CR-T062,CR-01,waste valorization increase,13,percent,True
+CR,CR-T063,CR-01,organic waste treated,154000,t,True
+CR,CR-T064,CR-01,national sewerage and treatment coverage,38,percent,True
+CR,CR-T073,CR-04,forest cover share of territory,60,percent of territory,True
+CR,CR-T074,CR-04,area of silvopastoral and agroforestry systems,69500,ha,True
+CR,CR-T075,CR-04,sewer coverage in high-density areas,50,percent,True
+CR,CR-T092,CR-02,sewer and treatment coverage in high-density areas,100,percent,True
+CR,CR-T094,CR-02,forest cover share of territory,60,percent of territory,True
+DR,DR-T008,DR-01,count of frameworks,25,number,True
+DR,DR-T029,DR-01,HFC imports against BAU,5,percent,True
+DR,DR-T030,DR-01,enabling framework,,,False
+DR,DR-T031,DR-01,cattle mortality rate (dairy),8,percent,True
+DR,DR-T032,DR-01,share of sludge in biodigesters,50,percent,True
+DR,DR-T033,DR-01,share of solid manure composted,50,percent,True
+DR,DR-T034,DR-01,permanently flooded rice area,10,percent reduction,True
+DR,DR-T035,DR-01,area reforested,4500,km2,True
+DR,DR-T036,DR-01,share of territory conserved,30,percent,True
+DR,DR-T039,DR-01,share of priority ecosystems,50,percent,True
+DR,DR-T041,DR-01,waste valorisation rate,7,percent,True
+DR,DR-T063,DR-04,HFC consumption,35,percent reduction,True
+DR,DR-T064,DR-04,reforestation rate,15000,ha per year,True
+DR,DR-T066,DR-06,deforestation rate,-0.2,percent of forest area per year,True
+ECU,ECU-T006,ECU-01,line of action,,,False
+ECU,ECU-T007,ECU-01,line of action,,,False
+ECU,ECU-T008,ECU-01,line of action,,,False
+ECU,ECU-T009,ECU-01,line of action,,,False
+ECU,ECU-T010,ECU-01,line of action,,,False
+ECU,ECU-T011,ECU-01,line of action,,,False
+ECU,ECU-T012,ECU-01,line of action,,,False
+ECU,ECU-T024,ECU-03,electricity share of final energy,32.0,percent,True
+ECU,ECU-T045,ECU-03,share of herd,20,percent,True
+ECU,ECU-T046,ECU-03,share replaced,10,percent,True
+ECU,ECU-T048,ECU-03,percent reduction,45.5,percent,True
+ECU,ECU-T049,ECU-03,area under protection,7.29,Mha,True
+ECU,ECU-T050,ECU-03,restoration rate,3249,ha per year,True
+ECU,ECU-T051,ECU-03,plantation area,266963,ha,True
+ECU,ECU-T053,ECU-03,clinker factor,68,percent,True
+ECU,ECU-T055,ECU-03,percent reduction of imports,30,percent,True
+ECU,ECU-T057,ECU-03,share of waste,47,percent,True
+ECU,ECU-T058,ECU-03,share of waste,10,percent,True
+ECU,ECU-T059,ECU-03,share of landfill waste,10,percent,True
+ECU,ECU-T060,ECU-03,share of wastewater,8,percent,True
+ECU,ECU-T062,ECU-04,percent reduction achieved,8.61,percent,True
+GUA,GUA-T024,GUA-01,reduction of HFC consumption,10,percent,True
+GUA,GUA-T025,GUA-01,reduction of HFC consumption,30,percent,True
+GUA,GUA-T027,GUA-01,net forest gain,2161,ha per year,True
+GUA,GUA-T028,GUA-01,gross deforestation rate,0.62,percent per year,True
+GUA,GUA-T029,GUA-01,forest gain,22994,ha per year,True
+GUA,GUA-T032,GUA-01,area,12000,ha,True
+GUA,GUA-T033,GUA-01,area,100,ha per year,True
+GUA,GUA-T034,GUA-01,farms,900,farms,True
+GUA,GUA-T035,GUA-01,area,13500,ha,True
+GUA,GUA-T037,GUA-01,tonnes recovered,637,t,True
+GUA,GUA-T038,GUA-01,share,70,percent,True
+GUA,GUA-T069,GUA-05,area restored,1.2,million ha,True
+HON,HON-T031,HON-01,clinker factor reduction,7.4,percentage points,True
+HON,HON-T032,HON-01,clinker factor reduction,8.5,percentage points,True
+HON,HON-T033,HON-01,HFC consumption relative to baseline,90,percent of baseline,True
+HON,HON-T034,HON-01,HFC consumption relative to baseline,70,percent of baseline,True
+HON,HON-T035,HON-01,share of farms,20,percent of farms,True
+HON,HON-T037,HON-01,farms,3300,farms,True
+HON,HON-T039,HON-01,processing plants,160,plants,True
+HON,HON-T041,HON-01,share of agricultural area,12.7,percent of area,True
+HON,HON-T042,HON-01,area,20,thousand ha,True
+HON,HON-T048,HON-01,recovery rate,22,percent,True
+HON,HON-T049,HON-01,recovery rate,30,percent,True
+HON,HON-T050,HON-01,sites,3,sites,True
+HON,HON-T051,HON-01,sites,4,sites,True
+HON,HON-T052,HON-01,municipalities,6,municipalities,True
+HON,HON-T053,HON-01,share of plants,80,percent of plants,True
+HON,HON-T054,HON-01,share of plants,90,percent of plants,True
+HON,HON-T061,HON-02,percent of national BAU,9,percent,True
+HON,HON-T063,HON-03,percent of national BAU,9,percent,True
+HON,HON-T064,HON-03,percent of national BAU,5,percent,True
+HON,HON-T065,HON-03,percent of national BAU,1,percent,True
+HON,HON-T066,HON-03,percent of national BAU,1,percent,True
+HON,HON-T068,HON-03,area under restoration,1.3,million ha,True
+HON,HON-T069,HON-03,firewood consumption of households,39,percent reduction,True
+HON,HON-T071,HON-04,area,1,million ha,True
+HON,HON-T074,HON-05,HCFC consumption relative to baseline,15,percent of baseline,True
+HON,HON-T075,HON-05,HCFC consumption,0,percent of baseline,True
+HON,HON-T076,HON-05,HFC consumption reduction,10,percent,True
+HON,HON-T077,HON-05,HFC consumption reduction,80,percent,True
+HON,HON-T084,HON-05,organic waste recovery,15,percent,True
+HON,HON-T100,HON-08,electricity demand,15455.28,GWh,True
+HON,HON-T101,HON-08,electricity demand,18108.55,GWh,True
+JAM,JAM-T034,JAM-01,share of mangroves protected,67,percent,True
+JAM,JAM-T035,JAM-01,area restored and protected,7000,ha,True
+JAM,JAM-T036,JAM-01,closed broadleaf forest cover,10,percent of land,True
+JAM,JAM-T037,JAM-01,trees planted,3000000,trees,True
+JAM,JAM-T038,JAM-01,tree cover in Local Planning Areas,30,percent,True
+JAM,JAM-T039,JAM-01,mangrove area restored,2200,ha,True
+JAM,JAM-T040,JAM-01,wetland area restored,1000,ha,True
+JAM,JAM-T041,JAM-01,seagrass conserved in protected areas,100,percent,True
+JAM,JAM-T042,JAM-01,forested wetlands conserved,30,percent,True
+JAM,JAM-T076,JAM-02,EV import tariff,10,percent,True
+JAM,JAM-T086,JAM-02,share of buildings retrofitted,25,percent,True
+JAM,JAM-T101,JAM-02,MSW collection rate,90,percent,True
+JAM,JAM-T103,JAM-02,sanitary landfills,1,landfills,True

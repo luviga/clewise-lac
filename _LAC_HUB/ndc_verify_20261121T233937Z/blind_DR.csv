@@ -1,0 +1,53 @@
+blind_id,source_id,pdf_file,pages,what_to_read
+DR-B001,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.14;p.62;p.129,Economy-wide GHG reduction against the trend (BAU) scenario in [year]
+DR-B002,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.14;p.62,Economy-wide GHG reduction in [year] expressed in [unit] CO[n]eq
+DR-B003,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.14;p.62;p.129,Economy-wide GHG reduction against BAU in [year]
+DR-B004,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.14;p.62,Unconditional part of the [year] reduction (national resources)
+DR-B005,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.14;p.62,"Conditional part of the [year] reduction (external finance, technology, capacity)"
+DR-B006,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.64,Emission level of the new ambition pathway in [year]
+DR-B007,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.41;p.45,"Emission reduction of the [n] energy PAMs (generation, efficiency, road transport, domestic aviation)"
+DR-B008,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.40;p.46,Emission reduction of electricity generation PAMs [n] to [n]
+DR-B009,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.148,"Four new natural gas combined cycle units entering the SENI before the end of [year] (Estrella del Mar IV [n] [unit], Manzanillo blocks [n] and [n] [n] [unit], San Felipe Andres [n] [n] [unit])"
+DR-B010,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.148,Emission reduction from the new natural gas combined cycle units
+DR-B011,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.149,"New solar, wind and hydro capacity by [year]"
+DR-B012,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.149,"New solar parks ([n] parks), of which [n] [unit] in battery storage"
+DR-B013,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.149,New wind parks ([n] parks)
+DR-B014,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.149,One new hydro plant
+DR-B015,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.149,Emission reduction from new renewable capacity
+DR-B016,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.150,Distribution loss reduction plan: energy saved per year
+DR-B017,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.150,Emission reduction from distribution loss reduction
+DR-B018,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.151,"Enabling framework, studies and first small modular nuclear reactor of up to [n] [unit]"
+DR-B019,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.151,Emission reduction from the small modular reactor
+DR-B020,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.153;p.154,Public lighting and government demand management: electricity saved (over [n] LED lamps)
+DR-B021,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.40;p.47,"Emission reduction of energy efficiency PAMs [n] and [n] (RAC standards and labelling, public lighting)"
+DR-B022,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.40;p.48,Emission reduction of road transport PAMs [n] to [n]
+DR-B023,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.155,"Two new bus corridors in Santo Domingo (Independencia [n] km, [n] de Febrero [n] km) with [n] more efficient buses"
+DR-B024,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.156,"Monorail lines: Santiago ([n] km, [year]) and Santo Domingo phase I ([n] km, [year])"
+DR-B025,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.157,"New cable car line (Santo Domingo Oeste), up to [n] passengers per hour per direction"
+DR-B026,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.159;p.160,"Sustainable and lower-carbon aviation fuel in domestic aviation, [n] litres per year"
+DR-B027,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.171,Zero net mangrove loss inside protected areas
+DR-B028,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.42;p.57,Emission reduction or removal of the two forest land PAMs
+DR-B029,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.175,Methane capture and flaring at Duquesa landfill closure
+DR-B030,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.42;p.60,"Wastewater PAMs [n] and [n] (Boca Chica, Higuey, La Romana, Moca, Gaspar Hernandez)"
+DR-B031,DR-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC_2020_update.pdf,p.5;p.7;p.11,Economy-wide GHG reduction against BAU in [year] (previous NDC)
+DR-B032,DR-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC_2020_update.pdf,p.5;p.9,Economy-wide reduction from [n] mitigation options (previous NDC)
+DR-B033,DR-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC_2020_update.pdf,p.26,Aspiration to carbon neutrality by [year]
+DR-B034,DR-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC_2020_update.pdf,p.140,Conversion of fuel oil No. [n] units to natural gas
+DR-B035,DR-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC_2020_update.pdf,p.141,New wind parks
+DR-B036,DR-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC_2020_update.pdf,p.142,New solar PV installations
+DR-B037,DR-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC_2020_update.pdf,p.142,Small biomass and solid waste plants ([n] MWp units)
+DR-B038,DR-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC_2020_update.pdf,p.143,Small and medium hydro plants
+DR-B039,DR-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC_2020_update.pdf,p.144,Combined cycle expansion (Los Mina gas turbines)
+DR-B040,DR-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC_2020_update.pdf,p.145,New natural gas plant (mobile unit) in Santo Domingo
+DR-B041,DR-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC_2020_update.pdf,p.101,Renewable share of electricity generation set by Law [n]-[n]
+DR-B042,DR-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC_2020_update.pdf,p.156,Replace [n] diesel buses carrying workers with [n] [unit] electric buses
+DR-B043,DR-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC_2020_update.pdf,p.158,"Taxi and concho fleet: replace [n] [unit] of the current fleet, [n] [unit] electric and [n] [unit] hybrid"
+DR-B044,DR-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC_2020_update.pdf,p.158,Pilot feeder bus network with [n] natural gas buses
+DR-B045,DR-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC_2020_update.pdf,p.159,Pilot of [n] electric school buses
+DR-B046,DR-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC_2020_update.pdf,p.160,"Enabling frameworks to replace up to [n] private cars with electric and hybrid cars ([n] [unit] electric, [n] [unit] hybrid)"
+DR-B047,DR-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC1_2017_INDC2015_en.pdf,p.2,Reduce emissions [n] [unit] below base-year per capita emissions by [year] (first NDC)
+DR-B048,DR-04,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_BTR1_CN4_2025.pdf,p.111,Long-term objective of carbon neutrality by [year]
+DR-B049,DR-04,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_BTR1_CN4_2025.pdf,p.174,Ministry of Energy and Mines renewable target: [n] [unit] of generation by [year]
+DR-B050,DR-06,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_END2030_Ley1-12.pdf,p.78,Carbon dioxide emissions per capita (END [year] indicator [n])
+DR-B051,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.32;p.195,"Projected GHG emissions series, scenario 'BAU (escenario tendencial, proyeccion media)', sector 'economy-wide': report every year printed and its value"
+DR-B052,DR-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/DR/DR_NDC3_2026.pdf,p.64,"Projected GHG emissions series, scenario 'nueva ambicion (NDC [n] pathway)', sector 'economy-wide': report every year printed and its value"
