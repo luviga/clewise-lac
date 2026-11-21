@@ -16,4 +16,4 @@
 - HON task finished: 8 sources, 3 pending, 101 targets, 151 projection rows, 93 alignment rows, 16 proposal rows (8 A, 1 B, 2 C, 5 documents silent), spot check 10 of 10. Hub check: 250 of 252 found; HON-T030 (urban mobility plans, p.27) and HON-T075 (HCFC elimination 2040, p.526) confirmed by hand. Hub confirmed E5EXPLPG BAU against policy difference and PPNGS capacity without generation. ECU 8 non-numeric rows confirmed by hand on their pages.
 - Pair 3 committed and pushed (`405d3aa`).
 - Step D merged (`scripts/hub_merge_and_gates.py`): `sources.csv` (46), `sources_pending.csv` (12), `spot_checks.csv`, `proposed_scenario_changes.csv` (122), `cross_country_summary.csv`. Gates E1 to E5 pass.
-- REPORT, GAPS (`scripts/hub_build_gaps.py`) and CHANGES written. Final commit and draft pull request next.
+- REPORT, GAPS (`scripts/hub_build_gaps.py`) and CHANGES written. Final commit `7260acf` pushed; draft pull request luviga/clewise-lac#12 opened. Report-only commit adds the number.

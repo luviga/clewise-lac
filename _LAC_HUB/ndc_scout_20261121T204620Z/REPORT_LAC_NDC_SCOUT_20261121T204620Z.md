@@ -138,4 +138,5 @@ Every NDC now in force has target years of 2030 and/or 2035, which fits the mode
 
 - Start: `origin/main` at `29dc938`. Model state read at `481a7c0`.
 - Work-in-progress commits: `4e8b521` (setup, C1), `d72ed60` (pair 1), `2f6095a` (pair 2), `405d3aa` (pair 3, merged step D tables).
-- Final commit and pull request number: see the last section, added after the pull request was opened.
+- Final commit of the job files: `7260acf`. Draft pull request: luviga/clewise-lac#12 (https://github.com/luviga/clewise-lac/pull/12), not marked ready, not merged.
+- This section was filled in by a second, report-only commit after the pull request was opened (a force push to amend is not used).

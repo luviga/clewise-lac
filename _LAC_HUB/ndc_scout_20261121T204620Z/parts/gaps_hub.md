@@ -56,6 +56,7 @@ Twelve rows: CR ICE generation expansion plan 2022-2040 and the Spanish INDC ori
 ### Incidents
 
 - The hub used one shell heredoc (to patch `scripts/c1_model_levers.py`), against the brief's rule. The patch was small (year handling); the script was rerun and its output checked. All later scripts were written with the file tool.
+- The pull request number went into the REPORT through a second, report-only commit after `7260acf`, because the number exists only once the pull request is open and force pushes are not used.
 - The brief's lead record for Honduras NDC 3.0 (`..._21f1`) holds the April 2025 second update; the Costa Rica lead record on climate-laws.org returned HTTP 404 (Climate Policy Radar worked).
 - The Costa Rica task wrote three temporary files to /tmp and deleted them; it also invoked one empty heredoc that wrote nothing (Costa Rica notes).
 
