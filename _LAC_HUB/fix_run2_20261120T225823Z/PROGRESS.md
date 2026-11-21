@@ -37,3 +37,8 @@ Restart (session 2, brief v2): 2026-11-21T04:13:53Z, clone at ac903a2 = origin/j
 2026-11-21T04:32:53Z | A0 source_map.csv | partial | Jamaica 43 rows; DR and HON maps pending
 2026-11-21T04:32:53Z | A2 history_plan.csv, history_builds.csv | done (builds partial) | 180 plan lines, 41 techs; DR and CR commissioning searches running
 2026-11-21T04:32:53Z | A5 Gate A | done | PASS (sources 55, proposals 1224)
+2026-11-21T04:49:34Z | search d2_dr | finished | DR commissioning, net metering, self-producers; CNE file URL found (hash equal)
+2026-11-21T04:49:34Z | search d2_cr | finished | CR capacity 2020-2024, commissioning, generation; Guatemala gas (Actun Can 2020, Ocultun 2024)
+2026-11-21T04:49:34Z | B1 backups | done | 14 files, backups/backup_manifest.csv
+2026-11-21T04:49:34Z | B2 writes | done | 1,254 writes in 14 workbooks (incl. D3 DR values after URL found)
+2026-11-21T04:49:34Z | B3 write_check | done | PASS; unittest manager 4 OK, safe-save 3 PASS; EXCEL.EXE 0

@@ -58,7 +58,13 @@ for wbpath, g in P.groupby('workbook'):
         if r.kind in ('config_row', 'fhp_newrow'):
             continue
         listed.setdefault(r.sheet, set()).add((int(r.row), column_index_from_string(r.column)))
-        cf, cv = nf[r.sheet][f'{r.column}{r.row}'].value, nv[r.sheet][f'{r.column}{r.row}'].value
+        rrow = int(r.row)
+        if r.sheet == 'Fixed Horizon Parameters' and any(g.kind == 'fhp_newrow'):
+            wsk = nf[r.sheet]
+            hk = {wsk.cell(1, j).value: j for j in range(1, wsk.max_column + 1)}
+            rrow = next(x for x in range(2, wsk.max_row + 1) if wsk.cell(x, hk['Tech']).value == r.Tech and
+                        wsk.cell(x, hk['Parameter']).value == r.Parameter)
+        cf, cv = nf[r.sheet][f'{r.column}{rrow}'].value, nv[r.sheet][f'{r.column}{rrow}'].value
         if r.kind in ('ao_cell', 'demand_cell', 'cfg_num'):
             good = close(cv, r.new_value) and not (isinstance(cf, str) and cf.startswith('='))
         elif r.kind == 'ao_formula':
@@ -117,7 +123,7 @@ for wbpath, g in P.groupby('workbook'):
                     closure.add(y)
                     stack.append(y)
         wn, wnv, wbv = nf[name], nv[name], bv[name]
-        base_rows = ws.max_row
+        base_rows = max([c.row for row in ws.iter_rows() for c in row if c.value not in (None, '')] or [1])
         for r in range(1, max(ws.max_row, wn.max_row) + 1):
             for c in range(1, max(ws.max_column, wn.max_column) + 1):
                 a, b = ws.cell(r, c).value, wn.cell(r, c).value
@@ -128,8 +134,8 @@ for wbpath, g in P.groupby('workbook'):
                 if (r, c) in closure:
                     expected_dep += (r, c) not in L
                     continue
-                if r > base_rows and a is None:
-                    continue      # appended row
+                if a is None and all(ws.cell(r, k).value in (None, '') for k in (1, 2, 3)):
+                    continue      # appended row (the base row is empty in its key columns)
                 unexpected += 1
                 detail.append(dict(check='unexpected', workbook=wbpath, sheet=name, cell=f'{get_column_letter(c)}{r}',
                                    expected=f'{a!r} / {av!r}', found=f'{b!r} / {bvv!r}'))
