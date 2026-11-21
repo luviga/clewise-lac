@@ -42,3 +42,8 @@ Restart (session 2, brief v2): 2026-11-21T04:13:53Z, clone at ac903a2 = origin/j
 2026-11-21T04:49:34Z | B1 backups | done | 14 files, backups/backup_manifest.csv
 2026-11-21T04:49:34Z | B2 writes | done | 1,254 writes in 14 workbooks (incl. D3 DR values after URL found)
 2026-11-21T04:49:34Z | B3 write_check | done | PASS; unittest manager 4 OK, safe-save 3 PASS; EXCEL.EXE 0
+2026-11-21T05:30:02Z | search map_dr, map_hon | finished | source_map.csv 116 rows (DR 44, HON 29, JAM 43)
+2026-11-21T05:30:02Z | C1 A2+B1 Ecuador, CR, GUA, HON, JAM | done | all OPTIMAL (CR 4 incl. LTSOPT)
+2026-11-21T05:30:02Z | C1 DR first run | NDCNEW, LTSNEW UNDEFINED | cause by values: PPDBGS CF 0.08 (needs 22 MW vs 12 MW cap from 2025) and PPDBIM BAU history (10.8 MW vs 10.1 MW cap)
+2026-11-21T05:30:02Z | C1 repair DR | done | PPDBGS CF from IRENA 2025 (D2c), PPDBIM history rows 24 and 82 back to 4ba69d6; rerun OPTIMAL x3
+2026-11-21T05:30:02Z | C2 keyed comparison | done | 0 unexplained (recompile_diff_summary.csv); 19 of 19 B1 solves OPTIMAL; write_check PASS

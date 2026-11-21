@@ -11,6 +11,7 @@ AO = {'CostaRica': 'CostaRica/CR_ENERGY/t1_confection', 'DominicanRepublic': 'Do
       'Jamaica': 'Jamaica/JAM_ENERGY'}
 frames = [pd.read_csv(f, dtype=str, keep_default_na=False) for f in sorted(glob.glob(JOB + '/research/map_*_map.csv'))]
 M = pd.concat(frames, ignore_index=True)
+M['country'] = M.country.str.replace(' ', '', regex=False)
 idx = {}
 for c in set(M.country):
     if c not in AO:

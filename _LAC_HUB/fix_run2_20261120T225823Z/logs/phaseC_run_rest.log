@@ -1,0 +1,26 @@
+CostaRica A2 exit 0 26 s
+CostaRica B1 exit 0 204 s
+   ection\Executables\LTSNEW_0\LTSNEW_0.txt OPTIMAL OFL_Cost = 97977.38924 (MINimum)
+   1_confection\Executables\BAU_0\BAU_0.txt OPTIMAL OFL_Cost = 116032.8733 (MINimum)
+   ection\Executables\LTSOPT_0\LTSOPT_0.txt OPTIMAL OFL_Cost = 94140.63502 (MINimum)
+   ection\Executables\NDCNEW_0\NDCNEW_0.txt OPTIMAL OFL_Cost = 102925.9518 (MINimum)
+DominicanRepublic A2 exit 0 30 s
+DominicanRepublic B1 exit 0 222 s
+   ERGY\\Executables\\LTSNEW_0\LTSNEW_0.txt UNDEFINED OFL_Cost = 0 (MINimum)
+   ERGY\\Executables\\NDCNEW_0\NDCNEW_0.txt UNDEFINED OFL_Cost = 0 (MINimum)
+   \RD_ENERGY\\Executables\\BAU_0\BAU_0.txt OPTIMAL OFL_Cost = 406996.8488 (MINimum)
+Guatemala A2 exit 0 336 s
+Guatemala B1 exit 0 292 s
+   GUA_ENERGY\\Executables\\BAU_0\BAU_0.txt OPTIMAL cost = 358792.3415 (MINimum)
+   ERGY\\Executables\\NDCNEW_0\NDCNEW_0.txt OPTIMAL cost = 347686.9608 (MINimum)
+   ERGY\\Executables\\LTSNEW_0\LTSNEW_0.txt OPTIMAL cost = 345645.0731 (MINimum)
+Honduras A2 exit 0 25 s
+Honduras B1 exit 0 190 s
+   HON_ENERGY\\Executables\\BAU_0\BAU_0.txt OPTIMAL OFL_Cost = 107299.3164 (MINimum)
+   ERGY\\Executables\\LTSNEW_0\LTSNEW_0.txt OPTIMAL OFL_Cost = 100348.8839 (MINimum)
+   ERGY\\Executables\\NDCNEW_0\NDCNEW_0.txt OPTIMAL OFL_Cost = 102894.5246 (MINimum)
+Jamaica A2 exit 0 26 s
+Jamaica B1 exit 0 227 s
+   ERGY\\Executables\\NDCNEW_0\NDCNEW_0.txt OPTIMAL OFL_Cost = 61518.86117 (MINimum)
+   JAM_ENERGY\\Executables\\BAU_0\BAU_0.txt OPTIMAL OFL_Cost = 62847.80493 (MINimum)
+   ERGY\\Executables\\LTSNEW_0\LTSNEW_0.txt OPTIMAL OFL_Cost = 59231.08578 (MINimum)

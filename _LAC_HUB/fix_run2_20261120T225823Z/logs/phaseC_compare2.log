@@ -1,0 +1,33 @@
+country            reason                                             
+CostaRica          D13                                                     60
+                   D2 history 2018-2024                                    40
+                   D2 row (check from 2025)                                 2
+DominicanRepublic  D13                                                    174
+                   D2f / D2c capacity factor                               12
+                   D3 history factor                                       15
+                   D7a band                                                80
+Ecuador            D-ECU / D1 / D12                                       315
+                   D-ECU1 (E5EXPCRU)                                        6
+                   D12 layout row (value 1 = default)                       6
+                   D13                                                     48
+Guatemala          D13                                                     90
+                   D2 history 2018-2024                                    54
+                   D6                                                       6
+Honduras           D13                                                    120
+                   D2 history 2018-2024                                    20
+                   D2 row (check from 2025)                                 2
+                   D3 history factor                                       15
+                   D5                                                       6
+Jamaica            D13                                                     90
+                   D2 row (check from 2025)                                 4
+                   D7a band                                                36
+                   D7a dependent (upper = lower band x 1.01 from 2024)      6
+        country stage scenario               parameter technology      years   n  one_sided       max_abs                    reason
+50    CostaRica    B1   NDCNEW  TotalAnnualMaxCapacity     PWRSUG  2021-2050  30         30  1.000000e+09  D2 row (check from 2025)
+79    CostaRica    B1   LTSNEW  TotalAnnualMaxCapacity     PWRSUG  2021-2050  30         30  1.000000e+09  D2 row (check from 2025)
+1023   Honduras    B1   NDCNEW  TotalAnnualMaxCapacity   TRBPUGSL  2018-2050  33         33  1.000000e+09  D2 row (check from 2025)
+1060   Honduras    B1   LTSNEW  TotalAnnualMaxCapacity   TRBPUGSL  2018-2050  33         33  1.000000e+09  D2 row (check from 2025)
+1178    Jamaica    B1   NDCNEW   EmissionActivityRatio   T5DSLTRO  2021-2055  35          0  1.175800e-03  D2 row (check from 2025)
+1179    Jamaica    B1   NDCNEW   EmissionActivityRatio   T5GSLTRO  2021-2055  35          0  1.143000e-03  D2 row (check from 2025)
+1200    Jamaica    B1   LTSNEW   EmissionActivityRatio   T5DSLTRO  2021-2055  35          0  1.175800e-03  D2 row (check from 2025)
+1201    Jamaica    B1   LTSNEW   EmissionActivityRatio   T5GSLTRO  2021-2055  35          0  1.143000e-03  D2 row (check from 2025)

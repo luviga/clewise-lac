@@ -3543,3 +3543,13 @@ Jamaica/JAM_ENERGY/A1_Outputs/A-O_Parametrization.xlsx: 128 writes, 0 already at
   Jamaica/JAM_ENERGY/B1_Scenario_Config.xlsx|SmartGrid|new row 18|LTSNEW|EmissionActivityRatio|T5GSLTRO
 Jamaica/JAM_ENERGY/B1_Scenario_Config.xlsx: 4 writes, 0 already at target
   saved Jamaica/JAM_ENERGY/B1_Scenario_Config.xlsx
+=== phaseB_write 2026-11-21T05:20:46Z apply DominicanRepublic/RD_ENERGY/A1_Outputs
+backups in manifest: 14
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Secondary Techs|J170|PPDBGS|CapacityFactor|2018: 0.08333857202697917 -> 0.9132420091324202
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Secondary Techs|K170|PPDBGS|CapacityFactor|2019: 0.08544155505775115 -> 0.7990867579908676
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Secondary Techs|L170|PPDBGS|CapacityFactor|2020: 0.08111595054580678 -> 0.7990867579908676
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Secondary Techs|M170|PPDBGS|CapacityFactor|2021: 0.08384911801906877 -> 0.7990867579908676
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Secondary Techs|N170|PPDBGS|CapacityFactor|2022: 0.08086660202443124 -> 0.6278538812785388
+  DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx|Secondary Techs|O170|PPDBGS|CapacityFactor|2023: 0.08115781060336204 -> 0.8561643835616438
+DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx: 6 writes, 270 already at target
+  saved DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx
