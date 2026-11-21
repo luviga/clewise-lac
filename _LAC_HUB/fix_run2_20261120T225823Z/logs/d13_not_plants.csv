@@ -1,0 +1,10 @@
+country,row,tech,value,formula
+DominicanRepublic,20,IMP_ELE,31.356,
+Guatemala,50,DIST_FIR,31.356,
+Guatemala,52,DIST_BIM,31.356,
+Guatemala,54,DIST_BGS,31.356,
+Guatemala,56,DIST_NGS,31.356,
+Guatemala,62,DIST_FLEXFUEL,31.356,
+Honduras,18,IMP_ELE,31.356,
+Honduras,72,STOELE,31.356,
+Jamaica,96,STOELE,31.356,

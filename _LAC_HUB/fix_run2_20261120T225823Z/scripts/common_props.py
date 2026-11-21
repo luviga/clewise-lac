@@ -4,7 +4,7 @@ import os, csv
 from openpyxl.utils import get_column_letter
 from common import JOB
 
-BASEDIR = os.environ.get('LAC_BASE', 'C:/Users/luisfernando/AppData/Local/Temp/claude/48c79595d676e17c/b6af63a7-df55-4fe1-ac8c-8d437a0f96db/scratchpad/base')
+BASEDIR = os.environ.get('LAC_BASE', 'C:/clw_base_4ba69d6')
 PROP_FIELDS = ['country', 'workbook', 'sheet', 'row', 'column', 'year', 'Tech', 'Parameter', 'scenario', 'current_value',
                'new_value', 'new_formula', 'kind', 'decision', 'source_ids', 'derivation', 'assumption']
 

@@ -18,3 +18,13 @@ Start: base job/fix-run 4ba69d6cc3e6619bcc7ee6aee968ea0c78372b2f, origin/main c4
 2026-11-21T03:39:28Z | A2 (draft) | in progress | history_plan_draft.csv 133 tech-years (CR 13, DR 69, ECU 30, GUA 4, JAM 17); history_builds_draft.csv 41 techs (Jamaica and part of Ecuador matched); history_diff_before.csv 1128 rows
 2026-11-21T03:39:28Z | A3 (draft) | done | gua_hydro_trace.md: cause = the same 2024-2026 overwrite share applied to different Stage 0 denominators, then the PJ freeze; proposed change written
 2026-11-21T03:39:28Z | stop | blocked | spend limit reached; state saved in NOTES_WORKING.md (handover section), PROGRESS.md and the drafts; no model file changed; next: first step not done is A0 (finish searches, build source_map.csv)
+
+Restart (session 2, brief v2): 2026-11-21T04:13:53Z, clone at ac903a2 = origin/job/fix-run, git status shows only the job folder, free disk on C: 104 GB, EXCEL.EXE processes 0, base snapshot /c/clw_base_4ba69d6 made from 4ba69d6, brief v2 copied into the job folder.
+2026-11-21T04:13:53Z | restart setup | done | base snapshot made; LAC_BASE=C:/clw_base_4ba69d6
+2026-11-21T04:13:53Z | A1 D-ECU1/D-ECU2 proposals | done | 440 rows (proposals_parts/ecu_crude.csv); T within 0.5 percent of F1 for every year
+2026-11-21T04:13:53Z | A1 D13 proposals | done | 97 rows (CR 10, DR 29, GUA 15, HON 20, JAM 15, ECU 8); 9 non-plant rows at 31.356 left (logs/d13_not_plants.csv)
+2026-11-21T04:13:53Z | A1 D7a proposals | done | 353 formula cells in 26 rows (DR 19, JAM 7); EXTT_CRU band in ecu_crude
+2026-11-21T04:13:53Z | A1 D6 proposals | done | 33 cells; r 2019-2024 1.4875 1.7229 1.6322 1.2505 1.2072 1.2392, r(2018)=r(2019), mean 1.432409; 69 monthly values found on cited pages
+2026-11-21T04:13:53Z | A1 D5, D2f proposals | done | 30 cells PPBGS, 1 formula PPDHYD CF
+2026-11-21T04:13:53Z | A2 D2 config proposals | done | 128 (transport Overwrite rows CR 38, GUA 54, HON 20; PWRSUG and TRBPUGSL Write rows 4; CR 4 and DR 6 cell edits; JAM 4 SmartGrid rows)
+2026-11-21T04:13:53Z | searches d12_lives, d3_ef | running (background) | -

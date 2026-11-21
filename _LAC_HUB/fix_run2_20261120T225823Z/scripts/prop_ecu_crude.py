@@ -1,4 +1,4 @@
-"""DRAFT, NOT YET RUN. D-ECU1, D-ECU2, D7a (EXTT_CRU band): proposals for the Ecuador crude chain, built from the base
+"""D-ECU1, D-ECU2, D7a (EXTT_CRU band): proposals for the Ecuador crude chain, built from the base
 snapshot and the downloaded BCE and MDEP files. Writes proposals_parts/ecu_crude.csv.
 Before use: create the base snapshot (scripts/make_base_snapshot.sh), run, and check the printed T check against F1."""
 import os, sys, collections
