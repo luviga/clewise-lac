@@ -1,0 +1,13 @@
+# Ecuador: what is published
+
+Checked 21 November 2026. Source ids refer to `parts/sources_ECU.csv`.
+
+**Current NDC: Second NDC 2026-2035 (ECU-01).** Spanish with an English executive summary, 118 pages, dated February 2025 and filed in the UNFCCC February 2025 folder. It replaces the first NDC 2020-2025 (ECU-02, March 2019). Headline: an economy-wide reduction of 7 percent (about 8,800 kt CO2eq) below the trend scenario in 2035, unconditional, plus 8 percent more (about 10,600 kt) with international support (p.55, p.56). It covers Energy, IPPU, Agriculture, LULUCF and Waste and the gases CO2, CH4, N2O and HFC, with base year 2010 and a single target year, 2035. It lists lines of action per sector but no sector numbers. The target is built on the model of the national mitigation plan (p.10, p.33).
+
+**Long-term strategy: national plan, not submitted to the UNFCCC.** The UNFCCC long-term strategies portal could not be read by script (empty page, then a bot-check page), and Climate Policy Radar lists no long-term strategy for Ecuador. The second NDC calls the Plan Nacional de Mitigacion del Cambio Climatico 2024-2070 (PLANMICC, ECU-03, MAATE, August 2024) its long-term strategy (p.10, p.44). Its CC 2070 scenario cuts national emissions by about 70 percent against the trend in 2070 and by about 50 percent against 2018, to about 36,400 Gg CO2eq (p.96). It sets phase targets for 2035, 2050 and 2070 per sector. For energy these include about 24 percent non-conventional renewables and 64 percent hydro in 2035, and 35 and 54 percent in 2050 (p.104). It does not state net zero.
+
+**Transparency and inventory.** The fifth national communication with the first Biennial Transparency Report (5CN-1RBT, ECU-04, December 2024) tracks the first NDC: 8.61 percent of the 9 percent target was reached in 2023 (p.226). It reprints the first NDC projections to 2025 (p.212 to p.215, p.234). The national inventory document for 2022 (ECU-05) gives 88,262.87 kt CO2eq in 2022 (as quoted in ECU-01 p.26) and holds no projections. The fourth national communication with the second BUR (ECU-06, December 2022) is registered for reference.
+
+**New since 1 January 2025:** only the second NDC (ECU-01). The PLANMICC, the BTR1 and the NID date from August and December 2024.
+
+**Sector plans** cited for quantified energy or transport targets: the Plan Maestro de Electricidad 2023-2032 (ECU-07; cited in ECU-01 p.67), the Plan Nacional de Eficiencia Energetica 2016-2035 (ECU-08; ECU-01 p.67, ECU-03 p.101) and the green hydrogen roadmap (ECU-09; ECU-03 p.100). Two more plans cited by the PLANMICC could not be fetched and are pending: the urban mobility policy and the electromobility strategy.

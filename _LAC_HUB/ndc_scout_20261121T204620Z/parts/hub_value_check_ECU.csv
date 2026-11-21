@@ -1,0 +1,206 @@
+country,file,row_id,source_id,page,value,unit,year,status,how
+ECU,targets_ECU.csv,ECU-T001,ECU-01,p.10;p.14;p.55;p.56,7,percent,2035,found,'7' on p.10
+ECU,targets_ECU.csv,ECU-T002,ECU-01,p.10;p.55;p.56,8800,kt CO2eq,2035,found,'8.800' on p.10
+ECU,targets_ECU.csv,ECU-T003,ECU-01,p.55;p.56;p.57,8,percent,2035,found,'8' on p.55
+ECU,targets_ECU.csv,ECU-T004,ECU-01,p.55;p.56;p.57,10600,kt CO2eq,2035,found,'10.600' on p.55
+ECU,targets_ECU.csv,ECU-T005,ECU-01,p.57,5,percent,2025,found,'5' on p.57
+ECU,targets_ECU.csv,ECU-T006,ECU-01,p.57,,,2035,no_value,value not numeric
+ECU,targets_ECU.csv,ECU-T007,ECU-01,p.57,,,2035,no_value,value not numeric
+ECU,targets_ECU.csv,ECU-T008,ECU-01,p.57,,,2035,no_value,value not numeric
+ECU,targets_ECU.csv,ECU-T009,ECU-01,p.58,,,2035,no_value,value not numeric
+ECU,targets_ECU.csv,ECU-T010,ECU-01,p.58,,,2035,no_value,value not numeric
+ECU,targets_ECU.csv,ECU-T011,ECU-01,p.58;p.59,,,2035,no_value,value not numeric
+ECU,targets_ECU.csv,ECU-T012,ECU-01,p.58,,,2035,no_value,value not numeric
+ECU,targets_ECU.csv,ECU-T013,ECU-02,p.22,9,percent,2025,found,'9' on p.22
+ECU,targets_ECU.csv,ECU-T014,ECU-02,p.22,20.9,percent,2025,found,"'20,9' on p.22"
+ECU,targets_ECU.csv,ECU-T015,ECU-02,p.22;p.23,4,percent,2025,found,'4' on p.23
+ECU,targets_ECU.csv,ECU-T016,ECU-02,p.18,22,km,2025,found,'22' on p.18
+ECU,targets_ECU.csv,ECU-T017,ECU-03,p.96,70,percent,2070,found,'70' on p.96
+ECU,targets_ECU.csv,ECU-T018,ECU-03,p.5;p.96,50,percent,2070,found,'50' on p.5
+ECU,targets_ECU.csv,ECU-T019,ECU-03,p.96,36400,Gg CO2eq,2070,found,'36.400' on p.96
+ECU,targets_ECU.csv,ECU-T020,ECU-03,p.102,39200,Gg CO2eq,2035,found,'39.200' on p.102
+ECU,targets_ECU.csv,ECU-T021,ECU-03,p.102,35800,Gg CO2eq,2050,found,'35.800' on p.102
+ECU,targets_ECU.csv,ECU-T022,ECU-03,p.102,33900,Gg CO2eq,2070,found,'33.900' on p.102
+ECU,targets_ECU.csv,ECU-T023,ECU-03,p.101;p.102,49,percent,2070,found,'49' on p.101
+ECU,targets_ECU.csv,ECU-T024,ECU-03,p.102,32.0,percent,2050,found,"'32,0' on p.102"
+ECU,targets_ECU.csv,ECU-T025,ECU-03,p.104,24,percent,2035,found,'24' on p.104
+ECU,targets_ECU.csv,ECU-T026,ECU-03,p.104,64,percent,2035,found,'64' on p.104
+ECU,targets_ECU.csv,ECU-T027,ECU-03,p.104,10000,MW,2035,found,'10.000' on p.104
+ECU,targets_ECU.csv,ECU-T028,ECU-03,p.104,35,percent,2050,found,'35' on p.104
+ECU,targets_ECU.csv,ECU-T029,ECU-03,p.104,3800,MW,2050,found,'3.800' on p.104
+ECU,targets_ECU.csv,ECU-T030,ECU-03,p.104,54,percent,2050,found,'54' on p.104
+ECU,targets_ECU.csv,ECU-T031,ECU-03,p.104,37,percent,2070,found,'37' on p.104
+ECU,targets_ECU.csv,ECU-T032,ECU-03,p.100;p.101,,,2070,no_value,value not numeric
+ECU,targets_ECU.csv,ECU-T033,ECU-03,p.100,2038,year,2038,found,'2038' on p.100
+ECU,targets_ECU.csv,ECU-T034,ECU-03,p.104,8.4,percent,2035,found,'8.400' on p.104
+ECU,targets_ECU.csv,ECU-T035,ECU-03,p.105,66,percent,2050,found,'66' on p.105
+ECU,targets_ECU.csv,ECU-T036,ECU-03,p.105,64,percent,2050,found,'64' on p.105
+ECU,targets_ECU.csv,ECU-T037,ECU-03,p.105,6,percent,2050,found,'6' on p.105
+ECU,targets_ECU.csv,ECU-T038,ECU-03,p.106,19,percent,2050,found,'19' on p.106
+ECU,targets_ECU.csv,ECU-T039,ECU-03,p.106,2.8,percent,2035,found,"'2,8' on p.106"
+ECU,targets_ECU.csv,ECU-T040,ECU-03,p.106,40,percent,2050,found,'40' on p.106
+ECU,targets_ECU.csv,ECU-T041,ECU-03,p.106,13.36,percent,2050,found,"'13,36' on p.106"
+ECU,targets_ECU.csv,ECU-T042,ECU-03,p.107,22,percent,2050,found,'22' on p.107
+ECU,targets_ECU.csv,ECU-T043,ECU-03,p.107,11,percent,2070,found,'11' on p.107
+ECU,targets_ECU.csv,ECU-T044,ECU-03,p.115;p.117,16591,Gg CO2eq,2035,found,'16.591' on p.115
+ECU,targets_ECU.csv,ECU-T045,ECU-03,p.116,20,percent,2035,found,'20' on p.116
+ECU,targets_ECU.csv,ECU-T046,ECU-03,p.116,10,percent,2035,found,'10' on p.116
+ECU,targets_ECU.csv,ECU-T047,ECU-03,p.125,-611,Gg CO2eq,2035,found,'-611' on p.125
+ECU,targets_ECU.csv,ECU-T048,ECU-03,p.126,45.5,percent,2035,found,"'45,5' on p.126"
+ECU,targets_ECU.csv,ECU-T049,ECU-03,p.126,7.29,Mha,2035,found,"'7,29' on p.126"
+ECU,targets_ECU.csv,ECU-T050,ECU-03,p.127,3249,ha per year,2035,found,'3.249' on p.127
+ECU,targets_ECU.csv,ECU-T051,ECU-03,p.127,266963,ha,2035,found,'266.963' on p.127
+ECU,targets_ECU.csv,ECU-T052,ECU-03,p.133,3050,Gg CO2eq,2035,found,'3.050' on p.133
+ECU,targets_ECU.csv,ECU-T053,ECU-03,p.134,68,percent,2035,found,'68' on p.134
+ECU,targets_ECU.csv,ECU-T054,ECU-03,p.134,100,kt CO2,2035,found,'100' on p.134
+ECU,targets_ECU.csv,ECU-T055,ECU-03,p.135,30,percent,2035,found,'30' on p.135
+ECU,targets_ECU.csv,ECU-T056,ECU-03,p.143,2347,Gg CO2eq,2035,found,'2.347' on p.143
+ECU,targets_ECU.csv,ECU-T057,ECU-03,p.145,47,percent,2035,found,'47' on p.145
+ECU,targets_ECU.csv,ECU-T058,ECU-03,p.144,10,percent,2035,found,'10' on p.144
+ECU,targets_ECU.csv,ECU-T059,ECU-03,p.145,10,percent,2035,found,'10' on p.145
+ECU,targets_ECU.csv,ECU-T060,ECU-03,p.147,8,percent,2035,found,'8' on p.147
+ECU,targets_ECU.csv,ECU-T061,ECU-04,p.215,13.5,percent,2025,found,"'13,5' on p.215"
+ECU,targets_ECU.csv,ECU-T062,ECU-04,p.226,8.61,percent,2023,found,"'8,61' on p.226"
+ECU,targets_ECU.csv,ECU-T063,ECU-04,p.217;p.222,4400,kt CO2eq,2025,found,'4400' on p.217
+ECU,targets_ECU.csv,ECU-T064,ECU-04,p.217;p.221,885.46,kt CO2eq,2025,found,"'885,46' on p.221"
+ECU,targets_ECU.csv,ECU-T065,ECU-04,p.222,2300,kt CO2eq,2025,found,'2300' on p.222
+ECU,targets_ECU.csv,ECU-T066,ECU-04,p.222,1740,kt CO2eq,2025,found,'1740' on p.222
+ECU,targets_ECU.csv,ECU-T067,ECU-04,p.222;p.223,130,kt CO2eq,2025,found,'130' on p.222
+ECU,targets_ECU.csv,ECU-T068,ECU-04,p.237;p.238,16078.32,kt CO2eq,2025,found,"'16.078,32' on p.237"
+ECU,targets_ECU.csv,ECU-T069,ECU-07,p.159,4034,MW,2032,found,'4034' on p.159
+ECU,targets_ECU.csv,ECU-T070,ECU-07,p.159,1683,MW,2032,found,'1683' on p.159
+ECU,targets_ECU.csv,ECU-T071,ECU-07,p.159,587,MW,2032,found,'587' on p.159
+ECU,targets_ECU.csv,ECU-T072,ECU-08,p.20,543,Mbep,2035,found,'543' on p.20
+ECU,targets_ECU.csv,ECU-T073,ECU-08,p.65,339.6,Mbep,2035,found,"'339,6' on p.65"
+ECU,targets_ECU.csv,ECU-T074,ECU-08,p.65,10,percent,2025,found,'10' on p.65
+ECU,targets_ECU.csv,ECU-T075,ECU-08,p.67,8.3,percent,2035,found,"'8,3' on p.67"
+ECU,targets_ECU.csv,ECU-T076,ECU-09,p.6,6,GW,2050,found,'6' on p.6
+ECU,projections_ECU.csv,line2,ECU-04,p.234,14994.92,kt CO2eq,1994,found,"'14.994,92' on p.234"
+ECU,projections_ECU.csv,line3,ECU-04,p.234,21648.27,kt CO2eq,2000,found,"'21.648,27' on p.234"
+ECU,projections_ECU.csv,line4,ECU-04,p.234,29541.34,kt CO2eq,2006,found,"'29.541,34' on p.234"
+ECU,projections_ECU.csv,line5,ECU-04,p.234,35812.52,kt CO2eq,2010,found,"'35.812,52' on p.234"
+ECU,projections_ECU.csv,line6,ECU-04,p.234,46600,kt CO2eq,2020,found,'46.600' on p.234
+ECU,projections_ECU.csv,line7,ECU-04,p.234,51100,kt CO2eq,2025,found,'51.100' on p.234
+ECU,projections_ECU.csv,line8,ECU-04,p.234,2036.81,kt CO2eq,1994,found,"'2.036,81' on p.234"
+ECU,projections_ECU.csv,line9,ECU-04,p.234,1389.97,kt CO2eq,2000,found,"'1.389,97' on p.234"
+ECU,projections_ECU.csv,line10,ECU-04,p.234,2762.61,kt CO2eq,2006,found,"'2.762,61' on p.234"
+ECU,projections_ECU.csv,line11,ECU-04,p.234,2659.25,kt CO2eq,2010,found,"'2.659,25' on p.234"
+ECU,projections_ECU.csv,line12,ECU-04,p.234,3512,kt CO2eq,2020,found,'3.512' on p.234
+ECU,projections_ECU.csv,line13,ECU-04,p.234,3718,kt CO2eq,2025,found,'3.718' on p.234
+ECU,projections_ECU.csv,line14,ECU-04,p.234,15029.29,kt CO2eq,1994,found,"'15.029,29' on p.234"
+ECU,projections_ECU.csv,line15,ECU-04,p.234,12307.30,kt CO2eq,2000,found,"'12.307,30' on p.234"
+ECU,projections_ECU.csv,line16,ECU-04,p.234,14051.63,kt CO2eq,2006,found,"'14.051,63' on p.234"
+ECU,projections_ECU.csv,line17,ECU-04,p.234,14420.68,kt CO2eq,2010,found,"'14.420,68' on p.234"
+ECU,projections_ECU.csv,line18,ECU-04,p.234,15092.57,kt CO2eq,2015,found,"'15.092,57' on p.234"
+ECU,projections_ECU.csv,line19,ECU-04,p.234,15605.68,kt CO2eq,2020,found,"'15.605,68' on p.234"
+ECU,projections_ECU.csv,line20,ECU-04,p.234,15656.53,kt CO2eq,2022,found,"'15.656,53' on p.234"
+ECU,projections_ECU.csv,line21,ECU-04,p.234,15892.95,kt CO2eq,2025,found,"'15.892,95' on p.234"
+ECU,projections_ECU.csv,line22,ECU-04,p.234,43418.13,kt CO2eq,2000,found,"'43.418,13' on p.234"
+ECU,projections_ECU.csv,line23,ECU-04,p.234,43418.13,kt CO2eq,2006,found,"'43.418,13' on p.234"
+ECU,projections_ECU.csv,line24,ECU-04,p.234,43418.13,kt CO2eq,2010,found,"'43.418,13' on p.234"
+ECU,projections_ECU.csv,line25,ECU-04,p.234,43418.13,kt CO2eq,2015,found,"'43.418,13' on p.234"
+ECU,projections_ECU.csv,line26,ECU-04,p.234,43418.13,kt CO2eq,2020,found,"'43.418,13' on p.234"
+ECU,projections_ECU.csv,line27,ECU-04,p.234,43418.13,kt CO2eq,2022,found,"'43.418,13' on p.234"
+ECU,projections_ECU.csv,line28,ECU-04,p.234,43418.13,kt CO2eq,2025,found,"'43.418,13' on p.234"
+ECU,projections_ECU.csv,line29,ECU-04,p.234,1433.51,kt CO2eq,1994,found,"'1.433,51' on p.234"
+ECU,projections_ECU.csv,line30,ECU-04,p.234,1688.19,kt CO2eq,2000,found,"'1.688,19' on p.234"
+ECU,projections_ECU.csv,line31,ECU-04,p.234,1845.61,kt CO2eq,2006,found,"'1.845,61' on p.234"
+ECU,projections_ECU.csv,line32,ECU-04,p.234,3347.0,kt CO2eq,2010,found,"'3.347,00' on p.234"
+ECU,projections_ECU.csv,line33,ECU-04,p.234,3903.0,kt CO2eq,2020,found,"'3.903,00' on p.234"
+ECU,projections_ECU.csv,line34,ECU-04,p.234,4168.0,kt CO2eq,2025,found,"'4.168,00' on p.234"
+ECU,projections_ECU.csv,line35,ECU-04,p.234,56239.45,kt CO2eq,2010,found,"'56.239,45' on p.234"
+ECU,projections_ECU.csv,line36,ECU-04,p.234,69620.68,kt CO2eq,2020,found,"'69.620,68' on p.234"
+ECU,projections_ECU.csv,line37,ECU-04,p.234,74878.95,kt CO2eq,2025,found,"'74.878,95' on p.234"
+ECU,projections_ECU.csv,line38,ECU-04,p.234,99657.58,kt CO2eq,2010,found,"'99.657,58' on p.234"
+ECU,projections_ECU.csv,line39,ECU-04,p.234,113038.81,kt CO2eq,2020,found,"'113.038,81' on p.234"
+ECU,projections_ECU.csv,line40,ECU-04,p.234,118297.08,kt CO2eq,2025,found,"'118.297,08' on p.234"
+ECU,projections_ECU.csv,line41,ECU-04,p.214,56038,kt CO2eq,2010,found,'56.038' on p.214
+ECU,projections_ECU.csv,line42,ECU-04,p.214,71641,kt CO2eq,2020,found,'71.641' on p.214
+ECU,projections_ECU.csv,line43,ECU-04,p.214,76904,kt CO2eq,2025,found,'76.904' on p.214
+ECU,projections_ECU.csv,line44,ECU-04,p.214,56038,kt CO2eq,2010,found,'56.038' on p.214
+ECU,projections_ECU.csv,line45,ECU-04,p.214,62519,kt CO2eq,2020,found,'62.519' on p.214
+ECU,projections_ECU.csv,line46,ECU-04,p.214,67774,kt CO2eq,2025,found,'67.774' on p.214
+ECU,projections_ECU.csv,line47,ECU-04,p.214,56038,kt CO2eq,2010,found,'56.038' on p.214
+ECU,projections_ECU.csv,line48,ECU-04,p.214,61135,kt CO2eq,2020,found,'61.135' on p.214
+ECU,projections_ECU.csv,line49,ECU-04,p.214,60824,kt CO2eq,2025,found,'60.824' on p.214
+ECU,projections_ECU.csv,line50,ECU-04,p.215,54028,kt CO2eq,2010,found,"'54.028,0' on p.215"
+ECU,projections_ECU.csv,line51,ECU-04,p.215,69621,kt CO2eq,2020,found,'69.621' on p.215
+ECU,projections_ECU.csv,line52,ECU-04,p.215,74879,kt CO2eq,2025,found,'74.879' on p.215
+ECU,projections_ECU.csv,line53,ECU-04,p.215,54028,kt CO2eq,2010,found,"'54.028,0' on p.215"
+ECU,projections_ECU.csv,line54,ECU-04,p.215,62901,kt CO2eq,2020,found,'62.901' on p.215
+ECU,projections_ECU.csv,line55,ECU-04,p.215,68142,kt CO2eq,2025,found,'68.142' on p.215
+ECU,projections_ECU.csv,line56,ECU-04,p.215,54028,kt CO2eq,2010,found,"'54.028,0' on p.215"
+ECU,projections_ECU.csv,line57,ECU-04,p.215,53738,kt CO2eq,2020,found,'53.738' on p.215
+ECU,projections_ECU.csv,line58,ECU-04,p.215,58031,kt CO2eq,2025,found,'58.031' on p.215
+ECU,projections_ECU.csv,line59,ECU-04,p.212,51100,kt CO2eq,2025,found,'51.100' on p.212
+ECU,projections_ECU.csv,line60,ECU-04,p.212,44540,kt CO2eq,2025,found,'44.540' on p.212
+ECU,projections_ECU.csv,line61,ECU-04,p.212,36000,kt CO2eq,2025,found,'36.000' on p.212
+ECU,projections_ECU.csv,line62,ECU-04,p.212,15893,kt CO2eq,2025,found,'15.893' on p.212
+ECU,projections_ECU.csv,line63,ECU-04,p.212,15876,kt CO2eq,2025,found,'15.876' on p.212
+ECU,projections_ECU.csv,line64,ECU-04,p.212,14928,kt CO2eq,2025,found,'14.928' on p.212
+ECU,projections_ECU.csv,line65,ECU-04,p.212,3718,kt CO2eq,2025,found,'3.718' on p.212
+ECU,projections_ECU.csv,line66,ECU-04,p.212,3588,kt CO2eq,2025,found,'3.588' on p.212
+ECU,projections_ECU.csv,line67,ECU-04,p.212,3265,kt CO2eq,2025,found,'3.265' on p.212
+ECU,projections_ECU.csv,line68,ECU-04,p.212,4168,kt CO2eq,2025,found,'4.168' on p.212
+ECU,projections_ECU.csv,line69,ECU-04,p.212,4138,kt CO2eq,2025,found,'4.138' on p.212
+ECU,projections_ECU.csv,line70,ECU-04,p.212,3838,kt CO2eq,2025,found,'3.838' on p.212
+ECU,projections_ECU.csv,line71,ECU-03,p.96,75326.87,Gg CO2eq,2018,found,"'75.326,87' on p.96"
+ECU,projections_ECU.csv,line72,ECU-03,p.95;p.96,118000,Gg CO2eq,2070,found,'118.000' on p.95
+ECU,projections_ECU.csv,line73,ECU-03,p.95;p.96,36400,Gg CO2eq,2070,found,'36.400' on p.95
+ECU,projections_ECU.csv,line74,ECU-03,p.97,19425,Gg CO2eq,2018,found,'19.425' on p.97
+ECU,projections_ECU.csv,line75,ECU-03,p.97,20245,Gg CO2eq,2035,found,'20.245' on p.97
+ECU,projections_ECU.csv,line76,ECU-03,p.97,18982,Gg CO2eq,2050,found,'18.982' on p.97
+ECU,projections_ECU.csv,line77,ECU-03,p.97,14082,Gg CO2eq,2070,found,'14.082' on p.97
+ECU,projections_ECU.csv,line78,ECU-03,p.97,20321,Gg CO2eq,2018,found,'20.321' on p.97
+ECU,projections_ECU.csv,line79,ECU-03,p.97,19039,Gg CO2eq,2035,found,'19.039' on p.97
+ECU,projections_ECU.csv,line80,ECU-03,p.97,16808,Gg CO2eq,2050,found,'16.808' on p.97
+ECU,projections_ECU.csv,line81,ECU-03,p.97,19812,Gg CO2eq,2070,found,'19.812' on p.97
+ECU,projections_ECU.csv,line82,ECU-03,p.97,40908,Gg CO2eq,2018,found,'40.908' on p.97
+ECU,projections_ECU.csv,line83,ECU-03,p.97,31838,Gg CO2eq,2035,found,'31.838' on p.97
+ECU,projections_ECU.csv,line84,ECU-03,p.97,21358,Gg CO2eq,2050,found,'21.358' on p.97
+ECU,projections_ECU.csv,line85,ECU-03,p.97,17578,Gg CO2eq,2070,found,'17.578' on p.97
+ECU,projections_ECU.csv,line86,ECU-03,p.97,9034,Gg CO2eq,2018,found,'9.034' on p.97
+ECU,projections_ECU.csv,line87,ECU-03,p.97,9921,Gg CO2eq,2035,found,'9.921' on p.97
+ECU,projections_ECU.csv,line88,ECU-03,p.97,9147,Gg CO2eq,2050,found,'9.147' on p.97
+ECU,projections_ECU.csv,line89,ECU-03,p.97,6735,Gg CO2eq,2070,found,'6.735' on p.97
+ECU,projections_ECU.csv,line90,ECU-03,p.97,5485,Gg CO2eq,2018,found,'5.485' on p.97
+ECU,projections_ECU.csv,line91,ECU-03,p.97,7109,Gg CO2eq,2035,found,'7.109' on p.97
+ECU,projections_ECU.csv,line92,ECU-03,p.97,8654,Gg CO2eq,2050,found,'8.654' on p.97
+ECU,projections_ECU.csv,line93,ECU-03,p.97,12797,Gg CO2eq,2070,found,'12.797' on p.97
+ECU,projections_ECU.csv,line94,ECU-03,p.97,2425,Gg CO2eq,2018,found,'2.425' on p.97
+ECU,projections_ECU.csv,line95,ECU-03,p.97,3050,Gg CO2eq,2035,found,'3.050' on p.97
+ECU,projections_ECU.csv,line96,ECU-03,p.97,4245,Gg CO2eq,2050,found,'4.245' on p.97
+ECU,projections_ECU.csv,line97,ECU-03,p.97,5792,Gg CO2eq,2070,found,'5.792' on p.97
+ECU,projections_ECU.csv,line98,ECU-03,p.97,2667,Gg CO2eq,2018,found,'2.667' on p.97
+ECU,projections_ECU.csv,line99,ECU-03,p.97,2643,Gg CO2eq,2035,found,'2.643' on p.97
+ECU,projections_ECU.csv,line100,ECU-03,p.97,3255,Gg CO2eq,2050,found,'3.255' on p.97
+ECU,projections_ECU.csv,line101,ECU-03,p.97,4120,Gg CO2eq,2070,found,'4.120' on p.97
+ECU,projections_ECU.csv,line102,ECU-03,p.97,-25998,Gg CO2eq,2018,found,'-25.998' on p.97
+ECU,projections_ECU.csv,line103,ECU-03,p.97,-32449,Gg CO2eq,2035,found,'-32.449' on p.97
+ECU,projections_ECU.csv,line104,ECU-03,p.97,-41905,Gg CO2eq,2050,found,'-41.905' on p.97
+ECU,projections_ECU.csv,line105,ECU-03,p.97,-44549,Gg CO2eq,2070,found,'-44.549' on p.97
+ECU,projections_ECU.csv,line106,ECU-03,p.101;p.102,38400,Gg CO2eq,2018,found,'38.400' on p.101
+ECU,projections_ECU.csv,line107,ECU-03,p.101;p.102,39200,Gg CO2eq,2035,found,'39.200' on p.101
+ECU,projections_ECU.csv,line108,ECU-03,p.101;p.102,35800,Gg CO2eq,2050,found,'35.800' on p.101
+ECU,projections_ECU.csv,line109,ECU-03,p.101;p.102,33900,Gg CO2eq,2070,found,'33.900' on p.101
+ECU,projections_ECU.csv,line110,ECU-03,p.101,66300,Gg CO2eq,2070,found,'66.300' on p.101
+ECU,projections_ECU.csv,line111,ECU-03,p.115,14334,Gg CO2eq,2018,found,'14.334' on p.115
+ECU,projections_ECU.csv,line112,ECU-03,p.115,16591,Gg CO2eq,2035,found,'16.591' on p.115
+ECU,projections_ECU.csv,line113,ECU-03,p.115,17257,Gg CO2eq,2050,found,'17.257' on p.115
+ECU,projections_ECU.csv,line114,ECU-03,p.115,19162,Gg CO2eq,2070,found,'19.162' on p.115
+ECU,projections_ECU.csv,line115,ECU-03,p.113,32700,Gg CO2eq,2070,found,'32.700' on p.113
+ECU,projections_ECU.csv,line116,ECU-03,p.125,14910,Gg CO2eq,2018,found,'14.910' on p.125
+ECU,projections_ECU.csv,line117,ECU-03,p.125,-611,Gg CO2eq,2035,found,'-611' on p.125
+ECU,projections_ECU.csv,line118,ECU-03,p.125,-20547,Gg CO2eq,2050,found,'-20.547' on p.125
+ECU,projections_ECU.csv,line119,ECU-03,p.125,-26970,Gg CO2eq,2070,found,'-26.970' on p.125
+ECU,projections_ECU.csv,line120,ECU-03,p.120,3300,Gg CO2eq,2070,found,'3.300' on p.120
+ECU,projections_ECU.csv,line121,ECU-03,p.133,2425,Gg CO2eq,2018,found,'2.425' on p.133
+ECU,projections_ECU.csv,line122,ECU-03,p.133,3050,Gg CO2eq,2035,found,'3.050' on p.133
+ECU,projections_ECU.csv,line123,ECU-03,p.133,4245,Gg CO2eq,2050,found,'4.245' on p.133
+ECU,projections_ECU.csv,line124,ECU-03,p.133,5792,Gg CO2eq,2070,found,'5.792' on p.133
+ECU,projections_ECU.csv,line125,ECU-03,p.131,8000,Gg CO2eq,2070,found,'8.000' on p.131
+ECU,projections_ECU.csv,line126,ECU-03,p.143,2541,Gg CO2eq,2018,found,'2.541' on p.143
+ECU,projections_ECU.csv,line127,ECU-03,p.143,2347,Gg CO2eq,2035,found,'2.347' on p.143
+ECU,projections_ECU.csv,line128,ECU-03,p.143,2785,Gg CO2eq,2050,found,'2.785' on p.143
+ECU,projections_ECU.csv,line129,ECU-03,p.143,3650,Gg CO2eq,2070,found,'3.650' on p.143
+ECU,projections_ECU.csv,line130,ECU-03,p.142,7200,Gg CO2eq,2070,found,'7.200' on p.142

@@ -1,0 +1,236 @@
+"""Write alignment_JAM.csv. Model values come from model_levers_JAM.csv and from
+_STAGE3_RESULTS/stage3_results.xlsx as extracted by scripts/JAM/model_numbers.py (read-only), and
+from the scenario workbooks named in model_reference.
+
+Usage: python -I write_alignment_JAM.py <job_dir>
+"""
+import csv
+import os
+import sys
+
+JOB = sys.argv[1]
+
+ML = "model_levers_JAM.csv"
+REN = "renewable types PPBIM PPHDAM PPHROR PPPVT PPWNDON"
+LAB = ("Label CO2e_sources (all fuel combustion counted at the DIST_* fuel distribution technologies; "
+       "emission factor 0.0743 per PJ of diesel, so Mt CO2e assumed) is the energy-wide label; CO2e_PP, CO2e_DE and "
+       "CO2e_DETRN are subsets of it, CO2e_CEM, CO2e_LIME, CO2e_HFC and CO2e_LUBRI are non-energy. No labels were summed.")
+CTRL = ("The solved share comes from the Stage 2 controller (stage2_apply_v2.py lines 61 to 75, same curve in "
+        "stage1_share_analyzer_v16.py lines 97 to 110; Jamaica has no override), which Stage 3 patches into the solver "
+        "data from 2025; B1_Scenario_Config.xlsx plant rows do not reach the solved results.")
+TRN = "Jamaica/JAM_TRANSPORT/B1_Scenario_Config.xlsx sheet Tech_Adoption"
+
+# (target_id, source, page, description, tval, tunit, tyear, model_quantity, model_reference, ndc, lts, munit, status, folder, note)
+A = [
+    # ---- economy-wide and energy emissions ----
+    ("JAM-T002", "JAM-01", "p.2;p.4", "Unconditional reduction against BAU in 2030, energy and cement, forestry excluded", 19.55, "percent", 2030,
+     "energy-system emission reduction against the model BAU", ML + " line 122 (solved, emissions by label, CO2e_sources): 1 - scenario/BAU",
+     14.166, 14.776, "percent", "same direction, different size", "", LAB + " The NDC scope adds IPPU cement (process CO2 is label CO2e_CEM, equal in all scenarios). The model BAU is not the NDC BAU."),
+    ("JAM-T004", "JAM-01", "p.2;p.4", "Unconditional reduction against BAU in 2035, energy and cement", 25.9, "percent", 2035,
+     "energy-system emission reduction against the model BAU", ML + " line 122, 1 - scenario/BAU", 33.068, 37.008, "percent", "same direction, different size", "", LAB),
+    ("JAM-T010", "JAM-01", "p.2;p.5", "Conditional reduction against BAU in 2030, energy and cement", 22.7, "percent", 2030,
+     "energy-system emission reduction against the model BAU", ML + " line 122", 14.166, 14.776, "percent", "same direction, different size", "", LAB),
+    ("JAM-T012", "JAM-01", "p.2;p.5", "Conditional reduction against BAU in 2035, energy and cement", 36.0, "percent", 2035,
+     "energy-system emission reduction against the model BAU", ML + " line 122", 33.068, 37.008, "percent", "matches", "", LAB + " Status judged on NDCNEW (ratio 0.92); LTSNEW 1.03."),
+    ("JAM-T017", "JAM-01", "p.21", "Energy sector emissions 2030, unconditional", 5.8, "MtCO2e", 2030,
+     "energy-system emissions (level)", ML + " line 122 (CO2e_sources)", 5.10785, 5.07154, "MtCO2e", "same direction, different size", "", LAB + " The model is 12 percent below the NDC level; model BAU 2030 is 5.95 Mt."),
+    ("JAM-T018", "JAM-01", "p.21", "Energy sector emissions 2035, unconditional", 5.7, "MtCO2e", 2035,
+     "energy-system emissions (level)", ML + " line 122 (CO2e_sources)", 4.18823, 3.94169, "MtCO2e", "same direction, different size", "", LAB + " Model BAU 2035 is 6.26 Mt."),
+    ("JAM-T019", "JAM-01", "p.21", "Energy sector emissions 2030, conditional", 5.5, "MtCO2e", 2030,
+     "energy-system emissions (level)", ML + " line 122 (CO2e_sources)", 5.10785, 5.07154, "MtCO2e", "matches", "", LAB),
+    ("JAM-T020", "JAM-01", "p.21", "Energy sector emissions 2035, conditional", 4.9, "MtCO2e", 2035,
+     "energy-system emissions (level)", ML + " line 122 (CO2e_sources)", 4.18823, 3.94169, "MtCO2e", "same direction, different size", "", LAB),
+    ("JAM-T001", "JAM-01", "p.2;p.4", "Unconditional reduction against 2012 in 2030 (energy and cement)", 16.3, "percent", 2030,
+     "reduction against 2012", "no model year before 2021 (JAM_ENERGY horizon 2021 to 2055)", "", "", "", "not compared", "",
+     "Base year outside the model horizon; the 2012 base (7.4 MtCO2e) also adds cement process emissions, which would need a second label."),
+    ("JAM-T021", "JAM-01", "p.21", "Energy plus cement emissions 2030, unconditional", 6.2, "MtCO2e", 2030,
+     "energy plus cement emissions", ML + " lines 122 (CO2e_sources) and 115 (CO2e_CEM)", "", "", "", "not compared", "",
+     "Would need CO2e_sources plus CO2e_CEM; labels are never added. Separately: CO2e_sources 5.108 (NDCNEW), CO2e_CEM 0.324 in every scenario."),
+    ("JAM-T005", "JAM-01", "p.2;p.5", "Unconditional reduction including forestry against 2012 in 2030", 26.3, "percent", 2030,
+     "sector model quantity", "Jamaica/JAM_AFOLU (technologies LU_FOR, LU_SEC, LU_MAN, LU_DRY, LU_WET, T5*BOS); not read for values", "", "", "", "not compared", "Jamaica/JAM_AFOLU",
+     "Forestry part sits in the AFOLU model; the energy part is compared in JAM-T002 to JAM-T020."),
+    ("JAM-T045", "JAM-02", "p.13;p.46;p.50", "Economy-wide emissions 73 percent below 2020 by 2050", 73, "percent", 2050,
+     "energy-system emission reduction 2021 to 2050", "_STAGE3_RESULTS/stage3_results.xlsx sheet AnnualEmissions, Jamaica, CO2e_sources 2021 (4.814) and 2050 (scripts/JAM/model_numbers.py)",
+     -10.30, 59.19, "percent", "same direction, different size", "Jamaica/JAM_AFOLU; Jamaica/JAM_WASTE",
+     LAB + " 2021 used as proxy for 2020. Status judged on LTSNEW. NDCNEW 2050 emissions are 10.3 percent above 2021 (negative reduction). The LTS target is economy-wide."),
+    ("JAM-T063", "JAM-02", "p.51", "Power sector emissions 98 percent below 2020 by 2050 (scenario)", 98, "percent", 2050,
+     "power plant emission reduction 2021 to 2050", "stage3_results.xlsx AnnualEmissions, CO2e_PP 2021 (1.995) and 2050; " + ML + " line 121",
+     53.33, 97.53, "percent", "matches", "", "Status judged on LTSNEW. Label CO2e_PP covers PP* plant combustion only."),
+    ("JAM-T072", "JAM-02", "p.58", "Transport emissions 0.79 MtCO2e in 2050 (from 2.34)", 0.79, "MtCO2e", 2050,
+     "transport end-use emissions (level)", ML + " line 117 (CO2e_DETRN)", 3.15081, 0.77459, "MtCO2e", "matches", "",
+     "Status judged on LTSNEW. CO2e_DETRN covers road, maritime and jet fuel use (T5*TRO, T5*TMA, T5JETTAE) and carries the road emission-factor lever (lines 2 and 3). 2021 value 2.337 Mt is close to the LTS 2020 value of 2.34."),
+    ("JAM-T108", "JAM-04", "p.2;p.3;p.4", "INDC: energy emissions 7.8 percent below BAU in 2030 (archived)", 7.8, "percent", 2030,
+     "energy-system emission reduction against the model BAU", ML + " line 122", 14.166, 14.776, "percent", "same direction, different size", "", "Superseded target; model BAU differs from the INDC BAU (14.5 Mt in 2030)."),
+    # ---- renewable share ----
+    ("JAM-T028", "JAM-01", "p.14", "Renewable share of net generation 50 percent in 2030", 50, "percent", 2030,
+     "renewable share of generation", ML + " line 88 (" + REN + ")", 39.1141, 39.1138, "percent", "same direction, different size", "", CTRL + " The controller interpolates linearly from 2026 (10 percent) to 75 percent in 2035, giving 39 percent in 2030."),
+    ("JAM-T029", "JAM-01", "p.14", "Renewable share of net generation 63 percent in 2035", 63, "percent", 2035,
+     "renewable share of generation", ML + " line 88", 75.0266, 75.0251, "percent", "same direction, different size", "", CTRL + " The model is 12 points above the NDC figure."),
+    ("JAM-T115", "JAM-07", "p.14;p.15;p.38;p.62", "IRP-2 renewable portfolio standard 50 percent by 2030", 50, "percent", 2030,
+     "renewable share of generation", ML + " line 88", 39.1141, 39.1138, "percent", "same direction, different size", "", CTRL),
+    ("JAM-T116", "JAM-07", "p.77", "IRP-2 renewable share 63.4 percent in 2035", 63.4, "percent", 2035,
+     "renewable share of generation", ML + " line 88", 75.0266, 75.0251, "percent", "same direction, different size", "", CTRL),
+    ("JAM-T047", "JAM-02", "p.14;p.55", "LTS: at least 27 percent renewable electricity in 2025", 27, "percent", 2025,
+     "renewable share of generation", ML + " line 88", 10.1408, 10.1408, "percent", "same direction, different size", "", "Status judged on LTSNEW. 2025 is fixed at the 2024 anchor in all scenarios (Stage 2 plateau 2025 to 2026)."),
+    ("JAM-T048", "JAM-02", "p.14;p.55;p.54", "LTS: at least 50 percent renewable electricity in 2030", 50, "percent", 2030,
+     "renewable share of generation", ML + " line 88", 39.1141, 39.1138, "percent", "same direction, different size", "", CTRL),
+    ("JAM-T049", "JAM-02", "p.15;p.55", "LTS: at least 65 percent renewable electricity in 2035", 65, "percent", 2035,
+     "renewable share of generation", ML + " line 88", 75.0266, 75.0251, "percent", "same direction, different size", "", CTRL + " Ratio 1.15; model above the floor."),
+    ("JAM-T050", "JAM-02", "p.15;p.55", "LTS: at least 90 percent renewable electricity in 2040", 90, "percent", 2040,
+     "renewable share of generation", ML + " line 88", 75.6694, 83.0145, "percent", "matches", "", CTRL + " Status judged on LTSNEW (ratio 0.92, below a stated floor)."),
+    ("JAM-T051", "JAM-02", "p.15;p.55", "LTS: at least 95 percent renewable electricity in 2045", 95, "percent", 2045,
+     "renewable share of generation", "stage3_results.xlsx TotalTechnologyAnnualActivity, Jamaica PP techs 2045 (scripts/JAM/model_numbers.py)", 75.65, 91.00, "percent", "matches", "", CTRL + " Status judged on LTSNEW (ratio 0.96)."),
+    ("JAM-T052", "JAM-02", "p.15;p.55;p.54", "LTS: 100 percent renewable electricity in 2050", 100, "percent", 2050,
+     "renewable share of generation", ML + " line 88", 75.0056, 99.0001, "percent", "matches", "", CTRL + " LTSNEW stops at 99 percent by design."),
+    # ---- grid losses ----
+    ("JAM-T030", "JAM-01", "p.14", "Total electricity system losses 17.7 percent of generation in 2030", 17.7, "percent", 2030,
+     "distribution losses as share of electricity entering distribution (1 - 1/IAR)", "Jamaica/JAM_ENERGY/B1_Output_Params/<scenario>/InputActivityRatio.csv, ELE_DIST 1.27 and ELE_TRANS 1.0 in every scenario and year",
+     21.26, 21.26, "percent", "in documents, not in the model", "", "No loss lever in any scenario (BAU equals policy). A lever exists only for the inactive LTS label (B1_Scenario_Config.xlsx sheet SmartGrid row 2). Ratio 1.20."),
+    ("JAM-T031", "JAM-01", "p.14", "Total electricity system losses 16.45 percent in 2035", 16.45, "percent", 2035,
+     "distribution losses share (1 - 1/IAR)", "InputActivityRatio.csv ELE_DIST 1.27", 21.26, 21.26, "percent", "in documents, not in the model", "", "As above. Ratio 1.29."),
+    ("JAM-T054", "JAM-02", "p.14;p.55", "LTS: T&D losses no more than 21 percent in 2030", 21, "percent", 2030,
+     "distribution losses share (1 - 1/IAR)", "InputActivityRatio.csv ELE_DIST 1.27", 21.26, 21.26, "percent", "matches", "", "Matches by coincidence: the model holds 21.26 percent from 2021 to 2055. The 2025 cap of 25 percent is also met."),
+    ("JAM-T055", "JAM-02", "p.15;p.55", "LTS: T&D losses no more than 17 percent in 2035", 17, "percent", 2035,
+     "distribution losses share (1 - 1/IAR)", "InputActivityRatio.csv ELE_DIST 1.27", 21.26, 21.26, "percent", "in documents, not in the model", "", "No loss reduction lever in LTSNEW."),
+    ("JAM-T058", "JAM-02", "p.55;p.54", "LTS: T&D losses no more than 8 percent in 2050", 8, "percent", 2050,
+     "distribution losses share (1 - 1/IAR)", "InputActivityRatio.csv ELE_DIST 1.27", 21.26, 21.26, "percent", "in documents, not in the model", "", "Table 1 gives 11 percent for 2050 (JAM-T059). Ratio 2.66."),
+    # ---- fossil plants ----
+    ("JAM-T060", "JAM-02", "p.15;p.55", "LTS: phase out 100 percent of HFO capacity by 2035", 0, "MW", 2035,
+     "installed fuel oil plant capacity (PPFOI)", ML + " line 91 (installed capacity PPFOI); generation line 80", 162.07, 162.07, "MW", "same direction, different size", "",
+     "Generation falls from 4.68 PJ (2025) to 1.56 PJ (NDCNEW) and 1.66 PJ (LTSNEW) in 2035, but capacity stays. The compiled B1 inputs set PPFOI upper limit 0 from 2027 in all scenarios (lines 57 and 70), which Stage 3 overrides; the controller (CONTROLLER_NEW_SCENARIOS.xlsx CURRENT_LOWER rows 291 and 299) keeps fuel oil."),
+    ("JAM-T061", "JAM-02", "p.15;p.55", "LTS: phase out 100 percent of fossil generation by 2040", 0, "percent", 2040,
+     "fossil share of generation", ML + " lines 79, 80, 83 and 86", 24.33, 16.99, "percent", "same direction, different size", "", "Status judged on LTSNEW. The LTS itself sets 90 percent renewable for 2040, so the two milestones conflict."),
+    ("JAM-T121", "JAM-07", "p.15;p.62;p.66", "IRP-2: retire 171.5 MW of JPS thermal plant in 2027", 171.5, "MW", 2027,
+     "reduction of diesel and fuel oil plant capacity 2025 to 2027 (PPDSL plus PPFOI)", "stage3_results.xlsx TotalCapacityAnnual PPDSL, PPFOI (scripts/JAM/model_numbers.py)", 7.0, 7.0, "MW", "same direction, different size", "",
+     "Model 246.4 MW in 2025, 239.4 MW in 2027 in both policy scenarios. Plant groupings of the model and of the IRP differ (JPS gas turbines on diesel may sit in PPDSL)."),
+    ("JAM-T122", "JAM-07", "p.20;p.15", "IRP-2: retire 249.9 MW of IPP diesel (HFO) plants by 2033", 249.9, "MW", 2033,
+     "reduction of fuel oil plant capacity 2025 to 2035 (PPFOI)", ML + " line 91", 8.33, 8.33, "MW", "same direction, different size", "", "PPFOI 170.4 MW in 2025 and 162.1 MW in 2035."),
+    ("JAM-T123", "JAM-07", "p.22;p.89", "IRP-2: no new fossil-fuelled plant (2022-2041)", 0, "MW", 2041,
+     "new fossil capacity 2025 to 2040", ML + " lines 90, 91, 94 (capacity PPDSL, PPFOI, PPNGS)", 0, 0, "MW", "matches", "",
+     "No fossil additions to 2040 in either scenario. After 2041 LTSNEW adds diesel capacity (PPDSL 77 MW in 2040, 181 MW in 2045, 413 MW in 2050) with 0.007 PJ of generation in 2050: a reserve-margin effect of Stage 3."),
+    ("JAM-T124", "JAM-07", "p.15;p.62", "IRP-2: electricity GHG 1.29 Mt in 2030", 1.29, "Mt CO2e", 2030,
+     "power plant emissions (level)", ML + " line 121 (CO2e_PP)", 1.5593, 1.55954, "MtCO2e", "same direction, different size", "", "Model 2025 is 2.11 Mt against the IRP 2.15 Mt in 2022."),
+    # ---- capacity ----
+    ("JAM-T117", "JAM-07", "p.15;p.62;p.89", "IRP-2: 344 MW of new wind 2022-2041", 344, "MW", 2041,
+     "wind capacity added 2025 to 2040", ML + " line 96 (PPWNDON) and stage3_results.xlsx 2040; Electrical rows 87 and 89 (MinCapInvest)", 322.0, 379.3, "MW", "matches", "",
+     "Model 2040 used against IRP 2041. Installed wind 2030: model 303 MW against IRP 300 MW (Table 11-13). The NDCNEW and LTSNEW MinCapInvest rows (B1_Scenario_Config.xlsx Electrical 86 to 89) carry the IRP-2 build and do reach the solved results (not patched by Stage 3)."),
+    ("JAM-T118", "JAM-07", "p.15;p.62;p.89", "IRP-2: 1,143 MW of new solar PV 2022-2041", 1143, "MW", 2041,
+     "solar PV capacity added 2025 to 2040", ML + " line 95 (PPPVT) and stage3_results.xlsx 2040", 1203.0, 1393.6, "MW", "matches", "",
+     "Installed solar 2030: model 470 MW against IRP 597 MW (ratio 0.79); 2035: 978 and 1,049 MW against 811 MW."),
+    ("JAM-T119", "JAM-07", "p.15;p.62", "IRP-2: 34.3 MW of new hydro 2027-2033", 34.3, "MW", 2033,
+     "hydro capacity added 2025 to 2035", ML + " lines 92 and 93 (PPHDAM, PPHROR)", 34.4, 34.4, "MW", "matches", "", "PPHROR 31.1 MW in 2030 and 34.3 MW from 2035, same in BAU."),
+    ("JAM-T120", "JAM-07", "p.15;p.62", "IRP-2: 493 MW of battery storage by 2041", 493, "MW", 2041,
+     "storage capacity (STOELE) in 2040", "stage3_results.xlsx TotalCapacityAnnual STOELE (scripts/JAM/model_numbers.py)", 540, 540, "MW", "matches", "",
+     "Same in BAU (storage is not a policy lever). By 2030 the model has 102.5 MW against 264 MW in the IRP."),
+    ("JAM-T062", "JAM-02", "p.55", "LTS: about 2 GW of additional intermittent renewables 2030-2050", 2, "GW", 2050,
+     "solar plus wind capacity added 2030 to 2050", ML + " lines 95 and 96", 1.0586, 2.5033, "GW", "same direction, different size", "", "Status judged on LTSNEW (ratio 1.25)."),
+    # ---- transport ----
+    ("JAM-T066", "JAM-02", "p.14;p.62", "LTS: 12 percent of the private vehicle fleet electric in 2030", 12, "percent", 2030,
+     "electric share of private car, SUV and motorcycle groups (input)", TRN + " rows 74, 77, 80 (NDCNEW) and 109, 112, 115 (LTSNEW)", 10, 10, "percent of group activity", "same direction, different size", "Jamaica/JAM_TRANSPORT",
+     "Fleet share against activity share. The energy model carries the result as road fuel demand: electric share of road energy 2.2 percent in 2030 (" + ML + " line 114). The inactive LTS rows (37 to 45) hold 12 percent, matching the LTS."),
+    ("JAM-T067", "JAM-02", "p.14;p.62", "LTS: 16 percent of the public vehicle fleet electric in 2030", 16, "percent", 2030,
+     "electric share of taxi, minibus and public bus groups (input)", TRN + " rows 82, 85, 88 (NDCNEW) and 117, 120, 123 (LTSNEW)", 10, 10, "percent of group activity", "same direction, different size", "Jamaica/JAM_TRANSPORT", "Fleet share against activity share."),
+    ("JAM-T064", "JAM-02", "p.14;p.62", "LTS: 8 percent of the private fleet electric in 2025", 8, "percent", 2025,
+     "electric share of private groups (input)", TRN + " rows 74 and 109 (y_ini 2025); " + ML + " line 36 (E5TROELE 0 in 2025)", 0, 0, "percent", "in documents, not in the model", "Jamaica/JAM_TRANSPORT", "Electric road demand starts in 2026 in the energy model."),
+    ("JAM-T070", "JAM-02", "p.15;p.58;p.61;p.62", "LTS: EVs at least 67 percent of the passenger fleet in 2050", 67, "percent", 2050,
+     "electric share of passenger groups (input)", TRN + " rows 74 and 109", 30, 90, "percent of group activity", "same direction, different size", "Jamaica/JAM_TRANSPORT",
+     "Status judged on LTSNEW (ratio 1.34). Electric share of road energy in the energy model 2050: 8.9 percent NDCNEW, 57.8 percent LTSNEW (line 114)."),
+    ("JAM-T069", "JAM-02", "p.15;p.58;p.62", "LTS: at least 2,000 electric buses by 2040", 2000, "buses", 2040,
+     "electric share of public bus group (input)", TRN + " rows 88 and 123", "", "", "", "not compared", "Jamaica/JAM_TRANSPORT",
+     "No fleet count in the models; electric public bus share is 30 percent (NDCNEW) and 50 percent (LTSNEW) of group activity in 2040."),
+    ("JAM-T068", "JAM-02", "p.14;p.61;p.62", "LTS: fleet fuel efficiency 15 percent better than 2020 by 2030", 15, "percent", 2030,
+     "road fuel emission-factor improvement (efficiency proxy)", ML + " lines 2 and 3; B1_Scenario_Config.xlsx sheet SmartGrid rows 15 to 18 (multiplier 1 from 2025), BAU rows 13 and 14 (efficiency 1.05 in 2030, row 23)",
+     0, 0, "percent", "opposite direction", "",
+     "The policy scenarios set the T5DSLTRO and T5GSLTRO emission factors back to 0.0743 and 0.0695 from 2025, while BAU lowers them by 4.8 percent in 2030 and 23 percent in 2050. The inactive LTS rows 11, 12 and 22 hold exactly 15 percent in 2030 and 40 percent in 2050. The lever changes only label CO2e_DETRN, not fuel demand or CO2e_sources."),
+    ("JAM-T071", "JAM-02", "p.15;p.61;p.62", "LTS: trucks' fuel consumption 40 percent lower by 2050", 40, "percent", 2050,
+     "diesel road emission-factor improvement (efficiency proxy)", ML + " line 2; SmartGrid rows 15 and 16", 0, 0, "percent", "opposite direction", "", "BAU has 30 percent (SmartGrid row 23, 1.3 in 2050); policy scenarios 0."),
+    ("JAM-T073", "JAM-02", "p.61", "LTS: public transport 35 percent of urban trips by 2030", 35, "percent", 2030,
+     "public passenger demand shift (input)", "Jamaica/JAM_TRANSPORT/B1_Scenario_Config.xlsx sheet Mode_Shift rows 4 and 6 (E6TDPASPUB 0.001 in 2030)", "", "", "", "not compared", "Jamaica/JAM_TRANSPORT",
+     "The models hold a shift parameter, not a modal share; the NDCNEW and LTSNEW shift is 0.001 against 0.2635 in the inactive LTS row 2."),
+    ("JAM-T074", "JAM-02", "p.61", "LTS: alternative fuels 20 percent of transport by 2030", 20, "percent", 2030,
+     "biofuel or gas share of road fuel", ML + " lines 35 to 38 (no E5TROBGS or E5TRONGS demand); B1_Base_Scenarios_Adj_Parallel_Jamaica.py lines 3702 to 3770 (blend block, empty technology lists)", 0, 0, "percent", "in documents, not in the model", "", "DIST_GSL emission factor 0.0695 is that of pure gasoline."),
+    ("JAM-T113", "JAM-06", "p.328", "TNC planned action: E10 blending by 2020", 10, "percent", 2020,
+     "ethanol share in gasoline", "B1_Base_Scenarios_Adj_Parallel_Jamaica.py lines 3746 to 3769 (blend block inactive); EmissionActivityRatio DIST_GSL 0.069543", 0, 0, "percent", "in documents, not in the model", "", "Modelling assumption of the TNC, not a current target; listed because the model has an inactive blend lever."),
+    # ---- buildings ----
+    ("JAM-T077", "JAM-02", "p.14;p.67;p.69", "LTS: solar water heating in 60 percent of households by 2030", 60, "percent of households", 2030,
+     "solar water heater technology", "no SWH technology in JAM_ENERGY; residential electricity demand cut 2.5 percent against BAU in 2030 (" + ML + " line 30)", "", "", "", "in documents, not in the model", "",
+     "Buildings measures appear only as percentage cuts in final demand per fuel (B1_Scenario_Config.xlsx sheet Efficiency rows 119 to 127 and 172 to 180)."),
+    ("JAM-T079", "JAM-02", "p.14;p.69", "LTS: 100 percent LED residential lighting by 2030", 100, "percent", 2030,
+     "lighting technology", "none (demand per fuel only, line 30)", "", "", "", "in documents, not in the model", "", ""),
+    ("JAM-T082", "JAM-02", "p.15;p.67;p.69", "LTS: replace all wood, kerosene and charcoal stoves by 2035", 100, "percent", 2035,
+     "cut in residential firewood, kerosene and charcoal demand against BAU", ML + " lines 28, 31, 33 (E5RESCHA, E5RESFIR, E5RESKER)", 5.0, 5.0, "percent", "same direction, different size", "",
+     "2035: 2.703 PJ in both policy scenarios against 2.845 PJ in BAU."),
+    ("JAM-T083", "JAM-02", "p.15;p.67;p.69", "LTS: LPG use 10 percent of 2020 level by 2050", 10, "percent of 2020 level", 2050,
+     "residential plus commercial LPG demand relative to 2021", ML + " lines 9 and 34; Jamaica/JAM_ENERGY/B1_Output_Params/<scenario>/SpecifiedAnnualDemand.csv 2021", 128.0, 121.3, "percent of 2021 level", "opposite direction", "",
+     "2021: 4.674 PJ; 2050: 5.984 PJ (NDCNEW), 5.669 PJ (LTSNEW). Status judged on LTSNEW. The policy cuts LPG against BAU (6.299 PJ) but LPG still grows."),
+    # ---- industry ----
+    ("JAM-T089", "JAM-02", "p.14;p.74", "LTS: alumina fuel use 25 percent below 2020 by 2030", 25, "percent", 2030,
+     "cut in alumina fossil fuel demand 2021 to 2030 (E5INDBAX DSL, FOI, GSL, NGS)", ML + " lines 11, 13, 14; SpecifiedAnnualDemand.csv 2021", 46.5, 46.5, "percent", "same direction, different size", "",
+     "Model 9.728 PJ in 2021 and 5.205 PJ in 2030; BAU alone falls 45.1 percent (alumina output drop to 2024), so the policy adds little."),
+    ("JAM-T091", "JAM-02", "p.15;p.74", "LTS: industry energy intensity 15 percent below 2020 by 2050", 15, "percent", 2050,
+     "cut in industrial fuel demand against BAU (alumina fuel oil shown)", ML + " line 13; B1_Scenario_Config.xlsx sheet Efficiency rows 88 and 141", 5.0, 10.0, "percent", "same direction, different size", "",
+     "Status judged on LTSNEW. Intensity against 2020 is not the same indicator as demand against BAU."),
+    ("JAM-T088", "JAM-02", "p.14;p.74", "LTS: clinker-to-cement ratio 70 percent by 2030", 70, "percent", 2030,
+     "cement process emissions (clinker)", ML + " line 115 (CO2e_CEM, technology PROD_CLK_TRAD)", 0.32438, 0.32438, "MtCO2", "in documents, not in the model", "Jamaica/JAM_ENERGY",
+     "CO2e_CEM is identical in BAU, NDCNEW and LTSNEW; no clinker substitution technology. No ratio computed (different units)."),
+    ("JAM-T033", "JAM-01", "p.2", "NDC 3.0: cement measures cut 40 ktCO2 in 2035", 40, "ktCO2", 2035,
+     "cement process emission reduction against BAU", ML + " line 115 (CO2e_CEM)", 0, 0, "ktCO2", "in documents, not in the model", "Jamaica/JAM_ENERGY", "Cement process emissions 0.325 Mt in 2035 in every scenario."),
+    ("JAM-T090", "JAM-02", "p.15;p.74", "LTS: coal 83 percent of cement fuel by 2040", 83, "percent", 2040,
+     "coal share of cement fuel demand", ML + " line 15 (E5INDCEMCOA scaled, no fuel switch)", "", "", "", "in documents, not in the model", "", ""),
+    # ---- other sectors ----
+    ("JAM-T035", "JAM-01", "p.7", "Restore and protect 7,000 ha of mangroves by 2027", 7000, "ha", 2027, "sector model quantity", "Jamaica/JAM_AFOLU (technology LU_MAN among LU_* land uses); not read for values", "", "", "", "not compared", "Jamaica/JAM_AFOLU", "Energy model does not carry this sector."),
+    ("JAM-T039", "JAM-01", "p.17", "Restore at least 2,200 ha of mangroves by 2030", 2200, "ha", 2030, "sector model quantity", "Jamaica/JAM_AFOLU (LU_MAN); not read for values", "", "", "", "not compared", "Jamaica/JAM_AFOLU", ""),
+    ("JAM-T036", "JAM-01", "p.7", "Closed broadleaf forest 10 percent of land by 2035", 10, "percent of land", 2035, "sector model quantity", "Jamaica/JAM_AFOLU (LU_FOR, LU_SEC, LU_DRY); not read for values", "", "", "", "not compared", "Jamaica/JAM_AFOLU", ""),
+    ("JAM-T043", "JAM-01", "p.16", "No net loss of forest cover (baseline 47.9 percent)", 47.9, "percent of land", "", "sector model quantity", "Jamaica/JAM_AFOLU (LU_FOR, LU_SEC); not read for values", "", "", "", "not compared", "Jamaica/JAM_AFOLU", ""),
+    ("JAM-T093", "JAM-02", "p.14;p.80;p.81", "LTS: forest cover 5 percent above 2020 by 2030", 5, "percent", 2030, "sector model quantity", "Jamaica/JAM_AFOLU (LU_FOR, LU_SEC); not read for values", "", "", "", "not compared", "Jamaica/JAM_AFOLU", ""),
+    ("JAM-T094", "JAM-02", "p.14;p.80;p.81", "LTS: deforestation rates 30 percent below 2020 by 2030", 30, "percent", 2030, "sector model quantity", "Jamaica/JAM_AFOLU; not read for values", "", "", "", "not compared", "Jamaica/JAM_AFOLU", ""),
+    ("JAM-T096", "JAM-02", "p.15;p.80;p.81", "LTS: 4,000 ha additional mangrove cover by 2050", 4000, "ha", 2050, "sector model quantity", "Jamaica/JAM_AFOLU (LU_MAN); not read for values", "", "", "", "not compared", "Jamaica/JAM_AFOLU", ""),
+    ("JAM-T097", "JAM-02", "p.15;p.81", "LTS: afforestation 150 ha per year", 150, "ha per year", 2050, "sector model quantity", "Jamaica/JAM_AFOLU; not read for values", "", "", "", "not compared", "Jamaica/JAM_AFOLU", ""),
+    ("JAM-T098", "JAM-02", "p.14;p.87", "LTS: livestock emissions 14 percent below 2020 by 2030", 14, "percent", 2030, "sector model quantity", "Jamaica/JAM_AFOLU (GA_CARBOV, GA_MILK, GA_CARPOR, GA_CARPOL, GA_OTRCAR); not read for values", "", "", "", "not compared", "Jamaica/JAM_AFOLU", ""),
+    ("JAM-T099", "JAM-02", "p.14;p.87", "LTS: ruminant methane 20 percent below 2020 by 2030", 20, "percent", 2030, "sector model quantity", "Jamaica/JAM_AFOLU (GA_CARBOV, GA_MILK); not read for values", "", "", "", "not compared", "Jamaica/JAM_AFOLU", ""),
+    ("JAM-T100", "JAM-02", "p.15;p.87", "LTS: agroforestry on 10 percent of cropland, 27 ktCO2e per year", 27, "ktCO2e per year", 2050, "sector model quantity", "Jamaica/JAM_AFOLU (LU_CROP, AG_*); not read for values", "", "", "", "not compared", "Jamaica/JAM_AFOLU", ""),
+    ("JAM-T101", "JAM-02", "p.92", "LTS: MSW collection over 90 percent", 90, "percent", "", "sector model quantity", "Jamaica/JAM_WASTE (ORG_DCOLL, INORG_DCOLL, BLEND_NO_COLL, OPEN_BURN); not read for values", "", "", "", "not compared", "Jamaica/JAM_WASTE", ""),
+    ("JAM-T102", "JAM-02", "p.92", "LTS: waste emissions 70 percent lower through waste-to-energy", 70, "percent", "", "sector model quantity", "Jamaica/JAM_WASTE (INCIN, LANDFILL, AD, COMPOST); not read for values", "", "", "", "not compared", "Jamaica/JAM_WASTE", ""),
+    ("JAM-T044", "JAM-01", "p.15", "Non-revenue water losses from 72 to 30 percent over 11 years", 30, "percent", 2036, "water pumping energy", "no water sector in JAM_ENERGY", "", "", "", "not compared", "", ""),
+    # ---- in the model, not in the documents ----
+    ("", "JAM-01", "p.14", "NDC 3.0 stops at 2035 (63 percent renewable); no renewable share for NDCNEW after 2035", "", "", "", "renewable share of generation 2036 to 2050 (NDCNEW)", ML + " line 88; stage2_apply_v2.py lines 61 to 75 (NDCNEW 0.75 held to 2050)", 75.0056, "", "percent (2050)", "in the model, not in the documents", "", "NDCNEW holds 75 percent from 2035 to 2050."),
+    ("", "JAM-01", "p.6;p.14", "NDC 3.0 has no transport electrification number", "", "", "", "electric share of road groups (NDCNEW)", TRN + " rows 74 to 97 (10 percent in 2030, 30 percent from 2040; heavy trucks 5, 15, 20 percent); B1_Scenario_Config.xlsx sheet Efficiency rows 240 to 248", 30, "", "percent of group activity (2040)", "in the model, not in the documents", "Jamaica/JAM_TRANSPORT", "Electric share of road energy 2.2 percent (2030) to 8.9 percent (2050) in the energy model (line 114)."),
+    ("", "JAM-01", "p.6", "NDC 3.0 has no end-use efficiency number", "", "", "", "final demand per fuel against BAU (NDCNEW)", ML + " lines 4 to 34; B1_Scenario_Config.xlsx sheet Efficiency rows 75 to 127", 5.0, "", "percent below BAU (2035, residential electricity)", "in the model, not in the documents", "",
+     "NDCNEW 2035 against BAU: residential electricity minus 5.0 percent, alumina fuel oil minus 5.0 percent, commercial LPG minus 5.0 percent, cement coal minus 5.0 percent."),
+    ("", "JAM-01", "p.6", "No document asks for more road diesel than BAU", "", "", "", "road diesel demand (E5TRODSL) against BAU", ML + " line 35; B1_Scenario_Config.xlsx sheet Efficiency row 240", 17.6069, 10.3418, "PJ (2040; BAU 13.9087)", "in the model, not in the documents", "",
+     "NDCNEW road diesel exceeds BAU from about 2036 (2040: 17.61 against 13.91 PJ; 2050: 22.83 against 17.87 PJ) while gasoline falls; known-limitation candidate."),
+]
+
+COLS = ["target_id", "source_id", "page", "target_description", "target_value", "target_unit", "target_year", "model_quantity",
+        "model_reference", "NDCNEW_value", "LTSNEW_value", "model_unit", "ratio_NDCNEW", "ratio_LTSNEW", "status", "sector_model_folder", "note"]
+
+
+def ratio(m, t):
+    try:
+        m, t = float(m), float(t)
+    except (TypeError, ValueError):
+        return ""
+    if t == 0:
+        return ""
+    return round(m / t, 3)
+
+
+def main():
+    allowed = {"matches", "same direction, different size", "opposite direction", "in documents, not in the model",
+               "in the model, not in the documents", "not compared"}
+    with open(os.path.join(JOB, "alignment_JAM.csv"), "w", encoding="utf-8", newline="\n") as fh:
+        w = csv.writer(fh, lineterminator="\n")
+        w.writerow(COLS)
+        counts = {}
+        for a in A:
+            (tid, sid, page, desc, tv, tu, ty, mq, mref, nv, lv, mu, st, folder, note) = a
+            assert st in allowed, st
+            rn = ratio(nv, tv) if st not in ("not compared",) else ""
+            rl = ratio(lv, tv) if st not in ("not compared",) else ""
+            w.writerow([tid, sid, page, desc, tv, tu, ty, mq, mref, nv, lv, mu, rn, rl, st, folder, note])
+            counts[st] = counts.get(st, 0) + 1
+    print(len(A), counts)
+
+
+if __name__ == "__main__":
+    main()

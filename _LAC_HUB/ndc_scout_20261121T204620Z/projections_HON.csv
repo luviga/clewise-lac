@@ -1,0 +1,152 @@
+source_id,page,table_or_figure,scenario_as_named,sector,gas,unit,year,value,note
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Agriculture,CO2e (AR5),Gg CO2e,2021,6481,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Energy,CO2e (AR5),Gg CO2e,2021,9517,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),IPPU,CO2e (AR5),Gg CO2e,2021,2183,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Waste,CO2e (AR5),Gg CO2e,2021,2582,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF emissions,CO2e (AR5),Gg CO2e,2021,29815,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF removals,CO2e (AR5),Gg CO2e (removal),2021,27621,"Linear projection of the 2011-2020 inventory; values printed as integers; printed in parentheses (a removal), value given as a positive magnitude"
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF net,CO2e (AR5),Gg CO2e,2021,2194,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2021,22958,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Agriculture,CO2e (AR5),Gg CO2e,2022,6530,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Energy,CO2e (AR5),Gg CO2e,2022,9477,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),IPPU,CO2e (AR5),Gg CO2e,2022,2281,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Waste,CO2e (AR5),Gg CO2e,2022,2648,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF emissions,CO2e (AR5),Gg CO2e,2022,31779,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF removals,CO2e (AR5),Gg CO2e (removal),2022,26710,"Linear projection of the 2011-2020 inventory; values printed as integers; printed in parentheses (a removal), value given as a positive magnitude"
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF net,CO2e (AR5),Gg CO2e,2022,5069,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2022,26005,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Agriculture,CO2e (AR5),Gg CO2e,2023,6579,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Energy,CO2e (AR5),Gg CO2e,2023,9438,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),IPPU,CO2e (AR5),Gg CO2e,2023,2378,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Waste,CO2e (AR5),Gg CO2e,2023,2713,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF emissions,CO2e (AR5),Gg CO2e,2023,33742,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF removals,CO2e (AR5),Gg CO2e (removal),2023,25799,"Linear projection of the 2011-2020 inventory; values printed as integers; printed in parentheses (a removal), value given as a positive magnitude"
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF net,CO2e (AR5),Gg CO2e,2023,7943,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2023,29052,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Agriculture,CO2e (AR5),Gg CO2e,2024,6629,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Energy,CO2e (AR5),Gg CO2e,2024,9398,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),IPPU,CO2e (AR5),Gg CO2e,2024,2476,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Waste,CO2e (AR5),Gg CO2e,2024,2779,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF emissions,CO2e (AR5),Gg CO2e,2024,35706,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF removals,CO2e (AR5),Gg CO2e (removal),2024,24889,"Linear projection of the 2011-2020 inventory; values printed as integers; printed in parentheses (a removal), value given as a positive magnitude"
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF net,CO2e (AR5),Gg CO2e,2024,10817,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2024,32099,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Agriculture,CO2e (AR5),Gg CO2e,2025,6678,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Energy,CO2e (AR5),Gg CO2e,2025,9359,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),IPPU,CO2e (AR5),Gg CO2e,2025,2574,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Waste,CO2e (AR5),Gg CO2e,2025,2845,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF emissions,CO2e (AR5),Gg CO2e,2025,37669,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF removals,CO2e (AR5),Gg CO2e (removal),2025,23978,"Linear projection of the 2011-2020 inventory; values printed as integers; printed in parentheses (a removal), value given as a positive magnitude"
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF net,CO2e (AR5),Gg CO2e,2025,13691,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2025,35146,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Agriculture,CO2e (AR5),Gg CO2e,2026,6727,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Energy,CO2e (AR5),Gg CO2e,2026,9319,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),IPPU,CO2e (AR5),Gg CO2e,2026,2671,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Waste,CO2e (AR5),Gg CO2e,2026,2910,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF emissions,CO2e (AR5),Gg CO2e,2026,39633,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF removals,CO2e (AR5),Gg CO2e (removal),2026,23067,"Linear projection of the 2011-2020 inventory; values printed as integers; printed in parentheses (a removal), value given as a positive magnitude"
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF net,CO2e (AR5),Gg CO2e,2026,16565,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2026,38193,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Agriculture,CO2e (AR5),Gg CO2e,2027,6776,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Energy,CO2e (AR5),Gg CO2e,2027,9280,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),IPPU,CO2e (AR5),Gg CO2e,2027,2769,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Waste,CO2e (AR5),Gg CO2e,2027,2976,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF emissions,CO2e (AR5),Gg CO2e,2027,41596,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF removals,CO2e (AR5),Gg CO2e (removal),2027,22157,"Linear projection of the 2011-2020 inventory; values printed as integers; printed in parentheses (a removal), value given as a positive magnitude"
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF net,CO2e (AR5),Gg CO2e,2027,19439,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2027,41240,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Agriculture,CO2e (AR5),Gg CO2e,2028,6825,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Energy,CO2e (AR5),Gg CO2e,2028,9240,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),IPPU,CO2e (AR5),Gg CO2e,2028,2867,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Waste,CO2e (AR5),Gg CO2e,2028,3042,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF emissions,CO2e (AR5),Gg CO2e,2028,43559,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF removals,CO2e (AR5),Gg CO2e (removal),2028,21246,"Linear projection of the 2011-2020 inventory; values printed as integers; printed in parentheses (a removal), value given as a positive magnitude"
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF net,CO2e (AR5),Gg CO2e,2028,22313,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2028,44287,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Agriculture,CO2e (AR5),Gg CO2e,2029,6874,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Energy,CO2e (AR5),Gg CO2e,2029,9201,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),IPPU,CO2e (AR5),Gg CO2e,2029,2964,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Waste,CO2e (AR5),Gg CO2e,2029,3107,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF emissions,CO2e (AR5),Gg CO2e,2029,45523,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF removals,CO2e (AR5),Gg CO2e (removal),2029,20335,"Linear projection of the 2011-2020 inventory; values printed as integers; printed in parentheses (a removal), value given as a positive magnitude"
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF net,CO2e (AR5),Gg CO2e,2029,25188,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2029,47334,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Agriculture,CO2e (AR5),Gg CO2e,2030,6924,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Energy,CO2e (AR5),Gg CO2e,2030,9161,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),IPPU,CO2e (AR5),Gg CO2e,2030,3062,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Waste,CO2e (AR5),Gg CO2e,2030,3173,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF emissions,CO2e (AR5),Gg CO2e,2030,47486,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF removals,CO2e (AR5),Gg CO2e (removal),2030,19425,"Linear projection of the 2011-2020 inventory; values printed as integers; printed in parentheses (a removal), value given as a positive magnitude"
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF net,CO2e (AR5),Gg CO2e,2030,28062,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2030,50381,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Agriculture,CO2e (AR5),Gg CO2e,2031,6973,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Energy,CO2e (AR5),Gg CO2e,2031,9122,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),IPPU,CO2e (AR5),Gg CO2e,2031,3160,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Waste,CO2e (AR5),Gg CO2e,2031,3239,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF emissions,CO2e (AR5),Gg CO2e,2031,49450,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF removals,CO2e (AR5),Gg CO2e (removal),2031,18514,"Linear projection of the 2011-2020 inventory; values printed as integers; printed in parentheses (a removal), value given as a positive magnitude"
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF net,CO2e (AR5),Gg CO2e,2031,30936,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2031,53428,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Agriculture,CO2e (AR5),Gg CO2e,2032,7022,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Energy,CO2e (AR5),Gg CO2e,2032,9082,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),IPPU,CO2e (AR5),Gg CO2e,2032,3257,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Waste,CO2e (AR5),Gg CO2e,2032,3304,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF emissions,CO2e (AR5),Gg CO2e,2032,51413,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF removals,CO2e (AR5),Gg CO2e (removal),2032,17603,"Linear projection of the 2011-2020 inventory; values printed as integers; printed in parentheses (a removal), value given as a positive magnitude"
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF net,CO2e (AR5),Gg CO2e,2032,33810,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2032,56475,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Agriculture,CO2e (AR5),Gg CO2e,2033,7071,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Energy,CO2e (AR5),Gg CO2e,2033,9043,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),IPPU,CO2e (AR5),Gg CO2e,2033,3355,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Waste,CO2e (AR5),Gg CO2e,2033,3370,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF emissions,CO2e (AR5),Gg CO2e,2033,53377,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF removals,CO2e (AR5),Gg CO2e (removal),2033,16693,"Linear projection of the 2011-2020 inventory; values printed as integers; printed in parentheses (a removal), value given as a positive magnitude"
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF net,CO2e (AR5),Gg CO2e,2033,36684,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2033,59522,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Agriculture,CO2e (AR5),Gg CO2e,2034,7120,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Energy,CO2e (AR5),Gg CO2e,2034,9003,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),IPPU,CO2e (AR5),Gg CO2e,2034,3452,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Waste,CO2e (AR5),Gg CO2e,2034,3436,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF emissions,CO2e (AR5),Gg CO2e,2034,55340,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF removals,CO2e (AR5),Gg CO2e (removal),2034,15782,"Linear projection of the 2011-2020 inventory; values printed as integers; printed in parentheses (a removal), value given as a positive magnitude"
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF net,CO2e (AR5),Gg CO2e,2034,39558,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2034,62570,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Agriculture,CO2e (AR5),Gg CO2e,2035,7169,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Energy,CO2e (AR5),Gg CO2e,2035,8963,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),IPPU,CO2e (AR5),Gg CO2e,2035,3550,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),Waste,CO2e (AR5),Gg CO2e,2035,3501,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF emissions,CO2e (AR5),Gg CO2e,2035,57304,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF removals,CO2e (AR5),Gg CO2e (removal),2035,14871,"Linear projection of the 2011-2020 inventory; values printed as integers; printed in parentheses (a removal), value given as a positive magnitude"
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),LULUCF net,CO2e (AR5),Gg CO2e,2035,42432,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.24,Tabla 2 (printed p.23),Escenario Tendencial (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2035,65617,Linear projection of the 2011-2020 inventory; values printed as integers
+HON-01,p.25,printed p.24,Nivel maximo de emisiones esperadas (mitigation),economy-wide (net),CO2e (AR5),Gg CO2e,2030,41816.4,
+HON-01,p.25,printed p.24,Nivel maximo de emisiones esperadas (mitigation),economy-wide (net),CO2e (AR5),Gg CO2e,2035,52769,
+HON-02,p.5,figure and table on p.5,Trayectoria indicativa (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2021,22957.6,Superseded by HON-01 Tabla 2 (same values rounded)
+HON-02,p.5,figure and table on p.5,Trayectoria indicativa (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2022,26004.6,Superseded by HON-01 Tabla 2 (same values rounded)
+HON-02,p.5,figure and table on p.5,Trayectoria indicativa (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2023,29051.7,Superseded by HON-01 Tabla 2 (same values rounded)
+HON-02,p.5,figure and table on p.5,Trayectoria indicativa (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2024,32098.8,Superseded by HON-01 Tabla 2 (same values rounded)
+HON-02,p.5,figure and table on p.5,Trayectoria indicativa (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2025,35145.9,Superseded by HON-01 Tabla 2 (same values rounded)
+HON-02,p.5,figure and table on p.5,Trayectoria indicativa (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2026,38192.9,Superseded by HON-01 Tabla 2 (same values rounded)
+HON-02,p.5,figure and table on p.5,Trayectoria indicativa (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2027,41240.0,Superseded by HON-01 Tabla 2 (same values rounded)
+HON-02,p.5,figure and table on p.5,Trayectoria indicativa (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2028,44287.1,Superseded by HON-01 Tabla 2 (same values rounded)
+HON-02,p.5,figure and table on p.5,Trayectoria indicativa (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2029,47334.2,Superseded by HON-01 Tabla 2 (same values rounded)
+HON-02,p.5,figure and table on p.5,Trayectoria indicativa (BAU),economy-wide (net),CO2e (AR5),Gg CO2e,2030,50381.3,Superseded by HON-01 Tabla 2 (same values rounded)
+HON-02,p.5,figure on p.5,Meta de mitigacion condicional,economy-wide (net),CO2e (AR5),Gg CO2e,2030,45535.7,
+HON-03,p.33,Tabla 2 (printed p.25),BAU,energy,CO2e (AR5),kt CO2e,2030,12142,LEAP model (CAEP 2021); scenario 1 chosen for the NDC
+HON-03,p.33,Tabla 2 (printed p.25),Escenario de mitigacion 1,energy,CO2e (AR5),kt CO2e,2030,9734,LEAP model (CAEP 2021); scenario 1 chosen for the NDC
+HON-03,p.33,Tabla 2 (printed p.25),Escenario de mitigacion 2,energy,CO2e (AR5),kt CO2e,2030,9355,LEAP model (CAEP 2021); scenario 1 chosen for the NDC
+HON-03,p.33,Tabla 2 (printed p.25),Escenario de mitigacion 3,energy,CO2e (AR5),kt CO2e,2030,8545,LEAP model (CAEP 2021); scenario 1 chosen for the NDC
+HON-04,p.3,printed p.3,Escenario BAU,economy-wide excl. LULUCF,"CO2, CH4, N2O (SAR GWP)",Gg CO2e,2012,18915,Printed with a dot as thousands separator (e.g. 28.922)
+HON-04,p.3,printed p.3,Escenario BAU,economy-wide excl. LULUCF,"CO2, CH4, N2O (SAR GWP)",Gg CO2e,2020,22027,Printed with a dot as thousands separator (e.g. 28.922)
+HON-04,p.3,printed p.3,Escenario BAU,economy-wide excl. LULUCF,"CO2, CH4, N2O (SAR GWP)",Gg CO2e,2030,28922,Printed with a dot as thousands separator (e.g. 28.922)
+HON-07,p.86;p.87,NAMA ganaderia table,BAU (NAMA ganaderia),"agriculture (livestock, net)","CO2, CH4, N2O",t CO2e per year,2030,10100000,Net emissions of the livestock sector without intervention
+HON-08,p.90,Tabla 50,Escenario de Expansion V (PIEG 2026-2035),electricity generation,CO2,percent reduction against 2025,2026,10,Reduction of power sector CO2 relative to the 2025 simulation year
+HON-08,p.90,Tabla 50,Escenario de Expansion V (PIEG 2026-2035),electricity generation,CO2,percent reduction against 2025,2027,18,Reduction of power sector CO2 relative to the 2025 simulation year
+HON-08,p.90,Tabla 50,Escenario de Expansion V (PIEG 2026-2035),electricity generation,CO2,percent reduction against 2025,2028,29,Reduction of power sector CO2 relative to the 2025 simulation year
+HON-08,p.90,Tabla 50,Escenario de Expansion V (PIEG 2026-2035),electricity generation,CO2,percent reduction against 2025,2029,40,Reduction of power sector CO2 relative to the 2025 simulation year
+HON-08,p.90,Tabla 50,Escenario de Expansion V (PIEG 2026-2035),electricity generation,CO2,percent reduction against 2025,2030,49,Reduction of power sector CO2 relative to the 2025 simulation year
+HON-08,p.90,Tabla 50,Escenario de Expansion V (PIEG 2026-2035),electricity generation,CO2,percent reduction against 2025,2031,46,Reduction of power sector CO2 relative to the 2025 simulation year
+HON-08,p.90,Tabla 50,Escenario de Expansion V (PIEG 2026-2035),electricity generation,CO2,percent reduction against 2025,2032,39,Reduction of power sector CO2 relative to the 2025 simulation year
+HON-08,p.90,Tabla 50,Escenario de Expansion V (PIEG 2026-2035),electricity generation,CO2,percent reduction against 2025,2033,28,Reduction of power sector CO2 relative to the 2025 simulation year
+HON-08,p.90,Tabla 50,Escenario de Expansion V (PIEG 2026-2035),electricity generation,CO2,percent reduction against 2025,2034,24,Reduction of power sector CO2 relative to the 2025 simulation year
+HON-08,p.90,Tabla 50,Escenario de Expansion V (PIEG 2026-2035),electricity generation,CO2,percent reduction against 2025,2035,33,Reduction of power sector CO2 relative to the 2025 simulation year

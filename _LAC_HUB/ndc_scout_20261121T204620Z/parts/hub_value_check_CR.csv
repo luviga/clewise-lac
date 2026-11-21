@@ -1,0 +1,135 @@
+country,file,row_id,source_id,page,value,unit,year,status,how
+CR,targets_CR.csv,CR-T001,CR-01,p.33;p.138,11380,Gg CO2e,2030,found,'11 380' on p.33
+CR,targets_CR.csv,CR-T002,CR-01,p.33;p.138,132700,Gg CO2e,2025-2035,found,'132 700' on p.33
+CR,targets_CR.csv,CR-T003,CR-01,p.34;p.6,53,percent,2030,found,'53' on p.34
+CR,targets_CR.csv,CR-T004,CR-01,p.34;p.6,23,percent,2030,found,'23' on p.34
+CR,targets_CR.csv,CR-T005,CR-01,p.137,15,percent,2030,found,'15' on p.137
+CR,targets_CR.csv,CR-T006,CR-01,p.143,0,Gg CO2e,2050,not_found,
+CR,targets_CR.csv,CR-T007,CR-01,p.37,10,percent,2030,found,'10' on p.37
+CR,targets_CR.csv,CR-T008,CR-01,p.37,20,percent,2035,found,'20' on p.37
+CR,targets_CR.csv,CR-T009,CR-01,p.38,52,km (of 66.6 km route),2030,found,'52' on p.38
+CR,targets_CR.csv,CR-T010,CR-01,p.38,121000,passengers per day,2030,found,'121000' on p.38
+CR,targets_CR.csv,CR-T011,CR-01,p.39,6,percent of fleet,2027,found,'6' on p.39
+CR,targets_CR.csv,CR-T012,CR-01,p.39,3.5,percent of fleet,2030,found,"'3,5' on p.39"
+CR,targets_CR.csv,CR-T013,CR-01,p.39,50,percent of units,2030,found,'50' on p.39
+CR,targets_CR.csv,CR-T014,CR-01,p.39,20,percent reduction,2030,found,'20' on p.39
+CR,targets_CR.csv,CR-T015,CR-01,p.39,10,percent of fleet,2035,found,'10' on p.39
+CR,targets_CR.csv,CR-T016,CR-01,p.40,10,percent of fleet,2030,found,'10' on p.40
+CR,targets_CR.csv,CR-T017,CR-01,p.40,20,percent of fleet,2030,found,'20' on p.40
+CR,targets_CR.csv,CR-T018,CR-01,p.40,50,percent of fleet,2035,found,'50' on p.40
+CR,targets_CR.csv,CR-T019,CR-01,p.40,20,percent of fleet,2035,found,'20' on p.40
+CR,targets_CR.csv,CR-T020,CR-01,p.41,10,percent ethanol by volume,2027,found,'10' on p.41
+CR,targets_CR.csv,CR-T021,CR-01,p.41,15,percent ethanol by volume,2030,found,'15' on p.41
+CR,targets_CR.csv,CR-T022,CR-01,p.41,20,stations,2030,found,'20' on p.41
+CR,targets_CR.csv,CR-T023,CR-01,p.41,40,stations,2035,found,'40' on p.41
+CR,targets_CR.csv,CR-T024,CR-01,p.42,2,percent of fleet,2030,found,'2' on p.42
+CR,targets_CR.csv,CR-T025,CR-01,p.42,10,percent of fleet,2030,found,'10' on p.42
+CR,targets_CR.csv,CR-T026,CR-01,p.42,20,percent reduction,2030,found,'20' on p.42
+CR,targets_CR.csv,CR-T027,CR-01,p.42,5,percent of fleet,2035,found,'5' on p.42
+CR,targets_CR.csv,CR-T028,CR-01,p.42,15,percent of fleet,2035,found,'15' on p.42
+CR,targets_CR.csv,CR-T029,CR-01,p.43,1,percent,2030,found,'1' on p.43
+CR,targets_CR.csv,CR-T030,CR-01,p.43,5,percent,2035,found,'5' on p.43
+CR,targets_CR.csv,CR-T031,CR-01,p.44,2,zones,2035,found,'2' on p.44
+CR,targets_CR.csv,CR-T032,CR-01,p.46,95,percent of generation,2027,found,'95' on p.46
+CR,targets_CR.csv,CR-T033,CR-01,p.46,95,percent of generation,2035,found,'95' on p.46
+CR,targets_CR.csv,CR-T034,CR-01,p.46,5,businesses,2035,found,'5' on p.46
+CR,targets_CR.csv,CR-T035,CR-01,p.48,2.40,MJ/USD,2030,found,"'2,40' on p.48"
+CR,targets_CR.csv,CR-T036,CR-01,p.48,2.37,MJ/USD,2035,found,"'2,37' on p.48"
+CR,targets_CR.csv,CR-T037,CR-01,p.48,20,percent reduction,2030,found,'20' on p.48
+CR,targets_CR.csv,CR-T038,CR-01,p.49,20,percent of boilers,2030,found,'20' on p.49
+CR,targets_CR.csv,CR-T039,CR-01,p.49,30,percent of boilers,2035,found,'30' on p.49
+CR,targets_CR.csv,CR-T040,CR-01,p.49,57000,t per year,2030,found,'57 000' on p.49
+CR,targets_CR.csv,CR-T041,CR-01,p.49,77000,t per year,2035,found,'77 000' on p.49
+CR,targets_CR.csv,CR-T042,CR-01,p.50,250,MW,2030,found,'250' on p.50
+CR,targets_CR.csv,CR-T043,CR-01,p.50,300,MW,2035,found,'300' on p.50
+CR,targets_CR.csv,CR-T044,CR-01,p.50,15,MW,2035,found,'15' on p.50
+CR,targets_CR.csv,CR-T045,CR-01,p.51,260,GWh per year,2030,found,'260' on p.51
+CR,targets_CR.csv,CR-T046,CR-01,p.51,655,GWh per year,2035,found,'655' on p.51
+CR,targets_CR.csv,CR-T047,CR-01,p.54,10,percent reduction,2030,found,'10' on p.54
+CR,targets_CR.csv,CR-T048,CR-01,p.54,30,percent reduction,2035,found,'30' on p.54
+CR,targets_CR.csv,CR-T049,CR-01,p.55,0.66,ratio,2030,found,"'0,66' on p.55"
+CR,targets_CR.csv,CR-T050,CR-01,p.55,0.62,ratio,2035,found,"'0,62' on p.55"
+CR,targets_CR.csv,CR-T051,CR-01,p.59,30,percent reduction,2030,found,'30' on p.59
+CR,targets_CR.csv,CR-T052,CR-01,p.60,58,kg per ha per year,2035,found,'58' on p.60
+CR,targets_CR.csv,CR-T053,CR-01,p.61,99,kg per ha per year reduction,2035,found,'99' on p.61
+CR,targets_CR.csv,CR-T054,CR-01,p.62,50,percent of area,2035,found,'50' on p.62
+CR,targets_CR.csv,CR-T055,CR-01,p.63,47,percent of area,2035,found,'47' on p.63
+CR,targets_CR.csv,CR-T056,CR-01,p.64,20,kg N per ha per year reduction,2035,found,'20' on p.64
+CR,targets_CR.csv,CR-T057,CR-01,p.65,46,percent of herd,2031,found,'46' on p.65
+CR,targets_CR.csv,CR-T058,CR-01,p.68;p.69,76938,Gg CO2e per year,2035,found,'76 938' on p.69
+CR,targets_CR.csv,CR-T059,CR-01,p.69,50000,ha,2035,found,'50 000' on p.69
+CR,targets_CR.csv,CR-T060,CR-01,p.70,10,percent increase,2035,found,'10' on p.70
+CR,targets_CR.csv,CR-T061,CR-01,p.79;p.80,129.42,Gg CO2e,2035,found,"'129,42' on p.80"
+CR,targets_CR.csv,CR-T062,CR-01,p.74,13,percent,2035,found,'13' on p.74
+CR,targets_CR.csv,CR-T063,CR-01,p.75,154000,t,2035,found,'154 000' on p.75
+CR,targets_CR.csv,CR-T064,CR-01,p.76,38,percent,2035,found,'38' on p.76
+CR,targets_CR.csv,CR-T065,CR-04,p.9,9.11,Mt CO2e,2030,found,'9.11' on p.9
+CR,targets_CR.csv,CR-T066,CR-04,p.9,106.53,Mt CO2e,2021-2030,found,'106.53' on p.9
+CR,targets_CR.csv,CR-T067,CR-04,p.19,8,percent of fleet,2030,found,'8' on p.19
+CR,targets_CR.csv,CR-T068,CR-04,p.20,5,percent increase,2030,found,'5' on p.20
+CR,targets_CR.csv,CR-T069,CR-04,p.20,8,percent of fleet,2030,found,'8' on p.20
+CR,targets_CR.csv,CR-T070,CR-04,p.25,100,percent of generation,2030,found,'100' on p.25
+CR,targets_CR.csv,CR-T071,CR-04,p.26,20,percent reduction,2030,found,'20' on p.26
+CR,targets_CR.csv,CR-T072,CR-04,p.36,70,percent of herd,2030,found,'70' on p.36
+CR,targets_CR.csv,CR-T073,CR-04,p.39,60,percent of territory,2030,found,'60' on p.39
+CR,targets_CR.csv,CR-T074,CR-04,p.40,69500,ha,2030,found,"'69,500' on p.40"
+CR,targets_CR.csv,CR-T075,CR-04,p.33,50,percent,2030,found,'50' on p.33
+CR,targets_CR.csv,CR-T076,CR-02,p.12;p.38,0,Mt CO2e,2050,not_found,
+CR,targets_CR.csv,CR-T077,CR-02,p.34,2.64,Mt CO2e,2050,found,"'2,64' on p.34"
+CR,targets_CR.csv,CR-T078,CR-02,p.34,0.39,Mt CO2e,2050,found,"'0,39' on p.34"
+CR,targets_CR.csv,CR-T079,CR-02,p.34,1.64,Mt CO2e,2050,found,"'1,64' on p.34"
+CR,targets_CR.csv,CR-T080,CR-02,p.34,0.83,Mt CO2e,2050,found,"'0,83' on p.34"
+CR,targets_CR.csv,CR-T081,CR-02,p.34,-5.50,Mt CO2e,2050,found,"'-5,50' on p.34"
+CR,targets_CR.csv,CR-T082,CR-02,p.41,30,percent of fleet,2035,found,'30' on p.41
+CR,targets_CR.csv,CR-T083,CR-02,p.41,85,percent of fleet,2050,found,'85' on p.41
+CR,targets_CR.csv,CR-T084,CR-02,p.41,100,percent,2035,found,'100' on p.41
+CR,targets_CR.csv,CR-T085,CR-02,p.46,30,percent of fleet,2035,found,'30' on p.46
+CR,targets_CR.csv,CR-T086,CR-02,p.46,95,percent of fleet,2050,found,'95' on p.46
+CR,targets_CR.csv,CR-T087,CR-02,p.47,10,percent (range 5 to 10),2022,found,'10' on p.47
+CR,targets_CR.csv,CR-T088,CR-02,p.49,20,percent of fleet,2030,found,'20' on p.49
+CR,targets_CR.csv,CR-T089,CR-02,p.49,20,percent reduction,2050,found,'20' on p.49
+CR,targets_CR.csv,CR-T090,CR-02,p.52,100,percent of generation,2030,found,'100' on p.52
+CR,targets_CR.csv,CR-T091,CR-02,p.55,50,percent of buildings,2050,found,'50' on p.55
+CR,targets_CR.csv,CR-T092,CR-02,p.61,100,percent,2040,found,'100' on p.61
+CR,targets_CR.csv,CR-T093,CR-02,p.67,70,percent of herd,2030,found,'70' on p.67
+CR,targets_CR.csv,CR-T094,CR-02,p.69,60,percent of territory,2030,found,'60' on p.69
+CR,targets_CR.csv,CR-T095,CR-08,p.3;p.4,9374000,t CO2e,2030,found,"'9,374,000' on p.3"
+CR,targets_CR.csv,CR-T096,CR-08,p.12,100,percent of generation,2030,found,'100' on p.12
+CR,targets_CR.csv,CR-T097,CR-06,p.76,100,percent,2030,found,'100' on p.76
+CR,targets_CR.csv,CR-T098,CR-06,p.90,25,percent of fleet,2035,found,'25' on p.90
+CR,projections_CR.csv,line2,CR-01,p.32,16154,Gg CO2e,2024,found,'16154' on p.32
+CR,projections_CR.csv,line3,CR-01,p.32,15306.3,Gg CO2e,2025,found,"'15306,3' on p.32"
+CR,projections_CR.csv,line4,CR-01,p.32,18946,Gg CO2e,2035,found,'18946' on p.32
+CR,projections_CR.csv,line5,CR-01,p.32,13877.7,Gg CO2e,2035,found,"'13877,7' on p.32"
+CR,projections_CR.csv,line6,CR-01,p.32,11308.1,Gg CO2e,2030,found,"'11308,1' on p.32"
+CR,projections_CR.csv,line7,CR-01,p.32,10034,Gg CO2e,2035,found,'10034' on p.32
+CR,projections_CR.csv,line8,CR-01,p.32,11380,Gg CO2e,2030,found,'11380' on p.32
+CR,projections_CR.csv,line9,CR-02,p.19,29.6,Mt CO2e,2050,found,'29.6' on p.19
+CR,projections_CR.csv,line10,CR-02,p.34,7.21,Mt CO2e,2012,found,"'7,21' on p.34"
+CR,projections_CR.csv,line11,CR-02,p.34,0.98,Mt CO2e,2012,found,"'0,98' on p.34"
+CR,projections_CR.csv,line12,CR-02,p.34,3.24,Mt CO2e,2012,found,"'3,24' on p.34"
+CR,projections_CR.csv,line13,CR-02,p.34,1.86,Mt CO2e,2012,found,"'1,86' on p.34"
+CR,projections_CR.csv,line14,CR-02,p.34,-2.05,Mt CO2e,2012,found,"'-2,05' on p.34"
+CR,projections_CR.csv,line15,CR-02,p.34,11.24,Mt CO2e,2012,found,"'11,24' on p.34"
+CR,projections_CR.csv,line16,CR-02,p.34,9.48,Mt CO2e,2050,found,"'9,48' on p.34"
+CR,projections_CR.csv,line17,CR-02,p.34,1.41,Mt CO2e,2050,found,"'1,41' on p.34"
+CR,projections_CR.csv,line18,CR-02,p.34,5.90,Mt CO2e,2050,found,"'5,90' on p.34"
+CR,projections_CR.csv,line19,CR-02,p.34,2.97,Mt CO2e,2050,found,"'2,97' on p.34"
+CR,projections_CR.csv,line20,CR-02,p.34,-3.50,Mt CO2e,2050,found,"'-3,50' on p.34"
+CR,projections_CR.csv,line21,CR-02,p.34,16.26,Mt CO2e,2050,found,"'16,26' on p.34"
+CR,projections_CR.csv,line22,CR-02,p.34,4.54,Mt CO2e,2050,found,"'4,54' on p.34"
+CR,projections_CR.csv,line23,CR-02,p.34,0.68,Mt CO2e,2050,found,"'0,68' on p.34"
+CR,projections_CR.csv,line24,CR-02,p.34,2.82,Mt CO2e,2050,found,"'2,82' on p.34"
+CR,projections_CR.csv,line25,CR-02,p.34,1.42,Mt CO2e,2050,found,"'1,42' on p.34"
+CR,projections_CR.csv,line26,CR-02,p.34,-3.50,Mt CO2e,2050,found,"'-3,50' on p.34"
+CR,projections_CR.csv,line27,CR-02,p.34,5.96,Mt CO2e,2050,found,"'5,96' on p.34"
+CR,projections_CR.csv,line28,CR-02,p.34,2.64,Mt CO2e,2050,found,"'2,64' on p.34"
+CR,projections_CR.csv,line29,CR-02,p.34,0.39,Mt CO2e,2050,found,"'0,39' on p.34"
+CR,projections_CR.csv,line30,CR-02,p.34,1.64,Mt CO2e,2050,found,"'1,64' on p.34"
+CR,projections_CR.csv,line31,CR-02,p.34,0.83,Mt CO2e,2050,found,"'0,83' on p.34"
+CR,projections_CR.csv,line32,CR-02,p.34,-5.50,Mt CO2e,2050,found,"'-5,50' on p.34"
+CR,projections_CR.csv,line33,CR-02,p.34,0.00,Mt CO2e,2050,found,"'0,00' on p.34"
+CR,projections_CR.csv,line34,CR-08,p.3,12441260,t CO2e,2012,found,'12.441.260' on p.3
+CR,projections_CR.csv,line35,CR-08,p.3,10907406,t CO2e,2021,found,'10.907.406' on p.3
+CR,projections_CR.csv,line36,CR-08,p.3,9373552,t CO2e,2030,found,'9.373.552' on p.3
+CR,projections_CR.csv,line37,CR-08,p.3,5964988,t CO2e,2050,found,'5.964.988' on p.3

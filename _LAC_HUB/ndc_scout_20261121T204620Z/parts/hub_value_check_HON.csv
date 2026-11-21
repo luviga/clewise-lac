@@ -1,0 +1,253 @@
+country,file,row_id,source_id,page,value,unit,year,status,how
+HON,targets_HON.csv,HON-T001,HON-01,p.23;p.25,12847.2,Gg CO2e,2035,found,"'12,847.2' on p.23"
+HON,targets_HON.csv,HON-T002,HON-01,p.22,19.6,percent,2035,found,'19.6' on p.22
+HON,targets_HON.csv,HON-T003,HON-01,p.22;p.23;p.25,8564.8,Gg CO2e,2030,found,"'8,564.8' on p.22"
+HON,targets_HON.csv,HON-T004,HON-01,p.22,17,percent,2030,found,'17' on p.22
+HON,targets_HON.csv,HON-T005,HON-01,p.25,41816.4,Gg CO2e,2030,found,"'41,816.4' on p.25"
+HON,targets_HON.csv,HON-T006,HON-01,p.25,52769,Gg CO2e,2035,found,"'52,769' on p.25"
+HON,targets_HON.csv,HON-T007,HON-01,p.25,7268,Gg CO2e,2035,found,"'7,268' on p.25"
+HON,targets_HON.csv,HON-T008,HON-01,p.25,2519.1,Gg CO2e,2030,found,"'2,519.1' on p.25"
+HON,targets_HON.csv,HON-T009,HON-01,p.25,3778.6,Gg CO2e,2035,found,"'3,778.6' on p.25"
+HON,targets_HON.csv,HON-T010,HON-01,p.25,4534.3,Gg CO2e,2030,found,"'4,534.3' on p.25"
+HON,targets_HON.csv,HON-T011,HON-01,p.25,6801.5,Gg CO2e,2035,found,"'6,801.5' on p.25"
+HON,targets_HON.csv,HON-T012,HON-01,p.25,503.8,Gg CO2e,2030,found,'503.8' on p.25
+HON,targets_HON.csv,HON-T013,HON-01,p.25,755.7,Gg CO2e,2035,found,'755.7' on p.25
+HON,targets_HON.csv,HON-T014,HON-01,p.25,503.8,Gg CO2e,2030,found,'503.8' on p.25
+HON,targets_HON.csv,HON-T015,HON-01,p.25,755.7,Gg CO2e,2035,found,'755.7' on p.25
+HON,targets_HON.csv,HON-T016,HON-01,p.25,503.8,Gg CO2e,2030,found,'503.8' on p.25
+HON,targets_HON.csv,HON-T017,HON-01,p.25,755.7,Gg CO2e,2035,found,'755.7' on p.25
+HON,targets_HON.csv,HON-T018,HON-01,p.26,70,percent,2030,found,'70' on p.26
+HON,targets_HON.csv,HON-T019,HON-01,p.26,70,percent,2035,found,'70' on p.26
+HON,targets_HON.csv,HON-T020,HON-01,p.26,3.4,kWh/USD,2030,found,'3.4' on p.26
+HON,targets_HON.csv,HON-T021,HON-01,p.26,4,kWh/USD,2035,found,'4' on p.26
+HON,targets_HON.csv,HON-T022,HON-01,p.26,3,percentage points,2030,found,'3.0' on p.26
+HON,targets_HON.csv,HON-T023,HON-01,p.26,5,percentage points,2035,found,'5' on p.26
+HON,targets_HON.csv,HON-T024,HON-01,p.27,5,percent,2030,found,'5' on p.27
+HON,targets_HON.csv,HON-T025,HON-01,p.27,39,percent reduction,2030,found,'39' on p.27
+HON,targets_HON.csv,HON-T026,HON-01,p.27,3,percent of fleet,2030,found,'3' on p.27
+HON,targets_HON.csv,HON-T027,HON-01,p.27,7.5,percent of fleet,2035,found,'7.5' on p.27
+HON,targets_HON.csv,HON-T028,HON-01,p.27,20,percent,2035,found,'20' on p.27
+HON,targets_HON.csv,HON-T029,HON-01,p.27,15,percent,2035,found,'15' on p.27
+HON,targets_HON.csv,HON-T030,HON-01,p.27,,,2030,no_value,value not numeric
+HON,targets_HON.csv,HON-T031,HON-01,p.28,7.4,percentage points,2030,found,'7.4' on p.28
+HON,targets_HON.csv,HON-T032,HON-01,p.28,8.5,percentage points,2035,found,'8.5' on p.28
+HON,targets_HON.csv,HON-T033,HON-01,p.28,90,percent of baseline,2029,found,'90' on p.28
+HON,targets_HON.csv,HON-T034,HON-01,p.28,70,percent of baseline,2035,found,'70' on p.28
+HON,targets_HON.csv,HON-T035,HON-01,p.29,20,percent of farms,2035,found,'20' on p.29
+HON,targets_HON.csv,HON-T036,HON-01,p.29,2100,Gg CO2e,2035,found,'2100' on p.29
+HON,targets_HON.csv,HON-T037,HON-01,p.29,3300,farms,2035,found,"'3,300' on p.29"
+HON,targets_HON.csv,HON-T038,HON-01,p.29,3300,farms,2035,found,"'3,300' on p.29"
+HON,targets_HON.csv,HON-T039,HON-01,p.29,160,plants,2035,found,'160' on p.29
+HON,targets_HON.csv,HON-T040,HON-01,p.29,80,installations,2035,found,'80' on p.29
+HON,targets_HON.csv,HON-T041,HON-01,p.30,12.7,percent of area,2035,found,'12.7' on p.30
+HON,targets_HON.csv,HON-T042,HON-01,p.30,20,thousand ha,2035,found,'20' on p.30
+HON,targets_HON.csv,HON-T043,HON-01,p.30,1,percent,2030,found,'1' on p.30
+HON,targets_HON.csv,HON-T044,HON-01,p.38,70,percent,2035,found,'70' on p.38
+HON,targets_HON.csv,HON-T045,HON-01,p.31,8,million t of solid waste,2035,found,'8' on p.31
+HON,targets_HON.csv,HON-T046,HON-01,p.31,5,percent,2030,found,'5' on p.31
+HON,targets_HON.csv,HON-T047,HON-01,p.31,10,percent,2035,found,'10' on p.31
+HON,targets_HON.csv,HON-T048,HON-01,p.32,22,percent,2030,found,'22' on p.32
+HON,targets_HON.csv,HON-T049,HON-01,p.32,30,percent,2035,found,'30' on p.32
+HON,targets_HON.csv,HON-T050,HON-01,p.32,3,sites,2030,found,'3' on p.32
+HON,targets_HON.csv,HON-T051,HON-01,p.32,4,sites,2035,found,'4' on p.32
+HON,targets_HON.csv,HON-T052,HON-01,p.32,6,municipalities,2035,found,'6' on p.32
+HON,targets_HON.csv,HON-T053,HON-01,p.32,80,percent of plants,2030,found,'80' on p.32
+HON,targets_HON.csv,HON-T054,HON-01,p.32,90,percent of plants,2035,found,'90' on p.32
+HON,targets_HON.csv,HON-T055,HON-01,p.11,10880,Gg CO2e,2022,found,"'10,880' on p.11"
+HON,targets_HON.csv,HON-T056,HON-01,p.11,21795,Gg CO2e,2022,found,"'21,795' on p.11"
+HON,targets_HON.csv,HON-T057,HON-02,p.3;p.11,16,percent,2030,found,'16' on p.3
+HON,targets_HON.csv,HON-T058,HON-02,p.3;p.6;p.11,214.3,Gg CO2e,2030,found,'214.3' on p.3
+HON,targets_HON.csv,HON-T059,HON-02,p.4;p.11,4845.5,Gg CO2e,2030,found,'4845.5' on p.4
+HON,targets_HON.csv,HON-T060,HON-02,p.5,45535.7,Gg CO2e,2030,found,"'45,535.7' on p.5"
+HON,targets_HON.csv,HON-T061,HON-02,p.3,9,percent,2030,found,'9' on p.3
+HON,targets_HON.csv,HON-T062,HON-03,p.28;p.29,16,percent,2030,found,'16' on p.28
+HON,targets_HON.csv,HON-T063,HON-03,p.30,9,percent,2030,found,'9' on p.30
+HON,targets_HON.csv,HON-T064,HON-03,p.30,5,percent,2030,found,'5' on p.30
+HON,targets_HON.csv,HON-T065,HON-03,p.30,1,percent,2030,found,'1' on p.30
+HON,targets_HON.csv,HON-T066,HON-03,p.30,1,percent,2030,found,'1' on p.30
+HON,targets_HON.csv,HON-T067,HON-03,p.33,20,percent,2030,found,'20' on p.33
+HON,targets_HON.csv,HON-T068,HON-03,p.35,1.3,million ha,2030,found,'1.3' on p.35
+HON,targets_HON.csv,HON-T069,HON-03,p.42;p.43,39,percent reduction,2030,found,'39' on p.42
+HON,targets_HON.csv,HON-T070,HON-04,p.2;p.3,15,percent,2030,found,'15' on p.2
+HON,targets_HON.csv,HON-T071,HON-04,p.2,1,million ha,2030,found,'1' on p.2
+HON,targets_HON.csv,HON-T072,HON-04,p.2,39,percent reduction,2030,found,'39' on p.2
+HON,targets_HON.csv,HON-T073,HON-05,p.524,80,percent,2038,found,'80' on p.524
+HON,targets_HON.csv,HON-T074,HON-05,p.525,15,percent of baseline,2030,found,'15' on p.525
+HON,targets_HON.csv,HON-T075,HON-05,p.526,0,percent of baseline,2040,not_found,
+HON,targets_HON.csv,HON-T076,HON-05,p.526,10,percent,2029,found,'10' on p.526
+HON,targets_HON.csv,HON-T077,HON-05,p.526,80,percent,2045,found,'80' on p.526
+HON,targets_HON.csv,HON-T078,HON-05,p.528,800000,stoves,2026,found,"'800,000' on p.528"
+HON,targets_HON.csv,HON-T079,HON-05,p.528,1100000,stoves,2030,found,"'1,100,000' on p.528"
+HON,targets_HON.csv,HON-T080,HON-05,p.529,200000,t CO2e per year,2020,found,"'200,000' on p.529"
+HON,targets_HON.csv,HON-T081,HON-05,p.530,200000,t CO2e per year,not stated,found,"'200,000' on p.530"
+HON,targets_HON.csv,HON-T082,HON-05,p.532,50.6,Mt CO2e,not stated (14 years from 2023),found,'50.6' on p.532
+HON,targets_HON.csv,HON-T083,HON-05,p.552,14819.2,t CO2eq,2030,found,"'14,819.2' on p.552"
+HON,targets_HON.csv,HON-T084,HON-05,p.572,15,percent,2030,found,'15' on p.572
+HON,targets_HON.csv,HON-T085,HON-07,p.79,4,percent,2030,found,'4' on p.79
+HON,targets_HON.csv,HON-T086,HON-07,p.80,50,kt CO2e per year (upper bound),2030,found,'50' on p.80
+HON,targets_HON.csv,HON-T087,HON-07,p.82,110.67,Gg CO2e per year,2030,found,"'110,67' on p.82"
+HON,targets_HON.csv,HON-T088,HON-07,p.83,4448.56,Gg CO2e,2030,found,"'4.448,56' on p.83"
+HON,targets_HON.csv,HON-T089,HON-08,p.83;p.94,76,percent,2030,found,'76' on p.83
+HON,targets_HON.csv,HON-T090,HON-08,p.83,71,percent,2035,found,'71' on p.83
+HON,targets_HON.csv,HON-T091,HON-08,p.12;p.89;p.93,1796.24,MW,2035,found,"'1,796.24' on p.12"
+HON,targets_HON.csv,HON-T092,HON-08,p.12;p.89;p.93,1285,MW,2035,found,"'1,285' on p.12"
+HON,targets_HON.csv,HON-T093,HON-08,p.12;p.89;p.93,215,MW,2035,found,'215' on p.12
+HON,targets_HON.csv,HON-T094,HON-08,p.9;p.34;p.35,1342.62,MW,2035,found,"'1,342.62' on p.9"
+HON,targets_HON.csv,HON-T095,HON-08,p.82,250,MW,2029,found,'250' on p.82
+HON,targets_HON.csv,HON-T096,HON-08,p.82,105,MW,2029,found,'105' on p.82
+HON,targets_HON.csv,HON-T097,HON-08,p.90;p.94,49,percent,2030,found,'49' on p.90
+HON,targets_HON.csv,HON-T098,HON-08,p.90;p.94,33,percent,2035,found,'33' on p.90
+HON,targets_HON.csv,HON-T099,HON-08,p.90,20,percent,2030,found,'20' on p.90
+HON,targets_HON.csv,HON-T100,HON-08,p.54,15455.28,GWh,2030,found,"'15,455.28' on p.54"
+HON,targets_HON.csv,HON-T101,HON-08,p.54,18108.55,GWh,2035,found,"'18,108.55' on p.54"
+HON,projections_HON.csv,line2,HON-01,p.24,6481,Gg CO2e,2021,found,"'6,481' on p.24"
+HON,projections_HON.csv,line3,HON-01,p.24,9517,Gg CO2e,2021,found,"'9,517' on p.24"
+HON,projections_HON.csv,line4,HON-01,p.24,2183,Gg CO2e,2021,found,"'2,183' on p.24"
+HON,projections_HON.csv,line5,HON-01,p.24,2582,Gg CO2e,2021,found,"'2,582' on p.24"
+HON,projections_HON.csv,line6,HON-01,p.24,29815,Gg CO2e,2021,found,"'29,815' on p.24"
+HON,projections_HON.csv,line7,HON-01,p.24,27621,Gg CO2e (removal),2021,found,"'27,621' on p.24"
+HON,projections_HON.csv,line8,HON-01,p.24,2194,Gg CO2e,2021,found,"'2,194' on p.24"
+HON,projections_HON.csv,line9,HON-01,p.24,22958,Gg CO2e,2021,found,"'22,958' on p.24"
+HON,projections_HON.csv,line10,HON-01,p.24,6530,Gg CO2e,2022,found,"'6,530' on p.24"
+HON,projections_HON.csv,line11,HON-01,p.24,9477,Gg CO2e,2022,found,"'9,477' on p.24"
+HON,projections_HON.csv,line12,HON-01,p.24,2281,Gg CO2e,2022,found,"'2,281' on p.24"
+HON,projections_HON.csv,line13,HON-01,p.24,2648,Gg CO2e,2022,found,"'2,648' on p.24"
+HON,projections_HON.csv,line14,HON-01,p.24,31779,Gg CO2e,2022,found,"'31,779' on p.24"
+HON,projections_HON.csv,line15,HON-01,p.24,26710,Gg CO2e (removal),2022,found,"'26,710' on p.24"
+HON,projections_HON.csv,line16,HON-01,p.24,5069,Gg CO2e,2022,found,"'5,069' on p.24"
+HON,projections_HON.csv,line17,HON-01,p.24,26005,Gg CO2e,2022,found,"'26,005' on p.24"
+HON,projections_HON.csv,line18,HON-01,p.24,6579,Gg CO2e,2023,found,"'6,579' on p.24"
+HON,projections_HON.csv,line19,HON-01,p.24,9438,Gg CO2e,2023,found,"'9,438' on p.24"
+HON,projections_HON.csv,line20,HON-01,p.24,2378,Gg CO2e,2023,found,"'2,378' on p.24"
+HON,projections_HON.csv,line21,HON-01,p.24,2713,Gg CO2e,2023,found,"'2,713' on p.24"
+HON,projections_HON.csv,line22,HON-01,p.24,33742,Gg CO2e,2023,found,"'33,742' on p.24"
+HON,projections_HON.csv,line23,HON-01,p.24,25799,Gg CO2e (removal),2023,found,"'25,799' on p.24"
+HON,projections_HON.csv,line24,HON-01,p.24,7943,Gg CO2e,2023,found,"'7,943' on p.24"
+HON,projections_HON.csv,line25,HON-01,p.24,29052,Gg CO2e,2023,found,"'29,052' on p.24"
+HON,projections_HON.csv,line26,HON-01,p.24,6629,Gg CO2e,2024,found,"'6,629' on p.24"
+HON,projections_HON.csv,line27,HON-01,p.24,9398,Gg CO2e,2024,found,"'9,398' on p.24"
+HON,projections_HON.csv,line28,HON-01,p.24,2476,Gg CO2e,2024,found,"'2,476' on p.24"
+HON,projections_HON.csv,line29,HON-01,p.24,2779,Gg CO2e,2024,found,"'2,779' on p.24"
+HON,projections_HON.csv,line30,HON-01,p.24,35706,Gg CO2e,2024,found,"'35,706' on p.24"
+HON,projections_HON.csv,line31,HON-01,p.24,24889,Gg CO2e (removal),2024,found,"'24,889' on p.24"
+HON,projections_HON.csv,line32,HON-01,p.24,10817,Gg CO2e,2024,found,"'10,817' on p.24"
+HON,projections_HON.csv,line33,HON-01,p.24,32099,Gg CO2e,2024,found,"'32,099' on p.24"
+HON,projections_HON.csv,line34,HON-01,p.24,6678,Gg CO2e,2025,found,"'6,678' on p.24"
+HON,projections_HON.csv,line35,HON-01,p.24,9359,Gg CO2e,2025,found,"'9,359' on p.24"
+HON,projections_HON.csv,line36,HON-01,p.24,2574,Gg CO2e,2025,found,"'2,574' on p.24"
+HON,projections_HON.csv,line37,HON-01,p.24,2845,Gg CO2e,2025,found,"'2,845' on p.24"
+HON,projections_HON.csv,line38,HON-01,p.24,37669,Gg CO2e,2025,found,"'37,669' on p.24"
+HON,projections_HON.csv,line39,HON-01,p.24,23978,Gg CO2e (removal),2025,found,"'23,978' on p.24"
+HON,projections_HON.csv,line40,HON-01,p.24,13691,Gg CO2e,2025,found,"'13,691' on p.24"
+HON,projections_HON.csv,line41,HON-01,p.24,35146,Gg CO2e,2025,found,"'35,146' on p.24"
+HON,projections_HON.csv,line42,HON-01,p.24,6727,Gg CO2e,2026,found,"'6,727' on p.24"
+HON,projections_HON.csv,line43,HON-01,p.24,9319,Gg CO2e,2026,found,"'9,319' on p.24"
+HON,projections_HON.csv,line44,HON-01,p.24,2671,Gg CO2e,2026,found,"'2,671' on p.24"
+HON,projections_HON.csv,line45,HON-01,p.24,2910,Gg CO2e,2026,found,"'2,910' on p.24"
+HON,projections_HON.csv,line46,HON-01,p.24,39633,Gg CO2e,2026,found,"'39,633' on p.24"
+HON,projections_HON.csv,line47,HON-01,p.24,23067,Gg CO2e (removal),2026,found,"'23,067' on p.24"
+HON,projections_HON.csv,line48,HON-01,p.24,16565,Gg CO2e,2026,found,"'16,565' on p.24"
+HON,projections_HON.csv,line49,HON-01,p.24,38193,Gg CO2e,2026,found,"'38,193' on p.24"
+HON,projections_HON.csv,line50,HON-01,p.24,6776,Gg CO2e,2027,found,"'6,776' on p.24"
+HON,projections_HON.csv,line51,HON-01,p.24,9280,Gg CO2e,2027,found,"'9,280' on p.24"
+HON,projections_HON.csv,line52,HON-01,p.24,2769,Gg CO2e,2027,found,"'2,769' on p.24"
+HON,projections_HON.csv,line53,HON-01,p.24,2976,Gg CO2e,2027,found,"'2,976' on p.24"
+HON,projections_HON.csv,line54,HON-01,p.24,41596,Gg CO2e,2027,found,"'41,596' on p.24"
+HON,projections_HON.csv,line55,HON-01,p.24,22157,Gg CO2e (removal),2027,found,"'22,157' on p.24"
+HON,projections_HON.csv,line56,HON-01,p.24,19439,Gg CO2e,2027,found,"'19,439' on p.24"
+HON,projections_HON.csv,line57,HON-01,p.24,41240,Gg CO2e,2027,found,"'41,240' on p.24"
+HON,projections_HON.csv,line58,HON-01,p.24,6825,Gg CO2e,2028,found,"'6,825' on p.24"
+HON,projections_HON.csv,line59,HON-01,p.24,9240,Gg CO2e,2028,found,"'9,240' on p.24"
+HON,projections_HON.csv,line60,HON-01,p.24,2867,Gg CO2e,2028,found,"'2,867' on p.24"
+HON,projections_HON.csv,line61,HON-01,p.24,3042,Gg CO2e,2028,found,"'3,042' on p.24"
+HON,projections_HON.csv,line62,HON-01,p.24,43559,Gg CO2e,2028,found,"'43,559' on p.24"
+HON,projections_HON.csv,line63,HON-01,p.24,21246,Gg CO2e (removal),2028,found,"'21,246' on p.24"
+HON,projections_HON.csv,line64,HON-01,p.24,22313,Gg CO2e,2028,found,"'22,313' on p.24"
+HON,projections_HON.csv,line65,HON-01,p.24,44287,Gg CO2e,2028,found,"'44,287' on p.24"
+HON,projections_HON.csv,line66,HON-01,p.24,6874,Gg CO2e,2029,found,"'6,874' on p.24"
+HON,projections_HON.csv,line67,HON-01,p.24,9201,Gg CO2e,2029,found,"'9,201' on p.24"
+HON,projections_HON.csv,line68,HON-01,p.24,2964,Gg CO2e,2029,found,"'2,964' on p.24"
+HON,projections_HON.csv,line69,HON-01,p.24,3107,Gg CO2e,2029,found,"'3,107' on p.24"
+HON,projections_HON.csv,line70,HON-01,p.24,45523,Gg CO2e,2029,found,"'45,523' on p.24"
+HON,projections_HON.csv,line71,HON-01,p.24,20335,Gg CO2e (removal),2029,found,"'20,335' on p.24"
+HON,projections_HON.csv,line72,HON-01,p.24,25188,Gg CO2e,2029,found,"'25,188' on p.24"
+HON,projections_HON.csv,line73,HON-01,p.24,47334,Gg CO2e,2029,found,"'47,334' on p.24"
+HON,projections_HON.csv,line74,HON-01,p.24,6924,Gg CO2e,2030,found,"'6,924' on p.24"
+HON,projections_HON.csv,line75,HON-01,p.24,9161,Gg CO2e,2030,found,"'9,161' on p.24"
+HON,projections_HON.csv,line76,HON-01,p.24,3062,Gg CO2e,2030,found,"'3,062' on p.24"
+HON,projections_HON.csv,line77,HON-01,p.24,3173,Gg CO2e,2030,found,"'3,173' on p.24"
+HON,projections_HON.csv,line78,HON-01,p.24,47486,Gg CO2e,2030,found,"'47,486' on p.24"
+HON,projections_HON.csv,line79,HON-01,p.24,19425,Gg CO2e (removal),2030,found,"'19,425' on p.24"
+HON,projections_HON.csv,line80,HON-01,p.24,28062,Gg CO2e,2030,found,"'28,062' on p.24"
+HON,projections_HON.csv,line81,HON-01,p.24,50381,Gg CO2e,2030,found,"'50,381' on p.24"
+HON,projections_HON.csv,line82,HON-01,p.24,6973,Gg CO2e,2031,found,"'6,973' on p.24"
+HON,projections_HON.csv,line83,HON-01,p.24,9122,Gg CO2e,2031,found,"'9,122' on p.24"
+HON,projections_HON.csv,line84,HON-01,p.24,3160,Gg CO2e,2031,found,"'3,160' on p.24"
+HON,projections_HON.csv,line85,HON-01,p.24,3239,Gg CO2e,2031,found,"'3,239' on p.24"
+HON,projections_HON.csv,line86,HON-01,p.24,49450,Gg CO2e,2031,found,"'49,450' on p.24"
+HON,projections_HON.csv,line87,HON-01,p.24,18514,Gg CO2e (removal),2031,found,"'18,514' on p.24"
+HON,projections_HON.csv,line88,HON-01,p.24,30936,Gg CO2e,2031,found,"'30,936' on p.24"
+HON,projections_HON.csv,line89,HON-01,p.24,53428,Gg CO2e,2031,found,"'53,428' on p.24"
+HON,projections_HON.csv,line90,HON-01,p.24,7022,Gg CO2e,2032,found,"'7,022' on p.24"
+HON,projections_HON.csv,line91,HON-01,p.24,9082,Gg CO2e,2032,found,"'9,082' on p.24"
+HON,projections_HON.csv,line92,HON-01,p.24,3257,Gg CO2e,2032,found,"'3,257' on p.24"
+HON,projections_HON.csv,line93,HON-01,p.24,3304,Gg CO2e,2032,found,"'3,304' on p.24"
+HON,projections_HON.csv,line94,HON-01,p.24,51413,Gg CO2e,2032,found,"'51,413' on p.24"
+HON,projections_HON.csv,line95,HON-01,p.24,17603,Gg CO2e (removal),2032,found,"'17,603' on p.24"
+HON,projections_HON.csv,line96,HON-01,p.24,33810,Gg CO2e,2032,found,"'33,810' on p.24"
+HON,projections_HON.csv,line97,HON-01,p.24,56475,Gg CO2e,2032,found,"'56,475' on p.24"
+HON,projections_HON.csv,line98,HON-01,p.24,7071,Gg CO2e,2033,found,"'7,071' on p.24"
+HON,projections_HON.csv,line99,HON-01,p.24,9043,Gg CO2e,2033,found,"'9,043' on p.24"
+HON,projections_HON.csv,line100,HON-01,p.24,3355,Gg CO2e,2033,found,"'3,355' on p.24"
+HON,projections_HON.csv,line101,HON-01,p.24,3370,Gg CO2e,2033,found,"'3,370' on p.24"
+HON,projections_HON.csv,line102,HON-01,p.24,53377,Gg CO2e,2033,found,"'53,377' on p.24"
+HON,projections_HON.csv,line103,HON-01,p.24,16693,Gg CO2e (removal),2033,found,"'16,693' on p.24"
+HON,projections_HON.csv,line104,HON-01,p.24,36684,Gg CO2e,2033,found,"'36,684' on p.24"
+HON,projections_HON.csv,line105,HON-01,p.24,59522,Gg CO2e,2033,found,"'59,522' on p.24"
+HON,projections_HON.csv,line106,HON-01,p.24,7120,Gg CO2e,2034,found,"'7,120' on p.24"
+HON,projections_HON.csv,line107,HON-01,p.24,9003,Gg CO2e,2034,found,"'9,003' on p.24"
+HON,projections_HON.csv,line108,HON-01,p.24,3452,Gg CO2e,2034,found,"'3,452' on p.24"
+HON,projections_HON.csv,line109,HON-01,p.24,3436,Gg CO2e,2034,found,"'3,436' on p.24"
+HON,projections_HON.csv,line110,HON-01,p.24,55340,Gg CO2e,2034,found,"'55,340' on p.24"
+HON,projections_HON.csv,line111,HON-01,p.24,15782,Gg CO2e (removal),2034,found,"'15,782' on p.24"
+HON,projections_HON.csv,line112,HON-01,p.24,39558,Gg CO2e,2034,found,"'39,558' on p.24"
+HON,projections_HON.csv,line113,HON-01,p.24,62570,Gg CO2e,2034,found,"'62,570' on p.24"
+HON,projections_HON.csv,line114,HON-01,p.24,7169,Gg CO2e,2035,found,"'7,169' on p.24"
+HON,projections_HON.csv,line115,HON-01,p.24,8963,Gg CO2e,2035,found,"'8,963' on p.24"
+HON,projections_HON.csv,line116,HON-01,p.24,3550,Gg CO2e,2035,found,"'3,550' on p.24"
+HON,projections_HON.csv,line117,HON-01,p.24,3501,Gg CO2e,2035,found,"'3,501' on p.24"
+HON,projections_HON.csv,line118,HON-01,p.24,57304,Gg CO2e,2035,found,"'57,304' on p.24"
+HON,projections_HON.csv,line119,HON-01,p.24,14871,Gg CO2e (removal),2035,found,"'14,871' on p.24"
+HON,projections_HON.csv,line120,HON-01,p.24,42432,Gg CO2e,2035,found,"'42,432' on p.24"
+HON,projections_HON.csv,line121,HON-01,p.24,65617,Gg CO2e,2035,found,"'65,617' on p.24"
+HON,projections_HON.csv,line122,HON-01,p.25,41816.4,Gg CO2e,2030,found,"'41,816.4' on p.25"
+HON,projections_HON.csv,line123,HON-01,p.25,52769,Gg CO2e,2035,found,"'52,769' on p.25"
+HON,projections_HON.csv,line124,HON-02,p.5,22957.6,Gg CO2e,2021,found,"'22,957.6' on p.5"
+HON,projections_HON.csv,line125,HON-02,p.5,26004.6,Gg CO2e,2022,found,"'26,004.6' on p.5"
+HON,projections_HON.csv,line126,HON-02,p.5,29051.7,Gg CO2e,2023,found,"'29,051.7' on p.5"
+HON,projections_HON.csv,line127,HON-02,p.5,32098.8,Gg CO2e,2024,found,"'32,098.8' on p.5"
+HON,projections_HON.csv,line128,HON-02,p.5,35145.9,Gg CO2e,2025,found,"'35,145.9' on p.5"
+HON,projections_HON.csv,line129,HON-02,p.5,38192.9,Gg CO2e,2026,found,"'38,192.9' on p.5"
+HON,projections_HON.csv,line130,HON-02,p.5,41240.0,Gg CO2e,2027,found,"'41,240.0' on p.5"
+HON,projections_HON.csv,line131,HON-02,p.5,44287.1,Gg CO2e,2028,found,"'44,287.1' on p.5"
+HON,projections_HON.csv,line132,HON-02,p.5,47334.2,Gg CO2e,2029,found,"'47,334.2' on p.5"
+HON,projections_HON.csv,line133,HON-02,p.5,50381.3,Gg CO2e,2030,found,"'50,381.3' on p.5"
+HON,projections_HON.csv,line134,HON-02,p.5,45535.7,Gg CO2e,2030,found,"'45,535.7' on p.5"
+HON,projections_HON.csv,line135,HON-03,p.33,12142,kt CO2e,2030,found,"'12,142' on p.33"
+HON,projections_HON.csv,line136,HON-03,p.33,9734,kt CO2e,2030,found,"'9,734' on p.33"
+HON,projections_HON.csv,line137,HON-03,p.33,9355,kt CO2e,2030,found,"'9,355' on p.33"
+HON,projections_HON.csv,line138,HON-03,p.33,8545,kt CO2e,2030,found,"'8,545' on p.33"
+HON,projections_HON.csv,line139,HON-04,p.3,18915,Gg CO2e,2012,found,'18.915' on p.3
+HON,projections_HON.csv,line140,HON-04,p.3,22027,Gg CO2e,2020,found,'22.027' on p.3
+HON,projections_HON.csv,line141,HON-04,p.3,28922,Gg CO2e,2030,found,'28.922' on p.3
+HON,projections_HON.csv,line142,HON-07,p.86;p.87,10100000,t CO2e per year,2030,found,'10.100.000' on p.86
+HON,projections_HON.csv,line143,HON-08,p.90,10,percent reduction against 2025,2026,found,'10' on p.90
+HON,projections_HON.csv,line144,HON-08,p.90,18,percent reduction against 2025,2027,found,'18' on p.90
+HON,projections_HON.csv,line145,HON-08,p.90,29,percent reduction against 2025,2028,found,'29' on p.90
+HON,projections_HON.csv,line146,HON-08,p.90,40,percent reduction against 2025,2029,found,'40' on p.90
+HON,projections_HON.csv,line147,HON-08,p.90,49,percent reduction against 2025,2030,found,'49' on p.90
+HON,projections_HON.csv,line148,HON-08,p.90,46,percent reduction against 2025,2031,found,'46' on p.90
+HON,projections_HON.csv,line149,HON-08,p.90,39,percent reduction against 2025,2032,found,'39' on p.90
+HON,projections_HON.csv,line150,HON-08,p.90,28,percent reduction against 2025,2033,found,'28' on p.90
+HON,projections_HON.csv,line151,HON-08,p.90,24,percent reduction against 2025,2034,found,'24' on p.90
+HON,projections_HON.csv,line152,HON-08,p.90,33,percent reduction against 2025,2035,found,'33' on p.90

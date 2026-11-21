@@ -1,0 +1,4 @@
+gate,check,result,detail
+E3,every source file exists with matching SHA-256,pass,46 sources; 
+E2,"rows of targets_, projections_, alignment_ have a known source id and a page or table",pass,1406 rows; 0 failing: 
+E4,spot check ends ten of ten for every country,pass,Costa Rica round 1: 10 of 10; Dominican Republic round 1: 10 of 10; Ecuador round 1: 10 of 10; Guatemala round 1: 10 of 10; Honduras round 1: 10 of 10; Jamaica round 1: 10 of 10
