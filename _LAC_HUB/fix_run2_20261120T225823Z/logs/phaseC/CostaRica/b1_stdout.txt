@@ -4,4 +4,3 @@ CostaRica: B1_Base_Scenarios_Adj_Parallel_CostaRica.py exit 0 in 202.2s
   solve: {'data': 'C:\\clw_fix\\CostaRica\\CR_ENERGY\\t1_confection\\Executables\\BAU_0\\BAU_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 116032.8733 (MINimum)', 'seconds': 120.4, 'returncode': 0}
   solve: {'data': 'C:\\clw_fix\\CostaRica\\CR_ENERGY\\t1_confection\\Executables\\LTSOPT_0\\LTSOPT_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 94140.63502 (MINimum)', 'seconds': 119.4, 'returncode': 0}
   solve: {'data': 'C:\\clw_fix\\CostaRica\\CR_ENERGY\\t1_confection\\Executables\\NDCNEW_0\\NDCNEW_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 102925.9518 (MINimum)', 'seconds': 119.2, 'returncode': 0}
-

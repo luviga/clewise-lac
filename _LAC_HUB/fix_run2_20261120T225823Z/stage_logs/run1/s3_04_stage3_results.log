@@ -139,7 +139,7 @@ SHARE VALIDATION vs CONTROLLER
     FAIL DominicanRepublic/LTSNEW/PPPVT/2041: ctrl=0.3184 solver=0.0000 diff=-0.3184
     ... and 878 more (see ShareValidation sheet)
 
-  Full details in ShareValidation sheet — filter by Status column
+  Full details in ShareValidation sheet - filter by Status column
 
 ============================================================
 RE TARGET VALIDATION (total renewable share vs policy)
@@ -170,9 +170,9 @@ RE TARGET VALIDATION (total renewable share vs policy)
   Jamaica                LTSNEW      2035    75.0%    75.0%    +0.0pp PASS
   Jamaica                LTSNEW      2050    99.0%    99.0%    +0.0pp PASS
 
-  BAU renewable share (no target — context only):
+  BAU renewable share (no target - context only):
     CostaRica              2025=89.4%, 2030=89.4%, 2035=89.4%, 2050=89.4%
-    DominicanRepublic      
+    DominicanRepublic
     Ecuador                2025=75.8%, 2030=76.8%, 2035=77.8%, 2050=80.9%
     Guatemala              2025=63.2%, 2030=51.3%, 2035=55.5%, 2050=62.6%
     Honduras               2025=57.5%, 2030=57.0%, 2035=59.0%, 2050=64.7%

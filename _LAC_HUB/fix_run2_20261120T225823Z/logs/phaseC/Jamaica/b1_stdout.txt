@@ -3,4 +3,3 @@ Jamaica: B1_Base_Scenarios_Adj_Parallel_Jamaica.py exit 0 in 224.9s
   solve: {'data': 'C:\\\\clw_fix\\\\Jamaica\\\\JAM_ENERGY\\\\Executables\\\\NDCNEW_0\\NDCNEW_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 61518.86117 (MINimum)', 'seconds': 152.9, 'returncode': 0}
   solve: {'data': 'C:\\\\clw_fix\\\\Jamaica\\\\JAM_ENERGY\\\\Executables\\\\BAU_0\\BAU_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 62847.80493 (MINimum)', 'seconds': 154.7, 'returncode': 0}
   solve: {'data': 'C:\\\\clw_fix\\\\Jamaica\\\\JAM_ENERGY\\\\Executables\\\\LTSNEW_0\\LTSNEW_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 59231.08578 (MINimum)', 'seconds': 155.2, 'returncode': 0}
-

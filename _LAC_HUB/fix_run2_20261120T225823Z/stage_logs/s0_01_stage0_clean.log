@@ -1,5 +1,5 @@
 $ python.exe stage0_clean.py --confirm
-DELETING — 21 items:
+DELETING - 21 items:
 
   [DIR]  _STAGE0_OUTPUT  (3.1 MB)
   [DIR]  CostaRica\CR_ENERGY\t1_confection\Executables\BAU_S0_0  (786.3 MB)

@@ -1,5 +1,5 @@
 scenario           BAU  LTSNEW  NDCNEW
-tech      year                        
+tech      year
 PWRDSL    2022  0.0078  0.0078  0.0078
           2024  0.0949  0.2903  0.2903
 PWRFOI    2023  0.0000  0.1535  0.1535

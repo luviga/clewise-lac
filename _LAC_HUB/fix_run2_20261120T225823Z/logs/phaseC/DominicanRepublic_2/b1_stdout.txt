@@ -3,4 +3,3 @@ DominicanRepublic: B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py exit 0 in
   solve: {'data': 'C:\\\\clw_fix\\\\DominicanRepublic\\\\RD_ENERGY\\\\Executables\\\\BAU_0\\BAU_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 406964.661 (MINimum)', 'seconds': 115.3, 'returncode': 0}
   solve: {'data': 'C:\\\\clw_fix\\\\DominicanRepublic\\\\RD_ENERGY\\\\Executables\\\\LTSNEW_0\\LTSNEW_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 454348.9746 (MINimum)', 'seconds': 118.5, 'returncode': 0}
   solve: {'data': 'C:\\\\clw_fix\\\\DominicanRepublic\\\\RD_ENERGY\\\\Executables\\\\NDCNEW_0\\NDCNEW_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 429883.6048 (MINimum)', 'seconds': 119.6, 'returncode': 0}
-

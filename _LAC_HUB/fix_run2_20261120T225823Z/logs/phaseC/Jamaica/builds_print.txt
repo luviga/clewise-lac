@@ -1,5 +1,5 @@
 scenario         BAU  LTSNEW  NDCNEW
-tech    year                        
+tech    year
 PPDSL   2023  0.0000  0.0000  0.0000
         2024  0.0085  0.0083  0.0083
 PPFOI   2021  0.0000  0.0000  0.0000

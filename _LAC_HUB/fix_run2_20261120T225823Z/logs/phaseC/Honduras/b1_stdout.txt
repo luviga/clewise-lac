@@ -3,4 +3,3 @@ Honduras: B1_Base_Scenarios_Adj_Parallel_Honduras.py exit 0 in 187.7s
   solve: {'data': 'C:\\\\clw_fix\\\\Honduras\\\\HON_ENERGY\\\\Executables\\\\BAU_0\\BAU_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 107299.3164 (MINimum)', 'seconds': 104.0, 'returncode': 0}
   solve: {'data': 'C:\\\\clw_fix\\\\Honduras\\\\HON_ENERGY\\\\Executables\\\\LTSNEW_0\\LTSNEW_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 100348.8839 (MINimum)', 'seconds': 107.2, 'returncode': 0}
   solve: {'data': 'C:\\\\clw_fix\\\\Honduras\\\\HON_ENERGY\\\\Executables\\\\NDCNEW_0\\NDCNEW_0.txt', 'status': 'OPTIMAL', 'objective': 'OFL_Cost = 102894.5246 (MINimum)', 'seconds': 109.3, 'returncode': 0}
-

@@ -5,10 +5,10 @@ check,workbook,ok,bad
 1 targets written,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx,42,0
 2 changes only at listed and dependent cells,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx,0,0
 3 no formula without stored value,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx,0,0
-1 targets written,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,276,0
+1 targets written,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,310,0
 2 changes only at listed and dependent cells,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,312,0
 3 no formula without stored value,DominicanRepublic/RD_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,0,0
-1 targets written,DominicanRepublic/RD_ENERGY/B1_Scenario_Config.xlsx,70,0
+1 targets written,DominicanRepublic/RD_ENERGY/B1_Scenario_Config.xlsx,72,0
 2 changes only at listed and dependent cells,DominicanRepublic/RD_ENERGY/B1_Scenario_Config.xlsx,0,0
 3 no formula without stored value,DominicanRepublic/RD_ENERGY/B1_Scenario_Config.xlsx,0,0
 1 targets written,Ecuador/ECU_Energy/A1_Outputs/A-O_Demand.xlsx,20,0

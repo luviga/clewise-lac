@@ -54,3 +54,6 @@ Restart (session 2, brief v2): 2026-11-21T04:13:53Z, clone at ac903a2 = origin/j
 2026-11-21T07:52:21Z | DS1-DS3 run 2 | done | Stage 0 18/18 OPTIMAL, tests 10/10; DS1 0 lines changed (Guatemala denominators unchanged); Stage 1 13/13; Stage 2 hard 7/7, T8 65, T9 87, T11a 0; Stage 3 tests 10/11 (T4 40 cells); Stage 3 18/18 OPTIMAL; RE targets 24/24; share match 7923 pass, 66 warn, 9 fail
 2026-11-21T07:52:21Z | DS2 gates | done | pass: Ecuador crude (max 0.004 PJ), PPHD 0, Jamaica PPHROR 34.30 MW, Jamaica hydro, final demand history; FAIL: PP history activity CR/DR/ECU, builds CR/DR/ECU/JAM, Guatemala hydro 2029/2041/2043 (Stage 3 5 percent band)
 2026-11-21T07:52:21Z | DS3 results_compare.csv | done | 453 rows
+2026-11-21T08:17:07Z | E (agent) | done | see cross_sector_check.md
+2026-11-21T08:17:07Z | F outputs | done | REPORT, GAPS, CHANGES written; NOTES_WORKING.md folded and deleted; Guatemala overwrite notes reworded without model figures (shares unchanged); write_check PASS on final state
+2026-11-21T08:17:07Z | FS1, FS2 | done | changed paths: six models' A-O/config workbooks and A2/B1 outputs, Guatemala Stage 2 CSV, four stage output folders, job folder; no file over 50 MB; no safesave_tmp; EXCEL.EXE 0; diff --check (cr-at-eol) clean after text normalisation; no em dash in written files; no Co-Authored-By or Generated-with lines

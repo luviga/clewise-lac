@@ -1,5 +1,5 @@
 scenario          BAU  LTSNEW  NDCNEW
-tech     year                        
+tech     year
 PPCRU    2021  0.0000  0.0109  0.0109
          2024  0.0000  0.0000  0.0000
 PPFOI    2021  0.0950  0.0950  0.0950

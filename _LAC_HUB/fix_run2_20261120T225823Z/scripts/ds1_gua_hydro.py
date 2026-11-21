@@ -36,7 +36,7 @@ for i, line in enumerate(lines[1:], start=1):
     share = PJ * W[t] / d * 100.0
     rec['New_Share_Pct'] = f'{share:.6f}'
     rec['Note'] = (f'AMM hydro {PJ:.6f} PJ (2025 observed{", held in 2026" if y == 2026 else ""}) x {W[t]:.6f} ({t} part 40.31:2.84) '
-                   f'/ Stage 0 denominator {d:.4f} PJ ({s} {y})')
+                   f'/ Stage 0 denominator of {s} {y}')
     rec['Rationale'] = ('Decision D8: one sourced hydro path in every scenario; share = sourced hydro PJ / this scenario Stage 0 '
                         'denominator')
     rec['Reference'] = 'AMM Generacion Mensual por Planta 2025 (GM20250101.xlsx), sheet Energia, row 8 PLANTAS HIDROELECTRICAS'
@@ -69,8 +69,8 @@ for i, line in enumerate(lines[1:], start=1):
     k = (100.0 - hyd[(s, y)]) / bnon.New_Share_Pct.sum()
     b0 = float(bnon[bnon.Tech == rec['Tech']].New_Share_Pct.iloc[0])
     rec['New_Share_Pct'] = f'{b0 * k:.6f}'
-    rec['Note'] = (f'Plateau 2024 anchor {b0:g} percent x {k:.6f} (non-hydro plateau shares scaled so that the year sums to 100 '
-                   f'percent with the sourced hydro share, decision D8)')
+    rec['Note'] = (f'Plateau 2024 anchor {b0:g} percent, scaled with the other non-hydro plateau shares so that the year sums '
+                   f'to 100 percent with the sourced hydro share (decision D8)')
     buf = io.StringIO()
     csv.writer(buf, lineterminator='').writerow([rec[h] for h in hdr])
     if lines[i] != buf.getvalue():

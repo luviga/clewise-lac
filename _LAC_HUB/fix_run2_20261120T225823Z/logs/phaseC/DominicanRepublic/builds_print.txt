@@ -1,5 +1,5 @@
 scenario             BAU  LTSNEW  NDCNEW
-tech        year                        
+tech        year
 PPAFOI      2018  0.0334  0.0276  0.0276
             2022  0.0226  0.0221  0.0221
             2024  0.0000  0.0065  0.0065

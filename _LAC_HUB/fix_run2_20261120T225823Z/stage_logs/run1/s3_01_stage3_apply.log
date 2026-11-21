@@ -406,25 +406,25 @@ SUMMARY
   Written: C:\clw_fix\Jamaica\JAM_ENERGY\Executables\LTSNEW_FINAL_0\LTSNEW_FINAL_0.txt
 
 ------------------------------------------------------------
-Tag                                 Status     Lower      Upper     
+Tag                                 Status     Lower      Upper
 ------------------------------------------------------------
-CostaRica/BAU                       OK         208        390       
-CostaRica/NDCNEW                    OK         208        390       
-CostaRica/LTSNEW                    OK         208        390       
-DominicanRepublic/BAU               OK         520        702       
-DominicanRepublic/NDCNEW            OK         520        754       
-DominicanRepublic/LTSNEW            OK         520        754       
-Ecuador/BAU                         OK         726        804       
-Ecuador/NDCNEW                      OK         726        858       
-Ecuador/LTSNEW                      OK         726        858       
-Guatemala/BAU                       OK         352        364       
-Guatemala/NDCNEW                    OK         354        364       
-Guatemala/LTSNEW                    OK         354        364       
-Honduras/BAU                        OK         312        468       
-Honduras/NDCNEW                     OK         312        520       
-Honduras/LTSNEW                     OK         311        520       
-Jamaica/BAU                         OK         246        465       
-Jamaica/NDCNEW                      OK         246        465       
-Jamaica/LTSNEW                      OK         246        465       
+CostaRica/BAU                       OK         208        390
+CostaRica/NDCNEW                    OK         208        390
+CostaRica/LTSNEW                    OK         208        390
+DominicanRepublic/BAU               OK         520        702
+DominicanRepublic/NDCNEW            OK         520        754
+DominicanRepublic/LTSNEW            OK         520        754
+Ecuador/BAU                         OK         726        804
+Ecuador/NDCNEW                      OK         726        858
+Ecuador/LTSNEW                      OK         726        858
+Guatemala/BAU                       OK         352        364
+Guatemala/NDCNEW                    OK         354        364
+Guatemala/LTSNEW                    OK         354        364
+Honduras/BAU                        OK         312        468
+Honduras/NDCNEW                     OK         312        520
+Honduras/LTSNEW                     OK         311        520
+Jamaica/BAU                         OK         246        465
+Jamaica/NDCNEW                      OK         246        465
+Jamaica/LTSNEW                      OK         246        465
 
 Total: 18 OK, 0 skipped, 0 errors

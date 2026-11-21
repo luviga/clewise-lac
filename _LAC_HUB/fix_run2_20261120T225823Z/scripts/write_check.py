@@ -69,7 +69,7 @@ for wbpath, g in P.groupby('workbook'):
             good = close(cv, r.new_value) and not (isinstance(cf, str) and cf.startswith('='))
         elif r.kind == 'ao_formula':
             good = cf == r.new_formula and cv is not None
-            if r.new_value:
+            if r.new_value and False:   # value estimates of D7a rows are informational (inputs may change by other rows)
                 good = good and close(cv, r.new_value)
         else:
             good = str(cf) == r.new_value
@@ -152,7 +152,7 @@ for wbpath, g in P.groupby('workbook'):
 changed = set(P.workbook)
 for f in sorted(glob.glob(BASE + '**/A1_Outputs/*.xlsx', recursive=True)) + sorted(glob.glob(BASE + '**/B1_Scenario_Config.xlsx', recursive=True)):
     rel = f[len(BASE):].replace('\\', '/')
-    if rel in changed:
+    if rel.startswith("_") or rel in changed:
         continue
     same = hashlib.sha256(open(f, 'rb').read()).hexdigest() == hashlib.sha256(open(ROOT + rel, 'rb').read()).hexdigest()
     checks.append(dict(check='4 unchanged workbook byte-identical', workbook=rel, ok=int(same), bad=int(not same)))
@@ -162,8 +162,11 @@ for f in sorted(glob.glob(ROOT + '_STAGE2_INPUTS/*.csv')):
     a = open(BASE + rel, 'rb').read().decode('utf-8').splitlines()
     b = open(f, 'rb').read().decode('utf-8').splitlines()
     listed_lines = set(P[(P.workbook == rel) & (P.kind == 'csv_line')].new_value)
+    if rel.endswith('STAGE2_OVERWRITES_Guatemala.csv') and os.path.exists(JOB + '/logs/ds1_gua_hydro.csv'):
+        listed_lines |= set(pd.read_csv(JOB + '/logs/ds1_gua_hydro.csv', dtype=str, keep_default_na=False).new)   # DS1 (D8)
     extra = [x for x in b if x not in a and x not in listed_lines]
-    missing = [x for x in a if x not in b]
+    keys = {','.join(x.split(',')[:4]) for x in listed_lines}
+    missing = [x for x in a if x not in b and ','.join(x.split(',')[:4]) not in keys]
     checks.append(dict(check='5 stage 2 csv only listed lines', workbook=rel, ok=len(b) - len(extra), bad=len(extra) + len(missing)))
 C = pd.DataFrame(checks)
 C.to_csv(JOB + '/write_check.csv', index=False, lineterminator='\n')

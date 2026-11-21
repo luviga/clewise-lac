@@ -3,4 +3,3 @@ Guatemala: B1_Base_Scenarios_Adj_Parallel_Guatemala.py exit 0 in 289.6s
   solve: {'data': 'C:\\\\clw_fix\\\\Guatemala\\\\GUA_ENERGY\\\\Executables\\\\BAU_0\\BAU_0.txt', 'status': 'OPTIMAL', 'objective': 'cost = 358792.3415 (MINimum)', 'seconds': 80.1, 'returncode': 0}
   solve: {'data': 'C:\\\\clw_fix\\\\Guatemala\\\\GUA_ENERGY\\\\Executables\\\\NDCNEW_0\\NDCNEW_0.txt', 'status': 'OPTIMAL', 'objective': 'cost = 347686.9608 (MINimum)', 'seconds': 82.1, 'returncode': 0}
   solve: {'data': 'C:\\\\clw_fix\\\\Guatemala\\\\GUA_ENERGY\\\\Executables\\\\LTSNEW_0\\LTSNEW_0.txt', 'status': 'OPTIMAL', 'objective': 'cost = 345645.0731 (MINimum)', 'seconds': 83.0, 'returncode': 0}
-
