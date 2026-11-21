@@ -2,6 +2,7 @@
 'after' columns of history_builds.csv. Reads _STAGE3_RESULTS/stage3_results.xlsx (new) and the base snapshot's copy.
 Run: py -I scripts/fix_checks2.py <stage2_test_log>"""
 import json, re, sys
+sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 import openpyxl
 import pandas as pd
 

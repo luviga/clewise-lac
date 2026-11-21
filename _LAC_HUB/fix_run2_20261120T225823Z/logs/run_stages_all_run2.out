@@ -1,0 +1,53 @@
+{"stage": "0", "step": 1, "name": "stage0_clean", "start_utc": "2026-11-21T07:00:42Z", "seconds": 0.3, "exit": 0, "log": "s0_01_stage0_clean.log"}
+{"stage": "0", "step": 2, "name": "stage0_run", "start_utc": "2026-11-21T07:00:42Z", "seconds": 0.9, "exit": 0, "log": "s0_02_stage0_run.log"}
+{"stage": "0", "step": 3, "name": "stage0_run_all", "start_utc": "2026-11-21T07:00:43Z", "seconds": 1174.6, "exit": 0, "log": "s0_03_stage0_run_all.log"}
+{"stage": "0", "step": 4, "name": "stage0_collect_outputs", "start_utc": "2026-11-21T07:20:17Z", "seconds": 152.0, "exit": 0, "log": "s0_04_stage0_collect_outputs.log"}
+{"stage": "0", "step": 5, "name": "stage0_capacity_check", "start_utc": "2026-11-21T07:22:49Z", "seconds": 1.8, "exit": 0, "log": "s0_05_stage0_capacity_check.log"}
+{"stage": "0", "step": 6, "name": "stage0_recommend_shares", "start_utc": "2026-11-21T07:22:51Z", "seconds": 0.7, "exit": 0, "log": "s0_06_stage0_recommend_shares.log"}
+{"stage": "0", "step": 7, "name": "stage0_test", "start_utc": "2026-11-21T07:22:52Z", "seconds": 0.5, "exit": 0, "log": "s0_07_stage0_test.log"}
+CostaRica BAU OPTIMAL OFL_Cost = 107104.5215 (MINimum) 783007335
+CostaRica NDCNEW OPTIMAL OFL_Cost = 93848.07579 (MINimum) 783005650
+CostaRica LTSNEW OPTIMAL OFL_Cost = 88584.59225 (MINimum) 783033582
+DominicanRepublic BAU OPTIMAL OFL_Cost = 371543.8506 (MINimum) 999344102
+DominicanRepublic NDCNEW OPTIMAL OFL_Cost = 419671.6665 (MINimum) 999434265
+DominicanRepublic LTSNEW OPTIMAL OFL_Cost = 444944.353 (MINimum) 999434869
+Ecuador BAU OPTIMAL OFL_Cost = 255241.0618 (MINimum) 854125403
+Ecuador NDCNEW OPTIMAL OFL_Cost = 241539.1072 (MINimum) 854125360
+Ecuador LTSNEW OPTIMAL OFL_Cost = 235323.4838 (MINimum) 854125366
+Guatemala BAU OPTIMAL cost = 356773.6192 (MINimum) 645277164
+Guatemala NDCNEW OPTIMAL cost = 343728.8786 (MINimum) 645341546
+Guatemala LTSNEW OPTIMAL cost = 341888.8038 (MINimum) 645349515
+Honduras BAU OPTIMAL OFL_Cost = 99776.13799 (MINimum) 824160591
+Honduras NDCNEW OPTIMAL OFL_Cost = 97309.56729 (MINimum) 824190873
+Honduras LTSNEW OPTIMAL OFL_Cost = 95306.89552 (MINimum) 824188611
+Jamaica BAU OPTIMAL OFL_Cost = 60133.83554 (MINimum) 1359675036
+Jamaica NDCNEW OPTIMAL OFL_Cost = 59091.94615 (MINimum) 1359675416
+Jamaica LTSNEW OPTIMAL OFL_Cost = 57373.50066 (MINimum) 1359668868
+lines changed 0 {('BAU', 2025): 45.9803, ('BAU', 2026): 48.979, ('NDCNEW', 2025): 51.6801, ('NDCNEW', 2026): 55.8979, ('LTSNEW', 2025): 51.6801, ('LTSNEW', 2026): 55.8861}
+{"stage": "1", "step": 1, "name": "stage1_share_analyzer_v16", "start_utc": "2026-11-21T07:22:54Z", "seconds": 2.6, "exit": 0, "log": "s1_01_stage1_share_analyzer_v16.log"}
+{"stage": "1", "step": 2, "name": "stage1_test_v16", "start_utc": "2026-11-21T07:22:57Z", "seconds": 5.9, "exit": 0, "log": "s1_02_stage1_test_v16.log"}
+{"stage": "2", "step": 1, "name": "stage2_apply_v2", "start_utc": "2026-11-21T07:23:03Z", "seconds": 3.6, "exit": 0, "log": "s2_01_stage2_apply_v2.log"}
+{"stage": "2", "step": 2, "name": "stage2_test_v2", "start_utc": "2026-11-21T07:23:06Z", "seconds": 1.1, "exit": 0, "log": "s2_02_stage2_test_v2.log"}
+{"stage": "3", "step": 1, "name": "stage3_apply", "start_utc": "2026-11-21T07:23:08Z", "seconds": 1.8, "exit": 0, "log": "s3_01_stage3_apply.log"}
+{"stage": "3", "step": 2, "name": "stage3_test", "start_utc": "2026-11-21T07:23:09Z", "seconds": 1.3, "exit": 1, "log": "s3_02_stage3_test.log"}
+{"stage": "3", "step": 3, "name": "stage3_run_all", "start_utc": "2026-11-21T07:23:11Z", "seconds": 1190.7, "exit": 0, "log": "s3_03_stage3_run_all.log"}
+{"stage": "3", "step": 4, "name": "stage3_results", "start_utc": "2026-11-21T07:43:01Z", "seconds": 204.5, "exit": 0, "log": "s3_04_stage3_results.log"}
+CostaRica BAU OPTIMAL OFL_Cost = 114537.2847 (MINimum) 783027719
+CostaRica NDCNEW OPTIMAL OFL_Cost = 104231.3004 (MINimum) 783035354
+CostaRica LTSNEW OPTIMAL OFL_Cost = 95511.03799 (MINimum) 783062496
+DominicanRepublic BAU OPTIMAL OFL_Cost = 411688.7579 (MINimum) 999434617
+DominicanRepublic NDCNEW OPTIMAL OFL_Cost = 430947.4136 (MINimum) 999494064
+DominicanRepublic LTSNEW OPTIMAL OFL_Cost = 455181.1777 (MINimum) 999493638
+Ecuador BAU OPTIMAL OFL_Cost = 268341.2784 (MINimum) 854212277
+Ecuador NDCNEW OPTIMAL OFL_Cost = 257974.9215 (MINimum) 854212254
+Ecuador LTSNEW OPTIMAL OFL_Cost = 250736.464 (MINimum) 854212213
+Guatemala BAU OPTIMAL cost = 360931.9209 (MINimum) 645317047
+Guatemala NDCNEW OPTIMAL cost = 347968.8583 (MINimum) 645382890
+Guatemala LTSNEW OPTIMAL cost = 346140.4368 (MINimum) 645392756
+Honduras BAU OPTIMAL OFL_Cost = 104917.6359 (MINimum) 824177029
+Honduras NDCNEW OPTIMAL OFL_Cost = 103142.1113 (MINimum) 824222311
+Honduras LTSNEW OPTIMAL OFL_Cost = 100692.3388 (MINimum) 824221231
+Jamaica BAU OPTIMAL OFL_Cost = 65086.6886 (MINimum) 1359643641
+Jamaica NDCNEW OPTIMAL OFL_Cost = 61614.69871 (MINimum) 1359664191
+Jamaica LTSNEW OPTIMAL OFL_Cost = 59581.54338 (MINimum) 1359664750
+DONE

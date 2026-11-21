@@ -51,3 +51,6 @@ Restart (session 2, brief v2): 2026-11-21T04:13:53Z, clone at ac903a2 = origin/j
 2026-11-21T07:00:51Z | Phase E (agent) | done | cross_sector_check.csv 296 rows, .md; 17 of 18 sector B1 models solve, RD_AFOLU infeasible
 2026-11-21T07:00:51Z | D repair DR | done | test solves (logs/dr_testsolve.jsonl): D7a bands at 0.98 still infeasible; upper pins from 2025 cause it; Stage 0 ran PPDHYD at 74-193 PJ (CF 4.22 after D2f); PPDHYD activity limit written from UN statistics (7-10 GWh), policy history rows aligned; DR A2+B1 rerun OPTIMAL x3; C2 0 unexplained
 2026-11-21T07:00:51Z | DS1-DS4 run 2 (one full rerun of Stages 0-3) | started | run 1 logs moved to stage_logs/run1
+2026-11-21T07:52:21Z | DS1-DS3 run 2 | done | Stage 0 18/18 OPTIMAL, tests 10/10; DS1 0 lines changed (Guatemala denominators unchanged); Stage 1 13/13; Stage 2 hard 7/7, T8 65, T9 87, T11a 0; Stage 3 tests 10/11 (T4 40 cells); Stage 3 18/18 OPTIMAL; RE targets 24/24; share match 7923 pass, 66 warn, 9 fail
+2026-11-21T07:52:21Z | DS2 gates | done | pass: Ecuador crude (max 0.004 PJ), PPHD 0, Jamaica PPHROR 34.30 MW, Jamaica hydro, final demand history; FAIL: PP history activity CR/DR/ECU, builds CR/DR/ECU/JAM, Guatemala hydro 2029/2041/2043 (Stage 3 5 percent band)
+2026-11-21T07:52:21Z | DS3 results_compare.csv | done | 453 rows

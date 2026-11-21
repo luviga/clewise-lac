@@ -1,0 +1,42 @@
+check,country,result,count,note
+history: power-plant activity per technology through 2024 identical across scenarios (0.05 PJ),CostaRica,FAIL,8,max spread 0.1193 PJ
+history: power-plant activity per technology through 2024 identical across scenarios (0.05 PJ),DominicanRepublic,FAIL,25,max spread 0.4211 PJ
+history: power-plant activity per technology through 2024 identical across scenarios (0.05 PJ),Ecuador,FAIL,14,max spread 6.9529 PJ
+history: power-plant activity per technology through 2024 identical across scenarios (0.05 PJ),Guatemala,pass,0,max spread 0.0080 PJ
+history: power-plant activity per technology through 2024 identical across scenarios (0.05 PJ),Honduras,pass,0,max spread 0.0001 PJ
+history: power-plant activity per technology through 2024 identical across scenarios (0.05 PJ),Jamaica,pass,0,max spread 0.0109 PJ
+history: final demand per fuel through 2024 identical across scenarios (0.05 PJ),CostaRica,pass,0,max spread 0.00005 PJ
+history: final demand per fuel through 2024 identical across scenarios (0.05 PJ),DominicanRepublic,pass,0,max spread 0.00005 PJ
+history: final demand per fuel through 2024 identical across scenarios (0.05 PJ),Ecuador,pass,0,max spread 0.00005 PJ
+history: final demand per fuel through 2024 identical across scenarios (0.05 PJ),Guatemala,pass,0,max spread 0.00005 PJ
+history: final demand per fuel through 2024 identical across scenarios (0.05 PJ),Honduras,pass,0,max spread 0.00005 PJ
+history: final demand per fuel through 2024 identical across scenarios (0.05 PJ),Jamaica,pass,0,max spread 0.00005 PJ
+Stage 2 test T11a (log lines),all,info,,  [PASS] T11a_denom_alignment: 0 years with scenario spread >0.5 PJ
+Stage 2 test T9 (log lines),all,info,,  [FAIL] T9_hydro_pj_freeze: 87 violations e.g. Jamaica/BAU 2027: 0.615 > boundary 0.394
+Stage 2 test T8 (log lines),all,info,,  [FAIL] T8_continuity: 65 jumps >5pp e.g. CostaRica/BAU 2023->2024: Δ=0.0804
+history builds: power-plant new capacity 2021-2024 matches history_builds.csv (5 percent or 2 MW),CostaRica,FAIL,5,PWRFOI 0.0745/0.0745/0.0745; PWRGEO 0.0635/0.0609/0.0609; PWRHYDROR 0.0971/0.1061/0.1061; PWRSPVTRN 0.0127/0.0128/0.0128; PWRWNONS 0.0729/0.0678/0.0678
+history builds: power-plant new capacity 2021-2024 matches history_builds.csv (5 percent or 2 MW),DominicanRepublic,FAIL,8,PPAFOI 0.0229/0.0287/0.0287; PPANGS 0.033/0.0358/0.033; PPDGSL 0.0031/0.0035/0.003; PPHDAM 0.0007/0.0076/0.0076; PPICEFOI 0.0775/0.0643/0.0685; PPICEGASFOI 0.0134/0.0134/0.0093; PPPVD 0.1429/0.1429/0.1429; PPPVT 0.4876/0.4876/0.4876
+history builds: power-plant new capacity 2021-2024 matches history_builds.csv (5 percent or 2 MW),Ecuador,FAIL,12,PPCRU 0.0109/0.0109/0.0109; PPHDAMPS 0.0489/0.0489/0.0489; PPHRORAM 0.0171/0.0171/0.0171; PPHRORAS 0.3957/0.4129/0.4259; PPHRORPM 0.3343/0.3352/0.3352; PPIHD 0.0089/0.0093/0.0093; PPNGS 0.117/0.117/0.117; PPPVD 0.1148/0.1148/0.1148; PPPVT 0.0052/0.0053/0.0053; PPRDSL 0.6177/0.5783/0.5483; PPWNDD 0.0023/0.0023/0.0023; PPWNDON 0.032/0.032/0.032
+history builds: power-plant new capacity 2021-2024 matches history_builds.csv (5 percent or 2 MW),Guatemala,pass,0,
+history builds: power-plant new capacity 2021-2024 matches history_builds.csv (5 percent or 2 MW),Jamaica,FAIL,3,PPDSL 0.0085/0.0083/0.0083; PPHDAM 0.0046/0.0039/0.0039; PPNGS 0.0168/0.0168/0.0168
+Ecuador PPHD new capacity 0 in every year and scenario,Ecuador,pass,,sum 0.000000 GW
+"Ecuador crude: extraction + imports - (PROCRU input + exports) within 0.5 PJ, every year and scenario",Ecuador,pass,0,largest |imbalance| 0.004 PJ
+"Ecuador crude imports above 1 percent of production (reported, flagged to GAPS)",Ecuador,info,0,
+"Jamaica PPHROR new capacity at most 34.4 MW over the horizon, none in 2024-2026",Jamaica BAU,pass,,"total 34.30 MW; 2024-2026 0.00 MW; 2027 12.90, 2028 7.10, 2029 11.10, 2031 2.10, 2032 1.10"
+"Jamaica PPHROR new capacity at most 34.4 MW over the horizon, none in 2024-2026",Jamaica NDCNEW,pass,,"total 34.30 MW; 2024-2026 0.00 MW; 2027 12.90, 2028 7.10, 2029 11.10, 2031 2.10, 2032 1.10"
+"Jamaica PPHROR new capacity at most 34.4 MW over the horizon, none in 2024-2026",Jamaica LTSNEW,pass,,"total 34.30 MW; 2024-2026 0.00 MW; 2027 12.90, 2028 7.10, 2029 11.10, 2031 2.10, 2032 1.10"
+Jamaica hydro output identical across scenarios in every year (0.05 PJ),Jamaica,pass,0,max spread 0.0222 PJ
+Guatemala hydro output identical across scenarios in every year (0.05 PJ),Guatemala,FAIL,3,max spread 1.1433 PJ
+"D13: power-plant new capacity over the horizon, before -> after (GW)",CostaRica,info,,BAU 5.371 -> 5.307 (-1.19 percent); NDCNEW 6.908 -> 5.652 (-18.19 percent); LTSNEW 8.609 -> 6.791 (-21.12 percent)
+"D13: power-plant new capacity over the horizon, before -> after (GW)",DominicanRepublic,info,,BAU 22.761 -> 21.672 (-4.79 percent); NDCNEW 29.208 -> 27.884 (-4.53 percent); LTSNEW 40.494 -> 39.101 (-3.44 percent)
+"D13: power-plant new capacity over the horizon, before -> after (GW)",Ecuador,info,,BAU 592.854 -> 16.891 (-97.15 percent); NDCNEW 592.237 -> 16.265 (-97.25 percent); LTSNEW 599.954 -> 23.183 (-96.14 percent)
+"D13: power-plant new capacity over the horizon, before -> after (GW)",Guatemala,info,,BAU 7.537 -> 7.541 (+0.06 percent); NDCNEW 10.971 -> 11.156 (+1.69 percent); LTSNEW 26.190 -> 26.270 (+0.30 percent)
+"D13: power-plant new capacity over the horizon, before -> after (GW)",Honduras,info,,BAU 7.507 -> 7.446 (-0.81 percent); NDCNEW 9.899 -> 9.821 (-0.78 percent); LTSNEW 16.363 -> 16.248 (-0.70 percent)
+"D13: power-plant new capacity over the horizon, before -> after (GW)",Jamaica,info,,BAU 1.348 -> 1.332 (-1.12 percent); NDCNEW 3.503 -> 3.474 (-0.82 percent); LTSNEW 5.517 -> 5.478 (-0.72 percent)
+"Ecuador ELE_TRANS new capacity 2021-2050 and undiscounted capital, before -> after",Ecuador BAU,info,,"capacity 3445.5 -> 140.3; capital 98,786 -> 4,022 MUSD"
+"Ecuador ELE_TRANS new capacity 2021-2050 and undiscounted capital, before -> after",Ecuador NDCNEW,info,,"capacity 3424.4 -> 138.6; capital 98,181 -> 3,973 MUSD"
+"Ecuador ELE_TRANS new capacity 2021-2050 and undiscounted capital, before -> after",Ecuador LTSNEW,info,,"capacity 3505.5 -> 148.6; capital 100,508 -> 4,262 MUSD"
+"Ecuador ELE_DIST new capacity 2021-2050 and undiscounted capital, before -> after",Ecuador BAU,info,,"capacity 3024.2 -> 123.1; capital 173,299 -> 7,056 MUSD"
+"Ecuador ELE_DIST new capacity 2021-2050 and undiscounted capital, before -> after",Ecuador NDCNEW,info,,"capacity 3005.7 -> 121.6; capital 172,238 -> 6,970 MUSD"
+"Ecuador ELE_DIST new capacity 2021-2050 and undiscounted capital, before -> after",Ecuador LTSNEW,info,,"capacity 3076.9 -> 130.5; capital 176,319 -> 7,476 MUSD"
+D7a rows kept at 0.999 / put back to 0.98,"DR, Jamaica, Ecuador",info,,"27 at 0.999 (incl. Ecuador EXTT_CRU), 0 put back"
