@@ -1,0 +1,67 @@
+stage,name,country,value,unit,used_by,description
+all,anchor_year,all,2024,year,stage0_run.py; stage1_share_analyzer_v16.py; stage2_apply_v2.py,last historical year whose plant activity anchors the controller
+all,history_end_year,all,2024,year,stage0_collect_outputs.py; stage0_recommend_shares.py,last historical year of the Stage 0 shares and recommendations
+all,year_header_min,all,2000,year,stage0_run.py; stage3_apply.py,smallest number read as a year in the header row of a data file block
+all,change_tolerance,all,1e-10,PJ or model unit,stage0_run.py; stage3_apply.py; stage3_results.py,smallest change or value treated as different from zero
+0,plateau_end_year,all,2024,year,stage0_run.py,last year kept as is; later years take the anchor value
+all,upper_limit_sentinel,all,9999.0,PJ,stage0_run.py,upper activity limit written for power plants from the year after the anchor (no limit)
+0,bypass_floor_pj,all,0.01,PJ,stage0_run.py,activity cap of a bypass plant without anchor activity or residual capacity
+0,bypass_oversize_ratio,all,2,ratio,stage0_run.py,a bypass plant upper limit above this multiple of its ideal cap is overridden
+0,change_log_digits,all,6,digits,stage0_run.py,rounding of the values written to the Stage 0 change log
+0,status_digits_pj,all,2,digits,stage0_collect_outputs.py,rounding of the minimum and maximum generation in the run status table
+0,digits_pj,all,4,digits,stage0_collect_outputs.py; stage0_capacity_check.py; stage0_recommend_shares.py,rounding of energy values (PJ) and capacities (GW) in Stage 0 tables
+0,digits_pct,all,2,digits,stage0_collect_outputs.py; stage0_capacity_check.py; stage0_recommend_shares.py,rounding of shares (percent) in Stage 0 tables
+0,min_share_generation_pj,all,0.0001,PJ,stage0_collect_outputs.py,smallest plant generation listed in the Stage 0 shares table
+0,report_delta_pct,all,5,percent,stage0_collect_outputs.py,denominator difference above which a row is printed
+0,share_sum_tolerance_pct,all,0.1,percent,stage0_collect_outputs.py; stage0_recommend_shares.py,allowed difference of a share total from 100 percent
+0,close_threshold,all,0.10,fraction,stage0_recommend_shares.py,actual share is close to the lower-limit share below this relative difference
+0,underutil_threshold,all,0.50,fraction,stage0_recommend_shares.py,actual share is much smaller than the capacity share below this ratio
+0,min_share_pct,all,0.01,percent,stage0_recommend_shares.py,smallest share or share total treated as non-zero
+1,share_column,CostaRica,Share_E_Proportional_Pct,column name,stage1_share_analyzer_v16.py,Stage 0 recommended-share column used for the country
+1,share_column,DominicanRepublic,Share_E_Proportional_Pct,column name,stage1_share_analyzer_v16.py,Stage 0 recommended-share column used for the country
+1,share_column,Ecuador,Share_E_Proportional_Pct,column name,stage1_share_analyzer_v16.py,Stage 0 recommended-share column used for the country
+1,share_column,Guatemala,Share_E_Proportional_Pct,column name,stage1_share_analyzer_v16.py,Stage 0 recommended-share column used for the country
+1,share_column,Honduras,Share_E_Proportional_Pct,column name,stage1_share_analyzer_v16.py,Stage 0 recommended-share column used for the country
+1,share_column,Jamaica,Share_E_Proportional_Pct,column name,stage1_share_analyzer_v16.py,Stage 0 recommended-share column used for the country
+all,cutoff_year,all,2026,year,stage1_share_analyzer_v16.py; stage2_apply_v2.py,last year of the plateau; fossil decline starts the year after
+all,plateau_years,all,2025|2026,years,stage1_share_analyzer_v16.py; stage2_apply_v2.py,years held at the anchor shares
+all,fossil_decline_rate,all,0.01,fraction per year,stage1_share_analyzer_v16.py; stage2_apply_v2.py,yearly decline of fossil shares after the cutoff year (BAU rule)
+all,target_hold_year,all,2050,year,stage1_share_analyzer_v16.py; stage2_apply_v2.py,year after which the renewable target is held
+all,upper_security_factor,all,1.05,ratio,stage1_share_analyzer_v16.py; stage2_apply_v2.py,upper limit is at least the lower limit times this factor
+all,zero_tolerance,all,1e-09,share,stage1_share_analyzer_v16.py; stage2_apply_v2.py,smallest share sum treated as non-zero
+1,own_rule_country_names,all,CostaRica|COSTARICA|Costa Rica|Costa_Rica,names,stage1_share_analyzer_v16.py,names of the country with its own rule set (Costa Rica)
+1,renorm_trigger,all,1.001,share,stage1_share_analyzer_v16.py,share total above which shares are scaled back to 1
+1,audit_digits,all,4,digits,stage1_share_analyzer_v16.py,rounding of the values written to the Stage 1 audit table
+1,share_digits,all,6,digits,stage1_share_analyzer_v16.py,rounding of the shares written to the Stage 1 controller
+1,limit_digits,all,4,digits,stage1_share_analyzer_v16.py,rounding of the lower and upper limits written to the Stage 1 controller
+1,summary_years,all,2030|2040|2050,years,stage1_share_analyzer_v16.py,years printed in the Stage 1 summary after the anchor year
+2,own_rule_country_names,all,CostaRica,names,stage2_apply_v2.py,names of the country with its own rule set (Costa Rica)
+2,year_min,all,2018,year,stage2_apply_v2.py,first year read from the Stage 1 controller
+2,year_max,all,2055,year,stage2_apply_v2.py,last year read from the Stage 1 controller
+2,full_override_tolerance,all,0.02,share,stage2_apply_v2.py,an override file year whose shares sum to 1 within this tolerance replaces all shares
+2,mincap_share_tolerance,all,0.0001,share,stage2_apply_v2.py,minimum-capacity share above the current share by more than this lifts the share
+2,renorm_tolerance,all,0.002,share,stage2_apply_v2.py,share total further than this from 1 is renormalised
+2,renorm_check_tolerance,all,0.01,share,stage2_apply_v2.py,share total after renormalisation further than this from 1 is logged
+2,target_match_tolerance,all,0.002,share,stage2_apply_v2.py,renewable share within this of the target needs no rebalancing
+2,sentinel_detect_threshold,all,9990,PJ,stage2_apply_v2.py,a Stage 1 upper limit at or above this is the no-limit sentinel
+2,audit_digits,all,6,digits,stage2_apply_v2.py,rounding of the share sums written to the Stage 2 audit table
+2,limit_digits,all,4,digits,stage2_apply_v2.py,rounding of the lower and upper limits written by Stage 2
+2,share_digits,all,6,digits,stage2_apply_v2.py,rounding of the shares written by Stage 2
+2,trend_start_year,all,2024,year,stage2_apply_v2.py,first year of the printed generation trend
+2,trend_end_year,all,2050,year,stage2_apply_v2.py,last year of the printed generation trend
+2,check_years,all,2024|2026|2030|2050,years,stage2_apply_v2.py,years of the printed share sum check
+2,check_renewable_years,all,2024|2050,years,stage2_apply_v2.py,years of the printed renewable share check
+2,share_check_tolerance,all,0.01,share,stage2_apply_v2.py,share total within this of 1 is printed as OK
+3,first_patch_year,all,2025,year,stage3_apply.py; stage3_results.py,first year whose plant limits Stage 3 replaces with controller values
+3,reserve_margin,all,1.15,ratio,stage3_apply.py,reserve margin written for the generation fuel
+3,lower_to_upper_factor,all,1.05,ratio,stage3_apply.py,upper activity limit = lower limit times this factor
+3,uncapped_value,all,99999.0,PJ or GW,stage3_apply.py,value written for a limit that Stage 3 leaves open
+3,year_header_max,all,2100,year,stage3_apply.py,largest number read as a year in the header row of a data file block
+3,fallback_years_start,all,2021,year,stage3_apply.py,first year used when a data file block header holds no years
+3,fallback_years_stop,all,2051,year,stage3_apply.py,year after the last year used when a data file block header holds no years
+3,max_year_default,all,2050,year,stage3_results.py,last year of the share check when the solver output gives none
+3,share_fail_deviation,all,0.01,share,stage3_results.py,solver share further than this from the controller share fails
+3,share_warn_deviation,all,0.003,share,stage3_results.py,solver share further than this from the controller share warns
+3,emission_print_years,all,2025|2030|2035|2040|2050,years,stage3_results.py,years of the printed emission summary
+3,re_target_tolerance,all,0.02,share,stage3_results.py,renewable share may fall short of the target by this much and pass
+3,re_print_years,all,2025|2030|2035|2050,years,stage3_results.py,years of the printed BAU renewable share

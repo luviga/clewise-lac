@@ -1,0 +1,58 @@
+group,item,technology,emission,country,used_by,description
+externality,1,,Accidents,DominicanRepublic,B1 runner,externality labels of the output tables
+externality,2,,Health,DominicanRepublic,B1 runner,externality labels of the output tables
+externality,3,,Congestion,DominicanRepublic,B1 runner,externality labels of the output tables
+externality,4,,RM,DominicanRepublic,B1 runner,externality labels of the output tables
+externality,5,,FERT_ORG,DominicanRepublic,B1 runner,externality labels of the output tables
+externality,6,,salud_residuos,DominicanRepublic,B1 runner,externality labels of the output tables
+externality,7,,contam_agua,DominicanRepublic,B1 runner,externality labels of the output tables
+externality,8,,turismo_residuos,DominicanRepublic,B1 runner,externality labels of the output tables
+externality,9,,turismo_residuos,DominicanRepublic,B1 runner,externality labels of the output tables
+externality,10,,CONHAB,DominicanRepublic,B1 runner,externality labels of the output tables
+externality,11,,CONTUR,DominicanRepublic,B1 runner,externality labels of the output tables
+externality,12,,CONVAR,DominicanRepublic,B1 runner,externality labels of the output tables
+externality,13,,CONHICK,DominicanRepublic,B1 runner,externality labels of the output tables
+externality,14,,RESHID,DominicanRepublic,B1 runner,externality labels of the output tables
+externality,15,,DAPANI,DominicanRepublic,B1 runner,externality labels of the output tables
+externality,1,,Accidents,Ecuador,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,2,,Health,Ecuador,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,3,,Congestion,Ecuador,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,4,,CONVAR,Ecuador,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,5,,CONHICK,Ecuador,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,6,,REHAB,Ecuador,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,1,,Accidents,Guatemala,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,2,,Health,Guatemala,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,3,,Congestion,Guatemala,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,1,,Accidents,Honduras,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,2,,Health,Honduras,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,3,,Congestion,Honduras,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,4,,CONVAR,Honduras,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,5,,CONHICK,Honduras,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,6,,REHAB,Honduras,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,1,,Accidents,Jamaica,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,2,,Health,Jamaica,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,3,,Congestion,Jamaica,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,4,,CONVAR,Jamaica,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,5,,CONHICK,Jamaica,B1 runner,externality labels whose penalties are discounted in the outputs
+externality,6,,REHAB,Jamaica,B1 runner,externality labels whose penalties are discounted in the outputs
+gasoline_blend,1,T4GSL_LIG,CO2e,Guatemala,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,2,T4GSL_PRI,CO2e,Guatemala,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,3,DIST_GSL,CO2e_sources,Guatemala,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,1,T4GSL_LIG,CO2e,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,2,T4GSL_LIG,CO2,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,3,T4GSL_LIG,CH4,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,4,T4GSL_LIG,N2O,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,5,T4GSL_PRI,CO2e,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,6,T4GSL_PRI,CO2,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,7,T4GSL_PRI,CH4,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,8,T4GSL_PRI,N2O,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,9,T4GSL_PUB,CO2e,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,10,T4GSL_PUB,CO2,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,11,T4GSL_PUB,CH4,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,12,T4GSL_PUB,N2O,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,13,T4GSL_TUR,CO2e,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,14,T4GSL_TUR,CO2,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,15,T4GSL_TUR,CH4,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,16,T4GSL_TUR,N2O,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+gasoline_blend,17,DIST_GSL,CO2e_sources,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
+co2_token,1,,CO2,all,B1 runner,name token of carbon dioxide emissions

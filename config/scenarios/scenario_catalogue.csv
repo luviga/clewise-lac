@@ -1,0 +1,12 @@
+scenario,role,groups,stage0_folder,stage3_folder,description
+BAU,base,in_use,BAU_S0_0,BAU_FINAL_0,business as usual; the base of every comparison
+NDCNEW,ndc,in_use|policy,NDCNEW_S0_0,NDCNEW_FINAL_0,nationally determined contribution scenario run by the pipeline
+LTSNEW,lts,in_use|policy,LTSNEW_S0_0,LTSNEW_FINAL_0,long-term strategy scenario run by the pipeline
+LTSOPT,lts_optimal,costa_rica_b1,,,Costa Rica B1 scenario activated by its B1 configuration; not run by Stages 0 to 3
+NDCcond,older_ndc_conditional,older,,,older name (conditional NDC) still written by A2 compilers and tested by B1 code branches
+NDCincond,older_ndc_unconditional,older,,,older name (unconditional NDC) still written by A2 compilers and tested by B1 code branches
+NDP,older_ndp,older,,,older name (national development plan) still written by A2 compilers and tested by B1 code branches
+NDPAMB,older_ndp_ambitious,older,,,older name (ambitious national development plan) written by the Honduras A2 compiler
+NDCINC,older_ndc_incremental,older,,,older name written by the Ecuador A2 compiler
+LTS,older_lts,older,,,older name (long-term strategy) tested by B1 code branches and blend-share lookups
+NDC,older_ndc,older,,,older name; found in the repository outside the stage pipeline code

@@ -1,0 +1,104 @@
+old_line,value,loader_read
+7,ECU,"LT.country_value(_TC, 'code')"
+8,LTSNEW,LT.scenario('lts')
+10,2025,_TB1['discount_year']
+15,2021,_TB1['first_year']
+16,2050,_TB1['last_year']
+17,2025,_TB1['inflexion_year']
+19,0.0504,_TB1['discount_rate']
+583,3,_TB1['driven_distance_lag_years']
+599,4,_TB1['rounding_digits']
+604,4,_TB1['rounding_digits']
+607,4,_TB1['rounding_digits']
+610,4,_TB1['rounding_digits']
+644,Accidents,"LT.emissions('externality', _TC)"
+644,Health,"LT.emissions('externality', _TC)"
+644,Congestion,"LT.emissions('externality', _TC)"
+644,CONVAR,"LT.emissions('externality', _TC)"
+644,CONHICK,"LT.emissions('externality', _TC)"
+644,REHAB,"LT.emissions('externality', _TC)"
+656,4,_TB1['rounding_digits']
+715,3,_TB1['driven_distance_lag_years']
+740,4,_TB1['rounding_digits']
+760,4,_TB1['rounding_digits']
+780,4,_TB1['rounding_digits']
+800,4,_TB1['rounding_digits']
+1327,BAU,LT.scenario('base')
+1497,BAU,LT.scenario('base')
+1504,4,_TB1['rounding_digits']
+1536,4,_TB1['rounding_digits']
+1540,4,_TB1['rounding_digits']
+1544,4,_TB1['rounding_digits']
+1681,4,_TB1['rounding_digits']
+1682,4,_TB1['rounding_digits']
+2225,Relative reduction to BAU - distance,LT.scenario('base')
+2291,Relative increase to BAU - occupancy rate,LT.scenario('base')
+2350,4,_TB1['rounding_digits']
+2356,BAU,LT.scenario('base')
+2357,BAU,LT.scenario('base')
+2361,4,_TB1['rounding_digits']
+2370,BAU,LT.scenario('base')
+2371,BAU,LT.scenario('base')
+2395,BAU,LT.scenario('base')
+2676,BAU,LT.scenario('base')
+2680,BAU,LT.scenario('base')
+2682,BAU,LT.scenario('base')
+2689,4,_TB1['rounding_digits']
+2690,BAU,LT.scenario('base')
+2716,BAU,LT.scenario('base')
+2719,4,_TB1['rounding_digits']
+2727,4,_TB1['rounding_digits']
+2742,BAU,LT.scenario('base')
+2752,4,_TB1['rounding_digits']
+2758,Techs_Trains,LT.tech('rail_passenger_set')
+2766,4,_TB1['rounding_digits']
+2783,4,_TB1['rounding_digits']
+2792,Techs_Trains,LT.tech('rail_passenger_set')
+2800,4,_TB1['rounding_digits']
+2820,BAU,LT.scenario('base')
+2826,4,_TB1['rounding_digits']
+2850,4,_TB1['rounding_digits']
+2859,Techs_Trains_Freight,LT.tech('rail_freight_set')
+2866,4,_TB1['rounding_digits']
+2910,4,_TB1['rounding_digits']
+3380,BAU,LT.scenario('base')
+3405,E6TDPASPRI,LT.fuel('passenger_private_demand')
+3406,E6TDPASPUB,LT.fuel('passenger_public_demand')
+3407,E6TDFREHEA,LT.fuel('freight_heavy_demand')
+3408,E6TDFRELIG,LT.fuel('freight_light_demand')
+3412,Techs_Trains,LT.tech('rail_passenger_set')
+3417,E6TDPASPUB,LT.fuel('passenger_public_demand')
+3417,BAU,LT.scenario('base')
+3433,4,_TB1['rounding_digits']
+3437,E6TDPASPRI,LT.fuel('passenger_private_demand')
+3438,E6TRNOMOT,LT.fuel('nonmotorised_demand')
+3447,4,_TB1['rounding_digits']
+3452,E6TDPASPUB,LT.fuel('passenger_public_demand')
+3455,E6TDFREHEA,LT.fuel('freight_heavy_demand')
+3458,E6TDFRELIG,LT.fuel('freight_light_demand')
+3479,4,_TB1['rounding_digits']
+3522,4,_TB1['rounding_digits']
+3594,1.01,_TB1['upper_security_factor']
+3596,4,_TB1['rounding_digits']
+3632,9999,_TB1['max_capacity_open']
+3645,9999,_TB1['max_capacity_open']
+3730,BAU,LT.scenario('base')
+3762,2026,_TB1['biodiesel_blend_start']
+3762,1,_TB1['biodiesel_blend_start']
+3763,2030,_TB1['biodiesel_blend_final']
+3763,5,_TB1['biodiesel_blend_final']
+3788,2024,_TB1['ethanol_blend_start']
+3788,9.98,_TB1['ethanol_blend_start']
+3789,2025,_TB1['ethanol_blend_mid']
+3789,9.99,_TB1['ethanol_blend_mid']
+3790,2026,_TB1['ethanol_blend_final']
+3790,10,_TB1['ethanol_blend_final']
+3814,BAU,LT.scenario('base')
+3889,4,_TB1['rounding_digits']
+3914,4,_TB1['rounding_digits']
+3930,IMP,LT.tech('import_token')
+3968,CO2,LT.emission('co2_token')
+4008,CO2,LT.emission('co2_token')
+4017,4,_TB1['rounding_digits']
+4034,CO2,LT.emission('co2_token')
+4074,4,_TB1['rounding_digits']

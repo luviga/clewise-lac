@@ -33,21 +33,17 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 
+import lac_tables as LT
+
 MODELS_LAC_ROOT = "./"
 STAGE0_OUTPUT_DIR = "./_STAGE0_OUTPUT"
 CAU = 31.536  # CapacityToActivityUnit (PJ/GW/yr)
 
-SOURCE_SCENARIOS = ["BAU", "NDCNEW", "LTSNEW"]
-PP_PREFIXES = ("PP", "PWR")
+SOURCE_SCENARIOS = LT.scenarios()
+PP_PREFIXES = tuple(LT.techs("power_plant_prefix"))
 
-COUNTRY_CONFIG = {
-    "CostaRica":         "CR_ENERGY/t1_confection",
-    "DominicanRepublic": "RD_ENERGY",
-    "Ecuador":           "ECU_Energy",
-    "Guatemala":         "GUA_ENERGY",
-    "Honduras":          "HON_ENERGY",
-    "Jamaica":           "JAM_ENERGY",
-}
+# country -> model folder inside the country folder (config/preparation/Config_country_codes.yaml)
+COUNTRY_CONFIG = LT.country_map("model_dir")
 
 
 def is_pp(t):
@@ -221,13 +217,13 @@ def main():
                         "Scenario": scenario,
                         "Technology": tech,
                         "Year": int(yr),
-                        "LowerLimit_PJ": round(lower, 4),
-                        "ProdPotential_PJ": round(prod_potential, 4),
-                        "Actual_PJ": round(actual, 4),
-                        "Total_Gen_PJ": round(total_gen, 4),
-                        "Share_A_LowerLimit_Pct": round(share_a, 2),
-                        "Share_B_Ceiling_Pct": round(share_b, 2),
-                        "Share_C_Actual_Pct": round(share_c, 2),
+                        "LowerLimit_PJ": round(lower, LT.controller("digits_pj", "0")),
+                        "ProdPotential_PJ": round(prod_potential, LT.controller("digits_pj", "0")),
+                        "Actual_PJ": round(actual, LT.controller("digits_pj", "0")),
+                        "Total_Gen_PJ": round(total_gen, LT.controller("digits_pj", "0")),
+                        "Share_A_LowerLimit_Pct": round(share_a, LT.controller("digits_pct", "0")),
+                        "Share_B_Ceiling_Pct": round(share_b, LT.controller("digits_pct", "0")),
+                        "Share_C_Actual_Pct": round(share_c, LT.controller("digits_pct", "0")),
                         "Violation": violation,
                     })
 

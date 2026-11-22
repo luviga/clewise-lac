@@ -1,0 +1,158 @@
+old_line,value,loader_read
+64,CostaRica,"LT.controller_by_country('share_column', '1')"
+65,DominicanRepublic,"LT.controller_by_country('share_column', '1')"
+66,Ecuador,"LT.controller_by_country('share_column', '1')"
+67,Guatemala,"LT.controller_by_country('share_column', '1')"
+68,Honduras,"LT.controller_by_country('share_column', '1')"
+69,Jamaica,"LT.controller_by_country('share_column', '1')"
+64,Share_E_Proportional_Pct,"LT.controller_by_country('share_column', '1')"
+65,Share_E_Proportional_Pct,"LT.controller_by_country('share_column', '1')"
+66,Share_E_Proportional_Pct,"LT.controller_by_country('share_column', '1')"
+67,Share_E_Proportional_Pct,"LT.controller_by_country('share_column', '1')"
+68,Share_E_Proportional_Pct,"LT.controller_by_country('share_column', '1')"
+69,Share_E_Proportional_Pct,"LT.controller_by_country('share_column', '1')"
+74,CostaRica,LT.country_map('model_dir')
+75,DominicanRepublic,LT.country_map('model_dir')
+76,Ecuador,LT.country_map('model_dir')
+77,Guatemala,LT.country_map('model_dir')
+78,Honduras,LT.country_map('model_dir')
+79,Jamaica,LT.country_map('model_dir')
+74,CR_ENERGY/t1_confection,LT.country_map('model_dir')
+75,RD_ENERGY,LT.country_map('model_dir')
+76,ECU_Energy,LT.country_map('model_dir')
+77,GUA_ENERGY,LT.country_map('model_dir')
+78,HON_ENERGY,LT.country_map('model_dir')
+79,JAM_ENERGY,LT.country_map('model_dir')
+83,BAU,LT.scenario('base')
+84,NDCNEW,LT.scenarios('policy')
+84,LTSNEW,LT.scenarios('policy')
+88,2024,LT.controller('anchor_year')
+89,2026,"LT.controller('cutoff_year', '1')"
+90,2025,"LT.controller_list('plateau_years', '1')"
+90,2026,"LT.controller_list('plateau_years', '1')"
+91,0.01,"LT.controller('fossil_decline_rate', '1')"
+94,PP,LT.techs('power_plant_prefix')
+94,PWR,LT.techs('power_plant_prefix')
+98,NDCNEW,LT.scenario_values('renewable_share')
+99,LTSNEW,LT.scenario_values('renewable_share')
+98,2035,LT.scenario_values('renewable_share')
+98,2050,LT.scenario_values('renewable_share')
+98,0.75,LT.scenario_values('renewable_share')
+98,0.75,LT.scenario_values('renewable_share')
+99,2035,LT.scenario_values('renewable_share')
+99,2050,LT.scenario_values('renewable_share')
+99,0.75,LT.scenario_values('renewable_share')
+99,0.99,LT.scenario_values('renewable_share')
+102,CostaRica,LT.scenario_value_overrides('renewable_share')
+106,Ecuador,LT.scenario_value_overrides('renewable_share')
+103,NDCNEW,LT.scenario_value_overrides('renewable_share')
+104,LTSNEW,LT.scenario_value_overrides('renewable_share')
+107,NDCNEW,LT.scenario_value_overrides('renewable_share')
+108,LTSNEW,LT.scenario_value_overrides('renewable_share')
+103,2035,LT.scenario_value_overrides('renewable_share')
+103,2050,LT.scenario_value_overrides('renewable_share')
+103,0.9,LT.scenario_value_overrides('renewable_share')
+103,0.9,LT.scenario_value_overrides('renewable_share')
+104,2035,LT.scenario_value_overrides('renewable_share')
+104,2050,LT.scenario_value_overrides('renewable_share')
+104,0.99,LT.scenario_value_overrides('renewable_share')
+104,0.99,LT.scenario_value_overrides('renewable_share')
+107,2035,LT.scenario_value_overrides('renewable_share')
+107,2050,LT.scenario_value_overrides('renewable_share')
+107,0.8,LT.scenario_value_overrides('renewable_share')
+107,0.8,LT.scenario_value_overrides('renewable_share')
+108,2035,LT.scenario_value_overrides('renewable_share')
+108,2050,LT.scenario_value_overrides('renewable_share')
+108,0.8,LT.scenario_value_overrides('renewable_share')
+108,0.99,LT.scenario_value_overrides('renewable_share')
+111,2050,"LT.controller('target_hold_year', '1')"
+114,9999.0,"LT.controller('upper_limit_sentinel', '1')"
+115,1.05,"LT.controller('upper_security_factor', '1')"
+118,CostaRica,"LT.controller_list('own_rule_country_names', '1')"
+118,COSTARICA,"LT.controller_list('own_rule_country_names', '1')"
+118,Costa Rica,"LT.controller_list('own_rule_country_names', '1')"
+118,Costa_Rica,"LT.controller_list('own_rule_country_names', '1')"
+121,SOL,LT.techs('solar_wind_token')
+121,SUN,LT.techs('solar_wind_token')
+121,SPV,LT.techs('solar_wind_token')
+121,PV,LT.techs('solar_wind_token')
+121,CSP,LT.techs('solar_wind_token')
+122,WND,LT.techs('solar_wind_token')
+122,WIND,LT.techs('solar_wind_token')
+122,WNO,LT.techs('solar_wind_token')
+122,WNS,LT.techs('solar_wind_token')
+125,HYD,LT.techs('hydro_token')
+125,DAM,LT.techs('hydro_token')
+125,ROR,LT.techs('hydro_token')
+125,PPHD,LT.techs('hydro_token')
+125,PPIHD,LT.techs('hydro_token')
+126,GEO,LT.techs('renewable_token')
+126,SOL,LT.techs('renewable_token')
+126,SUN,LT.techs('renewable_token')
+126,SPV,LT.techs('renewable_token')
+126,PV,LT.techs('renewable_token')
+126,CSP,LT.techs('renewable_token')
+127,WND,LT.techs('renewable_token')
+127,WIND,LT.techs('renewable_token')
+127,WNO,LT.techs('renewable_token')
+127,WNS,LT.techs('renewable_token')
+128,BMS,LT.techs('renewable_token')
+128,BIM,LT.techs('renewable_token')
+128,BIO,LT.techs('renewable_token')
+128,BGS,LT.techs('renewable_token')
+128,SUG,LT.techs('renewable_token')
+128,REN,LT.techs('renewable_token')
+129,DSL,LT.techs('fossil_token')
+129,DIE,LT.techs('fossil_token')
+129,FOI,LT.techs('fossil_token')
+129,HFO,LT.techs('fossil_token')
+129,CRU,LT.techs('fossil_token')
+130,COA,LT.techs('fossil_token')
+130,COK,LT.techs('fossil_token')
+130,NGS,LT.techs('fossil_token')
+130,GAS,LT.techs('fossil_token')
+130,GLP,LT.techs('fossil_token')
+130,LPG,LT.techs('fossil_token')
+131,GSL,LT.techs('fossil_token')
+131,KJF,LT.techs('fossil_token')
+131,OIL,LT.techs('fossil_token')
+131,PET,LT.techs('fossil_token')
+131,FOS,LT.techs('fossil_token')
+520,1e-09,LT.controller('zero_tolerance')
+543,1.001,"LT.controller('renorm_trigger', '1')"
+548,1e-09,LT.controller('zero_tolerance')
+554,4,"LT.controller('audit_digits', '1')"
+555,4,"LT.controller('audit_digits', '1')"
+638,1e-09,LT.controller('zero_tolerance')
+662,1e-09,LT.controller('zero_tolerance')
+679,1.001,"LT.controller('renorm_trigger', '1')"
+685,1e-09,LT.controller('zero_tolerance')
+694,BAU_Renewable,LT.scenario('base')
+695,H_BAU,LT.scenario('base')
+697,N_BAU,LT.scenario('base')
+698,F_BAU,LT.scenario('base')
+693,4,"LT.controller('audit_digits', '1')"
+694,4,"LT.controller('audit_digits', '1')"
+695,4,"LT.controller('audit_digits', '1')"
+696,4,"LT.controller('audit_digits', '1')"
+697,4,"LT.controller('audit_digits', '1')"
+698,4,"LT.controller('audit_digits', '1')"
+699,4,"LT.controller('audit_digits', '1')"
+700,4,"LT.controller('audit_digits', '1')"
+701,4,"LT.controller('audit_digits', '1')"
+702,4,"LT.controller('audit_digits', '1')"
+703,4,"LT.controller('audit_digits', '1')"
+750,6,"LT.controller('share_digits', '1')"
+751,4,"LT.controller('limit_digits', '1')"
+752,4,"LT.controller('limit_digits', '1')"
+830,BAU RULE,LT.scenario('base')
+836,  Costa Rica,"LT.country_value(LT.controller_list('own_rule_country_names', '1')[0], 'display_name')"
+836,same rules as other countries (BAU); managed per COUNTRY_TARGET_OVERRIDES (policy),LT.scenario('base')
+839,  NDCNEW,LT.scenario('ndc')
+839,NDCNEW,LT.scenario('ndc')
+840,  LTSNEW,LT.scenario('lts')
+840,LTSNEW,LT.scenario('lts')
+841,  CR overrides,"LT.country_value(LT.controller_list('own_rule_country_names', '1')[0], 'code')"
+841,CostaRica,"LT.controller_list('own_rule_country_names', '1')[0]"
+,"
+",LT.scenario('base')

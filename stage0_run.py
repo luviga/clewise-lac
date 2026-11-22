@@ -25,67 +25,40 @@ from datetime import datetime
 
 import pandas as pd
 
+import lac_tables as LT
+
 # =============================================================================
-# CONFIGURATION
+# CONFIGURATION (values and names from the tables read by lac_tables.py)
 # =============================================================================
 
 MODELS_LAC_ROOT = "./"
 
-SOURCE_SCENARIOS = ["BAU", "NDCNEW", "LTSNEW"]
+SOURCE_SCENARIOS = LT.scenarios()
 SUFFIX = "_S0"
 
-ANCHOR_YEAR = 2024
-PLATEAU_END = 2024  # 2025+ gets set to anchor value (was 2026)
+ANCHOR_YEAR = LT.controller("anchor_year")
+PLATEAU_END = LT.controller("plateau_end_year", "0")  # 2025+ gets set to anchor value (was 2026)
 
-PP_PREFIXES = ("PP", "PWR")  # Must match Stage 1's PWR_PREFIXES
+PP_PREFIXES = tuple(LT.techs("power_plant_prefix"))  # Must match Stage 1's PWR_PREFIXES
 
 # Bypass techs route generation to E3ELE directly, skipping T&D losses.
 # In the relaxed Stage 0 run, the optimizer exploits this to avoid the
 # ~18.5% IAR penalty, collapsing Empirical_Gen toward consumer demand
 # instead of staying at the generation level. Cap these at their 2024
 # activity (hold_at_anchor) so the optimizer can't game the bypass routes.
-BYPASS_TECHS = {
-    "PPWNDD", "PPPVD", "PPPVDS",           # distributed gen → E3ELE
-    "PPHD", "PPIHD",                         # isolated/distributed hydro → E3ELE
-    "PPCRU", "PPDDSL", "PPDFOI", "PPDGSL",  # autoproducers → E3ELE
-    "PPDGLP", "PPDNGS", "PPRDSL", "PPRNGS", # refinery/distributed → E3ELE
-    "PPILPG", "PPIBIM",                      # isolated → E3ELE
-}
+# Distributed gen, isolated/distributed hydro, autoproducers, refinery/distributed and isolated plants
+# (all route to E3ELE): config/scenarios/technology_types.csv, group stage0_bypass.
+BYPASS_TECHS = set(LT.techs("stage0_bypass"))
 
 PARAMS_TO_PATCH = ["TotalTechnologyAnnualActivityLowerLimit"]
 PATCH_UPPER_LIMITS = True  # Set PP-prefix upper limits to 9999 for 2025+
-UPPER_LIMIT_SENTINEL = 9999.0
+UPPER_LIMIT_SENTINEL = LT.controller("upper_limit_sentinel", "0")
 
 OUTPUT_DIR = "./_STAGE0_OUTPUT"
 
-# Confirmed from Codex scan — model dir relative to country root,
-# and path to OSeMOSYS_Model.txt relative to country root.
-COUNTRY_CONFIG = {
-    "CostaRica": {
-        "model_dir": "CR_ENERGY/t1_confection",
-        "osemosys":  "CR_ENERGY/t1_confection/OSeMOSYS_Model.txt",
-    },
-    "DominicanRepublic": {
-        "model_dir": "RD_ENERGY",
-        "osemosys":  "RD_ENERGY/OSeMOSYS_Model.txt",
-    },
-    "Ecuador": {
-        "model_dir": "ECU_Energy",
-        "osemosys":  "ECU_Energy/OSeMOSYS_Model.txt",
-    },
-    "Guatemala": {
-        "model_dir": "GUA_ENERGY",
-        "osemosys":  "GUA_ENERGY/OSeMOSYS_Model.txt",
-    },
-    "Honduras": {
-        "model_dir": "HON_ENERGY",
-        "osemosys":  "HON_ENERGY/OSeMOSYS_Model.txt",
-    },
-    "Jamaica": {
-        "model_dir": "JAM_ENERGY",
-        "osemosys":  "JAM_ENERGY/OSeMOSYS_Model.txt",
-    },
-}
+# Model dir relative to country root, and path to OSeMOSYS_Model.txt relative to country root
+# (config/preparation/Config_country_codes.yaml).
+COUNTRY_CONFIG = LT.country_table("model_dir", "osemosys")
 
 
 # =============================================================================
@@ -128,7 +101,7 @@ def read_param_block_data(txt_path: Path, param_name: str, anchor_year: int):
         if ":=" in stripped and not stripped.startswith("param"):
             parts = stripped.replace(":=", "").strip().split()
             years = [int(p) for p in parts if p.isdigit()]
-            if years and years[0] >= 2000:
+            if years and years[0] >= LT.controller("year_header_min"):
                 year_header = years
                 anchor_col = {y: i for i, y in enumerate(years)}.get(anchor_year)
                 in_data = True
@@ -195,7 +168,7 @@ def inject_upper_limit_rows(txt_path: Path, param_name: str,
         if ":=" in stripped and not stripped.startswith("param"):
             parts = stripped.replace(":=", "").strip().split()
             years = [int(p) for p in parts if p.isdigit()]
-            if years and years[0] >= 2000:
+            if years and years[0] >= LT.controller("year_header_min"):
                 year_header = years
                 break
 
@@ -207,9 +180,9 @@ def inject_upper_limit_rows(txt_path: Path, param_name: str,
     injection_lines = []
     changes = 0
     for tech in sorted(techs_to_add):
-        anchor_val = anchor_values.get(tech, 0.01)
+        anchor_val = anchor_values.get(tech, LT.controller("bypass_floor_pj", "0"))
         if anchor_val <= 0:
-            anchor_val = 0.01  # Must be positive for UL to constrain
+            anchor_val = LT.controller("bypass_floor_pj", "0")  # Must be positive for UL to constrain
 
         values = []
         for year in year_header:
@@ -226,8 +199,8 @@ def inject_upper_limit_rows(txt_path: Path, param_name: str,
                     "Technology": tech,
                     "Year": year,
                     "Original": 0.0,
-                    "Relaxed": round(anchor_val, 6),
-                    "Delta": round(anchor_val, 6),
+                    "Relaxed": round(anchor_val, LT.controller("change_log_digits", "0")),
+                    "Delta": round(anchor_val, LT.controller("change_log_digits", "0")),
                 })
 
         injection_lines.append(tech + " " + " ".join(values))
@@ -313,7 +286,7 @@ def patch_txt_data_file(txt_path: Path, param_name: str,
             parts = stripped.replace(":=", "").strip().split()
             try:
                 years = [int(p) for p in parts if p.isdigit()]
-                if years and years[0] >= 2000:
+                if years and years[0] >= LT.controller("year_header_min"):
                     year_header = years
                     year_indices = {y: i for i, y in enumerate(years)}
                     anchor_col = year_indices.get(anchor_year)
@@ -364,7 +337,7 @@ def patch_txt_data_file(txt_path: Path, param_name: str,
                             else:
                                 new_val = anchor_val
 
-                            if abs(new_val - old_val) > 1e-10:
+                            if abs(new_val - old_val) > LT.controller("change_tolerance"):
                                 if new_val == int(new_val):
                                     new_values[i] = str(int(new_val))
                                 else:
@@ -375,9 +348,9 @@ def patch_txt_data_file(txt_path: Path, param_name: str,
                                     "Parameter": param_name,
                                     "Technology": tech_name,
                                     "Year": year,
-                                    "Original": round(old_val, 6),
-                                    "Relaxed": round(new_val, 6),
-                                    "Delta": round(new_val - old_val, 6),
+                                    "Original": round(old_val, LT.controller("change_log_digits", "0")),
+                                    "Relaxed": round(new_val, LT.controller("change_log_digits", "0")),
+                                    "Delta": round(new_val - old_val, LT.controller("change_log_digits", "0")),
                                 })
 
                     new_line = tech_name + " " + " ".join(new_values)
@@ -544,7 +517,7 @@ def main():
                     elif tech in rc_anchors and rc_anchors[tech] > 0:
                         bypass_ideal_caps[tech] = rc_anchors[tech] * C2A
                     else:
-                        bypass_ideal_caps[tech] = 0.01
+                        bypass_ideal_caps[tech] = LT.controller("bypass_floor_pj", "0")
 
                 # Split bypass techs into missing (need injection) vs
                 # oversized (have a UL row but anchor is way above ideal).
@@ -554,8 +527,8 @@ def main():
                         if tech in ll_anchors or tech in rc_anchors:
                             bypass_missing_from_ul.add(tech)
                     else:
-                        ideal = bypass_ideal_caps.get(tech, 0.01)
-                        if ul_anchors[tech] > ideal * 2:
+                        ideal = bypass_ideal_caps.get(tech, LT.controller("bypass_floor_pj", "0"))
+                        if ul_anchors[tech] > ideal * LT.controller("bypass_oversize_ratio", "0"):
                             bypass_overrides[tech] = ideal
                             log.append(
                                 f"    [OVERRIDE] {tech} UL anchor "

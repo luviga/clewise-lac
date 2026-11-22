@@ -2,6 +2,13 @@
 """
 @author: Luis Victor-Gallardo // 2021
 """
+# Values and names of this script come from the tables read by lac_tables.py (repository root).
+import sys as _LTsys
+from pathlib import Path as _LTPath
+_LTsys.path.insert(0, str(next(p for p in _LTPath(__file__).resolve().parents if (p / 'lac_tables.py').exists())))
+import lac_tables as LT
+_TA2 = LT.stage_values('compilation', LT.country_of(__file__))
+
 import pandas as pd
 import pickle
 import sys
@@ -180,7 +187,7 @@ for g in range( len( groups_list ) ):
             this_param = 'OutputActivityRatio'
             mask = ( this_proj_df_new[ 'Tech' ] == this_tech ) & ( this_proj_df_new[ 'Fuel' ] == output_fuel ) & ( this_proj_df_new[ 'Parameter' ] == this_param )
             if this_proj_df_mode_o == 'Flat':
-                this_proj_df_new.loc[ mask , time_range_vector[y] ] = round( this_df_select_by_fo, 4 )
+                this_proj_df_new.loc[ mask , time_range_vector[y] ] = round( this_df_select_by_fo, _TA2['rounding_digits'] )
             #
             # Filling the data :
             this_mask_index = this_proj_df_new.loc[ mask , time_range_vector[y] ].index.tolist()[0]
@@ -204,15 +211,15 @@ for g in range( len( groups_list ) ):
                     mask = ( this_proj_df_new[ 'Tech' ] == this_tech ) & ( this_proj_df_new[ 'Fuel' ] == this_input_fuel ) & ( this_proj_df_new[ 'Parameter' ] == this_param )
                     ###################################################################################################
                     if this_proj_df_mode_i0 == 'Flat':
-                        this_proj_df_new.loc[ mask , time_range_vector[y] ] = round( this_df_select_by_fi[ inp ], 4 )
+                        this_proj_df_new.loc[ mask , time_range_vector[y] ] = round( this_df_select_by_fi[ inp ], _TA2['rounding_digits'] )
                     if this_proj_df_mode_i0 == 'Yearly percent change':
                         if y == 0:
-                            this_proj_df_new.loc[ mask , time_range_vector[y] ] = round( this_df_select_by_fi[ inp ], 4 ) # round( this_df_select_by_fi[ inp ]*( 1 + this_proj_df_param_i0/100 ), 4 )
+                            this_proj_df_new.loc[ mask , time_range_vector[y] ] = round( this_df_select_by_fi[ inp ], _TA2['rounding_digits'] ) # round( this_df_select_by_fi[ inp ]*( 1 + this_proj_df_param_i0/100 ), 4 )
                         else:
-                            this_proj_df_new.loc[ mask , time_range_vector[y] ] = round( this_proj_df_new.loc[ mask , time_range_vector[y-1] ]*( 1 + this_proj_df_param_i0/100 ), 4 )
+                            this_proj_df_new.loc[ mask , time_range_vector[y] ] = round( this_proj_df_new.loc[ mask , time_range_vector[y-1] ]*( 1 + this_proj_df_param_i0/100 ), _TA2['rounding_digits'] )
                     #
                     if this_proj_df_mode_i0 == 'User defined':
-                        this_proj_df_new.loc[ mask , time_range_vector[y] ] = round( this_proj_df.loc[ mask , time_range_vector[y] ], 4 )
+                        this_proj_df_new.loc[ mask , time_range_vector[y] ] = round( this_proj_df.loc[ mask , time_range_vector[y] ], _TA2['rounding_digits'] )
                     #
                     ###################################################################################################
                     # Filling the data :
@@ -294,13 +301,13 @@ for m in range( len( list_demand_or_share ) ):
                 demand_trajectory.append( demand_trajectory[-1]*( 1 + Projections_sheet['e_Passenger'].tolist()[y]*Projections_sheet['Variation_GDP'].tolist()[y]/100 ) )
             if 'freight' in list_projection_param[m]:
                 demand_trajectory.append( demand_trajectory[-1]*( 1 + Projections_sheet['e_Freight'].tolist()[y]*Projections_sheet['Variation_GDP'].tolist()[y]/100 ) )
-            Demand_df.loc[ m, Projections_sheet['Year'].tolist()[y] ] = round( demand_trajectory[-1]*( this_value_BY/( this_value_BY + other_value_BY ) ), 4 )
+            Demand_df.loc[ m, Projections_sheet['Year'].tolist()[y] ] = round( demand_trajectory[-1]*( this_value_BY/( this_value_BY + other_value_BY ) ), _TA2['rounding_digits'] )
         #
     #
     if 'Flat' == list_projection_mode[m]:
         this_value_BY = Demand_df.loc[ m, 2018 ]
         for y in range( len( Projections_sheet['Year'].tolist() ) ):
-            Demand_df.loc[ m, Projections_sheet['Year'].tolist()[y] ] = round( this_value_BY, 4 )
+            Demand_df.loc[ m, Projections_sheet['Year'].tolist()[y] ] = round( this_value_BY, _TA2['rounding_digits'] )
     #
     if Demand_df['Demand/Share'].tolist()[m] == 'Demand':
         this_fuel = list_fuel_or_tech[m]
@@ -386,7 +393,7 @@ for g in range( len( groups_list ) ):
         for y in range( len( time_range_vector ) ):
             ref_demand_value = Demand_df_new.loc[ closest_demand_index, time_range_vector[y] ]
             target_share = Demand_df.loc[ this_group_tech_index, time_range_vector[y] ]
-            Demand_df_new.loc[ this_group_tech_index, time_range_vector[y] ] = round( ref_demand_value*target_share/oar, 4 )
+            Demand_df_new.loc[ this_group_tech_index, time_range_vector[y] ] = round( ref_demand_value*target_share/oar, _TA2['rounding_digits'] )
             #
             # Insert *max capacities* and *lower limits* here
             #
@@ -397,7 +404,7 @@ for g in range( len( groups_list ) ):
                 this_dict_4_wide.update( { 'PARAMETER':this_param, 'Scenario':other_setup_params[ 'Main_Scenario' ],
                                           'REGION':other_setup_params['Region'] , 'TECHNOLOGY':groups_list[g],
                                           'YEAR':time_range_vector[y],
-                                          'Value':deepcopy( round( ref_demand_value*target_share/oar, 4 ) ) } )
+                                          'Value':deepcopy( round( ref_demand_value*target_share/oar, _TA2['rounding_digits'] ) ) } )
                 overall_param_df_dict[this_param] = overall_param_df_dict[this_param].append( this_dict_4_wide, ignore_index=True )
  
             #
@@ -413,7 +420,7 @@ for g in range( len( groups_list ) ):
                 this_dict_4_wide.update( { 'PARAMETER':this_param, 'Scenario':other_setup_params[ 'Main_Scenario' ],
                                           'REGION':other_setup_params['Region'] , 'TECHNOLOGY':groups_list[g],
                                           'YEAR':time_range_vector[y],
-                                          'Value':deepcopy( round( ref_cap, 4 ) ) } )
+                                          'Value':deepcopy( round( ref_cap, _TA2['rounding_digits'] ) ) } )
                 overall_param_df_dict[this_param] = overall_param_df_dict[this_param].append( this_dict_4_wide, ignore_index=True )
 #
 for s in range( len( param_sheets ) ):
@@ -439,7 +446,7 @@ for s in range( len( param_sheets ) ):
             #-----------------------------------------
             if this_projection_mode == 'Flat':
                 for y in range( len( time_range_vector ) ):
-                    this_df_new.loc[ n, time_range_vector[y] ] = round( this_df.loc[ n, 2018 ], 4 )
+                    this_df_new.loc[ n, time_range_vector[y] ] = round( this_df.loc[ n, 2018 ], _TA2['rounding_digits'] )
                     this_df_new_2.loc[ n, time_range_vector[y] ] = this_df_new.loc[ n, time_range_vector[y] ]
             #-----------------------------------------
             if this_projection_mode == 'Percent growth of incomplete years':
@@ -447,12 +454,12 @@ for s in range( len( param_sheets ) ):
                 for y in range( len( time_range_vector ) ):
                     value_field = this_df.loc[ n, time_range_vector[y] ]
                     if math.isnan(value_field) == True:
-                        this_df_new.loc[ n, time_range_vector[y] ] = round( this_df_new.loc[ n, time_range_vector[y-1] ]*( 1 + growth_param/100 ), 4 )
+                        this_df_new.loc[ n, time_range_vector[y] ] = round( this_df_new.loc[ n, time_range_vector[y-1] ]*( 1 + growth_param/100 ), _TA2['rounding_digits'] )
                         this_df_new_2.loc[ n, time_range_vector[y] ] = this_df_new.loc[ n, time_range_vector[y] ]
             #-----------------------------------------
             if this_projection_mode == 'User defined':
                 for y in range( len( time_range_vector ) ):
-                    this_df_new.loc[ n, time_range_vector[y] ] = round( this_df.loc[ n, time_range_vector[y] ], 4 )
+                    this_df_new.loc[ n, time_range_vector[y] ] = round( this_df.loc[ n, time_range_vector[y] ], _TA2['rounding_digits'] )
                     this_df_new_2.loc[ n, time_range_vector[y] ] = this_df_new.loc[ n, time_range_vector[y] ]
             #-----------------------------------------
             if this_projection_mode == 'Interpolate to stated end value from projection parameter':
@@ -499,7 +506,7 @@ for s in range( len( param_sheets ) ):
                         interpolated_values.append( float( y_coord_filled[value_index] ) )
                 #
                 for y in range( len( time_range_vector ) ):
-                    this_df_new.loc[ n, time_range_vector[y] ] = round( interpolated_values[y], 4 )
+                    this_df_new.loc[ n, time_range_vector[y] ] = round( interpolated_values[y], _TA2['rounding_digits'] )
                     this_df_new_2.loc[ n, time_range_vector[y] ] = this_df_new.loc[ n, time_range_vector[y] ]
                 #
             #-----------------------------------------
@@ -566,20 +573,20 @@ for s in range( len( param_sheets ) ):
                     #
                     this_km_list = [ ref_km ]
                     for y in range( len( this_km_list_change ) ):
-                        this_km_list.append( round( this_km_list[-1]*( 1+this_km_list_change[y]/100 ), 4 ) ) # this should be added to a dataframe
+                        this_km_list.append( round( this_km_list[-1]*( 1+this_km_list_change[y]/100 ), _TA2['rounding_digits'] ) ) # this should be added to a dataframe
                     #
                     Fleet_Groups_Distance.update( { this_tech:this_km_list } )
                     #
                     if 'Gvkm' in this_unit_target and ( 'vehicle' in this_unit_introduced or 'Relative' in this_unit_introduced ): # this acts on the cost parameters
                         # print( 'got here' )
                         for y in range( len( time_range_vector ) ): # we employ a conversion of units
-                            this_df_new_2.loc[ n, time_range_vector[y] ] = round( 1000*this_df_new.loc[ n, time_range_vector[y] ]/this_km_list[y] , 4 )
+                            this_df_new_2.loc[ n, time_range_vector[y] ] = round( 1000*this_df_new.loc[ n, time_range_vector[y] ]/this_km_list[y] , _TA2['rounding_digits'] )
                         this_df_new_2.loc[ n, 'Unit.Introduced' ] = this_df_new.loc[ n, 'Unit' ]
                     #
                     if 'Gvkm' in this_unit_target and 'Vehicles' in this_unit_introduced: # this acts on the capacity parameters
                         # print( 'got here' )
                         for y in range( len( time_range_vector ) ): # we employ a conversion of units
-                            this_df_new_2.loc[ n, time_range_vector[y] ] = round( this_df_new.loc[ n, time_range_vector[y] ]*this_km_list[y]/(1e9), 4 )
+                            this_df_new_2.loc[ n, time_range_vector[y] ] = round( this_df_new.loc[ n, time_range_vector[y] ]*this_km_list[y]/(1e9), _TA2['rounding_digits'] )
                         this_df_new_2.loc[ n, 'Unit.Introduced' ] = this_df_new.loc[ n, 'Unit' ]
                     #
                 #
@@ -609,15 +616,15 @@ for s in range( len( param_sheets ) ):
                             this_main_cap_list.append( Demand_df_new.loc[ demand_df_index, time_range_vector[y] ] )
                             this_relative_cap_list.append( this_residual_cap_list[-1] / this_main_cap_list[-1] )
                             if this_relative_cap_list[-1] < target_value/100:
-                                this_correct_capacity.append( round( this_main_cap_list[-1]*target_value/100, 4 ) )
+                                this_correct_capacity.append( round( this_main_cap_list[-1]*target_value/100, _TA2['rounding_digits'] ) )
                             else:
-                                this_correct_capacity.append( round( this_residual_cap_list[-1], 4 ) )
+                                this_correct_capacity.append( round( this_residual_cap_list[-1], _TA2['rounding_digits'] ) )
                             #
-                            this_df_new_2.loc[ n, time_range_vector[y] ] = round( this_correct_capacity[-1], 4 )
+                            this_df_new_2.loc[ n, time_range_vector[y] ] = round( this_correct_capacity[-1], _TA2['rounding_digits'] )
                             #
                             this_dict_4_wide = {}
                             this_dict_4_wide.update( {  'PARAMETER':this_param, 'Scenario':other_setup_params[ 'Main_Scenario' ], 'REGION':other_setup_params['Region'] ,
-                                                        'TECHNOLOGY':this_tech, 'YEAR':time_range_vector[y], 'Value':deepcopy( round( this_correct_capacity[-1], 4 ) ) } )
+                                                        'TECHNOLOGY':this_tech, 'YEAR':time_range_vector[y], 'Value':deepcopy( round( this_correct_capacity[-1], _TA2['rounding_digits'] ) ) } )
                             overall_param_df_dict[this_param] = overall_param_df_dict[this_param].append( this_dict_4_wide, ignore_index=True )
                     #
                     if type( start_year ) == int:
@@ -644,10 +651,10 @@ for s in range( len( param_sheets ) ):
                         #
                         for y in range( len( time_range_vector ) ):
                             this_main_cap_list.append( Demand_df_new.loc[ demand_df_index, time_range_vector[y] ] )
-                            this_df_new_2.loc[ n, time_range_vector[y] ] = round( this_main_cap_list[-1]*interpolated_values[y], 4 )
+                            this_df_new_2.loc[ n, time_range_vector[y] ] = round( this_main_cap_list[-1]*interpolated_values[y], _TA2['rounding_digits'] )
                             this_dict_4_wide = {}
                             this_dict_4_wide.update( {  'PARAMETER':this_param, 'Scenario':other_setup_params[ 'Main_Scenario' ], 'REGION':other_setup_params['Region'] ,
-                                                        'TECHNOLOGY':this_tech, 'YEAR':time_range_vector[y], 'Value':deepcopy( round( this_main_cap_list[-1]*interpolated_values[y], 4 ) ) } )
+                                                        'TECHNOLOGY':this_tech, 'YEAR':time_range_vector[y], 'Value':deepcopy( round( this_main_cap_list[-1]*interpolated_values[y], _TA2['rounding_digits'] ) ) } )
                             overall_param_df_dict[this_param] = overall_param_df_dict[this_param].append( this_dict_4_wide, ignore_index=True )
             #
         #
@@ -669,17 +676,17 @@ for s in range( len( param_sheets ) ):
                         this_dict_4_wide.update( { 'PARAMETER':this_param, 'Scenario':other_setup_params[ 'Main_Scenario' ],
                                                 'REGION':other_setup_params['Region'] , 'TECHNOLOGY':this_tech,
                                                 'YEAR':time_range_vector[y], 'TIMESLICE':other_setup_params['Timeslice'],
-                                                'Value':deepcopy( round( this_df_new_2.loc[ n, time_range_vector[y] ], 4 ) ) } )
+                                                'Value':deepcopy( round( this_df_new_2.loc[ n, time_range_vector[y] ], _TA2['rounding_digits'] ) ) } )
                     if this_param in [ 'VariableCost' ]: # include mode of operation
                         this_dict_4_wide.update( { 'PARAMETER':this_param, 'Scenario':other_setup_params[ 'Main_Scenario' ],
                                                 'REGION':other_setup_params['Region'] , 'TECHNOLOGY':this_tech,
                                                 'YEAR':time_range_vector[y], 'MODE_OF_OPERATION':other_setup_params['Mode_of_Operation'],
-                                                'Value':deepcopy( round( this_df_new_2.loc[ n, time_range_vector[y] ], 4 ) ) } )
+                                                'Value':deepcopy( round( this_df_new_2.loc[ n, time_range_vector[y] ], _TA2['rounding_digits'] ) ) } )
                     if this_param not in [ 'CapacityFactor', 'VariableCost' ] and this_projection_mode != 'According to demand':
                         this_dict_4_wide.update( { 'PARAMETER':this_param, 'Scenario':other_setup_params[ 'Main_Scenario' ],
                                                 'REGION':other_setup_params['Region'] , 'TECHNOLOGY':this_tech,
                                                 'YEAR':time_range_vector[y],
-                                                'Value':deepcopy( round( this_df_new_2.loc[ n, time_range_vector[y] ], 4 ) ) } )
+                                                'Value':deepcopy( round( this_df_new_2.loc[ n, time_range_vector[y] ], _TA2['rounding_digits'] ) ) } )
                     #
                     if this_projection_mode == 'According to demand':
                         pass
@@ -781,7 +788,7 @@ for p in range( len( additional_params_list ) ):
             this_dict_4_wide.update( {  'PARAMETER':this_param, 'Scenario':other_setup_params[ 'Main_Scenario' ],
                                         'REGION':other_setup_params['Region'] , 'TECHNOLOGY':this_tech, 'FUEL':this_fuel,
                                         'YEAR':time_range_vector[y], 'MODE_OF_OPERATION':other_setup_params['Mode_of_Operation'],
-                                        'Value':deepcopy( round( additional_params_df.loc[ p, time_range_vector[y] ], 4 ) ) } )
+                                        'Value':deepcopy( round( additional_params_df.loc[ p, time_range_vector[y] ], _TA2['rounding_digits'] ) ) } )
         overall_param_df_dict_ndp[ this_param ] = overall_param_df_dict_ndp[ this_param ].append( this_dict_4_wide, ignore_index=True )
     #
 #
@@ -794,7 +801,7 @@ print('*: For all effects, we have finished the processing tasks of this script.
 # Print updated demand DF (user)
 writer_Demand_df_new = pd.ExcelWriter("./A1_Outputs/A-O_Demand_COMPLETED.xlsx", engine='xlsxwriter')
 Demand_df_new[2018] = Demand_df_new[2018].astype(float)
-Demand_df_new = Demand_df_new.round( 4 )
+Demand_df_new = Demand_df_new.round( _TA2['rounding_digits'] )
 Demand_df_new.to_excel( writer_Demand_df_new, sheet_name = 'A-O_Demand', index=False)
 writer_Demand_df_new.save()
 #---------------------------------
@@ -803,7 +810,7 @@ writer_Param_df = pd.ExcelWriter("./A1_Outputs/A-O_Parametrization_COMPLETED.xls
 param_sheets_print = list( params_dict_new.keys() )
 for s in range( len( param_sheets_print ) ):
     this_df_print = params_dict_new[ param_sheets_print[s] ]
-    this_df_print = this_df_print.round( 4 )
+    this_df_print = this_df_print.round( _TA2['rounding_digits'] )
     this_df_print.to_excel( writer_Param_df, sheet_name = param_sheets_print[s], index=False)
 writer_Param_df.save()
 #---------------------------------
@@ -812,7 +819,7 @@ writer_Param_Natural_df = pd.ExcelWriter("./A1_Outputs/A-O_Parametrization_Natur
 param_sheets_print = list( params_dict_new_natural.keys() )
 for s in range( len( param_sheets_print ) ):
     this_df_print = params_dict_new_natural[ param_sheets_print[s] ]
-    this_df_print = this_df_print.round( 4 )
+    this_df_print = this_df_print.round( _TA2['rounding_digits'] )
     this_df_print.to_excel( writer_Param_Natural_df, sheet_name = param_sheets_print[s], index=False)
 writer_Param_Natural_df.save()
 #---------------------------------
@@ -821,7 +828,7 @@ writer_AR_Proj_df = pd.ExcelWriter("./A1_Outputs/A-O_AR_Projections_COMPLETED.xl
 param_sheets_print = list( AR_Base_proj_df_new.keys() )
 for s in range( len( param_sheets_print ) ):
     this_df_print = AR_Base_proj_df_new[ param_sheets_print[s] ]
-    this_df_print = this_df_print.round( 4 )
+    this_df_print = this_df_print.round( _TA2['rounding_digits'] )
     this_df_print.to_excel( writer_AR_Proj_df, sheet_name = param_sheets_print[s], index=False)
 writer_AR_Proj_df.save()
 #
@@ -830,14 +837,14 @@ writer_AR_Proj_df.save()
 list_dicts = list( overall_param_df_dict.keys() )
 for d in range( len( list_dicts ) ):
     df_to_print = overall_param_df_dict[ list_dicts[d] ]    
-    df_to_print.to_csv( './A2_Output_Params/BAU/' + list_dicts[d] + '.csv', index=False, header=True)
+    df_to_print.to_csv( './A2_Output_Params/' + LT.scenario('base') + '/' + list_dicts[d] + '.csv', index=False, header=True)
 
 #
 list_dicts = list( overall_param_df_dict_ndp.keys() )
 for d in range( len( list_dicts ) ):
     df_to_print = overall_param_df_dict_ndp[ list_dicts[d] ]
     df_to_print = df_to_print.replace( { 'Scenario':{ other_setup_params[ 'Main_Scenario' ]:other_setup_params[ 'Other_Scenarios' ] } } )
-    df_to_print.to_csv( './A2_Output_Params/NDP/' + list_dicts[d] + '.csv', index=False, header=True)
+    df_to_print.to_csv( './A2_Output_Params/' + LT.scenario('older_ndp') + '/' + list_dicts[d] + '.csv', index=False, header=True)
 
 #
 end_2 = time.time()   

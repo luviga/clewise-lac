@@ -17,14 +17,10 @@ import argparse
 import sys
 from pathlib import Path
 
-COUNTRY_CONFIG = {
-    "CostaRica": "CR_ENERGY/t1_confection",
-    "DominicanRepublic": "RD_ENERGY",
-    "Ecuador": "ECU_Energy",
-    "Guatemala": "GUA_ENERGY",
-    "Honduras": "HON_ENERGY",
-    "Jamaica": "JAM_ENERGY",
-}
+import lac_tables as LT
+
+# country -> model folder inside the country folder (config/preparation/Config_country_codes.yaml)
+COUNTRY_CONFIG = LT.country_map("model_dir")
 
 
 def find_output_files(root, folder_pattern="*_S0_*"):

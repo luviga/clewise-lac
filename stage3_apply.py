@@ -24,25 +24,20 @@ from pathlib import Path
 
 import pandas as pd
 
+import lac_tables as LT
+
 # =====================================================================
-# CONFIGURATION
+# CONFIGURATION (values and names from the tables read by lac_tables.py)
 # =====================================================================
 
-SCENARIOS = ["BAU", "NDCNEW", "LTSNEW"]
-PP_PREFIXES = ("PP", "PWR")
-FIRST_PATCH_YEAR = 2025
-RESERVE_MARGIN = 1.15
-UPPER_UNCAPPED = 9999.0  # controller sentinel for "no cap"
-LOWER_TO_UPPER_FACTOR = 1.05  # tight cap = lower * 1.05 when controller says uncapped but lower > 0
+SCENARIOS = LT.scenarios()
+PP_PREFIXES = tuple(LT.techs("power_plant_prefix"))
+FIRST_PATCH_YEAR = LT.controller("first_patch_year", "3")
+RESERVE_MARGIN = LT.controller("reserve_margin", "3")
+UPPER_UNCAPPED = LT.controller("upper_limit_sentinel", "3")  # controller sentinel for "no cap"
+LOWER_TO_UPPER_FACTOR = LT.controller("lower_to_upper_factor", "3")  # tight cap = lower * factor when controller says uncapped but lower > 0
 
-COUNTRY_CONFIG = {
-    "CostaRica":         {"model_dir": "CR_ENERGY/t1_confection"},
-    "DominicanRepublic": {"model_dir": "RD_ENERGY"},
-    "Ecuador":           {"model_dir": "ECU_Energy"},
-    "Guatemala":         {"model_dir": "GUA_ENERGY"},
-    "Honduras":          {"model_dir": "HON_ENERGY"},
-    "Jamaica":           {"model_dir": "JAM_ENERGY"},
-}
+COUNTRY_CONFIG = LT.country_table("model_dir")
 
 CONTROLLER_LOWER_SHEET = "CURRENT_LOWER"
 CONTROLLER_UPPER_SHEET = "CURRENT_UPPER"
@@ -114,7 +109,7 @@ def parse_year_header(line):
     for p in parts:
         try:
             y = int(p)
-            if 2000 <= y <= 2100:
+            if LT.controller("year_header_min") <= y <= LT.controller("year_header_max", "3"):
                 years.append(y)
         except ValueError:
             continue
@@ -158,7 +153,7 @@ def patch_block(content, param_name, ctrl_dict, first_patch_year, log,
         # If we're patching upper and controller says uncapped, check paired lower
         if paired_lower is not None and uncap_sentinel is not None and ctrl_v >= uncap_sentinel:
             lower_v = paired_lower.get(tech, {}).get(year, 0.0)
-            if lower_v > 1e-10:
+            if lower_v > LT.controller("change_tolerance"):
                 return lower_v * lower_to_upper_factor, True  # tight cap
             return None, False  # leave uncapped (no row needed)
         if uncap_sentinel is not None and ctrl_v >= uncap_sentinel:
@@ -186,7 +181,7 @@ def patch_block(content, param_name, ctrl_dict, first_patch_year, log,
         # Year header line (contains := but not param declaration)
         if ":=" in bare and not bare.startswith("param"):
             years = parse_year_header(bare)
-            if years and years[0] >= 2000:
+            if years and years[0] >= LT.controller("year_header_min"):
                 year_header = years
                 in_data = True
             new_lines.append(stripped)
@@ -214,13 +209,13 @@ def patch_block(content, param_name, ctrl_dict, first_patch_year, log,
                             ctrl_v = yr_vals[y]
                             if paired_lower is not None:
                                 eff, has_cap = effective_upper(tech, y, ctrl_v)
-                                if has_cap and abs(eff - default_val) > 1e-10:
+                                if has_cap and abs(eff - default_val) > LT.controller("change_tolerance"):
                                     needs_row = True
                                     break
                             else:
                                 if uncap_sentinel and ctrl_v >= uncap_sentinel:
                                     continue
-                                if abs(ctrl_v - default_val) > 1e-10:
+                                if abs(ctrl_v - default_val) > LT.controller("change_tolerance"):
                                     needs_row = True
                                     break
                     if not needs_row:
@@ -270,16 +265,16 @@ def patch_block(content, param_name, ctrl_dict, first_patch_year, log,
                             ctrl_v = yr_vals[y]
                             if paired_lower is not None:
                                 eff, has_cap = effective_upper(tech_name, y, ctrl_v)
-                                new_v = eff if has_cap else 99999.0
+                                new_v = eff if has_cap else LT.controller("uncapped_value", "3")
                             elif uncap_sentinel and ctrl_v >= uncap_sentinel:
-                                new_v = 99999.0
+                                new_v = LT.controller("uncapped_value", "3")
                             else:
                                 new_v = ctrl_v
                             try:
                                 old_v = float(values[i])
                             except ValueError:
                                 continue
-                            if abs(new_v - old_v) > 1e-10:
+                            if abs(new_v - old_v) > LT.controller("change_tolerance"):
                                 new_values[i] = format_val(new_v)
                                 changes += 1
                     new_line = tech_name + " " + " ".join(new_values) + " "
@@ -331,7 +326,7 @@ def find_generation_fuel_and_techs(content):
     for fuels in tech_fuel.values():
         for f in fuels:
             up = f.upper()
-            if up.startswith("E1") and "ELE" in up:
+            if up.startswith("E1") and LT.fuel("electricity_fuel_token") in up:
                 candidate_fuels.add(f)
     if not candidate_fuels:
         return None, []
@@ -616,9 +611,9 @@ def main():
                         if txt_years:
                             break
                 else:
-                    txt_years = list(range(2021, 2051))
+                    txt_years = list(range(LT.controller("fallback_years_start", "3"), LT.controller("fallback_years_stop", "3")))
             else:
-                txt_years = list(range(2021, 2051))
+                txt_years = list(range(LT.controller("fallback_years_start", "3"), LT.controller("fallback_years_stop", "3")))
 
             log.append(f"  Region: {region}, Years: {txt_years[0]}–{txt_years[-1]}")
 
@@ -668,7 +663,7 @@ def main():
                 uncap_dict = {}
                 for tech in ctrl_lower:
                     if is_pp_tech(tech):
-                        uncap_dict[tech] = {y: 99999.0 for y in txt_years if y >= FIRST_PATCH_YEAR}
+                        uncap_dict[tech] = {y: LT.controller("uncapped_value", "3") for y in txt_years if y >= FIRST_PATCH_YEAR}
                 for tech in orphan_techs:
                     uncap_dict[tech] = {y: 0.0 for y in txt_years if y >= FIRST_PATCH_YEAR}
                 if orphan_techs:
@@ -676,19 +671,19 @@ def main():
                 content, n_upper = patch_block(
                     content, "TotalTechnologyAnnualActivityUpperLimit",
                     uncap_dict, FIRST_PATCH_YEAR, log,
-                    default_val=99999.0, uncap_sentinel=None
+                    default_val=LT.controller("uncapped_value", "3"), uncap_sentinel=None
                 )
                 log.append(f"  UpperLimit: cleared {n_upper} PP tech caps to 99999 (--no-upper-cap)")
             else:
                 # Always use lower × factor for upper limits (tight share control).
                 # Zero lower → zero upper (prevent unconstrained techs from producing).
                 # UNLESS skip_orphans is set (e.g., Guatemala) — then leave zero-lower uncapped.
-                zero_lower_upper = 0.0 if not skip_orphans else 99999.0
+                zero_lower_upper = 0.0 if not skip_orphans else LT.controller("uncapped_value", "3")
                 tight_upper = {}
                 for tech, yr_vals in ctrl_lower.items():
                     if is_pp_tech(tech):
                         tight_upper[tech] = {
-                            y: v * LOWER_TO_UPPER_FACTOR if v > 1e-10 else zero_lower_upper
+                            y: v * LOWER_TO_UPPER_FACTOR if v > LT.controller("change_tolerance") else zero_lower_upper
                             for y, v in yr_vals.items()
                         }
 
@@ -701,7 +696,7 @@ def main():
                 content, n_upper = patch_block(
                     content, "TotalTechnologyAnnualActivityUpperLimit",
                     tight_upper, FIRST_PATCH_YEAR, log,
-                    default_val=99999.0, uncap_sentinel=None
+                    default_val=LT.controller("uncapped_value", "3"), uncap_sentinel=None
                 )
                 log.append(f"  Patched UpperLimit: {n_upper} values changed (always lower x {LOWER_TO_UPPER_FACTOR})")
 
@@ -710,11 +705,11 @@ def main():
                 uncap_maxcap = {}
                 for tech in ctrl_lower:
                     if is_pp_tech(tech):
-                        uncap_maxcap[tech] = {y: 99999.0 for y in txt_years if y >= FIRST_PATCH_YEAR}
+                        uncap_maxcap[tech] = {y: LT.controller("uncapped_value", "3") for y in txt_years if y >= FIRST_PATCH_YEAR}
                 content, n_maxcap = patch_block(
                     content, "TotalAnnualMaxCapacity",
                     uncap_maxcap, FIRST_PATCH_YEAR, log,
-                    default_val=99999.0, uncap_sentinel=None
+                    default_val=LT.controller("uncapped_value", "3"), uncap_sentinel=None
                 )
                 log.append(f"  MaxCapacity: cleared {n_maxcap} PP tech caps to 99999 (--uncap-pp-maxcap)")
 

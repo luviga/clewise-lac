@@ -1,0 +1,59 @@
+# Countries of the six energy models: name used by the stage pipeline, name for display, model region code, country folder,
+# model folder (relative to the country folder), model file (relative to the country folder) and the names of
+# each country's A2 compiler and B1 runner. Order = order in which the stage scripts process the countries.
+# Read through lac_tables.py (countries, country_map, country_table, country_of).
+country_data:
+- name: CostaRica
+  display_name: Costa Rica
+  code: CR
+  country_folder: CostaRica
+  model_dir: CR_ENERGY/t1_confection
+  osemosys: CR_ENERGY/t1_confection/OSeMOSYS_Model.txt
+  osemosys_file: OSeMOSYS_Model.txt
+  a2_script: A2_Compiler_CostaRica.py
+  b1_script: B1_Base_Scenarios_Adj_Parallel_CostaRica.py
+- name: DominicanRepublic
+  display_name: Dominican Republic
+  code: RD
+  country_folder: DominicanRepublic
+  model_dir: RD_ENERGY
+  osemosys: RD_ENERGY/OSeMOSYS_Model.txt
+  osemosys_file: OSeMOSYS_Model.txt
+  a2_script: A2_Compiler_DominicanRepublic.py
+  b1_script: B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py
+- name: Ecuador
+  display_name: Ecuador
+  code: ECU
+  country_folder: Ecuador
+  model_dir: ECU_Energy
+  osemosys: ECU_Energy/OSeMOSYS_Model.txt
+  osemosys_file: OSeMOSYS_Model.txt
+  a2_script: A2_Compiler_Ecuador.py
+  b1_script: B1_Base_Scenarios_Adj_Parallel.py
+- name: Guatemala
+  display_name: Guatemala
+  code: GUA
+  country_folder: Guatemala
+  model_dir: GUA_ENERGY
+  osemosys: GUA_ENERGY/OSeMOSYS_Model.txt
+  osemosys_file: OSeMOSYS_Model.txt
+  a2_script: A2_Compiler_Guatemala.py
+  b1_script: B1_Base_Scenarios_Adj_Parallel_Guatemala.py
+- name: Honduras
+  display_name: Honduras
+  code: HON
+  country_folder: Honduras
+  model_dir: HON_ENERGY
+  osemosys: HON_ENERGY/OSeMOSYS_Model.txt
+  osemosys_file: OSeMOSYS_Model.txt
+  a2_script: A2_Compiler_Honduras.py
+  b1_script: B1_Base_Scenarios_Adj_Parallel_Honduras.py
+- name: Jamaica
+  display_name: Jamaica
+  code: JAM
+  country_folder: Jamaica
+  model_dir: JAM_ENERGY
+  osemosys: JAM_ENERGY/OSeMOSYS_Model.txt
+  osemosys_file: OSeMOSYS_Model.txt
+  a2_script: A2_Compiler_Jamaica.py
+  b1_script: B1_Base_Scenarios_Adj_Parallel_Jamaica.py

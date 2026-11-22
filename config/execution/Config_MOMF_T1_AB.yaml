@@ -1,0 +1,78 @@
+# Numbers of the B1 runners (B1_Base_Scenarios_Adj_Parallel*.py), read through
+# lac_tables.stage_values('execution', country): the general section, updated by the country's section.
+# A value sits in the general section when every runner that uses it holds the same value, and in a country
+# section when only that country's runner uses it or the runners differ.
+general:
+  rounding_digits: 4                # digits of the values the runners round before writing B1_Output_Params
+  upper_security_factor: 1.01       # upper margin over a frozen or adjusted value
+  lower_security_factor: 0.999      # lower margin under a frozen or adjusted value
+  upper_security_factor_fine: 1.001 # upper margin of interpolated capacity limits
+  unknown_value_marker: 999         # marker of a value to interpolate in the configuration tables
+  max_capacity_open: 9999           # maximum capacity written where the transport rewrite leaves capacity open
+  driven_distance_lag_years: 3      # years back read for the driven distance of an old vehicle
+countries:
+  CostaRica:
+    milestone_years: [2032, 2033, 2034]   # years of the configured mode-shift values
+    appended_region_code: RD              # region code appended to rows the transport rewrite adds
+  DominicanRepublic:
+    first_year: 2018
+    variation_start_year: 2024
+    discount_year: 2024
+    discount_rate: 0.0504
+    last_year: 2050
+    driven_distance_reference_year: 2019
+    milestone_years: [2030, 2040, 2050]
+    modeshift_exact_last_year: 2035       # last year of the exact mode-shift values
+    private_demand_divisor: 1.006         # divisor of private transport demand from capacity and occupancy
+    appended_region_code: RD
+  Ecuador:
+    discount_year: 2025
+    first_year: 2021
+    last_year: 2050
+    inflexion_year: 2025
+    discount_rate: 0.0504
+    biodiesel_blend_start: [2026, 1]      # [year, percent]
+    biodiesel_blend_final: [2030, 5]
+    ethanol_blend_start: [2024, 9.98]
+    ethanol_blend_mid: [2025, 9.99]
+    ethanol_blend_final: [2026, 10]
+  Guatemala:
+    output_discount_rate: 0.10            # rate that discounts the cost columns of the output tables
+    discount_year: 2025
+    first_year: 2018
+    history_end_year: 2024
+    last_year: 2050
+    driven_distance_reference_year: 2019
+    milestone_years: [2030, 2040, 2050]
+    appended_region_code: GUA
+    biodiesel_blend_start: [2026, 0]
+    biodiesel_blend_final: [2030, 0]
+    ethanol_blend_start: [2024, 0]
+    ethanol_blend_mid: [2025, 5]
+    ethanol_blend_final: [2026, 10]
+  Honduras:
+    discount_year: 2025
+    discount_rate: 0.08
+    first_year: 2018
+    history_end_year: 2024
+    last_year: 2050
+    driven_distance_reference_year: 2019
+    milestone_years: [2030, 2040, 2050]
+    upper_security_factor_special: 1.005  # upper margin of the special security technology
+    biodiesel_blend_start: [2025, 0]
+    biodiesel_blend_final: [2030, 5]
+    ethanol_blend_start: [2025, 0]
+    ethanol_blend_mid: [2030, 4.99]
+    ethanol_blend_final: [2035, 5.00]
+  Jamaica:
+    discount_year: 2025
+    discount_rate: 0.0504
+    first_year: 2018
+    history_end_year: 2024
+    last_year: 2050
+    driven_distance_reference_year: 2019
+    biodiesel_blend_start: [2026, 1]
+    biodiesel_blend_final: [2030, 5]
+    ethanol_blend_start: [2024, 9.98]
+    ethanol_blend_mid: [2025, 9.99]
+    ethanol_blend_final: [2026, 10]

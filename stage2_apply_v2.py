@@ -35,57 +35,35 @@ from pathlib import Path
 import openpyxl
 import pandas as pd
 
+import lac_tables as LT
+
 # =============================================================================
-# CONFIG — mirrors Stage 1 v15/v16
+# CONFIG — mirrors Stage 1 v15/v16 (values and names from the tables read by lac_tables.py)
 # =============================================================================
-CUTOFF_YEAR         = 2026
-ANCHOR_YEAR         = 2024
-PLATEAU_YEARS       = [2025, 2026]
-FOSSIL_DECLINE_RATE = 0.01       # 1%/yr from 2027
-UPPER_SECURITY_FAC  = 1.05
-DEFAULT_UPPER       = 9999.0
-YEAR_MIN, YEAR_MAX  = 2018, 2055
+CUTOFF_YEAR         = LT.controller("cutoff_year", "2")
+ANCHOR_YEAR         = LT.controller("anchor_year")
+PLATEAU_YEARS       = LT.controller_list("plateau_years", "2")
+FOSSIL_DECLINE_RATE = LT.controller("fossil_decline_rate", "2")       # per year after the cutoff year
+UPPER_SECURITY_FAC  = LT.controller("upper_security_factor", "2")
+DEFAULT_UPPER       = LT.controller("upper_limit_sentinel", "2")
+YEAR_MIN, YEAR_MAX  = LT.controller("year_min", "2"), LT.controller("year_max", "2")
 CAU                 = 31.536     # CapacityToActivityUnit (PJ/GW/yr)
 
 # Country model directories (same as Stage 1)
-COUNTRY_MODEL_DIR = {
-    "CostaRica":         "CR_ENERGY/t1_confection",
-    "DominicanRepublic": "RD_ENERGY",
-    "Ecuador":           "ECU_Energy",
-    "Guatemala":         "GUA_ENERGY",
-    "Honduras":          "HON_ENERGY",
-    "Jamaica":           "JAM_ENERGY",
-}
+COUNTRY_MODEL_DIR = LT.country_map("model_dir")
 
-# Policy targets (same as Stage 1)
-RENEWABLE_TARGET_CURVE = {
-    "NDCNEW": {2035: 0.75, 2050: 0.75},
-    "LTSNEW": {2035: 0.75, 2050: 0.99},
-}
-COUNTRY_TARGET_OVERRIDES = {
-    "CostaRica": {
-        "NDCNEW": {2035: 0.90, 2050: 0.90},
-        "LTSNEW": {2035: 0.99, 2050: 0.99},
-    },
-    "Ecuador": {
-        "NDCNEW": {2035: 0.80, 2050: 0.80},
-        "LTSNEW": {2035: 0.80, 2050: 0.99},
-    },
-}
-TARGET_HOLD_YEAR = 2050
+# Policy targets (same table as Stage 1: inputs/scenarios/scenario_values.csv)
+RENEWABLE_TARGET_CURVE = LT.scenario_values("renewable_share")
+COUNTRY_TARGET_OVERRIDES = LT.scenario_value_overrides("renewable_share")
+TARGET_HOLD_YEAR = LT.controller("target_hold_year", "2")
 
-COSTA_RICA_NAMES = ["CostaRica"]
+COSTA_RICA_NAMES = LT.controller_list("own_rule_country_names", "2")
 
-# Tech classifier tokens (same as Stage 1)
-HYDRO_TOKENS     = ["HYD", "DAM", "ROR", "PPHD", "PPIHD"]
-RENEWABLE_TOKENS = ["GEO", "SOL", "SUN", "SPV", "PV", "CSP",
-                    "WND", "WIND", "WNO", "WNS",
-                    "BMS", "BIM", "BIO", "BGS", "SUG", "REN"]
-FOSSIL_TOKENS    = ["DSL", "DIE", "FOI", "HFO", "CRU",
-                    "COA", "COK", "NGS", "GAS", "GLP", "LPG",
-                    "GSL", "KJF", "OIL", "PET", "FOS"]
-SOLAR_WIND_TOKENS = ["SOL", "SUN", "SPV", "PV", "CSP",
-                     "WND", "WIND", "WNO", "WNS"]
+# Tech classifier tokens (same as Stage 1: config/scenarios/technology_types.csv)
+HYDRO_TOKENS     = LT.techs("hydro_token")
+RENEWABLE_TOKENS = LT.techs("renewable_token")
+FOSSIL_TOKENS    = LT.techs("fossil_token")
+SOLAR_WIND_TOKENS = LT.techs("solar_wind_token")
 
 # All CSVs apply only to years ≤ CUTOFF_YEAR. No exceptions.
 # Rules handle 2027+ for every country and scenario.
@@ -212,7 +190,7 @@ def load_all_b1(root, years):
     """
     b1_data = {}
     cum_mci_all = {}
-    all_scenarios = ["BAU", "NDCNEW", "LTSNEW"]
+    all_scenarios = LT.scenarios()
 
     for country, model_dir in COUNTRY_MODEL_DIR.items():
         b1_dir = root / country / model_dir / "B1_Output_Params"
@@ -491,7 +469,7 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
             ov_by_year[y][t] = sh
         for y, techs in ov_by_year.items():
             s_sum = sum(techs.values())
-            cs_year_type[(c, s, y)] = "full" if abs(s_sum - 1.0) < 0.02 else "partial"
+            cs_year_type[(c, s, y)] = "full" if abs(s_sum - 1.0) < LT.controller("full_override_tolerance", "2") else "partial"
 
     s2_shares = {}
 
@@ -592,7 +570,7 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
         boundary_pj = {t: boundary_shares[t] * tg_boundary for t in techs}
 
         is_cr = is_costa_rica(c)
-        is_bau = (s == "BAU")
+        is_bau = (s == LT.scenario("base"))
 
         for y in years:
             if y <= correction_boundary:
@@ -636,7 +614,7 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
                     mf_pj = get_mincap_floor_pj(
                         t, y, boundary_pj.get(t, 0), cum_mci, b1_data, c, s)
                     mf_share = mf_pj / tg_y
-                    if mf_share > s2_shares[(c, s, t)][y] + 0.0001:
+                    if mf_share > s2_shares[(c, s, t)][y] + LT.controller("mincap_share_tolerance", "2"):
                         s2_shares[(c, s, t)][y] = mf_share
 
             # ── Step C: Compute sums and gap-fill ──
@@ -652,7 +630,7 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
                         s2_shares[(c, s, t)][y] for t in growth_techs)
                     T = max(target, bau_ren)
                     F_target = max(0.0, 1.0 - T)
-                    if f_sum > 1e-9:
+                    if f_sum > LT.controller("zero_tolerance"):
                         f_scale = F_target / f_sum
                         for t in fossil_techs:
                             s2_shares[(c, s, t)][y] *= f_scale
@@ -668,7 +646,7 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
             # Growth techs absorb remainder after locked
             growth_target = max(0.0, nh_target - locked_sum)
             growth_current = sum(s2_shares[(c, s, t)][y] for t in growth_techs)
-            if growth_current > 1e-9 and growth_target > 0:
+            if growth_current > LT.controller("zero_tolerance") and growth_target > 0:
                 scale_G = growth_target / growth_current
                 for t in growth_techs:
                     s2_shares[(c, s, t)][y] *= scale_G
@@ -695,15 +673,15 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
 
             # ── Renormalize if needed ──
             total = sum(s2_shares[(c, s, t)][y] for t in techs)
-            if abs(total - 1.0) > 0.002:
-                if total > 1e-9:
+            if abs(total - 1.0) > LT.controller("renorm_tolerance", "2"):
+                if total > LT.controller("zero_tolerance"):
                     factor = 1.0 / total
                     for t in techs:
                         s2_shares[(c, s, t)][y] *= factor
                     audit_log.append({
                         "Country": c, "Scenario": s, "Year": y,
                         "Event": "RENORM",
-                        "Raw_Sum": round(total, 6),
+                        "Raw_Sum": round(total, LT.controller("audit_digits", "2")),
                     })
 
         # ── Phase 3: Fill any remaining gaps ──
@@ -721,7 +699,7 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
             if abs(total - 1.0) < 0.001:
                 continue
 
-            if total < 1e-9:
+            if total < LT.controller("zero_tolerance"):
                 continue
 
             # Check if this year has overrides
@@ -733,7 +711,7 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
                 rest_techs = [t for t in techs if t not in ov_techs_y]
                 rest_sum = sum(s2_shares[(c, s, t)][y] for t in rest_techs)
                 target_rest = 1.0 - ov_sum
-                if rest_sum > 1e-9 and target_rest > 0:
+                if rest_sum > LT.controller("zero_tolerance") and target_rest > 0:
                     scale = target_rest / rest_sum
                     for t in rest_techs:
                         s2_shares[(c, s, t)][y] *= scale
@@ -748,12 +726,12 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
                     s2_shares[(c, s, t)][y] *= scale
 
             new_total = sum(s2_shares[(c, s, t)][y] for t in techs)
-            if abs(new_total - 1.0) > 0.01:
+            if abs(new_total - 1.0) > LT.controller("renorm_check_tolerance", "2"):
                 audit_log.append({
                     "Country": c, "Scenario": s, "Year": y,
                     "Event": "RENORM_PHASE4",
-                    "Raw_Sum": round(total, 6),
-                    "New_Sum": round(new_total, 6),
+                    "Raw_Sum": round(total, LT.controller("audit_digits", "2")),
+                    "New_Sum": round(new_total, LT.controller("audit_digits", "2")),
                 })
 
     # ── Phase 5: Policy enforcement ──
@@ -763,7 +741,7 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
     if ENFORCE_POLICY_EXACT:
         policy_fixes = 0
         for (c, s), techs in sorted(cs_techs.items()):
-            if s == "BAU":
+            if s == LT.scenario("base"):
                 continue
             curve = get_target_curve(c, s)
             if not curve:
@@ -779,7 +757,7 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
             # Get BAU RE for floor
             bau_re = {}
             for y in years:
-                bau_re[y] = sum(s2_shares.get((c, "BAU", t), {}).get(y, 0)
+                bau_re[y] = sum(s2_shares.get((c, LT.scenario("base"), t), {}).get(y, 0)
                                 for t in techs
                                 if cat.get(t) in ("HYDRO", "NON_HYDRO_RENEWABLE"))
 
@@ -807,7 +785,7 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
                 current_re = sum(s2_shares[(c, s, t)][y] for t in techs
                                  if cat.get(t) in ("HYDRO", "NON_HYDRO_RENEWABLE"))
 
-                if abs(current_re - T) < 0.002:
+                if abs(current_re - T) < LT.controller("target_match_tolerance", "2"):
                     continue  # close enough
 
                 # Enforce: set fossil = 1 - T, redistribute renewables
@@ -817,7 +795,7 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
 
                 # Scale fossils
                 f_sum = sum(s2_shares[(c, s, t)][y] for t in fossil_techs)
-                if f_sum > 1e-9:
+                if f_sum > LT.controller("zero_tolerance"):
                     f_scale = F_target / f_sum
                     for t in fossil_techs:
                         s2_shares[(c, s, t)][y] *= f_scale
@@ -828,7 +806,7 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
                 # Growth techs: absorb remainder
                 growth_target = max(0.0, NH_target - locked_sum)
                 growth_sum = sum(s2_shares[(c, s, t)][y] for t in growth_techs)
-                if growth_sum > 1e-9 and growth_target > 0:
+                if growth_sum > LT.controller("zero_tolerance") and growth_target > 0:
                     g_scale = growth_target / growth_sum
                     for t in growth_techs:
                         s2_shares[(c, s, t)][y] *= g_scale
@@ -883,7 +861,7 @@ def _apply_partial(s1_data, s2_shares, c, s, techs, y, ov, cat):
 
         # Original non-overridden total
         orig_notov = sum(s1_data[(c, s, t)]["shares"][y] for t in grp_techs_notov)
-        if orig_notov > 1e-9:
+        if orig_notov > LT.controller("zero_tolerance"):
             scale = remaining / orig_notov
             for t in grp_techs_notov:
                 s2_shares[(c, s, t)][y] = s1_data[(c, s, t)]["shares"][y] * scale
@@ -949,14 +927,14 @@ def recalc_limits(s2_shares, s1_data, total_gen, years):
             # Upper: max of (lower × security factor, stage 1 upper)
             up = max(lo * UPPER_SECURITY_FAC, s1_up)
             # But if Stage 1 upper was 9999, keep it
-            if s1_up >= 9990:
+            if s1_up >= LT.controller("sentinel_detect_threshold", "2"):
                 up = DEFAULT_UPPER
             # Ensure upper ≥ lower
             if up < lo:
                 up = lo * UPPER_SECURITY_FAC
 
-            s2_lower[key][y] = round(lo, 4)
-            s2_upper[key][y] = round(up, 4)
+            s2_lower[key][y] = round(lo, LT.controller("limit_digits", "2"))
+            s2_upper[key][y] = round(up, LT.controller("limit_digits", "2"))
 
     return s2_lower, s2_upper
 
@@ -984,7 +962,7 @@ def write_controller(s2_shares, s2_lower, s2_upper, s1_meta, years, out_path,
         row_u = dict(m_out)
 
         for y in years:
-            row_s[y] = round(s2_shares[key].get(y, 0.0), 6)
+            row_s[y] = round(s2_shares[key].get(y, 0.0), LT.controller("share_digits", "2"))
             row_l[y] = s2_lower[key].get(y, 0.0)
             row_u[y] = s2_upper[key].get(y, DEFAULT_UPPER)
 
@@ -1017,10 +995,10 @@ def write_controller(s2_shares, s2_lower, s2_upper, s1_meta, years, out_path,
         ("  Historical", "Direct replacement where CSV sums to 100%; group renorm for partial"),
         ("  Freeze", f"2025-2026 = corrected {ANCHOR_YEAR} (where CSV ends at {ANCHOR_YEAR})"),
         ("  Forward", "Stage 1 rules re-applied from corrected boundary:"),
-        ("    Fossil", f"{FOSSIL_DECLINE_RATE*100:.1f}%/yr decline from {CUTOFF_YEAR} (CR: 0%)"),
+        ("    Fossil", f"{FOSSIL_DECLINE_RATE*100:.1f}%/yr decline from {CUTOFF_YEAR} ({LT.country_value(LT.controller_list("own_rule_country_names", "2")[0], 'code')}: 0%)"),
         ("    Hydro", "PJ freeze at corrected anchor value"),
         ("    NH-Renew", "Gap-fill (solar+wind absorb; biomass/geo locked at boundary)"),
-        ("    Policy", f"NDCNEW: {RENEWABLE_TARGET_CURVE['NDCNEW']}; LTSNEW: {RENEWABLE_TARGET_CURVE['LTSNEW']}"),
+        ("    Policy", f"{LT.scenario('ndc')}: {RENEWABLE_TARGET_CURVE[LT.scenario('ndc')]}; {LT.scenario('lts')}: {RENEWABLE_TARGET_CURVE[LT.scenario('lts')]}"),
         ("", ""),
         ("INVARIANTS", ""),
         ("  Shares", "Sum to 1.0 for all (country, scenario, year)"),
@@ -1119,8 +1097,8 @@ def main(argv=None):
         print(f"  [WARN] This underestimates demand when ceiling caps bind!")
         total_gen = derive_total_gen_fallback(s1_data, years)
     for c in sorted(set(k[0] for k in s1_data)):
-        tg = total_gen.get((c, "BAU", 2024), 0)
-        tg50 = total_gen.get((c, "BAU", 2050), 0)
+        tg = total_gen.get((c, LT.scenario("base"), LT.controller("trend_start_year", "2")), 0)
+        tg50 = total_gen.get((c, LT.scenario("base"), LT.controller("trend_end_year", "2")), 0)
         trend = ((tg50 - tg) / tg * 100) if tg > 0 else 0
         print(f"  {c} BAU: {tg:.1f} PJ (2024) → {tg50:.1f} PJ (2050) [{trend:+.0f}%]")
 
@@ -1146,12 +1124,12 @@ def main(argv=None):
     # Share sum check
     print("\n  Share sum check (sample):")
     for c in sorted(set(k[0] for k in s2_shares))[:3]:
-        for s in ["BAU", "NDCNEW", "LTSNEW"]:
-            for y in [2024, 2026, 2030, 2050]:
+        for s in LT.scenarios():
+            for y in LT.controller_list("check_years", "2"):
                 total = sum(s2_shares.get((c, s, t), {}).get(y, 0)
                             for t in set(k[2] for k in s2_shares if k[0] == c and k[1] == s))
-                flag = "OK" if abs(total - 1.0) < 0.01 else "!!!"
-                if y in [2024, 2050]:
+                flag = "OK" if abs(total - 1.0) < LT.controller("share_check_tolerance", "2") else "!!!"
+                if y in LT.controller_list("check_renewable_years", "2"):
                     ren = sum(s2_shares.get((c, s, t), {}).get(y, 0)
                               for t in set(k[2] for k in s2_shares if k[0] == c and k[1] == s)
                               if classify_tech(t) in ("HYDRO", "NON_HYDRO_RENEWABLE"))

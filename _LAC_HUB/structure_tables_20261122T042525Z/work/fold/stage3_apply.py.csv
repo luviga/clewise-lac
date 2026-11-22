@@ -1,0 +1,49 @@
+old_line,value,loader_read
+31,BAU,LT.scenarios()
+31,NDCNEW,LT.scenarios()
+31,LTSNEW,LT.scenarios()
+32,PP,LT.techs('power_plant_prefix')
+32,PWR,LT.techs('power_plant_prefix')
+33,2025,"LT.controller('first_patch_year', '3')"
+34,1.15,"LT.controller('reserve_margin', '3')"
+35,9999.0,"LT.controller('upper_limit_sentinel', '3')"
+36,1.05,"LT.controller('lower_to_upper_factor', '3')"
+39,CostaRica,LT.country_table('model_dir')
+40,DominicanRepublic,LT.country_table('model_dir')
+41,Ecuador,LT.country_table('model_dir')
+42,Guatemala,LT.country_table('model_dir')
+43,Honduras,LT.country_table('model_dir')
+44,Jamaica,LT.country_table('model_dir')
+39,model_dir,LT.country_table('model_dir')
+39,CR_ENERGY/t1_confection,LT.country_table('model_dir')
+40,model_dir,LT.country_table('model_dir')
+40,RD_ENERGY,LT.country_table('model_dir')
+41,model_dir,LT.country_table('model_dir')
+41,ECU_Energy,LT.country_table('model_dir')
+42,model_dir,LT.country_table('model_dir')
+42,GUA_ENERGY,LT.country_table('model_dir')
+43,model_dir,LT.country_table('model_dir')
+43,HON_ENERGY,LT.country_table('model_dir')
+44,model_dir,LT.country_table('model_dir')
+44,JAM_ENERGY,LT.country_table('model_dir')
+117,2000,LT.controller('year_header_min')
+117,2100,"LT.controller('year_header_max', '3')"
+161,1e-10,LT.controller('change_tolerance')
+189,2000,LT.controller('year_header_min')
+217,1e-10,LT.controller('change_tolerance')
+223,1e-10,LT.controller('change_tolerance')
+273,99999.0,"LT.controller('uncapped_value', '3')"
+275,99999.0,"LT.controller('uncapped_value', '3')"
+282,1e-10,LT.controller('change_tolerance')
+334,ELE,LT.fuel('electricity_fuel_token')
+619,2021,"LT.controller('fallback_years_start', '3')"
+619,2051,"LT.controller('fallback_years_stop', '3')"
+621,2021,"LT.controller('fallback_years_start', '3')"
+621,2051,"LT.controller('fallback_years_stop', '3')"
+671,99999.0,"LT.controller('uncapped_value', '3')"
+679,99999.0,"LT.controller('uncapped_value', '3')"
+686,99999.0,"LT.controller('uncapped_value', '3')"
+691,1e-10,LT.controller('change_tolerance')
+704,99999.0,"LT.controller('uncapped_value', '3')"
+713,99999.0,"LT.controller('uncapped_value', '3')"
+717,99999.0,"LT.controller('uncapped_value', '3')"

@@ -1,0 +1,16 @@
+# Numbers of the A2 compilers (A2_Compiler_<country>.py), read through lac_tables.stage_values('compilation', country):
+# the general section, updated by the country's section. A value sits in a country section where only that
+# country's compiler uses it.
+general:
+  rounding_digits: 4    # digits of every value the compilers round before writing A2_Output_Params
+countries:
+  DominicanRepublic:
+    base_year: 2018     # base-year column of the projection tables
+  Ecuador:
+    base_year: 2021
+  Guatemala:
+    base_year: 2018
+  Honduras:
+    base_year: 2018
+  Jamaica:
+    base_year: 2021

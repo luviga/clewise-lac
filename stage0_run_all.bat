@@ -1,16 +1,15 @@
 @echo off
-REM Stage 0 solver runs - 2026-05-14 11:39
+REM Stage 0 solver runs: every _S0_0 data file of the countries and scenarios in the tables.
+REM stage0_run.py writes this file again on each run, with one command per run it prepared.
+REM The list of runs (label, model file, data file, output file) comes from lac_tables.py, which reads
+REM config/preparation/Config_country_codes.yaml and config/scenarios/scenario_catalogue.csv.
 cd /d "%~dp0"
 
-REM === Ecuador ===
-echo Running Ecuador BAU_S0...
-glpsol -m "Ecuador\ECU_Energy\OSeMOSYS_Model.txt" -d "Ecuador\ECU_Energy\Executables\BAU_S0_0\BAU_S0_0.txt" -o "Ecuador\ECU_Energy\Executables\BAU_S0_0\BAU_S0_0_output.txt"
-
-echo Running Ecuador NDCNEW_S0...
-glpsol -m "Ecuador\ECU_Energy\OSeMOSYS_Model.txt" -d "Ecuador\ECU_Energy\Executables\NDCNEW_S0_0\NDCNEW_S0_0.txt" -o "Ecuador\ECU_Energy\Executables\NDCNEW_S0_0\NDCNEW_S0_0_output.txt"
-
-echo Running Ecuador LTSNEW_S0...
-glpsol -m "Ecuador\ECU_Energy\OSeMOSYS_Model.txt" -d "Ecuador\ECU_Energy\Executables\LTSNEW_S0_0\LTSNEW_S0_0.txt" -o "Ecuador\ECU_Energy\Executables\LTSNEW_S0_0\LTSNEW_S0_0_output.txt"
+for /f "usebackq tokens=1-4 delims=|" %%a in (`py lac_tables.py solver-runs S0`) do (
+    echo Running %%a...
+    glpsol -m "%%b" -d "%%c" -o "%%d"
+    echo.
+)
 
 echo.
 echo All Stage 0 runs complete!

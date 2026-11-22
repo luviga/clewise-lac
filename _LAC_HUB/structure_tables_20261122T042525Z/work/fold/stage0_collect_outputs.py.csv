@@ -1,0 +1,52 @@
+old_line,value,loader_read
+21,BAU,LT.scenarios()
+21,NDCNEW,LT.scenarios()
+21,LTSNEW,LT.scenarios()
+22,PP,LT.techs('power_plant_prefix')
+22,PWR,LT.techs('power_plant_prefix')
+23,ELE,LT.fuels('electricity_fuel_token')
+24,ELE_TRN,LT.techs('transmission_distribution_token')
+24,ELE_TRANS,LT.techs('transmission_distribution_token')
+24,ELETTRN,LT.techs('transmission_distribution_token')
+24,TDELE,LT.techs('transmission_distribution_token')
+24,TD_ELE,LT.techs('transmission_distribution_token')
+24,TRANS_ELE,LT.techs('transmission_distribution_token')
+25,ELE_DTR,LT.techs('transmission_distribution_token')
+25,ELE_DIST,LT.techs('transmission_distribution_token')
+25,ELEDTR,LT.techs('transmission_distribution_token')
+25,ELEDIST,LT.techs('transmission_distribution_token')
+25,TD_DIST,LT.techs('transmission_distribution_token')
+25,DIST_ELE,LT.techs('transmission_distribution_token')
+28,CostaRica,LT.country_table('model_dir')
+29,DominicanRepublic,LT.country_table('model_dir')
+30,Ecuador,LT.country_table('model_dir')
+31,Guatemala,LT.country_table('model_dir')
+32,Honduras,LT.country_table('model_dir')
+33,Jamaica,LT.country_table('model_dir')
+28,model_dir,LT.country_table('model_dir')
+28,CR_ENERGY/t1_confection,LT.country_table('model_dir')
+29,model_dir,LT.country_table('model_dir')
+29,RD_ENERGY,LT.country_table('model_dir')
+30,model_dir,LT.country_table('model_dir')
+30,ECU_Energy,LT.country_table('model_dir')
+31,model_dir,LT.country_table('model_dir')
+31,GUA_ENERGY,LT.country_table('model_dir')
+32,model_dir,LT.country_table('model_dir')
+32,HON_ENERGY,LT.country_table('model_dir')
+33,model_dir,LT.country_table('model_dir')
+33,JAM_ENERGY,LT.country_table('model_dir')
+251,2,"LT.controller('status_digits_pj', '0')"
+251,2,"LT.controller('status_digits_pj', '0')"
+262,2024,LT.controller('history_end_year')
+269,0.0001,"LT.controller('min_share_generation_pj', '0')"
+273,4,"LT.controller('digits_pj', '0')"
+274,4,"LT.controller('digits_pj', '0')"
+275,2,"LT.controller('digits_pct', '0')"
+289,4,"LT.controller('digits_pj', '0')"
+290,4,"LT.controller('digits_pj', '0')"
+291,4,"LT.controller('digits_pj', '0')"
+305,4,"LT.controller('digits_pj', '0')"
+305,4,"LT.controller('digits_pj', '0')"
+306,4,"LT.controller('digits_pj', '0')"
+327,5,"LT.controller('report_delta_pct', '0')"
+344,0.1,"LT.controller('share_sum_tolerance_pct', '0')"

@@ -13,18 +13,14 @@ Usage:
 import os, sys, shutil, argparse
 from pathlib import Path
 
+import lac_tables as LT
+
 MODELS_LAC_ROOT = "./"
 SUFFIX = "_S0"
 OUTPUT_DIR = "_STAGE0_OUTPUT"
 
-COUNTRY_CONFIG = {
-    "CostaRica":         "CR_ENERGY/t1_confection",
-    "DominicanRepublic": "RD_ENERGY",
-    "Ecuador":           "ECU_Energy",
-    "Guatemala":         "GUA_ENERGY",
-    "Honduras":          "HON_ENERGY",
-    "Jamaica":           "JAM_ENERGY",
-}
+# country -> model folder inside the country folder (config/preparation/Config_country_codes.yaml)
+COUNTRY_CONFIG = LT.country_map("model_dir")
 
 def main():
     parser = argparse.ArgumentParser(description="Remove all Stage 0 artifacts")

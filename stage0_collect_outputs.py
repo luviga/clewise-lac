@@ -15,23 +15,17 @@ from datetime import datetime
 import pandas as pd
 import numpy as np
 
+import lac_tables as LT
+
 MODELS_LAC_ROOT = "./"
 OUTPUT_DIR = "./_STAGE0_OUTPUT"
 SUFFIX = "_S0"
-SOURCE_SCENARIOS = ["BAU", "NDCNEW", "LTSNEW"]
-PP_PREFIXES = ("PP", "PWR")  # Must match Stage 1's PWR_PREFIXES
-ELEC_FUEL_PATTERNS = ["ELE"]
-TD_PATTERNS = ["ELE_TRN","ELE_TRANS","ELETTRN","TDELE","TD_ELE","TRANS_ELE",
-               "ELE_DTR","ELE_DIST","ELEDTR","ELEDIST","TD_DIST","DIST_ELE"]
+SOURCE_SCENARIOS = LT.scenarios()
+PP_PREFIXES = tuple(LT.techs("power_plant_prefix"))  # Must match Stage 1's PWR_PREFIXES
+ELEC_FUEL_PATTERNS = LT.fuels("electricity_fuel_token")
+TD_PATTERNS = LT.techs("transmission_distribution_token")
 
-COUNTRY_CONFIG = {
-    "CostaRica":         {"model_dir": "CR_ENERGY/t1_confection"},
-    "DominicanRepublic": {"model_dir": "RD_ENERGY"},
-    "Ecuador":           {"model_dir": "ECU_Energy"},
-    "Guatemala":         {"model_dir": "GUA_ENERGY"},
-    "Honduras":          {"model_dir": "HON_ENERGY"},
-    "Jamaica":           {"model_dir": "JAM_ENERGY"},
-}
+COUNTRY_CONFIG = LT.country_table("model_dir")
 
 def is_pp(t): return str(t).upper().startswith(PP_PREFIXES)
 def read_csv(d, f):
@@ -248,7 +242,7 @@ def main():
                   f"{emp_gen.min():.1f}-{emp_gen.max():.1f} PJ")
             status_rows.append({"Country":cname,"Scenario":sc_s0,"Status":"OK",
                                "PP_Techs":pp_techs,"Total_Techs":all_techs,
-                               "Min_PJ":round(emp_gen.min(),2),"Max_PJ":round(emp_gen.max(),2)})
+                               "Min_PJ":round(emp_gen.min(),LT.controller("status_digits_pj", "0")),"Max_PJ":round(emp_gen.max(),LT.controller("status_digits_pj", "0"))})
 
             # Save
             co = out_dir / cname; co.mkdir(exist_ok=True)
@@ -259,20 +253,20 @@ def main():
             # Shares: each tech as % of total generation per year
             # Only historical years (<=2024) — Stage 1 handles 2025+ composition
             for yr in sorted(by_tech.columns):
-                if yr > 2024:
+                if yr > LT.controller("history_end_year"):
                     continue
                 total = emp_gen.get(yr, 0)
                 if total < 0.001:
                     continue
                 for tech in sorted(by_tech.index):
                     gen = float(by_tech.loc[tech, yr])
-                    if gen > 0.0001:
+                    if gen > LT.controller("min_share_generation_pj", "0"):
                         all_shares.append({
                             "Country": cname, "Scenario": sc_s0, "Year": yr,
                             "Technology": tech,
-                            "Gen_PJ": round(gen, 4),
-                            "Total_Gen_PJ": round(total, 4),
-                            "Share_Pct": round(gen / total * 100, 2),
+                            "Gen_PJ": round(gen, LT.controller("digits_pj", "0")),
+                            "Total_Gen_PJ": round(total, LT.controller("digits_pj", "0")),
+                            "Share_Pct": round(gen / total * 100, LT.controller("digits_pct", "0")),
                         })
 
             # Analytical comparison
@@ -286,9 +280,9 @@ def main():
                     delta=empirical-analytical
                     dpct=(delta/analytical*100) if analytical>0 else 0
                     all_denom.append({"Country":cname,"Scenario":sc_s0,"Year":y,
-                        "Empirical_Gen_PJ":round(empirical,4),
-                        "Analytical_RequiredGen_PJ":round(analytical,4),
-                        "Delta_PJ":round(delta,4),"Delta_Pct":round(dpct,1)})
+                        "Empirical_Gen_PJ":round(empirical,LT.controller("digits_pj", "0")),
+                        "Analytical_RequiredGen_PJ":round(analytical,LT.controller("digits_pj", "0")),
+                        "Delta_PJ":round(delta,LT.controller("digits_pj", "0")),"Delta_Pct":round(dpct,1)})
 
                 # Headroom
                 ll = read_csv(b1_dir / sc_base, "TotalTechnologyAnnualActivityLowerLimit.csv")
@@ -302,8 +296,8 @@ def main():
                             if a>0.001 or f>0.001:
                                 all_hr.append({"Country":cname,"Scenario":sc_s0,
                                     "Technology":t,"Year":yr,
-                                    "Actual_PJ":round(a,4),"Floor_PJ":round(f,4),
-                                    "Headroom_PJ":round(a-f,4)})
+                                    "Actual_PJ":round(a,LT.controller("digits_pj", "0")),"Floor_PJ":round(f,LT.controller("digits_pj", "0")),
+                                    "Headroom_PJ":round(a-f,LT.controller("digits_pj", "0"))})
 
     # Write
     print(f"\n{'='*70}\nWriting outputs...")
@@ -324,7 +318,7 @@ def main():
                 if not sub.empty: sub.to_excel(w, sheet_name=f"{sc}{SUFFIX}", index=False)
             dd.to_excel(w, sheet_name="ALL", index=False)
         print(f"  [Wrote] STAGE0_DENOMINATORS.xlsx")
-        big=dd[abs(dd["Delta_Pct"])>5]
+        big=dd[abs(dd["Delta_Pct"])>LT.controller("report_delta_pct", "0")]
         if not big.empty:
             print(f"\n  {len(big)} rows with >5% delta:")
             for _,r in big.head(8).iterrows():
@@ -341,7 +335,7 @@ def main():
 
         # Quick sanity: check share sums per country/scenario/year
         sums = df_shares.groupby(["Country","Scenario","Year"])["Share_Pct"].sum()
-        bad = sums[(sums - 100.0).abs() > 0.1]
+        bad = sums[(sums - 100.0).abs() > LT.controller("share_sum_tolerance_pct", "0")]
         if len(bad) > 0:
             print(f"\n  [WARN] {len(bad)} country/scenario/year combos where shares don't sum to 100%:")
             for idx, val in bad.head(5).items():
