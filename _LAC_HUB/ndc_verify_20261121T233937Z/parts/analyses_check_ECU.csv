@@ -1,0 +1,26 @@
+line,source_id,scenario,indicator,year,value,unit,page,status,how
+2,ECU-21,PNMUS 2023-2030,,,,,p.57,no_value,
+3,ECU-22,BAU,total installed power capacity,2050,17.7,GW,p.52,found,p.52
+4,ECU-22,BAU,renewable share of power generation,2050,99,percent,p.52,found,p.52
+5,ECU-22,NZ,electricity generation,2050,112.9,TWh,p.52,found,p.52
+6,ECU-22,NZ,total installed power capacity,2050,30.3,GW,p.52,found,p.52
+7,ECU-22,NZ,solar share of generation,2050,12.8,percent,p.52,found,p.52
+8,ECU-22,NDCc,solar share of generation,2050,8,percent,p.52,found,p.52
+9,ECU-22,NZ,CO2 emissions of energy and transport,2050,2.6,Mt CO2e,p.52,found,p.52
+10,ECU-22,NZ,bus share of passenger travel,2050,63,percent,p.53,found,p.53
+11,ECU-22,BAU,electric share of cars,2050,3,percent,p.53,found,p.53
+12,ECU-22,BAU,electric share of buses,2050,13,percent,p.53,found,p.53
+13,ECU-22,NDCu,,,,,p.88,no_value,
+14,ECU-23,Politicas Anunciadas (APS),CO2 emissions of energy and LULUCF,2050,97.2,Mt CO2,p.20,found,p.20
+15,ECU-23,Desarrollo Sostenible (SDS),CO2 emissions of energy and LULUCF,2050,24,Mt CO2,p.20,found,p.20
+16,ECU-23,Neto Cero 2050 (NZE),CO2 emissions of energy and LULUCF,2050,1.7,Mt CO2,p.20,found,p.20
+17,ECU-23,Neto Cero 2050 (NZE),total GHG emissions,2050,36,Mt CO2e,p.19,found,p.19
+18,ECU-23,Neto Cero 2050 (NZE),electricity generation,2050,105,TWh,p.15,found,p.15
+19,ECU-23,Neto Cero 2050 (NZE),hydropower share of generation,2050,66,percent,p.16,found,p.16
+20,ECU-23,Neto Cero 2050 (NZE),alternative propulsion share of the car fleet,2050,69,percent,p.16,found,p.16
+21,ECU-23,Neto Cero 2050 (NZE),alternative propulsion share of the bus fleet,2050,71,percent,p.17,found,p.17
+22,ECU-23,Neto Cero 2050 (NZE),"non-motorized share of trips, scenario assumption",2050,10,percent,p.10,found,p.10
+23,ECU-24,1.5C compatible,maximum total GHG emissions excluding LULUCF,2030,37,Mt CO2e,html,found,p.1
+24,ECU-24,1.5C compatible,total GHG emissions excluding LULUCF,2050,13,Mt CO2e,html,found,p.1
+25,ECU-24,First NDC,emission level excluding LULUCF,2025,61,Mt CO2e,html,found,p.1
+26,ECU-25,PLANMICC scenarios,,,,,html,no_value,

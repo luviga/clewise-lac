@@ -1,0 +1,6 @@
+source_id,value,page,how
+CR-22,13814,p.202,"hub read the rendered page (downloads/CR/img_blind/CR-22_p202.png): Tabla 15.4 row 2030, Total generation; the text layout shifts the year column"
+CR-22,14922,p.202,"hub read the rendered page: Tabla 15.4 row 2035, Total generation"
+CR-22,15703,p.202,"hub read the rendered page: Tabla 15.4 row 2040, Total generation"
+JAM-25,1178797,html,"hub read the saved HTML: printed as 1 ,178 ,797 refrigeration units"
+JAM-25,17925,html,"hub read the saved HTML: printed as 17 ,925 AC units"

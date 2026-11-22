@@ -1,0 +1,191 @@
+blind_id,page_read,value,unit,year,reference,note
+GUA-B001,p.13,23.7,%,2035,"1. Resumen ejecutivo, first bullet, printed page 1",Net GHG emissions vs escenario tendencial; NDC 2.0 unconditional target was 11.2% to 2030
+GUA-B001,p.25,23.7,%,2035,"6. Contribucion Nacionalmente Determinada, printed page 13",Net GHG emissions vs national BAU
+GUA-B001,p.28,23.7,%,2035,"6.1 and 6.2 text, printed page 16",Reduction of 17974.3 kt CO2 eq vs BAU (75738.0 to 57763.7)
+GUA-B001,p.131,23.7,%,2035,"Cuadro 32 ICTU, row 1(d), printed page 119",Equivalent to 17974.3 kt CO2 eq
+GUA-B002,p.28,57763.7,kt CO2 eq,2035,"6.2 Informacion cuantificable sobre el punto de referencia, printed page 16",Net emissions limited to this level with NDC 3.0 measures
+GUA-B002,p.131,57763.7,kt CO2 eq,2035,"Cuadro 32 ICTU, row 1(b), printed page 119",Mitigation scenario in target year
+GUA-B003,p.13,17974.3,kt CO2 eq,2035,"1. Resumen ejecutivo, right column, printed page 1",Estimated reduction in 2035 from all measures
+GUA-B003,p.25,17974.3,kt CO2 eq,2035,"6. Contribucion Nacionalmente Determinada, printed page 13",Estimated reduction in 2035
+GUA-B003,p.27,17974.3,kt CO2 eq,2035,"Cuadro 1 Potencial de mitigacion sectorial, row Total, printed page 15",Total potential in 2035 (100.00%)
+GUA-B004,p.13,89113.7,kt CO2 eq,2026-2035,"1. Resumen ejecutivo, right column, printed page 1",Accumulated in period 2026-2035
+GUA-B004,p.25,89113.7,kt CO2 eq,2026-2035,"6. Contribucion Nacionalmente Determinada, printed page 13",Accumulated in period 2026-2035
+GUA-B004,p.29,89113.7,kt CO2 eq,2026-2035,"Integracion y calculo de la meta text, printed page 17",Total accumulated; stated as informative and not an additional target
+GUA-B005,p.26,1184.9,kt CO2 eq,2035,"Text on sector energia, printed page 14",Subtotal of renewable expansion and ethanol blend; 7211.6 accumulated
+GUA-B005,p.27,1184.9,kt CO2 eq,2035,"Cuadro 1, Subtotal energy and transport, printed page 15",6.59% of global target 2035
+GUA-B005,p.29,1184.9,kt CO2 eq,2035,"Cuadro 2 Emisiones netas de GEI por sector en 2035, row Energia (incluye transporte), column Reduccion, printed page 17",
+GUA-B006,p.29,27320.2,kt CO2 eq,2035,"Cuadro 2, row Energia (incluye transporte), column Escenario de mitigacion, printed page 17",BAU 28505.1
+GUA-B007,p.26,7211.6,kt CO2 eq,2026-2035,"Text on sector energia, printed page 14",Accumulated; period from surrounding text
+GUA-B007,p.27,7211.6,kt CO2 eq,2026-2035,"Cuadro 1, Subtotal energy and transport, column acumulado 2026-2035, printed page 15",8.09% of accumulated
+GUA-B010,p.26,696.7,kt CO2 eq,2035,"Text on sector energia, printed page 14",At least 1000 MW renewable capacity; 3135.0 accumulated over the period
+GUA-B010,p.27,696.7,kt CO2 eq,2035,"Cuadro 1, row Energia, printed page 15",3.88% of target; 3135.0 accumulated 2026-2035 (3.52%)
+GUA-B015,p.26,488.2,kt CO2 eq,2035,"Text on sector energia, printed page 14",E10 ethanol blend from 2026; 4076.6 accumulated
+GUA-B015,p.27,488.2,kt CO2 eq,2035,"Cuadro 1, row Transporte, printed page 15",2.72% of target; 4076.6 accumulated 2026-2035 (4.57%)
+GUA-B024,p.26,894.4,kt CO2 eq,2035,"Text on sector PIUP, printed page 14",HFC reduction; 4381.8 accumulated 2026-2035
+GUA-B024,p.27,894.4,kt CO2 eq,2035,"Cuadro 1, row PIUP, printed page 15",4.98% of target; 4381.8 accumulated (4.92%)
+GUA-B026,p.26,15895,kt CO2 eq,2035,"Text on sector ecosistemas biodiversidad y tierras forestales, printed page 14",Also printed as 15895.0 earlier on page; 49% vs sector BAU; 77520.3 accumulated 2027-2035; 88.4% of national reduction
+GUA-B026,p.27,15895,kt CO2 eq,2035,"Cuadro 1, row Ecosistemas Biodiversidad y Tierras Forestales, printed page 15",88.43%; 77520.3 accumulated 2027-2035 (86.99%)
+GUA-B026,p.29,15895.0,kt CO2 eq,2035,"Cuadro 2, row UTCUTS, column Reduccion, printed page 17",
+GUA-B070,p.29,28505.1,kt CO2 eq,2035,"Cuadro 2 Emisiones netas de GEI por sector en 2035, row Energia (incluye transporte), printed page 17",Only 2035 printed on this page
+GUA-B071,p.29,27320.2,kt CO2 eq,2035,"Cuadro 2, row Energia (incluye transporte), printed page 17",Only 2035 printed
+GUA-B072,p.29,4404.3,kt CO2 eq,2035,"Cuadro 2, row PIUP, printed page 17",Only 2035 printed
+GUA-B073,p.29,3509.9,kt CO2 eq,2035,"Cuadro 2, row PIUP, printed page 17",Only 2035 printed
+GUA-B074,p.29,7762.1,kt CO2 eq,2035,"Cuadro 2, row Agricultura, printed page 17",Only 2035 printed
+GUA-B075,p.29,7762.1,kt CO2 eq,2035,"Cuadro 2, row Agricultura, printed page 17",Only 2035 printed; same as BAU
+GUA-B076,p.29,32198.1,kt CO2 eq,2035,"Cuadro 2, row UTCUTS, printed page 17",Only 2035 printed
+GUA-B077,p.29,16303.1,kt CO2 eq,2035,"Cuadro 2, row UTCUTS, printed page 17",Only 2035 printed; text same page also gives 16303.1
+GUA-B078,p.29,2868.5,kt CO2 eq,2035,"Cuadro 2, row Residuos, printed page 17",Only 2035 printed
+GUA-B079,p.29,2868.5,kt CO2 eq,2035,"Cuadro 2, row Residuos, printed page 17",Only 2035 printed; same as BAU
+GUA-B068,p.131,65176.6,kt CO2 eq,2023,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario tendencial (BAU) net national emissions; 2022 inventory 64382.5
+GUA-B068,p.131,66137.2,kt CO2 eq,2024,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario tendencial (BAU) net national emissions; 2022 inventory 64382.5
+GUA-B068,p.131,66967.0,kt CO2 eq,2025,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario tendencial (BAU) net national emissions; 2022 inventory 64382.5
+GUA-B068,p.131,67856.2,kt CO2 eq,2026,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario tendencial (BAU) net national emissions; 2022 inventory 64382.5
+GUA-B068,p.131,68759.8,kt CO2 eq,2027,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario tendencial (BAU) net national emissions; 2022 inventory 64382.5
+GUA-B068,p.131,69634.8,kt CO2 eq,2028,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario tendencial (BAU) net national emissions; 2022 inventory 64382.5
+GUA-B068,p.131,70854.2,kt CO2 eq,2029,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario tendencial (BAU) net national emissions; 2022 inventory 64382.5
+GUA-B068,p.131,71838.6,kt CO2 eq,2030,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario tendencial (BAU) net national emissions; 2022 inventory 64382.5
+GUA-B068,p.131,72584.7,kt CO2 eq,2031,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario tendencial (BAU) net national emissions; 2022 inventory 64382.5
+GUA-B068,p.131,73547.8,kt CO2 eq,2032,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario tendencial (BAU) net national emissions; 2022 inventory 64382.5
+GUA-B068,p.131,74242.8,kt CO2 eq,2033,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario tendencial (BAU) net national emissions; 2022 inventory 64382.5
+GUA-B068,p.131,75026.0,kt CO2 eq,2034,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario tendencial (BAU) net national emissions; 2022 inventory 64382.5
+GUA-B068,p.131,75738.0,kt CO2 eq,2035,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario tendencial (BAU) net national emissions; 2022 inventory 64382.5
+GUA-B069,p.131,65176.6,kt CO2 eq,2023,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario de mitigacion net national emissions
+GUA-B069,p.131,66087.8,kt CO2 eq,2024,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario de mitigacion net national emissions
+GUA-B069,p.131,66868.8,kt CO2 eq,2025,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario de mitigacion net national emissions
+GUA-B069,p.131,67709.6,kt CO2 eq,2026,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario de mitigacion net national emissions
+GUA-B069,p.131,67262.6,kt CO2 eq,2027,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario de mitigacion net national emissions
+GUA-B069,p.131,66021.7,kt CO2 eq,2028,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario de mitigacion net national emissions
+GUA-B069,p.131,65173.6,kt CO2 eq,2029,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario de mitigacion net national emissions
+GUA-B069,p.131,63975.1,kt CO2 eq,2030,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario de mitigacion net national emissions
+GUA-B069,p.131,62592.2,kt CO2 eq,2031,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario de mitigacion net national emissions
+GUA-B069,p.131,61475.4,kt CO2 eq,2032,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario de mitigacion net national emissions
+GUA-B069,p.131,60135.2,kt CO2 eq,2033,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario de mitigacion net national emissions
+GUA-B069,p.131,58860.2,kt CO2 eq,2034,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario de mitigacion net national emissions
+GUA-B069,p.131,57763.7,kt CO2 eq,2035,"Cuadro 32 ICTU, row 1(b), printed page 119",Escenario de mitigacion net national emissions
+GUA-B008,p.40,80,%,2035,"Cuadro 10 Metas priorizadas de mitigacion sobre generacion electrica, E-1 (a), printed page 28",At least 80% of electricity generated from renewable sources; text same page says renewables rose from 48% in 2010 to 62% in 2025
+GUA-B008,p.41,80,%,,"Text above Cuadro 11, printed page 29",At least 80% of annual electricity generation from renewables; no year in sentence
+GUA-B008,p.102,80,%,2035,"12.2.2 Sector Energia, matrix E-1, Meta, printed page 90",Base year 2025
+GUA-B009,p.40,1000,MW,2035,"Cuadro 10, E-1 (b), printed page 28",At least 1000 MW additional renewable installed capacity
+GUA-B009,p.102,1000,MW,2035,"Matrix E-1, Meta, printed page 90",At least 1000 MW additional; base year 2025
+GUA-B009,p.28,1000,MW,2030-2033,"6.3 Metodologia, mitigation scenario text, printed page 16",1000 MW of renewable capacity entering operation in stages between 2030 and 2033
+GUA-B011,p.40,,,2035,"Cuadro 10, E-1 (c), printed page 28",Found; no number: by 2035 the potential of low-emission generation technologies (natural gas green hydrogen nuclear other emerging) will have been evaluated
+GUA-B011,p.102,,,2035,"Matrix E-1, Meta, printed page 90",Found; no number; same target text
+GUA-B012,p.41,5,indicators,2030,"Cuadro 11 SNIEE, E-2 (b), printed page 29",At least five energy intensity indicators established and reported; E-2 (a) baseline by 2029
+GUA-B012,p.103,5,indicators,2030,"Matrix E-2, Meta, printed page 91",Printed as al menos cinco; base year N/A
+GUA-B013,p.42,47000,households,2035,"Cuadro 12 energizacion rural resiliente, E-3 (a), printed page 30",Additional households with electricity access through sustainable solutions
+GUA-B013,p.104,47000,households,2035,"Matrix E-3, Meta, printed page 92",Base year 2025
+GUA-B014,p.46,10,%,2035,"Cuadro 14, T-1, printed page 34",Minimum 10% ethanol (E10) maintained to 2035; started in 2026
+GUA-B014,p.27,10,%,2035,"Cuadro 1, row Transporte, Meta de la accion, printed page 15",E10 started in 2026 and maintained to 2035
+GUA-B014,p.106,10,%,2035,"12.2.3 Sector Transporte, matrix T-1, printed page 94",Minimum 10% (E10) started in 2026; base year 2026
+GUA-B016,p.47,10000,vehicles,2035,"Cuadro 15 electromovilidad, T-2 (a), printed page 35",Additional electric vehicles vs 2025 baseline
+GUA-B016,p.107,10000,vehicles,2035,"Matrix T-2, printed page 95",Nota 1: baseline September 2025 is 4451 electric vehicles
+GUA-B017,p.47,20000,vehicles,2035,"Cuadro 15, T-2 (b), printed page 35",Additional hybrid vehicles vs 2025 baseline
+GUA-B017,p.107,20000,vehicles,2035,"Matrix T-2, printed page 95",Nota 1: baseline September 2025 is 15975 hybrid vehicles
+GUA-B018,p.47,45,km,2027,"Cuadro 16 transporte no motorizado, T-3 (a), printed page 35",Interconnected municipal bike lane network in departamento de Guatemala
+GUA-B018,p.108,45,km,2027,"Matrix T-3, printed page 96",Base year 2025
+GUA-B019,p.47,85,%,2030,"Cuadro 16, T-3 (b), printed page 35",At least 85% with minimum technical standard
+GUA-B019,p.108,85,%,2030,"Matrix T-3, printed page 96",At least 85%; base year 2025
+GUA-B020,p.48,,,2030,"Cuadro 17 transporte masivo, T-4 (a), printed page 36",Found; no number in target: Aerometro implemented and operating in Ciudad de Guatemala by 2030; no line numbers on this page
+GUA-B020,p.109,,,2030,"Matrix T-4, printed page 97",Found; indicator reads Lineas 1 y 2 del aerometro implementadas
+GUA-B021,p.48,25,%,2035,"Cuadro 17, T-4 (b), printed page 36",Share of Transmetro diesel fleet replaced by electric units
+GUA-B021,p.109,25,%,2035,"Matrix T-4, printed page 97",Base year 2025
+GUA-B022,p.48,17,routes,2035,"Cuadro 17, T-4 (c), printed page 36",Operating licences granted to 17 TuBus routes
+GUA-B022,p.109,17,routes,2035,"Matrix T-4, printed page 97",Base year 2025
+GUA-B023,p.48,80,%,2035,"Cuadro 17, T-4 (d), printed page 36",At least 80% of population of municipio de Guatemala within 500 metres of a transport service
+GUA-B023,p.109,80,%,2035,"Matrix T-4, printed page 97",At least 80% within 500 metres
+GUA-B025,p.33,49,%,2035,"Cuadro 3, ET-1 (d), printed page 21",Net emissions of UTCUTS sector vs BAU; text same page repeats 49%
+GUA-B025,p.94,49,%,2035,"12.2.1 matrix ET-1, printed page 82",Compared with BAU 2035 of 32198.1 kt CO2 eq; base year 2022
+GUA-B027,p.59,22,projects,2035,"Cuadro 23 GIRDS, R-3 (a), printed page 47",22 projects on organic waste use in agricultural and productive systems including food loss prevention
+GUA-B028,p.70,11.2,%,2030,"Meta no condicionada al apoyo internacional text, printed page 65",Unconditional; reduces emissions to 64.9 million t CO2-eq (Figura 5 label 64.999)
+GUA-B028,p.70,64.9,millones de toneladas de CO2-eq,2030,"Meta no condicionada text, printed page 65",Unconditional target level; Figura 5 end label 64.999; BAU end label 73.197
+GUA-B029,p.70,22.6,%,2030,"Meta condicionada al apoyo internacional text, printed page 65",Conditional; reduces emissions to 56.6 million t CO2-eq (Figura 5 label 56.654)
+GUA-B029,p.70,56.6,millones de toneladas de CO2-eq,2030,"Meta condicionada text, printed page 65",Conditional target level
+GUA-B030,p.70,6.09,millones de toneladas de CO2-eq,2030,"Side box, printed page 65",Measures prioritised in the 2021 update; 8.32% of BAU projected emissions; Figura 5 line Medidas de mitigacion 2021 ends at 67.107
+GUA-B030,p.70,8.32,%,2030,"Side box, printed page 65",Share of projected BAU emissions
+GUA-B031,p.72,80,%,2030,"Cuadro 3 Energia, ENE-3 Cambio en la matriz energetica, Meta al 2030, printed page 67",80% of electricity generation from clean energy
+GUA-B031,p.77,80,%,2030,"Text on Generacion electrica, printed page 72",Clean or renewable energy 80% of the energy matrix (ENE-3)
+GUA-B032,p.72,2.5,millones de toneladas de CO2-eq,2030,"Cuadro 3 Energia, ENE-2 Movilidad sostenible, Meta al 2030, printed page 67",ENE-2 measure target
+GUA-B032,p.76,2.5,millones de toneladas de CO2-eq,2030,"Side box 5.2.2 Energia, printed page 71",Three energy measures; 41.07% of projected reductions of the updated NDC
+GUA-B033,p.77,24.3,%,2032,"Text on Transporte terrestre (ENE-2), printed page 72",Share of gasoline vehicles replaced by electric by 2032
+GUA-B034,p.77,10,%,,"Text on Transporte terrestre, printed page 72",Partial replacement of gasoline with 10% advanced ethanol nationally; no year in sentence
+GUA-B035,p.71,1.5452,millones de toneladas de CO2-eq,2030,"Cuadro 3 UTCUTS, UTC-1, Meta al 2030, printed page 66",Reduction
+GUA-B036,p.71,0.12933,millones de toneladas de CO2-eq,2030,"Cuadro 3 UTCUTS, UTC-2, Meta al 2030, printed page 66",Reduction
+GUA-B037,p.71,0.1773,millones de toneladas de CO2-eq,2030,"Cuadro 3 UTCUTS, UTC-3, Meta al 2030, printed page 66",Increase in removals
+GUA-B038,p.71,0.9443,millones de toneladas de CO2-eq,2030,"Cuadro 3 UTCUTS, UTC-4, Meta al 2030, printed page 66",Increase in removals
+GUA-B039,p.72,0.6370,millones de toneladas de CO2-eq,2030,"Cuadro 3 Agricultura, AGR-1, Meta al 2030, printed page 67",Reduction; first phase in 300 farms (fincas/granjas)
+GUA-B039,p.72,300,farms,,"Cuadro 3 Agricultura, AGR-1, Descripcion, printed page 67",Number of farms in the first phase
+GUA-B040,p.72,0.1539,millones de toneladas de CO2-eq,2030,"Cuadro 3 Residuos, RES-1 zona 3 landfill, Meta al 2030, printed page 67",Reduction
+GUA-B041,p.72,600,toneladas de envases vacios,2030,"Cuadro 3 Residuos, RES-2 Proyecto campo limpio, Meta al 2030, printed page 67",Marked as Meta NO GEI
+GUA-B042,p.6,11.2,%,2030,"3.2.1 Propuesta No Condicionada, page 6",Unconditional; of total GHG emissions of base year 2005 projected to 2030; BAU 53.85 to 47.81 million t CO2 eq
+GUA-B042,p.6,53.85,millones de toneladas de CO2 equivalentes,2030,"3.2.1 and Figura 1, page 6",BAU in 2030
+GUA-B042,p.6,47.81,millones de toneladas de CO2 equivalentes,2030,"3.2.1 and Figura 1, page 6",Unconditional target level
+GUA-B043,p.6,22.6,%,2030,"3.2.2 Propuesta Condicionada, page 6",Conditional on international support; reduced to 41.66 million t CO2 eq
+GUA-B043,p.6,41.66,millones de toneladas de CO2 equivalentes,2030,"3.2.2 and Figura 1, page 6",Conditional target level
+GUA-B044,p.12,80,%,2030,"5.1 Mitigacion, Energia first bullet, page 12",Expected renewable share of electricity generation in 2030
+GUA-B044,p.12,69.72,%,,"5.1 Mitigacion, Energia first bullet, page 12",Current renewable share of SNI generation at the time (no year printed)
+GUA-B045,p.58,59,%,2050,"Text above Figura 29, printed page 57",Reduction of projected emissions with implementation of the strategy in 2050; from 203 to 83 millones de toneladas de CO2e
+GUA-B045,p.58,203,millones de toneladas de CO2e,2050,"Text above Figura 29, printed page 57",BAU 2050 (from value)
+GUA-B045,p.58,83,millones de toneladas de CO2e,2050,"Text above Figura 29, printed page 57",With all options 2050 (to value)
+GUA-B045,p.56,83,millones de toneladas de CO2e,2050,"8. Ruta a seguir text, printed page 55",43 options reduce emissions to 83 Mt in 2050; BAU grows to approximately 203 Mt per year; no percentage on this page
+GUA-B046,p.58,75,millones de toneladas de CO2e,2030,"Text above Figura 29, printed page 57",Reduction with the 43 prioritised options in 2030; 44% reduction
+GUA-B046,p.58,44,%,2030,"Text above Figura 29, printed page 57",Reduction share in 2030; described as doubling the NDC targets
+GUA-B046,p.57,,,2030,"Text below Figura 28, printed page 56",Not found on this page: only BAU 140 Mt in 2030 and NDC levels 125 (11%) and 109 (22%) are printed; the 75 Mt sentence continues on p.58
+GUA-B047,p.55,2454,Millones de Toneladas de CO2e,2019-2050,"7. Impactos de la estrategia, printed page 54",Number of options not printed on this page (p.56 refers to 43 options)
+GUA-B048,p.24,374,millones de toneladas de CO2e,2019-2050,"Energy sector text, printed page 23",Eleven (once) energy options: five generation; four RCI demand; two urbanism; savings 26440 millones de Quetzales
+GUA-B049,p.24,64,%,2032,"Box on Plan Nacional de Energia 2017-2032, printed page 23",Renewable resource use in the energy matrix from 54% in 2016 to 64% in 2032
+GUA-B049,p.24,54,%,2016,"Box on Plan Nacional de Energia 2017-2032, printed page 23",Starting share
+GUA-B050,p.26,11,millones de toneladas de CO2e,2050,"Text right column, printed page 25",Approximately 11 Mt CO2e reduced in 2050 by low-firewood stoves (E-9); reduces firewood demand in households printed as 100 then 00 with a comma (number looks garbled)
+GUA-B051,p.30,80,millones de toneladas de CO2e,2019-2050,"Transport sector text, printed page 29",Eight options (six transport and two urbanism); net savings 27613 millones de quetzales
+GUA-B052,p.35,103,millones de toneladas de CO2e,2019-2050,"Text below Figura 15, printed page 34",Six industry options; savings 12603 millones de quetzales
+GUA-B053,p.41,753,millones de toneladas de CO2e,2019-2050,"Agriculture text, printed page 40",Seven options (four agricultural three livestock); cost 4184 millones de quetzales
+GUA-B054,p.46,1236,millones de toneladas de CO2e,2019-2050,"Text below Figura 21, printed page 45",Five forest options; net cost 29923 millones de quetzales; B-2 alone 918 Mt
+GUA-B055,p.50,186,millones de toneladas de CO2e,2019-2050,"Waste sector text, printed page 49",Six options; savings 8616 millones de quetzales
+GUA-B080,p.57,140,millones de toneladas de CO2e,2030,"Text below Figura 28, printed page 56",BAU in 2030; Figura 28 has no data labels; only this value printed on page
+GUA-B081,p.57,125,millones de toneladas de CO2e,2030,"Text below Figura 28, printed page 56",NDC 11% scenario level in 2030 (n masked; if the scenario is NDC 22% the printed 2030 value is 109)
+GUA-B081,p.57,109,millones de toneladas de CO2e,2030,"Text below Figura 28, printed page 56",NDC 22% scenario level in 2030
+GUA-B082,p.58,203,millones de toneladas de CO2e,2050,"Text above Figura 29, printed page 57",BAU 2050; Figura 29 has no data labels
+GUA-B083,p.58,181,millones de toneladas de CO2e,2050,"Text above Figura 29, printed page 57",NDC 11% scenario level in 2050
+GUA-B083,p.58,125,millones de toneladas de CO2e,2050,"Text above Figura 29, printed page 57",NDC 22% scenario level in 2050 as printed (203 to 125); looks inconsistent with a 22% cut
+GUA-B084,p.58,83,millones de toneladas de CO2e,2050,"Text above Figura 29, printed page 57",Implementing options of all sectors; 2030 level not printed (only the 75 Mt reduction)
+GUA-B085,p.22,3.6,millones de toneladas de CO2 equivalente,2015,"Text above Figura 7 Linea base Suministro Electrico, printed page 21",Subsector emissions 2015
+GUA-B085,p.22,12,millones de toneladas,2050,"Text above Figura 7, printed page 21",Printed as mas de 12 millones in 2050 (un aumento del 6.5%); figure has no data labels
+GUA-B086,p.23,4,millones de toneladas de CO2 equivalente,2015,"Text above Figura 8 RCI, printed page 22",Printed as casi 4 millones
+GUA-B086,p.23,9,millones de toneladas de CO2 equivalente,2050,"Text above Figura 8 RCI, printed page 22",Printed as mas de 9 millones; growth more than 100%
+GUA-B087,p.29,9.5,millones de toneladas de CO2e,2015,"Text above Figura 12 Transporte, printed page 28",Approximately 9.5
+GUA-B087,p.29,15,millones de toneladas de CO2e,2050,"Text above Figura 12, printed page 28",Printed as superarian los 15 millones; increase 60%
+GUA-B088,p.34,4.7,millones de toneladas de CO2 equivalente,2015,"Industry text, printed page 33",
+GUA-B088,p.34,9.5,millones de toneladas,2030,"Industry text, printed page 33",Printed as casi 9.5 millones
+GUA-B088,p.34,16.7,millones de toneladas,2050,"Industry text, printed page 33",Increase 200% vs 2015
+GUA-B089,p.41,10,millones de toneladas de CO2e,2015,"Agriculture text, printed page 40",
+GUA-B089,p.41,12,millones de toneladas,2030,"Agriculture text, printed page 40",
+GUA-B089,p.41,15,millones de toneladas,2050,"Agriculture text, printed page 40",
+GUA-B090,p.45,71,millones de toneladas de CO2e,2015,"Forest and other land use text, printed page 44",
+GUA-B090,p.45,98,millones de toneladas,2030,"Forest and other land use text, printed page 44",
+GUA-B090,p.45,146,millones de toneladas,2050,"Forest and other land use text, printed page 44",
+GUA-B091,p.50,2,millones de toneladas de CO2e,2015,"Waste sector text, printed page 49",2050 not given as a number (este monto se duplicara); Figura 24 has no data labels
+GUA-B056,p.254,15,%,2030,"Section on NDC implementation challenges, printed page 254",Blend planned to start in 2024 at 10% and rise gradually to 15% by 2030; Ley 159-2023 reformed by AG 101-2024 moving start to 1 January 2026
+GUA-B057,p.254,10.5,millones de toneladas de CO2 eq,,"Last paragraph, printed page 254",Objective of the Programa de Reduccion de Emisiones (PRE) over the project execution period; no years printed
+GUA-B058,p.271,1235.73,barriles equivalentes de petroleo,,"Tabla 4.28 Movilidad sostenible, row Objetivos, printed page 271",Oil not consumed by ethanol substitution; 3066.53 barrels for electric vehicles (continues on p.272); no year printed
+GUA-B058,p.272,3066.53,barriles equivalentes de petroleo,,"Tabla 4.28 continuation, printed page 272",Continuation of Objetivos: barrels not consumed by substitution with electric vehicles (the 3066.53 figure starts on p.271); ethanol value is on p.271
+GUA-B059,p.271,80,%,2030,"Tabla 4.27 Priorizar energia limpia, row Objetivos, printed page 271",Generation with clean energy by 2030; start of implementation 2022
+GUA-B060,p.68,64,%,2032,"Grafica 22 Evolucion de la diversificacion de la matriz energetica 2016-2032, printed page 67",Renewables 2032 (outer ring); 2016 inner ring 58% renewable; text says 5% growth in renewable share
+GUA-B060,p.68,58,%,2016,"Grafica 22, printed page 67",Renewables 2016 (inner ring)
+GUA-B060,p.70,64,%,2032,"Text 8.1.2 continuation, printed page 69",64% renewables and 36% fossil fuels
+GUA-B061,p.92,29.2,%,2032,"8.3 Tercer Eje, printed page 91",PNE energy sector reduction vs BAU; 16.82 to 11.91 millones de toneladas de CO2 equivalentes
+GUA-B061,p.92,16.82,millones de toneladas de CO2 equivalentes,2032,"8.3 Tercer Eje, printed page 91",BAU 2032
+GUA-B061,p.92,11.91,millones de toneladas de CO2 equivalentes,2032,"8.3 Tercer Eje, printed page 91",PNE target level 2032
+GUA-B062,p.60,11.2,%,2032,"7 Contextualizacion del Plan Nacional de Energia, printed page 59",Energy sector reduction target vs sector BAU by 2032 mirroring national 11.2% to 2030
+GUA-B063,p.70,10.82,Millones de Toneladas de CO2e,2032,"Text above 8.1.3, printed page 69",Reduction from 64% renewable / 36% fossil mix vs BAU in 2032
+GUA-B064,p.67,3550.28,MW,2032,"Tabla 7 Planta candidatas de Generacion Electrica por tipo de recurso, row Agua, printed page 66",66 hydro plants
+GUA-B064,p.67,300,MW,2032,"Tabla 7, row Geotermia, printed page 66",3 plants
+GUA-B064,p.67,187,MW,2032,"Tabla 7, row Sol, printed page 66",8 plants
+GUA-B064,p.67,316,MW,2032,"Tabla 7, row Hibridos, printed page 66",4 plants
+GUA-B064,p.67,101,MW,2032,"Tabla 7, row Eolico, printed page 66",3 plants
+GUA-B064,p.67,445,MW,2032,"Tabla 7, row Bunker, printed page 66",4 plants
+GUA-B064,p.67,600,MW,2032,"Tabla 7, row Carbon, printed page 66",2 plants
+GUA-B064,p.67,603,MW,2032,"Tabla 7, row Gas Natural (IMP), printed page 66",4 plants
+GUA-B064,p.67,6102.28,MW,2032,"Tabla 7, row TOTAL, printed page 66",94 plants; expected 16153 GWh by 2032
+GUA-B065,p.79,100000,estufas ahorradoras,2027,"Text right column, printed page 78",Long-term goal of the Politica Energetica 2013-2027 to promote 100000 efficient stoves; year is the policy end year
+GUA-B066,p.80,15766996,Toneladas de Lena,2016-2032,"Tabla 12 Tabla de comparacion y reduccion de lena, printed page 79",Text says para el ano 2032 (printed 15 766996 with space); table header says 2032 but values 364909910 and 349142914 equal the 2016-2032 totals of Tablas 10 and 11
+GUA-B066,p.81,15766996,Toneladas,2032,"Text below Grafica 31, printed page 80",Printed as 15 766996 Toneladas; linked to 203715 t CO2e in 2032
+GUA-B067,p.81,203715,Toneladas de CO2e,2032,"Text below Grafica 31, printed page 80",Emission reduction from the firewood saving

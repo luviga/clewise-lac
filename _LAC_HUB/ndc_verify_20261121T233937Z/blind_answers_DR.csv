@@ -1,0 +1,116 @@
+blind_id,page_read,value,unit,year,reference,note
+DR-B001,p.14,28,%,2030,"1. Introduccion Estrategica, Pagina 14 de 143",Vs BAU; base year 2022; equivalent to 14732.1 kt CO2 eq; 32% for 2035 also printed
+DR-B001,p.14,32,%,2035,"1. Introduccion Estrategica, Pagina 14 de 143",Vs BAU; equivalent to 18349.32 kt CO2 eq
+DR-B001,p.62,28,%,2030,"Objetivo de Mitigacion, Pagina 62 de 143",Vs BAU 51949.62 kt CO2 eq
+DR-B001,p.62,32,%,2035,"Objetivo de Mitigacion, Pagina 62 de 143",Vs BAU 57292.65 kt CO2 eq
+DR-B001,p.129,28,%,2030,"ICTU table row d, Pagina 129 de 143",Equivalent to 14732.10 kt CO2 eq
+DR-B001,p.129,32,%,2035,"ICTU table row d, Pagina 129 de 143",Equivalent to 18349.32 kt CO2 eq
+DR-B002,p.14,14732.1,kt CO2 eq,2030,"1. Introduccion Estrategica, Pagina 14 de 143",28% reduction vs BAU
+DR-B002,p.14,18349.32,kt CO2 eq,2035,"1. Introduccion Estrategica, Pagina 14 de 143",32% reduction vs BAU
+DR-B002,p.62,14732.10,kt CO2 eq,2030,"Objetivo de Mitigacion, Pagina 62 de 143",Reduction amount
+DR-B002,p.62,18349.32,kt CO2 eq,2035,"Objetivo de Mitigacion, Pagina 62 de 143",Reduction amount
+DR-B003,p.14,32,%,2035,"1. Introduccion Estrategica, Pagina 14 de 143",Vs BAU (28% for 2030 also printed)
+DR-B003,p.14,28,%,2030,"1. Introduccion Estrategica, Pagina 14 de 143",Vs BAU
+DR-B003,p.62,32,%,2035,"Objetivo de Mitigacion, Pagina 62 de 143",Vs BAU
+DR-B003,p.62,28,%,2030,"Objetivo de Mitigacion, Pagina 62 de 143",Vs BAU
+DR-B003,p.129,32,%,2035,"ICTU table row d, Pagina 129 de 143",Vs BAU
+DR-B003,p.129,28,%,2030,"ICTU table row d, Pagina 129 de 143",Vs BAU
+DR-B004,p.14,8.5,%,2030,"1. Introduccion Estrategica, Pagina 14 de 143",Unconditional (no-condicionado) part of the 28% commitment financed with national resources
+DR-B004,p.62,8.5,%,2030,"Objetivo de Mitigacion, Pagina 62 de 143",Unconditional part of the commitment; year implied by the 28% for 2030
+DR-B005,p.14,19.5,%,2030,"1. Introduccion Estrategica, Pagina 14 de 143",Conditional on external finance technology transfer and capacity building
+DR-B005,p.62,19.5,%,2030,"Objetivo de Mitigacion, Pagina 62 de 143",Conditional part of the commitment
+DR-B006,p.64,37217,kt CO2 eq,2030,"4.4 Niveles de Ambicion text (Figura 9 description), Pagina 64 de 143",New ambition pathway level in 2030 (42842 in 2025); Figura 8 same page gives 38943.34 in 2035 for scenario B
+DR-B006,p.64,42842,kt CO2 eq,2025,"4.4 Niveles de Ambicion text, Pagina 64 de 143",New ambition pathway in 2025
+DR-B006,p.64,38943.34,ktCO2e,2035,"Figura 8 Escenario de emisiones proyectado al 2035, Pagina 64 de 143",Scenario B 2035 level after NDC 2.0 (-8351.95) and NDC 3.0 (-9997.37) reductions
+DR-B051,p.32,45327.19,kt CO2 eq,2022,"Tabla 4 Emisiones y absorciones por tipo de gas, row Emisiones de CO2 eq, Pagina 32 de 143",Historic 2022; Figura 6 on p.62 prints 45327.00
+DR-B051,p.32,51949.62,kt CO2 eq,2030,"Tabla 4, row Emisiones de CO2 eq, column 2030 (Proyeccion media), Pagina 32 de 143",
+DR-B051,p.32,57292.65,kt CO2 eq,2035,"Tabla 4, row Emisiones de CO2 eq, column 2035 (Proyeccion media), Pagina 32 de 143",Figura 4 line has no data labels
+DR-B051,p.195,45327.19,kt CO2 eq,2022,"Annex Tabla No.4 Conversion de emisiones/absorciones, row Emisiones de CO2 eq, annex Pagina 8 de 8",
+DR-B051,p.195,51949.62,kt CO2 eq,2030,"Annex Tabla No.4, column 2030 (Proyeccion media)",
+DR-B051,p.195,57292.65,kt CO2 eq,2035,"Annex Tabla No.4, column 2035 (Proyeccion media)",
+DR-B052,p.64,42842,kt CO2 eq,2025,"4.4 Niveles de Ambicion text, Pagina 64 de 143",Nueva ambicion line; Figura 9 itself is not on this page
+DR-B052,p.64,37217,kt CO2 eq,2030,"4.4 Niveles de Ambicion text, Pagina 64 de 143",Nueva ambicion line
+DR-B052,p.64,38943.34,ktCO2e,2035,"Figura 8, Pagina 64 de 143",2035 value of scenario B in Figura 8 (not described as the nueva ambicion line)
+DR-B007,p.41,7477.22,ktCO2 eq,,"Tabla 5 Portafolio de PAMs, ENERGIA TOTAL row (12 PAMs), Pagina 41 de 143",Investment 7881087000 USD; no year in the table column
+DR-B007,p.45,7477.22,ktCO2eq,,"Energia summary infographic, Pagina 45 de 143",12 PAMs; investment total estimated to 2030 is 7881087000 USD
+DR-B008,p.40,7204.56,ktCO2 eq,,"Tabla 5, Generacion de Electricidad row (PAMs 1 to 4), Pagina 40 de 143",Investment 5621447000 USD
+DR-B008,p.46,7204.56,ktCO2eq,,"Energia Generacion de electricidad infographic, Pagina 46 de 143",Investment to 2030 5621447000 USD
+DR-B009,p.148,1429,MW,2030,"Annex PAM table, Breve descripcion de la opcion, annex Pagina 2 de 37",Four new natural gas combined cycle units to enter operation before end of 2030
+DR-B009,p.148,150,MW,2030,"Annex PAM table, Actividades requeridas, annex Pagina 2 de 37",Estrella del Mar IV in San Pedro de Macoris
+DR-B009,p.148,812,MW,2030,"Annex PAM table, Actividades requeridas, annex Pagina 2 de 37",Manzanillo Gas and Power + Manzanillo Energy Bloque No.1 and No.2 total in Montecristi
+DR-B009,p.148,467,MW,2030,"Annex PAM table, Actividades requeridas, annex Pagina 2 de 37",San Felipe Andres 1 in Boca Chica
+DR-B010,p.148,2764734.31,tCO2 eq/ano,2026-2030,"Annex PAM table, Meta GEI column, annex Pagina 2 de 37",Execution 2026-2030; financing 2312297000.00 USD
+DR-B011,p.149,1529,MWn,2030,"Annex PAM table renewables, Breve descripcion, annex Pagina 3 de 37",New solar wind and hydro capacity; 109.5% increase over 2024 installed renewable capacity (p.148 says 109%)
+DR-B012,p.149,30,parques solares,2030,"Annex PAM table renewables, Actividades requeridas, annex Pagina 3 de 37",30 solar parks totalling 1267.15 MWn of which 170 MW in BESS storage
+DR-B012,p.149,1267.15,MWn,2030,"Annex PAM table renewables, Actividades requeridas, annex Pagina 3 de 37",Solar capacity
+DR-B012,p.149,170,MW,2030,"Annex PAM table renewables, Actividades requeridas, annex Pagina 3 de 37",Battery storage (BESS) within the solar parks
+DR-B013,p.149,250,MWn,2030,"Annex PAM table renewables, Actividades requeridas, annex Pagina 3 de 37",5 (cinco) wind parks
+DR-B014,p.149,12,MWn,2030,"Annex PAM table renewables, Actividades requeridas, annex Pagina 3 de 37",One hydro plant
+DR-B015,p.149,2179636.64,t CO2eq/ano,2026-2030,"Annex PAM table renewables, Meta GEI column, annex Pagina 3 de 37",Financing 1729150000.00 USD
+DR-B016,p.150,1005400,MWh/ano,2025-2029,"Annex PAM table distribution losses, Meta No GEI, annex Pagina 4 de 37",Execution 2025-2029
+DR-B017,p.150,648885.16,tCO2 eq ano,2025-2029,"Annex PAM table distribution losses, Meta GEI, annex Pagina 4 de 37",Financing 380000000.00 USD
+DR-B018,p.151,300,MW,2026-2035,"Annex PAM table nuclear SMR, Objetivo/Indicador Meta, annex Pagina 5 de 37",First reactor up to 300 MW; planning 2023-2025 execution 2026-2035
+DR-B019,p.151,1611305.64,tCO2 eq,2026-2035,"Annex PAM table nuclear SMR, Meta GEI, annex Pagina 5 de 37",No per year unit printed; financing 1200000000 USD
+DR-B020,p.153,194838.00,MWh/anos ahorrados,2026-2030,"Annex PAM table Gestion de la demanda a nivel gubernamental, Meta No GEI, annex Pagina 7 de 37",GHG target 125748.45 ton CO2 eq/ano; financing 83000000 USD
+DR-B020,p.154,247300,bombillas,,"Annex PAM table continuation, Breve descripcion, annex Pagina 8 de 37",More than 247300 more efficient bulbs (HPS 250W to LED 120W); the MWh value is on p.153
+DR-B021,p.40,125.75,ktCO2 eq,,"Tabla 5, Eficiencia Energetica row (PAMs 5 and 6), Pagina 40 de 143",Investment 243000000.0 USD
+DR-B021,p.47,125.75,ktCO2eq,,"Energia Eficiencia energetica infographic, Pagina 47 de 143",Investment to 2030 243000000 USD
+DR-B022,p.40,145.91,ktCO2 eq,,"Tabla 5, Transporte Carretero row (PAMs 7 to 11, 5 PAMs), Pagina 40 de 143",Investment 1911640000.0 USD
+DR-B022,p.48,145.91,ktCO2eq,,"Energia Transporte carretero infographic, Pagina 48 de 143",Investment to 2030 1911640000 USD
+DR-B023,p.155,31,Km,2026-2030,"Annex PAM table bus corridors, Breve descripcion, annex Pagina 9 de 37",Corredor la Independencia with two rings; 64 diesel buses
+DR-B023,p.155,36.60,Km,2026-2030,"Annex PAM table bus corridors, Breve descripcion, annex Pagina 9 de 37",Corredor 27 febrero; 110 diesel buses
+DR-B023,p.155,174,autobuses,2026-2030,"Annex PAM table bus corridors, Actividades requeridas, annex Pagina 9 de 37",Independencia and 27 de febrero corridors (174 buses); GHG 22925.66 t CO2 eq/ano
+DR-B024,p.156,13.2,km,2026,"Annex PAM table monorails, Breve descripcion and Actividades, annex Pagina 10 de 37",Monorriel de Santiago; implementation in 2026; 52648.56 ton CO2 eq/ano
+DR-B024,p.156,10.5,kilometros,2035,"Annex PAM table monorails, Breve descripcion and Actividades, annex Pagina 10 de 37",Monorriel de Santo Domingo phase I in 2035; 12 stations; 58993.65 ton CO2 eq/ano
+DR-B025,p.157,4500,pasajeros por hora en cada sentido,2026-2030,"Annex PAM table teleferico, Breve descripcion, annex Pagina 11 de 37",Cabins for 12 people; GHG 11343 ton CO2 eq/ano
+DR-B026,p.159,500000,litros anuales,,"Annex PAM table SAF and LCAF, Objetivo/Indicador Meta, annex Pagina 13 de 37",Sustainable and low-carbon aviation fuel in domestic aviation
+DR-B026,p.160,1000,t CO2 eq,2028-2035,"Annex PAM table SAF continuation, Meta GEI, annex Pagina 14 de 37",The litres value is on p.159; p.160 gives the GHG target 1000 t CO2 eq and execution 2028-2035
+DR-B027,p.171,0,% de perdida de manglar,2030,"Annex PAM table mangroves (Republica Dominicana 30 x 30), Objetivo/Indicador Meta, annex Pagina 25 de 37",Baseline net loss about 10 km2 of mangroves 2015-2022; GHG target 660000 t CO2 eq
+DR-B028,p.42,2010,ktCO2 eq,,"Tabla 5, UTCUTS Tierras Forestales row (PAMs 19 and 20), Pagina 42 de 143",UTCUTS TOTAL row on the same page prints 2010000 (unit mismatch with the row value)
+DR-B028,p.57,2010,ktCO2eq,,"UTCUTS Tierras forestales infographic, Pagina 57 de 143",Investment to 2030 2471000000 USD
+DR-B029,p.175,138546.23,t CO2eq/ano,2026-2030,"Annex PAM table Duquesa landfill, Meta GEI, annex Pagina 29 de 37",Text gives 138546 tCO2eq; 36000 t/yr of valorised waste; closure of about 120 ha
+DR-B030,p.42,150.65,ktCO2 eq,,"Tabla 5, Residuos Aguas Residuales row (PAMs 24 and 25), Pagina 42 de 143",Investment 613500000.0 USD
+DR-B030,p.60,150.65,ktCO2eq,,"Residuos Aguas residuales infographic, Pagina 60 de 143",Investment to 2030 613500000 USD
+DR-B031,p.5,27,%,2030,"NDC-RD 2020 summary text, page 5",20% conditional on external finance and 7% unconditional (5% private and 2% public); 13853.71 Gg CO2eq = 27.16% of BAU 2030 (51 mil Gg)
+DR-B031,p.7,27,%,2030,"Componente 1 table row 1a, page 7",With conditional and unconditional objectives; BAU 51000 GgCO2eq projected to 2030; reference year 2010
+DR-B031,p.11,27,%,2030,"Table row 3a Descripcion general del objetivo, page 11",20% conditional and 7% unconditional (5% private sector and 2% public sector)
+DR-B032,p.5,13853.71,Gg CO2eq,2030,"NDC-RD 2020 summary text, page 5",46 mitigation options (27 energy 4 IPPU 10 AFOLU 5 waste); 27.16% of BAU 2030
+DR-B032,p.5,27.16,%,2030,"NDC-RD 2020 summary text, page 5",Share of BAU 2030 estimated at 51 mil Gg CO2eq
+DR-B032,p.9,13853.71,GgCO2eq,2030,"Componente 1 table continuation, page 9",27% reduction by 2030 with a series of mitigation options; number of options not printed on this page
+DR-B033,p.26,2050,,2050,"Table row 6e Article 4 paragraph 6, page 26",Aspiration to carbon neutrality by 2050
+DR-B034,p.140,951,MWp,2013-2025,"ANEXO VIII option Conversion de unidades de Fuel Oil No. 6 a Gas Natural, Tipo de Instrumento, page 140",Installed 951 MWp; GHG reduction 7428.06 Gg CO2eq; description says first stage 700 MWp and second stage 58 MWp (Origenes y Sultana del Este 153 MWp) for a total 911 MWp
+DR-B034,p.140,7428.06,Gg CO2eq,2013-2025,"ANEXO VIII Fuel Oil No. 6 conversion, page 140",Emission reduction; financing 774350000.00
+DR-B034,p.140,911,MWp,,"ANEXO VIII Fuel Oil No. 6 conversion, Breve descripcion, page 140",Total in description (differs from 951 MWp in the instrument column)
+DR-B035,p.141,477,MWp,2022-2030,"ANEXO VIII Nuevos Parques Eolicos, Tipo de Instrumento, page 141",Installed 477 MWp (description 477 MW at 34% capacity factor); GHG reduction 8057.12 Gg CO2eq
+DR-B035,p.141,8057.12,Gg CO2eq,2022-2030,"ANEXO VIII Nuevos Parques Eolicos, page 141",Emission reduction; financing 715500000.00
+DR-B036,p.142,479,MWp,2022-2030,"ANEXO VIII Nuevas Instalaciones Solares Fotovoltaicas, page 142",Installed 479 MWp (479 MW at 18% capacity factor); GHG reduction 4268.15 Gg CO2eq
+DR-B036,p.142,4268.15,Gg CO2eq,2022-2030,"ANEXO VIII solar PV, page 142",Emission reduction; financing 407150000.00
+DR-B037,p.142,93,MWp,2022-2030,"ANEXO VIII Plantas a pequena escala biomasa y residuos solidos, page 142",Installation of 93 MWp in small plants (5MWp); GHG reduction 4114.20 Gg CO2eq
+DR-B037,p.142,4114.20,Gg CO2eq,2022-2030,"ANEXO VIII small biomass plants, page 142",Emission reduction; financing 167400000.00
+DR-B038,p.143,21,MWp,2023-2025,"ANEXO VIII Aumento de pequenas centrales hidroelectricas, page 143",Installed 21 MWp (21 MW at 50% capacity factor); GHG reduction 483.77 Gg CO2eq
+DR-B038,p.143,483.77,Gg CO2eq,2023-2025,"ANEXO VIII small hydro, page 143",Emission reduction; financing 31500000.00
+DR-B039,p.144,100,MWp,2022-2030,"ANEXO VIII Expansion de Ciclo Combinado (Los Mina gas turbines), page 144",Installed 100 MWp; GHG reduction 4603.68 Gg CO2eq
+DR-B039,p.144,4603.68,Gg CO2eq,2022-2030,"ANEXO VIII combined cycle expansion, page 144",Emission reduction; financing 260000000.00
+DR-B040,p.145,140,MWp,2021-2030,"ANEXO VIII Nueva Planta de Generacion a base de Gas Natural (Unidad Movil), page 145",Installed 140 MWp; GHG reduction 813.23 Gg CO2eq
+DR-B040,p.145,813.23,Gg CO2eq,2021-2030,"ANEXO VIII new natural gas mobile unit, page 145",Emission reduction; financing 140000000.00
+DR-B041,p.101,25.00,%,2025,"Legal instruments table, row 2007 Ley 57-07, page 101",Renewable share of electricity generation matrix
+DR-B041,p.101,10.00,%,2015,"Legal instruments table, row 2007 Ley 57-07, page 101",Renewable share of electricity generation matrix
+DR-B042,p.156,300,autobuses,2023-2030,"ANEXO VIII Renovacion del parque de autobuses de Diesel por unidades electricas 100%, page 156",300 buses of public and private entities carrying workers replaced by 100% electric buses; GHG reduction 2390.94 Gg CO2eq
+DR-B042,p.156,100,%,2023-2030,"ANEXO VIII electric worker buses, page 156",100% electric
+DR-B043,p.158,25,%,2030,"ANEXO VIII taxi and concho option, Breve descripcion continuation, page 158",Replace 25% of the current fleet through 15% electric and 10% hybrid cars by 2030
+DR-B043,p.158,15,%,2030,"ANEXO VIII taxi and concho option, page 158",Electric share
+DR-B043,p.158,10,%,2030,"ANEXO VIII taxi and concho option, page 158",Hybrid share
+DR-B044,p.158,130,autobuses a base de gas natural,2023-2030,"ANEXO VIII Bus Alimentadores option, page 158",Pilot; GHG reduction 175.83 Gg CO2eq
+DR-B045,p.159,80,autobuses 100% electricos,2023-2030,"ANEXO VIII transporte escolar option, page 159",Pilot; GHG reduction 31.44 Gg CO2eq
+DR-B046,p.160,240000,autos,2023-2030,"ANEXO VIII Marcos Habilitantes vehiculos privados, page 160",Up to 240000 100% electric and hybrid cars; GHG reduction 3444.73 Gg CO2eq
+DR-B046,p.160,75,%,,"ANEXO VIII private vehicles, Breve descripcion, page 160",Electric share in first phase of 100000 units; second phase 120000 additional units with the same split
+DR-B046,p.160,25,%,,"ANEXO VIII private vehicles, Breve descripcion, page 160",Hybrid share
+DR-B047,p.2,25,%,2030,"INDC-DR table, Quantifiable emissions reduction target (conditional), page 2",Of base year (2010) emissions of 3.6 tCO2e per capita; conditional on support
+DR-B048,p.111,2050,,2050,"3.2.1 Objetivo de reduccion de emisiones para 2030, BTR page 111",Long-term objective of carbon neutrality by 2050
+DR-B049,p.174,30,%,2030,"Scenario NDC-RD 2030 bullet, BTR page 174",MEM renewable target in generation mix; 25% for 2025
+DR-B049,p.174,25,%,2025,"Scenario NDC-RD 2030 bullet, BTR page 174",MEM renewable target in generation mix
+DR-B050,p.78,2.8,Toneladas metricas per capita,2030,"Articulo 28 Indicadores y Metas, indicator 4.1 Emisiones de dioxido de carbono, Pagina 76 de 92",Quinquennial targets 3.4 (2015) 3.2 (2020) 3.0 (2025) 2.8 (2030); baseline 2010 3.6
+DR-B050,p.78,3.0,Toneladas metricas per capita,2025,"Articulo 28, indicator 4.1, Pagina 76 de 92",
+DR-B050,p.78,3.2,Toneladas metricas per capita,2020,"Articulo 28, indicator 4.1, Pagina 76 de 92",
+DR-B050,p.78,3.4,Toneladas metricas per capita,2015,"Articulo 28, indicator 4.1, Pagina 76 de 92",
+DR-B050,p.78,3.6,Toneladas metricas per capita,2010,"Articulo 28, indicator 4.1, Pagina 76 de 92",Baseline

@@ -1,0 +1,7 @@
+gate,name,result,detail
+1,changes only under the job folder,pass,"119 changed, 37 untracked; outside: []"
+2,"source ids exist, pages given, no lead in scenario_values",pass,missing ids 0 []; no page 0 []; lead rows 0
+3,every value to verify has a verification row,pass,"733 values, 0 without row []"
+4,standard units listed in units.csv,pass,not listed []; empty []
+5,source files exist with matching SHA-256,pass,84 sources; bad []
+6,model worktree clean,pass,empty

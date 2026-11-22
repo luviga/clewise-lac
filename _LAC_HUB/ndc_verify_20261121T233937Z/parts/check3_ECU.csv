@@ -1,0 +1,115 @@
+value_id,source_id,page,value,identity,best_strength,best_place,n_hits,n_strong,other_places
+ECU-T001,ECU-01,p.10;p.14;p.55;p.56,7,,strong,ECU-01 p.9,1379,2,ECU-04 p.611 (strong); ECU-01 p.14 (medium); ECU-01 p.55 (medium); ECU-01 p.56 (medium); ECU-01 p.57 (medium)
+ECU-T002,ECU-01,p.10;p.55;p.56,8800,,medium,ECU-01 p.14,9,0,ECU-01 p.55 (medium); ECU-01 p.56 (medium); ECU-01 p.57 (medium); ECU-06 p.57 (weak); ECU-06 p.102 (weak)
+ECU-T003,ECU-01,p.55;p.56;p.57,8,,medium,ECU-01 p.4,1356,0,ECU-01 p.10 (medium); ECU-01 p.14 (medium); ECU-01 p.22 (medium); ECU-01 p.56 (medium); ECU-01 p.57 (medium)
+ECU-T004,ECU-01,p.55;p.56;p.57,10600,,medium,ECU-01 p.10,6,0,ECU-01 p.14 (medium); ECU-01 p.56 (medium); ECU-01 p.57 (medium); ECU-06 p.207 (weak); ECU-07 p.275 (weak)
+ECU-T005,ECU-01,p.57,5,,strong,ECU-07 p.40,2025,2,ECU-06 p.95 (strong); ECU-01 p.20 (medium); ECU-01 p.22 (medium); ECU-01 p.24 (medium); ECU-01 p.97 (medium)
+ECU-T013,ECU-02,p.22,9,,strong,ECU-06 p.58,1288,5,ECU-06 p.104 (strong); ECU-06 p.105 (strong); ECU-07 p.393 (strong); ECU-06 p.624 (strong); ECU-02 p.17 (medium)
+ECU-T014,ECU-02,p.22,20.9,,medium,ECU-02 p.17,7,0,ECU-09 p.9 (medium); ECU-06 p.235 (medium); ECU-06 p.253 (medium); ECU-04 p.409 (medium); ECU-06 p.809 (medium)
+ECU-T015,ECU-02,p.22;p.23,4,,strong,ECU-02 p.23,1781,5,ECU-06 p.104 (strong); ECU-04 p.238 (strong); ECU-06 p.624 (strong); ECU-04 p.918 (strong); ECU-02 p.6 (medium)
+ECU-T016,ECU-02,p.18,22,,medium,ECU-08 p.24,319,0,ECU-06 p.90 (medium); ECU-07 p.302 (medium); ECU-06 p.650 (medium); ECU-02 p.22 (weak); ECU-01 p.3 (weak)
+ECU-T017,ECU-03,p.96,70,identity: 1 - ECU-P080 (19812.0) / ECU-P109 (66300.0) = 70.12 percent,medium,ECU-03 p.140,130,0,ECU-03 p.145 (medium); ECU-09 p.14 (medium); ECU-05 p.15 (medium); ECU-07 p.20 (medium); ECU-09 p.26 (medium)
+ECU-T018,ECU-03,p.5;p.96,50,,strong,ECU-03 p.135,315,3,ECU-03 p.145 (strong); ECU-03 p.147 (strong); ECU-03 p.96 (medium); ECU-03 p.116 (medium); ECU-03 p.140 (medium)
+ECU-T019,ECU-03,p.96,36400,,weak,ECU-03 p.95,1,0,
+ECU-T020,ECU-03,p.102,39200,,weak,ECU-03 p.101,1,0,
+ECU-T021,ECU-03,p.102,35800,,weak,ECU-03 p.101,1,0,
+ECU-T022,ECU-03,p.102,33900,identity (level): 1 - ECU-T022 (33900.0) / ECU-P109 (66300.0) = 48.87 percent,weak,ECU-03 p.101,1,0,
+ECU-T023,ECU-03,p.101;p.102,49,identity: 1 - ECU-T022 (33900.0) / ECU-P109 (66300.0) = 48.87 percent,strong,ECU-03 p.124,122,1,ECU-03 p.102 (medium); ECU-01 p.22 (medium); ECU-05 p.25 (medium); ECU-04 p.35 (medium); ECU-04 p.62 (medium)
+ECU-T025,ECU-03,p.104,24,,strong,ECU-01 p.26,296,1,ECU-09 p.13 (medium); ECU-09 p.15 (medium); ECU-01 p.22 (medium); ECU-07 p.25 (medium); ECU-04 p.43 (medium)
+ECU-T026,ECU-03,p.104,64,,strong,ECU-01 p.66,130,1,ECU-03 p.28 (medium); ECU-03 p.105 (medium); ECU-04 p.62 (medium); ECU-01 p.84 (medium); ECU-06 p.137 (medium)
+ECU-T027,ECU-03,p.104,10000,,medium,ECU-05 p.79,64,0,ECU-07 p.203 (medium); ECU-06 p.221 (medium); ECU-07 p.261 (medium); ECU-07 p.262 (medium); ECU-05 p.344 (medium)
+ECU-T028,ECU-03,p.104,35,,medium,ECU-07 p.22,215,0,ECU-06 p.45 (medium); ECU-09 p.50 (medium); ECU-08 p.58 (medium); ECU-05 p.79 (medium); ECU-06 p.91 (medium)
+ECU-T029,ECU-03,p.104,3800,,medium,ECU-05 p.345,4,0,ECU-07 p.235 (weak); ECU-07 p.278 (weak); ECU-07 p.329 (weak)
+ECU-T030,ECU-03,p.104,54,,medium,ECU-05 p.25,115,0,ECU-07 p.78 (medium); ECU-07 p.119 (medium); ECU-07 p.133 (medium); ECU-07 p.151 (medium); ECU-05 p.310 (medium)
+ECU-T031,ECU-03,p.104,37,,medium,ECU-03 p.26,165,0,ECU-03 p.140 (medium); ECU-03 p.144 (medium); ECU-01 p.20 (medium); ECU-01 p.22 (medium); ECU-07 p.22 (medium)
+ECU-T032,ECU-03,p.100;p.101,,,,,0,0,
+ECU-T033,ECU-03,p.100,2038,,weak,ECU-06 p.602,1,0,
+ECU-T034,ECU-03,p.104,8.4,,medium,ECU-02 p.6,25,0,ECU-02 p.42 (medium); ECU-04 p.421 (medium); ECU-07 p.449 (medium); ECU-06 p.804 (medium); ECU-06 p.809 (medium)
+ECU-T035,ECU-03,p.105,66,,medium,ECU-03 p.58,99,0,ECU-03 p.147 (medium); ECU-07 p.9 (medium); ECU-07 p.24 (medium); ECU-02 p.27 (medium); ECU-06 p.38 (medium)
+ECU-T036,ECU-03,p.105,64,,strong,ECU-04 p.548,130,1,ECU-03 p.28 (medium); ECU-03 p.104 (medium); ECU-07 p.24 (medium); ECU-04 p.62 (medium); ECU-01 p.84 (medium)
+ECU-T037,ECU-03,p.105,6,,strong,ECU-09 p.6,1482,4,ECU-06 p.371 (strong); ECU-06 p.416 (strong); ECU-04 p.548 (strong); ECU-03 p.56 (medium); ECU-03 p.58 (medium)
+ECU-T038,ECU-03,p.106,19,,medium,ECU-05 p.13,276,0,ECU-07 p.23 (medium); ECU-07 p.24 (medium); ECU-07 p.26 (medium); ECU-01 p.29 (medium); ECU-09 p.31 (medium)
+ECU-T039,ECU-03,p.106,2.8,,medium,ECU-06 p.31,31,0,ECU-06 p.77 (medium); ECU-07 p.136 (medium); ECU-06 p.160 (medium); ECU-04 p.230 (medium); ECU-05 p.343 (medium)
+ECU-T040,ECU-03,p.106,40,,strong,ECU-09 p.25,247,3,ECU-09 p.27 (strong); ECU-06 p.524 (strong); ECU-03 p.116 (medium); ECU-03 p.131 (medium); ECU-03 p.140 (medium)
+ECU-T041,ECU-03,p.106,13.36,,strong,ECU-04 p.832,1,1,
+ECU-T042,ECU-03,p.107,22,,medium,ECU-07 p.8,319,0,ECU-01 p.19 (medium); ECU-09 p.20 (medium); ECU-07 p.26 (medium); ECU-06 p.38 (medium); ECU-06 p.46 (medium)
+ECU-T043,ECU-03,p.107,11,,strong,ECU-03 p.192,461,1,ECU-03 p.56 (medium); ECU-03 p.58 (medium); ECU-03 p.140 (medium); ECU-03 p.144 (medium); ECU-09 p.20 (medium)
+ECU-T044,ECU-03,p.115;p.117,16591,,strong,ECU-03 p.117,1,1,
+ECU-T047,ECU-03,p.125,-611,,,,0,0,
+ECU-T052,ECU-03,p.133,3050,,weak,ECU-03 p.97,1,0,
+ECU-T054,ECU-03,p.134,100,,strong,ECU-08 p.69,353,2,ECU-01 p.102 (strong); ECU-03 p.62 (medium); ECU-03 p.95 (medium); ECU-05 p.14 (medium); ECU-05 p.17 (medium)
+ECU-T056,ECU-03,p.143,2347,,strong,ECU-07 p.78,2,2,ECU-07 p.108 (strong)
+ECU-T061,ECU-04,p.215,13.5,,medium,ECU-08 p.16,7,0,ECU-03 p.63 (medium); ECU-06 p.150 (medium); ECU-06 p.156 (medium); ECU-04 p.758 (weak); ECU-05 p.100 (weak)
+ECU-T063,ECU-04,p.217;p.222,4400,,weak,ECU-04 p.222,11,0,ECU-09 p.6 (weak); ECU-09 p.30 (weak); ECU-09 p.31 (weak); ECU-07 p.127 (weak); ECU-07 p.169 (weak)
+ECU-T064,ECU-04,p.217;p.221,885.46,,strong,ECU-04 p.23,4,4,ECU-04 p.50 (strong); ECU-04 p.221 (strong); ECU-04 p.225 (strong)
+ECU-T065,ECU-04,p.222,2300,,weak,ECU-04 p.758,5,0,ECU-03 p.142 (weak); ECU-07 p.281 (weak); ECU-07 p.329 (weak); ECU-06 p.496 (weak)
+ECU-T066,ECU-04,p.222,1740,,strong,ECU-06 p.343,3,1,ECU-07 p.196 (weak); ECU-07 p.275 (weak)
+ECU-T067,ECU-04,p.222;p.223,130,,strong,ECU-06 p.626,50,1,ECU-05 p.18 (medium); ECU-06 p.36 (medium); ECU-06 p.194 (medium); ECU-05 p.214 (medium); ECU-04 p.212 (weak)
+ECU-T068,ECU-04,p.237;p.238,16078.32,,strong,ECU-04 p.212,6,6,ECU-04 p.238 (strong); ECU-06 p.58 (strong); ECU-06 p.104 (strong); ECU-06 p.624 (strong); ECU-06 p.629 (strong)
+ECU-T069,ECU-07,p.159,4034,,strong,ECU-07 p.53,5,5,ECU-07 p.160 (strong); ECU-07 p.169 (strong); ECU-07 p.269 (strong); ECU-07 p.443 (strong)
+ECU-T070,ECU-07,p.159,1683,,strong,ECU-04 p.212,5,5,ECU-04 p.222 (strong); ECU-06 p.285 (strong); ECU-05 p.391 (strong); ECU-06 p.628 (strong)
+ECU-T071,ECU-07,p.159,587,,weak,ECU-07 p.160,8,0,ECU-07 p.256 (weak); ECU-07 p.277 (weak); ECU-05 p.137 (weak); ECU-05 p.391 (weak); ECU-06 p.582 (weak)
+ECU-T072,ECU-08,p.20,543,,weak,ECU-08 p.70,20,0,ECU-04 p.20 (weak); ECU-01 p.26 (weak); ECU-01 p.31 (weak); ECU-07 p.35 (weak); ECU-04 p.48 (weak)
+ECU-T073,ECU-08,p.65,339.6,,strong,ECU-08 p.39,2,2,ECU-08 p.66 (strong)
+ECU-T074,ECU-08,p.65,10,,medium,ECU-08 p.61,1385,0,ECU-08 p.63 (medium); ECU-08 p.69 (medium); ECU-02 p.6 (medium); ECU-03 p.10 (medium); ECU-09 p.18 (medium)
+ECU-T075,ECU-08,p.67,8.3,,medium,ECU-09 p.4,27,0,ECU-07 p.15 (medium); ECU-03 p.55 (medium); ECU-07 p.82 (medium); ECU-04 p.173 (medium); ECU-06 p.529 (medium)
+ECU-T076,ECU-09,p.6,6,,strong,ECU-06 p.371,1482,3,ECU-06 p.416 (strong); ECU-04 p.548 (strong); ECU-09 p.4 (medium); ECU-09 p.14 (medium); ECU-09 p.23 (medium)
+ECU-P071,ECU-03,p.95;p.96,118000,,medium,ECU-03 p.96,1,0,
+ECU-P072,ECU-03,p.95;p.96,36400,,medium,ECU-03 p.96,1,0,
+ECU-P073,ECU-03,p.97,19425,,,,0,0,
+ECU-P074,ECU-03,p.97,20245,,strong,ECU-05 p.235,1,1,
+ECU-P075,ECU-03,p.97,18982,identity (part): Energy (transport) + Energy (other energy) = 35790.0 against Energy (including transport) 35800.0,,,0,0,
+ECU-P076,ECU-03,p.97,14082,identity: Energy (other energy) -r Energy (including transport) = 14088.0 against Energy (transport) 14082.0,,,0,0,
+ECU-P077,ECU-03,p.97,20321,,,,0,0,
+ECU-P078,ECU-03,p.97,19039,,,,0,0,
+ECU-P079,ECU-03,p.97,16808,identity (part): Energy (transport) + Energy (other energy) = 35790.0 against Energy (including transport) 35800.0,,,0,0,
+ECU-P080,ECU-03,p.97,19812,identity (level): 1 - ECU-P080 (19812.0) / ECU-P109 (66300.0) = 70.12 percent,,,0,0,
+ECU-P081,ECU-03,p.97,40908,identity: LULUCF (removals) -r LULUCF (net) = 40908.0 against LULUCF (emissions) 40908.0,,,0,0,
+ECU-P082,ECU-03,p.97,31838,identity: LULUCF (removals) -r LULUCF (net) = 31838.0 against LULUCF (emissions) 31838.0,,,0,0,
+ECU-P083,ECU-03,p.97,21358,identity: LULUCF (removals) -r LULUCF (net) = 21358.0 against LULUCF (emissions) 21358.0,,,0,0,
+ECU-P084,ECU-03,p.97,17578,identity: LULUCF (removals) -r LULUCF (net) = 17579.0 against LULUCF (emissions) 17578.0,,,0,0,
+ECU-P085,ECU-03,p.97,9034,,strong,ECU-07 p.286,1,1,
+ECU-P086,ECU-03,p.97,9921,,strong,ECU-05 p.162,1,1,
+ECU-P087,ECU-03,p.97,9147,,,,0,0,
+ECU-P088,ECU-03,p.97,6735,,,,0,0,
+ECU-P089,ECU-03,p.97,5485,,,,0,0,
+ECU-P090,ECU-03,p.97,7109,,,,0,0,
+ECU-P091,ECU-03,p.97,8654,,,,0,0,
+ECU-P092,ECU-03,p.97,12797,,,,0,0,
+ECU-P093,ECU-03,p.97,2425,,strong,ECU-03 p.133,1,1,
+ECU-P094,ECU-03,p.97,3050,,medium,ECU-03 p.133,1,0,
+ECU-P095,ECU-03,p.97,4245,,strong,ECU-03 p.133,1,1,
+ECU-P096,ECU-03,p.97,5792,,strong,ECU-03 p.133,4,4,ECU-07 p.127 (strong); ECU-07 p.134 (strong); ECU-07 p.191 (strong)
+ECU-P097,ECU-03,p.97,2667,,,,0,0,
+ECU-P098,ECU-03,p.97,2643,,,,0,0,
+ECU-P099,ECU-03,p.97,3255,,,,0,0,
+ECU-P100,ECU-03,p.97,4120,,,,0,0,
+ECU-P101,ECU-03,p.97,-25998,identity (part): LULUCF (removals) -r LULUCF (net) = 40908.0 against LULUCF (emissions) 40908.0,,,0,0,
+ECU-P102,ECU-03,p.97,-32449,identity (part): LULUCF (removals) -r LULUCF (net) = 31838.0 against LULUCF (emissions) 31838.0,,,0,0,
+ECU-P103,ECU-03,p.97,-41905,identity (part): LULUCF (removals) -r LULUCF (net) = 21358.0 against LULUCF (emissions) 21358.0,,,0,0,
+ECU-P104,ECU-03,p.97,-44549,identity (part): LULUCF (removals) -r LULUCF (net) = 17579.0 against LULUCF (emissions) 17578.0,,,0,0,
+ECU-P105,ECU-03,p.101;p.102,38400,,strong,ECU-03 p.57,14,2,ECU-06 p.194 (strong); ECU-03 p.56 (medium); ECU-03 p.102 (medium); ECU-06 p.35 (medium); ECU-06 p.36 (medium)
+ECU-P106,ECU-03,p.101;p.102,39200,,medium,ECU-03 p.102,1,0,
+ECU-P107,ECU-03,p.101;p.102,35800,identity: Energy (transport) + Energy (other energy) = 35790.0 against Energy (including transport) 35800.0,medium,ECU-03 p.102,1,0,
+ECU-P108,ECU-03,p.101;p.102,33900,identity (level): 1 - ECU-P108 (33900.0) / ECU-P109 (66300.0) = 48.87 percent,medium,ECU-03 p.102,1,0,
+ECU-P109,ECU-03,p.101,66300,identity (BAU): 1 - ECU-P080 (19812.0) / ECU-P109 (66300.0) = 70.12 percent,,,0,0,
+ECU-P110,ECU-03,p.115,14334,,,,0,0,
+ECU-P111,ECU-03,p.115,16591,,strong,ECU-03 p.117,1,1,
+ECU-P112,ECU-03,p.115,17257,,strong,ECU-03 p.117,1,1,
+ECU-P113,ECU-03,p.115,19162,,strong,ECU-03 p.117,1,1,
+ECU-P114,ECU-03,p.113,32700,,,,0,0,
+ECU-P115,ECU-03,p.125,14910,identity (part): LULUCF (removals) -r LULUCF (net) = 40908.0 against LULUCF (emissions) 40908.0,,,0,0,
+ECU-P116,ECU-03,p.125,-611,identity (part): LULUCF (removals) -r LULUCF (net) = 31838.0 against LULUCF (emissions) 31838.0,,,0,0,
+ECU-P117,ECU-03,p.125,-20547,identity (part): LULUCF (removals) -r LULUCF (net) = 21358.0 against LULUCF (emissions) 21358.0,,,0,0,
+ECU-P118,ECU-03,p.125,-26970,identity (part): LULUCF (removals) -r LULUCF (net) = 17579.0 against LULUCF (emissions) 17578.0,strong,ECU-03 p.120,1,1,
+ECU-P119,ECU-03,p.120,3300,,weak,ECU-07 p.43,6,0,ECU-07 p.125 (weak); ECU-07 p.160 (weak); ECU-07 p.202 (weak); ECU-07 p.275 (weak); ECU-06 p.603 (weak)
+ECU-P120,ECU-03,p.133,2425,,strong,ECU-03 p.97,1,1,
+ECU-P121,ECU-03,p.133,3050,,weak,ECU-03 p.97,1,0,
+ECU-P122,ECU-03,p.133,4245,,strong,ECU-03 p.97,1,1,
+ECU-P123,ECU-03,p.133,5792,,strong,ECU-03 p.97,4,4,ECU-07 p.127 (strong); ECU-07 p.134 (strong); ECU-07 p.191 (strong)
+ECU-P124,ECU-03,p.131,8000,,medium,ECU-03 p.142,21,0,ECU-06 p.215 (medium); ECU-06 p.223 (medium); ECU-03 p.114 (weak); ECU-09 p.21 (weak); ECU-07 p.42 (weak)
+ECU-P125,ECU-03,p.143,2541,,strong,ECU-06 p.43,6,6,ECU-06 p.89 (strong); ECU-05 p.103 (strong); ECU-06 p.191 (strong); ECU-06 p.192 (strong); ECU-06 p.217 (strong)
+ECU-P126,ECU-03,p.143,2347,,strong,ECU-07 p.78,2,2,ECU-07 p.108 (strong)
+ECU-P127,ECU-03,p.143,2785,,strong,ECU-07 p.126,3,3,ECU-04 p.166 (strong); ECU-06 p.413 (strong)
+ECU-P128,ECU-03,p.143,3650,,weak,ECU-07 p.169,3,0,ECU-07 p.275 (weak); ECU-07 p.453 (weak)
+ECU-P129,ECU-03,p.142,7200,,weak,ECU-07 p.275,5,0,ECU-05 p.397 (weak); ECU-05 p.398 (weak); ECU-05 p.399 (weak); ECU-04 p.484 (weak)

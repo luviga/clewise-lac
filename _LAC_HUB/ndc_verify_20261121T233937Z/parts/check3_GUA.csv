@@ -1,0 +1,127 @@
+value_id,source_id,page,value,identity,best_strength,best_place,n_hits,n_strong,other_places
+GUA-T001,GUA-01,p.13;p.25;p.28;p.131,23.7,identity: 1 - GUA-T002 (57763.7) / GUA-P025 (75738.0) = 23.73 percent,strong,GUA-01 p.3,14,3,GUA-01 p.14 (strong); GUA-01 p.131 (strong); GUA-01 p.25 (medium); GUA-01 p.28 (medium); GUA-01 p.29 (medium)
+GUA-T002,GUA-01,p.28;p.131,57763.7,identity (level): 1 - GUA-T002 (57763.7) / GUA-P025 (75738.0) = 23.73 percent,strong,GUA-01 p.29,3,3,GUA-01 p.131 (strong); GUA-01 p.134 (strong)
+GUA-T003,GUA-01,p.13;p.25;p.27,17974.3,identity (reduction): GUA-T003 (17974.3) / GUA-P025 (75738.0) = 23.73 percent,strong,GUA-01 p.25,5,5,GUA-01 p.27 (strong); GUA-01 p.28 (strong); GUA-01 p.29 (strong); GUA-01 p.131 (strong)
+GUA-T004,GUA-01,p.13;p.25;p.29,89113.7,,strong,GUA-01 p.25,3,3,GUA-01 p.27 (strong); GUA-01 p.29 (strong)
+GUA-T005,GUA-01,p.26;p.27;p.29,1184.9,identity: GUA-P027 (28505.1) - GUA-T006 (27320.2) = 1184.9,strong,GUA-01 p.27,2,2,GUA-01 p.29 (strong)
+GUA-T006,GUA-01,p.29,27320.2,identity (level): GUA-P027 (28505.1) - GUA-T006 (27320.2) = 1184.9,,,0,0,
+GUA-T007,GUA-01,p.26;p.27,7211.6,,strong,GUA-01 p.27,1,1,
+GUA-T008,GUA-01,p.40;p.41;p.102,80,,strong,GUA-01 p.48,70,3,GUA-01 p.102 (strong); GUA-01 p.109 (strong); GUA-01 p.41 (medium); GUA-01 p.49 (medium); GUA-01 p.73 (medium)
+GUA-T009,GUA-01,p.40;p.102;p.28,1000,,strong,GUA-01 p.26,78,2,GUA-01 p.102 (strong); GUA-01 p.27 (medium); GUA-01 p.28 (medium); GUA-01 p.31 (medium); GUA-01 p.133 (medium)
+GUA-T010,GUA-01,p.26;p.27,696.7,,strong,GUA-01 p.27,5,5,GUA-06 p.29 (strong); GUA-06 p.30 (strong); GUA-06 p.70 (strong); GUA-06 p.71 (strong)
+GUA-T011,GUA-01,p.40;p.102,,,,,0,0,
+GUA-T012,GUA-01,p.41;p.103,5,,medium,GUA-03 p.12,393,0,GUA-05 p.180 (medium); GUA-01 p.6 (weak); GUA-01 p.8 (weak); GUA-01 p.9 (weak); GUA-01 p.14 (weak)
+GUA-T013,GUA-01,p.42;p.104,47000,,strong,GUA-01 p.104,1,1,
+GUA-T014,GUA-01,p.46;p.27;p.106,10,,strong,GUA-01 p.26,206,2,GUA-01 p.107 (strong); GUA-01 p.27 (medium); GUA-01 p.28 (medium); GUA-01 p.47 (medium); GUA-01 p.56 (medium)
+GUA-T015,GUA-01,p.26;p.27,488.2,,strong,GUA-01 p.27,1,1,
+GUA-T016,GUA-01,p.47;p.107,10000,,strong,GUA-01 p.107,62,1,GUA-01 p.27 (weak); GUA-01 p.52 (weak); GUA-01 p.62 (weak); GUA-01 p.111 (weak); GUA-04 p.26 (weak)
+GUA-T017,GUA-01,p.47;p.107,20000,,strong,GUA-01 p.107,36,1,GUA-06 p.29 (weak); GUA-07 p.29 (weak); GUA-06 p.30 (weak); GUA-06 p.31 (weak); GUA-06 p.32 (weak)
+GUA-T018,GUA-01,p.47;p.108,45,,strong,GUA-01 p.108,99,1,GUA-04 p.46 (medium); GUA-06 p.97 (medium); GUA-05 p.109 (medium); GUA-05 p.112 (medium); GUA-06 p.123 (medium)
+GUA-T019,GUA-01,p.47;p.108,85,,strong,GUA-01 p.108,35,1,GUA-05 p.20 (medium); GUA-06 p.82 (medium); GUA-05 p.94 (medium); GUA-06 p.224 (medium); GUA-06 p.226 (medium)
+GUA-T020,GUA-01,p.48;p.109,2,,strong,GUA-01 p.13,677,12,GUA-01 p.67 (strong); GUA-01 p.109 (strong); GUA-01 p.126 (strong); GUA-03 p.6 (strong); GUA-04 p.6 (strong)
+GUA-T021,GUA-01,p.48;p.109,25,,strong,GUA-01 p.109,167,1,GUA-01 p.16 (medium); GUA-01 p.66 (medium); GUA-07 p.10 (medium); GUA-06 p.18 (medium); GUA-05 p.21 (medium)
+GUA-T022,GUA-01,p.48;p.109,17,,strong,GUA-01 p.8,97,2,GUA-01 p.109 (strong); GUA-05 p.41 (medium); GUA-06 p.234 (medium); GUA-01 p.9 (weak); GUA-01 p.29 (weak)
+GUA-T023,GUA-01,p.48;p.109,80,,strong,GUA-01 p.40,70,3,GUA-01 p.102 (strong); GUA-01 p.109 (strong); GUA-01 p.41 (medium); GUA-01 p.49 (medium); GUA-01 p.73 (medium)
+GUA-T026,GUA-01,p.26;p.27,894.4,identity: GUA-P029 (4404.3) - GUA-P030 (3509.9) = 894.4,strong,GUA-01 p.27,2,2,GUA-01 p.29 (strong)
+GUA-T030,GUA-01,p.33;p.94,49,,strong,GUA-01 p.26,50,3,GUA-01 p.31 (strong); GUA-01 p.94 (strong); GUA-03 p.4 (medium); GUA-05 p.34 (medium); GUA-04 p.50 (medium)
+GUA-T031,GUA-01,p.26;p.27;p.29,15895,identity: GUA-P033 (32198.1) - GUA-P034 (16303.1) = 15895.0,strong,GUA-01 p.27,3,3,GUA-01 p.29 (strong); GUA-06 p.152 (strong)
+GUA-T036,GUA-01,p.59,22,,weak,GUA-01 p.9,94,0,GUA-01 p.15 (weak); GUA-01 p.34 (weak); GUA-01 p.55 (weak); GUA-01 p.56 (weak); GUA-01 p.68 (weak)
+GUA-T039,GUA-02,p.70,11.2,,strong,GUA-01 p.13,18,4,GUA-07 p.60 (strong); GUA-05 p.235 (strong); GUA-05 p.249 (strong); GUA-02 p.10 (medium); GUA-02 p.16 (medium)
+GUA-T040,GUA-02,p.70,22.6,,strong,GUA-02 p.17,12,2,GUA-05 p.235 (strong); GUA-02 p.10 (medium); GUA-02 p.16 (medium); GUA-02 p.29 (medium); GUA-03 p.6 (medium)
+GUA-T041,GUA-02,p.70,6.09,,medium,GUA-06 p.226,3,0,GUA-06 p.231 (medium); GUA-05 p.120 (weak)
+GUA-T042,GUA-02,p.72;p.77,80,,strong,GUA-03 p.12,70,2,GUA-05 p.271 (strong); GUA-02 p.29 (medium); GUA-02 p.77 (medium); GUA-07 p.25 (medium); GUA-05 p.37 (medium)
+GUA-T043,GUA-02,p.72;p.76,2.5,,strong,GUA-02 p.79,80,1,GUA-02 p.65 (medium); GUA-02 p.76 (medium); GUA-07 p.28 (medium); GUA-05 p.35 (medium); GUA-05 p.37 (medium)
+GUA-T044,GUA-02,p.77,24.3,,medium,GUA-06 p.86,11,0,GUA-07 p.87 (medium); GUA-07 p.88 (medium); GUA-05 p.99 (medium); GUA-06 p.27 (weak); GUA-06 p.68 (weak)
+GUA-T045,GUA-02,p.77,10,,strong,GUA-02 p.79,206,3,GUA-01 p.28 (strong); GUA-01 p.52 (strong); GUA-02 p.45 (medium); GUA-02 p.56 (medium); GUA-07 p.9 (medium)
+GUA-T046,GUA-02,p.71,1.5452,,strong,GUA-05 p.269,1,1,
+GUA-T047,GUA-02,p.71,0.12933,,strong,GUA-05 p.269,1,1,
+GUA-T048,GUA-02,p.71,0.1773,,strong,GUA-05 p.270,1,1,
+GUA-T049,GUA-02,p.71,0.9443,,strong,GUA-05 p.270,1,1,
+GUA-T050,GUA-02,p.72,0.6370,,,,0,0,
+GUA-T051,GUA-02,p.72,0.1539,,,,0,0,
+GUA-T052,GUA-02,p.72,600,,medium,GUA-06 p.81,37,0,GUA-05 p.92 (medium); GUA-05 p.98 (medium); GUA-05 p.147 (medium); GUA-06 p.179 (medium); GUA-06 p.248 (medium)
+GUA-T053,GUA-03,p.6,11.2,,strong,GUA-01 p.13,18,5,GUA-07 p.60 (strong); GUA-02 p.70 (strong); GUA-05 p.235 (strong); GUA-05 p.249 (strong); GUA-02 p.10 (medium)
+GUA-T054,GUA-03,p.6,22.6,,strong,GUA-02 p.17,12,3,GUA-02 p.70 (strong); GUA-05 p.235 (strong); GUA-02 p.10 (medium); GUA-02 p.16 (medium); GUA-07 p.21 (medium)
+GUA-T055,GUA-03,p.12,80,,strong,GUA-05 p.271,70,1,GUA-07 p.25 (medium); GUA-02 p.29 (medium); GUA-05 p.37 (medium); GUA-01 p.40 (medium); GUA-01 p.41 (medium)
+GUA-T056,GUA-04,p.58;p.56,59,identity: 1 - GUA-P050 (83.0) / GUA-P047 (203.0) = 59.11 percent,medium,GUA-04 p.60,73,0,GUA-01 p.88 (medium); GUA-06 p.109 (medium); GUA-06 p.141 (medium); GUA-06 p.154 (medium); GUA-05 p.162 (medium)
+GUA-T057,GUA-04,p.57;p.58,44,,medium,GUA-04 p.45,94,0,GUA-04 p.58 (medium); GUA-07 p.7 (medium); GUA-07 p.33 (medium); GUA-06 p.71 (medium); GUA-07 p.82 (medium)
+GUA-T058,GUA-04,p.55,2454,,,,0,0,
+GUA-T059,GUA-04,p.24,374,,weak,GUA-05 p.315,1,0,
+GUA-T060,GUA-04,p.24,64,,strong,GUA-07 p.97,56,1,GUA-07 p.8 (medium); GUA-06 p.30 (medium); GUA-05 p.36 (medium); GUA-07 p.55 (medium); GUA-07 p.68 (medium)
+GUA-T061,GUA-04,p.26,11,,strong,GUA-04 p.58,142,1,GUA-04 p.6 (medium); GUA-04 p.12 (medium); GUA-04 p.13 (medium); GUA-04 p.25 (medium); GUA-04 p.57 (medium)
+GUA-T062,GUA-04,p.30,80,,medium,GUA-03 p.12,70,0,GUA-02 p.29 (medium); GUA-01 p.40 (medium); GUA-01 p.41 (medium); GUA-01 p.102 (medium); GUA-05 p.231 (medium)
+GUA-T063,GUA-04,p.35,103,,medium,GUA-06 p.65,13,0,GUA-05 p.75 (medium); GUA-01 p.134 (medium); GUA-01 p.8 (weak); GUA-05 p.83 (weak); GUA-05 p.103 (weak)
+GUA-T064,GUA-04,p.41,753,,weak,GUA-06 p.266,3,0,GUA-05 p.309 (weak); GUA-05 p.320 (weak)
+GUA-T065,GUA-04,p.46,1236,,,,0,0,
+GUA-T066,GUA-04,p.50,186,,medium,GUA-05 p.129,16,0,GUA-01 p.16 (weak); GUA-06 p.61 (weak); GUA-05 p.70 (weak); GUA-01 p.87 (weak); GUA-05 p.104 (weak)
+GUA-T067,GUA-05,p.254,15,,strong,GUA-02 p.63,159,1,GUA-05 p.46 (medium); GUA-05 p.71 (medium); GUA-05 p.88 (medium); GUA-05 p.94 (medium); GUA-05 p.110 (medium)
+GUA-T068,GUA-05,p.254,10.5,,medium,GUA-05 p.202,5,0,GUA-02 p.74 (weak); GUA-01 p.75 (weak); GUA-06 p.103 (weak); GUA-06 p.108 (weak)
+GUA-T070,GUA-05,p.271;p.272,1235.73,,,,0,0,
+GUA-T071,GUA-05,p.271,80,,strong,GUA-03 p.12,70,1,GUA-05 p.37 (medium); GUA-05 p.159 (medium); GUA-05 p.169 (medium); GUA-05 p.223 (medium); GUA-05 p.231 (medium)
+GUA-T072,GUA-07,p.68;p.70,64,,strong,GUA-07 p.97,56,2,GUA-04 p.24 (strong); GUA-07 p.8 (medium); GUA-07 p.55 (medium); GUA-07 p.70 (medium); GUA-07 p.88 (medium)
+GUA-T073,GUA-07,p.92,29.2,,medium,GUA-07 p.97,2,0,GUA-05 p.312 (weak)
+GUA-T074,GUA-07,p.60,11.2,,medium,GUA-07 p.21,18,0,GUA-07 p.92 (medium); GUA-07 p.97 (medium); GUA-03 p.6 (medium); GUA-02 p.10 (medium); GUA-01 p.13 (medium)
+GUA-T075,GUA-07,p.70,10.82,,,,0,0,
+GUA-T076,GUA-07,p.67,6102.28,,,,0,0,
+GUA-T077,GUA-07,p.79,100000,,weak,GUA-06 p.39,2,0,GUA-05 p.48 (weak)
+GUA-T078,GUA-07,p.80;p.81,15766996,,,,0,0,
+GUA-T079,GUA-07,p.81,203715,,,,0,0,
+GUA-P001,GUA-01,p.131,65176.6,,,,0,0,
+GUA-P002,GUA-01,p.131,65176.6,,,,0,0,
+GUA-P003,GUA-01,p.131,66137.2,,,,0,0,
+GUA-P004,GUA-01,p.131,66087.8,,,,0,0,
+GUA-P005,GUA-01,p.131,66967.0,,,,0,0,
+GUA-P006,GUA-01,p.131,66868.8,,,,0,0,
+GUA-P007,GUA-01,p.131,67856.2,,,,0,0,
+GUA-P008,GUA-01,p.131,67709.6,,strong,GUA-01 p.134,1,1,
+GUA-P009,GUA-01,p.131,68759.8,,,,0,0,
+GUA-P010,GUA-01,p.131,67262.6,,,,0,0,
+GUA-P011,GUA-01,p.131,69634.8,,,,0,0,
+GUA-P012,GUA-01,p.131,66021.7,,,,0,0,
+GUA-P013,GUA-01,p.131,70854.2,,,,0,0,
+GUA-P014,GUA-01,p.131,65173.6,,,,0,0,
+GUA-P015,GUA-01,p.131,71838.6,,,,0,0,
+GUA-P016,GUA-01,p.131,63975.1,,,,0,0,
+GUA-P017,GUA-01,p.131,72584.7,,,,0,0,
+GUA-P018,GUA-01,p.131,62592.2,,,,0,0,
+GUA-P019,GUA-01,p.131,73547.8,,,,0,0,
+GUA-P020,GUA-01,p.131,61475.4,,,,0,0,
+GUA-P021,GUA-01,p.131,74242.8,,,,0,0,
+GUA-P022,GUA-01,p.131,60135.2,,,,0,0,
+GUA-P023,GUA-01,p.131,75026.0,,,,0,0,
+GUA-P024,GUA-01,p.131,58860.2,,,,0,0,
+GUA-P025,GUA-01,p.131,75738.0,identity (BAU): 1 - GUA-T002 (57763.7) / GUA-P025 (75738.0) = 23.73 percent,strong,GUA-01 p.28,2,2,GUA-01 p.29 (strong)
+GUA-P026,GUA-01,p.131,57763.7,identity (level): 1 - GUA-P026 (57763.7) / GUA-P025 (75738.0) = 23.73 percent,strong,GUA-01 p.28,3,3,GUA-01 p.29 (strong); GUA-01 p.134 (strong)
+GUA-P027,GUA-01,p.29,28505.1,,,,0,0,
+GUA-P028,GUA-01,p.29,27320.2,identity (level): GUA-P027 (28505.1) - GUA-P028 (27320.2) = 1184.9,,,0,0,
+GUA-P029,GUA-01,p.29,4404.3,,,,0,0,
+GUA-P030,GUA-01,p.29,3509.9,identity (level): GUA-P029 (4404.3) - GUA-P030 (3509.9) = 894.4,,,0,0,
+GUA-P031,GUA-01,p.29,7762.1,,,,0,0,
+GUA-P032,GUA-01,p.29,7762.1,,,,0,0,
+GUA-P033,GUA-01,p.29,32198.1,,strong,GUA-01 p.94,1,1,
+GUA-P034,GUA-01,p.29,16303.1,identity (level): GUA-P033 (32198.1) - GUA-P034 (16303.1) = 15895.0,,,0,0,
+GUA-P035,GUA-01,p.29,2868.5,,,,0,0,
+GUA-P036,GUA-01,p.29,2868.5,,,,0,0,
+GUA-P044,GUA-04,p.57,140,,weak,GUA-06 p.47,22,0,GUA-05 p.56 (weak); GUA-02 p.79 (weak); GUA-06 p.102 (weak); GUA-06 p.117 (weak); GUA-05 p.119 (weak)
+GUA-P045,GUA-04,p.57,125,,medium,GUA-04 p.58,31,0,GUA-06 p.100 (medium); GUA-05 p.102 (medium); GUA-06 p.231 (medium); GUA-05 p.276 (medium); GUA-05 p.278 (medium)
+GUA-P046,GUA-04,p.57,109,,medium,GUA-06 p.21,37,0,GUA-05 p.24 (medium); GUA-06 p.35 (medium); GUA-05 p.36 (medium); GUA-05 p.104 (medium); GUA-06 p.216 (medium)
+GUA-P047,GUA-04,p.58,203,identity (BAU): 1 - GUA-P050 (83.0) / GUA-P047 (203.0) = 59.11 percent,medium,GUA-04 p.56,7,0,GUA-06 p.61 (weak); GUA-05 p.70 (weak); GUA-05 p.203 (weak); GUA-06 p.203 (weak); GUA-05 p.237 (weak)
+GUA-P048,GUA-04,p.58,181,,medium,GUA-06 p.216,14,0,GUA-06 p.219 (medium); GUA-06 p.221 (medium); GUA-06 p.224 (medium); GUA-06 p.237 (medium); GUA-06 p.239 (medium)
+GUA-P049,GUA-04,p.58,125,,medium,GUA-04 p.57,31,0,GUA-06 p.100 (medium); GUA-05 p.102 (medium); GUA-06 p.231 (medium); GUA-05 p.276 (medium); GUA-05 p.278 (medium)
+GUA-P050,GUA-04,p.58,83,identity (level): 1 - GUA-P050 (83.0) / GUA-P047 (203.0) = 59.11 percent,medium,GUA-04 p.56,29,0,GUA-07 p.8 (medium); GUA-07 p.92 (medium); GUA-06 p.239 (medium); GUA-05 p.280 (medium); GUA-06 p.18 (weak)
+GUA-P051,GUA-04,p.22,3.6,,strong,GUA-03 p.4,41,1,GUA-07 p.16 (medium); GUA-06 p.44 (medium); GUA-06 p.48 (medium); GUA-06 p.52 (medium); GUA-05 p.53 (medium)
+GUA-P052,GUA-04,p.22,12,,strong,GUA-04 p.55,148,2,GUA-01 p.66 (strong); GUA-04 p.13 (medium); GUA-04 p.29 (medium); GUA-04 p.41 (medium); GUA-07 p.9 (medium)
+GUA-P053,GUA-04,p.23,4,,medium,GUA-04 p.5,472,0,GUA-04 p.22 (medium); GUA-04 p.29 (medium); GUA-04 p.34 (medium); GUA-03 p.8 (medium); GUA-06 p.10 (medium)
+GUA-P054,GUA-04,p.23,9,,strong,GUA-04 p.25,150,1,GUA-06 p.18 (medium); GUA-05 p.30 (medium); GUA-05 p.32 (medium); GUA-05 p.73 (medium); GUA-02 p.78 (medium)
+GUA-P055,GUA-04,p.29,9.5,,medium,GUA-05 p.145,5,0,GUA-04 p.34 (weak); GUA-05 p.41 (weak); GUA-05 p.100 (weak); GUA-05 p.321 (weak)
+GUA-P056,GUA-04,p.29,15,,strong,GUA-04 p.41,159,1,GUA-04 p.16 (medium); GUA-04 p.34 (medium); GUA-04 p.35 (medium); GUA-01 p.25 (medium); GUA-06 p.25 (medium)
+GUA-P057,GUA-04,p.34,4.7,,medium,GUA-01 p.52,41,0,GUA-06 p.103 (medium); GUA-05 p.116 (medium); GUA-05 p.120 (medium); GUA-05 p.125 (medium); GUA-05 p.4 (weak)
+GUA-P058,GUA-04,p.34,9.5,,medium,GUA-04 p.29,5,0,GUA-05 p.145 (medium); GUA-05 p.41 (weak); GUA-05 p.100 (weak); GUA-05 p.321 (weak)
+GUA-P059,GUA-04,p.34,16.7,,medium,GUA-06 p.18,11,0,GUA-06 p.19 (medium); GUA-05 p.22 (medium); GUA-05 p.21 (weak); GUA-01 p.45 (weak); GUA-05 p.104 (weak)
+GUA-P060,GUA-04,p.41,10,,strong,GUA-02 p.41,206,3,GUA-06 p.47 (strong); GUA-05 p.57 (strong); GUA-04 p.11 (medium); GUA-05 p.21 (medium); GUA-02 p.30 (medium)
+GUA-P061,GUA-04,p.41,12,,medium,GUA-04 p.13,148,0,GUA-04 p.29 (medium); GUA-07 p.9 (medium); GUA-07 p.11 (medium); GUA-07 p.12 (medium); GUA-05 p.30 (medium)
+GUA-P062,GUA-04,p.41,15,,strong,GUA-04 p.29,159,1,GUA-04 p.16 (medium); GUA-04 p.34 (medium); GUA-04 p.35 (medium); GUA-01 p.25 (medium); GUA-06 p.25 (medium)
+GUA-P063,GUA-04,p.45,71,,medium,GUA-01 p.39,60,0,GUA-07 p.95 (medium); GUA-06 p.239 (medium); GUA-05 p.285 (medium); GUA-02 p.4 (weak); GUA-05 p.5 (weak)
+GUA-P064,GUA-04,p.45,98,,medium,GUA-06 p.26,37,0,GUA-06 p.27 (medium); GUA-05 p.111 (medium); GUA-06 p.176 (medium); GUA-05 p.178 (medium); GUA-06 p.216 (medium)
+GUA-P065,GUA-04,p.45,146,,medium,GUA-07 p.77,6,0,GUA-06 p.112 (weak); GUA-05 p.146 (weak); GUA-06 p.146 (weak); GUA-06 p.244 (weak); GUA-05 p.320 (weak)
+GUA-P066,GUA-04,p.50,2,,strong,GUA-04 p.47,676,4,GUA-03 p.13 (strong); GUA-01 p.75 (strong); GUA-05 p.257 (strong); GUA-04 p.6 (medium); GUA-04 p.9 (medium)

@@ -1,0 +1,134 @@
+value_id,blind_id,source_id,check1_page,check1_value,check1_unit,check1_year,check2_page,check2_value,check2_unit,check2_year,check2_reference,check2_note,check2_status,check2_other_answers
+JAM-T001,JAM-B001,JAM-01,p.2;p.4,16.3,percent,2030,p.2,16.3,%,2030,Summary bullet (unnumbered page),"Unconditional, excluding forestry, vs 2012 levels; same text printed for 2035 below",agree,p.4 16.3 % 2030
+JAM-T002,JAM-B002,JAM-01,p.2;p.4,19.55,percent,2030,p.2,19.6,%,2030,Summary bullet (unnumbered page),"Unconditional, excluding forestry, compared to BAU",agree,p.4 19.55 % 2030
+JAM-T003,JAM-B003,JAM-01,p.2;p.4,16.9,percent,2035,p.2,16.9,%,2035,Summary bullet (unnumbered page),"Unconditional, excluding forestry, vs 2012 levels",agree,p.4 16.9 % 2035
+JAM-T004,JAM-B002,JAM-01,p.2;p.4,25.9,percent,2035,p.2,25.9,%,2035,Summary bullet (unnumbered page),"Unconditional, excluding forestry, compared to BAU",agree,p.4 25.9 % 2035
+JAM-T005,JAM-B004,JAM-01,p.2;p.5,26.3,percent,2030,p.2,26.3,%,2030,Summary bullet (unnumbered page),"Unconditional, including forestry, vs 2012 levels",agree,p.5 26.3 % 2030
+JAM-T006,JAM-B005,JAM-01,p.2;p.5,26.2,percent,2030,p.2,26.2,%,2030,Summary bullet (unnumbered page),"Unconditional, including forestry, compared to BAU",agree,p.5 26.2 % 2030
+JAM-T007,JAM-B004,JAM-01,p.2;p.5,27.1,percent,2035,p.2,27.1,%,2035,Summary bullet (unnumbered page),"Unconditional, including forestry, vs 2012 levels",agree,p.5 27.1 % 2035
+JAM-T008,JAM-B005,JAM-01,p.2;p.5,33.8,percent,2035,p.2,33.8,%,2035,Summary bullet (unnumbered page),"Unconditional, including forestry, compared to BAU",agree,p.5 33.8 % 2035
+JAM-T009,JAM-B006,JAM-01,p.2;p.5,19.6,percent,2030,p.2,19.6,%,2030,Summary bullet (unnumbered page),"Conditional upon international support, excluding forestry, vs 2012 levels",agree,p.5 19.6 % 2030
+JAM-T010,JAM-B007,JAM-01,p.2;p.5,22.7,percent,2030,p.2,22.7,%,2030,Summary bullet (unnumbered page),"Conditional, excluding forestry, compared to BAU",agree,p.5 22.7 % 2030
+JAM-T011,JAM-B008,JAM-01,p.2;p.5,28.3,percent,2035,p.2,28.3,%,2035,Summary bullet (unnumbered page),"Conditional, excluding forestry, vs 2012 levels",agree,p.5 28.3 % 2035
+JAM-T012,JAM-B007,JAM-01,p.2;p.5,36.0,percent,2035,p.2,36.0,%,2035,Summary bullet (unnumbered page),"Conditional, excluding forestry, compared to BAU",agree,p.5 36.0 % 2035
+JAM-T013,JAM-B009,JAM-01,p.2;p.5,30.6,percent,2030,p.2,30.6,%,2030,Summary bullet (unnumbered page),"Conditional, including forestry, vs 2012 levels",agree,p.5 30.6 % 2030
+JAM-T014,JAM-B010,JAM-01,p.2;p.5,30.5,percent,2030,p.2,30.5,%,2030,Summary bullet (unnumbered page),"Conditional, including forestry, compared to BAU",agree,p.5 30.5 % 2030
+JAM-T015,JAM-B009,JAM-01,p.2;p.5,41.7,percent,2035,p.2,41.7,%,2035,Summary bullet (unnumbered page),"Conditional, including forestry, vs 2012 levels",agree,p.5 41.7 % 2035
+JAM-T016,JAM-B010,JAM-01,p.2;p.5,47.1,percent,2035,p.2,47.1,%,2035,Summary bullet (unnumbered page),"Conditional, including forestry, compared to BAU",agree,p.5 47.1 % 2035
+JAM-T017,JAM-B011,JAM-01,p.21,5.8,MtCO2e,2030,p.21,5.8,MtCO2eq,2030,"ICTU table section rows c-e (Article 4), Page 21 of 22",Unconditional target; energy sector,agree,
+JAM-T018,JAM-B011,JAM-01,p.21,5.7,MtCO2e,2035,p.21,5.7,MtCO2eq,2035,"ICTU table section rows c-e (Article 4), Page 21 of 22",Unconditional target; energy sector,agree,
+JAM-T019,JAM-B012,JAM-01,p.21,5.5,MtCO2e,2030,p.21,5.5,MtCO2eq,2030,"ICTU table section rows c-e (Article 4), Page 21 of 22",Conditional target; energy sector; NDC 2.0 target for 2030 also printed as 6.7 MtCO2eq,agree,
+JAM-T020,JAM-B012,JAM-01,p.21,4.9,MtCO2e,2035,p.21,4.9,MtCO2eq,2035,"ICTU table section rows c-e (Article 4), Page 21 of 22",Conditional target; energy sector,agree,
+JAM-T021,JAM-B013,JAM-01,p.21,6.2,MtCO2e,2030,p.21,6.2,MtCO2eq,2030,"ICTU table section rows c-e (Article 4), Page 21 of 22",Unconditional; energy including IPPU (cement),agree,
+JAM-T022,JAM-B014,JAM-01,p.21,6.1,MtCO2e,2035,p.21,6.1,MtCO2eq,2035,"ICTU table section rows c-e (Article 4), Page 21 of 22",Unconditional; energy including IPPU (cement),agree,
+JAM-T023,JAM-B015,JAM-01,p.21,5.9,MtCO2e,2030,p.21,5.9,MtCO2eq,2030,"ICTU table section rows c-e (Article 4), Page 21 of 22",Conditional; energy including IPPU (cement),agree,
+JAM-T024,JAM-B015,JAM-01,p.21,5.3,MtCO2e,2035,p.21,5.3,MtCO2eq,2035,"ICTU table section rows c-e (Article 4), Page 21 of 22",Conditional; energy including IPPU (cement),agree,
+JAM-T025,JAM-B016,JAM-01,p.21,4.2,MtCO2e,2030,p.21,4.2,MtCO2eq,2030,"ICTU table section rows c-e (Article 4), Page 21 of 22",Unconditional; including AFOLU (forestry) sub-sector,agree,
+JAM-T026,JAM-B016,JAM-01,p.21,4,MtCO2e,2035,p.21,4,MtCO2eq,2035,"ICTU table section rows c-e (Article 4), Page 21 of 22",Unconditional; including AFOLU (forestry) sub-sector; printed as 4 with no decimal,agree,
+JAM-T027,JAM-B017,JAM-01,p.21,3.3,MtCO2e,2035,p.21,3.3,MtCO2eq,2035,"ICTU table section rows c-e (Article 4), Page 21 of 22",Conditional; including forestry; no conditional 2030 value printed for this scope,agree,
+JAM-T028,JAM-B018,JAM-01,p.14,50,percent,2030,p.14,50,%,2030,"Key elements responding to the GST, Page 14 of 22",Share of net electricity generation from renewable sources,agree,
+JAM-T029,JAM-B019,JAM-01,p.14,63,percent,2035,p.14,63,%,2035,"Key elements responding to the GST, Page 14 of 22",Share of net electricity generation from renewable sources,agree,
+JAM-T030,JAM-B020,JAM-01,p.14,17.7,percent,2030,p.14,17.7,%,2030,"Key elements responding to the GST, Page 14 of 22",Total electricity system losses as share of electricity generation,agree,
+JAM-T031,JAM-B020,JAM-01,p.14,16.45,percent,2035,p.14,16.45,%,2035,"Key elements responding to the GST, Page 14 of 22",Total electricity system losses as share of electricity generation,agree,
+JAM-T032,JAM-B021,JAM-01,p.2,11,percent,2035,p.2,11,%,2035,Summary bullet on industry sector (unnumbered page),Increase in cement industry emissions with proposed mitigation measures,agree,p.2 22 % 2035
+JAM-T033,JAM-B022,JAM-01,p.2,40,ktCO2,2035,p.2,40,ktCO2,2035,Summary bullet on industry sector (unnumbered page),Potential decrease; year 2035 taken from the same sentence (by 2035),agree,
+JAM-T043,JAM-B023,JAM-01,p.16,47.9,percent of land,,p.16,47.9,%,,"Specific projects bullet on Forest Policy 2017, Page 16 of 22",New baseline forest cover from latest Land Use and Land Change assessment; earlier recorded cover 40%,agree,
+JAM-T044,JAM-B024,JAM-01,p.15,30,percent,2036,p.15,30,%,next 11 years,"Specific projects bullet National Non-revenue Water Project (NRW), Page 15 of 22",Target level of losses; phased over the next 11 years,agree,p.15 72 % 
+JAM-T045,JAM-B025,JAM-02,p.13;p.46;p.50,73,percent,2050,p.13,73,%,2050,"Summary, printed page xiii, bold paragraph",Below 2020 levels (7.25 MtCO2e); economy-wide,agree,p.46 73 % 2050 | p.50 73 % 
+JAM-T046,JAM-B026,JAM-02,p.13;p.46;p.50,0,MtCO2e,2060,p.13,2060,,2060,"Summary, printed page xiii, bold paragraph",Jamaica will aim to achieve net zero emissions by 2060,differs,p.46 2060  2060 | p.50 2060  2060
+JAM-T047,JAM-B027,JAM-02,p.14;p.55,27,percent,2025,p.14,27,%,2025,"Table 1 LTS Mitigation Milestones, printed page xiv, 2025 Electricity",Printed as Generate 27% (no at least wording in Table 1),agree,p.55 27 % 2025
+JAM-T048,JAM-B028,JAM-02,p.14;p.55;p.54,50,percent,2030,p.14,50,%,2030,"Table 1, printed page xiv, 2030 Electricity",Generate 50%,agree,p.55 50 % 2030 | p.54 50 % 2030
+JAM-T049,JAM-B029,JAM-02,p.15;p.55,65,percent,2035,p.15,65,%,2035,"Table 1 (cont.), printed page xv, 2035 Electricity",At least 65%,agree,p.55 65 % 2035
+JAM-T050,JAM-B029,JAM-02,p.15;p.55,90,percent,2040,p.15,90,%,2040,"Table 1 (cont.), printed page xv, 2040 Electricity",At least 90%,agree,p.55 90 % 2040
+JAM-T051,JAM-B029,JAM-02,p.15;p.55,95,percent,2045,p.15,95,%,2045,"Table 1 (cont.), printed page xv, 2045 Electricity",At least 95%,agree,p.55 95 % 2045
+JAM-T052,JAM-B030,JAM-02,p.15;p.55;p.54,100,percent,2050,p.15,100,%,2050,"Table 1 (cont.), printed page xv, 2050 Electricity",Generate 100% of electricity from renewable sources,agree,p.55 100 % 2050 | p.54 100 % 2050
+JAM-T053,JAM-B031,JAM-02,p.14;p.55,25,percent,2025,p.14,25,%,2025,"Table 1, printed page xiv, 2025 Electricity",T&D system losses no more than 25%,agree,p.55 25 % 2025
+JAM-T054,JAM-B032,JAM-02,p.14;p.55,21,percent,2030,p.14,21,%,2030,"Table 1, printed page xiv, 2030 Electricity",No more than 21%,agree,p.55 21 % 2030
+JAM-T055,JAM-B033,JAM-02,p.15;p.55,17,percent,2035,p.15,17,%,2035,"Table 1 (cont.), printed page xv, 2035 Electricity",No more than 17%,agree,p.55 17 % 2035
+JAM-T056,JAM-B033,JAM-02,p.15;p.55,14,percent,2040,p.15,14,%,2040,"Table 1 (cont.), printed page xv, 2040 Electricity",Do not exceed 14%,agree,p.55 14 % 2040
+JAM-T057,JAM-B033,JAM-02,p.15;p.55,11,percent,2045,p.15,11,%,2045,"Table 1 (cont.), printed page xv, 2045 Electricity",No more than 11%,agree,p.55 11 % 2045
+JAM-T058,JAM-B034,JAM-02,p.55;p.54,8,percent,2050,p.55,8,%,2050,"Table 4, printed page 37, 2050",Do not exceed 8%; footnote 4 says JPS losses currently at 28% in 2023,agree,p.54 8 % 
+JAM-T059,JAM-B035,JAM-02,p.15,11,percent,2050,p.15,11,%,2050,"Table 1 (cont.), printed page xv, 2050 Electricity",Do not exceed 11% (Table 1 version; Table 4 on p.55 shows 8% for 2050),agree,
+JAM-T060,JAM-B036,JAM-02,p.15;p.55,0,MW,2035,p.15,100,%,2035,"Table 1 (cont.), printed page xv, 2035 Electricity",Fully phase out 100% Heavy Fuel Oil capacity,differs,p.55 100 % 2035
+JAM-T061,JAM-B037,JAM-02,p.15;p.55,0,percent,2040,p.15,100,%,2040,"Table 1 (cont.), printed page xv, 2040 Electricity",Phase out 100% of fossil fuel generation,differs,p.55 100 % 2040
+JAM-T062,JAM-B038,JAM-02,p.55,2,GW,2050,p.55,2,GW,2030-2050,"Text above Table 4, printed page 37",Around 2GW of intermittent renewables between 2030 and 2050 complementing the IRP,agree,
+JAM-T063,JAM-B039,JAM-02,p.51,98,percent,2050,p.51,98,%,2050,"Section 4.1 Electricity, Emissions Trajectory, printed page 33",Reduced 98% by 2050 from 2020 levels; 93% share of intermittent RE (solar and wind),agree,p.51 93 % 2050
+JAM-T064,JAM-B040,JAM-02,p.14;p.62,8,percent of fleet,2025,p.14,8,%,2025,"Table 1, printed page xiv, 2025 Transport",Share of private vehicle fleet electric,agree,p.62 8 % 2025
+JAM-T065,JAM-B041,JAM-02,p.14;p.62,10,percent of fleet,2025,p.14,10,%,2025,"Table 1, printed page xiv, 2025 Transport",Share of public vehicle fleet electric,agree,p.62 10 % 2025
+JAM-T066,JAM-B040,JAM-02,p.14;p.62,12,percent of fleet,2030,p.14,12,%,2030,"Table 1, printed page xiv, 2030 Transport",Share of private vehicle fleet electric,agree,p.62 12 % 2030
+JAM-T067,JAM-B041,JAM-02,p.14;p.62,16,percent of fleet,2030,p.14,16,%,2030,"Table 1, printed page xiv, 2030 Transport",Share of public vehicle fleet electric,agree,p.62 16 % 2030
+JAM-T068,JAM-B042,JAM-02,p.14;p.61;p.62,15,percent,2030,p.14,15,%,2030,"Table 1, printed page xiv, 2030 Transport",Relative to 2020 levels,agree,p.61 15 % 2030 | p.62 15 % 2030
+JAM-T069,JAM-B043,JAM-02,p.15;p.58;p.62,2000,buses,2040,p.15,2000,electric buses,2040,"Table 1 (cont.), printed page xv, 2040 Transport",At least 2000,agree,p.58 2000 electric buses 2040 | p.62 2000 electric buses 2040
+JAM-T070,JAM-B044,JAM-02,p.15;p.58;p.61;p.62,67,percent of fleet,2050,p.15,67,%,2050,"Table 1 (cont.), printed page xv, 2050 Transport",At least 67% of passenger fleet,agree,p.58 67 % 2050 | p.61 67 % 2050 | p.62 67 % 2050
+JAM-T071,JAM-B045,JAM-02,p.15;p.61;p.62,40,percent,2050,p.15,40,%,2050,"Table 1 (cont.), printed page xv, 2050 Transport",Relative to 2020 levels,agree,p.61 40 % 2050 | p.62 40 % 2050
+JAM-T072,JAM-B046,JAM-02,p.58,0.79,MtCO2e,2050,p.58,0.79,MtCO2e,2050,"Emissions Trajectory text, printed page 40",To value (deep decarbonisation 2050),agree,p.58 2.34 MtCO2e 2050 | p.58 66 % 2050
+JAM-T073,JAM-B047,JAM-02,p.61,35,percent,2030,p.61,35,%,2030,"Key targets and milestones list item 1, printed page 43",Share of public transport in urban areas,agree,
+JAM-T074,JAM-B048,JAM-02,p.61,20,percent,2030,p.61,20,%,2030,"Key targets and milestones list item 3, printed page 43",Use of alternative fuels in the transport sector,agree,
+JAM-T075,JAM-B049,JAM-02,p.57,200,buses,2026,p.57,200,EV buses,2023,"Transport text, printed page 39",Committed to 200 EV buses over the next three years; first electric bus arrived January 2023,not found,
+JAM-T077,JAM-B050,JAM-02,p.14;p.67;p.69,60,percent of households,2030,p.14,60,%,2030,"Table 1, printed page xiv, 2030 Buildings",Increase share of households with solar water-heating by at least 60%,agree,p.67 60 % 2030 | p.69 60 % 2030
+JAM-T078,JAM-B051,JAM-02,p.15;p.67;p.69,85,percent of households,2050,p.15,85,%,2050,"Table 1 (cont.), printed page xv, 2050 Buildings",At least 85%,agree,p.67 85 % 2050 | p.69 85 % 2050
+JAM-T079,JAM-B052,JAM-02,p.14;p.69,100,percent,2030,p.14,100,%,2030,"Table 1, printed page xiv, 2030 Buildings",Replace 100% of electric lighting in residential buildings with LED lamps,agree,p.69 100 % 2030
+JAM-T080,JAM-B053,JAM-02,p.14;p.69,100,percent,2030,p.14,100,%,2030,"Table 1, printed page xiv, 2030 Buildings",Convert 100% of schools and hospitals from T12 (fluorescent) to T8 (LED technology) lamps,agree,p.69 100 % 2030
+JAM-T081,JAM-B054,JAM-02,p.14;p.69,100,percent,2030,p.14,100,%,2030,"Table 1, printed page xiv, 2030 Buildings",Replace 100% of public and commercial buildings with LED equivalent,agree,p.69 100 % 2030
+JAM-T082,JAM-B055,JAM-02,p.15;p.67;p.69,100,percent,2035,p.15,,,2035,"Table 1 (cont.), printed page xv, 2035 Buildings",No number printed; replace wood kerosene and charcoal stoves with more sustainable option stoves,not found,
+JAM-T083,JAM-B056,JAM-02,p.15;p.67;p.69,10,percent of 2020 level,2050,p.15,10,%,2050,"Table 1 (cont.), printed page xv, 2050 Buildings",Reduce LPG use to 10% of 2020 levels and phase out new LPG cookers,agree,p.67 10 % 2050 | p.69 10 % 2050
+JAM-T084,JAM-B057,JAM-02,p.67,50,percent reduction,2035,p.67,,,,"Key Targets and Milestones text, printed page 49","No number; use of LPG cookers will be halved, stated in the same passage as the 2035 stove replacement (no own year)",not found,
+JAM-T085,JAM-B058,JAM-02,p.15;p.68;p.69,50,percent,2050,p.15,50,%,2050,"Table 1 (cont.), printed page xv, 2050 Buildings",At least 50%,agree,p.68 50 % 2050 | p.69 50  2050
+JAM-T087,JAM-B059,JAM-02,p.14;p.74,82,percent,2025,p.14,82,%,2025,"Table 1, printed page xiv, 2025 Industry",Reduce clinker-to-cement ratio to 82% (95% in 2014),agree,p.74 82 % 2025
+JAM-T088,JAM-B060,JAM-02,p.14;p.74,70,percent,2030,p.14,70,%,2030,"Table 1, printed page xiv, 2030 Industry",Reduce clinker-to-cement ratio to 70%,agree,p.74 70 % 2030
+JAM-T089,JAM-B061,JAM-02,p.14;p.74,25,percent,2030,p.14,25,%,2030,"Table 1, printed page xiv, 2030 Industry",Relative to 2020 levels,agree,p.74 25 % 2030
+JAM-T090,JAM-B062,JAM-02,p.15;p.74,83,percent,2040,p.15,83,%,2040,"Table 1 (cont.), printed page xv, 2040 Industry",Target share using recycled materials or biomass,agree,p.74 83 % 2040
+JAM-T091,JAM-B063,JAM-02,p.15;p.74,15,percent,2050,p.15,15,%,2050,"Table 1 (cont.), printed page xv, 2050 Industry",Relative to 2020 levels,agree,p.74 15 % 2050
+JAM-T092,JAM-B064,JAM-02,p.70,60,percent,2050,p.70,60,%,2050,"Section 4.4 Industry, Emissions Trajectory, printed page 52",Almost 60% abated by 2050 relative to 2020 levels (deep decarbonisation),agree,p.70 90 % 2050
+JAM-T093,JAM-B065,JAM-02,p.14;p.80;p.81,5,percent,2030,p.14,5,%,2030,"Table 1, printed page xiv, 2030 Forestry",Relative to 2020 levels,agree,p.80 5 % 2030 | p.81 5 % 2030
+JAM-T094,JAM-B066,JAM-02,p.14;p.80;p.81,30,percent,2030,p.14,30,%,2030,"Table 1, printed page xiv, 2030 Forestry",Relative to 2020 levels,agree,p.80 30 % 2030 | p.81 30 % 2030
+JAM-T095,JAM-B067,JAM-02,p.15;p.80;p.81,3,percent of land,2050,p.15,3,%,2050,"Table 1 (cont.), printed page xv, 2050 Forestry",Compared to 2020 levels,agree,p.80 3 % 2050 | p.81 3 % 2050
+JAM-T096,JAM-B068,JAM-02,p.15;p.80;p.81,4000,ha,2050,p.15,4000,ha,2050,"Table 1 (cont.), printed page xv, 2050 Forestry",Increase mangrove cover by 4000 ha,agree,p.80 4000 hectares 2050 | p.81 4000 hectares 2050
+JAM-T097,JAM-B069,JAM-02,p.15;p.81,150,ha per year,2050,p.15,150,ha/year,2050,"Table 1 (cont.), printed page xv, 2050 Forestry",Increase forest cover by 150 ha/year,agree,p.81 150 ha/year 2050
+JAM-T098,JAM-B070,JAM-02,p.14;p.87,14,percent,2030,p.14,14,%,2030,"Table 1, printed page xiv, 2030 Agriculture",Relative to 2020 levels,agree,p.87 14 % 2030
+JAM-T099,JAM-B071,JAM-02,p.14;p.87,20,percent,2030,p.14,20,%,2030,"Table 1, printed page xiv, 2030 Agriculture",Relative to 2020 levels,agree,p.87 20 % 2030
+JAM-T100,JAM-B072,JAM-02,p.15;p.87,27,ktCO2e per year,2050,p.15,27,ktCO2e,2050,"Table 1 (cont.), printed page xv, 2050 Agriculture",At least 27ktCO2e annual sequestration,agree,p.15 10 % 2050 | p.87 10 % 2050 | p.87 27 ktCO2e 2050
+JAM-T102,JAM-B073,JAM-02,p.92,70,percent,,p.92,70,%,,"Waste sector text right column, printed page 74",Reduction in emissions from the waste sector due to the waste-to-energy transition; no year printed; collection rate from around 60% to over 90%,agree,
+JAM-T104,JAM-B074,JAM-03,p.3;p.5;p.12,25.4,percent,2030,p.3,25.4,%,2030,"Summary bullet, Page 2 (printed)",Unconditional; energy and land use change and forestry relative to BAU (policies as of 2005),agree,p.5 25.4 % 2030 | p.12 25.4 % 
+JAM-T105,JAM-B075,JAM-03,p.3;p.5;p.12,28.5,percent,2030,p.3,28.5,%,2030,"Summary bullet, Page 2 (printed)",Conditional,agree,p.5 28.5 % 2030 | p.12 28.5 % 
+JAM-T106,JAM-B076,JAM-03,p.3;p.9;p.12,1.8,MtCO2e,2030,p.3,1.8,MtCO2e,2030,"Summary bullet, Page 2 (printed)",Range printed as 1.8 to 2.0 MtCO2e lower; not labelled per scenario (1.8 pairs with the unconditional 25.4%); previous NDC 1.1 to 1.5,agree,p.9 1.8 MtCO2e 2030 | p.12 1.8 MtCO2e 
+JAM-T107,JAM-B077,JAM-03,p.3;p.9;p.12,2.0,MtCO2e,2030,p.3,2.0,MtCO2e,2030,"Summary bullet, Page 2 (printed)",Upper end of range 1.8 to 2.0; pairs with conditional 28.5%; not labelled per scenario,agree,p.9 2.0 MtCO2e 2030 | p.12 2.0 MtCO2e 
+JAM-T108,JAM-B078,JAM-04,p.2;p.3;p.4,7.8,percent,2030,p.3,7.8,%,2030,"Section 2.3 continuation, Page 3/9",Reduction versus BAU; sentence begins on p.2 (1.1 million tonnes per year by 2030); not conditional,agree,p.4 7.8 % 2030
+JAM-T109,JAM-B079,JAM-04,p.3;p.4,10,percent,2030,p.3,10,%,,"Section 2.3 continuation, Page 3/9",Conditional on international support; no year in sentence,agree,p.4 10 % 2030
+JAM-T110,JAM-B080,JAM-04,p.2,1.1,MtCO2 per year,2030,p.2,1.1,million metric tons of carbon dioxide per year,2030,"Section 2.3 Modelled Impact of Policy Actions, Page 2/9",Versus the BAU scenario,agree,
+JAM-T111,JAM-B081,JAM-04,p.2,20,percent,2030,p.2,20,%,2030,"Section 2.2 Policy Actions bullet, Page 2/9",Share of renewable sources in primary energy mix; policies in National Energy Policy 2009-2030,agree,
+JAM-T112,JAM-B082,JAM-06,p.328,5,percent by volume,2017,p.328,5,% by volume,2017,"Table 3 Summary of Mitigation Actions, row Final Demands Planned B5 blending, printed page 328",B5 biodiesel mandate; 189 million liters (50 million gallons) per year capacity deployed by 2017,agree,p.328 189 million liters per year 2017
+JAM-T113,JAM-B083,JAM-06,p.328,10,percent by volume,2020,p.328,10,%,2020,"Table 3, row Final Demands Planned E10 blending with domestic production, printed page 328",E10 mandate met with domestic sorghum bioethanol by 2020 (7.56 million liters per year capacity),agree,
+JAM-T114,JAM-B084,JAM-06,p.328,4.1,percent of net generation,2020,p.328,4.1,% of net generation,2020,"Table 3, row Electricity Production Planned Reduced electricity losses, printed page 328",Technical losses lowered by 1.5% and non-technical by 2.6%,agree,
+JAM-T115,JAM-B085,JAM-07,p.14;p.15;p.38;p.62,50,percent,2030,p.14,50,percent,2030,"Table ES-3 Major Changes Since IRP-1 Development, Page 14 of 93",RPS increased from 30 percent in 2030 to 50 percent in 2030,agree,p.14 30 percent 2030 | p.15 50 % 2030 | p.38 50 % 2030 | p.38 2344 GWh 2030 | p.62 50 % 2030
+JAM-T116,JAM-B086,JAM-07,p.77,63.4,percent,2035,p.77,49.8,%,2030,"Table 11-13 IRP-2 Evolution of Renewable Energy Integration, row RE % of Gen, Page 77 of 93",Table gives yearly values 2022-2041 (2022 11.5%; 2041 78.9%); 2030 column highlighted,not found,
+JAM-T117,JAM-B087,JAM-07,p.15;p.62;p.89,344,MW,2041,p.15,344,MW,2022-2041,"Table ES-4, Procurement of, Page 15 of 93",Total wind; 201 MW between 2025 to 2030 and 143 MW between 2031 to 2041,agree,p.15 143 MW 2031-2041 | p.62 344 MW 2022-2041 | p.62 143 MW 2031-2041 | p.89 344 MW 2022-2041
+JAM-T118,JAM-B088,JAM-07,p.15;p.62;p.89,1143,MW,2041,p.15,1143,MW,2022-2041,"Table ES-4, Procurement of, Page 15 of 93",Total solar PV; 540 MW 2025-2030 and 604 MW 2031 to 2041,agree,p.15 604 MW 2031-2041 | p.62 1143 MW 2022-2041 | p.62 604 MW 2031-2041 | p.89 1143 MW 2022-2041
+JAM-T119,JAM-B089,JAM-07,p.15;p.62,34.3,MW,2033,p.15,34.3,MW,2027-2033,"Table ES-4, Procurement of, Page 15 of 93",12 small hydro plants,agree,p.62 34.3 MW 2027-2033
+JAM-T120,JAM-B090,JAM-07,p.15;p.62,493,MW,2041,p.15,493,MW,2022-2041,"Table ES-4, Procurement of, Page 15 of 93",2-hour BESS total; 264 MW between 2024-2027 and 229 MW between 2033 to 2037,agree,p.62 493 MW 2022-2041
+JAM-T121,JAM-B091,JAM-07,p.15;p.62;p.66,171.5,MW,2027,p.15,131.5,MW,2027,"Table ES-4, Retirement of, Page 15 of 93",Combustion turbines,differs,p.15 40 MW 2027 | p.62 131.5 MW 2027 | p.62 40 MW 2027 | p.66 131.5 MW 2027 | p.66 40 MW 2027
+JAM-T122,JAM-B092,JAM-07,p.20;p.15,249.9,MW,2033,p.15,65.5,MW,2033,"Table ES-4, Retirement of, Page 15 of 93",IPP diesel plant; Table 11-2 on p.62 (not listed) prints 2032,differs,
+JAM-T123,JAM-B093,JAM-07,p.22;p.89,0,MW,2041,p.22,,,2022-2041,"Table ES-8 Key IRP Findings item 10, Page 22 of 93",Found; no number: no new fossil fueled plant selected in the preferred portfolio implementation plan,not found,
+JAM-T124,JAM-B094,JAM-07,p.15;p.62,1.29,Mt CO2e,2030,p.15,1.29,million tonnes,2030,"Table ES-4, Reduction of, Page 15 of 93",Electricity sector GHG emissions,agree,p.62 1.29 million tonnes 2030
+JAM-T125,JAM-B095,JAM-07,p.15;p.62,3.75,million BOE per year,2030,p.15,3.75,million BOE,2030,"Table ES-4, Reduction of, Page 15 of 93",BOE imported for electricity sector,agree,p.62 3.75 million BOE 2030
+JAM-T126,JAM-B096,JAM-07,p.21,0.954,MtCO2,2030,p.21,0.954,MtCO2,2030,"Table ES-7 (cont.), row Update June 2020 (NDC) emission goals, Comments column, Page 21 of 93",Printed as 0. 954 MtCO2 (space after the point); IRP-2 forecast reduction for the electricity sector by 2030,agree,
+JAM-T127,JAM-B097,JAM-07,p.36;p.37,3,percent,2030,p.36,3,% of energy demand,2030,"Section on updated demand forecast, Page 36 of 93",EV demand impact estimated at 3% of energy demand by 2030; distributed generation reduction approximately 1%,agree,p.37 139  2030
+JAM-T128,JAM-B098,JAM-08,p.16,30,percent,2030,p.16,30,percent,2030,"Setting IRP Objectives paragraph, printed page 18",Renewable electricity share by 2030 under the National Energy Policy; within overall 20 percent of energy from renewables; the superseding RPS value is not printed on this page,agree,p.16 20 percent 
+JAM-T129,JAM-B099,JAM-08,p.143,31,percent,2030,p.143,31,percent,2030,"Section 4.11 Percentage Share of Generation (MWh), printed page 145",Renewable share of generation required by 2030,agree,
+JAM-P003,JAM-B100,JAM-01,p.4,8.2,MtCO2e,2030,p.4,8.2,MtCO2eq,2030,"ICTU table section 1 row b, Page 4 of 22",Only value on page: Updated NDC (2020) BAU energy sector emissions; year not printed next to it (2030 is the year printed for total BAU 7.2 MtCO2eq in the same sentence); no series printed,agree,
+JAM-P004,JAM-B101,JAM-01,p.21,5.8,MtCO2e,2030,p.21,5.8,MtCO2eq,2030,"ICTU table section rows c-e (Article 4), Page 21 of 22",Unconditional target; energy sector,agree,
+JAM-P005,JAM-B101,JAM-01,p.21,5.7,MtCO2e,2035,p.21,5.7,MtCO2eq,2035,"ICTU table section rows c-e (Article 4), Page 21 of 22",Unconditional target; energy sector,agree,
+JAM-P006,JAM-B102,JAM-01,p.21,5.5,MtCO2e,2030,p.21,5.5,MtCO2eq,2030,"ICTU table section rows c-e (Article 4), Page 21 of 22",Conditional target; energy sector,agree,
+JAM-P007,JAM-B102,JAM-01,p.21,4.9,MtCO2e,2035,p.21,4.9,MtCO2eq,2035,"ICTU table section rows c-e (Article 4), Page 21 of 22",Conditional target; energy sector,agree,
+JAM-P008,JAM-B103,JAM-01,p.21,6.2,MtCO2e,2030,p.21,6.2,MtCO2eq,2030,"ICTU table section rows c-e (Article 4), Page 21 of 22",Unconditional; energy and IPPU (cement),agree,
+JAM-P009,JAM-B103,JAM-01,p.21,6.1,MtCO2e,2035,p.21,6.1,MtCO2eq,2035,"ICTU table section rows c-e (Article 4), Page 21 of 22",Unconditional; energy and IPPU (cement),agree,
+JAM-P010,JAM-B104,JAM-01,p.21,5.9,MtCO2e,2030,p.21,5.9,MtCO2eq,2030,"ICTU table section rows c-e (Article 4), Page 21 of 22",Conditional; energy and IPPU (cement),agree,
+JAM-P011,JAM-B104,JAM-01,p.21,5.3,MtCO2e,2035,p.21,5.3,MtCO2eq,2035,"ICTU table section rows c-e (Article 4), Page 21 of 22",Conditional; energy and IPPU (cement),agree,
+JAM-P012,JAM-B105,JAM-01,p.21,4.2,MtCO2e,2030,p.21,4.2,MtCO2eq,2030,"ICTU table section rows c-e (Article 4), Page 21 of 22",Unconditional; including forestry,agree,
+JAM-P013,JAM-B105,JAM-01,p.21,4,MtCO2e,2035,p.21,4,MtCO2eq,2035,"ICTU table section rows c-e (Article 4), Page 21 of 22",Unconditional; including forestry; printed as 4,agree,
+JAM-P014,JAM-B106,JAM-01,p.21,3.3,MtCO2e,2035,p.21,3.3,MtCO2eq,2035,"ICTU table section rows c-e (Article 4), Page 21 of 22",Conditional; including forestry; only 2035 printed for this scope,agree,
+JAM-P027,JAM-B107,JAM-02,p.13,7.25,MtCO2e,2020,p.13,7.25,MtCO2e,2020,"Summary, printed page xiii, bold paragraph",Only the 2020 reference level is printed on this page (73% below it by 2050); no series,agree,
+JAM-P028,JAM-B108,JAM-02,p.58,2.34,MtCO2e,2020,p.58,0.79,MtCO2e,2050,"Emissions Trajectory text and Figure 6 Transport Sector Emission Trajectory 2015-2050, printed page 40",Only 2050 value printed in text; Figure 6 lines have no data labels (deep decarbonisation curve reads near 1.8 in 2015 but not printed),not found,
+JAM-P029,JAM-B108,JAM-02,p.58,0.79,MtCO2e,2050,p.58,0.79,MtCO2e,2050,"Emissions Trajectory text and Figure 6 Transport Sector Emission Trajectory 2015-2050, printed page 40",Only 2050 value printed in text; Figure 6 lines have no data labels (deep decarbonisation curve reads near 1.8 in 2015 but not printed),agree,
+JAM-P030,JAM-B109,JAM-02,p.63,0.33,Mt,2050,p.63,0.33,Mt,now to 2050,"Section 4.3 Buildings, Emissions Trajectory, printed page 45",Direct emissions from buildings remain largely constant at 0.33Mt between now and 2050; no yearly series printed,agree,
+JAM-P031,JAM-B110,JAM-02,p.89,1.3,MtCO2e,2050,p.89,1.3,Mt,2050,"Emissions Trajectory text, printed page 71",Waste emissions expected to grow by 21% in 2050 up to 1.3Mt compared with 2016 levels; no yearly series printed,agree,

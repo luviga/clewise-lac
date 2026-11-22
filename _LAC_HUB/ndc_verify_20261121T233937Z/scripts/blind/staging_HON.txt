@@ -1,0 +1,111 @@
+# HON staging, blind reading
+HON-B001|p.23|12847.2|Gg CO2e|2035|Summary table, row 'Nivel de mitigacion' (no printed page number)|Conditional on sufficient climate finance. Single-year target type 2035 on same page. BAU 2035 printed on same page as 65,616,6 Gg CO2e (row 'Nivel esperado de emisiones y remociones (BAU)'). All sectors incl. UTCUTS per row 'Sectores incluidos'
+HON-B001|p.25||||'ESCENARIO 2035' column|Not printed as a single 2035 reduction on p.25. p.25 shows 'Meta nacional de mitigacion: 7,268 Gg CO2e' over 2021-2035 and maximum expected emissions 52,769 Gg CO2e in 2035
+HON-B002|p.22|19.6|%|2035|Section 'Metas del componente de mitigacion', right column text|Printed as 'reduccion nacional de emisiones acumulada durante el periodo 2021 - 2035 de 19.6 %, equivalente a 8,564.8 Gg CO2e'. Note the Gg value printed next to it is the 2030 figure
+HON-B003|p.22|8564.8|Gg CO2e|2021-2035|Section 'Metas del componente de mitigacion', right column text|Printed as equivalent of the 19.6 % cumulative reduction 2021-2035, not tied to 2030 in this sentence. BAU 2030 of 50,381.3 Gg CO2e printed on same page (left column)
+HON-B003|p.23|8564.8|Gg CO2e|2030|Summary table, row 'Nivel de mitigacion'|Conditional on sufficient climate finance. BAU 2030 printed as 50,381.3 Gg CO2e on same page
+HON-B003|p.25|8564.8|Gg CO2e|2021-2030|'ESCENARIO 2030' column, 'Meta nacional de mitigacion'|Printed 'durante el periodo de implementacion 2021-2030'. Page says percentages are indicative and conditional on climate finance
+HON-B004|p.22|17|%|2030|Section 'Metas del componente de mitigacion', left column first paragraph|Printed 'reducir en un 17% las emisiones proyectadas durante el periodo 2021-2030', kept from second NDC update (April 2025)
+HON-B004|p.22|17|%|2035|Section 'Metas del componente de mitigacion', left column last paragraph|Printed 'amplia esta meta del 17% para el ano 2035, aplicandola al escenario BAU de los mismos sectores'
+HON-B005|p.25|41816.4|Gg CO2e|2030|'ESCENARIO 2030' column, 'Nivel maximo de emisiones esperadas'|Unit printed 'Gg CO2e'. Conditional on climate finance (footnote paragraph)
+HON-B005|p.25|52769|Gg CO2e|2035|'ESCENARIO 2035' column, 'Nivel maximo de emisiones esperadas'|Unit printed 'Gg CO2e'. Conditional on climate finance (footnote paragraph)
+HON-B006|p.25|7268|Gg CO2e|2021-2035|'ESCENARIO 2035' column, 'Meta nacional de mitigacion'|Printed 'durante el periodo de implementacion 2021-2035'. Does not equal the sum of sector values in the same column
+HON-B006|p.25|8564.8|Gg CO2e|2021-2030|'ESCENARIO 2030' column, 'Meta nacional de mitigacion'|Same label in the 2030 column, given for context
+HON-B007|p.25|2519.1|Gg CO2e|2030|'ESCENARIO 2030' column, ENERGIA|Heading '5% en reduccion de emisiones respecto al BAU en 2030'; text says mitigation 'durante el periodo de implementacion 2021-2030'. Indicative, conditional on climate finance
+HON-B007|p.25|3778.6|Gg CO2e|2035|'ESCENARIO 2035' column, ENERGIA|Heading '5.8% en reduccion de emisiones respecto al BAU en 2035'; text says 'durante el periodo de implementacion 2021-2035'. Indicative, conditional on climate finance
+HON-B008|p.25|4534.3|Gg CO2e|2030|'ESCENARIO 2030' column, AGRICULTURA|Heading '9% en reduccion de emisiones respecto al BAU en 2030'; text 'periodo de implementacion 2021-2030'. Conditional on climate finance
+HON-B008|p.25|6801.5|Gg CO2e|2035|'ESCENARIO 2035' column, AGRICULTURA|Heading '10.4 % en reduccion de emisiones respecto al BAU en 2035'; text 'periodo de implementacion 2021 - 2035'. Conditional on climate finance
+HON-B009|p.25|503.8|Gg CO2e|2030|'ESCENARIO 2030' column, PIUP|Heading '1% en reduccion de emisiones respecto al BAU en 2030'; text 'periodo de implementacion 2021-2030'. Conditional on climate finance
+HON-B009|p.25|755.7|Gg CO2e|2035|'ESCENARIO 2035' column, PIUP|Heading printed '1.2% en reduccion de emisiones respecto al BAU en 2030' (says 2030 in the 2035 column); text 'periodo de implementacion 2021 - 2035'. Conditional on climate finance
+HON-B010|p.25|503.8|Gg CO2e|2030|'ESCENARIO 2030' column, Residuos|Heading '1% en reduccion de emisiones respecto al BAU en 2030'; text 'periodo de implementacion 2021-2030'. Conditional on climate finance
+HON-B010|p.25|755.7|Gg CO2e|2035|'ESCENARIO 2035' column, Residuos|Heading printed '1.2% en reduccion de emisiones respecto al BAU en 2030' (says 2030 in the 2035 column); text 'periodo de implementacion 2021 - 2035'. Conditional on climate finance
+HON-B011|p.25|503.8|Gg CO2e|2030|'ESCENARIO 2030' column, UTCUTS|Heading '1% en reduccion de emisiones respecto al BAU en 2030'; text 'periodo de implementacion 2021-2030'. Conditional on climate finance
+HON-B011|p.25|755.7|Gg CO2e|2035|'ESCENARIO 2035' column, UTCUTS|Heading printed '1.2% en reduccion de emisiones respecto al BAU en 2030' (says 2030 in the 2035 column); text 'periodo de implementacion 2021 - 2035'. Conditional on climate finance
+HON-B012|p.26|70|%|2030|'Medidas de Mitigacion', Sector Energia, Medida 1|'incrementar la participacion de las energias renovables hasta alcanzar el 70% de la matriz de generacion electrica'
+HON-B013|p.26|70|%|2035|'Medidas de Mitigacion', Sector Energia, Medida 1|'mantenerla por encima de este nivel hacia 2035'
+HON-B014|p.26|3.4|kWh/USD|2030|Sector Energia, Medida 2, right column text|Reduction in absolute terms against 2022
+HON-B015|p.26|4|kWh/USD|2035|Sector Energia, Medida 2, right column text|'4 kWh/USD adicionales en 2035, respecto al 2022'
+HON-B016|p.26|3|p.p.|2030|Sector Energia, Medida 2, second paragraph|'al menos 3 puntos porcentuales (p.p.) ... para el 2030'
+HON-B016|p.26|5|p.p.|2035|Sector Energia, Medida 2, second paragraph|'al menos 5 p.p. para el 2035'
+HON-B017|p.27|5|%|2030|Medida 3, right column second paragraph|Biofuels share of final consumption of transport sector by 2030, 'mantener el porcentaje para 2035'
+HON-B018|p.27|39|%|2030|Medida 4, left column|Against consumption level recorded in 2012
+HON-B019|p.27|3|%|2030|Medida 5, right column|Electrification of national vehicle fleet, aligned with ENME
+HON-B020|p.27|7.5|%|2035|Medida 5, right column|'ampliar la ambicion a 7.5% hacia el 2035'
+HON-B021|p.27|20|%|2035|Medida 6, right column|Light vehicles gasoline hybrids
+HON-B022|p.27|15|%|2035|Medida 6, right column|Heavy and light freight vehicles diesel hybrids
+HON-B023|p.27||||Medida 7|No number printed; target year printed 'Al 2030'
+SERIES|HON-B062|p.24|Gg CO2e|Tabla 2 Escenario Tendencial (BAU), column 'Agricultura Proyeccion BAU'|Unit not printed in the table; figure on same page (Ilustracion 3) is in Gg CO2e. 2011-2020 rows are inventory years, 2021-2035 projection|2011:5828,2012:6032,2013:6160,2014:6254,2015:6275,2016:6226,2017:6262,2018:6336,2019:6337,2020:6397,2021:6481,2022:6530,2023:6579,2024:6629,2025:6678,2026:6727,2027:6776,2028:6825,2029:6874,2030:6924,2031:6973,2032:7022,2033:7071,2034:7120,2035:7169
+SERIES|HON-B063|p.24|Gg CO2e|Tabla 2 Escenario Tendencial (BAU), column 'Energia Proyeccion BAU'|Unit not printed in the table; figure on same page in Gg CO2e. 2011-2020 rows are inventory years, 2021-2035 projection|2011:9327,2012:9624,2013:9637,2014:10252,2015:10883,2016:10409,2017:9053,2018:9183,2019:9825,2020:9151,2021:9517,2022:9477,2023:9438,2024:9398,2025:9359,2026:9319,2027:9280,2028:9240,2029:9201,2030:9161,2031:9122,2032:9082,2033:9043,2034:9003,2035:8963
+SERIES|HON-B064|p.24|Gg CO2e|Tabla 2 Escenario Tendencial (BAU), column 'PIUP Proyeccion BAU'|Unit not printed in the table; figure on same page in Gg CO2e. 2011-2020 rows are inventory years, 2021-2035 projection|2011:1199,2012:1437,2013:1145,2014:1612,2015:1566,2016:1675,2017:1765,2018:2019,2019:2192,2020:1852,2021:2183,2022:2281,2023:2378,2024:2476,2025:2574,2026:2671,2027:2769,2028:2867,2029:2964,2030:3062,2031:3160,2032:3257,2033:3355,2034:3452,2035:3550
+SERIES|HON-B065|p.24|Gg CO2e|Tabla 2 Escenario Tendencial (BAU), column 'Residuos Proyeccion BAU'|Unit not printed in the table; figure on same page in Gg CO2e. 2011-2020 rows are inventory years, 2021-2035 projection|2011:1903,2012:2005,2013:2063,2014:2118,2015:2169,2016:2253,2017:2348,2018:2417,2019:2465,2020:2467,2021:2582,2022:2648,2023:2713,2024:2779,2025:2845,2026:2910,2027:2976,2028:3042,2029:3107,2030:3173,2031:3239,2032:3304,2033:3370,2034:3436,2035:3501
+SERIES|HON-B066|p.24|Gg CO2e|Tabla 2 Escenario Tendencial (BAU), column 'UTCUTS (emisiones) Proyeccion BAU'|Unit not printed in the table; figure on same page in Gg CO2e. 2011-2020 rows are inventory years, 2021-2035 projection|2011:10905,2012:11248,2013:11333,2014:16242,2015:16353,2016:29029,2017:21213,2018:23285,2019:20737,2020:29816,2021:29815,2022:31779,2023:33742,2024:35706,2025:37669,2026:39633,2027:41596,2028:43559,2029:45523,2030:47486,2031:49450,2032:51413,2033:53377,2034:55340,2035:57304
+SERIES|HON-B067|p.24|Gg CO2e|Tabla 2 Escenario Tendencial (BAU), column 'UTCUTS (remociones) Proyeccion BAU'|Printed in parentheses (negative). Unit not printed in the table; figure on same page in Gg CO2e. 2011-2020 inventory years|2011:-36821,2012:-37501,2013:-36324,2014:-34321,2015:-31642,2016:-26581,2017:-31907,2018:-29990,2019:-31632,2020:-29576,2021:-27621,2022:-26710,2023:-25799,2024:-24889,2025:-23978,2026:-23067,2027:-22157,2028:-21246,2029:-20335,2030:-19425,2031:-18514,2032:-17603,2033:-16693,2034:-15782,2035:-14871
+SERIES|HON-B068|p.24|Gg CO2e|Tabla 2 Escenario Tendencial (BAU), column 'UTCUTS (neto) Proyeccion BAU'|Parentheses read as negative. Unit not printed in the table; figure on same page in Gg CO2e. 2011-2020 inventory years|2011:-25915,2012:-26253,2013:-24992,2014:-18079,2015:-15289,2016:2448,2017:-10694,2018:-6705,2019:-10895,2020:241,2021:2194,2022:5069,2023:7943,2024:10817,2025:13691,2026:16565,2027:19439,2028:22313,2029:25188,2030:28062,2031:30936,2032:33810,2033:36684,2034:39558,2035:42432
+SERIES|HON-B069|p.24|Gg CO2e|Tabla 2 Escenario Tendencial (BAU), column 'Inventario Nacional de GEI Proyeccion BAU'|Parentheses read as negative. Unit not printed in the table; figure on same page in Gg CO2e (labels 50,381 for 2030 and 65,617 for 2035). 2011-2020 inventory years|2011:-7658,2012:-7155,2013:-5987,2014:2156,2015:5604,2016:23012,2017:8734,2018:13250,2019:9924,2020:20108,2021:22958,2022:26005,2023:29052,2024:32099,2025:35146,2026:38193,2027:41240,2028:44287,2029:47334,2030:50381,2031:53428,2032:56475,2033:59522,2034:62570,2035:65617
+HON-B070|p.25|41816.4|Gg CO2e|2030|'ESCENARIO 2030' column, 'Nivel maximo de emisiones esperadas'|Only 2030 and 2035 printed on p.25 for this scenario. Conditional on climate finance
+HON-B070|p.25|52769|Gg CO2e|2035|'ESCENARIO 2035' column, 'Nivel maximo de emisiones esperadas'|Only 2030 and 2035 printed on p.25 for this scenario. Conditional on climate finance
+HON-B024|p.29|2100|Gg CO2e|2035|Sector Agricultura, Medida 10, right column second paragraph|'reduccion de 2100 Gg CO2e acumulados al 2035'; measure applied on 20% of farms
+HON-B025|p.29|3300|fincas|2035|Sector Agricultura, Medida 11, right column second paragraph|4R practices, slow release and organic fertilisers on 3,300 farms. The same 3,300 farms figure is also printed for agroforestry systems in the first paragraph
+HON-B026|p.29|80|instalaciones|2035|Sector Agricultura, Medida 11, end of second paragraph|'alcanzando 80 instalaciones modernizadas para 2035' (solar dryers replacing electric or mechanical dryers)
+HON-B027|p.30|1|%|2030|Sector UTCUTS, Medida 13, left column|'reducir las emisiones netas del sector UTCUTS en un 1% respecto al BAU en 2030'
+HON-B028|p.38|70|%|2035|Biodiversidad y Servicios Ecosistemicos, Medida 7|Reduce net loss of forest cover in conservation areas by 70% by 2035
+HON-B029|p.31|8|millones de toneladas|2030|Sector Residuos, Medida 14|Landfill with capture system operating by 2030; total capacity up to 8 million t (first cell 3 million t, second cell 5 million t)
+HON-B029|p.31|8|millones de toneladas|2035|Sector Residuos, Medida 14|Biogas energy use by 2035; same capacity figure
+HON-B030|p.31|5|%|2030|Sector Residuos, Medida 15, right column|Annual per capita generation of non-special solid waste reduced 5% by 2030
+HON-B031|p.31|10|%|2035|Sector Residuos, Medida 15, right column|'reduccion del 10% a 2035 con respecto a la linea base'
+HON-B032|p.11|10880|Gg CO2e|2022|Section 'Ambiente y Cambio Climatico', right column|Energy sector 10,880 Gg CO2e (50%) in 2022, per BTR1 1990-2022
+HON-B033|p.11|21795|Gg de CO2e|2022|Section 'Ambiente y Cambio Climatico', left column|National emissions excluding UTCUTS per BTR1 1990-2022. Same page gives total incl. UTCUTS 18,650 Gg CO2e and UTCUTS net sink -3,145 Gg
+HON-B034|p.3|16|%|2030|Printed p.3, left column first paragraph|'reducir en un 16% las emisiones de 28,945 Gg CO2-eq proyectadas para 2030' for energy (9%), agriculture (5%), IPPU (1%) and waste (1%); mitigation printed as '4,631.2.20 Gg CO2-eq' (garbled)
+HON-B034|p.11|16|%|2030|Cuadro 3 Alcance y cobertura, row 3.a, printed p.11|Sector split printed differently: energy 9%, IPPU 5%, waste 1%, agriculture 1%; mitigation 4631.2 Gg CO2-eq. BAU of 28,945 not printed on this page
+HON-B035|p.3|1|%|2030|Printed p.3, left column second paragraph|1% of the difference between old BAU (excl. UTCUTS) and new BAU, equal to 214.3 Gg CO2-eq; conditional on climate finance
+HON-B035|p.6|1|%|2030|'Cambios presentados en esta actualizacion', item 2|'reducir un 1% (214.3 Gg CO2-eq) con relacion a las emisiones esperadas para el ano 2030'; conditional on climate finance
+HON-B035|p.11|1|%|2030|Cuadro 3, row 3.a, printed p.11|'equivale a 214.363 Gg CO2-eq'; conditional on climate finance
+HON-B036|p.4|4845.5|Gg CO2-eq|2030|Printed p.4, 'Nivel de mitigacion' text|Conditional on sufficient climate finance. BAU 50,381.3 not on p.4 (it is on p.3 and p.5)
+HON-B036|p.11|4845.5|Gg CO2-eq|2030|Cuadro 3, row 3.a, last paragraph, printed p.11|'meta condicional de reducir 4845.5 Gg CO2-eq'
+HON-B037|p.5|45535.7|Gg CO2-eq|2030|Printed p.5, chart label 'Meta de mitigacion condicional'|BAU 2030 on same page 50,381.3 Gg CO2-eq. Conditional
+HON-B038|p.28|16|%|2030|'Desvio del escenario BaU', Contribucion en mitigacion M1 table, printed p.20|All sectors excluding UTCUTS. BAU not on this page
+HON-B038|p.29|28945|Gg CO2-eq|2030|'Informacion sobre el punto de referencia', printed p.21|BAU 2030 of 28,945 Gg CO2-eq excluding UTCUTS; the 16% target itself is not on this page
+HON-B039|p.33|20|%|2030|Tabla 2 Escenarios de mitigacion para el sector de Energia and text below, printed p.25|Escenario de mitigacion 1 chosen; BAU 12,142 and scenario 1 9,734 thousand metric tonnes CO2-eq in 2030 (Miles de toneladas metricas de CO2-eq)
+HON-B040|p.2|15|%|2030|Mitigacion table, row 'Contribucion', printed p.2|Conditional on favourable support and climate finance mechanisms. Sectors: Energia, Procesos Industriales, Agricultura y Residuos
+HON-B040|p.3|28922|Gg de CO2eq|2030|'Informacion cuantificable sobre el punto de referencia', BAU trajectory, printed p.3|Printed '28.922' (dot as thousands separator). Also 2012: 18.915 and 2020: 22.027. The 15% target is on p.2, not p.3
+HON-B041|p.2|39|%||Mitigacion table, row 'Contribucion', second paragraph, printed p.2|NAMA de fogones eficientes, reduce firewood consumption of families by 39%; no year given for this item
+HON-B042|p.524|80|%|2038|Printed p.523, last paragraph|'alcanzando mas del 80% de la generacion electrica para 2038' (Prospectiva Energetica de Honduras 2017-2038)
+HON-B043|p.528|800000|estufas|2026|Printed p.527, last paragraph|'instalar entre 800,000 y 1,100,000 estufas para los anos 2026 y 2030, respectivamente'
+HON-B043|p.528|1100000|estufas|2030|Printed p.527, last paragraph|Second value of the same sentence
+HON-B044|p.529|200000|toneladas de CO2 equivalente por ano|2020|Printed p.528, last paragraph|Mitigation potential from 2020 ('a partir de 2020')
+HON-B045|p.530|150000|toneladas de CO2 equivalente por ano||Printed p.529, first part|Lower bound of 'entre 150,000 y 200,000'; no year printed
+HON-B045|p.530|200000|toneladas de CO2 equivalente por ano||Printed p.529, first part|Upper bound; no year printed
+HON-B046|p.532|50.6|millones de t CO2eq||Printed p.531, second paragraph|Escenario 1: 30% of degraded areas; implementation 2023 to 2027; horizon of 14 years
+HON-B046|p.532|29.3|millones de t CO2eq||Printed p.531, second paragraph|Escenario 2: 20% of degraded areas; implementation 2023 to 2027; horizon of 14 years
+HON-B047|p.552|2.5|%|2030|Table on printed p.551, columns Ano / Linea base (%) / HCFC 22 (CO2eq)|HCFC 22 printed 14,819.2 (CO2eq, no mass unit printed) for 2030. Table caption is not on this page
+HON-B047|p.552|0|%|2040|Table on printed p.551|HCFC 22 0 in 2040
+HON-B048|p.79|1|%|2030|Printed p.79, 'Fortalecimiento de la eficiencia energetica', row 'Reducciones de GEI esperadas'|Lower bound of 'reduccion de entre 1% a 4% en el ano 2030' of energy consumption vs BAU (industry)
+HON-B048|p.79|4|%|2030|Printed p.79, same row|Upper bound
+HON-B049|p.80|50|kt CO2-eq|2030|Printed p.80, 'Fomento de la electromovilidad', row 'Reducciones de GEI esperadas'|'Bajo impacto <50 kt CO2-eq anualmente al 2030'; growing quickly after that horizon
+HON-B050|p.82|110.67|Gg CO2 eq|2022-2030|Printed p.82, 'Relleno sanitario de Tegucigalpa', row 'Reducciones de GEI esperadas'|Average annual reduction, printed '110,67'. Biogas power use expected from 2032
+HON-B050|p.82|885.37|Gg CO2 eq|2022-2030|Printed p.82, same row|Cumulative reduction over the same period, printed '885,37'
+HON-B051|p.83|4448.56|Gg de CO2 eq|2020-2030|Printed p.83, 'Reduccion emisiones F-gases', row 'Reducciones de GEI esperadas'|Printed '4.448,56'. Achieved: 507.324,9 ton CO2 eq 2018-2021
+SERIES|HON-B052|p.83|%|Figura 56 Porcentaje de renovabilidad del Escenario de Expansion V, printed p.83|Text above the figure gives 76%, 75% and 71% for 2030, 2031 and 2035|2025:57,2026:63,2027:58,2028:65,2029:70,2030:76,2031:75,2032:72,2033:67,2034:66,2035:71
+HON-B052|p.94|76|%||Section 7 Conclusiones, printed p.94|'alcanzando un indice maximo de renovabilidad del 76%'; year not stated on this page
+SERIES|HON-B053|p.83|%|Figura 56 Porcentaje de renovabilidad del Escenario de Expansion V, printed p.83|Text above the figure gives 76%, 75% and 71% for 2030, 2031 and 2035|2025:57,2026:63,2027:58,2028:65,2029:70,2030:76,2031:75,2032:72,2033:67,2034:66,2035:71
+HON-B054|p.12|1796.24||2026-2035|Resumen ejecutivo, last paragraph, printed p.12|Printed '1,796.24 de capacidad renovable' with no unit (MW used for thermal and storage in same sentence)
+HON-B054|p.89|1796.24|MW|2026-2035|Tabla 49, Escenario V, Renovable, Total column, printed p.89|Text below notes renewable capacity includes hybrids at the rating of the renewable plant
+HON-B054|p.93|1796.24||2026-2035|Section 6.5, second paragraph, printed p.93|Printed without unit
+HON-B055|p.12|1285|MW|2026-2035|Resumen ejecutivo, last paragraph, printed p.12|'1,285 MW de capacidad termica'
+HON-B055|p.89|1285.00|MW|2026-2035|Tabla 49, Escenario V, Termica, Total column, printed p.89|
+HON-B055|p.93|1285|MW|2026-2035|Section 6.5, second paragraph, printed p.93|
+HON-B056|p.12|215|MW|2026-2035|Resumen ejecutivo, last paragraph, printed p.12|'215 MW en sistemas de almacenamiento en baterias'
+HON-B056|p.89|215.00|MW|2026-2035|Tabla 49, Escenario V, Almacenamiento en baterias*, Total column, printed p.89|Footnote: storage not associated with renewable candidate plants
+HON-B056|p.93|215|MW|2026-2035|Section 6.5, second paragraph, printed p.93|
+HON-B057|p.9|1342.62|MW|2026-2035|Resumen ejecutivo, printed p.9|'se retiran alrededor de 1,342.62 MW de capacidad'
+HON-B057|p.9|886.06|MW|2029|Resumen ejecutivo, printed p.9|
+HON-B057|p.9|276.52|MW|2030|Resumen ejecutivo, printed p.9|
+HON-B057|p.34||||Tabla 9 Retiros previstos 2026-2035, printed p.34|Plant-level list only; no total, 2029 or 2030 sum printed on this page
+HON-B057|p.35|886.06|MW|2029|Section 4.1.3 text and Figura 24, printed p.35|Figure 24 also shows retirements of 53.04 (2028), 43 (2031), 20 (2033), 64 (2034)
+HON-B057|p.35|276.52|MW|2030|Section 4.1.3 text and Figura 24, printed p.35|
+HON-B058|p.82|250|MW|2029|Tabla 43 Cronograma Escenario de Expansion V, row 'Turbina de gas en ciclo combinado a gas natural', printed p.82|
+HON-B059|p.82|105|MW|2029|Tabla 43, row 'Turbina de vapor a carbon/petcoke', printed p.82|
+SERIES|HON-B060|p.90|%|Tabla 50 Porcentajes de reduccion de emisiones de CO2, column Escenario V, printed p.90|Reduction vs initial simulation year 2025. Escenario V is the selected plan|2026:10,2027:18,2028:29,2029:40,2030:49,2031:46,2032:39,2033:28,2034:24,2035:33
+HON-B060|p.94|49|%|2030|Section 7 Conclusiones, printed p.94|'reduccion maxima del 49% para el ano 2030' vs initial study year
+HON-B060|p.94|33|%|2035|Section 7 Conclusiones, printed p.94|'disminucion del 33% en 2035, en comparacion con el ano inicial de estudio'
+HON-B061|p.90|20|%|2030|Text below Tabla 50, printed p.90|Power subsector emits about 51.2% of energy sector emissions; SEN estimate

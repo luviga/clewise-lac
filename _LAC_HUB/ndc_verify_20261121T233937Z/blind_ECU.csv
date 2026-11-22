@@ -1,0 +1,76 @@
+blind_id,source_id,pdf_file,pages,what_to_read
+ECU-B001,ECU-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_NDC2_2025.pdf,p.10;p.14;p.55;p.56,"Economy-wide GHG reduction in [year] against the trend scenario (Energy, IPPU, Agriculture, LULUCF, Waste)"
+ECU-B002,ECU-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_NDC2_2025.pdf,p.10;p.55;p.56,Unconditional [year] reduction expressed in [unit] CO[n]eq
+ECU-B003,ECU-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_NDC2_2025.pdf,p.55;p.56;p.57,"Additional conditional GHG reduction in [year] against the trend scenario, subject to international support"
+ECU-B004,ECU-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_NDC2_2025.pdf,p.55;p.56;p.57,Additional conditional [year] reduction expressed in [unit] CO[n]eq
+ECU-B005,ECU-01,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_NDC2_2025.pdf,p.57,"Updated objective of the first NDC shown in the second NDC figure (four sectors, LULUCF excluded)"
+ECU-B006,ECU-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_NDC1_2019.pdf,p.22,"First NDC: GHG reduction in [year] against the trend scenario for Energy, Agriculture, IPPU and Waste"
+ECU-B007,ECU-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_NDC1_2019.pdf,p.22,First NDC: total reduction in [year] with international support (four sectors)
+ECU-B008,ECU-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_NDC1_2019.pdf,p.22;p.23,First NDC: LULUCF reduction in [year] against the forest reference emission level
+ECU-B009,ECU-02,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_NDC1_2019.pdf,p.18,First NDC efficient public transport: operation of the Quito Metro ([n] km); the Cuenca tram ([n] km) is in the same initiative
+ECU-B010,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.96,CC [year] scenario: national emissions about [n] [unit] below the trend scenario in [year]
+ECU-B011,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.5;p.96,CC [year] scenario: national emissions about [n] [unit] below [year]
+ECU-B012,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.96,CC [year] scenario: national net emissions in [year]
+ECU-B013,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.102,"Energy sector (including transport) emissions target, phase I"
+ECU-B014,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.102,"Energy sector (including transport) emissions target, phase II"
+ECU-B015,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.102,"Energy sector (including transport) emissions target, phase III"
+ECU-B016,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.101;p.102,Energy sector reduction potential against the trend scenario in [year]
+ECU-B017,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.104,"Non-conventional renewable (ERNC: solar, wind and others) share of SNI generation, phase I"
+ECU-B018,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.104,"Hydro share of SNI generation, phase I"
+ECU-B019,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.104,Hydro capacity associated with the phase I hydro share
+ECU-B020,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.104,"Non-conventional renewable share of SNI generation, phase II"
+ECU-B021,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.104,Non-conventional renewable capacity associated with the phase II share
+ECU-B022,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.104,"Hydro share of SNI generation, phase II"
+ECU-B023,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.104,"Non-conventional renewable share of SNI generation, phase III"
+ECU-B024,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.100;p.101,A share of thermal generation is kept for stability and security of supply (no number stated)
+ECU-B025,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.100,"Oil exports decline and gradual substitution of fossil fuels from [year], with crude imports for domestic refining"
+ECU-B026,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.104,"Energy efficiency: national energy consumption (transport excluded) saved against the trend scenario, phase I"
+ECU-B027,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.105,"Residential electricity use share by substitution of LPG, phase II"
+ECU-B028,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.105,"Industry electricity use share by substitution of fossil fuels, phase II"
+ECU-B029,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.105,"Share of industry energy generated from waste, phase II"
+ECU-B030,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.106,"Electricity share of demand in agriculture, forestry, fishing and fish farming, phase II"
+ECU-B031,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.106,"Transport energy consumption saved against the trend scenario, phase I"
+ECU-B032,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.106,"Share of passenger-km served by public transport with diesel buses, phase II"
+ECU-B033,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.106,"Share of passenger transport using hybrid vehicles, phase II"
+ECU-B034,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.107,"Electric light freight vehicles as share of freight vehicles, phase II"
+ECU-B035,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.107,"Share of the freight fleet using hydrogen, phase III"
+ECU-B036,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.115;p.117,"Agriculture emissions target, phase I"
+ECU-B037,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.125,"LULUCF net emissions target, phase I (sector becomes a net sink around [year])"
+ECU-B038,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.133,"IPPU emissions target, phase I"
+ECU-B039,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.134,"CO[n] from cement production used through carbon capture and use projects, phase I"
+ECU-B040,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.143,"Waste emissions target, phase I"
+ECU-B041,ECU-04,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_BTR1_5CN_2024.pdf,p.215,First NDC conditional target adjusted in the implementation plan (four sectors)
+ECU-B042,ECU-04,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_BTR1_5CN_2024.pdf,p.217;p.222,First NDC hydropower development: recalculated reduction potential
+ECU-B043,ECU-04,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_BTR1_5CN_2024.pdf,p.217;p.221,"Gasoline with ethanol (Ecopais blend), new initiative of the first NDC"
+ECU-B044,ECU-04,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_BTR1_5CN_2024.pdf,p.222,First NDC conditional energy measures: national energy efficiency plan
+ECU-B045,ECU-04,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_BTR1_5CN_2024.pdf,p.222,First NDC conditional NAMA for freight and passenger transport
+ECU-B046,ECU-04,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_BTR1_5CN_2024.pdf,p.222;p.223,First NDC clinker substitution in cement (unconditional)
+ECU-B047,ECU-04,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_BTR1_5CN_2024.pdf,p.237;p.238,First NDC LULUCF: PROAmazonia reduction potential ([n] [unit])
+ECU-B048,ECU-07,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PME_2023_2032.pdf,p.159,Generation expansion plan [year]-[year]: new hydro capacity
+ECU-B049,ECU-07,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PME_2023_2032.pdf,p.159,Generation expansion plan [year]-[year]: new non-conventional renewable capacity (hydro excluded)
+ECU-B050,ECU-07,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PME_2023_2032.pdf,p.159,Generation expansion plan [year]-[year]: new thermal capacity
+ECU-B051,ECU-08,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANEE_2016_2035.pdf,p.20,Minimum energy avoided by the efficiency plan over [year] to [year]
+ECU-B052,ECU-08,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANEE_2016_2035.pdf,p.65,Transport cumulative energy saving by [year]
+ECU-B053,ECU-08,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANEE_2016_2035.pdf,p.65,Ethanol blending in gasoline by [year]
+ECU-B054,ECU-08,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANEE_2016_2035.pdf,p.67,Electricity distribution losses reduced from [n] [unit] ([year]) to [n] [unit] in [year]
+ECU-B055,ECU-09,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_H2_roadmap_2023.pdf,p.6,Electrolysis capacity planned for green hydrogen
+ECU-B056,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.95;p.96,"Projected GHG emissions series, scenario 'Escenario Tendencial', sector 'economy-wide (net)': report every year printed and its value"
+ECU-B057,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.95;p.96,"Projected GHG emissions series, scenario 'Escenario Compromiso Climatico [year]', sector 'economy-wide (net)': report every year printed and its value"
+ECU-B058,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.97,"Projected GHG emissions series, scenario 'Escenario Compromiso Climatico [year]', sector 'Energy (transport)': report every year printed and its value"
+ECU-B059,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.97,"Projected GHG emissions series, scenario 'Escenario Compromiso Climatico [year]', sector 'Energy (other energy)': report every year printed and its value"
+ECU-B060,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.97,"Projected GHG emissions series, scenario 'Escenario Compromiso Climatico [year]', sector 'LULUCF (emissions)': report every year printed and its value"
+ECU-B061,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.97,"Projected GHG emissions series, scenario 'Escenario Compromiso Climatico [year]', sector 'Agriculture (livestock)': report every year printed and its value"
+ECU-B062,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.97,"Projected GHG emissions series, scenario 'Escenario Compromiso Climatico [year]', sector 'Agriculture (crops)': report every year printed and its value"
+ECU-B063,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.97,"Projected GHG emissions series, scenario 'Escenario Compromiso Climatico [year]', sector 'IPPU': report every year printed and its value"
+ECU-B064,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.97,"Projected GHG emissions series, scenario 'Escenario Compromiso Climatico [year]', sector 'Waste': report every year printed and its value"
+ECU-B065,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.97,"Projected GHG emissions series, scenario 'Escenario Compromiso Climatico [year]', sector 'LULUCF (removals)': report every year printed and its value"
+ECU-B066,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.101;p.102,"Projected GHG emissions series, scenario 'Escenario Compromiso Climatico [year]', sector 'Energy (including transport)': report every year printed and its value"
+ECU-B067,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.101,"Projected GHG emissions series, scenario 'Escenario Tendencial', sector 'Energy (including transport)': report every year printed and its value"
+ECU-B068,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.115,"Projected GHG emissions series, scenario 'Escenario Compromiso Climatico [year]', sector 'Agriculture': report every year printed and its value"
+ECU-B069,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.113,"Projected GHG emissions series, scenario 'Escenario Tendencial', sector 'Agriculture': report every year printed and its value"
+ECU-B070,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.125,"Projected GHG emissions series, scenario 'Escenario Compromiso Climatico [year]', sector 'LULUCF (net)': report every year printed and its value"
+ECU-B071,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.120,"Projected GHG emissions series, scenario 'Escenario Tendencial', sector 'LULUCF (net)': report every year printed and its value"
+ECU-B072,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.133,"Projected GHG emissions series, scenario 'Escenario Compromiso Climatico [year]', sector 'IPPU': report every year printed and its value"
+ECU-B073,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.131,"Projected GHG emissions series, scenario 'Escenario Tendencial', sector 'IPPU': report every year printed and its value"
+ECU-B074,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.143,"Projected GHG emissions series, scenario 'Escenario Compromiso Climatico [year]', sector 'Waste': report every year printed and its value"
+ECU-B075,ECU-03,C:/clw_scout/_LAC_HUB/ndc_scout_20261121T204620Z/downloads/ECU/ECU_PLANMICC_2024.pdf,p.142,"Projected GHG emissions series, scenario 'Escenario Tendencial', sector 'Waste': report every year printed and its value"
