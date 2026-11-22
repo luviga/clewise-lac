@@ -3,10 +3,10 @@
 | Costa Rica | 102 | 74 | 28 | 0 |
 | Dominican Republic | 66 | 35 | 28 | 3 |
 | Ecuador | 114 | 85 | 29 | 0 |
-| Guatemala | 126 | 83 | 42 | 1 |
+| Guatemala | 126 | 82 | 42 | 2 |
 | Honduras | 192 | 171 | 20 | 1 |
-| Jamaica | 133 | 111 | 18 | 4 |
-| All | 733 | 559 | 165 | 9 |
+| Jamaica | 133 | 109 | 18 | 6 |
+| All | 733 | 556 | 165 | 12 |
 
 Missing check among the 2 of 3 rows:
 

@@ -179,8 +179,6 @@
 | LTS | JAM-T055 | T&D losses | 2035 | 0.17 fraction (not stated) | -  | - | not computed |
 | LTS | JAM-T056 | T&D losses | 2040 | 0.14 fraction (not stated) | -  | - | not computed |
 | LTS | JAM-T057 | T&D losses | 2045 | 0.11 fraction (not stated) | -  | - | not computed |
-| LTS | JAM-T058 | T&D losses | 2050 | 0.08 fraction (not stated) | -  | - | not computed |
-| LTS | JAM-T059 | T&D losses | 2050 | 0.11 fraction (not stated) | -  | - | not computed |
 | LTS | JAM-T060 | HFO capacity remaining | 2035 | 0.0 MW (not stated) | -  | - | not compared |
 | LTS | JAM-T062 | new intermittent renewable capacity | 2050 | 2000.0 MW (not stated) | 842.0 / 1430.0 / 1903.8 MW | 1527.8 / 3348.5 | partly |
 | LTS | JAM-T063 | percent reduction against base year | 2050 | 0.98 fraction (not stated) | 0.1417 / 0.3307 / 0.3103 fraction | 0.3701 / 0.7448 | partly |

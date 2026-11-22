@@ -7,6 +7,8 @@ Status rule (recorded in GAPS):
 - check 3 counts when an identity holds, or the value is printed on another page or document in a
   line that also holds the year or a keyword of the value's kind ('strong' or 'medium' hit); for a
   verbal target, when the blind reader found the statement on a second page;
+- a value listed in parts/self_conflicts.csv (the document gives two values for the same quantity and year,
+  or a printed value that its own label contradicts) is a conflict whatever its counts;
 - 3 counts give '3 of 3', 2 give '2 of 3' naming the missing check, fewer give 'conflict';
   a third reading that supports check 2 or neither reading also gives 'conflict'.
 """
@@ -17,6 +19,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import JOB, CODES, read_csv, write_csv
 
 third = {r["value_id"]: r for r in read_csv(os.path.join(JOB, "parts", "third_reading.csv"))}
+selfc = {r["value_id"]: r["note"] for r in read_csv(os.path.join(JOB, "parts", "self_conflicts.csv"))}
 vals = read_csv(os.path.join(JOB, "values_to_verify.csv"))
 total = {}
 for code in CODES:
@@ -69,6 +72,8 @@ for code in CODES:
         else:
             status = "conflict"
             snote = f"only {n} of 3 checks; check 2 {cp['check2_status']}" + (f"; hub third reading: {t['note']}" if t else "")
+        if vid in selfc:
+            status, snote = "conflict", selfc[vid]
         settled_v = (t["third_value"] if t and t["supports"] in ("check1", "check2", "neither") else v["value"])
         rows.append({
             "value_id": vid, "country": code, "source_id": v["source_id"], "document_role": v["document_role"],

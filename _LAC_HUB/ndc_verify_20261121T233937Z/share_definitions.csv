@@ -173,8 +173,8 @@ JAM-T054,JAM,JAM-02,p.14;p.55,T&D losses,21 percent,2030,transmission and distri
 JAM-T055,JAM,JAM-02,p.15;p.55,T&D losses,17 percent,2035,transmission and distribution losses,electricity supplied (as described),,not stated,3 of 3
 JAM-T056,JAM,JAM-02,p.15;p.55,T&D losses,14 percent,2040,transmission and distribution losses,electricity supplied (as described),,not stated,3 of 3
 JAM-T057,JAM,JAM-02,p.15;p.55,T&D losses,11 percent,2045,transmission and distribution losses,electricity supplied (as described),,not stated,3 of 3
-JAM-T058,JAM,JAM-02,p.55;p.54,T&D losses,8 percent,2050,transmission and distribution losses,electricity supplied (as described),,not stated,3 of 3
-JAM-T059,JAM,JAM-02,p.15,T&D losses,11 percent,2050,transmission and distribution losses,electricity supplied (as described),,not stated,3 of 3
+JAM-T058,JAM,JAM-02,p.55;p.54,T&D losses,8 percent,2050,transmission and distribution losses,electricity supplied (as described),,not stated,conflict
+JAM-T059,JAM,JAM-02,p.15,T&D losses,11 percent,2050,transmission and distribution losses,electricity supplied (as described),,not stated,conflict
 JAM-T061,JAM,JAM-02,p.15;p.55,fossil generation,0 percent,2040,as described,as described,,not stated,3 of 3
 JAM-T063,JAM,JAM-02,p.51,percent reduction against base year,98 percent,2050,reduction as described,"reference value named in the description (BAU, base year or baseline)",,not stated,3 of 3
 JAM-T064,JAM,JAM-02,p.14;p.62,electric share of private fleet,8 percent of fleet,2025,vehicles of the stated technology,private fleet (stock of vehicles),,not stated,3 of 3
