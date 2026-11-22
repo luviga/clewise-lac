@@ -30,8 +30,8 @@ PIPE_FILES_ROOT = {"stage0_run.py", "stage0_recommend_shares.py", "stage0_collec
                    "stage0_run_all.bat", "stage0_run_all.sh", "stage3_run_all.bat", "stage2_post_clean.py",
                    "stage0_clean.py", "stage1_clean.py", "ao_safe_save.py"}
 PIPE_MODEL = {
-    "CostaRica/CR_ENERGY/t1_confection": ["A2_Compiler_CostaRica.py", "B1_Base_Scenarios_Adj_Parallel_CostaRica.py", "OSeMOSYS_Model.txt"],
-    "DominicanRepublic/RD_ENERGY": ["A2_Compiler_DominicanRepublic.py", "B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py", "OSeMOSYS_Model.txt"],
+    "CostaRica/CR_ENERGY/t1_confection": ["A2_Compiler_CostaRica.py", "B1_Base_Scenarios_Adj_Parallel_CostaRica.py", "setup_utils.py", "OSeMOSYS_Model.txt"],
+    "DominicanRepublic/RD_ENERGY": ["A2_Compiler_DominicanRepublic.py", "B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py", "setup_utils.py", "OSeMOSYS_Model.txt"],
     "Ecuador/ECU_Energy": ["A2_Compiler_Ecuador.py", "B1_Base_Scenarios_Adj_Parallel.py", "OSeMOSYS_Model.txt"],
     "Guatemala/GUA_ENERGY": ["A2_Compiler_Guatemala.py", "B1_Base_Scenarios_Adj_Parallel_Guatemala.py", "OSeMOSYS_Model.txt"],
     "Honduras/HON_ENERGY": ["A2_Compiler_Honduras.py", "B1_Base_Scenarios_Adj_Parallel_Honduras.py", "OSeMOSYS_Model.txt"],
