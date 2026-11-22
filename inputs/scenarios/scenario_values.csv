@@ -1,13 +1,13 @@
 country,scenario,lever,lever_kind,year,value,unit
-all,NDCNEW,renewable_share,share of generation,2035,0.75,fraction
-all,NDCNEW,renewable_share,share of generation,2050,0.75,fraction
-all,LTSNEW,renewable_share,share of generation,2035,0.75,fraction
-all,LTSNEW,renewable_share,share of generation,2050,0.99,fraction
-CostaRica,NDCNEW,renewable_share,share of generation,2035,0.90,fraction
-CostaRica,NDCNEW,renewable_share,share of generation,2050,0.90,fraction
-CostaRica,LTSNEW,renewable_share,share of generation,2035,0.99,fraction
-CostaRica,LTSNEW,renewable_share,share of generation,2050,0.99,fraction
-Ecuador,NDCNEW,renewable_share,share of generation,2035,0.80,fraction
-Ecuador,NDCNEW,renewable_share,share of generation,2050,0.80,fraction
-Ecuador,LTSNEW,renewable_share,share of generation,2035,0.80,fraction
-Ecuador,LTSNEW,renewable_share,share of generation,2050,0.99,fraction
+all,NDC,renewable_share,share of generation,2035,0.75,fraction
+all,NDC,renewable_share,share of generation,2050,0.75,fraction
+all,LTS,renewable_share,share of generation,2035,0.75,fraction
+all,LTS,renewable_share,share of generation,2050,0.99,fraction
+CostaRica,NDC,renewable_share,share of generation,2035,0.90,fraction
+CostaRica,NDC,renewable_share,share of generation,2050,0.90,fraction
+CostaRica,LTS,renewable_share,share of generation,2035,0.99,fraction
+CostaRica,LTS,renewable_share,share of generation,2050,0.99,fraction
+Ecuador,NDC,renewable_share,share of generation,2035,0.80,fraction
+Ecuador,NDC,renewable_share,share of generation,2050,0.80,fraction
+Ecuador,LTS,renewable_share,share of generation,2035,0.80,fraction
+Ecuador,LTS,renewable_share,share of generation,2050,0.99,fraction

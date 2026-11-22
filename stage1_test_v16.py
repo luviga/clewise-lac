@@ -15,9 +15,9 @@ Usage (from MODELS_LAC_4):
 Tests:
   1. All 6 countries × 3 scenarios present
   2. Share sums in [0.98, 1.02] for all (country, scenario, year)
-  3. Historical alignment: BAU = NDCNEW = LTSNEW for year ≤ 2026
+  3. Historical alignment: BAU = NDC = LTS for year ≤ 2026
   4. BAU fossil decline: 2050 fossil sum < 2024 fossil sum (non-CR)
-  5. Policy milestones: NDCNEW/LTSNEW renewable ≥ target at milestone years
+  5. Policy milestones: NDC/LTS renewable ≥ target at milestone years
   6. Ceiling: no lower limit exceeds production potential
   7. Feasibility: lower ≤ upper for all cells
   8. Costa Rica flat: BAU shares constant across 2024-2050
@@ -31,6 +31,8 @@ import subprocess
 from pathlib import Path
 import numpy as np
 import pandas as pd
+
+import lac_tables as LT  # scenario names from config/scenarios/scenario_catalogue.csv
 
 # ── Config ──────────────────────────────────────────────────────────
 OUTPUT_DIR     = "./_STAGE1_OUTPUT"
@@ -46,14 +48,14 @@ FOSSIL_DECLINE  = 0.01
 
 EXPECTED_COUNTRIES = ["CostaRica", "DominicanRepublic", "Ecuador",
                       "Guatemala", "Honduras", "Jamaica"]
-EXPECTED_SCENARIOS = ["BAU", "NDCNEW", "LTSNEW"]
+EXPECTED_SCENARIOS = LT.scenarios()
 
 # Policy milestones: (scenario, year, min_renewable_share)
 POLICY_CHECKS = [
-    ("NDCNEW", 2035, 0.70),   # 75% target, allow 5pp margin
-    ("NDCNEW", 2050, 0.70),
-    ("LTSNEW", 2035, 0.70),
-    ("LTSNEW", 2050, 0.94),   # 99% target, allow 5pp margin
+    (LT.scenario("ndc"), 2035, 0.70),   # 75% target, allow 5pp margin
+    (LT.scenario("ndc"), 2050, 0.70),
+    (LT.scenario("lts"), 2035, 0.70),
+    (LT.scenario("lts"), 2050, 0.94),   # 99% target, allow 5pp margin
 ]
 
 COSTA_RICA_NAMES = ["CostaRica"]
@@ -167,8 +169,8 @@ def main():
     align_fails = 0
     for country in countries:
         bau = shares[(shares["Country"] == country) &
-                     (shares["Scenario"] == "BAU")]
-        for sc in ["NDCNEW", "LTSNEW"]:
+                     (shares["Scenario"] == LT.scenario("base"))]
+        for sc in LT.scenarios("policy"):
             other = shares[(shares["Country"] == country) &
                            (shares["Scenario"] == sc)]
             if bau.empty or other.empty:
@@ -191,7 +193,7 @@ def main():
         if country in COSTA_RICA_NAMES:
             continue
         bau = shares[(shares["Country"] == country) &
-                     (shares["Scenario"] == "BAU")]
+                     (shares["Scenario"] == LT.scenario("base"))]
         if bau.empty:
             continue
         cat = dict(zip(tech_map["Tech"], tech_map["Sub_Group"]))
@@ -281,7 +283,7 @@ def main():
         if country not in countries:
             continue
         bau = shares[(shares["Country"] == country) &
-                     (shares["Scenario"] == "BAU")]
+                     (shares["Scenario"] == LT.scenario("base"))]
         if bau.empty:
             continue
 
@@ -358,12 +360,12 @@ def main():
     proj_years = [y for y in year_cols if y > CUTOFF_YEAR]
     cat = dict(zip(tech_map["Tech"], tech_map["Sub_Group"]))
     for country in countries:
-        bau = shares[(shares["Country"] == country) & (shares["Scenario"] == "BAU")]
+        bau = shares[(shares["Country"] == country) & (shares["Scenario"] == LT.scenario("base"))]
         if bau.empty:
             continue
         renew_techs = [t for t in bau["Tech"] if cat.get(t) in ("HYDRO", "NON_HYDRO_RENEWABLE")]
         bau_r = bau[bau["Tech"].isin(renew_techs)]
-        for sc in ["NDCNEW", "LTSNEW"]:
+        for sc in LT.scenarios("policy"):
             pol = shares[(shares["Country"] == country) & (shares["Scenario"] == sc)]
             if pol.empty:
                 continue
@@ -382,7 +384,7 @@ def main():
     BIOMASS_TOKENS = ["BMS", "BIM", "BIO", "BGS", "SUG"]
     bio_inflate = 0
     for country in countries:
-        bau = shares[(shares["Country"] == country) & (shares["Scenario"] == "BAU")]
+        bau = shares[(shares["Country"] == country) & (shares["Scenario"] == LT.scenario("base"))]
         if bau.empty:
             continue
         bio_techs = [t for t in bau["Tech"]
@@ -390,7 +392,7 @@ def main():
         if not bio_techs:
             continue
         bau_bio = bau[bau["Tech"].isin(bio_techs)]
-        for sc in ["NDCNEW", "LTSNEW"]:
+        for sc in LT.scenarios("policy"):
             pol = shares[(shares["Country"] == country) & (shares["Scenario"] == sc)]
             if pol.empty:
                 continue
@@ -409,7 +411,7 @@ def main():
     hist_flat_countries = 0
     hist_years = [y for y in year_cols if 2018 <= y <= 2023]
     for country in countries:
-        bau = shares[(shares["Country"] == country) & (shares["Scenario"] == "BAU")]
+        bau = shares[(shares["Country"] == country) & (shares["Scenario"] == LT.scenario("base"))]
         if bau.empty or not hist_years:
             continue
         # Check if any tech has variation between earliest hist year and 2024

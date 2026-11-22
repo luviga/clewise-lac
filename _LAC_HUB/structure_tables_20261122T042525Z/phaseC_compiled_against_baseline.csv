@@ -1,0 +1,20 @@
+country,scenario_a,scenario_b,part,file_or_parameter,key,kind,a,b
+CostaRica,NDCNEW,NDC,B1 output parameters,(all files),Scenario,label,NDCNEW,NDC
+CostaRica,LTSNEW,LTS,B1 output parameters,(all files),Scenario,label,LTSNEW,LTS
+DominicanRepublic,NDCNEW,NDC,A2 installed,(all files),Scenario,label,NDCcond,NDC
+DominicanRepublic,NDCNEW,NDC,B1 output parameters,(all files),Scenario,label,NDCNEW|NDCcond,NDC|NDCcond
+DominicanRepublic,LTSNEW,LTS,A2 installed,(all files),Scenario,label,NDCcond,LTS
+DominicanRepublic,LTSNEW,LTS,B1 output parameters,(all files),Scenario,label,LTSNEW,LTS
+Ecuador,NDCNEW,NDC,B1 output parameters,(all files),Scenario,label,NDCNEW,NDC
+Ecuador,LTSNEW,LTS,B1 output parameters,(all files),Scenario,label,LTSNEW,LTS
+Guatemala,NDCNEW,NDC,A2 installed,(all files),Scenario,label,NDP,NDC|NDP
+Guatemala,NDCNEW,NDC,B1 output parameters,(all files),Scenario,label,NDCNEW,NDC
+Guatemala,LTSNEW,LTS,A2 installed,(all files),Scenario,label,NDP,LTS|NDP
+Guatemala,LTSNEW,LTS,B1 output parameters,(all files),Scenario,label,LTSNEW,LTS
+Honduras,NDCNEW,NDC,A2 installed,(all files),Scenario,label,NDP,NDC
+Honduras,NDCNEW,NDC,B1 output parameters,(all files),Scenario,label,NDCNEW,NDC
+Honduras,LTSNEW,LTS,A2 installed,(all files),Scenario,label,NDP,LTS
+Honduras,LTSNEW,LTS,B1 output parameters,(all files),Scenario,label,LTSNEW,LTS
+Jamaica,NDCNEW,NDC,A2 installed,(all files),Scenario,label,LTS,NDC
+Jamaica,NDCNEW,NDC,B1 output parameters,(all files),Scenario,label,NDCNEW,NDC
+Jamaica,LTSNEW,LTS,B1 output parameters,(all files),Scenario,label,LTSNEW,LTS

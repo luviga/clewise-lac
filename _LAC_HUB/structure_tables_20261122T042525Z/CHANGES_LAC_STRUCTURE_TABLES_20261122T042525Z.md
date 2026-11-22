@@ -39,3 +39,26 @@ No value that reaches a model changed. Every literal that the scan of LAC_NDC_VE
 ### Job folder
 
 - `_LAC_HUB/structure_tables_20261122T042525Z/`: brief, PROGRESS, REPORT, GAPS, this file, `tables_register.csv`, `script_constants_accepted_job.csv`, `baseline_against_main.csv`, `phaseB_against_baseline.csv` (0 rows), the scans before and after (`scan_before/`, `scan_after/`), working lists (`work/`) and the job scripts (`scripts/`, machine paths in an untracked `machine.json` read by `scripts/machine.py`). Run logs stay out of git (they hold machine paths and solver figures).
+
+## 2. Scenarios renamed BAU, NDC, LTS (pull request 2)
+
+Two commits on `job/structure-rename`, stacked on pull request 1. The first retires the older scenario names; the second renames NDCNEW to NDC and LTSNEW to LTS and carries the outputs of the final run. The plan of every place is in `rename_plan.csv`; names left are in `names_left.csv`.
+
+### Retire older names (commit "retire older scenario names")
+
+- `A2_Compiler_<country>.py` (six files): the compilers no longer write folders under older names (NDCincond, NDCcond, NDP, NDPAMB, NDCINC, LTS). Where such a folder fed a scenario in use (Dominican Republic NDCcond, Guatemala and Honduras NDP, Jamaica LTS), the compiler writes the same data straight into the folders of the scenarios in use, which the pipeline step did before with a copy.
+- `CostaRica/.../MOMF_T1_A.yaml`: the empty list of other scenarios and the retired output folder entry removed.
+- `B1_Base_Scenarios_Adj_Parallel*.py` (five files): twelve `if` branches that run only for an older scenario removed (Costa Rica 9, Dominican Republic 1, Guatemala 2); blend-share and name lookups of older scenarios point to the scenario in use (the same result for the three scenarios run).
+- `B1_Scenario_Config.xlsx` (six files): 1,681 rows of older scenarios deleted (Excel row deletion; the remaining rows checked by content).
+- `Ecuador/ECU_Energy/A2_Output_Params/NDCINC/`: removed (written only under the older name, read by nothing in use).
+
+### Rename (NDCNEW to NDC, LTSNEW to LTS)
+
+- `config/scenarios/scenario_catalogue.csv`: the two scenarios in use carry their new names; the rows of older names are gone. Every stage script reads its names from here, so the stage code did not change.
+- `A2_Compiler_<country>.py` (Dominican Republic, Guatemala, Honduras, Jamaica): the files written for the policy scenarios take the name of their folder as Scenario label (it was an older name); values unchanged.
+- `A2_Extra_Inputs/A-Xtra_Scenarios.xlsx` (five files): the Other_Scenarios row deleted (no code reads it after C2).
+- `B1_Scenario_Config.xlsx` (six files) and `_STAGE2_INPUTS/STAGE2_OVERWRITES_*.xlsx`: cells holding NDCNEW or LTSNEW renamed through `ao_safe_save.py`, every other cell and every formula checked equal (`workbook_checks.csv`).
+- `_STAGE2_INPUTS/STAGE2_OVERWRITES_*.csv`, `inputs/scenarios/scenario_values.csv`: the scenario column renamed, every other field checked equal.
+- `A2_Output_Params/` and `B1_Output_Params/` of the six models: folders NDCNEW and LTSNEW moved to NDC and LTS with `git mv`, then rewritten by the final run.
+- `stage1_test_v16.py`, `stage2_test_v2.py`, `stage3_test.py`, `stage2_demand_verify.py`: scenario lists and names read from the catalogue.
+- Stage outputs (`_STAGE0_OUTPUT`, `_STAGE1_OUTPUT`, `_STAGE2_OUTPUT`, `_STAGE3_RESULTS`) and the compiled folders: as written by the final run under the new names.

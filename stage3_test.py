@@ -24,8 +24,10 @@ from pathlib import Path
 
 import pandas as pd
 
+import lac_tables as LT  # scenario names from config/scenarios/scenario_catalogue.csv
+
 PP_PREFIXES = ("PP", "PWR")
-SCENARIOS = ["BAU", "NDCNEW", "LTSNEW"]
+SCENARIOS = LT.scenarios()
 FIRST_PATCH_YEAR = 2025
 UPPER_UNCAPPED = 9999.0
 LOWER_TO_UPPER_FACTOR = 1.05

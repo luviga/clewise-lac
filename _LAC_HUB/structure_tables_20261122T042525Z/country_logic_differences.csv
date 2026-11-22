@@ -1,0 +1,17 @@
+kind,unit,line_in_each_script,distinct_versions,countries_with_identical_logic
+A2,top-level block 1,CostaRica:2 DominicanRepublic:6 Ecuador:6 Guatemala:2 Honduras:6 Jamaica:6,6,CostaRica / DominicanRepublic / Ecuador / Guatemala / Honduras / Jamaica
+B1,top-level block 1,CostaRica:6 DominicanRepublic:6 Ecuador:2 Guatemala:2 Honduras:2 Jamaica:2,6,CostaRica / DominicanRepublic / Ecuador / Guatemala / Honduras / Jamaica
+B1,def interp_max_cap_comment,CostaRica:51,1,CostaRica / absent: DominicanRepublic+Ecuador+Guatemala+Honduras+Jamaica
+B1,def interp_max_cap_try3,CostaRica:84,1,CostaRica / absent: DominicanRepublic+Ecuador+Guatemala+Honduras+Jamaica
+B1,def interp_max_cap_try2,CostaRica:100,1,CostaRica / absent: DominicanRepublic+Ecuador+Guatemala+Honduras+Jamaica
+B1,def interp_max_cap,CostaRica:133 DominicanRepublic:139 Ecuador:58 Guatemala:43 Honduras:54 Jamaica:55,2,CostaRica / DominicanRepublic+Ecuador+Guatemala+Honduras+Jamaica
+B1,def check_enviro_variables,CostaRica:165 Ecuador:82 Guatemala:67 Honduras:78 Jamaica:79,2,CostaRica / absent: DominicanRepublic / Ecuador+Guatemala+Honduras+Jamaica
+B1,def main_executer,CostaRica:185 DominicanRepublic:163 Ecuador:98 Guatemala:83 Honduras:94 Jamaica:95,3,CostaRica / DominicanRepublic / Ecuador+Guatemala+Honduras+Jamaica
+B1,def set_first_list,CostaRica:312 DominicanRepublic:183 Ecuador:121 Guatemala:105 Honduras:117 Jamaica:118,2,CostaRica / DominicanRepublic+Ecuador+Guatemala+Honduras+Jamaica
+B1,def data_processor,CostaRica:321 DominicanRepublic:192 Ecuador:130 Guatemala:114 Honduras:126 Jamaica:127,6,CostaRica / DominicanRepublic / Ecuador / Guatemala / Honduras / Jamaica
+B1,def function_C_mathprog,CostaRica:1055 DominicanRepublic:961 Ecuador:899 Guatemala:883 Honduras:895 Jamaica:896,6,CostaRica / DominicanRepublic / Ecuador / Guatemala / Honduras / Jamaica
+B1,def interpolation_blend,CostaRica:1610 DominicanRepublic:1649 Ecuador:1603 Guatemala:1472 Honduras:1580 Jamaica:1582,2,CostaRica / DominicanRepublic+Ecuador+Guatemala+Honduras+Jamaica
+B1,def csv_printer_parallel,CostaRica:1813 DominicanRepublic:1852 Ecuador:1806 Guatemala:1675 Honduras:1783 Jamaica:1785,2,CostaRica / DominicanRepublic+Ecuador+Guatemala+Honduras+Jamaica
+B1,def get_config_main_path,CostaRica:2006,1,CostaRica / absent: DominicanRepublic+Ecuador+Guatemala+Honduras+Jamaica
+B1,def load_and_process_yaml,CostaRica:2024,1,CostaRica / absent: DominicanRepublic+Ecuador+Guatemala+Honduras+Jamaica
+B1,top-level block 2,CostaRica:2059 DominicanRepublic:2045 Ecuador:1999 Guatemala:1868 Honduras:1976 Jamaica:1978,6,CostaRica / DominicanRepublic / Ecuador / Guatemala / Honduras / Jamaica

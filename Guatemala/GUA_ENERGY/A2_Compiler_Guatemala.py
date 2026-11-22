@@ -843,9 +843,8 @@ for d in range( len( list_dicts ) ):
 list_dicts = list( overall_param_df_dict_ndp.keys() )
 for d in range( len( list_dicts ) ):
     df_to_print = overall_param_df_dict_ndp[ list_dicts[d] ]
-    df_to_print = df_to_print.replace( { 'Scenario':{ other_setup_params[ 'Main_Scenario' ]:other_setup_params[ 'Other_Scenarios' ] } } )
-    for scen in LT.scenarios('policy'):  # the scenarios in use that this output feeds
-        df_to_print.to_csv( './A2_Output_Params/' + scen + '/' + list_dicts[d] + '.csv', index=False, header=True)
+    for scen in LT.scenarios('policy'):  # the scenarios in use that this output feeds, labelled with their name
+        df_to_print.replace( { 'Scenario':{ other_setup_params[ 'Main_Scenario' ]:scen } } ).to_csv( './A2_Output_Params/' + scen + '/' + list_dicts[d] + '.csv', index=False, header=True)
 
 #
 end_2 = time.time()   
