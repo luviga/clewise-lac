@@ -1,0 +1,892 @@
+country,model,sheet,ao_row,tech,parameter,unit,value,source_text
+GUA,GUA_ENERGY,Fixed Horizon Parameters,2,DIST_DSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,3,DIST_DSL,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,4,DIST_GSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,5,DIST_GSL,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,6,DIST_LPG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,7,DIST_LPG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,8,DIST_FOI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,9,DIST_FOI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,10,DIST_COK,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,11,DIST_COK,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,12,DIST_KER,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,13,DIST_KER,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,14,DIST_COA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,15,DIST_COA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,16,IMP_ELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,17,IMP_ELE,OperationalLife,Years,60,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,18,EXTT_CRU,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,19,EXTT_CRU,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,20,EXTT_LPG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,21,EXTT_LPG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,22,PPHDAM,CapacityToActivityUnit,PJ/GW,31.536,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,23,PPHDAM,OperationalLife,Years,50,Literatura (sin documento público que diga los años)
+GUA,GUA_ENERGY,Fixed Horizon Parameters,24,PPHROR,CapacityToActivityUnit,PJ/GW,31.536,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,25,PPHROR,OperationalLife,Years,30,Literatura (sin documento público que diga los años)
+GUA,GUA_ENERGY,Fixed Horizon Parameters,26,PPGEO,CapacityToActivityUnit,PJ/GW,31.536,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,27,PPGEO,OperationalLife,Years,30,U Galileo
+GUA,GUA_ENERGY,Fixed Horizon Parameters,28,PPWNDON,CapacityToActivityUnit,PJ/GW,31.536,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,29,PPWNDON,OperationalLife,Years,25,U Galileo
+GUA,GUA_ENERGY,Fixed Horizon Parameters,30,PPPVT,CapacityToActivityUnit,PJ/GW,31.536,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,31,PPPVT,OperationalLife,Years,30,U Galileo
+GUA,GUA_ENERGY,Fixed Horizon Parameters,32,PPPVT2,CapacityToActivityUnit,PJ/GW,31.536,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,33,PPPVT2,OperationalLife,Years,30,U Galileo
+GUA,GUA_ENERGY,Fixed Horizon Parameters,34,PPPVTS,CapacityToActivityUnit,PJ/GW,31.536,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,35,PPPVTS,OperationalLife,Years,30,U Galileo
+GUA,GUA_ENERGY,Fixed Horizon Parameters,36,PPPVD,CapacityToActivityUnit,PJ/GW,31.536,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,37,PPPVD,OperationalLife,Years,30,U Galileo
+GUA,GUA_ENERGY,Fixed Horizon Parameters,38,PPPVDS,CapacityToActivityUnit,PJ/GW,31.536,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,39,PPPVDS,OperationalLife,Years,30,U Galileo
+GUA,GUA_ENERGY,Fixed Horizon Parameters,40,PPBIM,CapacityToActivityUnit,PJ/GW,31.536,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,41,PPBIM,OperationalLife,Years,20,U Galileo
+GUA,GUA_ENERGY,Fixed Horizon Parameters,42,PPBGS,CapacityToActivityUnit,PJ/GW,31.536,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,43,PPBGS,OperationalLife,Years,15,U Galileo
+GUA,GUA_ENERGY,Fixed Horizon Parameters,44,PPCOA,CapacityToActivityUnit,PJ/GW,31.536,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,45,PPCOA,OperationalLife,Years,40,U Galileo
+GUA,GUA_ENERGY,Fixed Horizon Parameters,46,PPDSL,CapacityToActivityUnit,PJ/GW,31.536,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,47,PPDSL,OperationalLife,Years,40,U Galileo
+GUA,GUA_ENERGY,Fixed Horizon Parameters,48,PPFOI,CapacityToActivityUnit,PJ/GW,31.536,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,49,PPFOI,OperationalLife,Years,40,U Galileo
+GUA,GUA_ENERGY,Fixed Horizon Parameters,50,DIST_FIR,CapacityToActivityUnit,PJ/GW,31.356,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,51,DIST_FIR,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,52,DIST_BIM,CapacityToActivityUnit,PJ/GW,31.356,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,53,DIST_BIM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,54,DIST_BGS,CapacityToActivityUnit,PJ/GW,31.356,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,55,DIST_BGS,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,56,DIST_NGS,CapacityToActivityUnit,PJ/GW,31.356,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,57,DIST_NGS,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,58,PPNGS,CapacityToActivityUnit,PJ/GW,31.536,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,59,PPNGS,OperationalLife,Years,25,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,60,BACKSTOP,CapacityToActivityUnit,PJ/GW,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,61,BACKSTOP,OperationalLife,Years,80,Infinite
+GUA,GUA_ENERGY,Fixed Horizon Parameters,62,DIST_FLEXFUEL,CapacityToActivityUnit,PJ/GW,31.356,Standard
+GUA,GUA_ENERGY,Fixed Horizon Parameters,63,DIST_FLEXFUEL,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,64,ELE_TRANS,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,65,ELE_TRANS,OperationalLife,Years,60,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,66,ELE_DIST,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,67,ELE_DIST,OperationalLife,Years,60,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,68,HYD_G_PROD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,69,HYD_G_PROD,OperationalLife,Years,20,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,70,HYD_DIST,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,71,HYD_DIST,OperationalLife,Years,15,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,72,T5GSLCOM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,73,T5GSLCOM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,74,T5LPGCOM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,75,T5LPGCOM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,76,T5ELECOM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,77,T5ELECOM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,78,T5KERCOM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,79,T5KERCOM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,80,T5FIRCOM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,81,T5FIRCOM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,82,T5BIMCOM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,83,T5BIMCOM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,84,T5DSLIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,85,T5DSLIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,86,T5GSLIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,87,T5GSLIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,88,T5LPGIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,89,T5LPGIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,90,T5ELEIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,91,T5ELEIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,92,T5HYDIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,93,T5HYDIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,94,T5COKIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,95,T5COKIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,96,T5KERIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,97,T5KERIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,98,T5BIMIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,99,T5BIMIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,100,T5BGSIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,101,T5BGSIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,102,T5FOIIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,103,T5FOIIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,104,T5COKINDCEM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,105,T5COKINDCEM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,106,T5ELEINDCEM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,107,T5ELEINDCEM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,108,T5LPGRES,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,109,T5LPGRES,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,110,T5ELERES,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,111,T5ELERES,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,112,T5KERRES,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,113,T5KERRES,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,114,T5FIRRES,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,115,T5FIRRES,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,116,T5BIMRES,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,117,T5BIMRES,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,118,T5LPGEXP,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,119,T5LPGEXP,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,120,T5ELEEXP,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,121,T5ELEEXP,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,122,T5CRUEXP,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,123,T5CRUEXP,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,124,T5ELEBRT,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,125,T5ELEBRT,OperationalLife,Years,1,Train-demand in Gpkm
+GUA,GUA_ENERGY,Fixed Horizon Parameters,126,T5ELEAERO,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,127,T5ELEAERO,OperationalLife,Years,1,Cable Car - demand in Gpkm
+GUA,GUA_ENERGY,Fixed Horizon Parameters,128,T4DSL_PRI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,129,T4DSL_PRI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,130,T4GSL_PRI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,131,T4GSL_PRI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,132,T4LPG_PRI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,133,T4LPG_PRI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,134,T4ELE_PRI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,135,T4ELE_PRI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,136,T4Flex_Fuel_PRI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,137,T4Flex_Fuel_PRI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,138,T4DSL_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,139,T4DSL_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,140,T4LPG_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,141,T4LPG_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,142,T4ELE_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,143,T4ELE_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,144,T4HYD_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,145,T4HYD_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,146,T4ELE_HEA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,147,T4ELE_HEA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,148,T4DSL_HEA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,149,T4DSL_HEA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,150,T4LPG_HEA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,151,T4LPG_HEA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,152,T4HYD_HEA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,153,T4HYD_HEA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,154,T4DSL_LIG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,155,T4DSL_LIG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,156,T4GSL_LIG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,157,T4GSL_LIG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,158,T4LPG_LIG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,159,T4LPG_LIG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,160,T4ELE_LIG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,161,T4ELE_LIG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,162,T4HYD_PRI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,163,T4HYD_PRI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,164,TRAUTDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,165,TRAUTDSL,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,166,TRAUTGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,167,TRAUTGSL,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,168,TRAUTLPG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,169,TRAUTLPG,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,170,TRAUTELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,171,TRAUTELE,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,172,TRAUTHG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,173,TRAUTHG,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,174,TRAUTPHG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,175,TRAUTPHG,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,176,TRAUTFlex_Fuel,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,177,TRAUTFlex_Fuel,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,178,TRMOTGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,179,TRMOTGSL,OperationalLife,Years,10,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,180,TRMOTELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,181,TRMOTELE,OperationalLife,Years,10,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,182,TRMOTFlex_Fuel,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,183,TRMOTFlex_Fuel,OperationalLife,Years,10,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,184,TRBPRDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,185,TRBPRDSL,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,186,TRBPRLPG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,187,TRBPRLPG,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,188,TRBPRELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,189,TRBPRELE,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,190,TRBPRHYD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,191,TRBPRHYD,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,192,TRBPRPHD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,193,TRBPRPHD,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,194,TRMBSDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,195,TRMBSDSL,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,196,TRMBSGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,197,TRMBSGSL,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,198,TRMBSLPG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,199,TRMBSLPG,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,200,TRMBSELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,201,TRMBSELE,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,202,TRMBSHYD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,203,TRMBSHYD,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,204,TRMBSPHD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,205,TRMBSPHD,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,206,TRBPUDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,207,TRBPUDSL,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,208,TRBPULPG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,209,TRBPULPG,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,210,TRBPUELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,211,TRBPUELE,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,212,TRBPUHYD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,213,TRBPUHYD,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,214,TRBPUPHD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,215,TRBPUPHD,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,216,TRXTTELELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,217,TRXTTELELE,OperationalLife,Years,20,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,218,TRXTRAIELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,219,TRXTRAIELE,OperationalLife,Years,20,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,220,TRXTRAIFREELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,221,TRXTRAIFREELE,OperationalLife,Years,20,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,222,TRYTKDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,223,TRYTKDSL,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,224,TRYTKLPG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,225,TRYTKLPG,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,226,TRYTKELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,227,TRYTKELE,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,228,TRYTKHYD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,229,TRYTKHYD,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,230,TRYTKHD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,231,TRYTKHD,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,232,TRYTKPHD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,233,TRYTKPHD,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,234,TRYLFDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,235,TRYLFDSL,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,236,TRYLFGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,237,TRYLFGSL,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,238,TRYLFLPG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,239,TRYLFLPG,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,240,TRYLFELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,241,TRYLFELE,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,242,TRYLFHD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,243,TRYLFHD,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,244,TRYLFPHD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,245,TRYLFPHD,OperationalLife,Years,17,Provisional
+GUA,GUA_ENERGY,Fixed Horizon Parameters,246,Techs_Auto,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,247,Techs_Auto,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,248,Techs_Motos,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,249,Techs_Motos,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,250,Techs_Buses_Pri,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,251,Techs_Buses_Pri,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,252,Techs_Buses_Pub,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,253,Techs_Buses_Pub,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,254,Techs_Buses_Micro,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,255,Techs_Buses_Micro,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,256,Techs_Telef,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,257,Techs_Telef,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,258,Techs_Trains,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,259,Techs_Trains,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,260,Techs_Trains_Freight,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,261,Techs_Trains_Freight,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,262,Techs_He_Freight,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,263,Techs_He_Freight,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+GUA,GUA_ENERGY,Fixed Horizon Parameters,264,Techs_Li_Freight,CapacityToActivityUnit,PJ/PJ,1,Not needed
+GUA,GUA_ENERGY,Fixed Horizon Parameters,265,Techs_Li_Freight,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,2,DIST_DSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,3,DIST_DSL,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,4,DIST_GSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,5,DIST_GSL,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,6,DIST_LPG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,7,DIST_LPG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,8,DIST_FOI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,9,DIST_FOI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,10,DIST_COK,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,11,DIST_COK,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,12,DIST_KER,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,13,DIST_KER,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,14,DIST_COA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,15,DIST_COA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,16,DIST_URA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,17,DIST_URA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,18,IMP_ELE,CapacityToActivityUnit,PJ/GW,31.356,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,19,IMP_ELE,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,20,EXTT_CRU,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,21,EXTT_CRU,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,22,EXTT_LPG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,23,EXTT_LPG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,24,PPHDAM,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,25,PPHDAM,OperationalLife,Years,40,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_ENERGY,Fixed Horizon Parameters,26,PPHROR,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,27,PPHROR,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_ENERGY,Fixed Horizon Parameters,28,PPGEO,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,29,PPGEO,OperationalLife,Years,30,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_ENERGY,Fixed Horizon Parameters,30,PPWNDON,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,31,PPWNDON,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_ENERGY,Fixed Horizon Parameters,32,PPWNDS,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,33,PPWNDS,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_ENERGY,Fixed Horizon Parameters,34,PPPVT,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,35,PPPVT,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_ENERGY,Fixed Horizon Parameters,36,PPPVT2,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,37,PPPVT2,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_ENERGY,Fixed Horizon Parameters,38,PPPVTS,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,39,PPPVTS,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_ENERGY,Fixed Horizon Parameters,40,PPPVD,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,41,PPPVD,OperationalLife,Years,20,U Galileo
+HON,HON_ENERGY,Fixed Horizon Parameters,42,PPPVDS,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,43,PPPVDS,OperationalLife,Years,20,U Galileo
+HON,HON_ENERGY,Fixed Horizon Parameters,44,DIST_FIR,CapacityToActivityUnit,PJ/GW,1,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,45,DIST_FIR,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,46,DIST_BIM,CapacityToActivityUnit,PJ/GW,1,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,47,DIST_BIM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,48,DIST_BGS,CapacityToActivityUnit,PJ/GW,1,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,49,DIST_BGS,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,50,DIST_NGS,CapacityToActivityUnit,PJ/GW,1,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,51,DIST_NGS,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,52,PPBIM,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,53,PPBIM,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_ENERGY,Fixed Horizon Parameters,54,PPBGS,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,55,PPBGS,OperationalLife,Years,15,U Galileo
+HON,HON_ENERGY,Fixed Horizon Parameters,56,PPCOA,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,57,PPCOA,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_ENERGY,Fixed Horizon Parameters,58,PPCOK,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,59,PPCOK,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_ENERGY,Fixed Horizon Parameters,60,PPGTDSL,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,61,PPGTDSL,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_ENERGY,Fixed Horizon Parameters,62,PPICEDSL,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,63,PPICEDSL,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_ENERGY,Fixed Horizon Parameters,64,PPFOI,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,65,PPFOI,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_ENERGY,Fixed Horizon Parameters,66,PPGTGLP,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,67,PPGTGLP,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_ENERGY,Fixed Horizon Parameters,68,PPNUC,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,69,PPNUC,OperationalLife,Years,40,U Galileo
+HON,HON_ENERGY,Fixed Horizon Parameters,70,PPNGS,CapacityToActivityUnit,PJ/GW,31.536,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,71,PPNGS,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_ENERGY,Fixed Horizon Parameters,72,STOELE,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_ENERGY,Fixed Horizon Parameters,73,STOELE,OperationalLife,Years,20,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_ENERGY,Fixed Horizon Parameters,74,ELE_TRANS,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,75,ELE_TRANS,OperationalLife,Years,60,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,76,ELE_TRANS2,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,77,ELE_TRANS2,OperationalLife,Years,60,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,78,ELE_DIST,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,79,ELE_DIST,OperationalLife,Years,60,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,80,HYD_G_PROD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,81,HYD_G_PROD,OperationalLife,Years,20,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,82,HYD_DIST,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,83,HYD_DIST,OperationalLife,Years,15,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,84,T5GSLCOM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,85,T5GSLCOM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,86,T5LPGCOM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,87,T5LPGCOM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,88,T5ELECOM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,89,T5ELECOM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,90,T5FIRCOM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,91,T5FIRCOM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,92,T5DSLIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,93,T5DSLIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,94,T5GSLIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,95,T5GSLIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,96,T5LPGIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,97,T5LPGIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,98,T5ELEIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,99,T5ELEIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,100,T5COKIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,101,T5COKIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,102,T5KERIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,103,T5KERIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,104,T5BIMIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,105,T5BIMIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,106,T5FOIIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,107,T5FOIIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,108,T5LPGRES,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,109,T5LPGRES,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,110,T5ELERES,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,111,T5ELERES,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,112,T5KERRES,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,113,T5KERRES,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,114,T5FIRRES,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,115,T5FIRRES,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,116,T5BIMRES,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,117,T5BIMRES,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,118,T5GSLRES,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,119,T5GSLRES,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,120,T5LPGEXP,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,121,T5LPGEXP,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,122,T5DSLTOT,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,123,T5DSLTOT,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,124,T5KERTAC,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,125,T5KERTAC,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,126,T5GSLTAC,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,127,T5GSLTAC,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,128,T5DSLCOM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,129,T5DSLCOM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,130,T5DSLAGR,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,131,T5DSLAGR,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,132,T5FOICOM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,133,T5FOICOM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,134,T5GSLAGR,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,135,T5GSLAGR,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,136,T4DSL_PRI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,137,T4DSL_PRI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,138,T4GSL_PRI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,139,T4GSL_PRI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,140,T4ELE_PRI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,141,T4ELE_PRI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,142,T4GSL_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,143,T4GSL_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,144,T4LPG_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,145,T4LPG_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,146,T4ELE_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,147,T4ELE_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,148,T4DSL_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,149,T4DSL_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,150,T4HYD_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,151,T4HYD_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,152,T4DSL_TUR,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,153,T4DSL_TUR,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,154,T4GSL_TUR,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,155,T4GSL_TUR,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,156,T4ELE_TUR,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,157,T4ELE_TUR,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,158,T4DSL_HEA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,159,T4DSL_HEA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,160,T4ELE_HEA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,161,T4ELE_HEA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,162,T4HYD_HEA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,163,T4HYD_HEA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,164,T4DSL_LIG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,165,T4DSL_LIG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,166,T4GSL_LIG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,167,T4GSL_LIG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,168,T4ELE_LIG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,169,T4ELE_LIG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_ENERGY,Fixed Horizon Parameters,170,TRAUTDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,171,TRAUTDSL,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,172,TRAUTGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,173,TRAUTGSL,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,174,TRAUTELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,175,TRAUTELE,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,176,TRAUTHG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,177,TRAUTHG,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,178,TRTAXGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,179,TRTAXGSL,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,180,TRTAXLPG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,181,TRTAXLPG,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,182,TRTAXELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,183,TRTAXELE,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,184,TRMOTGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,185,TRMOTGSL,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,186,TRMOTELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,187,TRMOTELE,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,188,TRSUVDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,189,TRSUVDSL,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,190,TRSUVGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,191,TRSUVGSL,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,192,TRSUVELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,193,TRSUVELE,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,194,TRBPUDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,195,TRBPUDSL,OperationalLife,Years,14,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,196,TRBPUGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,197,TRBPUGSL,OperationalLife,Years,14,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,198,TRBPUELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,199,TRBPUELE,OperationalLife,Years,16,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,200,TRBPUHYD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,201,TRBPUHYD,OperationalLife,Years,12,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,202,TRBTURDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,203,TRBTURDSL,OperationalLife,Years,14,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,204,TRBTURGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,205,TRBTURGSL,OperationalLife,Years,14,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,206,TRBTURELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,207,TRBTURELE,OperationalLife,Years,16,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,208,TRMBSDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,209,TRMBSDSL,OperationalLife,Years,14,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,210,TRMBSGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,211,TRMBSGSL,OperationalLife,Years,14,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,212,TRMBSELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,213,TRMBSELE,OperationalLife,Years,16,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,214,TRYTKDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,215,TRYTKDSL,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,216,TRYTKELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,217,TRYTKELE,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,218,TRYTKHYD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,219,TRYTKHYD,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,220,TRYTKHD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,221,TRYTKHD,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,222,TRYLFDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,223,TRYLFDSL,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,224,TRYLFGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,225,TRYLFGSL,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,226,TRYLFELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,227,TRYLFELE,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,Fixed Horizon Parameters,228,TRYLFHD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_ENERGY,Fixed Horizon Parameters,229,TRYLFHD,OperationalLife,Years,17,Provisional
+HON,HON_ENERGY,growth_formula,2,GDP_orig,GDP (original),,,Project database
+HON,HON_ENERGY,growth_formula,4,use_orig_gdp,Original GDP change,,,Project database
+HON,HON_ENERGY,growth_formula,5,USE,Assumed GDP change,,,ASSUMED
+HON,HON_ENERGY,growth_formula,6,EI_COUNTRY,National energy intensity change,,,Project database
+HON,HON_ENERGY,growth_formula,7,POP,Population,,,https://data.worldbank.org/indicator/SP.POP.TOTL?end=2022&locations=HN&start=2018 | https://population.un.org/wpp/Graphs/Probabilistic/POP/TOT/340
+HON,HON_AFOLU,Fixed Horizon Parameters,2,DIST_DSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,3,DIST_DSL,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,4,DIST_GSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,5,DIST_GSL,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,6,DIST_LPG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,7,DIST_LPG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,8,DIST_FOI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,9,DIST_FOI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,10,DIST_COK,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,11,DIST_COK,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,12,DIST_KER,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,13,DIST_KER,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,14,DIST_COA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,15,DIST_COA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,16,DIST_URA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,17,DIST_URA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,18,IMP_ELE,CapacityToActivityUnit,PJ/GW,31.356,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,19,IMP_ELE,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,20,EXTT_CRU,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,21,EXTT_CRU,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,22,EXTT_LPG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,23,EXTT_LPG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,24,PPHDAM,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,25,PPHDAM,OperationalLife,Years,40,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_AFOLU,Fixed Horizon Parameters,26,PPHROR,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,27,PPHROR,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_AFOLU,Fixed Horizon Parameters,28,PPGEO,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,29,PPGEO,OperationalLife,Years,30,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_AFOLU,Fixed Horizon Parameters,30,PPWNDON,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,31,PPWNDON,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_AFOLU,Fixed Horizon Parameters,32,PPPVT,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,33,PPPVT,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_AFOLU,Fixed Horizon Parameters,34,PPPVT2,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,35,PPPVT2,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_AFOLU,Fixed Horizon Parameters,36,PPPVTS,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,37,PPPVTS,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_AFOLU,Fixed Horizon Parameters,38,PPPVD,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,39,PPPVD,OperationalLife,Years,20,U Galileo
+HON,HON_AFOLU,Fixed Horizon Parameters,40,PPPVDS,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,41,PPPVDS,OperationalLife,Years,20,U Galileo
+HON,HON_AFOLU,Fixed Horizon Parameters,42,PPBIM,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,75,PPBIM,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_AFOLU,Fixed Horizon Parameters,76,PPBGS,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,77,PPBGS,OperationalLife,Years,15,U Galileo
+HON,HON_AFOLU,Fixed Horizon Parameters,78,PPCOA,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,79,PPCOA,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_AFOLU,Fixed Horizon Parameters,80,PPCOK,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,81,PPCOK,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_AFOLU,Fixed Horizon Parameters,82,PPGTDSL,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,83,PPGTDSL,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_AFOLU,Fixed Horizon Parameters,84,PPICEDSL,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,85,PPICEDSL,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_AFOLU,Fixed Horizon Parameters,86,PPFOI,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,87,PPFOI,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_AFOLU,Fixed Horizon Parameters,88,PPGTGLP,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,89,PPGTGLP,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_AFOLU,Fixed Horizon Parameters,90,PPNUC,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,91,PPNUC,OperationalLife,Years,40,U Galileo
+HON,HON_AFOLU,Fixed Horizon Parameters,92,DIST_FIR,CapacityToActivityUnit,PJ/GW,1,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,93,DIST_FIR,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,94,DIST_BIM,CapacityToActivityUnit,PJ/GW,1,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,95,DIST_BIM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,96,DIST_BGS,CapacityToActivityUnit,PJ/GW,1,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,97,DIST_BGS,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,98,DIST_NGS,CapacityToActivityUnit,PJ/GW,1,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,99,DIST_NGS,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,100,PPNGS,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,101,PPNGS,OperationalLife,Years,25,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_AFOLU,Fixed Horizon Parameters,102,SOIALL,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,104,STOELE,CapacityToActivityUnit,PJ/GW,31.356,Standard
+HON,HON_AFOLU,Fixed Horizon Parameters,105,STOELE,OperationalLife,Years,20,Tabla D-1 https://cnd.enee.hn/wp-content/uploads/2023/08/Anexos-PIEG-2024-2033-Borrador.pdf
+HON,HON_AFOLU,Fixed Horizon Parameters,106,ELE_TRANS,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,107,ELE_TRANS,OperationalLife,Years,60,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,108,ELE_DIST,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,109,ELE_DIST,OperationalLife,Years,60,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,110,HYD_G_PROD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,111,HYD_G_PROD,OperationalLife,Years,20,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,112,HYD_DIST,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,113,HYD_DIST,OperationalLife,Years,15,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,114,LU_ABO,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,116,LU_FORCON,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,118,LU_FORLAT,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,120,LU_FORDEC,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,122,LU_FORMAN,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,124,LU_FORMIX,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,126,LU_CUL,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,128,LU_AGCAF,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,130,LU_AGCOC,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,132,LU_PAS,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,134,LU_VEG,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,136,LU_HUM,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,138,LU_WET,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,140,LU_ASE,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,142,LU_OT,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,144,NS_LU_FOR_PER,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,146,NS_LU_FOR_CON,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,148,NS_LU_FOR_OT,CapacityToActivityUnit,Mha/Mha,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,182,T5GSLCOM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,183,T5GSLCOM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,184,T5LPGCOM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,185,T5LPGCOM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,186,T5ELECOM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,187,T5ELECOM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,188,T5FIRCOM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,189,T5FIRCOM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,190,T5DSLIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,191,T5DSLIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,192,T5GSLIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,193,T5GSLIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,194,T5LPGIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,195,T5LPGIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,196,T5ELEIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,197,T5ELEIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,198,T5COKIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,199,T5COKIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,200,T5KERIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,201,T5KERIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,202,T5BIMIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,203,T5BIMIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,204,T5FOIIND,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,205,T5FOIIND,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,206,T5LPGRES,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,207,T5LPGRES,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,208,T5ELERES,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,209,T5ELERES,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,210,T5KERRES,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,211,T5KERRES,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,212,T5FIRRES,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,213,T5FIRRES,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,214,T5LPGEXP,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,215,T5LPGEXP,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,216,T5DSLTOT,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,217,T5DSLTOT,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,218,T5KERTAC,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,219,T5KERTAC,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,220,T5DSLCOM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,221,T5DSLCOM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,222,T5DSLAGR,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,223,T5DSLAGR,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,224,T4DSL_PRI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,225,T4DSL_PRI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,226,T4GSL_PRI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,227,T4GSL_PRI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,228,T4ELE_PRI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,229,T4ELE_PRI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,230,T4GSL_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,231,T4GSL_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,232,T4LPG_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,233,T4LPG_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,234,T4ELE_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,235,T4ELE_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,236,T4DSL_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,237,T4DSL_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,238,T4HYD_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,239,T4HYD_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,240,T4DSL_TUR,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,241,T4DSL_TUR,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,242,T4GSL_TUR,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,243,T4GSL_TUR,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,244,T4ELE_TUR,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,245,T4ELE_TUR,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,246,T4DSL_HEA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,247,T4DSL_HEA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,248,T4ELE_HEA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,249,T4ELE_HEA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,250,T4HYD_HEA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,251,T4HYD_HEA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,252,T4DSL_LIG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,253,T4DSL_LIG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,254,T4GSL_LIG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,255,T4GSL_LIG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,256,T4ELE_LIG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,257,T4ELE_LIG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+HON,HON_AFOLU,Fixed Horizon Parameters,258,TRAUTDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,259,TRAUTDSL,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,260,TRAUTGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,261,TRAUTGSL,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,262,TRAUTELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,263,TRAUTELE,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,264,TRAUTHG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,265,TRAUTHG,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,266,TRTAXGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,267,TRTAXGSL,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,268,TRTAXLPG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,269,TRTAXLPG,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,270,TRTAXELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,271,TRTAXELE,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,272,TRMOTGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,273,TRMOTGSL,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,274,TRMOTELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,275,TRMOTELE,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,276,TRSUVDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,277,TRSUVDSL,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,278,TRSUVGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,279,TRSUVGSL,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,280,TRSUVELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,281,TRSUVELE,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,282,TRBPUDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,283,TRBPUDSL,OperationalLife,Years,14,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,284,TRBPUGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,285,TRBPUGSL,OperationalLife,Years,14,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,286,TRBPUELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,287,TRBPUELE,OperationalLife,Years,16,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,288,TRBPUHYD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,289,TRBPUHYD,OperationalLife,Years,12,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,290,TRBTURDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,291,TRBTURDSL,OperationalLife,Years,14,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,292,TRBTURGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,293,TRBTURGSL,OperationalLife,Years,14,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,294,TRBTURELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,295,TRBTURELE,OperationalLife,Years,16,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,296,TRMBSDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,297,TRMBSDSL,OperationalLife,Years,14,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,298,TRMBSGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,299,TRMBSGSL,OperationalLife,Years,14,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,300,TRMBSELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,301,TRMBSELE,OperationalLife,Years,16,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,302,TRYTKDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,303,TRYTKDSL,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,304,TRYTKELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,305,TRYTKELE,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,306,TRYTKHYD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,307,TRYTKHYD,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,308,TRYTKHD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,309,TRYTKHD,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,310,TRYLFDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,311,TRYLFDSL,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,312,TRYLFGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,313,TRYLFGSL,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,314,TRYLFELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,315,TRYLFELE,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,Fixed Horizon Parameters,316,TRYLFHD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+HON,HON_AFOLU,Fixed Horizon Parameters,317,TRYLFHD,OperationalLife,Years,17,Provisional
+HON,HON_AFOLU,growth_formula,2,GDP_orig,GDP (original),,,Project database
+HON,HON_AFOLU,growth_formula,4,use_orig_gdp,Original GDP change,,,Project database
+HON,HON_AFOLU,growth_formula,5,USE,Assumed GDP change,,,ASSUMED
+HON,HON_AFOLU,growth_formula,6,EI_COUNTRY,National energy intensity change,,,Project database
+HON,HON_AFOLU,growth_formula,7,POP,Population,,,https://data.worldbank.org/indicator/SP.POP.TOTL?end=2022&locations=HN&start=2018 | https://population.un.org/wpp/Graphs/Probabilistic/POP/TOT/340
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,2,DIST_DSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,3,DIST_DSL,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,4,DIST_GSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,5,DIST_GSL,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,6,DIST_LPG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,7,DIST_LPG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,8,DIST_FOI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,9,DIST_FOI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,10,DIST_KER,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,11,DIST_KER,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,12,IMP_ELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,13,IMP_ELE,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,14,DIST_BIM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,15,DIST_BIM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,16,DIST_BGS,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,17,DIST_BGS,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,18,ELE_TRANS,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,19,ELE_TRANS,OperationalLife,Years,60,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,20,ELE_DIST,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,21,ELE_DIST,OperationalLife,Years,60,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,22,HYD_G_PROD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,23,HYD_G_PROD,OperationalLife,Years,20,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,24,HYD_DIST,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,25,HYD_DIST,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,26,T5DSLOTH,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,27,T5DSLOTH,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,28,T5GSLOTH,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,29,T5GSLOTH,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,30,T5LPGOTH,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,31,T5LPGOTH,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,32,T5ELEOTH,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,33,T5ELEOTH,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,34,T5HYDOTH,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,35,T5HYDOTH,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,36,T5KEROTH,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,37,T5KEROTH,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,38,T5BIMOTH,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,39,T5BIMOTH,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,40,T5BGSOTH,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,41,T5BGSOTH,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,42,T5FOIOTH,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,43,T5FOIOTH,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,44,T4DSL_PRI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,45,T4DSL_PRI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,46,T4GSL_PRI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,47,T4GSL_PRI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,48,T4ELE_PRI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,49,T4ELE_PRI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,50,T4GSL_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,51,T4GSL_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,52,T4ELE_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,53,T4ELE_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,54,T4DSL_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,55,T4DSL_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,56,T4HYD_PUB,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,57,T4HYD_PUB,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,58,T4DSL_HEA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,59,T4DSL_HEA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,60,T4FOI_HEA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,61,T4FOI_HEA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,62,T4ELE_HEA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,63,T4ELE_HEA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,64,T4HYD_HEA,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,65,T4HYD_HEA,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,66,T4DSL_LIG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,67,T4DSL_LIG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,68,T4GSL_LIG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,69,T4GSL_LIG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,70,T4ELE_LIG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,71,T4ELE_LIG,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,72,T4DSL_MAR,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,73,T4DSL_MAR,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,74,T4FOI_MAR,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,75,T4FOI_MAR,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,76,T4HYD_MAR,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,77,T4HYD_MAR,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,78,T4DSL_MAM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,79,T4DSL_MAM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,80,T4FOI_MAM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,81,T4FOI_MAM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,82,T4HYD_MAM,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,83,T4HYD_MAM,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,84,T4KER_AVI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,85,T4KER_AVI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,86,T4HYD_AVI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,87,T4HYD_AVI,OperationalLife,Years,1,"Does not have CAPEX, so operational life is not necessary"
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,88,TRAUTDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,89,TRAUTDSL,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,90,TRAUTGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,91,TRAUTGSL,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,92,TRAUTELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,93,TRAUTELE,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,94,TRAUTHG,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,95,TRAUTHG,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,96,TRMOTGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,97,TRMOTGSL,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,98,TRMOTELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,99,TRMOTELE,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,100,TRSUVDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,101,TRSUVDSL,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,102,TRSUVGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,103,TRSUVGSL,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,104,TRSUVELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,105,TRSUVELE,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,106,TRTAXGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,107,TRTAXGSL,OperationalLife,Years,12,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,108,TRTAXELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,109,TRTAXELE,OperationalLife,Years,12,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,110,TRMBSDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,111,TRMBSDSL,OperationalLife,Years,12,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,112,TRMBSGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,113,TRMBSGSL,OperationalLife,Years,12,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,114,TRMBSELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,115,TRMBSELE,OperationalLife,Years,12,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,116,TRBPUDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,117,TRBPUDSL,OperationalLife,Years,12,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,118,TRBPUGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,119,TRBPUGSL,OperationalLife,Years,12,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,120,TRBPUELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,121,TRBPUELE,OperationalLife,Years,12,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,122,TRBPUHYD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,123,TRBPUHYD,OperationalLife,Years,12,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,124,TRYTKDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,125,TRYTKDSL,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,126,TRYTKFOI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,127,TRYTKFOI,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,128,TRYTKELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,129,TRYTKELE,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,130,TRYTKHYD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,131,TRYTKHYD,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,132,TRYTKHD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,133,TRYTKHD,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,134,TRYLFDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,135,TRYLFDSL,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,136,TRYLFGSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,137,TRYLFGSL,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,138,TRYLFELE,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,139,TRYLFELE,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,140,TRYLFHD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,141,TRYLFHD,OperationalLife,Years,15,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,142,TRMARDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,143,TRMARDSL,OperationalLife,Years,17,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,144,TRMARFOI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,145,TRMARFOI,OperationalLife,Years,17,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,146,TRMARHYD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,147,TRMARHYD,OperationalLife,Years,17,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,148,TRMAMFREDSL,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,149,TRMAMFREDSL,OperationalLife,Years,17,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,150,TRMAMFREFOI,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,151,TRMAMFREFOI,OperationalLife,Years,17,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,152,TRMAMFREHYD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,153,TRMAMFREHYD,OperationalLife,Years,17,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,154,TRAVKER,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,155,TRAVKER,OperationalLife,Years,17,Provisional
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,156,TRAVHYD,CapacityToActivityUnit,PJ/PJ,1,Not needed
+JAM,JAM_TRANSPORT,Fixed Horizon Parameters,157,TRAVHYD,OperationalLife,Years,17,Provisional
