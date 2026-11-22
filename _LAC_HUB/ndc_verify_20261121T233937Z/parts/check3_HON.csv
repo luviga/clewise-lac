@@ -1,0 +1,193 @@
+value_id,source_id,page,value,identity,best_strength,best_place,n_hits,n_strong,other_places
+HON-T001,HON-01,p.23;p.25,12847.2,identity (reduction): HON-T001 (12847.2) / HON-P120 (65617.0) = 19.58 percent,,,0,0,
+HON-T002,HON-01,p.22,19.6,identity: 1 - HON-T006 (52769.0) / HON-P120 (65617.0) = 19.58 percent,medium,HON-05 p.300,2,0,HON-05 p.213 (weak)
+HON-T003,HON-01,p.22;p.23;p.25,8564.8,identity (reduction): HON-T003 (8564.8) / HON-P080 (50381.0) = 17.00 percent,strong,HON-01 p.23,2,2,HON-01 p.25 (strong)
+HON-T004,HON-01,p.22,17,identity: 1 - HON-T005 (41816.4) / HON-P080 (50381.0) = 17.00 percent,medium,HON-08 p.5,84,0,HON-08 p.7 (medium); HON-08 p.9 (medium); HON-07 p.11 (medium); HON-08 p.14 (medium); HON-06 p.18 (medium)
+HON-T005,HON-01,p.25,41816.4,identity (level): 1 - HON-T005 (41816.4) / HON-P080 (50381.0) = 17.00 percent,,,0,0,
+HON-T006,HON-01,p.25,52769,identity (level): 1 - HON-T006 (52769.0) / HON-P120 (65617.0) = 19.58 percent,,,0,0,
+HON-T007,HON-01,p.25,7268,,strong,HON-05 p.172,1,1,
+HON-T008,HON-01,p.25,2519.1,,,,0,0,
+HON-T009,HON-01,p.25,3778.6,,,,0,0,
+HON-T010,HON-01,p.25,4534.3,,,,0,0,
+HON-T011,HON-01,p.25,6801.5,,,,0,0,
+HON-T012,HON-01,p.25,503.8,identity (reduction): HON-T012 (503.8) / HON-P080 (50381.0) = 1.00 percent,,,0,0,
+HON-T013,HON-01,p.25,755.7,,,,0,0,
+HON-T014,HON-01,p.25,503.8,identity (reduction): HON-T014 (503.8) / HON-P080 (50381.0) = 1.00 percent,,,0,0,
+HON-T015,HON-01,p.25,755.7,,,,0,0,
+HON-T016,HON-01,p.25,503.8,identity (reduction): HON-T016 (503.8) / HON-P080 (50381.0) = 1.00 percent,,,0,0,
+HON-T017,HON-01,p.25,755.7,,,,0,0,
+HON-T018,HON-01,p.26,70,,medium,HON-01 p.28,58,0,HON-01 p.38 (medium); HON-04 p.6 (medium); HON-08 p.24 (medium); HON-08 p.29 (medium); HON-07 p.66 (medium)
+HON-T019,HON-01,p.26,70,,strong,HON-01 p.28,58,2,HON-01 p.38 (strong); HON-04 p.6 (medium); HON-08 p.24 (medium); HON-08 p.29 (medium); HON-07 p.66 (medium)
+HON-T020,HON-01,p.26,3.4,,medium,HON-08 p.3,24,0,HON-08 p.24 (medium); HON-06 p.74 (medium); HON-06 p.84 (medium); HON-08 p.90 (medium); HON-06 p.168 (medium)
+HON-T021,HON-01,p.26,4,,strong,HON-01 p.32,674,3,HON-08 p.5 (strong); HON-08 p.13 (strong); HON-01 p.23 (medium); HON-04 p.2 (medium); HON-02 p.4 (medium)
+HON-T022,HON-01,p.26,3,,strong,HON-01 p.32,612,3,HON-07 p.77 (strong); HON-05 p.505 (strong); HON-01 p.27 (medium); HON-01 p.47 (medium); HON-01 p.69 (medium)
+HON-T023,HON-01,p.26,5,,strong,HON-08 p.2,464,3,HON-08 p.5 (strong); HON-08 p.15 (strong); HON-01 p.25 (medium); HON-01 p.27 (medium); HON-01 p.39 (medium)
+HON-T024,HON-01,p.27,5,,strong,HON-04 p.2,464,13,HON-03 p.29 (strong); HON-03 p.37 (strong); HON-03 p.43 (strong); HON-05 p.567 (strong); HON-05 p.568 (strong)
+HON-T025,HON-01,p.27,39,,strong,HON-07 p.77,71,5,HON-07 p.81 (strong); HON-07 p.84 (strong); HON-07 p.85 (strong); HON-05 p.574 (strong); HON-04 p.2 (medium)
+HON-T026,HON-01,p.27,3,,strong,HON-01 p.32,612,3,HON-07 p.77 (strong); HON-05 p.505 (strong); HON-01 p.47 (medium); HON-01 p.69 (medium); HON-08 p.3 (medium)
+HON-T027,HON-01,p.27,7.5,,medium,HON-05 p.691,3,0,HON-07 p.16 (weak); HON-05 p.67 (weak)
+HON-T028,HON-01,p.27,20,,strong,HON-01 p.30,181,1,HON-01 p.29 (medium); HON-01 p.69 (medium); HON-07 p.18 (medium); HON-08 p.20 (medium); HON-08 p.24 (medium)
+HON-T029,HON-01,p.27,15,,strong,HON-01 p.23,165,2,HON-08 p.2 (strong); HON-04 p.2 (medium); HON-08 p.7 (medium); HON-08 p.26 (medium); HON-06 p.39 (medium)
+HON-T030,HON-01,p.27,,,,,0,0,
+HON-T036,HON-01,p.29,2100,,weak,HON-08 p.10,4,0,HON-08 p.55 (weak); HON-08 p.65 (weak); HON-05 p.688 (weak)
+HON-T038,HON-01,p.29,3300,,weak,HON-08 p.55,3,0,HON-05 p.69 (weak); HON-05 p.688 (weak)
+HON-T040,HON-01,p.29,80,,medium,HON-08 p.34,54,0,HON-05 p.524 (medium); HON-01 p.32 (weak); HON-01 p.46 (weak); HON-08 p.5 (weak); HON-08 p.7 (weak)
+HON-T043,HON-01,p.30,1,identity: HON-T012 (503.8) / HON-P080 (50381.0) = 1.00 percent,strong,HON-01 p.69,671,5,HON-02 p.10 (strong); HON-08 p.38 (strong); HON-08 p.86 (strong); HON-05 p.517 (strong); HON-01 p.11 (medium)
+HON-T044,HON-01,p.38,70,,strong,HON-01 p.28,58,1,HON-01 p.26 (medium); HON-04 p.6 (medium); HON-08 p.24 (medium); HON-08 p.29 (medium); HON-05 p.34 (medium)
+HON-T045,HON-01,p.31,8,,strong,HON-08 p.7,165,1,HON-08 p.5 (medium); HON-05 p.25 (medium); HON-08 p.36 (medium); HON-08 p.64 (medium); HON-08 p.95 (medium)
+HON-T046,HON-01,p.31,5,,strong,HON-04 p.2,464,13,HON-03 p.29 (strong); HON-03 p.37 (strong); HON-03 p.43 (strong); HON-05 p.567 (strong); HON-05 p.568 (strong)
+HON-T047,HON-01,p.31,10,,medium,HON-01 p.40,218,0,HON-02 p.5 (medium); HON-08 p.7 (medium); HON-08 p.15 (medium); HON-06 p.17 (medium); HON-06 p.18 (medium)
+HON-T055,HON-01,p.11,10880,,,,0,0,
+HON-T056,HON-01,p.11,21795,,,,0,0,
+HON-T057,HON-02,p.3;p.11,16,,strong,HON-05 p.54,141,4,HON-07 p.75 (strong); HON-07 p.87 (strong); HON-05 p.512 (strong); HON-02 p.8 (medium); HON-02 p.11 (medium)
+HON-T058,HON-02,p.3;p.6;p.11,214.3,,strong,HON-02 p.6,2,2,HON-02 p.8 (strong)
+HON-T059,HON-02,p.4;p.11,4845.5,,strong,HON-02 p.11,1,1,
+HON-T060,HON-02,p.5,45535.7,,,,0,0,
+HON-T062,HON-03,p.28;p.29,16,,strong,HON-05 p.54,141,4,HON-07 p.75 (strong); HON-07 p.87 (strong); HON-05 p.512 (strong); HON-03 p.27 (medium); HON-03 p.30 (medium)
+HON-T067,HON-03,p.33,20,,strong,HON-08 p.90,181,1,HON-03 p.3 (medium); HON-03 p.36 (medium); HON-02 p.4 (medium); HON-02 p.11 (medium); HON-05 p.17 (medium)
+HON-T070,HON-04,p.2;p.3,15,,strong,HON-08 p.34,165,3,HON-03 p.36 (strong); HON-05 p.525 (strong); HON-06 p.9 (medium); HON-01 p.15 (medium); HON-06 p.20 (medium)
+HON-T072,HON-04,p.2,39,,strong,HON-07 p.77,71,5,HON-07 p.81 (strong); HON-07 p.84 (strong); HON-07 p.85 (strong); HON-05 p.574 (strong); HON-08 p.7 (medium)
+HON-T073,HON-05,p.524,80,,medium,HON-05 p.57,54,0,HON-05 p.92 (medium); HON-05 p.187 (medium); HON-05 p.203 (medium); HON-05 p.526 (medium); HON-05 p.562 (medium)
+HON-T078,HON-05,p.528,800000,,weak,HON-05 p.721,3,0,HON-06 p.10 (weak); HON-07 p.134 (weak)
+HON-T079,HON-05,p.528,1100000,,weak,HON-03 p.44,1,0,
+HON-T080,HON-05,p.529,200000,,medium,HON-05 p.530,4,0,HON-05 p.720 (weak); HON-06 p.45 (weak); HON-07 p.57 (weak)
+HON-T081,HON-05,p.530,200000,,weak,HON-05 p.529,4,0,HON-05 p.720 (weak); HON-06 p.45 (weak); HON-07 p.57 (weak)
+HON-T082,HON-05,p.532,50.6,,medium,HON-05 p.91,2,0,HON-05 p.246 (weak)
+HON-T083,HON-05,p.552,14819.2,,,,0,0,
+HON-T085,HON-07,p.79,4,,strong,HON-02 p.10,674,3,HON-05 p.291 (strong); HON-05 p.659 (strong); HON-07 p.14 (medium); HON-07 p.17 (medium); HON-07 p.20 (medium)
+HON-T086,HON-07,p.80,50,,strong,HON-02 p.5,110,1,HON-07 p.44 (medium); HON-07 p.62 (medium); HON-08 p.7 (medium); HON-01 p.11 (medium); HON-02 p.15 (medium)
+HON-T087,HON-07,p.82,110.67,,,,0,0,
+HON-T088,HON-07,p.83,4448.56,,,,0,0,
+HON-T089,HON-08,p.83;p.94,76,,medium,HON-08 p.5,36,0,HON-08 p.94 (medium); HON-06 p.17 (medium); HON-06 p.18 (medium); HON-06 p.22 (medium); HON-07 p.37 (medium)
+HON-T090,HON-08,p.83,71,,medium,HON-08 p.9,28,0,HON-08 p.14 (medium); HON-08 p.19 (medium); HON-08 p.73 (medium); HON-08 p.76 (medium); HON-08 p.80 (medium)
+HON-T091,HON-08,p.12;p.89;p.93,1796.24,,strong,HON-08 p.89,2,2,HON-08 p.93 (strong)
+HON-T092,HON-08,p.12;p.89;p.93,1285,,strong,HON-08 p.89,2,2,HON-08 p.93 (strong)
+HON-T093,HON-08,p.12;p.89;p.93,215,,medium,HON-08 p.93,44,0,HON-08 p.89 (weak); HON-05 p.10 (weak); HON-07 p.12 (weak); HON-07 p.34 (weak); HON-06 p.36 (weak)
+HON-T094,HON-08,p.9;p.34;p.35,1342.62,,,,0,0,
+HON-T095,HON-08,p.82,250,,medium,HON-08 p.42,37,0,HON-08 p.43 (medium); HON-08 p.81 (medium); HON-08 p.84 (medium); HON-08 p.19 (weak); HON-08 p.32 (weak)
+HON-T096,HON-08,p.82,105,,strong,HON-08 p.34,24,2,HON-08 p.40 (strong); HON-08 p.9 (medium); HON-08 p.27 (medium); HON-08 p.69 (medium); HON-05 p.498 (medium)
+HON-T097,HON-08,p.90;p.94,49,,medium,HON-08 p.24,54,0,HON-08 p.29 (medium); HON-08 p.41 (medium); HON-08 p.49 (medium); HON-08 p.70 (medium); HON-08 p.73 (medium)
+HON-T098,HON-08,p.90;p.94,33,,strong,HON-08 p.94,67,1,HON-08 p.76 (medium); HON-08 p.80 (medium); HON-08 p.83 (medium); HON-08 p.86 (medium); HON-05 p.31 (medium)
+HON-T099,HON-08,p.90,20,,medium,HON-08 p.24,181,0,HON-08 p.29 (medium); HON-08 p.61 (medium); HON-08 p.73 (medium); HON-08 p.80 (medium); HON-08 p.83 (medium)
+HON-P001,HON-01,p.24,6481,identity (part of sum): sum of 5 sector rows of the same scenario and year = 22957.0 against total 22958.0,,,0,0,
+HON-P002,HON-01,p.24,9517,identity (part of sum): sum of 5 sector rows of the same scenario and year = 22957.0 against total 22958.0,,,0,0,
+HON-P003,HON-01,p.24,2183,identity (part of sum): sum of 5 sector rows of the same scenario and year = 22957.0 against total 22958.0,,,0,0,
+HON-P004,HON-01,p.24,2582,identity (part of sum): sum of 5 sector rows of the same scenario and year = 22957.0 against total 22958.0,strong,HON-05 p.303,3,3,HON-05 p.306 (strong); HON-05 p.342 (strong)
+HON-P005,HON-01,p.24,29815,identity: LULUCF removals + LULUCF net = 29815.0 against LULUCF emissions 29815.0,,,0,0,
+HON-P006,HON-01,p.24,27621,identity (part): LULUCF removals + LULUCF net = 29815.0 against LULUCF emissions 29815.0,,,0,0,
+HON-P007,HON-01,p.24,2194,identity (part of sum): sum of 5 sector rows of the same scenario and year = 22957.0 against total 22958.0,,,0,0,
+HON-P008,HON-01,p.24,22958,identity: sum of 5 sector rows of the same scenario and year = 22957.0 against total 22958.0,,,0,0,
+HON-P009,HON-01,p.24,6530,identity (part of sum): sum of 5 sector rows of the same scenario and year = 26005.0 against total 26005.0,,,0,0,
+HON-P010,HON-01,p.24,9477,identity (part of sum): sum of 5 sector rows of the same scenario and year = 26005.0 against total 26005.0,,,0,0,
+HON-P011,HON-01,p.24,2281,identity (part of sum): sum of 5 sector rows of the same scenario and year = 26005.0 against total 26005.0,,,0,0,
+HON-P012,HON-01,p.24,2648,identity (part of sum): sum of 5 sector rows of the same scenario and year = 26005.0 against total 26005.0,strong,HON-05 p.181,5,5,HON-05 p.182 (strong); HON-05 p.184 (strong); HON-05 p.412 (strong); HON-05 p.414 (strong)
+HON-P013,HON-01,p.24,31779,identity: LULUCF removals + LULUCF net = 31779.0 against LULUCF emissions 31779.0,,,0,0,
+HON-P014,HON-01,p.24,26710,identity (part): LULUCF removals + LULUCF net = 31779.0 against LULUCF emissions 31779.0,,,0,0,
+HON-P015,HON-01,p.24,5069,identity (part of sum): sum of 5 sector rows of the same scenario and year = 26005.0 against total 26005.0,,,0,0,
+HON-P016,HON-01,p.24,26005,identity: sum of 5 sector rows of the same scenario and year = 26005.0 against total 26005.0,,,0,0,
+HON-P017,HON-01,p.24,6579,identity (part of sum): sum of 5 sector rows of the same scenario and year = 29051.0 against total 29052.0,,,0,0,
+HON-P018,HON-01,p.24,9438,identity (part of sum): sum of 5 sector rows of the same scenario and year = 29051.0 against total 29052.0,,,0,0,
+HON-P019,HON-01,p.24,2378,identity (part of sum): sum of 5 sector rows of the same scenario and year = 29051.0 against total 29052.0,strong,HON-05 p.341,1,1,
+HON-P020,HON-01,p.24,2713,identity (part of sum): sum of 5 sector rows of the same scenario and year = 29051.0 against total 29052.0,,,0,0,
+HON-P021,HON-01,p.24,33742,identity: LULUCF removals + LULUCF net = 33742.0 against LULUCF emissions 33742.0,,,0,0,
+HON-P022,HON-01,p.24,25799,identity (part): LULUCF removals + LULUCF net = 33742.0 against LULUCF emissions 33742.0,,,0,0,
+HON-P023,HON-01,p.24,7943,identity (part of sum): sum of 5 sector rows of the same scenario and year = 29051.0 against total 29052.0,,,0,0,
+HON-P024,HON-01,p.24,29052,identity: sum of 5 sector rows of the same scenario and year = 29051.0 against total 29052.0,strong,HON-06 p.32,2,2,HON-07 p.45 (strong)
+HON-P025,HON-01,p.24,6629,identity (part of sum): sum of 5 sector rows of the same scenario and year = 32099.0 against total 32099.0,,,0,0,
+HON-P026,HON-01,p.24,9398,identity (part of sum): sum of 5 sector rows of the same scenario and year = 32099.0 against total 32099.0,,,0,0,
+HON-P027,HON-01,p.24,2476,identity (part of sum): sum of 5 sector rows of the same scenario and year = 32099.0 against total 32099.0,,,0,0,
+HON-P028,HON-01,p.24,2779,identity (part of sum): sum of 5 sector rows of the same scenario and year = 32099.0 against total 32099.0,,,0,0,
+HON-P029,HON-01,p.24,35706,identity: LULUCF removals + LULUCF net = 35706.0 against LULUCF emissions 35706.0,,,0,0,
+HON-P030,HON-01,p.24,24889,identity (part): LULUCF removals + LULUCF net = 35706.0 against LULUCF emissions 35706.0,,,0,0,
+HON-P031,HON-01,p.24,10817,identity (part of sum): sum of 5 sector rows of the same scenario and year = 32099.0 against total 32099.0,,,0,0,
+HON-P032,HON-01,p.24,32099,identity: sum of 5 sector rows of the same scenario and year = 32099.0 against total 32099.0,,,0,0,
+HON-P033,HON-01,p.24,6678,identity (part of sum): sum of 5 sector rows of the same scenario and year = 35147.0 against total 35146.0,,,0,0,
+HON-P034,HON-01,p.24,9359,identity (part of sum): sum of 5 sector rows of the same scenario and year = 35147.0 against total 35146.0,,,0,0,
+HON-P035,HON-01,p.24,2574,identity (part of sum): sum of 5 sector rows of the same scenario and year = 35147.0 against total 35146.0,,,0,0,
+HON-P036,HON-01,p.24,2845,identity (part of sum): sum of 5 sector rows of the same scenario and year = 35147.0 against total 35146.0,strong,HON-05 p.245,1,1,
+HON-P037,HON-01,p.24,37669,identity: LULUCF removals + LULUCF net = 37669.0 against LULUCF emissions 37669.0,,,0,0,
+HON-P038,HON-01,p.24,23978,identity (part): LULUCF removals + LULUCF net = 37669.0 against LULUCF emissions 37669.0,,,0,0,
+HON-P039,HON-01,p.24,13691,identity (part of sum): sum of 5 sector rows of the same scenario and year = 35147.0 against total 35146.0,,,0,0,
+HON-P040,HON-01,p.24,35146,identity: sum of 5 sector rows of the same scenario and year = 35147.0 against total 35146.0,,,0,0,
+HON-P041,HON-01,p.24,6727,identity (part of sum): sum of 5 sector rows of the same scenario and year = 38192.0 against total 38193.0,,,0,0,
+HON-P042,HON-01,p.24,9319,identity (part of sum): sum of 5 sector rows of the same scenario and year = 38192.0 against total 38193.0,,,0,0,
+HON-P043,HON-01,p.24,2671,identity (part of sum): sum of 5 sector rows of the same scenario and year = 38192.0 against total 38193.0,,,0,0,
+HON-P044,HON-01,p.24,2910,identity (part of sum): sum of 5 sector rows of the same scenario and year = 38192.0 against total 38193.0,,,0,0,
+HON-P045,HON-01,p.24,39633,identity: LULUCF removals + LULUCF net = 39632.0 against LULUCF emissions 39633.0,,,0,0,
+HON-P046,HON-01,p.24,23067,identity (part): LULUCF removals + LULUCF net = 39632.0 against LULUCF emissions 39633.0,,,0,0,
+HON-P047,HON-01,p.24,16565,identity (part of sum): sum of 5 sector rows of the same scenario and year = 38192.0 against total 38193.0,,,0,0,
+HON-P048,HON-01,p.24,38193,identity: sum of 5 sector rows of the same scenario and year = 38192.0 against total 38193.0,,,0,0,
+HON-P049,HON-01,p.24,6776,identity (part of sum): sum of 5 sector rows of the same scenario and year = 41240.0 against total 41240.0,,,0,0,
+HON-P050,HON-01,p.24,9280,identity (part of sum): sum of 5 sector rows of the same scenario and year = 41240.0 against total 41240.0,,,0,0,
+HON-P051,HON-01,p.24,2769,identity (part of sum): sum of 5 sector rows of the same scenario and year = 41240.0 against total 41240.0,,,0,0,
+HON-P052,HON-01,p.24,2976,identity (part of sum): sum of 5 sector rows of the same scenario and year = 41240.0 against total 41240.0,,,0,0,
+HON-P053,HON-01,p.24,41596,identity: LULUCF removals + LULUCF net = 41596.0 against LULUCF emissions 41596.0,,,0,0,
+HON-P054,HON-01,p.24,22157,identity (part): LULUCF removals + LULUCF net = 41596.0 against LULUCF emissions 41596.0,,,0,0,
+HON-P055,HON-01,p.24,19439,identity (part of sum): sum of 5 sector rows of the same scenario and year = 41240.0 against total 41240.0,,,0,0,
+HON-P056,HON-01,p.24,41240,identity: sum of 5 sector rows of the same scenario and year = 41240.0 against total 41240.0,strong,HON-02 p.5,1,1,
+HON-P057,HON-01,p.24,6825,identity (part of sum): sum of 5 sector rows of the same scenario and year = 44287.0 against total 44287.0,,,0,0,
+HON-P058,HON-01,p.24,9240,identity (part of sum): sum of 5 sector rows of the same scenario and year = 44287.0 against total 44287.0,,,0,0,
+HON-P059,HON-01,p.24,2867,identity (part of sum): sum of 5 sector rows of the same scenario and year = 44287.0 against total 44287.0,,,0,0,
+HON-P060,HON-01,p.24,3042,identity (part of sum): sum of 5 sector rows of the same scenario and year = 44287.0 against total 44287.0,,,0,0,
+HON-P061,HON-01,p.24,43559,identity: LULUCF removals + LULUCF net = 43559.0 against LULUCF emissions 43559.0,,,0,0,
+HON-P062,HON-01,p.24,21246,identity (part): LULUCF removals + LULUCF net = 43559.0 against LULUCF emissions 43559.0,,,0,0,
+HON-P063,HON-01,p.24,22313,identity (part of sum): sum of 5 sector rows of the same scenario and year = 44287.0 against total 44287.0,,,0,0,
+HON-P064,HON-01,p.24,44287,identity: sum of 5 sector rows of the same scenario and year = 44287.0 against total 44287.0,,,0,0,
+HON-P065,HON-01,p.24,6874,identity (part of sum): sum of 5 sector rows of the same scenario and year = 47334.0 against total 47334.0,strong,HON-05 p.241,1,1,
+HON-P066,HON-01,p.24,9201,identity (part of sum): sum of 5 sector rows of the same scenario and year = 47334.0 against total 47334.0,,,0,0,
+HON-P067,HON-01,p.24,2964,identity (part of sum): sum of 5 sector rows of the same scenario and year = 47334.0 against total 47334.0,,,0,0,
+HON-P068,HON-01,p.24,3107,identity (part of sum): sum of 5 sector rows of the same scenario and year = 47334.0 against total 47334.0,strong,HON-06 p.101,2,2,HON-05 p.218 (strong)
+HON-P069,HON-01,p.24,45523,identity: LULUCF removals + LULUCF net = 45523.0 against LULUCF emissions 45523.0,,,0,0,
+HON-P070,HON-01,p.24,20335,identity (part): LULUCF removals + LULUCF net = 45523.0 against LULUCF emissions 45523.0,,,0,0,
+HON-P071,HON-01,p.24,25188,identity (part of sum): sum of 5 sector rows of the same scenario and year = 47334.0 against total 47334.0,,,0,0,
+HON-P072,HON-01,p.24,47334,identity: sum of 5 sector rows of the same scenario and year = 47334.0 against total 47334.0,,,0,0,
+HON-P073,HON-01,p.24,6924,identity (part of sum): sum of 5 sector rows of the same scenario and year = 50382.0 against total 50381.0,,,0,0,
+HON-P074,HON-01,p.24,9161,identity (part of sum): sum of 5 sector rows of the same scenario and year = 50382.0 against total 50381.0,,,0,0,
+HON-P075,HON-01,p.24,3062,identity (part of sum): sum of 5 sector rows of the same scenario and year = 50382.0 against total 50381.0,strong,HON-08 p.26,1,1,
+HON-P076,HON-01,p.24,3173,identity (part of sum): sum of 5 sector rows of the same scenario and year = 50382.0 against total 50381.0,,,0,0,
+HON-P077,HON-01,p.24,47486,identity: LULUCF removals + LULUCF net = 47487.0 against LULUCF emissions 47486.0,,,0,0,
+HON-P078,HON-01,p.24,19425,identity (part): LULUCF removals + LULUCF net = 47487.0 against LULUCF emissions 47486.0,,,0,0,
+HON-P079,HON-01,p.24,28062,identity (part of sum): sum of 5 sector rows of the same scenario and year = 50382.0 against total 50381.0,,,0,0,
+HON-P080,HON-01,p.24,50381,identity (BAU): 1 - HON-T005 (41816.4) / HON-P080 (50381.0) = 17.00 percent,,,0,0,
+HON-P081,HON-01,p.24,6973,identity (part of sum): sum of 5 sector rows of the same scenario and year = 53430.0 against total 53428.0,,,0,0,
+HON-P082,HON-01,p.24,9122,identity (part of sum): sum of 5 sector rows of the same scenario and year = 53430.0 against total 53428.0,,,0,0,
+HON-P083,HON-01,p.24,3160,identity (part of sum): sum of 5 sector rows of the same scenario and year = 53430.0 against total 53428.0,,,0,0,
+HON-P084,HON-01,p.24,3239,identity (part of sum): sum of 5 sector rows of the same scenario and year = 53430.0 against total 53428.0,strong,HON-05 p.181,5,5,HON-05 p.410 (strong); HON-05 p.411 (strong); HON-05 p.415 (strong); HON-05 p.416 (strong)
+HON-P085,HON-01,p.24,49450,identity: LULUCF removals + LULUCF net = 49450.0 against LULUCF emissions 49450.0,,,0,0,
+HON-P086,HON-01,p.24,18514,identity (part): LULUCF removals + LULUCF net = 49450.0 against LULUCF emissions 49450.0,,,0,0,
+HON-P087,HON-01,p.24,30936,identity (part of sum): sum of 5 sector rows of the same scenario and year = 53430.0 against total 53428.0,,,0,0,
+HON-P088,HON-01,p.24,53428,identity: sum of 5 sector rows of the same scenario and year = 53430.0 against total 53428.0,,,0,0,
+HON-P089,HON-01,p.24,7022,identity (part of sum): sum of 5 sector rows of the same scenario and year = 56475.0 against total 56475.0,,,0,0,
+HON-P090,HON-01,p.24,9082,identity (part of sum): sum of 5 sector rows of the same scenario and year = 56475.0 against total 56475.0,,,0,0,
+HON-P091,HON-01,p.24,3257,identity (part of sum): sum of 5 sector rows of the same scenario and year = 56475.0 against total 56475.0,strong,HON-05 p.338,1,1,
+HON-P092,HON-01,p.24,3304,identity (part of sum): sum of 5 sector rows of the same scenario and year = 56475.0 against total 56475.0,,,0,0,
+HON-P093,HON-01,p.24,51413,identity: LULUCF removals + LULUCF net = 51413.0 against LULUCF emissions 51413.0,,,0,0,
+HON-P094,HON-01,p.24,17603,identity (part): LULUCF removals + LULUCF net = 51413.0 against LULUCF emissions 51413.0,,,0,0,
+HON-P095,HON-01,p.24,33810,identity (part of sum): sum of 5 sector rows of the same scenario and year = 56475.0 against total 56475.0,,,0,0,
+HON-P096,HON-01,p.24,56475,identity: sum of 5 sector rows of the same scenario and year = 56475.0 against total 56475.0,,,0,0,
+HON-P097,HON-01,p.24,7071,identity (part of sum): sum of 5 sector rows of the same scenario and year = 59523.0 against total 59522.0,strong,HON-05 p.342,1,1,
+HON-P098,HON-01,p.24,9043,identity (part of sum): sum of 5 sector rows of the same scenario and year = 59523.0 against total 59522.0,,,0,0,
+HON-P099,HON-01,p.24,3355,identity (part of sum): sum of 5 sector rows of the same scenario and year = 59523.0 against total 59522.0,strong,HON-08 p.10,2,2,HON-08 p.41 (strong)
+HON-P100,HON-01,p.24,3370,identity (part of sum): sum of 5 sector rows of the same scenario and year = 59523.0 against total 59522.0,,,0,0,
+HON-P101,HON-01,p.24,53377,identity: LULUCF removals + LULUCF net = 53377.0 against LULUCF emissions 53377.0,,,0,0,
+HON-P102,HON-01,p.24,16693,identity (part): LULUCF removals + LULUCF net = 53377.0 against LULUCF emissions 53377.0,,,0,0,
+HON-P103,HON-01,p.24,36684,identity (part of sum): sum of 5 sector rows of the same scenario and year = 59523.0 against total 59522.0,,,0,0,
+HON-P104,HON-01,p.24,59522,identity: sum of 5 sector rows of the same scenario and year = 59523.0 against total 59522.0,,,0,0,
+HON-P105,HON-01,p.24,7120,identity (part of sum): sum of 5 sector rows of the same scenario and year = 62569.0 against total 62570.0,,,0,0,
+HON-P106,HON-01,p.24,9003,identity (part of sum): sum of 5 sector rows of the same scenario and year = 62569.0 against total 62570.0,,,0,0,
+HON-P107,HON-01,p.24,3452,identity (part of sum): sum of 5 sector rows of the same scenario and year = 62569.0 against total 62570.0,strong,HON-06 p.168,2,2,HON-06 p.179 (strong)
+HON-P108,HON-01,p.24,3436,identity (part of sum): sum of 5 sector rows of the same scenario and year = 62569.0 against total 62570.0,,,0,0,
+HON-P109,HON-01,p.24,55340,identity: LULUCF removals + LULUCF net = 55340.0 against LULUCF emissions 55340.0,,,0,0,
+HON-P110,HON-01,p.24,15782,identity (part): LULUCF removals + LULUCF net = 55340.0 against LULUCF emissions 55340.0,,,0,0,
+HON-P111,HON-01,p.24,39558,identity (part of sum): sum of 5 sector rows of the same scenario and year = 62569.0 against total 62570.0,,,0,0,
+HON-P112,HON-01,p.24,62570,identity: sum of 5 sector rows of the same scenario and year = 62569.0 against total 62570.0,,,0,0,
+HON-P113,HON-01,p.24,7169,identity (part of sum): sum of 5 sector rows of the same scenario and year = 65615.0 against total 65617.0,,,0,0,
+HON-P114,HON-01,p.24,8963,identity (part of sum): sum of 5 sector rows of the same scenario and year = 65615.0 against total 65617.0,,,0,0,
+HON-P115,HON-01,p.24,3550,identity (part of sum): sum of 5 sector rows of the same scenario and year = 65615.0 against total 65617.0,,,0,0,
+HON-P116,HON-01,p.24,3501,identity (part of sum): sum of 5 sector rows of the same scenario and year = 65615.0 against total 65617.0,,,0,0,
+HON-P117,HON-01,p.24,57304,identity: LULUCF removals + LULUCF net = 57303.0 against LULUCF emissions 57304.0,,,0,0,
+HON-P118,HON-01,p.24,14871,identity (part): LULUCF removals + LULUCF net = 57303.0 against LULUCF emissions 57304.0,,,0,0,
+HON-P119,HON-01,p.24,42432,identity (part of sum): sum of 5 sector rows of the same scenario and year = 65615.0 against total 65617.0,,,0,0,
+HON-P120,HON-01,p.24,65617,identity (BAU): 1 - HON-T006 (52769.0) / HON-P120 (65617.0) = 19.58 percent,,,0,0,
+HON-P121,HON-01,p.25,41816.4,identity (level): 1 - HON-P121 (41816.4) / HON-P080 (50381.0) = 17.00 percent,,,0,0,
+HON-P122,HON-01,p.25,52769,identity (level): 1 - HON-P122 (52769.0) / HON-P120 (65617.0) = 19.58 percent,,,0,0,

@@ -1,0 +1,103 @@
+value_id,blind_id,source_id,check1_page,check1_value,check1_unit,check1_year,check2_page,check2_value,check2_unit,check2_year,check2_reference,check2_note,check2_status,check2_other_answers
+CR-T001,CR-B001,CR-01,p.33;p.138,11380,Gg CO2e,2030,p.33,11380,Gg CO2e,2030,"Section 3.3 Meta titular de mitigacion, box 'Costa Rica se compromete a', printed p.33","'Maximo absoluto de emisiones netas al 2030', all emissions and sectors of the INGEI 1990-2021",agree,p.138 11380 Gg de carbono equivalente (CO2e) 2030
+CR-T002,CR-B002,CR-01,p.33;p.138,132700,Gg CO2e,2025-2035,p.33,132700,Gg CO2e,2025-2035,"Section 3.3 box, printed p.33","'Presupuesto maximo de emisiones netas en el periodo 2025 al 2035', INGEI 1990-2021 coverage",agree,p.138 132700 Gg CO2e 2025-2035
+CR-T003,CR-B003,CR-01,p.34;p.6,53,percent,2030,p.34,53,%,2030,"Section 3.3 text, left column, printed p.34",'reduccion de aproximadamente 53% ... para 2030 respecto del escenario sin medidas adicionales',agree,p.6 53 % 2030
+CR-T004,CR-B004,CR-01,p.34;p.6,23,percent,2030,p.34,23,%,2030,"Section 3.3 text, left column, printed p.34","Unconditional contributions only, 'cerca de 23%' against the same scenario",agree,p.6 23 % 2030
+CR-T005,CR-B005,CR-01,p.137,15,percent,2030,p.137,15,%,2030,"Cuadro 3 ICTU, section 1, rows b and d, printed p.137","Joint conditional and unconditional; against net emissions of 2015 in INGEI 1990-2021, printed '13 384,42 Gg CO2e' (2015 value 13384.42)",agree,
+CR-T006,CR-B006,CR-01,p.143,0,Gg CO2e,2050,p.143,2050,,2050,"Cuadro 3 ICTU, row (c) Otras aspiraciones, printed p.143","'meta de ser carbono neutral al 2050', aligned with the Plan de Descarbonizacion",differs,
+CR-T007,CR-B007,CR-01,p.37,10,percent,2030,p.37,10,%,2030,"Contribucion EN-1 Sectorizacion, 2030, printed p.37",Increase of bus passenger demand vs 2025 demand. Unconditional. Estimated reduction 41 Gg CO2e in 2030,agree,
+CR-T008,CR-B007,CR-01,p.37,20,percent,2035,p.37,20,%,2035,"Contribucion EN-1, 2035, printed p.37",Vs 2025 demand. Unconditional. Estimated reduction 71 Gg CO2e in 2035,agree,
+CR-T009,CR-B008,CR-01,p.38,52,km (of 66.6 km route),2030,p.38,52,km,2030,"Contribucion EN-2 Tren electrico de pasajeros, 2030, printed p.38",100% electric on 52 km; unconditional,agree,p.38 14.6 km 2030
+CR-T010,CR-B009,CR-01,p.38,121000,passengers per day,2030,p.38,121000,pasajeros diarios,2030,"Contribucion EN-2, 2030, printed p.38",Unconditional,agree,
+CR-T011,CR-B010,CR-01,p.39,6,percent of fleet,2027,p.39,6,%,2027,"Contribucion EN-3 Transporte publico, 2027, printed p.39",Conditional (financing scheme),agree,
+CR-T012,CR-B011,CR-01,p.39,3.5,percent of fleet,2030,p.39,3.5,%,2030,"Contribucion EN-3, 2030, printed p.39","Printed '3,5%'; rest replaced with EURO VI. Conditional",agree,
+CR-T013,CR-B012,CR-01,p.39,50,percent of units,2030,p.39,50,%,2030,"Contribucion EN-3, 2030, printed p.39",Conditional,agree,
+CR-T014,CR-B013,CR-01,p.39,20,percent reduction,2030,p.39,20,%,2030,"Contribucion EN-3, 2030, printed p.39",Black carbon vs 2021 emissions. Conditional,agree,
+CR-T015,CR-B010,CR-01,p.39,10,percent of fleet,2035,p.39,10,%,2035,"Contribucion EN-3, 2035, printed p.39",Conditional,agree,
+CR-T016,CR-B014,CR-01,p.40,10,percent of fleet,2030,p.40,10,%,2030,"Contribucion EN-4 Electromovilidad, 2030, printed p.40",Private vehicle fleet total operating with electromobility. Unconditional,agree,
+CR-T017,CR-B015,CR-01,p.40,20,percent of fleet,2030,p.40,20,%,2030,"Contribucion EN-4, 2030, printed p.40","EURO 6 or better; the bullet is printed twice (once 'EURO 6', once 'EURO VI'). Unconditional",agree,
+CR-T018,CR-B015,CR-01,p.40,50,percent of fleet,2035,p.40,50,%,2035,"Contribucion EN-4, 2035, printed p.40",EURO 6 or better. Unconditional,agree,
+CR-T019,CR-B016,CR-01,p.40,20,percent of fleet,2035,p.40,20,%,2035,"Contribucion EN-4, 2035, printed p.40",Total light transport fleet operating with electromobility. Unconditional,agree,
+CR-T020,CR-B017,CR-01,p.41,10,percent ethanol by volume,2027,p.41,10,E (ethanol blend),2027,"Contribucion EN-5 Biocombustibles y gasolina, 2027, printed p.41",'Mezcla y distribucion de (E10) a nivel nacional'. Unconditional,agree,
+CR-T021,CR-B017,CR-01,p.41,15,percent ethanol by volume,2030,p.41,15,E (ethanol blend),2030,"Contribucion EN-5, 2030, printed p.41",'Mezcla y distribucion de (E15) a nivel nacional'. Unconditional,agree,
+CR-T022,CR-B018,CR-01,p.41,20,stations,2030,p.41,20,estaciones,2030,"Contribucion EN-5, 2030, printed p.41","20 stations (E85), GAM plus tourist corridors and airport. Unconditional",agree,
+CR-T023,CR-B019,CR-01,p.41,40,stations,2035,p.41,40,estaciones,2035,"Contribucion EN-5, 2035, printed p.41",Free-blend stations. Unconditional,agree,
+CR-T024,CR-B020,CR-01,p.42,2,percent of fleet,2030,p.42,2,%,2030,"Contribucion EN-6 Biocombustibles en transporte de carga, 2030, printed p.42",Heavy freight fleet to biomethane. Conditional,agree,
+CR-T025,CR-B021,CR-01,p.42,10,percent of fleet,2030,p.42,10,%,2030,"Contribucion EN-6, 2030, printed p.42",'aproximadamente 35000 unidades' of freight vehicles (light and heavy) on natural gas. Conditional,agree,
+CR-T026,CR-B022,CR-01,p.42,20,percent reduction,2030,p.42,20,%,2030,"Contribucion EN-6, 2030, printed p.42",Black carbon from freight vs 2021 emissions. Conditional,agree,
+CR-T027,CR-B023,CR-01,p.42,5,percent of fleet,2035,p.42,5,%,2035,"Contribucion EN-6, 2035, printed p.42",Heavy freight fleet electrified. Conditional,agree,
+CR-T028,CR-B024,CR-01,p.42,15,percent of fleet,2035,p.42,15,%,2035,"Contribucion EN-6, 2035, printed p.42",Light freight fleet electrified. Conditional,agree,
+CR-T029,CR-B025,CR-01,p.43,1,percent,2030,p.43,1,%,2030,"Contribucion EN-7 Combustible sostenible de aviacion, 2030, printed p.43",'El 1% equivalente de consumo internacional de combustible de aviacion es atendido con SAF/CEF'. Conditional. Same year also 2% with long-term contracts and green premium support,agree,
+CR-T030,CR-B026,CR-01,p.43,5,percent,2035,p.43,5,%,2035,"Contribucion EN-7, 2035, printed p.43",'El 5% equivalente con financiamiento concesional y disponibilidad regional'. Conditional,agree,
+CR-T032,CR-B027,CR-01,p.46,95,percent of generation,2027,p.46,95,%,2027,"Contribucion EN-10 Generacion electrica sostenible, 2027, printed p.46",Conditional,agree,
+CR-T033,CR-B028,CR-01,p.46,95,percent of generation,2035,p.46,95,%,2035,"Contribucion EN-10, 2035, printed p.46",'se mantiene en 95%'. Conditional,agree,
+CR-T034,CR-B029,CR-01,p.46,5,businesses,2035,p.46,5,negocios,2035,"Contribucion EN-10, 2035, printed p.46",Conditional,agree,
+CR-T035,CR-B030,CR-01,p.48,2.40,MJ/USD,2030,p.48,2.40,MJ/USD,2030,"Contribucion EN-12, 2030, printed p.48","Average energy intensity, printed '2,40 MJ/USD'. Conditional",agree,p.48 30 % 2030
+CR-T036,CR-B031,CR-01,p.48,2.37,MJ/USD,2035,p.48,2.37,MJ/USD,2035,"Contribucion EN-12, 2035, printed p.48","Average energy intensity, printed '2,37 MJ/USD'. Conditional",agree,p.48 60 % 2035
+CR-T037,CR-B032,CR-01,p.48,20,percent reduction,2030,p.48,20,%,2030,"Contribucion EN-12, 2030, printed p.48",Black carbon from industry vs 2021 emissions. Conditional,agree,
+CR-T038,CR-B033,CR-01,p.49,20,percent of boilers,2030,p.49,20,%,2030,"Contribucion EN-13, 2030, printed p.49",Conditional,agree,
+CR-T039,CR-B034,CR-01,p.49,30,percent of boilers,2035,p.49,30,%,2035,"Contribucion EN-13, 2035, printed p.49",Conditional,agree,
+CR-T040,CR-B035,CR-01,p.49,57000,t per year,2030,p.49,57000,toneladas,2030,"Contribucion EN-13, 2030, printed p.49",57 000 t of fossil fuels replaced by 86 000 t of alternative fuels in cement kilns. Conditional,agree,p.49 86000 toneladas 2030
+CR-T041,CR-B036,CR-01,p.49,77000,t per year,2035,p.49,77000,toneladas,2035,"Contribucion EN-13, 2035, printed p.49",'Sustitucion de 77 000 toneladas por 116 000 toneladas de combustibles alternativos en hornos de industrias cementeras'. Conditional,agree,p.49 116000 toneladas 2035
+CR-T042,CR-B037,CR-01,p.50,250,MW,2030,p.50,250,MW,2030,"Contribucion EN-14 Recursos energeticos distribuidos, 2030, printed p.50","Cumulative installed capacity for self-consumption, prioritising commercial and industrial. 2027 bullet gives 150 MW (not called cumulative). Conditional",agree,
+CR-T043,CR-B038,CR-01,p.50,300,MW,2035,p.50,300,MW,2035,"Contribucion EN-14, 2035, printed p.50",Cumulative installed capacity. Conditional,agree,
+CR-T044,CR-B039,CR-01,p.50,15,MW,2035,p.50,15,MW,2035,"Contribucion EN-14, 2035, printed p.50",Conditional,agree,
+CR-T045,CR-B040,CR-01,p.51,260,GWh per year,2030,p.51,260,GWh/ano,2030,"Contribucion EN-15, 2030, printed p.51",Reduction per year. Unconditional,agree,p.51 20 % 2030
+CR-T046,CR-B040,CR-01,p.51,655,GWh per year,2035,p.51,655,GWh/ano,2035,"Contribucion EN-15, 2035, printed p.51",Unconditional,agree,p.51 40 % 2035
+CR-T047,CR-B041,CR-01,p.54,10,percent reduction,2030,p.54,10,%,2030,"Contribucion PIUP-1 Enmienda de Kigali, 2030, printed p.54",Against baseline for 2020 - 2022. Unconditional,agree,
+CR-T048,CR-B042,CR-01,p.54,30,percent reduction,2035,p.54,30,%,2035,"Contribucion PIUP-1, 2035, printed p.54",Unconditional,agree,
+CR-T058,CR-B043,CR-01,p.68;p.69,76938,Gg CO2e per year,2035,p.69,76938,Gg CO2e,2035,"Contribucion FOLU-1, 2035, printed p.69",'mantenga la emision de 76 938 Gg CO2e anuales'. Unconditional,agree,
+CR-T061,CR-B044,CR-01,p.79;p.80,129.42,Gg CO2e,2035,p.80,129.42,Gg de CO2e,2035,"Contribucion OC-2, 2035, printed p.80","Cumulative sequestration, printed '129,42 Gg de CO2e (0,13 Mt CO2e) en 1900 ha adicionales de manglares'. Conditional",agree,
+CR-T065,CR-B045,CR-04,p.9,9.11,Mt CO2e,2030,p.9,9.11,millones de toneladas de CO2e,2030,"Section i. Metas titulares en mitigacion, first paragraph, printed p.8",All emissions and sectors of the corresponding national inventory,agree,
+CR-T066,CR-B046,CR-04,p.9,106.53,Mt CO2e,2021-2030,p.9,106.53,millones de toneladas de CO2e,2021-2030,"Section i. Metas titulares en mitigacion, second paragraph, printed p.8",Maximum absolute budget of net emissions 2021 to 2030,agree,
+CR-T067,CR-B047,CR-04,p.19,8,percent of fleet,2030,p.19,8,%,2030,"Contribucion 1.4, printed p.18",'al menos el 8% de la flota de transporte publico del pais sera cero emisiones',agree,
+CR-T068,CR-B048,CR-04,p.20,5,percent increase,2030,p.20,5,%,2030,"Contribucion 1.5, printed p.19",'aumentar en al menos un 5% los viajes en movilidad no motorizada ... con respecto a la trayectoria actual',agree,
+CR-T069,CR-B049,CR-04,p.20,8,percent of fleet,2030,p.20,8,%,2030,"Contribucion 1.7, printed p.19","'al menos el 8% de la flota de vehiculos ligeros, privados e institucionales, sera electrica'",agree,
+CR-T070,CR-B050,CR-04,p.25,100,percent of generation,2030,p.25,100,%,2030,"Contribucion 3.1, printed p.24",Aspirational goal: reach and keep 100% renewable electricity generation by 2030,agree,
+CR-T071,CR-B051,CR-04,p.26,20,percent reduction,2030,p.26,20,%,2030,"Contribucion 3.4, printed p.25","Black carbon from passenger transport, freight and industry vs 2018 emissions",agree,
+CR-T072,CR-B052,CR-04,p.36,70,percent of herd,2030,p.36,70,%,2030,"Contribucion 7.3, printed p.35",70% of the cattle herd,agree,p.36 60 % 2030
+CR-T076,CR-B053,CR-02,p.12;p.38,0,Mt CO2e,2050,p.12,2050,,2050,"Section I Executive Summary, left column bold heading, printed p.3",'Costa Rica commits to becoming a decarbonized economy with net-zero emissions by 2050',differs,p.38 2050  2050
+CR-T077,CR-B054,CR-02,p.34,2.64,Mt CO2e,2050,p.34,2.64,MtCO2eq,2050,"Table 4 Emissions estimates for the generated scenarios, row Energy, column Scenario 1.5 C (2050), printed p.25","Printed '2,64'. Table has no unit; unit from Figure 8 axis (MtCO2eq) on the same page. Scenario 2 C (2050) gives 4,54. Text on same page gives 2012 shares (energy 64.13%)",agree,
+CR-T078,CR-B055,CR-02,p.34,0.39,Mt CO2e,2050,p.34,0.39,MtCO2eq,2050,"Table 4, row Industrial processes, column Scenario 1.5 C (2050), printed p.25","Printed '0,39'. Scenario 2 C gives 0,68. Text gives 2012 share 8.72%",agree,
+CR-T079,CR-B056,CR-02,p.34,1.64,Mt CO2e,2050,p.34,1.64,MtCO2eq,2050,"Table 4, row Agriculture, column Scenario 1.5 C (2050), printed p.25","Printed '1,64'. Scenario 2 C gives 2,82. Text gives AFOLU 2012 share 10.58%",agree,
+CR-T080,CR-B057,CR-02,p.34,0.83,Mt CO2e,2050,p.34,0.83,MtCO2eq,2050,"Table 4, row Waste, column Scenario 1.5 C (2050), printed p.25","Printed '0,83'. Scenario 2 C gives 1,42. Text gives 2012 share 16.57%",agree,
+CR-T081,CR-B058,CR-02,p.34,-5.50,Mt CO2e,2050,p.34,-5.50,MtCO2eq,2050,"Table 4, row Net Forest area, column Scenario 1.5 C (2050), printed p.25","Base case and 2 C columns give -3,50",agree,
+CR-T082,CR-B059,CR-02,p.41,30,percent of fleet,2035,p.41,30,%,2035,"Decarbonization axis 1, Transformation vision, printed p.32",30% of the public transport fleet zero-emission and the Passenger Electric Train running 100% on electricity in 2035,agree,
+CR-T083,CR-B060,CR-02,p.41,85,percent of fleet,2050,p.41,85,%,2050,"Decarbonization axis 1, Transformation vision, printed p.32","'In 2050, 85% of the public transport fleet will be zero-emissions'",agree,
+CR-T084,CR-B061,CR-02,p.41,100,percent,2035,p.41,100,%,2035,"Decarbonization axis 1, Transformation vision, printed p.32",Passenger Electric Train running 100% on electricity,agree,
+CR-T085,CR-B062,CR-02,p.46,30,percent of fleet,2035,p.46,30,%,2035,"Decarbonization axis 2, Transformation vision, printed p.37","Light vehicles fleet, private and institutional, electric",agree,
+CR-T086,CR-B063,CR-02,p.46,95,percent of fleet,2050,p.46,95,%,2050,"Decarbonization axis 2, Transformation vision, printed p.37","'In 2050, 95% of the fleet will be zero-emissions'",agree,
+CR-T087,CR-B064,CR-02,p.47,10,percent (range 5 to 10),2022,p.47,10,%,2019-2022,"Axis 2 section 2, Period Goals, printed p.38",Upper bound of the same range,agree,p.47 5 % 2019-2022
+CR-T088,CR-B065,CR-02,p.49,20,percent of fleet,2030,p.49,20,%,2030,"Decarbonization axis 3, Transformation vision, printed p.40","'By 2030, 20% of the fleet operates with LPG'",agree,
+CR-T089,CR-B066,CR-02,p.49,20,percent reduction,2050,p.49,20,%,2050,"Decarbonization axis 3, Transformation vision, printed p.40",Reduced emissions by 20% compared to 2018 emissions,agree,
+CR-T090,CR-B067,CR-02,p.52,100,percent of generation,2030,p.52,100,%,2030,"Decarbonization axis 4, Transformation vision, printed p.43","'By 2030, the electricity matrix operates at 100% with renewable energy'. Period goal 2019-2022: above 95% renewable",agree,
+CR-T091,CR-B068,CR-02,p.55,50,percent of buildings,2050,p.55,50,%,2050,"Decarbonization axis 5, Transformation vision, printed p.46",,agree,
+CR-T093,CR-B069,CR-02,p.67,70,percent of herd,2030,p.67,70,%,2030,"Decarbonization axis 9, Transformation vision, printed p.58",70% of the cattle herd,agree,p.67 60 % 2030
+CR-T095,CR-B070,CR-08,p.3;p.4,9374000,t CO2e,2030,p.3,9374000,T CO2eq,2030,"Text above Image 1, printed p.3",Image 1 on the same page labels 2030 as 9.373.552 (T CO2e). Also 44% below BAU and 25% below 2012,agree,p.4 9374000 TCO2e 2030
+CR-T096,CR-B071,CR-08,p.12,100,percent of generation,2030,p.12,100,%,2030,"Appendix 1 Mitigation options, printed p.12",'hopeful goal ... achieve and maintain a 100% renewable energy matrix by 2030',agree,
+CR-T097,CR-B072,CR-06,p.76,100,percent,2030,p.76,100,%,2030,"Cuadro 3.3 Tren electrico de pasajeros en el GAM en operacion, row 3 Meta propuesta, printed p.74",Reference year 2021; period 2021-2030,agree,
+CR-T098,CR-B073,CR-06,p.90,25,percent of fleet,2035,p.90,25,%,2035,"Cuadro 3.9, row 8 Alcance y cobertura, printed p.88","'Para el 2035, se espera que al menos el 25% de la flota total sea electrica' (per Plan de Descarbonizacion)",agree,
+CR-P003,CR-B074,CR-01,p.32,18946,Gg CO2e,2035,p.32,18946,Gg CO2e,2035,"Figura 4 Proyeccion de emisiones vs. Emisiones CND, printed p.32","Only data labels are printed; year read from label position on the x axis. 15306,3 labels the junction point where the scenario lines start",agree,
+CR-P004,CR-B075,CR-01,p.32,13877.7,Gg CO2e,2035,p.32,13877.7,Gg CO2e,2035,"Figura 4, printed p.32","Only data labels printed; year read from label position. 15306,3 is the shared start point",agree,
+CR-P005,CR-B076,CR-01,p.32,11308.1,Gg CO2e,2030,p.32,11308.1,Gg CO2e,2030,"Figura 4, printed p.32","Only data labels printed; year read from label position. 15306,3 is the shared start point. 10034 label is printed in red (Meta Titular colour) at the 2035 end point that the green line shares",agree,
+CR-P006,CR-B076,CR-01,p.32,10034,Gg CO2e,2035,p.32,10034,Gg CO2e,2035,"Figura 4, printed p.32","Only data labels printed; year read from label position. 15306,3 is the shared start point. 10034 label is printed in red (Meta Titular colour) at the 2035 end point that the green line shares",agree,
+CR-P007,CR-B077,CR-01,p.32,11380,Gg CO2e,2030,p.32,11380,Gg CO2e,2030,"Figura 4, red dashed line 'Meta Titular 2030', printed p.32","Flat dashed line drawn from about 2015 to 2030, label 11380",agree,
+CR-P008,CR-B078,CR-02,p.19,29.6,Mt CO2e,2050,p.19,29.6,million tons of CO2 equivalent,2050,"Section 'Decarbonization challenges in Costa Rica', left column, printed p.10","Without measures emissions grow 2.4% per year; +60% between 2015 and 2030 (no absolute 2030 value printed); +132% in 2050. Historic values on the same page: 11.2 (2012), 9.6 (2010), 7.6 (2005) million tons",agree,
+CR-P015,CR-B079,CR-02,p.34,9.48,Mt CO2e,2050,p.34,9.48,MtCO2eq,2050,"Table 4, row Energy, column Base case scenario (2050), printed p.25","Printed '9,48'. Only 2050 printed for the base case. Reference 2012 inventory column gives 7,21. Unit from Figure 8 axis",agree,
+CR-P016,CR-B080,CR-02,p.34,1.41,Mt CO2e,2050,p.34,1.41,MtCO2eq,2050,"Table 4, row Industrial processes, Base case (2050), printed p.25","Printed '1,41'. 2012 inventory 0,98",agree,
+CR-P017,CR-B081,CR-02,p.34,5.90,Mt CO2e,2050,p.34,5.90,MtCO2eq,2050,"Table 4, row Agriculture, Base case (2050), printed p.25","Printed '5,90'. 2012 inventory 3,24",agree,
+CR-P018,CR-B082,CR-02,p.34,2.97,Mt CO2e,2050,p.34,2.97,MtCO2eq,2050,"Table 4, row Waste, Base case (2050), printed p.25","Printed '2,97'. 2012 inventory 1,86",agree,
+CR-P019,CR-B083,CR-02,p.34,-3.50,Mt CO2e,2050,p.34,-3.50,MtCO2eq,2050,"Table 4, row Net Forest area, Base case (2050), printed p.25","Printed '-3,50'. 2012 inventory -2,05",agree,
+CR-P020,CR-B084,CR-02,p.34,16.26,Mt CO2e,2050,p.34,16.26,MtCO2eq,2050,"Table 4, row Total, Base case (2050), printed p.25","Printed '16,26'. 2012 inventory 11,24",agree,
+CR-P021,CR-B085,CR-02,p.34,4.54,Mt CO2e,2050,p.34,4.54,MtCO2eq,2050,"Table 4, row Energy, Scenario 2 C (2050), printed p.25",Reported because the scenario number was masked,agree,p.34 2.64 MtCO2eq 2050
+CR-P022,CR-B086,CR-02,p.34,0.68,Mt CO2e,2050,p.34,0.68,MtCO2eq,2050,"Table 4, row Industrial processes, Scenario 2 C (2050), printed p.25",,agree,p.34 0.39 MtCO2eq 2050
+CR-P023,CR-B087,CR-02,p.34,2.82,Mt CO2e,2050,p.34,2.82,MtCO2eq,2050,"Table 4, row Agriculture, Scenario 2 C (2050), printed p.25",,agree,p.34 1.64 MtCO2eq 2050
+CR-P024,CR-B088,CR-02,p.34,1.42,Mt CO2e,2050,p.34,1.42,MtCO2eq,2050,"Table 4, row Waste, Scenario 2 C (2050), printed p.25",,agree,p.34 0.83 MtCO2eq 2050
+CR-P025,CR-B089,CR-02,p.34,-3.50,Mt CO2e,2050,p.34,-3.50,MtCO2eq,2050,"Table 4, row Net Forest area, Scenario 2 C (2050), printed p.25",,agree,p.34 -5.50 MtCO2eq 2050
+CR-P026,CR-B090,CR-02,p.34,5.96,Mt CO2e,2050,p.34,5.96,MtCO2eq,2050,"Table 4, row Total, Scenario 2 C (2050), printed p.25",,agree,p.34 0.00 MtCO2eq 2050
+CR-P027,CR-B085,CR-02,p.34,2.64,Mt CO2e,2050,p.34,2.64,MtCO2eq,2050,"Table 4, row Energy, Scenario 1.5 C (2050), printed p.25","Scenario number masked in the blind file; Scenario 2 C (2050) gives 4,54",agree,p.34 4.54 MtCO2eq 2050
+CR-P028,CR-B086,CR-02,p.34,0.39,Mt CO2e,2050,p.34,0.39,MtCO2eq,2050,"Table 4, row Industrial processes, Scenario 1.5 C (2050), printed p.25",,agree,p.34 0.68 MtCO2eq 2050
+CR-P029,CR-B087,CR-02,p.34,1.64,Mt CO2e,2050,p.34,1.64,MtCO2eq,2050,"Table 4, row Agriculture, Scenario 1.5 C (2050), printed p.25",,agree,p.34 2.82 MtCO2eq 2050
+CR-P030,CR-B088,CR-02,p.34,0.83,Mt CO2e,2050,p.34,0.83,MtCO2eq,2050,"Table 4, row Waste, Scenario 1.5 C (2050), printed p.25",,agree,p.34 1.42 MtCO2eq 2050
+CR-P031,CR-B089,CR-02,p.34,-5.50,Mt CO2e,2050,p.34,-5.50,MtCO2eq,2050,"Table 4, row Net Forest area, Scenario 1.5 C (2050), printed p.25",,agree,p.34 -3.50 MtCO2eq 2050
+CR-P032,CR-B090,CR-02,p.34,0.00,Mt CO2e,2050,p.34,0.00,MtCO2eq,2050,"Table 4, row Total, Scenario 1.5 C (2050), printed p.25",,agree,p.34 5.96 MtCO2eq 2050

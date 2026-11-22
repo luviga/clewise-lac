@@ -1,0 +1,67 @@
+value_id,source_id,page,value,identity,best_strength,best_place,n_hits,n_strong,other_places
+DR-T001,DR-01,p.14;p.62;p.129,28,,strong,DR-01 p.16,89,5,DR-01 p.43 (strong); DR-01 p.62 (strong); DR-01 p.128 (strong); DR-01 p.129 (strong); DR-01 p.4 (medium)
+DR-T002,DR-01,p.14;p.62,14732.1,identity: DR-P017 (51949.62) - DR-T007 (37217.0) = 14732.6,strong,DR-01 p.43,6,6,DR-01 p.62 (strong); DR-01 p.63 (strong); DR-01 p.64 (strong); DR-01 p.128 (strong); DR-01 p.129 (strong)
+DR-T003,DR-01,p.14;p.62;p.129,32,identity: DR-T004 (18349.32) / DR-P018 (57292.65) = 32.03 percent,strong,DR-01 p.4,101,3,DR-01 p.16 (strong); DR-01 p.62 (strong); DR-01 p.43 (medium); DR-01 p.122 (medium); DR-01 p.128 (medium)
+DR-T004,DR-01,p.14;p.62,18349.32,identity (reduction): DR-T004 (18349.32) / DR-P018 (57292.65) = 32.03 percent,strong,DR-01 p.43,6,6,DR-01 p.62 (strong); DR-01 p.63 (strong); DR-01 p.65 (strong); DR-01 p.128 (strong); DR-01 p.129 (strong)
+DR-T005,DR-01,p.14;p.62,8.5,,strong,DR-04 p.207,19,1,DR-01 p.16 (medium); DR-01 p.22 (medium); DR-01 p.62 (medium); DR-01 p.122 (medium); DR-02 p.38 (medium)
+DR-T006,DR-01,p.14;p.62,19.5,,medium,DR-01 p.16,5,0,DR-01 p.62 (medium); DR-01 p.122 (medium); DR-04 p.299 (medium); DR-05 p.420 (weak)
+DR-T007,DR-01,p.64,37217,identity (level): DR-P017 (51949.62) - DR-T007 (37217.0) = 14732.6,,,0,0,
+DR-T009,DR-01,p.41;p.45,7477.22,,,,0,0,
+DR-T010,DR-01,p.40;p.46,7204.56,,,,0,0,
+DR-T011,DR-01,p.148,1429,,strong,DR-05 p.359,6,6,DR-05 p.366 (strong); DR-05 p.369 (strong); DR-05 p.373 (strong); DR-05 p.377 (strong); DR-05 p.382 (strong)
+DR-T012,DR-01,p.148,2764734.31,,,,0,0,
+DR-T013,DR-01,p.149,1529,,strong,DR-04 p.353,2,2,DR-05 p.406 (strong)
+DR-T014,DR-01,p.149,1267.15,,,,0,0,
+DR-T015,DR-01,p.149,250,,weak,DR-01 p.95,22,0,DR-01 p.154 (weak); DR-01 p.179 (weak); DR-05 p.12 (weak); DR-05 p.64 (weak); DR-05 p.70 (weak)
+DR-T016,DR-01,p.149,12,,strong,DR-01 p.14,219,26,DR-01 p.30 (strong); DR-01 p.70 (strong); DR-01 p.95 (strong); DR-06 p.5 (strong); DR-04 p.6 (strong)
+DR-T017,DR-01,p.149,2179636.64,,,,0,0,
+DR-T018,DR-01,p.150,1005400,,,,0,0,
+DR-T019,DR-01,p.150,648885.16,,,,0,0,
+DR-T020,DR-01,p.151,300,,medium,DR-01 p.185,32,0,DR-01 p.109 (weak); DR-01 p.112 (weak); DR-05 p.14 (weak); DR-04 p.17 (weak); DR-04 p.50 (weak)
+DR-T021,DR-01,p.151,1611305.64,,,,0,0,
+DR-T022,DR-01,p.153;p.154,194838,,,,0,0,
+DR-T023,DR-01,p.40;p.47,125.75,,,,0,0,
+DR-T024,DR-01,p.40;p.48,145.91,,,,0,0,
+DR-T025,DR-01,p.155,22925.66,,,,0,0,
+DR-T026,DR-01,p.156,111642,,,,0,0,
+DR-T027,DR-01,p.157,11343,,,,0,0,
+DR-T028,DR-01,p.159;p.160,500000,,medium,DR-04 p.163,5,0,DR-04 p.104 (weak); DR-05 p.204 (weak); DR-04 p.495 (weak); DR-04 p.500 (weak)
+DR-T037,DR-01,p.171,0,,medium,DR-01 p.187,197,0,DR-02 p.101 (medium); DR-02 p.104 (medium); DR-04 p.105 (medium); DR-04 p.106 (medium); DR-02 p.108 (medium)
+DR-T038,DR-01,p.42;p.57,2010,,strong,DR-01 p.4,222,9,DR-01 p.30 (strong); DR-01 p.127 (strong); DR-03 p.3 (strong); DR-06 p.20 (strong); DR-06 p.21 (strong)
+DR-T040,DR-01,p.175,138546.23,,,,0,0,
+DR-T042,DR-01,p.42;p.60,150.65,,,,0,0,
+DR-T043,DR-02,p.5;p.7;p.11,27,,strong,DR-02 p.9,99,6,DR-02 p.11 (strong); DR-04 p.112 (strong); DR-01 p.128 (strong); DR-04 p.137 (strong); DR-04 p.147 (strong)
+DR-T044,DR-02,p.5;p.9,13853.71,,strong,DR-02 p.9,4,4,DR-02 p.34 (strong); DR-01 p.30 (strong); DR-01 p.128 (strong)
+DR-T045,DR-02,p.26,0,,medium,DR-05 p.59,198,0,DR-05 p.61 (medium); DR-05 p.119 (medium); DR-04 p.162 (medium); DR-04 p.164 (medium); DR-05 p.196 (medium)
+DR-T046,DR-02,p.140,951,,strong,DR-05 p.379,3,1,DR-04 p.303 (medium); DR-05 p.99 (weak)
+DR-T047,DR-02,p.141,477,,medium,DR-02 p.31,8,0,DR-04 p.141 (medium); DR-04 p.154 (medium); DR-05 p.66 (weak); DR-05 p.69 (weak); DR-05 p.70 (weak)
+DR-T048,DR-02,p.142,479,,medium,DR-04 p.141,6,0,DR-04 p.154 (medium); DR-05 p.84 (weak); DR-05 p.376 (weak); DR-05 p.395 (weak); DR-04 p.479 (weak)
+DR-T049,DR-02,p.142,93,,medium,DR-04 p.141,28,0,DR-04 p.154 (medium); DR-04 p.457 (medium); DR-04 p.504 (medium); DR-02 p.93 (weak); DR-01 p.7 (weak)
+DR-T050,DR-02,p.143,21,,strong,DR-04 p.530,149,1,DR-04 p.122 (medium); DR-04 p.141 (medium); DR-04 p.154 (medium); DR-02 p.21 (weak); DR-02 p.28 (weak)
+DR-T051,DR-02,p.144,100,,strong,DR-01 p.78,140,3,DR-04 p.310 (strong); DR-04 p.450 (strong); DR-02 p.20 (medium); DR-05 p.54 (medium); DR-04 p.128 (medium)
+DR-T052,DR-02,p.145,140,,medium,DR-04 p.141,13,0,DR-04 p.154 (medium); DR-02 p.4 (weak); DR-02 p.140 (weak); DR-05 p.96 (weak); DR-04 p.102 (weak)
+DR-T053,DR-02,p.101,25,,strong,DR-04 p.53,149,12,DR-01 p.69 (strong); DR-01 p.208 (strong); DR-01 p.209 (strong); DR-04 p.347 (strong); DR-04 p.415 (strong)
+DR-T054,DR-02,p.156,300,,medium,DR-04 p.156,32,0,DR-01 p.185 (medium); DR-05 p.208 (medium); DR-05 p.212 (medium); DR-05 p.282 (medium); DR-05 p.376 (medium)
+DR-T055,DR-02,p.158,15,,strong,DR-01 p.95,169,2,DR-04 p.155 (strong); DR-02 p.38 (medium); DR-05 p.24 (medium); DR-04 p.25 (medium); DR-04 p.27 (medium)
+DR-T056,DR-02,p.158,130,,medium,DR-04 p.156,16,0,DR-02 p.70 (weak); DR-02 p.130 (weak); DR-06 p.53 (weak); DR-05 p.67 (weak); DR-06 p.73 (weak)
+DR-T057,DR-02,p.159,80,,strong,DR-01 p.78,61,1,DR-04 p.156 (medium); DR-01 p.189 (medium); DR-05 p.256 (medium); DR-05 p.358 (medium); DR-05 p.403 (medium)
+DR-T058,DR-02,p.160,240000,,,,0,0,
+DR-T059,DR-03,p.2,25,,strong,DR-03 p.3,149,3,DR-02 p.106 (strong); DR-04 p.174 (strong); DR-02 p.8 (medium); DR-01 p.12 (medium); DR-02 p.23 (medium)
+DR-T060,DR-04,p.111,0,,medium,DR-04 p.162,198,0,DR-04 p.164 (medium); DR-05 p.59 (medium); DR-05 p.61 (medium); DR-05 p.119 (medium); DR-05 p.196 (medium)
+DR-T061,DR-04,p.174,25,,strong,DR-04 p.53,149,12,DR-04 p.347 (strong); DR-04 p.415 (strong); DR-04 p.426 (strong); DR-04 p.480 (strong); DR-04 p.517 (strong)
+DR-T062,DR-04,p.174,30,,strong,DR-04 p.260,228,6,DR-04 p.309 (strong); DR-01 p.30 (strong); DR-01 p.31 (strong); DR-01 p.63 (strong); DR-01 p.194 (strong)
+DR-T065,DR-06,p.78,2.8,,medium,DR-04 p.16,13,0,DR-04 p.80 (medium); DR-06 p.52 (weak); DR-06 p.56 (weak); DR-06 p.58 (weak); DR-05 p.76 (weak)
+DR-P002,DR-01,p.32;p.195,34025.67,,strong,DR-01 p.194,2,2,DR-01 p.195 (strong)
+DR-P003,DR-01,p.32;p.195,37936.85,,strong,DR-01 p.191,3,3,DR-01 p.194 (strong); DR-01 p.195 (strong)
+DR-P005,DR-01,p.32;p.195,391.68,,strong,DR-01 p.195,1,1,
+DR-P006,DR-01,p.32;p.195,377.70,,strong,DR-01 p.191,3,3,DR-01 p.194 (strong); DR-01 p.195 (strong)
+DR-P008,DR-01,p.32;p.195,13.54,,strong,DR-01 p.194,2,2,DR-01 p.195 (strong)
+DR-P009,DR-01,p.32;p.195,19.83,,strong,DR-01 p.194,2,2,DR-01 p.195 (strong)
+DR-P011,DR-01,p.32;p.195,2555.65,,strong,DR-01 p.194,3,3,DR-01 p.195 (strong); DR-04 p.189 (strong)
+DR-P012,DR-01,p.32;p.195,2686.01,,strong,DR-01 p.191,4,4,DR-01 p.194 (strong); DR-01 p.195 (strong); DR-04 p.189 (strong)
+DR-P014,DR-01,p.32;p.195,9545.04,,strong,DR-01 p.194,2,2,DR-01 p.195 (strong)
+DR-P015,DR-01,p.32;p.195,9130.52,,strong,DR-01 p.191,3,3,DR-01 p.194 (strong); DR-01 p.195 (strong)
+DR-P017,DR-01,p.32;p.195,51949.62,,strong,DR-01 p.62,5,5,DR-01 p.127 (strong); DR-01 p.129 (strong); DR-01 p.195 (strong); DR-04 p.189 (strong)
+DR-P018,DR-01,p.32;p.195,57292.65,,strong,DR-01 p.62,5,5,DR-01 p.63 (strong); DR-01 p.127 (strong); DR-01 p.129 (strong); DR-01 p.195 (strong)
+DR-P019,DR-01,p.64,42842,,,,0,0,
+DR-P020,DR-01,p.64,37217,identity (level): DR-P017 (51949.62) - DR-P020 (37217.0) = 14732.6,,,0,0,
