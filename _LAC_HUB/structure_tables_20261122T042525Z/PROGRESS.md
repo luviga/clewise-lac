@@ -23,4 +23,5 @@ Start: clone of the repository from GitHub (outside the main copy), branch job/s
 | 2026-11-22T08:10Z | C4 gate run (phaseC) | running | full_run.py phaseC --phase-c |
 | 2026-11-22T09:18Z | C4 gate run (phaseC) | done | 18/18 Stage 0 and Stage 3 OPTIMAL, objectives equal to the baseline under the name mapping; compiled values equal (labels only); stage outputs equal; tests equal to the baseline list; run time 4,126 s |
 | 2026-11-22T09:50Z | C4 gates 2 to 4 | done | names_left.csv (gate 2 met for scenario fields, old names left in notes, A1 labels and one pickle: GAPS 1.14); tests read the catalogue; diff --check clean |
-| 2026-11-22T09:55Z | C5 commit, push, draft PR 2 | running | |
+| 2026-11-22T09:58Z | C5 commit, push, draft PR 2 | done | commits f3df640 and b6f69a2 on job/structure-rename; draft PR 15, base job/structure-tables |
+| 2026-11-22T10:00Z | outputs | done | REPORT, GAPS, CHANGES final; report-only commit with the pull request numbers; EXCEL.EXE processes at the end: 0 |

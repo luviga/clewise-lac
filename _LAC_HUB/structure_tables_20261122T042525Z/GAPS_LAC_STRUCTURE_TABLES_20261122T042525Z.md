@@ -1,6 +1,5 @@
 # GAPS LAC_STRUCTURE_TABLES 20261122T042525Z
 
-(draft; completed at the end of the job)
 
 ## 1. Judgement calls
 
@@ -43,6 +42,11 @@
 - `SelectedResults.csv` at the root and in `Ecuador/ECU_Energy/` are tracked and rewritten by every B1 run.
 
 ## 3. Unchecked
+
+- The Costa Rica LTSOPT outputs (B1 run with a temporary copy of the LTS folder, removed afterwards) were produced in every run but not compared with the baseline; the gates compare BAU, NDC and LTS.
+- `test_ao_safe_save.py` stopped at its first test in every run (file locks), so the safe-save unit tests gave no result in this job; the workbook edits of Phase C were checked by key instead (`workbook_checks.csv`).
+- Files in the scope folders that the pipeline neither runs nor reads were not run or checked (GAPS 1.12).
+- The job scripts were changed to read machine paths from `machine.py` after the Phase B run; the C2 and Phase C runs used them, the Phase B tools that were not run again afterwards (`b2_*`, `b4_register.py`, `b5_gate1.py`) were checked only for syntax.
 
 ## 4. Incidents
 

@@ -5,14 +5,14 @@
 - Gate 2 of Phase C is met for every scenario field the pipeline matches (folder names, scenario columns, catalogue, code literals of the pipeline scripts, stage output file names), and not met for four kinds of text and label inside pipeline files: description text in the B1 configurations and two Costa Rica variant rows not run, Note and Rationale prose of the Stage 2 overrides, the Scenario label of `TotalAnnualMinCapacity` rows that come from the A1 workbooks (Dominican Republic, Guatemala), and the Costa Rica `Blend_Shares_0.pickle` that no run rewrote. All are listed in `names_left.csv` with a reason; GAPS 1.14 gives the judgement.
 - Files in the scope folders that the pipeline neither runs nor reads (older script copies, backup and reference workbooks, plot configurations, the Costa Rica experiment manager keys) keep the older names (GAPS 1.12, 1.13); listed in `names_left.csv`.
 - Unit tests `test_ao_cost_repair_manager` (2 errors of 4) and `test_ao_safe_save` (stops at its first test) fail on Windows file locks in the temporary folder in every run of this job, the baseline included (GAPS incidents). Stage 3 test T4 fails as on `main`.
-- The pull request numbers below were added in a second commit of each branch (force push is not used).
+- The pull request numbers below were added in a report-only commit on job/structure-rename (force push is not used). The final REPORT, GAPS and CHANGES are on that branch; pull request 1 holds the job folder as it was after Phase B.
 
 ## Pull requests and commits
 
 | Pull request | Branch | Base | Commits |
 |---|---|---|---|
-| 14 (draft) "LAC_STRUCTURE_TABLES: values and names of the stage pipeline in external tables" | job/structure-tables | main | ff37de0 (one commit), then a report-only commit |
-| PR2_NUMBER (draft) "LAC_STRUCTURE_TABLES: scenarios renamed BAU, NDC, LTS" | job/structure-rename | job/structure-tables | f3df640 "retire older scenario names", C5_COMMIT (rename with the outputs of the final run), then a report-only commit |
+| 14 (draft) "LAC_STRUCTURE_TABLES: values and names of the stage pipeline in external tables" | job/structure-tables | main | ff37de0 (one commit; it holds the job folder as it was after Phase B) |
+| 15 (draft) "LAC_STRUCTURE_TABLES: scenarios renamed BAU, NDC, LTS" | job/structure-rename | job/structure-tables | f3df640 "retire older scenario names", b6f69a2 (rename with the outputs of the final run), then a report-only commit with the pull request numbers |
 
 ## Baseline against main
 
