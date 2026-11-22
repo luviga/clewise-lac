@@ -15,4 +15,3 @@
 | JAM-T121 | 171.5 MW, 2027, JAM-07 p.15, p.62, p.66 | 131.5 MW, 2027 (and 40 MW) | 131.5 MW turbines and 40 MW diesel, printed apart | check 2: 171.5 is a sum the plan never prints |
 | JAM-T122 | 249.9 MW, 2033, JAM-07 p.20, p.15 | 65.5 MW, 2033 | 65.5 MW in 2033 (p.15); 249.9 is a scenario total of JPS retirements (p.20) | check 2 |
 | JAM-P028 | 2.34 Mt CO2e, 2020, JAM-02 p.58 | 0.79 Mt CO2e, 2050 (same sentence) | 2.34 for 2020 on p.58 | check 1; 1 of 3 |
-

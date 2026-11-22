@@ -11,7 +11,7 @@ Branch `job/ndc-verify`, started from `origin/main` at `a76ad81`. Model state re
 - **Unconfirmed lead:** the UNFCCC case study naming CLG, UWI and CIRED for Jamaica's long-term strategy gave a bot check; not confirmed.
 - **Values found in step D not yet given three checks**, among them the ICE PEG 2022-2040 that Costa Rica's NDC 3.0 relies on; they are not in `scenario_values.csv`.
 - **Background tasks:** three ran at once for some minutes (the brief allows two) when a foreground search was moved to the background by the harness while both blind readers ran (GAPS, incidents).
-- **Pull request number:** added in a second, report-only commit (a force push to amend is not used).
+- **Pull request number:** added in a second, report-only commit (a force push to amend was not used).
 
 ## 2. Values by check status
 
@@ -236,4 +236,6 @@ The other 221 files hold 9,193 rows (sector models, plotting, tests, audits and 
 
 ## 8. Pull request and commits
 
-Pull request: pending (filled in by the report-only commit).
+Draft pull request: https://github.com/luviga/clewise-lac/pull/13 (luviga/clewise-lac#13), not marked ready, not merged.
+
+Commits on `job/ndc-verify` (from `a76ad81`): work in progress `39c6fb0`, `5e7bc62`, `56ab8f5`, `62bb700`, `8e2f07b`, `7d96efc`, `d8b3010`; job `2265146`; this report-only commit adds the pull request number (a force push to amend was not used).

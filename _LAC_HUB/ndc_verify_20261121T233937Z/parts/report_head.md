@@ -16,4 +16,3 @@ Branch `job/ndc-verify`, started from `origin/main` at `a76ad81`. Model state re
 ## 2. Values by check status
 
 733 values checked: 556 at 3 of 3, 165 at 2 of 3, 12 conflicts. Check 2 agreed with check 1 on 698 values at the first comparison; the hub read 32 pages a third time (`parts/third_reading.csv`).
-

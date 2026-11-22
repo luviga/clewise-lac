@@ -52,4 +52,3 @@ The other 221 files hold 9,193 rows (sector models, plotting, tests, audits and 
 | 6. `git -C /c/clw_scout_model status --short` is empty | pass |
 
 ## 8. Pull request and commits
-

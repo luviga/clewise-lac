@@ -12,4 +12,4 @@ Stamp 20261121T233937Z. Branch `job/ndc-verify` from `origin/main` at `a76ad81`.
 | E | done | `scenario_values.csv` 443 rows; `scenario_values_held_back.csv` 17 rows. |
 | F | done | `script_constants.csv` 11,170 rows; `script_constants_accepted.csv` 52,301; `scenario_names.csv` 12 names; `structure_map.md`. |
 | G | done | All six gates pass (`parts/gate_results.csv`). |
-| H | in progress | Commit, push, draft pull request. |
+| H | done | Draft pull request luviga/clewise-lac#13; job commit 2265146, then a report-only commit. |
