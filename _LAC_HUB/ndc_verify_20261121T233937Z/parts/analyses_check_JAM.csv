@@ -1,0 +1,55 @@
+line,source_id,scenario,indicator,year,value,unit,page,status,how
+2,JAM-21,Baseline,energy sector emissions,2019,7.6,MtCO2e,p.19,found,p.19
+3,JAM-21,Baseline,energy sector emissions,2030,8.2,MtCO2e,p.19,found,p.19
+4,JAM-21,Baseline,final energy demand,2019,85,PJ,p.19,found,p.19
+5,JAM-21,Baseline,final energy demand,2030,104,PJ,p.19,found,p.19
+6,JAM-21,Unconditional NDC,emissions reduction relative to baseline (energy and land use change and forestry),2030,25.4,percent,p.8,found,p.8
+7,JAM-21,Conditional NDC,emissions reduction relative to baseline (energy and land use change and forestry),2030,28.5,percent,p.8,found,p.8
+8,JAM-21,Unconditional NDC,emissions reduction relative to baseline (energy and LUCF),2030,1.8,MtCO2e,p.8,found,p.8
+9,JAM-21,Conditional NDC,emissions reduction relative to baseline (energy and LUCF),2030,2.0,MtCO2e,p.8,found,p.8
+10,JAM-21,Unconditional NDC,share of unconditional reductions from the energy sector,2030,83,percent,p.8,found,p.8
+11,JAM-21,Unconditional NDC,energy sector emissions reduction relative to baseline,2030,18.5,percent,p.20,found,p.20
+12,JAM-21,Conditional NDC,energy sector emissions reduction relative to baseline,2030,21.3,percent,p.20,found,p.20
+13,JAM-21,Unconditional NDC,electricity emissions reduction relative to baseline,2030,42,percent,p.22,found,p.22
+14,JAM-21,Conditional NDC,electricity emissions reduction relative to baseline,2030,44,percent,p.22,found,p.22
+15,JAM-21,Unconditional NDC,direct industry emissions reduction relative to baseline,2030,9,percent,p.22,found,p.22
+16,JAM-21,Unconditional NDC,transport emissions reduction relative to baseline,2030,2,percent,p.22,found,p.22
+17,JAM-21,Conditional NDC,transport emissions reduction relative to baseline,2030,11,percent,p.22,found,p.22
+18,JAM-21,Current generation 2018,renewable electricity generation (onshore wind plus solar PV plus hydro),2018,527,TWh as printed,p.23,found,p.23
+19,JAM-21,Baseline,renewable electricity generation (onshore wind plus solar PV plus hydro),2030,566,TWh as printed,p.23,found,p.23
+20,JAM-21,Unconditional NDC,renewable electricity generation (onshore wind plus solar PV plus hydro),2030,1611,TWh as printed,p.23,found,p.23
+21,JAM-21,Baseline,onshore wind generation,2030,347,TWh as printed,p.23,found,p.23
+22,JAM-21,Unconditional NDC,onshore wind generation,2030,623,TWh as printed,p.23,found,p.23
+23,JAM-21,Baseline,solar PV generation,2030,74,TWh as printed,p.23,found,p.23
+24,JAM-21,Unconditional NDC,solar PV generation,2030,655,TWh as printed,p.23,found,p.23
+25,JAM-21,Baseline,hydro generation,2030,145,TWh as printed,p.23,found,p.23
+26,JAM-21,Unconditional NDC,hydro generation,2030,334,TWh as printed,p.23,found,p.23
+27,JAM-21,Baseline,gas-fired electricity generation,2030,6.9,TWh,p.24,found,p.24
+28,JAM-21,Unconditional NDC,gas-fired electricity generation,2030,4,TWh,p.24,found,p.24
+29,JAM-21,Original NDC (2015) BAU,energy sector emissions,2030,14.5,MtCO2e,p.13,found,p.13
+30,JAM-21,Original NDC (2015) unconditional,energy sector emissions,2030,13.4,MtCO2e,p.13,found,p.13
+31,JAM-21,Original NDC (2015) conditional,energy sector emissions,2030,13.0,MtCO2e,p.13,found,p.13
+32,JAM-22,Without concerted action,growth of emissions 2020 to 2050,2050,50,percent,html,found,p.1
+33,JAM-23,Reference (business-as-usual),,,,,html,no_value,
+34,JAM-23,LTS,,,,,html,no_value,
+35,JAM-24,LTS,benefits of implementing the LTS (mitigation and adaptation),2050,15.3,billion USD,html,found,p.1
+36,JAM-25,BAU,,,,,html,no_value,
+37,JAM-25,LTS,reduction of transmission and distribution losses,2050,8,percent,html,found,p.1
+38,JAM-25,LTS,battery storage capacity installed,2038,540,MW,html,found,p.1
+39,JAM-25,LTS,battery storage share of total installed capacity,2038,22,percent,html,found,p.1
+40,JAM-25,LTS,LPG cookers in use relative to BAU,2050,9,percent,html,found,p.1
+41,JAM-25,LTS,LED share of electric lighting,2030,100,percent,html,found,p.1
+42,JAM-25,LTS,refrigeration units replaced in existing buildings relative to 2021,2040,1178797,units,html,found (hub),"hub read the saved HTML: printed as 1 ,178 ,797 refrigeration units"
+43,JAM-25,LTS,AC units replaced in existing buildings relative to 2021,2040,17925,units,html,found (hub),"hub read the saved HTML: printed as 17 ,925 AC units"
+44,JAM-26,BAU,,,,,html,no_value,
+45,JAM-26,LTS,electric share of private fleet (cars motorcycles SUVs),2030,12,percent,html,found,p.1
+46,JAM-26,LTS,electric share of public fleet (taxis buses minibuses),2030,16,percent,html,found,p.1
+47,JAM-26,LTS,electric share of light and heavy freight,2030,1,percent,html,found,p.1
+48,JAM-26,LTS,electric share of private and public fleet,2050,67,percent,html,found,p.1
+49,JAM-26,LTS,electric share of light and heavy freight,2050,2,percent,html,found,p.1
+50,JAM-26,LTS,vehicle efficiency improvement from 2020,2030,15,percent,html,found,p.1
+51,JAM-26,LTS,vehicle efficiency improvement from 2020,2050,40,percent,html,found,p.1
+52,JAM-26,LTS,public transport use,2030,35,percent,html,found,p.1
+53,JAM-27,LTS,net benefit of transport mitigation actions relative to BAU,,8.3,billion USD,html,found,p.1
+54,JAM-28,LTS,benefits of industry energy-use actions,,0.4,billion USD,html,found,p.1
+55,JAM-28,LTS,net cost increase of the clinker measure,,0.05,billion USD,html,found,p.1

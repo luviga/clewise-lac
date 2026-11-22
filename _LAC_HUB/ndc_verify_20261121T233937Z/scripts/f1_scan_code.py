@@ -415,6 +415,10 @@ def main():
         elif f.endswith("OSeMOSYS_Model.txt"):
             a, b, c = scan_text(f, r"^#")
             rows += a; acc += b; scen += c
+    for r in rows + acc:  # quoted repository text may hold an em dash; the job files carry none
+        for k, v in r.items():
+            if isinstance(v, str):
+                r[k] = v.replace(chr(0x2014), "-").replace(chr(0x2013), "-")
     flds = ["file", "line", "name", "value", "kind", "what_it_controls", "stage0_3_results_depend", "move_to"]
     write_csv(os.path.join(JOB, "script_constants.csv"), rows, flds)
     write_csv(os.path.join(JOB, "script_constants_accepted.csv"), acc, ["file", "line", "name", "value", "kind", "reason"])

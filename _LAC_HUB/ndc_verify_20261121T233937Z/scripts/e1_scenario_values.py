@@ -31,7 +31,9 @@ def lever(v, kind):
     t = (v["indicator"] + " " + v["description"]).lower()
     sec = v["sector"]
     if kind == "share of generation":
-        return "renewable share of generation"
+        if v["indicator"].lower().startswith("renewable share"):
+            return "renewable share of generation"
+        return "share of generation: " + v["description"][:70]
     if kind == "capacity":
         return "power plant capacity: " + v["indicator"]
     if kind == "emissions":

@@ -10,6 +10,7 @@ from common import JOB, CODES, read_csv, write_csv, pages_of
 from b3_second_place import TOK, token_values
 
 src = {r["id"]: r for r in read_csv(os.path.join(JOB, "sources.csv"))}
+hub = {(r["source_id"], r["value"]): r["how"] for r in read_csv(os.path.join(JOB, "parts", "analyses_hub_confirmed.csv"))}
 for code in CODES:
     p = os.path.join(JOB, f"analyses_{code}.csv")
     if not os.path.exists(p):
@@ -44,6 +45,8 @@ for code in CODES:
                     if x in vals or -x in vals:
                         st, how = "found", f"p.{n}"
                         break
+        if st == "not_found" and (sid, r["value"]) in hub:
+            st, how = "found (hub)", hub[(sid, r["value"])]
         out.append({"line": i, "source_id": sid, "scenario": r["scenario"], "indicator": r["indicator"], "year": r["year"],
                     "value": r["value"], "unit": r["unit"], "page": r["page"], "status": st, "how": how})
     write_csv(os.path.join(JOB, "parts", f"analyses_check_{code}.csv"), out)

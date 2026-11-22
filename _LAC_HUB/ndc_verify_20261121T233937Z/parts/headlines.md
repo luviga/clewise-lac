@@ -72,13 +72,13 @@
 | LTS | ECU-T020 | sector emissions | 2035 | 39200.0 kt CO2 eq (not stated) | 31204.4 / 32764.8 / 43664.0 kt CO2 eq | 32706.6 / 30409.1 | partly |
 | LTS | ECU-T021 | sector emissions | 2050 | 35800.0 kt CO2 eq (not stated) | 31204.4 / 32764.8 / 43664.0 kt CO2 eq | 32706.6 / 30409.1 | partly |
 | LTS | ECU-T022 | sector emissions | 2070 | 33900.0 kt CO2 eq (not stated) | 31204.4 / 32764.8 / 43664.0 kt CO2 eq | 32706.6 / 30409.1 | partly |
-| LTS | ECU-T025 | renewable share of generation | 2035 | 0.24 fraction (not stated) | 0.1054 / 0.1964 / 0.3424 fraction | 0.1974 / 0.5325 | yes |
-| LTS | ECU-T026 | renewable share of generation | 2035 | 0.64 fraction (not stated) | 0.6755 / 0.6084 / 0.4715 fraction | 0.6075 / 0.4578 | yes |
+| LTS | ECU-T025 | Non-conventional renewable (ERNC: solar, wind and others) sh | 2035 | 0.24 fraction (not stated) | 0.1054 / 0.1964 / 0.3424 fraction | 0.1974 / 0.5325 | yes |
+| LTS | ECU-T026 | Hydro share of SNI generation, phase I | 2035 | 0.64 fraction (not stated) | 0.6755 / 0.6084 / 0.4715 fraction | 0.6075 / 0.4578 | yes |
 | LTS | ECU-T027 | installed capacity | 2035 | 10000.0 MW (not stated) | 6341.1 / 6341.1 / 6428.2 MW | 6354.1 / 6441.2 | partly |
-| LTS | ECU-T028 | renewable share of generation | 2050 | 0.35 fraction (not stated) | 0.1054 / 0.1964 / 0.3424 fraction | 0.1974 / 0.5325 | yes |
+| LTS | ECU-T028 | Non-conventional renewable share of SNI generation, phase II | 2050 | 0.35 fraction (not stated) | 0.1054 / 0.1964 / 0.3424 fraction | 0.1974 / 0.5325 | yes |
 | LTS | ECU-T029 | installed capacity | 2050 | 3800.0 MW (not stated) | 8911.7 / 12049.2 / 19728.6 MW | 12099.9 / 27972.9 | partly |
-| LTS | ECU-T030 | renewable share of generation | 2050 | 0.54 fraction (not stated) | 0.6755 / 0.6084 / 0.4715 fraction | 0.6075 / 0.4578 | yes |
-| LTS | ECU-T031 | renewable share of generation | 2070 | 0.37 fraction (not stated) | 0.1054 / 0.1964 / 0.3424 fraction | 0.1974 / 0.5325 | yes |
+| LTS | ECU-T030 | Hydro share of SNI generation, phase II | 2050 | 0.54 fraction (not stated) | 0.6755 / 0.6084 / 0.4715 fraction | 0.6075 / 0.4578 | yes |
+| LTS | ECU-T031 | Non-conventional renewable share of SNI generation, phase II | 2070 | 0.37 fraction (not stated) | 0.1054 / 0.1964 / 0.3424 fraction | 0.1974 / 0.5325 | yes |
 | LTS | ECU-T040 | share of passenger-km | 2050 | 0.4 fraction (not stated) | -  | - | different quantity |
 | LTS | ECU-T041 | share of passenger transport | 2050 | 0.1336 fraction (not stated) | -  | - | different quantity |
 | LTS | ECU-T042 | share of freight vehicles | 2050 | 0.22 fraction (not stated) | -  | - | different quantity |
@@ -140,7 +140,7 @@
 | NDC | HON-T096 | new capacity | 2029 | 105.0 MW (not stated) | 0.0 / 0.0 / 0.0 MW | 0.0 / 0.0 | partly |
 | NDC | HON-T097 | percent reduction against 2025 | 2030 | 0.49 fraction (not stated) | -  | - | different quantity |
 | NDC | HON-T098 | percent reduction against 2025 | 2035 | 0.33 fraction (not stated) | -  | - | different quantity |
-| NDC | HON-T099 | percent reduction | 2030 | 0.2 fraction (not stated) | 0.0758 / 0.1741 / 0.111 fraction | 0.206 / 0.6004 | partly |
+| NDC | HON-T099 | percent reduction | 2030 | 0.2 fraction (not stated) | -  | - | different quantity |
 
 ### Jamaica
 
@@ -181,7 +181,7 @@
 | LTS | JAM-T057 | T&D losses | 2045 | 0.11 fraction (not stated) | -  | - | not computed |
 | LTS | JAM-T060 | HFO capacity remaining | 2035 | 0.0 MW (not stated) | -  | - | not compared |
 | LTS | JAM-T062 | new intermittent renewable capacity | 2050 | 2000.0 MW (not stated) | 842.0 / 1430.0 / 1903.8 MW | 1527.8 / 3348.5 | partly |
-| LTS | JAM-T063 | percent reduction against base year | 2050 | 0.98 fraction (not stated) | 0.1417 / 0.3307 / 0.3103 fraction | 0.3701 / 0.7448 | partly |
+| LTS | JAM-T063 | percent reduction against base year | 2050 | 0.98 fraction (not stated) | -  | - | different quantity |
 | LTS | JAM-T064 | electric share of private fleet | 2025 | 0.08 fraction (not stated) | -  | - | different quantity |
 | LTS | JAM-T065 | electric share of public fleet | 2025 | 0.1 fraction (not stated) | -  | - | different quantity |
 | LTS | JAM-T066 | electric share of private fleet | 2030 | 0.12 fraction (not stated) | -  | - | different quantity |
@@ -197,6 +197,6 @@
 | NDC | JAM-T119 | new hydro capacity | 2033 | 34.3 MW (not stated) | 64.2 / 67.4 / 67.4 MW | 67.4 / 67.4 | partly |
 | NDC | JAM-T120 | battery storage capacity | 2041 | 493.0 MW (not stated) | 102.5 / 415.0 / 437.5 MW | 415.0 / 437.5 | yes |
 | NDC | JAM-T123 | new fossil capacity | 2041 | 0.0 MW (not stated) | -  | - | not compared |
-| NDC | JAM-T124 | electricity sector emissions | 2030 | 1290.0 kt CO2 eq (not stated) | 5107.8 / 4188.2 / 5309.7 kt CO2 eq | 3941.7 / 1964.4 | partly |
+| NDC | JAM-T124 | electricity sector emissions | 2030 | 1290.0 kt CO2 eq (not stated) | -  | - | different quantity |
 | NDC | JAM-T126 | emission reduction | 2030 | 954.0 kt CO2 eq (not stated) | -  | - | different quantity |
 | NDC | JAM-T127 | EV share of electricity demand | 2030 | 0.03 fraction (not stated) | -  | - | different quantity |

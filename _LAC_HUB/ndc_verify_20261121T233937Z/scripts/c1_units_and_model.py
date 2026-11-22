@@ -349,7 +349,7 @@ def main():
                 sec = v.get("sector", "")
                 energy = re.search(r"energ", sec.lower()) or re.search(r"energy sector|sector energ|energy and transport|energ[ií]a", t)
                 lab = "CO2e_sources" if code != "CR" else None
-                energy_total = sec.strip().lower() in ("energy", "energy (including transport)") and (
+                energy_total = not re.search(r"electric|power|generation|grid", t) and sec.strip().lower() in ("energy", "energy (including transport)") and (
                     v["origin"].startswith("projections") or re.search(
                         r"energy sector|sector de energ|energy \(including transport\)|energy and transport measures|energy emissions|emissions of the energy|sector emissions|energy sector emissions", t))
                 if energy and not energy_total and not re.search(r"economy-wide", sec.lower()):

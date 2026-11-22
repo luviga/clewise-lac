@@ -1,0 +1,16 @@
+line,source_id,scenario,indicator,year,value,unit,page,status,how
+2,GUA-22,ENDBE update (ambition levels),,,,,p.3,no_value,
+3,GUA-22,Cited national target (MEM generation expansion plan 2024-2054),renewable energy share target,2027,80,percent,p.4,found,p.4
+4,GUA-22,History (national GHG inventory 2022),national GHG emissions,2005,53,Mt CO2eq,p.2,found,p.2
+5,GUA-22,History (national GHG inventory 2022),national GHG emissions,2018,62,Mt CO2eq,p.2,found,p.2
+6,GUA-23,Not country specific,,,,,p.54,no_value,
+7,GUA-24,Escenario_alto,,,,,html,no_value,
+8,GUA-24,Escenario_medio,,,,,html,no_value,
+9,GUA-24,Escenario_bajo,,,,,html,no_value,
+10,GUA-25,LTS (net zero options),,,,,html,no_value,
+11,GUA-26,History,renewable energy share in power generation (Central America region),2018,70,percent,p.34,found,p.34
+12,GUA-26,PES (Planned Energy Scenario),renewable energy share in power generation (Central America region),2030,66,percent,p.34,found,p.34
+13,GUA-26,PES (Planned Energy Scenario),renewable energy share in power generation (Central America region),2050,59,percent,p.34,found,p.34
+14,GUA-26,DES (Decarbonising Energy Scenario),renewable energy share in power generation (Central America region),2030,82,percent,p.34,found,p.34
+15,GUA-26,DES (Decarbonising Energy Scenario),renewable energy share in power generation (Central America region),2050,97,percent,p.34,found,p.34
+16,GUA-26,DES (Decarbonising Energy Scenario),energy CO2 emissions reduction relative to PES (Central America region),2050,70,percent,p.40,found,p.40

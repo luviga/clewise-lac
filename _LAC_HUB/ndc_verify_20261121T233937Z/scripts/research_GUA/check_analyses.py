@@ -22,6 +22,7 @@ def norm(t):
     while prev != t:
         prev = t
         t = re.sub(r"(\d)(?:,| ,)(\d{3})(?!\d)", r"\1\2", t)
+        t = re.sub(r"(?<![\d.,])(\d{1,3}) (\d{3})(?![\d.,%])", r"\1\2", t)
     return t
 
 
@@ -37,7 +38,7 @@ def main():
     if b"\r\n" in raw:
         print("CRLF line endings")
         bad += 1
-    if "—".encode("utf-8") in raw:
+    if chr(0x2014).encode("utf-8") in raw:
         print("em dash found")
         bad += 1
     with open(path, encoding="utf-8", newline="") as f:
@@ -77,11 +78,13 @@ def main():
                 print(i, "no page file", pf)
                 bad += 1
                 continue
-            t = norm(open(pf, encoding="utf-8").read())
+            raw_t = open(pf, encoding="utf-8").read().replace("–", "-").replace("−", "-")
+            texts = [raw_t, norm(raw_t)]
             cands = {v}
             if "." in v:
                 cands.add(v.rstrip("0").rstrip("."))
-            ok = any(re.search(r"(?<![\d.])" + re.escape(c) + r"(?![\d])", t) for c in cands)
+            ok = any(re.search(r"(?<![\d.])" + re.escape(c) + r"(?![\d])", t)
+                     for c in cands for t in texts)
             if not ok:
                 print(i, "value not on page", sid, pg, v, r["indicator"][:50])
                 bad += 1

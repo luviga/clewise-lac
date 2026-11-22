@@ -1,0 +1,48 @@
+line,source_id,scenario,indicator,year,value,unit,page,status,how
+2,CR-22,Plan Recomendado (Plan Base),new wind and solar capacity added 2024 to 2027,2027,460,MW,p.22,found,p.22
+3,CR-22,Plan Recomendado (Plan Base),new wind and solar capacity added 2028 to 2032,2032,525,MW,p.22,found,p.22
+4,CR-22,Plan Recomendado (Plan Base),new wind and solar capacity added 2033 to 2035,2035,650,MW,p.22,found,p.22
+5,CR-22,Plan Recomendado (Plan Base),installed capacity,2040,5637,MW,p.196,found,p.196
+6,CR-22,Plan Recomendado (Plan Base),total generation,2030,13814,GWh,p.202,found (hub),"hub read the rendered page (downloads/CR/img_blind/CR-22_p202.png): Tabla 15.4 row 2030, Total generation; the text layout shifts the year column"
+7,CR-22,Plan Recomendado (Plan Base),bunker (fuel oil) generation,2030,17,GWh,p.202,found,p.202
+8,CR-22,Plan Recomendado (Plan Base),power sector emissions,2030,406,thousand t CO2eq,p.202,found,p.202
+9,CR-22,Plan Recomendado (Plan Base),power sector emission intensity,2030,29,t CO2/GWh,p.202,found,p.202
+10,CR-22,Plan Recomendado (Plan Base),total generation,2035,14922,GWh,p.202,found (hub),"hub read the rendered page: Tabla 15.4 row 2035, Total generation"
+11,CR-22,Plan Recomendado (Plan Base),bunker (fuel oil) generation,2035,18,GWh,p.202,found,p.202
+12,CR-22,Plan Recomendado (Plan Base),power sector emissions,2035,411,thousand t CO2eq,p.202,found,p.202
+13,CR-22,Plan Recomendado (Plan Base),total generation,2040,15703,GWh,p.202,found (hub),"hub read the rendered page: Tabla 15.4 row 2040, Total generation"
+14,CR-22,Plan Recomendado (Plan Base),bunker (fuel oil) generation,2040,5,GWh,p.202,found,p.202
+15,CR-22,Plan Recomendado (Plan Base),power sector emissions,2040,408,thousand t CO2eq,p.202,found,p.202
+16,CR-22,Reduced thermal capacity case,extra cost over the recommended plan,,500,million USD,p.24,found,p.24
+17,CR-23,Without decarbonization,net GHG emissions,2018,11.7,MtCO2e,p.49,found,p.49
+18,CR-23,Without decarbonization,net GHG emissions,2050,18.8,MtCO2e,p.49,found,p.49
+19,CR-23,National Decarbonization Plan (NDP),net GHG emissions,2050,0,MtCO2e,p.49,found,p.49
+20,CR-23,National Decarbonization Plan (NDP),emissions reduction relative to without decarbonization (public and private transport),2050,4.2,MtCO2e,p.50,found,p.50
+21,CR-23,National Decarbonization Plan (NDP),emissions reduction relative to without decarbonization (freight transport),2050,3.2,MtCO2e,p.50,found,p.50
+22,CR-23,National Decarbonization Plan (NDP),emissions reduction relative to without decarbonization (agriculture livestock and forestry),2050,6,MtCO2e,p.50,found,p.50
+23,CR-23,National Decarbonization Plan (NDP),emissions reduction relative to without decarbonization (industry and waste),2050,4.9,MtCO2e,p.50,found,p.50
+24,CR-23,National Decarbonization Plan (NDP),discounted benefits 2020 to 2050,2050,75,billion USD,p.50,found,p.50
+25,CR-23,National Decarbonization Plan (NDP),discounted costs 2020 to 2050,2050,34,billion USD,p.50,found,p.50
+26,CR-23,National Decarbonization Plan (NDP),discounted net benefits 2020 to 2050,2050,41,billion USD,p.50,found,p.50
+27,CR-23,National Decarbonization Plan (NDP),discounted net benefits 2020 to 2050 (discounted to 2020 at 5 percent),2050,52.2,billion USD,p.16,found,p.16
+28,CR-23,National Decarbonization Plan (NDP),discounted net benefits (agriculture livestock and forestry),2050,22,billion USD,p.17,found,p.17
+29,CR-23,National Decarbonization Plan (NDP),discounted net benefits (public and private transport plus freight),2050,19,billion USD,p.17,found,p.17
+30,CR-23,National Decarbonization Plan (NDP),discounted net benefits (industry and waste),2050,1.3,billion USD,p.17,found,p.17
+31,CR-23,National Decarbonization Plan (NDP),discounted net benefits (electricity),2050,-0.7,billion USD,p.17,found,p.17
+32,CR-23,National Decarbonization Plan (NDP),discounted net benefits (buildings),2050,-0.6,billion USD,p.17,found,p.17
+33,CR-24,NDP and NDC 3.0 modelling history,,,,,p.4,no_value,
+34,CR-24,National Decarbonization Plan (PND),net economic benefit,2050,41,billion USD,p.6,found,p.6
+35,CR-24,Investment in renewables sustainable mobility and digital institutions,net jobs created,2050,135000,jobs,p.6,found,p.6
+36,CR-25,NDC 2030 target (as assessed),emissions target assessed,2030,9.11,MtCO2e,html,found,p.1
+37,CR-25,1.5C compatible domestic pathway benchmark,emissions excluding LULUCF,2030,11,MtCO2e,html,found,p.1
+38,CR-25,History,electric vehicle share of new vehicle sales,2023,12,percent,html,found,p.1
+39,CR-26,Current policies (low end),emissions excluding LULUCF,2030,13.2,MtCO2e,html,found,p.1
+40,CR-26,Current policies (high end),emissions excluding LULUCF,2030,15.8,MtCO2e,html,found,p.1
+41,CR-26,PEG 2022-2040 recommended scenario (as cited),additional installed renewable capacity by 2040 compared to 2021,2040,2125,MW,html,found,p.1
+42,CR-26,Currently implemented mitigation measures (BUR2 as cited),transport emissions reduction,2030,27,percent,html,found,p.1
+43,CR-26,Currently implemented mitigation measures (BUR2 as cited),transport emissions reduction,2050,65,percent,html,found,p.1
+44,CR-27,LTS 2050 (CAT estimate),total GHG emissions excluding LULUCF (low end),2050,2.9,MtCO2e,html,found,p.1
+45,CR-27,LTS 2050 (CAT estimate),total GHG emissions excluding LULUCF (high end),2050,5.5,MtCO2e,html,found,p.1
+46,CR-28,BAU,,,,,html,no_value,
+47,CR-28,NDCcond,,,,,html,no_value,
+48,CR-28,NDCincond,,,,,html,no_value,

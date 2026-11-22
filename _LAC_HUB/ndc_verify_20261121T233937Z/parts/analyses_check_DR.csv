@@ -1,0 +1,68 @@
+line,source_id,scenario,indicator,year,value,unit,page,status,how
+2,DR-21,Ambitious,"accumulated emission reductions, combined power and transport",2030,14,Mt CO2e,p.11,found,p.11
+3,DR-21,Ambitious,"accumulated emission reductions, combined power and transport",2050,221,Mt CO2e,p.11,found,p.11
+4,DR-21,Ambitious,"accumulated emission reductions, power",2050,207,Mt CO2e,p.11,found,p.11
+5,DR-21,Ambitious,"investment costs, combined power and transport",2050,38037,million USD 2022,p.11,found,p.11
+6,DR-21,NDC2030,total discounted power system costs,2050,34.7,billion USD,p.46,found,p.46
+7,DR-21,NZP2050,total discounted power system costs,2050,51.0,billion USD,p.46,found,p.46
+8,DR-21,NDC2030,"power investment, net present value",2050,12.0,billion USD,p.46,found,p.46
+9,DR-21,NZP2050,"power investment, net present value",2050,25.5,billion USD,p.46,found,p.46
+10,DR-21,NDC2030,combined solar and wind capacity,2050,16000,MW,p.44,found,p.44
+11,DR-21,NZP2050,combined solar and wind capacity,2050,40000,MW,p.44,found,p.44
+12,DR-22,NP,GHG emissions from grid electricity generation,2030,9.9,Mt CO2e,p.15,found,p.15
+13,DR-22,NP,GHG emissions from grid electricity generation,2040,12.2,Mt CO2e,p.15,found,p.15
+14,DR-22,NP,GHG emissions from grid electricity generation,2050,14.3,Mt CO2e,p.15,found,p.15
+15,DR-22,NDC2030,GHG emissions from grid electricity generation,2030,6.0,Mt CO2e,p.16,found,p.16
+16,DR-22,NDC2030,GHG emissions from grid electricity generation,2040,7.4,Mt CO2e,p.16,found,p.16
+17,DR-22,NDC2030,GHG emissions from grid electricity generation,2050,8.7,Mt CO2e,p.16,found,p.16
+18,DR-22,NZP2050,GHG emissions from grid electricity generation,2030,6.9,Mt CO2e,p.17,found,p.17
+19,DR-22,NZP2050,GHG emissions from grid electricity generation,2040,3.5,Mt CO2e,p.17,found,p.17
+20,DR-22,NZP2050,GHG emissions from grid electricity generation,2050,0.0,Mt CO2e,p.17,found,p.17
+21,DR-22,NZP2050,renewable share of generation,2050,67,percent,p.3,found,p.3
+22,DR-22,NP,"investment needs for new electricity system capex, cumulative 2023-2050",2050,8.8,billion USD 2022,p.15,found,p.15
+23,DR-22,NDC2030,"investment needs for new electricity system capex, cumulative 2023-2050",2050,11.9,billion USD 2022,p.16,found,p.16
+24,DR-22,NZP2050,"investment needs for new electricity system capex, cumulative 2023-2050",2050,25.5,billion USD 2022,p.17,found,p.17
+25,DR-22,NP,battery storage capacity,2050,1.1,GW,p.8,found,p.8
+26,DR-22,NDC2030,battery storage capacity,2050,2.4,GW,p.8,found,p.8
+27,DR-22,NZP2050,battery storage capacity,2050,11.9,GW,p.8,found,p.8
+28,DR-22,NZP2050,offshore wind capacity,2050,8.5,GW,p.7,found,p.7
+29,DR-22,NP,"electric vehicle share of the fleet, scenario assumption",2050,8,percent,p.14,found,p.14
+30,DR-22,NDC2030,"electric vehicle share of the fleet, scenario assumption",2030,7.2,percent,p.14,found,p.14
+31,DR-22,NDC2030,"electric vehicle share of the fleet, scenario assumption",2050,9.3,percent,p.14,found,p.14
+32,DR-22,NZP2050,"electric vehicle share of the fleet, scenario assumption",2030,15,percent,p.14,found,p.14
+33,DR-22,NZP2050,"electric vehicle share of the fleet, scenario assumption",2050,70,percent,p.14,found,p.14
+34,DR-23,Base,SENI GHG emissions,2050,23.7,Mt CO2e,p.23,found,p.23
+35,DR-23,Referencia,SENI GHG emissions,2050,20.5,Mt CO2e,p.23,found,p.23
+36,DR-23,Renovables,SENI GHG emissions,2050,11.2,Mt CO2e,p.23,found,p.23
+37,DR-23,Renovables,non-conventional renewable share of generation,2050,55,percent,p.5,found,p.5
+38,DR-23,Renovables,cumulative avoided emissions against Base,2050,140,Mt CO2e,p.22,found,p.22
+39,DR-23,Renovables,avoided emissions against Base,2030,5,Mt CO2e,p.22,found,p.22
+40,DR-23,Renovables,"net benefit against Base, cumulative to mid-century",2050,2700,million USD,p.20,found,p.20
+41,DR-23,Gas natural,"net benefit against Base, cumulative to mid-century",2050,2300,million USD,p.21,found,p.21
+42,DR-23,Referencia,"net benefit against Base, cumulative to mid-century",2050,1300,million USD,p.21,found,p.21
+43,DR-23,Renovables,additional generation capex against Base,2050,3300,million USD,p.20,found,p.20
+44,DR-23,Renovables,cumulative additional direct jobs,2050,160000,jobs,p.24,found,p.24
+45,DR-24,Tendencial,national GHG emissions,2018,28.2,Mt CO2e,p.9,found,p.9
+46,DR-24,Tendencial,national GHG emissions,2050,75,Mt CO2e,p.9,found,p.9
+47,DR-24,Estrategia (LTS),national GHG emissions,2050,17.4,Mt CO2e,p.9,found,p.9
+48,DR-24,Estrategia (LTS),national GHG emission reduction against Tendencial,2050,76,percent,p.9,found,p.9
+49,DR-24,Estrategia (LTS),"net benefit against Tendencial, upper percentile futures, cumulative 2024-2050",2050,52,billion USD,p.10,found,p.10
+50,DR-24,Estrategia (LTS),"wind onshore share of generation, scenario assumption",2050,30,percent,p.18,found,p.18
+51,DR-24,Estrategia (LTS),"natural gas share of generation, scenario assumption",2050,20,percent,p.18,found,p.18
+52,DR-24,Estrategia (LTS),"technical distribution losses, scenario assumption",2050,8,percent,p.18,found,p.18
+53,DR-24,Estrategia (LTS),"electric share of cars, SUVs, motorcycles and buses, scenario assumption",2050,70,percent,p.19,found,p.19
+54,DR-24,Estrategia (LTS),"public transport modal shift, scenario assumption",2050,20,percent,p.19,found,p.19
+55,DR-24,Estrategia (LTS),"emission reduction against Tendencial, energy",2050,22.6,Mt CO2e,p.19,found,p.19
+56,DR-24,Estrategia (LTS),"emission reduction against Tendencial, transport",2050,5.4,Mt CO2e,p.19,found,p.19
+57,DR-24,Estrategia (LTS),"net benefit against Tendencial, energy and transport",2050,46,billion USD,p.19,found,p.19
+58,DR-24,Estrategia (LTS),"emission reduction against Tendencial, AFOLU",2050,76.2,percent,p.25,found,p.25
+59,DR-24,Estrategia (LTS),"emission reduction against Tendencial, IPPU",2050,8.25,Mt CO2e,p.31,found,p.31
+60,DR-24,Estrategia (LTS),"emission reduction against Tendencial, waste",2050,6.8,Mt CO2e,p.37,found,p.37
+61,DR-25,Draft LT-LEDS,,,,,p.2,no_value,
+62,DR-25,Renewable electricity (DR-23),additional investment by 2050 against a baseline,2050,3.3,billion USD,p.2,found,p.2
+63,DR-26,Escenario tendencial,energy demand,2038,12248,ktep,p.28,found,p.28
+64,DR-26,Escenario tendencial,imports share of total supply,2038,69.37,percent,p.28,found,p.28
+65,DR-26,Escenario alternativo,energy demand,2038,13540,ktep,p.29,found,p.29
+66,DR-26,Escenario alternativo,imports share of total supply,2038,69.75,percent,p.29,found,p.29
+67,DR-26,PEN 2025-2038,renewable investment needed to reach at least 30 percent renewables,2030,5400,million USD,p.32,found,p.32
+68,DR-26,PEN 2025-2038,maximum electricity demand,2038,7595,MW,p.37,found,p.37

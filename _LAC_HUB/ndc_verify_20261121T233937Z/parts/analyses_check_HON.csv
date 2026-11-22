@@ -1,0 +1,51 @@
+line,source_id,scenario,indicator,year,value,unit,page,status,how
+2,HON-21,ENME target,electric vehicle share of the national vehicle fleet,2030,3,percent,p.24,found,p.24
+3,HON-21,ENME target,electric vehicle share of the national vehicle fleet,2050,15,percent,p.24,found,p.24
+4,HON-22,Tendencial,,,,,p.11,no_value,
+5,HON-22,ENDRCH,GHG emission reduction against Tendencial,2050,67,percent,p.8,found,p.8
+6,HON-22,ENDRCH,energy sector emission reduction against the peak projected in Tendencial,2050,47,percent,p.12,found,p.12
+7,HON-22,ENDRCH,energy sector emission reduction against Tendencial (transport chapter text),2050,50,percent,p.16,found,p.16
+8,HON-22,ENDRCH,"net saving against Tendencial (CAPEX, OPEX and externalities, cumulative to 2050)",2050,4.43,billion USD,p.12,found,p.12
+9,HON-22,ENDRCH,"renewable share of generation (solar, wind, hydro), scenario assumption",2050,70,percent,p.11,found,p.11
+10,HON-22,ENDRCH,"natural gas share of generation, scenario assumption",2050,20,percent,p.11,found,p.11
+11,HON-22,ENDRCH,"bioenergy share of generation, scenario assumption",2050,10,percent,p.11,found,p.11
+12,HON-22,ENDRC Ambicioso,"renewable share of generation (solar, wind, hydro), scenario assumption",2050,75,percent,p.11,found,p.11
+13,HON-22,ENDRCH,"battery storage capacity added, scenario assumption",2033,150,MW,p.11,found,p.11
+14,HON-22,ENDRCH,"battery share of installed capacity, scenario assumption",2050,5,percent,p.11,found,p.11
+15,HON-22,ENDRCH,"firewood consumption reduction against Tendencial, scenario assumption",2030,39,percent,p.12,found,p.12
+16,HON-22,ENDRCH,"electrification of end uses against Tendencial, scenario assumption",2050,60,percent,p.12,found,p.12
+17,HON-22,ENDRCH,"electrification of end uses against Tendencial, scenario assumption",2050,40,percent,p.12,found,p.12
+18,HON-22,ENDRCH,net LULUCF removals,2050,6617,Gg CO2e,p.21,found,p.21
+19,HON-22,Tendencial,net LULUCF removals,2050,3494,Gg CO2e,p.21,found,p.21
+20,HON-22,ENDRCH,"forest cover restored, scenario assumption",2030,1,million ha,p.20,found,p.20
+21,HON-23,Escenario I,electric motorcycle share,2030,3,percent,p.31,found,p.31
+22,HON-23,Escenario I,electric motorcycle share,2050,5,percent,p.31,found,p.31
+23,HON-23,Escenario II,electric motorcycle share,2030,15,percent,p.34,found,p.34
+24,HON-23,Escenario II,electric motorcycle share,2050,40,percent,p.34,found,p.34
+25,HON-23,Escenario II,CO2 emission change against Escenario I (transformation and transport),2030,-6,percent,p.53,found,p.53
+26,HON-23,Escenario II,CO2 emission change against Escenario I (transformation and transport),2050,-19,percent,p.53,found,p.53
+27,HON-23,Escenario III,CO2 emission change against Escenario I (transformation and transport),2030,-17,percent,p.53,found,p.53
+28,HON-23,Escenario III,CO2 emission change against Escenario I (transformation and transport),2050,-40,percent,p.53,found,p.53
+29,HON-23,Escenario IV,CO2 emission change against Escenario I (transformation and transport),2030,-24,percent,p.53,found,p.53
+30,HON-23,Escenario IV,CO2 emission change against Escenario I (transformation and transport),2035,-44,percent,p.53,found,p.53
+31,HON-23,Escenario IV,CO2 emission change against Escenario I (transformation and transport),2050,-56,percent,p.53,found,p.53
+32,HON-23,Escenario I,average cost of electricity production 2019-2050,2019-2050,132.5,USD 2018 per MWh,p.54,found,p.54
+33,HON-23,Escenario IV,average cost of electricity production 2019-2050,2019-2050,140.2,USD 2018 per MWh,p.54,found,p.54
+34,HON-23,Escenario I,cumulative generation expansion investment to 2030,2030,3600,million USD 2018,p.53,found,p.53
+35,HON-23,Escenario IV,additional cumulative generation investment against Escenario I,2050,1300,million USD 2018,p.53,found,p.53
+36,HON-24,BAU,total GHG emissions,2022,14.7,Mt CO2e,p.49,found,p.49
+37,HON-24,BAU,total GHG emissions,2050,54.8,Mt CO2e,p.49,found,p.49
+38,HON-24,EA 2045,emission reduction against BAU,2030,19.1,percent,p.49,found,p.49
+39,HON-24,LA 2045,emission reduction against BAU,2030,19.1,percent,p.49,found,p.49
+40,HON-24,LA 2050,emission reduction against BAU,2030,14.7,percent,p.49,found,p.49
+41,HON-24,EA 2045,emissions below BAU,2050,111.4,percent,p.50,found,p.50
+42,HON-24,EA 2050,emissions below BAU,2050,101.1,percent,p.50,found,p.50
+43,HON-24,LA 2045,emissions below BAU,2050,116.0,percent,p.50,found,p.50
+44,HON-24,LA 2050,emissions below BAU,2050,101.5,percent,p.50,found,p.50
+45,HON-24,EA 2050,real GDP,2050,26.95,billion USD,p.51,found,p.51
+46,HON-24,EA 2045,additional jobs against BAU,2050,179194,jobs,p.51,found,p.51
+47,HON-25,Low,CO2 emission reduction against BAU,2030,3,percent,p.38,found,p.38
+48,HON-25,NDC Energy,CO2 emission reduction against BAU,2030,9,percent,p.38,found,p.38
+49,HON-25,Paris Aligned,CO2 emission reduction against BAU,2030,20,percent,p.38,found,p.38
+50,HON-25,NDC Energy,carbon charge,2030,33,USD per tCO2e,p.38,found,p.38
+51,HON-25,Paris Aligned,additional revenue,2030,2.69,percent of GDP,p.38,found,p.38
