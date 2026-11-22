@@ -162,8 +162,10 @@ def share(code, scen, year, which="renew"):
     return round(q[q.Technology.map(f)].Value.sum() / tot, 4)
 
 
-def capacity(code, scen, year, pattern):
-    c = cap[(cap.Country == MODEL_COUNTRY[code]) & (cap.Scenario == scen) & (cap.Year == year) & cap.Technology.str.match(r"^(PWR|PP)")]
+def capacity(code, scen, year, pattern, plants_only=True):
+    c = cap[(cap.Country == MODEL_COUNTRY[code]) & (cap.Scenario == scen) & (cap.Year == year)]
+    if plants_only:
+        c = c[c.Technology.str.match(r"^(PWR|PP)")]
     c = c[c.Technology.map(pattern)]
     return round(c.Value.sum() * 1000, 1)
 
@@ -175,6 +177,8 @@ def label(code, scen, year, lab):
 
 def tech_pattern(desc):
     d = desc.lower()
+    if "storage" in d or "almacenamiento" in d or "batter" in d:
+        return lambda t: "STO" in t or "BAT" in t, "storage technologies"
     if "distribut" in d or "self-generation" in d or "autoprod" in d:
         return lambda t: bool(re.search(r"(PVD|SPVD|DBIM|DBGS|DHYD)", t)), "distributed renewable plant types"
     if re.search(r"solar|photovolt|\bpv\b", d):
@@ -213,7 +217,7 @@ def classify(v):
         return "emissions"
     if re.search(r"fleet|vehic|bus|taxi|train|railway|rail|freight|passenger", t):
         return "vehicles"
-    if re.search(r"ethanol|blend|biofuel|biodiesel|saf", t):
+    if re.search(r"ethanol|blend|biofuel|biodiesel|saf|e10|e15", t):
         return "blend"
     if re.search(r"efficien|saving|saved|intensity", t):
         return "efficiency"
@@ -320,17 +324,19 @@ def main():
                 if "clean" in t:
                     row["same_kind"] = "partly: the document says clean, the model share counts renewables only"
             elif kind == "capacity":
-                pat, pname = tech_pattern(desc + " " + v["indicator"])
+                pat, pname = tech_pattern(v["indicator"])
+                if pat is None:
+                    pat, pname = tech_pattern(desc)
                 if pat is None:
                     row["same_kind"] = "different quantity"
                     row["data_needed_to_convert"] = "the plant types the target covers"
                 else:
                     for s in SCEN:
                         for y in YEARS:
-                            row[f"{s}_{y}"] = capacity(code, s, y, pat)
+                            row[f"{s}_{y}"] = capacity(code, s, y, pat, pname != "storage technologies")
                     row["model_quantity"] = f"installed capacity of {pname}"
                     row["model_unit"] = "MW"
-                    b = capacity(code, "NDCNEW", 2022, pat)
+                    b = capacity(code, "NDCNEW", 2022, pat, pname != "storage technologies")
                     t = (v["indicator"] + " " + desc).lower()
                     if re.search(r"new|additional|adicional|retire|retir|phase", t):
                         row["same_kind"] = "partly: the document states added or retired capacity, the model gives installed capacity in each year"
@@ -381,17 +387,10 @@ def main():
                 row["note"] = "nearest model quantity, NDCNEW 2035: " + "; ".join(f"{x['technology']} {x['NDCNEW_2035']}" for x in el[:8])
             elif kind == "blend":
                 t = desc.lower()
-                if code == "CR" and "ethanol" in t:
-                    q = prod[(prod.Country == "CostaRica")]
-                    for s in SCEN:
-                        for y in YEARS:
-                            a = q[(q.Scenario == s) & (q.Year == y) & (q.Fuel == "E1_ETA")].Value.sum()
-                            b = q[(q.Scenario == s) & (q.Year == y) & (q.Technology == "BLEND_GSL")].Value.sum()
-                            row[f"{s}_{y}"] = round(a / b, 4) if b else None
-                    row["model_quantity"] = "ethanol production E1_ETA over blended gasoline output BLEND_GSL (energy basis)"
-                    row["model_unit"] = "fraction (energy)"
-                    row["same_kind"] = "partly: same thing on an energy basis; the document states a volume share"
-                    row["data_needed_to_convert"] = "lower heating values per litre of ethanol and gasoline from a cited source"
+                if code == "CR" and re.search(r"ethanol|e10|e15|gasolin", t + " " + v["indicator"].lower()):
+                    row["model_quantity"] = "none readable: BLEND_GSL takes 1.0 of E1_PURGSL and 1.0 of E1_ETA per unit of E1_GSL (B1_Output_Params NDCNEW InputActivityRatio, 2030 and 2035), so the solved flows give no blend share"
+                    row["same_kind"] = "different quantity"
+                    row["data_needed_to_convert"] = "blend input ratios that sum to one unit of blend (energy basis), then the lower heating values per litre of ethanol and gasoline to compare with a volume share"
                 else:
                     row["same_kind"] = "different quantity"
                     row["data_needed_to_convert"] = "a biofuel or ethanol fuel and blending technology in the model, or the blend shares the model applies"
