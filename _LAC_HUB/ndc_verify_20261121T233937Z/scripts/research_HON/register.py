@@ -65,6 +65,13 @@ def main():
             with open(final, "rb") as f:
                 assert f.read(4) == b"%PDF", final
             pages = pdf_pages_text(final)
+            try:
+                import pypdf
+                n = len(pypdf.PdfReader(final).pages)
+                if n != len(pages):
+                    print("WARNING page count", r["id"], "pypdf", n, "pdftotext", len(pages))
+            except Exception as e:  # noqa: BLE001
+                print("pypdf could not read", r["id"], e)
         else:
             raw = open(final, encoding="utf-8", errors="replace").read()
             pages = [visible_text(raw)]
