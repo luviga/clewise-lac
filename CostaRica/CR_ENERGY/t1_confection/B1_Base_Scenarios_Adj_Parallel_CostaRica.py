@@ -2666,9 +2666,6 @@ if __name__ == '__main__':
                     #'''
 
 
-                if LT.scenario('older_ndc_conditional') == scenario_list[s]:
-                    print('Print A for DEMPUB')
-                    print([round(n, 4) for n in new_value_list_PUB_rounded])
                     # sys.exit()
 
                 #
@@ -2896,9 +2893,6 @@ if __name__ == '__main__':
         this_set_group_range_indices_lm = [ i for i, x in enumerate( stable_scenarios[ scenario_list[ s ] ][ 'TotalTechnologyAnnualActivityLowerLimit' ][ 't' ] ) if x == str( LT.tech('microbus_tech', _TC) ) ]
         value_range_set_group = deepcopy( stable_scenarios[ scenario_list[ s ] ][ 'TotalAnnualMaxCapacity' ]['value'][ this_set_group_range_indices[0]:this_set_group_range_indices[-1]+1 ] )
         value_range_set_group = [ float(value_range_set_group[j]) for j in range( len( time_range_vector ) ) ]
-        if LT.scenario('older_ndc_conditional') == scenario_list[s]:
-            print('Print 1 for TRNMIC')
-            print([round(n, 4) for n in value_range_set_group])
             # sys.exit()
 
         ### BLOCK 4: call and modify the occupancy rate ###
@@ -2928,9 +2922,6 @@ if __name__ == '__main__':
             this_set_group_range_indices_lm = [ i for i, x in enumerate( stable_scenarios[ scenario_list[ s ] ][ 'TotalTechnologyAnnualActivityLowerLimit' ][ 't' ] ) if x == str( LT.tech('microbus_tech', _TC) ) ]
             value_range_set_group = deepcopy( stable_scenarios[ scenario_list[ s ] ][ 'TotalAnnualMaxCapacity' ]['value'][ this_set_group_range_indices[0]:this_set_group_range_indices[-1]+1 ] )
             value_range_set_group = [ float(value_range_set_group[j]) for j in range( len( time_range_vector ) ) ]
-            if LT.scenario('older_ndc_conditional') == scenario_list[s]:
-                print('Print 1.1 for TRNMIC')
-                print([round(n, 4) for n in value_range_set_group])
                 # sys.exit()
 
             ### BLOCK 5: call and re-establish the capacity variables of group techs after modal shift change AND occupancy rate change ###
@@ -3019,9 +3010,6 @@ if __name__ == '__main__':
                         this_set_group_range_indices_lm = [ i for i, x in enumerate( stable_scenarios[ scenario_list[ s ] ][ 'TotalTechnologyAnnualActivityLowerLimit' ][ 't' ] ) if x == str( LT.tech('microbus_tech', _TC) ) ]
                         value_range_set_group = deepcopy( stable_scenarios[ scenario_list[ s ] ][ 'TotalAnnualMaxCapacity' ]['value'][ this_set_group_range_indices[0]:this_set_group_range_indices[-1]+1 ] )
                         value_range_set_group = [ float(value_range_set_group[j]) for j in range( len( time_range_vector ) ) ]
-                        if LT.scenario('older_ndc_conditional') == scenario_list[s]:
-                            print('Print 1.2 for TRNMIC')
-                            print([round(n, 4) for n in value_range_set_group])
                             # sys.exit()
 
                         if adjust_with_rail == False:
@@ -3064,9 +3052,6 @@ if __name__ == '__main__':
                         this_set_group_range_indices_lm = [ i for i, x in enumerate( stable_scenarios[ scenario_list[ s ] ][ 'TotalTechnologyAnnualActivityLowerLimit' ][ 't' ] ) if x == str( LT.tech('microbus_tech', _TC) ) ]
                         value_range_set_group = deepcopy( stable_scenarios[ scenario_list[ s ] ][ 'TotalAnnualMaxCapacity' ]['value'][ this_set_group_range_indices[0]:this_set_group_range_indices[-1]+1 ] )
                         value_range_set_group = [ float(value_range_set_group[j]) for j in range( len( time_range_vector ) ) ]
-                        if LT.scenario('older_ndc_conditional') == scenario_list[s]:
-                            print('Print 1.3 for TRNMIC')
-                            print([round(n, 4) for n in value_range_set_group])
                             # sys.exit()
 
                         #
@@ -3140,9 +3125,6 @@ if __name__ == '__main__':
         this_set_group_range_indices_lm = [ i for i, x in enumerate( stable_scenarios[ scenario_list[ s ] ][ 'TotalTechnologyAnnualActivityLowerLimit' ][ 't' ] ) if x == str( LT.tech('microbus_tech', _TC) ) ]
         value_range_set_group = deepcopy( stable_scenarios[ scenario_list[ s ] ][ 'TotalAnnualMaxCapacity' ]['value'][ this_set_group_range_indices[0]:this_set_group_range_indices[-1]+1 ] )
         value_range_set_group = [ float(value_range_set_group[j]) for j in range( len( time_range_vector ) ) ]
-        if LT.scenario('older_ndc_conditional') == scenario_list[s]:
-            print('\n Print 2 for TRNMIC')
-            print([round(n, 4) for n in value_range_set_group])
             # sys.exit()
 
         #########################################################################################
@@ -3647,9 +3629,6 @@ if __name__ == '__main__':
         this_set_group_range_indices_lm = [ i for i, x in enumerate( stable_scenarios[ scenario_list[ s ] ][ 'TotalTechnologyAnnualActivityLowerLimit' ][ 't' ] ) if x == str( LT.tech('microbus_tech', _TC) ) ]
         value_range_set_group = deepcopy( stable_scenarios[ scenario_list[ s ] ][ 'TotalAnnualMaxCapacity' ]['value'][ this_set_group_range_indices[0]:this_set_group_range_indices[-1]+1 ] )
         value_range_set_group = [ float(value_range_set_group[j]) for j in range( len( time_range_vector ) ) ]
-        if LT.scenario('older_ndc_conditional') == scenario_list[s]:
-            print('\n Print 3 for TRNMIC')
-            print([round(n, 4) for n in value_range_set_group])
             # sys.exit()
 
         if params['Use_Transport_B1']:
@@ -3693,11 +3672,7 @@ if __name__ == '__main__':
                             except Exception:
                                 train_pass_capacity_values = [0 for i in range(len(time_range_vector))]
 
-                            if Fleet_Groups_techs_2_dem[ this_group_set ] == params['tra_dem_pub'] and scenario_list[ s ] == params[LT.scenario('older_ndp')]:
-                                subtract_list = [float(train_pass_capacity_values[j]) for j in range(len(train_pass_capacity_values))]
-                                # subtract_list = [0 for j in range(len(train_pass_capacity_values))]
-                            else:
-                                subtract_list = [0 for j in range(len(train_pass_capacity_values))]
+                            subtract_list = [0 for j in range(len(train_pass_capacity_values))]
             
                             demand_indices = [ i for i, x in enumerate( stable_scenarios[scenario_list[s]][ 'SpecifiedAnnualDemand' ][ 'f' ] ) if x == str( this_demand_set ) ]
                             demand_list = deepcopy( stable_scenarios[scenario_list[s]][ 'SpecifiedAnnualDemand' ]['value'][ demand_indices[0]:demand_indices[-1]+1 ] )
@@ -3857,9 +3832,6 @@ if __name__ == '__main__':
         this_set_group_range_indices_lm = [ i for i, x in enumerate( stable_scenarios[ scenario_list[ s ] ][ 'TotalTechnologyAnnualActivityLowerLimit' ][ 't' ] ) if x == str( LT.tech('microbus_tech', _TC) ) ]
         value_range_set_group = deepcopy( stable_scenarios[ scenario_list[ s ] ][ 'TotalAnnualMaxCapacity' ]['value'][ this_set_group_range_indices[0]:this_set_group_range_indices[-1]+1 ] )
         value_range_set_group = [ float(value_range_set_group[j]) for j in range( len( time_range_vector ) ) ]
-        if LT.scenario('older_ndc_conditional') == scenario_list[s]:
-            print('\n Print 4 for TRNMIC')
-            print([round(n, 4) for n in value_range_set_group])
             # sys.exit()
 
         #***********************************************************************************************
@@ -4088,7 +4060,7 @@ if __name__ == '__main__':
                     if scenario_list_based[sb] != params[LT.scenario('base')]:
                         Blend_Shares.update( { this_scenario_name:Blend_Shares[ scenario_list_based[sb] ] } )
                     else:
-                        Blend_Shares.update( { this_scenario_name:Blend_Shares[ params[LT.scenario('older_ndp')] ] } )
+                        Blend_Shares.update( { this_scenario_name:Blend_Shares[ LT.scenario('ndc') ] } )
                 Reference_driven_distance.update( { this_scenario_name:Reference_driven_distance[ scenario_list_based[sb] ] } )
                 Reference_occupancy_rate.update( { this_scenario_name:Reference_occupancy_rate[ scenario_list_based[sb] ] } )
                 Reference_op_life.update( { this_scenario_name:Reference_op_life[ scenario_list_based[sb] ] } )

@@ -2855,13 +2855,6 @@ if __name__ == '__main__':
         unique_max_cap_techs = list( set( stable_scenarios[ scenario_list[s] ][ 'TotalAnnualMaxCapacity' ][ 't' ] ) )
         unique_low_lim_techs = list( set( stable_scenarios[ scenario_list[s] ][ 'TotalTechnologyAnnualActivityLowerLimit' ][ 't' ] ) )
 
-        if scenario_list[s] == LT.scenario('older_ndp'):
-           zzz1 = list(set(list(stable_scenarios[LT.scenario('older_ndp')]['TotalAnnualMaxCapacity']['t'])))
-           zzz1b = list(set(list(stable_scenarios[LT.scenario('older_ndp')]['TotalTechnologyAnnualActivityLowerLimit']['t'])))
-           print('zzz1', len(zzz1), len(zzz1b))
-            # list zzz1 and zz1b to a csv file
-
-           pd.DataFrame(zzz1 + zzz1b).to_csv('zzz1.csv')
 
           #  sys.exit()
         
@@ -3249,10 +3242,7 @@ if __name__ == '__main__':
                         except Exception:
                             train_pass_capacity_values = [0 for i in range(len(time_range_vector))]
 
-                        if Fleet_Groups_techs_2_dem[ this_group_set ] == LT.fuel('passenger_public_demand') and scenario_list[ s ] == LT.scenario('older_ndp'):
-                            subtract_list = [float(train_pass_capacity_values[j]) for j in range(len(train_pass_capacity_values))]
-                        else:
-                            subtract_list = [0 for j in range(len(train_pass_capacity_values))]
+                        subtract_list = [0 for j in range(len(train_pass_capacity_values))]
         
                         demand_indices = [ i for i, x in enumerate( stable_scenarios[scenario_list[s]][ 'SpecifiedAnnualDemand' ][ 'f' ] ) if x == str( this_demand_set ) ]
                         demand_list = deepcopy( stable_scenarios[scenario_list[s]][ 'SpecifiedAnnualDemand' ]['value'][ demand_indices[0]:demand_indices[-1]+1 ] )
@@ -3649,7 +3639,7 @@ if __name__ == '__main__':
             if scenario_list_based[sb] != LT.scenario('base'):
                 Blend_Shares.update( { this_scenario_name:Blend_Shares[ scenario_list_based[sb] ] } )
             else:
-                Blend_Shares.update( { this_scenario_name:Blend_Shares[ LT.scenario('older_ndp') ] } )
+                Blend_Shares.update( { this_scenario_name:Blend_Shares[ LT.scenario('ndc') ] } )
             Reference_driven_distance.update( { this_scenario_name:Reference_driven_distance[ scenario_list_based[sb] ] } )
             Reference_occupancy_rate.update( { this_scenario_name:Reference_occupancy_rate[ scenario_list_based[sb] ] } )
             Reference_op_life.update( { this_scenario_name:Reference_op_life[ scenario_list_based[sb] ] } )

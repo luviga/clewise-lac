@@ -13,7 +13,7 @@ _TC = LT.country_of(__file__)
 _TB1 = LT.stage_values('execution', _TC)
 
 REGION_STR = LT.country_value(_TC, 'code')
-LTS_STR = LT.scenario('older_lts')
+LTS_STR = LT.scenario('lts')
 
 DISC_YR = _TB1['discount_year']
 """

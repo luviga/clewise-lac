@@ -1031,9 +1031,9 @@ for d in range(len(list_dicts)):
     # df_to_print = df_to_print.replace( { 'Scenario':{"LTS":"LTSNZ"} } )
     # df_to_print.to_csv( './A2_Output_Params/LTSNZ/' + list_dicts[d] + '.csv', index=False, header=True)
     # df_to_print = df_to_print.replace( { 'Scenario':{"LTSNZ":"NDCincond"} } )
-    df_to_print.to_csv( './A2_Output_Params/' + LT.scenario('older_ndc_unconditional') + '/' + list_dicts[d] + '.csv', index=False, header=True)
     df_to_print = df_to_print.replace( { 'Scenario':{LT.scenario('older_ndc_unconditional'):LT.scenario('older_ndc_conditional')} } )
-    df_to_print.to_csv( './A2_Output_Params/' + LT.scenario('older_ndc_conditional') + '/' + list_dicts[d] + '.csv', index=False, header=True)
+    for scen in LT.scenarios('policy'):  # the scenarios in use that this output feeds
+        df_to_print.to_csv( './A2_Output_Params/' + scen + '/' + list_dicts[d] + '.csv', index=False, header=True)
 #
 end_2 = time.time()   
 time_elapsed_2 = -start1 + end_2

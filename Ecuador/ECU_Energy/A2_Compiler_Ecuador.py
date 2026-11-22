@@ -24,7 +24,6 @@ BY_INT = _TA2['base_year']
 BY_INT: introduce the base yaer
 """
 
-LTS_STR = LT.scenario('older_ndc_incremental')
 
 import pandas as pd
 import pickle
@@ -1039,12 +1038,7 @@ for d in range( len( list_dicts ) ):
     os.makedirs('./A2_Output_Params/' + LT.scenario('base') + '/', exist_ok=True)
     df_to_print.to_csv( './A2_Output_Params/' + LT.scenario('base') + '/' + list_dicts[d] + '.csv', index=False, header=True)
 #
-list_dicts = list( overall_param_df_dict_ndp.keys() )
-for d in range( len( list_dicts ) ):
-    df_to_print = overall_param_df_dict_ndp[ list_dicts[d] ]
-    df_to_print = df_to_print.replace( { 'Scenario':{ other_setup_params[ 'Main_Scenario' ]:other_setup_params[ 'Other_Scenarios' ] } } )
-    os.makedirs('./A2_Output_Params/' + other_setup_params['Other_Scenarios'], exist_ok=True)
-    df_to_print.to_csv( './A2_Output_Params/'+other_setup_params[ 'Other_Scenarios' ]+'/' + list_dicts[d] + '.csv', index=False, header=True)
+# The output under the older scenario name NDCINC is retired: no scenario in use read it.
 #
 end_2 = time.time()   
 time_elapsed_2 = -start1 + end_2

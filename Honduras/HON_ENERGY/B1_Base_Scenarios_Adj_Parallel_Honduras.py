@@ -3716,7 +3716,7 @@ if __name__ == '__main__':
         #***********************************************************************************************
         ### BLOCK 10: Integrate biofuels according to RECOPE / *we must use a new interpolation function*.
         #  Note: the biodiesel blend will affect all the sectors, not only transport.
-        if scenario_list[s] not in  [LT.scenario('base'),LT.scenario('older_ndc_unconditional'),LT.scenario('older_ndc_conditional')]: #[LT.scenario('base'),'NDCincond','NDCcond']# GENERALIZE THIS LATER.
+        if scenario_list[s] not in  [LT.scenario('base')]: #[LT.scenario('base'),'NDCincond','NDCcond']# GENERALIZE THIS LATER.
             #
             Diesel_Techs = []
             #
@@ -3785,7 +3785,7 @@ if __name__ == '__main__':
             if scenario_list_based[sb] != LT.scenario('base'):
                 Blend_Shares.update( { this_scenario_name:Blend_Shares[ scenario_list_based[sb] ] } )
             else:
-                Blend_Shares.update( { this_scenario_name:Blend_Shares[ LT.scenario('older_ndp') ] } )
+                Blend_Shares.update( { this_scenario_name:Blend_Shares[ LT.scenario('ndc') ] } )
             Reference_driven_distance.update( { this_scenario_name:Reference_driven_distance[ scenario_list_based[sb] ] } )
             Reference_occupancy_rate.update( { this_scenario_name:Reference_occupancy_rate[ scenario_list_based[sb] ] } )
             Reference_op_life.update( { this_scenario_name:Reference_op_life[ scenario_list_based[sb] ] } )
