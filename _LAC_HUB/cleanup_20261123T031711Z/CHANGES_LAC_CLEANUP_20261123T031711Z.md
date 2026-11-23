@@ -70,4 +70,4 @@ The experiment-manager keys (F9) are left as they are.
 ## Commit 5: job folder
 
 `_LAC_HUB/cleanup_20261123T031711Z/`
-: PROGRESS, REPORT, GAPS and CHANGES; `baseline_against_main.csv`, `stage2_holes.csv`, `deletions.csv`, `workbook_checks.csv`; the job scripts (run, snapshot, gate, step edits, hole scan, relaxation, label scan) without the machine file and the solver wrapper that a run writes with machine paths; the step 1 test patch and the step 5 search tables. Run logs and tables of result figures stay local (GAPS).
+: PROGRESS, REPORT, GAPS and CHANGES; `baseline_against_main.csv`, `stage2_holes.csv`, `deletions.csv`, `workbook_checks.csv`; the job scripts (run, snapshot, gate, step edits, hole scan, relaxation, label scan) without the machine file and the solver wrapper that a run writes with machine paths; the step 5 search tables. Run logs, tables of result figures and the step 1 test patch (its blank context lines fail the whitespace check; the fix itself is in commit 1) stay local (GAPS).

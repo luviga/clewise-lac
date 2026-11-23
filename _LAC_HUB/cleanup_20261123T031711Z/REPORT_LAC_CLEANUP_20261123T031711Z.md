@@ -23,7 +23,7 @@ The baseline run on the start commit compared with the files that main holds: 0 
 | 4 Guatemala | 4,823 s | expected changes only | only Guatemala rows change (keyed results compare); Stage 2: 16 values in each of CURRENT_SHARES, CURRENT_LOWER and TARGET_SHARES (Guatemala BAU non-hydro renewables 2030 and 2031); Stage 3 inputs: 68 rows of Guatemala BAU, 10 each of NDC and LTS (zero-lower plants PPPVDS and PPPVTS 2025 to 2029 get upper 0 in place of 99999) |
 | 5 deletions | 4,705 s | against step 4 | 0 differences in compiled inputs, 36 data files and 36 objectives; the one tree difference is the deleted `CONTROLLER_NEW_SCENARIOS_BEFORE.xlsx` |
 | 6 labels | 4,641 s | against step 5 | 36 data files and 36 objectives equal; every tree difference is a label or note: the three TotalAnnualMinCapacity files (33 rows each, equal without the Scenario column), the three override CSVs (first five fields of every line equal) and the note cells of five override workbooks (cell counts equal the edit counts); `workbook_checks.csv` 13 of 13 PASS; old-label scan of the six energy models: 3 files with an old label before, 0 of 1,065 after |
-| 7 pull request | | `git diff --check` with `core.whitespace=cr-at-eol` | clean |
+| 7 pull request | | `git diff --check` with `core.whitespace=cr-at-eol` | clean after the step 1 test patch left the commit (its blank context lines were flagged; see GAPS) |
 
 ## Stage 3 objectives
 
