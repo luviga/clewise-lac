@@ -1,8 +1,5 @@
 # MODELS_LAC_5 ignore rules (LAC_REPO_SETUP 20261109T065948Z)
 
-# Size: no tracked file may exceed 50 MB
-/models_energy_RE_generation_costs_update/HON_ENERGY/Executables/NDCcond_0/NDCcond_0_output.txt
-
 # Size: regenerated B1/solver run folders, to keep the repository under 2 GB
 Executables/
 
@@ -24,9 +21,6 @@ Executables/
 /Jamaica/JAM_ENERGY/RSS_Buildings.pptx
 /Jamaica/JAM_ENERGY/RSS_Electricity.pptx
 /Jamaica/JAM_ENERGY/RSS_Industry.pptx
-/models_energy_RE_generation_costs_update/JAM_ENERGY/RSS_Buildings.pptx
-/models_energy_RE_generation_costs_update/JAM_ENERGY/RSS_Electricity.pptx
-/models_energy_RE_generation_costs_update/JAM_ENERGY/RSS_Industry.pptx
 
 # Email files (third-party correspondence)
 *.msg
