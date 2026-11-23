@@ -1,0 +1,6 @@
+date_utc,route,url,http_status,result
+2026-11-23T16:40:16Z,1 national statistics STATIN,https://statinja.gov.jm/,200,STATIN home; links to International Merchandise Trade pages (newtrade.aspx and Table7 search).
+2026-11-23T16:40:16Z,1 national statistics STATIN,https://statinja.gov.jm/InternationalMerchandiseTradeTable7.aspx,200,"HS/SITC/country search form, but year dropdown only offers 2008, 2011-2014; no 2019-2023."
+2026-11-23T16:40:16Z,1 national statistics STATIN,https://statinja.gov.jm/Trade-Econ%20statistics/InternationalMerchandiseTrade/newtrade.aspx,200,"Trade tables tree: balance of trade, imports by SITC section and end-use (value only, '000); no HS tariff-line tables, no units."
+2026-11-23T16:40:16Z,1 national statistics STATIN,https://statinja.gov.jm/Trade-Econ%20Statistics/InternationalMerchandiseTrade/,403,Directory listing forbidden.
+2026-11-23T16:40:16Z,1 national customs JCA,https://www.jacustoms.gov.jm/,000,curl TLS certificate verification error (exit 60); site not reached by script.

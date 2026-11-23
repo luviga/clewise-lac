@@ -1,0 +1,8 @@
+date_utc,route,url,http_status,result
+2026-11-23T16:40:21Z,1 national statistics INE,https://www.ine.gob.hn,200,INE home page; links to Anuario de Comercio Exterior and comercio exterior section
+2026-11-23T16:40:21Z,1 national statistics INE,https://ine.gob.hn/2024/10/10/anuario-estadistico-de-comercio-exterior-2019-2023/,200,"Anuario Comex 2019-2023: 8 xls tables by section/chapter/country only; no tariff lines, no units"
+2026-11-23T16:40:21Z,1 national statistics INE,https://ine.gob.hn/2026/02/28/anuario-estadistico-de-comercio-exterior-2021-2025/,200,"Anuario Comex 2021-2025: xls tables by sections and main export products; imports only by section, no tariff lines"
+2026-11-23T16:40:21Z,1 national statistics INE,https://temp.ine.gob.hn/comercio-exterior/,000,Connection failed (host temp.ine.gob.hn did not respond)
+2026-11-23T16:40:21Z,1 national customs,https://www.aduanas.gob.hn,403,Cloudflare block page (Attention Required) for scripted request
+2026-11-23T16:40:21Z,1 national central bank BCH,https://www.bch.hn/estadisticas-y-publicaciones-economicas/sector-externo,200,SharePoint page rendered by JavaScript; no static links to trade files
+2026-11-23T16:40:21Z,2 SIECA,https://estadisticas.sieca.int,202,HTTP 202 with empty body (bot challenge or JS app) for scripted request
