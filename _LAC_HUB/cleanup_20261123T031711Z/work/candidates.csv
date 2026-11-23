@@ -1,0 +1,55 @@
+path,why
+CostaRica/CR_ENERGY/t1_confection/Blend_Shares_0.pickle,F8: written only when Use_Blend_Shares_B1 is true (it is false) and never loaded
+Guatemala/GUA_ENERGY/B1_Scenario_Config_WORKS_1.xlsx,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Guatemala/GUA_ENERGY/IMP_ELE_constraints_for_config.xlsx,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Honduras/HON_ENERGY/HON_IMP_ELE_constraints_for_config.xlsx,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Jamaica/JAM_ENERGY/A2_Compiler.py,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Jamaica/JAM_ENERGY/B1_Scenario_Config_ENERGY.xlsx,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Jamaica/JAM_ENERGY/B1_Scenario_Config_JAM_not_official_v2.xlsx,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Jamaica/JAM_ENERGY/B1_Scenario_Config_v0126.xlsx,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Jamaica/JAM_ENERGY/JAM_AO_BAU_edits.xlsx,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+_STAGE1_OUTPUT/CONTROLLER_NEW_SCENARIOS_BEFORE.xlsx,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Ecuador/ECU_Energy/A2_Compiler.py,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel_Ecuador.py,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+CostaRica/CR_ENERGY/config_plots/test_inputs.py,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+CostaRica/CR_ENERGY/t1_confection/tests_results/comparison_results_NDCcond_0.txt,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+CostaRica/CR_ENERGY/t1_confection/tests_results/comparison_results_NDCincond_0.txt,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+DominicanRepublic/RD_ENERGY/A2_Compiler.py,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_ADJ_TESTEOS.py,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Honduras/HON_ENERGY/A2_Compiler.py,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel.py,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+CostaRica/CR_ENERGY/t1_confection/A2_Extra_Inputs/A-Xtra_Scenarios.xlsx,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+CostaRica/CR_ENERGY/config_plots/plots_config.yaml,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+CostaRica/CR_ENERGY/t1_confection/MOMF_T1_B1.yaml,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Ecuador/ECU_Energy/A1_Outputs/A-O_Parametrization_PLANMICC.xlsx,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Guatemala/GUA_ENERGY/A1_Outputs/A-O_Parametrization_COMPLETED.xlsx,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Guatemala/GUA_ENERGY/A1_Outputs/A-O_Parametrization_Natural_COMPLETED.xlsx,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Guatemala/GUA_ENERGY/A2_Compiler.py,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios.py,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel.py,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel2.py,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Guatemala/GUA_ENERGY/B1_Energy_Base_Scenarios_Adj_Parallel_mac_DR.py,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Guatemala/GUA_ENERGY/Modify_m1.py,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Honduras/HON_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Honduras/HON_ENERGY/A1_Outputs/A-O_ParametrizationV8.xlsx,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Honduras/HON_ENERGY/A1_Outputs/A-O_Parametrization_COMPLETED.xlsx,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Honduras/HON_ENERGY/A1_Outputs/A-O_Parametrization_Natural_COMPLETED.xlsx,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Honduras/HON_ENERGY/plots_config.yaml,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Honduras/HON_ENERGY/review_txt_file_lower_limit_restrictions.py,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Jamaica/JAM_ENERGY/plots_config.yaml,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Jamaica/JAM_ENERGY/review_txt_file_lower_limit_restrictions.py,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+Jamaica/JAM_ENERGY/test_inputs.py,F9: in scope and not read by the pipeline (names_left.csv of LAC_STRUCTURE_TABLES)
+models_energy_RE_generation_costs_update/,F10: staging copy of five energy models; cost rows equal the live models
+DominicanRepublic/RD_ENERGY/A1_Outputs/reference_pretest/,reference folder inside an energy model folder
+DominicanRepublic/RD_ENERGY/A1_Outputs/reference_previous/,reference folder inside an energy model folder
+DominicanRepublic/RD_ENERGY/A1_Outputs/reference_works/,reference folder inside an energy model folder
+Ecuador/ECU_Energy/A1_Outputs/reference_PLANMICC/,reference folder inside an energy model folder
+Ecuador/ECU_Energy/A1_Outputs/reference_edited/,reference folder inside an energy model folder
+Honduras/HON_ENERGY/A1_Outputs/reference_previous/,reference folder inside an energy model folder
+Honduras/HON_ENERGY/A1_Outputs/reference_useful/,reference folder inside an energy model folder
+CostaRica/CR_ENERGY/t1_confection/A2_Compiler_FPT.py,older copy of a pipeline script or model file inside an energy model folder
+Jamaica/JAM_ENERGY/A1_Model_Structure_ANDREY.py,older copy of a pipeline script or model file inside an energy model folder
+Jamaica/JAM_ENERGY/A1_Model_Structure_ECU.py,older copy of a pipeline script or model file inside an energy model folder
+Jamaica/JAM_ENERGY/A1_Model_Structure_HON.py,older copy of a pipeline script or model file inside an energy model folder
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel.py,older copy of a pipeline script or model file inside an energy model folder
+Jamaica/JAM_ENERGY/OSeMOSYS_Model_OG.txt,older copy of a pipeline script or model file inside an energy model folder
