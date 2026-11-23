@@ -6,7 +6,7 @@ Cells 8983, proposal rows 8983, duplicates 0, cells without a proposal 0, propos
 
 ## Gate 1. Read-only
 
-`git diff --name-only b51f24b HEAD`: 99 files, 0 outside the job folder. `git status --porcelain` lines outside the job folder: 0.
+`git diff --name-only b51f24b HEAD`: 101 files, 0 outside the job folder. `git status --porcelain` lines outside the job folder: 0.
 
 ## Gate 2. Current values
 
