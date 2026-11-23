@@ -208,6 +208,47 @@ Decisions for Luis:
 
 Judgement calls: the shared method (ATB plus GEN-104 anchors) is followed instead of Comtrade unit values, which are partner estimates, CIF only and mixed with used vehicles; heavy trucks use the GEN-104-based diesel price (71,336 US$), not the ATB Class 8 tractor (194,835 US$); microbus distance is compared with the bus figure (44,000 km).
 
+### 2.4 Honduras
+
+Files: `HON/proposals_HON.csv`, `HON/sources_HON.csv` (HON-001 INE vehicle fleet 2017 to 2021; HON-002 UNDP, HEIFER and IHCAFE coffee value chain 2018; HON-003 INE agricultural census 2024 preliminary report, 1 manzana = 0.6993 ha; HON-004 World Bank exchange rate; HON-005 CIAT 2024 basic grains profile), `HON/search_log_HON.csv`, `HON/manual_downloads_HON.csv`.
+
+Counts by class:
+
+| Model | Confirmed | Replace | Assumption | Manual |
+| --- | --- | --- | --- | --- |
+| HON_ENERGY vehicles and chain inputs (1,379) | 222 | 1,089 | 68 | 0 |
+| HON_AFOLU (49) | 2 | 6 | 41 | 0 |
+| HON_WASTE (104) | 0 | 5 | 99 | 0 |
+| Cells, total 1,532 | 224 | 1,100 | 208 | 0 |
+| Pairs, total 124 | 28 | 80 | 16 | 0 |
+
+What was used. No Honduran document publishes vehicle prices, distance per vehicle or vehicle life by type (no SAR or customs valuation table and no SAG or DICTA crop budget is online; the electric mobility strategy draft returns HTTP 403, manual). The vehicle sheet shares the Dominican template, so vehicles follow the same method as the Dominican Republic: GEN-104 prices treated as a regional price, ATB prices and powertrain ratios, the ATB 2022 Mid trajectory (multipliers 1.0 before 2024) and ATB maintenance.
+
+Largest changes (real 2024 USD per vehicle; compiled M US$ per Gvkm at the proposed distance):
+1. TRYTKHYD: 365,824 to 129,580 US$; 40,647 to 14,398.
+2. TRBTURELE: 204,645 to 410,893 US$; 27,286 to 9,339 (distance 7,500 to 44,000 km).
+3. TRBTURDSL and TRBTURGSL: 106,586 to 214,007 US$; 14,212 to 4,864.
+4. TRYTKHD: 145,724 to 76,661 US$; 16,192 to 8,518.
+5. TRBPUHYD: 399,698 to 388,741 US$; 15,373 to 8,835.
+6. TRYTKELE: 198,340 to 143,434 US$; 22,038 to 15,937.
+7. TRYLFDSL: 17,467 to 49,839 US$; 1,941 to 5,538.
+8. TRSUVDSL: 19,681 to 43,270 US$; 2,624 to 5,769.
+9. TRAUTDSL: 11,525 to 29,988 US$; 1,537 to 3,998.
+10. AG_CAF VariableCost: 4,318.8 to 2,280.15 US$ per ha (HON-002).
+
+Other sector changes: import prices that were 0 in the compiled model now carry a price (US$ per t: IMPCAF 1,503.4, IMPLEG 1,105.29, IMPRIC 656.61, IMPBAN 160.89; IMPMEL 610.13 as an ASSUMPTION); IMPFRI 725.9 to 1,209.25; waste collection 38.7 to 66.5 US$ per t, landfill 67.3 to 29.4, open dump 42.1 to 12.49.
+
+Decisions for Luis:
+1. Distances: buses, minibuses and tourism buses 44,000 km (now 26,000, 20,000 and 7,500), motorcycles 10,500 (now 7,327), all from the Dominican plan for lack of Honduran data; the tourism-bus change cuts that group's compiled capital cost by about two thirds.
+2. Whether the Dominican plan's prices (GEN-104) may stand in for Honduras.
+3. Vehicle lives: buses, heavy freight and motorcycles drop to 10 years (from 14 to 17); the hydrogen bus stays at 12 (within 25 percent), so bus lives become mixed; light vehicles keep 17, minibuses 14 or 16.
+4. Coffee cost halves; the source excludes farm administration and interest, so the new value is a lower bound.
+5. Rice stays an ASSUMPTION at 2,766.5 US$ per ha; the only Honduran budget (CIAT, 923 US$ per ha) is for low-input upland rice.
+6. Five import prices that were 0 now carry a price, which changes how imports compete with domestic crops.
+7. The open dump becomes cheaper than the landfill, as in What a Waste 2.0.
+
+Judgement calls: banana import values use FAOSTAT years with official flags only (the 2022 FAO estimate of 35.56 US$ per t is left out); IMPLEG is read as vegetables (pulses differ by less than 10 percent); the CIAT bean budget (658.25 US$ per ha) is treated as national, so AG_FRI is confirmed; open dumping takes the top of the lower-middle-income range (10 US$ per t) for consistency with the Dominican Republic; waste penalties keep the current per-year values as ASSUMPTIONs in M US$ per kt.
+
 ## 3. Manual downloads
 
 (Added at the end.)

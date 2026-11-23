@@ -18,3 +18,4 @@ All files are new and sit in `_LAC_HUB/cost_sources_20261122T234333Z/`. No model
 - `CR/`: Costa Rica proposals (2,489 cells), sources CR-001 to CR-013, search log, manual downloads and the scripts that built and checked them.
 - `DR/`: Dominican Republic proposals (2,354 cells), sources DR-001 to DR-004, search log, manual downloads and scripts.
 - `GUA/`: Guatemala proposals (705 cells), sources GUA-001 and GUA-002, search log, manual downloads and scripts.
+- `HON/`: Honduras proposals (1,532 cells), sources HON-001 to HON-005, search log, manual downloads and scripts.

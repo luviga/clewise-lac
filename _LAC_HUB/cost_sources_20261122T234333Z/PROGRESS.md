@@ -14,9 +14,10 @@ Branch: job/cost-sources, from b51f24b
 - Phase 2 shared packages in `GEN/` (vehicles GEN-101 to 104, sector GEN-201 to 207).
 - Phase 2 Costa Rica and Dominican Republic: proposals, sources, search logs, manual lists; REPORT sections 2.1 and 2.2.
 - Phase 2 Guatemala: REPORT section 2.3.
+- Phase 2 Honduras: REPORT section 2.4.
 
 ## Now
-- Phase 2 Honduras and Jamaica (agents running), then Ecuador.
+- Phase 2 Jamaica and Ecuador (agents running).
 
 ## Next
 - Phase 2: Guatemala, Honduras, Jamaica, Ecuador, one commit and push per country.

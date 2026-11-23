@@ -28,6 +28,8 @@
 - GUA_AFOLU and ECU_USCUSS: no output fuel has two producers, so the brief's choice rule finds no choice; land technologies compete through activity limits and penalties (GUA_AFOLU incomes) instead, which the rule does not see.
 - RD_AFOLU and HON_AFOLU hold full copies of their energy model, with costs that can diverge from the energy model over time.
 - Guatemala `GUA_ENERGY`, Vehicle Techs: `TRMOTELE` price (1,814.88) is below the gasoline motorcycle (2,820.16); heavy-freight `Ref.km.BY` equals the bus distance (50,400) with no source.
+- Honduras `HON_AFOLU`: `AG_CAF` VariableCost (4,318.8) equals FAOSTAT producer price times yield, a gross output value rather than a cost; `AG_MAI` VariableCost (1,782.8 US$ per ha) is above the FAOSTAT gross output value (about 997); `AG_FRI` and `IMPFRI` VariableCost hold the same number (725.9) in different units; import technology names are wrong (`IMPFRI`, `IMPCAF`, `IMPMEL`, `IMPLEG` named "Import Sugarcane", `IMPRIC` and `IMPMAI` named "Import Banana").
+- Honduras `HON_ENERGY`: `Techs_Buses_Tur` distance equals the car distance (7,500 km); freight FixedCost (464.79 and 236.83 M US$ per Gvkm) is 2.5 to 4 times the ATB maintenance value.
 
 ## Costs left for Luis (rows of class total_only, by model)
 
