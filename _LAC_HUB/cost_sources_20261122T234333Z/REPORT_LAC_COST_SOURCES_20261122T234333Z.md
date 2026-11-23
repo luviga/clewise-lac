@@ -288,6 +288,40 @@ Decisions for Luis:
 
 Judgement calls: diesel bus confirmed at 106,586 US$ (sourced 128,625); the national electric-to-diesel bus price ratio is 1.83 against 2.04 for ATB Class 8; gasoline motorcycle 2,500 US$ as an ASSUMPTION (range 1,500 to 4,000); each crop's cost is the mean of the Ministry budgets for its mapped crops with one crop cycle per harvested ha (fruit uses pineapple only, legumes red peas only); imports use FAOSTAT 2019 to 2023 unit values (IMPCER uses the FAO cereal aggregate, which includes cereal preparations; maize alone, 316 US$ per t, is also within 25 percent). Not searched within the time: Jamaica Customs Agency, STATIN, Island Traffic Authority, Coffee Industry Regulation Division (GAPS).
 
+### 2.6 Ecuador
+
+Files: `ECU/proposals_ECU.csv`, `ECU/sources_ECU.csv` (ECU-001 Castillo 2013, Rimisp, with the MAGAP 2012 rice budget; ECU-002 Ibarra Velasquez et al. 2023, Polo del Conocimiento, quoting the MAG 2022 hard-maize cost; ECU-003 Castillo 2015, Rimisp working paper 144 on beef cattle; ECU-004 MAG SIPA palm-heart bulletin 2023), `ECU/search_log_ECU.csv`, `ECU/manual_downloads_ECU.csv` (none).
+
+Scope and units. 119 sector cells, no vehicles: ECU_AGR 117 (CapitalCost, FixedCost and VariableCost of 11 crops, 9 livestock technologies and 19 imports, all Flat with the placeholder value 1) and ECU_WASTE 2 (collection). Read from the compiled BAU files: crops use cropland in Mha (output Mt at the model yield), so values are US$ per ha; livestock uses pasture in Mha (output million head; head per ha 1.638 for cattle, 0.5339 horses, 0.1068 camelids and mules, 0.0107 sheep, goats, pigs and poultry), so values are US$ per ha of pasture = cost per head x head per ha; imports produce Mt (crops, US$ per t) or million head (animals, US$ per head), so the A-O label "MUS$ / Mha" fits neither; waste is read as US$ per t.
+
+Counts by class (cells equal pairs, all rows Flat): confirmed 0, replace 21, assumption 98, manual 0. Replace: 13 import VariableCost rows from FAOSTAT unit values plus IMPSUG as the cane equivalent of sugar; AG_ARR fixed and variable (MAGAP 2012); AG_MAI fixed and variable (MAG 2022); GA_BOV variable (Rimisp 2014); the 2 waste cells (CEPAL 2016). Assumption: other crop and livestock costs (value of production per ha used as total cost, split with the MAG maize fixed share 0.1725), capital costs, import capital and fixed costs (0), and IMPSOY, IMPOVE, IMPCBR, IMPCAM, IMPMUL.
+
+Ten largest changes (every current value is 1; real 2024 USD in the unit stated):
+
+| Rank | Row | Proposed value | Class and note |
+| --- | --- | --- | --- |
+| 1 | IMPCAB VariableCost | 8,181.68 US$ per head | replace; pedigree horses |
+| 2 | IMPBOV VariableCost | 7,573.46 US$ per head | replace; breeding cattle, 52 head a year |
+| 3 | AG_FRT VariableCost | 4,670.26 US$ per ha | assumption |
+| 4 | IMPPAL VariableCost | 4,609.34 US$ per t | replace; FAO item 472, preserved product |
+| 5 | AG_COF, AG_PAL, AG_FRT CapitalCost | 3,000 US$ per ha each | assumption |
+| 6 | AG_VEG VariableCost | 2,989.03 US$ per ha | assumption |
+| 7 | AG_TUB VariableCost | 2,487.64 US$ per ha | assumption |
+| 8 | IMPCOF VariableCost | 2,473.98 US$ per t | replace |
+| 9 | AG_SUG VariableCost | 2,281.00 US$ per ha | assumption |
+| 10 | AG_SUG CapitalCost | 2,000 US$ per ha | assumption |
+
+Also: AG_ARR variable 1,715.07 and fixed 363.44 US$ per ha; AG_MAI variable 1,562.86 and fixed 325.87; IMPPOR 1,902.42 US$ per head; collection capital 15.47 and variable 51.04 US$ per t (model total 38.7, sourced total 66.51).
+
+Decisions for Luis:
+1. Livestock imports supply the herds. In BAU 2021 the import technologies meet the whole herd demand for poultry (58.3 million head), pigs (3.26 million), sheep, goats, camelids, horses, mules and dairy cattle. FAOSTAT live-animal unit values are breeding-stock prices (pigs 1,902, cattle 7,573, horses 8,182 US$ per head); writing them would cost billions of US$ a year on herds that are raised in Ecuador. Decide whether import prices per head are written before the livestock structure is fixed.
+2. Livestock per-ha values for sheep, goats, pigs and poultry are tiny (0.05 to 4 US$ per ha) because of the 0.0107 head per ha ratio; the per-head cost is in each derivation (pigs 370, poultry 5.82, sheep 29 US$ per head a year). Write them on the current ratios or wait for the ratios to be corrected.
+3. IMPSUG ("Import Sugarcane") uses the sugar import unit value converted to cane with the national sugar-to-cane ratio 0.0575 (39.54 US$ per t); the alternative is to treat it as sugar (687.07).
+4. IMPPAL: AG_PAL is palm hearts, not oil palm; FAO item 472 is a broad preserved-vegetables price (4,609 US$ per t), far above the farm-gate price of 340 US$ per t.
+5. Cost split: where no national budget splits the cost, the MAG maize fixed share (17.25 percent) is used for every crop and animal (the MAGAP rice budget gives 17.5 percent). Capital costs are 0 for annual crops, livestock and imports, and ASSUMPTIONs for perennials.
+
+Judgement calls: value of production per ha (FAOSTAT 2019 to 2023 producer price x yield, or the MAG bulletin for palm hearts) stands in for total cost where no national budget exists; on the two crops with budgets, maize value 1,708 against cost 1,889 and rice value 1,372 against cost 2,078 US$ per ha (real 2024). FAO yields are used, not the model yields; other cereals exclude rice and maize (FAO yield 1.51 t per ha, model 1.49); fruit excludes bananas and plantains. Beef cattle: Rimisp cost per head (mean 200.77 US$, 2014) x 1.638 head per ha = 435.78 US$ per ha (the direct Rimisp per-ha mean would be 285.97 in 2014 USD); land rent and herd value excluded. Waste: CEPAL collection plus transfer, split in the model's capital to variable proportion, as for the Dominican Republic and Honduras (Costa Rica used collection only). Rice: the MAGAP 2012 budget assumes about 7 t per ha, above the national yield, so the cost per ha is at the high end. Not found: SIPA has no cost-of-production section (404); 28 SIPA crop bulletins have no cost table; no national budget was downloadable for coffee, sugarcane, soy, pulses, other cereals, tubers, fruit, vegetables or dairy; the only Ecuadorian waste cost study shows values in box plots only.
+
 ## 3. Manual downloads
 
 (Added at the end.)

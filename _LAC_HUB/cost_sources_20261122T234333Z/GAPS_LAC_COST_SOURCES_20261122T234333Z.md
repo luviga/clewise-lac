@@ -34,6 +34,7 @@
 - Jamaica `JAM_TRANSPORT`: `TRAUTHG` ratio 1.02 to `TRAUTELE` compiles to 57,135 US$ against 43,532 sourced (the ratio stays within 25 percent, so confirmed).
 - Jamaica `JAM_AFOLU`: `AG_CER` and `AG_COF` fixed plus variable cost total only 14 and 23 US$ per ha; crop costs are 12 to 106 times below the Ministry's 2022 operating costs with no common factor.
 - UN Comtrade: Jamaica's 2021 motorcycle imports (HS 871120) show an implausible unit value of 447 US$ CIF; Guatemala and Honduras do not report vehicle imports to Comtrade, so their unit counts are partner estimates.
+- Ecuador `ECU_AGR`: every cost cell in scope holds the placeholder 1; livestock `GA_OVE`, `GA_CBR`, `GA_POR`, `GA_AVE` (and `GA_PAT`, `GA_PAV`, `GA_PON`) carry an OutputActivityRatio of 0.0107 head per ha, so these herds can only be met by imports; the 2021 activity lower limits of the import technologies equal the export demands (`IMPCER` 1.4903, `IMPPAL` 0.0479, `IMPCOF` 0.0091, `IMPSUG` 0.0391, `IMPMAI` 0.0568); pasture `LU_PAS` and `GA_PAT` use 59.5 Mha in 2021 (57.1 by `GA_PAT`), more than Ecuador's land area of about 25.6 Mha; the import cost unit "MUS$ / Mha" does not match the activity (Mt or million head).
 
 ## Costs left for Luis (rows of class total_only, by model)
 

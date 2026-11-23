@@ -20,3 +20,4 @@ All files are new and sit in `_LAC_HUB/cost_sources_20261122T234333Z/`. No model
 - `GUA/`: Guatemala proposals (705 cells), sources GUA-001 and GUA-002, search log, manual downloads and scripts.
 - `HON/`: Honduras proposals (1,532 cells), sources HON-001 to HON-005, search log, manual downloads and scripts.
 - `JAM/`: Jamaica proposals (1,784 cells), sources JAM-001 to JAM-007, search log, manual downloads and scripts.
+- `ECU/`: Ecuador proposals (119 cells), sources ECU-001 to ECU-004, search log, manual downloads (none) and scripts.

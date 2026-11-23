@@ -86,6 +86,9 @@ def check_fao(value):
 READ = {
     ("CR", "TRNBUS", "Ref.km.BY", "BY"): "confirmed by reading CR-001 (downloads/CR/S2200597_es.pdf): note to the bus cost table, initial assumption 45.000 km per year plus 10 percent unproductive mileage (ARESEP)",
     ("JAM", "AG_PLA", "FixedCost", "2021"): "confirmed by reading JAM-006 (downloads/JAM/MOA_COP_2022.pdf): plantain budgets St. Mary 8,603 kg at J$63 per kg and Trelawny 8,097 kg at J$79 per kg for 0.4 ha; (8,603 x 63 + 8,097 x 79) / 2 / 0.4 = J$1,477,065 per ha",
+    ("ECU", "GA_BOV", "VariableCost", "2021"): "confirmed by reading ECU-003 (downloads/ECU/Rimisp_GanaderiaCarne_DocResultados.pdf): Tabla 23, row Total, cost per head 159.4, 157.4 and 285.5 US$ by producer type",
+    ("ECU", "AG_MAI", "FixedCost", "2021"): "confirmed by reading ECU-002 (downloads/ECU/PoloConocimiento_5170_cadena_maiz_Ecuador.html): variable cost $ 1.458,06 and fixed cost $ 304,02 per ha (MAG)",
+    ("ECU", "AG_ARR", "FixedCost", "2021"): "confirmed by reading ECU-001 (downloads/ECU/Rimisp_DocEcuador_productividad.pdf): Tabla 3.5, MAGAP column, Tierra $ 210.00 and Capital $ 56.01 per ha",
     ("CR", "TRNMIC", "Ref.km.BY", "BY"): "confirmed by reading GEN-103 (ATB definitions page): Class 4 van 335,000 miles undiscounted over a 15-year first-owner life; 335,000 / 15 x 1.609344 = 35,942 km per year",
 }
 p = os.path.join(JOB, "gate3_value_checks.csv")
