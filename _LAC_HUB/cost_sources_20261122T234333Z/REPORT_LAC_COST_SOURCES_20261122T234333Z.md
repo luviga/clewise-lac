@@ -1,6 +1,6 @@
 # REPORT LAC_COST_SOURCES 20261122T234333Z
 
-Branch `job/cost-sources` from `b51f24b`. Draft pull request luviga/clewise-lac#16 (https://github.com/luviga/clewise-lac/pull/16). Commits: `35c2629` Phase 1; `20999d0` shared GEN packages and Costa Rica; `7f16708` Dominican Republic; `d55b7b4` Guatemala; `5edd6b6` Honduras; `599df74` Jamaica; `a966386` Ecuador; the final commit adds the paper trace, the merged manual list and the gate results.
+Branch `job/cost-sources` from `b51f24b`. Draft pull request luviga/clewise-lac#16 (https://github.com/luviga/clewise-lac/pull/16). Commits: `35c2629` Phase 1; `20999d0` shared GEN packages and Costa Rica; `7f16708` Dominican Republic; `d55b7b4` Guatemala; `5edd6b6` Honduras; `599df74` Jamaica; `a966386` Ecuador; `8342ef9` paper trace, merged manual list and report sections; `f0f5909` gate results and the currency fix; `2292596` final gate counts; a last commit updates this list.
 
 ## 1. Phase 1 summary
 
