@@ -18,7 +18,7 @@ JOB = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 REPORTERS = {"CR": 188, "DR": 214, "GUA": 320, "HON": 340, "JAM": 388}
-YEARS = "2019,2020,2021,2022,2023"
+YEARS = [2019, 2020, 2021, 2022, 2023]  # the preview API takes one period per request
 BASE = "https://comtradeapi.un.org/public/v1/preview/C/A/HS"
 
 
@@ -50,31 +50,31 @@ def main():
     codes = ",".join(hs_codes())
     only = sys.argv[1:] or list(REPORTERS)
     for cc in only:
-        url = (f"{BASE}?reporterCode={REPORTERS[cc]}&period={YEARS}&partnerCode=0"
-               f"&flowCode=M&cmdCode={codes}&includeDesc=true")
-        for attempt in range(6):
-            try:
-                with urllib.request.urlopen(url, timeout=120) as r:
-                    body = r.read()
-                    status = r.status
-                data = json.loads(body)
-                fn = os.path.join(out, f"comtrade_{cc}_imports_2019_2023.json")
-                with open(fn, "wb") as f:
-                    f.write(body)
-                n = len(data.get("data", []))
-                est = sum(1 for x in data.get("data", []) if x.get("isQtyEstimated"))
-                log(cc, url, status, f"{n} records saved as downloads/comtrade/{os.path.basename(fn)}; "
-                                     f"{est} with quantity estimated by UN")
-                print(cc, status, n, "records,", est, "qty estimated")
-                break
-            except urllib.error.HTTPError as e:
-                log(cc, url, e.code, "HTTP error, retry" if e.code == 429 else "HTTP error")
-                print(cc, "HTTP", e.code)
-                if e.code != 429:
+        for year in YEARS:
+            url = (f"{BASE}?reporterCode={REPORTERS[cc]}&period={year}&partnerCode=0"
+                   f"&flowCode=M&cmdCode={codes}&includeDesc=true")
+            for attempt in range(6):
+                try:
+                    with urllib.request.urlopen(url, timeout=120) as r:
+                        body = r.read()
+                        status = r.status
+                    data = json.loads(body)
+                    fn = os.path.join(out, f"comtrade_{cc}_imports_{year}.json")
+                    with open(fn, "wb") as f:
+                        f.write(body)
+                    recs = data.get("data", [])
+                    est = sum(1 for x in recs if x.get("isQtyEstimated"))
+                    log(cc, url, status, f"{len(recs)} records saved as downloads/comtrade/{os.path.basename(fn)}; "
+                                         f"{est} with the quantity estimated by the UN, not reported")
+                    print(cc, year, status, len(recs), "records,", est, "qty estimated", flush=True)
                     break
-                time.sleep(30)
-        time.sleep(12)
-
+                except urllib.error.HTTPError as e:
+                    log(cc, url, e.code, "HTTP 429, retried after 30 s" if e.code == 429 else "HTTP error")
+                    print(cc, year, "HTTP", e.code, flush=True)
+                    if e.code != 429:
+                        break
+                    time.sleep(30)
+            time.sleep(12)
 
 if __name__ == "__main__":
     main()

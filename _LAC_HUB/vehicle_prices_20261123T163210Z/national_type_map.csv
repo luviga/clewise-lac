@@ -1,0 +1,4 @@
+country,source_label,vehicle_class,powertrains,why
+DR,Automóviles,car;taxi,gasoline;gasoline (flex fuel);diesel;LPG;natural gas,"DGA counts passenger cars as one type with no fuel split; electric and hybrid cars have their own tariff lines and are not priced from the type total."
+DR,Jeepetas,SUV,gasoline;gasoline (flex fuel);diesel;LPG;natural gas,"DGA's jeepetas are the SUVs and jeeps of the model's jeep group; no fuel split."
+DR,Autobuses,bus;minibus,gasoline;diesel;LPG;natural gas,"DGA's bus type includes buses and minibuses for passenger transport, as heading 8702 does; no fuel split."

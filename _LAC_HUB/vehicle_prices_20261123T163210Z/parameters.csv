@@ -1,0 +1,10 @@
+parameter,value,unit,source_id,assumption_sentence
+min_units_per_line_year,10,vehicles,,"Line-years with fewer than 10 vehicles imported are left out, because one or two unusual vehicles would set the average."
+first_year,2019,year,,"The average covers the five calendar years 2019 to 2023, the most recent complete years for which customs statistics are published for all five countries."
+last_year,2023,year,,"The average covers the five calendar years 2019 to 2023, the most recent complete years for which customs statistics are published for all five countries."
+price_year,2024,year,GEN-001,
+cpi_series,CUUR0000SA0,index,GEN-001,
+exchange_rate_indicator,PA.NUS.FCRF,local currency per US$ (period average),WDI-001,
+confirm_band,0.25,fraction of current value,,"A proposal within 25 percent of the current value counts as confirming it, because yearly import unit values of one vehicle class move by about that much."
+km_conversion_factor,1000,(M US$ per Gvkm) / (US$ per vehicle / km per vehicle-year),,"One Gvkm is one billion vehicle-km and one M US$ is one million US$, so a price per vehicle divided by the yearly distance per vehicle and multiplied by 1000 gives M US$ per Gvkm."
+comtrade_units_rejected,DR,country codes,,"The quantities the Dominican Republic reports to UN Comtrade for vehicle lines are not vehicle counts: they add up to about 2 percent of the vehicles its customs office counts in its own yearly bulletins, so they are not used."
