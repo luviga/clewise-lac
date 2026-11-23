@@ -19,10 +19,10 @@ Branch: job/cost-sources, from b51f24b
 - Phase 2 Ecuador: REPORT section 2.6.
 - Gate 3 value checks for CR, DR, GUA, HON, JAM, ECU: all sampled values confirmed (scripts/p3_gate3_derived.py).
 
+- Step 2.4 paper trace, merged manual list, Phase 3 gates (all pass).
+
 ## Now
-- Step 2.4 paper trace, merged manual list, Phase 3 gates, Phase 4 pull request body.
+- Phase 4: final commit, push, pull request body from CHANGES.
 
 ## Next
-- Phase 2: Guatemala, Honduras, Jamaica, Ecuador, one commit and push per country.
-- Step 2.4 paper trace.
-- Phase 3 gates, Phase 4 pull request body.
+- Nothing after Phase 4. The pull request stays draft.

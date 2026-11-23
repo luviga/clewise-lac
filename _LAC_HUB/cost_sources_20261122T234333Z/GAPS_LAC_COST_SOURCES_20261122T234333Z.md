@@ -63,3 +63,4 @@ Non-zero `total_only` rows (see `cost_inventory.csv`, column `class`): CR_ENERGY
 - Bot checks and blocks: IDB publications (scripts and browser), UNEP wedocs, Guatemala SAT (Cloudflare), Dominican ONE (Cloudflare 403), Honduras strategy draft (403), Jamaica Ministry of Agriculture alternate host (503; the main host worked), Costa Rica Hacienda (query only). UN Comtrade rate-limited some requests (HTTP 429); those files are in downloads and are not cited.
 - Git Bash curl crashed on some Dominican government sites; Windows curl worked.
 - The first inventory flagged 1,233 rows as holding formulas because it read the `Tech.ID` column; the flag was restricted to value cells and Phase 1 was rerun (only `has_formula` changed).
+- Gate 5 first failed on seven Dominican Republic FAOSTAT rows whose `cpi_factor` held the range "1.226992-1.029494"; the five yearly factors were written instead (values unchanged).

@@ -35,7 +35,7 @@ def atb_has(price, der):
             continue
         if cls and cls.group(1).strip() not in r["vehicle_class_display"]:
             continue
-        if det and det.group(1).strip(";,.") != r["vehicle_detail"]:
+        if det and det.group(1).strip().strip(";,.").strip() != r["vehicle_detail"]:
             continue
         return True
     return False
