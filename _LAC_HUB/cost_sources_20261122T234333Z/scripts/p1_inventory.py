@@ -105,7 +105,8 @@ for m in MODELS:
                 continue
             g = lambda k: r[H[k]] if k in H and H[k] < len(r) else None
             ent = {y: r[i] for i, y in ycols if i < len(r)}
-            has_f = any(isinstance(rf[i], str) and str(rf[i]).startswith("=") for i in range(len(rf)) if rf[i] is not None)
+            vcols = [i for i, _ in ycols] + [H[k] for k in ("Projection.Parameter",) if k in H]
+            has_f = any(i < len(rf) and isinstance(rf[i], str) and str(rf[i]).startswith("=") for i in vcols)
             prm = r[pi]
             tech = g("Tech")
             cser = comp.get(prm, {}).get(tech, {})

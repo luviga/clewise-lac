@@ -14,7 +14,12 @@
 ## Known-limitation candidates
 
 - Guatemala `GUA_ENERGY`, Vehicle Techs, `TRAUTHG` and `TRAUTPHG`: "Relative to TRAUTELE" while `TRAUTELE` is itself "Relative to TRAUTDSL"; the compiler multiplies by the raw ratio, so both compile to 1.33 US$ per vehicle (0.0694 M US$ per Gvkm).
-- Costa Rica `CR_ENERGY`, Vehicle Techs: CapitalCost rows labelled "US$ / vehicle" hold values about one hundredth of a vehicle price (diesel bus 1,627, gasoline sedan 711 in 2030), and most are formulas.
+- Costa Rica `CR_ENERGY`, Vehicle Techs: CapitalCost rows labelled "US$ / vehicle" hold values that behave like M US$ per Gvkm (cell x distance / 1000 gives a plausible price), so the compiler divides by distance twice and compiled capital costs are 12 to 59 times too low.
+- Costa Rica `CR_ENERGY`, Vehicle Techs: hybrid taxi CapitalCost cells repeat the previous year by formula from 2023; rail cells divide a constant by 0.7315286784, a factor with no stated meaning.
+- Costa Rica `CR_AFOLU` Secondary Techs: rice, other vegetables and other grains share one CapitalCost of 3,507.5; the unit columns of CR_AFOLU and CR_WASTE are empty.
+- Dominican Republic `RD_ENERGY` (and its RD_AFOLU copy), Vehicle Techs: `TRYLFNGS` is "Relative to TRYLFDSL" but its cell holds a price (17,466.62), so it compiles to 33,898,064 M US$ per Gvkm in 2030.
+- Dominican Republic `RD_ENERGY`, Vehicle Techs: `TRBPUELE` FixedCost falls from 53.6 to 0.96 M US$ per Gvkm by 2050.
+- Dominican Republic `RD_AFOLU`: wastewater rows carry the unit "No se si aplica" or none; `GA_*` rows carry "MUSD/Mton converted to MUSD/MHa" with no conversion factor; `AG_SGC` CapitalCost 0.3735 is a token value; `IMPSGC` is priced as sugar, not cane.
 - Dominican Republic `RD_ENERGY` (and its copy in RD_AFOLU), Fixed Horizon Parameters: OperationalLife 1 year for `TRAUT*`, `TRMOT*`, `TRTAX*`; Costa Rica `CR_ENERGY`: OperationalLife 1 year for `TRNMIC*`.
 - `A2_Extra_Inputs/A-Xtra_Battery_Replacement.xlsx` in every vehicle model: read by the compiler and never used; its technology codes do not match most model codes.
 - JAM_TRANSPORT aviation and maritime groups and Costa Rica rail carry a distance of 1 km per vehicle; their capital cost rows are zero today.

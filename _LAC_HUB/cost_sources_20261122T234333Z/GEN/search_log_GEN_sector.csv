@@ -1,0 +1,19 @@
+row,lead,url_or_query,date,result
+IMP* import unit values,brief task 1,"https://bulks-faostat.fao.org/production/Trade_CropsLivestock_E_All_Data_(Normalized).zip",2026-11-22,downloaded (GEN-201); six-country subset 2019-2023 built
+AG_/AGR/GA_ producer prices,brief task 1,"https://bulks-faostat.fao.org/production/Prices_E_All_Data_(Normalized).zip",2026-11-22,downloaded (GEN-202); no Guatemala series
+AG_ yields,brief task 1,"https://bulks-faostat.fao.org/production/Production_Crops_Livestock_E_All_Data_(Normalized).zip",2026-11-22,downloaded (GEN-203)
+waste externalities and costs,lts-rd readthedocs (lead only),https://lts-rd.readthedocs.io/en/latest/3_waste/1_entradas.html,2026-11-22,lead: externalities from Correal Rihm et al. 2023 (IDB); costs from Correal Faleiro et al. 2023 and Correal and Rihm 2022 (IDB); no values on page
+waste references,lts-rd readthedocs (lead only),https://lts-rd.readthedocs.io/en/latest/3_waste/4_referencias.html,2026-11-22,lead: full citations and IDB URLs of the three IDB documents
+waste externalities and costs,jam-lts readthedocs (lead only),https://jam-lts.readthedocs.io/en/latest/1_mitigation/3_waste/1_entradas.html,2026-11-22,"lead: technology costs from Correal Faleiro et al. 2023 and IDB prefeasibility study North Basin Guatemala; wastewater cost ratio Ozgun et al. 2021; externalities from Correal Rihm et al. 2023, De la Pena et al. 2022, BID 2023 Mancomunidad Nororiente; no values on page"
+waste references,jam-lts readthedocs (lead only),https://jam-lts.readthedocs.io/en/latest/1_mitigation/3_waste/4_referencias.html,2026-11-22,lead: reference list includes What a Waste 2.0
+waste externalities,IDB Lineamientos 2023,https://publications.iadb.org/es/lineamientos-sectoriales-para-la-gestion-de-residuos-solidos-y-el-avance-hacia-la-economia-circular,2026-11-22,blocked: Cloudflare bot verification for curl and for the browser pane; manual
+waste costs,IDB Sostenibilidad financiera 2023,https://publications.iadb.org/publications/spanish/document/Sostenibilidad-financiera-de-la-gestion-de-residuos-solidos-en-America-Latina-y-el-Caribe.pdf,2026-11-22,blocked: HTTP 403 bot verification (curl and WebFetch); manual
+waste valorisation,IDB Correal and Rihm 2022,https://publications.iadb.org/es/hacia-la-valorizacion-de-residuos-solidos-en-america-latina-y-el-caribe-conceptos-basicos-analisis,2026-11-22,blocked: bot verification; manual
+waste costs,web search,"""Sostenibilidad financiera de la gestion de residuos solidos en America Latina y el Caribe"" pdf costo por tonelada",2026-11-22,found CEPAL guide S1500804 with LAC cost table
+waste costs LAC,CEPAL 2016,https://repositorio.cepal.org/bitstream/handle/11362/40407/S1500804_es.pdf,2026-11-22,downloaded (GEN-206); Cuadro 6 p. 29 costs per tonne
+waste costs by income,What a Waste 2.0 overview,https://openknowledge.worldbank.org/bitstreams/92a50475-3878-5984-829e-0a09a6a9badc/download,2026-11-22,downloaded (GEN-205); overview only has aggregate cost statements
+waste costs by income,What a Waste 2.0 full report,https://openknowledge.worldbank.org/bitstreams/df788c58-3c21-52a2-a224-1445f0a1850b/download,2026-11-22,downloaded (GEN-204); Table 5.2 p. 105
+waste externality cross-check,UNEP GWMO 2024,https://wedocs.unep.org/bitstream/handle/20.500.11822/44939/global_waste_management_outlook_2024.pdf,2026-11-22,blocked: bot verification page; manual
+wastewater costs,web search,Noyola 2013 Seleccion de tecnologias para el tratamiento de aguas residuales municipales costos,2026-11-22,found UNAM guide at cicy.mx
+wastewater costs,Noyola et al. 2013 (UNAM),https://www.cicy.mx/sitios/sib/doctoelectronico/8650.pdf,2026-11-22,downloaded and read; no numeric unit costs; not cited; file removed
+wastewater and septic capital costs,Hutton and Varughese 2016 (World Bank WSP),https://openknowledge.worldbank.org/bitstreams/12d140fc-607b-5fa2-b966-40e872906946/download,2026-11-22,downloaded (GEN-207); Table E.1 capital per person by country

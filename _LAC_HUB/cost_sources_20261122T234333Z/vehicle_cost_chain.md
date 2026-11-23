@@ -60,7 +60,7 @@ Three vehicles per model, 2030:
 
 ## 6. Costa Rica unit
 
-Costa Rica's rows are labelled "US$ / vehicle" and compile through the same formula, but the entered values are far below a vehicle price: a diesel bus at 1,627 and a gasoline sedan at 711 "US$ per vehicle" in 2030, about one hundredth of a market price. Proposals for Costa Rica therefore compare sourced prices with the current value in the A-O convention as written, and the gap is reported as a decision (section "Costa Rica" of the REPORT).
+Costa Rica's rows are labelled "US$ / vehicle" and compile through the same formula, but the entered values are far below a vehicle price: a diesel bus at 1,627 and a gasoline sedan at 711 "US$ per vehicle" in 2030. Multiplied by the group distance and divided by 1000 they give plausible prices (diesel bus 96,016 US$, gasoline sedan 8,596), so the cells most likely already hold M US$ per Gvkm and the compiler divides them by the distance a second time; compiled capital costs are then 12 to 59 times too low. The cells are plain numbers except the hybrid taxi rows (from 2023 each cell repeats the previous year by formula) and the rail rows (a constant divided by 0.7315286784). Proposals for Costa Rica give prices per vehicle in the labelled convention, and the unit is reported as a decision (section "Costa Rica" of the REPORT).
 
 ## 7. Inputs a vehicle choice depends on
 
