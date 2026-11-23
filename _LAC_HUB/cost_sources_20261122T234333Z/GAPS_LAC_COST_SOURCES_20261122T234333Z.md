@@ -27,6 +27,7 @@
 - Land co-benefit penalties have sign +1000 in HON_AFOLU and -1000 in RD_AFOLU and JAM_AFOLU.
 - GUA_AFOLU and ECU_USCUSS: no output fuel has two producers, so the brief's choice rule finds no choice; land technologies compete through activity limits and penalties (GUA_AFOLU incomes) instead, which the rule does not see.
 - RD_AFOLU and HON_AFOLU hold full copies of their energy model, with costs that can diverge from the energy model over time.
+- Guatemala `GUA_ENERGY`, Vehicle Techs: `TRMOTELE` price (1,814.88) is below the gasoline motorcycle (2,820.16); heavy-freight `Ref.km.BY` equals the bus distance (50,400) with no source.
 
 ## Costs left for Luis (rows of class total_only, by model)
 

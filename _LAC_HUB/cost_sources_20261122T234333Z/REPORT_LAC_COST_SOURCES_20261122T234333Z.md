@@ -166,6 +166,48 @@ Decisions for Luis:
 
 Judgement calls: national anchor plus ATB ratios; ratio rows use the proposed price of the reference vehicle; where any multiplier of a row differs by more than 25 percent the whole ATB series is proposed (cells within 25 percent are marked replace with a note); one maintenance basis (ATB) for every powertrain; imports use FAOSTAT unit values; UN Comtrade was downloaded and rejected (the Dominican Republic does not report and mirror quantities are unusable).
 
+### 2.3 Guatemala
+
+Files: `GUA/proposals_GUA.csv`, `GUA/sources_GUA.csv` (GUA-001 and GUA-002, UN Comtrade Guatemala vehicle imports 2024 and 2018, partner-reported estimates), `GUA/search_log_GUA.csv`, `GUA/manual_downloads_GUA.csv`.
+
+Counts by class:
+
+| Block | Confirmed | Replace | Assumption | Manual |
+| --- | --- | --- | --- | --- |
+| GUA_ENERGY vehicle cells (556) | 145 | 407 | 4 | 0 |
+| GUA_ENERGY chain inputs (45) | 28 | 16 | 1 | 0 |
+| GUA_WASTE (104) | 0 | 5 | 99 | 0 |
+| Cells, total 705 | 173 | 428 | 104 | 0 |
+| Pairs: vehicles 76, chain inputs 45, waste 8 | 11, 28, 0 | 61, 16, 5 | 4, 1, 3 | 0 |
+
+What was used. No Guatemalan document with vehicle prices, distances or lives was found: the SAT vehicle valuation tables and import statistics sit behind a bot check (manual), and the NDC 3.0, BTR1, national inventory report, the low-emission development strategy and the 2017 to 2032 energy plan hold none. Prices therefore follow the shared method: ATB 2022 Mid prices for light-duty classes; buses and heavy trucks anchored on the Dominican plan's electric bus (360,000 US$) and electric cargo vehicle (120,000 US$) with ATB Class 8 powertrain ratios; gasoline motorcycle confirmed against UN Comtrade (2,453 US$ CIF per unit, 2024); electric motorcycle 3,636 US$ (GEN-104). Multipliers are the ATB series (1.0 for 2019 to 2023). FixedCost from ATB maintenance (motorcycles ASSUMPTIONs). Distances are all confirmed against the shared references (cars 19,220 and light freight 20,600 km against ATB 19,108; buses 50,400 against the Dominican plan's 44,000; motorcycles 9,390 against 10,500), heavy freight 50,400 is an ASSUMPTION. OperationalLife: cars, light freight and microbuses 17 years confirmed (ATB 15), buses and heavy trucks 17 replaced by 10 (GEN-104), motorcycles 10 confirmed. Waste: CEPAL 2016 Latin American averages, What a Waste 2.0 for open dumps; the three externality penalties are ASSUMPTIONs (IDB origin listed as manual).
+
+Ten largest changes (base-year price per vehicle and compiled CapitalCost):
+
+| Tech | US$ per vehicle | M US$ per Gvkm | Note |
+| --- | --- | --- | --- |
+| TRBPUELE and TRBPRELE | 211,709 to 410,893 | 4,200.6 to 8,152.6 | ratio 1.92 confirmed; the diesel reference changes |
+| TRBPUPHD and TRBPRPHD | 178,630 to 346,691 | 3,544.2 to 6,878.8 | ratio confirmed; the reference changes |
+| TRBPUDSL and TRBPRDSL | 110,265 to 214,007 | 2,187.8 to 4,246.2 | |
+| TRAUTPHG | 2.04 to 35,318.80 | 0.11 to 1,837.6 | ratio-chain fix |
+| TRMBSPHD | 30,102 to 119,332 | 597.3 to 2,367.7 | |
+| TRYLFDSL | 16,528 to 49,839 | 802.3 to 2,419.4 | |
+| TRAUTHG | 2.04 to 31,028 | 0.11 to 1,614.4 | ratio-chain fix |
+| TRYTKELE | 79,789 to 143,384 | 1,583.1 to 2,844.9 | |
+| TRYLFGSL | 16,528 to 42,058 | 802.3 to 2,041.6 | |
+| TRMBSELE | 35,676 to 95,781 | 707.9 to 1,900.4 | |
+
+Also: TRAUTDSL 16,597 to 34,664 US$ and TRAUTGSL 16,597 to 28,022 US$. FixedCost: freight falls (TRYTKDSL 464.79 to 114.47 M US$ per Gvkm; light freight diesel, gasoline and LPG 236.83 to 92.64), cars rise (TRAUTDSL 61.65 to 93.39; TRAUTELE 20.34 to 63.11). Waste: collection 38.7 to 66.5 US$ per t, landfill 67.3 to 29.4, open dump 42.1 to 12.5.
+
+Decisions for Luis:
+1. `TRAUTHG` and `TRAUTPHG` ratio chain. Proposed cells 30,769.98 and 35,024.9 are the sourced prices divided by the proposed `TRAUTELE` ratio (1.00839), correct only if `TRAUTELE` is written as proposed. The cleaner fix is to change their `Unit.Introduced` to "Relative to TRAUTDSL"; the cells would then be 0.89511 and 1.01888.
+2. Price basis. UN Comtrade 2024 CIF unit values, which mix new and used imports, are well below ATB: gasoline cars 22,250 against 28,022 US$; diesel cars 28,831 against 34,664; pickups up to 5 t 25,931 (diesel) and 17,508 (gasoline) against 49,839 and 42,058; diesel buses 87,521 against 214,007; hybrid cars 25,876 and electric cars 34,695 (no ATB counterpart used). The SAT valuation tables (manual) would settle this.
+3. Bus and heavy-truck life 17 to 10 years (Dominican plan); Guatemalan buses are often imported used and run longer, so 17 may be kept as an ASSUMPTION.
+4. Microbuses mapped to the ATB Class 4 step van (73,662 US$ against 18,581 today) may overstate a passenger van.
+5. Waste externality penalties stay ASSUMPTIONs until the IDB documents can be opened.
+
+Judgement calls: the shared method (ATB plus GEN-104 anchors) is followed instead of Comtrade unit values, which are partner estimates, CIF only and mixed with used vehicles; heavy trucks use the GEN-104-based diesel price (71,336 US$), not the ATB Class 8 tractor (194,835 US$); microbus distance is compared with the bus figure (44,000 km).
+
 ## 3. Manual downloads
 
 (Added at the end.)
