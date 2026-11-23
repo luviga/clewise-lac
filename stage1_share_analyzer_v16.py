@@ -45,8 +45,10 @@ from datetime import datetime
 import numpy as np
 import pandas as pd
 
+import lac_tables as LT
+
 # =============================================================================
-# CONFIG
+# CONFIG (values and names from the tables read by lac_tables.py)
 # =============================================================================
 MODELS_LAC_ROOT = "./"
 STAGE0_DIR      = "./_STAGE0_OUTPUT"
@@ -60,75 +62,45 @@ RECOMMENDED_SHARES_FILES = [
 CEILING_FILE = "STAGE0_CAPACITY_CEILING.csv"
 
 # Per-country share column selection (from Stage 0 analysis)
-SHARE_COLUMN = {
-    "CostaRica":         "Share_E_Proportional_Pct",
-    "DominicanRepublic": "Share_E_Proportional_Pct",
-    "Ecuador":           "Share_E_Proportional_Pct",
-    "Guatemala":         "Share_E_Proportional_Pct",
-    "Honduras":          "Share_E_Proportional_Pct",
-    "Jamaica":           "Share_E_Proportional_Pct",
-}
+SHARE_COLUMN = LT.controller_by_country("share_column", "1")
 
 # Country model directories
-COUNTRY_MODEL_DIR = {
-    "CostaRica":         "CR_ENERGY/t1_confection",
-    "DominicanRepublic": "RD_ENERGY",
-    "Ecuador":           "ECU_Energy",
-    "Guatemala":         "GUA_ENERGY",
-    "Honduras":          "HON_ENERGY",
-    "Jamaica":           "JAM_ENERGY",
-}
+COUNTRY_MODEL_DIR = LT.country_map("model_dir")
 
-# Scenarios
-BAU_SCENARIO      = "BAU"
-POLICY_SCENARIOS  = ["NDCNEW", "LTSNEW"]
+# Scenarios (config/scenarios/scenario_catalogue.csv)
+BAU_SCENARIO      = LT.scenario("base")
+POLICY_SCENARIOS  = LT.scenarios("policy")
 ALL_SCENARIOS     = [BAU_SCENARIO] + POLICY_SCENARIOS
 
-# BAU rule parameters
-ANCHOR_YEAR         = 2024
-CUTOFF_YEAR         = 2026
-PLATEAU_YEARS       = [2025, 2026]
-FOSSIL_DECLINE_RATE = 0.01     # 1%/yr from 2027
+# BAU rule parameters (config/scenarios/rules/stage_controller.csv)
+ANCHOR_YEAR         = LT.controller("anchor_year")
+CUTOFF_YEAR         = LT.controller("cutoff_year", "1")
+PLATEAU_YEARS       = LT.controller_list("plateau_years", "1")
+FOSSIL_DECLINE_RATE = LT.controller("fossil_decline_rate", "1")     # per year after the cutoff year
 HYDRO_DECLINE_RATE  = 0.0      # deprecated in v15: hydro uses PJ freeze instead
 CAU                 = 31.536   # CapacityToActivityUnit (PJ/GW/yr)
-PP_PREFIXES         = ("PP", "PWR")
+PP_PREFIXES         = tuple(LT.techs("power_plant_prefix"))
 
-# Policy renewable target curves
-RENEWABLE_TARGET_CURVE = {
-    "NDCNEW": {2035: 0.75, 2050: 0.75},
-    "LTSNEW": {2035: 0.75, 2050: 0.99},
-}
-COUNTRY_TARGET_OVERRIDES = {
-    "CostaRica": {
-        "NDCNEW": {2035: 0.90, 2050: 0.90},
-        "LTSNEW": {2035: 0.99, 2050: 0.99},
-    },
-    "Ecuador": {
-        "NDCNEW": {2035: 0.80, 2050: 0.80},
-        "LTSNEW": {2035: 0.80, 2050: 0.99},
-    },
-}
-TARGET_HOLD_YEAR = 2050
+# Policy renewable target curves (inputs/scenarios/scenario_values.csv, lever renewable_share)
+RENEWABLE_TARGET_CURVE = LT.scenario_values("renewable_share")
+COUNTRY_TARGET_OVERRIDES = LT.scenario_value_overrides("renewable_share")
+TARGET_HOLD_YEAR = LT.controller("target_hold_year", "1")
 
 # Upper limits
-DEFAULT_UPPER_LIMIT     = 9999.0
-UPPER_SECURITY_FACTOR   = 1.05   # upper ≥ lower × this
+DEFAULT_UPPER_LIMIT     = LT.controller("upper_limit_sentinel", "1")
+UPPER_SECURITY_FACTOR   = LT.controller("upper_security_factor", "1")   # upper ≥ lower × this
 
-# Costa Rica names
-COSTA_RICA_NAMES = ["CostaRica", "COSTARICA", "Costa Rica", "Costa_Rica"]
+# Names of the country with its own rule set (Costa Rica)
+COSTA_RICA_NAMES = LT.controller_list("own_rule_country_names", "1")
 
 # Policy tech allocation: solar+wind tokens grow; biomass/biogas/geo locked at BAU
-SOLAR_WIND_TOKENS = ["SOL", "SUN", "SPV", "PV", "CSP",    # solar
-                     "WND", "WIND", "WNO", "WNS"]           # wind
+# (config/scenarios/technology_types.csv)
+SOLAR_WIND_TOKENS = LT.techs("solar_wind_token")
 
 # Tech classifier tokens
-HYDRO_TOKENS     = ["HYD", "DAM", "ROR", "PPHD", "PPIHD"]
-RENEWABLE_TOKENS = ["GEO", "SOL", "SUN", "SPV", "PV", "CSP",
-                    "WND", "WIND", "WNO", "WNS",
-                    "BMS", "BIM", "BIO", "BGS", "SUG", "REN"]
-FOSSIL_TOKENS    = ["DSL", "DIE", "FOI", "HFO", "CRU",
-                    "COA", "COK", "NGS", "GAS", "GLP", "LPG",
-                    "GSL", "KJF", "OIL", "PET", "FOS"]
+HYDRO_TOKENS     = LT.techs("hydro_token")
+RENEWABLE_TOKENS = LT.techs("renewable_token")
+FOSSIL_TOKENS    = LT.techs("fossil_token")
 
 
 # =============================================================================
@@ -517,7 +489,7 @@ def process_country(country, rec_shares, s0_dir, ceiling, root, audit_log,
         nh_target = 1.0 - fossil_sum - hydro_sum - unknown_sum
 
         nh_anchor_sum = sum(anchor_shares.get(t, 0) for t in nh_renew_techs)
-        if nh_anchor_sum > 1e-9 and nh_target > 0:
+        if nh_anchor_sum > LT.controller("zero_tolerance") and nh_target > 0:
             scale = nh_target / nh_anchor_sum
             for t in nh_renew_techs:
                 raw = anchor_shares[t] * scale
@@ -540,19 +512,19 @@ def process_country(country, rec_shares, s0_dir, ceiling, root, audit_log,
         # Step 2: renormalize if total exceeds 1.0
         # (can happen when hydro/NH-renewable mincap floors inflate shares)
         total = sum(bau_shares.get((t, year), 0) for t in all_techs)
-        if total > 1.001:
+        if total > LT.controller("renorm_trigger", "1"):
             # Scale ALL non-UNKNOWN shares proportionally to hit 1.0
             scalable = [t for t in all_techs if cat[t] != "UNKNOWN"]
             scalable_sum = sum(bau_shares.get((t, year), 0) for t in scalable)
             target_sum = 1.0 - unknown_sum
-            if scalable_sum > 1e-9:
+            if scalable_sum > LT.controller("zero_tolerance"):
                 factor = target_sum / scalable_sum
                 for t in scalable:
                     bau_shares[(t, year)] = bau_shares.get((t, year), 0) * factor
             audit_log.append({
                 "Country": country, "Scenario": BAU_SCENARIO, "Year": year,
-                "Event": "RENORM", "Raw_Sum": round(total, 4),
-                "Adjusted_Sum": round(sum(bau_shares.get((t, year), 0) for t in all_techs), 4),
+                "Event": "RENORM", "Raw_Sum": round(total, LT.controller("audit_digits", "1")),
+                "Adjusted_Sum": round(sum(bau_shares.get((t, year), 0) for t in all_techs), LT.controller("audit_digits", "1")),
             })
 
     # =================================================================
@@ -635,7 +607,7 @@ def process_country(country, rec_shares, s0_dir, ceiling, root, audit_log,
             growth_target = max(0.0, N_target - locked_sum)
             growth_bau_sum = sum(bau_shares.get((t, year), 0) for t in growth_techs)
 
-            if growth_bau_sum > 1e-9 and growth_target > 0:
+            if growth_bau_sum > LT.controller("zero_tolerance") and growth_target > 0:
                 scale_G = growth_target / growth_bau_sum
                 for t in growth_techs:
                     policy_shares[sc][(t, year)] = bau_shares.get((t, year), 0) * scale_G
@@ -659,7 +631,7 @@ def process_country(country, rec_shares, s0_dir, ceiling, root, audit_log,
                     policy_shares[sc][(t, year)] = 0.0
 
             # Fossils: scale proportionally
-            if F_BAU > 1e-9:
+            if F_BAU > LT.controller("zero_tolerance"):
                 scale_F = F_target / F_BAU
                 for t in fossil_techs:
                     policy_shares[sc][(t, year)] = bau_shares.get((t, year), 0) * scale_F
@@ -676,13 +648,13 @@ def process_country(country, rec_shares, s0_dir, ceiling, root, audit_log,
             # Renormalize if total exceeds 1.0
             # (happens when H_policy << H_BAU and growth scaling overflows)
             pol_total = sum(policy_shares[sc].get((t, year), 0) for t in all_techs)
-            if pol_total > 1.001:
+            if pol_total > LT.controller("renorm_trigger", "1"):
                 unknown_sum_p = sum(policy_shares[sc].get((t, year), 0)
                                     for t in all_techs if cat[t] == "UNKNOWN")
                 scalable = [t for t in all_techs if cat[t] != "UNKNOWN"]
                 scalable_sum = sum(policy_shares[sc].get((t, year), 0) for t in scalable)
                 target_sum = 1.0 - unknown_sum_p
-                if scalable_sum > 1e-9:
+                if scalable_sum > LT.controller("zero_tolerance"):
                     factor = target_sum / scalable_sum
                     for t in scalable:
                         policy_shares[sc][(t, year)] = policy_shares[sc].get((t, year), 0) * factor
@@ -690,17 +662,17 @@ def process_country(country, rec_shares, s0_dir, ceiling, root, audit_log,
             audit_log.append({
                 "Country": country, "Scenario": sc, "Year": year,
                 "Event": "POLICY",
-                "Target_Renewable": round(target_renew, 4),
-                "BAU_Renewable": round(BAU_renewable, 4),
-                "H_BAU": round(H_BAU, 4),
-                "H_Policy": round(H_policy, 4),
-                "N_BAU": round(N_BAU, 4),
-                "F_BAU": round(F_BAU, 4),
-                "T_Final": round(T, 4),
-                "N_Target": round(N_target, 4),
-                "F_Target": round(F_target, 4),
-                "Locked_Sum": round(locked_sum, 4),
-                "Growth_Target": round(max(0.0, N_target - locked_sum), 4),
+                "Target_Renewable": round(target_renew, LT.controller("audit_digits", "1")),
+                f"{LT.scenario('base')}_Renewable": round(BAU_renewable, LT.controller("audit_digits", "1")),
+                f"H_{LT.scenario('base')}": round(H_BAU, LT.controller("audit_digits", "1")),
+                "H_Policy": round(H_policy, LT.controller("audit_digits", "1")),
+                f"N_{LT.scenario('base')}": round(N_BAU, LT.controller("audit_digits", "1")),
+                f"F_{LT.scenario('base')}": round(F_BAU, LT.controller("audit_digits", "1")),
+                "T_Final": round(T, LT.controller("audit_digits", "1")),
+                "N_Target": round(N_target, LT.controller("audit_digits", "1")),
+                "F_Target": round(F_target, LT.controller("audit_digits", "1")),
+                "Locked_Sum": round(locked_sum, LT.controller("audit_digits", "1")),
+                "Growth_Target": round(max(0.0, N_target - locked_sum), LT.controller("audit_digits", "1")),
             })
 
     # =================================================================
@@ -747,15 +719,15 @@ def process_country(country, rec_shares, s0_dir, ceiling, root, audit_log,
                 if upper < lower:
                     upper = lower * UPPER_SECURITY_FACTOR
 
-                row[f"Share_{year}"] = round(share, 6)
-                row[f"Lower_{year}"] = round(lower, 4)
-                row[f"Upper_{year}"] = round(upper, 4)
+                row[f"Share_{year}"] = round(share, LT.controller("share_digits", "1"))
+                row[f"Lower_{year}"] = round(lower, LT.controller("limit_digits", "1"))
+                row[f"Upper_{year}"] = round(upper, LT.controller("limit_digits", "1"))
 
             rows.append(row)
 
     # Summary
     for sc in ALL_SCENARIOS:
-        for year in [ANCHOR_YEAR, 2030, 2040, 2050]:
+        for year in [ANCHOR_YEAR, *LT.controller_list("summary_years", "1")]:
             if year not in years:
                 continue
             s = sum(all_scenario_shares.get(sc, {}).get((t, year), 0) for t in all_techs)
@@ -827,18 +799,18 @@ def write_controller(all_rows, audit_log, output_dir):
         {"Item": "  Denominator", "Value": "Empirical gen from Stage 0 relaxed runs"},
         {"Item": "  Ceiling", "Value": "STAGE0_CAPACITY_CEILING.csv"},
         {"Item": "", "Value": ""},
-        {"Item": "BAU RULE", "Value": ""},
+        {"Item": f"{LT.scenario('base')} RULE", "Value": ""},
         {"Item": "  Anchor", "Value": str(ANCHOR_YEAR)},
         {"Item": "  Cutoff", "Value": str(CUTOFF_YEAR)},
         {"Item": "  Fossils", "Value": f"{FOSSIL_DECLINE_RATE*100:.1f}%/yr decline from 2027"},
         {"Item": "  Hydro", "Value": f"freeze + MinCapInvest"},
         {"Item": "  NH-Renewable", "Value": "gap-fill to 100%"},
-        {"Item": "  Costa Rica", "Value": "same rules as other countries (BAU); managed per COUNTRY_TARGET_OVERRIDES (policy)"},
+        {"Item": f"  {LT.country_value(LT.controller_list("own_rule_country_names", "1")[0], 'display_name')}", "Value": f"same rules as other countries ({LT.scenario('base')}); managed per COUNTRY_TARGET_OVERRIDES (policy)"},
         {"Item": "", "Value": ""},
         {"Item": "POLICY RULE", "Value": ""},
-        {"Item": "  NDCNEW", "Value": str(RENEWABLE_TARGET_CURVE.get("NDCNEW", {}))},
-        {"Item": "  LTSNEW", "Value": str(RENEWABLE_TARGET_CURVE.get("LTSNEW", {}))},
-        {"Item": "  CR overrides", "Value": str(COUNTRY_TARGET_OVERRIDES.get("CostaRica", {}))},
+        {"Item": f"  {LT.scenario('ndc')}", "Value": str(RENEWABLE_TARGET_CURVE.get(LT.scenario('ndc'), {}))},
+        {"Item": f"  {LT.scenario('lts')}", "Value": str(RENEWABLE_TARGET_CURVE.get(LT.scenario('lts'), {}))},
+        {"Item": f"  {LT.country_value(LT.controller_list("own_rule_country_names", "1")[0], 'code')} overrides", "Value": str(COUNTRY_TARGET_OVERRIDES.get(LT.controller_list("own_rule_country_names", "1")[0], {}))},
         {"Item": "", "Value": ""},
         {"Item": "SHARES", "Value": "Sum to 100% for all (country, scenario, year) by construction"},
         {"Item": "LOWER LIMITS", "Value": "share × empirical_gen, capped at production potential"},

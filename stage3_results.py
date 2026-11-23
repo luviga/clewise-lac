@@ -24,20 +24,15 @@ from pathlib import Path
 
 import pandas as pd
 
+import lac_tables as LT
+
 # =====================================================================
-# CONFIGURATION
+# CONFIGURATION (values and names from the tables read by lac_tables.py)
 # =====================================================================
 
-SCENARIOS = ["BAU", "NDCNEW", "LTSNEW"]
+SCENARIOS = LT.scenarios()
 
-COUNTRY_CONFIG = {
-    "CostaRica":         {"model_dir": "CR_ENERGY/t1_confection", "region": "CR"},
-    "DominicanRepublic": {"model_dir": "RD_ENERGY",              "region": "RD"},
-    "Ecuador":           {"model_dir": "ECU_Energy",             "region": "ECU"},
-    "Guatemala":         {"model_dir": "GUA_ENERGY",             "region": "GUA"},
-    "Honduras":          {"model_dir": "HON_ENERGY",             "region": "HON"},
-    "Jamaica":           {"model_dir": "JAM_ENERGY",             "region": "JAM"},
-}
+COUNTRY_CONFIG = LT.country_table("model_dir", region="code")
 
 # Variables to extract and their index structure (from B1_Model_Structure)
 # Format: {variable_name: [index_names]}
@@ -145,7 +140,7 @@ def parse_glpk_output(filepath, target_vars):
             except (ValueError, IndexError):
                 continue
             
-            if abs(value) > 1e-10:  # skip zeros
+            if abs(value) > LT.controller("change_tolerance"):  # skip zeros
                 results[var_name].append((indices, value))
     
     elapsed = time.time() - t0
@@ -247,7 +242,7 @@ def main():
         yr_cols = [c for c in ctrl_shares.columns if isinstance(c, (int, float))]
 
         act = pd.concat(all_dfs["TotalTechnologyAnnualActivity"], ignore_index=True)
-        pp_act = act[act["Technology"].str.upper().str.startswith(("PP", "PWR"))].copy()
+        pp_act = act[act["Technology"].str.upper().str.startswith(tuple(LT.techs("power_plant_prefix")))].copy()
         totals = pp_act.groupby(["Country", "Scenario", "Year"])["Value"].sum().reset_index()
         totals = totals.rename(columns={"Value": "Total"})
         pp_act = pp_act.merge(totals, on=["Country", "Scenario", "Year"])
@@ -261,10 +256,10 @@ def main():
             c, s, tech = crow["Country"], crow["Scenario"], crow["Tech"]
             if c not in countries:
                 continue
-            max_yr = solver_max_year.get((c, s), 2050)
+            max_yr = solver_max_year.get((c, s), LT.controller("max_year_default", "3"))
             for y in yr_cols:
                 yi = int(y)
-                if yi < 2025 or yi > max_yr:
+                if yi < LT.controller("first_patch_year", "3") or yi > max_yr:
                     continue
                 ctrl_s = float(crow[y])
                 solver_row = pp_act[
@@ -281,9 +276,9 @@ def main():
                         solver_s = 0.0
                         dev = -ctrl_s
                         abs_dev = abs(dev)
-                        if abs_dev > 0.01:
+                        if abs_dev > LT.controller("share_fail_deviation", "3"):
                             status = "FAIL"
-                        elif abs_dev > 0.003:
+                        elif abs_dev > LT.controller("share_warn_deviation", "3"):
                             status = "WARN"
                         else:
                             status = "PASS"
@@ -291,9 +286,9 @@ def main():
                     solver_s = solver_row["SolverShare"].iloc[0]
                     dev = solver_s - ctrl_s
                     abs_dev = abs(dev)
-                    if abs_dev > 0.01:
+                    if abs_dev > LT.controller("share_fail_deviation", "3"):
                         status = "FAIL"
-                    elif abs_dev > 0.003:
+                    elif abs_dev > LT.controller("share_warn_deviation", "3"):
                         status = "WARN"
                     else:
                         status = "PASS"
@@ -334,7 +329,7 @@ def main():
             if cem.empty:
                 continue
             print(f"\n  {country}:")
-            for year in [2025, 2030, 2035, 2040, 2050]:
+            for year in LT.controller_list("emission_print_years", "3"):
                 row = cem[cem["Year"] == year].groupby("Scenario")["Value"].sum()
                 if not row.empty:
                     vals = "  ".join(f"{s}={v:.2f}" for s, v in row.items())
@@ -392,7 +387,7 @@ def main():
 
         if re_techs:
             act = pd.concat(all_dfs["TotalTechnologyAnnualActivity"], ignore_index=True)
-            pp = act[act["Technology"].str.upper().str.startswith(("PP", "PWR"))].copy()
+            pp = act[act["Technology"].str.upper().str.startswith(tuple(LT.techs("power_plant_prefix")))].copy()
             pp["Is_RE"] = pp["Technology"].isin(re_techs).astype(int)
 
             totals = pp.groupby(["Country", "Scenario", "Year"])["Value"].sum().reset_index()
@@ -403,11 +398,9 @@ def main():
             merged["RE_Share"] = merged["RE"] / merged["Total"]
 
             # Policy targets: {scenario: {year: target_share}}
-            RE_TARGETS = {
-                "NDCNEW": {2035: 0.75, 2050: 0.75},
-                "LTSNEW": {2035: 0.75, 2050: 0.99},
-            }
-            RE_TOLERANCE = 0.02  # 2pp tolerance
+            # (inputs/scenarios/scenario_values.csv, lever renewable_share, general rows)
+            RE_TARGETS = LT.scenario_values("renewable_share")
+            RE_TOLERANCE = LT.controller("re_target_tolerance", "3")  # share points
 
             re_pass = 0
             re_fail = 0
@@ -449,9 +442,9 @@ def main():
             # Also show BAU RE share for context
             print(f"\n  BAU renewable share (no target — context only):")
             for country in countries:
-                bau = merged[(merged["Country"] == country) & (merged["Scenario"] == "BAU")]
+                bau = merged[(merged["Country"] == country) & (merged["Scenario"] == LT.scenario("base"))]
                 vals = []
-                for y in [2025, 2030, 2035, 2050]:
+                for y in LT.controller_list("re_print_years", "3"):
                     r = bau[bau["Year"] == y]
                     if not r.empty:
                         vals.append(f"{y}={r['RE_Share'].iloc[0]*100:.1f}%")

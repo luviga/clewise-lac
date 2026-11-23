@@ -1,0 +1,81 @@
+old_line,value,loader_read
+697,BAU,LT.scenario('base')
+699,BAU,LT.scenario('base')
+701,BAU,LT.scenario('base')
+702,BAU,LT.scenario('base')
+712,BAU,LT.scenario('base')
+723,BAU,LT.scenario('base')
+726,BAU,LT.scenario('base')
+733,BAU,LT.scenario('base')
+735,BAU,LT.scenario('base')
+735,3,_TB1['driven_distance_lag_years']
+842,BAU,LT.scenario('base')
+844,BAU,LT.scenario('base')
+846,BAU,LT.scenario('base')
+849,BAU,LT.scenario('base')
+860,BAU,LT.scenario('base')
+863,BAU,LT.scenario('base')
+870,BAU,LT.scenario('base')
+870,3,_TB1['driven_distance_lag_years']
+1351,BAU,LT.scenario('base')
+1503,BAU,LT.scenario('base')
+2302,Relative reduction to BAU - distance,LT.scenario('base')
+2371,Relative increase to BAU - occupancy rate,LT.scenario('base')
+2477,BAU,LT.scenario('base')
+2496,BAU,LT.scenario('base')
+2588,2032,_TB1['milestone_years'][0]
+2592,2033,_TB1['milestone_years'][1]
+2596,2034,_TB1['milestone_years'][2]
+2661,NDCcond,LT.scenario('older_ndc_conditional')
+2711,2032,_TB1['milestone_years'][0]
+2715,2033,_TB1['milestone_years'][1]
+2719,2034,_TB1['milestone_years'][2]
+2751,TRNPASRAI,"LT.tech('rail_passenger_tech', _TC)"
+2808,1.01,_TB1['upper_security_factor']
+2810,0.999,_TB1['lower_security_factor']
+2820,4,_TB1['rounding_digits']
+2870,BAU,LT.scenario('base')
+2887,TRNMIC,"LT.tech('microbus_tech', _TC)"
+2888,TRNMIC,"LT.tech('microbus_tech', _TC)"
+2891,NDCcond,LT.scenario('older_ndc_conditional')
+2902,BAU,LT.scenario('base')
+2908,BAU,LT.scenario('base')
+2919,TRNMIC,"LT.tech('microbus_tech', _TC)"
+2920,TRNMIC,"LT.tech('microbus_tech', _TC)"
+2923,NDCcond,LT.scenario('older_ndc_conditional')
+2952,BAU,LT.scenario('base')
+2978,BAU,LT.scenario('base')
+3010,TRNMIC,"LT.tech('microbus_tech', _TC)"
+3011,TRNMIC,"LT.tech('microbus_tech', _TC)"
+3014,NDCcond,LT.scenario('older_ndc_conditional')
+3055,TRNMIC,"LT.tech('microbus_tech', _TC)"
+3056,TRNMIC,"LT.tech('microbus_tech', _TC)"
+3059,NDCcond,LT.scenario('older_ndc_conditional')
+3079,BAU,LT.scenario('base')
+3131,TRNMIC,"LT.tech('microbus_tech', _TC)"
+3132,TRNMIC,"LT.tech('microbus_tech', _TC)"
+3135,NDCcond,LT.scenario('older_ndc_conditional')
+3232,4,_TB1['rounding_digits']
+3236,RD,_TB1['appended_region_code']
+3316,IMP,LT.tech('import_token')
+3380,1.01,_TB1['upper_security_factor']
+3403,0.999,_TB1['lower_security_factor']
+3566,1.001,_TB1['upper_security_factor_fine']
+3568,0.999,_TB1['lower_security_factor']
+3575,999,_TB1['unknown_value_marker']
+3576,999,_TB1['unknown_value_marker']
+3591,ELE,LT.tech('electric_set_token')
+3614,BAU,LT.scenario('base')
+3638,TRNMIC,"LT.tech('microbus_tech', _TC)"
+3639,TRNMIC,"LT.tech('microbus_tech', _TC)"
+3642,NDCcond,LT.scenario('older_ndc_conditional')
+3652,BAU,LT.scenario('base')
+3688,NDP,LT.scenario('older_ndp')
+3761,BAU,LT.scenario('base')
+3848,TRNMIC,"LT.tech('microbus_tech', _TC)"
+3849,TRNMIC,"LT.tech('microbus_tech', _TC)"
+3852,NDCcond,LT.scenario('older_ndc_conditional')
+3865,1.01,_TB1['upper_security_factor']
+4080,BAU,LT.scenario('base')
+4083,NDP,LT.scenario('older_ndp')
+4199,IMP,LT.tech('import_token')

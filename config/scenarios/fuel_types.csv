@@ -1,0 +1,8 @@
+group,fuel,match,country,used_by,description
+electricity_fuel_token,ELE,token,all,stage0_collect_outputs.py,name token of electricity fuels
+passenger_private_demand,E6TDPASPRI,name,all,B1 runner,private passenger transport demand
+passenger_public_demand,E6TDPASPUB,name,all,B1 runner,public passenger transport demand
+freight_heavy_demand,E6TDFREHEA,name,all,B1 runner,heavy freight transport demand
+freight_light_demand,E6TDFRELIG,name,all,B1 runner,light freight transport demand
+nonmotorised_demand,E6TRNOMOT,name,all,B1 runner,non-motorised transport demand
+passenger_tourism_demand,E6TDPASTUR,name,all,B1 runner,tourism passenger transport demand

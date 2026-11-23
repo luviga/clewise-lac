@@ -1,0 +1,147 @@
+old_line,value,loader_read
+41,2026,"LT.controller('cutoff_year', '2')"
+42,2024,LT.controller('anchor_year')
+43,2025,"LT.controller_list('plateau_years', '2')"
+43,2026,"LT.controller_list('plateau_years', '2')"
+44,0.01,"LT.controller('fossil_decline_rate', '2')"
+45,1.05,"LT.controller('upper_security_factor', '2')"
+46,9999.0,"LT.controller('upper_limit_sentinel', '2')"
+47,2018,"LT.controller('year_min', '2')"
+47,2055,"LT.controller('year_max', '2')"
+52,CostaRica,LT.country_map('model_dir')
+53,DominicanRepublic,LT.country_map('model_dir')
+54,Ecuador,LT.country_map('model_dir')
+55,Guatemala,LT.country_map('model_dir')
+56,Honduras,LT.country_map('model_dir')
+57,Jamaica,LT.country_map('model_dir')
+52,CR_ENERGY/t1_confection,LT.country_map('model_dir')
+53,RD_ENERGY,LT.country_map('model_dir')
+54,ECU_Energy,LT.country_map('model_dir')
+55,GUA_ENERGY,LT.country_map('model_dir')
+56,HON_ENERGY,LT.country_map('model_dir')
+57,JAM_ENERGY,LT.country_map('model_dir')
+62,NDCNEW,LT.scenario_values('renewable_share')
+63,LTSNEW,LT.scenario_values('renewable_share')
+62,2035,LT.scenario_values('renewable_share')
+62,2050,LT.scenario_values('renewable_share')
+62,0.75,LT.scenario_values('renewable_share')
+62,0.75,LT.scenario_values('renewable_share')
+63,2035,LT.scenario_values('renewable_share')
+63,2050,LT.scenario_values('renewable_share')
+63,0.75,LT.scenario_values('renewable_share')
+63,0.99,LT.scenario_values('renewable_share')
+66,CostaRica,LT.scenario_value_overrides('renewable_share')
+70,Ecuador,LT.scenario_value_overrides('renewable_share')
+67,NDCNEW,LT.scenario_value_overrides('renewable_share')
+68,LTSNEW,LT.scenario_value_overrides('renewable_share')
+71,NDCNEW,LT.scenario_value_overrides('renewable_share')
+72,LTSNEW,LT.scenario_value_overrides('renewable_share')
+67,2035,LT.scenario_value_overrides('renewable_share')
+67,2050,LT.scenario_value_overrides('renewable_share')
+67,0.9,LT.scenario_value_overrides('renewable_share')
+67,0.9,LT.scenario_value_overrides('renewable_share')
+68,2035,LT.scenario_value_overrides('renewable_share')
+68,2050,LT.scenario_value_overrides('renewable_share')
+68,0.99,LT.scenario_value_overrides('renewable_share')
+68,0.99,LT.scenario_value_overrides('renewable_share')
+71,2035,LT.scenario_value_overrides('renewable_share')
+71,2050,LT.scenario_value_overrides('renewable_share')
+71,0.8,LT.scenario_value_overrides('renewable_share')
+71,0.8,LT.scenario_value_overrides('renewable_share')
+72,2035,LT.scenario_value_overrides('renewable_share')
+72,2050,LT.scenario_value_overrides('renewable_share')
+72,0.8,LT.scenario_value_overrides('renewable_share')
+72,0.99,LT.scenario_value_overrides('renewable_share')
+75,2050,"LT.controller('target_hold_year', '2')"
+77,CostaRica,"LT.controller_list('own_rule_country_names', '2')"
+80,HYD,LT.techs('hydro_token')
+80,DAM,LT.techs('hydro_token')
+80,ROR,LT.techs('hydro_token')
+80,PPHD,LT.techs('hydro_token')
+80,PPIHD,LT.techs('hydro_token')
+81,GEO,LT.techs('renewable_token')
+81,SOL,LT.techs('renewable_token')
+81,SUN,LT.techs('renewable_token')
+81,SPV,LT.techs('renewable_token')
+81,PV,LT.techs('renewable_token')
+81,CSP,LT.techs('renewable_token')
+82,WND,LT.techs('renewable_token')
+82,WIND,LT.techs('renewable_token')
+82,WNO,LT.techs('renewable_token')
+82,WNS,LT.techs('renewable_token')
+83,BMS,LT.techs('renewable_token')
+83,BIM,LT.techs('renewable_token')
+83,BIO,LT.techs('renewable_token')
+83,BGS,LT.techs('renewable_token')
+83,SUG,LT.techs('renewable_token')
+83,REN,LT.techs('renewable_token')
+84,DSL,LT.techs('fossil_token')
+84,DIE,LT.techs('fossil_token')
+84,FOI,LT.techs('fossil_token')
+84,HFO,LT.techs('fossil_token')
+84,CRU,LT.techs('fossil_token')
+85,COA,LT.techs('fossil_token')
+85,COK,LT.techs('fossil_token')
+85,NGS,LT.techs('fossil_token')
+85,GAS,LT.techs('fossil_token')
+85,GLP,LT.techs('fossil_token')
+85,LPG,LT.techs('fossil_token')
+86,GSL,LT.techs('fossil_token')
+86,KJF,LT.techs('fossil_token')
+86,OIL,LT.techs('fossil_token')
+86,PET,LT.techs('fossil_token')
+86,FOS,LT.techs('fossil_token')
+87,SOL,LT.techs('solar_wind_token')
+87,SUN,LT.techs('solar_wind_token')
+87,SPV,LT.techs('solar_wind_token')
+87,PV,LT.techs('solar_wind_token')
+87,CSP,LT.techs('solar_wind_token')
+88,WND,LT.techs('solar_wind_token')
+88,WIND,LT.techs('solar_wind_token')
+88,WNO,LT.techs('solar_wind_token')
+88,WNS,LT.techs('solar_wind_token')
+215,BAU,LT.scenarios()
+215,NDCNEW,LT.scenarios()
+215,LTSNEW,LT.scenarios()
+494,0.02,"LT.controller('full_override_tolerance', '2')"
+595,BAU,LT.scenario('base')
+639,0.0001,"LT.controller('mincap_share_tolerance', '2')"
+655,1e-09,LT.controller('zero_tolerance')
+671,1e-09,LT.controller('zero_tolerance')
+698,0.002,"LT.controller('renorm_tolerance', '2')"
+699,1e-09,LT.controller('zero_tolerance')
+706,6,"LT.controller('audit_digits', '2')"
+724,1e-09,LT.controller('zero_tolerance')
+736,1e-09,LT.controller('zero_tolerance')
+751,0.01,"LT.controller('renorm_check_tolerance', '2')"
+755,6,"LT.controller('audit_digits', '2')"
+756,6,"LT.controller('audit_digits', '2')"
+766,BAU,LT.scenario('base')
+782,BAU,LT.scenario('base')
+810,0.002,"LT.controller('target_match_tolerance', '2')"
+820,1e-09,LT.controller('zero_tolerance')
+831,1e-09,LT.controller('zero_tolerance')
+886,1e-09,LT.controller('zero_tolerance')
+952,9990,"LT.controller('sentinel_detect_threshold', '2')"
+958,4,"LT.controller('limit_digits', '2')"
+959,4,"LT.controller('limit_digits', '2')"
+987,6,"LT.controller('share_digits', '2')"
+, (CR: 0%),"LT.country_value(LT.controller_list('own_rule_country_names', '2')[0], 'code')"
+,NDCNEW: ,LT.scenario('ndc')
+1023,NDCNEW,LT.scenario('ndc')
+,; LTSNEW: ,LT.scenario('lts')
+1023,LTSNEW,LT.scenario('lts')
+1122,BAU,LT.scenario('base')
+1122,2024,"LT.controller('trend_start_year', '2')"
+1123,BAU,LT.scenario('base')
+1123,2050,"LT.controller('trend_end_year', '2')"
+1149,BAU,LT.scenarios()
+1149,NDCNEW,LT.scenarios()
+1149,LTSNEW,LT.scenarios()
+1150,2024,"LT.controller_list('check_years', '2')"
+1150,2026,"LT.controller_list('check_years', '2')"
+1150,2030,"LT.controller_list('check_years', '2')"
+1150,2050,"LT.controller_list('check_years', '2')"
+1153,0.01,"LT.controller('share_check_tolerance', '2')"
+1154,2024,"LT.controller_list('check_renewable_years', '2')"
+1154,2050,"LT.controller_list('check_renewable_years', '2')"

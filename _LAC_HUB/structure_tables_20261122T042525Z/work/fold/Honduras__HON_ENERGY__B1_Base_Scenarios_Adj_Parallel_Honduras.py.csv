@@ -1,0 +1,200 @@
+old_line,value,loader_read
+6,HON,"LT.country_value(_TC, 'code')"
+9,2025,_TB1['discount_year']
+15,0.08,_TB1['discount_rate']
+543,2024,_TB1['history_end_year']
+545,2050,_TB1['last_year']
+557,2024,_TB1['history_end_year']
+562,2018,_TB1['first_year']
+565,2024,_TB1['history_end_year']
+567,2019,_TB1['driven_distance_reference_year']
+575,2024,_TB1['history_end_year']
+577,2024,_TB1['history_end_year']
+579,3,_TB1['driven_distance_lag_years']
+595,4,_TB1['rounding_digits']
+600,4,_TB1['rounding_digits']
+603,4,_TB1['rounding_digits']
+606,4,_TB1['rounding_digits']
+640,Accidents,"LT.emissions('externality', _TC)"
+640,Health,"LT.emissions('externality', _TC)"
+640,Congestion,"LT.emissions('externality', _TC)"
+640,CONVAR,"LT.emissions('externality', _TC)"
+640,CONHICK,"LT.emissions('externality', _TC)"
+640,REHAB,"LT.emissions('externality', _TC)"
+652,4,_TB1['rounding_digits']
+685,2024,_TB1['history_end_year']
+687,2050,_TB1['last_year']
+691,2024,_TB1['history_end_year']
+696,2018,_TB1['first_year']
+699,2024,_TB1['history_end_year']
+701,2019,_TB1['driven_distance_reference_year']
+709,2024,_TB1['history_end_year']
+711,3,_TB1['driven_distance_lag_years']
+736,4,_TB1['rounding_digits']
+756,4,_TB1['rounding_digits']
+776,4,_TB1['rounding_digits']
+796,4,_TB1['rounding_digits']
+1290,BAU,LT.scenario('base')
+1304,BAU,LT.scenario('base')
+1474,BAU,LT.scenario('base')
+1481,4,_TB1['rounding_digits']
+1513,4,_TB1['rounding_digits']
+1517,4,_TB1['rounding_digits']
+1521,4,_TB1['rounding_digits']
+1658,4,_TB1['rounding_digits']
+1659,4,_TB1['rounding_digits']
+1970,2018,_TB1['first_year']
+1970,2050,_TB1['last_year']
+1971,2024,_TB1['history_end_year']
+2202,Relative reduction to BAU - distance,LT.scenario('base')
+2268,Relative increase to BAU - occupancy rate,LT.scenario('base')
+2327,4,_TB1['rounding_digits']
+2338,4,_TB1['rounding_digits']
+2372,BAU,LT.scenario('base')
+2380,E6TDPASPUB,LT.fuel('passenger_public_demand')
+2381,E6TDPASPRI,LT.fuel('passenger_private_demand')
+2382,E6TRNOMOT,LT.fuel('nonmotorised_demand')
+2384,E6TDFREHEA,LT.fuel('freight_heavy_demand')
+2385,E6TDFRELIG,LT.fuel('freight_light_demand')
+2388,BAU,LT.scenario('base')
+2433,2050,_TB1['last_year']
+2435,2050,_TB1['last_year']
+2462,2030,_TB1['milestone_years'][0]
+2466,2040,_TB1['milestone_years'][1]
+2470,2050,_TB1['milestone_years'][2]
+2490,E6TDPASPUB,LT.fuel('passenger_public_demand')
+2492,E6TRNOMOT,LT.fuel('nonmotorised_demand')
+2496,E6TDPASPUB,LT.fuel('passenger_public_demand')
+2498,4,_TB1['rounding_digits']
+2499,E6TRNOMOT,LT.fuel('nonmotorised_demand')
+2501,4,_TB1['rounding_digits']
+2537,2030,_TB1['milestone_years'][0]
+2541,2040,_TB1['milestone_years'][1]
+2545,2050,_TB1['milestone_years'][2]
+2563,4,_TB1['rounding_digits']
+2566,Techs_Trains_Freight,LT.tech('rail_freight_set')
+2572,Techs_Trains_Freight,LT.tech('rail_freight_set')
+2572,Techs_He_Freight,LT.tech('heavy_freight_set')
+2585,1.01,_TB1['upper_security_factor']
+2587,0.999,_TB1['lower_security_factor']
+2596,4,_TB1['rounding_digits']
+2641,4,_TB1['rounding_digits']
+2651,BAU,LT.scenario('base')
+2657,BAU,LT.scenario('base')
+2664,4,_TB1['rounding_digits']
+2691,BAU,LT.scenario('base')
+2694,4,_TB1['rounding_digits']
+2702,4,_TB1['rounding_digits']
+2717,BAU,LT.scenario('base')
+2727,4,_TB1['rounding_digits']
+2733,Techs_Trains,LT.tech('rail_passenger_set')
+2741,4,_TB1['rounding_digits']
+2758,4,_TB1['rounding_digits']
+2767,Techs_Trains,LT.tech('rail_passenger_set')
+2775,4,_TB1['rounding_digits']
+2793,BAU,LT.scenario('base')
+2799,4,_TB1['rounding_digits']
+2823,4,_TB1['rounding_digits']
+2832,Techs_Trains_Freight,LT.tech('rail_freight_set')
+2839,4,_TB1['rounding_digits']
+3017,TRANRAILFREINF,"LT.techs('transport_cap_ignore', _TC)"
+3017,TRANOMOTWalk,"LT.techs('transport_cap_ignore', _TC)"
+3017,TRANOMOTBike,"LT.techs('transport_cap_ignore', _TC)"
+3018,TRXTRAIELE,"LT.techs('transport_cap_ignore', _TC)"
+3018,TRXTRAIFREELE,"LT.techs('transport_cap_ignore', _TC)"
+3018,TRANRAILINF,"LT.techs('transport_cap_ignore', _TC)"
+3018,TRANPUB,"LT.techs('transport_cap_ignore', _TC)"
+3018,TRANRAILCAR,"LT.techs('transport_cap_ignore', _TC)"
+3024,IMP,LT.tech('import_token')
+3046,1.01,_TB1['upper_security_factor']
+3047,4,_TB1['rounding_digits']
+3069,0.999,_TB1['lower_security_factor']
+3070,4,_TB1['rounding_digits']
+3121,2018,_TB1['first_year']
+3122,2030,_TB1['milestone_years']
+3122,2040,_TB1['milestone_years']
+3122,2050,_TB1['milestone_years']
+3185,2030,_TB1['milestone_years'][0]
+3189,2040,_TB1['milestone_years'][1]
+3193,2050,_TB1['milestone_years'][2]
+3222,2050,_TB1['last_year']
+3224,2050,_TB1['last_year']
+3240,1.001,_TB1['upper_security_factor_fine']
+3241,TRAUTHG,"LT.tech('security_special_tech', _TC)"
+3242,1.005,_TB1['upper_security_factor_special']
+3244,0.999,_TB1['lower_security_factor']
+3252,999,_TB1['unknown_value_marker']
+3253,999,_TB1['unknown_value_marker']
+3265,4,_TB1['rounding_digits']
+3281,BAU,LT.scenario('base')
+3366,BAU,LT.scenario('base')
+3388,E6TDPASPRI,LT.fuel('passenger_private_demand')
+3389,E6TDPASPUB,LT.fuel('passenger_public_demand')
+3390,E6TDFREHEA,LT.fuel('freight_heavy_demand')
+3391,E6TDFRELIG,LT.fuel('freight_light_demand')
+3395,Techs_Trains,LT.tech('rail_passenger_set')
+3400,E6TDPASPUB,LT.fuel('passenger_public_demand')
+3400,BAU,LT.scenario('base')
+3416,4,_TB1['rounding_digits']
+3420,E6TDPASPRI,LT.fuel('passenger_private_demand')
+3421,E6TRNOMOT,LT.fuel('nonmotorised_demand')
+3430,4,_TB1['rounding_digits']
+3435,E6TDPASPUB,LT.fuel('passenger_public_demand')
+3438,E6TDFREHEA,LT.fuel('freight_heavy_demand')
+3441,E6TDFRELIG,LT.fuel('freight_light_demand')
+3462,4,_TB1['rounding_digits']
+3505,4,_TB1['rounding_digits']
+3577,1.01,_TB1['upper_security_factor']
+3579,4,_TB1['rounding_digits']
+3615,9999,_TB1['max_capacity_open']
+3628,9999,_TB1['max_capacity_open']
+3712,BAU,LT.scenario('base')
+3712,NDCincond,LT.scenario('older_ndc_unconditional')
+3712,NDCcond,LT.scenario('older_ndc_conditional')
+3719,T4GSL_LIG,"LT.techs('gasoline_blend', _TC)"
+3720,T4GSL_PRI,"LT.techs('gasoline_blend', _TC)"
+3721,T4GSL_PUB,"LT.techs('gasoline_blend', _TC)"
+3722,T4GSL_TUR,"LT.techs('gasoline_blend', _TC)"
+3723,DIST_GSL,"LT.techs('gasoline_blend', _TC)"
+3726,T4GSL_LIG,"LT.emission_map('gasoline_blend', _TC)"
+3727,T4GSL_PRI,"LT.emission_map('gasoline_blend', _TC)"
+3728,T4GSL_PUB,"LT.emission_map('gasoline_blend', _TC)"
+3729,T4GSL_TUR,"LT.emission_map('gasoline_blend', _TC)"
+3730,DIST_GSL,"LT.emission_map('gasoline_blend', _TC)"
+3726,CO2e,"LT.emission_map('gasoline_blend', _TC)"
+3726,CO2,"LT.emission_map('gasoline_blend', _TC)"
+3726,CH4,"LT.emission_map('gasoline_blend', _TC)"
+3726,N2O,"LT.emission_map('gasoline_blend', _TC)"
+3727,CO2e,"LT.emission_map('gasoline_blend', _TC)"
+3727,CO2,"LT.emission_map('gasoline_blend', _TC)"
+3727,CH4,"LT.emission_map('gasoline_blend', _TC)"
+3727,N2O,"LT.emission_map('gasoline_blend', _TC)"
+3728,CO2e,"LT.emission_map('gasoline_blend', _TC)"
+3728,CO2,"LT.emission_map('gasoline_blend', _TC)"
+3728,CH4,"LT.emission_map('gasoline_blend', _TC)"
+3728,N2O,"LT.emission_map('gasoline_blend', _TC)"
+3729,CO2e,"LT.emission_map('gasoline_blend', _TC)"
+3729,CO2,"LT.emission_map('gasoline_blend', _TC)"
+3729,CH4,"LT.emission_map('gasoline_blend', _TC)"
+3729,N2O,"LT.emission_map('gasoline_blend', _TC)"
+3730,CO2e_sources,"LT.emission_map('gasoline_blend', _TC)"
+3746,2025,_TB1['biodiesel_blend_start']
+3746,0,_TB1['biodiesel_blend_start']
+3747,2030,_TB1['biodiesel_blend_final']
+3747,5,_TB1['biodiesel_blend_final']
+3764,2025,_TB1['ethanol_blend_start']
+3764,0,_TB1['ethanol_blend_start']
+3765,2030,_TB1['ethanol_blend_mid']
+3765,4.99,_TB1['ethanol_blend_mid']
+3766,2035,_TB1['ethanol_blend_final']
+3766,5.0,_TB1['ethanol_blend_final']
+3788,BAU,LT.scenario('base')
+3791,NDP,LT.scenario('older_ndp')
+3863,4,_TB1['rounding_digits']
+3888,4,_TB1['rounding_digits']
+3904,IMP,LT.tech('import_token')
+3924,CO2,LT.emission('co2_token')
+3964,CO2,LT.emission('co2_token')
+3973,4,_TB1['rounding_digits']
+3978,CO2,LT.emission('co2_token')
+4014,4,_TB1['rounding_digits']

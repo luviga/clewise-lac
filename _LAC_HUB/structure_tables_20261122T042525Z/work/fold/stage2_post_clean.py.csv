@@ -1,0 +1,13 @@
+old_line,value,loader_read
+21,CostaRica,LT.country_map('model_dir')
+22,DominicanRepublic,LT.country_map('model_dir')
+23,Ecuador,LT.country_map('model_dir')
+24,Guatemala,LT.country_map('model_dir')
+25,Honduras,LT.country_map('model_dir')
+26,Jamaica,LT.country_map('model_dir')
+21,CR_ENERGY/t1_confection,LT.country_map('model_dir')
+22,RD_ENERGY,LT.country_map('model_dir')
+23,ECU_Energy,LT.country_map('model_dir')
+24,GUA_ENERGY,LT.country_map('model_dir')
+25,HON_ENERGY,LT.country_map('model_dir')
+26,JAM_ENERGY,LT.country_map('model_dir')

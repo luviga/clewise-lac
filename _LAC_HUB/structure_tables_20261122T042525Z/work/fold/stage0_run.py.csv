@@ -1,0 +1,68 @@
+old_line,value,loader_read
+34,BAU,LT.scenarios()
+34,NDCNEW,LT.scenarios()
+34,LTSNEW,LT.scenarios()
+37,2024,LT.controller('anchor_year')
+38,2024,"LT.controller('plateau_end_year', '0')"
+40,PP,LT.techs('power_plant_prefix')
+40,PWR,LT.techs('power_plant_prefix')
+48,PPWNDD,LT.techs('stage0_bypass')
+48,PPPVD,LT.techs('stage0_bypass')
+48,PPPVDS,LT.techs('stage0_bypass')
+49,PPHD,LT.techs('stage0_bypass')
+49,PPIHD,LT.techs('stage0_bypass')
+50,PPCRU,LT.techs('stage0_bypass')
+50,PPDDSL,LT.techs('stage0_bypass')
+50,PPDFOI,LT.techs('stage0_bypass')
+50,PPDGSL,LT.techs('stage0_bypass')
+51,PPDGLP,LT.techs('stage0_bypass')
+51,PPDNGS,LT.techs('stage0_bypass')
+51,PPRDSL,LT.techs('stage0_bypass')
+51,PPRNGS,LT.techs('stage0_bypass')
+52,PPILPG,LT.techs('stage0_bypass')
+52,PPIBIM,LT.techs('stage0_bypass')
+57,9999.0,"LT.controller('upper_limit_sentinel', '0')"
+64,CostaRica,"LT.country_table('model_dir', 'osemosys')"
+68,DominicanRepublic,"LT.country_table('model_dir', 'osemosys')"
+72,Ecuador,"LT.country_table('model_dir', 'osemosys')"
+76,Guatemala,"LT.country_table('model_dir', 'osemosys')"
+80,Honduras,"LT.country_table('model_dir', 'osemosys')"
+84,Jamaica,"LT.country_table('model_dir', 'osemosys')"
+65,model_dir,"LT.country_table('model_dir', 'osemosys')"
+66,osemosys,"LT.country_table('model_dir', 'osemosys')"
+65,CR_ENERGY/t1_confection,"LT.country_table('model_dir', 'osemosys')"
+66,CR_ENERGY/t1_confection/OSeMOSYS_Model.txt,"LT.country_table('model_dir', 'osemosys')"
+69,model_dir,"LT.country_table('model_dir', 'osemosys')"
+70,osemosys,"LT.country_table('model_dir', 'osemosys')"
+69,RD_ENERGY,"LT.country_table('model_dir', 'osemosys')"
+70,RD_ENERGY/OSeMOSYS_Model.txt,"LT.country_table('model_dir', 'osemosys')"
+73,model_dir,"LT.country_table('model_dir', 'osemosys')"
+74,osemosys,"LT.country_table('model_dir', 'osemosys')"
+73,ECU_Energy,"LT.country_table('model_dir', 'osemosys')"
+74,ECU_Energy/OSeMOSYS_Model.txt,"LT.country_table('model_dir', 'osemosys')"
+77,model_dir,"LT.country_table('model_dir', 'osemosys')"
+78,osemosys,"LT.country_table('model_dir', 'osemosys')"
+77,GUA_ENERGY,"LT.country_table('model_dir', 'osemosys')"
+78,GUA_ENERGY/OSeMOSYS_Model.txt,"LT.country_table('model_dir', 'osemosys')"
+81,model_dir,"LT.country_table('model_dir', 'osemosys')"
+82,osemosys,"LT.country_table('model_dir', 'osemosys')"
+81,HON_ENERGY,"LT.country_table('model_dir', 'osemosys')"
+82,HON_ENERGY/OSeMOSYS_Model.txt,"LT.country_table('model_dir', 'osemosys')"
+85,model_dir,"LT.country_table('model_dir', 'osemosys')"
+86,osemosys,"LT.country_table('model_dir', 'osemosys')"
+85,JAM_ENERGY,"LT.country_table('model_dir', 'osemosys')"
+86,JAM_ENERGY/OSeMOSYS_Model.txt,"LT.country_table('model_dir', 'osemosys')"
+131,2000,LT.controller('year_header_min')
+198,2000,LT.controller('year_header_min')
+210,0.01,"LT.controller('bypass_floor_pj', '0')"
+212,0.01,"LT.controller('bypass_floor_pj', '0')"
+229,6,"LT.controller('change_log_digits', '0')"
+230,6,"LT.controller('change_log_digits', '0')"
+316,2000,LT.controller('year_header_min')
+367,1e-10,LT.controller('change_tolerance')
+378,6,"LT.controller('change_log_digits', '0')"
+379,6,"LT.controller('change_log_digits', '0')"
+380,6,"LT.controller('change_log_digits', '0')"
+547,0.01,"LT.controller('bypass_floor_pj', '0')"
+557,0.01,"LT.controller('bypass_floor_pj', '0')"
+558,2,"LT.controller('bypass_oversize_ratio', '0')"

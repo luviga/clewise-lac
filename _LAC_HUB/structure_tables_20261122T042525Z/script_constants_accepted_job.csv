@@ -1,0 +1,282 @@
+file,line,kind,value,reason
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,360,number,11,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,369,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,374,number,30,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,384,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,389,number,43,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,399,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,432,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,717,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,717,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,757,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,757,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,764,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,764,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,1050,number,2,"garbage collector generation (memory housekeeping, no effect on results)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,1134,number,2,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,1140,number,2,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,1168,number,3,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,1218,number,4,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,1267,number,5,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,1555,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,1555,number,6,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,1555,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,1555,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,1559,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,1559,number,6,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,1559,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,1559,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,1929,number,10,fixed leading digits of an internal row code (no effect on values)
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,2108,number,11,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,2117,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,2122,number,30,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,2132,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,2137,number,43,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,2147,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,2238,scenario,Default (in 'Default_Value'),"generic word Default in a file or column name (Default parameter values), not a scenario name"
+CostaRica/CR_ENERGY/t1_confection/B1_Base_Scenarios_Adj_Parallel_CostaRica.py,2240,scenario,Default (in 'Default_Value'),"generic word Default in a file or column name (Default parameter values), not a scenario name"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,231,number,11,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,240,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,245,number,30,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,255,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,260,number,43,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,270,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,343,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,626,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,626,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,666,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,666,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,673,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,673,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,956,number,2,"garbage collector generation (memory housekeeping, no effect on results)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,1040,number,2,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,1046,number,2,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,1074,number,3,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,1124,number,4,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,1232,number,5,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,1594,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,1594,number,6,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,1594,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,1594,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,1598,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,1598,number,6,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,1598,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,1598,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,1968,number,10,fixed leading digits of an internal row code (no effect on values)
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,2082,number,11,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,2091,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,2096,number,30,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,2106,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,2111,number,43,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,2121,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,2212,scenario,Default (in 'B1_Default_Param.xlsx'),"generic word Default in a file or column name (Default parameter values), not a scenario name"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,2214,scenario,Default (in 'Default_Value'),"generic word Default in a file or column name (Default parameter values), not a scenario name"
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,4319,number,3,number of scenarios solved in parallel per batch (no effect on results)
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,4361,number,3,number of scenarios solved in parallel per batch (no effect on results)
+DominicanRepublic/RD_ENERGY/B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,4397,number,3,number of scenarios solved in parallel per batch (no effect on results)
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,169,number,11,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,178,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,183,number,30,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,193,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,198,number,43,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,208,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,281,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,565,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,565,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,605,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,605,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,612,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,612,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,894,number,2,"garbage collector generation (memory housekeeping, no effect on results)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,978,number,2,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,984,number,2,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,1012,number,3,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,1062,number,4,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,1170,number,5,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,1548,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,1548,number,6,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,1548,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,1548,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,1552,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,1552,number,6,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,1552,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,1552,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,1922,number,10,fixed leading digits of an internal row code (no effect on values)
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,2036,number,11,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,2045,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,2050,number,30,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,2060,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,2065,number,43,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,2075,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,2161,scenario,Default (in 'B1_Default_Param.xlsx'),"generic word Default in a file or column name (Default parameter values), not a scenario name"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,2163,scenario,Default (in 'Default_Value'),"generic word Default in a file or column name (Default parameter values), not a scenario name"
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,4147,number,4,number of scenarios solved in parallel per batch (no effect on results)
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,4187,number,4,number of scenarios solved in parallel per batch (no effect on results)
+Ecuador/ECU_Energy/B1_Base_Scenarios_Adj_Parallel.py,4223,number,4,number of scenarios solved in parallel per batch (no effect on results)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,153,number,11,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,162,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,167,number,30,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,177,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,182,number,43,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,192,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,265,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,549,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,549,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,589,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,589,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,596,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,596,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,878,number,2,"garbage collector generation (memory housekeeping, no effect on results)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,962,number,2,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,968,number,2,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,996,number,3,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,1046,number,4,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,1095,number,5,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,1417,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,1417,number,6,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,1417,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,1417,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,1421,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,1421,number,6,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,1421,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,1421,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,1791,number,10,fixed leading digits of an internal row code (no effect on values)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,1906,number,11,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,1915,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,1920,number,30,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,1930,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,1935,number,43,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,1945,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,2030,scenario,Default (in 'B1_Default_Param.xlsx'),"generic word Default in a file or column name (Default parameter values), not a scenario name"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,2032,scenario,Default (in 'Default_Value'),"generic word Default in a file or column name (Default parameter values), not a scenario name"
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,3972,number,2,number of scenarios solved in parallel per batch (no effect on results)
+Guatemala/GUA_ENERGY/B1_Base_Scenarios_Adj_Parallel_Guatemala.py,4013,number,3,number of scenarios solved in parallel per batch (no effect on results)
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,165,number,11,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,174,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,179,number,30,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,189,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,194,number,43,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,204,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,277,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,561,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,561,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,601,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,601,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,608,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,608,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,890,number,2,"garbage collector generation (memory housekeeping, no effect on results)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,974,number,2,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,980,number,2,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,1008,number,3,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,1058,number,4,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,1166,number,5,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,1525,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,1525,number,6,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,1525,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,1525,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,1529,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,1529,number,6,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,1529,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,1529,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,1899,number,10,fixed leading digits of an internal row code (no effect on values)
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,2013,number,11,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,2022,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,2027,number,30,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,2037,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,2042,number,43,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,2052,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,2138,scenario,Default (in 'B1_Default_Param.xlsx'),"generic word Default in a file or column name (Default parameter values), not a scenario name"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,2140,scenario,Default (in 'Default_Value'),"generic word Default in a file or column name (Default parameter values), not a scenario name"
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,4076,number,3,number of scenarios solved in parallel per batch (no effect on results)
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,4116,number,3,number of scenarios solved in parallel per batch (no effect on results)
+Honduras/HON_ENERGY/B1_Base_Scenarios_Adj_Parallel_Honduras.py,4152,number,3,number of scenarios solved in parallel per batch (no effect on results)
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,166,number,11,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,175,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,180,number,30,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,190,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,195,number,43,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,205,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,278,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,562,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,562,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,602,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,602,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,609,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,609,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,891,number,2,"garbage collector generation (memory housekeeping, no effect on results)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,975,number,2,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,981,number,2,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,1009,number,3,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,1059,number,4,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,1167,number,5,number of index sets of a model parameter (mathematical structure of the OSeMOSYS data file)
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,1527,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,1527,number,6,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,1527,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,1527,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,1531,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,1531,number,6,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,1531,number,10,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,1531,number,9,"unit conversion written as a power of ten (10**9 giga, 10**6 mega prefix)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,1901,number,10,fixed leading digits of an internal row code (no effect on values)
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,2015,number,11,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,2024,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,2029,number,30,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,2039,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,2044,number,43,"layout of the B1 structure workbook: number of set, parameter and variable columns read (no effect on values)"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,2054,number,2,layout of the B1 structure workbook: first data row below the header rows (no effect on values)
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,2140,scenario,Default (in 'B1_Default_Param.xlsx'),"generic word Default in a file or column name (Default parameter values), not a scenario name"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,2142,scenario,Default (in 'Default_Value'),"generic word Default in a file or column name (Default parameter values), not a scenario name"
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,4087,number,3,number of scenarios solved in parallel per batch (no effect on results)
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,4127,number,3,number of scenarios solved in parallel per batch (no effect on results)
+Jamaica/JAM_ENERGY/B1_Base_Scenarios_Adj_Parallel_Jamaica.py,4163,number,3,number of scenarios solved in parallel per batch (no effect on results)
+ao_safe_save.py,32,number,51,Excel file format code of the xlsx format in the Excel automation interface (an interface constant)
+ao_safe_save.py,42,number,10,number of cell names shown in an error message (presentation)
+ao_safe_save.py,42,number,10,number of cell names shown in an error message (presentation)
+stage0_capacity_check.py,260,number,10,number of rows printed (presentation)
+stage0_collect_outputs.py,56,number,2,line or character offset in the solver output or data file format
+stage0_collect_outputs.py,82,number,2,number of fields of a parsed text line (format of the solver output or data file)
+stage0_collect_outputs.py,96,number,3,number of fields of a parsed text line (format of the solver output or data file)
+stage0_collect_outputs.py,98,number,4,number of fields of a parsed text line (format of the solver output or data file)
+stage0_collect_outputs.py,101,number,2,line or character offset in the solver output or data file format
+stage0_collect_outputs.py,114,number,2,line or character offset in the solver output or data file format
+stage0_collect_outputs.py,133,number,2,line or character offset in the solver output or data file format
+stage0_collect_outputs.py,210,number,5000,number of characters read from a solver output header (input and output)
+stage0_collect_outputs.py,324,number,8,number of rows printed (presentation)
+stage0_collect_outputs.py,341,number,5,number of rows printed (presentation)
+stage0_run.py,114,number,2,number of fields of a parsed text line (format of the solver output or data file)
+stage0_run.py,271,number,2,line or character offset in the solver output or data file format
+stage0_run.py,306,number,2,number of fields of a parsed text line (format of the solver output or data file)
+stage0_run_all.bat,8,number,4,number of fields of each line of the run list that lac_tables.py prints (format of the batch loop)
+stage2_apply_v2.py,284,number,2,column position in a workbook sheet read by the script (file layout)
+stage2_apply_v2.py,285,number,3,column position in a workbook sheet read by the script (file layout)
+stage2_apply_v2.py,286,number,4,column position in a workbook sheet read by the script (file layout)
+stage2_apply_v2.py,287,number,5,column position in a workbook sheet read by the script (file layout)
+stage2_apply_v2.py,288,number,6,column position in a workbook sheet read by the script (file layout)
+stage2_apply_v2.py,289,number,7,column position in a workbook sheet read by the script (file layout)
+stage2_apply_v2.py,290,number,8,column position in a workbook sheet read by the script (file layout)
+stage2_apply_v2.py,336,number,5,number of fields of a parsed text line (format of the solver output or data file)
+stage2_apply_v2.py,346,number,5,number of fields of a parsed text line (format of the solver output or data file)
+stage2_apply_v2.py,381,number,2,column position in a workbook sheet read by the script (file layout)
+stage2_apply_v2.py,382,number,3,column position in a workbook sheet read by the script (file layout)
+stage2_apply_v2.py,383,number,4,column position in a workbook sheet read by the script (file layout)
+stage2_post_clean.py,46,number,1073741824,"bytes per gigabyte, megabyte and kilobyte for a size message (unit conversion, presentation)"
+stage2_post_clean.py,47,number,1073741824,"bytes per gigabyte, megabyte and kilobyte for a size message (unit conversion, presentation)"
+stage2_post_clean.py,48,number,1048576,"bytes per gigabyte, megabyte and kilobyte for a size message (unit conversion, presentation)"
+stage2_post_clean.py,49,number,1048576,"bytes per gigabyte, megabyte and kilobyte for a size message (unit conversion, presentation)"
+stage2_post_clean.py,50,number,1024,"bytes per gigabyte, megabyte and kilobyte for a size message (unit conversion, presentation)"
+stage2_post_clean.py,51,number,1024,"bytes per gigabyte, megabyte and kilobyte for a size message (unit conversion, presentation)"
+stage2_post_clean.py,103,number,3,number of file names printed (presentation)
+stage3_apply.py,101,number,2,line or character offset in the solver output or data file format
+stage3_apply.py,255,number,2,number of fields of a parsed text line (format of the solver output or data file)
+stage3_apply.py,313,number,2,group number of a regular expression match
+stage3_apply.py,313,number,3,group number of a regular expression match
+stage3_apply.py,425,number,2,number of fields of a parsed text line (format of the solver output or data file)
+stage3_apply.py,495,country,"Guatemala (in 'Countries to skip orphan tech capping (e.g., Guatemala)')",example in the help text of a command-line option (presentation)
+stage3_apply.py,607,number,500,number of characters read from a data file block header (input and output)
+stage3_apply.py,726,emission,RM (in '  [WARN] Could not identify generation fuel - RM tags left empty'),"abbreviation RM (reserve margin) inside a log message, not an emission name"
+stage3_apply.py,740,emission,RM (in '  RM tagging: '),"abbreviation RM (reserve margin) inside a log message, not an emission name"
+stage3_results.py,116,number,2,number of fields of a parsed text line (format of the solver output or data file)
+stage3_results.py,135,number,2,number of fields of a parsed text line (format of the solver output or data file)
+stage3_results.py,366,number,20,number of rows printed (presentation)
+stage3_results.py,368,number,20,number of rows printed (presentation)
+stage3_run_all.bat,7,number,4,number of fields of each line of the run list that lac_tables.py prints (format of the batch loop)

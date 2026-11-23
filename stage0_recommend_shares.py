@@ -36,25 +36,21 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 
+import lac_tables as LT
+
 MODELS_LAC_ROOT = "./"
 STAGE0_OUTPUT_DIR = "./_STAGE0_OUTPUT"
 CAU = 31.536
-MAX_YEAR = 2024  # Only historical years
+MAX_YEAR = LT.controller("history_end_year")  # Only historical years
 
 # Classification thresholds
-CLOSE_THRESHOLD = 0.10    # C is "close to" A if |C-A|/max(C,A) < 10%
-UNDERUTIL_THRESHOLD = 0.50  # C is "much smaller than" B if C/B < 50%
+CLOSE_THRESHOLD = LT.controller("close_threshold", "0")    # C is "close to" A if |C-A|/max(C,A) < threshold
+UNDERUTIL_THRESHOLD = LT.controller("underutil_threshold", "0")  # C is "much smaller than" B if C/B < threshold
 
-COUNTRY_CONFIG = {
-    "CostaRica":         "CR_ENERGY/t1_confection",
-    "DominicanRepublic": "RD_ENERGY",
-    "Ecuador":           "ECU_Energy",
-    "Guatemala":         "GUA_ENERGY",
-    "Honduras":          "HON_ENERGY",
-    "Jamaica":           "JAM_ENERGY",
-}
+# country -> model folder inside the country folder (config/preparation/Config_country_codes.yaml)
+COUNTRY_CONFIG = LT.country_map("model_dir")
 
-PP_PREFIXES = ("PP", "PWR")
+PP_PREFIXES = tuple(LT.techs("power_plant_prefix"))
 
 
 def is_pp(t):
@@ -162,7 +158,7 @@ def main():
         # Get BAU ceiling data, ≤2024 only
         mask = (
             (df_ceil["Country"] == country) &
-            (df_ceil["Scenario"] == "BAU") &
+            (df_ceil["Scenario"] == LT.scenario("base")) &
             (df_ceil["Year"] <= MAX_YEAR)
         )
         bau = df_ceil[mask].copy()
@@ -172,8 +168,8 @@ def main():
             continue
 
         # Get CF and AF for full-B computation
-        df_cf = read_b1_csv(b1_dir, "BAU", "CapacityFactor.csv")
-        df_af = read_b1_csv(b1_dir, "BAU", "AvailabilityFactor.csv")
+        df_cf = read_b1_csv(b1_dir, LT.scenario("base"), "CapacityFactor.csv")
+        df_af = read_b1_csv(b1_dir, LT.scenario("base"), "AvailabilityFactor.csv")
         cf_pivot = pd.DataFrame()
         af_pivot = pd.DataFrame()
         if df_cf is not None and not df_cf.empty:
@@ -184,7 +180,7 @@ def main():
                                          values="Value", aggfunc="sum").fillna(0)
 
         # Compute accumulated capacity (residual + cumulative investment)
-        accum_cap = get_cumulative_capacity(b1_dir, "BAU")
+        accum_cap = get_cumulative_capacity(b1_dir, LT.scenario("base"))
 
         # Process each year
         for yr in sorted(bau["Year"].unique()):
@@ -214,9 +210,9 @@ def main():
 
                 techs.append({
                     "tech": tech, "a": a, "b_prime": b_prime,
-                    "b_full": round(b_full, 2), "c": c,
-                    "full_potential_pj": round(full_potential, 4),
-                    "accum_cap_gw": round(ac, 4),
+                    "b_full": round(b_full, LT.controller("digits_pct", "0")), "c": c,
+                    "full_potential_pj": round(full_potential, LT.controller("digits_pj", "0")),
+                    "accum_cap_gw": round(ac, LT.controller("digits_pj", "0")),
                 })
 
             # Classify
@@ -224,7 +220,7 @@ def main():
                 a, b, c = t["a"], t["b_full"], t["c"]
 
                 # C ≈ A? (close to floor — floor is binding)
-                denom = max(c, a, 0.01)
+                denom = max(c, a, LT.controller("min_share_pct", "0"))
                 if abs(c - a) / denom < args.close_threshold:
                     t["category"] = "CONSTRAINED"
                     t["d_raw"] = a
@@ -233,7 +229,7 @@ def main():
                     t["category"] = "OPTIMIZER"
                     t["d_raw"] = c
                 # B > C and B > A? (capacity above both actual and floor — push up)
-                elif b > c and b > a and b > 0.01:
+                elif b > c and b > a and b > LT.controller("min_share_pct", "0"):
                     t["category"] = "PUSH_UP"
                     t["d_raw"] = b
                 # Everything else — filler
@@ -250,21 +246,21 @@ def main():
             for t in techs:
                 t["d"] = t["d_raw"]  # start from raw
 
-            if filler_c_sum > 0.01 and filler_techs:
+            if filler_c_sum > LT.controller("min_share_pct", "0") and filler_techs:
                 scale = target_filler / filler_c_sum
                 for t in filler_techs:
-                    t["d"] = round(t["c"] * scale, 2)
+                    t["d"] = round(t["c"] * scale, LT.controller("digits_pct", "0"))
             elif filler_techs:
                 per = target_filler / len(filler_techs)
                 for t in filler_techs:
-                    t["d"] = round(per, 2)
+                    t["d"] = round(per, LT.controller("digits_pct", "0"))
 
             # Edge case: if locked_sum > 100, scale D proportionally
             total_d = sum(t["d"] for t in techs)
-            if abs(total_d - 100.0) > 0.1:
+            if abs(total_d - 100.0) > LT.controller("share_sum_tolerance_pct", "0"):
                 scale = 100.0 / total_d if total_d > 0 else 1.0
                 for t in techs:
-                    t["d"] = round(t["d"] * scale, 2)
+                    t["d"] = round(t["d"] * scale, LT.controller("digits_pct", "0"))
 
             # --- Column E: balanced recommendation based on max(A, B) ---
             # Start from max(A, B) per tech — respect the stronger constraint
@@ -273,10 +269,10 @@ def main():
                 t["e_raw"] = max(t["a"], t["b_full"])
 
             e_raw_sum = sum(t["e_raw"] for t in techs)
-            if e_raw_sum > 0.01:
+            if e_raw_sum > LT.controller("min_share_pct", "0"):
                 e_scale = 100.0 / e_raw_sum
                 for t in techs:
-                    t["e"] = round(t["e_raw"] * e_scale, 2)
+                    t["e"] = round(t["e_raw"] * e_scale, LT.controller("digits_pct", "0"))
             else:
                 for t in techs:
                     t["e"] = 0.0
@@ -291,12 +287,12 @@ def main():
                     "Share_Bprime_Residual_Pct": t["b_prime"],
                     "Share_B_FullCeiling_Pct": t["b_full"],
                     "Share_C_Actual_Pct": t["c"],
-                    "Share_D_Recommended_Pct": round(t["d"], 2),
-                    "Share_E_Proportional_Pct": round(t["e"], 2),
+                    "Share_D_Recommended_Pct": round(t["d"], LT.controller("digits_pct", "0")),
+                    "Share_E_Proportional_Pct": round(t["e"], LT.controller("digits_pct", "0")),
                     "Category": t["category"],
                     "AccumCap_GW": t["accum_cap_gw"],
                     "FullPotential_PJ": t["full_potential_pj"],
-                    "Total_Gen_PJ": round(total_gen, 4),
+                    "Total_Gen_PJ": round(total_gen, LT.controller("digits_pj", "0")),
                 })
 
             # Print summary for this year
@@ -323,7 +319,7 @@ def main():
     print(f"\n{'='*70}")
     print("2024 RECOMMENDED SHARES — BAU")
     print(f"{'='*70}")
-    d2024 = df[df["Year"] == 2024]
+    d2024 = df[df["Year"] == LT.controller("history_end_year")]
     for country in sorted(d2024["Country"].unique()):
         sub = d2024[d2024["Country"] == country].sort_values(
             "Share_D_Recommended_Pct", ascending=False)

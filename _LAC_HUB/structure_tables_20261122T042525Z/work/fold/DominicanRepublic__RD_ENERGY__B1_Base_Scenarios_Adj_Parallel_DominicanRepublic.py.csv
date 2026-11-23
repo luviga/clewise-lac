@@ -1,0 +1,197 @@
+old_line,value,loader_read
+40,TRANRAILFREINF,"LT.techs('transport_cap_ignore', _TC)"
+40,TRANOMOTWalk,"LT.techs('transport_cap_ignore', _TC)"
+40,TRANOMOTBike,"LT.techs('transport_cap_ignore', _TC)"
+41,TRXTRAIELE,"LT.techs('transport_cap_ignore', _TC)"
+41,TRXTRAIFREELE,"LT.techs('transport_cap_ignore', _TC)"
+41,TRANRAILINF,"LT.techs('transport_cap_ignore', _TC)"
+41,TRANPUB,"LT.techs('transport_cap_ignore', _TC)"
+42,TRANRAILCAR,"LT.techs('transport_cap_ignore', _TC)"
+42,LATR,"LT.techs('transport_cap_ignore', _TC)"
+42,PROD_CLK_TRAD,"LT.techs('transport_cap_ignore', _TC)"
+42,NO_CONTR_OD,"LT.techs('transport_cap_ignore', _TC)"
+43,AG_TRVEG,"LT.techs('transport_cap_ignore', _TC)"
+52,RD,"LT.country_value(_TC, 'code')"
+58,BAU,LT.scenario('base')
+64,E6TDPASPRI,LT.fuel('passenger_private_demand')
+64,E6TDPASPUB,LT.fuel('passenger_public_demand')
+64,E6TDPASTUR,LT.fuel('passenger_tourism_demand')
+64,E6TRNOMOT,LT.fuel('nonmotorised_demand')
+65,E6TDFREHEA,LT.fuel('freight_heavy_demand')
+65,E6TDFRELIG,LT.fuel('freight_light_demand')
+71,2018,_TB1['first_year']
+77,2024,_TB1['variation_start_year']
+83,2024,_TB1['discount_year']
+89,0.0504,_TB1['discount_rate']
+95,2050,_TB1['last_year']
+101,E6TDPASPRI,LT.fuel('passenger_private_demand')
+107,E6TDPASPUB,LT.fuel('passenger_public_demand')
+113,E6TDFREHEA,LT.fuel('freight_heavy_demand')
+119,E6TDFRELIG,LT.fuel('freight_light_demand')
+613,2050,_TB1['last_year']
+635,2019,_TB1['driven_distance_reference_year']
+647,3,_TB1['driven_distance_lag_years']
+663,4,_TB1['rounding_digits']
+668,4,_TB1['rounding_digits']
+671,4,_TB1['rounding_digits']
+674,4,_TB1['rounding_digits']
+708,Accidents,"LT.emissions('externality', _TC)"
+708,Health,"LT.emissions('externality', _TC)"
+708,Congestion,"LT.emissions('externality', _TC)"
+708,RM,"LT.emissions('externality', _TC)"
+708,FERT_ORG,"LT.emissions('externality', _TC)"
+708,salud_residuos,"LT.emissions('externality', _TC)"
+708,contam_agua,"LT.emissions('externality', _TC)"
+708,turismo_residuos,"LT.emissions('externality', _TC)"
+708,turismo_residuos,"LT.emissions('externality', _TC)"
+708,CONHAB,"LT.emissions('externality', _TC)"
+708,CONTUR,"LT.emissions('externality', _TC)"
+708,CONVAR,"LT.emissions('externality', _TC)"
+708,CONHICK,"LT.emissions('externality', _TC)"
+708,RESHID,"LT.emissions('externality', _TC)"
+708,DAPANI,"LT.emissions('externality', _TC)"
+721,4,_TB1['rounding_digits']
+756,2050,_TB1['last_year']
+770,2019,_TB1['driven_distance_reference_year']
+780,3,_TB1['driven_distance_lag_years']
+805,4,_TB1['rounding_digits']
+825,4,_TB1['rounding_digits']
+845,4,_TB1['rounding_digits']
+865,4,_TB1['rounding_digits']
+1553,4,_TB1['rounding_digits']
+1585,4,_TB1['rounding_digits']
+1589,4,_TB1['rounding_digits']
+1593,4,_TB1['rounding_digits']
+1730,4,_TB1['rounding_digits']
+1731,4,_TB1['rounding_digits']
+2279,Relative reduction to BAU - distance,LT.scenario('base')
+2333,2018,_TB1['first_year']
+2333,2035,_TB1['modeshift_exact_last_year']
+2364,Relative increase to BAU - occupancy rate,LT.scenario('base')
+2423,4,_TB1['rounding_digits']
+2434,4,_TB1['rounding_digits']
+2478,E6TDPASTUR,LT.fuel('passenger_tourism_demand')
+2479,E6TRNOMOT,LT.fuel('nonmotorised_demand')
+2567,2030,_TB1['milestone_years'][0]
+2571,2040,_TB1['milestone_years'][1]
+2575,2050,_TB1['milestone_years'][2]
+2597,E6TRNOMOT,LT.fuel('nonmotorised_demand')
+2603,4,_TB1['rounding_digits']
+2604,E6TRNOMOT,LT.fuel('nonmotorised_demand')
+2606,4,_TB1['rounding_digits']
+2651,2030,_TB1['milestone_years'][0]
+2655,2040,_TB1['milestone_years'][1]
+2659,2050,_TB1['milestone_years'][2]
+2680,2035,_TB1['modeshift_exact_last_year']
+2688,2040,_TB1['milestone_years'][1]
+2692,2050,_TB1['milestone_years'][2]
+2724,4,_TB1['rounding_digits']
+2738,Techs_Bus_Efi,LT.tech('efficient_bus_set')
+2738,BAU,LT.scenario('base')
+2755,Techs_Trains_Freight,LT.tech('rail_freight_set')
+2757,Techs_Trains_Freight,LT.tech('rail_freight_set')
+2757,Techs_He_Freight,LT.tech('heavy_freight_set')
+2759,Techs_He_Freight,"LT.tech_map('freight_rail_complement_share', _TC)"
+2759,100,"LT.tech_map('freight_rail_complement_share', _TC)"
+2760,Techs_Telef,LT.tech('cable_car_set')
+2760,Techs_Trains,LT.tech('rail_passenger_set')
+2760,Techs_Bus_Efi,LT.tech('efficient_bus_set')
+2761,Techs_Telef,LT.tech('cable_car_set')
+2763,Techs_Telef,LT.tech('cable_car_set')
+2763,Techs_Buses_Pub,LT.tech('public_bus_set')
+2763,Techs_Buses_Micro,LT.tech('minibus_set')
+2764,Techs_Trains,LT.tech('rail_passenger_set')
+2766,Techs_Trains,LT.tech('rail_passenger_set')
+2766,Techs_Buses_Pub,LT.tech('public_bus_set')
+2766,Techs_Buses_Micro,LT.tech('minibus_set')
+2776,Techs_Bus_Efi,LT.tech('efficient_bus_set')
+2778,Techs_Bus_Efi,LT.tech('efficient_bus_set')
+2778,Techs_Auto,LT.tech('car_set')
+2779,Techs_Buses_Micro,LT.tech('minibus_set')
+2780,Techs_Buses_Pub,LT.tech('public_bus_set')
+2781,Techs_Buses_Tur,LT.tech('tourism_bus_set')
+2782,Techs_Motos,LT.tech('motorcycle_set')
+2783,Techs_SUV,LT.tech('suv_set')
+2784,Techs_Taxi,LT.tech('taxi_set')
+2787,Techs_Auto,"LT.tech_map('bus_efficiency_complement_share', _TC)"
+2788,Techs_Buses_Micro,"LT.tech_map('bus_efficiency_complement_share', _TC)"
+2789,Techs_Buses_Pub,"LT.tech_map('bus_efficiency_complement_share', _TC)"
+2790,Techs_Buses_Tur,"LT.tech_map('bus_efficiency_complement_share', _TC)"
+2791,Techs_Motos,"LT.tech_map('bus_efficiency_complement_share', _TC)"
+2792,Techs_SUV,"LT.tech_map('bus_efficiency_complement_share', _TC)"
+2793,Techs_Taxi,"LT.tech_map('bus_efficiency_complement_share', _TC)"
+2787,15.5,"LT.tech_map('bus_efficiency_complement_share', _TC)"
+2788,5,"LT.tech_map('bus_efficiency_complement_share', _TC)"
+2789,0,"LT.tech_map('bus_efficiency_complement_share', _TC)"
+2790,0,"LT.tech_map('bus_efficiency_complement_share', _TC)"
+2791,70.7,"LT.tech_map('bus_efficiency_complement_share', _TC)"
+2792,8.5,"LT.tech_map('bus_efficiency_complement_share', _TC)"
+2793,0.3,"LT.tech_map('bus_efficiency_complement_share', _TC)"
+2811,1.01,_TB1['upper_security_factor']
+2813,0.999,_TB1['lower_security_factor']
+2829,4,_TB1['rounding_digits']
+2886,E6TDPASTUR,LT.fuel('passenger_tourism_demand')
+2895,4,_TB1['rounding_digits']
+2898,4,_TB1['rounding_digits']
+2907,Techs_Bus_Efi,LT.tech('efficient_bus_set')
+2908,Techs_Bus_Efi,LT.tech('efficient_bus_set')
+2914,NDCcond,LT.scenario('older_ndc_conditional')
+2933,4,_TB1['rounding_digits']
+2979,4,_TB1['rounding_digits']
+2987,4,_TB1['rounding_digits']
+2993,1.006,_TB1['private_demand_divisor']
+3018,4,_TB1['rounding_digits']
+3024,Techs_Trains,LT.tech('rail_passenger_set')
+3032,4,_TB1['rounding_digits']
+3052,4,_TB1['rounding_digits']
+3061,Techs_Trains,LT.tech('rail_passenger_set')
+3069,4,_TB1['rounding_digits']
+3093,4,_TB1['rounding_digits']
+3098,Techs_Trains_Freight,LT.tech('rail_freight_set')
+3104,4,_TB1['rounding_digits']
+3117,4,_TB1['rounding_digits']
+3126,Techs_Trains_Freight,LT.tech('rail_freight_set')
+3133,4,_TB1['rounding_digits']
+3192,4,_TB1['rounding_digits']
+3198,RD,_TB1['appended_region_code']
+3241,4,_TB1['rounding_digits']
+3245,RD,_TB1['appended_region_code']
+3298,4,_TB1['rounding_digits']
+3365,4,_TB1['rounding_digits']
+3393,IMP,LT.tech('import_token')
+3456,1.01,_TB1['upper_security_factor']
+3457,4,_TB1['rounding_digits']
+3479,0.999,_TB1['lower_security_factor']
+3480,4,_TB1['rounding_digits']
+3545,2030,_TB1['milestone_years']
+3545,2040,_TB1['milestone_years']
+3545,2050,_TB1['milestone_years']
+3598,2030,_TB1['milestone_years'][0]
+3602,2040,_TB1['milestone_years'][1]
+3606,2050,_TB1['milestone_years'][2]
+3653,1.001,_TB1['upper_security_factor_fine']
+3655,0.999,_TB1['lower_security_factor']
+3662,999,_TB1['unknown_value_marker']
+3663,999,_TB1['unknown_value_marker']
+3678,ELE,LT.tech('electric_set_token')
+3686,4,_TB1['rounding_digits']
+3755,Techs_Trains,LT.tech('rail_passenger_set')
+3760,LTS,LT.scenario('older_lts')
+3776,4,_TB1['rounding_digits']
+3781,E6TRNOMOT,LT.fuel('nonmotorised_demand')
+3790,4,_TB1['rounding_digits']
+3822,4,_TB1['rounding_digits']
+3825,Techs_He_Freight,LT.tech('heavy_freight_set')
+3826,Techs_Trains_Freight,LT.tech('rail_freight_set')
+3834,4,_TB1['rounding_digits']
+3865,4,_TB1['rounding_digits']
+3875,1.01,_TB1['upper_security_factor']
+3877,4,_TB1['rounding_digits']
+3913,9999,_TB1['max_capacity_open']
+3926,9999,_TB1['max_capacity_open']
+4053,LTS,LT.scenario('older_lts')
+4122,4,_TB1['rounding_digits']
+4150,4,_TB1['rounding_digits']
+4165,IMP,LT.tech('import_token')
+4217,4,_TB1['rounding_digits']
+4250,4,_TB1['rounding_digits']

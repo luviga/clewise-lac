@@ -1,0 +1,25 @@
+old_line,value,loader_read
+40,BAU,LT.scenarios()
+40,NDCNEW,LT.scenarios()
+40,LTSNEW,LT.scenarios()
+41,PP,LT.techs('power_plant_prefix')
+41,PWR,LT.techs('power_plant_prefix')
+44,CostaRica,LT.country_map('model_dir')
+45,DominicanRepublic,LT.country_map('model_dir')
+46,Ecuador,LT.country_map('model_dir')
+47,Guatemala,LT.country_map('model_dir')
+48,Honduras,LT.country_map('model_dir')
+49,Jamaica,LT.country_map('model_dir')
+44,CR_ENERGY/t1_confection,LT.country_map('model_dir')
+45,RD_ENERGY,LT.country_map('model_dir')
+46,ECU_Energy,LT.country_map('model_dir')
+47,GUA_ENERGY,LT.country_map('model_dir')
+48,HON_ENERGY,LT.country_map('model_dir')
+49,JAM_ENERGY,LT.country_map('model_dir')
+224,4,"LT.controller('digits_pj', '0')"
+225,4,"LT.controller('digits_pj', '0')"
+226,4,"LT.controller('digits_pj', '0')"
+227,4,"LT.controller('digits_pj', '0')"
+228,2,"LT.controller('digits_pct', '0')"
+229,2,"LT.controller('digits_pct', '0')"
+230,2,"LT.controller('digits_pct', '0')"

@@ -1,0 +1,137 @@
+group,technology,match,country,value,used_by,description
+power_plant_prefix,PP,prefix,all,,stage0_run.py; stage0_collect_outputs.py; stage0_capacity_check.py; stage0_recommend_shares.py; stage1_share_analyzer_v16.py; stage3_apply.py; stage3_results.py,name prefix of power plants
+power_plant_prefix,PWR,prefix,all,,stage0_run.py; stage0_collect_outputs.py; stage0_capacity_check.py; stage0_recommend_shares.py; stage1_share_analyzer_v16.py; stage3_apply.py; stage3_results.py,name prefix of power plants
+stage0_bypass,PPWNDD,name,all,,stage0_run.py,distributed generation (to E3ELE)
+stage0_bypass,PPPVD,name,all,,stage0_run.py,distributed generation (to E3ELE)
+stage0_bypass,PPPVDS,name,all,,stage0_run.py,distributed generation (to E3ELE)
+stage0_bypass,PPHD,name,all,,stage0_run.py,isolated or distributed hydro (to E3ELE)
+stage0_bypass,PPIHD,name,all,,stage0_run.py,isolated or distributed hydro (to E3ELE)
+stage0_bypass,PPCRU,name,all,,stage0_run.py,autoproducers (to E3ELE)
+stage0_bypass,PPDDSL,name,all,,stage0_run.py,autoproducers (to E3ELE)
+stage0_bypass,PPDFOI,name,all,,stage0_run.py,autoproducers (to E3ELE)
+stage0_bypass,PPDGSL,name,all,,stage0_run.py,autoproducers (to E3ELE)
+stage0_bypass,PPDGLP,name,all,,stage0_run.py,refinery or distributed (to E3ELE)
+stage0_bypass,PPDNGS,name,all,,stage0_run.py,refinery or distributed (to E3ELE)
+stage0_bypass,PPRDSL,name,all,,stage0_run.py,refinery or distributed (to E3ELE)
+stage0_bypass,PPRNGS,name,all,,stage0_run.py,refinery or distributed (to E3ELE)
+stage0_bypass,PPILPG,name,all,,stage0_run.py,isolated (to E3ELE)
+stage0_bypass,PPIBIM,name,all,,stage0_run.py,isolated (to E3ELE)
+transmission_distribution_token,ELE_TRN,token,all,,stage0_collect_outputs.py,name token of transmission technologies
+transmission_distribution_token,ELE_TRANS,token,all,,stage0_collect_outputs.py,name token of transmission technologies
+transmission_distribution_token,ELETTRN,token,all,,stage0_collect_outputs.py,name token of transmission technologies
+transmission_distribution_token,TDELE,token,all,,stage0_collect_outputs.py,name token of transmission technologies
+transmission_distribution_token,TD_ELE,token,all,,stage0_collect_outputs.py,name token of transmission technologies
+transmission_distribution_token,TRANS_ELE,token,all,,stage0_collect_outputs.py,name token of transmission technologies
+transmission_distribution_token,ELE_DTR,token,all,,stage0_collect_outputs.py,name token of distribution technologies
+transmission_distribution_token,ELE_DIST,token,all,,stage0_collect_outputs.py,name token of distribution technologies
+transmission_distribution_token,ELEDTR,token,all,,stage0_collect_outputs.py,name token of distribution technologies
+transmission_distribution_token,ELEDIST,token,all,,stage0_collect_outputs.py,name token of distribution technologies
+transmission_distribution_token,TD_DIST,token,all,,stage0_collect_outputs.py,name token of distribution technologies
+transmission_distribution_token,DIST_ELE,token,all,,stage0_collect_outputs.py,name token of distribution technologies
+solar_wind_token,SOL,token,all,,stage1_share_analyzer_v16.py,name token of solar and wind plants (grow in policy scenarios)
+solar_wind_token,SUN,token,all,,stage1_share_analyzer_v16.py,name token of solar and wind plants (grow in policy scenarios)
+solar_wind_token,SPV,token,all,,stage1_share_analyzer_v16.py,name token of solar and wind plants (grow in policy scenarios)
+solar_wind_token,PV,token,all,,stage1_share_analyzer_v16.py,name token of solar and wind plants (grow in policy scenarios)
+solar_wind_token,CSP,token,all,,stage1_share_analyzer_v16.py,name token of solar and wind plants (grow in policy scenarios)
+solar_wind_token,WND,token,all,,stage1_share_analyzer_v16.py,name token of solar and wind plants (grow in policy scenarios)
+solar_wind_token,WIND,token,all,,stage1_share_analyzer_v16.py,name token of solar and wind plants (grow in policy scenarios)
+solar_wind_token,WNO,token,all,,stage1_share_analyzer_v16.py,name token of solar and wind plants (grow in policy scenarios)
+solar_wind_token,WNS,token,all,,stage1_share_analyzer_v16.py,name token of solar and wind plants (grow in policy scenarios)
+hydro_token,HYD,token,all,,stage1_share_analyzer_v16.py; stage2_apply_v2.py,name token of hydro plants
+hydro_token,DAM,token,all,,stage1_share_analyzer_v16.py; stage2_apply_v2.py,name token of hydro plants
+hydro_token,ROR,token,all,,stage1_share_analyzer_v16.py; stage2_apply_v2.py,name token of hydro plants
+hydro_token,PPHD,token,all,,stage1_share_analyzer_v16.py; stage2_apply_v2.py,name token of hydro plants
+hydro_token,PPIHD,token,all,,stage1_share_analyzer_v16.py; stage2_apply_v2.py,name token of hydro plants
+renewable_token,GEO,token,all,,stage1_share_analyzer_v16.py,name token of non-hydro renewable plants
+renewable_token,SOL,token,all,,stage1_share_analyzer_v16.py,name token of non-hydro renewable plants
+renewable_token,SUN,token,all,,stage1_share_analyzer_v16.py,name token of non-hydro renewable plants
+renewable_token,SPV,token,all,,stage1_share_analyzer_v16.py,name token of non-hydro renewable plants
+renewable_token,PV,token,all,,stage1_share_analyzer_v16.py,name token of non-hydro renewable plants
+renewable_token,CSP,token,all,,stage1_share_analyzer_v16.py,name token of non-hydro renewable plants
+renewable_token,WND,token,all,,stage1_share_analyzer_v16.py,name token of non-hydro renewable plants
+renewable_token,WIND,token,all,,stage1_share_analyzer_v16.py,name token of non-hydro renewable plants
+renewable_token,WNO,token,all,,stage1_share_analyzer_v16.py,name token of non-hydro renewable plants
+renewable_token,WNS,token,all,,stage1_share_analyzer_v16.py,name token of non-hydro renewable plants
+renewable_token,BMS,token,all,,stage1_share_analyzer_v16.py,name token of non-hydro renewable plants
+renewable_token,BIM,token,all,,stage1_share_analyzer_v16.py,name token of non-hydro renewable plants
+renewable_token,BIO,token,all,,stage1_share_analyzer_v16.py,name token of non-hydro renewable plants
+renewable_token,BGS,token,all,,stage1_share_analyzer_v16.py,name token of non-hydro renewable plants
+renewable_token,SUG,token,all,,stage1_share_analyzer_v16.py,name token of non-hydro renewable plants
+renewable_token,REN,token,all,,stage1_share_analyzer_v16.py,name token of non-hydro renewable plants
+fossil_token,DSL,token,all,,stage1_share_analyzer_v16.py,name token of fossil plants
+fossil_token,DIE,token,all,,stage1_share_analyzer_v16.py,name token of fossil plants
+fossil_token,FOI,token,all,,stage1_share_analyzer_v16.py,name token of fossil plants
+fossil_token,HFO,token,all,,stage1_share_analyzer_v16.py,name token of fossil plants
+fossil_token,CRU,token,all,,stage1_share_analyzer_v16.py,name token of fossil plants
+fossil_token,COA,token,all,,stage1_share_analyzer_v16.py,name token of fossil plants
+fossil_token,COK,token,all,,stage1_share_analyzer_v16.py,name token of fossil plants
+fossil_token,NGS,token,all,,stage1_share_analyzer_v16.py,name token of fossil plants
+fossil_token,GAS,token,all,,stage1_share_analyzer_v16.py,name token of fossil plants
+fossil_token,GLP,token,all,,stage1_share_analyzer_v16.py,name token of fossil plants
+fossil_token,LPG,token,all,,stage1_share_analyzer_v16.py,name token of fossil plants
+fossil_token,GSL,token,all,,stage1_share_analyzer_v16.py,name token of fossil plants
+fossil_token,KJF,token,all,,stage1_share_analyzer_v16.py,name token of fossil plants
+fossil_token,OIL,token,all,,stage1_share_analyzer_v16.py,name token of fossil plants
+fossil_token,PET,token,all,,stage1_share_analyzer_v16.py,name token of fossil plants
+fossil_token,FOS,token,all,,stage1_share_analyzer_v16.py,name token of fossil plants
+transport_cap_ignore,TRANRAILFREINF,name,DominicanRepublic,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRANOMOTWalk,name,DominicanRepublic,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRANOMOTBike,name,DominicanRepublic,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRXTRAIELE,name,DominicanRepublic,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRXTRAIFREELE,name,DominicanRepublic,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRANRAILINF,name,DominicanRepublic,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRANPUB,name,DominicanRepublic,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRANRAILCAR,name,DominicanRepublic,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,LATR,name,DominicanRepublic,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,PROD_CLK_TRAD,name,DominicanRepublic,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,NO_CONTR_OD,name,DominicanRepublic,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,AG_TRVEG,name,DominicanRepublic,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRANRAILFREINF,name,Guatemala,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRANOMOTWalk,name,Guatemala,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRANOMOTBike,name,Guatemala,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRXTRAIELE,name,Guatemala,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRXTRAIFREELE,name,Guatemala,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRANRAILINF,name,Guatemala,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRANPUB,name,Guatemala,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRANRAILCAR,name,Guatemala,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRANRAILFREINF,name,Honduras,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRANOMOTWalk,name,Honduras,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRANOMOTBike,name,Honduras,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRXTRAIELE,name,Honduras,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRXTRAIFREELE,name,Honduras,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRANRAILINF,name,Honduras,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRANPUB,name,Honduras,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+transport_cap_ignore,TRANRAILCAR,name,Honduras,,B1 runner,technologies whose maximum capacity the transport rewrite leaves as is
+freight_rail_complement_share,Techs_He_Freight,name,DominicanRepublic,100,B1 runner,fleet group that complements freight rail; value = its share in percent
+bus_efficiency_complement_share,Techs_Auto,name,DominicanRepublic,15.5,B1 runner,fleet groups that complement efficient buses; value = share in percent
+bus_efficiency_complement_share,Techs_Buses_Micro,name,DominicanRepublic,5,B1 runner,fleet groups that complement efficient buses; value = share in percent
+bus_efficiency_complement_share,Techs_Buses_Pub,name,DominicanRepublic,0,B1 runner,fleet groups that complement efficient buses; value = share in percent
+bus_efficiency_complement_share,Techs_Buses_Tur,name,DominicanRepublic,0,B1 runner,fleet groups that complement efficient buses; value = share in percent
+bus_efficiency_complement_share,Techs_Motos,name,DominicanRepublic,70.7,B1 runner,fleet groups that complement efficient buses; value = share in percent
+bus_efficiency_complement_share,Techs_SUV,name,DominicanRepublic,8.5,B1 runner,fleet groups that complement efficient buses; value = share in percent
+bus_efficiency_complement_share,Techs_Taxi,name,DominicanRepublic,0.3,B1 runner,fleet groups that complement efficient buses; value = share in percent
+gasoline_blend,T4GSL_LIG,name,Guatemala,,B1 runner,gasoline technologies whose emission factors follow the ethanol blend
+gasoline_blend,T4GSL_PRI,name,Guatemala,,B1 runner,gasoline technologies whose emission factors follow the ethanol blend
+gasoline_blend,DIST_GSL,name,Guatemala,,B1 runner,gasoline technologies whose emission factors follow the ethanol blend
+gasoline_blend,T4GSL_LIG,name,Honduras,,B1 runner,gasoline technologies whose emission factors follow the ethanol blend
+gasoline_blend,T4GSL_PRI,name,Honduras,,B1 runner,gasoline technologies whose emission factors follow the ethanol blend
+gasoline_blend,T4GSL_PUB,name,Honduras,,B1 runner,gasoline technologies whose emission factors follow the ethanol blend
+gasoline_blend,T4GSL_TUR,name,Honduras,,B1 runner,gasoline technologies whose emission factors follow the ethanol blend
+gasoline_blend,DIST_GSL,name,Honduras,,B1 runner,gasoline technologies whose emission factors follow the ethanol blend
+rail_passenger_tech,TRNPASRAI,name,CostaRica,,B1 runner,passenger rail technology
+microbus_tech,TRNMIC,name,CostaRica,,B1 runner,microbus technology
+security_special_tech,TRAUTHG,name,Honduras,,B1 runner,technology whose upper capacity margin uses the special security factor
+import_token,IMP,token,all,,B1 runner,name token of import technologies (left out of technology lists)
+electric_set_token,ELE,token,all,,B1 runner,name token of electric fleet sets
+rail_freight_set,Techs_Trains_Freight,name,all,,B1 runner,fleet group of freight rail
+rail_passenger_set,Techs_Trains,name,all,,B1 runner,fleet group of passenger rail
+heavy_freight_set,Techs_He_Freight,name,all,,B1 runner,fleet group of heavy freight trucks
+cable_car_set,Techs_Telef,name,all,,B1 runner,fleet group of cable cars
+efficient_bus_set,Techs_Bus_Efi,name,all,,B1 runner,fleet group of efficient buses
+public_bus_set,Techs_Buses_Pub,name,all,,B1 runner,fleet group of public buses
+minibus_set,Techs_Buses_Micro,name,all,,B1 runner,fleet group of minibuses
+tourism_bus_set,Techs_Buses_Tur,name,all,,B1 runner,fleet group of tourism buses
+car_set,Techs_Auto,name,all,,B1 runner,fleet group of cars
+motorcycle_set,Techs_Motos,name,all,,B1 runner,fleet group of motorcycles
+suv_set,Techs_SUV,name,all,,B1 runner,fleet group of sport utility vehicles
+taxi_set,Techs_Taxi,name,all,,B1 runner,fleet group of taxis
