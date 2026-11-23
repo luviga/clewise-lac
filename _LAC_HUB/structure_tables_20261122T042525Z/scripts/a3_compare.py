@@ -185,10 +185,13 @@ for rel in sorted(set(fa) | set(fb)):
         diff(area_of(rel), rel, '', 'file only in B')
         continue
     pa, pb = fa[rel], fb[rel]
-    if pa.read_bytes() == pb.read_bytes() and not MAP:
-        continue
+    if pa.read_bytes() == pb.read_bytes():
+        continue  # equal bytes: equal content (with a map too, the file holds no renamed name)
     if rel.endswith('.csv'):
-        (cmp_param_csv if ('A2_Output_Params' in rel or 'B1_Output_Params' in rel) else cmp_csv)(rel, pa, pb)
+        try:
+            (cmp_param_csv if ('A2_Output_Params' in rel or 'B1_Output_Params' in rel) else cmp_csv)(rel, pa, pb)
+        except pd.errors.ParserError:  # ragged CSV: compared as text lines
+            cmp_txt(rel, pa, pb)
     elif rel.endswith('.xlsx'):
         cmp_xlsx(rel, pa, pb)
     elif rel.endswith('.txt'):

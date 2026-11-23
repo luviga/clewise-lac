@@ -1050,12 +1050,7 @@ for d in range( len( list_dicts ) ):
     df_to_print = overall_param_df_dict[ list_dicts[d] ]    
     df_to_print.to_csv( params['A2_output'] + other_setup_params[ 'Main_Scenario' ] + '/' + list_dicts[d] + '.csv', index=False, header=True)
 #
-list_dicts = list( overall_param_df_dict_ndp.keys() )
-for other_scen in other_setup_params[ 'Other_Scenarios' ]:
-    for d in range( len( list_dicts ) ):
-        df_to_print = overall_param_df_dict_ndp[ list_dicts[d] ]
-        df_to_print = df_to_print.replace( { 'Scenario':{ other_setup_params[ 'Main_Scenario' ]:other_scen } } )
-        df_to_print.to_csv( params['A2_output'] + other_scen + '/' + list_dicts[d] + '.csv', index=False, header=True)
+# The outputs under older scenario names (NDCincond, NDCcond) are retired: no scenario in use read them.
 #
 end_2 = time.time()   
 time_elapsed_2 = -start1 + end_2

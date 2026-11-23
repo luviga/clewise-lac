@@ -12,8 +12,8 @@ Hard (must PASS):
   T3  Upper ≥ Lower for all cells
   T4  No negative shares or limits
   T5  BAU fossil non-increasing from corrected boundary (non-CR)
-  T6  Policy milestones: NDCNEW/LTSNEW RE ≥ target at milestone years
-  T7  Historical alignment: BAU=NDCNEW=LTSNEW for years with identical CSV data
+  T6  Policy milestones: NDC/LTS RE ≥ target at milestone years
+  T7  Historical alignment: BAU=NDC=LTS for years with identical CSV data
 
 Soft (informational):
   T8  Continuity: year-over-year RE change < 5pp
@@ -33,6 +33,8 @@ from pathlib import Path
 
 import openpyxl
 
+import lac_tables as LT  # scenario names from config/scenarios/scenario_catalogue.csv
+
 # ── Config ──
 YEAR_MIN, YEAR_MAX = 2018, 2055
 CUTOFF_YEAR = 2026
@@ -50,23 +52,23 @@ FOSSIL_TOKENS = ["DSL", "DIE", "FOI", "HFO", "CRU",
 
 POLICY_CHECKS = [
     # (scenario, year, min_RE, label)
-    ("NDCNEW", 2035, 0.70, "NDCNEW 75% target @2035 (5pp margin)"),
-    ("NDCNEW", 2050, 0.70, "NDCNEW 75% target @2050 (5pp margin)"),
-    ("LTSNEW", 2035, 0.70, "LTSNEW 75% target @2035 (5pp margin)"),
-    ("LTSNEW", 2050, 0.94, "LTSNEW 99% target @2050 (5pp margin)"),
+    (LT.scenario("ndc"), 2035, 0.70, f"{LT.scenario("ndc")} 75% target @2035 (5pp margin)"),
+    (LT.scenario("ndc"), 2050, 0.70, f"{LT.scenario("ndc")} 75% target @2050 (5pp margin)"),
+    (LT.scenario("lts"), 2035, 0.70, f"{LT.scenario("lts")} 75% target @2035 (5pp margin)"),
+    (LT.scenario("lts"), 2050, 0.94, f"{LT.scenario("lts")} 99% target @2050 (5pp margin)"),
 ]
 COUNTRY_POLICY_OVERRIDES = {
     "CostaRica": [
-        ("NDCNEW", 2035, 0.85, "CR NDCNEW 90% @2035 (5pp)"),
-        ("NDCNEW", 2050, 0.85, "CR NDCNEW 90% @2050 (5pp)"),
-        ("LTSNEW", 2035, 0.94, "CR LTSNEW 99% @2035 (5pp)"),
-        ("LTSNEW", 2050, 0.94, "CR LTSNEW 99% @2050 (5pp)"),
+        (LT.scenario("ndc"), 2035, 0.85, f"CR {LT.scenario("ndc")} 90% @2035 (5pp)"),
+        (LT.scenario("ndc"), 2050, 0.85, f"CR {LT.scenario("ndc")} 90% @2050 (5pp)"),
+        (LT.scenario("lts"), 2035, 0.94, f"CR {LT.scenario("lts")} 99% @2035 (5pp)"),
+        (LT.scenario("lts"), 2050, 0.94, f"CR {LT.scenario("lts")} 99% @2050 (5pp)"),
     ],
     "Ecuador": [
-        ("NDCNEW", 2035, 0.75, "ECU NDCNEW 80% @2035 (5pp)"),
-        ("NDCNEW", 2050, 0.75, "ECU NDCNEW 80% @2050 (5pp)"),
-        ("LTSNEW", 2035, 0.75, "ECU LTSNEW 80% @2035 (5pp)"),
-        ("LTSNEW", 2050, 0.94, "ECU LTSNEW 99% @2050 (5pp)"),
+        (LT.scenario("ndc"), 2035, 0.75, f"ECU {LT.scenario("ndc")} 80% @2035 (5pp)"),
+        (LT.scenario("ndc"), 2050, 0.75, f"ECU {LT.scenario("ndc")} 80% @2050 (5pp)"),
+        (LT.scenario("lts"), 2035, 0.75, f"ECU {LT.scenario("lts")} 80% @2035 (5pp)"),
+        (LT.scenario("lts"), 2050, 0.94, f"ECU {LT.scenario("lts")} 99% @2050 (5pp)"),
     ],
 }
 
@@ -222,21 +224,21 @@ def main():
         if c in ["CostaRica"]:
             continue  # CR has 0% decline (flat allowed)
         # Find corrected boundary: max year with overrides for (c, BAU)
-        ov_years = sorted(set(y for (cc, ss, tt, y) in overrides if cc == c and ss == "BAU"))
+        ov_years = sorted(set(y for (cc, ss, tt, y) in overrides if cc == c and ss == LT.scenario("base")))
         if not ov_years:
             continue
         boundary = max(ov_years)
         if boundary < CUTOFF_YEAR:
             boundary = CUTOFF_YEAR
 
-        fos_at_boundary = sum(data[(c, "BAU", t)]["shares"].get(boundary, 0)
-                              for t in set(k[2] for k in data if k[0] == c and k[1] == "BAU")
+        fos_at_boundary = sum(data[(c, LT.scenario("base"), t)]["shares"].get(boundary, 0)
+                              for t in set(k[2] for k in data if k[0] == c and k[1] == LT.scenario("base"))
                               if cat[t] == "FOSSIL")
         for y in years:
             if y <= boundary:
                 continue
-            fos_y = sum(data[(c, "BAU", t)]["shares"].get(y, 0)
-                        for t in set(k[2] for k in data if k[0] == c and k[1] == "BAU")
+            fos_y = sum(data[(c, LT.scenario("base"), t)]["shares"].get(y, 0)
+                        for t in set(k[2] for k in data if k[0] == c and k[1] == LT.scenario("base"))
                         if cat[t] == "FOSSIL")
             if fos_y > fos_at_boundary + 0.005:
                 fails_t5.append(f"{c} {y}: fossil {fos_y:.4f} > boundary {fos_at_boundary:.4f}")
@@ -267,12 +269,12 @@ def main():
         for y in range(YEAR_MIN, CUTOFF_YEAR + 1):
             # Check if all 3 scenarios have same CSV values at this year
             csv_vals = {}
-            for sc in ["BAU", "NDCNEW", "LTSNEW"]:
+            for sc in LT.scenarios():
                 csv_vals[sc] = {t: overrides.get((c, sc, t, y)) for t in techs_c}
             # If all three have the same non-None values
-            bau_vals = csv_vals["BAU"]
+            bau_vals = csv_vals[LT.scenario("base")]
             all_same = True
-            for sc in ["NDCNEW", "LTSNEW"]:
+            for sc in LT.scenarios("policy"):
                 for t in techs_c:
                     if bau_vals[t] is not None and csv_vals[sc][t] is not None:
                         if abs(bau_vals[t] - csv_vals[sc][t]) > 0.001:
@@ -284,7 +286,7 @@ def main():
             # Check actual shares match across scenarios
             for t in techs_c:
                 shares = [data.get((c, sc, t), {"shares": {}})["shares"].get(y, 0)
-                          for sc in ["BAU", "NDCNEW", "LTSNEW"]]
+                          for sc in LT.scenarios()]
                 if max(shares) - min(shares) > 0.002:
                     fails_t7.append(f"{c}/{t}/{y}: {[round(s,4) for s in shares]}")
     record("T7_historical_alignment", len(fails_t7) == 0,
@@ -357,7 +359,7 @@ def main():
         print(f" {y:>6d}", end="")
     print()
     for c in countries:
-        for sc in ["BAU", "NDCNEW", "LTSNEW"]:
+        for sc in LT.scenarios():
             print(f"{c:>20s} {sc:>8s}", end="")
             for y in [2024, 2026, 2030, 2035, 2040, 2050]:
                 re_sum = sum(data.get((c, sc, t), {"shares": {}})["shares"].get(y, 0)
@@ -410,7 +412,7 @@ def main():
 
         for c in countries:
             for y in range(YEAR_MIN, DENOM_ALIGN_YEAR + 1):
-                vals = {s: denom.get((c, s, y)) for s in ["BAU", "NDCNEW", "LTSNEW"]}
+                vals = {s: denom.get((c, s, y)) for s in LT.scenarios()}
                 present = {s: v for s, v in vals.items() if v is not None}
                 if len(present) < 2:
                     continue
@@ -418,8 +420,8 @@ def main():
                 spread = max(vlist) - min(vlist)
                 if spread > DENOM_TOL:
                     fails_t11_denom.append(
-                        f"{c} {y}: BAU={vals.get('BAU','?'):.1f} NDC={vals.get('NDCNEW','?'):.1f} "
-                        f"LTS={vals.get('LTSNEW','?'):.1f} (spread={spread:.1f} PJ)")
+                        f"{c} {y}: BAU={vals.get(LT.scenario('base'),'?'):.1f} NDC={vals.get(LT.scenario('ndc'),'?'):.1f} "
+                        f"LTS={vals.get(LT.scenario('lts'),'?'):.1f} (spread={spread:.1f} PJ)")
 
         record("T11a_denom_alignment", len(fails_t11_denom) == 0,
                f"{len(fails_t11_denom)} years with scenario spread >{DENOM_TOL} PJ" +
@@ -435,7 +437,7 @@ def main():
         for y in range(YEAR_MIN, DENOM_ALIGN_YEAR + 1):
             for t in techs_c:
                 shares_by_sc = [data.get((c, s, t), {"shares": {}})["shares"].get(y, 0)
-                                for s in ["BAU", "NDCNEW", "LTSNEW"]]
+                                for s in LT.scenarios()]
                 spread = max(shares_by_sc) - min(shares_by_sc)
                 if spread > 0.005:
                     fails_t11_shares.append(

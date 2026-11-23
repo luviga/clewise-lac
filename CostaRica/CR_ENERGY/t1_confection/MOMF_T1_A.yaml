@@ -8,7 +8,6 @@ A1_outputs: './A1_Outputs'
 A2_extra_inputs: './A2_Extra_Inputs'
 A2_output: './A2_Output_Params/'
 A2_output_BAU: './A2_Output_Params/BAU/'
-A2_output_NDP: './A2_Output_Params/NDCincond/'
 
 # Files, sheets and columns
 # A1
@@ -223,7 +222,7 @@ dict_dist_fam_to_name_spa: {
 #---------------------------------------------------------------#
 xtra_scen: {
   Main_Scenario: 'BAU',
-  Other_Scenarios: ['NDCincond','NDCcond'],
+  Other_Scenarios: [],
   Region: 'CR',
   Mode_of_Operation: 1,
   Timeslice: 'All'

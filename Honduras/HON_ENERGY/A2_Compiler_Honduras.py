@@ -1017,14 +1017,8 @@ for d in range( len( list_dicts ) ):
 list_dicts = list( overall_param_df_dict_ndp.keys() )
 for d in range( len( list_dicts ) ):
     df_to_print = overall_param_df_dict_ndp[ list_dicts[d] ]
-    df_to_print = df_to_print.replace( { 'Scenario':{ other_setup_params[ 'Main_Scenario' ]:other_setup_params[ 'Other_Scenarios' ] } } )
-    df_to_print.to_csv( './A2_Output_Params/' + LT.scenario('older_ndp') + '/' + list_dicts[d] + '.csv', index=False, header=True)
-    df_to_print = df_to_print.replace( { 'Scenario':{LT.scenario('older_ndp'):LT.scenario('older_ndp_ambitious')} } )
-    df_to_print.to_csv( './A2_Output_Params/' + LT.scenario('older_ndp_ambitious') + '/' + list_dicts[d] + '.csv', index=False, header=True)
-    df_to_print = df_to_print.replace( { 'Scenario':{LT.scenario('older_ndp_ambitious'):LT.scenario('older_ndc_unconditional')} } )
-    df_to_print.to_csv( './A2_Output_Params/' + LT.scenario('older_ndc_unconditional') + '/' + list_dicts[d] + '.csv', index=False, header=True)
-    df_to_print = df_to_print.replace( { 'Scenario':{LT.scenario('older_ndc_unconditional'):LT.scenario('older_ndc_conditional')} } )
-    df_to_print.to_csv( './A2_Output_Params/' + LT.scenario('older_ndc_conditional') + '/' + list_dicts[d] + '.csv', index=False, header=True)
+    for scen in LT.scenarios('policy'):  # the scenarios in use that this output feeds, labelled with their name
+        df_to_print.replace( { 'Scenario':{ other_setup_params[ 'Main_Scenario' ]:scen } } ).to_csv( './A2_Output_Params/' + scen + '/' + list_dicts[d] + '.csv', index=False, header=True)
 #
 end_2 = time.time()   
 time_elapsed_2 = -start1 + end_2

@@ -15,7 +15,7 @@ Stage 1 rules preserved:
   - Fossil decline: 1%/yr from cutoff (Costa Rica: 0%)
   - Hydro PJ freeze: absolute PJ locked at corrected anchor value
   - NH-Renewable gap-fill: solar+wind absorb freed capacity
-  - Policy targets: NDCNEW/LTSNEW milestones respected
+  - Policy targets: NDC/LTS milestones respected
   - Shares sum to 1.0 everywhere
 
 Usage (from MODELS_LAC_4):

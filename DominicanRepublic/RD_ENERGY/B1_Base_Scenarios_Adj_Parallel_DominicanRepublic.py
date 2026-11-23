@@ -2907,8 +2907,6 @@ if __name__ == '__main__':
         print(value_range_set_group)
         print(value_range_set_group_lm)
 
-        if scenario_list[s] == LT.scenario('older_ndc_conditional'):
-            print('Check this out!')
             # sys.exit()
 
         ### BLOCK 4: call and modify the occupancy rate ###
@@ -3753,7 +3751,7 @@ if __name__ == '__main__':
                         except Exception:
                             train_pass_capacity_values = [0 for i in range(len(time_range_vector))]
 
-                        if Fleet_Groups_techs_2_dem[ this_group_set ] == PUBLIC_TRANSPORT_DEMAND_STR and LT.scenario('older_lts') in scenario_list[ s ]:
+                        if Fleet_Groups_techs_2_dem[ this_group_set ] == PUBLIC_TRANSPORT_DEMAND_STR and LT.scenario('lts') in scenario_list[ s ]:
                             subtract_list = [float(train_pass_capacity_values[j]) for j in range(len(train_pass_capacity_values))]
                         else:
                             subtract_list = [0 for j in range(len(train_pass_capacity_values))]
@@ -4046,7 +4044,7 @@ if __name__ == '__main__':
             if scenario_list_based[sb] != BAU_STR:
                 Blend_Shares.update( { this_scenario_name:Blend_Shares[ scenario_list_based[sb] ] } )
             else:
-                Blend_Shares.update( { this_scenario_name:Blend_Shares[ LT.scenario('older_lts') ] } )
+                Blend_Shares.update( { this_scenario_name:Blend_Shares[ LT.scenario('lts') ] } )
             Reference_driven_distance.update( { this_scenario_name:Reference_driven_distance[ scenario_list_based[sb] ] } )
             Reference_occupancy_rate.update( { this_scenario_name:Reference_occupancy_rate[ scenario_list_based[sb] ] } )
             Reference_op_life.update( { this_scenario_name:Reference_op_life[ scenario_list_based[sb] ] } )

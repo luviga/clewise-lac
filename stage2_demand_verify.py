@@ -5,7 +5,7 @@ stage2_demand_verify.py — Check SpecifiedAnnualDemand consistency across scena
 ====================================================================================
 
 Reads .txt GMPL data files from Executables/ folders for each country/scenario.
-Reports any differences in SpecifiedAnnualDemand across BAU/NDCNEW/LTSNEW.
+Reports any differences in SpecifiedAnnualDemand across BAU/NDC/LTS.
 
 Demands should be IDENTICAL across scenarios for all years — they represent
 exogenous electricity demand, not model output.
@@ -21,6 +21,8 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+import lac_tables as LT  # scenario names from config/scenarios/scenario_catalogue.csv
+
 # =============================================================================
 # CONFIG
 # =============================================================================
@@ -34,7 +36,7 @@ COUNTRY_CONFIG = {
     "Jamaica": "JAM_ENERGY",
 }
 
-SCENARIOS = ["BAU", "NDCNEW", "LTSNEW"]
+SCENARIOS = LT.scenarios()
 SUFFIXES_TO_TRY = ["_0", "_ADJ_TESTEOS", "_S0_0"]  # try original, then DR variant, then S0
 
 
@@ -241,7 +243,7 @@ def main():
         for c, n in sorted(by_country.items()):
             print(f"    {c}: {n} mismatches in historical years")
         print(f"\n  ACTION: historical demands must be identical across scenarios.")
-        print(f"  Copy the BAU demand block to NDCNEW/LTSNEW for years ≤2024.")
+        print(f"  Copy the BAU demand block to NDC/LTS for years ≤2024.")
         sys.exit(1)
     else:
         print(f"\n  All historical demands (≤2024) identical. Post-2024 differences are policy measures.")
