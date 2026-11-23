@@ -397,9 +397,11 @@ def main():
             merged = totals.merge(re_gen, on=["Country", "Scenario", "Year"], how="left").fillna(0)
             merged["RE_Share"] = merged["RE"] / merged["Total"]
 
-            # Policy targets: {scenario: {year: target_share}}
-            # (inputs/scenarios/scenario_values.csv, lever renewable_share, general rows)
-            RE_TARGETS = LT.scenario_values("renewable_share")
+            # Policy targets: {scenario: {year: target_share}} of each country, with the lookup of Stages 1
+            # and 2: the country's own rows where it has them, else the general rows
+            # (inputs/scenarios/scenario_values.csv, lever renewable_share)
+            RE_TARGETS_GENERAL = LT.scenario_values("renewable_share")
+            RE_TARGETS_COUNTRY = LT.scenario_value_overrides("renewable_share")
             RE_TOLERANCE = LT.controller("re_target_tolerance", "3")  # share points
 
             re_pass = 0
@@ -407,7 +409,8 @@ def main():
             re_rows = []
 
             for country in countries:
-                for scen, year_targets in RE_TARGETS.items():
+                for scen in RE_TARGETS_GENERAL:
+                    year_targets = RE_TARGETS_COUNTRY.get(country, {}).get(scen, RE_TARGETS_GENERAL[scen])
                     for year, target in year_targets.items():
                         row = merged[(merged["Country"] == country) &
                                      (merged["Scenario"] == scen) &

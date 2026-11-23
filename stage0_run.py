@@ -511,7 +511,7 @@ def main():
                 # Build ideal caps for ALL bypass techs:
                 # priority: LL anchor → RC × C2A → 0.01 PJ
                 bypass_ideal_caps = {}
-                for tech in BYPASS_TECHS:
+                for tech in sorted(BYPASS_TECHS):
                     if tech in ll_anchors and ll_anchors[tech] > 0:
                         bypass_ideal_caps[tech] = ll_anchors[tech]
                     elif tech in rc_anchors and rc_anchors[tech] > 0:
@@ -522,7 +522,7 @@ def main():
                 # Split bypass techs into missing (need injection) vs
                 # oversized (have a UL row but anchor is way above ideal).
                 bypass_overrides = {}
-                for tech in BYPASS_TECHS:
+                for tech in sorted(BYPASS_TECHS):
                     if tech not in ul_anchors:
                         if tech in ll_anchors or tech in rc_anchors:
                             bypass_missing_from_ul.add(tech)

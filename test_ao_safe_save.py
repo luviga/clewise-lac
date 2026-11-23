@@ -5,6 +5,7 @@ Run:  py -I test_ao_safe_save.py      or      py -m pytest test_ao_safe_save.py
 
 from __future__ import annotations
 
+import gc
 import hashlib
 import sys
 import tempfile
@@ -21,6 +22,29 @@ from ao_safe_save import (  # noqa: E402
     recalc_in_excel,
     save_ao_safely,
 )
+
+
+# Test setup: openpyxl 3.1.2 leaves a worksheet stream of a workbook loaded in normal mode open until Python's
+# next cyclic garbage collection (Workbook.close() only closes read-only and write-only workbooks). On Windows the
+# file just read then stays locked, so replacing or deleting it (in ao_safe_save) or removing the temporary folder
+# fails with WinError 32 whenever no collection has run in between. The tests collect garbage right after each
+# workbook load of the modules under test and before each temporary folder is removed.
+def _collecting(load):
+    def load_then_collect(*args, **kwargs):
+        wb = load(*args, **kwargs)
+        gc.collect()
+        return wb
+    return load_then_collect
+
+
+for _module in (ao_safe_save,):
+    _module.load_workbook = _collecting(_module.load_workbook)
+
+
+class _TemporaryDirectory(tempfile.TemporaryDirectory):
+    def cleanup(self):
+        gc.collect()
+        super().cleanup()
 
 
 def _tiny_workbook():
@@ -52,7 +76,7 @@ def _temp_leftovers(folder) -> list[str]:
 
 
 def test_openpyxl_only_save_is_refused_then_recalc_passes():
-    with tempfile.TemporaryDirectory() as tmp:
+    with _TemporaryDirectory() as tmp:
         path = Path(tmp) / "tiny_ao.xlsx"
         _tiny_workbook().save(path)
 
@@ -74,7 +98,7 @@ def test_openpyxl_only_save_is_refused_then_recalc_passes():
 
 
 def test_save_ao_safely_end_to_end():
-    with tempfile.TemporaryDirectory() as tmp:
+    with _TemporaryDirectory() as tmp:
         path = Path(tmp) / "tiny_ao_safe.xlsx"
         save_ao_safely(_tiny_workbook(), path)
         wb_v = load_workbook(path, data_only=True)
@@ -82,7 +106,7 @@ def test_save_ao_safely_end_to_end():
 
 
 def test_excel_failure_leaves_target_unchanged():
-    with tempfile.TemporaryDirectory() as tmp:
+    with _TemporaryDirectory() as tmp:
         target = Path(tmp) / "target_ao.xlsx"
         _plain_values_workbook().save(target)
         before = _sha256(target)
@@ -107,7 +131,7 @@ def test_excel_failure_leaves_target_unchanged():
 
 
 def test_guard_failure_leaves_target_unchanged():
-    with tempfile.TemporaryDirectory() as tmp:
+    with _TemporaryDirectory() as tmp:
         target = Path(tmp) / "target_ao.xlsx"
         _plain_values_workbook().save(target)
         before = _sha256(target)
@@ -132,7 +156,7 @@ def test_guard_failure_leaves_target_unchanged():
 
 
 def test_replace_existing_target():
-    with tempfile.TemporaryDirectory() as tmp:
+    with _TemporaryDirectory() as tmp:
         target = Path(tmp) / "target_ao.xlsx"
         _plain_values_workbook().save(target)
 

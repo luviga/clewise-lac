@@ -3119,7 +3119,7 @@ if __name__ == '__main__':
                     else: # this means we need to add the data to the dictionary
                         # print('happens??', this_set, this_sector, scenario_list[s], cap_vars[cp])
                         for y in range( len( time_range_vector ) ):
-                            stable_scenarios[ scenario_list[s] ][ cap_vars[ cp ] ]['r'].append( _TB1['appended_region_code'] )
+                            stable_scenarios[ scenario_list[s] ][ cap_vars[ cp ] ]['r'].append( LT.country_value(_TC, 'code') )
                             stable_scenarios[ scenario_list[s] ][ cap_vars[ cp ] ]['t'].append( this_set )
                             stable_scenarios[ scenario_list[s] ][ cap_vars[ cp ] ]['y'].append( str( time_range_vector[y] ) )
                             stable_scenarios[ scenario_list[s] ][ cap_vars[ cp ] ]['value'].append( new_value_list_rounded[y] )
@@ -3448,7 +3448,7 @@ if __name__ == '__main__':
                     
                     #
                     for y in range( len( time_range_vector ) ):
-                        stable_scenarios[ scenario_list[s] ][ 'TotalAnnualMaxCapacity' ]['r'].append( _TB1['appended_region_code'] )
+                        stable_scenarios[ scenario_list[s] ][ 'TotalAnnualMaxCapacity' ]['r'].append( LT.country_value(_TC, 'code') )
                         stable_scenarios[ scenario_list[s] ][ 'TotalAnnualMaxCapacity' ]['t'].append( this_tech )                            
                         stable_scenarios[ scenario_list[s] ][ 'TotalAnnualMaxCapacity' ]['y'].append( str( time_range_vector[y] ) )
                         if time_range_vector[y] <= Initial_Year_of_Uncertainty:
@@ -3461,7 +3461,7 @@ if __name__ == '__main__':
                     ### print( '*', scenario_list[s], this_tech, 'here2', len(scenario_list) )
                     
                     for y in range( len( time_range_vector ) ):
-                        stable_scenarios[ scenario_list[s] ][ 'TotalAnnualMaxCapacity' ]['r'].append( _TB1['appended_region_code'] )
+                        stable_scenarios[ scenario_list[s] ][ 'TotalAnnualMaxCapacity' ]['r'].append( LT.country_value(_TC, 'code') )
                         stable_scenarios[ scenario_list[s] ][ 'TotalAnnualMaxCapacity' ]['t'].append( this_tech )                            
                         stable_scenarios[ scenario_list[s] ][ 'TotalAnnualMaxCapacity' ]['y'].append( str( time_range_vector[y] ) )
                         if time_range_vector[y] <= Initial_Year_of_Uncertainty:
@@ -3478,7 +3478,7 @@ if __name__ == '__main__':
             this_min_tech_values = [ float( this_min_tech_values[j] ) for j in range( len( this_min_tech_values ) ) ]
             
             for y in range( len( time_range_vector ) ):
-                stable_scenarios[ scenario_list[s] ][ 'TotalAnnualMaxCapacity' ]['r'].append( _TB1['appended_region_code'] )
+                stable_scenarios[ scenario_list[s] ][ 'TotalAnnualMaxCapacity' ]['r'].append( LT.country_value(_TC, 'code') )
                 stable_scenarios[ scenario_list[s] ][ 'TotalAnnualMaxCapacity' ]['t'].append( this_tech )                            
                 stable_scenarios[ scenario_list[s] ][ 'TotalAnnualMaxCapacity' ]['y'].append( str( time_range_vector[y] ) )
                 stable_scenarios[ scenario_list[s] ][ 'TotalAnnualMaxCapacity' ]['value'].append( str( this_min_tech_values[y] ) )
@@ -3713,7 +3713,7 @@ if __name__ == '__main__':
                         if 'Write' in electrical_Params_methods:
                             value_list = [ round( e*electrical_Params_secMultiplier, _TB1['rounding_digits'] ) for e in value_list ]
                             for y in range( len( time_range_vector ) ):
-                                stable_scenarios[ this_scenario_name ][ param_list[p] ]['r'].append( _TB1['appended_region_code'] )
+                                stable_scenarios[ this_scenario_name ][ param_list[p] ]['r'].append( LT.country_value(_TC, 'code') )
                                 stable_scenarios[ this_scenario_name ][ param_list[p] ]['t'].append( set_list[l] )                            
                                 stable_scenarios[ this_scenario_name ][ param_list[p] ]['y'].append( str( time_range_vector[y] ) )
                                 stable_scenarios[ this_scenario_name ][ param_list[p] ]['value'].append( float( value_list[y] ) )

@@ -1,3 +1,4 @@
+import gc
 import tempfile
 import unittest
 from pathlib import Path
@@ -5,6 +6,30 @@ from pathlib import Path
 from openpyxl import Workbook, load_workbook
 
 import ao_cost_repair_manager as mgr
+import ao_safe_save
+
+
+# Test setup: openpyxl 3.1.2 leaves a worksheet stream of a workbook loaded in normal mode open until Python's
+# next cyclic garbage collection (Workbook.close() only closes read-only and write-only workbooks). On Windows the
+# file just read then stays locked, so replacing or deleting it (in ao_safe_save) or removing the temporary folder
+# fails with WinError 32 whenever no collection has run in between. The tests collect garbage right after each
+# workbook load of the modules under test and before each temporary folder is removed.
+def _collecting(load):
+    def load_then_collect(*args, **kwargs):
+        wb = load(*args, **kwargs)
+        gc.collect()
+        return wb
+    return load_then_collect
+
+
+for _module in (mgr, ao_safe_save):
+    _module.load_workbook = _collecting(_module.load_workbook)
+
+
+class _TemporaryDirectory(tempfile.TemporaryDirectory):
+    def cleanup(self):
+        gc.collect()
+        super().cleanup()
 
 
 def make_ao(path: Path, rows: list[list[object]], years: list[int]) -> None:
@@ -43,7 +68,7 @@ def make_fuel_workbook(path: Path) -> None:
 
 class AoCostRepairManagerTests(unittest.TestCase):
     def test_fuel_series_reads_and_converts_to_musd_per_pj(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
+        with _TemporaryDirectory() as tmp:
             fuel_path = Path(tmp) / "fuel.xlsx"
             make_fuel_workbook(fuel_path)
             series, meta = mgr.read_fuel_series(fuel_path, "ECU", "DSL", "REF")
@@ -111,7 +136,7 @@ class AoCostRepairManagerTests(unittest.TestCase):
         self.assertEqual(mgr.detect_family(row), "charcoal")
 
     def test_apply_verify_and_restore_on_tiny_workbook(self) -> None:
-        with tempfile.TemporaryDirectory() as tmp:
+        with _TemporaryDirectory() as tmp:
             root = Path(tmp)
             ao_path = root / "A-O_Parametrization.xlsx"
             make_ao(

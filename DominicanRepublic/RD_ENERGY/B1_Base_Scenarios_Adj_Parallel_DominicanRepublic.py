@@ -3189,7 +3189,7 @@ if __name__ == '__main__':
                             else:
                                 
                                 for ite in range(len(value_list_new_vals)):
-                                    stable_scenarios[scenario_list[s]][param_list[p]]['r'].append(_TB1['appended_region_code'])
+                                    stable_scenarios[scenario_list[s]][param_list[p]]['r'].append(LT.country_value(_TC, 'code'))
                                     stable_scenarios[scenario_list[s]][param_list[p]]['e'].append(set_item)
                                     stable_scenarios[scenario_list[s]][param_list[p]]['y'].append(str(time_range_vector[ite]))
                                     stable_scenarios[scenario_list[s]][param_list[p]]['value'].append(value_list_new_vals[ite])
@@ -3236,7 +3236,7 @@ if __name__ == '__main__':
                                 stable_scenarios[scenario_list[s]][param_list[p]]['value'][this_param_indices[0]:this_param_indices[-1]+1] = deepcopy(new_value_list)
                             else:
                                 for ite in range(len(value_list_new_vals)):
-                                    stable_scenarios[scenario_list[s]][param_list[p]]['r'].append(_TB1['appended_region_code'])
+                                    stable_scenarios[scenario_list[s]][param_list[p]]['r'].append(LT.country_value(_TC, 'code'))
                                     stable_scenarios[scenario_list[s]][param_list[p]]['e'].append(set_item)
                                     stable_scenarios[scenario_list[s]][param_list[p]]['y'].append(str(time_range_vector[ite]))
                                     stable_scenarios[scenario_list[s]][param_list[p]]['value'].append(value_list_new_vals[ite])
