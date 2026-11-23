@@ -10,4 +10,4 @@ Stamp: 20261123T163210Z. Branch: job/vehicle-prices. Pull request #16 not merged
 | 3 Unit values | done | scripts/build_prices.py, national_parsers.py; unit_values and class_prices per country |
 | 4 Proposals | done | scripts/build_proposals.py, build_sources.py; proposals, sources per country; manual_downloads.csv (6 rows) |
 | 5 Gates | done | scripts/gates.py, gates_result.md: 8 of 8 pass |
-| 6 Pull request | next | |
+| 6 Pull request | done | draft #18; REPORT, GAPS, CHANGES |

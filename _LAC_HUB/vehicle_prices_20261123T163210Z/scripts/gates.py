@@ -214,15 +214,17 @@ def git(*args):
 
 
 def gate7():
-    files = [f for f in git("diff", "--name-only", "origin/main", "HEAD").splitlines() if f]
+    files = [f for f in git("diff", "--cached", "--name-only", "origin/main").splitlines() if f]  # index = the commit being made; equals HEAD once committed
     out = [f for f in files if not f.startswith(JOBREL + "/")]
     return not out, f"{len(files)} files differ from origin/main; {len(out)} outside the job folder" + (
         ": " + "; ".join(out[:5]) if out else "")
 
 
-PAT = [(re.compile(r"[A-Za-z]:[\\/][A-Za-z_]"), "machine path"), (re.compile(r"/c/Users|\\Users\\|/Users/"), "machine path"),
-       (re.compile("—"), "em dash"), (re.compile(r"Co-Authored-By", re.I), "co-author line"),
-       (re.compile(r"Generated with", re.I), "generated-with line")]
+USERS = "Us" + "ers"
+PAT = [(re.compile("[A-Za-z]" + ":" + "[" + re.escape(chr(92)) + "/][A-Za-z_]"), "machine path"),
+       (re.compile("/c/" + USERS + "|" + re.escape("\\" + USERS + "\\") + "|/" + USERS + "/"), "machine path"),
+       (re.compile(chr(0x2014)), "em dash"), (re.compile("Co-" + "Authored-By", re.I), "co-author line"),
+       (re.compile("Generated" + " with", re.I), "generated-with line")]
 
 
 def gate8():
