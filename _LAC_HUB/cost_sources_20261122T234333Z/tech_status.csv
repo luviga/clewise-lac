@@ -1,0 +1,2475 @@
+country,model,tech,cls,reason
+CR,CR_ENERGY,BLEND_DSL,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,BLEND_GSL,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,ELE_DTR,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,ELE_TRN,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,HYDPROBIO,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,HYDPROELEGRI,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,HYDPROELEISO,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,HYDPRONGS,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,HYD_DISTR,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,IMPAVG,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,IMPCOA,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,IMPCOK,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,IMPELE,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,IMPFOI,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,IMPKJF,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,IMPLPG,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,IMPNGS,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,IMPPURDSL,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,IMPPURGSL,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,NGS_DTR,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,PP_SPV_DG,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,PP_SPV_US_H2,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,PP_WNDOFS,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,PP_WND_OF_H2,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,PP_WND_US_H2,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,PROBIODSL,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,PROBMS,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,PROETA,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,PROFIR,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,PROINDWAS,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,PROSUG,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,PWRBMS,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,PWRDSL,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,PWRFOI,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,PWRGEO,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,PWRHYDDAM,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,PWRHYDROR,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,PWRSPVDTR,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,PWRSPVTRN,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,PWRSUG,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,PWRWNONS,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,T4DSL_HEA,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T4DSL_LIG,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T4DSL_PRI,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T4DSL_PUB,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T4ELE_HEA,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T4ELE_LIG,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T4ELE_PRI,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T4ELE_PUB,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T4GSL_LIG,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T4GSL_PRI,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T4GSL_PUB,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T4HYD_HEA,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T4HYD_PUB,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T4LPG_HEA,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T4LPG_LIG,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T4LPG_PRI,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T4LPG_PUB,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T4NGS_HEA,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5BMSIND,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5COAIND,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5COKIND,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5DSLAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5DSLIND,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5ELEAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5ELECOM,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5ELEEXP,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5ELEIND,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5ELEPUB,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5ELERES,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5FIRCOM,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5FIREXP,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5FOICOM,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5FOIIND,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5GSLIND,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5HYDIND,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5IWAIND,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5KJFAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5LPGAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5LPGCOM,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5LPGIND,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5LPGRES,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5PURDSLAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5PURDSLCOM,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5PURDSLIND,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5PURGSLAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5PURGSLCOM,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5PURGSLIND,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5SUGIND,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5TAEAVG,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5TAEJTF,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5TMADSL,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,T5TOTGSL,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,TRNBUS,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNBUSDSL,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,TRNBUSELE,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,TRNBUSHYBDSL,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,TRNBUSHYD,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,TRNBUSLPG,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,TRNFREHEA,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNFREHEADSL,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNFREHEAELE,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNFREHEAHYBDSL,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,TRNFREHEAHYD,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,TRNFREHEALPG,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNFREHEANGV,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,TRNFRELIG,total_only,not a free producer in any 2030 choice set
+CR,CR_ENERGY,TRNFRELIGDSL,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNFRELIGELE,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNFRELIGGSL,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNFRELIGHYBDSL,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,TRNFRELIGHYBGSL,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,TRNFRELIGLPG,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNFRERAI,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNFRERAIDSL,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNFRERAIELE,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNFRERAIHYBDSL,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNMIC,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNMICDSL,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNMICELE,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,TRNMICHYBDSL,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,TRNMICHYD,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,TRNMICLPG,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNMOT,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNMOTELE,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNMOTGSL,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNPASRAI,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNPASRAIDSL,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNPASRAIELE,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNPASRAIHYBDSL,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNSED,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNSEDDSL,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNSEDELE,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNSEDGSL,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNSEDHYBGSL,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,TRNSEDLPG,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNSUV,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNSUVDSL,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNSUVELE,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNSUVGSL,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNSUVHYBDSL,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,TRNSUVHYBGSL,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,TRNSUVLPG,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNTAX,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNTAXDSL,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNTAXELE,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNTAXGSL,choice,free producer in a 2030 choice set
+CR,CR_ENERGY,TRNTAXHYBDSL,inactive,capacity or activity capped at zero in every year
+CR,CR_ENERGY,TRNTAXHYBGSL,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,AGRBAN,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,AGRCAF,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,AGRFRT,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,AGRORG,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,AGROTG,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,AGROTP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,AGRPIN,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,AGRPLM,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,AGRRIC,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,AGRSGC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,AGRVEG,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,AGRWOD,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,BOSMANDRYPRI,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,BOSMANDRYSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,BOSMANMGRPRI,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,BOSMANMGRSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,BOSMANMSTPRI,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,BOSMANMSTSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,BOSMANPLMPRI,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,BOSMANPLMSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,BOSMANWETPRI,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,BOSMANWETSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,CAMCRPDRYSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,CAMCRPMGRSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,CAMCRPMSTSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,CAMCRPPLMSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,CAMCRPWETSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,CAMOTLDRYSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,CAMOTLMGRSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,CAMOTLMSTSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,CAMOTLPLMSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,CAMOTLWETSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,CAMPASDRYSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,CAMPASMGRSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,CAMPASMSTSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,CAMPASPLMSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,CAMPASWETSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,CARBSOIL,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,COPASFORDRY,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,COPASFORMST,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,COPASFORPLM,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,COPASFORWET,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFANTDRYPRI,inactive,capacity or activity capped at zero in every year
+CR,CR_AFOLU,DEFANTDRYSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFANTMGRPRI,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFANTMGRSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFANTMSTPRI,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFANTMSTSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFANTPLMPRI,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFANTPLMSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFANTWETPRI,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFANTWETSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFNONANTDRYPRI,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFNONANTDRYSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFNONANTMGRPRI,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFNONANTMGRSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFNONANTMSTPRI,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFNONANTMSTSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFNONANTPLMPRI,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFNONANTPLMSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFNONANTWETPRI,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEFNONANTWETSEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEGFORDRY,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEGFORMGR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEGFORMST,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEGFORPLM,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,DEGFORWET,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,GANCAR,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,GANDOP,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,GANLEC,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,HRDCAR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,HRDDOP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,HRDLEC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,IMPBAN,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,IMPCAF,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,IMPCAR,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,IMPFRT,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,IMPLEC,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,IMPMOL,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,IMPORG,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,IMPOTG,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,IMPPIN,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,IMPPLM,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,IMPRIC,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,IMPSUG,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,IMPVEG,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,IMPWOD,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,LNDAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,LNDFOR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,LNDGAN,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,LNDRSC,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,NOSTCLND,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,PROCHI,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,PROOIL,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,PROPOR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,PROSUG,choice,free producer in a 2030 choice set
+CR,CR_AFOLU,T5BAGAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5BANAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5BANAGREXP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5CAFAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5CAFAGREXP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5CARGAN,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5CARGANEXP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5CHIGAN,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5CHIGANEXP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5DRYPRIFORCOV,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5DRYSECFORCOV,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5FRTAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5FRTAGREXP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5INFCOV,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5LECGAN,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5LECGANEXP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5MGRPRIFORCOV,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5MGRSECFORCOV,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5MOLAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5MOLAGREXP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5MSTPRIFORCOV,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5MSTSECFORCOV,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5NINCOV,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5OILAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5OILAGREXP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5ORGAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5ORGAGREXP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5OTGAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5OTGAGREXP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5OTHCOV,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5OTPAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5OTPAGREXP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5PASCOV,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5PINAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5PINAGREXP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5PLMPRIFORCOV,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5PLMSECFORCOV,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5PORGAN,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5PORGANEXP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5RICAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5RICAGREXP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5SUGAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5SUGAGREXP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5VEGAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5VEGAGREXP,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5WETCOV,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5WETPRIFORCOV,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5WETSECFORCOV,total_only,not a free producer in any 2030 choice set
+CR,CR_AFOLU,T5WODAGR,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,AEROSOLS_HFC152a,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,CARBIDE_PROD,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,CARBONATE,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,FIRE_PROT_HFC125,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,FLUOR_GLASS_HFC152a,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,GLASS_PROD,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,IMP_STOR,inactive,capacity or activity capped at zero in every year
+CR,CR_IPPU,LIME_PROD,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,LUBRI_GREASE,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,LUBRI_OILS,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,NITRIC_ACID,inactive,capacity or activity capped at zero in every year
+CR,CR_IPPU,PARAFFIN,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,PROD_CEM,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,PROD_CLK_TRAD,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,RAW_MAT_CEM,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,RAW_MAT_CLK,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,REFR_AC_HFC125,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,REFR_AC_HFC134a,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,REFR_AC_HFC143a,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,REFR_AC_HFC152a,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,REFR_AC_HFC23,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,REFR_AC_HFC32,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,SF6_USE,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5AEROSOLS_HFC152aIPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5CARBIDE_PRODIPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5CARBONATEIPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5CEM_PRODIND,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5FIRE_PROT_HFC125IPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5FLUOR_GLASS_HFC152aIPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5GLASS_PRODIPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5LIME_PRODIPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5LUBRI_GREASEIPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5LUBRI_OILSIPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5NITRIC_ACIDIPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5PARAFFINIPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5REFR_AC_HFC125IPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5REFR_AC_HFC134aIPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5REFR_AC_HFC143aIPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5REFR_AC_HFC152aIPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5REFR_AC_HFC23IPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5REFR_AC_HFC32IPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_IPPU,T5SF6_USEIPPU,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,AD,inactive,capacity or activity capped at zero in every year
+CR,CR_WASTE,BLEND_NO_COLL,choice,free producer in a 2030 choice set
+CR,CR_WASTE,BLEND_NO_DCOLL,choice,free producer in a 2030 choice set
+CR,CR_WASTE,CO2_CH4_BURN,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,COMPOST,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,COPROC,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,DIRECT_DISC,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,GAS_MSW,inactive,capacity or activity capped at zero in every year
+CR,CR_WASTE,HTC,inactive,capacity or activity capped at zero in every year
+CR,CR_WASTE,INCIN,inactive,capacity or activity capped at zero in every year
+CR,CR_WASTE,IND_SW,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,INORG_DCOLL,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,INORG_RCY_OS,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,INORG_SS,choice,free producer in a 2030 choice set
+CR,CR_WASTE,LANDFILL,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,LANDFILL_ELEC,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,LATR,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,NO_CONTR_OD,inactive,capacity or activity capped at zero in every year
+CR,CR_WASTE,NO_OSS_BLEND,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,NO_OSS_NO_COLL,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,NO_SS,choice,free producer in a 2030 choice set
+CR,CR_WASTE,NT_CATTLE,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,NT_COFFE,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,NT_PALM,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,NT_PIGS,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,NT_POULTRY,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,NT_SUGARCANE,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,OPEN_BURN,choice,free producer in a 2030 choice set
+CR,CR_WASTE,ORG_DCOLL,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,ORG_SS,choice,free producer in a 2030 choice set
+CR,CR_WASTE,OSS_INORG,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,OSS_ORG,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,PTAR_NEW,inactive,capacity or activity capped at zero in every year
+CR,CR_WASTE,PTAR_OLD,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,SEPT_SYST,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,SEWERWW,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,SEWER_NO_T,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,SIT_CLAN,choice,free producer in a 2030 choice set
+CR,CR_WASTE,T5CATTLEWW,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,T5CO2_CH4_BURNTSW,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,T5COFFEWW,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,T5IND_SWTSW,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,T5LANDFILL_ELECTSW,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,T5PALMWW,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,T5PIGSWW,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,T5POULTRYWW,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,T5SUGARCANEWW,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,T5TSWTSW,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,T5TWWWW,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,T_CATTLE,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,T_COFEE,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,T_PALM,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,T_PIGS,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,T_POULTRY,total_only,not a free producer in any 2030 choice set
+CR,CR_WASTE,T_SUGARCANE,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,DIST_BGS,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,DIST_BIM,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,DIST_COA,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,DIST_COK,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,DIST_CRU,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,DIST_DSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,DIST_FIR,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,DIST_FOI,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,DIST_GSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,DIST_KER,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,DIST_LPG,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,DIST_NGS,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,ELE_DIST,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,ELE_TRANS,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,EXTT_CRU,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,EXTT_NGS,inactive,capacity or activity capped at zero in every year
+DR,RD_ENERGY,HYD_DIST,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,HYD_G_PROD,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,IMP_ELE,inactive,capacity or activity capped at zero in every year
+DR,RD_ENERGY,PPADSL,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,PPAFOI,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,PPANGS,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,PPBGS,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,PPBIM,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,PPCCFOIDSL,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,PPCCTDSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,PPCCTNGS,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,PPCCTNGSDSL,inactive,capacity or activity capped at zero in every year
+DR,RD_ENERGY,PPCOA,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,PPDBGS,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,PPDBIM,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,PPDDSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,PPDFOI,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,PPDGLP,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,PPDGSL,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,PPDHYD,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,PPDNGS,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,PPGEO,inactive,capacity or activity capped at zero in every year
+DR,RD_ENERGY,PPHDAM,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,PPHROR,inactive,capacity or activity capped at zero in every year
+DR,RD_ENERGY,PPICEFOI,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,PPICEGASFOI,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,PPPVD,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,PPPVT,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,PPPVTHYD,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,PPPVTS,inactive,capacity or activity capped at zero in every year
+DR,RD_ENERGY,PPWNDOFF,inactive,capacity or activity capped at zero in every year
+DR,RD_ENERGY,PPWNDON,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,PRO_COA,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,REF_DSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,REF_FOI,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,REF_GSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,REF_LPG,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,T4DSL_HEA,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4DSL_LIG,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4DSL_PRI,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4DSL_PUB,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4DSL_TUR,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4ELE_HEA,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4ELE_LIG,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4ELE_PRI,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4ELE_PUB,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4ELE_TUR,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4GSL_HEA,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4GSL_LIG,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4GSL_PRI,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4GSL_PUB,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4GSL_TUR,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4HYD_HEA,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4HYD_PUB,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4HYD_TUR,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4LPG_HEA,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4LPG_LIG,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4LPG_PRI,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4LPG_PUB,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4LPG_TUR,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4NGS_LIG,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T4NGS_PRI,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5BIMCOM,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5BIMEXP,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5BIMIND,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5BIMRES,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5COAIND,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5COKIND,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5DSLAGR,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5DSLCOM,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5DSLIND,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5DSLTOT,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5ELEAGR,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5ELECOM,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5ELEIND,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5ELERES,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5ELETOT,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5FIRCOM,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5FIRRES,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5FOIIND,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5GSLCOM,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5GSLCON,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5GSLIND,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5GSLTAC,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5GSLTOT,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5HYDIND,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5KEREXP,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5KERRES,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5KERTAC,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5LPGAGR,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5LPGCOM,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5LPGCON,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5LPGIND,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5LPGRES,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5NGSCOM,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5NGSEXP,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,T5NGSIND,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,TRAUTDSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRAUTELE,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRAUTGSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRAUTHG,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRAUTLPG,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRBPUDSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRBPUELE,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRBPUGSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRBPUHYD,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRBPULPG,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRBTURDSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRBTURELE,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRBTURGSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRBTURHYD,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRBTURLPG,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRMBSDSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRMBSELE,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRMBSGSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRMBSLPG,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRMOTELE,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRMOTGSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRSUVDSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRSUVELE,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRSUVGSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRSUVLPG,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRSUVNGS,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRTAXELE,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRTAXGSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRTAXLPG,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRXBUSEFIELE,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,TRXTRAIELE,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,TRXTRAIFREELE,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,TRXTTELELE,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,TRYLFDSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRYLFELE,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRYLFGSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRYLFHD,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRYLFLPG,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRYLFNGS,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRYTKDSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRYTKELE,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRYTKGSL,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRYTKHD,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRYTKHYD,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,TRYTKLPG,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,Techs_Auto,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,Techs_Bus_Efi,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,Techs_Buses_Micro,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,Techs_Buses_Pub,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,Techs_Buses_Tur,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,Techs_He_Freight,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,Techs_Li_Freight,total_only,not a free producer in any 2030 choice set
+DR,RD_ENERGY,Techs_Motos,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,Techs_SUV,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,Techs_Taxi,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,Techs_Telef,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,Techs_Trains,choice,free producer in a 2030 choice set
+DR,RD_ENERGY,Techs_Trains_Freight,inactive,capacity or activity capped at zero in every year
+DR,RD_AFOLU,AD,inactive,capacity or activity capped at zero in every year
+DR,RD_AFOLU,AERO_PTAR,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,AERO_PTAR_RU,inactive,capacity or activity capped at zero in every year
+DR,RD_AFOLU,AGR_CER,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,AGR_OTP,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,AG_BAN,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,AG_CAF,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,AG_COC,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,AG_FRT,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,AG_LEG,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,AG_RIC,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,AG_ROT,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,AG_SGC,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,AG_TRVEG,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,ANAE_LAGN,inactive,capacity or activity capped at zero in every year
+DR,RD_AFOLU,ANAE_LAGN_RU,inactive,capacity or activity capped at zero in every year
+DR,RD_AFOLU,BLEND_NO_COLL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,BLEND_NO_DCOLL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,CAMASENTA,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,CAMCUL,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,CAMFOR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,CAMPAS,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,COMPOST,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,COPROC,inactive,capacity or activity capped at zero in every year
+DR,RD_AFOLU,DIRECT_DISC,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,DIST_BGS,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,DIST_BIM,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,DIST_COA,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,DIST_COK,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,DIST_CRU,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,DIST_DSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,DIST_FIR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,DIST_FOI,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,DIST_GSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,DIST_KER,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,DIST_LPG,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,DIST_NGS,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,EFLT_DISC,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,ELE_DIST,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,ELE_TRANS,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,EXTT_CRU,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,EXTT_LPG,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,GA_CARAVI,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,GA_CARBOV,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,GA_CARPOR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,GA_LEC,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,GA_OTRCAR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,GA_OTRCARPRO,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,HYD_DIST,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,HYD_G_PROD,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,IMPBAN,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,IMPCAF,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,IMPCARAVI,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,IMPCARBOV,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,IMPCARPOR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,IMPCER,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,IMPCOC,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,IMPFRT,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,IMPLEC,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,IMPLEG,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,IMPOTP,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,IMPOTRCAR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,IMPOTRCARPRO,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,IMPRIC,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,IMPROT,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,IMPSGC,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,IMPTRVEG,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,IMP_ELE,inactive,capacity or activity capped at zero in every year
+DR,RD_AFOLU,IMP_STOR,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,INCIN,inactive,capacity or activity capped at zero in every year
+DR,RD_AFOLU,INORG_DCOLL,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,INORG_RCY_OS,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,INORG_SS,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,IWW,total_only,no output fuel; activity lower limit > 0
+DR,RD_AFOLU,LANDFILL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,LATR,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,LU_AGR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,LU_DCON,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,LU_DRY,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,LU_FOR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,LU_GAN,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,LU_LATHUM,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,LU_WET,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,NO_CONTR_OD,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,NO_OSS_BLEND,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,NO_OSS_NO_COLL,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,NO_SS,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,OPEN_BURN,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,ORG_DCOLL,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,ORG_SS,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,OSS_INORG,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,OSS_ORG,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,PPADSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPAFOI,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPANGS,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPBGS,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,PPBIM,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPCCFOIDSL,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,PPCCTDSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPCCTNGS,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPCCTNGSDSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPCOA,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPDBGS,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPDBIM,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPDDSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPDFOI,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPDGLP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,PPDGSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPDHYD,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPDNGS,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPGEO,inactive,capacity or activity capped at zero in every year
+DR,RD_AFOLU,PPHDAM,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPHROR,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPICEFOI,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPICEGASFOI,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPPVD,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPPVT,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPPVTHYD,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,PPPVTS,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPWNDOFF,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PPWNDON,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,PROD_CEM,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,PROD_CLK_TRAD,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,RAW_MAT_CEM,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,RAW_MAT_CLK,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,REFR_AC,total_only,no output fuel; activity lower limit > 0
+DR,RD_AFOLU,REF_DSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,REF_FOI,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,REF_GSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,REF_LPG,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,SEPT_SYST,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,SEWERWW,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,SEWER_NO_T,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,SIT_CLAN,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,SOIALL,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4DSL_HEA,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4DSL_LIG,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4DSL_PRI,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4DSL_PUB,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4DSL_TUR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4ELE_HEA,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4ELE_LIG,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4ELE_PRI,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4ELE_PUB,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4ELE_TUR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4GSL_HEA,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4GSL_LIG,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4GSL_PRI,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4GSL_PUB,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4GSL_TUR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4HYD_HEA,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4HYD_PUB,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4HYD_TUR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4LPG_HEA,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4LPG_LIG,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4LPG_PRI,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4LPG_PUB,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4LPG_TUR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4NGS_LIG,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T4NGS_PRI,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5BANAGR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5BANAGREXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5BIMEXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5BIMIND,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5BIMRES,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5CAFAGR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5CAFAGREXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5CARAVIGAN,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5CARAVIGANEXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5CARBOVGAN,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5CARBOVGANEXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5CARPORGAN,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5CARPORGANEXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5CEM_PRODCEM_PROD,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5CERAGR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5CERAGREXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5COAIND,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5COCAGR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5COCAGREXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5COKIND,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5DSLAGR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5DSLCOM,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5DSLIND,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5DSLTOT,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5ELEAGR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5ELECOM,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5ELEIND,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5ELERES,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5ELETOT,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5FIRCOM,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5FIRRES,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5FOIIND,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5FRTAGR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5FRTAGREXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5GSLCOM,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5GSLCON,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5GSLIND,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5GSLTAC,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5GSLTOT,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5HYDIND,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5KEREXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5KERRES,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5KERTAC,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5LECGAN,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5LECGANEXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5LEGAGR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5LEGAGREXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5LPGAGR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5LPGCOM,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5LPGCON,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5LPGIND,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5LPGRES,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5NGSCOM,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5NGSEXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5NGSIND,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5OTPAGR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5OTPAGREXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5OTRCARGAN,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5OTRCARGANEXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5OTRCARPROGAN,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5OTRCARPROGANEXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5RICAGR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5RICAGREXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5ROTAGR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5ROTAGREXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5SGCAGR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5SGCAGREXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5TRVEGAGR,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5TRVEGAGREXP,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5TSWTSW,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,T5TWWTWW,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,TRAUTDSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRAUTELE,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRAUTGSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRAUTHG,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRAUTLPG,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRBPUDSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRBPUELE,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRBPUGSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRBPUHYD,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRBPULPG,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRBTURDSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRBTURELE,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRBTURGSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRBTURHYD,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRBTURLPG,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRMBSDSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRMBSELE,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRMBSGSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRMBSLPG,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRMOTELE,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRMOTGSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRSUVDSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRSUVELE,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRSUVGSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRSUVLPG,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRSUVNGS,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRTAXELE,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRTAXGSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRTAXLPG,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRXTRAIELE,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,TRXTRAIFREELE,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,TRXTTELELE,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,TRYLFDSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRYLFELE,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRYLFGSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRYLFHD,inactive,capacity or activity capped at zero in every year
+DR,RD_AFOLU,TRYLFLPG,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRYLFNGS,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRYTKDSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRYTKELE,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRYTKGSL,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,TRYTKHD,inactive,capacity or activity capped at zero in every year
+DR,RD_AFOLU,TRYTKHYD,inactive,capacity or activity capped at zero in every year
+DR,RD_AFOLU,TRYTKLPG,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,Techs_Auto,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,Techs_Buses_Micro,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,Techs_Buses_Pub,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,Techs_Buses_Tur,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,Techs_He_Freight,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,Techs_Li_Freight,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,Techs_Motos,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,Techs_SUV,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,Techs_Taxi,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,Techs_Telef,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,Techs_Trains,choice,free producer in a 2030 choice set
+DR,RD_AFOLU,Techs_Trains_Freight,inactive,capacity or activity capped at zero in every year
+DR,RD_AFOLU,WWWOT,total_only,not a free producer in any 2030 choice set
+DR,RD_AFOLU,WWWT,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,CARBIDE_PROD,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,CARBONATE,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,IMP_STOR,choice,free producer in a 2030 choice set
+DR,RD_IPPU,LIME_PROD,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,LUBRI_OILS,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,PARAFFIN,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,PROD_CEM,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,PROD_CINC,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,PROD_CLK_TRAD,choice,free producer in a 2030 choice set
+DR,RD_IPPU,PROD_FERRO,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,PU_N2O,inactive,capacity or activity capped at zero in every year
+DR,RD_IPPU,RAW_MAT_CEM,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,RAW_MAT_CLK,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,REFR_AC_HFC125,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,REFR_AC_HFC134a,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,REFR_AC_HFC143a,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,REFR_AC_HFC32,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,T5CARBIDE_PRODIPPU,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,T5CARBONATEIPPU,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,T5CEM_PRODIND,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,T5LIME_PRODIPPU,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,T5LUBRI_OILSIPPU,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,T5PARAFFINIPPU,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,T5PROD_CINCIPPU,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,T5PROD_FERROIPPU,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,T5PU_N2OIPPU,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,T5REFR_AC_HFC125IPPU,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,T5REFR_AC_HFC134aIPPU,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,T5REFR_AC_HFC143aIPPU,total_only,not a free producer in any 2030 choice set
+DR,RD_IPPU,T5REFR_AC_HFC32IPPU,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,AD,inactive,capacity or activity capped at zero in every year
+DR,RD_WASTE,BLEND_NO_COLL,choice,free producer in a 2030 choice set
+DR,RD_WASTE,BLEND_NO_DCOLL,choice,free producer in a 2030 choice set
+DR,RD_WASTE,CO2_CH4_BURN,inactive,capacity or activity capped at zero in every year
+DR,RD_WASTE,COMPOST,inactive,capacity or activity capped at zero in every year
+DR,RD_WASTE,COPROC,inactive,capacity or activity capped at zero in every year
+DR,RD_WASTE,DIRECT_DISC,inactive,capacity or activity capped at zero in every year
+DR,RD_WASTE,GAS_MSW,inactive,capacity or activity capped at zero in every year
+DR,RD_WASTE,HTC,inactive,capacity or activity capped at zero in every year
+DR,RD_WASTE,INCIN,inactive,capacity or activity capped at zero in every year
+DR,RD_WASTE,IND_SW,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,INORG_DCOLL,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,INORG_RCY_OS,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,INORG_SS,choice,free producer in a 2030 choice set
+DR,RD_WASTE,IWW_ALCOHOL,inactive,capacity or activity capped at zero in every year
+DR,RD_WASTE,IWW_BEER,inactive,capacity or activity capped at zero in every year
+DR,RD_WASTE,IWW_MEAT,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,IWW_MILK,inactive,capacity or activity capped at zero in every year
+DR,RD_WASTE,IWW_SUGAR,inactive,capacity or activity capped at zero in every year
+DR,RD_WASTE,LANDFILL,choice,free producer in a 2030 choice set
+DR,RD_WASTE,LANDFILL_ELEC,inactive,capacity or activity capped at zero in every year
+DR,RD_WASTE,LATR,inactive,capacity or activity capped at zero in every year
+DR,RD_WASTE,NO_CONTR_OD,choice,free producer in a 2030 choice set
+DR,RD_WASTE,NO_OSS_BLEND,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,NO_OSS_NO_COLL,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,NO_SS,choice,free producer in a 2030 choice set
+DR,RD_WASTE,OPEN_BURN,choice,free producer in a 2030 choice set
+DR,RD_WASTE,ORG_DCOLL,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,ORG_SS,choice,free producer in a 2030 choice set
+DR,RD_WASTE,OSS_INORG,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,OSS_ORG,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,PTAR_NEW,inactive,capacity or activity capped at zero in every year
+DR,RD_WASTE,PTAR_OLD,inactive,capacity or activity capped at zero in every year
+DR,RD_WASTE,SEPT_SYST,inactive,capacity or activity capped at zero in every year
+DR,RD_WASTE,SEWERWW,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,SEWER_NO_T,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,SIT_CLAN,choice,free producer in a 2030 choice set
+DR,RD_WASTE,T5CO2_CH4_BURNTSW,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,T5IND_SWTSW,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,T5IWW_ALCOHOLWW,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,T5IWW_BEERWW,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,T5IWW_MEATWW,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,T5IWW_MILKWW,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,T5IWW_SUGARWW,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,T5LANDFILL_ELECTSW,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,T5TSWTSW,total_only,not a free producer in any 2030 choice set
+DR,RD_WASTE,T5TWWWW,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,ADD_GRE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,DIST_BGS,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,DIST_BIM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,DIST_CHA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,DIST_COA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,DIST_COK,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,DIST_CRU,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,DIST_DSL,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,DIST_FIR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,DIST_FOI,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,DIST_GSL,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,DIST_JET,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,DIST_KER,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,DIST_LPG,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,DIST_NGS,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,DIST_OID,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,DIST_OPE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,DIST_RDF,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,ELE_DIST,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,ELE_TRANS,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,EXTT_CRU,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,EXTT_NGS,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,HYD_DIST,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,HYD_G_PROD,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,IMPELE,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPBGS,inactive,capacity or activity capped at zero in every year
+ECU,ECU_Energy,PPBIM,inactive,capacity or activity capped at zero in every year
+ECU,ECU_Energy,PPCRU,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPDDSL,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPDFOI,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPDSL,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPFOI,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPGEO,inactive,capacity or activity capped at zero in every year
+ECU,ECU_Energy,PPHD,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPHDAMAB,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPHDAMAM,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPHDAMAS,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPHDAMPM,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPHDAMPS,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPHRORAB,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPHRORAM,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPHRORAS,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPHRORPM,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPHRORPS,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPIBIM,total_only,no output fuel; activity lower limit > 0
+ECU,ECU_Energy,PPIHD,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPILPG,total_only,no output fuel; activity lower limit > 0
+ECU,ECU_Energy,PPNGS,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPPVD,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPPVDS,inactive,capacity or activity capped at zero in every year
+ECU,ECU_Energy,PPPVT,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPPVTS,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPRDSL,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPRNGS,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPWNDD,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PPWNDON,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,PROCRU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,PRONGS,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,REF_DSL,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,REF_FOI,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,REF_GSL,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,REF_JET,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,REF_LPG,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,REF_OPE,inactive,capacity or activity capped at zero in every year
+ECU,ECU_Energy,STOELE,choice,free producer in a 2030 choice set
+ECU,ECU_Energy,T4ELE_HEA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5AGRDSL,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5AGRGSL,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5AGRLPG,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5AGROTP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5ALLTRNDSL,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5ALLTRNELE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5ALLTRNFOI,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5ALLTRNGSL,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5ALLTRNJET,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5ALLTRNLPG,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5BGSTRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5BIMIND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5CHARES,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5COAIND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5COMGSL,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5CONKER,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5CRUEXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5DSLCOM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5DSLCON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5DSLEXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5DSLIND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5DSLTMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5DSLTRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5ELECOM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5ELECON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5ELEIND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5ELEPUB,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5ELERES,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5ELETMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5ELETRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5FIRIND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5FIRRES,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5FOICOM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5FOICON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5FOIEXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5FOIIND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5FOITMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5FOITRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5GSLCON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5GSLIND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5GSLRES,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5GSLTRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5HYDIND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5INDCOK,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5JETEXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5JETTAE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5KERRES,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5LPGCOM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5LPGCON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5LPGIND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5LPGRES,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5LPGTMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5LPGTRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5NGSIND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5NGSRES,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5NGSTMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5NGSTRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5OIDIND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5OPECON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5OPERES,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5RDFIND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5TAEGSL,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5TCADSL,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5TCAGSL,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5TMAGSL,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5TRNFOI,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,T5VEGWAS,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,TRXTRAIELE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_Energy,Techs_Rail,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,AG_ARR,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,AG_BAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,AG_CER,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,AG_COC,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,AG_COF,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,AG_FLO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,AG_FRT,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,AG_LEG,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,AG_MAI,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,AG_PAF,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,AG_PAL,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,AG_SOY,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,AG_SUG,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,AG_TUB,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,AG_VEG,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,GA_AVE,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,GA_BOV,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,GA_BOVCRE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,GA_BOVCREREG,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,GA_BOVLEC,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,GA_BOVLECREG,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,GA_BOVREG,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,GA_BOVVAC,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,GA_BOVVACREG,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,GA_BUF,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,GA_CAB,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,GA_CAM,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,GA_CBR,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,GA_MUL,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,GA_OVE,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,GA_PAT,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,GA_PAV,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,GA_PON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,GA_POR,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPARR,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPAVE,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPBAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,IMPBOV,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPBOVLEC,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPBUF,inactive,capacity or activity capped at zero in every year
+ECU,ECU_AGR,IMPCAB,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPCAM,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPCBR,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPCER,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPCOC,inactive,capacity or activity capped at zero in every year
+ECU,ECU_AGR,IMPCOF,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPFLO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,IMPFRT,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPLEG,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPMAI,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPMUL,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPOVE,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPPAF,inactive,capacity or activity capped at zero in every year
+ECU,ECU_AGR,IMPPAL,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPPOR,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPSOY,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPSUG,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPTUB,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMPVEG,choice,free producer in a 2030 choice set
+ECU,ECU_AGR,IMP_ELE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,LU_CROP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,LU_PAS,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,SOIALL,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T4ELE_HEA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5ARRAGR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5ARRAGREXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5AVEGAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5AVEGANEXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5BANAGR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5BANAGREXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5BOVCREGAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5BOVCREGANREG,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5BOVGAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5BOVGANEXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5BOVGANREG,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5BOVLECGAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5BOVLECGANEXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5BOVLECGANREG,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5BOVVACGAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5BOVVACGANREG,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5BUFGAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5BUFGANEXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5CABGAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5CABGANEXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5CAMGAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5CAMGANEXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5CBRGAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5CBRGANEXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5CERAGR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5CERAGREXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5CERGAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5CERGANEXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5COCAGR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5COCAGREXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5COFAGR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5COFAGREXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5ELEAGR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5FLOAGR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5FLOAGREXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5FRTAGR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5FRTAGREXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5LEGAGR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5LEGAGREXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5MAIAGR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5MAIAGREXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5MULGAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5MULGANEXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5OVEGAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5OVEGANEXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5PAFAGR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5PAFAGREXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5PALAGR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5PALAGREXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5PATGAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5PAVGAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5PONGAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5SOYAGR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5SOYAGREXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5SUGAGR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5SUGAGREXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5TUBAGR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5TUBAGREXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5VEGAGR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,T5VEGAGREXP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,TRXTRAIELE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_AGR,Techs_Rail,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,FORBUR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,IMP_ELE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_CROP,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_FOR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NPRAMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NPRAND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NPRCEJ,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NPRCHO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NPRMAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NPRMON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NPRMOR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NPRPFO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NPRPIE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NPRPLU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NUNAMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NUNAND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NUNCEJ,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NUNCHO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NUNMAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NUNMON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NUNMOR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NUNPFO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NUNPIE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_NUNPLU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_OTL,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_PAS,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_PLA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_RAR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_SET,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,LU_WET,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SOIALL,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMAMAASE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMAMACRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMAMAGRA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMAMAHUM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMAMAOTI,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMANDASE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMANDCRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMANDGRA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMANDHUM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMANDOTI,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMASECRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCEJASE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCEJCRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCEJGRA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCEJHUM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCEJOTI,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCHOASE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCHOCRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCHOGRA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCHOHUM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCHOOTI,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCROAMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCROAND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCROASE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCROCEJ,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCROCHO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCROGRA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCROHUM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCROMAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCROMON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCROMOR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCROOTI,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCROPFO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCROPIE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMCROPLU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMGRAAMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMGRAAND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMGRAASE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMGRACEJ,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMGRACHO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMGRACRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMGRAHUM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMGRAMAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMGRAMON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMGRAMOR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMGRAOTI,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMGRAPFO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMGRAPIE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMGRAPLU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMHUMAMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMHUMAND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMHUMCEJ,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMHUMCHO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMHUMCRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMHUMGRA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMHUMMAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMHUMMON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMHUMMOR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMHUMPFO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMHUMPIE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMHUMPLU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMMANASE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMMANCRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMMANGRA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMMANHUM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMMANOTI,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMMONASE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMMONCRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMMONGRA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMMONHUM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMMONOTI,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMMORASE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMMORCRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMMORGRA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMMORHUM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMMOROTI,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMOTIAMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMOTIAND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMOTICEJ,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMOTICHO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMOTICRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMOTIGRA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMOTIMAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMOTIMON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMOTIMOR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMOTIPFO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMOTIPIE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMOTIPLU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMPFOASE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMPFOCRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMPFOGRA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMPFOHUM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMPFOOTI,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMPIEASE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMPIECRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMPIEGRA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMPIEHUM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMPIEOTI,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMPLUASE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMPLUCRO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMPLUGRA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMPLUHUM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPCAMPLUOTI,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED3ABCEJ,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED3ABCEJA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED3ABMON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED3DEFCEJ,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED3DEFCEJA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED3DEFMON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED5ABAMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED5ABAND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED5ABCEJ,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED5ABCHO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED5ABMAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED5ABMON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED5ABPIE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED5ABPLU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED5DEFAMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED5DEFAND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED5DEFCEJ,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED5DEFCHO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED5DEFMAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED5DEFMON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED5DEFPIE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED5DEFPLU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED6DABAMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMED6DEFAMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMEDABAMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMEDABCHO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMEDABMON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMEDABMOR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMEDABPIE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMEDABPIE2,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMEDDEFAMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMEDDEFCHO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMEDDEFMON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMEDDEFMOR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMEDDEFPIE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMEDDEFPIE2,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMEDREST,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,SUPMEDRESTMAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T4ELE_HEA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5BURCOB,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5ELEAGR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NPRAMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NPRAND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NPRCEJ,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NPRCHO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NPRMAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NPRMON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NPRMOR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NPRPFO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NPRPIE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NPRPLU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NUNAMA,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NUNAND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NUNCEJ,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NUNCHO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NUNMAN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NUNMON,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NUNMOR,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NUNPFO,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NUNPIE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5NUNPLU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5OTLCOB,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5PLABOS,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5RARBOS,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5SETCOB,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,T5WETCOB,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,TRXTRAIELE,total_only,not a free producer in any 2030 choice set
+ECU,ECU_USCUSS,Techs_Rail,inactive,capacity or activity capped at zero in every year
+ECU,ECU_IPPU,CERAMICS,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,GLASS_PROD,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,IMP_HFC125,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,IMP_HFC134a,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,IMP_HFC143a,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,IMP_HFC152a,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,IMP_HFC227ea,inactive,capacity or activity capped at zero in every year
+ECU,ECU_IPPU,IMP_HFC23,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,IMP_HFC32,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,IMP_REFR_AC,inactive,capacity or activity capped at zero in every year
+ECU,ECU_IPPU,IMP_STOR,inactive,capacity or activity capped at zero in every year
+ECU,ECU_IPPU,IRON_STEEL,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,LEAD_PROD,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,LIME_PROD,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,LUBRI,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,OTHER_IPPU,inactive,capacity or activity capped at zero in every year
+ECU,ECU_IPPU,PARAFFIN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,PROD_CEM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,PROD_CLK_TRAD,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,RAW_MAT_CEM,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,RAW_MAT_CLK,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,SODA_ASH,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5CEM_PRODIND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5CERAMICSIPPU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5GLASS_PRODIPPU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5HFC125IPPU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5HFC134aIPPU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5HFC143aIPPU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5HFC152aIPPU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5HFC227eaIPPU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5HFC23IPPU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5HFC32IPPU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5IRON_STEELIPPU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5LEAD_PRODIPPU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5LIME_PRODIPPU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5LUBRIIPPU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5OTHER_IPPUIPPU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5PARAFFINIPPU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5REFR_ACIPPU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_IPPU,T5SODA_ASHIPPU,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,AD,inactive,capacity or activity capped at zero in every year
+ECU,ECU_WASTE,BLEND_NO_COLL,choice,free producer in a 2030 choice set
+ECU,ECU_WASTE,BLEND_NO_DCOLL,choice,free producer in a 2030 choice set
+ECU,ECU_WASTE,COMPOST,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,COPROC,inactive,capacity or activity capped at zero in every year
+ECU,ECU_WASTE,DWW_DC,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,DWW_N,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,INCIN,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,INORG_DCOLL,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,INORG_RCY_OS,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,INORG_SS,choice,free producer in a 2030 choice set
+ECU,ECU_WASTE,IWW,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,LANDFILL,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,LANDFILL_ELEC,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,NO_CONTR_OD,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,NO_OSS_BLEND,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,NO_OSS_NO_COLL,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,NO_SS,choice,free producer in a 2030 choice set
+ECU,ECU_WASTE,OPEN_BURN,inactive,capacity or activity capped at zero in every year
+ECU,ECU_WASTE,ORG_DCOLL,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,ORG_SS,choice,free producer in a 2030 choice set
+ECU,ECU_WASTE,OSS_INORG,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,OSS_ORG,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,SIT_CLAN,inactive,capacity or activity capped at zero in every year
+ECU,ECU_WASTE,T5DWW_DCWW,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,T5DWW_NWW,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,T5IWWWW,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,T5LANDFILL_ELECTSW,total_only,not a free producer in any 2030 choice set
+ECU,ECU_WASTE,T5TSWTSW,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,BACKSTOP,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,DIST_BGS,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,DIST_BIM,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,DIST_COA,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,DIST_COK,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,DIST_DSL,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,DIST_FIR,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,DIST_FLEXFUEL,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,DIST_FOI,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,DIST_GSL,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,DIST_KER,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,DIST_LPG,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,DIST_NGS,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,ELE_DIST,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,ELE_TRANS,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,EXTT_CRU,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,EXTT_LPG,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,HYD_DIST,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,HYD_G_PROD,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,IMP_ELE,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,PPBGS,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,PPBIM,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,PPCOA,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,PPDSL,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,PPFOI,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,PPGEO,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,PPHDAM,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,PPHROR,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,PPNGS,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,PPPVD,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,PPPVDS,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,PPPVT,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,PPPVT2,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,PPPVTS,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,PPWNDON,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,T4DSL_HEA,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T4DSL_LIG,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T4DSL_PRI,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T4DSL_PUB,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T4ELE_HEA,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T4ELE_LIG,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T4ELE_PRI,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T4ELE_PUB,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T4Flex_Fuel_PRI,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T4GSL_LIG,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T4GSL_PRI,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T4HYD_HEA,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T4HYD_PRI,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T4HYD_PUB,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T4LPG_HEA,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T4LPG_LIG,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T4LPG_PRI,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T4LPG_PUB,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5BGSIND,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5BIMCOM,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5BIMIND,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5BIMRES,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5COKIND,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5COKINDCEM,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5CRUEXP,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5DSLIND,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5ELEAERO,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5ELEBRT,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5ELECOM,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5ELEEXP,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5ELEIND,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5ELEINDCEM,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5ELERES,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5FIRCOM,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5FIRRES,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5FOIIND,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5GSLCOM,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5GSLIND,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5HYDIND,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5KERCOM,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5KERIND,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5KERRES,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5LPGCOM,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5LPGEXP,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5LPGIND,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,T5LPGRES,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,TRAUTDSL,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRAUTELE,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRAUTFlex_Fuel,inactive,capacity or activity capped at zero in every year
+GUA,GUA_ENERGY,TRAUTGSL,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRAUTHG,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRAUTLPG,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRAUTPHG,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRBPRDSL,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRBPRELE,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRBPRHYD,inactive,capacity or activity capped at zero in every year
+GUA,GUA_ENERGY,TRBPRLPG,inactive,capacity or activity capped at zero in every year
+GUA,GUA_ENERGY,TRBPRPHD,inactive,capacity or activity capped at zero in every year
+GUA,GUA_ENERGY,TRBPUDSL,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRBPUELE,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRBPUHYD,inactive,capacity or activity capped at zero in every year
+GUA,GUA_ENERGY,TRBPULPG,inactive,capacity or activity capped at zero in every year
+GUA,GUA_ENERGY,TRBPUPHD,inactive,capacity or activity capped at zero in every year
+GUA,GUA_ENERGY,TRMBSDSL,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRMBSELE,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRMBSGSL,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRMBSHYD,inactive,capacity or activity capped at zero in every year
+GUA,GUA_ENERGY,TRMBSLPG,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRMBSPHD,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRMOTELE,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRMOTFlex_Fuel,inactive,capacity or activity capped at zero in every year
+GUA,GUA_ENERGY,TRMOTGSL,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRXTRAIELE,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,TRXTRAIFREELE,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,TRXTTELELE,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,TRYLFDSL,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRYLFELE,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRYLFGSL,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRYLFHD,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRYLFLPG,inactive,capacity or activity capped at zero in every year
+GUA,GUA_ENERGY,TRYLFPHD,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,TRYTKDSL,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,TRYTKELE,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,TRYTKHD,inactive,capacity or activity capped at zero in every year
+GUA,GUA_ENERGY,TRYTKHYD,inactive,capacity or activity capped at zero in every year
+GUA,GUA_ENERGY,TRYTKLPG,inactive,capacity or activity capped at zero in every year
+GUA,GUA_ENERGY,TRYTKPHD,inactive,capacity or activity capped at zero in every year
+GUA,GUA_ENERGY,Techs_Auto,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,Techs_Buses_Micro,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,Techs_Buses_Pri,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,Techs_Buses_Pub,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,Techs_He_Freight,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,Techs_Li_Freight,total_only,not a free producer in any 2030 choice set
+GUA,GUA_ENERGY,Techs_Motos,choice,free producer in a 2030 choice set
+GUA,GUA_ENERGY,Techs_Telef,inactive,capacity or activity capped at zero in every year
+GUA,GUA_ENERGY,Techs_Trains,inactive,capacity or activity capped at zero in every year
+GUA,GUA_ENERGY,Techs_Trains_Freight,inactive,capacity or activity capped at zero in every year
+GUA,GUA_AFOLU,AG1a,total_only,no output fuel; activity lower limit > 0
+GUA,GUA_AFOLU,AG1b,total_only,no output fuel; activity lower limit > 0
+GUA,GUA_AFOLU,AG2,total_only,no output fuel; activity lower limit > 0
+GUA,GUA_AFOLU,AG3,total_only,no output fuel; activity lower limit > 0
+GUA,GUA_AFOLU,AG4,total_only,no output fuel; activity lower limit > 0
+GUA,GUA_AFOLU,Demanda_lena,total_only,not a free producer in any 2030 choice set
+GUA,GUA_AFOLU,Estufa_nueva,total_only,no output fuel; activity lower limit > 0
+GUA,GUA_AFOLU,Estufa_stock,total_only,no output fuel; activity lower limit > 0
+GUA,GUA_AFOLU,FOLU1,total_only,no output fuel; activity lower limit > 0
+GUA,GUA_AFOLU,FOLU2,total_only,no output fuel; activity lower limit > 0
+GUA,GUA_AFOLU,FOLU3,total_only,no output fuel; activity lower limit > 0
+GUA,GUA_AFOLU,FOLU4,total_only,no output fuel; activity lower limit > 0
+GUA,GUA_AFOLU,GAN1,total_only,no output fuel; activity lower limit > 0
+GUA,GUA_AFOLU,GAN2,total_only,no output fuel; activity lower limit > 0
+GUA,GUA_AFOLU,GAN3,total_only,no output fuel; activity lower limit > 0
+GUA,GUA_AFOLU,Lena,total_only,not a free producer in any 2030 choice set
+GUA,GUA_AFOLU,Lena_total,total_only,no output fuel; activity lower limit > 0
+GUA,GUA_AFOLU,NUEVAFOLU,total_only,no output fuel; activity lower limit > 0
+GUA,GUA_IPPU,CARBONATE_ASH,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,CARBONATE_CERAMICS,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,GLASS_PROD,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,IMP_STOR,inactive,capacity or activity capped at zero in every year
+GUA,GUA_IPPU,IRON_STEEL,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,LIME_CAL_PROD,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,LIME_DOL_PROD,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,LUBRI_OILS,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,PARAFFIN,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,PROD_CEM,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,PROD_CLK_TRAD,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,PROD_FERRO,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,RAW_MAT_CEM,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,RAW_MAT_CLK,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,REFR_AC_HFC125,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,REFR_AC_HFC134a,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,REFR_AC_HFC143a,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,REFR_AC_HFC32,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,T5CARBONATE_ASHIPPU,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,T5CARBONATE_CERAMICSIPPU,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,T5CEM_PRODIND,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,T5GLASS_PRODIPPU,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,T5IRON_STEELIPPU,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,T5LIME_CAL_PRODIPPU,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,T5LIME_DOL_PRODIPPU,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,T5LUBRI_OILSIPPU,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,T5PARAFFINIPPU,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,T5PROD_FERROIPPU,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,T5REFR_AC_HFC125IPPU,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,T5REFR_AC_HFC134aIPPU,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,T5REFR_AC_HFC143aIPPU,total_only,not a free producer in any 2030 choice set
+GUA,GUA_IPPU,T5REFR_AC_HFC32IPPU,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,AD,inactive,capacity or activity capped at zero in every year
+GUA,GUA_WASTE,BLEND_NO_COLL,choice,free producer in a 2030 choice set
+GUA,GUA_WASTE,BLEND_NO_DCOLL,choice,free producer in a 2030 choice set
+GUA,GUA_WASTE,CO2_CH4_BURN,inactive,capacity or activity capped at zero in every year
+GUA,GUA_WASTE,COMPOST,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,COMPOST_COFFEE,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,COMPOST_DOM,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,COPROC,inactive,capacity or activity capped at zero in every year
+GUA,GUA_WASTE,DWW_DC,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,DWW_N,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,GAS_MSW,inactive,capacity or activity capped at zero in every year
+GUA,GUA_WASTE,HTC,inactive,capacity or activity capped at zero in every year
+GUA,GUA_WASTE,INCIN,inactive,capacity or activity capped at zero in every year
+GUA,GUA_WASTE,IND_SW,inactive,capacity or activity capped at zero in every year
+GUA,GUA_WASTE,INORG_DCOLL,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,INORG_RCY_OS,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,INORG_SS,choice,free producer in a 2030 choice set
+GUA,GUA_WASTE,IWW,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,LANDFILL,choice,free producer in a 2030 choice set
+GUA,GUA_WASTE,LANDFILL_ELEC,inactive,capacity or activity capped at zero in every year
+GUA,GUA_WASTE,NO_CONTR_OD,choice,free producer in a 2030 choice set
+GUA,GUA_WASTE,NO_OSS_BLEND,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,NO_OSS_NO_COLL,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,NO_SS,choice,free producer in a 2030 choice set
+GUA,GUA_WASTE,OPEN_BURN,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,ORG_DCOLL,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,ORG_SS,choice,free producer in a 2030 choice set
+GUA,GUA_WASTE,OSS_INORG,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,OSS_ORG,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,SIT_CLAN,inactive,capacity or activity capped at zero in every year
+GUA,GUA_WASTE,T5CO2_CH4_BURNTSW,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,T5COMPOST_COFFEETSW,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,T5COMPOST_DOMTSW,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,T5DWW_DCWW,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,T5DWW_NWW,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,T5IND_SWTSW,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,T5IWWWW,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,T5LANDFILL_ELECTSW,total_only,not a free producer in any 2030 choice set
+GUA,GUA_WASTE,T5TSWTSW,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,DIST_BGS,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,DIST_BIM,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,DIST_COA,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,DIST_COK,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,DIST_DSL,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,DIST_FIR,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,DIST_FOI,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,DIST_GSL,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,DIST_KER,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,DIST_LPG,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,DIST_NGS,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,DIST_URA,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,ELE_DIST,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,ELE_TRANS,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,ELE_TRANS2,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,EXTT_CRU,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,EXTT_LPG,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,HYD_DIST,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,HYD_G_PROD,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,IMP_ELE,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,PPBGS,inactive,capacity or activity capped at zero in every year
+HON,HON_ENERGY,PPBIM,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,PPCOA,inactive,capacity or activity capped at zero in every year
+HON,HON_ENERGY,PPCOK,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,PPFOI,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,PPGEO,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,PPGTDSL,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,PPGTGLP,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,PPHDAM,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,PPHROR,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,PPICEDSL,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,PPNGS,inactive,capacity or activity capped at zero in every year
+HON,HON_ENERGY,PPNUC,inactive,capacity or activity capped at zero in every year
+HON,HON_ENERGY,PPPVD,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,PPPVDS,inactive,capacity or activity capped at zero in every year
+HON,HON_ENERGY,PPPVT,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,PPPVT2,inactive,capacity or activity capped at zero in every year
+HON,HON_ENERGY,PPPVTS,inactive,capacity or activity capped at zero in every year
+HON,HON_ENERGY,PPWNDON,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,PPWNDS,inactive,capacity or activity capped at zero in every year
+HON,HON_ENERGY,STOELE,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,T4DSL_HEA,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T4DSL_LIG,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T4DSL_PRI,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T4DSL_PUB,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T4DSL_TUR,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T4ELE_HEA,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T4ELE_LIG,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T4ELE_PRI,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T4ELE_PUB,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T4ELE_TUR,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T4GSL_LIG,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T4GSL_PRI,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T4GSL_PUB,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T4GSL_TUR,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T4HYD_HEA,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T4HYD_PUB,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T4LPG_PUB,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5BGSAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5BGSIND,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5BIMIND,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5BIMRES,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5COKIND,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5DSLAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5DSLCOM,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5DSLEXP,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5DSLIND,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5DSLTOT,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5ELEAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5ELECOM,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5ELEEXP,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5ELEIND,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5ELERES,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5ELETOT,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5FIRAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5FIRCOM,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5FIRIND,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5FIRRES,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5FOIAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5FOICOM,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5FOIEXP,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5FOIIND,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5GSLAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5GSLCOM,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5GSLEXP,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5GSLIND,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5GSLRES,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5GSLTAC,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5GSLTOT,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5HYDIND,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5KERAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5KERCOM,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5KEREXP,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5KERIND,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5KERRES,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5KERTAC,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5LPGAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5LPGCOM,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5LPGEXP,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5LPGIND,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,T5LPGRES,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,TRAUTDSL,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRAUTELE,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRAUTGSL,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRAUTHG,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRBPUDSL,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRBPUELE,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRBPUGSL,inactive,capacity or activity capped at zero in every year
+HON,HON_ENERGY,TRBPUHYD,inactive,capacity or activity capped at zero in every year
+HON,HON_ENERGY,TRBTURDSL,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRBTURELE,inactive,capacity or activity capped at zero in every year
+HON,HON_ENERGY,TRBTURGSL,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRMBSDSL,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRMBSELE,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRMBSGSL,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRMOTELE,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRMOTGSL,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRSUVDSL,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRSUVELE,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRSUVGSL,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRTAXELE,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRTAXGSL,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRTAXLPG,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRYLFDSL,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRYLFELE,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRYLFGSL,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRYLFHD,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRYTKDSL,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRYTKELE,inactive,capacity or activity capped at zero in every year
+HON,HON_ENERGY,TRYTKHD,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,TRYTKHYD,inactive,capacity or activity capped at zero in every year
+HON,HON_ENERGY,Techs_Auto,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,Techs_Buses_Micro,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,Techs_Buses_Pub,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,Techs_Buses_Tur,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,Techs_He_Freight,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,Techs_Li_Freight,total_only,not a free producer in any 2030 choice set
+HON,HON_ENERGY,Techs_Motos,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,Techs_SUV,choice,free producer in a 2030 choice set
+HON,HON_ENERGY,Techs_Taxi,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,AG_BAN,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,AG_CAF,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,AG_FRI,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,AG_LEG,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,AG_MAI,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,AG_MEL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,AG_PIN,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,AG_PLM,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,AG_RIC,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,AG_SAN,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,AG_SGC,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,DIST_BGS,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,DIST_BIM,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,DIST_COA,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,DIST_COK,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,DIST_DSL,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,DIST_FIR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,DIST_FOI,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,DIST_GSL,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,DIST_KER,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,DIST_LPG,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,DIST_NGS,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,DIST_URA,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,ELE_DIST,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,ELE_TRANS,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,ELE_TRANS2,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,EXTT_CRU,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,EXTT_LPG,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,GA_CAR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,GA_LEC,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,GA_POR,total_only,no output fuel; activity lower limit > 0
+HON,HON_AFOLU,GA_POUL,total_only,no output fuel; activity lower limit > 0
+HON,HON_AFOLU,HYD_DIST,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,HYD_G_PROD,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,IMPBAN,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,IMPCAF,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,IMPCAR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,IMPFRI,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,IMPHUE,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,IMPLEC,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,IMPLEG,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,IMPMAI,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,IMPMEL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,IMPPIN,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,IMPPLM,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,IMPPOR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,IMPPOUL,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,IMPRIC,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,IMPSAN,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,IMPSGC,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,IMP_ELE,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,LU_ABO,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,LU_AGCAF,inactive,capacity or activity capped at zero in every year
+HON,HON_AFOLU,LU_AGCOC,inactive,capacity or activity capped at zero in every year
+HON,HON_AFOLU,LU_ASE,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,LU_CUL,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,LU_FORCON,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,LU_FORDEC,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,LU_FORLAT,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,LU_FORMAN,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,LU_FORMIX,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,LU_HUM,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,LU_OT,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,LU_PAS,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,LU_VEG,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,LU_WET,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,NS_LU_FOR_CON,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,NS_LU_FOR_OT,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,NS_LU_FOR_PER,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,PPBGS,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPBIM,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPCOA,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPCOK,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPFOI,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPGEO,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPGTDSL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPGTGLP,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPHDAM,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPHROR,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPICEDSL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPNGS,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPNUC,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPPVD,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPPVDS,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPPVT,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPPVT2,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,PPPVTS,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPWNDON,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,PPWNDS,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,SOIALL,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,STOELE,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,T4DSL_HEA,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T4DSL_LIG,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T4DSL_PRI,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T4DSL_PUB,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T4DSL_TUR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T4ELE_HEA,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T4ELE_LIG,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T4ELE_PRI,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T4ELE_PUB,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T4ELE_TUR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T4GSL_LIG,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T4GSL_PRI,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T4GSL_PUB,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T4GSL_TUR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T4HYD_HEA,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T4HYD_PUB,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T4LPG_PUB,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5BANAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5BANAGREXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5BGSAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5BGSIND,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5BIMIND,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5BIMRES,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5CAFAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5CAFAGREXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5CARGAN,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5CARGANEXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5COKIND,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5DSLAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5DSLCOM,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5DSLEXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5DSLIND,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5DSLTOT,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5ELEAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5ELECOM,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5ELEEXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5ELEIND,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5ELERES,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5ELETOT,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5FIRAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5FIRCOM,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5FIRIND,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5FIRRES,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5FOICOM,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5FOIEXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5FOIIND,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5FRIAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5FRIAGREXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5GSLCOM,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5GSLEXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5GSLIND,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5GSLTOT,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5HUEGAN,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5HUEGANEXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5HYDIND,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5KERAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5KERCOM,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5KEREXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5KERIND,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5KERRES,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5KERTAC,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5LECGAN,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5LECGANEXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5LEGAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5LEGAGREXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5LPGAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5LPGCOM,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5LPGEXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5LPGIND,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5LPGRES,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5MAIAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5MAIAGREXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5MELAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5MELAGREXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5PINAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5PINAGREXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5PLMAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5PLMAGREXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5PORGAN,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5PORGANEXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5POULGAN,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5POULGANEXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5RICAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5RICAGREXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5SANAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5SANAGREXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5SGCAGR,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,T5SGCAGREXP,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,TRAUTDSL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRAUTELE,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRAUTGSL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRAUTHG,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRBPUDSL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRBPUELE,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRBPUGSL,inactive,capacity or activity capped at zero in every year
+HON,HON_AFOLU,TRBPUHYD,inactive,capacity or activity capped at zero in every year
+HON,HON_AFOLU,TRBTURDSL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRBTURELE,inactive,capacity or activity capped at zero in every year
+HON,HON_AFOLU,TRBTURGSL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRMBSDSL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRMBSELE,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRMBSGSL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRMOTELE,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRMOTGSL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRSUVDSL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRSUVELE,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRSUVGSL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRTAXELE,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRTAXGSL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRTAXLPG,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRYLFDSL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRYLFELE,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRYLFGSL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRYLFHD,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRYTKDSL,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRYTKELE,inactive,capacity or activity capped at zero in every year
+HON,HON_AFOLU,TRYTKHD,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,TRYTKHYD,inactive,capacity or activity capped at zero in every year
+HON,HON_AFOLU,Techs_Auto,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,Techs_Buses_Micro,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,Techs_Buses_Pub,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,Techs_Buses_Tur,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,Techs_He_Freight,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,Techs_Li_Freight,total_only,not a free producer in any 2030 choice set
+HON,HON_AFOLU,Techs_Motos,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,Techs_SUV,choice,free producer in a 2030 choice set
+HON,HON_AFOLU,Techs_Taxi,choice,free producer in a 2030 choice set
+HON,HON_IPPU,IMP_STOR,inactive,capacity or activity capped at zero in every year
+HON,HON_IPPU,LIME_PROD,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,LUBRI,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,PARAFFIN,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,PROD_CEM,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,PROD_CLK_TRAD,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,RAW_MAT_CEM,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,RAW_MAT_CLK,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,REFR_AC_HFC125,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,REFR_AC_HFC134a,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,REFR_AC_HFC143a,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,REFR_AC_HFC152a,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,REFR_AC_HFC227ea,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,REFR_AC_HFC236fa,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,REFR_AC_HFC32,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,T5CEM_PRODIND,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,T5LIME_PRODIPPU,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,T5LUBRIIPPU,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,T5PARAFFINIPPU,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,T5REFR_AC_HFC125IPPU,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,T5REFR_AC_HFC134aIPPU,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,T5REFR_AC_HFC143aIPPU,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,T5REFR_AC_HFC152aIPPU,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,T5REFR_AC_HFC227eaIPPU,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,T5REFR_AC_HFC236faIPPU,total_only,not a free producer in any 2030 choice set
+HON,HON_IPPU,T5REFR_AC_HFC32IPPU,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,AD,inactive,capacity or activity capped at zero in every year
+HON,HON_WASTE,BLEND_NO_COLL,choice,free producer in a 2030 choice set
+HON,HON_WASTE,BLEND_NO_DCOLL,choice,free producer in a 2030 choice set
+HON,HON_WASTE,CO2_CH4_BURN,inactive,capacity or activity capped at zero in every year
+HON,HON_WASTE,COMPOST,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,COMPOST_AGRIND,inactive,capacity or activity capped at zero in every year
+HON,HON_WASTE,COPROC,inactive,capacity or activity capped at zero in every year
+HON,HON_WASTE,DWW_DC,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,DWW_N,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,GAS_MSW,inactive,capacity or activity capped at zero in every year
+HON,HON_WASTE,HTC,inactive,capacity or activity capped at zero in every year
+HON,HON_WASTE,INCIN,inactive,capacity or activity capped at zero in every year
+HON,HON_WASTE,IND_SW,inactive,capacity or activity capped at zero in every year
+HON,HON_WASTE,INORG_DCOLL,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,INORG_RCY_OS,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,INORG_SS,choice,free producer in a 2030 choice set
+HON,HON_WASTE,IWW,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,LANDFILL,choice,free producer in a 2030 choice set
+HON,HON_WASTE,LANDFILL_ELEC,inactive,capacity or activity capped at zero in every year
+HON,HON_WASTE,NO_CONTR_OD,choice,free producer in a 2030 choice set
+HON,HON_WASTE,NO_OSS_BLEND,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,NO_OSS_NO_COLL,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,NO_SS,choice,free producer in a 2030 choice set
+HON,HON_WASTE,OPEN_BURN,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,ORG_DCOLL,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,ORG_SS,choice,free producer in a 2030 choice set
+HON,HON_WASTE,OSS_INORG,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,OSS_ORG,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,SIT_CLAN,inactive,capacity or activity capped at zero in every year
+HON,HON_WASTE,T5CO2_CH4_BURNTSW,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,T5COMPOST_AGRINDTSW,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,T5DWW_DCWW,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,T5DWW_NWW,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,T5IND_SWTSW,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,T5IWWWW,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,T5LANDFILL_ELECTSW,total_only,not a free producer in any 2030 choice set
+HON,HON_WASTE,T5TSWTSW,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,CCS_FLO,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,DIST_BGS,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,DIST_BIM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,DIST_CHA,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,DIST_COA,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,DIST_COK,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,DIST_DSL,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,DIST_FIR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,DIST_FOI,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,DIST_GSL,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,DIST_JET,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,DIST_KER,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,DIST_LPG,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,DIST_NGS,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,DIST_OPE,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,DIST_PV,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,ELE_DIST,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,ELE_TRANS,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,EXTT_CRU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,HYD_DIST,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,HYD_G_PROD,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,IMP_R125,inactive,capacity or activity capped at zero in every year
+JAM,JAM_ENERGY,IMP_R134A,inactive,capacity or activity capped at zero in every year
+JAM,JAM_ENERGY,IMP_R143A,inactive,capacity or activity capped at zero in every year
+JAM,JAM_ENERGY,IMP_R227EA,inactive,capacity or activity capped at zero in every year
+JAM,JAM_ENERGY,IMP_R236FA,inactive,capacity or activity capped at zero in every year
+JAM,JAM_ENERGY,IMP_R32,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,IMP_STOR,inactive,capacity or activity capped at zero in every year
+JAM,JAM_ENERGY,IMP_SUB125,inactive,capacity or activity capped at zero in every year
+JAM,JAM_ENERGY,IMP_SUB134A,inactive,capacity or activity capped at zero in every year
+JAM,JAM_ENERGY,IMP_SUB143A,inactive,capacity or activity capped at zero in every year
+JAM,JAM_ENERGY,IMP_SUB227EA,inactive,capacity or activity capped at zero in every year
+JAM,JAM_ENERGY,IMP_SUB236FA,inactive,capacity or activity capped at zero in every year
+JAM,JAM_ENERGY,IMP_SUB32,inactive,capacity or activity capped at zero in every year
+JAM,JAM_ENERGY,LCM_HOUSE,inactive,capacity or activity capped at zero in every year
+JAM,JAM_ENERGY,LIME,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,LUBRI,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,PPBGS,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,PPBIM,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,PPDSL,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,PPFOI,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,PPGEO,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,PPHDAM,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,PPHROR,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,PPNGS,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,PPPVD,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,PPPVDS,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,PPPVT,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,PPPVTS,inactive,capacity or activity capped at zero in every year
+JAM,JAM_ENERGY,PPWNDOFF,inactive,capacity or activity capped at zero in every year
+JAM,JAM_ENERGY,PPWNDON,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,PPWNDONS,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,PROD_CEM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,PROD_CLK_TRAD,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,RAW_MAT_CEM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,RAW_MAT_CLK,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,REF_DSL,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,REF_FOI,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,REF_GSL,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,REF_JET,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,REF_LPG,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,REF_OPE,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,STOELE,choice,free producer in a 2030 choice set
+JAM,JAM_ENERGY,T5BGSTRO,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5BIMINDBAX,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5BIMINDCEM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5BIMINDOTM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5BIMINDSUM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5CEM_PRODINDCEM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5CHACOM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5CHARES,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5COAINDBAX,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5COAINDCEM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5COAINDOTM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5COAINDSUM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5COKINDBAX,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5COKINDCEM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5COKINDOTM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5COKINDSUM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5DSLCOM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5DSLCON,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5DSLEXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5DSLINDBAX,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5DSLINDCEM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5DSLINDOTM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5DSLINDSUM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5DSLRES,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5DSLTMA,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5DSLTRO,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5ELECOM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5ELECON,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5ELEINDBAX,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5ELEINDCEM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5ELEINDOTM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5ELEINDSUM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5ELERES,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5ELETMA,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5ELETRO,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5FIRCOM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5FIRRES,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5FOICON,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5FOIEXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5FOIINDBAX,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5FOIINDCEM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5FOIINDOTM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5FOIINDSUM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5FOITMA,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5FOITRO,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5GSLCOM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5GSLCON,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5GSLINDBAX,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5GSLINDCEM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5GSLINDOTM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5GSLINDSUM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5GSLRES,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5GSLTRO,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5HOU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5HYDINDBAX,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5HYDINDCEM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5HYDINDOTM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5HYDINDSUM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5HYDTMA,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5HYDTRO,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5JETEXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5JETTAE,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5KERRES,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5LIMEIPPU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5LPGCOM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5LPGRES,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5LPGTMA,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5LPGTRO,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5LUBRIIPPU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5NGSCOM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5NGSINDBAX,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5NGSINDCEM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5NGSINDOTM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5NGSINDSUM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5NGSTMA,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5NGSTRO,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5OPECOM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5OPERES,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5OPETRO,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5PVRES,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5R125IPPU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5R134AIPPU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5R143AIPPU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5R227EAIPPU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5R236FAIPPU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5R32IPPU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5SUB125IPPU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5SUB134AIPPU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5SUB143AIPPU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5SUB227EAIPPU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5SUB236FAIPPU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,T5SUB32IPPU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,TM_HOU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,TRXTRAIELE,total_only,not a free producer in any 2030 choice set
+JAM,JAM_ENERGY,Techs_Rail,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,AG_BAN,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,AG_CER,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,AG_CNT,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,AG_COC,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,AG_COF,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,AG_CON,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,AG_FRT,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,AG_LEG,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,AG_OTTU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,AG_PLA,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,AG_POT,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,AG_VEG,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,AG_YAM,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,GA_CARBOV,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,GA_CARPOL,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,GA_CARPOR,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,GA_MILK,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,GA_OTRCAR,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,IMPBAN,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,IMPCARBOV,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,IMPCARPOL,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,IMPCARPOR,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,IMPCER,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,IMPCNT,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,IMPCOC,inactive,capacity or activity capped at zero in every year
+JAM,JAM_AFOLU,IMPCOF,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,IMPCON,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,IMPFRT,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,IMPLEG,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,IMPMILK,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,IMPOTRCAR,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,IMPOTTU,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,IMPPLA,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,IMPPOT,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,IMPVEG,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,IMPYAM,choice,free producer in a 2030 choice set
+JAM,JAM_AFOLU,LU_CROP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,LU_DEN,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,LU_DRY,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,LU_FOR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,LU_MAN,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,LU_OTL,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,LU_PAS,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,LU_SEC,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,LU_SET,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,LU_WET,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,SOIALL,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5BANAGR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5BANAGREXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5CARBOVGAN,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5CARBOVGANEXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5CARPOLGAN,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5CARPOLGANEXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5CARPORGAN,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5CARPORGANEXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5CERAGR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5CERAGREXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5CNTAGR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5CNTAGREXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5COCAGR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5COCAGREXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5COFAGR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5COFAGREXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5CONAGR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5CONAGREXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5DENBOS,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5DRYBOS,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5FRTAGR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5FRTAGREXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5LECGAN,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5LECGANEXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5LEGAGR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5LEGAGREXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5MANBOS,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5OTLCOB,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5OTRCARGAN,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5OTRCARGANEXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5OTTUAGR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5OTTUAGREXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5PLAAGR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5PLAAGREXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5POTAGR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5POTAGREXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5SECBOS,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5SETCOB,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5VEGAGR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5VEGAGREXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5WETCOB,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5YAMAGR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_AFOLU,T5YAMAGREXP,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,DIST_BGS,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,DIST_BIM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,DIST_DSL,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,DIST_FOI,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,DIST_GSL,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,DIST_KER,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,DIST_LPG,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,ELE_DIST,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,ELE_TRANS,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,HYD_DIST,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,HYD_G_PROD,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,IMP_ELE,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4DSL_HEA,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4DSL_LIG,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4DSL_MAM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4DSL_MAR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4DSL_PRI,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4DSL_PUB,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4ELE_HEA,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4ELE_LIG,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4ELE_PRI,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4ELE_PUB,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4FOI_HEA,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4FOI_MAM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4FOI_MAR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4GSL_LIG,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4GSL_PRI,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4GSL_PUB,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4HYD_AVI,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4HYD_HEA,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4HYD_MAM,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4HYD_MAR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4HYD_PUB,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T4KER_AVI,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T5BGSOTH,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T5BIMOTH,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T5DSLOTH,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T5ELEOTH,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T5FOIOTH,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T5GSLOTH,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T5HYDOTH,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T5KEROTH,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,T5LPGOTH,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,TRAUTDSL,inactive,capacity or activity capped at zero in every year
+JAM,JAM_TRANSPORT,TRAUTELE,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRAUTGSL,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRAUTHG,inactive,capacity or activity capped at zero in every year
+JAM,JAM_TRANSPORT,TRAVHYD,inactive,capacity or activity capped at zero in every year
+JAM,JAM_TRANSPORT,TRAVKER,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,TRBPUDSL,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRBPUELE,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRBPUGSL,inactive,capacity or activity capped at zero in every year
+JAM,JAM_TRANSPORT,TRBPUHYD,inactive,capacity or activity capped at zero in every year
+JAM,JAM_TRANSPORT,TRMAMFREDSL,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRMAMFREFOI,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRMAMFREHYD,inactive,capacity or activity capped at zero in every year
+JAM,JAM_TRANSPORT,TRMARDSL,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRMARFOI,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRMARHYD,inactive,capacity or activity capped at zero in every year
+JAM,JAM_TRANSPORT,TRMBSDSL,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRMBSELE,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRMBSGSL,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRMOTELE,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRMOTGSL,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRSUVDSL,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRSUVELE,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRSUVGSL,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRTAXELE,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRTAXGSL,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRYLFDSL,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRYLFELE,inactive,capacity or activity capped at zero in every year
+JAM,JAM_TRANSPORT,TRYLFGSL,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRYLFHD,inactive,capacity or activity capped at zero in every year
+JAM,JAM_TRANSPORT,TRYTKDSL,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRYTKELE,inactive,capacity or activity capped at zero in every year
+JAM,JAM_TRANSPORT,TRYTKFOI,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,TRYTKHD,inactive,capacity or activity capped at zero in every year
+JAM,JAM_TRANSPORT,TRYTKHYD,inactive,capacity or activity capped at zero in every year
+JAM,JAM_TRANSPORT,Techs_Auto,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,Techs_Aviation,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,Techs_Buses_Micro,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,Techs_Buses_Pub,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,Techs_He_Freight,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,Techs_Li_Freight,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,Techs_Maritime,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,Techs_Maritime_Freight,total_only,not a free producer in any 2030 choice set
+JAM,JAM_TRANSPORT,Techs_Motos,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,Techs_SUV,choice,free producer in a 2030 choice set
+JAM,JAM_TRANSPORT,Techs_Taxi,choice,free producer in a 2030 choice set
+JAM,JAM_WASTE,AD,inactive,capacity or activity capped at zero in every year
+JAM,JAM_WASTE,AERO_PTAR,choice,free producer in a 2030 choice set
+JAM,JAM_WASTE,AERO_PTAR_RU,inactive,capacity or activity capped at zero in every year
+JAM,JAM_WASTE,ANAE_LAGN,inactive,capacity or activity capped at zero in every year
+JAM,JAM_WASTE,ANAE_LAGN_RU,inactive,capacity or activity capped at zero in every year
+JAM,JAM_WASTE,BLEND_NO_COLL,choice,free producer in a 2030 choice set
+JAM,JAM_WASTE,BLEND_NO_DCOLL,choice,free producer in a 2030 choice set
+JAM,JAM_WASTE,COMPOST,total_only,not a free producer in any 2030 choice set
+JAM,JAM_WASTE,COPROC,inactive,capacity or activity capped at zero in every year
+JAM,JAM_WASTE,DIRECT_DISC,choice,free producer in a 2030 choice set
+JAM,JAM_WASTE,EFLT_DISC,inactive,capacity or activity capped at zero in every year
+JAM,JAM_WASTE,INCIN,inactive,capacity or activity capped at zero in every year
+JAM,JAM_WASTE,INORG_DCOLL,total_only,not a free producer in any 2030 choice set
+JAM,JAM_WASTE,INORG_RCY_OS,total_only,not a free producer in any 2030 choice set
+JAM,JAM_WASTE,INORG_SS,choice,free producer in a 2030 choice set
+JAM,JAM_WASTE,IWW,total_only,no output fuel; activity lower limit > 0
+JAM,JAM_WASTE,LANDFILL,choice,free producer in a 2030 choice set
+JAM,JAM_WASTE,LATR,total_only,not a free producer in any 2030 choice set
+JAM,JAM_WASTE,NO_CONTR_OD,choice,free producer in a 2030 choice set
+JAM,JAM_WASTE,NO_OSS_BLEND,total_only,not a free producer in any 2030 choice set
+JAM,JAM_WASTE,NO_OSS_NO_COLL,total_only,not a free producer in any 2030 choice set
+JAM,JAM_WASTE,NO_SS,choice,free producer in a 2030 choice set
+JAM,JAM_WASTE,OPEN_BURN,choice,free producer in a 2030 choice set
+JAM,JAM_WASTE,ORG_DCOLL,total_only,not a free producer in any 2030 choice set
+JAM,JAM_WASTE,ORG_SS,choice,free producer in a 2030 choice set
+JAM,JAM_WASTE,OSS_INORG,total_only,not a free producer in any 2030 choice set
+JAM,JAM_WASTE,OSS_ORG,total_only,not a free producer in any 2030 choice set
+JAM,JAM_WASTE,SEPT_SYST,choice,free producer in a 2030 choice set
+JAM,JAM_WASTE,SEWERWW,choice,free producer in a 2030 choice set
+JAM,JAM_WASTE,SEWER_NO_T,total_only,not a free producer in any 2030 choice set
+JAM,JAM_WASTE,SIT_CLAN,choice,free producer in a 2030 choice set
+JAM,JAM_WASTE,T5TSWTSW,total_only,not a free producer in any 2030 choice set
+JAM,JAM_WASTE,T5TWWTWW,total_only,not a free producer in any 2030 choice set
+JAM,JAM_WASTE,WWWOT,total_only,not a free producer in any 2030 choice set
+JAM,JAM_WASTE,WWWT,total_only,not a free producer in any 2030 choice set

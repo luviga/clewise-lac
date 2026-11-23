@@ -1,0 +1,76 @@
+domain,model_item,model_techs,fao_item_codes,fao_items,unit_basis
+TCL (trade),rice,IMPRIC;IMPARR,30,"Rice, paddy (rice milled equivalent) [FAO aggregate]",t
+TCL (trade),banana,IMPBAN,486,Bananas,t
+TCL (trade),plantain,(no IMP tech in scope; AG_PLA),489,Plantains and cooking bananas,t
+TCL (trade),coffee,IMPCAF;IMPCOF,656,"Coffee, green",t
+TCL (trade),sugar,IMPSUG (CR Import Sugar; ECU Import Sugarcane);IMPSGC,162;164,Raw cane or beet sugar (centrifugal only) + Refined sugar,t
+TCL (trade),sugar_cane,IMPSGC;IMPSUG (if cane itself is meant),156,Sugar cane,t
+TCL (trade),molasses,IMPMOL,165,Molasses,t
+TCL (trade),pineapple,IMPPIN,574,Pineapples,t
+TCL (trade),oranges,IMPORG,490,Oranges,t
+TCL (trade),vegetables,IMPVEG,1734,Vegetables [FAO trade aggregate],t
+TCL (trade),other_grains,IMPOTG,15;44;56;71;75;79;83;92;108,"Cereals other than rice: wheat, barley, maize, rye, oats, millet, sorghum, quinoa, cereals n.e.c. (sum)",t
+TCL (trade),cereals,IMPCER,1944,"Cereals [FAO trade aggregate, includes preparations]",t
+TCL (trade),maize,"IMPMAI (HON, ECU)",56,Maize (corn),t
+TCL (trade),soy,IMPSOY,236,Soya beans,t
+TCL (trade),palm_oil,IMPPAL if oil palm is meant,257,Palm oil,t
+TCL (trade),palm_hearts,IMPPAL if palm hearts (palmito) are meant,472,Vegetables preserved nes (o/t vinegar) [FAO item holding preserved palm hearts],t
+TCL (trade),legumes_pulses,IMPLEG;IMPFRI (HON beans: use beans_dry),1954,Pulses [FAO trade aggregate],t
+TCL (trade),beans_dry,IMPFRI (HON frijol),176,"Beans, dry",t
+TCL (trade),melons,IMPMEL (HON),568,Cantaloupes and other melons,t
+TCL (trade),tubers,IMPTUB,1719,Roots and Tubers [FAO trade aggregate],t
+TCL (trade),potatoes,IMPPOT,116,Potatoes,t
+TCL (trade),fruit,IMPFRT,1802,Fruit [FAO trade aggregate],t
+TCL (trade),cocoa,IMPCOC,661,Cocoa beans,t
+TCL (trade),coconut,IMPCNT,249;250,"Coconuts, in shell + Coconuts, desiccated",t
+TCL (trade),condiments_spices,IMPCON,687;689;692;693;698;702;711;720;723,"Spices: pepper, chillies dry, vanilla, cinnamon, cloves, nutmeg, anise group, ginger, other spices (sum)",t
+TCL (trade),milk,IMPLEC;IMPMILK,1881,"Dairy Products, milk equivalent [FAO trade aggregate]",t
+TCL (trade),beef,IMPCAR;IMPCARBOV;IMPBOV (meat),1806,"Beef and Buffalo Meat, primary [FAO aggregate, carcass weight]",t
+TCL (trade),pigmeat,IMPCARPOR;IMPPOR (meat),2073,Pigmeat (meat equivalent) [FAO aggregate],t
+TCL (trade),poultry_meat,IMPCARPOL;IMPAVE (meat),1808,"Meat, Poultry [FAO aggregate]",t
+TCL (trade),sheep_goat_meat,IMPOVE;IMPCBR (meat),1807,Sheep and Goat Meat [FAO aggregate],t
+TCL (trade),other_products,IMPOTP (DR Other products; no single FAO match),1882,"Crops and livestock products [FAO total, indicator only]",t
+TCL (trade),live_cattle,IMPBOV;IMPCARBOV (if live animals),866,Cattle (live),head
+TCL (trade),live_sheep,IMPOVE,976,Sheep (live),head
+TCL (trade),live_goats,IMPCBR,1016,Goats (live),head
+TCL (trade),live_pigs,IMPPOR;IMPCARPOR (if live),1034,Swine / pigs (live),head
+TCL (trade),live_chickens,IMPAVE,1057,Chickens (live),head
+TCL (trade),live_horses,IMPCAB,1096,Horses (live),head
+TCL (trade),live_mules,IMPMUL,1110,Mules and hinnies (live),head
+TCL (trade),live_camelids,IMPCAM,1157,Other camelids (live),head
+PP (producer prices),rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),t
+PP (producer prices),banana,AGRBAN;AG_BAN,486,Bananas,t
+PP (producer prices),plantain,AG_PLA,489,Plantains and cooking bananas,t
+PP (producer prices),coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",t
+PP (producer prices),oil_palm,AGRPLM;AG_PLM;AG_PAL (if oil palm),254,Oil palm fruit,t
+PP (producer prices),pineapple,AGRPIN,574,Pineapples,t
+PP (producer prices),oranges,AGRORG,490,Oranges,t
+PP (producer prices),vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",358;366;367;372;373;388;393;394;397;399;401;402;403;406;407;414;417;420;423;426;430;446;449;463,Vegetables: production-weighted mean of FAO vegetable items with a price,t
+PP (producer prices),other_grains,AGROTG,15;44;56;71;75;79;83;92;108,Cereals other than rice: production-weighted mean,t
+PP (producer prices),cereals,AG_CER,15;27;44;56;71;75;79;83;92;108,Cereals: production-weighted mean,t
+PP (producer prices),maize,AG_MAI,56,Maize (corn),t
+PP (producer prices),sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,t
+PP (producer prices),cocoa,AG_COC,661,Cocoa beans,t
+PP (producer prices),fruit,AG_FRT,486;489;490;495;497;507;512;515;521;526;531;534;536;544;547;558;560;567;568;569;571;572;574;600;603;619,Fruit: production-weighted mean of FAO fruit items with a price,t
+PP (producer prices),soy,AG_SOY,236,Soya beans,t
+PP (producer prices),legumes_pulses,AG_LEG,176;181;187;191;195;197;201;210;211,Pulses: production-weighted mean,t
+PP (producer prices),beans_dry,AG_FRI (HON frijol),176,"Beans, dry",t
+PP (producer prices),melons,AG_MEL,568,Cantaloupes and other melons,t
+PP (producer prices),tubers,AG_TUB,116;122;125;135;136;137;149,Roots and tubers: production-weighted mean,t
+PP (producer prices),potatoes,AG_POT,116,Potatoes,t
+PP (producer prices),yams,AG_YAM,137,Yams,t
+PP (producer prices),coconut,AG_CNT,249,"Coconuts, in shell",t
+PP (producer prices),condiments_spices,AG_CON,687;689;692;693;698;702;711;720;723,Spices: production-weighted mean,t
+PP (producer prices),milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,t
+PP (producer prices),beef,GA_CARBOV;GA_BOV,867,"Meat of cattle with the bone, fresh or chilled",t
+PP (producer prices),beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",t
+PP (producer prices),pigmeat,GA_CARPOR;GA_POR,1035,"Meat of pig with the bone, fresh or chilled",t
+PP (producer prices),poultry_meat,GA_CARPOL;GA_AVE,1058,"Meat of chickens, fresh or chilled",t
+PP (producer prices),sheep_meat,GA_OVE;GA_OTRCAR,977,"Meat of sheep, fresh or chilled",t
+PP (producer prices),goat_meat,GA_CBR;GA_OTRCAR,1017,"Meat of goat, fresh or chilled",t
+PP (producer prices),pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",t
+PP (producer prices),poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",t
+PP (producer prices),sheep_meat_biological,GA_OVE;GA_OTRCAR (FAO '(biological)' series),1013,"Meat of sheep, fresh or chilled (biological)",t
+PP (producer prices),goat_meat_biological,GA_CBR;GA_OTRCAR (FAO '(biological)' series),1033,"Meat of goat, fresh or chilled (biological)",t
+PP (producer prices),horse_meat,GA_CAB,1097,"Horse meat, fresh or chilled",t
+PP (producer prices),other_mammal_meat,GA_CAM;GA_MUL,1166,"Other meat of mammals, fresh or chilled",t

@@ -1,0 +1,66 @@
+country,model,emission,first_year,last_year,value_first,value_2030,value_last,min_value,max_value,unit_in_input,emitters,n_emitters,emitters_free_in_choice_set,can_change_choice,origin
+DR,RD_ENERGY,Health,2018,2050,1000.0,1000.0,1000.0,1000.0,1000.0,M US$ / PJ,PPCCTNGS;PPCCTNGSDSL;PPCOA;T4DSL_HEA;T4DSL_LIG;T4DSL_PRI;T4DSL_PUB;T4DSL_TUR;T4GSL_HEA;T4GSL_LIG;T4GSL_PRI;T4GSL_PUB;T4GSL_TUR;T4LPG_HEA;T4LPG_LIG;T4LPG_PRI;T4LPG_PUB;T4LPG_TUR;T4NGS_LIG,19,PPCCTNGS;PPCOA,yes,A-Xtra_Emissions.xlsx sheet Externalities
+DR,RD_AFOLU,CONHAB,2018,2050,-1000.0,-1000.0,-1000.0,-1000.0,-1000.0,M US$ / PJ,LU_DRY,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+DR,RD_AFOLU,CONHICK,2018,2050,-1000.0,-1000.0,-1000.0,-1000.0,-1000.0,M US$ / PJ,LU_LATHUM,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+DR,RD_AFOLU,CONTUR,2018,2050,-1000.0,-1000.0,-1000.0,-1000.0,-1000.0,M US$ / PJ,LU_LATHUM,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+DR,RD_AFOLU,CONVAR,2018,2050,-1000.0,-1000.0,-1000.0,-1000.0,-1000.0,M US$ / PJ,LU_LATHUM,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+DR,RD_AFOLU,DAPANI,2018,2050,-1000.0,-1000.0,-1000.0,-1000.0,-1000.0,M US$ / PJ,LU_DRY,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+DR,RD_AFOLU,FERT_ORG,2018,2050,-58.44,-58.44,-58.44,-58.44,-58.44,,AD;COMPOST,2,,no,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+DR,RD_AFOLU,Health,2018,2050,1000.0,1000.0,1000.0,1000.0,1000.0,M US$ / PJ,PPCCTNGS;PPCCTNGSDSL;PPCOA;T4DSL_HEA;T4DSL_LIG;T4DSL_PRI;T4DSL_PUB;T4DSL_TUR;T4GSL_HEA;T4GSL_LIG;T4GSL_PRI;T4GSL_PUB;T4GSL_TUR;T4LPG_HEA;T4LPG_LIG;T4LPG_PRI;T4LPG_PUB;T4LPG_TUR;T4NGS_LIG,19,PPCCTNGS;PPCCTNGSDSL;PPCOA,yes,A-Xtra_Emissions.xlsx sheet Externalities
+DR,RD_AFOLU,RESHID,2018,2050,-1000.0,-1000.0,-1000.0,-1000.0,-1000.0,M US$ / PJ,LU_FOR,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+DR,RD_AFOLU,RM,2018,2050,-56.0,-56.0,-56.0,-56.0,-56.0,,INORG_RCY_OS,1,,no,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+DR,RD_AFOLU,contam_agua,2018,2050,35.7582437047091,27.79792478614508,22.401755862380018,22.401755862380018,37.48526795737901,,NO_CONTR_OD;SIT_CLAN,2,NO_CONTR_OD;SIT_CLAN,yes,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+DR,RD_AFOLU,salud_residuos,2018,2050,86.8414489971507,67.50924590920948,54.40426423720862,54.40426423720862,91.03565075363473,,NO_CONTR_OD;OPEN_BURN;SIT_CLAN,3,NO_CONTR_OD;OPEN_BURN;SIT_CLAN,yes,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+DR,RD_AFOLU,turismo_residuos,2018,2050,130.262173495726,101.26386886381422,81.60639635581292,81.60639635581292,136.5534761304521,,SIT_CLAN,1,SIT_CLAN,yes,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+ECU,ECU_AGR,EXT_REGAIR,2021,2050,1.0,1.0,1.0,1.0,1.0,M USD/Mha,LU_CROP,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+ECU,ECU_USCUSS,EXT_REGAIR,2021,2050,-3.3825202,-3.3825202,-3.3825202,-3.3825202,-3.3825202,M USD/Mha,T5NPRAND,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+ECU,ECU_WASTE,FERT_ORG,2021,2050,-58.44,-58.44,-58.44,-58.44,-58.44,,AD;COMPOST,2,,no,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+ECU,ECU_WASTE,contam_agua,2021,2050,47.29502105399167,32.628990681036406,30.83010199257932,30.83010199257932,47.29502105399167,,NO_CONTR_OD;SIT_CLAN,2,,no,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+ECU,ECU_WASTE,salud_residuos,2021,2050,114.85933684540835,79.2418345110884,74.8731048391212,74.8731048391212,114.85933684540835,,NO_CONTR_OD;OPEN_BURN;SIT_CLAN,3,,no,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+ECU,ECU_WASTE,turismo_residuos,2021,2050,172.28900526811253,118.8627517666326,112.3096572586818,112.3096572586818,172.28900526811253,,NO_CONTR_OD;SIT_CLAN,2,,no,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+GUA,GUA_ENERGY,Accidents,2018,2050,1000.0,1000.0,1000.0,1000.0,1000.0,M US$ / Gpkm,Techs_Auto;Techs_Buses_Micro;Techs_Buses_Pri;Techs_Buses_Pub;Techs_He_Freight;Techs_Li_Freight;Techs_Motos,7,Techs_Auto;Techs_Buses_Micro;Techs_Buses_Pri;Techs_Motos,yes,A-Xtra_Emissions.xlsx sheet Externalities
+GUA,GUA_ENERGY,Congestion,2018,2050,1000.0,1000.0,1000.0,1000.0,1000.0,M US$ / Gvkm,Techs_Auto;Techs_Buses_Micro;Techs_Buses_Pri;Techs_Buses_Pub;Techs_He_Freight;Techs_Li_Freight;Techs_Motos,7,Techs_Auto;Techs_Buses_Micro;Techs_Buses_Pri;Techs_Motos,yes,A-Xtra_Emissions.xlsx sheet Externalities
+GUA,GUA_ENERGY,Health,2018,2050,1000.0,1000.0,1000.0,1000.0,1000.0,M US$ / PJ,DIST_COA;DIST_NGS;T4DSL_HEA;T4DSL_LIG;T4DSL_PRI;T4DSL_PUB;T4Flex_Fuel_PRI;T4GSL_LIG;T4GSL_PRI,9,,no,A-Xtra_Emissions.xlsx sheet Externalities
+GUA,GUA_AFOLU,AG1a_income,2016,2050,-5.691178028648882,-11.268143216957146,-29.89773853879108,-29.89773853879108,-5.691178028648882,,AG1a,1,,no,ModeloSuelo workbook via 1_Parameters csv
+GUA,GUA_AFOLU,AG2_income,2016,2050,194.5896061892055,206.94956809335656,226.54839101290077,194.5896061892055,226.54839101290077,,AG2,1,,no,ModeloSuelo workbook via 1_Parameters csv
+GUA,GUA_AFOLU,AG3_income,2016,2050,179.45933652611998,371.6217055453577,569.4383094187255,179.45933652611998,569.4383094187255,,AG3,1,,no,ModeloSuelo workbook via 1_Parameters csv
+GUA,GUA_AFOLU,FOLU1_income,2016,2050,71.94777456719629,102.03902391967561,175.33998396142752,71.77004357599998,175.33998396142752,,FOLU1,1,,no,ModeloSuelo workbook via 1_Parameters csv
+GUA,GUA_AFOLU,FOLU2_income,2016,2050,18.477249716000003,110.54268152577266,205.7350978440664,18.477249716000003,205.7350978440664,,FOLU2,1,,no,ModeloSuelo workbook via 1_Parameters csv
+GUA,GUA_AFOLU,FOLU3_income,2016,2050,18.491226643617683,64.99089054742903,165.11356336871933,18.491226643617683,165.11356336871933,,FOLU3,1,,no,ModeloSuelo workbook via 1_Parameters csv
+GUA,GUA_AFOLU,GAN1_income,2016,2050,32.228155297280054,59.35521664024596,75.33582733262863,32.228155297280054,75.33582733262863,,GAN1,1,,no,ModeloSuelo workbook via 1_Parameters csv
+GUA,GUA_AFOLU,GAN2_income,2016,2050,47.41371890285715,92.93471672164979,237.93483966209118,47.41371890285715,237.93483966209118,,GAN2,1,,no,ModeloSuelo workbook via 1_Parameters csv
+GUA,GUA_AFOLU,GAN3_income,2016,2050,23.29371939574468,34.39432393280116,103.86664365118327,23.29371939574468,103.86664365118327,,GAN3,1,,no,ModeloSuelo workbook via 1_Parameters csv
+GUA,GUA_AFOLU,dano_lena,2016,2050,2500.0,3801.899487372281,6866.653377226964,2500.0,6866.653377226964,,Casas_lena,1,,no,ModeloSuelo workbook via 1_Parameters csv
+GUA,GUA_AFOLU,servicios_ecosistemicos,2016,2050,-2627.659080063666,-4037.4302858909596,-7292.04819854221,-7292.04819854221,-2627.659080063666,,,0,,no,ModeloSuelo workbook via 1_Parameters csv
+GUA,GUA_WASTE,FERT_ORG,2018,2050,-58.44,-58.44,-58.44,-58.44,-58.44,,AD;COMPOST,2,,no,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+GUA,GUA_WASTE,RM,2018,2050,-56.0,-56.0,-56.0,-56.0,-56.0,,INORG_RCY_OS,1,,no,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+GUA,GUA_WASTE,contam_agua,2018,2050,78.99530565047807,57.82457150232318,32.42898105353371,32.42898105353371,78.99530565047807,,NO_CONTR_OD;SIT_CLAN,2,NO_CONTR_OD,yes,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+GUA,GUA_WASTE,salud_residuos,2018,2050,191.84574229401815,140.43110221992774,78.75609684429615,78.75609684429615,191.84574229401815,,NO_CONTR_OD;OPEN_BURN;SIT_CLAN,3,NO_CONTR_OD,yes,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+GUA,GUA_WASTE,turismo_residuos,2018,2050,287.76861344102724,210.6466533298916,118.13414526644422,118.13414526644422,287.76861344102724,,NO_CONTR_OD;SIT_CLAN,2,NO_CONTR_OD,yes,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+HON,HON_ENERGY,Health,2018,2050,1000.0,1000.0,1000.0,1000.0,1000.0,M US$ / PJ,DIST_COA;DIST_NGS;T4DSL_HEA;T4DSL_LIG;T4DSL_PRI;T4DSL_PUB;T4DSL_TUR;T4GSL_LIG;T4GSL_PRI;T4GSL_PUB;T4GSL_TUR;T4LPG_PUB,12,,no,A-Xtra_Emissions.xlsx sheet Externalities
+HON,HON_AFOLU,AGCOF,2018,2050,1000.0,1000.0,1000.0,1000.0,1000.0,M US$ / Mha,LU_AGCAF,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+HON,HON_AFOLU,CONAG,2018,2050,1000.0,1000.0,1000.0,1000.0,1000.0,M US$ / Mha,LU_FORCON,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+HON,HON_AFOLU,CONHICK,2018,2050,1000.0,1000.0,1000.0,1000.0,1000.0,M US$ / Mha,NS_LU_FOR_CON,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+HON,HON_AFOLU,CONSOIL,2018,2050,1000.0,1000.0,1000.0,1000.0,1000.0,M US$ / Mha,LU_FORCON,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+HON,HON_AFOLU,CONVAR,2018,2050,1000.0,1000.0,1000.0,1000.0,1000.0,M US$ / Mha,LU_FORLAT,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+HON,HON_AFOLU,Health,2018,2050,1000.0,1000.0,1000.0,1000.0,1000.0,M US$ / PJ,DIST_COA;DIST_NGS;T4DSL_HEA;T4DSL_LIG;T4DSL_PRI;T4DSL_PUB;T4DSL_TUR;T4GSL_LIG;T4GSL_PRI;T4GSL_PUB;T4GSL_TUR;T4LPG_PUB,12,,no,A-Xtra_Emissions.xlsx sheet Externalities
+HON,HON_AFOLU,REFOR,2018,2050,1000.0,1000.0,1000.0,1000.0,1000.0,M US$ / Mha,NS_LU_FOR_CON,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+HON,HON_AFOLU,RESTORMAN,2018,2050,1000.0,1000.0,1000.0,1000.0,1000.0,M US$ / Mha,LU_FORMAN,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+HON,HON_AFOLU,SAF,2018,2050,1000.0,1000.0,1000.0,1000.0,1000.0,M US$ / Mha,LU_CUL,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+HON,HON_AFOLU,SSP,2018,2050,1000.0,1000.0,1000.0,1000.0,1000.0,M US$ / Mha,LU_PAS,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+HON,HON_WASTE,FERT_ORG,2018,2050,0.05844,0.05844,0.05844,0.05844,0.05844,,AD;COMPOST,2,,no,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+HON,HON_WASTE,RM,2018,2050,0.056,0.056,0.056,0.056,0.056,,INORG_RCY_OS,1,,no,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+HON,HON_WASTE,contam_agua,2018,2050,0.05900948174203192,0.051840124966532355,0.04140375123909485,0.04140375123909485,0.05900948326567006,,NO_CONTR_OD;SIT_CLAN,2,NO_CONTR_OD,yes,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+HON,HON_WASTE,salud_residuos,2018,2050,0.1433087413735061,0.12589744634729286,0.10055196729494464,0.10055196729494464,0.14330874507377014,,NO_CONTR_OD;OPEN_BURN;SIT_CLAN,3,NO_CONTR_OD,yes,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+HON,HON_WASTE,turismo_residuos,2018,2050,0.21496311206025911,0.1888461695209393,0.15082795094241694,0.15082795094241694,0.2149631176106552,,NO_CONTR_OD;SIT_CLAN,2,NO_CONTR_OD,yes,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+JAM,JAM_AFOLU,CON,2021,2055,-1000.0,-1000.0,-1000.0,-1000.0,-1000.0,MUSD/Mha,LU_DEN,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+JAM,JAM_AFOLU,CONAG,2021,2055,-1000.0,-1000.0,-1000.0,-1000.0,-1000.0,MUSD/Mha,LU_DEN,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+JAM,JAM_AFOLU,CONSOIL,2021,2055,-1000.0,-1000.0,-1000.0,-1000.0,-1000.0,MUSD/Mha,LU_DRY,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+JAM,JAM_AFOLU,HAB,2021,2055,-1000.0,-1000.0,-1000.0,-1000.0,-1000.0,MUSD/Mha,LU_DRY,1,,no,A-Xtra_Emissions.xlsx sheet Externalities
+JAM,JAM_TRANSPORT,Health,2021,2055,1000.0,1000.0,1000.0,1000.0,1000.0,M US$ / PJ,T4DSL_HEA;T4DSL_LIG;T4DSL_PRI;T4DSL_PUB;T4GSL_LIG;T4GSL_PRI;T4GSL_PUB,7,,no,A-Xtra_Emissions.xlsx sheet Externalities
+JAM,JAM_WASTE,FERT_ORG,2021,2055,-58.44,-58.44,-58.44,-58.44,-58.44,,AD;COMPOST,2,,no,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+JAM,JAM_WASTE,RM,2021,2055,-56.0,-56.0,-56.0,-56.0,-56.0,,INORG_RCY_OS,1,,no,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+JAM,JAM_WASTE,contam_agua,2021,2055,35.37471041078218,32.24905230862925,25.159855893430713,25.159855893430713,35.37471041078218,,NO_CONTR_OD;SIT_CLAN,2,NO_CONTR_OD;SIT_CLAN,yes,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+JAM,JAM_WASTE,salud_residuos,2021,2055,85.91001099761385,78.31912703524246,61.1025071697603,61.1025071697603,85.91001099761385,,NO_CONTR_OD;OPEN_BURN;SIT_CLAN,3,NO_CONTR_OD;OPEN_BURN;SIT_CLAN,yes,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+JAM,JAM_WASTE,turismo_residuos,2021,2055,128.8650164964208,117.47869055286371,91.65376075464044,91.65376075464044,128.8650164964208,,SIT_CLAN,1,SIT_CLAN,yes,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"
+JAM,JAM_WASTE,water_reuse,2021,2055,-1500.0,-1500.0,-1500.0,-1500.0,-1500.0,,AERO_PTAR_RU,1,,no,"B1_Scenario_Config.xlsx rows of EmissionsPenalty (Waste externalities), applied by B1"

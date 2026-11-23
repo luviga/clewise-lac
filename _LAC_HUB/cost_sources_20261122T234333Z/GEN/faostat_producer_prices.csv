@@ -1,0 +1,589 @@
+country,model_item,model_techs,fao_item_codes,fao_items,year,producer_price_usd_per_t,cpi_factor,producer_price_2024usd_per_t,note
+CR,rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),2019,507.9,1.226992,623.19,
+CR,rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),2020,521.2,1.212039,631.71,
+CR,rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),2021,508.7,1.157652,588.9,
+CR,rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),2022,525.7,1.071873,563.48,
+CR,rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),avg_2019_2023,,,601.82,simple mean of 4 real 2024 USD annual prices
+DR,rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),2019,402.0,1.226992,493.25,
+DR,rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),2020,375.5,1.212039,455.12,
+DR,rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),2021,397.5,1.157652,460.17,
+DR,rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),2022,447.8,1.071873,479.98,
+DR,rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),2023,465.4,1.029494,479.13,
+DR,rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),avg_2019_2023,,,473.53,simple mean of 5 real 2024 USD annual prices
+ECU,rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),2019,321.2,1.226992,394.11,
+ECU,rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),2020,359.4,1.212039,435.61,
+ECU,rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),2021,261.5,1.157652,302.73,
+ECU,rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),2022,329.9,1.071873,353.61,
+ECU,rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),2023,407.9,1.029494,419.93,
+ECU,rice,AGRRIC;AG_RIC;AG_ARR,27,Rice (paddy),avg_2019_2023,,,381.2,simple mean of 5 real 2024 USD annual prices
+CR,banana,AGRBAN;AG_BAN,486,Bananas,2019,458.8,1.226992,562.94,
+CR,banana,AGRBAN;AG_BAN,486,Bananas,2020,464.3,1.212039,562.75,
+CR,banana,AGRBAN;AG_BAN,486,Bananas,2022,115.9,1.071873,124.23,
+CR,banana,AGRBAN;AG_BAN,486,Bananas,2023,234.7,1.029494,241.62,
+CR,banana,AGRBAN;AG_BAN,486,Bananas,avg_2019_2023,,,372.89,simple mean of 4 real 2024 USD annual prices
+DR,banana,AGRBAN;AG_BAN,486,Bananas,2022,404.0,1.071873,433.04,
+DR,banana,AGRBAN;AG_BAN,486,Bananas,2023,422.4,1.029494,434.86,
+DR,banana,AGRBAN;AG_BAN,486,Bananas,avg_2019_2023,,,433.95,simple mean of 2 real 2024 USD annual prices
+ECU,banana,AGRBAN;AG_BAN,486,Bananas,2019,322.3,1.226992,395.46,
+ECU,banana,AGRBAN;AG_BAN,486,Bananas,2020,327.4,1.212039,396.82,
+ECU,banana,AGRBAN;AG_BAN,486,Bananas,2021,321.1,1.157652,371.72,
+ECU,banana,AGRBAN;AG_BAN,486,Bananas,2022,276.4,1.071873,296.27,
+ECU,banana,AGRBAN;AG_BAN,486,Bananas,avg_2019_2023,,,365.07,simple mean of 4 real 2024 USD annual prices
+HON,banana,AGRBAN;AG_BAN,486,Bananas,2022,490.4,1.071873,525.65,
+HON,banana,AGRBAN;AG_BAN,486,Bananas,2023,498.9,1.029494,513.61,
+HON,banana,AGRBAN;AG_BAN,486,Bananas,avg_2019_2023,,,519.63,simple mean of 2 real 2024 USD annual prices
+JAM,banana,AGRBAN;AG_BAN,486,Bananas,2019,660.1,1.226992,809.94,
+JAM,banana,AGRBAN;AG_BAN,486,Bananas,2020,618.0,1.212039,749.04,
+JAM,banana,AGRBAN;AG_BAN,486,Bananas,2021,729.5,1.157652,844.51,
+JAM,banana,AGRBAN;AG_BAN,486,Bananas,2022,947.8,1.071873,1015.92,
+JAM,banana,AGRBAN;AG_BAN,486,Bananas,2023,943.3,1.029494,971.12,
+JAM,banana,AGRBAN;AG_BAN,486,Bananas,avg_2019_2023,,,878.11,simple mean of 5 real 2024 USD annual prices
+CR,plantain,AG_PLA,489,Plantains and cooking bananas,2019,164.0,1.226992,201.23,
+CR,plantain,AG_PLA,489,Plantains and cooking bananas,2020,154.5,1.212039,187.26,
+CR,plantain,AG_PLA,489,Plantains and cooking bananas,2021,127.4,1.157652,147.48,
+CR,plantain,AG_PLA,489,Plantains and cooking bananas,avg_2019_2023,,,178.66,simple mean of 3 real 2024 USD annual prices
+ECU,plantain,AG_PLA,489,Plantains and cooking bananas,2019,274.0,1.226992,336.2,
+ECU,plantain,AG_PLA,489,Plantains and cooking bananas,2020,204.1,1.212039,247.38,
+ECU,plantain,AG_PLA,489,Plantains and cooking bananas,2021,216.3,1.157652,250.4,
+ECU,plantain,AG_PLA,489,Plantains and cooking bananas,2022,113.7,1.071873,121.87,
+ECU,plantain,AG_PLA,489,Plantains and cooking bananas,avg_2019_2023,,,238.96,simple mean of 4 real 2024 USD annual prices
+JAM,plantain,AG_PLA,489,Plantains and cooking bananas,2019,828.9,1.226992,1017.05,
+JAM,plantain,AG_PLA,489,Plantains and cooking bananas,2020,900.1,1.212039,1090.96,
+JAM,plantain,AG_PLA,489,Plantains and cooking bananas,2021,939.0,1.157652,1087.04,
+JAM,plantain,AG_PLA,489,Plantains and cooking bananas,2022,926.8,1.071873,993.41,
+JAM,plantain,AG_PLA,489,Plantains and cooking bananas,avg_2019_2023,,,1047.11,simple mean of 4 real 2024 USD annual prices
+CR,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",2021,3381.5,1.157652,3914.6,
+CR,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",2022,4644.4,1.071873,4978.21,
+CR,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",2023,4275.6,1.029494,4401.7,
+CR,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",avg_2019_2023,,,4431.5,simple mean of 3 real 2024 USD annual prices
+DR,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",2019,2527.3,1.226992,3100.98,
+DR,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",2020,3050.3,1.212039,3697.08,
+DR,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",2021,3001.7,1.157652,3474.92,
+DR,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",2022,3914.3,1.071873,4195.63,
+DR,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",2023,3434.9,1.029494,3536.21,
+DR,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",avg_2019_2023,,,3600.96,simple mean of 5 real 2024 USD annual prices
+ECU,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",2023,1227.0,1.029494,1263.19,
+ECU,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",avg_2019_2023,,,1263.19,simple mean of 1 real 2024 USD annual prices
+HON,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",2022,4013.5,1.071873,4301.96,
+HON,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",2023,3095.8,1.029494,3187.11,
+HON,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",avg_2019_2023,,,3744.53,simple mean of 2 real 2024 USD annual prices
+JAM,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",2019,1239.2,1.226992,1520.49,
+JAM,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",2020,1392.1,1.212039,1687.28,
+JAM,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",2021,1777.8,1.157652,2058.07,
+JAM,coffee,AGRCAF;AG_CAF;AG_COF,656,"Coffee, green",avg_2019_2023,,,1755.28,simple mean of 3 real 2024 USD annual prices
+CR,oil_palm,AGRPLM;AG_PLM;AG_PAL (if oil palm),254,Oil palm fruit,2021,180.1,1.157652,208.49,
+CR,oil_palm,AGRPLM;AG_PLM;AG_PAL (if oil palm),254,Oil palm fruit,2022,207.4,1.071873,222.31,
+CR,oil_palm,AGRPLM;AG_PLM;AG_PAL (if oil palm),254,Oil palm fruit,2023,148.5,1.029494,152.88,
+CR,oil_palm,AGRPLM;AG_PLM;AG_PAL (if oil palm),254,Oil palm fruit,avg_2019_2023,,,194.56,simple mean of 3 real 2024 USD annual prices
+ECU,oil_palm,AGRPLM;AG_PLM;AG_PAL (if oil palm),254,Oil palm fruit,2019,196.5,1.226992,241.1,
+ECU,oil_palm,AGRPLM;AG_PLM;AG_PAL (if oil palm),254,Oil palm fruit,2020,198.8,1.212039,240.95,
+ECU,oil_palm,AGRPLM;AG_PLM;AG_PAL (if oil palm),254,Oil palm fruit,2021,214.2,1.157652,247.97,
+ECU,oil_palm,AGRPLM;AG_PLM;AG_PAL (if oil palm),254,Oil palm fruit,2022,228.3,1.071873,244.71,
+ECU,oil_palm,AGRPLM;AG_PLM;AG_PAL (if oil palm),254,Oil palm fruit,2023,211.4,1.029494,217.64,
+ECU,oil_palm,AGRPLM;AG_PLM;AG_PAL (if oil palm),254,Oil palm fruit,avg_2019_2023,,,238.47,simple mean of 5 real 2024 USD annual prices
+HON,oil_palm,AGRPLM;AG_PLM;AG_PAL (if oil palm),254,Oil palm fruit,2022,199.9,1.071873,214.27,
+HON,oil_palm,AGRPLM;AG_PLM;AG_PAL (if oil palm),254,Oil palm fruit,2023,134.4,1.029494,138.36,
+HON,oil_palm,AGRPLM;AG_PLM;AG_PAL (if oil palm),254,Oil palm fruit,avg_2019_2023,,,176.32,simple mean of 2 real 2024 USD annual prices
+CR,pineapple,AGRPIN,574,Pineapples,2022,247.9,1.071873,265.72,
+CR,pineapple,AGRPIN,574,Pineapples,2023,295.9,1.029494,304.63,
+CR,pineapple,AGRPIN,574,Pineapples,avg_2019_2023,,,285.17,simple mean of 2 real 2024 USD annual prices
+DR,pineapple,AGRPIN,574,Pineapples,2019,1680.8,1.226992,2062.33,
+DR,pineapple,AGRPIN,574,Pineapples,2020,1468.8,1.212039,1780.24,
+DR,pineapple,AGRPIN,574,Pineapples,2021,1395.3,1.157652,1615.27,
+DR,pineapple,AGRPIN,574,Pineapples,2022,306.8,1.071873,328.85,
+DR,pineapple,AGRPIN,574,Pineapples,2023,395.0,1.029494,406.65,
+DR,pineapple,AGRPIN,574,Pineapples,avg_2019_2023,,,1238.67,simple mean of 5 real 2024 USD annual prices
+ECU,pineapple,AGRPIN,574,Pineapples,2019,502.1,1.226992,616.07,
+ECU,pineapple,AGRPIN,574,Pineapples,2020,478.4,1.212039,579.84,
+ECU,pineapple,AGRPIN,574,Pineapples,2021,452.3,1.157652,523.61,
+ECU,pineapple,AGRPIN,574,Pineapples,2022,457.6,1.071873,490.49,
+ECU,pineapple,AGRPIN,574,Pineapples,2023,389.7,1.029494,401.19,
+ECU,pineapple,AGRPIN,574,Pineapples,avg_2019_2023,,,522.24,simple mean of 5 real 2024 USD annual prices
+HON,pineapple,AGRPIN,574,Pineapples,2022,554.6,1.071873,594.46,
+HON,pineapple,AGRPIN,574,Pineapples,2023,553.9,1.029494,570.24,
+HON,pineapple,AGRPIN,574,Pineapples,avg_2019_2023,,,582.35,simple mean of 2 real 2024 USD annual prices
+JAM,pineapple,AGRPIN,574,Pineapples,2019,1444.2,1.226992,1772.02,
+JAM,pineapple,AGRPIN,574,Pineapples,2020,1251.6,1.212039,1516.99,
+JAM,pineapple,AGRPIN,574,Pineapples,2021,1108.0,1.157652,1282.68,
+JAM,pineapple,AGRPIN,574,Pineapples,2022,1101.4,1.071873,1180.56,
+JAM,pineapple,AGRPIN,574,Pineapples,2023,1384.3,1.029494,1425.13,
+JAM,pineapple,AGRPIN,574,Pineapples,avg_2019_2023,,,1435.48,simple mean of 5 real 2024 USD annual prices
+CR,oranges,AGRORG,490,Oranges,2022,71.7,1.071873,76.85,
+CR,oranges,AGRORG,490,Oranges,avg_2019_2023,,,76.85,simple mean of 1 real 2024 USD annual prices
+DR,oranges,AGRORG,490,Oranges,2019,247.0,1.226992,303.07,
+DR,oranges,AGRORG,490,Oranges,2020,238.1,1.212039,288.59,
+DR,oranges,AGRORG,490,Oranges,2021,301.7,1.157652,349.26,
+DR,oranges,AGRORG,490,Oranges,2022,343.9,1.071873,368.62,
+DR,oranges,AGRORG,490,Oranges,2023,414.6,1.029494,426.83,
+DR,oranges,AGRORG,490,Oranges,avg_2019_2023,,,347.27,simple mean of 5 real 2024 USD annual prices
+ECU,oranges,AGRORG,490,Oranges,2019,306.2,1.226992,375.7,
+ECU,oranges,AGRORG,490,Oranges,2020,335.4,1.212039,406.52,
+ECU,oranges,AGRORG,490,Oranges,2021,247.8,1.157652,286.87,
+ECU,oranges,AGRORG,490,Oranges,2022,274.3,1.071873,294.01,
+ECU,oranges,AGRORG,490,Oranges,2023,301.5,1.029494,310.39,
+ECU,oranges,AGRORG,490,Oranges,avg_2019_2023,,,334.7,simple mean of 5 real 2024 USD annual prices
+JAM,oranges,AGRORG,490,Oranges,2019,2385.4,1.226992,2926.87,
+JAM,oranges,AGRORG,490,Oranges,2020,2233.1,1.212039,2706.6,
+JAM,oranges,AGRORG,490,Oranges,2021,2188.5,1.157652,2533.52,
+JAM,oranges,AGRORG,490,Oranges,avg_2019_2023,,,2722.33,simple mean of 3 real 2024 USD annual prices
+CR,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",426;393;397;372;403;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2019,860.77,1.226992,1056.15,"production-weighted mean of 6 items (weights: FAOSTAT QCL production t, same year)"
+CR,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",426;393;397;372;403;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2020,868.81,1.212039,1053.03,"production-weighted mean of 6 items (weights: FAOSTAT QCL production t, same year)"
+CR,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",426;393;397;372;403;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2021,952.11,1.157652,1102.21,"production-weighted mean of 6 items (weights: FAOSTAT QCL production t, same year)"
+CR,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",426;393;397;372;403;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2022,960.27,1.071873,1029.29,"production-weighted mean of 6 items (weights: FAOSTAT QCL production t, same year)"
+CR,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",426;393;397;403;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2023,1218.52,1.029494,1254.46,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+CR,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",358;366;367;372;373;388;393;394;397;399;401;402;403;406;407;414;417;420;423;426;430;446;449;463,Vegetables: production-weighted mean of FAO vegetable items with a price,avg_2019_2023,,,1099.03,simple mean of 5 real 2024 USD annual prices
+DR,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",358;426;401;397;399;406;372;403;394;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2019,577.08,1.226992,708.07,"production-weighted mean of 10 items (weights: FAOSTAT QCL production t, same year)"
+DR,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",358;426;401;397;399;406;372;403;394;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2020,597.59,1.212039,724.31,"production-weighted mean of 10 items (weights: FAOSTAT QCL production t, same year)"
+DR,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",358;426;401;397;399;406;372;403;394;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2021,541.23,1.157652,626.55,"production-weighted mean of 10 items (weights: FAOSTAT QCL production t, same year)"
+DR,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",358;426;393;401;397;399;406;372;403;394;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2022,645.05,1.071873,691.41,"production-weighted mean of 11 items (weights: FAOSTAT QCL production t, same year)"
+DR,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",358;426;393;401;397;399;406;372;403;394;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2023,688.41,1.029494,708.71,"production-weighted mean of 11 items (weights: FAOSTAT QCL production t, same year)"
+DR,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",358;366;367;372;373;388;393;394;397;399;401;402;403;406;407;414;417;420;423;426;430;446;449;463,Vegetables: production-weighted mean of FAO vegetable items with a price,avg_2019_2023,,,691.81,simple mean of 5 real 2024 USD annual prices
+ECU,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",420;358;426;393;372;403;402;414;417;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2019,392.73,1.226992,481.88,"production-weighted mean of 10 items (weights: FAOSTAT QCL production t, same year)"
+ECU,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",420;358;426;393;372;402;414;417;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2020,435.62,1.212039,527.98,"production-weighted mean of 9 items (weights: FAOSTAT QCL production t, same year)"
+ECU,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",420;358;426;393;372;402;414;417;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2021,398.77,1.157652,461.64,"production-weighted mean of 9 items (weights: FAOSTAT QCL production t, same year)"
+ECU,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",420;358;426;393;372;402;414;417;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2022,418.47,1.071873,448.54,"production-weighted mean of 9 items (weights: FAOSTAT QCL production t, same year)"
+ECU,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",367;420;358;426;393;401;397;406;372;402;414;417;394;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2023,508.66,1.029494,523.66,"production-weighted mean of 14 items (weights: FAOSTAT QCL production t, same year)"
+ECU,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",358;366;367;372;373;388;393;394;397;399;401;402;403;406;407;414;417;420;423;426;430;446;449;463,Vegetables: production-weighted mean of FAO vegetable items with a price,avg_2019_2023,,,488.74,simple mean of 5 real 2024 USD annual prices
+HON,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",401;397;399;372;403;394;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2022,866.24,1.071873,928.49,"production-weighted mean of 7 items (weights: FAOSTAT QCL production t, same year)"
+HON,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",401;397;399;372;403;394;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2023,909.17,1.029494,935.98,"production-weighted mean of 7 items (weights: FAOSTAT QCL production t, same year)"
+HON,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",358;366;367;372;373;388;393;394;397;399;401;402;403;406;407;414;417;420;423;426;430;446;449;463,Vegetables: production-weighted mean of FAO vegetable items with a price,avg_2019_2023,,,932.24,simple mean of 2 real 2024 USD annual prices
+JAM,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",358;426;393;401;397;399;446;372;430;403;402;463;394;373;423;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2019,1328.67,1.226992,1630.27,"production-weighted mean of 16 items (weights: FAOSTAT QCL production t, same year)"
+JAM,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",358;426;393;401;397;399;446;372;430;403;402;463;394;373;423;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2020,1406.15,1.212039,1704.31,"production-weighted mean of 16 items (weights: FAOSTAT QCL production t, same year)"
+JAM,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",358;426;393;401;397;399;446;372;430;403;402;463;394;373;423;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2021,1344.39,1.157652,1556.33,"production-weighted mean of 16 items (weights: FAOSTAT QCL production t, same year)"
+JAM,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",358;426;393;401;397;399;372;430;403;402;463;394;373;423;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2022,1380.2,1.071873,1479.39,"production-weighted mean of 15 items (weights: FAOSTAT QCL production t, same year)"
+JAM,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",358;426;393;401;397;399;372;430;403;402;463;394;373;423;388,Vegetables: production-weighted mean of FAO vegetable items with a price,2023,1906.25,1.029494,1962.47,"production-weighted mean of 15 items (weights: FAOSTAT QCL production t, same year)"
+JAM,vegetables,"AGRVEG;AG_VEG;AG_LEG (HON, if vegetables)",358;366;367;372;373;388;393;394;397;399;401;402;403;406;407;414;417;420;423;426;430;446;449;463,Vegetables: production-weighted mean of FAO vegetable items with a price,avg_2019_2023,,,1666.55,simple mean of 5 real 2024 USD annual prices
+CR,other_grains,AGROTG,56,Cereals other than rice: production-weighted mean,2019,370.0,1.226992,453.99,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+CR,other_grains,AGROTG,56,Cereals other than rice: production-weighted mean,2020,392.1,1.212039,475.24,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+CR,other_grains,AGROTG,56,Cereals other than rice: production-weighted mean,2021,329.2,1.157652,381.1,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+CR,other_grains,AGROTG,56,Cereals other than rice: production-weighted mean,2022,434.1,1.071873,465.3,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+CR,other_grains,AGROTG,15;44;56;71;75;79;83;92;108,Cereals other than rice: production-weighted mean,avg_2019_2023,,,443.91,simple mean of 4 real 2024 USD annual prices
+DR,other_grains,AGROTG,56;83,Cereals other than rice: production-weighted mean,2019,435.06,1.226992,533.82,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+DR,other_grains,AGROTG,56;83,Cereals other than rice: production-weighted mean,2020,367.03,1.212039,444.86,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+DR,other_grains,AGROTG,56;83,Cereals other than rice: production-weighted mean,2021,405.91,1.157652,469.91,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+DR,other_grains,AGROTG,56,Cereals other than rice: production-weighted mean,2022,528.8,1.071873,566.81,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+DR,other_grains,AGROTG,56,Cereals other than rice: production-weighted mean,2023,591.0,1.029494,608.43,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+DR,other_grains,AGROTG,15;44;56;71;75;79;83;92;108,Cereals other than rice: production-weighted mean,avg_2019_2023,,,524.76,simple mean of 5 real 2024 USD annual prices
+ECU,other_grains,AGROTG,44;56;92;15,Cereals other than rice: production-weighted mean,2019,336.7,1.226992,413.13,"production-weighted mean of 4 items (weights: FAOSTAT QCL production t, same year)"
+ECU,other_grains,AGROTG,44;56;92;15,Cereals other than rice: production-weighted mean,2020,342.68,1.212039,415.35,"production-weighted mean of 4 items (weights: FAOSTAT QCL production t, same year)"
+ECU,other_grains,AGROTG,44;56;92;15,Cereals other than rice: production-weighted mean,2021,346.94,1.157652,401.63,"production-weighted mean of 4 items (weights: FAOSTAT QCL production t, same year)"
+ECU,other_grains,AGROTG,44;56;92;15,Cereals other than rice: production-weighted mean,2022,408.97,1.071873,438.36,"production-weighted mean of 4 items (weights: FAOSTAT QCL production t, same year)"
+ECU,other_grains,AGROTG,44;56;75;92;71;15,Cereals other than rice: production-weighted mean,2023,294.09,1.029494,302.76,"production-weighted mean of 6 items (weights: FAOSTAT QCL production t, same year)"
+ECU,other_grains,AGROTG,15;44;56;71;75;79;83;92;108,Cereals other than rice: production-weighted mean,avg_2019_2023,,,394.25,simple mean of 5 real 2024 USD annual prices
+HON,other_grains,AGROTG,56,Cereals other than rice: production-weighted mean,2022,532.2,1.071873,570.45,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+HON,other_grains,AGROTG,56,Cereals other than rice: production-weighted mean,2023,490.5,1.029494,504.97,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+HON,other_grains,AGROTG,15;44;56;71;75;79;83;92;108,Cereals other than rice: production-weighted mean,avg_2019_2023,,,537.71,simple mean of 2 real 2024 USD annual prices
+JAM,other_grains,AGROTG,56,Cereals other than rice: production-weighted mean,2019,4473.9,1.226992,5489.44,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+JAM,other_grains,AGROTG,56,Cereals other than rice: production-weighted mean,2020,4922.5,1.212039,5966.26,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+JAM,other_grains,AGROTG,56,Cereals other than rice: production-weighted mean,2021,6163.5,1.157652,7135.19,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+JAM,other_grains,AGROTG,56,Cereals other than rice: production-weighted mean,2022,7035.7,1.071873,7541.38,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+JAM,other_grains,AGROTG,56,Cereals other than rice: production-weighted mean,2023,8518.8,1.029494,8770.05,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+JAM,other_grains,AGROTG,15;44;56;71;75;79;83;92;108,Cereals other than rice: production-weighted mean,avg_2019_2023,,,6980.46,simple mean of 5 real 2024 USD annual prices
+CR,cereals,AG_CER,56;27,Cereals: production-weighted mean,2019,497.13,1.226992,609.97,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+CR,cereals,AG_CER,56;27,Cereals: production-weighted mean,2020,509.13,1.212039,617.09,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+CR,cereals,AG_CER,56;27,Cereals: production-weighted mean,2021,501.81,1.157652,580.92,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+CR,cereals,AG_CER,56;27,Cereals: production-weighted mean,2022,520.63,1.071873,558.04,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+CR,cereals,AG_CER,15;27;44;56;71;75;79;83;92;108,Cereals: production-weighted mean,avg_2019_2023,,,591.51,simple mean of 4 real 2024 USD annual prices
+DR,cereals,AG_CER,56;27;83,Cereals: production-weighted mean,2019,403.72,1.226992,495.36,"production-weighted mean of 3 items (weights: FAOSTAT QCL production t, same year)"
+DR,cereals,AG_CER,56;27;83,Cereals: production-weighted mean,2020,375.06,1.212039,454.58,"production-weighted mean of 3 items (weights: FAOSTAT QCL production t, same year)"
+DR,cereals,AG_CER,56;27;83,Cereals: production-weighted mean,2021,397.94,1.157652,460.67,"production-weighted mean of 3 items (weights: FAOSTAT QCL production t, same year)"
+DR,cereals,AG_CER,56;27,Cereals: production-weighted mean,2022,452.56,1.071873,485.09,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+DR,cereals,AG_CER,56;27,Cereals: production-weighted mean,2023,475.58,1.029494,489.61,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+DR,cereals,AG_CER,15;27;44;56;71;75;79;83;92;108,Cereals: production-weighted mean,avg_2019_2023,,,477.06,simple mean of 5 real 2024 USD annual prices
+ECU,cereals,AG_CER,44;56;92;27;15,Cereals: production-weighted mean,2019,330.97,1.226992,406.09,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+ECU,cereals,AG_CER,44;56;92;27;15,Cereals: production-weighted mean,2020,350.12,1.212039,424.36,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+ECU,cereals,AG_CER,44;56;92;27;15,Cereals: production-weighted mean,2021,311.78,1.157652,360.93,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+ECU,cereals,AG_CER,44;56;92;27;15,Cereals: production-weighted mean,2022,374.97,1.071873,401.92,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+ECU,cereals,AG_CER,44;56;75;92;27;71;15,Cereals: production-weighted mean,2023,348.62,1.029494,358.91,"production-weighted mean of 7 items (weights: FAOSTAT QCL production t, same year)"
+ECU,cereals,AG_CER,15;27;44;56;71;75;79;83;92;108,Cereals: production-weighted mean,avg_2019_2023,,,390.44,simple mean of 5 real 2024 USD annual prices
+HON,cereals,AG_CER,56,Cereals: production-weighted mean,2022,532.2,1.071873,570.45,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+HON,cereals,AG_CER,56,Cereals: production-weighted mean,2023,490.5,1.029494,504.97,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+HON,cereals,AG_CER,15;27;44;56;71;75;79;83;92;108,Cereals: production-weighted mean,avg_2019_2023,,,537.71,simple mean of 2 real 2024 USD annual prices
+JAM,cereals,AG_CER,56,Cereals: production-weighted mean,2019,4473.9,1.226992,5489.44,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+JAM,cereals,AG_CER,56,Cereals: production-weighted mean,2020,4922.5,1.212039,5966.26,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+JAM,cereals,AG_CER,56,Cereals: production-weighted mean,2021,6163.5,1.157652,7135.19,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+JAM,cereals,AG_CER,56,Cereals: production-weighted mean,2022,7035.7,1.071873,7541.38,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+JAM,cereals,AG_CER,56,Cereals: production-weighted mean,2023,8518.8,1.029494,8770.05,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+JAM,cereals,AG_CER,15;27;44;56;71;75;79;83;92;108,Cereals: production-weighted mean,avg_2019_2023,,,6980.46,simple mean of 5 real 2024 USD annual prices
+CR,maize,AG_MAI,56,Maize (corn),2019,370.0,1.226992,453.99,
+CR,maize,AG_MAI,56,Maize (corn),2020,392.1,1.212039,475.24,
+CR,maize,AG_MAI,56,Maize (corn),2021,329.2,1.157652,381.1,
+CR,maize,AG_MAI,56,Maize (corn),2022,434.1,1.071873,465.3,
+CR,maize,AG_MAI,56,Maize (corn),avg_2019_2023,,,443.91,simple mean of 4 real 2024 USD annual prices
+DR,maize,AG_MAI,56,Maize (corn),2019,437.7,1.226992,537.05,
+DR,maize,AG_MAI,56,Maize (corn),2020,364.6,1.212039,441.91,
+DR,maize,AG_MAI,56,Maize (corn),2021,404.0,1.157652,467.69,
+DR,maize,AG_MAI,56,Maize (corn),2022,528.8,1.071873,566.81,
+DR,maize,AG_MAI,56,Maize (corn),2023,591.0,1.029494,608.43,
+DR,maize,AG_MAI,56,Maize (corn),avg_2019_2023,,,524.38,simple mean of 5 real 2024 USD annual prices
+ECU,maize,AG_MAI,56,Maize (corn),2019,330.1,1.226992,405.03,
+ECU,maize,AG_MAI,56,Maize (corn),2020,333.4,1.212039,404.09,
+ECU,maize,AG_MAI,56,Maize (corn),2021,343.8,1.157652,398.0,
+ECU,maize,AG_MAI,56,Maize (corn),2022,406.9,1.071873,436.15,
+ECU,maize,AG_MAI,56,Maize (corn),2023,290.5,1.029494,299.07,
+ECU,maize,AG_MAI,56,Maize (corn),avg_2019_2023,,,388.47,simple mean of 5 real 2024 USD annual prices
+HON,maize,AG_MAI,56,Maize (corn),2022,532.2,1.071873,570.45,
+HON,maize,AG_MAI,56,Maize (corn),2023,490.5,1.029494,504.97,
+HON,maize,AG_MAI,56,Maize (corn),avg_2019_2023,,,537.71,simple mean of 2 real 2024 USD annual prices
+JAM,maize,AG_MAI,56,Maize (corn),2019,4473.9,1.226992,5489.44,
+JAM,maize,AG_MAI,56,Maize (corn),2020,4922.5,1.212039,5966.26,
+JAM,maize,AG_MAI,56,Maize (corn),2021,6163.5,1.157652,7135.19,
+JAM,maize,AG_MAI,56,Maize (corn),2022,7035.7,1.071873,7541.38,
+JAM,maize,AG_MAI,56,Maize (corn),2023,8518.8,1.029494,8770.05,
+JAM,maize,AG_MAI,56,Maize (corn),avg_2019_2023,,,6980.46,simple mean of 5 real 2024 USD annual prices
+CR,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,2021,31.2,1.157652,36.12,
+CR,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,2022,31.5,1.071873,33.76,
+CR,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,2023,39.3,1.029494,40.46,
+CR,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,avg_2019_2023,,,36.78,simple mean of 3 real 2024 USD annual prices
+ECU,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,2019,30.5,1.226992,37.42,
+ECU,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,2020,31.3,1.212039,37.94,
+ECU,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,2021,29.4,1.157652,34.03,
+ECU,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,2022,30.4,1.071873,32.58,
+ECU,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,2023,32.2,1.029494,33.15,
+ECU,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,avg_2019_2023,,,35.03,simple mean of 5 real 2024 USD annual prices
+HON,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,2022,28.4,1.071873,30.44,
+HON,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,2023,31.8,1.029494,32.74,
+HON,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,avg_2019_2023,,,31.59,simple mean of 2 real 2024 USD annual prices
+JAM,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,2019,28.5,1.226992,34.97,
+JAM,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,2020,46.0,1.212039,55.75,
+JAM,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,2021,47.8,1.157652,55.34,
+JAM,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,2022,55.3,1.071873,59.27,
+JAM,sugar_cane,AG_SGC;AG_SUG,156,Sugar cane,avg_2019_2023,,,51.33,simple mean of 4 real 2024 USD annual prices
+DR,cocoa,AG_COC,661,Cocoa beans,2019,2214.9,1.226992,2717.66,
+DR,cocoa,AG_COC,661,Cocoa beans,2020,2265.7,1.212039,2746.12,
+DR,cocoa,AG_COC,661,Cocoa beans,2021,2360.5,1.157652,2732.64,
+DR,cocoa,AG_COC,661,Cocoa beans,2022,2255.4,1.071873,2417.5,
+DR,cocoa,AG_COC,661,Cocoa beans,2023,2159.6,1.029494,2223.3,
+DR,cocoa,AG_COC,661,Cocoa beans,avg_2019_2023,,,2567.44,simple mean of 5 real 2024 USD annual prices
+ECU,cocoa,AG_COC,661,Cocoa beans,2019,2035.1,1.226992,2497.05,
+ECU,cocoa,AG_COC,661,Cocoa beans,2020,2096.6,1.212039,2541.16,
+ECU,cocoa,AG_COC,661,Cocoa beans,2021,2427.9,1.157652,2810.66,
+ECU,cocoa,AG_COC,661,Cocoa beans,2022,2373.9,1.071873,2544.52,
+ECU,cocoa,AG_COC,661,Cocoa beans,2023,2586.5,1.029494,2662.79,
+ECU,cocoa,AG_COC,661,Cocoa beans,avg_2019_2023,,,2611.24,simple mean of 5 real 2024 USD annual prices
+JAM,cocoa,AG_COC,661,Cocoa beans,2019,2025.3,1.226992,2485.03,
+JAM,cocoa,AG_COC,661,Cocoa beans,2020,1896.0,1.212039,2298.03,
+JAM,cocoa,AG_COC,661,Cocoa beans,2021,1790.6,1.157652,2072.89,
+JAM,cocoa,AG_COC,661,Cocoa beans,avg_2019_2023,,,2285.31,simple mean of 3 real 2024 USD annual prices
+CR,fruit,AG_FRT,486;600;489;567,Fruit: production-weighted mean of FAO fruit items with a price,2019,446.72,1.226992,548.12,"production-weighted mean of 4 items (weights: FAOSTAT QCL production t, same year)"
+CR,fruit,AG_FRT,486;497;600;489;544;567,Fruit: production-weighted mean of FAO fruit items with a price,2020,451.88,1.212039,547.7,"production-weighted mean of 6 items (weights: FAOSTAT QCL production t, same year)"
+CR,fruit,AG_FRT,572;497;600;489;544;567,Fruit: production-weighted mean of FAO fruit items with a price,2021,466.91,1.157652,540.52,"production-weighted mean of 6 items (weights: FAOSTAT QCL production t, same year)"
+CR,fruit,AG_FRT,572;486;497;571;490;600;574;544;567,Fruit: production-weighted mean of FAO fruit items with a price,2022,206.62,1.071873,221.47,"production-weighted mean of 9 items (weights: FAOSTAT QCL production t, same year)"
+CR,fruit,AG_FRT,486;568;600;574;544;567,Fruit: production-weighted mean of FAO fruit items with a price,2023,279.37,1.029494,287.61,"production-weighted mean of 6 items (weights: FAOSTAT QCL production t, same year)"
+CR,fruit,AG_FRT,486;489;490;495;497;507;512;515;521;526;531;534;536;544;547;558;560;567;568;569;571;572;574;600;603;619,Fruit: production-weighted mean of FAO fruit items with a price,avg_2019_2023,,,429.08,simple mean of 5 real 2024 USD annual prices
+DR,fruit,AG_FRT,572;568;497;571;490;600;574;507,Fruit: production-weighted mean of FAO fruit items with a price,2019,828.41,1.226992,1016.45,"production-weighted mean of 8 items (weights: FAOSTAT QCL production t, same year)"
+DR,fruit,AG_FRT,572;568;497;571;490;600;574;507,Fruit: production-weighted mean of FAO fruit items with a price,2020,759.46,1.212039,920.49,"production-weighted mean of 8 items (weights: FAOSTAT QCL production t, same year)"
+DR,fruit,AG_FRT,572;568;497;571;490;600;574;507,Fruit: production-weighted mean of FAO fruit items with a price,2021,788.66,1.157652,912.99,"production-weighted mean of 8 items (weights: FAOSTAT QCL production t, same year)"
+DR,fruit,AG_FRT,572;486;568;531;497;571;490;603;600;574;507;544;567,Fruit: production-weighted mean of FAO fruit items with a price,2022,358.95,1.071873,384.75,"production-weighted mean of 13 items (weights: FAOSTAT QCL production t, same year)"
+DR,fruit,AG_FRT,572;486;568;531;497;571;490;603;600;574;507;544;567,Fruit: production-weighted mean of FAO fruit items with a price,2023,403.49,1.029494,415.39,"production-weighted mean of 13 items (weights: FAOSTAT QCL production t, same year)"
+DR,fruit,AG_FRT,486;489;490;495;497;507;512;515;521;526;531;534;536;544;547;558;560;567;568;569;571;572;574;600;603;619,Fruit: production-weighted mean of FAO fruit items with a price,avg_2019_2023,,,730.02,simple mean of 5 real 2024 USD annual prices
+ECU,fruit,AG_FRT,572;486;568;497;490;574;489;544;567,Fruit: production-weighted mean of FAO fruit items with a price,2019,329.37,1.226992,404.14,"production-weighted mean of 9 items (weights: FAOSTAT QCL production t, same year)"
+ECU,fruit,AG_FRT,572;486;568;497;490;574;489;567,Fruit: production-weighted mean of FAO fruit items with a price,2020,327.19,1.212039,396.56,"production-weighted mean of 8 items (weights: FAOSTAT QCL production t, same year)"
+ECU,fruit,AG_FRT,572;486;568;497;490;574;489;567,Fruit: production-weighted mean of FAO fruit items with a price,2021,322.74,1.157652,373.62,"production-weighted mean of 8 items (weights: FAOSTAT QCL production t, same year)"
+ECU,fruit,AG_FRT,572;486;568;497;490;574;489;567,Fruit: production-weighted mean of FAO fruit items with a price,2022,273.61,1.071873,293.27,"production-weighted mean of 8 items (weights: FAOSTAT QCL production t, same year)"
+ECU,fruit,AG_FRT,515;572;568;560;497;571;490;603;600;534;521;574;536;507;544;567,Fruit: production-weighted mean of FAO fruit items with a price,2023,444.75,1.029494,457.87,"production-weighted mean of 16 items (weights: FAOSTAT QCL production t, same year)"
+ECU,fruit,AG_FRT,486;489;490;495;497;507;512;515;521;526;531;534;536;544;547;558;560;567;568;569;571;572;574;600;603;619,Fruit: production-weighted mean of FAO fruit items with a price,avg_2019_2023,,,385.09,simple mean of 5 real 2024 USD annual prices
+HON,fruit,AG_FRT,486;568;574;567,Fruit: production-weighted mean of FAO fruit items with a price,2022,530.41,1.071873,568.54,"production-weighted mean of 4 items (weights: FAOSTAT QCL production t, same year)"
+HON,fruit,AG_FRT,486;568;574;567,Fruit: production-weighted mean of FAO fruit items with a price,2023,528.71,1.029494,544.31,"production-weighted mean of 4 items (weights: FAOSTAT QCL production t, same year)"
+HON,fruit,AG_FRT,486;489;490;495;497;507;512;515;521;526;531;534;536;544;547;558;560;567;568;569;571;572;574;600;603;619,Fruit: production-weighted mean of FAO fruit items with a price,avg_2019_2023,,,556.42,simple mean of 2 real 2024 USD annual prices
+JAM,fruit,AG_FRT,486;568;497;490;600;574;489;507;495;567,Fruit: production-weighted mean of FAO fruit items with a price,2019,1564.74,1.226992,1919.93,"production-weighted mean of 10 items (weights: FAOSTAT QCL production t, same year)"
+JAM,fruit,AG_FRT,486;568;490;600;574;489;567,Fruit: production-weighted mean of FAO fruit items with a price,2020,1294.13,1.212039,1568.54,"production-weighted mean of 7 items (weights: FAOSTAT QCL production t, same year)"
+JAM,fruit,AG_FRT,486;568;490;600;574;489;567,Fruit: production-weighted mean of FAO fruit items with a price,2021,1269.65,1.157652,1469.81,"production-weighted mean of 7 items (weights: FAOSTAT QCL production t, same year)"
+JAM,fruit,AG_FRT,486;568;600;574;489;567,Fruit: production-weighted mean of FAO fruit items with a price,2022,1011.43,1.071873,1084.12,"production-weighted mean of 6 items (weights: FAOSTAT QCL production t, same year)"
+JAM,fruit,AG_FRT,486;568;600;574;567,Fruit: production-weighted mean of FAO fruit items with a price,2023,1197.08,1.029494,1232.39,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+JAM,fruit,AG_FRT,486;489;490;495;497;507;512;515;521;526;531;534;536;544;547;558;560;567;568;569;571;572;574;600;603;619,Fruit: production-weighted mean of FAO fruit items with a price,avg_2019_2023,,,1454.96,simple mean of 5 real 2024 USD annual prices
+ECU,soy,AG_SOY,236,Soya beans,2019,588.0,1.226992,721.47,
+ECU,soy,AG_SOY,236,Soya beans,2020,507.7,1.212039,615.35,
+ECU,soy,AG_SOY,236,Soya beans,2021,542.3,1.157652,627.79,
+ECU,soy,AG_SOY,236,Soya beans,2022,644.7,1.071873,691.04,
+ECU,soy,AG_SOY,236,Soya beans,2023,558.6,1.029494,575.08,
+ECU,soy,AG_SOY,236,Soya beans,avg_2019_2023,,,646.15,simple mean of 5 real 2024 USD annual prices
+CR,legumes_pulses,AG_LEG,176,Pulses: production-weighted mean,2019,1110.3,1.226992,1362.33,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+CR,legumes_pulses,AG_LEG,176,Pulses: production-weighted mean,2020,1117.7,1.212039,1354.7,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+CR,legumes_pulses,AG_LEG,176,Pulses: production-weighted mean,2021,1274.4,1.157652,1475.31,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+CR,legumes_pulses,AG_LEG,176,Pulses: production-weighted mean,2022,1210.7,1.071873,1297.72,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+CR,legumes_pulses,AG_LEG,176,Pulses: production-weighted mean,2023,1883.7,1.029494,1939.26,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+CR,legumes_pulses,AG_LEG,176;181;187;191;195;197;201;210;211,Pulses: production-weighted mean,avg_2019_2023,,,1485.86,simple mean of 5 real 2024 USD annual prices
+DR,legumes_pulses,AG_LEG,176;181;187;197,Pulses: production-weighted mean,2019,971.65,1.226992,1192.21,"production-weighted mean of 4 items (weights: FAOSTAT QCL production t, same year)"
+DR,legumes_pulses,AG_LEG,176;181;187;197,Pulses: production-weighted mean,2020,979.03,1.212039,1186.62,"production-weighted mean of 4 items (weights: FAOSTAT QCL production t, same year)"
+DR,legumes_pulses,AG_LEG,176;181;187;197,Pulses: production-weighted mean,2021,1043.21,1.157652,1207.67,"production-weighted mean of 4 items (weights: FAOSTAT QCL production t, same year)"
+DR,legumes_pulses,AG_LEG,176;181;197,Pulses: production-weighted mean,2022,1198.2,1.071873,1284.32,"production-weighted mean of 3 items (weights: FAOSTAT QCL production t, same year)"
+DR,legumes_pulses,AG_LEG,176;181;197,Pulses: production-weighted mean,2023,1269.34,1.029494,1306.78,"production-weighted mean of 3 items (weights: FAOSTAT QCL production t, same year)"
+DR,legumes_pulses,AG_LEG,176;181;187;191;195;197;201;210;211,Pulses: production-weighted mean,avg_2019_2023,,,1235.52,simple mean of 5 real 2024 USD annual prices
+ECU,legumes_pulses,AG_LEG,176;201,Pulses: production-weighted mean,2019,1801.85,1.226992,2210.85,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+ECU,legumes_pulses,AG_LEG,176;201,Pulses: production-weighted mean,2020,2205.34,1.212039,2672.95,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+ECU,legumes_pulses,AG_LEG,176;201,Pulses: production-weighted mean,2021,1680.61,1.157652,1945.56,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+ECU,legumes_pulses,AG_LEG,176;201,Pulses: production-weighted mean,2022,1688.09,1.071873,1809.42,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+ECU,legumes_pulses,AG_LEG,176;181;201;187,Pulses: production-weighted mean,2023,1529.01,1.029494,1574.1,"production-weighted mean of 4 items (weights: FAOSTAT QCL production t, same year)"
+ECU,legumes_pulses,AG_LEG,176;181;187;191;195;197;201;210;211,Pulses: production-weighted mean,avg_2019_2023,,,2042.58,simple mean of 5 real 2024 USD annual prices
+HON,legumes_pulses,AG_LEG,176,Pulses: production-weighted mean,2022,1440.8,1.071873,1544.35,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+HON,legumes_pulses,AG_LEG,176,Pulses: production-weighted mean,2023,1793.8,1.029494,1846.71,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+HON,legumes_pulses,AG_LEG,176;181;187;191;195;197;201;210;211,Pulses: production-weighted mean,avg_2019_2023,,,1695.53,simple mean of 2 real 2024 USD annual prices
+JAM,legumes_pulses,AG_LEG,176;181;195;187;197,Pulses: production-weighted mean,2019,2669.69,1.226992,3275.69,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+JAM,legumes_pulses,AG_LEG,176;181;195;187;197,Pulses: production-weighted mean,2020,2738.73,1.212039,3319.45,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+JAM,legumes_pulses,AG_LEG,176;181;195;187;197,Pulses: production-weighted mean,2021,2751.18,1.157652,3184.91,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+JAM,legumes_pulses,AG_LEG,176;181;195;187;197,Pulses: production-weighted mean,2022,2996.79,1.071873,3212.18,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+JAM,legumes_pulses,AG_LEG,176;181;195;187;197,Pulses: production-weighted mean,2023,3449.97,1.029494,3551.72,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+JAM,legumes_pulses,AG_LEG,176;181;187;191;195;197;201;210;211,Pulses: production-weighted mean,avg_2019_2023,,,3308.79,simple mean of 5 real 2024 USD annual prices
+CR,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2019,1110.3,1.226992,1362.33,
+CR,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2020,1117.7,1.212039,1354.7,
+CR,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2021,1274.4,1.157652,1475.31,
+CR,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2022,1210.7,1.071873,1297.72,
+CR,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2023,1883.7,1.029494,1939.26,
+CR,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",avg_2019_2023,,,1485.86,simple mean of 5 real 2024 USD annual prices
+DR,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2019,1290.8,1.226992,1583.8,
+DR,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2020,1348.6,1.212039,1634.56,
+DR,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2021,1388.4,1.157652,1607.28,
+DR,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2022,1550.6,1.071873,1662.05,
+DR,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2023,1529.0,1.029494,1574.1,
+DR,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",avg_2019_2023,,,1612.36,simple mean of 5 real 2024 USD annual prices
+ECU,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2019,1975.5,1.226992,2423.92,
+ECU,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2020,2474.2,1.212039,2998.83,
+ECU,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2021,1728.9,1.157652,2001.46,
+ECU,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2022,1666.5,1.071873,1786.28,
+ECU,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2023,1588.0,1.029494,1634.84,
+ECU,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",avg_2019_2023,,,2169.07,simple mean of 5 real 2024 USD annual prices
+HON,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2022,1440.8,1.071873,1544.35,
+HON,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2023,1793.8,1.029494,1846.71,
+HON,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",avg_2019_2023,,,1695.53,simple mean of 2 real 2024 USD annual prices
+JAM,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2019,2686.2,1.226992,3295.95,
+JAM,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2020,2628.5,1.212039,3185.84,
+JAM,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2021,2049.5,1.157652,2372.61,
+JAM,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2022,2064.5,1.071873,2212.88,
+JAM,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",2023,2321.0,1.029494,2389.46,
+JAM,beans_dry,AG_FRI (HON frijol),176,"Beans, dry",avg_2019_2023,,,2691.35,simple mean of 5 real 2024 USD annual prices
+CR,melons,AG_MEL,568,Cantaloupes and other melons,2023,825.2,1.029494,849.54,
+CR,melons,AG_MEL,568,Cantaloupes and other melons,avg_2019_2023,,,849.54,simple mean of 1 real 2024 USD annual prices
+DR,melons,AG_MEL,568,Cantaloupes and other melons,2019,430.9,1.226992,528.71,
+DR,melons,AG_MEL,568,Cantaloupes and other melons,2020,403.2,1.212039,488.69,
+DR,melons,AG_MEL,568,Cantaloupes and other melons,2021,420.5,1.157652,486.79,
+DR,melons,AG_MEL,568,Cantaloupes and other melons,2022,433.4,1.071873,464.55,
+DR,melons,AG_MEL,568,Cantaloupes and other melons,2023,456.4,1.029494,469.86,
+DR,melons,AG_MEL,568,Cantaloupes and other melons,avg_2019_2023,,,487.72,simple mean of 5 real 2024 USD annual prices
+ECU,melons,AG_MEL,568,Cantaloupes and other melons,2019,597.9,1.226992,733.62,
+ECU,melons,AG_MEL,568,Cantaloupes and other melons,2020,561.3,1.212039,680.32,
+ECU,melons,AG_MEL,568,Cantaloupes and other melons,2021,707.3,1.157652,818.81,
+ECU,melons,AG_MEL,568,Cantaloupes and other melons,2022,781.0,1.071873,837.13,
+ECU,melons,AG_MEL,568,Cantaloupes and other melons,2023,523.3,1.029494,538.73,
+ECU,melons,AG_MEL,568,Cantaloupes and other melons,avg_2019_2023,,,721.72,simple mean of 5 real 2024 USD annual prices
+HON,melons,AG_MEL,568,Cantaloupes and other melons,2022,595.4,1.071873,638.19,
+HON,melons,AG_MEL,568,Cantaloupes and other melons,2023,565.4,1.029494,582.08,
+HON,melons,AG_MEL,568,Cantaloupes and other melons,avg_2019_2023,,,610.13,simple mean of 2 real 2024 USD annual prices
+JAM,melons,AG_MEL,568,Cantaloupes and other melons,2019,1510.7,1.226992,1853.62,
+JAM,melons,AG_MEL,568,Cantaloupes and other melons,2020,1155.1,1.212039,1400.03,
+JAM,melons,AG_MEL,568,Cantaloupes and other melons,2021,1330.9,1.157652,1540.72,
+JAM,melons,AG_MEL,568,Cantaloupes and other melons,2022,1458.4,1.071873,1563.22,
+JAM,melons,AG_MEL,568,Cantaloupes and other melons,2023,1963.3,1.029494,2021.21,
+JAM,melons,AG_MEL,568,Cantaloupes and other melons,avg_2019_2023,,,1675.76,simple mean of 5 real 2024 USD annual prices
+CR,tubers,AG_TUB,125;116,Roots and tubers: production-weighted mean,2019,548.46,1.226992,672.95,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+CR,tubers,AG_TUB,125;116,Roots and tubers: production-weighted mean,2020,503.24,1.212039,609.94,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+CR,tubers,AG_TUB,125;116;137,Roots and tubers: production-weighted mean,2021,568.09,1.157652,657.66,"production-weighted mean of 3 items (weights: FAOSTAT QCL production t, same year)"
+CR,tubers,AG_TUB,125;149;116;137,Roots and tubers: production-weighted mean,2022,708.33,1.071873,759.24,"production-weighted mean of 4 items (weights: FAOSTAT QCL production t, same year)"
+CR,tubers,AG_TUB,125;149;116;137,Roots and tubers: production-weighted mean,2023,1060.25,1.029494,1091.52,"production-weighted mean of 4 items (weights: FAOSTAT QCL production t, same year)"
+CR,tubers,AG_TUB,116;122;125;135;136;137;149,Roots and tubers: production-weighted mean,avg_2019_2023,,,758.26,simple mean of 5 real 2024 USD annual prices
+DR,tubers,AG_TUB,125;116;122;137;135,Roots and tubers: production-weighted mean,2019,490.73,1.226992,602.12,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+DR,tubers,AG_TUB,125;116;122;137;135,Roots and tubers: production-weighted mean,2020,432.48,1.212039,524.19,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+DR,tubers,AG_TUB,125;116;122;137;135,Roots and tubers: production-weighted mean,2021,398.34,1.157652,461.14,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+DR,tubers,AG_TUB,125;116;122;137;135,Roots and tubers: production-weighted mean,2022,558.13,1.071873,598.25,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+DR,tubers,AG_TUB,125;116;122;137;135,Roots and tubers: production-weighted mean,2023,826.06,1.029494,850.42,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+DR,tubers,AG_TUB,116;122;125;135;136;137;149,Roots and tubers: production-weighted mean,avg_2019_2023,,,607.22,simple mean of 5 real 2024 USD annual prices
+ECU,tubers,AG_TUB,125;116,Roots and tubers: production-weighted mean,2019,331.0,1.226992,406.13,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+ECU,tubers,AG_TUB,125;116,Roots and tubers: production-weighted mean,2020,222.71,1.212039,269.93,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+ECU,tubers,AG_TUB,125;116,Roots and tubers: production-weighted mean,2021,310.72,1.157652,359.71,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+ECU,tubers,AG_TUB,125;116,Roots and tubers: production-weighted mean,2022,356.25,1.071873,381.85,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+ECU,tubers,AG_TUB,125;116;122,Roots and tubers: production-weighted mean,2023,338.53,1.029494,348.52,"production-weighted mean of 3 items (weights: FAOSTAT QCL production t, same year)"
+ECU,tubers,AG_TUB,116;122;125;135;136;137;149,Roots and tubers: production-weighted mean,avg_2019_2023,,,353.23,simple mean of 5 real 2024 USD annual prices
+HON,tubers,AG_TUB,125;149;116;122,Roots and tubers: production-weighted mean,2022,706.29,1.071873,757.06,"production-weighted mean of 4 items (weights: FAOSTAT QCL production t, same year)"
+HON,tubers,AG_TUB,125;149;116;122,Roots and tubers: production-weighted mean,2023,896.45,1.029494,922.89,"production-weighted mean of 4 items (weights: FAOSTAT QCL production t, same year)"
+HON,tubers,AG_TUB,116;122;125;135;136;137;149,Roots and tubers: production-weighted mean,avg_2019_2023,,,839.97,simple mean of 2 real 2024 USD annual prices
+JAM,tubers,AG_TUB,125;149;116;122;137,Roots and tubers: production-weighted mean,2019,1283.87,1.226992,1575.29,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+JAM,tubers,AG_TUB,125;149;116;122;137,Roots and tubers: production-weighted mean,2020,1631.96,1.212039,1978.0,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+JAM,tubers,AG_TUB,125;149;116;122;137,Roots and tubers: production-weighted mean,2021,1426.18,1.157652,1651.02,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+JAM,tubers,AG_TUB,125;149;116;122;137,Roots and tubers: production-weighted mean,2022,1418.98,1.071873,1520.97,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+JAM,tubers,AG_TUB,125;149;116;122;137,Roots and tubers: production-weighted mean,2023,2297.74,1.029494,2365.51,"production-weighted mean of 5 items (weights: FAOSTAT QCL production t, same year)"
+JAM,tubers,AG_TUB,116;122;125;135;136;137;149,Roots and tubers: production-weighted mean,avg_2019_2023,,,1818.16,simple mean of 5 real 2024 USD annual prices
+CR,potatoes,AG_POT,116,Potatoes,2019,869.1,1.226992,1066.38,
+CR,potatoes,AG_POT,116,Potatoes,2020,953.4,1.212039,1155.56,
+CR,potatoes,AG_POT,116,Potatoes,2021,927.0,1.157652,1073.14,
+CR,potatoes,AG_POT,116,Potatoes,2022,889.2,1.071873,953.11,
+CR,potatoes,AG_POT,116,Potatoes,2023,1268.9,1.029494,1306.32,
+CR,potatoes,AG_POT,116,Potatoes,avg_2019_2023,,,1110.9,simple mean of 5 real 2024 USD annual prices
+DR,potatoes,AG_POT,116,Potatoes,2019,451.8,1.226992,554.35,
+DR,potatoes,AG_POT,116,Potatoes,2020,457.2,1.212039,554.14,
+DR,potatoes,AG_POT,116,Potatoes,2021,401.0,1.157652,464.22,
+DR,potatoes,AG_POT,116,Potatoes,2022,571.8,1.071873,612.9,
+DR,potatoes,AG_POT,116,Potatoes,2023,736.9,1.029494,758.63,
+DR,potatoes,AG_POT,116,Potatoes,avg_2019_2023,,,588.85,simple mean of 5 real 2024 USD annual prices
+ECU,potatoes,AG_POT,116,Potatoes,2019,370.5,1.226992,454.6,
+ECU,potatoes,AG_POT,116,Potatoes,2020,233.1,1.212039,282.53,
+ECU,potatoes,AG_POT,116,Potatoes,2021,377.2,1.157652,436.67,
+ECU,potatoes,AG_POT,116,Potatoes,2022,405.5,1.071873,434.64,
+ECU,potatoes,AG_POT,116,Potatoes,2023,344.8,1.029494,354.97,
+ECU,potatoes,AG_POT,116,Potatoes,avg_2019_2023,,,392.68,simple mean of 5 real 2024 USD annual prices
+HON,potatoes,AG_POT,116,Potatoes,2022,717.7,1.071873,769.28,
+HON,potatoes,AG_POT,116,Potatoes,2023,810.7,1.029494,834.61,
+HON,potatoes,AG_POT,116,Potatoes,avg_2019_2023,,,801.95,simple mean of 2 real 2024 USD annual prices
+JAM,potatoes,AG_POT,116,Potatoes,2019,1211.9,1.226992,1486.99,
+JAM,potatoes,AG_POT,116,Potatoes,2020,1599.8,1.212039,1939.02,
+JAM,potatoes,AG_POT,116,Potatoes,2021,1370.0,1.157652,1585.98,
+JAM,potatoes,AG_POT,116,Potatoes,2022,1074.3,1.071873,1151.51,
+JAM,potatoes,AG_POT,116,Potatoes,2023,1896.3,1.029494,1952.23,
+JAM,potatoes,AG_POT,116,Potatoes,avg_2019_2023,,,1623.15,simple mean of 5 real 2024 USD annual prices
+CR,yams,AG_YAM,137,Yams,2021,586.0,1.157652,678.38,
+CR,yams,AG_YAM,137,Yams,2022,869.7,1.071873,932.21,
+CR,yams,AG_YAM,137,Yams,2023,1871.3,1.029494,1926.49,
+CR,yams,AG_YAM,137,Yams,avg_2019_2023,,,1179.03,simple mean of 3 real 2024 USD annual prices
+DR,yams,AG_YAM,137,Yams,2019,688.8,1.226992,845.15,
+DR,yams,AG_YAM,137,Yams,2020,729.3,1.212039,883.94,
+DR,yams,AG_YAM,137,Yams,2021,721.7,1.157652,835.48,
+DR,yams,AG_YAM,137,Yams,2022,780.7,1.071873,836.81,
+DR,yams,AG_YAM,137,Yams,2023,994.7,1.029494,1024.04,
+DR,yams,AG_YAM,137,Yams,avg_2019_2023,,,885.08,simple mean of 5 real 2024 USD annual prices
+JAM,yams,AG_YAM,137,Yams,2019,1386.4,1.226992,1701.1,
+JAM,yams,AG_YAM,137,Yams,2020,1932.4,1.212039,2342.14,
+JAM,yams,AG_YAM,137,Yams,2021,1657.2,1.157652,1918.46,
+JAM,yams,AG_YAM,137,Yams,2022,1637.4,1.071873,1755.08,
+JAM,yams,AG_YAM,137,Yams,2023,2565.1,1.029494,2640.76,
+JAM,yams,AG_YAM,137,Yams,avg_2019_2023,,,2071.51,simple mean of 5 real 2024 USD annual prices
+DR,coconut,AG_CNT,249,"Coconuts, in shell",2019,464.9,1.226992,570.43,
+DR,coconut,AG_CNT,249,"Coconuts, in shell",2020,441.0,1.212039,534.51,
+DR,coconut,AG_CNT,249,"Coconuts, in shell",2021,556.0,1.157652,643.65,
+DR,coconut,AG_CNT,249,"Coconuts, in shell",2022,328.4,1.071873,352.0,
+DR,coconut,AG_CNT,249,"Coconuts, in shell",2023,366.2,1.029494,377.0,
+DR,coconut,AG_CNT,249,"Coconuts, in shell",avg_2019_2023,,,495.52,simple mean of 5 real 2024 USD annual prices
+CR,condiments_spices,AG_CON,720,Spices: production-weighted mean,2020,636.5,1.212039,771.46,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+CR,condiments_spices,AG_CON,720,Spices: production-weighted mean,2021,600.8,1.157652,695.52,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+CR,condiments_spices,AG_CON,720,Spices: production-weighted mean,2022,317.2,1.071873,340.0,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+CR,condiments_spices,AG_CON,720,Spices: production-weighted mean,2023,873.9,1.029494,899.67,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+CR,condiments_spices,AG_CON,687;689;692;693;698;702;711;720;723,Spices: production-weighted mean,avg_2019_2023,,,676.66,simple mean of 4 real 2024 USD annual prices
+DR,condiments_spices,AG_CON,720,Spices: production-weighted mean,2019,1031.2,1.226992,1265.27,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+DR,condiments_spices,AG_CON,720,Spices: production-weighted mean,2020,876.3,1.212039,1062.11,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+DR,condiments_spices,AG_CON,720,Spices: production-weighted mean,2021,2092.2,1.157652,2422.04,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+DR,condiments_spices,AG_CON,720,Spices: production-weighted mean,2022,2200.9,1.071873,2359.09,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+DR,condiments_spices,AG_CON,720,Spices: production-weighted mean,2023,2107.9,1.029494,2170.07,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+DR,condiments_spices,AG_CON,687;689;692;693;698;702;711;720;723,Spices: production-weighted mean,avg_2019_2023,,,1855.72,simple mean of 5 real 2024 USD annual prices
+ECU,condiments_spices,AG_CON,687,Spices: production-weighted mean,2023,1207.3,1.029494,1242.91,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+ECU,condiments_spices,AG_CON,687;689;692;693;698;702;711;720;723,Spices: production-weighted mean,avg_2019_2023,,,1242.91,simple mean of 1 real 2024 USD annual prices
+JAM,condiments_spices,AG_CON,689;720,Spices: production-weighted mean,2019,3471.38,1.226992,4259.36,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+JAM,condiments_spices,AG_CON,689;720,Spices: production-weighted mean,2020,3309.12,1.212039,4010.79,"production-weighted mean of 2 items (weights: FAOSTAT QCL production t, same year)"
+JAM,condiments_spices,AG_CON,720,Spices: production-weighted mean,2021,2782.0,1.157652,3220.59,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+JAM,condiments_spices,AG_CON,720,Spices: production-weighted mean,2022,3165.4,1.071873,3392.91,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+JAM,condiments_spices,AG_CON,720,Spices: production-weighted mean,2023,3521.8,1.029494,3625.67,"production-weighted mean of 1 items (weights: FAOSTAT QCL production t, same year)"
+JAM,condiments_spices,AG_CON,687;689;692;693;698;702;711;720;723,Spices: production-weighted mean,avg_2019_2023,,,3701.86,simple mean of 5 real 2024 USD annual prices
+CR,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2019,450.2,1.226992,552.39,
+CR,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2020,452.1,1.212039,547.96,
+CR,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2021,469.1,1.157652,543.05,
+CR,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2022,514.6,1.071873,551.59,
+CR,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2023,619.4,1.029494,637.67,
+CR,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,avg_2019_2023,,,566.53,simple mean of 5 real 2024 USD annual prices
+DR,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2019,401.5,1.226992,492.64,
+DR,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2020,354.9,1.212039,430.15,
+DR,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2021,412.5,1.157652,477.53,
+DR,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2022,458.7,1.071873,491.67,
+DR,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2023,461.4,1.029494,475.01,
+DR,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,avg_2019_2023,,,473.4,simple mean of 5 real 2024 USD annual prices
+ECU,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2019,409.3,1.226992,502.21,
+ECU,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2020,411.0,1.212039,498.15,
+ECU,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2021,388.9,1.157652,450.21,
+ECU,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2022,429.9,1.071873,460.8,
+ECU,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2023,400.0,1.029494,411.8,
+ECU,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,avg_2019_2023,,,464.63,simple mean of 5 real 2024 USD annual prices
+HON,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2022,569.5,1.071873,610.43,
+HON,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2023,600.7,1.029494,618.42,
+HON,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,avg_2019_2023,,,614.42,simple mean of 2 real 2024 USD annual prices
+JAM,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2019,698.8,1.226992,857.42,
+JAM,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2020,673.8,1.212039,816.67,
+JAM,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2021,747.4,1.157652,865.23,
+JAM,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2022,724.1,1.071873,776.14,
+JAM,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,2023,999.0,1.029494,1028.46,
+JAM,milk,GA_LEC;GA_BOVLEC;GA_MILK,882,Raw milk of cattle,avg_2019_2023,,,868.79,simple mean of 5 real 2024 USD annual prices
+HON,beef,GA_CARBOV;GA_BOV,867,"Meat of cattle with the bone, fresh or chilled",2022,4218.0,1.071873,4521.16,
+HON,beef,GA_CARBOV;GA_BOV,867,"Meat of cattle with the bone, fresh or chilled",2023,4620.1,1.029494,4756.37,
+HON,beef,GA_CARBOV;GA_BOV,867,"Meat of cattle with the bone, fresh or chilled",avg_2019_2023,,,4638.76,simple mean of 2 real 2024 USD annual prices
+CR,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2019,1527.4,1.226992,1874.11,
+CR,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2020,1789.5,1.212039,2168.94,
+CR,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2021,2224.4,1.157652,2575.08,
+CR,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2022,2353.7,1.071873,2522.87,
+CR,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2023,2570.9,1.029494,2646.73,
+CR,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",avg_2019_2023,,,2357.55,simple mean of 5 real 2024 USD annual prices
+DR,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2019,1297.9,1.226992,1592.51,
+DR,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2020,1221.0,1.212039,1479.9,
+DR,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2021,1502.8,1.157652,1739.72,
+DR,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2022,1939.3,1.071873,2078.68,
+DR,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2023,1847.5,1.029494,1901.99,
+DR,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",avg_2019_2023,,,1758.56,simple mean of 5 real 2024 USD annual prices
+ECU,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2020,1849.4,1.212039,2241.54,
+ECU,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2021,1816.4,1.157652,2102.76,
+ECU,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2022,1795.9,1.071873,1924.98,
+ECU,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2023,2720.6,1.029494,2800.84,
+ECU,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",avg_2019_2023,,,2267.53,simple mean of 4 real 2024 USD annual prices
+JAM,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2019,3300.5,1.226992,4049.69,
+JAM,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2020,3398.8,1.212039,4119.48,
+JAM,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2021,3355.7,1.157652,3884.73,
+JAM,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2022,2874.3,1.071873,3080.88,
+JAM,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",2023,4281.3,1.029494,4407.57,
+JAM,beef_biological,GA_CARBOV;GA_BOV (FAO '(biological)' series),945,"Meat of cattle with the bone, fresh or chilled (biological)",avg_2019_2023,,,3908.47,simple mean of 5 real 2024 USD annual prices
+HON,pigmeat,GA_CARPOR;GA_POR,1035,"Meat of pig with the bone, fresh or chilled",2022,3988.0,1.071873,4274.63,
+HON,pigmeat,GA_CARPOR;GA_POR,1035,"Meat of pig with the bone, fresh or chilled",2023,3993.3,1.029494,4111.08,
+HON,pigmeat,GA_CARPOR;GA_POR,1035,"Meat of pig with the bone, fresh or chilled",avg_2019_2023,,,4192.85,simple mean of 2 real 2024 USD annual prices
+HON,poultry_meat,GA_CARPOL;GA_AVE,1058,"Meat of chickens, fresh or chilled",2022,1907.0,1.071873,2044.06,
+HON,poultry_meat,GA_CARPOL;GA_AVE,1058,"Meat of chickens, fresh or chilled",2023,1974.2,1.029494,2032.43,
+HON,poultry_meat,GA_CARPOL;GA_AVE,1058,"Meat of chickens, fresh or chilled",avg_2019_2023,,,2038.24,simple mean of 2 real 2024 USD annual prices
+DR,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",2019,2256.7,1.226992,2768.95,
+DR,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",2020,2164.4,1.212039,2623.34,
+DR,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",2021,2953.7,1.157652,3419.36,
+DR,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",2022,4432.1,1.071873,4750.65,
+DR,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",2023,5101.8,1.029494,5252.27,
+DR,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",avg_2019_2023,,,3762.91,simple mean of 5 real 2024 USD annual prices
+ECU,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",2019,1688.8,1.226992,2072.14,
+ECU,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",2020,1622.5,1.212039,1966.53,
+ECU,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",2021,2369.6,1.157652,2743.17,
+ECU,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",2022,1984.0,1.071873,2126.6,
+ECU,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",2023,2500.2,1.029494,2573.94,
+ECU,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",avg_2019_2023,,,2296.48,simple mean of 5 real 2024 USD annual prices
+HON,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",2022,1789.9,1.071873,1918.55,
+HON,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",2023,1967.0,1.029494,2025.01,
+HON,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",avg_2019_2023,,,1971.78,simple mean of 2 real 2024 USD annual prices
+JAM,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",2019,2475.4,1.226992,3037.3,
+JAM,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",2020,2471.9,1.212039,2996.04,
+JAM,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",2021,2772.1,1.157652,3209.13,
+JAM,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",2022,3011.2,1.071873,3227.62,
+JAM,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",2023,3995.9,1.029494,4113.76,
+JAM,pigmeat_biological,GA_CARPOR;GA_POR (FAO '(biological)' series),1056,"Meat of pig with the bone, fresh or chilled (biological)",avg_2019_2023,,,3316.77,simple mean of 5 real 2024 USD annual prices
+DR,poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",2019,1164.9,1.226992,1429.32,
+DR,poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",2020,1124.4,1.212039,1362.82,
+DR,poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",2021,1163.3,1.157652,1346.7,
+DR,poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",2022,1739.0,1.071873,1863.99,
+DR,poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",2023,1731.9,1.029494,1782.98,
+DR,poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",avg_2019_2023,,,1557.16,simple mean of 5 real 2024 USD annual prices
+ECU,poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",2019,1611.3,1.226992,1977.05,
+ECU,poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",2020,1634.0,1.212039,1980.47,
+ECU,poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",2021,1766.7,1.157652,2045.22,
+ECU,poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",2022,1800.2,1.071873,1929.59,
+ECU,poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",avg_2019_2023,,,1983.08,simple mean of 4 real 2024 USD annual prices
+JAM,poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",2019,1485.2,1.226992,1822.33,
+JAM,poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",2020,1544.9,1.212039,1872.48,
+JAM,poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",2021,1750.8,1.157652,2026.82,
+JAM,poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",2022,2155.4,1.071873,2310.32,
+JAM,poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",2023,3718.3,1.029494,3827.97,
+JAM,poultry_meat_biological,GA_CARPOL;GA_AVE (FAO '(biological)' series),1095,"Meat of chickens, fresh or chilled (biological)",avg_2019_2023,,,2371.98,simple mean of 5 real 2024 USD annual prices
+ECU,sheep_meat_biological,GA_OVE;GA_OTRCAR (FAO '(biological)' series),1013,"Meat of sheep, fresh or chilled (biological)",2023,2287.4,1.029494,2354.86,
+ECU,sheep_meat_biological,GA_OVE;GA_OTRCAR (FAO '(biological)' series),1013,"Meat of sheep, fresh or chilled (biological)",avg_2019_2023,,,2354.86,simple mean of 1 real 2024 USD annual prices
+JAM,sheep_meat_biological,GA_OVE;GA_OTRCAR (FAO '(biological)' series),1013,"Meat of sheep, fresh or chilled (biological)",2019,8251.3,1.226992,10124.28,
+JAM,sheep_meat_biological,GA_OVE;GA_OTRCAR (FAO '(biological)' series),1013,"Meat of sheep, fresh or chilled (biological)",2020,8033.5,1.212039,9736.92,
+JAM,sheep_meat_biological,GA_OVE;GA_OTRCAR (FAO '(biological)' series),1013,"Meat of sheep, fresh or chilled (biological)",2021,8024.4,1.157652,9289.46,
+JAM,sheep_meat_biological,GA_OVE;GA_OTRCAR (FAO '(biological)' series),1013,"Meat of sheep, fresh or chilled (biological)",2022,10773.9,1.071873,11548.25,
+JAM,sheep_meat_biological,GA_OVE;GA_OTRCAR (FAO '(biological)' series),1013,"Meat of sheep, fresh or chilled (biological)",2023,11416.8,1.029494,11753.53,
+JAM,sheep_meat_biological,GA_OVE;GA_OTRCAR (FAO '(biological)' series),1013,"Meat of sheep, fresh or chilled (biological)",avg_2019_2023,,,10490.49,simple mean of 5 real 2024 USD annual prices
+DR,goat_meat_biological,GA_CBR;GA_OTRCAR (FAO '(biological)' series),1033,"Meat of goat, fresh or chilled (biological)",2019,2959.4,1.226992,3631.16,
+DR,goat_meat_biological,GA_CBR;GA_OTRCAR (FAO '(biological)' series),1033,"Meat of goat, fresh or chilled (biological)",2020,2923.7,1.212039,3543.64,
+DR,goat_meat_biological,GA_CBR;GA_OTRCAR (FAO '(biological)' series),1033,"Meat of goat, fresh or chilled (biological)",2021,3283.1,1.157652,3800.69,
+DR,goat_meat_biological,GA_CBR;GA_OTRCAR (FAO '(biological)' series),1033,"Meat of goat, fresh or chilled (biological)",2022,5313.1,1.071873,5694.97,
+DR,goat_meat_biological,GA_CBR;GA_OTRCAR (FAO '(biological)' series),1033,"Meat of goat, fresh or chilled (biological)",2023,3304.8,1.029494,3402.27,
+DR,goat_meat_biological,GA_CBR;GA_OTRCAR (FAO '(biological)' series),1033,"Meat of goat, fresh or chilled (biological)",avg_2019_2023,,,4014.55,simple mean of 5 real 2024 USD annual prices
+JAM,goat_meat_biological,GA_CBR;GA_OTRCAR (FAO '(biological)' series),1033,"Meat of goat, fresh or chilled (biological)",2019,5775.9,1.226992,7086.98,
+JAM,goat_meat_biological,GA_CBR;GA_OTRCAR (FAO '(biological)' series),1033,"Meat of goat, fresh or chilled (biological)",2020,5793.4,1.212039,7021.83,
+JAM,goat_meat_biological,GA_CBR;GA_OTRCAR (FAO '(biological)' series),1033,"Meat of goat, fresh or chilled (biological)",2021,5835.9,1.157652,6755.94,
+JAM,goat_meat_biological,GA_CBR;GA_OTRCAR (FAO '(biological)' series),1033,"Meat of goat, fresh or chilled (biological)",2022,10773.9,1.071873,11548.25,
+JAM,goat_meat_biological,GA_CBR;GA_OTRCAR (FAO '(biological)' series),1033,"Meat of goat, fresh or chilled (biological)",2023,11416.8,1.029494,11753.53,
+JAM,goat_meat_biological,GA_CBR;GA_OTRCAR (FAO '(biological)' series),1033,"Meat of goat, fresh or chilled (biological)",avg_2019_2023,,,8833.31,simple mean of 5 real 2024 USD annual prices
