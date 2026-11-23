@@ -56,6 +56,7 @@ all,zero_tolerance,all,1e-09,share,stage1_share_analyzer_v16.py; stage2_apply_v2
 3,reserve_margin,all,1.15,ratio,stage3_apply.py,reserve margin written for the generation fuel
 3,lower_to_upper_factor,all,1.05,ratio,stage3_apply.py,upper activity limit = lower limit times this factor
 3,uncapped_value,all,99999.0,PJ or GW,stage3_apply.py,value written for a limit that Stage 3 leaves open
+3,orphan_cap_exempt_scenarios,Guatemala,NDC|LTS,scenario names,stage3_apply.py,scenarios whose orphan plants (in the model and not in the controller) Stage 3 leaves uncapped: under the common rule these two scenarios have no feasible solution and relaxing one limit group at a time (LAC_CLEANUP November 2026) showed that only the orphan cap binds; kept until Luis decides
 3,year_header_max,all,2100,year,stage3_apply.py,largest number read as a year in the header row of a data file block
 3,fallback_years_start,all,2021,year,stage3_apply.py,first year used when a data file block header holds no years
 3,fallback_years_stop,all,2051,year,stage3_apply.py,year after the last year used when a data file block header holds no years

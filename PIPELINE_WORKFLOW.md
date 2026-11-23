@@ -48,7 +48,7 @@ py stage0_recommend_shares.py
 - All 18 runs feasible
 - Demand grows for every country (e.g., Honduras +132%, Guatemala +212% by 2050)
 
-**Known issue**: Stage 0 NDC/LTS unconstrained runs produce inflated generation denominators due to orphan tech overproduction (e.g., Guatemala NDC 71 PJ in 2030 vs BAU 59 PJ). This is handled in Stage 3 via `--skip-orphan-cap Guatemala`.
+**Known issue**: Stage 0 NDC/LTS unconstrained runs produce inflated generation denominators due to orphan tech overproduction (e.g., Guatemala NDC 71 PJ in 2030 vs BAU 59 PJ). Stage 3 applies one rule to all six countries (orphan plants capped at 0 from 2025, zero-lower plants given upper 0); the Guatemala exception (`--skip-orphan-cap`) was removed in LAC_CLEANUP (November 2026). One part of it stays as a table row until Luis decides: `orphan_cap_exempt_scenarios` in `config/scenarios/rules/stage_controller.csv` leaves the orphan plants of Guatemala NDC and LTS uncapped, because these two scenarios have no feasible solution with the orphan cap and it is the only limit group that binds.
 
 ---
 
@@ -151,7 +151,7 @@ py stage2_test_v2.py --stage0-denom _STAGE0_OUTPUT\STAGE0_DENOMINATORS.xlsx
 
 ```batch
 REM From MODELS_LAC_4/ in Anaconda prompt:
-py stage3_apply.py --root . --clean --uncap-pp-maxcap --skip-orphan-cap Guatemala
+py stage3_apply.py --root . --clean --uncap-pp-maxcap
 py stage3_test.py --root .
 stage3_run_all.bat
 py stage3_results.py --root .
@@ -162,8 +162,8 @@ py stage3_results.py --root .
 For each (country, scenario): copies `{scenario}_0/` → `{scenario}_FINAL_0/`, renames .txt, then patches:
 
 1. **LowerLimit**: PP/PWR techs from 2025+ replaced with controller CURRENT_LOWER values
-2. **UpperLimit**: always lower × 1.05 (controller uppers ignored as stale Stage 1 values); zero-lower techs get upper=0 (except Guatemala: upper=99999 via `--skip-orphan-cap`)
-3. **Orphan PP techs** (in model but not in controller): detected via comprehensive scan of all param blocks; lower=0, upper=0 from 2025+. Skipped for Guatemala.
+2. **UpperLimit**: always lower × 1.05 (controller uppers ignored as stale Stage 1 values); zero-lower techs get upper=0
+3. **Orphan PP techs** (in model but not in controller): detected via comprehensive scan of all param blocks; lower=0, upper=0 from 2025+, in every country except the scenarios listed under `orphan_cap_exempt_scenarios` (Guatemala NDC and LTS).
 4. **TotalAnnualMaxCapacity**: PP techs set to 99999 (`--uncap-pp-maxcap`)
 5. **ReserveMargin**: 1.15 flat, plain tuple format
 6. **ReserveMarginTagFuel**: generation electricity fuel tagged=1
@@ -177,9 +177,10 @@ Preserves CRLF line endings, historical years (≤2024), non-PP techs.
 |------|--------|-----|
 | `--clean` | Deletes and recreates _FINAL_0 folders from untouched _0 originals | Fresh slate on re-runs |
 | `--uncap-pp-maxcap` | Sets TotalAnnualMaxCapacity to 99999 for PP techs | Prevents capacity ceilings conflicting with new activity limits |
-| `--skip-orphan-cap Guatemala` | Guatemala: orphans left uncapped, zero-lower techs get 99999 | Guatemala NDC/LTS have inflated Stage 0 denominators (orphan overproduction); tight capping causes infeasibility |
 
-### Guatemala exception — root cause
+### Guatemala exception: what remains and its history
+
+Stage 3 applies one rule to all six countries (orphan plants capped at 0 from 2025, zero-lower plants given upper 0); the Guatemala exception (`--skip-orphan-cap`) was removed in LAC_CLEANUP (November 2026). One part of it stays as a table row until Luis decides: `orphan_cap_exempt_scenarios` in `config/scenarios/rules/stage_controller.csv` leaves the orphan plants of Guatemala NDC and LTS uncapped, because these two scenarios have no feasible solution with the orphan cap and it is the only limit group that binds. The history of the exception follows.
 
 Stage 0 unconstrained NDC/LTS runs for Guatemala produced inflated generation (orphan distributed techs overproduced), yielding denominators 20–47% above BAU:
 
@@ -198,7 +199,7 @@ Stage 2 used these inflated denominators for NDC/LTS lower limits, so lower_sum 
 | CostaRica | PP_SPV_DG, PP_SPV_US_H2, PP_WNDOFS, PP_WND_OF_H2, PP_WND_US_H2, PWRSPVDTR (6) | All capped to 0 |
 | DominicanRepublic | PPBGS, PPGEO, PPHROR, PPPVTHYD, PPPVTS, PPWNDOFF (6) | All capped to 0 |
 | Ecuador | PPWNDOFF, PPWNDONS (2) | PPPVDS was 40% overproducer; caught by zero-lower→zero-upper rule |
-| Guatemala | PPPVT2 (1) | **SKIPPED** — left free to produce |
+| Guatemala | PPPVT2 (1) | Capped to 0 in BAU; left uncapped in NDC and LTS (`orphan_cap_exempt_scenarios`) |
 | Honduras | PPPVDS, PPPVT2, PPPVTS, PPWNDS (4) | All capped to 0 |
 | Jamaica | PPBGS, PPGEO, PPPVD, PPPVDS, PPPVTS, PPWNDOFF, PPWNDONS (7) | PPPVD was 3.5% late-year leaker |
 
@@ -241,7 +242,7 @@ Thresholds: PASS ≤0.3pp, WARN 0.3–1pp, FAIL >1pp. All 20 failures are 1.0–
 
 | Script | Purpose | Command |
 |--------|---------|---------|
-| `stage3_apply.py` | Patch .txt files with controller values | `py stage3_apply.py --root . --clean --uncap-pp-maxcap --skip-orphan-cap Guatemala` |
+| `stage3_apply.py` | Patch .txt files with controller values | `py stage3_apply.py --root . --clean --uncap-pp-maxcap` |
 | `stage3_test.py` | 11-test validation suite (lower/upper/RM/orphans) | `py stage3_test.py --root .` |
 | `stage3_run_all.bat` | GLPK batch solver for all 18 scenarios | `stage3_run_all.bat` |
 | `stage3_results.py` | Parse GLPK output, extract variables, validate shares + RE targets | `py stage3_results.py --root .` |
@@ -327,6 +328,6 @@ MODELS_LAC_4/
 | Costa Rica | `CR_ENERGY/t1_confection` | CR | One level deeper |
 | Dominican Republic | `RD_ENERGY` | RD | |
 | Ecuador | `ECU_Energy` | ECU | Lowercase 'e' |
-| Guatemala | `GUA_ENERGY` | GUA | skip-orphan-cap required |
+| Guatemala | `GUA_ENERGY` | GUA | |
 | Honduras | `HON_ENERGY` | HON | |
 | Jamaica | `JAM_ENERGY` | JAM | Model horizon to 2055 |

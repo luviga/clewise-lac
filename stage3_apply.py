@@ -36,6 +36,9 @@ FIRST_PATCH_YEAR = LT.controller("first_patch_year", "3")
 RESERVE_MARGIN = LT.controller("reserve_margin", "3")
 UPPER_UNCAPPED = LT.controller("upper_limit_sentinel", "3")  # controller sentinel for "no cap"
 LOWER_TO_UPPER_FACTOR = LT.controller("lower_to_upper_factor", "3")  # tight cap = lower * factor when controller says uncapped but lower > 0
+# {country: [scenario, ...]} whose orphan plants are left uncapped (stage_controller.csv, orphan_cap_exempt_scenarios)
+ORPHAN_CAP_EXEMPT = {c: (v if isinstance(v, list) else [v])
+                     for c, v in LT.controller_by_country("orphan_cap_exempt_scenarios", "3").items()}
 
 COUNTRY_CONFIG = LT.country_table("model_dir")
 
@@ -491,8 +494,6 @@ def main():
     parser.add_argument("--uncap-pp-maxcap", action="store_true",
                         help="Reset TotalAnnualMaxCapacity for PP techs to 99999")
     parser.add_argument("--reserve-margin", type=float, default=RESERVE_MARGIN)
-    parser.add_argument("--skip-orphan-cap", nargs="*", default=[],
-                        help="Countries to skip orphan tech capping (e.g., Guatemala)")
     parser.add_argument("--clean", action="store_true",
                         help="Remove all existing _FINAL_0 folders before running")
     args = parser.parse_args()
@@ -630,11 +631,12 @@ def main():
             )
             log.append(f"  Patched LowerLimit: {n_lower} values changed")
 
-            # Find orphan PP techs (in model but not in controller) — needed for Steps 3b and 4
-            skip_orphans = country in args.skip_orphan_cap
-            if skip_orphans:
+            # Find orphan PP techs (in model but not in controller) — needed for Steps 3b and 4.
+            # Every country caps them at 0 from 2025, except a scenario that the controller table lists under
+            # orphan_cap_exempt_scenarios for the country (config/scenarios/rules/stage_controller.csv, with its reason)
+            if scenario in ORPHAN_CAP_EXEMPT.get(country, []):
                 orphan_techs = []
-                log.append(f"  Orphan capping SKIPPED for {country} (--skip-orphan-cap)")
+                log.append(f"  Orphan capping not applied for {country} {scenario} (orphan_cap_exempt_scenarios)")
             else:
                 all_pp_in_txt = find_all_pp_techs_in_txt(content)
                 ctrl_pp_techs = {t for t in ctrl_lower if is_pp_tech(t)}
@@ -676,9 +678,8 @@ def main():
                 log.append(f"  UpperLimit: cleared {n_upper} PP tech caps to 99999 (--no-upper-cap)")
             else:
                 # Always use lower × factor for upper limits (tight share control).
-                # Zero lower → zero upper (prevent unconstrained techs from producing).
-                # UNLESS skip_orphans is set (e.g., Guatemala) — then leave zero-lower uncapped.
-                zero_lower_upper = 0.0 if not skip_orphans else LT.controller("uncapped_value", "3")
+                # Zero lower → zero upper (prevent unconstrained techs from producing), in every country.
+                zero_lower_upper = 0.0
                 tight_upper = {}
                 for tech, yr_vals in ctrl_lower.items():
                     if is_pp_tech(tech):
