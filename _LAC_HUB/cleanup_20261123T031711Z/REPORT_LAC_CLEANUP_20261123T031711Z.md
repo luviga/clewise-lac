@@ -1,6 +1,6 @@
 # REPORT LAC_CLEANUP 20261123T031711Z
 
-Pull request: luviga/clewise-lac#17 (draft), branch `job/cleanup`, five commits in the order of the brief. Clone `C:\clw_clean`, snapshots `C:\clw_clean_base`, temporary folder `C:\clw_clean_tmp`.
+Pull request: luviga/clewise-lac#17 (draft), branch `job/cleanup`, five commits in the order of the brief, and a sixth that takes the step 1 test patch out of the job folder commit. Clone `C:\clw_clean`, snapshots `C:\clw_clean_base`, temporary folder `C:\clw_clean_tmp`.
 
 ## Failed, blocked or pending
 
