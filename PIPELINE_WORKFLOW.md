@@ -48,7 +48,7 @@ py stage0_recommend_shares.py
 - All 18 runs feasible
 - Demand grows for every country (e.g., Honduras +132%, Guatemala +212% by 2050)
 
-**Known issue**: Stage 0 NDCNEW/LTSNEW unconstrained runs produce inflated generation denominators due to orphan tech overproduction (e.g., Guatemala NDCNEW 71 PJ in 2030 vs BAU 59 PJ). This is handled in Stage 3 via `--skip-orphan-cap Guatemala`.
+**Known issue**: Stage 0 NDC/LTS unconstrained runs produce inflated generation denominators due to orphan tech overproduction (e.g., Guatemala NDC 71 PJ in 2030 vs BAU 59 PJ). Stage 3 applies one rule to all six countries (orphan plants capped at 0 from 2025, zero-lower plants given upper 0); the Guatemala exception (`--skip-orphan-cap`) was removed in LAC_CLEANUP (November 2026). One part of it stays as a table row until Luis decides: `orphan_cap_exempt_scenarios` in `config/scenarios/rules/stage_controller.csv` leaves the orphan plants of Guatemala NDC and LTS uncapped, because these two scenarios have no feasible solution with the orphan cap and it is the only limit group that binds.
 
 ---
 
@@ -72,7 +72,7 @@ py stage1_test_v16.py --skip-run
 - BAU 2027+: fossil 1%/yr decline (CR: 0%), hydro PJ freeze, NH-renewable gap-fill
 - Policy: `T = max(target, BAU_RE)`, solar/wind absorb increment, biomass/geo locked at BAU
 - Mincap floor: MinCapInvest × CF × AF × 31.536 from B1_Output_Params
-- Country overrides: CR NDCNEW 90%/LTSNEW 99%, Ecuador NDCNEW 80%/LTSNEW 80→99%
+- Country overrides: CR NDC 90%/LTS 99%, Ecuador NDC 80%/LTS 80→99%
 
 **13 tests all passing.**
 
@@ -98,7 +98,7 @@ py stage1_test_v16.py --skip-run
 | Biomass/geo/biogas | PJ freeze | Same as hydro — no new plants assumed |
 | Solar/wind | Gap-fill | Absorb all remaining capacity after fossil + hydro + biomass |
 | Mincap floor | MinCapInvest × CF × AF × 31.536 | Per-tech minimum from B1 committed capacity; overrides rule if higher |
-| Policy (NDCNEW/LTSNEW) | RE = max(target, BAU_RE) | Fossil compressed, solar/wind expanded to hit exact target |
+| Policy (NDC/LTS) | RE = max(target, BAU_RE) | Fossil compressed, solar/wind expanded to hit exact target |
 
 **Solar/wind split**: determined by mincap floors (B1 committed capacity) where available; falls back to proportional from boundary (2026) shares where MinCapInvest = 0.
 
@@ -122,23 +122,23 @@ py stage2_test_v2.py --stage0-denom _STAGE0_OUTPUT\STAGE0_DENOMINATORS.xlsx
 ```
              Country Scenario   2024   2030   2035   2050
            CostaRica      BAU  89.4%  89.4%  89.4%  89.4%
-           CostaRica   NDCNEW  89.4%  89.7%  90.0%  90.0%
-           CostaRica   LTSNEW  89.4%  93.7%  99.0%  99.0%
+           CostaRica   NDC  89.4%  89.7%  90.0%  90.0%
+           CostaRica   LTS  89.4%  93.7%  99.0%  99.0%
    DominicanRepublic      BAU  15.9%  19.2%  23.1%  33.9%
-   DominicanRepublic   NDCNEW  15.9%  42.1%  75.0%  75.0%
-   DominicanRepublic   LTSNEW  15.9%  42.1%  75.0%  99.0%
+   DominicanRepublic   NDC  15.9%  42.1%  75.0%  75.0%
+   DominicanRepublic   LTS  15.9%  42.1%  75.0%  99.0%
              Ecuador      BAU  75.7%  76.6%  77.8%  80.9%
-             Ecuador   NDCNEW  75.7%  77.6%  80.0%  80.9%
-             Ecuador   LTSNEW  75.7%  77.6%  80.0%  99.0%
+             Ecuador   NDC  75.7%  77.6%  80.0%  80.9%
+             Ecuador   LTS  75.7%  77.6%  80.0%  99.0%
            Guatemala      BAU  63.4%  52.3%  57.1%  64.0%
-           Guatemala   NDCNEW  63.4%  68.6%  75.0%  75.0%
-           Guatemala   LTSNEW  63.4%  68.6%  75.0%  99.0%
+           Guatemala   NDC  63.4%  68.6%  75.0%  75.0%
+           Guatemala   LTS  63.4%  68.6%  75.0%  99.0%
             Honduras      BAU  59.6%  56.9%  59.0%  64.7%
-            Honduras   NDCNEW  59.6%  64.7%  75.0%  75.0%
-            Honduras   LTSNEW  59.6%  64.7%  75.0%  99.0%
+            Honduras   NDC  59.6%  64.7%  75.0%  75.0%
+            Honduras   LTS  59.6%  64.7%  75.0%  99.0%
              Jamaica      BAU  10.0%  13.5%  17.8%  29.3%
-             Jamaica   NDCNEW  10.0%  38.9%  75.0%  75.0%
-             Jamaica   LTSNEW  10.0%  38.9%  75.0%  99.0%
+             Jamaica   NDC  10.0%  38.9%  75.0%  75.0%
+             Jamaica   LTS  10.0%  38.9%  75.0%  99.0%
 ```
 
 ---
@@ -151,7 +151,7 @@ py stage2_test_v2.py --stage0-denom _STAGE0_OUTPUT\STAGE0_DENOMINATORS.xlsx
 
 ```batch
 REM From MODELS_LAC_4/ in Anaconda prompt:
-py stage3_apply.py --root . --clean --uncap-pp-maxcap --skip-orphan-cap Guatemala
+py stage3_apply.py --root . --clean --uncap-pp-maxcap
 py stage3_test.py --root .
 stage3_run_all.bat
 py stage3_results.py --root .
@@ -162,8 +162,8 @@ py stage3_results.py --root .
 For each (country, scenario): copies `{scenario}_0/` → `{scenario}_FINAL_0/`, renames .txt, then patches:
 
 1. **LowerLimit**: PP/PWR techs from 2025+ replaced with controller CURRENT_LOWER values
-2. **UpperLimit**: always lower × 1.05 (controller uppers ignored as stale Stage 1 values); zero-lower techs get upper=0 (except Guatemala: upper=99999 via `--skip-orphan-cap`)
-3. **Orphan PP techs** (in model but not in controller): detected via comprehensive scan of all param blocks; lower=0, upper=0 from 2025+. Skipped for Guatemala.
+2. **UpperLimit**: always lower × 1.05 (controller uppers ignored as stale Stage 1 values); zero-lower techs get upper=0
+3. **Orphan PP techs** (in model but not in controller): detected via comprehensive scan of all param blocks; lower=0, upper=0 from 2025+, in every country except the scenarios listed under `orphan_cap_exempt_scenarios` (Guatemala NDC and LTS).
 4. **TotalAnnualMaxCapacity**: PP techs set to 99999 (`--uncap-pp-maxcap`)
 5. **ReserveMargin**: 1.15 flat, plain tuple format
 6. **ReserveMarginTagFuel**: generation electricity fuel tagged=1
@@ -177,19 +177,20 @@ Preserves CRLF line endings, historical years (≤2024), non-PP techs.
 |------|--------|-----|
 | `--clean` | Deletes and recreates _FINAL_0 folders from untouched _0 originals | Fresh slate on re-runs |
 | `--uncap-pp-maxcap` | Sets TotalAnnualMaxCapacity to 99999 for PP techs | Prevents capacity ceilings conflicting with new activity limits |
-| `--skip-orphan-cap Guatemala` | Guatemala: orphans left uncapped, zero-lower techs get 99999 | Guatemala NDCNEW/LTSNEW have inflated Stage 0 denominators (orphan overproduction); tight capping causes infeasibility |
 
-### Guatemala exception — root cause
+### Guatemala exception: what remains and its history
 
-Stage 0 unconstrained NDCNEW/LTSNEW runs for Guatemala produced inflated generation (orphan distributed techs overproduced), yielding denominators 20–47% above BAU:
+Stage 3 applies one rule to all six countries (orphan plants capped at 0 from 2025, zero-lower plants given upper 0); the Guatemala exception (`--skip-orphan-cap`) was removed in LAC_CLEANUP (November 2026). One part of it stays as a table row until Luis decides: `orphan_cap_exempt_scenarios` in `config/scenarios/rules/stage_controller.csv` leaves the orphan plants of Guatemala NDC and LTS uncapped, because these two scenarios have no feasible solution with the orphan cap and it is the only limit group that binds. The history of the exception follows.
 
-| Year | BAU gen (PJ) | NDCNEW gen (PJ) | LTSNEW gen (PJ) |
+Stage 0 unconstrained NDC/LTS runs for Guatemala produced inflated generation (orphan distributed techs overproduced), yielding denominators 20–47% above BAU:
+
+| Year | BAU gen (PJ) | NDC gen (PJ) | LTS gen (PJ) |
 |------|------|------|------|
 | 2030 | 59.0 | 71.1 (+20%) | 71.0 |
 | 2040 | 92.4 | 135.5 (+47%) | 168.9 |
 | 2050 | 135.7 | 171.9 | 281.3 (+107%) |
 
-Stage 2 used these inflated denominators for NDCNEW/LTSNEW lower limits, so lower_sum > BAU generation capacity → infeasible when orphans are capped. The `--skip-orphan-cap` flag restores Guatemala's freedom. Share validation for Guatemala is slightly looser (~1pp) as a result.
+Stage 2 used these inflated denominators for NDC/LTS lower limits, so lower_sum > BAU generation capacity → infeasible when orphans are capped. The `--skip-orphan-cap` flag restores Guatemala's freedom. Share validation for Guatemala is slightly looser (~1pp) as a result.
 
 ### Orphan techs detected per country
 
@@ -198,13 +199,13 @@ Stage 2 used these inflated denominators for NDCNEW/LTSNEW lower limits, so lowe
 | CostaRica | PP_SPV_DG, PP_SPV_US_H2, PP_WNDOFS, PP_WND_OF_H2, PP_WND_US_H2, PWRSPVDTR (6) | All capped to 0 |
 | DominicanRepublic | PPBGS, PPGEO, PPHROR, PPPVTHYD, PPPVTS, PPWNDOFF (6) | All capped to 0 |
 | Ecuador | PPWNDOFF, PPWNDONS (2) | PPPVDS was 40% overproducer; caught by zero-lower→zero-upper rule |
-| Guatemala | PPPVT2 (1) | **SKIPPED** — left free to produce |
+| Guatemala | PPPVT2 (1) | Capped to 0 in BAU; left uncapped in NDC and LTS (`orphan_cap_exempt_scenarios`) |
 | Honduras | PPPVDS, PPPVT2, PPPVTS, PPWNDS (4) | All capped to 0 |
 | Jamaica | PPBGS, PPGEO, PPPVD, PPPVDS, PPPVTS, PPWNDOFF, PPWNDONS (7) | PPPVD was 3.5% late-year leaker |
 
 ### Solver results: 18/18 OPTIMAL
 
-| Country | BAU | NDCNEW | LTSNEW |
+| Country | BAU | NDC | LTS |
 |---|---|---|---|
 | CostaRica | ✓ 13.7s | ✓ 14.6s | ✓ 13.3s |
 | DominicanRepublic | ✓ 21.2s | ✓ 22.4s | ✓ 22.4s |
@@ -215,7 +216,7 @@ Stage 2 used these inflated denominators for NDCNEW/LTSNEW lower limits, so lowe
 
 ### Emissions divergence (MtCO2e) — confirmed working
 
-| Country | 2050 BAU | 2050 NDCNEW | 2050 LTSNEW | LTSNEW reduction |
+| Country | 2050 BAU | 2050 NDC | 2050 LTS | LTS reduction |
 |---------|----------|-------------|-------------|------------------|
 | CostaRica | 34.0 | 27.9 | 8.4 | -75% |
 | DominicanRepublic | 112.5 | 60.9 | 17.4 | -85% |
@@ -228,10 +229,10 @@ Stage 2 used these inflated denominators for NDCNEW/LTSNEW lower limits, so lowe
 
 | Milestone | Target | Result |
 |-----------|--------|--------|
-| NDCNEW 2035 | ≥75% RE | ✓ All 6 countries (CR exceeds at 90%) |
-| NDCNEW 2050 | ≥75% RE | ✓ All 6 countries |
-| LTSNEW 2035 | ≥75% RE | ✓ All 6 countries (CR exceeds at 99%) |
-| LTSNEW 2050 | ≥99% RE | ✓ All 6 countries at exactly 99.0% |
+| NDC 2035 | ≥75% RE | ✓ All 6 countries (CR exceeds at 90%) |
+| NDC 2050 | ≥75% RE | ✓ All 6 countries |
+| LTS 2035 | ≥75% RE | ✓ All 6 countries (CR exceeds at 99%) |
+| LTS 2050 | ≥99% RE | ✓ All 6 countries at exactly 99.0% |
 
 ### Share validation: 7789 pass, 189 warn, 20 fail
 
@@ -241,7 +242,7 @@ Thresholds: PASS ≤0.3pp, WARN 0.3–1pp, FAIL >1pp. All 20 failures are 1.0–
 
 | Script | Purpose | Command |
 |--------|---------|---------|
-| `stage3_apply.py` | Patch .txt files with controller values | `py stage3_apply.py --root . --clean --uncap-pp-maxcap --skip-orphan-cap Guatemala` |
+| `stage3_apply.py` | Patch .txt files with controller values | `py stage3_apply.py --root . --clean --uncap-pp-maxcap` |
 | `stage3_test.py` | 11-test validation suite (lower/upper/RM/orphans) | `py stage3_test.py --root .` |
 | `stage3_run_all.bat` | GLPK batch solver for all 18 scenarios | `stage3_run_all.bat` |
 | `stage3_results.py` | Parse GLPK output, extract variables, validate shares + RE targets | `py stage3_results.py --root .` |
@@ -315,8 +316,8 @@ MODELS_LAC_4/
 | Scenario | Target | Milestones |
 |----------|--------|------------|
 | BAU | organic | 1%/yr fossil decline, gap-fill with solar/wind |
-| NDCNEW | 75% RE by 2035 | CR: 90%, Ecuador: 80% |
-| LTSNEW | 99% RE by 2050 | CR: 99% by 2035, Ecuador: 80% by 2035 → 99% by 2050 |
+| NDC | 75% RE by 2035 | CR: 90%, Ecuador: 80% |
+| LTS | 99% RE by 2050 | CR: 99% by 2035, Ecuador: 80% by 2035 → 99% by 2050 |
 
 ---
 
@@ -327,6 +328,6 @@ MODELS_LAC_4/
 | Costa Rica | `CR_ENERGY/t1_confection` | CR | One level deeper |
 | Dominican Republic | `RD_ENERGY` | RD | |
 | Ecuador | `ECU_Energy` | ECU | Lowercase 'e' |
-| Guatemala | `GUA_ENERGY` | GUA | skip-orphan-cap required |
+| Guatemala | `GUA_ENERGY` | GUA | |
 | Honduras | `HON_ENERGY` | HON | |
 | Jamaica | `JAM_ENERGY` | JAM | Model horizon to 2055 |

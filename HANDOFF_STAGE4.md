@@ -2,7 +2,7 @@
 
 **Date**: 2026-05-16
 **Prerequisite**: Stage 3 complete — 18/18 OPTIMAL, RE targets 24/24 PASS
-**Project**: MODELS_LAC_4, 6 LAC countries × 3 scenarios (BAU, NDCNEW, LTSNEW)
+**Project**: MODELS_LAC_4, 6 LAC countries × 3 scenarios (BAU, NDC, LTS)
 
 ---
 
@@ -12,7 +12,7 @@ Stage 3 produced optimal GLPK solutions for all 18 (country × scenario) combina
 
 **Stage 3 exact reproduction command:**
 ```batch
-py stage3_apply.py --root . --clean --uncap-pp-maxcap --skip-orphan-cap Guatemala
+py stage3_apply.py --root . --clean --uncap-pp-maxcap
 py stage3_test.py --root .
 stage3_run_all.bat
 py stage3_results.py --root .
@@ -23,12 +23,12 @@ py stage3_results.py --root .
 ## Stage 4 Scope
 
 ### 4A — LTSOPT Scenario Generation
-Generate a fourth scenario (LTSOPT) for each country by creating variants of LTSNEW with:
+Generate a fourth scenario (LTSOPT) for each country by creating variants of LTS with:
 - **Hydro drought**: reduce hydro capacity factors (or availability factors) to simulate drought conditions
 - **Fuel price sensitivity**: apply HIGH/LOW fuel price projections from `LAC_Fuel_Price_Projections_2026_v2_audit.xlsx`
 
-LTSOPT is derived from LTSNEW `_FINAL_0` files, not from scratch. The approach:
-1. Copy LTSNEW_FINAL_0 → LTSOPT_FINAL_0
+LTSOPT is derived from LTS `_FINAL_0` files, not from scratch. The approach:
+1. Copy LTS_FINAL_0 → LTSOPT_FINAL_0
 2. Patch hydro parameters (CapacityFactor or AvailabilityFactor reduction)
 3. Optionally patch VarCost with fuel price scenarios
 4. Solve with GLPK
@@ -61,7 +61,7 @@ Run the existing B1 `data_processor()` function against all `_FINAL_0_output.txt
 
 ### Command
 ```
-py stage3_apply.py --root . --clean --uncap-pp-maxcap --skip-orphan-cap Guatemala
+py stage3_apply.py --root . --clean --uncap-pp-maxcap
 ```
 
 ### Design decisions and rationale
@@ -69,9 +69,9 @@ py stage3_apply.py --root . --clean --uncap-pp-maxcap --skip-orphan-cap Guatemal
 | Decision | Choice | Rationale |
 |----------|--------|-----------|
 | Upper limit rule | Always lower × 1.05 | Controller uppers were stale Stage 1 values (2–7× too wide) |
-| Zero-lower tech upper | 0 (except Guatemala: 99999) | Prevents unconstrained techs from stealing generation share |
+| Zero-lower tech upper | 0 (all six countries) | Prevents unconstrained techs from stealing generation share |
 | Orphan PP tech handling | Detected via comprehensive param block scan; lower=0, upper=0 | Techs in model but not in controller were producing 3–40% unconstrained |
-| Guatemala exception | `--skip-orphan-cap Guatemala` | Stage 0 NDCNEW/LTSNEW denominators inflated 20–107% by orphan overproduction; tight caps make lower_sum > demand → infeasible |
+| Guatemala exception | removed in LAC_CLEANUP (November 2026) except the orphan cap of NDC and LTS (`orphan_cap_exempt_scenarios`); the reason it had: | Stage 0 NDC/LTS denominators inflated 20–107% by orphan overproduction; tight caps make lower_sum > demand → infeasible |
 | MaxCapacity | Uncapped (99999) for all PP techs | Original caps conflicted with new higher activity lower limits |
 | ReserveMargin | 1.15 flat, plain tuple format | SOASIA reference format; solar/wind excluded from firm capacity |
 | Share validation | PASS ≤0.3pp, WARN 0.3–1pp, FAIL >1pp | 20 failures all 1.0–1.2pp (Jamaica PV mid-years, Guatemala orphan-skip tradeoff) |
@@ -81,19 +81,19 @@ py stage3_apply.py --root . --clean --uncap-pp-maxcap --skip-orphan-cap Guatemal
 
 | Scenario | Year | Target | Notes |
 |----------|------|--------|-------|
-| NDCNEW | 2035 | 75% RE | CR override: 90%, Ecuador: 80% (both exceed 75% naturally) |
-| NDCNEW | 2050 | 75% RE | Maintained from 2035 |
-| LTSNEW | 2035 | 75% RE | Intermediate milestone |
-| LTSNEW | 2050 | 99% RE | Full decarbonization target |
+| NDC | 2035 | 75% RE | CR override: 90%, Ecuador: 80% (both exceed 75% naturally) |
+| NDC | 2050 | 75% RE | Maintained from 2035 |
+| LTS | 2035 | 75% RE | Intermediate milestone |
+| LTS | 2050 | 99% RE | Full decarbonization target |
 
 ### Country-specific notes
 
 | Country | Special handling | Notes |
 |---------|-----------------|-------|
 | CostaRica | None | Already 89% RE in BAU; path: `CR_ENERGY/t1_confection` (one level deeper) |
-| DominicanRepublic | None | Largest absolute emission reduction under LTSNEW (-85%) |
+| DominicanRepublic | None | Largest absolute emission reduction under LTS (-85%) |
 | Ecuador | None | PPPVDS was 40% overproducer (caught by zero-lower rule); `ECU_Energy` (lowercase 'e') |
-| Guatemala | `--skip-orphan-cap` | Inflated Stage 0 denominators; PPPVT2 orphan left free; share validation ~1pp looser |
+| Guatemala | `orphan_cap_exempt_scenarios` (NDC, LTS) | Orphan PPPVT2 left uncapped in NDC and LTS only; otherwise the common rule |
 | Honduras | None | 4 orphan techs capped |
 | Jamaica | None | 7 orphan techs capped; PPPVD was 3.5% late-year leaker; model horizon 2021–2055 |
 
@@ -103,7 +103,7 @@ py stage3_apply.py --root . --clean --uncap-pp-maxcap --skip-orphan-cap Guatemal
 CostaRica:         PP_SPV_DG, PP_SPV_US_H2, PP_WNDOFS, PP_WND_OF_H2, PP_WND_US_H2, PWRSPVDTR
 DominicanRepublic: PPBGS, PPGEO, PPHROR, PPPVTHYD, PPPVTS, PPWNDOFF
 Ecuador:           PPWNDOFF, PPWNDONS (+ PPPVDS caught by zero-lower rule)
-Guatemala:         PPPVT2 (SKIPPED)
+Guatemala:         PPPVT2 (capped to 0 in BAU; uncapped in NDC and LTS)
 Honduras:          PPPVDS, PPPVT2, PPPVTS, PPWNDS
 Jamaica:           PPBGS, PPGEO, PPPVD, PPPVDS, PPPVTS, PPWNDOFF, PPWNDONS
 ```
@@ -112,11 +112,11 @@ Jamaica:           PPBGS, PPGEO, PPPVD, PPPVDS, PPPVTS, PPWNDOFF, PPWNDONS
 
 ## Known Issues for Stage 4
 
-1. **Guatemala denominator inflation**: The proper fix is rerunning Stage 0 with orphan caps, then Stage 2 with clean denominators. Current workaround (`--skip-orphan-cap`) is acceptable but leaves Guatemala shares ~1pp looser.
+1. **Guatemala denominator inflation**: The proper fix is rerunning Stage 0 with orphan caps, then Stage 2 with clean denominators. The workaround (`--skip-orphan-cap`) was removed in LAC_CLEANUP; only the orphan cap of Guatemala NDC and LTS stays open, as a controller row.
 
-2. **Jamaica PPPVT late-year deviation**: 1.0–1.2pp overproduction in NDCNEW 2031–2044. End-of-horizon solver artifact from salvage value effects. Acceptable for publication.
+2. **Jamaica PPPVT late-year deviation**: 1.0–1.2pp overproduction in NDC 2031–2044. End-of-horizon solver artifact from salvage value effects. Acceptable for publication.
 
-3. **Pre-2027 emission drift**: ~0.1% difference between BAU/NDCNEW/LTSNEW in 2025–2026 due to LP perfect-foresight. Not a bug — solver prepares for different futures.
+3. **Pre-2027 emission drift**: ~0.1% difference between BAU/NDC/LTS in 2025–2026 due to LP perfect-foresight. Not a bug — solver prepares for different futures.
 
 4. **GLPK output file size**: 750MB+ per scenario. Clean with `stage2_post_clean.py --all-runs --yes` after B1 processing if Dropbox space is tight.
 

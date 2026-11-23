@@ -658,13 +658,14 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
                 for t in growth_techs:
                     s2_shares[(c, s, t)][y] = max(s2_shares[(c, s, t)][y], 0.0)
 
-            # If locked > nh_target, scale locked down
+            # If locked > nh_target, the frozen plants and the solar and wind plants share the room left by
+            # fossil and hydro in proportion to their rule and floor values (Stage 1 gap-fill), so solar and
+            # wind keep their committed place instead of being set to 0
             if locked_sum > nh_target > 0:
-                factor = nh_target / locked_sum
-                for t in locked_techs:
+                nh_sum = locked_sum + sum(s2_shares[(c, s, t)][y] for t in growth_techs)
+                factor = nh_target / nh_sum
+                for t in locked_techs + growth_techs:
                     s2_shares[(c, s, t)][y] *= factor
-                for t in growth_techs:
-                    s2_shares[(c, s, t)][y] = 0.0
 
             # UNKNOWN techs: hold boundary
             for t in techs:
@@ -815,13 +816,13 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
                     for t in growth_techs:
                         s2_shares[(c, s, t)][y] = per
 
-                # If locked > NH_target, scale locked down
+                # If locked > NH_target, the frozen plants and the solar and wind plants share the room left
+                # by fossil and hydro in proportion to their values (as in the forward rebase above)
                 if locked_sum > NH_target > 0:
-                    factor = NH_target / locked_sum
-                    for t in locked_techs:
+                    nh_sum = locked_sum + sum(s2_shares[(c, s, t)][y] for t in growth_techs)
+                    factor = NH_target / nh_sum
+                    for t in locked_techs + growth_techs:
                         s2_shares[(c, s, t)][y] *= factor
-                    for t in growth_techs:
-                        s2_shares[(c, s, t)][y] = 0.0
 
                 policy_fixes += 1
 

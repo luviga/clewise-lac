@@ -1,0 +1,14 @@
+file,cells_compared,name_or_note_cells_edited,rows_deleted,formulas_before,formulas_in_deleted_rows,formulas_after,other_cells_differing,examples,check
+CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx,13244,32,28,301,0,301,0,,PASS
+DominicanRepublic/RD_ENERGY/B1_Scenario_Config.xlsx,11155,0,0,0,0,0,0,,PASS
+Ecuador/ECU_Energy/B1_Scenario_Config.xlsx,12217,132,0,7,0,7,0,,PASS
+Guatemala/GUA_ENERGY/B1_Scenario_Config.xlsx,5683,60,0,2,0,2,0,,PASS
+Honduras/HON_ENERGY/B1_Scenario_Config.xlsx,11582,40,0,2,0,2,0,,PASS
+Jamaica/JAM_ENERGY/B1_Scenario_Config.xlsx,10658,82,0,3,0,3,0,,PASS
+_STAGE2_INPUTS/STAGE2_OVERWRITES_CostaRica.xlsx,1633,1,0,0,0,0,0,,PASS
+_STAGE2_INPUTS/STAGE2_OVERWRITES_DR.xlsx,1275,1,0,0,0,0,0,,PASS
+_STAGE2_INPUTS/STAGE2_OVERWRITES_Ecuador.xlsx,274,2,0,0,0,0,0,,PASS
+_STAGE2_INPUTS/STAGE2_OVERWRITES_Guatemala.xlsx,12599,674,0,0,0,0,0,,PASS
+_STAGE2_INPUTS/STAGE2_OVERWRITES_HON.xlsx,1895,178,0,0,0,0,0,,PASS
+_STAGE2_INPUTS/STAGE2_OVERWRITES_Jamaica.xlsx,694,0,0,0,0,0,0,,PASS
+Guatemala/GUA_ENERGY/A1_Outputs/A-O_Parametrization.xlsx,13215,2,0,881,0,881,0,,PASS

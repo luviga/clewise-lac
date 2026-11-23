@@ -13,7 +13,6 @@ general:
 countries:
   CostaRica:
     milestone_years: [2032, 2033, 2034]   # years of the configured mode-shift values
-    appended_region_code: RD              # region code appended to rows the transport rewrite adds
   DominicanRepublic:
     first_year: 2018
     variation_start_year: 2024
@@ -24,7 +23,6 @@ countries:
     milestone_years: [2030, 2040, 2050]
     modeshift_exact_last_year: 2035       # last year of the exact mode-shift values
     private_demand_divisor: 1.006         # divisor of private transport demand from capacity and occupancy
-    appended_region_code: RD
   Ecuador:
     discount_year: 2025
     first_year: 2021
@@ -44,7 +42,6 @@ countries:
     last_year: 2050
     driven_distance_reference_year: 2019
     milestone_years: [2030, 2040, 2050]
-    appended_region_code: GUA
     biodiesel_blend_start: [2026, 0]
     biodiesel_blend_final: [2030, 0]
     ethanol_blend_start: [2024, 0]
