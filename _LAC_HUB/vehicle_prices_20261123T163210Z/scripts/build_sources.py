@@ -123,10 +123,24 @@ NATIONAL = {
 }
 
 
+def manual_source(cc):
+    """Row for files saved by hand under downloads/manual/<CC>/ (see manual_downloads.csv)."""
+    import glob
+    files = sorted(glob.glob(os.path.join(JOB, "downloads", "manual", cc, "*")))
+    rel = "; ".join(os.path.relpath(f, JOB).replace("\\", "/") for f in files)
+    with open(os.path.join(JOB, "manual_downloads.csv"), newline="", encoding="utf-8") as f:
+        m = [r for r in csv.DictReader(f) if r["country"] == cc]
+    url = m[0]["url"] if m else ""
+    return [f"{cc}-MANUAL", url, f"Import statistics of {NAME[cc]} by tariff line with units, saved by hand",
+            "national customs or statistics office (see manual_downloads.csv)", "2019-2023", "", rel,
+            "table with tariff code, units and value columns", "Read by national_parsers.manual_records.", "customs"]
+
+
 def main():
     catalog = {r[0]: r for r in COMMON}
     for cc in CCS:
         catalog[f"COMTRADE-{cc}"] = comtrade(cc)
+        catalog[f"{cc}-MANUAL"] = manual_source(cc)
         for r in NATIONAL[cc]:
             catalog[r[0]] = r
     for cc in CCS:

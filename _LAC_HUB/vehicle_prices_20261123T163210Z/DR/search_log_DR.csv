@@ -1,7 +1,7 @@
 date_utc,route,url,http_status,result
 2026-11-23T16:39:38Z,1 national statistics ONE,https://www.one.gob.do/catalogo-datos/Comercio/IMPORTACIONES/Metadatos_BD_IMP.pdf,403,Cloudflare block page for curl; metadata of ONE import database (found by web search) not retrieved by script.
 2026-11-23T16:39:38Z,1 national statistics ONE,https://www.one.gob.do/catalogo-datos/Comercio/IMPORTACIONES/,403,Cloudflare block page for curl; directory listing not retrieved by script.
-2026-11-23T16:40:59Z,1 national customs DGA,https://www.one.gob.do/datos-y-estadisticas/temas/estadisticas-economicas/comercio-exterior/,403,ONE trade page blocked by Cloudflare also in the built-in browser.
+2026-11-23T16:40:59Z,1 national statistics ONE,https://www.one.gob.do/datos-y-estadisticas/temas/estadisticas-economicas/comercio-exterior/,403,ONE trade page blocked by Cloudflare also in the built-in browser.
 2026-11-23T16:40:59Z,1 national customs DGA,https://www.aduanas.gob.do/estadisticas/dinamicas/,404,Generador de informes estadisticos link from DGA home page returns 404.
 2026-11-23T16:41:00Z,1 national customs DGA,https://www.aduanas.gob.do/estadisticas/dashboard/,200,Dashboard page; section Descarga de datos para analisis personalizado lists yearly Imports Tabla Dinamica xlsx files 2014-2026 via /umbraco/api/searcher/getpageofdashboarddocuments?id=37162&category=Importacion.
 2026-11-23T16:41:00Z,1 national customs DGA,https://www.aduanas.gob.do/media/rn0hkgzn/imports_tabla_dinamica_19.xlsx,200,"Downloaded: transaction-level pivot data, 8-digit national line, FOB US$ by regime, customs office, origin country, month; NO units or quantity column."

@@ -24,3 +24,5 @@ date_utc,route,url,http_status,result
 2026-11-23T16:53:33Z,2 SIECA,https://www.sec.sieca.int/SEC/filtro1.aspx,200,"SEC Consulta personalizada step 1: Honduras, Importaciones, SAC, Todos los Paises selected in browser"
 2026-11-23T16:53:33Z,2 SIECA,https://www.sec.sieca.int/SEC/filtro2.aspx,200,"Step 2 at Inciso Nacional lists Honduras ch.87 lines (SA-2012 8-digit and SA-2017 12-digit, no SA-2022 lines, no nuevo/usado split); Siguiente did not advance in hidden browser pane, no data file obtained"
 2026-11-23T16:53:33Z,1 national customs tariff,https://www.aduanas.gob.hn,403,Arancel pages not reachable: Cloudflare block for scripted request
+2026-11-23T17:03:39Z,3 fiscal valuation table,"web search: Honduras Aduanas tabla de valores vehiculos usados importacion valor referencial",,"No Honduran government valuation table for vehicles found; results are El Salvador and Costa Rica documents and press articles on Honduran import taxes."
+2026-11-23T17:03:39Z,3 fiscal valuation table,https://www.sar.hn/,000,"Servicio de Administracion de Rentas home page did not respond to the script (no HTTP status); no vehicle valuation table reached."
