@@ -1,6 +1,6 @@
 # REPORT LAC_COST_SOURCES 20261122T234333Z
 
-Branch `job/cost-sources` from `b51f24b`. Draft pull request: (number added after the first push).
+Branch `job/cost-sources` from `b51f24b`. Draft pull request luviga/clewise-lac#16 (https://github.com/luviga/clewise-lac/pull/16). Commits: `35c2629` Phase 1; `20999d0` shared GEN packages and Costa Rica; `7f16708` Dominican Republic; `d55b7b4` Guatemala; `5edd6b6` Honduras; `599df74` Jamaica; `a966386` Ecuador; the final commit adds the paper trace, the merged manual list and the gate results.
 
 ## 1. Phase 1 summary
 
@@ -78,6 +78,22 @@ Phase 2 sources 352 vehicle pairs (Costa Rica 82, Dominican Republic 82, Guatema
 ## 2. Phase 2 by country
 
 Shared sources (`sources_GEN.csv`): GEN-001 US CPI-U (BLS); GEN-101 to GEN-103 NREL ATB 2022 Transportation (purchase prices and price trajectories, scenario Mid; levelized maintenance; lifetimes and annual mileage); GEN-104 Dominican Republic national electric mobility plan (INTRANT and IDB, 2020); GEN-201 to GEN-203 FAOSTAT trade, producer prices and production bulk files; GEN-204 and GEN-205 World Bank What a Waste 2.0; GEN-206 CEPAL 2016 waste management guide (Latin American costs per tonne); GEN-207 World Bank WSP 2016 costs of the water and sanitation SDG targets. Every country uses the ATB 2022 Mid family for vehicle price trajectories and maintenance where no national value exists. ATB has no bus (Class 8 is the heavy-duty proxy for the trajectory only), no LPG vehicle and no motorcycle; those rows use stated proxies, national data or an ASSUMPTION.
+
+Totals over the six countries (cells; distinct model, technology and parameter pairs):
+
+| Country | Cells | Confirmed | Replace | Assumption | Manual | Pairs |
+| --- | --- | --- | --- | --- | --- | --- |
+| Costa Rica | 2,489 | 286 | 2,089 | 114 | 0 | 169 |
+| Dominican Republic | 2,354 | 362 | 1,618 | 374 | 0 | 178 |
+| Guatemala | 705 | 173 | 428 | 104 | 0 | 129 |
+| Honduras | 1,532 | 224 | 1,100 | 208 | 0 | 124 |
+| Jamaica | 1,784 | 450 | 1,057 | 277 | 0 | 152 |
+| Ecuador | 119 | 0 | 21 | 98 | 0 | 119 |
+| Total | 8,983 | 1,495 | 6,313 | 1,175 | 0 | 871 |
+
+No row is class `manual`: every row whose best source could not be downloaded carries its best other class, and the waiting sources are listed in section 3. The ten largest changes per country are given in the A-O unit and per vehicle in real 2024 USD; values from different units are not ranked against each other.
+
+Decisions common to all countries: (1) whether vehicle prices include national import taxes (the ATB reference prices do not; Jamaica's OUR prices do); (2) whether the Dominican electric mobility plan may stand in for countries without national vehicle prices (Guatemala, Honduras); (3) the bus and heavy-truck life of 10 years taken from that plan; (4) the waste externality penalties, which stay at their current values as ASSUMPTIONs until the IDB documents behind them can be downloaded.
 
 ### 2.1 Costa Rica
 
@@ -322,9 +338,21 @@ Decisions for Luis:
 
 Judgement calls: value of production per ha (FAOSTAT 2019 to 2023 producer price x yield, or the MAG bulletin for palm hearts) stands in for total cost where no national budget exists; on the two crops with budgets, maize value 1,708 against cost 1,889 and rice value 1,372 against cost 2,078 US$ per ha (real 2024). FAO yields are used, not the model yields; other cereals exclude rice and maize (FAO yield 1.51 t per ha, model 1.49); fruit excludes bananas and plantains. Beef cattle: Rimisp cost per head (mean 200.77 US$, 2014) x 1.638 head per ha = 435.78 US$ per ha (the direct Rimisp per-ha mean would be 285.97 in 2014 USD); land rent and herd value excluded. Waste: CEPAL collection plus transfer, split in the model's capital to variable proportion, as for the Dominican Republic and Honduras (Costa Rica used collection only). Rice: the MAGAP 2012 budget assumes about 7 t per ha, above the national yield, so the cost per ha is at the high end. Not found: SIPA has no cost-of-production section (404); 28 SIPA crop bulletins have no cost table; no national budget was downloadable for coffee, sugarcane, soy, pulses, other cereals, tubers, fruit, vegetables or dairy; the only Ecuadorian waste cost study shows values in box plots only.
 
+### 2.7 Paper trace (step 2.4)
+
+The Data in Brief draft `CLEWISE_DataInBrief.docx` is readable and was copied to `downloads/paper/` (gitignored). Its section 4.8 prints technology costs per country in Tables 49 to 71; `paper_trace.csv` matches every row of the transport, AFOLU and waste tables (paper Tables 50 to 52, 54 to 56, 58, 59, 61, 63, 64, 66, 68, 69, 71; 330 rows) to the proposals by technology name. 179 rows print at least one cost that has a `replace` proposal, so their numbers would change if the proposals are written (Costa Rica 35, Dominican Republic 37, Guatemala 39, Honduras 33, Jamaica 35); 36 rows match only confirmed or assumption proposals; 115 rows print technologies outside this job's scope (energy-model copies, inactive or total-only rows, waste technologies that are not free producers). Ecuador has no cost table in the draft. The transport tables print the compiled M US$ per Gvkm, so they also change where only a distance changes. The paper's Costa Rica transport table (Table 50) prints the cell values described in section 2.1 (for example diesel bus 1,628.26), which the unit decision there affects.
+
 ## 3. Manual downloads
 
-(Added at the end.)
+`manual_downloads.csv` lists 25 entries (some sources are listed by several countries):
+
+- IDB waste publications behind the waste costs and the externality penalties `contam_agua`, `salud_residuos`, `turismo_residuos`, `FERT_ORG`, `RM`, `water_reuse` (Correal, Rihm et al. 2023; Correal, Faleiro et al. 2023; Correal and Rihm 2022; De la Pena et al. 2022; an IDB study of the Mancomunidad Nororiente waste services, Guatemala, 2023). IDB pages and PDFs show a bot check to scripts and to the browser. Rows waiting: every EmissionsPenalty cell (Dominican Republic, Guatemala, Honduras, Jamaica) and the waste cost rows.
+- UNEP and ISWA Global Waste Management Outlook 2024 (same bot check).
+- IDB, Costos de la electromovilidad en America Latina y el Caribe; Argonne (Burnham et al. 2021) total cost of ownership study; FTA useful life of transit buses and vans (bus lives); IDB 2022 Strategic Framework for Electric Mobility in Jamaica (no public PDF).
+- Costa Rica Ministry of Finance vehicle fiscal values (online query only) and its vehicle tax study (returns a web page instead of the PDF); RITEVE statistical yearbook (odometer km by vehicle type).
+- Dominican Republic ONE import database (CIF value by tariff line; Cloudflare 403).
+- Guatemala SAT vehicle valuation tables and SAT vehicle import statistics (Cloudflare check).
+- Honduras national electric mobility strategy draft (HTTP 403).
 
 ## 4. Gates
 

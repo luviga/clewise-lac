@@ -21,3 +21,7 @@ All files are new and sit in `_LAC_HUB/cost_sources_20261122T234333Z/`. No model
 - `HON/`: Honduras proposals (1,532 cells), sources HON-001 to HON-005, search log, manual downloads and scripts.
 - `JAM/`: Jamaica proposals (1,784 cells), sources JAM-001 to JAM-007, search log, manual downloads and scripts.
 - `ECU/`: Ecuador proposals (119 cells), sources ECU-001 to ECU-004, search log, manual downloads (none) and scripts.
+- `paper_trace.csv`: every row of the Data in Brief transport, AFOLU and waste cost tables, the proposals it matches and whether its printed numbers would change.
+- `manual_downloads.csv`: every source that exists but could not be downloaded, with what it would source and which proposal rows wait on it (merged from the GEN and country lists).
+- `gates_result.md`, `gate3_value_checks.csv`: Phase 3 gate results and the 60 sampled source-value checks (10 per country).
+- `scripts/p2_paper_trace.py`, `scripts/p3_gate3_derived.py`, `scripts/p4_merge.py`: paper trace, recompute and reading confirmations for gate 3, merge of the manual lists and totals.

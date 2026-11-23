@@ -10,6 +10,13 @@
 6. Fixed Horizon source text. The brief names JAM_TRANSPORT and HON_AFOLU as the only sheets with a source column; GUA_ENERGY and HON_ENERGY also have one. All four are read into `fixed_horizon_sources.csv`.
 7. GUA_AFOLU. Its live input is `2_Model/<scenario>/ModeloSuelo_<scenario>.xlsx`, which `1_csv_generation.py` turns into `1_Parameters/<scenario>/*.csv`. As the brief says, the CSV files and the structure workbook were read; the structure workbook holds sets and parameter lists, not values.
 8. Vehicle chain check uses the distance series the compiler saved (`A-O_Fleet_Groups_Distance.pickle`); its first value equals `Ref.km.BY` of the group in every model.
+9. Shared method. To keep the six countries consistent, every country uses one family for vehicle price trajectories and maintenance (NREL ATB 2022, scenario Mid), and where no national vehicle price exists, the Dominican national electric mobility plan anchors buses and heavy trucks with ATB Class 8 powertrain ratios; national data is used first wherever it was found (Costa Rica bus prices, Jamaica bus contract and car prices, Dominican plan prices).
+10. Current model values carry no currency year and are compared with sourced real 2024 USD values as they are.
+11. Values averaged over several years (FAOSTAT 2019 to 2023) carry the year range as `source_currency_year` and one CPI factor per year in `cpi_factor`; gate 5 checks each factor against `cpi_u.csv`.
+12. Source values that are interpolated or computed from a downloaded file (ATB prices between published years, price ratios, multi-budget means) were confirmed in gate 3 by recomputing them from the file (`scripts/p3_gate3_derived.py`); values printed in a PDF table were confirmed by reading (listed in that script).
+13. The research agents could not write their country report text to the job folder (the harness refuses report files from them); each returned the text, and it is merged into the REPORT sections 2.1 to 2.6 with light edits.
+14. The self-check scripts in the country folders contain the search patterns for machine paths (for example `/c/clw`); they are patterns, not paths, and stay as written.
+15. Rows labelled ASSUMPTION keep the current value where no source contradicts it and give a range; some ASSUMPTIONs (Ecuador, crop and livestock rows) use FAOSTAT value of production per ha as a stand-in for total cost and cite it in the derivation.
 
 ## Known-limitation candidates
 
@@ -42,8 +49,17 @@ Non-zero `total_only` rows (see `cost_inventory.csv`, column `class`): CR_ENERGY
 
 ## Left unchecked
 
-(Added during Phase 2 and 3.)
+- Vehicle prices from national tax or customs valuation tables in Costa Rica, Guatemala and Honduras (online queries or bot checks; listed as manual). Light-duty prices there come from ATB United States prices.
+- Distances per vehicle other than buses and minibuses in Costa Rica (ASSUMPTIONs at current values), heavy-freight distance in Guatemala and Jamaica (ASSUMPTIONs).
+- Jamaica: Jamaica Customs Agency, STATIN, Island Traffic Authority and Coffee Industry Regulation Division were not searched within the time.
+- Ecuador: no national crop budget could be downloaded for coffee, sugarcane, soy, pulses, other cereals, tubers, fruit, vegetables or dairy.
+- The origin of `TRAUTDSL` 11,525 and `TRAUTGSL` 10,504.4963 (REPORT 1.5).
+- The waste externality penalties and the IDB waste cost studies (manual).
+- Energy-copy rows in RD_AFOLU and HON_AFOLU (not sourced by design) and every `total_only` and `inactive` row.
 
 ## Incidents
 
-(None so far.)
+- No restart. The job ran once from setup to the pull request.
+- Bot checks and blocks: IDB publications (scripts and browser), UNEP wedocs, Guatemala SAT (Cloudflare), Dominican ONE (Cloudflare 403), Honduras strategy draft (403), Jamaica Ministry of Agriculture alternate host (503; the main host worked), Costa Rica Hacienda (query only). UN Comtrade rate-limited some requests (HTTP 429); those files are in downloads and are not cited.
+- Git Bash curl crashed on some Dominican government sites; Windows curl worked.
+- The first inventory flagged 1,233 rows as holding formulas because it read the `Tech.ID` column; the flag was restricted to value cells and Phase 1 was rerun (only `has_formula` changed).
