@@ -15,9 +15,11 @@ Branch: job/cost-sources, from b51f24b
 - Phase 2 Costa Rica and Dominican Republic: proposals, sources, search logs, manual lists; REPORT sections 2.1 and 2.2.
 - Phase 2 Guatemala: REPORT section 2.3.
 - Phase 2 Honduras: REPORT section 2.4.
+- Phase 2 Jamaica: REPORT section 2.5.
+- Gate 3 value checks for CR, DR, GUA, HON, JAM: all sampled values confirmed (scripts/p3_gate3_derived.py).
 
 ## Now
-- Phase 2 Jamaica and Ecuador (agents running).
+- Phase 2 Ecuador (agent running).
 
 ## Next
 - Phase 2: Guatemala, Honduras, Jamaica, Ecuador, one commit and push per country.

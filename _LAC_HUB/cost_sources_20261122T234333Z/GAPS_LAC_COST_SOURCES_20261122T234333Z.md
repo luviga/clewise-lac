@@ -30,6 +30,10 @@
 - Guatemala `GUA_ENERGY`, Vehicle Techs: `TRMOTELE` price (1,814.88) is below the gasoline motorcycle (2,820.16); heavy-freight `Ref.km.BY` equals the bus distance (50,400) with no source.
 - Honduras `HON_AFOLU`: `AG_CAF` VariableCost (4,318.8) equals FAOSTAT producer price times yield, a gross output value rather than a cost; `AG_MAI` VariableCost (1,782.8 US$ per ha) is above the FAOSTAT gross output value (about 997); `AG_FRI` and `IMPFRI` VariableCost hold the same number (725.9) in different units; import technology names are wrong (`IMPFRI`, `IMPCAF`, `IMPMEL`, `IMPLEG` named "Import Sugarcane", `IMPRIC` and `IMPMAI` named "Import Banana").
 - Honduras `HON_ENERGY`: `Techs_Buses_Tur` distance equals the car distance (7,500 km); freight FixedCost (464.79 and 236.83 M US$ per Gvkm) is 2.5 to 4 times the ATB maintenance value.
+- Jamaica `JAM_WASTE`: `AERO_PTAR` and `SEPT_SYST` VariableCost carry the unit label "No se si aplica".
+- Jamaica `JAM_TRANSPORT`: `TRAUTHG` ratio 1.02 to `TRAUTELE` compiles to 57,135 US$ against 43,532 sourced (the ratio stays within 25 percent, so confirmed).
+- Jamaica `JAM_AFOLU`: `AG_CER` and `AG_COF` fixed plus variable cost total only 14 and 23 US$ per ha; crop costs are 12 to 106 times below the Ministry's 2022 operating costs with no common factor.
+- UN Comtrade: Jamaica's 2021 motorcycle imports (HS 871120) show an implausible unit value of 447 US$ CIF; Guatemala and Honduras do not report vehicle imports to Comtrade, so their unit counts are partner estimates.
 
 ## Costs left for Luis (rows of class total_only, by model)
 

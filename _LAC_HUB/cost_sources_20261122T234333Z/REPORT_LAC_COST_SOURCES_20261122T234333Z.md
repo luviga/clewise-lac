@@ -249,6 +249,45 @@ Decisions for Luis:
 
 Judgement calls: banana import values use FAOSTAT years with official flags only (the 2022 FAO estimate of 35.56 US$ per t is left out); IMPLEG is read as vegetables (pulses differ by less than 10 percent); the CIAT bean budget (658.25 US$ per ha) is treated as national, so AG_FRI is confirmed; open dumping takes the top of the lower-middle-income range (10 US$ per t) for consistency with the Dominican Republic; waste penalties keep the current per-year values as ASSUMPTIONs in M US$ per kt.
 
+### 2.5 Jamaica
+
+Files: `JAM/proposals_JAM.csv`, `JAM/sources_JAM.csv` (JAM-001 Electric Vehicle Policy 2023, read and not cited; JAM-002 Office of Utilities Regulation EV consultation document 2021; JAM-003 Gleaner 2022 on the JUTC bus contract; JAM-004 UN Comtrade vehicle imports 2021, comparison only; JAM-005 World Bank exchange rate; JAM-006 Ministry of Agriculture and Fisheries Cost of Production Estimates 2022; JAM-007 Jamaica Information Service on JUTC buses, comparison only), `JAM/search_log_JAM.csv`, `JAM/manual_downloads_JAM.csv`.
+
+Counts by class:
+
+| Model | Confirmed | Replace | Assumption | Manual |
+| --- | --- | --- | --- | --- |
+| JAM_TRANSPORT vehicles and chain inputs (1,276) | 444 | 759 | 73 | 0 |
+| JAM_AFOLU (53) | 6 | 18 | 29 | 0 |
+| JAM_WASTE (455) | 0 | 280 | 175 | 0 |
+| Cells, total 1,784 | 450 | 1,057 | 277 | 0 |
+| Pairs, total 152 | 40 | 73 | 39 | 0 |
+
+Departures from the shared method: ATB multipliers end in 2050 and JAM_TRANSPORT runs to 2055, so 2051 to 2055 hold the 2050 ratio; buses use the national JUTC contract (45 diesel buses for US$5.4 million and 5 electric buses for US$1.1 million, 2022) instead of the Dominican anchor; heavy-freight distance stays at 27,000 km as an ASSUMPTION (no shared distance fits).
+
+Ten largest vehicle changes (compiled base-year M US$ per Gvkm at the proposed distance; real 2024 USD per vehicle in brackets):
+1. TRYTKHYD: 13,549 to 4,799 (365,824 to 129,580); ratio 3.7086 to 1.8165.
+2. TRBPUELE: 10,455 to 5,240 (470,474 to 235,812), national JUTC price.
+3. TRYLFHD: 10,174 to 5,049 (101,743 to 50,494).
+4. TRBPUHYD: 8,882 to 5,192 (399,698 to 233,645); ratio 3.75 to 2.19.
+5. TRYTKHD: 5,397 to 2,839 (145,724 to 76,661).
+6. TRYLFELE: 8,510 to 6,070 (85,103 to 60,699).
+7. TRYTKELE: 7,346 to 5,312 (198,340 to 143,434); ratio confirmed, the diesel reference changes.
+8. TRAUTDSL: 960 to 2,432 (11,525 to 48,634); price and distance both change.
+9. TRYLFDSL: 3,606 to 4,984 (36,060 to 49,839).
+10. TRMOTELE: 1,330 to 303 (15,955 to 3,636).
+
+Largest sector changes (A-O unit): crop VariableCost in US$ per ha, AG_YAM 218 to 17,781, AG_FRT 685 to 12,124, AG_VEG 75 to 8,413, AG_POT 579 to 7,884, AG_PLA 148 to 6,682, AG_LEG 267 to 5,525 (Ministry budgets 2022); wastewater CapitalCost in M US$ per billion m3, SEWERWW 1,194 to 4,685 and AERO_PTAR 900 to 3,531; IMPCARPOL 3,542 to 1,120 US$ per t.
+
+Decisions for Luis:
+1. Light-duty prices include taxes. The only Jamaican car price (OUR 2021) includes import duty and taxes: petrol car 39,315 and Nissan Leaf 56,015 US$ in 2024 USD, against 15,553 and 23,066 today. SUV and pickup prices come from ATB (no Jamaican tax), so cars now cost more than SUVs. Choose tax-inclusive (proposed) or tax-exclusive prices (ATB: petrol car 28,022, electric 34,955).
+2. Car and SUV distance from 12,000 to 20,000 km per year (OUR 2021), which lowers compiled M US$ per Gvkm by 40 percent at a given price.
+3. Heavy trucks and motorcycles: OperationalLife from 15 to 10 years (Dominican plan, as for the Dominican Republic); Jamaica publishes no figure.
+4. Crop cost unit and scale. The unit M US$ per Mha equals US$ per ha of harvested area (the activity is Mha). Current values are 12 to 106 times below the Ministry's 2022 operating costs per ha, with no single factor, so they are not one unit slip. Coffee CapitalCost 24.677 US$ per ha is a token value; livestock rows are per ha and similarly small. CapitalCost rows stay ASSUMPTIONs with ranges, because the Ministry budgets exclude establishment costs.
+5. Waste externality penalties stay ASSUMPTIONs until the IDB documents are obtained.
+
+Judgement calls: diesel bus confirmed at 106,586 US$ (sourced 128,625); the national electric-to-diesel bus price ratio is 1.83 against 2.04 for ATB Class 8; gasoline motorcycle 2,500 US$ as an ASSUMPTION (range 1,500 to 4,000); each crop's cost is the mean of the Ministry budgets for its mapped crops with one crop cycle per harvested ha (fruit uses pineapple only, legumes red peas only); imports use FAOSTAT 2019 to 2023 unit values (IMPCER uses the FAO cereal aggregate, which includes cereal preparations; maize alone, 316 US$ per t, is also within 25 percent). Not searched within the time: Jamaica Customs Agency, STATIN, Island Traffic Authority, Coffee Industry Regulation Division (GAPS).
+
 ## 3. Manual downloads
 
 (Added at the end.)
