@@ -1,0 +1,17 @@
+row,model,file,sheet,tech,parameter,year,result,cell
+0,Ecuador/ECU_Energy,B1_Scenario_Config.xlsx,Electrical,NDC|PPHDAMPS,TotalAnnualMaxCapacity,Built-in Parameter-Set,written,E95
+1,Ecuador/ECU_Energy,B1_Scenario_Config.xlsx,Electrical,NDC|PPHDAMPS,TotalAnnualMaxCapacity,Method,written,N95
+2,Ecuador/ECU_Energy,B1_Scenario_Config.xlsx,Electrical,NDC|PPHRORAS,TotalAnnualMaxCapacity,Built-in Parameter-Set,written,E98
+3,Ecuador/ECU_Energy,B1_Scenario_Config.xlsx,Electrical,NDC|PPHRORAS,TotalAnnualMaxCapacity,Method,written,N98
+4,Ecuador/ECU_Energy,B1_Scenario_Config.xlsx,Electrical,NDC|PPHRORPM,TotalAnnualMaxCapacity,Built-in Parameter-Set,written,E99
+5,Ecuador/ECU_Energy,B1_Scenario_Config.xlsx,Electrical,NDC|PPHRORPM,TotalAnnualMaxCapacity,Method,written,N99
+6,Ecuador/ECU_Energy,B1_Scenario_Config.xlsx,Electrical,NDC|PPPVD,TotalAnnualMaxCapacity,Built-in Parameter-Set,written,E105
+7,Ecuador/ECU_Energy,B1_Scenario_Config.xlsx,Electrical,NDC|PPPVD,TotalAnnualMaxCapacity,Method,written,N105
+8,Ecuador/ECU_Energy,B1_Scenario_Config.xlsx,Electrical,LTS|PPHDAMPS,TotalAnnualMaxCapacity,Built-in Parameter-Set,written,E161
+9,Ecuador/ECU_Energy,B1_Scenario_Config.xlsx,Electrical,LTS|PPHDAMPS,TotalAnnualMaxCapacity,Method,written,N161
+10,Ecuador/ECU_Energy,B1_Scenario_Config.xlsx,Electrical,LTS|PPHRORAS,TotalAnnualMaxCapacity,Built-in Parameter-Set,written,E164
+11,Ecuador/ECU_Energy,B1_Scenario_Config.xlsx,Electrical,LTS|PPHRORAS,TotalAnnualMaxCapacity,Method,written,N164
+12,Ecuador/ECU_Energy,B1_Scenario_Config.xlsx,Electrical,LTS|PPHRORPM,TotalAnnualMaxCapacity,Built-in Parameter-Set,written,E165
+13,Ecuador/ECU_Energy,B1_Scenario_Config.xlsx,Electrical,LTS|PPHRORPM,TotalAnnualMaxCapacity,Method,written,N165
+14,Ecuador/ECU_Energy,B1_Scenario_Config.xlsx,Electrical,LTS|PPPVD,TotalAnnualMaxCapacity,Built-in Parameter-Set,written,E171
+15,Ecuador/ECU_Energy,B1_Scenario_Config.xlsx,Electrical,LTS|PPPVD,TotalAnnualMaxCapacity,Method,written,N171

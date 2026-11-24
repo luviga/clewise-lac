@@ -1,0 +1,7 @@
+row,model,file,sheet,tech,parameter,year,result,cell
+0,CostaRica/CR_ENERGY/t1_confection,B1_Default_Param.xlsx,Default_Values,,DiscountRate,,written,B17
+1,DominicanRepublic/RD_ENERGY,B1_Default_Param.xlsx,Default_Values,,DiscountRate,,written,B17
+2,Ecuador/ECU_Energy,B1_Default_Param.xlsx,Default_Values,,DiscountRate,,written,B17
+3,Guatemala/GUA_ENERGY,B1_Default_Param.xlsx,Default_Values,,DiscountRate,,written,B17
+4,Honduras/HON_ENERGY,B1_Default_Param.xlsx,Default_Values,,DiscountRate,,written,B17
+5,Jamaica/JAM_ENERGY,B1_Default_Param.xlsx,Default_Values,,DiscountRate,,written,B17

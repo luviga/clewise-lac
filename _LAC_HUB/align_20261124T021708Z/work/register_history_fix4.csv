@@ -1,0 +1,2 @@
+model,file,sheet,tech,parameter,year,before,after,unit,source_id,page,derivation,assumption_sentence,range_low,range_high
+DominicanRepublic/RD_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,PPPVT,CapacityFactor,2025,=P180,0.1873615249523615,fraction,,,"the years after 2024 keep the capacity factor they had (0.18736, the former 2023 value the formula chain carried); only the history cells 2021-2024 hold recorded generation over recorded capacity",,,

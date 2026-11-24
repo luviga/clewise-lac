@@ -1,0 +1,115 @@
+Country,Scenario,Tech,Class,Boundary_Year,Frozen_PJ,Override_Year,Override_Note
+CostaRica,BAU,PWRHYDDAM,hydro,2026,16.229262,2024.0,BAU DOCSE 2024
+CostaRica,BAU,PWRHYDROR,hydro,2026,19.052201,2024.0,BAU DOCSE 2024
+CostaRica,BAU,PWRBMS,locked renewable,2026,0.252989,2024.0,BAU DOCSE 2024
+CostaRica,BAU,PWRGEO,locked renewable,2026,6.282567,2024.0,BAU DOCSE 2024
+CostaRica,BAU,PWRSUG,locked renewable,2026,0.0,2024.0,BAU DOCSE 2024
+CostaRica,LTS,PWRHYDDAM,hydro,2026,16.298945,2024.0,LTS DOCSE 2024
+CostaRica,LTS,PWRHYDROR,hydro,2026,19.134004,2024.0,LTS DOCSE 2024
+CostaRica,LTS,PWRBMS,locked renewable,2026,0.254076,2024.0,LTS DOCSE 2024
+CostaRica,LTS,PWRGEO,locked renewable,2026,6.309542,2024.0,LTS DOCSE 2024
+CostaRica,LTS,PWRSUG,locked renewable,2026,0.0,2024.0,LTS DOCSE 2024
+CostaRica,NDC,PWRHYDDAM,hydro,2026,16.299899,2024.0,NDC DOCSE 2024
+CostaRica,NDC,PWRHYDROR,hydro,2026,19.135125,2024.0,NDC DOCSE 2024
+CostaRica,NDC,PWRBMS,locked renewable,2026,0.25409,2024.0,NDC DOCSE 2024
+CostaRica,NDC,PWRGEO,locked renewable,2026,6.309912,2024.0,NDC DOCSE 2024
+CostaRica,NDC,PWRSUG,locked renewable,2026,0.0,2024.0,NDC DOCSE 2024
+DominicanRepublic,BAU,PPDHYD,hydro,2026,0.030486,2019.0,2018-2019: Small run-of-river and distributed hydro. Source: EGEHID.
+DominicanRepublic,BAU,PPHDAM,hydro,2026,4.237516,2019.0,"2018: Normal hydrological year. EGEHID fleet ~600MW (Jiguey-Aguacate 97MW, Valdesia 54MW, Tavera-López 96MW, Palomino 80MW, others). 2019: Below-average rainfall. Source: EGEHID production reports; OC-SENI Memoria Anual 2018-2019; IRENA 2019 profile hydro 1,165 GWh."
+DominicanRepublic,BAU,PPBIM,locked renewable,2026,0.772305,2019.0,"2018-2019: San Pedro Bio-Energy (35MW, COD Jun 2017, SENI-registered, CNE concession CNE-CD-0002-2016). ~200 GWh/yr. Source: CNE """"San Pedro Bio-Energy"""" page; BioElectricidad Industrial member profile."
+DominicanRepublic,BAU,PPDBGS,locked renewable,2026,0.071133,2019.0,2018-2019: Small biogas. Marginal. Source: CNE renewable registry.
+DominicanRepublic,BAU,PPDBIM,locked renewable,2026,0.26421,2019.0,2018-2019: Central Romana captive bagasse cogeneration (32MW steam turbines during zafra ~225 days/yr). Source: Central Romana Services page; INAZUCAR zafra reports.
+DominicanRepublic,LTS,PPDHYD,hydro,2026,0.030382,2019.0,2018-2019: Small run-of-river and distributed hydro. Source: EGEHID.
+DominicanRepublic,LTS,PPHDAM,hydro,2026,4.223122,2019.0,"2018: Normal hydrological year. EGEHID fleet ~600MW (Jiguey-Aguacate 97MW, Valdesia 54MW, Tavera-López 96MW, Palomino 80MW, others). 2019: Below-average rainfall. Source: EGEHID production reports; OC-SENI Memoria Anual 2018-2019; IRENA 2019 profile hydro 1,165 GWh."
+DominicanRepublic,LTS,PPBIM,locked renewable,2026,0.769682,2019.0,"2018-2019: San Pedro Bio-Energy (35MW, COD Jun 2017, SENI-registered, CNE concession CNE-CD-0002-2016). ~200 GWh/yr. Source: CNE """"San Pedro Bio-Energy"""" page; BioElectricidad Industrial member profile."
+DominicanRepublic,LTS,PPDBGS,locked renewable,2026,0.070892,2019.0,2018-2019: Small biogas. Marginal. Source: CNE renewable registry.
+DominicanRepublic,LTS,PPDBIM,locked renewable,2026,0.263312,2019.0,2018-2019: Central Romana captive bagasse cogeneration (32MW steam turbines during zafra ~225 days/yr). Source: Central Romana Services page; INAZUCAR zafra reports.
+DominicanRepublic,NDC,PPDHYD,hydro,2026,0.030388,2019.0,2018-2019: Small run-of-river and distributed hydro. Source: EGEHID.
+DominicanRepublic,NDC,PPHDAM,hydro,2026,4.223872,2019.0,"2018: Normal hydrological year. EGEHID fleet ~600MW (Jiguey-Aguacate 97MW, Valdesia 54MW, Tavera-López 96MW, Palomino 80MW, others). 2019: Below-average rainfall. Source: EGEHID production reports; OC-SENI Memoria Anual 2018-2019; IRENA 2019 profile hydro 1,165 GWh."
+DominicanRepublic,NDC,PPBIM,locked renewable,2026,0.769818,2019.0,"2018-2019: San Pedro Bio-Energy (35MW, COD Jun 2017, SENI-registered, CNE concession CNE-CD-0002-2016). ~200 GWh/yr. Source: CNE """"San Pedro Bio-Energy"""" page; BioElectricidad Industrial member profile."
+DominicanRepublic,NDC,PPDBGS,locked renewable,2026,0.070904,2019.0,2018-2019: Small biogas. Marginal. Source: CNE renewable registry.
+DominicanRepublic,NDC,PPDBIM,locked renewable,2026,0.263359,2019.0,2018-2019: Central Romana captive bagasse cogeneration (32MW steam turbines during zafra ~225 days/yr). Source: Central Romana Services page; INAZUCAR zafra reports.
+Ecuador,BAU,PPHD,hydro,2025,2.25981,,
+Ecuador,BAU,PPHDAMAB,hydro,2025,18.569182,,
+Ecuador,BAU,PPHDAMAM,hydro,2025,6.598645,,
+Ecuador,BAU,PPHDAMAS,hydro,2025,0.012913,,
+Ecuador,BAU,PPHDAMPM,hydro,2025,4.777884,,
+Ecuador,BAU,PPHDAMPS,hydro,2025,0.6844,,
+Ecuador,BAU,PPHRORAB,hydro,2025,25.761834,,
+Ecuador,BAU,PPHRORAM,hydro,2025,8.083663,,
+Ecuador,BAU,PPHRORAS,hydro,2025,3.318692,,
+Ecuador,BAU,PPHRORPM,hydro,2025,11.686446,,
+Ecuador,BAU,PPHRORPS,hydro,2025,3.344519,,
+Ecuador,BAU,PPIHD,hydro,2025,6.340381,,
+Ecuador,BAU,PPBGS,locked renewable,2025,2.879644,,
+Ecuador,BAU,PPBIM,locked renewable,2025,1.226754,,
+Ecuador,BAU,PPGEO,locked renewable,2025,0.0,,
+Ecuador,BAU,PPIBIM,locked renewable,2025,1.859501,,
+Ecuador,LTS,PPHD,hydro,2025,2.260482,,
+Ecuador,LTS,PPHDAMAB,hydro,2025,18.574704,,
+Ecuador,LTS,PPHDAMAM,hydro,2025,6.600607,,
+Ecuador,LTS,PPHDAMAS,hydro,2025,0.012917,,
+Ecuador,LTS,PPHDAMPM,hydro,2025,4.779305,,
+Ecuador,LTS,PPHDAMPS,hydro,2025,0.684603,,
+Ecuador,LTS,PPHRORAB,hydro,2025,25.769495,,
+Ecuador,LTS,PPHRORAM,hydro,2025,8.086067,,
+Ecuador,LTS,PPHRORAS,hydro,2025,3.319679,,
+Ecuador,LTS,PPHRORPM,hydro,2025,11.689921,,
+Ecuador,LTS,PPHRORPS,hydro,2025,3.345513,,
+Ecuador,LTS,PPIHD,hydro,2025,6.342267,,
+Ecuador,LTS,PPBGS,locked renewable,2025,2.8805,,
+Ecuador,LTS,PPBIM,locked renewable,2025,1.227119,,
+Ecuador,LTS,PPGEO,locked renewable,2025,0.0,,
+Ecuador,LTS,PPIBIM,locked renewable,2025,1.860054,,
+Ecuador,NDC,PPHD,hydro,2025,2.260482,,
+Ecuador,NDC,PPHDAMAB,hydro,2025,18.574704,,
+Ecuador,NDC,PPHDAMAM,hydro,2025,6.600607,,
+Ecuador,NDC,PPHDAMAS,hydro,2025,0.012917,,
+Ecuador,NDC,PPHDAMPM,hydro,2025,4.779305,,
+Ecuador,NDC,PPHDAMPS,hydro,2025,0.684603,,
+Ecuador,NDC,PPHRORAB,hydro,2025,25.769495,,
+Ecuador,NDC,PPHRORAM,hydro,2025,8.086067,,
+Ecuador,NDC,PPHRORAS,hydro,2025,3.319679,,
+Ecuador,NDC,PPHRORPM,hydro,2025,11.689921,,
+Ecuador,NDC,PPHRORPS,hydro,2025,3.345513,,
+Ecuador,NDC,PPIHD,hydro,2025,6.342267,,
+Ecuador,NDC,PPBGS,locked renewable,2025,2.8805,,
+Ecuador,NDC,PPBIM,locked renewable,2025,1.227119,,
+Ecuador,NDC,PPGEO,locked renewable,2025,0.0,,
+Ecuador,NDC,PPIBIM,locked renewable,2025,1.860054,,
+Guatemala,BAU,PPHDAM,hydro,2026,20.030452,2024.0,"AMM=40.31% vs S1=39.49% (+0.8pp),Historical correction to real AMM/MEM data. El Niño drought - hydro 40.5%; coal+petcoke record; first significant gas,""AMM ITE mensual; MEM Informe Monitoreo 2024, Gráfica 22"
+Guatemala,BAU,PPHROR,hydro,2026,1.411225,2024.0,"AMM=2.84% vs S1=2.38% (+0.5pp),Historical correction to real AMM/MEM data. El Niño drought - hydro 40.5%; coal+petcoke record; first significant gas,AMM ITE; MEM registro pequeñas centrales hidroeléctricas"
+Guatemala,BAU,PPBGS,locked renewable,2026,0.257753,2024.0,"AMM=0.46% vs S1=0.18% (+0.3pp),Historical correction to real AMM/MEM data. El Niño drought - hydro 40.5%; coal+petcoke record; first significant gas,AMM ITE; CNEE registro plantas biogás"
+Guatemala,BAU,PPBIM,locked renewable,2026,6.970541,2024.0,"AMM=12.44% vs S1=25.34% (-12.9pp),Historical correction to real AMM/MEM data. El Niño drought - hydro 40.5%; coal+petcoke record; first significant gas,AMM ITE; ASAZGUA/CENGICAÑA zafra statistics; MEM Informe 2024"
+Guatemala,BAU,PPGEO,locked renewable,2026,1.227129,2024.0,"AMM=2.19% vs S1=1.72% (+0.5pp),Historical correction to real AMM/MEM data. El Niño drought - hydro 40.5%; coal+petcoke record; first significant gas,AMM ITE; INDE Zunil II (24MW) + Orzunil/Ortitlán (28MW)"
+Guatemala,LTS,PPHDAM,hydro,2026,18.407769,2024.0,"AMM=40.31% vs S1=39.49% (+0.8pp),Historical correction to real AMM/MEM data. El Niño drought - hydro 40.5%; coal+petcoke record; first significant gas,""AMM ITE mensual; MEM Informe Monitoreo 2024, Gráfica 22"
+Guatemala,LTS,PPHROR,hydro,2026,1.296901,2024.0,"AMM=2.84% vs S1=2.38% (+0.5pp),Historical correction to real AMM/MEM data. El Niño drought - hydro 40.5%; coal+petcoke record; first significant gas,AMM ITE; MEM registro pequeñas centrales hidroeléctricas"
+Guatemala,LTS,PPBGS,locked renewable,2026,0.292761,2024.0,"AMM=0.46% vs S1=0.18% (+0.3pp),Historical correction to real AMM/MEM data. El Niño drought - hydro 40.5%; coal+petcoke record; first significant gas,AMM ITE; CNEE registro plantas biogás"
+Guatemala,LTS,PPBIM,locked renewable,2026,7.917274,2024.0,"AMM=12.44% vs S1=25.34% (-12.9pp),Historical correction to real AMM/MEM data. El Niño drought - hydro 40.5%; coal+petcoke record; first significant gas,AMM ITE; ASAZGUA/CENGICAÑA zafra statistics; MEM Informe 2024"
+Guatemala,LTS,PPGEO,locked renewable,2026,1.393797,2024.0,"AMM=2.19% vs S1=1.72% (+0.5pp),Historical correction to real AMM/MEM data. El Niño drought - hydro 40.5%; coal+petcoke record; first significant gas,AMM ITE; INDE Zunil II (24MW) + Orzunil/Ortitlán (28MW)"
+Guatemala,NDC,PPHDAM,hydro,2026,18.407769,2024.0,"AMM=40.31% vs S1=39.49% (+0.8pp),Historical correction to real AMM/MEM data. El Niño drought - hydro 40.5%; coal+petcoke record; first significant gas,""AMM ITE mensual; MEM Informe Monitoreo 2024, Gráfica 22"
+Guatemala,NDC,PPHROR,hydro,2026,1.296901,2024.0,"AMM=2.84% vs S1=2.38% (+0.5pp),Historical correction to real AMM/MEM data. El Niño drought - hydro 40.5%; coal+petcoke record; first significant gas,AMM ITE; MEM registro pequeñas centrales hidroeléctricas"
+Guatemala,NDC,PPBGS,locked renewable,2026,0.292856,2024.0,"AMM=0.46% vs S1=0.18% (+0.3pp),Historical correction to real AMM/MEM data. El Niño drought - hydro 40.5%; coal+petcoke record; first significant gas,AMM ITE; CNEE registro plantas biogás"
+Guatemala,NDC,PPBIM,locked renewable,2026,7.919855,2024.0,"AMM=12.44% vs S1=25.34% (-12.9pp),Historical correction to real AMM/MEM data. El Niño drought - hydro 40.5%; coal+petcoke record; first significant gas,AMM ITE; ASAZGUA/CENGICAÑA zafra statistics; MEM Informe 2024"
+Guatemala,NDC,PPGEO,locked renewable,2026,1.394251,2024.0,"AMM=2.19% vs S1=1.72% (+0.5pp),Historical correction to real AMM/MEM data. El Niño drought - hydro 40.5%; coal+petcoke record; first significant gas,AMM ITE; INDE Zunil II (24MW) + Orzunil/Ortitlán (28MW)"
+Honduras,BAU,PPHDAM,hydro,2026,7.655752,2024.0,IEASEN 2024
+Honduras,BAU,PPHROR,hydro,2026,5.953399,2024.0,IEASEN 2024
+Honduras,BAU,PPBGS,locked renewable,2026,0.0,,
+Honduras,BAU,PPBIM,locked renewable,2026,3.235438,2024.0,IEASEN 2024
+Honduras,BAU,PPGEO,locked renewable,2026,1.387998,2024.0,IEASEN 2024
+Honduras,LTS,PPHDAM,hydro,2026,7.617293,2024.0,IEASEN 2024
+Honduras,LTS,PPHROR,hydro,2026,5.92348,2024.0,IEASEN 2024
+Honduras,LTS,PPBGS,locked renewable,2026,0.0,,
+Honduras,LTS,PPBIM,locked renewable,2026,3.25621,2024.0,IEASEN 2024
+Honduras,LTS,PPGEO,locked renewable,2026,1.396909,2024.0,IEASEN 2024
+Honduras,NDC,PPHDAM,hydro,2026,7.617293,2024.0,IEASEN 2024
+Honduras,NDC,PPHROR,hydro,2026,5.92348,2024.0,IEASEN 2024
+Honduras,NDC,PPBGS,locked renewable,2026,0.0,,
+Honduras,NDC,PPBIM,locked renewable,2026,3.25621,2024.0,IEASEN 2024
+Honduras,NDC,PPGEO,locked renewable,2026,1.396909,2024.0,IEASEN 2024
+Jamaica,BAU,PPHDAM,hydro,2026,0.393803,2024.0,Maggotty 7.2 MW. Stable.
+Jamaica,BAU,PPHROR,hydro,2026,0.0,2024.0,ROR fleet impacted by post-hurricane debris and flow disruption. Reduced output H2 2024.
+Jamaica,LTS,PPHDAM,hydro,2026,0.39617,2024.0,Maggotty 7.2 MW. Stable.
+Jamaica,LTS,PPHROR,hydro,2026,0.0,2024.0,ROR fleet impacted by post-hurricane debris and flow disruption. Reduced output H2 2024.
+Jamaica,NDC,PPHDAM,hydro,2026,0.39617,2024.0,Maggotty 7.2 MW. Stable.
+Jamaica,NDC,PPHROR,hydro,2026,0.0,2024.0,ROR fleet impacted by post-hurricane debris and flow disruption. Reduced output H2 2024.

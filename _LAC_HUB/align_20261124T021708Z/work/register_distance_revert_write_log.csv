@@ -1,0 +1,7 @@
+row,model,file,sheet,tech,parameter,year,result,cell
+0,DominicanRepublic/RD_ENERGY,A1_Outputs/A-O_Demand.xlsx,Demand_Projection,Techs_Buses_Pub,Ref.km.BY,,written,F43
+1,DominicanRepublic/RD_ENERGY,A1_Outputs/A-O_Demand.xlsx,Demand_Projection,Techs_Buses_Tur,Ref.km.BY,,written,F49
+2,Guatemala/GUA_ENERGY,A1_Outputs/A-O_Demand.xlsx,Demand_Projection,Techs_He_Freight,Ref.km.BY,,written,F41
+3,Honduras/HON_ENERGY,A1_Outputs/A-O_Demand.xlsx,Demand_Projection,Techs_Buses_Tur,Ref.km.BY,,written,F49
+4,Jamaica/JAM_TRANSPORT,A1_Outputs/A-O_Demand.xlsx,Demand_Projection,Techs_Auto,Ref.km.BY,,written,F12
+5,Jamaica/JAM_TRANSPORT,A1_Outputs/A-O_Demand.xlsx,Demand_Projection,Techs_SUV,Ref.km.BY,,written,F14
