@@ -902,7 +902,7 @@ CapacityFactor,BAU,CR,PWRBMS,,,,2050,All,,,,,0.2247
 CapacityFactor,BAU,CR,PWRFOI,,,,2021,All,,,,,0.0012
 CapacityFactor,BAU,CR,PWRFOI,,,,2022,All,,,,,0.0515
 CapacityFactor,BAU,CR,PWRFOI,,,,2023,All,,,,,0.29
-CapacityFactor,BAU,CR,PWRFOI,,,,2024,All,,,,,0.3518
+CapacityFactor,BAU,CR,PWRFOI,,,,2024,All,,,,,0.4616
 CapacityFactor,BAU,CR,PWRFOI,,,,2025,All,,,,,0.2936
 CapacityFactor,BAU,CR,PWRFOI,,,,2026,All,,,,,0.28
 CapacityFactor,BAU,CR,PWRFOI,,,,2027,All,,,,,0.2908

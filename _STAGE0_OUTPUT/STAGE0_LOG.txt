@@ -1,4 +1,4 @@
-Generated: 2026-11-22T01:36:15.090901
+Generated: 2026-11-24T08:51:51.325674
 Mode: zero
 
 CostaRica/BAU: 260 patched
@@ -16,6 +16,6 @@ Guatemala/LTS: 775 patched
 Honduras/BAU: 468 patched
 Honduras/NDC: 884 patched
 Honduras/LTS: 884 patched
-Jamaica/BAU: 450 patched
+Jamaica/BAU: 419 patched
 Jamaica/NDC: 529 patched
 Jamaica/LTS: 529 patched
