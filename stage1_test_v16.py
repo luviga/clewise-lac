@@ -50,13 +50,10 @@ EXPECTED_COUNTRIES = ["CostaRica", "DominicanRepublic", "Ecuador",
                       "Guatemala", "Honduras", "Jamaica"]
 EXPECTED_SCENARIOS = LT.scenarios()
 
-# Policy milestones: (scenario, year, min_renewable_share)
-POLICY_CHECKS = [
-    (LT.scenario("ndc"), 2035, 0.70),   # 75% target, allow 5pp margin
-    (LT.scenario("ndc"), 2050, 0.70),
-    (LT.scenario("lts"), 2035, 0.70),
-    (LT.scenario("lts"), 2050, 0.94),   # 99% target, allow 5pp margin
-]
+# Policy milestones: each country's own targets (Stage 1 output RENEWABLE_TARGETS.csv, built from
+# inputs/scenarios/scenario_values.csv); a share at a target year must reach the target less the Stage 2 tolerance
+import renewable_targets as RT
+TARGET_TOL = LT.controller("target_match_tolerance", "2")
 
 COSTA_RICA_NAMES = ["CostaRica"]
 
@@ -212,10 +209,13 @@ def main():
 
     # ── Test 5: Policy milestones ──
     policy_fails = 0
-    for sc, milestone_year, min_renew in POLICY_CHECKS:
+    targets = RT.load(Path(OUTPUT_DIR).resolve().parent)
+    checks = [(country, sc, y, v - TARGET_TOL) for country, d in targets.items() for sc, cur in d.items()
+              for y, v in cur.items()]
+    for country, sc, milestone_year, min_renew in checks:
         if milestone_year not in year_cols:
             continue
-        for country in countries:
+        if country in countries:
             sub = shares[(shares["Country"] == country) &
                          (shares["Scenario"] == sc)]
             if sub.empty:

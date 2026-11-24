@@ -17,7 +17,7 @@ countries:
     first_year: 2018
     variation_start_year: 2024
     discount_year: 2024
-    discount_rate: 0.0504
+    discount_rate: 0.12
     last_year: 2050
     driven_distance_reference_year: 2019
     milestone_years: [2030, 2040, 2050]
@@ -28,14 +28,14 @@ countries:
     first_year: 2021
     last_year: 2050
     inflexion_year: 2025
-    discount_rate: 0.0504
+    discount_rate: 0.12
     biodiesel_blend_start: [2026, 1]      # [year, percent]
     biodiesel_blend_final: [2030, 5]
     ethanol_blend_start: [2024, 9.98]
     ethanol_blend_mid: [2025, 9.99]
     ethanol_blend_final: [2026, 10]
   Guatemala:
-    output_discount_rate: 0.10            # rate that discounts the cost columns of the output tables
+    output_discount_rate: 0.07            # rate that discounts the cost columns of the output tables
     discount_year: 2025
     first_year: 2018
     history_end_year: 2024
@@ -49,7 +49,7 @@ countries:
     ethanol_blend_final: [2026, 10]
   Honduras:
     discount_year: 2025
-    discount_rate: 0.08
+    discount_rate: 0.12
     first_year: 2018
     history_end_year: 2024
     last_year: 2050
@@ -63,7 +63,7 @@ countries:
     ethanol_blend_final: [2035, 5.00]
   Jamaica:
     discount_year: 2025
-    discount_rate: 0.0504
+    discount_rate: 0.10262
     first_year: 2018
     history_end_year: 2024
     last_year: 2050

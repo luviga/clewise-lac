@@ -81,10 +81,10 @@ HYDRO_DECLINE_RATE  = 0.0      # deprecated in v15: hydro uses PJ freeze instead
 CAU                 = 31.536   # CapacityToActivityUnit (PJ/GW/yr)
 PP_PREFIXES         = tuple(LT.techs("power_plant_prefix"))
 
-# Policy renewable target curves (inputs/scenarios/scenario_values.csv, lever renewable_share)
-RENEWABLE_TARGET_CURVE = LT.scenario_values("renewable_share")
-COUNTRY_TARGET_OVERRIDES = LT.scenario_value_overrides("renewable_share")
-TARGET_HOLD_YEAR = LT.controller("target_hold_year", "1")
+# Policy renewable target curves: built per country from inputs/scenarios/scenario_values.csv by
+# renewable_targets.build (published shares, and published capacity turned into a share by the capacity rule)
+import renewable_targets as RT
+TARGETS = {}   # {country: {scenario: {year: (value, basis, value_ids, derivation)}}}
 
 # Upper limits
 DEFAULT_UPPER_LIMIT     = LT.controller("upper_limit_sentinel", "1")
@@ -240,29 +240,14 @@ def cumulative_mincap(mci_mat, anchor_year):
 # =============================================================================
 
 def get_target_curve(country, scenario):
-    if country in COUNTRY_TARGET_OVERRIDES:
-        if scenario in COUNTRY_TARGET_OVERRIDES[country]:
-            return COUNTRY_TARGET_OVERRIDES[country][scenario]
-    return RENEWABLE_TARGET_CURVE[scenario]
+    """{year: share} of the country and scenario ({} when no published row applies)."""
+    return {y: v[0] for y, v in TARGETS.get(country, {}).get(scenario, {}).items()}
 
 
 def policy_renewable_target(year, scenario, anchor_share_2026, country):
-    """Piecewise linear renewable target for (year, scenario, country)."""
-    if year <= CUTOFF_YEAR:
-        return None
-    milestones = get_target_curve(country, scenario)
-    if year >= TARGET_HOLD_YEAR:
-        return milestones[TARGET_HOLD_YEAR]
-    pts = [(CUTOFF_YEAR, anchor_share_2026)] + sorted(milestones.items())
-    pts = sorted(set(pts))
-    for i in range(len(pts) - 1):
-        y1, v1 = pts[i]
-        y2, v2 = pts[i + 1]
-        if y1 <= year <= y2:
-            if y2 == y1:
-                return v2
-            return v1 + (v2 - v1) * (year - y1) / (y2 - y1)
-    return milestones[TARGET_HOLD_YEAR]
+    """Piecewise linear renewable target for (year, scenario, country); the last target held after its year;
+    None without a target (the scenario takes the BAU shares)."""
+    return RT.curve_value(get_target_curve(country, scenario), year, CUTOFF_YEAR, anchor_share_2026)
 
 
 # =============================================================================
@@ -528,6 +513,28 @@ def process_country(country, rec_shares, s0_dir, ceiling, root, audit_log,
             })
 
     # =================================================================
+    # Targets of the policy scenarios (published shares and the capacity rule)
+    # =================================================================
+    def _cf_af(tech, sc):
+        cf, af = 0.0, 1.0
+        if not b1[sc]["cf"].empty and tech in b1[sc]["cf"].index and ANCHOR_YEAR in b1[sc]["cf"].columns:
+            v = b1[sc]["cf"].loc[tech, ANCHOR_YEAR]
+            cf = float(v) if pd.notna(v) else 0.0
+        if not b1[sc]["af"].empty and tech in b1[sc]["af"].index and ANCHOR_YEAR in b1[sc]["af"].columns:
+            v = b1[sc]["af"].loc[tech, ANCHOR_YEAR]
+            if pd.notna(v) and v > 0:
+                af = float(v)
+        return cf * af
+
+    TARGETS[country] = RT.build(
+        country, POLICY_SCENARIOS, all_techs, hydro_techs + nh_renew_techs,
+        anchor_gen=lambda t, sc: anchor_shares.get(t, 0.0) * emp_gen[sc].get(ANCHOR_YEAR, 0.0),
+        cf_af=_cf_af, denominator=lambda sc, y: float(emp_gen[sc].get(y, 0.0)) if not emp_gen[sc].empty else 0.0)
+    for sc, cur in TARGETS[country].items():
+        for y, (v, basis, ids, der) in sorted(cur.items()):
+            print(f"  [Target] {sc} {y}: {v:.4f} ({basis}; {ids})")
+
+    # =================================================================
     # STEP 2: Compute policy scenario shares (2027+)
     # =================================================================
     policy_shares = {}  # {scenario: {(tech, year): fraction}}
@@ -541,8 +548,8 @@ def process_country(country, rec_shares, s0_dir, ceiling, root, audit_log,
                 for t in all_techs:
                     policy_shares[sc][(t, year)] = bau_shares[(t, year)]
 
-        if is_cr and country not in COUNTRY_TARGET_OVERRIDES:
-            # Costa Rica with no override: passthrough BAU for all years
+        if not get_target_curve(country, sc):
+            # no published target: passthrough BAU for all years
             for year in years:
                 if year > CUTOFF_YEAR:
                     for t in all_techs:
@@ -805,12 +812,10 @@ def write_controller(all_rows, audit_log, output_dir):
         {"Item": "  Fossils", "Value": f"{FOSSIL_DECLINE_RATE*100:.1f}%/yr decline from 2027"},
         {"Item": "  Hydro", "Value": f"freeze + MinCapInvest"},
         {"Item": "  NH-Renewable", "Value": "gap-fill to 100%"},
-        {"Item": f"  {LT.country_value(LT.controller_list("own_rule_country_names", "1")[0], 'display_name')}", "Value": f"same rules as other countries ({LT.scenario('base')}); managed per COUNTRY_TARGET_OVERRIDES (policy)"},
+        {"Item": f"  {LT.country_value(LT.controller_list("own_rule_country_names", "1")[0], 'display_name')}", "Value": f"same rules as other countries ({LT.scenario('base')})"},
         {"Item": "", "Value": ""},
         {"Item": "POLICY RULE", "Value": ""},
-        {"Item": f"  {LT.scenario('ndc')}", "Value": str(RENEWABLE_TARGET_CURVE.get(LT.scenario('ndc'), {}))},
-        {"Item": f"  {LT.scenario('lts')}", "Value": str(RENEWABLE_TARGET_CURVE.get(LT.scenario('lts'), {}))},
-        {"Item": f"  {LT.country_value(LT.controller_list("own_rule_country_names", "1")[0], 'code')} overrides", "Value": str(COUNTRY_TARGET_OVERRIDES.get(LT.controller_list("own_rule_country_names", "1")[0], {}))},
+        {"Item": "  Targets", "Value": f"{RT.FILE_NAME} (published shares and the capacity rule of renewable_targets.py)"},
         {"Item": "", "Value": ""},
         {"Item": "SHARES", "Value": "Sum to 100% for all (country, scenario, year) by construction"},
         {"Item": "LOWER LIMITS", "Value": "share × empirical_gen, capped at production potential"},
@@ -920,8 +925,9 @@ def main():
                                root, audit_log, global_years)
         all_rows.extend(rows)
 
-    # Write controller
+    # Write controller and the targets of the policy scenarios
     write_controller(all_rows, audit_log, out_dir)
+    print(f"[Wrote] {RT.write(TARGETS, out_dir)}")
 
     print(f"\n{'='*70}")
     print("STAGE 1 v15 COMPLETE")

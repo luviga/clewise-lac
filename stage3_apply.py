@@ -36,9 +36,13 @@ FIRST_PATCH_YEAR = LT.controller("first_patch_year", "3")
 RESERVE_MARGIN = LT.controller("reserve_margin", "3")
 UPPER_UNCAPPED = LT.controller("upper_limit_sentinel", "3")  # controller sentinel for "no cap"
 LOWER_TO_UPPER_FACTOR = LT.controller("lower_to_upper_factor", "3")  # tight cap = lower * factor when controller says uncapped but lower > 0
-# {country: [scenario, ...]} whose orphan plants are left uncapped (stage_controller.csv, orphan_cap_exempt_scenarios)
-ORPHAN_CAP_EXEMPT = {c: (v if isinstance(v, list) else [v])
-                     for c, v in LT.controller_by_country("orphan_cap_exempt_scenarios", "3").items()}
+# Scenarios with an energy emission cap (inputs/scenarios/scenario_values.csv, lever
+# energy_emission_reduction_vs_bau): from cap_start_year their power plant share pins are released (upper limits
+# open, except the locked plants of Stage 1: biomass, biogas, bagasse, geothermal); frozen output and committed builds
+# keep their lower limits (Stage 2 sheet FLOOR_LOWER)
+CAP_LEVER = "energy_emission_reduction_vs_bau"
+CAP_START_YEAR = LT.controller("cap_start_year", "3")
+CAP_SCENARIOS = {(r["country"], r["scenario"]) for r in LT._value_rows() if r["lever"] == CAP_LEVER}
 
 COUNTRY_CONFIG = LT.country_table("model_dir")
 
@@ -49,6 +53,18 @@ CONTROLLER_TECHMAP_SHEET = "TECH_MAP"
 
 def is_pp_tech(name):
     return str(name).strip().upper().startswith(PP_PREFIXES)
+
+
+# Locked plants: the non-hydro renewables other than solar and wind (biomass, biogas, bagasse, geothermal), which
+# Stage 1 holds at their BAU share. Their upper limit stays at the controller value in the released years of an
+# energy emission cap scenario.
+LOCKED_RENEWABLE_TOKENS = tuple(LT.techs("renewable_token"))
+LOCKED_EXCLUDED_TOKENS = tuple(LT.techs("solar_wind_token")) + tuple(LT.techs("hydro_token"))
+
+
+def is_locked_tech(name):
+    t = str(name).strip().upper()
+    return any(k in t for k in LOCKED_RENEWABLE_TOKENS) and not any(k in t for k in LOCKED_EXCLUDED_TOKENS)
 
 
 # Variable renewable tech identifiers — these do NOT provide firm reserve capacity
@@ -72,6 +88,19 @@ def load_controller(xlsx_path):
     tech_map = pd.read_excel(xlsx_path, sheet_name=CONTROLLER_TECHMAP_SHEET)
     fossil_techs = set(tech_map[tech_map["Group"] == "FOSSIL"]["Tech"])
     return lower, upper, fossil_techs
+
+
+def load_floor(xlsx_path):
+    """{(country, scenario): {tech: {year: PJ}}} of the Stage 2 sheet FLOOR_LOWER (empty when absent)."""
+    try:
+        df = pd.read_excel(xlsx_path, sheet_name="FLOOR_LOWER")
+    except ValueError:
+        return {}
+    yr_cols = [c for c in df.columns if isinstance(c, (int, float))]
+    out = {}
+    for _, row in df.iterrows():
+        out.setdefault((row["Country"], row["Scenario"]), {})[row["Tech"]] = {int(y): float(row[y]) for y in yr_cols}
+    return out
 
 
 def controller_slice(df, country, scenario):
@@ -536,6 +565,7 @@ def main():
     print()
 
     lower_df, upper_df, fossil_techs = load_controller(ctrl_path)
+    floor_all = load_floor(ctrl_path)
 
     summary = []
 
@@ -621,6 +651,16 @@ def main():
             # Get controller data for this (country, scenario)
             ctrl_lower = controller_slice(lower_df, country, scenario)
             ctrl_upper = controller_slice(upper_df, country, scenario)
+            released = (country, scenario) in CAP_SCENARIOS
+            pre_release_lower = {t: dict(v) for t, v in ctrl_lower.items()}
+            if released:
+                fl = floor_all.get((country, scenario), {})
+                for tech, yr_vals in ctrl_lower.items():
+                    for y in list(yr_vals):
+                        if y >= CAP_START_YEAR:
+                            yr_vals[y] = round(fl.get(tech, {}).get(y, 0.0), LT.controller("limit_digits", "2"))
+                log.append(f"  Share pins released from {CAP_START_YEAR} (energy emission cap scenario): lower = frozen "
+                           f"output and committed builds, upper open (locked plants keep the controller upper)")
             log.append(f"  Controller techs: {len(ctrl_lower)} lower, {len(ctrl_upper)} upper")
 
             # Step 3: Patch LowerLimit
@@ -632,17 +672,12 @@ def main():
             log.append(f"  Patched LowerLimit: {n_lower} values changed")
 
             # Find orphan PP techs (in model but not in controller) — needed for Steps 3b and 4.
-            # Every country caps them at 0 from 2025, except a scenario that the controller table lists under
-            # orphan_cap_exempt_scenarios for the country (config/scenarios/rules/stage_controller.csv, with its reason)
-            if scenario in ORPHAN_CAP_EXEMPT.get(country, []):
-                orphan_techs = []
-                log.append(f"  Orphan capping not applied for {country} {scenario} (orphan_cap_exempt_scenarios)")
-            else:
-                all_pp_in_txt = find_all_pp_techs_in_txt(content)
-                ctrl_pp_techs = {t for t in ctrl_lower if is_pp_tech(t)}
-                orphan_techs = [t for t in all_pp_in_txt if t not in ctrl_pp_techs]
-                if orphan_techs:
-                    log.append(f"  Found {len(orphan_techs)} orphan PP techs: {', '.join(orphan_techs)}")
+            # Every country and scenario caps them at 0 from 2025.
+            all_pp_in_txt = find_all_pp_techs_in_txt(content)
+            ctrl_pp_techs = {t for t in ctrl_lower if is_pp_tech(t)}
+            orphan_techs = [t for t in all_pp_in_txt if t not in ctrl_pp_techs]
+            if orphan_techs:
+                log.append(f"  Found {len(orphan_techs)} orphan PP techs: {', '.join(orphan_techs)}")
 
             # Step 3b: Zero out orphan tech lower limits (in case originals had non-zero)
             if orphan_techs:
@@ -683,10 +718,13 @@ def main():
                 tight_upper = {}
                 for tech, yr_vals in ctrl_lower.items():
                     if is_pp_tech(tech):
-                        tight_upper[tech] = {
-                            y: v * LOWER_TO_UPPER_FACTOR if v > LT.controller("change_tolerance") else zero_lower_upper
-                            for y, v in yr_vals.items()
-                        }
+                        def _upper(y, v):
+                            if released and y >= CAP_START_YEAR:
+                                if not is_locked_tech(tech):
+                                    return LT.controller("uncapped_value", "3")
+                                v = pre_release_lower[tech].get(y, 0.0)
+                            return v * LOWER_TO_UPPER_FACTOR if v > LT.controller("change_tolerance") else zero_lower_upper
+                        tight_upper[tech] = {y: _upper(y, v) for y, v in yr_vals.items()}
 
                 # Also cap orphan PP techs (in model but not in controller) at zero
                 for tech in orphan_techs:

@@ -43,6 +43,7 @@ VARIABLES = {
     "NewCapacity":                   ["r", "t", "y"],
     "TotalCapacityAnnual":           ["r", "t", "y"],
     "ProductionByTechnologyAnnual":  ["r", "t", "f", "y"],
+    "TotalDiscountedCost":           ["r", "y"],
 }
 
 # Column name mapping for index letters
@@ -397,11 +398,14 @@ def main():
             merged = totals.merge(re_gen, on=["Country", "Scenario", "Year"], how="left").fillna(0)
             merged["RE_Share"] = merged["RE"] / merged["Total"]
 
-            # Policy targets: {scenario: {year: target_share}} of each country, with the lookup of Stages 1
-            # and 2: the country's own rows where it has them, else the general rows
-            # (inputs/scenarios/scenario_values.csv, lever renewable_share)
-            RE_TARGETS_GENERAL = LT.scenario_values("renewable_share")
-            RE_TARGETS_COUNTRY = LT.scenario_value_overrides("renewable_share")
+            # Policy targets: {country: {scenario: {year: target_share}}}, each country's own loaded targets
+            # (Stage 1 output RENEWABLE_TARGETS.csv, built from inputs/scenarios/scenario_values.csv); a year of
+            # a scenario whose share pins are released (energy emission cap) is not checked
+            import renewable_targets as RT
+            RE_TARGETS = RT.load(root)
+            CAPPED = {(r["country"], r["scenario"]) for r in LT._value_rows()
+                      if r["lever"] == "energy_emission_reduction_vs_bau"}
+            CAP_START = LT.controller("cap_start_year", "3")
             RE_TOLERANCE = LT.controller("re_target_tolerance", "3")  # share points
 
             re_pass = 0
@@ -409,9 +413,10 @@ def main():
             re_rows = []
 
             for country in countries:
-                for scen in RE_TARGETS_GENERAL:
-                    year_targets = RE_TARGETS_COUNTRY.get(country, {}).get(scen, RE_TARGETS_GENERAL[scen])
-                    for year, target in year_targets.items():
+                for scen, year_targets in RE_TARGETS.get(country, {}).items():
+                    for year, target in sorted(year_targets.items()):
+                        if (country, scen) in CAPPED and year >= CAP_START:
+                            continue
                         row = merged[(merged["Country"] == country) &
                                      (merged["Scenario"] == scen) &
                                      (merged["Year"] == year)]

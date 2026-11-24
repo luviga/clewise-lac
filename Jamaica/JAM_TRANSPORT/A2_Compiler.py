@@ -11,6 +11,7 @@ Victor-Gallardo, L. (2022). Robust Energy System Planning for Decarbonization un
 University of Costa Rica. Retrieved from https://www.kerwa.ucr.ac.cr/handle/10669/87273
 """
 
+import os
 import pandas as pd
 import pickle
 import sys
@@ -1014,10 +1015,21 @@ for d in range( len( list_dicts ) ):
     df_to_print.to_csv( './A2_Output_Params/BAU/' + list_dicts[d] + '.csv', index=False, header=True)
 #
 list_dicts = list( overall_param_df_dict_ndp.keys() )
+# the policy base goes to the reference folder of every activated policy scenario of B1_Scenario_Config.xlsx
+# (the B1 runner reads one folder per scenario)
+scen_sheet = pd.read_excel( 'B1_Scenario_Config.xlsx', sheet_name='Scenarios' )
+policy_folders = []
+for i in range( len( scen_sheet ) ):
+    if scen_sheet[ 'Activated' ].iloc[i] == 'YES' and scen_sheet[ 'Base' ].iloc[i] != 'YES':
+        if scen_sheet[ 'Reference' ].iloc[i] not in policy_folders:
+            policy_folders.append( scen_sheet[ 'Reference' ].iloc[i] )
+for folder in policy_folders:
+    os.makedirs( './A2_Output_Params/' + folder, exist_ok=True )
 for d in range( len( list_dicts ) ):
     df_to_print = overall_param_df_dict_ndp[ list_dicts[d] ]
     df_to_print = df_to_print.replace( { 'Scenario':{ other_setup_params[ 'Main_Scenario' ]:other_setup_params[ 'Other_Scenarios' ] } } )
-    df_to_print.to_csv( './A2_Output_Params/LTS/' + list_dicts[d] + '.csv', index=False, header=True)
+    for folder in policy_folders:
+        df_to_print.to_csv( './A2_Output_Params/' + folder + '/' + list_dicts[d] + '.csv', index=False, header=True)
 #
 end_2 = time.time()   
 time_elapsed_2 = -start1 + end_2
