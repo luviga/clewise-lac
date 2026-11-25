@@ -1,0 +1,137 @@
+path,git_status,rows_tracked,rows_new,keys_only_tracked,keys_only_new,values_changed,noise_only,max_abs_change,example,kind,scenario_label
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/AvailabilityFactor.csv,??,,1860,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/CapacityFactor.csv,??,,1860,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/CapacityToActivityUnit.csv,??,,107,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/CapitalCost.csv,??,,1860,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/EmissionActivityRatio.csv,??,,4620,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/EmissionsPenalty.csv,??,,30,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/FixedCost.csv,??,,1860,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/InputActivityRatio.csv,??,,2970,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/OperationalLife.csv,??,,107,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/OutputActivityRatio.csv,??,,3810,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/ResidualCapacity.csv,??,,1860,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/SpecifiedAnnualDemand.csv,??,,1860,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/SpecifiedDemandProfile.csv,??,,1860,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/TotalAnnualMaxCapacity.csv,??,,810,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/TotalAnnualMinCapacityInvestment.csv,??,,780,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/TotalTechnologyAnnualActivityLowerLimit.csv,??,,1890,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/TotalTechnologyAnnualActivityUpperLimit.csv,??,,1860,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/VariableCost.csv,??,,3660,0,0,0,0,,file not tracked (new compiled file),staleness,
+Ecuador/ECU_AGR/A2_Output_Params/NDCINC/YearSplit.csv,??,,30,0,0,0,0,,file not tracked (new compiled file),staleness,
+CostaRica/CR_ENERGY/t1_confection/B1_Output_Params/LTS/TotalAnnualMaxCapacity.csv,M,1950,1950,0,0,0,0,,,nondeterminism,
+CostaRica/CR_ENERGY/t1_confection/B1_Output_Params/NDC/TotalAnnualMaxCapacity.csv,M,1980,1980,0,0,0,0,,,nondeterminism,
+DominicanRepublic/RD_AFOLU/A2_Output_Params/BAU/CapitalCost.csv,M,4323,4323,0,0,165,0,4970.01,CapitalCost|RD|SEPT_SYST|2035: 109.6113 -> 2801.82,staleness,
+DominicanRepublic/RD_AFOLU/A2_Output_Params/BAU/EmissionActivityRatio.csv,M,5841,5874,0,33,0,660,,row only in new: EmissionActivityRatio|RD|LU_WET|CO2e_AFOLU|1|2018 = 0.0,staleness,
+DominicanRepublic/RD_AFOLU/A2_Output_Params/BAU/EmissionsPenalty.csv,M,231,231,0,0,231,0,1000,EmissionsPenalty|RD|CONTUR|2035: -1000 -> 0,staleness,
+DominicanRepublic/RD_AFOLU/A2_Output_Params/BAU/FixedCost.csv,M,4521,4521,0,0,99,0,2054.98,FixedCost|RD|AG_CAF|2035: 1393.38 -> 334.92,staleness,
+DominicanRepublic/RD_AFOLU/A2_Output_Params/BAU/ResidualCapacity.csv,M,3234,3234,0,0,1,0,0.0001,ResidualCapacity|RD|AERO_PTAR|2019: 0.1187 -> 0.1188,staleness,
+DominicanRepublic/RD_AFOLU/A2_Output_Params/BAU/VariableCost.csv,M,3960,3960,0,0,396,0,7184.65,VariableCost|RD|IMPCARBOV|1|2037: 3810.56 -> 10995.21,staleness,
+DominicanRepublic/RD_AFOLU/B1_Output_Params/BAU/CapitalCost.csv,M,4125,4125,0,0,165,0,4970.01,CapitalCost|RD|SEPT_SYST|2035: 109.6113 -> 2801.82,staleness,
+DominicanRepublic/RD_AFOLU/B1_Output_Params/BAU/EmissionActivityRatio.csv,M,5841,5874,0,33,0,627,,row only in new: EmissionActivityRatio|RD|LU_WET|CO2e_AFOLU|1|2018 = 0.0,staleness,
+DominicanRepublic/RD_AFOLU/B1_Output_Params/BAU/EmissionsPenalty.csv,M,396,396,0,0,231,0,1000,EmissionsPenalty|RD|CONVAR|2029: -1000 -> 0,staleness,
+DominicanRepublic/RD_AFOLU/B1_Output_Params/BAU/FixedCost.csv,M,4323,4323,0,0,99,0,2054.98,FixedCost|RD|AG_CAF|2035: 1393.38 -> 334.92,staleness,
+DominicanRepublic/RD_AFOLU/B1_Output_Params/BAU/ResidualCapacity.csv,M,3069,3069,0,0,1,0,0.0001,ResidualCapacity|RD|AERO_PTAR|2019: 0.1187 -> 0.1188,staleness,
+DominicanRepublic/RD_AFOLU/B1_Output_Params/BAU/VariableCost.csv,M,3960,3960,0,0,396,0,7184.65,VariableCost|RD|IMPCARBOV|1|2037: 3810.56 -> 10995.21,staleness,
+DominicanRepublic/RD_AFOLU/B1_Output_Params/NDCcond/TotalTechnologyAnnualActivityUpperLimit.csv,M,2970,2970,0,0,0,0,,,nondeterminism,
+DominicanRepublic/RD_AFOLU/B1_Output_Params/NDCincond/TotalTechnologyAnnualActivityUpperLimit.csv,M,2970,2970,0,0,0,0,,,nondeterminism,
+DominicanRepublic/RD_ENERGY/B1_Output_Params/LTS/TotalAnnualMaxCapacity.csv,M,2409,2409,0,0,0,0,,,nondeterminism,
+DominicanRepublic/RD_ENERGY/B1_Output_Params/LTS/TotalTechnologyAnnualActivityLowerLimit.csv,M,2772,2772,0,0,0,0,,,nondeterminism,
+DominicanRepublic/RD_ENERGY/B1_Output_Params/LTS/TotalTechnologyAnnualActivityUpperLimit.csv,M,1254,1254,0,0,0,0,,,nondeterminism,
+DominicanRepublic/RD_ENERGY/B1_Output_Params/NDC/TotalAnnualMaxCapacity.csv,M,2409,2409,0,0,0,0,,,nondeterminism,
+DominicanRepublic/RD_ENERGY/B1_Output_Params/NDC/TotalTechnologyAnnualActivityLowerLimit.csv,M,2772,2772,0,0,0,0,,,nondeterminism,
+DominicanRepublic/RD_ENERGY/B1_Output_Params/NDC/TotalTechnologyAnnualActivityUpperLimit.csv,M,1254,1254,0,0,0,0,,,nondeterminism,
+Ecuador/ECU_Energy/B1_Output_Params/LTS/TotalAnnualMaxCapacity.csv,M,1740,1740,0,0,0,0,,,nondeterminism,
+Ecuador/ECU_Energy/B1_Output_Params/LTS/TotalTechnologyAnnualActivityLowerLimit.csv,M,2010,2010,0,0,0,0,,,nondeterminism,
+Ecuador/ECU_Energy/B1_Output_Params/LTS/TotalTechnologyAnnualActivityUpperLimit.csv,M,1980,1980,0,0,0,0,,,nondeterminism,
+Ecuador/ECU_Energy/B1_Output_Params/NDC/TotalAnnualMaxCapacity.csv,M,1740,1740,0,0,0,0,,,nondeterminism,
+Ecuador/ECU_Energy/B1_Output_Params/NDC/TotalTechnologyAnnualActivityLowerLimit.csv,M,2010,2010,0,0,0,0,,,nondeterminism,
+Ecuador/ECU_Energy/B1_Output_Params/NDC/TotalTechnologyAnnualActivityUpperLimit.csv,M,1980,1980,0,0,0,0,,,nondeterminism,
+Ecuador/ECU_IPPU/A2_Output_Params/NDCcond/CapacityToActivityUnit.csv,M,40,40,0,0,0,0,,,staleness,BAU -> NDCcond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCcond/CapitalCost.csv,M,270,270,0,0,0,0,,,staleness,BAU -> NDCcond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCcond/EmissionActivityRatio.csv,M,540,540,0,0,0,0,,,staleness,BAU -> NDCcond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCcond/FixedCost.csv,M,30,30,0,0,0,0,,,staleness,BAU -> NDCcond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCcond/InputActivityRatio.csv,M,630,630,0,0,0,0,,,staleness,BAU -> NDCcond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCcond/OperationalLife.csv,M,40,40,0,0,0,0,,,staleness,BAU -> NDCcond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCcond/OutputActivityRatio.csv,M,1200,1200,0,0,0,0,,,staleness,BAU -> NDCcond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCcond/SpecifiedAnnualDemand.csv,M,540,540,0,0,0,0,,,staleness,BAU -> NDCcond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCcond/SpecifiedDemandProfile.csv,M,540,540,0,0,0,0,,,staleness,BAU -> NDCcond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCcond/TotalTechnologyAnnualActivityLowerLimit.csv,M,540,540,0,0,0,0,,,staleness,BAU -> NDCcond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCcond/TotalTechnologyAnnualActivityUpperLimit.csv,M,600,600,0,0,0,0,,,staleness,BAU -> NDCcond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCcond/VariableCost.csv,M,30,30,0,0,0,0,,,staleness,BAU -> NDCcond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCcond/YearSplit.csv,M,30,30,0,0,0,0,,,staleness,BAU -> NDCcond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCincond/CapacityToActivityUnit.csv,M,40,40,0,0,0,0,,,staleness,BAU -> NDCincond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCincond/CapitalCost.csv,M,270,270,0,0,0,0,,,staleness,BAU -> NDCincond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCincond/EmissionActivityRatio.csv,M,540,540,0,0,0,0,,,staleness,BAU -> NDCincond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCincond/FixedCost.csv,M,30,30,0,0,0,0,,,staleness,BAU -> NDCincond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCincond/InputActivityRatio.csv,M,630,630,0,0,0,0,,,staleness,BAU -> NDCincond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCincond/OperationalLife.csv,M,40,40,0,0,0,0,,,staleness,BAU -> NDCincond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCincond/OutputActivityRatio.csv,M,1200,1200,0,0,0,0,,,staleness,BAU -> NDCincond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCincond/SpecifiedAnnualDemand.csv,M,540,540,0,0,0,0,,,staleness,BAU -> NDCincond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCincond/SpecifiedDemandProfile.csv,M,540,540,0,0,0,0,,,staleness,BAU -> NDCincond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCincond/TotalTechnologyAnnualActivityLowerLimit.csv,M,540,540,0,0,0,0,,,staleness,BAU -> NDCincond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCincond/TotalTechnologyAnnualActivityUpperLimit.csv,M,600,600,0,0,0,0,,,staleness,BAU -> NDCincond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCincond/VariableCost.csv,M,30,30,0,0,0,0,,,staleness,BAU -> NDCincond
+Ecuador/ECU_IPPU/A2_Output_Params/NDCincond/YearSplit.csv,M,30,30,0,0,0,0,,,staleness,BAU -> NDCincond
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/AvailabilityFactor.csv,M,5160,5160,0,0,0,0,,,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/CapacityFactor.csv,M,5160,5160,0,0,0,0,,,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/CapacityToActivityUnit.csv,M,184,184,0,0,0,0,,,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/CapitalCost.csv,M,5160,5160,0,0,0,0,,,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/EmissionActivityRatio.csv,M,4560,4560,0,0,0,1320,,,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/EmissionsPenalty.csv,M,30,30,0,0,30,0,3.38252,EmissionsPenalty|ECU|EXT_REGAIR|2025: -3.3825202 -> 0,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/FixedCost.csv,M,5160,5160,0,0,0,0,,,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/InputActivityRatio.csv,M,1740,1740,0,0,0,0,,,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/OperationalLife.csv,M,184,184,0,0,0,0,,,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/OutputActivityRatio.csv,M,6060,6090,0,30,0,0,,row only in new: OutputActivityRatio|ECU|TRANE6NOMOT|E6TRNOMOT|1|2021 = 1.0,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/ResidualCapacity.csv,M,5160,5160,0,0,0,0,,,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/SpecifiedAnnualDemand.csv,M,5100,5100,0,0,0,0,,,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/SpecifiedDemandProfile.csv,M,5100,5100,0,0,0,0,,,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/TotalAnnualMaxCapacity.csv,M,4350,4350,0,0,0,0,,,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/TotalAnnualMinCapacityInvestment.csv,M,4320,4320,0,0,0,0,,,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/TotalTechnologyAnnualActivityLowerLimit.csv,M,5190,5190,0,0,0,0,,,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/TotalTechnologyAnnualActivityUpperLimit.csv,M,5160,5160,0,0,0,0,,,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/VariableCost.csv,M,5970,5970,0,0,0,0,,,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDC/YearSplit.csv,M,30,30,0,0,0,0,,,staleness,BAU -> NDC
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/AvailabilityFactor.csv,M,5160,5160,0,0,0,0,,,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/CapacityFactor.csv,M,5160,5160,0,0,0,0,,,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/CapacityToActivityUnit.csv,M,184,184,0,0,0,0,,,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/CapitalCost.csv,M,5160,5160,0,0,0,0,,,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/EmissionActivityRatio.csv,M,4560,4560,0,0,0,1320,,,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/EmissionsPenalty.csv,M,30,30,0,0,30,0,3.38252,EmissionsPenalty|ECU|EXT_REGAIR|2025: -3.3825202 -> 0,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/FixedCost.csv,M,5160,5160,0,0,0,0,,,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/InputActivityRatio.csv,M,1740,1740,0,0,0,0,,,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/OperationalLife.csv,M,184,184,0,0,0,0,,,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/OutputActivityRatio.csv,M,6060,6090,0,30,0,0,,row only in new: OutputActivityRatio|ECU|TRANE6NOMOT|E6TRNOMOT|1|2021 = 1.0,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/ResidualCapacity.csv,M,5160,5160,0,0,0,0,,,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/SpecifiedAnnualDemand.csv,M,5100,5100,0,0,0,0,,,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/SpecifiedDemandProfile.csv,M,5100,5100,0,0,0,0,,,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/TotalAnnualMaxCapacity.csv,M,4350,4350,0,0,0,0,,,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/TotalAnnualMinCapacityInvestment.csv,M,4320,4320,0,0,0,0,,,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/TotalTechnologyAnnualActivityLowerLimit.csv,M,5190,5190,0,0,0,0,,,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/TotalTechnologyAnnualActivityUpperLimit.csv,M,5160,5160,0,0,0,0,,,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/VariableCost.csv,M,5970,5970,0,0,0,0,,,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/A2_Output_Params/NDCCON/YearSplit.csv,M,30,30,0,0,0,0,,,staleness,BAU -> NDCCON
+Ecuador/ECU_USCUSS/B1_Output_Params/NDC/EmissionsPenalty.csv,M,30,30,0,0,30,0,3.38252,EmissionsPenalty|ECU|EXT_REGAIR|2025: -3.3825202 -> 0,staleness,
+Ecuador/ECU_USCUSS/B1_Output_Params/NDC/OutputActivityRatio.csv,M,6060,6090,0,30,0,0,,row only in new: OutputActivityRatio|ECU|TRANE6NOMOT|E6TRNOMOT|1|2021 = 1.0,staleness,
+Ecuador/ECU_USCUSS/B1_Output_Params/NDCCON/EmissionsPenalty.csv,M,30,30,0,0,30,0,3.38252,EmissionsPenalty|ECU|EXT_REGAIR|2025: -3.3825202 -> 0,staleness,
+Ecuador/ECU_USCUSS/B1_Output_Params/NDCCON/OutputActivityRatio.csv,M,6060,6090,0,30,0,0,,row only in new: OutputActivityRatio|ECU|TRANE6NOMOT|E6TRNOMOT|1|2021 = 1.0,staleness,
+Guatemala/GUA_ENERGY/B1_Output_Params/BAU/TotalTechnologyAnnualActivityLowerLimit.csv,M,2079,2079,0,0,0,0,,,nondeterminism,
+Guatemala/GUA_ENERGY/B1_Output_Params/BAU/TotalTechnologyAnnualActivityUpperLimit.csv,M,297,297,0,0,0,0,,,nondeterminism,
+Guatemala/GUA_ENERGY/B1_Output_Params/LTS/TotalTechnologyAnnualActivityLowerLimit.csv,M,2112,2112,0,0,0,0,,,nondeterminism,
+Guatemala/GUA_ENERGY/B1_Output_Params/LTS/TotalTechnologyAnnualActivityUpperLimit.csv,M,627,627,0,0,0,0,,,nondeterminism,
+Guatemala/GUA_ENERGY/B1_Output_Params/NDC/TotalTechnologyAnnualActivityLowerLimit.csv,M,2112,2112,0,0,0,0,,,nondeterminism,
+Guatemala/GUA_ENERGY/B1_Output_Params/NDC/TotalTechnologyAnnualActivityUpperLimit.csv,M,561,561,0,0,0,0,,,nondeterminism,
+Honduras/HON_AFOLU/HON_AFOLU/B1_Output_Params/BAU/TotalTechnologyAnnualActivityLowerLimit.csv,M,2376,2376,0,0,0,0,,,nondeterminism,
+Honduras/HON_AFOLU/HON_AFOLU/B1_Output_Params/NDC/TotalTechnologyAnnualActivityLowerLimit.csv,M,2673,2673,0,0,0,0,,,nondeterminism,
+Honduras/HON_AFOLU/HON_AFOLU/B1_Output_Params/NDC/TotalTechnologyAnnualActivityUpperLimit.csv,M,1386,1386,0,0,0,0,,,nondeterminism,
+Honduras/HON_AFOLU/HON_AFOLU/B1_Output_Params/NDP/TotalTechnologyAnnualActivityLowerLimit.csv,M,2673,2673,0,0,0,0,,,nondeterminism,
+Honduras/HON_AFOLU/HON_AFOLU/B1_Output_Params/NDP/TotalTechnologyAnnualActivityUpperLimit.csv,M,1386,1386,0,0,0,0,,,nondeterminism,
+Honduras/HON_ENERGY/B1_Output_Params/LTS/TotalTechnologyAnnualActivityLowerLimit.csv,M,1947,1947,0,0,0,0,,,nondeterminism,
+Honduras/HON_ENERGY/B1_Output_Params/LTS/TotalTechnologyAnnualActivityUpperLimit.csv,M,726,726,0,0,0,0,,,nondeterminism,
+Honduras/HON_ENERGY/B1_Output_Params/NDC/TotalTechnologyAnnualActivityLowerLimit.csv,M,1947,1947,0,0,0,0,,,nondeterminism,
+Honduras/HON_ENERGY/B1_Output_Params/NDC/TotalTechnologyAnnualActivityUpperLimit.csv,M,726,726,0,0,0,0,,,nondeterminism,
+Jamaica/JAM_ENERGY/B1_Output_Params/LTS/TotalAnnualMaxCapacity.csv,M,560,560,0,0,0,0,,,nondeterminism,
+Jamaica/JAM_ENERGY/B1_Output_Params/LTS/TotalTechnologyAnnualActivityLowerLimit.csv,M,1260,1260,0,0,0,0,,,nondeterminism,
+Jamaica/JAM_ENERGY/B1_Output_Params/LTS/TotalTechnologyAnnualActivityUpperLimit.csv,M,1155,1155,0,0,0,0,,,nondeterminism,
+Jamaica/JAM_ENERGY/B1_Output_Params/NDC/TotalAnnualMaxCapacity.csv,M,560,560,0,0,0,0,,,nondeterminism,
+Jamaica/JAM_ENERGY/B1_Output_Params/NDC/TotalTechnologyAnnualActivityLowerLimit.csv,M,1260,1260,0,0,0,0,,,nondeterminism,
+Jamaica/JAM_ENERGY/B1_Output_Params/NDC/TotalTechnologyAnnualActivityUpperLimit.csv,M,1155,1155,0,0,0,0,,,nondeterminism,

@@ -1,0 +1,33 @@
+id,layer,class,proves,constraints
+T0,translation,FAIL,glpsol --check translates the model file with the data file and generates the problem without error (run by the compile wrapper),all (GMPL translation)
+S0,S,FAIL,at the b1 point the parsed data file holds exactly the values of the runner's own tables B1_Output_Params/<scenario> (the data file is the compiled tables),none (consistency of the compile)
+S1,S,FAIL or WARN,every fuel with SpecifiedAnnualDemand or AccumulatedAnnualDemand above 0 is reachable from a technology mode with no input fuel; WARN when a cycle of unreachable fuels lies upstream (a cycle with gains could make fuel from nothing),EBa11_EnergyBalanceEachTS5 EBb4_EnergyBalanceEachYear4 EBa1 EBa4
+S2,S,FAIL or WARN,every fuel a technology takes as input has a producer; FAIL when the consumer has an activity lower limit and needs the fuel in every mode; WARN otherwise (a minimum capacity alone does not force activity),EBb4_EnergyBalanceEachYear4 AAC3_TotalAnnualTechnologyActivityLowerLimit
+S3,S,WARN,a fuel produced but neither demanded nor used nor tagged for renewables or reserve margin (a dead end),none (structure)
+S4,S,FAIL or WARN,a technology with an activity lower limit whose whole input chain has largest activity 0 upstream (no mode of it can run); WARN when a cycle lies upstream,AAC2 AAC3 CAa4 CAb1 TCC1 EBb4
+S5,S,FAIL,"no duplicate key in a parameter block, no repeated block with data, no value for an element missing from its set, no parameter missing from the model file",all (data validity)
+S6,S,FAIL or WARN,every technology has OperationalLife and CapacityToActivityUnit (WARN when only the declared default applies; FAIL with no default); CapacityFactor and AvailabilityFactor in [0 1]; YearSplit sums to 1 per year; SpecifiedDemandProfile sums to 1 per demanded fuel and year,CAa1 CAa4 CAb1 EQ_SpecifiedDemand
+S7,S,FAIL,each scenario the model configuration lists has its compiled folder B1_Output_Params/<scenario> and its data file (at the final point: each Stage 3 scenario has its FINAL data file),none (completeness)
+B1,B,FAIL,TotalAnnualMinCapacity at most TotalAnnualMaxCapacity,TCC1_TotalAnnualMaxCapacityConstraint TCC2_TotalAnnualMinCapacityConstraint
+B2,B,FAIL,TotalAnnualMinCapacityInvestment at most TotalAnnualMaxCapacityInvestment,NCC1_TotalAnnualMaxNewCapacityConstraint NCC2_TotalAnnualMinNewCapacityConstraint
+B3,B,FAIL,activity lower limit at most activity upper limit,AAC2_TotalAnnualTechnologyActivityUpperLimit AAC3_TotalAnnualTechnologyActivityLowerLimit
+B4,B,FAIL,model period lower limit at most model period upper limit; sum of annual lower limits at most the model period upper limit,TAC1 TAC2 TAC3 AAC3
+B5,B,FAIL,ResidualCapacity at most TotalAnnualMaxCapacity (new capacity is never negative),CAa2_TotalAnnualCapacity TCC1_TotalAnnualMaxCapacityConstraint
+B6,B,FAIL,residual capacity plus the minimum investments still within their operational life at most maximum capacity,CAa1_TotalNewCapacity CAa2_TotalAnnualCapacity NCC2 TCC1
+B7,B,FAIL,minimum capacity at most residual capacity plus the maximum investments still within their operational life,CAa1 CAa2 NCC1 TCC2
+B8,B,FAIL,activity lower limit at most the most activity the reachable capacity allows: min(max capacity; residual plus reachable investments) x sum(CapacityFactor x YearSplit) x min(AvailabilityFactor; 1) x CapacityToActivityUnit; model period lower limit at most the sum of those over the period,CAa4_Constraint_Capacity CAb1_PlannedMaintenance CAa1 CAa2 TCC1 NCC1 AAC3 TAC3
+P1,P,FAIL or WARN,after pushing limits along the chain (a producer's largest activity falls to what its inputs can deliver; a producer's least activity rises when the others at their largest cannot cover the requirement) the least requirement of a fuel exceeds the most its producers can supply in a year or (fuels with a demand profile) in a time slice; WARN per time slice for fuels linked to a storage,EBa11_EnergyBalanceEachTS5 EBb4_EnergyBalanceEachYear4 EQ_SpecifiedDemand CAa4 CAb1 AAC2 AAC3
+P2,P,FAIL,the least emissions the tightened activities allow (single-output producers of a fuel filled lowest emission per unit first; others at their least activity times their smallest ratio; exogenous emissions added) exceed AnnualEmissionLimit,E1 E2 E6 E8_AnnualEmissionsLimit plus the P1 constraints
+P3,P,FAIL,REMinProductionTarget times the least production of tagged fuels exceeds the largest production of tagged technologies,RE1 RE2_TechIncluded RE3_FuelIncluded RE4_EnergyConstraint
+P4,P,FAIL,ReserveMargin times the least production rate of tagged fuels in a time slice exceeds the largest tagged capacity times CapacityToActivityUnit,RM1 RM2 RM3_ReserveMargin_Constraint TCC1 NCC1
+R1,R,FAIL,a value a merged job wrote (value_register.csv: before -> after) is not replaced in the compiled file of a scenario that should carry it: the compiled cell still holds the before value,none (standard: registered values reach the solver)
+R2,R,FAIL,every EmissionsPenalty is 0 except models listed in thresholds.csv with the reason,E3 E4 E5 (objective; the standard forbids invisible penalties)
+R3,R,FAIL,every rule output the pipeline reads (_STAGE1_OUTPUT/RENEWABLE_TARGETS.csv; shares of the Stage 1 and Stage 2 controllers; REMinProductionTarget in the data file) lies in [0 1],RE4_EnergyConstraint (standard)
+R4,R,FAIL or WARN,inputs of years up to the history cut-off are identical across the scenarios of a model; WARN at the b1 point for models whose history the pipeline equalises later (scenario_rules.py),none (rule of 21 November: history identical)
+R5,R,FAIL,an input that differs between BAU and a policy scenario has a row in the scenario difference register of the latest merged job,none (rule of 21 November: only policy measures differ)
+R6,R,FAIL,a published target loaded into a Tech_Adoption row is written only as a minimum (no Max in Restriction_Type),AAC2 (rule of 21 November: published targets are minimums held after their year)
+R7,R,WARN,every limit value different from its default has an origin (register row; workbook location; A2 compiled table; stage rule); values with none are UNTRACED (provenance.csv),none (standard: traceability)
+R8,R,WARN,a technology with no input fuel and no limit on activity or capacity and zero capital and variable cost (a free unlimited source),none (standard)
+X1,X,WARN,year-to-year change of energy emissions or generation or new capacity above the thresholds,results
+X2,X,FAIL,each loaded renewable share target (held after its year) and each energy emission reduction against BAU is met within tolerance,results
+X3,X,WARN,results for history years identical across scenarios within tolerance,results

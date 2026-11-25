@@ -1,0 +1,17 @@
+{
+  "b1": {
+    "seconds": 44.0,
+    "exit": 1,
+    "last_line": "point b1: 3581 FAIL, 7493 WARN in 43.9s"
+  },
+  "final": {
+    "seconds": 13.1,
+    "exit": 1,
+    "last_line": "point final: 104 FAIL, 1714 WARN in 13.0s"
+  },
+  "results": {
+    "seconds": 0.1,
+    "exit": 0,
+    "last_line": "point results: 0 FAIL, 156 WARN in 0.0s"
+  }
+}

@@ -19,6 +19,10 @@ Stage 3 (done)     Patch .txt files + orphan capping + ReserveMargin + GLPK runs
 Stage 4 (next)     LTSOPT variants (fuel price / hydro drought) + B1 data_processor + final reporting
 ```
 
+Input gates (LAC_INPUT_GATES, `FEASIBILITY_PROTOCOL.md`): run `py -I gates --point b1` after the A2 and B1 compile of every model, before any solve.
+Run `py -I gates --point final` after `scenario_rules.py`, `stage3_apply.py` and the emission cap write the FINAL data files, before `stage3_run_all.bat`.
+Run `py -I gates --point results` after results extraction; inputs change until the b1 and final points report no FAIL, and the chain is solved once at the end.
+
 ---
 
 ## Stage 0 — Empirical Denominators (DONE)

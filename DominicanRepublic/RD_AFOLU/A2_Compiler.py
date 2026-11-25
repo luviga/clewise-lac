@@ -1011,6 +1011,13 @@ writer_AR_Proj_df.close()
 #
 #***********************************************************************************
 #
+# LAC_INPUT_GATES: the base scenario's tables are written as in JAM_AFOLU's compiler; without this loop
+# A2_Output_Params/BAU was never regenerated and kept costs and penalties older than the workbooks.
+list_dicts = list(overall_param_df_dict.keys())
+for d in range(len(list_dicts)):
+    df_to_print = overall_param_df_dict[ list_dicts[d] ]
+    df_to_print.to_csv('./A2_Output_Params/BAU/' + list_dicts[d] + '.csv', index=False, header=True)
+#
 list_dicts = list(overall_param_df_dict_ndp.keys())
 for d in range(len(list_dicts)):
     df_to_print = overall_param_df_dict_ndp[ list_dicts[d] ]

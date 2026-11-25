@@ -1,0 +1,25 @@
+model,path,kind,a2_compiler,b1_runner,scenarios,base_scenario,stage3,model_file_version,description
+CR_AFOLU,CostaRica/CR_AFOLU/t1_confection,sector,A2_Compiler.py,B1_Base_Scenarios_Adj_Parallel.py,BAU|NDCincond|NDCcond|DCC,BAU,no,v1,sector model CR_AFOLU; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+CR_ENERGY,CostaRica/CR_ENERGY/t1_confection,energy,A2_Compiler_CostaRica.py,B1_Base_Scenarios_Adj_Parallel_CostaRica.py,BAU|NDC|LTS|LTSOPT,BAU,yes,v1,energy model CR_ENERGY; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+CR_IPPU,CostaRica/CR_IPPU,sector,A2_Compiler_IPPU.py,B1_Base_Scenarios_Adj_Parallel_IPPU.py,BAU|NDCincond|NDCcond|DCC,BAU,no,v2,sector model CR_IPPU; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+CR_WASTE,CostaRica/CR_WASTE,sector,A2_Compiler_Waste.py,B1_Base_Scenarios_Adj_Parallel_Waste.py,BAU|NDCincond|NDCcond|DCC,BAU,no,v3,sector model CR_WASTE; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+RD_AFOLU,DominicanRepublic/RD_AFOLU,sector,A2_Compiler.py,B1_Base_Scenarios_Adj_Parallel.py,BAU|NDCcond|NDCincond,BAU,no,v2,sector model RD_AFOLU; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+RD_ENERGY,DominicanRepublic/RD_ENERGY,energy,A2_Compiler_DominicanRepublic.py,B1_Base_Scenarios_Adj_Parallel_DominicanRepublic.py,BAU|NDC|LTS,BAU,yes,v2,energy model RD_ENERGY; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+RD_IPPU,DominicanRepublic/RD_IPPU,sector,A2_Compiler_IPPU.py,B1_Base_Scenarios_Adj_Parallel_IPPU.py,BAU|NDCincond|NDCcond,BAU,no,v2,sector model RD_IPPU; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+RD_WASTE,DominicanRepublic/RD_WASTE,sector,A2_Compiler_Waste.py,B1_Base_Scenarios_Adj_Parallel_Waste.py,BAU|NDCincond|NDCcond,BAU,no,v3,sector model RD_WASTE; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+ECU_AGR,Ecuador/ECU_AGR,sector,A2_Compiler.py,B1_Base_Scenarios_Adj_Parallel_SIMPLE.py,BAU|NDC|LTS,BAU,no,v2,sector model ECU_AGR; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+ECU_Energy,Ecuador/ECU_Energy,energy,A2_Compiler_Ecuador.py,B1_Base_Scenarios_Adj_Parallel.py,BAU|NDC|LTS,BAU,yes,v2,energy model ECU_Energy; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+ECU_IPPU,Ecuador/ECU_IPPU,sector,A2_Compiler_IPPU.py,B1_Base_Scenarios_Adj_Parallel_IPPU.py,BAU|NDCincond|NDCcond,BAU,no,v2,sector model ECU_IPPU; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+ECU_USCUSS,Ecuador/ECU_USCUSS,sector,A2_Compiler.py,B1_Base_Scenarios_Adj_Parallel_SIMPLE.py,BAU|NDCINC|NDCCON|NDC,BAU,no,v2,sector model ECU_USCUSS; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+ECU_WASTE,Ecuador/ECU_WASTE,sector,A2_Compiler_Waste.py,B1_Base_Scenarios_Adj_Parallel_Waste.py,BAU|NDCincond|NDCcond,BAU,no,v2,sector model ECU_WASTE; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+GUA_ENERGY,Guatemala/GUA_ENERGY,energy,A2_Compiler_Guatemala.py,B1_Base_Scenarios_Adj_Parallel_Guatemala.py,BAU|NDC|LTS,BAU,yes,v4,energy model GUA_ENERGY; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+GUA_IPPU,Guatemala/GUA_IPPU,sector,A2_Compiler_IPPU.py,B1_Base_Scenarios_Adj_Parallel_IPPU.py,BAU|NDP|NDPhigh|NDPlow,BAU,no,v2,sector model GUA_IPPU; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+GUA_WASTE,Guatemala/GUA_WASTE,sector,A2_Compiler_Waste.py,B1_Base_Scenarios_Adj_Parallel_Waste.py,BAU|NDP|NDPhigh|NDPlow,BAU,no,v3,sector model GUA_WASTE; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+HON_AFOLU,Honduras/HON_AFOLU/HON_AFOLU,sector,A2_Compiler.py,B1_Base_Scenarios_Adj_Parallel.py,BAU|NDP|NDC,BAU,no,v1,sector model HON_AFOLU; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+HON_ENERGY,Honduras/HON_ENERGY,energy,A2_Compiler_Honduras.py,B1_Base_Scenarios_Adj_Parallel_Honduras.py,BAU|NDC|LTS,BAU,yes,v1,energy model HON_ENERGY; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+HON_IPPU,Honduras/HON_IPPU,sector,A2_Compiler_IPPU.py,B1_Base_Scenarios_Adj_Parallel_IPPU.py,BAU|NDCincond|NDCcond,BAU,no,v2,sector model HON_IPPU; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+HON_WASTE,Honduras/HON_WASTE,sector,A2_Compiler_Waste.py,B1_Base_Scenarios_Adj_Parallel_Waste.py,BAU|NDCincond|NDCcond,BAU,no,v3,sector model HON_WASTE; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+JAM_AFOLU,Jamaica/JAM_AFOLU,sector,A2_Compiler.py,B1_Base_Scenarios_Adj_Parallel.py,BAU|LTS|NDC,BAU,no,v2,sector model JAM_AFOLU; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+JAM_ENERGY,Jamaica/JAM_ENERGY,energy,A2_Compiler_Jamaica.py,B1_Base_Scenarios_Adj_Parallel_Jamaica.py,BAU|NDC|LTS,BAU,yes,v2,energy model JAM_ENERGY; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+JAM_TRANSPORT,Jamaica/JAM_TRANSPORT,transport,A2_Compiler.py,B1_Base_Scenarios_Adj_Parallel.py,BAU|NDP|NDC|LTS|LTSOPT,BAU,no,v1,transport model JAM_TRANSPORT; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
+JAM_WASTE,Jamaica/JAM_WASTE,sector,A2_Compiler.py,B1_Base_Scenarios_Adj_Parallel.py,BAU|LTS,BAU,no,v2,sector model JAM_WASTE; scenarios from B1_Scenario_Config.xlsx sheet Scenarios
