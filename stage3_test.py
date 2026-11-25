@@ -25,6 +25,7 @@ from pathlib import Path
 import pandas as pd
 
 import lac_tables as LT  # scenario names from config/scenarios/scenario_catalogue.csv
+import stage3_apply as S3A  # emission cap scenarios and the Stage 2 floors
 
 PP_PREFIXES = ("PP", "PWR")
 SCENARIOS = LT.scenarios()
@@ -106,6 +107,7 @@ def main():
 
     lower_df = pd.read_excel(ctrl_path, sheet_name="CURRENT_LOWER")
     upper_df = pd.read_excel(ctrl_path, sheet_name="CURRENT_UPPER")
+    floor_all = S3A.load_floor(ctrl_path)
 
     countries = args.countries if args.countries else list(COUNTRY_CONFIG.keys())
     scenarios = args.scenarios
@@ -149,6 +151,17 @@ def main():
 
             ctrl_lower = controller_slice(lower_df, country, scenario)
             ctrl_upper = controller_slice(upper_df, country, scenario)
+            # a scenario with an energy emission cap: from cap_start_year the lower limits are the Stage 2
+            # floors (frozen output, committed builds) and the upper limits are open (locked plants keep the
+            # controller upper)
+            released = (country, scenario) in S3A.CAP_SCENARIOS
+            pre_release_lower = {t: dict(v) for t, v in ctrl_lower.items()}
+            if released:
+                fl = floor_all.get((country, scenario), {})
+                for tech, yv in ctrl_lower.items():
+                    for y in list(yv):
+                        if y >= S3A.CAP_START_YEAR:
+                            yv[y] = round(fl.get(tech, {}).get(y, 0.0), 4)
 
             # Get year range from patched file
             all_years = set()
@@ -182,7 +195,7 @@ def main():
             # T4: Upper limits = lower × 1.05 for PP techs at 2025+
             # With --no-upper-cap: all PP uppers should be >= 9999 (uncapped)
             # Without: always lower × 1.05 (controller uppers ignored)
-            ctrl_lower_for_upper = controller_slice(lower_df, country, scenario)
+            ctrl_lower_for_upper = ctrl_lower
             for tech, yr_vals in ctrl_lower_for_upper.items():
                 if not is_pp_tech(tech):
                     continue
@@ -197,7 +210,9 @@ def main():
                     else:
                         actual_uv = upper_default or 99999
 
-                    if args.no_upper_cap:
+                    if released and y >= S3A.CAP_START_YEAR and S3A.is_locked_tech(tech):
+                        lower_v = pre_release_lower[tech].get(y, 0.0)   # locked plants keep the controller upper
+                    if args.no_upper_cap or (released and y >= S3A.CAP_START_YEAR and not S3A.is_locked_tech(tech)):
                         ok = actual_uv >= 9999
                         record("T4", ok, f"{tag}/{tech}/{y}: expected uncapped, got {actual_uv:.4f}")
                     elif lower_v > 1e-10:

@@ -392,7 +392,7 @@ TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRHYDROR,,,,2050,,,,,,16.9267
 TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRSPVTRN,,,,2021,,,,,,0.0328
 TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRSPVTRN,,,,2022,,,,,,0.0307
 TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRSPVTRN,,,,2023,,,,,,0.0318
-TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRSPVTRN,,,,2024,,,,,,0.0928
+TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRSPVTRN,,,,2024,,,,,,0.0921
 TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRSPVTRN,,,,2025,,,,,,0.0974
 TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRSPVTRN,,,,2026,,,,,,0.1001
 TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRSPVTRN,,,,2027,,,,,,0.1202
@@ -512,7 +512,7 @@ TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRBMS,,,,2050,,,,,,0.3872
 TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRFOI,,,,2021,,,,,,0.0074
 TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRFOI,,,,2022,,,,,,0.327
 TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRFOI,,,,2023,,,,,,1.845
-TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRFOI,,,,2024,,,,,,3.2008
+TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRFOI,,,,2024,,,,,,2.9829
 TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRFOI,,,,2025,,,,,,3.3692
 TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRFOI,,,,2026,,,,,,3.4538
 TotalTechnologyAnnualActivityLowerLimit,BAU,CR,PWRFOI,,,,2027,,,,,,3.5466

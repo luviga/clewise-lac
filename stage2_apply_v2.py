@@ -52,10 +52,15 @@ CAU                 = 31.536     # CapacityToActivityUnit (PJ/GW/yr)
 # Country model directories (same as Stage 1)
 COUNTRY_MODEL_DIR = LT.country_map("model_dir")
 
-# Policy targets (same table as Stage 1: inputs/scenarios/scenario_values.csv)
-RENEWABLE_TARGET_CURVE = LT.scenario_values("renewable_share")
-COUNTRY_TARGET_OVERRIDES = LT.scenario_value_overrides("renewable_share")
-TARGET_HOLD_YEAR = LT.controller("target_hold_year", "2")
+# Policy targets: the curves Stage 1 built from inputs/scenarios/scenario_values.csv
+# (_STAGE1_OUTPUT/RENEWABLE_TARGETS.csv, read in main through renewable_targets.load)
+import renewable_targets as RT
+TARGETS = {}
+
+# Frozen plants and committed builds, filled by apply_stage2 (written to the FROZEN and FLOOR_LOWER sheets)
+FROZEN = []        # rows: country, scenario, tech, class, boundary year, frozen PJ, source note
+OVERRIDE_NOTES = {}
+FLOOR_PJ = {}      # (country, scenario, tech) -> {year: PJ kept as a lower limit (frozen output or committed build)}
 
 COSTA_RICA_NAMES = LT.controller_list("own_rule_country_names", "2")
 
@@ -95,30 +100,46 @@ def is_costa_rica(country):
 
 
 def get_target_curve(country, scenario):
-    if country in COUNTRY_TARGET_OVERRIDES:
-        if scenario in COUNTRY_TARGET_OVERRIDES[country]:
-            return COUNTRY_TARGET_OVERRIDES[country][scenario]
-    return RENEWABLE_TARGET_CURVE.get(scenario, {})
+    return TARGETS.get(country, {}).get(scenario, {})
 
 
 def policy_renewable_target(year, scenario, anchor_share, country):
-    if year <= CUTOFF_YEAR:
-        return None
-    milestones = get_target_curve(country, scenario)
-    if not milestones:
-        return None
-    if year >= TARGET_HOLD_YEAR:
-        return milestones.get(TARGET_HOLD_YEAR, None)
-    pts = [(CUTOFF_YEAR, anchor_share)] + sorted(milestones.items())
-    pts = sorted(set(pts))
-    for i in range(len(pts) - 1):
-        y1, v1 = pts[i]
-        y2, v2 = pts[i + 1]
-        if y1 <= year <= y2:
-            if y2 == y1:
-                return v2
-            return v1 + (v2 - v1) * (year - y1) / (y2 - y1)
-    return milestones.get(TARGET_HOLD_YEAR, None)
+    return RT.curve_value(get_target_curve(country, scenario), year, CUTOFF_YEAR, anchor_share)
+
+
+def give_way(shares, fossil, frozen, growth, floor, room_total=1.0):
+    """Frozen output and committed builds are kept; when they and the fossil path overflow the total, the fossil
+    plants give way down to their committed floors (excess over the floor scaled down). Then the solar and wind
+    plants take what is left, never below their committed floors. Returns the overflow that committed and
+    frozen output alone leave (0 when the total is met)."""
+    fixed = sum(shares[t] for t in frozen)
+    g_floor = sum(floor.get(t, 0.0) for t in growth)
+    room = room_total - fixed - g_floor
+    f_sum = sum(shares[t] for t in fossil)
+    f_floor = sum(min(floor.get(t, 0.0), shares[t]) for t in fossil)
+    if f_sum > room + 1e-12:
+        excess = f_sum - f_floor
+        keep = max(0.0, room - f_floor)
+        k = keep / excess if excess > 1e-12 else 0.0
+        for t in fossil:
+            fl = min(floor.get(t, 0.0), shares[t])
+            shares[t] = fl + (shares[t] - fl) * k
+    left = room_total - fixed - sum(shares[t] for t in fossil)
+    if growth:
+        if left >= g_floor:
+            extra = left - g_floor
+            g_ex = sum(max(0.0, shares[t] - floor.get(t, 0.0)) for t in growth)
+            for t in growth:
+                fl = floor.get(t, 0.0)
+                if g_ex > 1e-12:
+                    shares[t] = fl + max(0.0, shares[t] - fl) * extra / g_ex
+                else:
+                    shares[t] = fl + extra / len(growth)
+        else:
+            for t in growth:
+                shares[t] = floor.get(t, 0.0)
+    rest = room_total - fixed - sum(shares[t] for t in fossil) - sum(shares[t] for t in growth)
+    return max(0.0, -rest)
 
 
 # =============================================================================
@@ -569,6 +590,14 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
         # Boundary PJ per tech (for mincap floor base)
         boundary_pj = {t: boundary_shares[t] * tg_boundary for t in techs}
 
+        for t in hydro_techs + locked_techs:
+            src_y = max([yy for (tt, yy) in ov if tt == t and yy <= ANCHOR_YEAR], default=None)
+            FROZEN.append({"Country": c, "Scenario": s, "Tech": t,
+                           "Class": "hydro" if t in hydro_techs else "locked renewable",
+                           "Boundary_Year": correction_boundary, "Frozen_PJ": round(boundary_pj[t], 6),
+                           "Override_Year": src_y if src_y is not None else "",
+                           "Override_Note": OVERRIDE_NOTES.get((c, s, t, src_y), "") if src_y is not None else ""})
+
         is_cr = is_costa_rica(c)
         is_bau = (s == LT.scenario("base"))
 
@@ -609,18 +638,43 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
                     s2_shares[(c, s, t)][y] = boundary_shares.get(t, 0)
 
             # ── Step B: Apply mincap floors (max of rule vs committed capacity) ──
+            floor_share = {}
             if b1_data is not None and cum_mci is not None:
                 for t in techs:
                     mf_pj = get_mincap_floor_pj(
                         t, y, boundary_pj.get(t, 0), cum_mci, b1_data, c, s)
                     mf_share = mf_pj / tg_y
+                    # committed builds only (new capacity of the minimum capacity investment); the existing output
+                    # of a non-frozen plant is not committed and may give way
+                    floor_share[t] = get_mincap_floor_pj(t, y, 0.0, cum_mci, b1_data, c, s) / tg_y
                     if mf_share > s2_shares[(c, s, t)][y] + LT.controller("mincap_share_tolerance", "2"):
                         s2_shares[(c, s, t)][y] = mf_share
+            for t in hydro_techs + locked_techs:
+                FLOOR_PJ.setdefault((c, s, t), {})[y] = s2_shares[(c, s, t)][y] * tg_y
+            for t in fossil_techs + growth_techs:
+                FLOOR_PJ.setdefault((c, s, t), {})[y] = floor_share.get(t, 0.0) * tg_y
+            # solar and wind keep their output of the boundary year plus their committed builds; only the fossil
+            # plants give way when frozen output and committed builds overflow the total
+            for t in growth_techs:
+                floor_share[t] = max(floor_share.get(t, 0.0), boundary_pj.get(t, 0.0) / tg_y)
 
             # ── Step C: Compute sums and gap-fill ──
             f_sum = sum(s2_shares[(c, s, t)][y] for t in fossil_techs)
             h_sum = sum(s2_shares[(c, s, t)][y] for t in hydro_techs)
             locked_sum = sum(s2_shares[(c, s, t)][y] for t in locked_techs)
+
+            # Frozen output (hydro, locked renewables) and committed builds are kept; when they and the fossil
+            # path overflow the total, the non-committed fossil part gives way (give_way)
+            unknown_sum = sum(s2_shares[(c, s, t)][y] for t in techs if cat.get(t) == "UNKNOWN")
+            ysh = {t: s2_shares[(c, s, t)][y] for t in techs}
+            over = give_way(ysh, fossil_techs, hydro_techs + locked_techs, growth_techs, floor_share,
+                            1.0 - unknown_sum)
+            for t in techs:
+                s2_shares[(c, s, t)][y] = ysh[t]
+            if over > LT.controller("renorm_tolerance", "2"):
+                audit_log.append({"Country": c, "Scenario": s, "Year": y, "Event": "COMMITTED_OVERFLOW",
+                                  "Raw_Sum": round(1.0 + over, LT.controller("audit_digits", "2"))})
+            f_sum = sum(s2_shares[(c, s, t)][y] for t in fossil_techs)
 
             # Policy adjustment
             if not is_bau:
@@ -637,9 +691,9 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
                     f_sum = F_target
                     nh_target = T - h_sum
                 else:
-                    nh_target = 1.0 - f_sum - h_sum
+                    nh_target = 1.0 - f_sum - h_sum - unknown_sum
             else:
-                nh_target = 1.0 - f_sum - h_sum
+                nh_target = 1.0 - f_sum - h_sum - unknown_sum
 
             nh_target = max(0.0, nh_target)
 
@@ -658,26 +712,31 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
                 for t in growth_techs:
                     s2_shares[(c, s, t)][y] = max(s2_shares[(c, s, t)][y], 0.0)
 
-            # If locked > nh_target, the frozen plants and the solar and wind plants share the room left by
-            # fossil and hydro in proportion to their rule and floor values (Stage 1 gap-fill), so solar and
-            # wind keep their committed place instead of being set to 0
-            if locked_sum > nh_target > 0:
-                nh_sum = locked_sum + sum(s2_shares[(c, s, t)][y] for t in growth_techs)
-                factor = nh_target / nh_sum
-                for t in locked_techs + growth_techs:
-                    s2_shares[(c, s, t)][y] *= factor
+            # If locked > nh_target, the frozen plants keep their output; solar and wind keep their committed
+            # floors and the fossil plants give way (give_way)
+            if locked_sum > nh_target:
+                ysh = {t: s2_shares[(c, s, t)][y] for t in techs}
+                for t in growth_techs:
+                    ysh[t] = floor_share.get(t, 0.0)
+                give_way(ysh, fossil_techs, hydro_techs + locked_techs, growth_techs, floor_share,
+                         1.0 - unknown_sum)
+                for t in techs:
+                    s2_shares[(c, s, t)][y] = ysh[t]
 
             # UNKNOWN techs: hold boundary
             for t in techs:
                 if cat.get(t) == "UNKNOWN":
                     s2_shares[(c, s, t)][y] = boundary_shares.get(t, 0)
 
-            # ── Renormalize if needed ──
+            # ── Renormalize if needed (frozen plants keep their share; the others are scaled) ──
             total = sum(s2_shares[(c, s, t)][y] for t in techs)
             if abs(total - 1.0) > LT.controller("renorm_tolerance", "2"):
-                if total > LT.controller("zero_tolerance"):
-                    factor = 1.0 / total
-                    for t in techs:
+                fixed = sum(s2_shares[(c, s, t)][y] for t in hydro_techs + locked_techs)
+                free = [t for t in techs if t not in hydro_techs and t not in locked_techs]
+                free_sum = total - fixed
+                if free_sum > LT.controller("zero_tolerance") and fixed < 1.0:
+                    factor = (1.0 - fixed) / free_sum
+                    for t in free:
                         s2_shares[(c, s, t)][y] *= factor
                     audit_log.append({
                         "Country": c, "Scenario": s, "Year": y,
@@ -721,10 +780,19 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
                     for t in rest_techs:
                         s2_shares[(c, s, t)][y] = per
             else:
-                # Scale all proportionally
-                scale = 1.0 / total
-                for t in techs:
-                    s2_shares[(c, s, t)][y] *= scale
+                # Scale all proportionally; after the boundary the frozen plants keep their share
+                frozen_y = [t for t in techs if y > CUTOFF_YEAR and
+                            classify_tech(t) in ("HYDRO", "NON_HYDRO_RENEWABLE") and not is_solar_wind(t)]
+                fixed = sum(s2_shares[(c, s, t)][y] for t in frozen_y)
+                if frozen_y and fixed < 1.0 and total - fixed > LT.controller("zero_tolerance"):
+                    scale = (1.0 - fixed) / (total - fixed)
+                    for t in techs:
+                        if t not in frozen_y:
+                            s2_shares[(c, s, t)][y] *= scale
+                else:
+                    scale = 1.0 / total
+                    for t in techs:
+                        s2_shares[(c, s, t)][y] *= scale
 
             new_total = sum(s2_shares[(c, s, t)][y] for t in techs)
             if abs(new_total - 1.0) > LT.controller("renorm_check_tolerance", "2"):
@@ -816,13 +884,19 @@ def apply_stage2(s1_data, years, overrides, total_gen, audit_log,
                     for t in growth_techs:
                         s2_shares[(c, s, t)][y] = per
 
-                # If locked > NH_target, the frozen plants and the solar and wind plants share the room left
-                # by fossil and hydro in proportion to their values (as in the forward rebase above)
-                if locked_sum > NH_target > 0:
-                    nh_sum = locked_sum + sum(s2_shares[(c, s, t)][y] for t in growth_techs)
-                    factor = NH_target / nh_sum
-                    for t in locked_techs + growth_techs:
-                        s2_shares[(c, s, t)][y] *= factor
+                # If locked > NH_target, the frozen plants keep their output, solar and wind keep their
+                # committed floors and the fossil plants give way (the renewable share then exceeds the target)
+                if locked_sum > NH_target:
+                    tg_y = total_gen.get((c, s, y), 0.0)
+                    fl = {t: (FLOOR_PJ.get((c, s, t), {}).get(y, 0.0) / tg_y if tg_y > 0 else 0.0)
+                          for t in techs}
+                    ysh = {t: s2_shares[(c, s, t)][y] for t in techs}
+                    for t in growth_techs:
+                        ysh[t] = fl[t]
+                    unk = sum(ysh[t] for t in techs if cat.get(t) == "UNKNOWN")
+                    give_way(ysh, fossil_techs, hydro_techs + locked_techs, growth_techs, fl, 1.0 - unk)
+                    for t in techs:
+                        s2_shares[(c, s, t)][y] = ysh[t]
 
                 policy_fixes += 1
 
@@ -999,7 +1073,8 @@ def write_controller(s2_shares, s2_lower, s2_upper, s1_meta, years, out_path,
         ("    Fossil", f"{FOSSIL_DECLINE_RATE*100:.1f}%/yr decline from {CUTOFF_YEAR} ({LT.country_value(LT.controller_list("own_rule_country_names", "2")[0], 'code')}: 0%)"),
         ("    Hydro", "PJ freeze at corrected anchor value"),
         ("    NH-Renew", "Gap-fill (solar+wind absorb; biomass/geo locked at boundary)"),
-        ("    Policy", f"{LT.scenario('ndc')}: {RENEWABLE_TARGET_CURVE[LT.scenario('ndc')]}; {LT.scenario('lts')}: {RENEWABLE_TARGET_CURVE[LT.scenario('lts')]}"),
+        ("    Policy", f"targets of {RT.FILE_NAME} (Stage 1 output); last target held after its year"),
+        ("    Overflow", "frozen output and committed builds kept; the non-committed fossil part gives way"),
         ("", ""),
         ("INVARIANTS", ""),
         ("  Shares", "Sum to 1.0 for all (country, scenario, year)"),
@@ -1030,6 +1105,20 @@ def write_controller(s2_shares, s2_lower, s2_upper, s1_meta, years, out_path,
     write_sheet("TARGET_SHARES", rows_s)  # same as current in Stage 2
     write_sheet("CURRENT_LOWER", rows_l)
     write_sheet("CURRENT_UPPER", rows_u)
+
+    # FROZEN: plants whose output is frozen after the boundary year, with the override row behind the value
+    ws_f = wb.create_sheet("FROZEN")
+    fcols = ["Country", "Scenario", "Tech", "Class", "Boundary_Year", "Frozen_PJ", "Override_Year", "Override_Note"]
+    ws_f.append(fcols)
+    for r in FROZEN:
+        ws_f.append([r[k] for k in fcols])
+
+    # FLOOR_LOWER: PJ kept as a lower limit when the share pins are released (frozen output, committed builds)
+    ws_fl = wb.create_sheet("FLOOR_LOWER")
+    ws_fl.append(["Country", "Scenario", "Tech"] + years)
+    for (c, s, t) in sorted(FLOOR_PJ):
+        ws_fl.append([c, s, t] + [round(FLOOR_PJ[(c, s, t)].get(y, 0.0), LT.controller("limit_digits", "2"))
+                                  for y in years])
 
     # TECH_MAP
     ws_tm = wb.create_sheet("TECH_MAP")
@@ -1085,6 +1174,9 @@ def main(argv=None):
 
     print("\n[2/6] Loading overrides...")
     overrides, notes = load_overrides(args.overrides_dir)
+    OVERRIDE_NOTES.update(notes)
+    TARGETS.update(RT.load(args.root.resolve()))
+    print(f"  Targets of {len(TARGETS)} countries from {RT.FILE_NAME}")
     if not overrides:
         print("[DONE] No overrides — Stage 2 = Stage 1 (copy).")
         return

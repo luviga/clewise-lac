@@ -1,0 +1,17 @@
+model,scenario,status,objective,seconds_model,steps
+CostaRica/CR_AFOLU/t1_confection,,no solver output,,1340,a2: exit 0; b1: exit 0; b2: exit 1
+CostaRica/CR_WASTE,,no solver output,,473,a2: exit 0; b1: exit 0; b2: exit 1
+DominicanRepublic/RD_AFOLU,,no solver output,,162,a2: exit 0; b1: exit 4294967295
+DominicanRepublic/RD_WASTE,,no solver output,,103,a2: exit 0; b1: exit 0; b2: exit 1
+Ecuador/ECU_WASTE,,no solver output,,135,a2: exit 0; b1: exit 0; b2: exit 1
+Ecuador/ECU_USCUSS,,no solver output,,1549,a2: exit 0; b1: exit 0; b2: exit 1
+Guatemala/GUA_WASTE,,no solver output,,203,a2: exit 0; b1: exit 0; b2: exit 1
+Honduras/HON_AFOLU/HON_AFOLU,,no solver output,,765,a2: exit 0; b1: exit 0; b2: exit 1
+Honduras/HON_WASTE,,no solver output,,199,a2: exit 0; b1: exit 0; b2: exit 1
+Jamaica/JAM_AFOLU,,no solver output,,259,a2: exit 0; b1: exit 0; b2: exit 1
+Jamaica/JAM_WASTE,,no solver output,,43,a2: exit 0; b1: exit 0; b2: exit 1
+Jamaica/JAM_TRANSPORT,BAU,OPTIMAL,60139.90118,277,a2: exit 0; b1: exit 0; b2: exit 1
+Jamaica/JAM_TRANSPORT,LTS,OPTIMAL,49828.60175,277,a2: exit 0; b1: exit 0; b2: exit 1
+Jamaica/JAM_TRANSPORT,LTSNEW,OPTIMAL,49761.11207,277,a2: exit 0; b1: exit 0; b2: exit 1
+Jamaica/JAM_TRANSPORT,LTSOPT,OPTIMAL,49761.11207,277,a2: exit 0; b1: exit 0; b2: exit 1
+Jamaica/JAM_TRANSPORT,NDCNEW,OPTIMAL,54331.58008,277,a2: exit 0; b1: exit 0; b2: exit 1

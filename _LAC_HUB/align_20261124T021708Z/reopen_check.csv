@@ -1,0 +1,50 @@
+source_id,value_printed,unit,year,page_in_register,page_found,result,what
+ALN-CEPAL-ECU-2021,12%,%,2021,"PDF p1 (abstract) and PDF p2 (printed p. 76): 'In Ecuador, as in other Latin American countries, a fixed discount rate, usually of 12%, is used'",p.1,confirmed,Standard social discount rate applied by planning institutions (Ecuador)
+ALN-CNEE-2024,"1,113",GWh,2019,"PDF p12, section 1.2.1 Datos Generales y Resumen de Indicadores",p.12,confirmed,"Electricity imported, total (Energia importada total)"
+ALN-EOR-MCTP-2025,300 300 300 300,"MW (MAX MED MIN, most restrictive)",2025,"Tabla 12, PDF p29 (raw text order)",p.7,confirmed,"SIEPAC maximum transfer capacity (MCTP), GUA 02 Guatemala export to Honduras; most restrictive value"
+ALN-EOR-MEX-2021,240,Limite de Transferencia (MW),2021,"PDF p20, section 4.0 and 5.0.A table",p.5,confirmed,"Mexico-SER (Tapachula-Los Brillantes 400 kV) transfer limit, max, medium and min demand"
+ALN-IPCC2006-V2C2,73 300,kg of greenhouse gas per TJ on a Net Calorific Basis,2006,"Table 2.2, PDF page 16 of chapter file (printed p. 2.16)",p.8,confirmed,"Crude Oil, CO2 default emission factor, energy industries"
+ALN-UNA-2024,"8,31%",%,2019,"PDF p10 (Resumen ejecutivo, printed p. x); PDF p18 (printed p. 4): 'el valor de la TSD se actualizo en 2019, estableciendose un valor de 8,31% (Mideplan, ND)'",p.10,confirmed,Social discount rate (TSD) set by MIDEPLAN for public investment projects
+COMTRADE-JAM,198961138.36,US$ CIF,2019,,file,confirmed by hand,"Jamaica import value of a vehicle line, 2019 response"
+CR-001,127500,US$ per vehicle,2021,,p.110,confirmed,CR_ENERGY TRNBUSHYBDSL CapitalCost
+CR-002,15,years,,,p.6,confirmed,CR_ENERGY TRNBUSDSL OperationalLife
+CR-004,6277.2,US$ per ha (establishment),2018,,p.4,confirmed,CR_AFOLU AGRCAF CapitalCost
+CR-005,"3,413.5",US$ per ha,2025,PDF p.5,p.4,"opened; total cost table found, number split across columns by text extraction",rainfed rice cost model
+CR-006,"3,239.6",US$ per ha,2025,PDF p.6,p.5,"opened; total cost table found, number split across columns by text extraction",irrigated rice cost model
+CR-007,19344.3,US$ per ha per year (total production cost),2018,,p.6,confirmed,CR_AFOLU AGRPIN FixedCost
+CR-008,6505.3,US$ per ha (establishment),2018,,p.3,confirmed,CR_AFOLU AGRORG CapitalCost
+CR-009,3570.3,US$ per ha (establishment),2018,,p.4,confirmed,CR_AFOLU AGRPLM CapitalCost
+CR-01,11380,Gg CO2e,2030,p.33;p.138,p.6,confirmed,CR-T001
+CR-010,1682.8,US$ per ha per year (total production cost),2018,,p.3,confirmed,CR_AFOLU AGROTG FixedCost
+CR-011,,US$ per ha,2025,,p.3,"opened; total cost table found, number split across columns by text extraction",onion cost model
+CR-013,,US$ per ha,2025,,p.5,"opened; total cost table found, number split across columns by text extraction",tomato cost model
+CR-02,0,Mt CO2e,2050,p.12;p.38,p.34,confirmed,CR-T076
+DR-002,57.2211,DOP per US$,,,file,confirmed by hand,WDI official exchange rate
+DR-003,7900.40,"RD$ per tarea (rice, total variable cost incl. financing, FENARROZ 2021)",2018,,p.7,confirmed,RD_AFOLU AG_RIC FixedCost
+DR-004,1600.48,RD$ per tarea per year,2018,,p.14,confirmed,RD_AFOLU AG_CAF FixedCost
+DR-01,28,percent,2030,p.14;p.62;p.129,p.4,confirmed,DR-T001
+ECU-03,70,percent,2070,p.96,p.1,confirmed,ECU-T017
+ECU-05,PCG - AR5,"GWP table (CH4 28, N2O 265)",2024,p.50,p.58,confirmed,AR5 global warming potentials used by the inventory
+ECU-07,4034,MW,2032,p.159,p.159,confirmed,ECU-T069
+GEN-001,2024,CPI-U annual average,2024,series CUUR0000SA0,file,confirmed,BLS CPI-U series
+GEN-101,17100,US$,,,file,confirmed by hand,NREL ATB 2022 vehicle price value
+GEN-102,73.322,M US$ per Gvkm,2021,,file,confirmed,CR_ENERGY TRNMICHYBDSL FixedCost
+GEN-104,3000,US$ per vehicle,2021,,p.59,confirmed,CR_ENERGY TRNMOTELE CapitalCost
+GEN-201,689.11,"US$ per t (real 2024, quantity-weighted mean 2019-2023)",2018,,file,confirmed,CR_AFOLU IMPRIC VariableCost
+GEN-204,20.43,US$ per t,2018,,p.4,confirmed,RD_AFOLU LANDFILL CapitalCost
+GEN-206,34.22,"US$ per t (collection, LAC average)",2018,,p.3,confirmed,CR_WASTE BLEND_NO_DCOLL CapitalCost
+GEN-207,447.2,US$ per person served (urban sewerage with treatment),2018,,p.28,confirmed,RD_AFOLU AERO_PTAR CapitalCost
+GUA-01,23.7,percent,2035,p.13;p.25;p.28;p.131,p.3,confirmed,GUA-T001
+HON-002,26879.80; 25482.52; 27460.48; 31610.23,L per manzana (coffee production cost by farm size),2018,,p.16,confirmed,HON_AFOLU AG_CAF VariableCost
+HON-003,,,2024,,,opened; value not confirmed by text search,agricultural census preliminary results (area unit conversion)
+HON-004,24.6016,HNL per US$,,,file,confirmed by hand,WDI official exchange rate
+HON-005,"15,730","L per ha (beans, total production cost)",2018,,p.24,confirmed,HON_AFOLU AG_FRI VariableCost
+HON-01,12847.2,Gg CO2e,2035,p.23;p.25,p.23,confirmed,HON-T001
+JAM-002,34477.76; 33444.24,"US$ per vehicle (total acquisition cost, petrol compact car, Jamaica)",2021,,p.83,confirmed,JAM_TRANSPORT TRAUTDSL CapitalCost
+JAM-003,5.4 million / 45,"US$ per vehicle (diesel bus, JUTC contract)",2021,,file,confirmed,JAM_TRANSPORT TRBPUDSL CapitalCost
+JAM-005,153.4268,J$ per US$,2022,,file,confirmed by hand,WDI official exchange rate 2022
+JAM-006,758,J$ per kg (red peas cost of production),2022,,p.40,confirmed by hand,cost of production estimate used for legumes
+JAM-01,16.3,percent,2030,p.2;p.4,p.2,confirmed,JAM-T001
+JAM-02,73,percent,2050,p.13;p.46;p.50,p.6,confirmed,JAM-T045
+JAM-07,50,percent,2030,p.14;p.15;p.38;p.62,p.3,confirmed,JAM-T115
+JAM-GLEANER-2022-10-01,15 megawatts,MW,2022,article body,file,confirmed,"Frome factory own generating capacity, grid sale plans failed"

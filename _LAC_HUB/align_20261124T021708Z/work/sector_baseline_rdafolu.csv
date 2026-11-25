@@ -1,0 +1,4 @@
+model,scenario,status,objective,seconds_model,steps
+DominicanRepublic/RD_AFOLU,BAU,UNDEFINED,0,981,a2: exit 0; b1: exit 0; b2: exit 1
+DominicanRepublic/RD_AFOLU,NDCcond,UNDEFINED,0,981,a2: exit 0; b1: exit 0; b2: exit 1
+DominicanRepublic/RD_AFOLU,NDCincond,UNDEFINED,0,981,a2: exit 0; b1: exit 0; b2: exit 1

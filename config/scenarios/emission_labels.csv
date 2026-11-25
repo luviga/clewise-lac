@@ -56,3 +56,13 @@ gasoline_blend,15,T4GSL_TUR,CH4,Honduras,B1 runner,emissions of the gasoline tec
 gasoline_blend,16,T4GSL_TUR,N2O,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
 gasoline_blend,17,DIST_GSL,CO2e_sources,Honduras,B1 runner,emissions of the gasoline technologies scaled by the ethanol blend
 co2_token,1,,CO2,all,B1 runner,name token of carbon dioxide emissions
+energy_cap,1,,CO2e_sources,DominicanRepublic,stage3_emission_cap.py,energy emission label of the LTS cap: emissions of the fuels supplied to the energy system
+energy_cap,1,,CO2e_sources,Honduras,stage3_emission_cap.py,energy emission label of the LTS cap: emissions of the fuels supplied to the energy system
+energy_report,1,,CO2e_sources,DominicanRepublic,results tables of the job,energy emission label reported against published energy emission levels (emissions of the fuels supplied to the energy system)
+energy_report,1,,CO2e_sources,Ecuador,results tables of the job,energy emission label reported against published energy emission levels (emissions of the fuels supplied to the energy system)
+energy_report,1,,CO2e_sources,Guatemala,results tables of the job,energy emission label reported against published energy emission levels (emissions of the fuels supplied to the energy system)
+energy_report,1,,CO2e_sources,Honduras,results tables of the job,energy emission label reported against published energy emission levels (emissions of the fuels supplied to the energy system)
+energy_report,1,,CO2e_sources,Jamaica,results tables of the job,energy emission label reported against published energy emission levels (emissions of the fuels supplied to the energy system)
+energy_report,1,,CO2e_DE,CostaRica,results tables of the job,energy emission labels reported against published levels: the model has no total label, so its demand, power and transport labels (disjoint) are summed
+energy_report,1,,CO2e_PWR,CostaRica,results tables of the job,energy emission labels reported against published levels: the model has no total label, so its demand, power and transport labels (disjoint) are summed
+energy_report,1,,CO2e_TRN,CostaRica,results tables of the job,energy emission labels reported against published levels: the model has no total label, so its demand, power and transport labels (disjoint) are summed

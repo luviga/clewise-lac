@@ -71,7 +71,7 @@ py stage3_apply.py --root . --clean --uncap-pp-maxcap
 | Upper limit rule | Always lower × 1.05 | Controller uppers were stale Stage 1 values (2–7× too wide) |
 | Zero-lower tech upper | 0 (all six countries) | Prevents unconstrained techs from stealing generation share |
 | Orphan PP tech handling | Detected via comprehensive param block scan; lower=0, upper=0 | Techs in model but not in controller were producing 3–40% unconstrained |
-| Guatemala exception | removed in LAC_CLEANUP (November 2026) except the orphan cap of NDC and LTS (`orphan_cap_exempt_scenarios`); the reason it had: | Stage 0 NDC/LTS denominators inflated 20–107% by orphan overproduction; tight caps make lower_sum > demand → infeasible |
+| Guatemala exception | removed in LAC_CLEANUP (November 2026); its last part (`orphan_cap_exempt_scenarios`) removed in LAC_ALIGN (November 2026); the reason it had: | Stage 0 NDC/LTS denominators inflated 20–107% by orphan overproduction; tight caps make lower_sum > demand → infeasible |
 | MaxCapacity | Uncapped (99999) for all PP techs | Original caps conflicted with new higher activity lower limits |
 | ReserveMargin | 1.15 flat, plain tuple format | SOASIA reference format; solar/wind excluded from firm capacity |
 | Share validation | PASS ≤0.3pp, WARN 0.3–1pp, FAIL >1pp | 20 failures all 1.0–1.2pp (Jamaica PV mid-years, Guatemala orphan-skip tradeoff) |
@@ -93,7 +93,7 @@ py stage3_apply.py --root . --clean --uncap-pp-maxcap
 | CostaRica | None | Already 89% RE in BAU; path: `CR_ENERGY/t1_confection` (one level deeper) |
 | DominicanRepublic | None | Largest absolute emission reduction under LTS (-85%) |
 | Ecuador | None | PPPVDS was 40% overproducer (caught by zero-lower rule); `ECU_Energy` (lowercase 'e') |
-| Guatemala | `orphan_cap_exempt_scenarios` (NDC, LTS) | Orphan PPPVT2 left uncapped in NDC and LTS only; otherwise the common rule |
+| Guatemala | none (LAC_ALIGN) | Orphan PPPVT2 capped at 0 in every scenario, as in every country |
 | Honduras | None | 4 orphan techs capped |
 | Jamaica | None | 7 orphan techs capped; PPPVD was 3.5% late-year leaker; model horizon 2021–2055 |
 

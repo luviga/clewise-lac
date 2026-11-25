@@ -1,0 +1,68 @@
+row,model,file,sheet,tech,parameter,year,result,cell
+0,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,BAU|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Description Parameter-Set,written,D3
+1,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,BAU|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Linear,written,F3
+2,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,BAU|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Exact_Years,written,G3
+3,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,BAU|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Exact_Values,written,H3
+4,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,BAU|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,y_ini,written,I3
+5,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,BAU|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Milestone_Years,written,J3
+6,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,BAU|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Milestone_Value,written,K3
+7,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,BAU|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Security_Multiplier,written,M3
+8,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,BAU|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Method,written,N3
+9,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,BAU|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,Description Parameter-Set,written,D2
+10,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,BAU|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,Linear,written,F2
+11,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,BAU|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,Exact_Years,written,G2
+12,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,BAU|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,Exact_Values,written,H2
+13,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,BAU|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,y_ini,written,I2
+14,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,BAU|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,Milestone_Years,written,J2
+15,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,BAU|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,Milestone_Value,unchanged,K2
+16,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,BAU|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,Security_Multiplier,written,M2
+17,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,NDC|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Description Parameter-Set,written,D132
+18,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,NDC|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Exact_Values,written,H132
+19,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,NDC|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Milestone_Value,written,K132
+20,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,NDC|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,Description Parameter-Set,written,D133
+21,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,NDC|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,Linear,written,F133
+22,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,NDC|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,Exact_Years,written,G133
+23,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,NDC|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,Exact_Values,written,H133
+24,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,NDC|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,y_ini,written,I133
+25,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,NDC|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,Milestone_Value,unchanged,K133
+26,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,LTS|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Description Parameter-Set,written,D131
+27,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,LTS|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Exact_Values,written,H131
+28,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,LTS|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Milestone_Value,written,K131
+29,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,LTS|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,Description Parameter-Set,written,D134
+30,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,LTS|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,Linear,written,F134
+31,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,LTS|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,Exact_Years,written,G134
+32,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,LTS|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,Exact_Values,written,H134
+33,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,LTS|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,y_ini,written,I134
+34,Guatemala/GUA_ENERGY,B1_Scenario_Config.xlsx,Electrical,LTS|IMP_ELE,TotalTechnologyAnnualActivityLowerLimit,Milestone_Value,unchanged,K134
+35,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2025,written,P87
+36,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2026,written,Q87
+37,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2027,written,R87
+38,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2028,written,S87
+39,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2029,written,T87
+40,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2030,written,U87
+41,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2031,written,V87
+42,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2032,written,W87
+43,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2033,written,X87
+44,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2034,written,Y87
+45,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2035,written,Z87
+46,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2036,written,AA87
+47,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2037,written,AB87
+48,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2038,written,AC87
+49,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2039,written,AD87
+50,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2040,written,AE87
+51,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2041,written,AF87
+52,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2042,written,AG87
+53,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2043,written,AH87
+54,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2044,written,AI87
+55,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2045,written,AJ87
+56,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2046,written,AK87
+57,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2047,written,AL87
+58,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2048,written,AM87
+59,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2049,written,AN87
+60,Honduras/HON_ENERGY,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,2050,written,AO87
+61,Honduras/HON_ENERGY,B1_Scenario_Config.xlsx,Electrical,LTS|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Description Parameter-Set,written,D122
+62,Honduras/HON_ENERGY,B1_Scenario_Config.xlsx,Electrical,LTS|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Exact_Values,written,H122
+63,Honduras/HON_ENERGY,B1_Scenario_Config.xlsx,Electrical,LTS|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Milestone_Value,written,K122
+64,Honduras/HON_ENERGY,B1_Scenario_Config.xlsx,Electrical,NDC|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Description Parameter-Set,written,D123
+65,Honduras/HON_ENERGY,B1_Scenario_Config.xlsx,Electrical,NDC|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Exact_Values,written,H123
+66,Honduras/HON_ENERGY,B1_Scenario_Config.xlsx,Electrical,NDC|IMP_ELE,TotalTechnologyAnnualActivityUpperLimit,Milestone_Value,written,K123

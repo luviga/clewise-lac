@@ -1,0 +1,17 @@
+row,model,file,sheet,tech,parameter,year,result,cell
+0,Ecuador/ECU_Energy,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,PPHRORPM,TotalAnnualMaxCapacity,2021,written,I286
+1,Ecuador/ECU_Energy,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,PPHRORPM,TotalAnnualMaxCapacity,2022,written,J286
+2,Ecuador/ECU_Energy,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,PPHRORPM,TotalAnnualMaxCapacity,2023,written,K286
+3,Ecuador/ECU_Energy,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,PPHRORPM,TotalAnnualMaxCapacity,2024,written,L286
+4,Ecuador/ECU_Energy,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,PPHRORAS,TotalAnnualMaxCapacity,2021,written,I276
+5,Ecuador/ECU_Energy,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,PPHRORAS,TotalAnnualMaxCapacity,2022,written,J276
+6,Ecuador/ECU_Energy,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,PPHRORAS,TotalAnnualMaxCapacity,2023,written,K276
+7,Ecuador/ECU_Energy,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,PPHRORAS,TotalAnnualMaxCapacity,2024,written,L276
+8,Ecuador/ECU_Energy,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,PPHDAMPS,TotalAnnualMaxCapacity,2021,written,I246
+9,Ecuador/ECU_Energy,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,PPHDAMPS,TotalAnnualMaxCapacity,2022,written,J246
+10,Ecuador/ECU_Energy,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,PPHDAMPS,TotalAnnualMaxCapacity,2023,written,K246
+11,Ecuador/ECU_Energy,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,PPHDAMPS,TotalAnnualMaxCapacity,2024,written,L246
+12,Ecuador/ECU_Energy,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,PPPVD,TotalAnnualMaxCapacity,2021,written,I176
+13,Ecuador/ECU_Energy,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,PPPVD,TotalAnnualMaxCapacity,2022,written,J176
+14,Ecuador/ECU_Energy,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,PPPVD,TotalAnnualMaxCapacity,2023,written,K176
+15,Ecuador/ECU_Energy,A1_Outputs/A-O_Parametrization.xlsx,Primary Techs,PPPVD,TotalAnnualMaxCapacity,2024,written,L176

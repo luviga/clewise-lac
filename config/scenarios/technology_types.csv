@@ -135,3 +135,80 @@ car_set,Techs_Auto,name,all,,B1 runner,fleet group of cars
 motorcycle_set,Techs_Motos,name,all,,B1 runner,fleet group of motorcycles
 suv_set,Techs_SUV,name,all,,B1 runner,fleet group of sport utility vehicles
 taxi_set,Techs_Taxi,name,all,,B1 runner,fleet group of taxis
+hydrogen,HYDPROBIO,name,CostaRica,,scenario_rules.py,hydrogen technology (input or output fuel E2_HYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,HYDPROELEGRI,name,CostaRica,,scenario_rules.py,hydrogen technology (input or output fuel E2_HYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,HYDPROELEISO,name,CostaRica,,scenario_rules.py,hydrogen technology (input or output fuel E2_HYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,HYDPRONGS,name,CostaRica,,scenario_rules.py,hydrogen technology (input or output fuel E2_HYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,HYD_DISTR,name,CostaRica,,scenario_rules.py,hydrogen technology (input or output fuel E2_HYD E3_HYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T4HYD_HEA,name,CostaRica,,scenario_rules.py,hydrogen technology (input or output fuel E3_HYD E4HYD_HEA): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T4HYD_PUB,name,CostaRica,,scenario_rules.py,hydrogen technology (input or output fuel E3_HYD E4HYD_PUB): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T5HYDIND,name,CostaRica,,scenario_rules.py,hydrogen technology (input or output fuel E3_HYD E5INDHYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,TRNBUSHYD,name,CostaRica,,scenario_rules.py,hydrogen technology (input or output fuel E4HYD_PUB): activity upper limit 0 and no lower limit in every scenario
+hydrogen,TRNFREHEAHYD,name,CostaRica,,scenario_rules.py,hydrogen technology (input or output fuel E4HYD_HEA): activity upper limit 0 and no lower limit in every scenario
+hydrogen,TRNMICHYD,name,CostaRica,,scenario_rules.py,hydrogen technology (input or output fuel E4HYD_PUB): activity upper limit 0 and no lower limit in every scenario
+hydrogen,HYD_DIST,name,DominicanRepublic,,scenario_rules.py,hydrogen technology (input or output fuel E2HYDG E3HYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,HYD_G_PROD,name,DominicanRepublic,,scenario_rules.py,hydrogen technology (input or output fuel E2HYDG): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T4HYD_HEA,name,DominicanRepublic,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E4HYD_HEA): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T4HYD_PUB,name,DominicanRepublic,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E4HYD_PUB): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T4HYD_TUR,name,DominicanRepublic,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E4HYD_TUR): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T5HYDIND,name,DominicanRepublic,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E5INDHYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,TRBPUHYD,name,DominicanRepublic,,scenario_rules.py,hydrogen technology (input or output fuel E4HYD_PUB): activity upper limit 0 and no lower limit in every scenario
+hydrogen,TRBTURHYD,name,DominicanRepublic,,scenario_rules.py,hydrogen technology (input or output fuel E4HYD_TUR): activity upper limit 0 and no lower limit in every scenario
+hydrogen,TRYTKHYD,name,DominicanRepublic,,scenario_rules.py,hydrogen technology (input or output fuel E4HYD_HEA): activity upper limit 0 and no lower limit in every scenario
+hydrogen,HYD_DIST,name,Ecuador,,scenario_rules.py,hydrogen technology (input or output fuel E2HYDG E3HYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,HYD_G_PROD,name,Ecuador,,scenario_rules.py,hydrogen technology (input or output fuel E2HYDG): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T5HYDIND,name,Ecuador,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E5INDHYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,HYD_DIST,name,Guatemala,,scenario_rules.py,hydrogen technology (input or output fuel E2HYDG E3HYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,HYD_G_PROD,name,Guatemala,,scenario_rules.py,hydrogen technology (input or output fuel E2HYDG): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T4HYD_HEA,name,Guatemala,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E4HYD_HEA): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T4HYD_PRI,name,Guatemala,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E4HYD_PRI): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T4HYD_PUB,name,Guatemala,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E4HYD_PUB): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T5HYDIND,name,Guatemala,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E5INDHYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,TRBPRHYD,name,Guatemala,,scenario_rules.py,hydrogen technology (input or output fuel E4HYD_PRI): activity upper limit 0 and no lower limit in every scenario
+hydrogen,TRBPUHYD,name,Guatemala,,scenario_rules.py,hydrogen technology (input or output fuel E4HYD_PUB): activity upper limit 0 and no lower limit in every scenario
+hydrogen,TRMBSHYD,name,Guatemala,,scenario_rules.py,hydrogen technology (input or output fuel E4HYD_PRI): activity upper limit 0 and no lower limit in every scenario
+hydrogen,TRYTKHYD,name,Guatemala,,scenario_rules.py,hydrogen technology (input or output fuel E4HYD_HEA): activity upper limit 0 and no lower limit in every scenario
+hydrogen,HYD_DIST,name,Honduras,,scenario_rules.py,hydrogen technology (input or output fuel E2HYDG E3HYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,HYD_G_PROD,name,Honduras,,scenario_rules.py,hydrogen technology (input or output fuel E2HYDG): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T4HYD_HEA,name,Honduras,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E4HYD_HEA): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T4HYD_PUB,name,Honduras,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E4HYD_PUB): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T5HYDIND,name,Honduras,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E5INDHYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,TRBPUHYD,name,Honduras,,scenario_rules.py,hydrogen technology (input or output fuel E4HYD_PUB): activity upper limit 0 and no lower limit in every scenario
+hydrogen,TRYTKHYD,name,Honduras,,scenario_rules.py,hydrogen technology (input or output fuel E4HYD_HEA): activity upper limit 0 and no lower limit in every scenario
+hydrogen,HYD_DIST,name,Jamaica,,scenario_rules.py,hydrogen technology (input or output fuel E2HYDG E3HYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,HYD_G_PROD,name,Jamaica,,scenario_rules.py,hydrogen technology (input or output fuel E2HYDG): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T5HYDINDBAX,name,Jamaica,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E5INDBAXHYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T5HYDINDCEM,name,Jamaica,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E5INDCEMHYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T5HYDINDOTM,name,Jamaica,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E5INDOTMHYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T5HYDINDSUM,name,Jamaica,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E5INDSUMHYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T5HYDTMA,name,Jamaica,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E5TMAHYD): activity upper limit 0 and no lower limit in every scenario
+hydrogen,T5HYDTRO,name,Jamaica,,scenario_rules.py,hydrogen technology (input or output fuel E3HYD E5TROHYD): activity upper limit 0 and no lower limit in every scenario
+capacity_kind_solar,SOL,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published solar capacity into generation (capacity rule)
+capacity_kind_solar,SUN,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published solar capacity into generation (capacity rule)
+capacity_kind_solar,SPV,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published solar capacity into generation (capacity rule)
+capacity_kind_solar,PV,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published solar capacity into generation (capacity rule)
+capacity_kind_solar,CSP,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published solar capacity into generation (capacity rule)
+capacity_kind_wind,WND,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published wind capacity into generation (capacity rule)
+capacity_kind_wind,WIND,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published wind capacity into generation (capacity rule)
+capacity_kind_wind,WNO,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published wind capacity into generation (capacity rule)
+capacity_kind_wind,WNS,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published wind capacity into generation (capacity rule)
+capacity_kind_hydro,HYD,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published hydro capacity into generation (capacity rule)
+capacity_kind_hydro,DAM,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published hydro capacity into generation (capacity rule)
+capacity_kind_hydro,ROR,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published hydro capacity into generation (capacity rule)
+capacity_kind_hydro,PPHD,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published hydro capacity into generation (capacity rule)
+capacity_kind_hydro,PPIHD,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published hydro capacity into generation (capacity rule)
+capacity_kind_nonhydro_renewable,GEO,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published nonhydro renewable capacity into generation (capacity rule)
+capacity_kind_nonhydro_renewable,SOL,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published nonhydro renewable capacity into generation (capacity rule)
+capacity_kind_nonhydro_renewable,SUN,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published nonhydro renewable capacity into generation (capacity rule)
+capacity_kind_nonhydro_renewable,SPV,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published nonhydro renewable capacity into generation (capacity rule)
+capacity_kind_nonhydro_renewable,PV,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published nonhydro renewable capacity into generation (capacity rule)
+capacity_kind_nonhydro_renewable,CSP,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published nonhydro renewable capacity into generation (capacity rule)
+capacity_kind_nonhydro_renewable,WND,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published nonhydro renewable capacity into generation (capacity rule)
+capacity_kind_nonhydro_renewable,WIND,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published nonhydro renewable capacity into generation (capacity rule)
+capacity_kind_nonhydro_renewable,WNO,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published nonhydro renewable capacity into generation (capacity rule)
+capacity_kind_nonhydro_renewable,WNS,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published nonhydro renewable capacity into generation (capacity rule)
+capacity_kind_nonhydro_renewable,BMS,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published nonhydro renewable capacity into generation (capacity rule)
+capacity_kind_nonhydro_renewable,BIM,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published nonhydro renewable capacity into generation (capacity rule)
+capacity_kind_nonhydro_renewable,BIO,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published nonhydro renewable capacity into generation (capacity rule)
+capacity_kind_nonhydro_renewable,BGS,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published nonhydro renewable capacity into generation (capacity rule)
+capacity_kind_nonhydro_renewable,SUG,token,all,,renewable_targets.py,name token of the plants whose capacity factor turns published nonhydro renewable capacity into generation (capacity rule)

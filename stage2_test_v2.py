@@ -16,8 +16,12 @@ Hard (must PASS):
   T7  Historical alignment: BAU=NDC=LTS for years with identical CSV data
 
 Soft (informational):
-  T8  Continuity: year-over-year RE change < 5pp
-  T9  Hydro PJ trajectory: non-increasing from boundary
+  T8  Continuity: year-over-year RE change < 5pp (plus the share the committed renewable builds of the year add) up to the
+      last model year, outside recorded history years (override rows) and the years of a published target ramp (cutoff
+      year to the last target year of inputs/scenarios/scenario_values.csv)
+  T9  Hydro PJ trajectory: non-increasing from boundary, plus committed builds (minimum capacity investment)
+  T12 Hole scan: Stage 2 share 0 where the Stage 1 share and every override row are above 0; a plant whose last
+      override at or before the anchor year is 0 (a sourced zero) is skipped
   T10 Coverage summary per country
 
 Usage:
@@ -50,27 +54,11 @@ FOSSIL_TOKENS = ["DSL", "DIE", "FOI", "HFO", "CRU",
                  "COA", "COK", "NGS", "GAS", "GLP", "LPG",
                  "GSL", "KJF", "OIL", "PET", "FOS"]
 
-POLICY_CHECKS = [
-    # (scenario, year, min_RE, label)
-    (LT.scenario("ndc"), 2035, 0.70, f"{LT.scenario("ndc")} 75% target @2035 (5pp margin)"),
-    (LT.scenario("ndc"), 2050, 0.70, f"{LT.scenario("ndc")} 75% target @2050 (5pp margin)"),
-    (LT.scenario("lts"), 2035, 0.70, f"{LT.scenario("lts")} 75% target @2035 (5pp margin)"),
-    (LT.scenario("lts"), 2050, 0.94, f"{LT.scenario("lts")} 99% target @2050 (5pp margin)"),
-]
-COUNTRY_POLICY_OVERRIDES = {
-    "CostaRica": [
-        (LT.scenario("ndc"), 2035, 0.85, f"CR {LT.scenario("ndc")} 90% @2035 (5pp)"),
-        (LT.scenario("ndc"), 2050, 0.85, f"CR {LT.scenario("ndc")} 90% @2050 (5pp)"),
-        (LT.scenario("lts"), 2035, 0.94, f"CR {LT.scenario("lts")} 99% @2035 (5pp)"),
-        (LT.scenario("lts"), 2050, 0.94, f"CR {LT.scenario("lts")} 99% @2050 (5pp)"),
-    ],
-    "Ecuador": [
-        (LT.scenario("ndc"), 2035, 0.75, f"ECU {LT.scenario("ndc")} 80% @2035 (5pp)"),
-        (LT.scenario("ndc"), 2050, 0.75, f"ECU {LT.scenario("ndc")} 80% @2050 (5pp)"),
-        (LT.scenario("lts"), 2035, 0.75, f"ECU {LT.scenario("lts")} 80% @2035 (5pp)"),
-        (LT.scenario("lts"), 2050, 0.94, f"ECU {LT.scenario("lts")} 99% @2050 (5pp)"),
-    ],
-}
+# Policy milestones: the targets Stage 1 built from inputs/scenarios/scenario_values.csv (each country's own
+# published values, and capacity turned into a share by the capacity rule), checked at their target years
+import renewable_targets as RT
+TARGET_TOL = LT.controller("target_match_tolerance", "2")
+ANCHOR_YEAR = LT.controller("anchor_year")
 
 # Must match stage2_apply_v2.py — no exceptions, all rules-based 2027+
 CSV_FORWARD_EXCEPTIONS = set()
@@ -192,7 +180,9 @@ def main():
             continue
         rec = data.get((c, s, t))
         if not rec:
-            fails_t2.append(f"{c}/{s}/{t}/{y}: missing")
+            # a technology absent from the controller has share 0: an anchor of 0 holds
+            if abs(expected) > ANCHOR_TOL:
+                fails_t2.append(f"{c}/{s}/{t}/{y}: missing")
             continue
         actual = rec["shares"].get(y, None)
         if actual is None or abs(actual - expected) > ANCHOR_TOL:
@@ -247,9 +237,12 @@ def main():
 
     # ── T6: Policy milestones ──
     fails_t6 = []
+    targets = RT.load(Path("."))
     for c in countries:
-        checks = COUNTRY_POLICY_OVERRIDES.get(c, POLICY_CHECKS)
+        checks = [(sc, y, v, f"{sc} target {v:.4f} @{y}") for sc, cur in targets.get(c, {}).items()
+                  for y, v in sorted(cur.items())]
         for (sc, year, min_re, label) in checks:
+            min_re = min_re - TARGET_TOL
             re_sum = sum(data.get((c, sc, t), {"shares": {}})["shares"].get(year, 0)
                          for t in set(k[2] for k in data if k[0] == c and k[1] == sc)
                          if cat.get(t) in ("HYDRO", "NON_HYDRO_RENEWABLE"))
@@ -296,18 +289,39 @@ def main():
     print()
     print("── SOFT TESTS (informational) ──")
 
-    # ── T8: Continuity ──
+    # ── T8: Continuity (recorded history years and published target ramps skipped) ──
     discontinuities = []
+    hist_years = defaultdict(set)
+    for (cc, ss, tt, yy) in overrides:
+        if yy <= CUTOFF_YEAR:
+            hist_years[(cc, ss)].add(yy)
+    ramp_end = {(c, sc): max(cur) for c, d in targets.items() for sc, cur in d.items() if cur}
+    import stage2_apply_v2 as S2
+    b1_data, cum_mci = S2.load_all_b1(Path(".").resolve(), years)
+
+    def committed_share_step(c, sc, y):
+        """Share of generation the committed renewable builds of year y add (minimum capacity investment)."""
+        techs = [t for t in set(k[2] for k in data if k[0] == c and k[1] == sc)
+                 if cat.get(t) in ("HYDRO", "NON_HYDRO_RENEWABLE")]
+        step = sum(S2.get_mincap_floor_pj(t, y, 0.0, cum_mci, b1_data, c, sc) -
+                   S2.get_mincap_floor_pj(t, y - 1, 0.0, cum_mci, b1_data, c, sc) for t in techs)
+        recs = [data[k] for k in data if k[0] == c and k[1] == sc]
+        sh = sum(r["shares"].get(y, 0) for r in recs if r["shares"].get(y, 0) > 1e-9 and r["lower"].get(y, 0) > 0)
+        lo = sum(r["lower"].get(y, 0) for r in recs if r["shares"].get(y, 0) > 1e-9 and r["lower"].get(y, 0) > 0)
+        denom = lo / sh if sh > 0 else 0
+        return max(0.0, step) / denom if denom > 0 else 0.0
     for c in countries:
         for sc in scenarios:
             prev_re = None
             for y in years:
+                skip = y > LT.controller("max_year_default", "3") or                        (y <= CUTOFF_YEAR and (y in hist_years[(c, sc)] or y - 1 in hist_years[(c, sc)])) or \
+                       (CUTOFF_YEAR < y <= ramp_end.get((c, sc), 0))
                 re_sum = sum(data.get((c, sc, t), {"shares": {}})["shares"].get(y, 0)
                              for t in set(k[2] for k in data if k[0] == c and k[1] == sc)
                              if cat.get(t) in ("HYDRO", "NON_HYDRO_RENEWABLE"))
-                if prev_re is not None:
+                if prev_re is not None and not skip:
                     delta = abs(re_sum - prev_re)
-                    if delta > CONTINUITY_THRESH:
+                    if delta > CONTINUITY_THRESH + committed_share_step(c, sc, y):
                         discontinuities.append(f"{c}/{sc} {y-1}->{y}: Δ={delta:.4f}")
                 prev_re = re_sum
     record("T8_continuity", len(discontinuities) == 0,
@@ -315,7 +329,7 @@ def main():
     for d in discontinuities[:5]:
         print(f"       {d}")
 
-    # ── T9: Hydro PJ trajectory ──
+    # ── T9: Hydro PJ trajectory (limit: boundary PJ times 1.05 plus committed builds) ──
     hydro_increases = []
     for c in countries:
         for sc in scenarios:
@@ -334,10 +348,34 @@ def main():
                 if y <= boundary:
                     continue
                 hydro_pj_y = sum(data[(c, sc, t)]["lower"].get(y, 0) for t in hydro_techs)
-                if hydro_pj_y > hydro_pj_boundary * 1.05:
+                committed = sum(S2.get_mincap_floor_pj(t, y, 0.0, cum_mci, b1_data, c, sc) for t in hydro_techs)
+                if hydro_pj_y > hydro_pj_boundary * 1.05 + committed:
                     hydro_increases.append(f"{c}/{sc} {y}: {hydro_pj_y:.3f} > boundary {hydro_pj_boundary:.3f}")
     record("T9_hydro_pj_freeze", len(hydro_increases) == 0,
            f"{len(hydro_increases)} violations" + (f" e.g. {hydro_increases[0]}" if hydro_increases else ""))
+
+    # ── T12: Hole scan ──
+    holes = []
+    try:
+        s1_data, _ = load_controller(args.stage1)
+    except Exception:
+        s1_data = {}
+    for (c, sc, t), rec in data.items():
+        s1rec = s1_data.get((c, sc, t))
+        if not s1rec:
+            continue
+        hist = [(yy, v) for (cc, ss, tt, yy), v in overrides.items()
+                if cc == c and ss == sc and tt == t and yy <= ANCHOR_YEAR]
+        if hist and max(hist)[1] <= 0:
+            continue  # sourced zero carried forward
+        for y in years:
+            if abs(rec["shares"][y]) > 1e-12 or (s1rec["shares"].get(y) or 0) <= 1e-12:
+                continue
+            if overrides.get((c, sc, t, y), 1.0) <= 0:
+                continue
+            holes.append(f"{c}/{sc}/{t}/{y}: stage1 {s1rec['shares'][y]:.6f}")
+    record("T12_hole_scan", len(holes) == 0,
+           f"{len(holes)} holes" + (f" e.g. {holes[0]}" if holes else ""))
 
     # ── T10: Coverage summary ──
     print()

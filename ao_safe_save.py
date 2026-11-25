@@ -120,6 +120,24 @@ def assert_no_blank_formula_cells(path) -> tuple[int, list[str]]:
     return 0, blanks
 
 
+def _replace_when_released(tmp, target, tries=20, wait_s=1.5) -> None:
+    """Replace `target` with `tmp` once no handle holds either file: openpyxl keeps the stream of a workbook it
+    read open until the next garbage collection, and Excel can hold a large workbook for a moment after it quits.
+    Collect garbage and retry for up to tries x wait_s seconds; the last error is raised."""
+    import gc
+    import time
+
+    for i in range(tries):
+        gc.collect()
+        try:
+            os.replace(tmp, target)
+            return
+        except PermissionError:
+            if i == tries - 1:
+                raise
+            time.sleep(wait_s)
+
+
 def save_ao_safely(wb, path) -> None:
     """Save an openpyxl workbook to a temporary copy next to `path`, have
     Excel restore every formula result in that copy, refuse it if any formula
@@ -136,7 +154,7 @@ def save_ao_safely(wb, path) -> None:
         wb.save(tmp)
         recalc_in_excel(tmp)
         assert_no_blank_formula_cells(tmp)
-        os.replace(tmp, target)
+        _replace_when_released(tmp, target)
     except BaseException:
         try:
             if tmp.exists():

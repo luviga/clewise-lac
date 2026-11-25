@@ -26,7 +26,6 @@ all,upper_limit_sentinel,all,9999.0,PJ,stage0_run.py,upper activity limit writte
 all,cutoff_year,all,2026,year,stage1_share_analyzer_v16.py; stage2_apply_v2.py,last year of the plateau; fossil decline starts the year after
 all,plateau_years,all,2025|2026,years,stage1_share_analyzer_v16.py; stage2_apply_v2.py,years held at the anchor shares
 all,fossil_decline_rate,all,0.01,fraction per year,stage1_share_analyzer_v16.py; stage2_apply_v2.py,yearly decline of fossil shares after the cutoff year (BAU rule)
-all,target_hold_year,all,2050,year,stage1_share_analyzer_v16.py; stage2_apply_v2.py,year after which the renewable target is held
 all,upper_security_factor,all,1.05,ratio,stage1_share_analyzer_v16.py; stage2_apply_v2.py,upper limit is at least the lower limit times this factor
 all,zero_tolerance,all,1e-09,share,stage1_share_analyzer_v16.py; stage2_apply_v2.py,smallest share sum treated as non-zero
 1,own_rule_country_names,all,CostaRica|COSTARICA|Costa Rica|Costa_Rica,names,stage1_share_analyzer_v16.py,names of the country with its own rule set (Costa Rica)
@@ -35,6 +34,10 @@ all,zero_tolerance,all,1e-09,share,stage1_share_analyzer_v16.py; stage2_apply_v2
 1,share_digits,all,6,digits,stage1_share_analyzer_v16.py,rounding of the shares written to the Stage 1 controller
 1,limit_digits,all,4,digits,stage1_share_analyzer_v16.py,rounding of the lower and upper limits written to the Stage 1 controller
 1,summary_years,all,2030|2040|2050,years,stage1_share_analyzer_v16.py,years printed in the Stage 1 summary after the anchor year
+1,capacity_mw_per_gw,all,1000,MW per GW,renewable_targets.py,unit change of published capacity (capacity rule)
+1,capacity_pj_per_gw_year,all,31.536,PJ per GW and year,renewable_targets.py,generation of 1 GW running a whole year (8760 hours times 3.6 TJ per MWh); capacity rule
+1,max_target_share,all,1.0,share,renewable_targets.py,largest renewable share the capacity rule writes (published capacity that would produce more than the total generation of the year gives 100 percent)
+1,lts_equals_ndc_until,all,2035,year,renewable_targets.py,last year in which the LTS renewable target equals the NDC target (after it the long-term document applies)
 2,own_rule_country_names,all,CostaRica,names,stage2_apply_v2.py,names of the country with its own rule set (Costa Rica)
 2,year_min,all,2018,year,stage2_apply_v2.py,first year read from the Stage 1 controller
 2,year_max,all,2055,year,stage2_apply_v2.py,last year read from the Stage 1 controller
@@ -56,7 +59,6 @@ all,zero_tolerance,all,1e-09,share,stage1_share_analyzer_v16.py; stage2_apply_v2
 3,reserve_margin,all,1.15,ratio,stage3_apply.py,reserve margin written for the generation fuel
 3,lower_to_upper_factor,all,1.05,ratio,stage3_apply.py,upper activity limit = lower limit times this factor
 3,uncapped_value,all,99999.0,PJ or GW,stage3_apply.py,value written for a limit that Stage 3 leaves open
-3,orphan_cap_exempt_scenarios,Guatemala,NDC|LTS,scenario names,stage3_apply.py,scenarios whose orphan plants (in the model and not in the controller) Stage 3 leaves uncapped: under the common rule these two scenarios have no feasible solution and relaxing one limit group at a time (LAC_CLEANUP November 2026) showed that only the orphan cap binds; kept until Luis decides
 3,year_header_max,all,2100,year,stage3_apply.py,largest number read as a year in the header row of a data file block
 3,fallback_years_start,all,2021,year,stage3_apply.py,first year used when a data file block header holds no years
 3,fallback_years_stop,all,2051,year,stage3_apply.py,year after the last year used when a data file block header holds no years
@@ -66,3 +68,6 @@ all,zero_tolerance,all,1e-09,share,stage1_share_analyzer_v16.py; stage2_apply_v2
 3,emission_print_years,all,2025|2030|2035|2040|2050,years,stage3_results.py,years of the printed emission summary
 3,re_target_tolerance,all,0.02,share,stage3_results.py,renewable share may fall short of the target by this much and pass
 3,re_print_years,all,2025|2030|2035|2050,years,stage3_results.py,years of the printed BAU renewable share
+3,cap_start_year,all,2036,year,stage3_apply.py; stage3_emission_cap.py,first year of the energy emission cap of a scenario with an energy_emission_reduction_vs_bau row; from this year its power plant share pins are released (upper limits open; frozen output and committed builds keep their lower limits)
+3,cap_from_year,all,2035,year,stage3_emission_cap.py,year whose solved energy emissions of the NDC scenario start the straight line of the cap
+3,cap_target_year,all,2050,year,stage3_emission_cap.py,year whose cap is BAU energy emissions times (1 minus r)

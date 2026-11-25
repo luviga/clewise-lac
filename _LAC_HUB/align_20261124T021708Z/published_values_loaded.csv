@@ -1,0 +1,582 @@
+value_id,country,scenario,year,value_standard,unit_standard,check_status,result,model_input,value_written,unit_written,reason
+CR-T001,Costa Rica,NDC,2030,11380.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T002,Costa Rica,NDC,2025-2035,132700.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T003,Costa Rica,NDC,2030,0.53,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T004,Costa Rica,NDC,2030,0.23,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T005,Costa Rica,NDC,2030,0.15,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T006,Costa Rica,NDC,2050,0.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T007,Costa Rica,NDC,2030,0.1,fraction,3 of 3,not loaded,,,,"not loaded: a value of a document that does not rule for that year, or not needed by the rules of step 2"
+CR-T008,Costa Rica,NDC,2035,0.2,fraction,3 of 3,not loaded,,,,"not loaded: a value of a document that does not rule for that year, or not needed by the rules of step 2"
+CR-T009,Costa Rica,NDC,2030,52.0,km,2 of 3,not loaded,,,,"not loaded: a value of a document that does not rule for that year, or not needed by the rules of step 2"
+CR-T010,Costa Rica,NDC,2030,121000.0,count,2 of 3,not loaded,,,,"not loaded: a value of a document that does not rule for that year, or not needed by the rules of step 2"
+CR-T011,Costa Rica,NDC,2027,0.06,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T012,Costa Rica,NDC,2030,0.035,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNBUSELE v_2030,0.035,share of the class output,
+CR-T012,Costa Rica,NDC,2030,0.035,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNBUSELE v_2030,0.035,share of the class output,
+CR-T013,Costa Rica,NDC,2030,0.5,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNPASRAIELE v_2030,0.5,share of the class output,
+CR-T013,Costa Rica,NDC,2030,0.5,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNPASRAIELE v_2035,0.5,share of the class output,
+CR-T013,Costa Rica,NDC,2030,0.5,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNPASRAIELE v_2050,0.5,share of the class output,
+CR-T013,Costa Rica,NDC,2030,0.5,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNPASRAIELE Restriction_Type,Min/Max,share of the class output,
+CR-T013,Costa Rica,NDC,2030,0.5,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNPASRAIELE v_2030,0.5,share of the class output,
+CR-T013,Costa Rica,NDC,2030,0.5,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNPASRAIELE v_2035,0.5,share of the class output,
+CR-T013,Costa Rica,NDC,2030,0.5,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNPASRAIELE Restriction_Type,Min/Max,share of the class output,
+CR-T014,Costa Rica,NDC,2030,0.2,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T015,Costa Rica,NDC,2035,0.1,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNBUSELE v_2035,0.1,share of the class output,
+CR-T015,Costa Rica,NDC,2035,0.1,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNBUSELE v_2050,0.1,share of the class output,
+CR-T015,Costa Rica,NDC,2035,0.1,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNMICELE v_2035,0.1,share of the class output,
+CR-T015,Costa Rica,NDC,2035,0.1,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNMICELE v_2050,0.1,share of the class output,
+CR-T015,Costa Rica,NDC,2035,0.1,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNBUSELE v_2035,0.1,share of the class output,
+CR-T015,Costa Rica,NDC,2035,0.1,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNBUSELE v_2050,0.1,share of the class output,
+CR-T015,Costa Rica,NDC,2035,0.1,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNMICELE v_2035,0.1,share of the class output,
+CR-T015,Costa Rica,NDC,2035,0.1,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNMICELE v_2050,0.1,share of the class output,
+CR-T016,Costa Rica,NDC,2030,0.1,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNSEDELE v_2030,0.1,share of the class output,
+CR-T016,Costa Rica,NDC,2030,0.1,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNSUVELE v_2030,0.1,share of the class output,
+CR-T016,Costa Rica,NDC,2030,0.1,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNMOTELE v_2030,0.1,share of the class output,
+CR-T016,Costa Rica,NDC,2030,0.1,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNSEDELE v_2030,0.1,share of the class output,
+CR-T016,Costa Rica,NDC,2030,0.1,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNSUVELE v_2030,0.1,share of the class output,
+CR-T016,Costa Rica,NDC,2030,0.1,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNMOTELE v_2030,0.1,share of the class output,
+CR-T017,Costa Rica,NDC,2030,0.2,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T018,Costa Rica,NDC,2035,0.5,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T019,Costa Rica,NDC,2035,0.2,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNSEDELE v_2035,0.2,share of the class output,
+CR-T019,Costa Rica,NDC,2035,0.2,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNSEDELE v_2050,0.2,share of the class output,
+CR-T019,Costa Rica,NDC,2035,0.2,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNSUVELE v_2035,0.2,share of the class output,
+CR-T019,Costa Rica,NDC,2035,0.2,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNSUVELE v_2050,0.2,share of the class output,
+CR-T019,Costa Rica,NDC,2035,0.2,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNMOTELE v_2035,0.2,share of the class output,
+CR-T019,Costa Rica,NDC,2035,0.2,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNMOTELE v_2050,0.2,share of the class output,
+CR-T019,Costa Rica,NDC,2035,0.2,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNTAXELE v_2030,interp,share of the class output,
+CR-T019,Costa Rica,NDC,2035,0.2,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNTAXELE v_2035,0.2,share of the class output,
+CR-T019,Costa Rica,NDC,2035,0.2,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNTAXELE v_2050,0.2,share of the class output,
+CR-T019,Costa Rica,NDC,2035,0.2,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNSEDELE v_2035,0.2,share of the class output,
+CR-T019,Costa Rica,NDC,2035,0.2,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNSUVELE v_2035,0.2,share of the class output,
+CR-T019,Costa Rica,NDC,2035,0.2,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNMOTELE v_2035,0.2,share of the class output,
+CR-T019,Costa Rica,NDC,2035,0.2,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNTAXELE v_2030,interp,share of the class output,
+CR-T019,Costa Rica,NDC,2035,0.2,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNTAXELE v_2035,0.2,share of the class output,
+CR-T020,Costa Rica,NDC,2027,0.1,fraction,3 of 3,not loaded,,,,"not representable: BLEND_GSL takes 1.0 gasoline and 1.0 ethanol per unit, so no blend share can be set"
+CR-T021,Costa Rica,NDC,2030,0.15,fraction,3 of 3,not loaded,,,,"not representable: BLEND_GSL takes 1.0 gasoline and 1.0 ethanol per unit, so no blend share can be set"
+CR-T022,Costa Rica,NDC,2030,20.0,count,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T023,Costa Rica,NDC,2035,40.0,count,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T024,Costa Rica,NDC,2030,0.02,fraction,3 of 3,not loaded,,,,not representable: the model has no biomethane vehicle technology
+CR-T025,Costa Rica,NDC,2030,0.1,fraction,3 of 3,not loaded,,,,"not representable as one share: natural gas runs only in heavy freight in the model, the target covers light and heavy freight"
+CR-T026,Costa Rica,NDC,2030,0.2,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T027,Costa Rica,NDC,2035,0.05,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNFREHEAELE v_2035,0.05,share of the class output,
+CR-T027,Costa Rica,NDC,2035,0.05,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNFREHEAELE v_2050,0.05,share of the class output,
+CR-T027,Costa Rica,NDC,2035,0.05,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNFREHEAELE v_2035,0.05,share of the class output,
+CR-T027,Costa Rica,NDC,2035,0.05,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNFREHEAELE v_2050,0.05,share of the class output,
+CR-T028,Costa Rica,NDC,2035,0.15,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNFRELIGELE v_2035,0.15,share of the class output,
+CR-T028,Costa Rica,NDC,2035,0.15,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption NDC TRNFRELIGELE v_2050,0.15,share of the class output,
+CR-T028,Costa Rica,NDC,2035,0.15,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNFRELIGELE v_2035,0.15,share of the class output,
+CR-T028,Costa Rica,NDC,2035,0.15,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNFRELIGELE v_2050,0.15,share of the class output,
+CR-T029,Costa Rica,NDC,2030,0.01,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T030,Costa Rica,NDC,2035,0.05,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T032,Costa Rica,NDC,2027,0.95,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv CostaRica NDC renewable_share share of generation 2027,0.95,fraction,
+CR-T032,Costa Rica,NDC,2027,0.95,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv CostaRica LTS renewable_share share of generation 2027,0.95,fraction,
+CR-T033,Costa Rica,NDC,2035,0.95,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv CostaRica NDC renewable_share share of generation 2035,0.95,fraction,
+CR-T033,Costa Rica,NDC,2035,0.95,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv CostaRica LTS renewable_share share of generation 2035,0.95,fraction,
+CR-T034,Costa Rica,NDC,2035,5.0,count,3 of 3,not loaded,,,,"not loaded: a value of a document that does not rule for that year, or not needed by the rules of step 2"
+CR-T035,Costa Rica,NDC,2030,2.4,MJ per USD,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T036,Costa Rica,NDC,2035,2.37,MJ per USD,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T037,Costa Rica,NDC,2030,0.2,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T038,Costa Rica,NDC,2030,0.2,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T039,Costa Rica,NDC,2035,0.3,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T040,Costa Rica,NDC,2030,57000.0,t per year,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T041,Costa Rica,NDC,2035,77000.0,t per year,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T042,Costa Rica,NDC,2030,250.0,MW,3 of 3,not loaded,,,,not represented: the model has no distributed renewable capacity of this kind (Known-limitation candidate)
+CR-T043,Costa Rica,NDC,2035,300.0,MW,3 of 3,not loaded,,,,not represented: the model has no distributed renewable capacity of this kind (Known-limitation candidate)
+CR-T044,Costa Rica,NDC,2035,15.0,MW,3 of 3,not loaded,,,,not represented: the model has no storage technology (Known-limitation candidate)
+CR-T045,Costa Rica,NDC,2030,0.936,PJ per year,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T046,Costa Rica,NDC,2035,2.358,PJ per year,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T047,Costa Rica,NDC,2030,0.1,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T048,Costa Rica,NDC,2035,0.3,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T058,Costa Rica,NDC,2035,76938.0,kt CO2 eq per year,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T061,Costa Rica,NDC,2035,129.42,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T076,Costa Rica,LTS,2050,0.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T077,Costa Rica,LTS,2050,2640.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T078,Costa Rica,LTS,2050,390.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T079,Costa Rica,LTS,2050,1640.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T080,Costa Rica,LTS,2050,830.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T081,Costa Rica,LTS,2050,-5500.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T082,Costa Rica,LTS,2035,0.3,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T083,Costa Rica,LTS,2050,0.85,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T084,Costa Rica,LTS,2035,1.0,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNPASRAIELE v_2050,1.0,share of the class output,
+CR-T085,Costa Rica,LTS,2035,0.3,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNSEDELE v_2050,0.3,share of the class output,
+CR-T085,Costa Rica,LTS,2035,0.3,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNSUVELE v_2050,0.3,share of the class output,
+CR-T085,Costa Rica,LTS,2035,0.3,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNMOTELE v_2050,0.3,share of the class output,
+CR-T085,Costa Rica,LTS,2035,0.3,fraction,3 of 3,loaded,CostaRica/CR_ENERGY/t1_confection/B1_Scenario_Config.xlsx Tech_Adoption LTS TRNTAXELE v_2050,0.3,share of the class output,
+CR-T086,Costa Rica,LTS,2050,0.95,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T087,Costa Rica,LTS,2022,0.1,fraction,3 of 3,not loaded,,,,"not representable: BLEND_GSL takes 1.0 gasoline and 1.0 ethanol per unit, so no blend share can be set"
+CR-T088,Costa Rica,LTS,2030,0.2,fraction,3 of 3,not loaded,,,,"not loaded: an LTS value before 2035, where the NDC (which states no LPG share) rules"
+CR-T089,Costa Rica,LTS,2050,0.2,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T090,Costa Rica,LTS,2030,1.0,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv CostaRica LTS renewable_share share of generation 2036,1.0,fraction,
+CR-T091,Costa Rica,LTS,2050,0.5,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-T093,Costa Rica,LTS,2030,0.7,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P003,Costa Rica,NDC,2035,18946.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P004,Costa Rica,NDC,2035,13877.7,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P005,Costa Rica,NDC,2030,11308.1,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P006,Costa Rica,NDC,2035,10034.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P007,Costa Rica,NDC,2030,11380.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P008,Costa Rica,LTS,2050,29600.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P021,Costa Rica,LTS,2050,4540.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P022,Costa Rica,LTS,2050,680.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P023,Costa Rica,LTS,2050,2820.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P024,Costa Rica,LTS,2050,1420.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P025,Costa Rica,LTS,2050,-3500.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P026,Costa Rica,LTS,2050,5960.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P027,Costa Rica,LTS,2050,2640.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P028,Costa Rica,LTS,2050,390.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P029,Costa Rica,LTS,2050,1640.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P030,Costa Rica,LTS,2050,830.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P031,Costa Rica,LTS,2050,-5500.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+CR-P032,Costa Rica,LTS,2050,0.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T001,Dominican Republic,NDC,2030,0.28,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T002,Dominican Republic,NDC,2030,14732.1,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T003,Dominican Republic,NDC,2035,0.32,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T004,Dominican Republic,NDC,2035,18349.32,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T005,Dominican Republic,NDC,2030,0.085,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T006,Dominican Republic,NDC,2030,0.195,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T007,Dominican Republic,NDC,2030,37217.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T009,Dominican Republic,NDC,2030,7477.22,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T010,Dominican Republic,NDC,2030,7204.56,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T011,Dominican Republic,NDC,2030,1429.0,MW,3 of 3,not loaded,,,,not loaded: new gas capacity does not enter the renewable share rule; committed builds come from the model data
+DR-T012,Dominican Republic,NDC,2030,2764.73431,kt CO2 eq per year,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T013,Dominican Republic,NDC,2030,1529.0,MW,3 of 3,not loaded,,,,"not loaded: a value of a document that does not rule for that year, or not needed by the rules of step 2"
+DR-T014,Dominican Republic,NDC,2030,1267.15,MW,2 of 3,loaded,inputs/scenarios/scenario_values.csv DominicanRepublic NDC new_renewable_capacity solar 2030,1267.15,MW,
+DR-T014,Dominican Republic,NDC,2030,1267.15,MW,2 of 3,loaded,inputs/scenarios/scenario_values.csv DominicanRepublic LTS new_renewable_capacity solar 2030,1267.15,MW,
+DR-T015,Dominican Republic,NDC,2030,250.0,MW,2 of 3,loaded,inputs/scenarios/scenario_values.csv DominicanRepublic NDC new_renewable_capacity wind 2030,250,MW,
+DR-T015,Dominican Republic,NDC,2030,250.0,MW,2 of 3,loaded,inputs/scenarios/scenario_values.csv DominicanRepublic LTS new_renewable_capacity wind 2030,250,MW,
+DR-T016,Dominican Republic,NDC,2030,12.0,MW,3 of 3,loaded,inputs/scenarios/scenario_values.csv DominicanRepublic NDC new_renewable_capacity hydro 2030,12,MW,
+DR-T016,Dominican Republic,NDC,2030,12.0,MW,3 of 3,loaded,inputs/scenarios/scenario_values.csv DominicanRepublic LTS new_renewable_capacity hydro 2030,12,MW,
+DR-T017,Dominican Republic,NDC,2030,2179.63664,kt CO2 eq per year,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T018,Dominican Republic,NDC,2029,3.61944,PJ per year,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T019,Dominican Republic,NDC,2029,648.88516,kt CO2 eq per year,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T020,Dominican Republic,NDC,2035,300.0,MW,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T021,Dominican Republic,NDC,2035,1611.30564,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T022,Dominican Republic,NDC,2030,0.701417,PJ per year,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T023,Dominican Republic,NDC,2030,125.75,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T024,Dominican Republic,NDC,2030,145.91,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T028,Dominican Republic,NDC,2035,500000.0,litres per year,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T037,Dominican Republic,NDC,2030,0.0,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T038,Dominican Republic,NDC,2030,2010.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T040,Dominican Republic,NDC,2030,138.54623,kt CO2 eq per year,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T042,Dominican Republic,NDC,2030,150.65,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T065,Dominican Republic,LTS,2030,2.8,t CO2 per capita,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-P019,Dominican Republic,NDC,2025,42842.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-P020,Dominican Republic,NDC,2030,37217.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T001,Ecuador,NDC,2035,0.07,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T002,Ecuador,NDC,2035,8800.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T003,Ecuador,NDC,2035,0.08,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T004,Ecuador,NDC,2035,10600.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T005,Ecuador,NDC,2025,0.05,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T017,Ecuador,LTS,2070,0.7,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T018,Ecuador,LTS,2070,0.5,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T019,Ecuador,LTS,2070,36400.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T020,Ecuador,LTS,2035,39200.0,kt CO2 eq,2 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+ECU-T021,Ecuador,LTS,2050,35800.0,kt CO2 eq,2 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+ECU-T022,Ecuador,LTS,2070,33900.0,kt CO2 eq,3 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+ECU-T023,Ecuador,LTS,2070,0.49,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T025,Ecuador,LTS,2035,0.24,fraction,3 of 3,not loaded,,,,"not loaded: a value of a document that does not rule for that year, or not needed by the rules of step 2"
+ECU-T026,Ecuador,LTS,2035,0.64,fraction,3 of 3,not loaded,,,,"not loaded: a value of a document that does not rule for that year, or not needed by the rules of step 2"
+ECU-T027,Ecuador,LTS,2035,10000.0,MW,3 of 3,not loaded,,,,"not loaded: a long-term plan value for 2035, where the NDC plan values (ECU-T069, ECU-T070, 2032) rule"
+ECU-T028,Ecuador,LTS,2050,0.35,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv Ecuador LTS renewable_share share of generation 2050,0.89,fraction,
+ECU-T029,Ecuador,LTS,2050,3800.0,MW,3 of 3,not loaded,,,,"not loaded: the 2050 share of the same document (ECU-T028, ECU-T030) is loaded for that year"
+ECU-T030,Ecuador,LTS,2050,0.54,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv Ecuador LTS renewable_share share of generation 2050,0.89,fraction,
+ECU-T031,Ecuador,LTS,2070,0.37,fraction,3 of 3,not loaded,,,,"not loaded: a value of a document that does not rule for that year, or not needed by the rules of step 2"
+ECU-T033,Ecuador,LTS,2038,2038.0,year,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T034,Ecuador,LTS,2035,0.084,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T035,Ecuador,LTS,2050,0.66,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T036,Ecuador,LTS,2050,0.64,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T037,Ecuador,LTS,2050,0.06,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T038,Ecuador,LTS,2050,0.19,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T039,Ecuador,LTS,2035,0.028,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T040,Ecuador,LTS,2050,0.4,fraction,3 of 3,not loaded,,,,"not loaded: a mode share of public transport (passenger-km), not a fleet technology share; the Ecuador policy scenarios have no adoption rows"
+ECU-T041,Ecuador,LTS,2050,0.1336,fraction,3 of 3,not loaded,,,,not loaded: the Ecuador policy scenarios have no transport adoption rows in the model inputs (Known-limitation candidate)
+ECU-T042,Ecuador,LTS,2050,0.22,fraction,3 of 3,not loaded,,,,not loaded: the Ecuador policy scenarios have no transport adoption rows in the model inputs (Known-limitation candidate)
+ECU-T043,Ecuador,LTS,2070,0.11,fraction,3 of 3,not loaded,,,,"not loaded: a 2070 value, after the model horizon"
+ECU-T044,Ecuador,LTS,2035,16591.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T047,Ecuador,LTS,2035,-611.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T052,Ecuador,LTS,2035,3050.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T054,Ecuador,LTS,2035,100.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T056,Ecuador,LTS,2035,2347.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-T069,Ecuador,NDC,2032,4034.0,MW,3 of 3,loaded,inputs/scenarios/scenario_values.csv Ecuador NDC new_renewable_capacity hydro 2032,4034,MW,
+ECU-T069,Ecuador,NDC,2032,4034.0,MW,3 of 3,loaded,inputs/scenarios/scenario_values.csv Ecuador LTS new_renewable_capacity hydro 2032,4034,MW,
+ECU-T070,Ecuador,NDC,2032,1683.0,MW,3 of 3,loaded,inputs/scenarios/scenario_values.csv Ecuador NDC new_renewable_capacity nonhydro_renewable 2032,1683,MW,
+ECU-T070,Ecuador,NDC,2032,1683.0,MW,3 of 3,loaded,inputs/scenarios/scenario_values.csv Ecuador LTS new_renewable_capacity nonhydro_renewable 2032,1683,MW,
+ECU-T071,Ecuador,NDC,2032,587.0,MW,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P072,Ecuador,LTS,2070,36400.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P073,Ecuador,LTS,2018,19425.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P074,Ecuador,LTS,2035,20245.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P075,Ecuador,LTS,2050,18982.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P076,Ecuador,LTS,2070,14082.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P077,Ecuador,LTS,2018,20321.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P078,Ecuador,LTS,2035,19039.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P079,Ecuador,LTS,2050,16808.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P080,Ecuador,LTS,2070,19812.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P081,Ecuador,LTS,2018,40908.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P082,Ecuador,LTS,2035,31838.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P083,Ecuador,LTS,2050,21358.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P084,Ecuador,LTS,2070,17578.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P085,Ecuador,LTS,2018,9034.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P086,Ecuador,LTS,2035,9921.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P087,Ecuador,LTS,2050,9147.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P088,Ecuador,LTS,2070,6735.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P089,Ecuador,LTS,2018,5485.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P090,Ecuador,LTS,2035,7109.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P091,Ecuador,LTS,2050,8654.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P092,Ecuador,LTS,2070,12797.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P093,Ecuador,LTS,2018,2425.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P094,Ecuador,LTS,2035,3050.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P095,Ecuador,LTS,2050,4245.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P096,Ecuador,LTS,2070,5792.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P097,Ecuador,LTS,2018,2667.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P098,Ecuador,LTS,2035,2643.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P099,Ecuador,LTS,2050,3255.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P100,Ecuador,LTS,2070,4120.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P101,Ecuador,LTS,2018,-25998.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P102,Ecuador,LTS,2035,-32449.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P103,Ecuador,LTS,2050,-41905.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P104,Ecuador,LTS,2070,-44549.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P105,Ecuador,LTS,2018,38400.0,kt CO2 eq,3 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+ECU-P106,Ecuador,LTS,2035,39200.0,kt CO2 eq,3 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+ECU-P107,Ecuador,LTS,2050,35800.0,kt CO2 eq,3 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+ECU-P108,Ecuador,LTS,2070,33900.0,kt CO2 eq,3 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+ECU-P110,Ecuador,LTS,2018,14334.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P111,Ecuador,LTS,2035,16591.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P112,Ecuador,LTS,2050,17257.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P113,Ecuador,LTS,2070,19162.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P115,Ecuador,LTS,2018,14910.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P116,Ecuador,LTS,2035,-611.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P117,Ecuador,LTS,2050,-20547.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P118,Ecuador,LTS,2070,-26970.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P120,Ecuador,LTS,2018,2425.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P121,Ecuador,LTS,2035,3050.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P122,Ecuador,LTS,2050,4245.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P123,Ecuador,LTS,2070,5792.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P125,Ecuador,LTS,2018,2541.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P126,Ecuador,LTS,2035,2347.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P127,Ecuador,LTS,2050,2785.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+ECU-P128,Ecuador,LTS,2070,3650.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T001,Guatemala,NDC,2035,0.237,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T002,Guatemala,NDC,2035,57763.7,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T003,Guatemala,NDC,2035,17974.3,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T004,Guatemala,NDC,2035,89113.7,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T005,Guatemala,NDC,2035,1184.9,kt CO2 eq,3 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+GUA-T006,Guatemala,NDC,2035,27320.2,kt CO2 eq,3 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+GUA-T007,Guatemala,NDC,2035,7211.6,kt CO2 eq,3 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+GUA-T008,Guatemala,NDC,2035,0.8,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv Guatemala NDC renewable_share share of generation 2035,0.80,fraction,
+GUA-T008,Guatemala,NDC,2035,0.8,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv Guatemala LTS renewable_share share of generation 2035,0.80,fraction,
+GUA-T009,Guatemala,NDC,2035,1000.0,MW,3 of 3,not loaded,,,,not loaded: the share target of the same year (GUA-T008) rules
+GUA-T010,Guatemala,NDC,2035,696.7,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T012,Guatemala,NDC,2030,5.0,count,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T013,Guatemala,NDC,2035,47000.0,count,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T014,Guatemala,NDC,2035,0.1,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T015,Guatemala,NDC,2035,488.2,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T016,Guatemala,NDC,2035,10000.0,count,3 of 3,not loaded,,,,not loaded: a count of added vehicles; the model holds no vehicle count of the class for 2035 (Known-limitation candidate)
+GUA-T017,Guatemala,NDC,2035,20000.0,count,3 of 3,not loaded,,,,not loaded: a count of added vehicles; the model holds no vehicle count of the class for 2035 (Known-limitation candidate)
+GUA-T018,Guatemala,NDC,2027,45.0,km,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T019,Guatemala,NDC,2030,0.85,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T020,Guatemala,NDC,2030,2.0,count,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T021,Guatemala,NDC,2035,0.25,fraction,3 of 3,not loaded,,,,not loaded: a share of one bus system (Transmetro) whose fleet the model does not separate
+GUA-T022,Guatemala,NDC,2035,17.0,count,3 of 3,not loaded,,,,not loaded: a count of routes
+GUA-T023,Guatemala,NDC,2035,0.8,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T026,Guatemala,NDC,2035,894.4,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T030,Guatemala,NDC,2035,0.49,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T031,Guatemala,NDC,2035,15895.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T036,Guatemala,NDC,2035,22.0,count,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T056,Guatemala,LTS,2050,0.59,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T057,Guatemala,LTS,2030,0.44,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T058,Guatemala,LTS,2050,2454000.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T059,Guatemala,LTS,2050,374000.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T060,Guatemala,LTS,2032,0.64,fraction,3 of 3,not loaded,,,,"not loaded: a long-term document value before 2035, where the NDC rules"
+GUA-T061,Guatemala,LTS,2050,11000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T062,Guatemala,LTS,2050,80000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T063,Guatemala,LTS,2050,103000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T064,Guatemala,LTS,2050,753000.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T065,Guatemala,LTS,2050,1236000.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-T066,Guatemala,LTS,2050,186000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P002,Guatemala,NDC,2023,65176.6,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P004,Guatemala,NDC,2024,66087.8,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P006,Guatemala,NDC,2025,66868.8,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P008,Guatemala,NDC,2026,67709.6,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P010,Guatemala,NDC,2027,67262.6,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P012,Guatemala,NDC,2028,66021.7,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P014,Guatemala,NDC,2029,65173.6,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P016,Guatemala,NDC,2030,63975.1,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P018,Guatemala,NDC,2031,62592.2,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P020,Guatemala,NDC,2032,61475.4,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P022,Guatemala,NDC,2033,60135.2,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P024,Guatemala,NDC,2034,58860.2,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P026,Guatemala,NDC,2035,57763.7,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P028,Guatemala,NDC,2035,27320.2,kt CO2 eq,3 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+GUA-P030,Guatemala,NDC,2035,3509.9,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P032,Guatemala,NDC,2035,7762.1,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P034,Guatemala,NDC,2035,16303.1,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P036,Guatemala,NDC,2035,2868.5,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P045,Guatemala,LTS,2030,125000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P046,Guatemala,LTS,2030,109000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P048,Guatemala,LTS,2050,181000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P050,Guatemala,LTS,2050,83000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P051,Guatemala,LTS,2015,3600.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P052,Guatemala,LTS,2050,12000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P053,Guatemala,LTS,2015,4000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P054,Guatemala,LTS,2050,9000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P055,Guatemala,LTS,2015,9500.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P056,Guatemala,LTS,2050,15000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P057,Guatemala,LTS,2015,4700.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P058,Guatemala,LTS,2030,9500.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P059,Guatemala,LTS,2050,16700.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P060,Guatemala,LTS,2015,10000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P061,Guatemala,LTS,2030,12000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P062,Guatemala,LTS,2050,15000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P063,Guatemala,LTS,2015,71000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P064,Guatemala,LTS,2030,98000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P065,Guatemala,LTS,2050,146000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+GUA-P066,Guatemala,LTS,2015,2000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T001,Honduras,NDC,2035,12847.2,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T002,Honduras,NDC,2035,0.196,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T003,Honduras,NDC,2030,8564.8,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T004,Honduras,NDC,2030,0.17,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T005,Honduras,NDC,2030,41816.4,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T006,Honduras,NDC,2035,52769.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T007,Honduras,NDC,2035,7268.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T008,Honduras,NDC,2030,2519.1,kt CO2 eq,2 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+HON-T009,Honduras,NDC,2035,3778.6,kt CO2 eq,2 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+HON-T010,Honduras,NDC,2030,4534.3,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T011,Honduras,NDC,2035,6801.5,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T012,Honduras,NDC,2030,503.8,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T013,Honduras,NDC,2035,755.7,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T014,Honduras,NDC,2030,503.8,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T015,Honduras,NDC,2035,755.7,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T016,Honduras,NDC,2030,503.8,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T017,Honduras,NDC,2035,755.7,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T018,Honduras,NDC,2030,0.7,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv Honduras NDC renewable_share share of generation 2030,0.70,fraction,
+HON-T018,Honduras,NDC,2030,0.7,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv Honduras LTS renewable_share share of generation 2030,0.70,fraction,
+HON-T019,Honduras,NDC,2035,0.7,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv Honduras NDC renewable_share share of generation 2035,0.70,fraction,
+HON-T019,Honduras,NDC,2035,0.7,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv Honduras LTS renewable_share share of generation 2035,0.70,fraction,
+HON-T020,Honduras,NDC,2030,12.24,MJ per USD,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T021,Honduras,NDC,2035,14.4,MJ per USD,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T022,Honduras,NDC,2030,0.03,fraction (points),3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T023,Honduras,NDC,2035,0.05,fraction (points),3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T024,Honduras,NDC,2030,0.05,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T025,Honduras,NDC,2030,0.39,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRAUTELE v_2030,0.03,share of the class output,
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRTAXELE v_2030,0.03,share of the class output,
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRMOTELE v_2030,0.03,share of the class output,
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRSUVELE v_2030,0.03,share of the class output,
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRBPUELE v_2030,0.03,share of the class output,
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRBTURELE v_2030,0.03,share of the class output,
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRMBSELE v_2030,0.03,share of the class output,
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRYTKELE v_2030,0.03,share of the class output,
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRYLFELE v_2030,0.03,share of the class output,
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRAUTELE v_2030,0.03,share of the class output,
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRTAXELE v_2030,0.03,share of the class output,
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRMOTELE v_2030,0.03,share of the class output,
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRSUVELE v_2030,0.03,share of the class output,
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRBPUELE v_2030,0.03,share of the class output,
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRBTURELE v_2030,0.03,share of the class output,
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRMBSELE v_2030,0.03,share of the class output,
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRYTKELE v_2030,0.03,share of the class output,
+HON-T026,Honduras,NDC,2030,0.03,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRYLFELE v_2030,0.03,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRAUTELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRAUTELE v_2050,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRTAXELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRTAXELE v_2050,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRMOTELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRMOTELE v_2050,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRSUVELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRSUVELE v_2050,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRBPUELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRBPUELE v_2050,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRBTURELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRBTURELE v_2050,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRMBSELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRMBSELE v_2050,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRYTKELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRYTKELE v_2050,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRYLFELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRYLFELE v_2050,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRAUTELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRAUTELE v_2050,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRTAXELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRTAXELE v_2050,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRMOTELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRMOTELE v_2050,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRSUVELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRSUVELE v_2050,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRBPUELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRBPUELE v_2050,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRBTURELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRBTURELE v_2050,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRMBSELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRMBSELE v_2050,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRYTKELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRYTKELE v_2050,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRYLFELE v_2040,0.075,share of the class output,
+HON-T027,Honduras,NDC,2035,0.075,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRYLFELE v_2050,0.075,share of the class output,
+HON-T028,Honduras,NDC,2035,0.2,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRAUTHG v_2040,0.2,share of the class output,
+HON-T028,Honduras,NDC,2035,0.2,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRAUTHG v_2050,0.2,share of the class output,
+HON-T028,Honduras,NDC,2035,0.2,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRAUTHG Restriction_Type,Min/Max,share of the class output,
+HON-T028,Honduras,NDC,2035,0.2,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRAUTHG v_2040,0.2,share of the class output,
+HON-T028,Honduras,NDC,2035,0.2,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRAUTHG v_2050,0.2,share of the class output,
+HON-T028,Honduras,NDC,2035,0.2,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRAUTHG Restriction_Type,Min/Max,share of the class output,
+HON-T029,Honduras,NDC,2035,0.15,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRYTKHD v_2040,0.15,share of the class output,
+HON-T029,Honduras,NDC,2035,0.15,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRYTKHD v_2050,0.15,share of the class output,
+HON-T029,Honduras,NDC,2035,0.15,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRYTKHD Restriction_Type,Min/Max,share of the class output,
+HON-T029,Honduras,NDC,2035,0.15,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRYLFHD v_2040,0.15,share of the class output,
+HON-T029,Honduras,NDC,2035,0.15,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRYLFHD v_2050,0.15,share of the class output,
+HON-T029,Honduras,NDC,2035,0.15,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption NDC TRYLFHD Restriction_Type,Min/Max,share of the class output,
+HON-T029,Honduras,NDC,2035,0.15,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRYTKHD v_2040,0.15,share of the class output,
+HON-T029,Honduras,NDC,2035,0.15,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRYTKHD v_2050,0.15,share of the class output,
+HON-T029,Honduras,NDC,2035,0.15,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRYTKHD Restriction_Type,Min/Max,share of the class output,
+HON-T029,Honduras,NDC,2035,0.15,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRYLFHD v_2040,0.15,share of the class output,
+HON-T029,Honduras,NDC,2035,0.15,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRYLFHD v_2050,0.15,share of the class output,
+HON-T029,Honduras,NDC,2035,0.15,fraction,3 of 3,loaded,Honduras/HON_ENERGY/B1_Scenario_Config.xlsx Tech_Adoption LTS TRYLFHD Restriction_Type,Min/Max,share of the class output,
+HON-T036,Honduras,NDC,2035,2100.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T038,Honduras,NDC,2035,3300.0,count,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T040,Honduras,NDC,2035,80.0,count,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T043,Honduras,NDC,2030,0.01,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T044,Honduras,NDC,2035,0.7,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T045,Honduras,NDC,2035,8000000.0,t,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T046,Honduras,NDC,2030,0.05,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T047,Honduras,NDC,2035,0.1,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T055,Honduras,NDC,2022,10880.0,kt CO2 eq,2 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+HON-T056,Honduras,NDC,2022,21795.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T089,Honduras,NDC,2030,0.76,fraction,3 of 3,not loaded,,,,"not loaded: the NDC value of the same year (HON-T018, 0.70) wins"
+HON-T090,Honduras,NDC,2035,0.71,fraction,3 of 3,not loaded,,,,"not loaded: the NDC value of the same year (HON-T019, 0.70) wins"
+HON-T091,Honduras,NDC,2035,1796.24,MW,3 of 3,not loaded,,,,not loaded: the NDC share of the same year (HON-T019) rules
+HON-T092,Honduras,NDC,2035,1285.0,MW,3 of 3,not loaded,,,,not loaded: thermal capacity does not enter the renewable share rule
+HON-T093,Honduras,NDC,2035,215.0,MW,3 of 3,not loaded,,,,not represented: storage (Known-limitation candidate)
+HON-T094,Honduras,NDC,2035,1342.62,MW,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T095,Honduras,NDC,2029,250.0,MW,3 of 3,not loaded,,,,not loaded: thermal capacity does not enter the renewable share rule
+HON-T096,Honduras,NDC,2029,105.0,MW,3 of 3,not loaded,,,,not loaded: thermal capacity does not enter the renewable share rule
+HON-T097,Honduras,NDC,2030,0.49,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T098,Honduras,NDC,2035,0.33,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-T099,Honduras,NDC,2030,0.2,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-P121,Honduras,NDC,2030,41816.4,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+HON-P122,Honduras,NDC,2035,52769.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+,Honduras,LTS,,,,,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T001,Jamaica,NDC,2030,0.163,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T002,Jamaica,NDC,2030,0.1955,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T003,Jamaica,NDC,2035,0.169,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T004,Jamaica,NDC,2035,0.259,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T005,Jamaica,NDC,2030,0.263,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T006,Jamaica,NDC,2030,0.262,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T007,Jamaica,NDC,2035,0.271,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T008,Jamaica,NDC,2035,0.338,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T009,Jamaica,NDC,2030,0.196,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T010,Jamaica,NDC,2030,0.227,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T011,Jamaica,NDC,2035,0.283,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T012,Jamaica,NDC,2035,0.36,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T013,Jamaica,NDC,2030,0.306,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T014,Jamaica,NDC,2030,0.305,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T015,Jamaica,NDC,2035,0.417,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T016,Jamaica,NDC,2035,0.471,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T017,Jamaica,NDC,2030,5800.0,kt CO2 eq,2 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+JAM-T018,Jamaica,NDC,2035,5700.0,kt CO2 eq,3 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+JAM-T019,Jamaica,NDC,2030,5500.0,kt CO2 eq,3 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+JAM-T020,Jamaica,NDC,2035,4900.0,kt CO2 eq,2 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+JAM-T021,Jamaica,NDC,2030,6200.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T022,Jamaica,NDC,2035,6100.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T023,Jamaica,NDC,2030,5900.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T024,Jamaica,NDC,2035,5300.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T025,Jamaica,NDC,2030,4200.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T026,Jamaica,NDC,2035,4000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T027,Jamaica,NDC,2035,3300.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T028,Jamaica,NDC,2030,0.5,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv Jamaica NDC renewable_share share of generation 2030,0.50,fraction,
+JAM-T028,Jamaica,NDC,2030,0.5,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv Jamaica LTS renewable_share share of generation 2030,0.50,fraction,
+JAM-T029,Jamaica,NDC,2035,0.63,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv Jamaica NDC renewable_share share of generation 2035,0.63,fraction,
+JAM-T029,Jamaica,NDC,2035,0.63,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv Jamaica LTS renewable_share share of generation 2035,0.63,fraction,
+JAM-T030,Jamaica,NDC,2030,0.177,fraction,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T031,Jamaica,NDC,2035,0.1645,fraction,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T032,Jamaica,NDC,2035,0.11,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T033,Jamaica,NDC,2035,40.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T044,Jamaica,NDC,2036,0.3,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T045,Jamaica,LTS,2050,0.73,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T046,Jamaica,LTS,2060,0.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T047,Jamaica,LTS,2025,0.27,fraction,3 of 3,not loaded,,,,"not loaded: a long-term document value before 2035, where the NDC rules"
+JAM-T048,Jamaica,LTS,2030,0.5,fraction,3 of 3,not loaded,,,,"not loaded: a long-term document value before 2035, where the NDC rules (same value as JAM-T028)"
+JAM-T049,Jamaica,LTS,2035,0.65,fraction,3 of 3,not loaded,,,,"not loaded: a long-term document value before 2035, where the NDC rules"
+JAM-T050,Jamaica,LTS,2040,0.9,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv Jamaica LTS renewable_share share of generation 2040,0.90,fraction,
+JAM-T051,Jamaica,LTS,2045,0.95,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv Jamaica LTS renewable_share share of generation 2045,0.95,fraction,
+JAM-T052,Jamaica,LTS,2050,1.0,fraction,3 of 3,loaded,inputs/scenarios/scenario_values.csv Jamaica LTS renewable_share share of generation 2050,1.0,fraction,
+JAM-T053,Jamaica,LTS,2025,0.25,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T054,Jamaica,LTS,2030,0.21,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T055,Jamaica,LTS,2035,0.17,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T056,Jamaica,LTS,2040,0.14,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T057,Jamaica,LTS,2045,0.11,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T060,Jamaica,LTS,2035,0.0,MW,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T061,Jamaica,LTS,2040,0.0,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T062,Jamaica,LTS,2050,2000.0,MW,3 of 3,not loaded,,,,not loaded: the long-term document states the share of the same years (JAM-T050 to T052)
+JAM-T063,Jamaica,LTS,2050,0.98,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T064,Jamaica,LTS,2025,0.08,fraction,3 of 3,not loaded,,,,"not loaded: an LTS value before 2035, where the NDC rules; the JAM_TRANSPORT adoption rows of the LTS scenario are unchanged"
+JAM-T065,Jamaica,LTS,2025,0.1,fraction,3 of 3,not loaded,,,,"not loaded: an LTS value before 2035, where the NDC rules; the JAM_TRANSPORT adoption rows of the LTS scenario are unchanged"
+JAM-T066,Jamaica,LTS,2030,0.12,fraction,3 of 3,not loaded,,,,"not loaded: an LTS value before 2035, where the NDC rules; the JAM_TRANSPORT adoption rows of the LTS scenario are unchanged"
+JAM-T067,Jamaica,LTS,2030,0.16,fraction,3 of 3,not loaded,,,,"not loaded: an LTS value before 2035, where the NDC rules; the JAM_TRANSPORT adoption rows of the LTS scenario are unchanged"
+JAM-T068,Jamaica,LTS,2030,0.15,fraction,3 of 3,not loaded,,,,"not loaded: a fuel efficiency change, not a fleet share"
+JAM-T069,Jamaica,LTS,2040,2000.0,count,3 of 3,not loaded,,,,not loaded: a count of electric buses; the JAM_TRANSPORT model holds no bus count for 2040 (Known-limitation candidate)
+JAM-T070,Jamaica,LTS,2050,0.67,fraction,3 of 3,not loaded,,,,present in the JAM_TRANSPORT LTS adoption rows (0.67 in 2050) before this job; unchanged
+JAM-T071,Jamaica,LTS,2050,0.4,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T072,Jamaica,LTS,2050,790.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T073,Jamaica,LTS,2030,0.35,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T074,Jamaica,LTS,2030,0.2,fraction,3 of 3,not loaded,,,,"not loaded: a share of alternative fuels across modes, not representable as one fleet share"
+JAM-T077,Jamaica,LTS,2030,0.6,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T078,Jamaica,LTS,2050,0.85,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T079,Jamaica,LTS,2030,1.0,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T080,Jamaica,LTS,2030,1.0,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T081,Jamaica,LTS,2030,1.0,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T082,Jamaica,LTS,2035,1.0,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T083,Jamaica,LTS,2050,0.1,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T084,Jamaica,LTS,2035,0.5,fraction,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T085,Jamaica,LTS,2050,0.5,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T087,Jamaica,LTS,2025,0.82,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T088,Jamaica,LTS,2030,0.7,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T089,Jamaica,LTS,2030,0.25,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T090,Jamaica,LTS,2040,0.83,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T091,Jamaica,LTS,2050,0.15,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T092,Jamaica,LTS,2050,0.6,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T093,Jamaica,LTS,2030,0.05,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T094,Jamaica,LTS,2030,0.3,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T095,Jamaica,LTS,2050,0.03,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T096,Jamaica,LTS,2050,4000.0,ha,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T097,Jamaica,LTS,2050,150.0,ha per year,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T098,Jamaica,LTS,2030,0.14,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T099,Jamaica,LTS,2030,0.2,fraction,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T100,Jamaica,LTS,2050,27.0,kt CO2 eq per year,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T115,Jamaica,NDC,2030,0.5,fraction,3 of 3,not loaded,,,,not loaded: the NDC value of the same year (JAM-T028) is loaded
+JAM-T116,Jamaica,NDC,2035,0.634,fraction,2 of 3,not loaded,,,,not loaded: the NDC value of the same year (JAM-T029) is loaded
+JAM-T117,Jamaica,NDC,2041,344.0,MW,3 of 3,loaded,inputs/scenarios/scenario_values.csv Jamaica NDC new_renewable_capacity wind 2041,344,MW,
+JAM-T118,Jamaica,NDC,2041,1143.0,MW,3 of 3,loaded,inputs/scenarios/scenario_values.csv Jamaica NDC new_renewable_capacity solar 2041,1143,MW,
+JAM-T119,Jamaica,NDC,2033,34.3,MW,3 of 3,loaded,inputs/scenarios/scenario_values.csv Jamaica NDC new_renewable_capacity hydro 2041,34.3,MW,
+JAM-T120,Jamaica,NDC,2041,493.0,MW,3 of 3,not loaded,,,,not represented: battery storage (Known-limitation candidate)
+JAM-T123,Jamaica,NDC,2041,0.0,MW,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T124,Jamaica,NDC,2030,1290.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T125,Jamaica,NDC,2030,22.9425,PJ per year,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T126,Jamaica,NDC,2030,954.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-T127,Jamaica,NDC,2030,0.03,fraction,3 of 3,not loaded,,,,"not loaded: a share of electricity demand, not a fleet share"
+JAM-P004,Jamaica,NDC,2030,5800.0,kt CO2 eq,2 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+JAM-P005,Jamaica,NDC,2035,5700.0,kt CO2 eq,3 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+JAM-P006,Jamaica,NDC,2030,5500.0,kt CO2 eq,3 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+JAM-P007,Jamaica,NDC,2035,4900.0,kt CO2 eq,2 of 3,not loaded,,,,"not imposed: an emission level, reported against the model after the solve (emission_targets_check.csv)"
+JAM-P008,Jamaica,NDC,2030,6200.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-P009,Jamaica,NDC,2035,6100.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-P010,Jamaica,NDC,2030,5900.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-P011,Jamaica,NDC,2035,5300.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-P012,Jamaica,NDC,2030,4200.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-P013,Jamaica,NDC,2035,4000.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-P014,Jamaica,NDC,2035,3300.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-P027,Jamaica,LTS,2020,7250.0,kt CO2 eq,3 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+JAM-P029,Jamaica,LTS,2050,790.0,kt CO2 eq,2 of 3,not loaded,,,,"not a model quantity of the energy models (economy-wide, another sector, or a qualitative or count measure)"
+DR-T025,Dominican Republic,NDC,2030,,,conflict,not loaded,,,,not loaded: conflict between readings (held back)
+DR-T026,Dominican Republic,NDC,2035,,,conflict,not loaded,,,,not loaded: conflict between readings (held back)
+DR-T027,Dominican Republic,NDC,2030,,,conflict,not loaded,,,,not loaded: conflict between readings (held back)
+ECU-T032,Ecuador,LTS,2070,,,3 of 3,not loaded,,,,not loaded: conflict between readings (held back)
+GUA-T011,Guatemala,NDC,2035,,,3 of 3,not loaded,,,,not loaded: conflict between readings (held back)
+GUA-T077,Guatemala,none (document is neither the NDC in force nor the long-term strategy),2032,,,conflict,not loaded,,,,not loaded: conflict between readings (held back)
+GUA-P049,Guatemala,LTS,2050,,,conflict,not loaded,,,,not loaded: conflict between readings (held back)
+HON-T030,Honduras,NDC,2030,,,2 of 3,not loaded,,,,not loaded: conflict between readings (held back)
+HON-T083,Honduras,none (document is neither the NDC in force nor the long-term strategy),2030,,,conflict,not loaded,,,,not loaded: conflict between readings (held back)
+JAM-T043,Jamaica,NDC,,,,2 of 3,not loaded,,,,not loaded: conflict between readings (held back)
+JAM-T058,Jamaica,LTS,2050,,,conflict,not loaded,,,,not loaded: conflict between readings (held back)
+JAM-T059,Jamaica,LTS,2050,,,conflict,not loaded,,,,not loaded: conflict between readings (held back)
+JAM-T075,Jamaica,LTS,2026,,,conflict,not loaded,,,,not loaded: conflict between readings (held back)
+JAM-T102,Jamaica,LTS,,,,3 of 3,not loaded,,,,not loaded: conflict between readings (held back)
+JAM-T121,Jamaica,NDC,2027,,,conflict,not loaded,,,,not loaded: conflict between readings (held back)
+JAM-T122,Jamaica,NDC,2033,,,conflict,not loaded,,,,not loaded: conflict between readings (held back)
+JAM-P028,Jamaica,LTS,2020,,,conflict,not loaded,,,,not loaded: conflict between readings (held back)

@@ -1,0 +1,3 @@
+value_id,country,source_id,page,value_scout,value_verify,value_third_reading,unit,agrees,third_reading_text,local_copy
+DR-T014,Dominican Republic,DR-01,p.149,1267.15,1267.15,1267.15,MW,yes,"Construccion de 30 parques solares proyectando una capacidad de 1,267.15 MWn y de ellos 170 MW en sistemas de almacenamiento",DR/DR_NDC3_2026.pdf (NDC scout downloads)
+DR-T015,Dominican Republic,DR-01,p.149,250,250,250,MW,yes,"Construccion de 5 (cinco) parques eolicos de 250 MWn",DR/DR_NDC3_2026.pdf (NDC scout downloads)

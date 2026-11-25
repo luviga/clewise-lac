@@ -1,0 +1,27 @@
+country,scenario,year,value,basis,value_ids,derivation
+CostaRica,NDC,2027,0.95,published share,CR-T032,0.95 as published (CR-01)
+CostaRica,NDC,2035,0.95,published share,CR-T033,0.95 as published (CR-01)
+CostaRica,LTS,2027,0.95,published share,CR-T032,0.95 as published (CR-01)
+CostaRica,LTS,2035,0.95,published share,CR-T033,0.95 as published (CR-01)
+CostaRica,LTS,2036,1.0,published share,CR-T090,1.0 as published (CR-02)
+DominicanRepublic,NDC,2030,0.230946,capacity rule,DR-T014|DR-T015|DR-T016,(16.7190 PJ renewable generation 2024 + 1267.15 MW solar x CF 0.1762 = 7.0411 PJ + 250 MW wind x CF 0.3090 = 2.4362 PJ + 12 MW hydro x CF 0.2134 = 0.0808 PJ) / 113.7798 PJ total generation 2030
+DominicanRepublic,LTS,2030,0.230946,capacity rule,DR-T014|DR-T015|DR-T016,(16.7190 PJ renewable generation 2024 + 1267.15 MW solar x CF 0.1762 = 7.0411 PJ + 250 MW wind x CF 0.3090 = 2.4362 PJ + 12 MW hydro x CF 0.2134 = 0.0808 PJ) / 113.7798 PJ total generation 2030
+DominicanRepublic,LTS,2035,0.230946,NDC value held,,NDC curve value of 2035
+Ecuador,NDC,2032,1.0,capacity rule,ECU-T069|ECU-T070,"(97.0319 PJ renewable generation 2024 + 4034 MW hydro x CF 0.5529 = 70.3387 PJ + 1683 MW nonhydro_renewable x CF 0.5788 = 30.7185 PJ) / 147.0691 PJ total generation 2032 = 1.3469, capped at 1.0"
+Ecuador,LTS,2032,1.0,capacity rule,ECU-T069|ECU-T070,"(97.0319 PJ renewable generation 2024 + 4034 MW hydro x CF 0.5529 = 70.3387 PJ + 1683 MW nonhydro_renewable x CF 0.5788 = 30.7185 PJ) / 147.0691 PJ total generation 2032 = 1.3469, capped at 1.0"
+Ecuador,LTS,2035,1.0,NDC value held,,NDC curve value of 2035
+Ecuador,LTS,2050,0.89,published share,ECU-T028|ECU-T030,0.89 as published (ECU-03)
+Guatemala,NDC,2035,0.8,published share,GUA-T008,0.80 as published (GUA-01)
+Guatemala,LTS,2035,0.8,published share,GUA-T008,0.80 as published (GUA-01)
+Honduras,NDC,2030,0.7,published share,HON-T018,0.70 as published (HON-01)
+Honduras,NDC,2035,0.7,published share,HON-T019,0.70 as published (HON-01)
+Honduras,LTS,2030,0.7,published share,HON-T018,0.70 as published (HON-01)
+Honduras,LTS,2035,0.7,published share,HON-T019,0.70 as published (HON-01)
+Jamaica,NDC,2030,0.5,published share,JAM-T028,0.50 as published (JAM-01)
+Jamaica,NDC,2035,0.63,published share,JAM-T029,0.63 as published (JAM-01)
+Jamaica,NDC,2041,0.775008,capacity rule,JAM-T117|JAM-T118|JAM-T119,(1.9744 PJ renewable generation 2024 + 344 MW wind x CF 0.3042 = 3.3001 PJ + 1143 MW solar x CF 0.3042 = 10.9651 PJ + 34.3 MW hydro x CF 0.4686 = 0.5069 PJ) / 21.6080 PJ total generation 2041
+Jamaica,LTS,2030,0.5,published share,JAM-T028,0.50 as published (JAM-01)
+Jamaica,LTS,2035,0.63,published share,JAM-T029,0.63 as published (JAM-01)
+Jamaica,LTS,2040,0.9,published share,JAM-T050,0.90 as published (JAM-02)
+Jamaica,LTS,2045,0.95,published share,JAM-T051,0.95 as published (JAM-02)
+Jamaica,LTS,2050,1.0,published share,JAM-T052,1.0 as published (JAM-02)

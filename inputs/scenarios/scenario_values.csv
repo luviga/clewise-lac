@@ -1,13 +1,35 @@
-country,scenario,lever,lever_kind,year,value,unit
-all,NDC,renewable_share,share of generation,2035,0.75,fraction
-all,NDC,renewable_share,share of generation,2050,0.75,fraction
-all,LTS,renewable_share,share of generation,2035,0.75,fraction
-all,LTS,renewable_share,share of generation,2050,0.99,fraction
-CostaRica,NDC,renewable_share,share of generation,2035,0.90,fraction
-CostaRica,NDC,renewable_share,share of generation,2050,0.90,fraction
-CostaRica,LTS,renewable_share,share of generation,2035,0.99,fraction
-CostaRica,LTS,renewable_share,share of generation,2050,0.99,fraction
-Ecuador,NDC,renewable_share,share of generation,2035,0.80,fraction
-Ecuador,NDC,renewable_share,share of generation,2050,0.80,fraction
-Ecuador,LTS,renewable_share,share of generation,2035,0.80,fraction
-Ecuador,LTS,renewable_share,share of generation,2050,0.99,fraction
+country,scenario,lever,lever_kind,year,value,unit,source_id,value_id,note
+CostaRica,NDC,renewable_share,share of generation,2027,0.95,fraction,CR-01,CR-T032,NDC 3.0 p.46: 95 percent of national generation from renewable sources by 2027 (conditional); held to 2035
+CostaRica,NDC,renewable_share,share of generation,2035,0.95,fraction,CR-01,CR-T033,NDC 3.0 p.46: 95 percent of national generation from renewable sources in 2035 (conditional); held after 2035
+CostaRica,LTS,renewable_share,share of generation,2027,0.95,fraction,CR-01,CR-T032,LTS equals NDC through 2035 (NDC 3.0 p.46)
+CostaRica,LTS,renewable_share,share of generation,2035,0.95,fraction,CR-01,CR-T033,LTS equals NDC through 2035 (NDC 3.0 p.46)
+CostaRica,LTS,renewable_share,share of generation,2036,1.0,fraction,CR-02,CR-T090,National Decarbonization Plan 2018-2050 p.52: the electricity matrix operates on renewable energy from 2030; the level holds through 2050 and rules after 2035
+DominicanRepublic,NDC,new_renewable_capacity,solar,2030,1267.15,MW,DR-01,DR-T014,NDC 3.0 p.149: 30 new solar parks of 1267.15 MW (170 MW of them with storage) by 2030; turned into a share by the capacity rule
+DominicanRepublic,NDC,new_renewable_capacity,wind,2030,250,MW,DR-01,DR-T015,NDC 3.0 p.149: 5 new wind parks of 250 MW by 2030; capacity rule
+DominicanRepublic,NDC,new_renewable_capacity,hydro,2030,12,MW,DR-01,DR-T016,NDC 3.0 p.149: one new hydro plant of 12 MW by 2030; capacity rule
+DominicanRepublic,LTS,new_renewable_capacity,solar,2030,1267.15,MW,DR-01,DR-T014,LTS equals NDC through 2035 (NDC 3.0 p.149)
+DominicanRepublic,LTS,new_renewable_capacity,wind,2030,250,MW,DR-01,DR-T015,LTS equals NDC through 2035 (NDC 3.0 p.149)
+DominicanRepublic,LTS,new_renewable_capacity,hydro,2030,12,MW,DR-01,DR-T016,LTS equals NDC through 2035 (NDC 3.0 p.149)
+DominicanRepublic,LTS,energy_emission_reduction_vs_bau,energy emissions against BAU,2050,0.56,fraction,,,"ASSUMPTION: energy emissions in 2050 are 56 percent below the model BAU energy emissions of 2050 (r = 0.56), on a straight line from the solved NDC energy emissions of 2035. The NDC 3.0 of June 2026 gives no 2050 value (2050 appears only on p.23, p.110 and p.160, none a national emission level). Range of r: 0.47 to 0.67."
+Ecuador,NDC,new_renewable_capacity,hydro,2032,4034,MW,ECU-07,ECU-T069,Plan Maestro de Electricidad 2023-2032 p.159 (plan cited by the NDC p.14 and p.102): 4034 MW of new hydro by 2032; capacity rule
+Ecuador,NDC,new_renewable_capacity,nonhydro_renewable,2032,1683,MW,ECU-07,ECU-T070,Plan Maestro de Electricidad 2023-2032 p.159: 1683 MW of new non-conventional renewables (hydro excluded) by 2032; capacity rule
+Ecuador,LTS,new_renewable_capacity,hydro,2032,4034,MW,ECU-07,ECU-T069,LTS equals NDC through 2035 (Plan Maestro de Electricidad p.159)
+Ecuador,LTS,new_renewable_capacity,nonhydro_renewable,2032,1683,MW,ECU-07,ECU-T070,LTS equals NDC through 2035 (Plan Maestro de Electricidad p.159)
+Ecuador,LTS,renewable_share,share of generation,2050,0.89,fraction,ECU-03,ECU-T028|ECU-T030,PLANMICC p.104 phase II: non-conventional renewable share 0.35 plus hydro share 0.54 of SNI generation in 2050 (sum of two published shares of the same denominator)
+Guatemala,NDC,renewable_share,share of generation,2035,0.80,fraction,GUA-01,GUA-T008,NDC 3.0 p.40 p.41 p.102: 80 percent of electricity generated from renewable sources in 2035; held after 2035
+Guatemala,LTS,renewable_share,share of generation,2035,0.80,fraction,GUA-01,GUA-T008,LTS equals NDC through 2035; the long-term document (GUA-04 p.24: 64 percent by 2032) states no value after 2035 and its earlier milestone does not lower the NDC level
+Honduras,NDC,renewable_share,share of generation,2030,0.70,fraction,HON-01,HON-T018,NDC 3.0 p.26: 70 percent renewable generation in 2030 (conditional); the NDC value wins over the expansion plan value 0.76 (HON-T089)
+Honduras,NDC,renewable_share,share of generation,2035,0.70,fraction,HON-01,HON-T019,NDC 3.0 p.26: 70 percent renewable generation in 2035 (conditional); the NDC value wins over the expansion plan value 0.71 (HON-T090); held after 2035
+Honduras,LTS,renewable_share,share of generation,2030,0.70,fraction,HON-01,HON-T018,LTS equals NDC through 2035 (NDC 3.0 p.26)
+Honduras,LTS,renewable_share,share of generation,2035,0.70,fraction,HON-01,HON-T019,LTS equals NDC through 2035 (NDC 3.0 p.26)
+Honduras,LTS,energy_emission_reduction_vs_bau,energy emissions against BAU,2050,0.37,fraction,,,"ASSUMPTION: energy emissions in 2050 are 37 percent below the model BAU energy emissions of 2050 (r = 0.37), on a straight line from the solved NDC energy emissions of 2035. r = 0.37 is the highest value in 0.005 steps that the model reaches while electric vehicles stay within the fleet shares of the published transport targets (HON-T026 to HON-T029); the middle of the range, 0.47, is not reachable. The NDC 3.0 submitted on 21 January 2026 gives no 2050 value (p.14: after 2035 the long-term strategy is guidance towards 2050 and is being consolidated); range of r: 0.37 to 0.67."
+Jamaica,NDC,renewable_share,share of generation,2030,0.50,fraction,JAM-01,JAM-T028,NDC 3.0 p.14: 50 percent of net generation from renewable sources in 2030
+Jamaica,NDC,renewable_share,share of generation,2035,0.63,fraction,JAM-01,JAM-T029,NDC 3.0 p.14: 63 percent of net generation from renewable sources in 2035
+Jamaica,NDC,new_renewable_capacity,wind,2041,344,MW,JAM-07,JAM-T117,Integrated Resource Plan 2022 p.15 p.62 p.89 (plan cited by the NDC p.5): 344 MW of new wind 2022-2041; capacity rule after the last NDC year
+Jamaica,NDC,new_renewable_capacity,solar,2041,1143,MW,JAM-07,JAM-T118,Integrated Resource Plan 2022 p.15 p.62 p.89: 1143 MW of new solar PV 2022-2041; capacity rule
+Jamaica,NDC,new_renewable_capacity,hydro,2041,34.3,MW,JAM-07,JAM-T119,Integrated Resource Plan 2022 p.15 p.62: 34.3 MW of new hydro (12 small plants) built 2027-2033 and in service in 2041; capacity rule
+Jamaica,LTS,renewable_share,share of generation,2030,0.50,fraction,JAM-01,JAM-T028,LTS equals NDC through 2035 (NDC 3.0 p.14)
+Jamaica,LTS,renewable_share,share of generation,2035,0.63,fraction,JAM-01,JAM-T029,LTS equals NDC through 2035 (NDC 3.0 p.14)
+Jamaica,LTS,renewable_share,share of generation,2040,0.90,fraction,JAM-02,JAM-T050,Long-term strategy p.15 p.55: 90 percent renewable generation in 2040
+Jamaica,LTS,renewable_share,share of generation,2045,0.95,fraction,JAM-02,JAM-T051,Long-term strategy p.15 p.55: 95 percent renewable generation in 2045
+Jamaica,LTS,renewable_share,share of generation,2050,1.0,fraction,JAM-02,JAM-T052,Long-term strategy p.15 p.54 p.55: 100 percent renewable generation in 2050
