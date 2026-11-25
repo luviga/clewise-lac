@@ -1,0 +1,30 @@
+key,value,applies_to,description
+rel_tol,1e-6,all bound checks,relative tolerance: a bound fails only when it exceeds the limit by more than this share of the limit
+abs_tol,1e-7,all bound checks,absolute tolerance added to the relative one so that values near zero do not fail on float noise
+b1_compare_tol,1e-6,b1 point,relative tolerance when the parsed data file is compared with B1_Output_Params (the runners round on print)
+sum_tol,1e-3,S6,tolerance of the YearSplit sum and of the SpecifiedDemandProfile sum around 1
+no_limit_at_or_above,99999,R7 R8,a limit value at or above this is read as no limit (the defaults the runners declare are 99999 or 9999999999)
+propagation_max_rounds,100,P1 P2 P3 P4,most rounds of the limit propagation along the chain before it stops
+propagation_change,1e-9,P1 P2 P3 P4,the propagation stops when no bound moves by more than this share
+history_end_year_key,history_end_year,R4 X3,name of the controller value in config/scenarios/rules/stage_controller.csv that holds the last history year
+penalty_allowed_models,,R2,models (separated by |) allowed to carry a non-zero EmissionsPenalty; none today
+penalty_allowed_reason,,R2,reason for the models of penalty_allowed_models
+x1_emissions_columns,energy_emissions_kt,X1,result columns of results_summary.csv read as energy emissions
+x1_emissions_jump,0.15,X1,a year-to-year change of energy emissions above this share of the earlier year is reported
+x1_generation_prefix,gen_pj_,X1,prefix of the result columns read as generation by technology group
+x1_generation_jump,0.5,X1,a year-to-year change of generation of a group above this share is reported
+x1_generation_floor,1.0,X1,generation changes are reported only when the earlier or later value is at least this (PJ)
+x1_capacity_prefix,newcap_gw_,X1,prefix of the result columns read as capacity
+x1_capacity_jump,1.0,X1,a year-to-year change of new capacity of a group above this (GW) is reported
+x2_tolerance,0.005,X2,a loaded target is met when the result is within this absolute amount (share) or share of the target
+x3_tolerance,0.5,X3,history results of two scenarios are the same when they differ by at most this amount (result units)
+x3_columns,energy_emissions_kt|renewable_share,X3,result columns compared across scenarios in history years
+results_file,results_summary.csv,X1 X2 X3,file name of the extracted results in a job folder; the latest merged job that holds one is read
+register_scenario_difference,scenario_difference_register.csv,R5,file name of the register of inputs that differ between BAU and a policy scenario; the latest merged job that holds one is read
+register_value,value_register.csv,R1 R7,file name of the value registers of the merged job folders; every job folder that holds one is read
+register_published,published_values_loaded.csv,R6 X2,file name of the table of loaded published values; the latest merged job that holds one is read
+limit_parameters,TotalAnnualMaxCapacity|TotalAnnualMinCapacity|TotalAnnualMaxCapacityInvestment|TotalAnnualMinCapacityInvestment|TotalTechnologyAnnualActivityUpperLimit|TotalTechnologyAnnualActivityLowerLimit|TotalTechnologyModelPeriodActivityUpperLimit|TotalTechnologyModelPeriodActivityLowerLimit|ResidualCapacity|AnnualEmissionLimit|REMinProductionTarget,R7,parameters whose values need an origin
+stage3_patched_parameters,TotalTechnologyAnnualActivityLowerLimit|TotalTechnologyAnnualActivityUpperLimit|TotalAnnualMaxCapacity|TotalAnnualMinCapacity|TotalAnnualMaxCapacityInvestment|TotalAnnualMinCapacityInvestment|REMinProductionTarget|RETagTechnology|RETagFuel|ReserveMargin|ReserveMarginTagFuel|ReserveMarginTagTechnology|AnnualEmissionLimit,R7,parameters stage3_apply.py and stage3_emission_cap.py may write; a FINAL value that differs from the _0 file is credited to those scripts
+r1_value_tol,1e-3,R1,relative tolerance when a register value is looked up in the compiled file (registers keep the workbook digits)
+r1_conversion_marker,compiled to,R1,text of the register unit column that says the compiler converts the workbook value; such rows are not compared with the compiled file
+solver_abs_tol,1e-5,B P,a violation found by a bound check but no larger than this (absolute) is a WARN: GLPK accepts it within its feasibility tolerance (CR_AFOLU E5DEGDRY 2022 is short by 8e-6 and solves)
