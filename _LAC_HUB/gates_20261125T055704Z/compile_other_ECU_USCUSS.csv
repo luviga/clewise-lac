@@ -1,0 +1,5 @@
+model,scenario,data_file_written,data_file_mb,written_after_start,translation,rows,columns,check_seconds,model_seconds,steps
+ECU_USCUSS,BAU,yes,0.58,yes,translated,7663672,7632896,228.4,537.2,a2 exit 0 (40.5s); b1 exit 0 (496.4s)
+ECU_USCUSS,NDCINC,yes,0.58,yes,translated,7663702,7632926,229.0,537.2,a2 exit 0 (40.5s); b1 exit 0 (496.4s)
+ECU_USCUSS,NDCCON,yes,0.58,yes,translated,7663702,7632926,230.1,537.2,a2 exit 0 (40.5s); b1 exit 0 (496.4s)
+ECU_USCUSS,NDC,yes,0.58,yes,translated,7663702,7632926,148.6,537.2,a2 exit 0 (40.5s); b1 exit 0 (496.4s)

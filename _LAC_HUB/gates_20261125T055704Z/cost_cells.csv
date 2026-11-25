@@ -1,0 +1,23 @@
+model,scenario,cells_bau_zero_policy_nonzero,technologies,flagged_by_R5
+CR_IPPU,NDCincond,202,9,yes
+CR_IPPU,NDCcond,202,9,yes
+CR_IPPU,DCC,202,9,yes
+RD_AFOLU,NDCcond,75,3,yes
+RD_AFOLU,NDCincond,75,3,yes
+RD_IPPU,NDCincond,100,4,yes
+RD_IPPU,NDCcond,100,4,yes
+ECU_IPPU,NDCincond,175,7,yes
+ECU_IPPU,NDCcond,150,6,yes
+ECU_WASTE,NDCincond,50,2,yes
+ECU_WASTE,NDCcond,50,2,yes
+GUA_ENERGY,NDC,33,1,no: CapitalCost:TRANE6NOMOT
+GUA_ENERGY,LTS,33,1,no: CapitalCost:TRANE6NOMOT
+GUA_IPPU,NDP,100,4,yes
+GUA_IPPU,NDPhigh,52,4,yes
+GUA_IPPU,NDPlow,100,4,yes
+HON_AFOLU,NDP,60,5,yes
+HON_AFOLU,NDC,60,5,yes
+HON_IPPU,NDCincond,185,8,yes
+HON_IPPU,NDCcond,185,8,yes
+HON_WASTE,NDCincond,50,2,yes
+HON_WASTE,NDCcond,50,2,yes

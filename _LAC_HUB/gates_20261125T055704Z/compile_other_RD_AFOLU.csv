@@ -1,0 +1,4 @@
+model,scenario,data_file_written,data_file_mb,written_after_start,translation,rows,columns,check_seconds,model_seconds,steps
+RD_AFOLU,BAU,yes,0.58,yes,translated,11789033,11742115,271.3,704.7,a2 exit 0 (45.6s); b1 exit 0 (658.8s)
+RD_AFOLU,NDCcond,yes,0.57,yes,translated,11789125,11742148,269.7,704.7,a2 exit 0 (45.6s); b1 exit 0 (658.8s)
+RD_AFOLU,NDCincond,yes,0.57,yes,translated,11789125,11742148,223.1,704.7,a2 exit 0 (45.6s); b1 exit 0 (658.8s)
