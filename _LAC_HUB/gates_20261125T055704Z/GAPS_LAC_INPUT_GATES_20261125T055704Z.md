@@ -115,6 +115,11 @@
 
 ## Incidents
 
+- The clean-up step could not delete the temporary folder: the session's safety check refuses to remove a folder
+  at the root of the drive without a person approving it. The folder holds only copies (compiled data files,
+  replay copies, run logs) and is left for Luis to delete. PROGRESS and this note were corrected in a fourth
+  commit, since rewriting the third commit would have needed a force push.
+
 - The background compile started ECU_USCUSS's A2 seconds before its compiler was fixed; ECU_USCUSS was compiled
   again after the fix and the files of that second compile are the committed ones.
 - The first trial compile of HON_WASTE hung: the runner waited forever for the solution file. The hung processes

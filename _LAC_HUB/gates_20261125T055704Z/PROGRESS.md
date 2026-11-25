@@ -19,4 +19,4 @@ the brief names.
 | 7 Run on main | done | scripts/run_main.py: gate_results.csv, gate_summary.csv, provenance.csv, run_times.json |
 | 8 Protocol | done | FEASIBILITY_PROTOCOL.md and three lines in PIPELINE_WORKFLOW.md |
 | 9 Gates | done | see REPORT section 11 |
-| 10 Pull request | see REPORT | three commits, draft pull request, temporary folder deleted |
+| 10 Pull request | done | three commits and this record fix, draft pull request #20; the temporary folder could not be deleted from this session (see GAPS, incidents) |
