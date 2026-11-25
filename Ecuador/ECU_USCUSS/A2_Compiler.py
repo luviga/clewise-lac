@@ -1033,12 +1033,21 @@ for d in range(len(list_dicts)):
     os.makedirs('./A2_Output_Params/' + other_setup_params[ 'Main_Scenario' ], exist_ok=True)
     df_to_print.to_csv('./A2_Output_Params/' + other_setup_params[ 'Main_Scenario' ] + '/' + list_dicts[d] + '.csv', index=False, header=True)
 #
+# LAC_INPUT_GATES: the policy tables go to every policy scenario the B1 configuration activates (sheet Scenarios
+# of B1_Scenario_Config.xlsx), not only to Other_Scenarios; NDC and NDCCON were never regenerated before and kept
+# tables older than the workbooks.
+scenario_sheet = pd.read_excel('./B1_Scenario_Config.xlsx', sheet_name='Scenarios')
+policy_scenarios = [ str(r) for r, a, b in zip(scenario_sheet['Reference'], scenario_sheet['Activated'], scenario_sheet['Base'])
+                     if str(a).strip().upper() == 'YES' and str(b).strip().upper() != 'YES' ]
+if other_setup_params[ 'Other_Scenarios' ] not in policy_scenarios:
+    policy_scenarios.append(other_setup_params[ 'Other_Scenarios' ])
 list_dicts = list(overall_param_df_dict_ndp.keys())
 for d in range(len(list_dicts)):
-    df_to_print = overall_param_df_dict_ndp[ list_dicts[d] ]
-    df_to_print = df_to_print.replace({ 'Scenario':{ other_setup_params[ 'Main_Scenario' ]:other_setup_params[ 'Other_Scenarios' ] } })
-    os.makedirs('./A2_Output_Params/' + other_setup_params[ 'Other_Scenarios' ], exist_ok=True)
-    df_to_print.to_csv('./A2_Output_Params/' + other_setup_params[ 'Other_Scenarios' ] + '/' + list_dicts[d] + '.csv', index=False, header=True)
+    for policy_scenario in policy_scenarios:
+        df_to_print = overall_param_df_dict_ndp[ list_dicts[d] ]
+        df_to_print = df_to_print.replace({ 'Scenario':{ other_setup_params[ 'Main_Scenario' ]:policy_scenario } })
+        os.makedirs('./A2_Output_Params/' + policy_scenario, exist_ok=True)
+        df_to_print.to_csv('./A2_Output_Params/' + policy_scenario + '/' + list_dicts[d] + '.csv', index=False, header=True)
 #
 end_2 = time.time()   
 time_elapsed_2 = -start1 + end_2
